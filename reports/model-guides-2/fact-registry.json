@@ -8373,7 +8373,7 @@
       "FactID": "MG2-epiphone-deluxe-value-guide-013",
       "page": "epiphone-deluxe-value-guide",
       "section": "values",
-      "approvedWording": "De Luxe1931 to 1935Sunburst$8,700 to $13,050",
+      "approvedWording": "De Luxe1931 to 1935Sunburst; 1935 crossover needs appraisal$8,700 to $13,050",
       "Authority": [
         "2026 Vintage Guitar Price Guide, individual public-row trace in value-chart-check.json",
         "https://jedistar.com/images/2024_May/BlueBookElectricSerialization.pdf",
@@ -8406,7 +8406,7 @@
       "FactID": "MG2-epiphone-deluxe-value-guide-014",
       "page": "epiphone-deluxe-value-guide",
       "section": "values",
-      "approvedWording": "De Luxe1935 to 1944Sunburst$7,100 to $10,700",
+      "approvedWording": "De Luxe1935 to 1944Sunburst; 1935 crossover needs appraisal$7,100 to $10,700",
       "Authority": [
         "2026 Vintage Guitar Price Guide, individual public-row trace in value-chart-check.json",
         "https://jedistar.com/images/2024_May/BlueBookElectricSerialization.pdf",
@@ -9165,7 +9165,7 @@
       "FactID": "MG2-epiphone-deluxe-value-guide-037",
       "page": "epiphone-deluxe-value-guide",
       "section": "values",
-      "approvedWording": "The 1935 acoustic year appears in two ranges, so that date alone cannot select one; check the body size and construction before requesting an estimate. The later cutaway electric ranges overlap under De Luxe Electric and Zephyr De Luxe Regent names, without enough information to select a dependable comparison. Those 1950s cutaway entries are omitted instead of presenting two competing estimates for the same guitar. Send the pickup layout, full label, body depth and any repair history for an individual appraisal. The earlier Zephyr rows do not supply a substitute price for a later instrument.",
+      "approvedWording": "The 1935 acoustic year appears in two ranges. Documented body widths change from 16⅜ inches in the early design to 17⅜ inches by 1935. Measure the lower bout and send the construction details for an individual estimate at that crossover; the overlapping year alone cannot select either range. The later cutaway electric ranges overlap under De Luxe Electric and Zephyr De Luxe Regent names, without enough information to select a dependable comparison. Those 1950s cutaway entries are omitted instead of presenting two competing estimates for the same guitar. Send the pickup layout, full label, body depth and any repair history for an individual appraisal. The earlier Zephyr rows do not supply a substitute price for a later instrument.",
       "Authority": [
         "2026 Vintage Guitar Price Guide, individual public-row trace in value-chart-check.json",
         "https://jedistar.com/images/2024_May/BlueBookElectricSerialization.pdf",
@@ -13050,7 +13050,7 @@
       "FactID": "MG2-epiphone-emperor-value-guide-013",
       "page": "epiphone-emperor-value-guide",
       "section": "values",
-      "approvedWording": "Emperor Acoustic1935 to 1939Natural$8,500 to $12,750",
+      "approvedWording": "Emperor Acoustic1935 to 1939Natural; documented finish option by 1938$8,500 to $12,750",
       "Authority": [
         "2026 Vintage Guitar Price Guide, individual public-row trace in value-chart-check.json",
         "https://jedistar.com/images/2024_May/BlueBookElectricSerialization.pdf",
@@ -13560,7 +13560,7 @@
       "FactID": "MG2-epiphone-emperor-value-guide-028",
       "page": "epiphone-emperor-value-guide",
       "section": "values",
-      "approvedWording": "Read the configuration column before the dollar column. Natural and sunburst finishes have separate rows where shown, and an acoustic cutaway has its own range. A pickup fitted to an acoustic guitar doesn’t make it a factory electric Emperor. Establish whether the top was built for installed pickups, whether the controls belong to that version and whether the finish remains original.",
+      "approvedWording": "Read the configuration column before the dollar column. The earliest natural-finish row is a 1935 to 1939 pricing bracket, not a claim that the finish was available in every year: documented examples establish the blond option by 1938. Natural and sunburst finishes have separate rows where shown, and an acoustic cutaway has its own range. A pickup fitted to an acoustic guitar doesn’t make it a factory electric Emperor. Establish whether the top was built for installed pickups, whether the controls belong to that version and whether the finish remains original.",
       "Authority": [
         "2026 Vintage Guitar Price Guide, individual public-row trace in value-chart-check.json",
         "https://jedistar.com/images/2024_May/BlueBookElectricSerialization.pdf",
@@ -16694,8 +16694,8 @@
     {
       "FactID": "MG2-epiphone-emperor-authentication-guide-060",
       "page": "epiphone-emperor-authentication-guide",
-      "section": "later",
-      "approvedWording": "Joe’s archive identifies this guitar as a 1981 Japanese Emperor. Its two full-size humbuckers and later manufacturing context place it outside the American models covered here. The familiar sunburst finish and ornate appointments do not move it into a New York or Kalamazoo category.",
+      "section": "inspection",
+      "approvedWording": "Send the body views, label, serial and hardware details for a free appraisal. The Emperor value guide is the next step after the version is established. Use Sell My Epiphone when you want to discuss an offer.",
       "Authority": [
         "https://jedistar.com/images/2024_May/BlueBookElectricSerialization.pdf",
         "https://wiedler.ch/nyepireg/docs/1950_Acoustic.pdf",
@@ -16732,7 +16732,7 @@
       "FactID": "MG2-epiphone-emperor-authentication-guide-061",
       "page": "epiphone-emperor-authentication-guide",
       "section": "later",
-      "approvedWording": "1981 Japanese Epiphone Emperor. Import comparison only: sunburst body with two full-size humbuckers. Photo from Joe’s archive.",
+      "approvedWording": "Joe’s archive identifies this guitar as a 1981 Japanese Emperor. Its two full-size humbuckers and later manufacturing context place it outside the American models covered here. The familiar sunburst finish and ornate appointments do not move it into a New York or Kalamazoo category.",
       "Authority": [
         "https://jedistar.com/images/2024_May/BlueBookElectricSerialization.pdf",
         "https://wiedler.ch/nyepireg/docs/1950_Acoustic.pdf",
@@ -16769,7 +16769,7 @@
       "FactID": "MG2-epiphone-emperor-authentication-guide-062",
       "page": "epiphone-emperor-authentication-guide",
       "section": "later",
-      "approvedWording": "1981 Japanese Epiphone Emperor. Import comparison only: rear headstock and tuners. Photo from Joe’s archive.",
+      "approvedWording": "1981 Japanese Epiphone Emperor. Import comparison only: sunburst body with two full-size humbuckers. Photo from Joe’s archive.",
       "Authority": [
         "https://jedistar.com/images/2024_May/BlueBookElectricSerialization.pdf",
         "https://wiedler.ch/nyepireg/docs/1950_Acoustic.pdf",
@@ -16806,7 +16806,7 @@
       "FactID": "MG2-epiphone-emperor-authentication-guide-063",
       "page": "epiphone-emperor-authentication-guide",
       "section": "later",
-      "approvedWording": "Later Japanese, Korean and Chinese Emperors, Elitist instruments and signature models need their own production identification. A historical name or recreated inlay pattern is not a manufacturing date. Use the full label, country marking, serial system and original paperwork to establish which later series is present. Do not treat an imported Emperor as a counterfeit merely because it is outside this guide’s scope.",
+      "approvedWording": "1981 Japanese Epiphone Emperor. Import comparison only: rear headstock and tuners. Photo from Joe’s archive.",
       "Authority": [
         "https://jedistar.com/images/2024_May/BlueBookElectricSerialization.pdf",
         "https://wiedler.ch/nyepireg/docs/1950_Acoustic.pdf",
@@ -16843,7 +16843,7 @@
       "FactID": "MG2-epiphone-emperor-authentication-guide-064",
       "page": "epiphone-emperor-authentication-guide",
       "section": "later",
-      "approvedWording": "For an American example with repairs, list the repairs independently of model authenticity. The condition guide explains the valuation consequences. An identifiable Emperor may have changed pickups, a new bridge or repaired binding; none should disappear behind an unqualified “all original” description.",
+      "approvedWording": "Later Japanese, Korean and Chinese Emperors, Elitist instruments and signature models need their own production identification. A historical name or recreated inlay pattern is not a manufacturing date. Use the full label, country marking, serial system and original paperwork to establish which later series is present. Do not treat an imported Emperor as a counterfeit merely because it is outside this guide’s scope.",
       "Authority": [
         "https://jedistar.com/images/2024_May/BlueBookElectricSerialization.pdf",
         "https://wiedler.ch/nyepireg/docs/1950_Acoustic.pdf",
@@ -16880,7 +16880,7 @@
       "FactID": "MG2-epiphone-emperor-authentication-guide-065",
       "page": "epiphone-emperor-authentication-guide",
       "section": "later",
-      "approvedWording": "Send the body views, label, serial and hardware details for a free appraisal. The Emperor value guide is the next step after the version is established. Use Sell My Epiphone when you want to discuss an offer.",
+      "approvedWording": "For an American example with repairs, list the repairs independently of model authenticity. The condition guide explains the valuation consequences. An identifiable Emperor may have changed pickups, a new bridge or repaired binding; none should disappear behind an unqualified “all original” description.",
       "Authority": [
         "https://jedistar.com/images/2024_May/BlueBookElectricSerialization.pdf",
         "https://wiedler.ch/nyepireg/docs/1950_Acoustic.pdf",
@@ -17376,7 +17376,7 @@
       "FactID": "MG2-epiphone-olympic-value-guide-012",
       "page": "epiphone-olympic-value-guide",
       "section": "values",
-      "approvedWording": "Olympic Acoustic1931 to 1936Smaller archtop body$2,200 to $3,050",
+      "approvedWording": "Olympic Acoustic1931 to 1936Acoustic; 1936 body-size crossover needs appraisal$2,200 to $3,050",
       "Authority": [
         "2026 Vintage Guitar Price Guide, individual public-row trace in value-chart-check.json",
         "https://acousticmusic.org/wp-content/uploads/2016/02/Epiphone-1934-Catalog.pdf",
@@ -17411,7 +17411,7 @@
       "FactID": "MG2-epiphone-olympic-value-guide-013",
       "page": "epiphone-olympic-value-guide",
       "section": "values",
-      "approvedWording": "Olympic Acoustic1937 to 1939Larger archtop body$1,700 to $2,600",
+      "approvedWording": "Olympic Acoustic1937 to 1939Acoustic; later pricing group$1,700 to $2,600",
       "Authority": [
         "2026 Vintage Guitar Price Guide, individual public-row trace in value-chart-check.json",
         "https://acousticmusic.org/wp-content/uploads/2016/02/Epiphone-1934-Catalog.pdf",
@@ -17446,7 +17446,7 @@
       "FactID": "MG2-epiphone-olympic-value-guide-014",
       "page": "epiphone-olympic-value-guide",
       "section": "values",
-      "approvedWording": "Olympic Acoustic1940 to 1949Archtop$1,700 to $2,550",
+      "approvedWording": "Olympic Acoustic1940 to 1949Archtop; documented production ends in 1944$1,700 to $2,550",
       "Authority": [
         "2026 Vintage Guitar Price Guide, individual public-row trace in value-chart-check.json",
         "https://acousticmusic.org/wp-content/uploads/2016/02/Epiphone-1934-Catalog.pdf",
@@ -17481,7 +17481,7 @@
       "FactID": "MG2-epiphone-olympic-value-guide-015",
       "page": "epiphone-olympic-value-guide",
       "section": "values",
-      "approvedWording": "Olympic Tenor1937 to 1949Four-string archtop$1,300 to $2,200",
+      "approvedWording": "Olympic Tenor1937 to 1949Four-string archtop; pricing group extends beyond production$1,300 to $2,200",
       "Authority": [
         "2026 Vintage Guitar Price Guide, individual public-row trace in value-chart-check.json",
         "https://acousticmusic.org/wp-content/uploads/2016/02/Epiphone-1934-Catalog.pdf",
@@ -17866,7 +17866,7 @@
       "FactID": "MG2-epiphone-olympic-value-guide-026",
       "page": "epiphone-olympic-value-guide",
       "section": "values",
-      "approvedWording": "The acoustic rows lead the chart, followed by the Kalamazoo electrics. The 1940 to 1949 six-string and 1937 to 1949 tenor ranges are pricing categories, not independent proof of manufacture through 1949. The authentication guide explains the earlier end found in documented-instrument research. “Single” and “Double” describe pickup count in the electric family; the configuration column separately describes the cutaway. An Olympic Double doesn’t simply mean any Olympic with two cutaways. Keep those two uses of “double” separate when choosing a range.",
+      "approvedWording": "The acoustic rows lead the chart, followed by the Kalamazoo electrics. Documented acoustic body widths progress from 13⅝ inches in 1931 to 14¾ inches in 1935 and 15¼ inches by 1936. A large-body 1936 example needs individual appraisal; the early pricing bracket does not make it a smaller-body guitar. The 1940 to 1949 six-string and 1937 to 1949 tenor ranges are pricing categories, not independent proof of manufacture through 1949. The authentication guide explains the earlier end found in documented-instrument research. “Single” and “Double” describe pickup count in the electric family; the configuration column separately describes the cutaway. An Olympic Double doesn’t simply mean any Olympic with two cutaways. Keep those two uses of “double” separate when choosing a range.",
       "Authority": [
         "2026 Vintage Guitar Price Guide, individual public-row trace in value-chart-check.json",
         "https://acousticmusic.org/wp-content/uploads/2016/02/Epiphone-1934-Catalog.pdf",

@@ -382,7 +382,7 @@
       "family": "epiphone-deluxe",
       "model": "De Luxe",
       "years": "1931 to 1935",
-      "configuration": "Sunburst",
+      "configuration": "Sunburst; 1935 crossover needs appraisal",
       "edition": 2026,
       "page": 82,
       "baselineRow": 23,
@@ -393,13 +393,19 @@
       "rounding": "nearest USD 50",
       "lowMathVerified": true,
       "highMathVerified": true,
-      "assignmentUnchanged": true
+      "assignmentUnchanged": true,
+      "descriptorCorrection": {
+        "original": "Sunburst",
+        "reason": "Distinguish inherited pricing brackets from documented construction/finish dates. No price or frozen assignment changed.",
+        "source": "https://wiedler.ch/nyepireg/models.html",
+        "verified": "2026-10-30"
+      }
     },
     {
       "family": "epiphone-deluxe",
       "model": "De Luxe",
       "years": "1935 to 1944",
-      "configuration": "Sunburst",
+      "configuration": "Sunburst; 1935 crossover needs appraisal",
       "edition": 2026,
       "page": 82,
       "baselineRow": 24,
@@ -410,7 +416,13 @@
       "rounding": "nearest USD 50",
       "lowMathVerified": true,
       "highMathVerified": true,
-      "assignmentUnchanged": true
+      "assignmentUnchanged": true,
+      "descriptorCorrection": {
+        "original": "Sunburst",
+        "reason": "Distinguish inherited pricing brackets from documented construction/finish dates. No price or frozen assignment changed.",
+        "source": "https://wiedler.ch/nyepireg/models.html",
+        "verified": "2026-10-30"
+      }
     },
     {
       "family": "epiphone-deluxe",
@@ -620,7 +632,7 @@
       "family": "epiphone-emperor",
       "model": "Emperor Acoustic",
       "years": "1935 to 1939",
-      "configuration": "Natural",
+      "configuration": "Natural; documented finish option by 1938",
       "edition": 2026,
       "page": 83,
       "baselineRow": 39,
@@ -631,7 +643,13 @@
       "rounding": "nearest USD 50",
       "lowMathVerified": true,
       "highMathVerified": true,
-      "assignmentUnchanged": true
+      "assignmentUnchanged": true,
+      "descriptorCorrection": {
+        "original": "Natural",
+        "reason": "Distinguish inherited pricing brackets from documented construction/finish dates. No price or frozen assignment changed.",
+        "source": "https://wiedler.ch/nyepireg/models.html",
+        "verified": "2026-10-30"
+      }
     },
     {
       "family": "epiphone-emperor",
@@ -858,7 +876,7 @@
       "family": "epiphone-olympic",
       "model": "Olympic Acoustic",
       "years": "1931 to 1936",
-      "configuration": "Smaller archtop body",
+      "configuration": "Acoustic; 1936 body-size crossover needs appraisal",
       "edition": 2026,
       "page": 87,
       "baselineRow": 54,
@@ -869,13 +887,19 @@
       "rounding": "nearest USD 50",
       "lowMathVerified": true,
       "highMathVerified": true,
-      "assignmentUnchanged": true
+      "assignmentUnchanged": true,
+      "descriptorCorrection": {
+        "original": "Smaller archtop body",
+        "reason": "Distinguish inherited pricing brackets from documented construction/finish dates. No price or frozen assignment changed.",
+        "source": "https://wiedler.ch/nyepireg/models.html",
+        "verified": "2026-10-30"
+      }
     },
     {
       "family": "epiphone-olympic",
       "model": "Olympic Acoustic",
       "years": "1937 to 1939",
-      "configuration": "Larger archtop body",
+      "configuration": "Acoustic; later pricing group",
       "edition": 2026,
       "page": 87,
       "baselineRow": 55,
@@ -886,13 +910,19 @@
       "rounding": "nearest USD 50",
       "lowMathVerified": true,
       "highMathVerified": true,
-      "assignmentUnchanged": true
+      "assignmentUnchanged": true,
+      "descriptorCorrection": {
+        "original": "Larger archtop body",
+        "reason": "Distinguish inherited pricing brackets from documented construction/finish dates. No price or frozen assignment changed.",
+        "source": "https://wiedler.ch/nyepireg/models.html",
+        "verified": "2026-10-30"
+      }
     },
     {
       "family": "epiphone-olympic",
       "model": "Olympic Acoustic",
       "years": "1940 to 1949",
-      "configuration": "Archtop",
+      "configuration": "Archtop; documented production ends in 1944",
       "edition": 2026,
       "page": 87,
       "baselineRow": 56,
@@ -903,13 +933,19 @@
       "rounding": "nearest USD 50",
       "lowMathVerified": true,
       "highMathVerified": true,
-      "assignmentUnchanged": true
+      "assignmentUnchanged": true,
+      "descriptorCorrection": {
+        "original": "Archtop",
+        "reason": "Distinguish inherited pricing brackets from documented construction/finish dates. No price or frozen assignment changed.",
+        "source": "https://wiedler.ch/nyepireg/models.html",
+        "verified": "2026-10-30"
+      }
     },
     {
       "family": "epiphone-olympic",
       "model": "Olympic Tenor",
       "years": "1937 to 1949",
-      "configuration": "Four-string archtop",
+      "configuration": "Four-string archtop; pricing group extends beyond production",
       "edition": 2026,
       "page": 87,
       "baselineRow": 57,
@@ -920,7 +956,13 @@
       "rounding": "nearest USD 50",
       "lowMathVerified": true,
       "highMathVerified": true,
-      "assignmentUnchanged": true
+      "assignmentUnchanged": true,
+      "descriptorCorrection": {
+        "original": "Four-string archtop",
+        "reason": "Distinguish inherited pricing brackets from documented construction/finish dates. No price or frozen assignment changed.",
+        "source": "https://wiedler.ch/nyepireg/models.html",
+        "verified": "2026-10-30"
+      }
     },
     {
       "family": "epiphone-olympic",

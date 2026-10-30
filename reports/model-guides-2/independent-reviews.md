@@ -19,6 +19,7 @@ Two cold Final Read agents read all 19 built pages, using only the final-reader 
 | Olympic 84467 uncertainty was unexplained | Named the house chart's candidate years, 1962/1963/1964, without claiming a precise photo-derived year. |
 | Valuation date and basis unclear | Added October 2026, reference-guide basis, condition assumptions and the distinction from completed-sale averages. Exact source/edition/method are in the PR report; no external citations added to public value pages. |
 | Casino “because From 1961” typo | Corrected. |
+| Zephyr sent readers to Emperor Regent price rows that had been withheld | Corrected the FAQ and body links to explain the omitted electric groups and individual-appraisal requirement. |
 
 ## Editorial Findings Retained For Joe
 
@@ -29,3 +30,11 @@ The readers asked to name the pricing publication and adjustment on value pages 
 The Casino brief explicitly says no Kalamazoo photos are on record and to use labeled comparisons. Drive searches also did not produce verified Sorrento/Windsor originals or a high-resolution Broadway. These remain declared comparison/quality limits, not disguised as exact-model photographic evidence. External catalog illustrations and dealer images were not added because the authorized photo source is Joe's Drive. The original catalog sources remain linked in authentication references.
 
 The optional SME questions request genuine appraisal experience and missing policy details. Their answers can improve a later revision without fabricating evidence now. The independent critique remains available as context for Joe's decision; publication still needs his specific approval.
+
+## Final Zephyr Cold Read
+
+A new reader, given only the final page and search query, reviewed the corrected Zephyr value page. It established no remaining glaring factual error and retained **FIX FIRST** for editorial credibility and firsthand-example improvements. Its report and author disposition are in [zephyr-value__final-read.md](zephyr-value__final-read.md). The requested public pricing citation conflicts with the explicit brief; an archive appraisal story cannot be supplied without Joe's evidence. No editorial SHIP verdict is substituted for that judgment.
+
+## Six-Page Targeted Read
+
+The [six-page report](targeted-final-read.md) returned **SHIP** for Olympic authentication and **FIX FIRST** for Emperor, DeLuxe, Olympic and Zephyr value, plus Windsor authentication. Beyond the subsequently corrected Zephyr cross-reference, it identified table descriptors that could be mistaken for production evidence. The final table header is “Pricing Year Group.” Seven cells now qualify the Olympic size/date crossover, Emperor natural-finish timing and overlapping 1935 DeLuxe groups; the explanations supply documented dimensions. Every dollar endpoint and frozen assignment is unchanged. The fact-source reading was independently checked against the instrument registry.

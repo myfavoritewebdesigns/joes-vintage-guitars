@@ -1,7 +1,7 @@
-15:55:13 [content] Syncing content
-15:55:13 [content] Synced content
-15:55:13 [types] Generated 1.40s
-15:55:13 [check] Getting diagnostics for Astro files in C:\Users\joeda\Documents\Codex\2026-10-29\files-pasted-by-the-user-codex\work\joes-vintage-guitars...
+16:25:00 [content] Syncing content
+16:25:00 [content] Synced content
+16:25:00 [types] Generated 857ms
+16:25:00 [check] Getting diagnostics for Astro files in C:\Users\joeda\Documents\Codex\2026-10-29\files-pasted-by-the-user-codex\work\joes-vintage-guitars...
 [96mpublic/scripts/fsn-tool.js[0m:[93m7[0m:[93m7[0m - [93mwarning[0m[90m ts(6133): [0m'NUMERIC_RANGES' is declared but its value is never read.
 
 [7m7[0m   var NUMERIC_RANGES = [
@@ -523,6 +523,32 @@ Add the `is:inline` directive explicitly to silence this hint.
 [7m15[0m  return {title:$('title').text(),description:$('meta[name="description"]').attr('content'),canonical:$('link[rel="canonical"]').attr('href'),robots:$('meta[name="robots"]').attr('content')||'',h1:article.find('h1').text(),articleTextHash:hash(clean(text.text())),hero:article.find('.mg-hero-grid img').attr('src'),images:article.find('img').map((i,e)=>$(e).attr('src')).get(),tableHash:hash(clean(article.find('table').text())),faqCount:article.find('#faq details').length,og:$('meta[property="og:image"]').attr('content')};
 [7m  [0m [93m                                                                                                                                                                                                                                                                                                                                                          ~[0m
 
+[96mwork/model-guides-2/check-preview.mjs[0m:[93m13[0m:[93m34[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m13[0m  $('link[rel=stylesheet]').each((i,e)=>{const href=$(e).attr('href');if(href?.startsWith('/'))assets.add(href);});
+[7m  [0m [93m                                 ~[0m
+[96mwork/model-guides-2/check-preview.mjs[0m:[93m12[0m:[93m51[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m12[0m  $('article.mg-guide img,.epi-selling img').each((i,e)=>{const src=$(e).attr('src');if(src?.startsWith('/'))assets.add(src);});
+[7m  [0m [93m                                                  ~[0m
+
+[96mwork/model-guides-2/final-report.cjs[0m:[93m25[0m:[93m306[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m25[0m md+='| ['+esc(s.title)+']('+base+'/sell-my-epiphone-guitar/) | '+s.titleLength+' / '+s.descriptionLength+' | '+sw+' (seller copy, excluding forms) | '+$('.epi-selling h2').map((i,e)=>esc($(e).text())).get().join('<br>')+' | '+$('.epi-selling img').length+' rendered views:<br>'+$('.epi-selling img').map((i,e)=>esc($(e).attr('alt')||'Decorative')).get().join('<br>')+' | '+s.inbound.length+' total source URLs; existing entry points: sitemap, Sheraton, Crestwood, brand guide, collection seller and Gibson seller; plus all 18 new guides. | No twin | Get An Epiphone Offer → `#appraisal` |\n';
+[7m  [0m [93m                                                                                                                                                                                                                                                                                                                 ~[0m
+[96mwork/model-guides-2/final-report.cjs[0m:[93m25[0m:[93m178[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m25[0m md+='| ['+esc(s.title)+']('+base+'/sell-my-epiphone-guitar/) | '+s.titleLength+' / '+s.descriptionLength+' | '+sw+' (seller copy, excluding forms) | '+$('.epi-selling h2').map((i,e)=>esc($(e).text())).get().join('<br>')+' | '+$('.epi-selling img').length+' rendered views:<br>'+$('.epi-selling img').map((i,e)=>esc($(e).attr('alt')||'Decorative')).get().join('<br>')+' | '+s.inbound.length+' total source URLs; existing entry points: sitemap, Sheraton, Crestwood, brand guide, collection seller and Gibson seller; plus all 18 new guides. | No twin | Get An Epiphone Offer → `#appraisal` |\n';
+[7m  [0m [93m                                                                                                                                                                                 ~[0m
+[96mwork/model-guides-2/final-report.cjs[0m:[93m16[0m:[93m96[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m16[0m  const photos=$('article.mg-guide img').filter((i,e)=>!$(e).closest('.mg-author').length).map((i,e)=>$(e).attr('alt')||'').get();
+[7m  [0m [93m                                                                                               ~[0m
+[96mwork/model-guides-2/final-report.cjs[0m:[93m16[0m:[93m49[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
+
+[7m16[0m  const photos=$('article.mg-guide img').filter((i,e)=>!$(e).closest('.mg-author').length).map((i,e)=>$(e).attr('alt')||'').get();
+[7m  [0m [93m                                                ~[0m
+
 [96mwork/model-guides-2/prepare-reports.cjs[0m:[93m43[0m:[93m62[0m - [93mwarning[0m[90m ts(6133): [0m'i' is declared but its value is never read.
 
 [7m43[0m  let errors=[];$('script[type="application/ld+json"]').each((i,e)=>{try{walk(JSON.parse($(e).text()));}catch(err){errors.push(String(err));}});
@@ -558,7 +584,7 @@ Add the `is:inline` directive explicitly to silence this hint.
 [7m9[0m s=s.replace(/range\('emperor',(\d+)\)/g,(m,n)=>{if(excluded['epiphone-emperor'].has(+n))throw Error('Withheld inline reference '+n);return "range('emperor',"+(+n>9?+n-1:+n)+')';});
 [7m [0m [93m                                         ~[0m
 
-Result (459 files):
+Result (468 files):
 - 0 errors
 - 0 warnings
-- 124 hints
+- 130 hints

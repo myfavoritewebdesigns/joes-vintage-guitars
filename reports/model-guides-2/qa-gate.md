@@ -25,4 +25,4 @@ Mode: NEW ARTICLE (18 blogs and one seller landing page). Client: Joe's Vintage 
 
 QA_GATE 17 states: “A missing kind is a FAIL ... unless Josh or the account manager approved writing without it.” This existing data-floor exception must be reviewed with the preview. The user's explicit research, layout, pricing and comparison-photo instructions take precedence over generic conflicting writing rules.
 
-**Production remains unapproved.** Supply/approve the canonical-context exception and obtain Joe's specific Batch 2 preview approval before merge. No Batch 3 work is authorized yet.
+**Production remains unapproved.** Joe's explicit research brief authorizes this preview work despite the incomplete generic writing-context package. Record that limitation rather than inventing another approval workflow. Obtain Joe's specific Batch 2 preview approval before merge, as his brief requires. No Batch 3 work is authorized yet.

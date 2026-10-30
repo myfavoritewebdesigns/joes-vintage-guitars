@@ -179,7 +179,7 @@
     "family": "epiphone-deluxe",
     "model": "De Luxe",
     "years": "1931 to 1935",
-    "configuration": "Sunburst",
+    "configuration": "Sunburst; 1935 crossover needs appraisal",
     "low": 8700,
     "high": 13050
   },
@@ -187,7 +187,7 @@
     "family": "epiphone-deluxe",
     "model": "De Luxe",
     "years": "1935 to 1944",
-    "configuration": "Sunburst",
+    "configuration": "Sunburst; 1935 crossover needs appraisal",
     "low": 7100,
     "high": 10700
   },
@@ -291,7 +291,7 @@
     "family": "epiphone-emperor",
     "model": "Emperor Acoustic",
     "years": "1935 to 1939",
-    "configuration": "Natural",
+    "configuration": "Natural; documented finish option by 1938",
     "low": 8500,
     "high": 12750
   },
@@ -403,7 +403,7 @@
     "family": "epiphone-olympic",
     "model": "Olympic Acoustic",
     "years": "1931 to 1936",
-    "configuration": "Smaller archtop body",
+    "configuration": "Acoustic; 1936 body-size crossover needs appraisal",
     "low": 2200,
     "high": 3050
   },
@@ -411,7 +411,7 @@
     "family": "epiphone-olympic",
     "model": "Olympic Acoustic",
     "years": "1937 to 1939",
-    "configuration": "Larger archtop body",
+    "configuration": "Acoustic; later pricing group",
     "low": 1700,
     "high": 2600
   },
@@ -419,7 +419,7 @@
     "family": "epiphone-olympic",
     "model": "Olympic Acoustic",
     "years": "1940 to 1949",
-    "configuration": "Archtop",
+    "configuration": "Archtop; documented production ends in 1944",
     "low": 1700,
     "high": 2550
   },
@@ -427,7 +427,7 @@
     "family": "epiphone-olympic",
     "model": "Olympic Tenor",
     "years": "1937 to 1949",
-    "configuration": "Four-string archtop",
+    "configuration": "Four-string archtop; pricing group extends beyond production",
     "low": 1300,
     "high": 2200
   },

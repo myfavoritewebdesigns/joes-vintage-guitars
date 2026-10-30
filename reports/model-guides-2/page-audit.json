@@ -221,7 +221,7 @@
       "titleLength": 58,
       "description": "Compare American Epiphone DeLuxe, Regent and Zephyr De Luxe prices, including Kalamazoo acoustic cutaways, with notes on finish, repairs and originality.",
       "descriptionLength": 153,
-      "bodyWordsExcludingHeroNavigationTablesFaqReferencesAuthor": 1478,
+      "bodyWordsExcludingHeroNavigationTablesFaqReferencesAuthor": 1501,
       "h2": [
         "DeLuxe Prices By Body And Electrical Configuration",
         "How New York Acoustic DeLuxes Compare",
@@ -265,7 +265,7 @@
       ],
       "sellLabel": "Sell My Epiphone",
       "sellHref": "/sell-my-epiphone-guitar/",
-      "twinOverlapPercent": 1.31
+      "twinOverlapPercent": 1.29
     },
     {
       "slug": "epiphone-deluxe-authentication-guide",
@@ -323,7 +323,7 @@
       ],
       "sellLabel": "Sell My Epiphone",
       "sellHref": "/sell-my-epiphone-guitar/",
-      "twinOverlapPercent": 1.31
+      "twinOverlapPercent": 1.29
     },
     {
       "slug": "epiphone-emperor-value-guide",
@@ -331,7 +331,7 @@
       "titleLength": 53,
       "description": "Find American Epiphone Emperor values for acoustic, Regent and electric models, with condition advice and separate Kalamazoo thinline price ranges.",
       "descriptionLength": 147,
-      "bodyWordsExcludingHeroNavigationTablesFaqReferencesAuthor": 1440,
+      "bodyWordsExcludingHeroNavigationTablesFaqReferencesAuthor": 1470,
       "h2": [
         "Emperor Prices By Construction And Era",
         "What Changes An Acoustic Emperor’s Value",
@@ -374,7 +374,7 @@
       ],
       "sellLabel": "Sell My Epiphone",
       "sellHref": "/sell-my-epiphone-guitar/",
-      "twinOverlapPercent": 1.46
+      "twinOverlapPercent": 1.44
     },
     {
       "slug": "epiphone-emperor-authentication-guide",
@@ -431,7 +431,7 @@
       ],
       "sellLabel": "Sell My Epiphone",
       "sellHref": "/sell-my-epiphone-guitar/",
-      "twinOverlapPercent": 1.46
+      "twinOverlapPercent": 1.44
     },
     {
       "slug": "epiphone-olympic-value-guide",
@@ -439,7 +439,7 @@
       "titleLength": 59,
       "description": "Find Epiphone Olympic values for New York acoustics and Kalamazoo solidbodies, including Single, Double, short-scale and Special models with repair notes.",
       "descriptionLength": 154,
-      "bodyWordsExcludingHeroNavigationTablesFaqReferencesAuthor": 1484,
+      "bodyWordsExcludingHeroNavigationTablesFaqReferencesAuthor": 1522,
       "h2": [
         "Olympic Prices By Instrument Type",
         "Value The New York Acoustic On Its Own Terms",
@@ -482,7 +482,7 @@
       ],
       "sellLabel": "Sell My Epiphone",
       "sellHref": "/sell-my-epiphone-guitar/",
-      "twinOverlapPercent": 1.78
+      "twinOverlapPercent": 1.73
     },
     {
       "slug": "epiphone-olympic-authentication-guide",
@@ -539,7 +539,7 @@
       ],
       "sellLabel": "Sell My Epiphone",
       "sellHref": "/sell-my-epiphone-guitar/",
-      "twinOverlapPercent": 1.78
+      "twinOverlapPercent": 1.73
     },
     {
       "slug": "epiphone-sorrento-value-guide",
@@ -592,7 +592,7 @@
       ],
       "sellLabel": "Sell My Epiphone",
       "sellHref": "/sell-my-epiphone-guitar/",
-      "twinOverlapPercent": 3.46
+      "twinOverlapPercent": 3.45
     },
     {
       "slug": "epiphone-sorrento-authentication-guide",
@@ -650,7 +650,7 @@
       ],
       "sellLabel": "Sell My Epiphone",
       "sellHref": "/sell-my-epiphone-guitar/",
-      "twinOverlapPercent": 3.46
+      "twinOverlapPercent": 3.45
     },
     {
       "slug": "epiphone-triumph-value-guide",
@@ -988,28 +988,28 @@
       "b": "epiphone-broadway-authentication-guide",
       "twin": true,
       "articlePercent": 4.66,
-      "wholePagePercent": 9.51
+      "wholePagePercent": 9.5
     },
     {
       "a": "epiphone-broadway-value-guide",
       "b": "epiphone-casino-value-guide",
       "twin": false,
-      "articlePercent": 7.04,
-      "wholePagePercent": 11.98
+      "articlePercent": 7.13,
+      "wholePagePercent": 12.07
     },
     {
       "a": "epiphone-broadway-value-guide",
       "b": "epiphone-casino-authentication-guide",
       "twin": false,
       "articlePercent": 1.13,
-      "wholePagePercent": 6.18
+      "wholePagePercent": 6.17
     },
     {
       "a": "epiphone-broadway-value-guide",
       "b": "epiphone-deluxe-value-guide",
       "twin": false,
-      "articlePercent": 5.74,
-      "wholePagePercent": 10.67
+      "articlePercent": 5.83,
+      "wholePagePercent": 10.75
     },
     {
       "a": "epiphone-broadway-value-guide",
@@ -1022,36 +1022,36 @@
       "a": "epiphone-broadway-value-guide",
       "b": "epiphone-emperor-value-guide",
       "twin": false,
-      "articlePercent": 5.85,
-      "wholePagePercent": 11.07
+      "articlePercent": 5.84,
+      "wholePagePercent": 10.96
     },
     {
       "a": "epiphone-broadway-value-guide",
       "b": "epiphone-emperor-authentication-guide",
       "twin": false,
       "articlePercent": 0,
-      "wholePagePercent": 5.12
+      "wholePagePercent": 5.11
     },
     {
       "a": "epiphone-broadway-value-guide",
       "b": "epiphone-olympic-value-guide",
       "twin": false,
-      "articlePercent": 5.84,
-      "wholePagePercent": 10.76
+      "articlePercent": 5.94,
+      "wholePagePercent": 10.85
     },
     {
       "a": "epiphone-broadway-value-guide",
       "b": "epiphone-olympic-authentication-guide",
       "twin": false,
       "articlePercent": 0.51,
-      "wholePagePercent": 5.6
+      "wholePagePercent": 5.59
     },
     {
       "a": "epiphone-broadway-value-guide",
       "b": "epiphone-sorrento-value-guide",
       "twin": false,
-      "articlePercent": 7.12,
-      "wholePagePercent": 12.14
+      "articlePercent": 7.22,
+      "wholePagePercent": 12.23
     },
     {
       "a": "epiphone-broadway-value-guide",
@@ -1064,36 +1064,36 @@
       "a": "epiphone-broadway-value-guide",
       "b": "epiphone-triumph-value-guide",
       "twin": false,
-      "articlePercent": 6.25,
-      "wholePagePercent": 11.42
+      "articlePercent": 6.34,
+      "wholePagePercent": 11.5
     },
     {
       "a": "epiphone-broadway-value-guide",
       "b": "epiphone-triumph-authentication-guide",
       "twin": false,
       "articlePercent": 0.46,
-      "wholePagePercent": 5.55
+      "wholePagePercent": 5.54
     },
     {
       "a": "epiphone-broadway-value-guide",
       "b": "epiphone-windsor-value-guide",
       "twin": false,
-      "articlePercent": 7.17,
-      "wholePagePercent": 12.02
+      "articlePercent": 7.27,
+      "wholePagePercent": 12.1
     },
     {
       "a": "epiphone-broadway-value-guide",
       "b": "epiphone-windsor-authentication-guide",
       "twin": false,
       "articlePercent": 1.33,
-      "wholePagePercent": 6.37
+      "wholePagePercent": 6.36
     },
     {
       "a": "epiphone-broadway-value-guide",
       "b": "epiphone-zephyr-value-guide",
       "twin": false,
-      "articlePercent": 5.85,
-      "wholePagePercent": 10.77
+      "articlePercent": 5.94,
+      "wholePagePercent": 10.86
     },
     {
       "a": "epiphone-broadway-value-guide",
@@ -1121,7 +1121,7 @@
       "b": "epiphone-deluxe-value-guide",
       "twin": false,
       "articlePercent": 0,
-      "wholePagePercent": 4.85
+      "wholePagePercent": 4.78
     },
     {
       "a": "epiphone-broadway-authentication-guide",
@@ -1135,7 +1135,7 @@
       "b": "epiphone-emperor-value-guide",
       "twin": false,
       "articlePercent": 0,
-      "wholePagePercent": 5.21
+      "wholePagePercent": 5.12
     },
     {
       "a": "epiphone-broadway-authentication-guide",
@@ -1149,7 +1149,7 @@
       "b": "epiphone-olympic-value-guide",
       "twin": false,
       "articlePercent": 0,
-      "wholePagePercent": 5.07
+      "wholePagePercent": 4.94
     },
     {
       "a": "epiphone-broadway-authentication-guide",
@@ -1177,7 +1177,7 @@
       "b": "epiphone-triumph-value-guide",
       "twin": false,
       "articlePercent": 0.36,
-      "wholePagePercent": 5.54
+      "wholePagePercent": 5.53
     },
     {
       "a": "epiphone-broadway-authentication-guide",
@@ -1191,7 +1191,7 @@
       "b": "epiphone-windsor-value-guide",
       "twin": false,
       "articlePercent": 1.32,
-      "wholePagePercent": 6.3
+      "wholePagePercent": 6.29
     },
     {
       "a": "epiphone-broadway-authentication-guide",
@@ -1205,7 +1205,7 @@
       "b": "epiphone-zephyr-value-guide",
       "twin": false,
       "articlePercent": 0,
-      "wholePagePercent": 5.27
+      "wholePagePercent": 5.26
     },
     {
       "a": "epiphone-broadway-authentication-guide",
@@ -1219,14 +1219,14 @@
       "b": "epiphone-casino-authentication-guide",
       "twin": true,
       "articlePercent": 2.69,
-      "wholePagePercent": 7.7
+      "wholePagePercent": 7.69
     },
     {
       "a": "epiphone-casino-value-guide",
       "b": "epiphone-deluxe-value-guide",
       "twin": false,
-      "articlePercent": 5.79,
-      "wholePagePercent": 10.76
+      "articlePercent": 5.89,
+      "wholePagePercent": 10.85
     },
     {
       "a": "epiphone-casino-value-guide",
@@ -1239,8 +1239,8 @@
       "a": "epiphone-casino-value-guide",
       "b": "epiphone-emperor-value-guide",
       "twin": false,
-      "articlePercent": 5.85,
-      "wholePagePercent": 10.92
+      "articlePercent": 5.89,
+      "wholePagePercent": 10.9
     },
     {
       "a": "epiphone-casino-value-guide",
@@ -1253,8 +1253,8 @@
       "a": "epiphone-casino-value-guide",
       "b": "epiphone-olympic-value-guide",
       "twin": false,
-      "articlePercent": 5.79,
-      "wholePagePercent": 10.76
+      "articlePercent": 5.89,
+      "wholePagePercent": 10.85
     },
     {
       "a": "epiphone-casino-value-guide",
@@ -1267,8 +1267,8 @@
       "a": "epiphone-casino-value-guide",
       "b": "epiphone-sorrento-value-guide",
       "twin": false,
-      "articlePercent": 7.18,
-      "wholePagePercent": 12.24
+      "articlePercent": 7.28,
+      "wholePagePercent": 12.33
     },
     {
       "a": "epiphone-casino-value-guide",
@@ -1281,8 +1281,8 @@
       "a": "epiphone-casino-value-guide",
       "b": "epiphone-triumph-value-guide",
       "twin": false,
-      "articlePercent": 5.93,
-      "wholePagePercent": 10.98
+      "articlePercent": 6.03,
+      "wholePagePercent": 11.06
     },
     {
       "a": "epiphone-casino-value-guide",
@@ -1295,8 +1295,8 @@
       "a": "epiphone-casino-value-guide",
       "b": "epiphone-windsor-value-guide",
       "twin": false,
-      "articlePercent": 7.14,
-      "wholePagePercent": 12.08
+      "articlePercent": 7.24,
+      "wholePagePercent": 12.17
     },
     {
       "a": "epiphone-casino-value-guide",
@@ -1309,8 +1309,8 @@
       "a": "epiphone-casino-value-guide",
       "b": "epiphone-zephyr-value-guide",
       "twin": false,
-      "articlePercent": 5.9,
-      "wholePagePercent": 10.86
+      "articlePercent": 5.99,
+      "wholePagePercent": 10.95
     },
     {
       "a": "epiphone-casino-value-guide",
@@ -1324,7 +1324,7 @@
       "b": "epiphone-deluxe-value-guide",
       "twin": false,
       "articlePercent": 0.19,
-      "wholePagePercent": 5.04
+      "wholePagePercent": 4.96
     },
     {
       "a": "epiphone-casino-authentication-guide",
@@ -1338,7 +1338,7 @@
       "b": "epiphone-emperor-value-guide",
       "twin": false,
       "articlePercent": 0,
-      "wholePagePercent": 5.21
+      "wholePagePercent": 5.12
     },
     {
       "a": "epiphone-casino-authentication-guide",
@@ -1352,7 +1352,7 @@
       "b": "epiphone-olympic-value-guide",
       "twin": false,
       "articlePercent": 0,
-      "wholePagePercent": 5.07
+      "wholePagePercent": 4.94
     },
     {
       "a": "epiphone-casino-authentication-guide",
@@ -1393,8 +1393,8 @@
       "a": "epiphone-casino-authentication-guide",
       "b": "epiphone-windsor-value-guide",
       "twin": false,
-      "articlePercent": 1.17,
-      "wholePagePercent": 6.16
+      "articlePercent": 1.16,
+      "wholePagePercent": 6.15
     },
     {
       "a": "epiphone-casino-authentication-guide",
@@ -1408,7 +1408,7 @@
       "b": "epiphone-zephyr-value-guide",
       "twin": false,
       "articlePercent": 0.05,
-      "wholePagePercent": 5.17
+      "wholePagePercent": 5.16
     },
     {
       "a": "epiphone-casino-authentication-guide",
@@ -1421,99 +1421,99 @@
       "a": "epiphone-deluxe-value-guide",
       "b": "epiphone-deluxe-authentication-guide",
       "twin": true,
-      "articlePercent": 1.31,
-      "wholePagePercent": 6.09
+      "articlePercent": 1.29,
+      "wholePagePercent": 6
     },
     {
       "a": "epiphone-deluxe-value-guide",
       "b": "epiphone-emperor-value-guide",
       "twin": false,
-      "articlePercent": 6.8,
-      "wholePagePercent": 11.76
+      "articlePercent": 6.77,
+      "wholePagePercent": 11.64
     },
     {
       "a": "epiphone-deluxe-value-guide",
       "b": "epiphone-emperor-authentication-guide",
       "twin": false,
       "articlePercent": 0,
-      "wholePagePercent": 4.85
+      "wholePagePercent": 4.78
     },
     {
       "a": "epiphone-deluxe-value-guide",
       "b": "epiphone-olympic-value-guide",
       "twin": false,
-      "articlePercent": 5.69,
-      "wholePagePercent": 10.82
+      "articlePercent": 5.63,
+      "wholePagePercent": 10.62
     },
     {
       "a": "epiphone-deluxe-value-guide",
       "b": "epiphone-olympic-authentication-guide",
       "twin": false,
       "articlePercent": 0,
-      "wholePagePercent": 4.9
+      "wholePagePercent": 4.83
     },
     {
       "a": "epiphone-deluxe-value-guide",
       "b": "epiphone-sorrento-value-guide",
       "twin": false,
-      "articlePercent": 6.11,
-      "wholePagePercent": 11.19
+      "articlePercent": 6.21,
+      "wholePagePercent": 11.28
     },
     {
       "a": "epiphone-deluxe-value-guide",
       "b": "epiphone-sorrento-authentication-guide",
       "twin": false,
       "articlePercent": 0,
-      "wholePagePercent": 4.85
+      "wholePagePercent": 4.78
     },
     {
       "a": "epiphone-deluxe-value-guide",
       "b": "epiphone-triumph-value-guide",
       "twin": false,
-      "articlePercent": 5.88,
-      "wholePagePercent": 10.88
+      "articlePercent": 5.98,
+      "wholePagePercent": 10.96
     },
     {
       "a": "epiphone-deluxe-value-guide",
       "b": "epiphone-triumph-authentication-guide",
       "twin": false,
       "articlePercent": 0,
-      "wholePagePercent": 4.85
+      "wholePagePercent": 4.78
     },
     {
       "a": "epiphone-deluxe-value-guide",
       "b": "epiphone-windsor-value-guide",
       "twin": false,
-      "articlePercent": 6.43,
-      "wholePagePercent": 11.26
+      "articlePercent": 6.53,
+      "wholePagePercent": 11.35
     },
     {
       "a": "epiphone-deluxe-value-guide",
       "b": "epiphone-windsor-authentication-guide",
       "twin": false,
-      "articlePercent": 0.63,
-      "wholePagePercent": 5.45
+      "articlePercent": 0.62,
+      "wholePagePercent": 5.37
     },
     {
       "a": "epiphone-deluxe-value-guide",
       "b": "epiphone-zephyr-value-guide",
       "twin": false,
-      "articlePercent": 5.79,
-      "wholePagePercent": 10.72
+      "articlePercent": 5.89,
+      "wholePagePercent": 10.81
     },
     {
       "a": "epiphone-deluxe-value-guide",
       "b": "epiphone-zephyr-authentication-guide",
       "twin": false,
-      "articlePercent": 0.63,
-      "wholePagePercent": 5.45
+      "articlePercent": 0.62,
+      "wholePagePercent": 5.37
     },
     {
       "a": "epiphone-deluxe-authentication-guide",
       "b": "epiphone-emperor-value-guide",
       "twin": false,
-      "articlePercent": 0.68,
-      "wholePagePercent": 5.85
+      "articlePercent": 0.67,
+      "wholePagePercent": 5.75
     },
     {
       "a": "epiphone-deluxe-authentication-guide",
@@ -1527,7 +1527,7 @@
       "b": "epiphone-olympic-value-guide",
       "twin": false,
       "articlePercent": 0,
-      "wholePagePercent": 5.07
+      "wholePagePercent": 4.94
     },
     {
       "a": "epiphone-deluxe-authentication-guide",
@@ -1555,7 +1555,7 @@
       "b": "epiphone-triumph-value-guide",
       "twin": false,
       "articlePercent": 0.68,
-      "wholePagePercent": 5.83
+      "wholePagePercent": 5.82
     },
     {
       "a": "epiphone-deluxe-authentication-guide",
@@ -1569,7 +1569,7 @@
       "b": "epiphone-windsor-value-guide",
       "twin": false,
       "articlePercent": 0.71,
-      "wholePagePercent": 5.73
+      "wholePagePercent": 5.72
     },
     {
       "a": "epiphone-deluxe-authentication-guide",
@@ -1583,7 +1583,7 @@
       "b": "epiphone-zephyr-value-guide",
       "twin": false,
       "articlePercent": 0.05,
-      "wholePagePercent": 5.17
+      "wholePagePercent": 5.16
     },
     {
       "a": "epiphone-deluxe-authentication-guide",
@@ -1596,85 +1596,85 @@
       "a": "epiphone-emperor-value-guide",
       "b": "epiphone-emperor-authentication-guide",
       "twin": true,
-      "articlePercent": 1.46,
-      "wholePagePercent": 6.59
+      "articlePercent": 1.44,
+      "wholePagePercent": 6.47
     },
     {
       "a": "epiphone-emperor-value-guide",
       "b": "epiphone-olympic-value-guide",
       "twin": false,
-      "articlePercent": 5.85,
-      "wholePagePercent": 10.87
+      "articlePercent": 5.84,
+      "wholePagePercent": 10.77
     },
     {
       "a": "epiphone-emperor-value-guide",
       "b": "epiphone-olympic-authentication-guide",
       "twin": false,
       "articlePercent": 0,
-      "wholePagePercent": 5.21
+      "wholePagePercent": 5.12
     },
     {
       "a": "epiphone-emperor-value-guide",
       "b": "epiphone-sorrento-value-guide",
       "twin": false,
-      "articlePercent": 6.01,
-      "wholePagePercent": 11.09
+      "articlePercent": 6.11,
+      "wholePagePercent": 11.18
     },
     {
       "a": "epiphone-emperor-value-guide",
       "b": "epiphone-sorrento-authentication-guide",
       "twin": false,
       "articlePercent": 0,
-      "wholePagePercent": 5.21
+      "wholePagePercent": 5.12
     },
     {
       "a": "epiphone-emperor-value-guide",
       "b": "epiphone-triumph-value-guide",
       "twin": false,
-      "articlePercent": 5.85,
-      "wholePagePercent": 11.07
+      "articlePercent": 5.93,
+      "wholePagePercent": 11.11
     },
     {
       "a": "epiphone-emperor-value-guide",
       "b": "epiphone-triumph-authentication-guide",
       "twin": false,
       "articlePercent": 0,
-      "wholePagePercent": 5.21
+      "wholePagePercent": 5.12
     },
     {
       "a": "epiphone-emperor-value-guide",
       "b": "epiphone-windsor-value-guide",
       "twin": false,
-      "articlePercent": 6.01,
-      "wholePagePercent": 11.02
+      "articlePercent": 6,
+      "wholePagePercent": 10.91
     },
     {
       "a": "epiphone-emperor-value-guide",
       "b": "epiphone-windsor-authentication-guide",
       "twin": false,
       "articlePercent": 0,
-      "wholePagePercent": 5.21
+      "wholePagePercent": 5.12
     },
     {
       "a": "epiphone-emperor-value-guide",
       "b": "epiphone-zephyr-value-guide",
       "twin": false,
-      "articlePercent": 5.91,
-      "wholePagePercent": 10.92
+      "articlePercent": 5.89,
+      "wholePagePercent": 10.82
     },
     {
       "a": "epiphone-emperor-value-guide",
       "b": "epiphone-zephyr-authentication-guide",
       "twin": false,
-      "articlePercent": 0.68,
-      "wholePagePercent": 5.85
+      "articlePercent": 0.67,
+      "wholePagePercent": 5.75
     },
     {
       "a": "epiphone-emperor-authentication-guide",
       "b": "epiphone-olympic-value-guide",
       "twin": false,
       "articlePercent": 0,
-      "wholePagePercent": 5.07
+      "wholePagePercent": 4.94
     },
     {
       "a": "epiphone-emperor-authentication-guide",
@@ -1716,7 +1716,7 @@
       "b": "epiphone-windsor-value-guide",
       "twin": false,
       "articlePercent": 0,
-      "wholePagePercent": 5.06
+      "wholePagePercent": 5.05
     },
     {
       "a": "epiphone-emperor-authentication-guide",
@@ -1730,7 +1730,7 @@
       "b": "epiphone-zephyr-value-guide",
       "twin": false,
       "articlePercent": 0,
-      "wholePagePercent": 5.27
+      "wholePagePercent": 5.26
     },
     {
       "a": "epiphone-emperor-authentication-guide",
@@ -1743,64 +1743,64 @@
       "a": "epiphone-olympic-value-guide",
       "b": "epiphone-olympic-authentication-guide",
       "twin": true,
-      "articlePercent": 1.78,
-      "wholePagePercent": 6.8
+      "articlePercent": 1.73,
+      "wholePagePercent": 6.62
     },
     {
       "a": "epiphone-olympic-value-guide",
       "b": "epiphone-sorrento-value-guide",
       "twin": false,
-      "articlePercent": 6.06,
-      "wholePagePercent": 11.14
+      "articlePercent": 6.16,
+      "wholePagePercent": 11.23
     },
     {
       "a": "epiphone-olympic-value-guide",
       "b": "epiphone-sorrento-authentication-guide",
       "twin": false,
       "articlePercent": 0.05,
-      "wholePagePercent": 5.12
+      "wholePagePercent": 4.99
     },
     {
       "a": "epiphone-olympic-value-guide",
       "b": "epiphone-triumph-value-guide",
       "twin": false,
-      "articlePercent": 5.88,
-      "wholePagePercent": 10.88
+      "articlePercent": 5.98,
+      "wholePagePercent": 10.96
     },
     {
       "a": "epiphone-olympic-value-guide",
       "b": "epiphone-triumph-authentication-guide",
       "twin": false,
       "articlePercent": 0.05,
-      "wholePagePercent": 5.12
+      "wholePagePercent": 4.99
     },
     {
       "a": "epiphone-olympic-value-guide",
       "b": "epiphone-windsor-value-guide",
       "twin": false,
-      "articlePercent": 5.89,
-      "wholePagePercent": 10.77
+      "articlePercent": 5.97,
+      "wholePagePercent": 10.82
     },
     {
       "a": "epiphone-olympic-value-guide",
       "b": "epiphone-windsor-authentication-guide",
       "twin": false,
       "articlePercent": 0,
-      "wholePagePercent": 5.07
+      "wholePagePercent": 4.94
     },
     {
       "a": "epiphone-olympic-value-guide",
       "b": "epiphone-zephyr-value-guide",
       "twin": false,
-      "articlePercent": 5.95,
-      "wholePagePercent": 10.87
+      "articlePercent": 6.05,
+      "wholePagePercent": 10.96
     },
     {
       "a": "epiphone-olympic-value-guide",
       "b": "epiphone-zephyr-authentication-guide",
       "twin": false,
       "articlePercent": 0.05,
-      "wholePagePercent": 5.12
+      "wholePagePercent": 4.99
     },
     {
       "a": "epiphone-olympic-authentication-guide",
@@ -1821,7 +1821,7 @@
       "b": "epiphone-triumph-value-guide",
       "twin": false,
       "articlePercent": 0.36,
-      "wholePagePercent": 5.54
+      "wholePagePercent": 5.53
     },
     {
       "a": "epiphone-olympic-authentication-guide",
@@ -1835,7 +1835,7 @@
       "b": "epiphone-windsor-value-guide",
       "twin": false,
       "articlePercent": 0,
-      "wholePagePercent": 5.06
+      "wholePagePercent": 5.05
     },
     {
       "a": "epiphone-olympic-authentication-guide",
@@ -1862,15 +1862,15 @@
       "a": "epiphone-sorrento-value-guide",
       "b": "epiphone-sorrento-authentication-guide",
       "twin": true,
-      "articlePercent": 3.46,
-      "wholePagePercent": 8.54
+      "articlePercent": 3.45,
+      "wholePagePercent": 8.53
     },
     {
       "a": "epiphone-sorrento-value-guide",
       "b": "epiphone-triumph-value-guide",
       "twin": false,
-      "articlePercent": 6.17,
-      "wholePagePercent": 11.24
+      "articlePercent": 6.27,
+      "wholePagePercent": 11.33
     },
     {
       "a": "epiphone-sorrento-value-guide",
@@ -1883,8 +1883,8 @@
       "a": "epiphone-sorrento-value-guide",
       "b": "epiphone-windsor-value-guide",
       "twin": false,
-      "articlePercent": 7.02,
-      "wholePagePercent": 12.09
+      "articlePercent": 7.12,
+      "wholePagePercent": 12.18
     },
     {
       "a": "epiphone-sorrento-value-guide",
@@ -1897,8 +1897,8 @@
       "a": "epiphone-sorrento-value-guide",
       "b": "epiphone-zephyr-value-guide",
       "twin": false,
-      "articlePercent": 5.95,
-      "wholePagePercent": 11.04
+      "articlePercent": 6.05,
+      "wholePagePercent": 11.13
     },
     {
       "a": "epiphone-sorrento-value-guide",
@@ -1926,7 +1926,7 @@
       "b": "epiphone-windsor-value-guide",
       "twin": false,
       "articlePercent": 0.96,
-      "wholePagePercent": 5.97
+      "wholePagePercent": 5.96
     },
     {
       "a": "epiphone-sorrento-authentication-guide",
@@ -1940,7 +1940,7 @@
       "b": "epiphone-zephyr-value-guide",
       "twin": false,
       "articlePercent": 0.36,
-      "wholePagePercent": 5.46
+      "wholePagePercent": 5.45
     },
     {
       "a": "epiphone-sorrento-authentication-guide",
@@ -1960,8 +1960,8 @@
       "a": "epiphone-triumph-value-guide",
       "b": "epiphone-windsor-value-guide",
       "twin": false,
-      "articlePercent": 5.88,
-      "wholePagePercent": 10.88
+      "articlePercent": 5.98,
+      "wholePagePercent": 10.96
     },
     {
       "a": "epiphone-triumph-value-guide",
@@ -1974,8 +1974,8 @@
       "a": "epiphone-triumph-value-guide",
       "b": "epiphone-zephyr-value-guide",
       "twin": false,
-      "articlePercent": 5.88,
-      "wholePagePercent": 10.88
+      "articlePercent": 5.98,
+      "wholePagePercent": 10.96
     },
     {
       "a": "epiphone-triumph-value-guide",
@@ -1989,7 +1989,7 @@
       "b": "epiphone-windsor-value-guide",
       "twin": false,
       "articlePercent": 0,
-      "wholePagePercent": 5.06
+      "wholePagePercent": 5.05
     },
     {
       "a": "epiphone-triumph-authentication-guide",
@@ -2017,14 +2017,14 @@
       "b": "epiphone-windsor-authentication-guide",
       "twin": true,
       "articlePercent": 4.71,
-      "wholePagePercent": 9.69
+      "wholePagePercent": 9.68
     },
     {
       "a": "epiphone-windsor-value-guide",
       "b": "epiphone-zephyr-value-guide",
       "twin": false,
-      "articlePercent": 5.79,
-      "wholePagePercent": 10.72
+      "articlePercent": 5.89,
+      "wholePagePercent": 10.81
     },
     {
       "a": "epiphone-windsor-value-guide",

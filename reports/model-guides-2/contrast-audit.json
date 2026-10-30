@@ -4,7 +4,7 @@
     {
       "slug": "epiphone-broadway-value-guide",
       "width": 1280,
-      "textRuns": 200,
+      "textRuns": 196,
       "failures": [],
       "imageBackgroundRuns": 10,
       "headings": [
@@ -391,7 +391,7 @@
     {
       "slug": "epiphone-broadway-authentication-guide",
       "width": 1280,
-      "textRuns": 237,
+      "textRuns": 233,
       "failures": [],
       "imageBackgroundRuns": 10,
       "headings": [
@@ -1102,7 +1102,7 @@
     {
       "slug": "epiphone-casino-value-guide",
       "width": 1280,
-      "textRuns": 170,
+      "textRuns": 166,
       "failures": [],
       "imageBackgroundRuns": 10,
       "headings": [
@@ -1507,7 +1507,7 @@
     {
       "slug": "epiphone-casino-authentication-guide",
       "width": 1280,
-      "textRuns": 217,
+      "textRuns": 213,
       "failures": [],
       "imageBackgroundRuns": 10,
       "headings": [
@@ -2074,7 +2074,7 @@
     {
       "slug": "epiphone-deluxe-value-guide",
       "width": 1280,
-      "textRuns": 230,
+      "textRuns": 226,
       "failures": [],
       "imageBackgroundRuns": 10,
       "headings": [
@@ -2479,7 +2479,7 @@
     {
       "slug": "epiphone-deluxe-authentication-guide",
       "width": 1280,
-      "textRuns": 231,
+      "textRuns": 227,
       "failures": [],
       "imageBackgroundRuns": 10,
       "headings": [
@@ -3136,7 +3136,7 @@
     {
       "slug": "epiphone-emperor-value-guide",
       "width": 1280,
-      "textRuns": 192,
+      "textRuns": 188,
       "failures": [],
       "imageBackgroundRuns": 10,
       "headings": [
@@ -3523,27 +3523,8 @@
     {
       "slug": "epiphone-emperor-authentication-guide",
       "width": 1280,
-      "textRuns": 233,
-      "failures": [
-        {
-          "tag": "P",
-          "text": "Send The Evidence",
-          "classes": "mg-eyebrow",
-          "parentClasses": "",
-          "color": "rgb(157, 53, 27)",
-          "background": [
-            104,
-            36,
-            18
-          ],
-          "backgroundImage": false,
-          "fontSize": "11px",
-          "fontWeight": "800",
-          "ratio": 1.6,
-          "required": 4.5,
-          "pass": false
-        }
-      ],
+      "textRuns": 227,
+      "failures": [],
       "imageBackgroundRuns": 10,
       "headings": [
         {
@@ -4069,6 +4050,24 @@
           "pass": true
         },
         {
+          "tag": "H3",
+          "text": "Send Your Emperor Identification Photos",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(255, 255, 255)",
+          "background": [
+            104,
+            36,
+            18
+          ],
+          "backgroundImage": false,
+          "fontSize": "27px",
+          "fontWeight": "700",
+          "ratio": 11.35,
+          "required": 3,
+          "pass": true
+        },
+        {
           "tag": "H2",
           "text": "Recognizing Later Emperor Name Reuse",
           "classes": "",
@@ -4101,24 +4100,6 @@
           "fontSize": "27px",
           "fontWeight": "700",
           "ratio": 11.68,
-          "required": 3,
-          "pass": true
-        },
-        {
-          "tag": "H3",
-          "text": "Send Your Emperor Identification Photos",
-          "classes": "",
-          "parentClasses": "",
-          "color": "rgb(255, 255, 255)",
-          "background": [
-            104,
-            36,
-            18
-          ],
-          "backgroundImage": false,
-          "fontSize": "27px",
-          "fontWeight": "700",
-          "ratio": 11.35,
           "required": 3,
           "pass": true
         },
@@ -4199,7 +4180,7 @@
     {
       "slug": "epiphone-olympic-value-guide",
       "width": 1280,
-      "textRuns": 190,
+      "textRuns": 186,
       "failures": [],
       "imageBackgroundRuns": 10,
       "headings": [
@@ -4586,7 +4567,7 @@
     {
       "slug": "epiphone-olympic-authentication-guide",
       "width": 1280,
-      "textRuns": 237,
+      "textRuns": 231,
       "failures": [],
       "imageBackgroundRuns": 10,
       "headings": [
@@ -5279,7 +5260,7 @@
     {
       "slug": "epiphone-sorrento-value-guide",
       "width": 1280,
-      "textRuns": 173,
+      "textRuns": 169,
       "failures": [],
       "imageBackgroundRuns": 10,
       "headings": [
@@ -5684,7 +5665,7 @@
     {
       "slug": "epiphone-sorrento-authentication-guide",
       "width": 1280,
-      "textRuns": 234,
+      "textRuns": 230,
       "failures": [],
       "imageBackgroundRuns": 10,
       "headings": [
@@ -6395,7 +6376,7 @@
     {
       "slug": "epiphone-triumph-value-guide",
       "width": 1280,
-      "textRuns": 195,
+      "textRuns": 191,
       "failures": [],
       "imageBackgroundRuns": 10,
       "headings": [
@@ -6800,7 +6781,7 @@
     {
       "slug": "epiphone-triumph-authentication-guide",
       "width": 1280,
-      "textRuns": 219,
+      "textRuns": 215,
       "failures": [],
       "imageBackgroundRuns": 10,
       "headings": [
@@ -7439,7 +7420,7 @@
     {
       "slug": "epiphone-windsor-value-guide",
       "width": 1280,
-      "textRuns": 182,
+      "textRuns": 178,
       "failures": [],
       "imageBackgroundRuns": 10,
       "headings": [
@@ -7862,7 +7843,7 @@
     {
       "slug": "epiphone-windsor-authentication-guide",
       "width": 1280,
-      "textRuns": 234,
+      "textRuns": 230,
       "failures": [],
       "imageBackgroundRuns": 10,
       "headings": [
@@ -8537,7 +8518,7 @@
     {
       "slug": "epiphone-zephyr-value-guide",
       "width": 1280,
-      "textRuns": 207,
+      "textRuns": 203,
       "failures": [],
       "imageBackgroundRuns": 10,
       "headings": [
@@ -8924,7 +8905,7 @@
     {
       "slug": "epiphone-zephyr-authentication-guide",
       "width": 1280,
-      "textRuns": 233,
+      "textRuns": 229,
       "failures": [],
       "imageBackgroundRuns": 10,
       "headings": [
@@ -9599,7 +9580,7 @@
     {
       "slug": "epiphone-broadway-value-guide",
       "width": 375,
-      "textRuns": 200,
+      "textRuns": 196,
       "failures": [],
       "imageBackgroundRuns": 10,
       "headings": [
@@ -9986,7 +9967,7 @@
     {
       "slug": "epiphone-broadway-authentication-guide",
       "width": 375,
-      "textRuns": 237,
+      "textRuns": 233,
       "failures": [],
       "imageBackgroundRuns": 10,
       "headings": [
@@ -10697,7 +10678,7 @@
     {
       "slug": "epiphone-casino-value-guide",
       "width": 375,
-      "textRuns": 170,
+      "textRuns": 166,
       "failures": [],
       "imageBackgroundRuns": 10,
       "headings": [
@@ -11102,7 +11083,7 @@
     {
       "slug": "epiphone-casino-authentication-guide",
       "width": 375,
-      "textRuns": 217,
+      "textRuns": 213,
       "failures": [],
       "imageBackgroundRuns": 10,
       "headings": [
@@ -11669,7 +11650,7 @@
     {
       "slug": "epiphone-deluxe-value-guide",
       "width": 375,
-      "textRuns": 230,
+      "textRuns": 226,
       "failures": [],
       "imageBackgroundRuns": 10,
       "headings": [
@@ -12074,7 +12055,7 @@
     {
       "slug": "epiphone-deluxe-authentication-guide",
       "width": 375,
-      "textRuns": 231,
+      "textRuns": 227,
       "failures": [],
       "imageBackgroundRuns": 10,
       "headings": [
@@ -12731,7 +12712,7 @@
     {
       "slug": "epiphone-emperor-value-guide",
       "width": 375,
-      "textRuns": 192,
+      "textRuns": 188,
       "failures": [],
       "imageBackgroundRuns": 10,
       "headings": [
@@ -13118,27 +13099,8 @@
     {
       "slug": "epiphone-emperor-authentication-guide",
       "width": 375,
-      "textRuns": 233,
-      "failures": [
-        {
-          "tag": "P",
-          "text": "Send The Evidence",
-          "classes": "mg-eyebrow",
-          "parentClasses": "",
-          "color": "rgb(157, 53, 27)",
-          "background": [
-            104,
-            36,
-            18
-          ],
-          "backgroundImage": false,
-          "fontSize": "11px",
-          "fontWeight": "800",
-          "ratio": 1.6,
-          "required": 4.5,
-          "pass": false
-        }
-      ],
+      "textRuns": 227,
+      "failures": [],
       "imageBackgroundRuns": 10,
       "headings": [
         {
@@ -13664,6 +13626,24 @@
           "pass": true
         },
         {
+          "tag": "H3",
+          "text": "Send Your Emperor Identification Photos",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(255, 255, 255)",
+          "background": [
+            104,
+            36,
+            18
+          ],
+          "backgroundImage": false,
+          "fontSize": "27px",
+          "fontWeight": "700",
+          "ratio": 11.35,
+          "required": 3,
+          "pass": true
+        },
+        {
           "tag": "H2",
           "text": "Recognizing Later Emperor Name Reuse",
           "classes": "",
@@ -13696,24 +13676,6 @@
           "fontSize": "27px",
           "fontWeight": "700",
           "ratio": 11.68,
-          "required": 3,
-          "pass": true
-        },
-        {
-          "tag": "H3",
-          "text": "Send Your Emperor Identification Photos",
-          "classes": "",
-          "parentClasses": "",
-          "color": "rgb(255, 255, 255)",
-          "background": [
-            104,
-            36,
-            18
-          ],
-          "backgroundImage": false,
-          "fontSize": "27px",
-          "fontWeight": "700",
-          "ratio": 11.35,
           "required": 3,
           "pass": true
         },
@@ -13794,7 +13756,7 @@
     {
       "slug": "epiphone-olympic-value-guide",
       "width": 375,
-      "textRuns": 190,
+      "textRuns": 186,
       "failures": [],
       "imageBackgroundRuns": 10,
       "headings": [
@@ -14181,7 +14143,7 @@
     {
       "slug": "epiphone-olympic-authentication-guide",
       "width": 375,
-      "textRuns": 237,
+      "textRuns": 231,
       "failures": [],
       "imageBackgroundRuns": 10,
       "headings": [
@@ -14874,7 +14836,7 @@
     {
       "slug": "epiphone-sorrento-value-guide",
       "width": 375,
-      "textRuns": 173,
+      "textRuns": 169,
       "failures": [],
       "imageBackgroundRuns": 10,
       "headings": [
@@ -15279,7 +15241,7 @@
     {
       "slug": "epiphone-sorrento-authentication-guide",
       "width": 375,
-      "textRuns": 234,
+      "textRuns": 230,
       "failures": [],
       "imageBackgroundRuns": 10,
       "headings": [
@@ -15990,7 +15952,7 @@
     {
       "slug": "epiphone-triumph-value-guide",
       "width": 375,
-      "textRuns": 195,
+      "textRuns": 191,
       "failures": [],
       "imageBackgroundRuns": 10,
       "headings": [
@@ -16395,7 +16357,7 @@
     {
       "slug": "epiphone-triumph-authentication-guide",
       "width": 375,
-      "textRuns": 219,
+      "textRuns": 215,
       "failures": [],
       "imageBackgroundRuns": 10,
       "headings": [
@@ -17034,7 +16996,7 @@
     {
       "slug": "epiphone-windsor-value-guide",
       "width": 375,
-      "textRuns": 182,
+      "textRuns": 178,
       "failures": [],
       "imageBackgroundRuns": 10,
       "headings": [
@@ -17457,7 +17419,7 @@
     {
       "slug": "epiphone-windsor-authentication-guide",
       "width": 375,
-      "textRuns": 234,
+      "textRuns": 230,
       "failures": [],
       "imageBackgroundRuns": 10,
       "headings": [
@@ -18132,7 +18094,7 @@
     {
       "slug": "epiphone-zephyr-value-guide",
       "width": 375,
-      "textRuns": 207,
+      "textRuns": 203,
       "failures": [],
       "imageBackgroundRuns": 10,
       "headings": [
@@ -18519,7 +18481,7 @@
     {
       "slug": "epiphone-zephyr-authentication-guide",
       "width": 375,
-      "textRuns": 233,
+      "textRuns": 229,
       "failures": [],
       "imageBackgroundRuns": 10,
       "headings": [

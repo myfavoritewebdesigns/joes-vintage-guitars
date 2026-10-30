@@ -1,7 +1,7 @@
 $ node scripts/check-copy.mjs
 
 Scanned 406 pages.
-Report: reports\seo-v2\check-copy-2026-10-30T23-00-15-918Z.md
+Report: reports\seo-v2\check-copy-2026-10-30T23-24-57-107Z.md
 
 ✓ 0 hard-fails. Copy gate is clean.
 🟡 772 warn(s) (report only, never gates).

@@ -24,6 +24,8 @@ Other price coverage limits:
 - Windsor groups end in 1962 and Zephyr in 1964. These are price-guide groupings, not a claim of recorded shipments in every year. No shipping totals were imported.
 - Acoustic Olympic price groups extend to 1949; current documented-instrument research ends the original acoustic run in 1944. Both guides distinguish pricing categories from production evidence. No Philadelphia acoustic Olympic is invented.
 - DeLuxe's 1935 acoustic boundary appears in two book groups. The guide calls for individual construction review at that boundary. Emperor's 1953 acoustic-cutaway boundary also requires corroboration, rather than selecting a higher price from the year alone.
+- All tables now label the dates “Pricing Year Group.” Olympic descriptors no longer call every 1931–1936 example smaller: documented widths reach 15¼ inches by 1936, so that crossover needs appraisal. The older acoustic categories explicitly disclose the documented 1944 production endpoint. DeLuxe's 1935 overlap supplies the 16⅜-inch/17⅜-inch construction distinction without inventing a price-selection rule.
+- Emperor's 1935–1939 natural group is a reference pricing bracket. The descriptor and explanation identify documented availability by 1938, not natural-finish production throughout 1935–1939. No source-book price or date group was silently rewritten.
 - FT De Luxe flat-tops are outside the archtop pair. No figure was borrowed from them.
 - The Broadway book text limits cherry differently from its later natural/cherry price rows. The chart preserves the named grouping without asserting continuous finish availability.
 
