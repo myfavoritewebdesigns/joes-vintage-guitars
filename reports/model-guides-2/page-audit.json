@@ -1,0 +1,2795 @@
+{
+  "pages": [
+    {
+      "slug": "epiphone-broadway-value-guide",
+      "title": "Vintage Epiphone Broadway Value Guide: American Prices",
+      "titleLength": 54,
+      "description": "Compare vintage Epiphone Broadway values for New York acoustics, Regents and Kalamazoo electrics, with finish, pickup and condition checks for appraisal.",
+      "descriptionLength": 153,
+      "bodyWordsExcludingHeroNavigationTablesFaqReferencesAuthor": 1439,
+      "h2": [
+        "Broadway Prices By Era And Finish",
+        "Pricing The Earlier Acoustic Broadway",
+        "Kalamazoo Broadway Values By Period",
+        "What Changes A Broadway Appraisal",
+        "Photograph Your Broadway For An Appraisal",
+        "Questions AboutEpiphone Values",
+        "A Value For Your Guitar",
+        "Joe Dampt"
+      ],
+      "photos": 4,
+      "exactModelPhotos": 0,
+      "comparisonPhotos": 3,
+      "existingAuthorPortrait": 1,
+      "inboundCount": 3,
+      "inboundSources": [
+        "/what-brand-is-my-guitar/",
+        "/what-lowers-vintage-guitar-value/",
+        "/post/epiphone-sheraton-history-value/"
+      ],
+      "faqCount": 4,
+      "schemas": [
+        "ProfessionalService",
+        "ImageObject",
+        "QuantitativeValue",
+        "PostalAddress",
+        "ContactPoint",
+        "GeoCoordinates",
+        "AdministrativeArea",
+        "WebSite",
+        "Person",
+        "CollegeOrUniversity",
+        "Service",
+        "BreadcrumbList",
+        "ListItem",
+        "BlogPosting",
+        "FAQPage",
+        "Question",
+        "Answer"
+      ],
+      "sellLabel": "Sell My Epiphone",
+      "sellHref": "/sell-my-epiphone-guitar/",
+      "twinOverlapPercent": 4.66
+    },
+    {
+      "slug": "epiphone-broadway-authentication-guide",
+      "title": "Epiphone Broadway Authentication Guide: American Models",
+      "titleLength": 55,
+      "description": "Identify a vintage Epiphone Broadway by body construction, cutaway, pickups and markings, from New York acoustics to full-depth Kalamazoo electrics.",
+      "descriptionLength": 148,
+      "bodyWordsExcludingHeroNavigationTablesFaqReferencesAuthor": 2354,
+      "h2": [
+        "Broadway Specifications That Separate The Families",
+        "The Broadway Before Kalamazoo",
+        "Broadway Changes Across The American Years",
+        "How Gibson Changed The Broadway",
+        "Physical Differences Across The Factory Move",
+        "Keep Broadway Variants And Alterations Separate",
+        "Broadway And Comparison Photographs",
+        "Read Broadway Labels And Serials In Context",
+        "A Kalamazoo Broadway Authentication Checklist",
+        "Later Broadways And Repaired American Examples",
+        "Broadway Research References",
+        "Questions AboutEpiphone Identification",
+        "Keep The Evidence Together",
+        "Joe Dampt"
+      ],
+      "photos": 10,
+      "exactModelPhotos": 3,
+      "comparisonPhotos": 6,
+      "existingAuthorPortrait": 1,
+      "inboundCount": 3,
+      "inboundSources": [
+        "/how-to-read-gibson-serial-numbers/",
+        "/what-brand-is-my-guitar/",
+        "/post/epiphone-sheraton-history-value/"
+      ],
+      "faqCount": 4,
+      "schemas": [
+        "ProfessionalService",
+        "ImageObject",
+        "QuantitativeValue",
+        "PostalAddress",
+        "ContactPoint",
+        "GeoCoordinates",
+        "AdministrativeArea",
+        "WebSite",
+        "Person",
+        "CollegeOrUniversity",
+        "Service",
+        "BreadcrumbList",
+        "ListItem",
+        "BlogPosting",
+        "FAQPage",
+        "Question",
+        "Answer"
+      ],
+      "sellLabel": "Sell My Epiphone",
+      "sellHref": "/sell-my-epiphone-guitar/",
+      "twinOverlapPercent": 4.66
+    },
+    {
+      "slug": "epiphone-casino-value-guide",
+      "title": "Vintage Epiphone Casino Value Guide: Kalamazoo Prices",
+      "titleLength": 53,
+      "description": "Check vintage Epiphone Casino values by year and pickup count, with notes on finishes, repairs, original parts and the photos Joe needs for an appraisal.",
+      "descriptionLength": 153,
+      "bodyWordsExcludingHeroNavigationTablesFaqReferencesAuthor": 1453,
+      "h2": [
+        "Casino Values By Year And Pickup Count",
+        "How The Casino’s Period Affects Its Price",
+        "What Makes Two Casinos Different Purchases",
+        "Repairs That Change A Casino Estimate",
+        "Photos That Make A Casino Appraisal Useful",
+        "Questions AboutEpiphone Values",
+        "A Value For Your Guitar",
+        "Joe Dampt"
+      ],
+      "photos": 4,
+      "exactModelPhotos": 3,
+      "comparisonPhotos": 0,
+      "existingAuthorPortrait": 1,
+      "inboundCount": 3,
+      "inboundSources": [
+        "/what-brand-is-my-guitar/",
+        "/what-lowers-vintage-guitar-value/",
+        "/post/epiphone-sheraton-history-value/"
+      ],
+      "faqCount": 4,
+      "schemas": [
+        "ProfessionalService",
+        "ImageObject",
+        "QuantitativeValue",
+        "PostalAddress",
+        "ContactPoint",
+        "GeoCoordinates",
+        "AdministrativeArea",
+        "WebSite",
+        "Person",
+        "CollegeOrUniversity",
+        "Service",
+        "BreadcrumbList",
+        "ListItem",
+        "BlogPosting",
+        "FAQPage",
+        "Question",
+        "Answer"
+      ],
+      "sellLabel": "Sell My Epiphone",
+      "sellHref": "/sell-my-epiphone-guitar/",
+      "twinOverlapPercent": 0.37
+    },
+    {
+      "slug": "epiphone-casino-authentication-guide",
+      "title": "Epiphone Casino Authentication Guide: Kalamazoo Years",
+      "titleLength": 53,
+      "description": "Identify a Kalamazoo Epiphone Casino by its body, P-90 pickups, serial, label and original hardware, with clear comparisons to later Casino instruments.",
+      "descriptionLength": 152,
+      "bodyWordsExcludingHeroNavigationTablesFaqReferencesAuthor": 2330,
+      "h2": [
+        "The Casino’s Defining Construction",
+        "How The Casino Entered The Kalamazoo Line",
+        "Casino Features Through The Original Run",
+        "Confirm P-90s And An Unaltered Top",
+        "Joe’s Casino Photo Archive",
+        "Date The Casino From Numbers And Construction",
+        "Inspect A Kalamazoo Casino In Order",
+        "How Later Casinos Fall Outside This Guide",
+        "Separate Identity From Originality",
+        "Casino Research References",
+        "Questions AboutEpiphone Identification",
+        "Keep The Evidence Together",
+        "Joe Dampt"
+      ],
+      "photos": 13,
+      "exactModelPhotos": 8,
+      "comparisonPhotos": 4,
+      "existingAuthorPortrait": 1,
+      "inboundCount": 3,
+      "inboundSources": [
+        "/how-to-read-gibson-serial-numbers/",
+        "/what-brand-is-my-guitar/",
+        "/post/epiphone-sheraton-history-value/"
+      ],
+      "faqCount": 4,
+      "schemas": [
+        "ProfessionalService",
+        "ImageObject",
+        "QuantitativeValue",
+        "PostalAddress",
+        "ContactPoint",
+        "GeoCoordinates",
+        "AdministrativeArea",
+        "WebSite",
+        "Person",
+        "CollegeOrUniversity",
+        "Service",
+        "BreadcrumbList",
+        "ListItem",
+        "BlogPosting",
+        "FAQPage",
+        "Question",
+        "Answer"
+      ],
+      "sellLabel": "Sell My Epiphone",
+      "sellHref": "/sell-my-epiphone-guitar/",
+      "twinOverlapPercent": 0.37
+    },
+    {
+      "slug": "epiphone-deluxe-value-guide",
+      "title": "Vintage Epiphone Deluxe Value Guide: Acoustic And Electric",
+      "titleLength": 58,
+      "description": "Compare American Epiphone DeLuxe, Regent and Zephyr De Luxe prices, including Kalamazoo acoustic cutaways, with notes on finish, repairs and originality.",
+      "descriptionLength": 153,
+      "bodyWordsExcludingHeroNavigationTablesFaqReferencesAuthor": 1501,
+      "h2": [
+        "DeLuxe Prices By Body And Electrical Configuration",
+        "How New York Acoustic DeLuxes Compare",
+        "Philadelphia-Era DeLuxes And Factory Electrics",
+        "Kalamazoo DeLuxe Acoustic Values",
+        "Repairs That Need Individual Review",
+        "What To Send For A DeLuxe Appraisal",
+        "Questions AboutEpiphone Values",
+        "A Value For Your Guitar",
+        "Joe Dampt"
+      ],
+      "photos": 4,
+      "exactModelPhotos": 3,
+      "comparisonPhotos": 0,
+      "existingAuthorPortrait": 1,
+      "inboundCount": 3,
+      "inboundSources": [
+        "/what-brand-is-my-guitar/",
+        "/what-lowers-vintage-guitar-value/",
+        "/post/epiphone-sheraton-history-value/"
+      ],
+      "faqCount": 4,
+      "schemas": [
+        "ProfessionalService",
+        "ImageObject",
+        "QuantitativeValue",
+        "PostalAddress",
+        "ContactPoint",
+        "GeoCoordinates",
+        "AdministrativeArea",
+        "WebSite",
+        "Person",
+        "CollegeOrUniversity",
+        "Service",
+        "BreadcrumbList",
+        "ListItem",
+        "BlogPosting",
+        "FAQPage",
+        "Question",
+        "Answer"
+      ],
+      "sellLabel": "Sell My Epiphone",
+      "sellHref": "/sell-my-epiphone-guitar/",
+      "twinOverlapPercent": 1.29
+    },
+    {
+      "slug": "epiphone-deluxe-authentication-guide",
+      "title": "Epiphone Deluxe Authentication Guide: American Archtops",
+      "titleLength": 55,
+      "description": "Identify American Epiphone DeLuxe and Zephyr De Luxe guitars through body construction, cutaways, pickups, labels and the Kalamazoo acoustic specification.",
+      "descriptionLength": 155,
+      "bodyWordsExcludingHeroNavigationTablesFaqReferencesAuthor": 2423,
+      "h2": [
+        "Which DeLuxe Construction Are You Inspecting?",
+        "The DeLuxe Through New York And Philadelphia",
+        "DeLuxe Development In Catalog Order",
+        "What Defines A Kalamazoo DeLuxe A212",
+        "Read DeLuxe Catalog Specifications By Date",
+        "Identifying A Zephyr De Luxe Or De Luxe Electric",
+        "DeLuxe And Comparison Photographs",
+        "Later Pre-Gibson Pickup Evidence",
+        "Date The DeLuxe Within The Correct Serial System",
+        "A Kalamazoo DeLuxe Inspection Checklist",
+        "Exclude Other Deluxe Names And Later Production",
+        "DeLuxe Research References",
+        "Questions AboutEpiphone Identification",
+        "Keep The Evidence Together",
+        "Joe Dampt"
+      ],
+      "photos": 9,
+      "exactModelPhotos": 3,
+      "comparisonPhotos": 5,
+      "existingAuthorPortrait": 1,
+      "inboundCount": 3,
+      "inboundSources": [
+        "/how-to-read-gibson-serial-numbers/",
+        "/what-brand-is-my-guitar/",
+        "/post/epiphone-sheraton-history-value/"
+      ],
+      "faqCount": 4,
+      "schemas": [
+        "ProfessionalService",
+        "ImageObject",
+        "QuantitativeValue",
+        "PostalAddress",
+        "ContactPoint",
+        "GeoCoordinates",
+        "AdministrativeArea",
+        "WebSite",
+        "Person",
+        "CollegeOrUniversity",
+        "Service",
+        "BreadcrumbList",
+        "ListItem",
+        "BlogPosting",
+        "FAQPage",
+        "Question",
+        "Answer"
+      ],
+      "sellLabel": "Sell My Epiphone",
+      "sellHref": "/sell-my-epiphone-guitar/",
+      "twinOverlapPercent": 1.29
+    },
+    {
+      "slug": "epiphone-emperor-value-guide",
+      "title": "Vintage Epiphone Emperor Value Guide: American Prices",
+      "titleLength": 53,
+      "description": "Find American Epiphone Emperor values for acoustic, Regent and electric models, with condition advice and separate Kalamazoo thinline price ranges.",
+      "descriptionLength": 147,
+      "bodyWordsExcludingHeroNavigationTablesFaqReferencesAuthor": 1470,
+      "h2": [
+        "Emperor Prices By Construction And Era",
+        "What Changes An Acoustic Emperor’s Value",
+        "Pricing A Gibson-Built Emperor",
+        "Condition Details Worth Photographing",
+        "Prepare Your Emperor For An Appraisal",
+        "Questions AboutEpiphone Values",
+        "A Value For Your Guitar",
+        "Joe Dampt"
+      ],
+      "photos": 4,
+      "exactModelPhotos": 3,
+      "comparisonPhotos": 0,
+      "existingAuthorPortrait": 1,
+      "inboundCount": 3,
+      "inboundSources": [
+        "/what-brand-is-my-guitar/",
+        "/what-lowers-vintage-guitar-value/",
+        "/post/epiphone-sheraton-history-value/"
+      ],
+      "faqCount": 4,
+      "schemas": [
+        "ProfessionalService",
+        "ImageObject",
+        "QuantitativeValue",
+        "PostalAddress",
+        "ContactPoint",
+        "GeoCoordinates",
+        "AdministrativeArea",
+        "WebSite",
+        "Person",
+        "CollegeOrUniversity",
+        "Service",
+        "BreadcrumbList",
+        "ListItem",
+        "BlogPosting",
+        "FAQPage",
+        "Question",
+        "Answer"
+      ],
+      "sellLabel": "Sell My Epiphone",
+      "sellHref": "/sell-my-epiphone-guitar/",
+      "twinOverlapPercent": 1.44
+    },
+    {
+      "slug": "epiphone-emperor-authentication-guide",
+      "title": "Epiphone Emperor Authentication Guide: American Models",
+      "titleLength": 54,
+      "description": "Identify American Epiphone Emperors by construction, pickups, labels and serials. Compare New York, Philadelphia and Kalamazoo models with Joe’s photos.",
+      "descriptionLength": 152,
+      "bodyWordsExcludingHeroNavigationTablesFaqReferencesAuthor": 2280,
+      "h2": [
+        "The Main American Emperor Constructions",
+        "From New York To Philadelphia",
+        "Emperor Changes Across The American Run",
+        "How Gibson Changed The Emperor",
+        "Compare The Acoustic Emperor With The Super 400C",
+        "Keep Emperor Variant Names Attached To Construction",
+        "An Emperor From Joe’s Photo Archive",
+        "Use The Serial As Supporting Evidence",
+        "A Kalamazoo Emperor Inspection Checklist",
+        "Recognizing Later Emperor Name Reuse",
+        "Emperor Catalog And Dating References",
+        "Questions AboutEpiphone Identification",
+        "Keep The Evidence Together",
+        "Joe Dampt"
+      ],
+      "photos": 11,
+      "exactModelPhotos": 8,
+      "comparisonPhotos": 2,
+      "existingAuthorPortrait": 1,
+      "inboundCount": 3,
+      "inboundSources": [
+        "/how-to-read-gibson-serial-numbers/",
+        "/what-brand-is-my-guitar/",
+        "/post/epiphone-sheraton-history-value/"
+      ],
+      "faqCount": 4,
+      "schemas": [
+        "ProfessionalService",
+        "ImageObject",
+        "QuantitativeValue",
+        "PostalAddress",
+        "ContactPoint",
+        "GeoCoordinates",
+        "AdministrativeArea",
+        "WebSite",
+        "Person",
+        "CollegeOrUniversity",
+        "Service",
+        "BreadcrumbList",
+        "ListItem",
+        "BlogPosting",
+        "FAQPage",
+        "Question",
+        "Answer"
+      ],
+      "sellLabel": "Sell My Epiphone",
+      "sellHref": "/sell-my-epiphone-guitar/",
+      "twinOverlapPercent": 1.44
+    },
+    {
+      "slug": "epiphone-olympic-value-guide",
+      "title": "Vintage Epiphone Olympic Value Guide: Acoustic And Electric",
+      "titleLength": 59,
+      "description": "Find Epiphone Olympic values for New York acoustics and Kalamazoo solidbodies, including Single, Double, short-scale and Special models with repair notes.",
+      "descriptionLength": 154,
+      "bodyWordsExcludingHeroNavigationTablesFaqReferencesAuthor": 1522,
+      "h2": [
+        "Olympic Prices By Instrument Type",
+        "Value The New York Acoustic On Its Own Terms",
+        "How Kalamazoo Olympic Versions Compare",
+        "Changes That Affect An Olympic Estimate",
+        "Build A Useful Olympic Appraisal Submission",
+        "Questions AboutEpiphone Values",
+        "A Value For Your Guitar",
+        "Joe Dampt"
+      ],
+      "photos": 4,
+      "exactModelPhotos": 3,
+      "comparisonPhotos": 0,
+      "existingAuthorPortrait": 1,
+      "inboundCount": 3,
+      "inboundSources": [
+        "/what-brand-is-my-guitar/",
+        "/what-lowers-vintage-guitar-value/",
+        "/post/epiphone-sheraton-history-value/"
+      ],
+      "faqCount": 4,
+      "schemas": [
+        "ProfessionalService",
+        "ImageObject",
+        "QuantitativeValue",
+        "PostalAddress",
+        "ContactPoint",
+        "GeoCoordinates",
+        "AdministrativeArea",
+        "WebSite",
+        "Person",
+        "CollegeOrUniversity",
+        "Service",
+        "BreadcrumbList",
+        "ListItem",
+        "BlogPosting",
+        "FAQPage",
+        "Question",
+        "Answer"
+      ],
+      "sellLabel": "Sell My Epiphone",
+      "sellHref": "/sell-my-epiphone-guitar/",
+      "twinOverlapPercent": 1.73
+    },
+    {
+      "slug": "epiphone-olympic-authentication-guide",
+      "title": "Epiphone Olympic Authentication Guide: Acoustic Or Electric",
+      "titleLength": 59,
+      "description": "Identify an Epiphone Olympic archtop or Kalamazoo solidbody. Check pickup count, scale, serials and altered parts with photos from Joe’s guitar archive.",
+      "descriptionLength": 152,
+      "bodyWordsExcludingHeroNavigationTablesFaqReferencesAuthor": 2275,
+      "h2": [
+        "Olympic Identity By Construction",
+        "The New York Olympic And The Gap Before Kalamazoo",
+        "What The Kalamazoo Olympic Is Built From",
+        "Separate The Solidbody Olympic Versions",
+        "A Practical Olympic Production Sequence",
+        "A Kalamazoo Olympic From Joe’s Archive",
+        "Serial 84467 And The Limits Of A Lookup",
+        "Read The Pickguard And Control Layout",
+        "Inspect A Kalamazoo Olympic In This Order",
+        "Repairs And Later Olympic Names",
+        "Olympic Research References",
+        "Questions AboutEpiphone Identification",
+        "Keep The Evidence Together",
+        "Joe Dampt"
+      ],
+      "photos": 12,
+      "exactModelPhotos": 9,
+      "comparisonPhotos": 2,
+      "existingAuthorPortrait": 1,
+      "inboundCount": 3,
+      "inboundSources": [
+        "/how-to-read-gibson-serial-numbers/",
+        "/what-brand-is-my-guitar/",
+        "/post/epiphone-sheraton-history-value/"
+      ],
+      "faqCount": 4,
+      "schemas": [
+        "ProfessionalService",
+        "ImageObject",
+        "QuantitativeValue",
+        "PostalAddress",
+        "ContactPoint",
+        "GeoCoordinates",
+        "AdministrativeArea",
+        "WebSite",
+        "Person",
+        "CollegeOrUniversity",
+        "Service",
+        "BreadcrumbList",
+        "ListItem",
+        "BlogPosting",
+        "FAQPage",
+        "Question",
+        "Answer"
+      ],
+      "sellLabel": "Sell My Epiphone",
+      "sellHref": "/sell-my-epiphone-guitar/",
+      "twinOverlapPercent": 1.73
+    },
+    {
+      "slug": "epiphone-sorrento-value-guide",
+      "title": "Vintage Epiphone Sorrento Value Guide: 1960 To 1970",
+      "titleLength": 51,
+      "description": "Check Kalamazoo Epiphone Sorrento values for one or two mini-humbuckers, with original finish, neck, pickup and repair details to photograph for appraisal.",
+      "descriptionLength": 155,
+      "bodyWordsExcludingHeroNavigationTablesFaqReferencesAuthor": 1478,
+      "h2": [
+        "Kalamazoo Sorrento Price Ranges",
+        "Early Sorrento Values",
+        "Separate The 1965 And Later Price Groups",
+        "Royal Olive, Natural And Shaded Finishes",
+        "Condition Questions That Change A Sorrento Estimate",
+        "Compare Complete Guitars At The Same Condition Level",
+        "What Joe Needs For A Sorrento Appraisal",
+        "Questions AboutEpiphone Values",
+        "A Value For Your Guitar",
+        "Joe Dampt"
+      ],
+      "photos": 4,
+      "exactModelPhotos": 0,
+      "comparisonPhotos": 3,
+      "existingAuthorPortrait": 1,
+      "inboundCount": 3,
+      "inboundSources": [
+        "/what-brand-is-my-guitar/",
+        "/what-lowers-vintage-guitar-value/",
+        "/post/epiphone-sheraton-history-value/"
+      ],
+      "faqCount": 4,
+      "schemas": [
+        "ProfessionalService",
+        "ImageObject",
+        "QuantitativeValue",
+        "PostalAddress",
+        "ContactPoint",
+        "GeoCoordinates",
+        "AdministrativeArea",
+        "WebSite",
+        "Person",
+        "CollegeOrUniversity",
+        "Service",
+        "BreadcrumbList",
+        "ListItem",
+        "BlogPosting",
+        "FAQPage",
+        "Question",
+        "Answer"
+      ],
+      "sellLabel": "Sell My Epiphone",
+      "sellHref": "/sell-my-epiphone-guitar/",
+      "twinOverlapPercent": 3.45
+    },
+    {
+      "slug": "epiphone-sorrento-authentication-guide",
+      "title": "Epiphone Sorrento Authentication Guide: Kalamazoo Years",
+      "titleLength": 55,
+      "description": "Authenticate a Kalamazoo Epiphone Sorrento using its cutaway, mini-humbuckers, headstock, inlays and serial, with checks for altered or later guitars.",
+      "descriptionLength": 150,
+      "bodyWordsExcludingHeroNavigationTablesFaqReferencesAuthor": 2354,
+      "h2": [
+        "Sorrento Specifications From The Original Catalogs",
+        "The Sorrento’s Place In The Kalamazoo Line",
+        "Sorrento Features Across The American Run",
+        "Authenticate The Factory Pickup Configuration",
+        "Inspect The Body, Cutaway And Neck Together",
+        "Sorrento Model Numbers And Finishes",
+        "Read Catalog Evidence Without Inventing A Changeover",
+        "Period Details In Joe’s Comparison Photographs",
+        "Date A Sorrento With More Than The Serial",
+        "A Sorrento Authentication Checklist",
+        "How To Exclude Later Sorrentos",
+        "Sorrento Research References",
+        "Questions AboutEpiphone Identification",
+        "Keep The Evidence Together",
+        "Joe Dampt"
+      ],
+      "photos": 7,
+      "exactModelPhotos": 0,
+      "comparisonPhotos": 6,
+      "existingAuthorPortrait": 1,
+      "inboundCount": 3,
+      "inboundSources": [
+        "/how-to-read-gibson-serial-numbers/",
+        "/what-brand-is-my-guitar/",
+        "/post/epiphone-sheraton-history-value/"
+      ],
+      "faqCount": 4,
+      "schemas": [
+        "ProfessionalService",
+        "ImageObject",
+        "QuantitativeValue",
+        "PostalAddress",
+        "ContactPoint",
+        "GeoCoordinates",
+        "AdministrativeArea",
+        "WebSite",
+        "Person",
+        "CollegeOrUniversity",
+        "Service",
+        "BreadcrumbList",
+        "ListItem",
+        "BlogPosting",
+        "FAQPage",
+        "Question",
+        "Answer"
+      ],
+      "sellLabel": "Sell My Epiphone",
+      "sellHref": "/sell-my-epiphone-guitar/",
+      "twinOverlapPercent": 3.45
+    },
+    {
+      "slug": "epiphone-triumph-value-guide",
+      "title": "Vintage Epiphone Triumph Value Guide: American Prices",
+      "titleLength": 53,
+      "description": "Compare vintage Epiphone Triumph prices from early New York archtops to Kalamazoo cutaways, with advice on added pickups, repairs and appraisal photos.",
+      "descriptionLength": 151,
+      "bodyWordsExcludingHeroNavigationTablesFaqReferencesAuthor": 1420,
+      "h2": [
+        "Triumph Values From New York To Kalamazoo",
+        "How The Early Triumph Groups Differ",
+        "Value A Regent As A Cutaway",
+        "Kalamazoo Triumph Prices Need Their Own Comparison",
+        "What Can Move A Triumph Outside Its Chart Range",
+        "Send A Triumph Photo Set That Answers The Basics",
+        "Questions AboutEpiphone Values",
+        "A Value For Your Guitar",
+        "Joe Dampt"
+      ],
+      "photos": 4,
+      "exactModelPhotos": 3,
+      "comparisonPhotos": 0,
+      "existingAuthorPortrait": 1,
+      "inboundCount": 3,
+      "inboundSources": [
+        "/what-brand-is-my-guitar/",
+        "/what-lowers-vintage-guitar-value/",
+        "/post/epiphone-sheraton-history-value/"
+      ],
+      "faqCount": 4,
+      "schemas": [
+        "ProfessionalService",
+        "ImageObject",
+        "QuantitativeValue",
+        "PostalAddress",
+        "ContactPoint",
+        "GeoCoordinates",
+        "AdministrativeArea",
+        "WebSite",
+        "Person",
+        "CollegeOrUniversity",
+        "Service",
+        "BreadcrumbList",
+        "ListItem",
+        "BlogPosting",
+        "FAQPage",
+        "Question",
+        "Answer"
+      ],
+      "sellLabel": "Sell My Epiphone",
+      "sellHref": "/sell-my-epiphone-guitar/",
+      "twinOverlapPercent": 0.99
+    },
+    {
+      "slug": "epiphone-triumph-authentication-guide",
+      "title": "Epiphone Triumph Authentication Guide: Dates And Details",
+      "titleLength": 56,
+      "description": "Identify a vintage Epiphone Triumph from its body, cutaway, label and hardware. Follow New York, Philadelphia and Kalamazoo versions with Joe’s photos.",
+      "descriptionLength": 151,
+      "bodyWordsExcludingHeroNavigationTablesFaqReferencesAuthor": 2137,
+      "h2": [
+        "Triumph Features By Factory Period",
+        "The Triumph Before Gibson Ownership",
+        "Triumph Changes To Check In Order",
+        "Identifying A Kalamazoo A412 Triumph",
+        "Separate The Triumph’s Factory Variants",
+        "Joe’s 1946 Triumph With A DeArmond Pickup",
+        "Reading A Triumph Label And Serial",
+        "A Kalamazoo Triumph Authentication Checklist",
+        "Repairs And Later Name Reuse",
+        "Triumph Research References",
+        "Questions AboutEpiphone Identification",
+        "Keep The Evidence Together",
+        "Joe Dampt"
+      ],
+      "photos": 9,
+      "exactModelPhotos": 8,
+      "comparisonPhotos": 0,
+      "existingAuthorPortrait": 1,
+      "inboundCount": 3,
+      "inboundSources": [
+        "/how-to-read-gibson-serial-numbers/",
+        "/what-brand-is-my-guitar/",
+        "/post/epiphone-sheraton-history-value/"
+      ],
+      "faqCount": 4,
+      "schemas": [
+        "ProfessionalService",
+        "ImageObject",
+        "QuantitativeValue",
+        "PostalAddress",
+        "ContactPoint",
+        "GeoCoordinates",
+        "AdministrativeArea",
+        "WebSite",
+        "Person",
+        "CollegeOrUniversity",
+        "Service",
+        "BreadcrumbList",
+        "ListItem",
+        "BlogPosting",
+        "FAQPage",
+        "Question",
+        "Answer"
+      ],
+      "sellLabel": "Sell My Epiphone",
+      "sellHref": "/sell-my-epiphone-guitar/",
+      "twinOverlapPercent": 0.99
+    },
+    {
+      "slug": "epiphone-windsor-value-guide",
+      "title": "Vintage Epiphone Windsor Value Guide: 1959 To 1962",
+      "titleLength": 50,
+      "description": "Compare vintage Epiphone Windsor prices by finish, pickup count and New York pickup or mini-humbucker configuration, with condition checks for appraisal.",
+      "descriptionLength": 153,
+      "bodyWordsExcludingHeroNavigationTablesFaqReferencesAuthor": 1513,
+      "h2": [
+        "Windsor Values By Finish And Pickup Type",
+        "Early Windsors With New York Pickups",
+        "Later Windsor Prices With Mini-Humbuckers",
+        "Original Finish And Gold Hardware",
+        "Assess Windsor Repairs Before Ranking The Guitar",
+        "Compare A Windsor With The Correct Model",
+        "Build A Useful Windsor Photo Set",
+        "Questions AboutEpiphone Values",
+        "A Value For Your Guitar",
+        "Joe Dampt"
+      ],
+      "photos": 4,
+      "exactModelPhotos": 0,
+      "comparisonPhotos": 3,
+      "existingAuthorPortrait": 1,
+      "inboundCount": 3,
+      "inboundSources": [
+        "/what-brand-is-my-guitar/",
+        "/what-lowers-vintage-guitar-value/",
+        "/post/epiphone-sheraton-history-value/"
+      ],
+      "faqCount": 4,
+      "schemas": [
+        "ProfessionalService",
+        "ImageObject",
+        "QuantitativeValue",
+        "PostalAddress",
+        "ContactPoint",
+        "GeoCoordinates",
+        "AdministrativeArea",
+        "WebSite",
+        "Person",
+        "CollegeOrUniversity",
+        "Service",
+        "BreadcrumbList",
+        "ListItem",
+        "BlogPosting",
+        "FAQPage",
+        "Question",
+        "Answer"
+      ],
+      "sellLabel": "Sell My Epiphone",
+      "sellHref": "/sell-my-epiphone-guitar/",
+      "twinOverlapPercent": 4.71
+    },
+    {
+      "slug": "epiphone-windsor-authentication-guide",
+      "title": "Epiphone Windsor Authentication Guide: 1959 To 1962",
+      "titleLength": 51,
+      "description": "Identify a Kalamazoo Epiphone Windsor by its pointed cutaway, gold hardware, oval markers and pickup configuration, with serial and alteration checks.",
+      "descriptionLength": 150,
+      "bodyWordsExcludingHeroNavigationTablesFaqReferencesAuthor": 2275,
+      "h2": [
+        "Windsor Features To Establish First",
+        "The Windsor Belongs To The Gibson-Era Line",
+        "Windsor Identification Across Its Short Run",
+        "The Windsor’s Thin Maple Body And Mahogany Neck",
+        "Check The Windsor’s Twenty-Fret Neck",
+        "Inspect The Pickups Beyond Their Covers",
+        "Read Windsor Model Numbers And Finish Designations",
+        "What Joe’s Comparison Photos Demonstrate",
+        "Windsor Dating Requires The Actual Guitar’s Markings",
+        "A Windsor Authentication Checklist",
+        "Exclude Later Production And Unrelated Windsor Names",
+        "Windsor Research References",
+        "Questions AboutEpiphone Identification",
+        "Keep The Evidence Together",
+        "Joe Dampt"
+      ],
+      "photos": 7,
+      "exactModelPhotos": 0,
+      "comparisonPhotos": 6,
+      "existingAuthorPortrait": 1,
+      "inboundCount": 3,
+      "inboundSources": [
+        "/how-to-read-gibson-serial-numbers/",
+        "/what-brand-is-my-guitar/",
+        "/post/epiphone-sheraton-history-value/"
+      ],
+      "faqCount": 4,
+      "schemas": [
+        "ProfessionalService",
+        "ImageObject",
+        "QuantitativeValue",
+        "PostalAddress",
+        "ContactPoint",
+        "GeoCoordinates",
+        "AdministrativeArea",
+        "WebSite",
+        "Person",
+        "CollegeOrUniversity",
+        "Service",
+        "BreadcrumbList",
+        "ListItem",
+        "BlogPosting",
+        "FAQPage",
+        "Question",
+        "Answer"
+      ],
+      "sellLabel": "Sell My Epiphone",
+      "sellHref": "/sell-my-epiphone-guitar/",
+      "twinOverlapPercent": 4.71
+    },
+    {
+      "slug": "epiphone-zephyr-value-guide",
+      "title": "Vintage Epiphone Zephyr Value Guide: American Models",
+      "titleLength": 52,
+      "description": "Compare Epiphone Zephyr and Zephyr Regent values from the early electrics to Kalamazoo thinlines, with pickup, finish and repair checks before appraisal.",
+      "descriptionLength": 153,
+      "bodyWordsExcludingHeroNavigationTablesFaqReferencesAuthor": 1422,
+      "h2": [
+        "Zephyr And Regent Price Chart",
+        "Early Zephyr Prices Depend On Surviving Equipment",
+        "What A Cutaway Changes In The Comparison",
+        "Kalamazoo Zephyr Values",
+        "Repairs That Need A Separate Zephyr Adjustment",
+        "Photograph The Details That Set The Zephyr Row",
+        "Questions AboutEpiphone Values",
+        "A Value For Your Guitar",
+        "Joe Dampt"
+      ],
+      "photos": 4,
+      "exactModelPhotos": 3,
+      "comparisonPhotos": 0,
+      "existingAuthorPortrait": 1,
+      "inboundCount": 3,
+      "inboundSources": [
+        "/what-brand-is-my-guitar/",
+        "/what-lowers-vintage-guitar-value/",
+        "/post/epiphone-sheraton-history-value/"
+      ],
+      "faqCount": 4,
+      "schemas": [
+        "ProfessionalService",
+        "ImageObject",
+        "QuantitativeValue",
+        "PostalAddress",
+        "ContactPoint",
+        "GeoCoordinates",
+        "AdministrativeArea",
+        "WebSite",
+        "Person",
+        "CollegeOrUniversity",
+        "Service",
+        "BreadcrumbList",
+        "ListItem",
+        "BlogPosting",
+        "FAQPage",
+        "Question",
+        "Answer"
+      ],
+      "sellLabel": "Sell My Epiphone",
+      "sellHref": "/sell-my-epiphone-guitar/",
+      "twinOverlapPercent": 1.13
+    },
+    {
+      "slug": "epiphone-zephyr-authentication-guide",
+      "title": "Epiphone Zephyr Authentication Guide: Dates And Models",
+      "titleLength": 54,
+      "description": "Identify American Epiphone Zephyrs by body depth, pickups, cutaway and markings, from early New York electrics to the two-pickup Kalamazoo thinline.",
+      "descriptionLength": 148,
+      "bodyWordsExcludingHeroNavigationTablesFaqReferencesAuthor": 2310,
+      "h2": [
+        "The Specifications That Identify A Zephyr",
+        "Zephyr History Before Gibson",
+        "Zephyr Changes To Check In Sequence",
+        "The Kalamazoo Zephyr Is A Two-Pickup Thinline",
+        "Separate Factory Construction From Later Work",
+        "Keep These Zephyr Versions Separate",
+        "A Kalamazoo Zephyr From Joe’s Archive",
+        "Read Serial Numbers In Their Factory Context",
+        "Inspect A Kalamazoo Zephyr In This Order",
+        "Separate Later Names From American Zephyrs",
+        "Zephyr Identification Sources",
+        "Questions AboutEpiphone Identification",
+        "Keep The Evidence Together",
+        "Joe Dampt"
+      ],
+      "photos": 8,
+      "exactModelPhotos": 4,
+      "comparisonPhotos": 3,
+      "existingAuthorPortrait": 1,
+      "inboundCount": 3,
+      "inboundSources": [
+        "/how-to-read-gibson-serial-numbers/",
+        "/what-brand-is-my-guitar/",
+        "/post/epiphone-sheraton-history-value/"
+      ],
+      "faqCount": 4,
+      "schemas": [
+        "ProfessionalService",
+        "ImageObject",
+        "QuantitativeValue",
+        "PostalAddress",
+        "ContactPoint",
+        "GeoCoordinates",
+        "AdministrativeArea",
+        "WebSite",
+        "Person",
+        "CollegeOrUniversity",
+        "Service",
+        "BreadcrumbList",
+        "ListItem",
+        "BlogPosting",
+        "FAQPage",
+        "Question",
+        "Answer"
+      ],
+      "sellLabel": "Sell My Epiphone",
+      "sellHref": "/sell-my-epiphone-guitar/",
+      "twinOverlapPercent": 1.13
+    }
+  ],
+  "duplicateMetadata": [],
+  "overlaps": [
+    {
+      "a": "epiphone-broadway-value-guide",
+      "b": "epiphone-broadway-authentication-guide",
+      "twin": true,
+      "articlePercent": 4.66,
+      "wholePagePercent": 9.5
+    },
+    {
+      "a": "epiphone-broadway-value-guide",
+      "b": "epiphone-casino-value-guide",
+      "twin": false,
+      "articlePercent": 6.08,
+      "wholePagePercent": 11.19
+    },
+    {
+      "a": "epiphone-broadway-value-guide",
+      "b": "epiphone-casino-authentication-guide",
+      "twin": false,
+      "articlePercent": 0.05,
+      "wholePagePercent": 5.16
+    },
+    {
+      "a": "epiphone-broadway-value-guide",
+      "b": "epiphone-deluxe-value-guide",
+      "twin": false,
+      "articlePercent": 5.83,
+      "wholePagePercent": 10.75
+    },
+    {
+      "a": "epiphone-broadway-value-guide",
+      "b": "epiphone-deluxe-authentication-guide",
+      "twin": false,
+      "articlePercent": 0.61,
+      "wholePagePercent": 5.69
+    },
+    {
+      "a": "epiphone-broadway-value-guide",
+      "b": "epiphone-emperor-value-guide",
+      "twin": false,
+      "articlePercent": 5.84,
+      "wholePagePercent": 10.96
+    },
+    {
+      "a": "epiphone-broadway-value-guide",
+      "b": "epiphone-emperor-authentication-guide",
+      "twin": false,
+      "articlePercent": 0,
+      "wholePagePercent": 5.11
+    },
+    {
+      "a": "epiphone-broadway-value-guide",
+      "b": "epiphone-olympic-value-guide",
+      "twin": false,
+      "articlePercent": 5.94,
+      "wholePagePercent": 10.85
+    },
+    {
+      "a": "epiphone-broadway-value-guide",
+      "b": "epiphone-olympic-authentication-guide",
+      "twin": false,
+      "articlePercent": 0.51,
+      "wholePagePercent": 5.59
+    },
+    {
+      "a": "epiphone-broadway-value-guide",
+      "b": "epiphone-sorrento-value-guide",
+      "twin": false,
+      "articlePercent": 7.22,
+      "wholePagePercent": 12.23
+    },
+    {
+      "a": "epiphone-broadway-value-guide",
+      "b": "epiphone-sorrento-authentication-guide",
+      "twin": false,
+      "articlePercent": 0.97,
+      "wholePagePercent": 6.03
+    },
+    {
+      "a": "epiphone-broadway-value-guide",
+      "b": "epiphone-triumph-value-guide",
+      "twin": false,
+      "articlePercent": 6.34,
+      "wholePagePercent": 11.5
+    },
+    {
+      "a": "epiphone-broadway-value-guide",
+      "b": "epiphone-triumph-authentication-guide",
+      "twin": false,
+      "articlePercent": 0.46,
+      "wholePagePercent": 5.54
+    },
+    {
+      "a": "epiphone-broadway-value-guide",
+      "b": "epiphone-windsor-value-guide",
+      "twin": false,
+      "articlePercent": 7.27,
+      "wholePagePercent": 12.1
+    },
+    {
+      "a": "epiphone-broadway-value-guide",
+      "b": "epiphone-windsor-authentication-guide",
+      "twin": false,
+      "articlePercent": 1.33,
+      "wholePagePercent": 6.36
+    },
+    {
+      "a": "epiphone-broadway-value-guide",
+      "b": "epiphone-zephyr-value-guide",
+      "twin": false,
+      "articlePercent": 5.94,
+      "wholePagePercent": 10.86
+    },
+    {
+      "a": "epiphone-broadway-value-guide",
+      "b": "epiphone-zephyr-authentication-guide",
+      "twin": false,
+      "articlePercent": 0.05,
+      "wholePagePercent": 5.16
+    },
+    {
+      "a": "epiphone-broadway-authentication-guide",
+      "b": "epiphone-casino-value-guide",
+      "twin": false,
+      "articlePercent": 0,
+      "wholePagePercent": 5.27
+    },
+    {
+      "a": "epiphone-broadway-authentication-guide",
+      "b": "epiphone-casino-authentication-guide",
+      "twin": false,
+      "articlePercent": 4.67,
+      "wholePagePercent": 8.1
+    },
+    {
+      "a": "epiphone-broadway-authentication-guide",
+      "b": "epiphone-deluxe-value-guide",
+      "twin": false,
+      "articlePercent": 0,
+      "wholePagePercent": 4.78
+    },
+    {
+      "a": "epiphone-broadway-authentication-guide",
+      "b": "epiphone-deluxe-authentication-guide",
+      "twin": false,
+      "articlePercent": 5.15,
+      "wholePagePercent": 8.56
+    },
+    {
+      "a": "epiphone-broadway-authentication-guide",
+      "b": "epiphone-emperor-value-guide",
+      "twin": false,
+      "articlePercent": 0,
+      "wholePagePercent": 5.12
+    },
+    {
+      "a": "epiphone-broadway-authentication-guide",
+      "b": "epiphone-emperor-authentication-guide",
+      "twin": false,
+      "articlePercent": 4.69,
+      "wholePagePercent": 8.26
+    },
+    {
+      "a": "epiphone-broadway-authentication-guide",
+      "b": "epiphone-olympic-value-guide",
+      "twin": false,
+      "articlePercent": 0,
+      "wholePagePercent": 4.94
+    },
+    {
+      "a": "epiphone-broadway-authentication-guide",
+      "b": "epiphone-olympic-authentication-guide",
+      "twin": false,
+      "articlePercent": 2.27,
+      "wholePagePercent": 5.89
+    },
+    {
+      "a": "epiphone-broadway-authentication-guide",
+      "b": "epiphone-sorrento-value-guide",
+      "twin": false,
+      "articlePercent": 1.06,
+      "wholePagePercent": 6.29
+    },
+    {
+      "a": "epiphone-broadway-authentication-guide",
+      "b": "epiphone-sorrento-authentication-guide",
+      "twin": false,
+      "articlePercent": 5.84,
+      "wholePagePercent": 9.34
+    },
+    {
+      "a": "epiphone-broadway-authentication-guide",
+      "b": "epiphone-triumph-value-guide",
+      "twin": false,
+      "articlePercent": 0.36,
+      "wholePagePercent": 5.53
+    },
+    {
+      "a": "epiphone-broadway-authentication-guide",
+      "b": "epiphone-triumph-authentication-guide",
+      "twin": false,
+      "articlePercent": 5.5,
+      "wholePagePercent": 9.26
+    },
+    {
+      "a": "epiphone-broadway-authentication-guide",
+      "b": "epiphone-windsor-value-guide",
+      "twin": false,
+      "articlePercent": 1.32,
+      "wholePagePercent": 6.29
+    },
+    {
+      "a": "epiphone-broadway-authentication-guide",
+      "b": "epiphone-windsor-authentication-guide",
+      "twin": false,
+      "articlePercent": 6.06,
+      "wholePagePercent": 9.54
+    },
+    {
+      "a": "epiphone-broadway-authentication-guide",
+      "b": "epiphone-zephyr-value-guide",
+      "twin": false,
+      "articlePercent": 0,
+      "wholePagePercent": 5.26
+    },
+    {
+      "a": "epiphone-broadway-authentication-guide",
+      "b": "epiphone-zephyr-authentication-guide",
+      "twin": false,
+      "articlePercent": 5.04,
+      "wholePagePercent": 8.64
+    },
+    {
+      "a": "epiphone-casino-value-guide",
+      "b": "epiphone-casino-authentication-guide",
+      "twin": true,
+      "articlePercent": 0.37,
+      "wholePagePercent": 5.62
+    },
+    {
+      "a": "epiphone-casino-value-guide",
+      "b": "epiphone-deluxe-value-guide",
+      "twin": false,
+      "articlePercent": 6.03,
+      "wholePagePercent": 11.09
+    },
+    {
+      "a": "epiphone-casino-value-guide",
+      "b": "epiphone-deluxe-authentication-guide",
+      "twin": false,
+      "articlePercent": 0,
+      "wholePagePercent": 5.27
+    },
+    {
+      "a": "epiphone-casino-value-guide",
+      "b": "epiphone-emperor-value-guide",
+      "twin": false,
+      "articlePercent": 6.03,
+      "wholePagePercent": 11.14
+    },
+    {
+      "a": "epiphone-casino-value-guide",
+      "b": "epiphone-emperor-authentication-guide",
+      "twin": false,
+      "articlePercent": 0,
+      "wholePagePercent": 5.27
+    },
+    {
+      "a": "epiphone-casino-value-guide",
+      "b": "epiphone-olympic-value-guide",
+      "twin": false,
+      "articlePercent": 6.03,
+      "wholePagePercent": 11.09
+    },
+    {
+      "a": "epiphone-casino-value-guide",
+      "b": "epiphone-olympic-authentication-guide",
+      "twin": false,
+      "articlePercent": 0,
+      "wholePagePercent": 5.27
+    },
+    {
+      "a": "epiphone-casino-value-guide",
+      "b": "epiphone-sorrento-value-guide",
+      "twin": false,
+      "articlePercent": 6.05,
+      "wholePagePercent": 11.18
+    },
+    {
+      "a": "epiphone-casino-value-guide",
+      "b": "epiphone-sorrento-authentication-guide",
+      "twin": false,
+      "articlePercent": 0,
+      "wholePagePercent": 5.27
+    },
+    {
+      "a": "epiphone-casino-value-guide",
+      "b": "epiphone-triumph-value-guide",
+      "twin": false,
+      "articlePercent": 6.14,
+      "wholePagePercent": 11.24
+    },
+    {
+      "a": "epiphone-casino-value-guide",
+      "b": "epiphone-triumph-authentication-guide",
+      "twin": false,
+      "articlePercent": 0,
+      "wholePagePercent": 5.27
+    },
+    {
+      "a": "epiphone-casino-value-guide",
+      "b": "epiphone-windsor-value-guide",
+      "twin": false,
+      "articlePercent": 6.19,
+      "wholePagePercent": 11.29
+    },
+    {
+      "a": "epiphone-casino-value-guide",
+      "b": "epiphone-windsor-authentication-guide",
+      "twin": false,
+      "articlePercent": 0,
+      "wholePagePercent": 5.27
+    },
+    {
+      "a": "epiphone-casino-value-guide",
+      "b": "epiphone-zephyr-value-guide",
+      "twin": false,
+      "articlePercent": 6.14,
+      "wholePagePercent": 11.19
+    },
+    {
+      "a": "epiphone-casino-value-guide",
+      "b": "epiphone-zephyr-authentication-guide",
+      "twin": false,
+      "articlePercent": 0,
+      "wholePagePercent": 5.27
+    },
+    {
+      "a": "epiphone-casino-authentication-guide",
+      "b": "epiphone-deluxe-value-guide",
+      "twin": false,
+      "articlePercent": 0.19,
+      "wholePagePercent": 4.96
+    },
+    {
+      "a": "epiphone-casino-authentication-guide",
+      "b": "epiphone-deluxe-authentication-guide",
+      "twin": false,
+      "articlePercent": 4.61,
+      "wholePagePercent": 8.02
+    },
+    {
+      "a": "epiphone-casino-authentication-guide",
+      "b": "epiphone-emperor-value-guide",
+      "twin": false,
+      "articlePercent": 0,
+      "wholePagePercent": 5.12
+    },
+    {
+      "a": "epiphone-casino-authentication-guide",
+      "b": "epiphone-emperor-authentication-guide",
+      "twin": false,
+      "articlePercent": 4.73,
+      "wholePagePercent": 8.16
+    },
+    {
+      "a": "epiphone-casino-authentication-guide",
+      "b": "epiphone-olympic-value-guide",
+      "twin": false,
+      "articlePercent": 0,
+      "wholePagePercent": 4.94
+    },
+    {
+      "a": "epiphone-casino-authentication-guide",
+      "b": "epiphone-olympic-authentication-guide",
+      "twin": false,
+      "articlePercent": 1.96,
+      "wholePagePercent": 5.52
+    },
+    {
+      "a": "epiphone-casino-authentication-guide",
+      "b": "epiphone-sorrento-value-guide",
+      "twin": false,
+      "articlePercent": 0.05,
+      "wholePagePercent": 5.34
+    },
+    {
+      "a": "epiphone-casino-authentication-guide",
+      "b": "epiphone-sorrento-authentication-guide",
+      "twin": false,
+      "articlePercent": 5.1,
+      "wholePagePercent": 8.76
+    },
+    {
+      "a": "epiphone-casino-authentication-guide",
+      "b": "epiphone-triumph-value-guide",
+      "twin": false,
+      "articlePercent": 0,
+      "wholePagePercent": 5.19
+    },
+    {
+      "a": "epiphone-casino-authentication-guide",
+      "b": "epiphone-triumph-authentication-guide",
+      "twin": false,
+      "articlePercent": 5.02,
+      "wholePagePercent": 8.7
+    },
+    {
+      "a": "epiphone-casino-authentication-guide",
+      "b": "epiphone-windsor-value-guide",
+      "twin": false,
+      "articlePercent": 0.05,
+      "wholePagePercent": 5.1
+    },
+    {
+      "a": "epiphone-casino-authentication-guide",
+      "b": "epiphone-windsor-authentication-guide",
+      "twin": false,
+      "articlePercent": 5.08,
+      "wholePagePercent": 8.59
+    },
+    {
+      "a": "epiphone-casino-authentication-guide",
+      "b": "epiphone-zephyr-value-guide",
+      "twin": false,
+      "articlePercent": 0.05,
+      "wholePagePercent": 5.16
+    },
+    {
+      "a": "epiphone-casino-authentication-guide",
+      "b": "epiphone-zephyr-authentication-guide",
+      "twin": false,
+      "articlePercent": 4.9,
+      "wholePagePercent": 8.37
+    },
+    {
+      "a": "epiphone-deluxe-value-guide",
+      "b": "epiphone-deluxe-authentication-guide",
+      "twin": true,
+      "articlePercent": 1.29,
+      "wholePagePercent": 6
+    },
+    {
+      "a": "epiphone-deluxe-value-guide",
+      "b": "epiphone-emperor-value-guide",
+      "twin": false,
+      "articlePercent": 6.77,
+      "wholePagePercent": 11.64
+    },
+    {
+      "a": "epiphone-deluxe-value-guide",
+      "b": "epiphone-emperor-authentication-guide",
+      "twin": false,
+      "articlePercent": 0,
+      "wholePagePercent": 4.78
+    },
+    {
+      "a": "epiphone-deluxe-value-guide",
+      "b": "epiphone-olympic-value-guide",
+      "twin": false,
+      "articlePercent": 5.63,
+      "wholePagePercent": 10.62
+    },
+    {
+      "a": "epiphone-deluxe-value-guide",
+      "b": "epiphone-olympic-authentication-guide",
+      "twin": false,
+      "articlePercent": 0,
+      "wholePagePercent": 4.83
+    },
+    {
+      "a": "epiphone-deluxe-value-guide",
+      "b": "epiphone-sorrento-value-guide",
+      "twin": false,
+      "articlePercent": 6.21,
+      "wholePagePercent": 11.28
+    },
+    {
+      "a": "epiphone-deluxe-value-guide",
+      "b": "epiphone-sorrento-authentication-guide",
+      "twin": false,
+      "articlePercent": 0,
+      "wholePagePercent": 4.78
+    },
+    {
+      "a": "epiphone-deluxe-value-guide",
+      "b": "epiphone-triumph-value-guide",
+      "twin": false,
+      "articlePercent": 5.98,
+      "wholePagePercent": 10.96
+    },
+    {
+      "a": "epiphone-deluxe-value-guide",
+      "b": "epiphone-triumph-authentication-guide",
+      "twin": false,
+      "articlePercent": 0,
+      "wholePagePercent": 4.78
+    },
+    {
+      "a": "epiphone-deluxe-value-guide",
+      "b": "epiphone-windsor-value-guide",
+      "twin": false,
+      "articlePercent": 6.53,
+      "wholePagePercent": 11.35
+    },
+    {
+      "a": "epiphone-deluxe-value-guide",
+      "b": "epiphone-windsor-authentication-guide",
+      "twin": false,
+      "articlePercent": 0.62,
+      "wholePagePercent": 5.37
+    },
+    {
+      "a": "epiphone-deluxe-value-guide",
+      "b": "epiphone-zephyr-value-guide",
+      "twin": false,
+      "articlePercent": 5.89,
+      "wholePagePercent": 10.81
+    },
+    {
+      "a": "epiphone-deluxe-value-guide",
+      "b": "epiphone-zephyr-authentication-guide",
+      "twin": false,
+      "articlePercent": 0.62,
+      "wholePagePercent": 5.37
+    },
+    {
+      "a": "epiphone-deluxe-authentication-guide",
+      "b": "epiphone-emperor-value-guide",
+      "twin": false,
+      "articlePercent": 0.67,
+      "wholePagePercent": 5.75
+    },
+    {
+      "a": "epiphone-deluxe-authentication-guide",
+      "b": "epiphone-emperor-authentication-guide",
+      "twin": false,
+      "articlePercent": 5.69,
+      "wholePagePercent": 9.08
+    },
+    {
+      "a": "epiphone-deluxe-authentication-guide",
+      "b": "epiphone-olympic-value-guide",
+      "twin": false,
+      "articlePercent": 0,
+      "wholePagePercent": 4.94
+    },
+    {
+      "a": "epiphone-deluxe-authentication-guide",
+      "b": "epiphone-olympic-authentication-guide",
+      "twin": false,
+      "articlePercent": 2.2,
+      "wholePagePercent": 5.75
+    },
+    {
+      "a": "epiphone-deluxe-authentication-guide",
+      "b": "epiphone-sorrento-value-guide",
+      "twin": false,
+      "articlePercent": 0.05,
+      "wholePagePercent": 5.34
+    },
+    {
+      "a": "epiphone-deluxe-authentication-guide",
+      "b": "epiphone-sorrento-authentication-guide",
+      "twin": false,
+      "articlePercent": 4.95,
+      "wholePagePercent": 8.49
+    },
+    {
+      "a": "epiphone-deluxe-authentication-guide",
+      "b": "epiphone-triumph-value-guide",
+      "twin": false,
+      "articlePercent": 0.68,
+      "wholePagePercent": 5.82
+    },
+    {
+      "a": "epiphone-deluxe-authentication-guide",
+      "b": "epiphone-triumph-authentication-guide",
+      "twin": false,
+      "articlePercent": 5.87,
+      "wholePagePercent": 9.51
+    },
+    {
+      "a": "epiphone-deluxe-authentication-guide",
+      "b": "epiphone-windsor-value-guide",
+      "twin": false,
+      "articlePercent": 0.71,
+      "wholePagePercent": 5.72
+    },
+    {
+      "a": "epiphone-deluxe-authentication-guide",
+      "b": "epiphone-windsor-authentication-guide",
+      "twin": false,
+      "articlePercent": 5.46,
+      "wholePagePercent": 8.96
+    },
+    {
+      "a": "epiphone-deluxe-authentication-guide",
+      "b": "epiphone-zephyr-value-guide",
+      "twin": false,
+      "articlePercent": 0.05,
+      "wholePagePercent": 5.16
+    },
+    {
+      "a": "epiphone-deluxe-authentication-guide",
+      "b": "epiphone-zephyr-authentication-guide",
+      "twin": false,
+      "articlePercent": 5.73,
+      "wholePagePercent": 9.17
+    },
+    {
+      "a": "epiphone-emperor-value-guide",
+      "b": "epiphone-emperor-authentication-guide",
+      "twin": true,
+      "articlePercent": 1.44,
+      "wholePagePercent": 6.47
+    },
+    {
+      "a": "epiphone-emperor-value-guide",
+      "b": "epiphone-olympic-value-guide",
+      "twin": false,
+      "articlePercent": 5.84,
+      "wholePagePercent": 10.77
+    },
+    {
+      "a": "epiphone-emperor-value-guide",
+      "b": "epiphone-olympic-authentication-guide",
+      "twin": false,
+      "articlePercent": 0,
+      "wholePagePercent": 5.12
+    },
+    {
+      "a": "epiphone-emperor-value-guide",
+      "b": "epiphone-sorrento-value-guide",
+      "twin": false,
+      "articlePercent": 6.11,
+      "wholePagePercent": 11.18
+    },
+    {
+      "a": "epiphone-emperor-value-guide",
+      "b": "epiphone-sorrento-authentication-guide",
+      "twin": false,
+      "articlePercent": 0,
+      "wholePagePercent": 5.12
+    },
+    {
+      "a": "epiphone-emperor-value-guide",
+      "b": "epiphone-triumph-value-guide",
+      "twin": false,
+      "articlePercent": 5.93,
+      "wholePagePercent": 11.11
+    },
+    {
+      "a": "epiphone-emperor-value-guide",
+      "b": "epiphone-triumph-authentication-guide",
+      "twin": false,
+      "articlePercent": 0,
+      "wholePagePercent": 5.12
+    },
+    {
+      "a": "epiphone-emperor-value-guide",
+      "b": "epiphone-windsor-value-guide",
+      "twin": false,
+      "articlePercent": 6,
+      "wholePagePercent": 10.91
+    },
+    {
+      "a": "epiphone-emperor-value-guide",
+      "b": "epiphone-windsor-authentication-guide",
+      "twin": false,
+      "articlePercent": 0,
+      "wholePagePercent": 5.12
+    },
+    {
+      "a": "epiphone-emperor-value-guide",
+      "b": "epiphone-zephyr-value-guide",
+      "twin": false,
+      "articlePercent": 5.89,
+      "wholePagePercent": 10.82
+    },
+    {
+      "a": "epiphone-emperor-value-guide",
+      "b": "epiphone-zephyr-authentication-guide",
+      "twin": false,
+      "articlePercent": 0.67,
+      "wholePagePercent": 5.75
+    },
+    {
+      "a": "epiphone-emperor-authentication-guide",
+      "b": "epiphone-olympic-value-guide",
+      "twin": false,
+      "articlePercent": 0,
+      "wholePagePercent": 4.94
+    },
+    {
+      "a": "epiphone-emperor-authentication-guide",
+      "b": "epiphone-olympic-authentication-guide",
+      "twin": false,
+      "articlePercent": 1.93,
+      "wholePagePercent": 5.49
+    },
+    {
+      "a": "epiphone-emperor-authentication-guide",
+      "b": "epiphone-sorrento-value-guide",
+      "twin": false,
+      "articlePercent": 0,
+      "wholePagePercent": 5.29
+    },
+    {
+      "a": "epiphone-emperor-authentication-guide",
+      "b": "epiphone-sorrento-authentication-guide",
+      "twin": false,
+      "articlePercent": 4.88,
+      "wholePagePercent": 8.42
+    },
+    {
+      "a": "epiphone-emperor-authentication-guide",
+      "b": "epiphone-triumph-value-guide",
+      "twin": false,
+      "articlePercent": 0,
+      "wholePagePercent": 5.19
+    },
+    {
+      "a": "epiphone-emperor-authentication-guide",
+      "b": "epiphone-triumph-authentication-guide",
+      "twin": false,
+      "articlePercent": 5.06,
+      "wholePagePercent": 8.73
+    },
+    {
+      "a": "epiphone-emperor-authentication-guide",
+      "b": "epiphone-windsor-value-guide",
+      "twin": false,
+      "articlePercent": 0,
+      "wholePagePercent": 5.05
+    },
+    {
+      "a": "epiphone-emperor-authentication-guide",
+      "b": "epiphone-windsor-authentication-guide",
+      "twin": false,
+      "articlePercent": 4.86,
+      "wholePagePercent": 8.39
+    },
+    {
+      "a": "epiphone-emperor-authentication-guide",
+      "b": "epiphone-zephyr-value-guide",
+      "twin": false,
+      "articlePercent": 0,
+      "wholePagePercent": 5.26
+    },
+    {
+      "a": "epiphone-emperor-authentication-guide",
+      "b": "epiphone-zephyr-authentication-guide",
+      "twin": false,
+      "articlePercent": 5.32,
+      "wholePagePercent": 8.81
+    },
+    {
+      "a": "epiphone-olympic-value-guide",
+      "b": "epiphone-olympic-authentication-guide",
+      "twin": true,
+      "articlePercent": 1.73,
+      "wholePagePercent": 6.62
+    },
+    {
+      "a": "epiphone-olympic-value-guide",
+      "b": "epiphone-sorrento-value-guide",
+      "twin": false,
+      "articlePercent": 6.16,
+      "wholePagePercent": 11.23
+    },
+    {
+      "a": "epiphone-olympic-value-guide",
+      "b": "epiphone-sorrento-authentication-guide",
+      "twin": false,
+      "articlePercent": 0.05,
+      "wholePagePercent": 4.99
+    },
+    {
+      "a": "epiphone-olympic-value-guide",
+      "b": "epiphone-triumph-value-guide",
+      "twin": false,
+      "articlePercent": 5.98,
+      "wholePagePercent": 10.96
+    },
+    {
+      "a": "epiphone-olympic-value-guide",
+      "b": "epiphone-triumph-authentication-guide",
+      "twin": false,
+      "articlePercent": 0.05,
+      "wholePagePercent": 4.99
+    },
+    {
+      "a": "epiphone-olympic-value-guide",
+      "b": "epiphone-windsor-value-guide",
+      "twin": false,
+      "articlePercent": 5.97,
+      "wholePagePercent": 10.82
+    },
+    {
+      "a": "epiphone-olympic-value-guide",
+      "b": "epiphone-windsor-authentication-guide",
+      "twin": false,
+      "articlePercent": 0,
+      "wholePagePercent": 4.94
+    },
+    {
+      "a": "epiphone-olympic-value-guide",
+      "b": "epiphone-zephyr-value-guide",
+      "twin": false,
+      "articlePercent": 6.05,
+      "wholePagePercent": 10.96
+    },
+    {
+      "a": "epiphone-olympic-value-guide",
+      "b": "epiphone-zephyr-authentication-guide",
+      "twin": false,
+      "articlePercent": 0.05,
+      "wholePagePercent": 4.99
+    },
+    {
+      "a": "epiphone-olympic-authentication-guide",
+      "b": "epiphone-sorrento-value-guide",
+      "twin": false,
+      "articlePercent": 0.27,
+      "wholePagePercent": 5.54
+    },
+    {
+      "a": "epiphone-olympic-authentication-guide",
+      "b": "epiphone-sorrento-authentication-guide",
+      "twin": false,
+      "articlePercent": 2.05,
+      "wholePagePercent": 5.7
+    },
+    {
+      "a": "epiphone-olympic-authentication-guide",
+      "b": "epiphone-triumph-value-guide",
+      "twin": false,
+      "articlePercent": 0.36,
+      "wholePagePercent": 5.53
+    },
+    {
+      "a": "epiphone-olympic-authentication-guide",
+      "b": "epiphone-triumph-authentication-guide",
+      "twin": false,
+      "articlePercent": 2.33,
+      "wholePagePercent": 6.19
+    },
+    {
+      "a": "epiphone-olympic-authentication-guide",
+      "b": "epiphone-windsor-value-guide",
+      "twin": false,
+      "articlePercent": 0,
+      "wholePagePercent": 5.05
+    },
+    {
+      "a": "epiphone-olympic-authentication-guide",
+      "b": "epiphone-windsor-authentication-guide",
+      "twin": false,
+      "articlePercent": 1.9,
+      "wholePagePercent": 5.55
+    },
+    {
+      "a": "epiphone-olympic-authentication-guide",
+      "b": "epiphone-zephyr-value-guide",
+      "twin": false,
+      "articlePercent": 0,
+      "wholePagePercent": 5.12
+    },
+    {
+      "a": "epiphone-olympic-authentication-guide",
+      "b": "epiphone-zephyr-authentication-guide",
+      "twin": false,
+      "articlePercent": 1.88,
+      "wholePagePercent": 5.54
+    },
+    {
+      "a": "epiphone-sorrento-value-guide",
+      "b": "epiphone-sorrento-authentication-guide",
+      "twin": true,
+      "articlePercent": 3.45,
+      "wholePagePercent": 8.53
+    },
+    {
+      "a": "epiphone-sorrento-value-guide",
+      "b": "epiphone-triumph-value-guide",
+      "twin": false,
+      "articlePercent": 6.27,
+      "wholePagePercent": 11.33
+    },
+    {
+      "a": "epiphone-sorrento-value-guide",
+      "b": "epiphone-triumph-authentication-guide",
+      "twin": false,
+      "articlePercent": 0,
+      "wholePagePercent": 5.29
+    },
+    {
+      "a": "epiphone-sorrento-value-guide",
+      "b": "epiphone-windsor-value-guide",
+      "twin": false,
+      "articlePercent": 7.12,
+      "wholePagePercent": 12.18
+    },
+    {
+      "a": "epiphone-sorrento-value-guide",
+      "b": "epiphone-windsor-authentication-guide",
+      "twin": false,
+      "articlePercent": 1.06,
+      "wholePagePercent": 6.29
+    },
+    {
+      "a": "epiphone-sorrento-value-guide",
+      "b": "epiphone-zephyr-value-guide",
+      "twin": false,
+      "articlePercent": 6.05,
+      "wholePagePercent": 11.13
+    },
+    {
+      "a": "epiphone-sorrento-value-guide",
+      "b": "epiphone-zephyr-authentication-guide",
+      "twin": false,
+      "articlePercent": 0.05,
+      "wholePagePercent": 5.34
+    },
+    {
+      "a": "epiphone-sorrento-authentication-guide",
+      "b": "epiphone-triumph-value-guide",
+      "twin": false,
+      "articlePercent": 0,
+      "wholePagePercent": 5.19
+    },
+    {
+      "a": "epiphone-sorrento-authentication-guide",
+      "b": "epiphone-triumph-authentication-guide",
+      "twin": false,
+      "articlePercent": 5.06,
+      "wholePagePercent": 8.73
+    },
+    {
+      "a": "epiphone-sorrento-authentication-guide",
+      "b": "epiphone-windsor-value-guide",
+      "twin": false,
+      "articlePercent": 0.96,
+      "wholePagePercent": 5.96
+    },
+    {
+      "a": "epiphone-sorrento-authentication-guide",
+      "b": "epiphone-windsor-authentication-guide",
+      "twin": false,
+      "articlePercent": 6.3,
+      "wholePagePercent": 9.81
+    },
+    {
+      "a": "epiphone-sorrento-authentication-guide",
+      "b": "epiphone-zephyr-value-guide",
+      "twin": false,
+      "articlePercent": 0.36,
+      "wholePagePercent": 5.45
+    },
+    {
+      "a": "epiphone-sorrento-authentication-guide",
+      "b": "epiphone-zephyr-authentication-guide",
+      "twin": false,
+      "articlePercent": 5.41,
+      "wholePagePercent": 8.93
+    },
+    {
+      "a": "epiphone-triumph-value-guide",
+      "b": "epiphone-triumph-authentication-guide",
+      "twin": true,
+      "articlePercent": 0.99,
+      "wholePagePercent": 6.12
+    },
+    {
+      "a": "epiphone-triumph-value-guide",
+      "b": "epiphone-windsor-value-guide",
+      "twin": false,
+      "articlePercent": 5.98,
+      "wholePagePercent": 10.96
+    },
+    {
+      "a": "epiphone-triumph-value-guide",
+      "b": "epiphone-windsor-authentication-guide",
+      "twin": false,
+      "articlePercent": 0,
+      "wholePagePercent": 5.19
+    },
+    {
+      "a": "epiphone-triumph-value-guide",
+      "b": "epiphone-zephyr-value-guide",
+      "twin": false,
+      "articlePercent": 5.98,
+      "wholePagePercent": 10.96
+    },
+    {
+      "a": "epiphone-triumph-value-guide",
+      "b": "epiphone-zephyr-authentication-guide",
+      "twin": false,
+      "articlePercent": 0,
+      "wholePagePercent": 5.19
+    },
+    {
+      "a": "epiphone-triumph-authentication-guide",
+      "b": "epiphone-windsor-value-guide",
+      "twin": false,
+      "articlePercent": 0,
+      "wholePagePercent": 5.05
+    },
+    {
+      "a": "epiphone-triumph-authentication-guide",
+      "b": "epiphone-windsor-authentication-guide",
+      "twin": false,
+      "articlePercent": 5.06,
+      "wholePagePercent": 8.73
+    },
+    {
+      "a": "epiphone-triumph-authentication-guide",
+      "b": "epiphone-zephyr-value-guide",
+      "twin": false,
+      "articlePercent": 0,
+      "wholePagePercent": 5.12
+    },
+    {
+      "a": "epiphone-triumph-authentication-guide",
+      "b": "epiphone-zephyr-authentication-guide",
+      "twin": false,
+      "articlePercent": 5.1,
+      "wholePagePercent": 8.88
+    },
+    {
+      "a": "epiphone-windsor-value-guide",
+      "b": "epiphone-windsor-authentication-guide",
+      "twin": true,
+      "articlePercent": 4.71,
+      "wholePagePercent": 9.68
+    },
+    {
+      "a": "epiphone-windsor-value-guide",
+      "b": "epiphone-zephyr-value-guide",
+      "twin": false,
+      "articlePercent": 5.89,
+      "wholePagePercent": 10.81
+    },
+    {
+      "a": "epiphone-windsor-value-guide",
+      "b": "epiphone-zephyr-authentication-guide",
+      "twin": false,
+      "articlePercent": 0.81,
+      "wholePagePercent": 5.82
+    },
+    {
+      "a": "epiphone-windsor-authentication-guide",
+      "b": "epiphone-zephyr-value-guide",
+      "twin": false,
+      "articlePercent": 0,
+      "wholePagePercent": 5.12
+    },
+    {
+      "a": "epiphone-windsor-authentication-guide",
+      "b": "epiphone-zephyr-authentication-guide",
+      "twin": false,
+      "articlePercent": 6.31,
+      "wholePagePercent": 9.77
+    },
+    {
+      "a": "epiphone-zephyr-value-guide",
+      "b": "epiphone-zephyr-authentication-guide",
+      "twin": true,
+      "articlePercent": 1.13,
+      "wholePagePercent": 6.23
+    }
+  ],
+  "protected": [
+    {
+      "path": "fender-jazzmaster-dating-guide/index.html",
+      "sha256": "73a350280a38d0ee9b9870e00fc55cdcd048ca40e9e63eab8fd74c1fc841d735",
+      "afterSha256": "73a350280a38d0ee9b9870e00fc55cdcd048ca40e9e63eab8fd74c1fc841d735",
+      "identical": true
+    },
+    {
+      "path": "fender-mustang-dating-guide/index.html",
+      "sha256": "2520eef665419df8546e8b2f09adb60c7e37e38054825b4c56217d52a574c4ac",
+      "afterSha256": "2520eef665419df8546e8b2f09adb60c7e37e38054825b4c56217d52a574c4ac",
+      "identical": true
+    },
+    {
+      "path": "gibson-country-western-authentication-guide/index.html",
+      "sha256": "3f2e204b7f3c056ab92fa49bf059654ff30c7cc5bc438065e776f8de1c66a966",
+      "afterSha256": "3f2e204b7f3c056ab92fa49bf059654ff30c7cc5bc438065e776f8de1c66a966",
+      "identical": true
+    },
+    {
+      "path": "gibson-dove-authentication-guide/index.html",
+      "sha256": "a523e5f85f47f9842c94e33436bc4b9d0bc9f7c3f5ab9fb0f3e5074211db6e00",
+      "afterSha256": "a523e5f85f47f9842c94e33436bc4b9d0bc9f7c3f5ab9fb0f3e5074211db6e00",
+      "identical": true
+    },
+    {
+      "path": "gibson-es-330-dating-guide/index.html",
+      "sha256": "6f688fa96fef79db51c45f322831e8abc9862758e790361d9f36a1b1c2cc947d",
+      "afterSha256": "6f688fa96fef79db51c45f322831e8abc9862758e790361d9f36a1b1c2cc947d",
+      "identical": true
+    },
+    {
+      "path": "gibson-sg-dating-guide/index.html",
+      "sha256": "f7cdcc27272265e11248e930a400bedf1c6a860ecbbbf6d37bb07cc54cecc537",
+      "afterSha256": "f7cdcc27272265e11248e930a400bedf1c6a860ecbbbf6d37bb07cc54cecc537",
+      "identical": true
+    },
+    {
+      "path": "gibson-southern-jumbo-authentication-guide/index.html",
+      "sha256": "d03d39e0076adeccf145307df88743d5f5d3f169a15aeb7e94c212ca357046d8",
+      "afterSha256": "d03d39e0076adeccf145307df88743d5f5d3f169a15aeb7e94c212ca357046d8",
+      "identical": true
+    },
+    {
+      "path": "gretsch-body-binding-and-inlays/index.html",
+      "sha256": "f70f1b4c684e398f1946e7ad5bb8927dae9c044c6e3cb9f013a9afbab39de062",
+      "afterSha256": "f70f1b4c684e398f1946e7ad5bb8927dae9c044c6e3cb9f013a9afbab39de062",
+      "identical": true
+    },
+    {
+      "path": "gretsch-bridges-and-tailpieces/index.html",
+      "sha256": "528b0820216bcd8259a7b1150df844019641a9e6b74b1d9a70e73b830f3dc061",
+      "afterSha256": "528b0820216bcd8259a7b1150df844019641a9e6b74b1d9a70e73b830f3dc061",
+      "identical": true
+    },
+    {
+      "path": "gretsch-finish-colors/index.html",
+      "sha256": "0c4139dc08123ded48a59e84451b73b93cce8f86bcbb58d36f653e33c5813309",
+      "afterSha256": "0c4139dc08123ded48a59e84451b73b93cce8f86bcbb58d36f653e33c5813309",
+      "identical": true
+    },
+    {
+      "path": "gretsch-headstock-and-tuner-dating-guide/index.html",
+      "sha256": "17ce61e5b69274f042f7ffbb073e85d7e6d1de40e8707e0870ec69548b08ad42",
+      "afterSha256": "17ce61e5b69274f042f7ffbb073e85d7e6d1de40e8707e0870ec69548b08ad42",
+      "identical": true
+    },
+    {
+      "path": "gretsch-knobs-and-controls/index.html",
+      "sha256": "05d1cba5b0676e8a9b8677e7c271ddd9a23f56487b9a1e1e32a441b8ed70980e",
+      "afterSha256": "05d1cba5b0676e8a9b8677e7c271ddd9a23f56487b9a1e1e32a441b8ed70980e",
+      "identical": true
+    },
+    {
+      "path": "gretsch-labels-and-serial-number-locations/index.html",
+      "sha256": "fc86e8a5fe5bdf081547629d93544e5f321a2d49d7af00cdae675db20d5577a0",
+      "afterSha256": "fc86e8a5fe5bdf081547629d93544e5f321a2d49d7af00cdae675db20d5577a0",
+      "identical": true
+    },
+    {
+      "path": "gretsch-pickup-dating-guide/index.html",
+      "sha256": "d856f979c427741363e46d16f25446f6d883c4360b23970cfdcaa0ace1ded477",
+      "afterSha256": "d856f979c427741363e46d16f25446f6d883c4360b23970cfdcaa0ace1ded477",
+      "identical": true
+    },
+    {
+      "path": "gretsch-vintage-vs-reissue/index.html",
+      "sha256": "87a501f64267547d68c4455d61b6b5beeef917416e0a0bce9250e7a69b612ac7",
+      "afterSha256": "87a501f64267547d68c4455d61b6b5beeef917416e0a0bce9250e7a69b612ac7",
+      "identical": true
+    },
+    {
+      "path": "guild-acoustic-guitar-identification/index.html",
+      "sha256": "fdd68bfde7e710b38228a41c6e3dffc3c25dfdf51069fe9796162b8390c0d38f",
+      "afterSha256": "fdd68bfde7e710b38228a41c6e3dffc3c25dfdf51069fe9796162b8390c0d38f",
+      "identical": true
+    },
+    {
+      "path": "guild-electric-guitar-identification/index.html",
+      "sha256": "707a8590187850f737c9f7881d73bd1780013445c2a3871cbd161264568a29fc",
+      "afterSha256": "707a8590187850f737c9f7881d73bd1780013445c2a3871cbd161264568a29fc",
+      "identical": true
+    },
+    {
+      "path": "guild-factory-eras/index.html",
+      "sha256": "e6900f1167e805d1afc2de0b943ddd9e07e91b673687b20ed566bc853c9a090b",
+      "afterSha256": "e6900f1167e805d1afc2de0b943ddd9e07e91b673687b20ed566bc853c9a090b",
+      "identical": true
+    },
+    {
+      "path": "guild-labels-and-serial-number-locations/index.html",
+      "sha256": "28b3b1555fc97415a03a9d4e94eb6e8a97273a919c2f26a0e45fdb0e0690ce06",
+      "afterSha256": "28b3b1555fc97415a03a9d4e94eb6e8a97273a919c2f26a0e45fdb0e0690ce06",
+      "identical": true
+    },
+    {
+      "path": "guild-model-prefix-serial-number-charts/index.html",
+      "sha256": "43c738a5817cffc9fb0d7dd1b0943a135154de161fbcd8c133224ff5ccd9a5fd",
+      "afterSha256": "43c738a5817cffc9fb0d7dd1b0943a135154de161fbcd8c133224ff5ccd9a5fd",
+      "identical": true
+    },
+    {
+      "path": "guild-pickup-and-hardware-dating-guide/index.html",
+      "sha256": "d919a17452ea77395c4874e20fc41b8bbebdca053618b92b62d168fa535c14e1",
+      "afterSha256": "d919a17452ea77395c4874e20fc41b8bbebdca053618b92b62d168fa535c14e1",
+      "identical": true
+    },
+    {
+      "path": "guild-vintage-vs-reissue/index.html",
+      "sha256": "5775008963cdd5213ee69842f6f3985da0237a6f683a7d419c43fe31d95625b9",
+      "afterSha256": "5775008963cdd5213ee69842f6f3985da0237a6f683a7d419c43fe31d95625b9",
+      "identical": true
+    },
+    {
+      "path": "rickenbacker-body-binding-and-inlays/index.html",
+      "sha256": "cc65f4f8bcb5e16c8ae05fad753aaa4ec68dec27d703b70fe3aeba24b1cb5a31",
+      "afterSha256": "cc65f4f8bcb5e16c8ae05fad753aaa4ec68dec27d703b70fe3aeba24b1cb5a31",
+      "identical": true
+    },
+    {
+      "path": "rickenbacker-finish-colors/index.html",
+      "sha256": "1551e71d5819cd0870376d4fef18a848aecd1c4762c2db0670206b333947bf77",
+      "afterSha256": "1551e71d5819cd0870376d4fef18a848aecd1c4762c2db0670206b333947bf77",
+      "identical": true
+    },
+    {
+      "path": "rickenbacker-knobs-and-controls/index.html",
+      "sha256": "eaca0a9a833291f6a97b105cad33ab08d003072f2613fd53a1387201ea478023",
+      "afterSha256": "eaca0a9a833291f6a97b105cad33ab08d003072f2613fd53a1387201ea478023",
+      "identical": true
+    },
+    {
+      "path": "rickenbacker-pickup-dating-guide/index.html",
+      "sha256": "5e41ce5027091e732f6db4a6cf4562eabe8ba2f076b0316534cf5213e73aed2d",
+      "afterSha256": "5e41ce5027091e732f6db4a6cf4562eabe8ba2f076b0316534cf5213e73aed2d",
+      "identical": true
+    },
+    {
+      "path": "rickenbacker-tailpiece-dating-guide/index.html",
+      "sha256": "06491e0cb7cc2d2b4416ad13c88477e43f1039b83b17401a3c8bf90e9e1169aa",
+      "afterSha256": "06491e0cb7cc2d2b4416ad13c88477e43f1039b83b17401a3c8bf90e9e1169aa",
+      "identical": true
+    },
+    {
+      "path": "rickenbacker-tuner-dating-guide/index.html",
+      "sha256": "c951df58ac159679f90a4ea7687d732a61f5706c20b80059a6cc029bea564953",
+      "afterSha256": "c951df58ac159679f90a4ea7687d732a61f5706c20b80059a6cc029bea564953",
+      "identical": true
+    },
+    {
+      "path": "vintage-fender-jaguar-value-guide/index.html",
+      "sha256": "f344b20decab58db12396d850151d8b632a7697edcf464ca3d8a7626c561d9e9",
+      "afterSha256": "f344b20decab58db12396d850151d8b632a7697edcf464ca3d8a7626c561d9e9",
+      "identical": true
+    },
+    {
+      "path": "vintage-fender-jazz-bass-value-guide/index.html",
+      "sha256": "537b1afd6f1d5e0bda30490d862996b979b928abb6ca2ae9abc1ed47da0a5f77",
+      "afterSha256": "537b1afd6f1d5e0bda30490d862996b979b928abb6ca2ae9abc1ed47da0a5f77",
+      "identical": true
+    },
+    {
+      "path": "vintage-fender-jazzmaster-value-guide/index.html",
+      "sha256": "03e16fd2e82f91ea813ef0bbfab89d912bf42721112018fa14e9435a3633a9ba",
+      "afterSha256": "03e16fd2e82f91ea813ef0bbfab89d912bf42721112018fa14e9435a3633a9ba",
+      "identical": true
+    },
+    {
+      "path": "vintage-fender-precision-bass-value-guide/index.html",
+      "sha256": "44037b38de69097bd6f5dcf38817420872fdf804b2e2f8d9ac0b1312a268dab2",
+      "afterSha256": "44037b38de69097bd6f5dcf38817420872fdf804b2e2f8d9ac0b1312a268dab2",
+      "identical": true
+    },
+    {
+      "path": "vintage-fender-stratocaster-value-guide/index.html",
+      "sha256": "34f2e08e8ed5211f54c27617f90b9ca5f80c44abe85fcd1baed011a2c373cfb1",
+      "afterSha256": "c179c67de4ebfaa1e8308b7fd0a5d2f169ca08c4cadf597c0c5887f8d5b66746",
+      "identical": false
+    },
+    {
+      "path": "vintage-fender-telecaster-value-guide/index.html",
+      "sha256": "0aac86e8b4888603415a3a25e96253d66c756ef516ab060d3c6680b776f88a5c",
+      "afterSha256": "c52a37462ae6efbf396ec91a0c92d18124e8b5cb8db1af519f6a7eac7a7058b3",
+      "identical": false
+    },
+    {
+      "path": "vintage-fender-value-guide/index.html",
+      "sha256": "a12b6694a25486bff9b79e0cbc0719cf98835085fd88f8488ddbcd0bbe94e8b3",
+      "afterSha256": "a12b6694a25486bff9b79e0cbc0719cf98835085fd88f8488ddbcd0bbe94e8b3",
+      "identical": true
+    },
+    {
+      "path": "vintage-gibson-acoustic-value-guide/index.html",
+      "sha256": "d1aa494bd1ae4ac390999211de27da55255a66ec0a4b19403c1cbad543f3717a",
+      "afterSha256": "d1aa494bd1ae4ac390999211de27da55255a66ec0a4b19403c1cbad543f3717a",
+      "identical": true
+    },
+    {
+      "path": "vintage-gibson-country-western-value-guide/index.html",
+      "sha256": "da73bf13144978bc93f17ba005ccc712e769760e5befb089216a284bbb1e3475",
+      "afterSha256": "da73bf13144978bc93f17ba005ccc712e769760e5befb089216a284bbb1e3475",
+      "identical": true
+    },
+    {
+      "path": "vintage-gibson-dove-value-guide/index.html",
+      "sha256": "072cd0682fb1beae9c76d130c3c3a901b7167ec80546bfb5f24278cde38930ab",
+      "afterSha256": "072cd0682fb1beae9c76d130c3c3a901b7167ec80546bfb5f24278cde38930ab",
+      "identical": true
+    },
+    {
+      "path": "vintage-gibson-es-125-value-guide/index.html",
+      "sha256": "a88825d931f70fc06a872bcf11896e5a619427af0b671bb71886ab9850dab06b",
+      "afterSha256": "a88825d931f70fc06a872bcf11896e5a619427af0b671bb71886ab9850dab06b",
+      "identical": true
+    },
+    {
+      "path": "vintage-gibson-es-330-value-guide/index.html",
+      "sha256": "69fd0451f634eaebf9c93c97f50295ca802c229932210f7f380411ae0317d829",
+      "afterSha256": "69fd0451f634eaebf9c93c97f50295ca802c229932210f7f380411ae0317d829",
+      "identical": true
+    },
+    {
+      "path": "vintage-gibson-es-335-value-guide/index.html",
+      "sha256": "e5e13984d7ada27e7d529a36d50a6887dc4eeaf18baa6950907e6d96acf1c1fa",
+      "afterSha256": "e5e13984d7ada27e7d529a36d50a6887dc4eeaf18baa6950907e6d96acf1c1fa",
+      "identical": true
+    },
+    {
+      "path": "vintage-gibson-es-355-value-guide/index.html",
+      "sha256": "ee51bc7bd9d10d0a13a81a56350685f64a32f3134c83231884f336c9aeea4334",
+      "afterSha256": "ee51bc7bd9d10d0a13a81a56350685f64a32f3134c83231884f336c9aeea4334",
+      "identical": true
+    },
+    {
+      "path": "vintage-gibson-j-200-value-guide/index.html",
+      "sha256": "65e83f17207dd8c65a4bc0dd39862f20de07377f0d8d6cc530263d9e7236bb2c",
+      "afterSha256": "65e83f17207dd8c65a4bc0dd39862f20de07377f0d8d6cc530263d9e7236bb2c",
+      "identical": true
+    },
+    {
+      "path": "vintage-gibson-j-45-value-guide/index.html",
+      "sha256": "c561742a005c32e8c1fa985f9c1b82ef073a9d6b34ef1c59928841871366104b",
+      "afterSha256": "c561742a005c32e8c1fa985f9c1b82ef073a9d6b34ef1c59928841871366104b",
+      "identical": true
+    },
+    {
+      "path": "vintage-gibson-l-0-l-00-value-guide/index.html",
+      "sha256": "f8cd6c91b95c7e62d125500e723d55409fd9a9052c875648072ec16d0b5ed70f",
+      "afterSha256": "f8cd6c91b95c7e62d125500e723d55409fd9a9052c875648072ec16d0b5ed70f",
+      "identical": true
+    },
+    {
+      "path": "vintage-gibson-les-paul-custom-value-guide/index.html",
+      "sha256": "e97b5cc3063b41d0347db41aad46430869853daa523b64b0945702b61e18fb2f",
+      "afterSha256": "e97b5cc3063b41d0347db41aad46430869853daa523b64b0945702b61e18fb2f",
+      "identical": true
+    },
+    {
+      "path": "vintage-gibson-les-paul-junior-value-guide/index.html",
+      "sha256": "7846763a63f2da3721afae4802c86a4871b423fb541d756df426799ea5259e4f",
+      "afterSha256": "7846763a63f2da3721afae4802c86a4871b423fb541d756df426799ea5259e4f",
+      "identical": true
+    },
+    {
+      "path": "vintage-gibson-les-paul-special-value-guide/index.html",
+      "sha256": "f90613c07fa2da1d2902e322f71692986622f9443b68b379aab992816856f2fe",
+      "afterSha256": "f90613c07fa2da1d2902e322f71692986622f9443b68b379aab992816856f2fe",
+      "identical": true
+    },
+    {
+      "path": "vintage-gibson-lg-series-value-guide/index.html",
+      "sha256": "32c1d6528559ed95fab2915ae900c0028634de76a1f9b23fc6ac9e886e5f9fae",
+      "afterSha256": "32c1d6528559ed95fab2915ae900c0028634de76a1f9b23fc6ac9e886e5f9fae",
+      "identical": true
+    },
+    {
+      "path": "vintage-gibson-sg-custom-value-guide/index.html",
+      "sha256": "9ba514d1aaf153611ea6c75258a5e4029dff2494d76369682775cd58db778524",
+      "afterSha256": "9ba514d1aaf153611ea6c75258a5e4029dff2494d76369682775cd58db778524",
+      "identical": true
+    },
+    {
+      "path": "vintage-gibson-sg-junior-value-guide/index.html",
+      "sha256": "148fed793ed3e8b73d5c205aebff54cedc35e3a9b53b9583075254dd0ca46ecb",
+      "afterSha256": "148fed793ed3e8b73d5c205aebff54cedc35e3a9b53b9583075254dd0ca46ecb",
+      "identical": true
+    },
+    {
+      "path": "vintage-gibson-sg-special-value-guide/index.html",
+      "sha256": "1c9e3e84ae7e4d69b2fc4015c5b721ffea7a8f6296d9a6f2de5629ee6c10e1fc",
+      "afterSha256": "1c9e3e84ae7e4d69b2fc4015c5b721ffea7a8f6296d9a6f2de5629ee6c10e1fc",
+      "identical": true
+    },
+    {
+      "path": "vintage-gibson-sg-standard-value-guide/index.html",
+      "sha256": "98cb71566e505ae06c8b0e1ceabb9a35a0e71d8b8ccc3c19ae7129e2d3576669",
+      "afterSha256": "98cb71566e505ae06c8b0e1ceabb9a35a0e71d8b8ccc3c19ae7129e2d3576669",
+      "identical": true
+    },
+    {
+      "path": "vintage-gibson-sg-value-guide/index.html",
+      "sha256": "f1615b8790af4ab00c56c6b8f3426c9357ec279702cc568ef6e7367eece4274b",
+      "afterSha256": "f1615b8790af4ab00c56c6b8f3426c9357ec279702cc568ef6e7367eece4274b",
+      "identical": true
+    },
+    {
+      "path": "vintage-gibson-southern-jumbo-value-guide/index.html",
+      "sha256": "d2c276a7cca8e33d31bab0d1c8573112eae874a847efa62f266496499c398dfe",
+      "afterSha256": "d2c276a7cca8e33d31bab0d1c8573112eae874a847efa62f266496499c398dfe",
+      "identical": true
+    },
+    {
+      "path": "vintage-gibson-value-guide/index.html",
+      "sha256": "09f84df5fca9903ff7323ff76a9d3ec8784ebff7b54ea33547707f2561fab729",
+      "afterSha256": "09f84df5fca9903ff7323ff76a9d3ec8784ebff7b54ea33547707f2561fab729",
+      "identical": true
+    },
+    {
+      "path": "post/1952-fender-precision-bass-guide/index.html",
+      "sha256": "0426ef1302094922a62cc038a07b80c424a9336499efc0745c8e6f979e3b9b82",
+      "afterSha256": "0426ef1302094922a62cc038a07b80c424a9336499efc0745c8e6f979e3b9b82",
+      "identical": true
+    },
+    {
+      "path": "post/1955-1958-tv-yellow-les-paul-special-guide/index.html",
+      "sha256": "771e3f840a2a9b34522289bb39f3e1ab8733c1bf608e9539c9e2211ab2e93370",
+      "afterSha256": "771e3f840a2a9b34522289bb39f3e1ab8733c1bf608e9539c9e2211ab2e93370",
+      "identical": true
+    },
+    {
+      "path": "post/1959-gibson-es-335-authentication-guide/index.html",
+      "sha256": "86eda6e4a066ced45ba13d3a6a712bb4f82586c1e0fc256a9867b55ca7e5df22",
+      "afterSha256": "86eda6e4a066ced45ba13d3a6a712bb4f82586c1e0fc256a9867b55ca7e5df22",
+      "identical": true
+    },
+    {
+      "path": "post/1959-gibson-es-355-history-value/index.html",
+      "sha256": "2d42e52a9957af566d0c30806942ccda4337aa8cc8aac354e7a726c395836138",
+      "afterSha256": "2d42e52a9957af566d0c30806942ccda4337aa8cc8aac354e7a726c395836138",
+      "identical": true
+    },
+    {
+      "path": "post/1962-gibson-es-335-guide/index.html",
+      "sha256": "b67a0fc9dca49728ee34efdd463f3a2f985dfc645b387190360291399f093d20",
+      "afterSha256": "b67a0fc9dca49728ee34efdd463f3a2f985dfc645b387190360291399f093d20",
+      "identical": true
+    },
+    {
+      "path": "post/1965-gibson-es-335-short-maestro-vibrola/index.html",
+      "sha256": "92883a8e22f4d88318b44d06d4a85e1b06edd133e90fe954bc51c90ed481c8bc",
+      "afterSha256": "92883a8e22f4d88318b44d06d4a85e1b06edd133e90fe954bc51c90ed481c8bc",
+      "identical": true
+    },
+    {
+      "path": "post/1966-gibson-es-335-authentication-guide/index.html",
+      "sha256": "6fe055a3d1036040c1b6afcc05cb3a82cf44c9d38c576de4fbd09145fd915e74",
+      "afterSha256": "6fe055a3d1036040c1b6afcc05cb3a82cf44c9d38c576de4fbd09145fd915e74",
+      "identical": true
+    },
+    {
+      "path": "post/1968-gibson-es-335-guide/index.html",
+      "sha256": "14d8cff0822f89d6da78e667b4937c2b21c42a36697c0c9aadfcef18b31533ef",
+      "afterSha256": "14d8cff0822f89d6da78e667b4937c2b21c42a36697c0c9aadfcef18b31533ef",
+      "identical": true
+    },
+    {
+      "path": "post/fender-jazzmaster-evolution-guide-1958-1971/index.html",
+      "sha256": "d6050b228c0d3a1c5018eb48680a25aae0e4254fb90645ec68cd221191a31768",
+      "afterSha256": "d6050b228c0d3a1c5018eb48680a25aae0e4254fb90645ec68cd221191a31768",
+      "identical": true
+    },
+    {
+      "path": "post/fender-mustang-history-value/index.html",
+      "sha256": "be8e79cec40a80c299ae0840de242e728f027602012e37ff3db3f648c3428462",
+      "afterSha256": "be8e79cec40a80c299ae0840de242e728f027602012e37ff3db3f648c3428462",
+      "identical": true
+    },
+    {
+      "path": "post/gibson-byrdland-authentication-guide/index.html",
+      "sha256": "24cae986bc342b24ca9ba6b0a832e5dc586286152c390ff65eb55586c9931fb7",
+      "afterSha256": "24cae986bc342b24ca9ba6b0a832e5dc586286152c390ff65eb55586c9931fb7",
+      "identical": true
+    },
+    {
+      "path": "post/gibson-es-125-guide/index.html",
+      "sha256": "3f6e5ec017bd76585438ede77a38fd79aab960ddaca4baedcb20307fb8400525",
+      "afterSha256": "3f6e5ec017bd76585438ede77a38fd79aab960ddaca4baedcb20307fb8400525",
+      "identical": true
+    },
+    {
+      "path": "post/gibson-es-335-345-355-guide/index.html",
+      "sha256": "e0b7e33c51f7a0307dfcc8870be62c1ac6d2e17e042d017cda7e92b07e536df5",
+      "afterSha256": "e0b7e33c51f7a0307dfcc8870be62c1ac6d2e17e042d017cda7e92b07e536df5",
+      "identical": true
+    },
+    {
+      "path": "post/gibson-es-345-history-value/index.html",
+      "sha256": "fda177b6a0ab290addc23c41b51243bc5feedbf9f00cfe9427f8e23392c7d286",
+      "afterSha256": "fda177b6a0ab290addc23c41b51243bc5feedbf9f00cfe9427f8e23392c7d286",
+      "identical": true
+    },
+    {
+      "path": "post/gibson-es-5-switchmaster-history-value/index.html",
+      "sha256": "5eb3a43a643c7c85f9d8629e1a830cae2dc75b247e2b89cb3f9910bdafd3c54a",
+      "afterSha256": "5eb3a43a643c7c85f9d8629e1a830cae2dc75b247e2b89cb3f9910bdafd3c54a",
+      "identical": true
+    },
+    {
+      "path": "post/gibson-firebird-history-authentication-value/index.html",
+      "sha256": "11d92859d6e2a0c6abda1c5167a28e0911d5b511cbe1d6d2998d952ad26d92cd",
+      "afterSha256": "11d92859d6e2a0c6abda1c5167a28e0911d5b511cbe1d6d2998d952ad26d92cd",
+      "identical": true
+    },
+    {
+      "path": "post/gibson-j200-model-history-authentication-guide/index.html",
+      "sha256": "4ea4ce9b83c3006bec06bebd51a7be4f9f1f2111d86ffa3065ce3f8f6070690b",
+      "afterSha256": "4ea4ce9b83c3006bec06bebd51a7be4f9f1f2111d86ffa3065ce3f8f6070690b",
+      "identical": true
+    },
+    {
+      "path": "post/gibson-l5-ces-value-guide/index.html",
+      "sha256": "24bf9ec2ca40807993a260140eff8842edf00873fb9ff9d93ce49e459ce176ba",
+      "afterSha256": "24bf9ec2ca40807993a260140eff8842edf00873fb9ff9d93ce49e459ce176ba",
+      "identical": true
+    },
+    {
+      "path": "post/gibson-les-paul-junior-guide/index.html",
+      "sha256": "b91e08ed3d9d2aba2663bc558dbb808eb3b048a9ecb2ca7f1cc9fb52c3788c61",
+      "afterSha256": "b91e08ed3d9d2aba2663bc558dbb808eb3b048a9ecb2ca7f1cc9fb52c3788c61",
+      "identical": true
+    },
+    {
+      "path": "post/gretsch-anniversary-authentication-guide/index.html",
+      "sha256": "b38b5768676bc54ce0e6aef048c8b4f3fe4da9d3ad992b9a4df72259f4c2b805",
+      "afterSha256": "b38b5768676bc54ce0e6aef048c8b4f3fe4da9d3ad992b9a4df72259f4c2b805",
+      "identical": true
+    },
+    {
+      "path": "post/gretsch-anniversary-value-guide/index.html",
+      "sha256": "ddcf66b5b87a15dc5e9d9d3239ea25fa33d224694c33c6cb2e6f75b68c7379f8",
+      "afterSha256": "ddcf66b5b87a15dc5e9d9d3239ea25fa33d224694c33c6cb2e6f75b68c7379f8",
+      "identical": true
+    },
+    {
+      "path": "post/gretsch-country-gentleman-authentication-guide/index.html",
+      "sha256": "eb71f12313c0945744374d211d134a30798a173f735971b8312fbaf268166e0d",
+      "afterSha256": "eb71f12313c0945744374d211d134a30798a173f735971b8312fbaf268166e0d",
+      "identical": true
+    },
+    {
+      "path": "post/gretsch-country-gentleman-value-guide/index.html",
+      "sha256": "33d0a91ded9176358c261648e823ef9d1d69faa946e13ade364175da0cb39b30",
+      "afterSha256": "33d0a91ded9176358c261648e823ef9d1d69faa946e13ade364175da0cb39b30",
+      "identical": true
+    },
+    {
+      "path": "post/gretsch-white-falcon-authentication-guide/index.html",
+      "sha256": "b8274ee6a65c230050a6b93e91399143e56cde7703671ccf65f0c7fc721d4499",
+      "afterSha256": "b8274ee6a65c230050a6b93e91399143e56cde7703671ccf65f0c7fc721d4499",
+      "identical": true
+    },
+    {
+      "path": "post/gretsch-white-falcon-value-guide/index.html",
+      "sha256": "a6fc619be642a08ef9f52ff444c69f79b6f0986f9036099d3f92946a7770adfe",
+      "afterSha256": "a6fc619be642a08ef9f52ff444c69f79b6f0986f9036099d3f92946a7770adfe",
+      "identical": true
+    },
+    {
+      "path": "post/guild-starfire-authentication-guide/index.html",
+      "sha256": "2b3f66c08b565d242d5f34783cb7f6711b635cbc8762abfe2cfa0154754f22d7",
+      "afterSha256": "2b3f66c08b565d242d5f34783cb7f6711b635cbc8762abfe2cfa0154754f22d7",
+      "identical": true
+    },
+    {
+      "path": "post/guild-starfire-value-guide/index.html",
+      "sha256": "370a2750272d29d22629699ed3c983834b730678dfe038a8014132507388293d",
+      "afterSha256": "370a2750272d29d22629699ed3c983834b730678dfe038a8014132507388293d",
+      "identical": true
+    },
+    {
+      "path": "post/identify-vintage-gibson-j45-j50-sj/index.html",
+      "sha256": "5647a92ee858440550c878891669d3993e73a025243ab9cee4fa3688e97ff25d",
+      "afterSha256": "5647a92ee858440550c878891669d3993e73a025243ab9cee4fa3688e97ff25d",
+      "identical": true
+    },
+    {
+      "path": "post/joesvintageguitarsaz-com-identify-gibson-lg-series/index.html",
+      "sha256": "47cf4f8a4580151dcac6d5a481b713f2b901ff1e95701706ce52e265554ff110",
+      "afterSha256": "47cf4f8a4580151dcac6d5a481b713f2b901ff1e95701706ce52e265554ff110",
+      "identical": true
+    },
+    {
+      "path": "post/national-resonator-guitar-authentication-guide/index.html",
+      "sha256": "9a026892aef7ec11b1d272ba7964b5906690032bbf3c6816045be6f4bc2386bb",
+      "afterSha256": "9a026892aef7ec11b1d272ba7964b5906690032bbf3c6816045be6f4bc2386bb",
+      "identical": true
+    },
+    {
+      "path": "post/national-resonator-guitar-value-guide/index.html",
+      "sha256": "6a91c480e938c638aaf01927e3f1d5922bbb8570200af6cc077c1f47884c4794",
+      "afterSha256": "6a91c480e938c638aaf01927e3f1d5922bbb8570200af6cc077c1f47884c4794",
+      "identical": true
+    },
+    {
+      "path": "post/norlin-les-paul-custom-year-guide/index.html",
+      "sha256": "76c145ef588771cd895f5ad91b5677f20b73604b8e63d6fb2c2ff07fef876800",
+      "afterSha256": "76c145ef588771cd895f5ad91b5677f20b73604b8e63d6fb2c2ff07fef876800",
+      "identical": true
+    },
+    {
+      "path": "post/rickenbacker-12-string-authentication-guide/index.html",
+      "sha256": "23517bfd715b1259b150ad46fa39a0926547438fefb9efc4afa789e756ba29f2",
+      "afterSha256": "23517bfd715b1259b150ad46fa39a0926547438fefb9efc4afa789e756ba29f2",
+      "identical": true
+    },
+    {
+      "path": "post/rickenbacker-12-string-value-guide/index.html",
+      "sha256": "49ee2f094cef4f16ce8c23abb1d0388ce9eeb9c6cb6e0f06a29045cf7a985b53",
+      "afterSha256": "49ee2f094cef4f16ce8c23abb1d0388ce9eeb9c6cb6e0f06a29045cf7a985b53",
+      "identical": true
+    },
+    {
+      "path": "post/rickenbacker-3000-3001-authentication-guide/index.html",
+      "sha256": "b63714914464f81be3e465abdaaa5a3bde22b16a92906bab4c4bfefb5cfa560f",
+      "afterSha256": "b63714914464f81be3e465abdaaa5a3bde22b16a92906bab4c4bfefb5cfa560f",
+      "identical": true
+    },
+    {
+      "path": "post/rickenbacker-3000-3001-value-guide/index.html",
+      "sha256": "cd20f13e0d44b2fa84b89a97009578c1b602f7acb2fa91124f1195a0c53bd9bd",
+      "afterSha256": "cd20f13e0d44b2fa84b89a97009578c1b602f7acb2fa91124f1195a0c53bd9bd",
+      "identical": true
+    },
+    {
+      "path": "post/rickenbacker-325-authentication-guide/index.html",
+      "sha256": "ce9ee9dcb72f0c6c3d755d5f9f44adc87c1b881fc77437c5e788798fc1c3651d",
+      "afterSha256": "ce9ee9dcb72f0c6c3d755d5f9f44adc87c1b881fc77437c5e788798fc1c3651d",
+      "identical": true
+    },
+    {
+      "path": "post/rickenbacker-325-value-guide/index.html",
+      "sha256": "d1757df93bfcb2c503940b88703c5685c92f0c6f2ed2cdd3e12a0bdc820748aa",
+      "afterSha256": "d1757df93bfcb2c503940b88703c5685c92f0c6f2ed2cdd3e12a0bdc820748aa",
+      "identical": true
+    },
+    {
+      "path": "post/rickenbacker-330-340-authentication-guide/index.html",
+      "sha256": "8eb6afa11f64fb34bd97a4d084af5ae4dffd7b102a4a067f7e72ddb178073ec4",
+      "afterSha256": "8eb6afa11f64fb34bd97a4d084af5ae4dffd7b102a4a067f7e72ddb178073ec4",
+      "identical": true
+    },
+    {
+      "path": "post/rickenbacker-330-340-value-guide/index.html",
+      "sha256": "ba3d0eb76f876439ae0377fead4786a5f811524ded519dda64af7e2152929a67",
+      "afterSha256": "ba3d0eb76f876439ae0377fead4786a5f811524ded519dda64af7e2152929a67",
+      "identical": true
+    },
+    {
+      "path": "post/rickenbacker-360-370-authentication-guide/index.html",
+      "sha256": "091222fad90c355599ae1ac03374b7350e7da6f2dadf2d10f390f30f65d8f9ae",
+      "afterSha256": "091222fad90c355599ae1ac03374b7350e7da6f2dadf2d10f390f30f65d8f9ae",
+      "identical": true
+    },
+    {
+      "path": "post/rickenbacker-360-370-value-guide/index.html",
+      "sha256": "892352cffc199163e95e490e74de987ad3e42bf934d940fa7793e32720ce8142",
+      "afterSha256": "892352cffc199163e95e490e74de987ad3e42bf934d940fa7793e32720ce8142",
+      "identical": true
+    },
+    {
+      "path": "post/rickenbacker-381-authentication-guide/index.html",
+      "sha256": "59795848e7be65718bbe6fbd00b181074c71df343fec0224ee88f8f0efc7f8fb",
+      "afterSha256": "59795848e7be65718bbe6fbd00b181074c71df343fec0224ee88f8f0efc7f8fb",
+      "identical": true
+    },
+    {
+      "path": "post/rickenbacker-381-value-guide/index.html",
+      "sha256": "614cc2714cc049dcce55e3ef9fd8d9b35372d872facef0f652b5c5c86582f44c",
+      "afterSha256": "614cc2714cc049dcce55e3ef9fd8d9b35372d872facef0f652b5c5c86582f44c",
+      "identical": true
+    },
+    {
+      "path": "post/rickenbacker-4000-4001-authentication-guide/index.html",
+      "sha256": "7fc0811ced38b9ded72645acc670a969f892937f44a5e0168199386ce79b2fd0",
+      "afterSha256": "7fc0811ced38b9ded72645acc670a969f892937f44a5e0168199386ce79b2fd0",
+      "identical": true
+    },
+    {
+      "path": "post/rickenbacker-4000-4001-value-guide/index.html",
+      "sha256": "72596ee4e24e390dd49a4c66327d3a94341ab9d78a9bcfaaf111495eead2f67c",
+      "afterSha256": "72596ee4e24e390dd49a4c66327d3a94341ab9d78a9bcfaaf111495eead2f67c",
+      "identical": true
+    },
+    {
+      "path": "post/rickenbacker-4002-authentication-guide/index.html",
+      "sha256": "aa0169a8385d53f1ed5554bd41c95804741fcc7d82c41f4f51f7fbb58ef1e8a8",
+      "afterSha256": "aa0169a8385d53f1ed5554bd41c95804741fcc7d82c41f4f51f7fbb58ef1e8a8",
+      "identical": true
+    },
+    {
+      "path": "post/rickenbacker-4002-value-guide/index.html",
+      "sha256": "627831d3aa203a76932f6762612320457211770fd6897e4bd97a08f8e9af3df5",
+      "afterSha256": "627831d3aa203a76932f6762612320457211770fd6897e4bd97a08f8e9af3df5",
+      "identical": true
+    },
+    {
+      "path": "post/rickenbacker-4003-authentication-guide/index.html",
+      "sha256": "25b67cb22daf2fb9a5f6c55b5922dfc3f9649c0f85db2e23d587d5452efaeac9",
+      "afterSha256": "25b67cb22daf2fb9a5f6c55b5922dfc3f9649c0f85db2e23d587d5452efaeac9",
+      "identical": true
+    },
+    {
+      "path": "post/rickenbacker-4003-value-guide/index.html",
+      "sha256": "ce3c08e89b05400bb88c719f4883248b638978742aee1f9c878cd317f2f01a45",
+      "afterSha256": "ce3c08e89b05400bb88c719f4883248b638978742aee1f9c878cd317f2f01a45",
+      "identical": true
+    },
+    {
+      "path": "post/rickenbacker-4005-authentication-guide/index.html",
+      "sha256": "57a2845cc7e39e041dd245b422a115d97db361f606a04fb32c8d6183f842b3d7",
+      "afterSha256": "57a2845cc7e39e041dd245b422a115d97db361f606a04fb32c8d6183f842b3d7",
+      "identical": true
+    },
+    {
+      "path": "post/rickenbacker-4005-value-guide/index.html",
+      "sha256": "37ec4fced20ebe2fa272fdd624a565e55e1202799e0c3b6d5c0adc05bae3cb43",
+      "afterSha256": "37ec4fced20ebe2fa272fdd624a565e55e1202799e0c3b6d5c0adc05bae3cb43",
+      "identical": true
+    },
+    {
+      "path": "post/rickenbacker-425-450-460-authentication-guide/index.html",
+      "sha256": "88ed1f0d9492188e780b135b4266705300a778ca4f92974629dc2aa479081bab",
+      "afterSha256": "88ed1f0d9492188e780b135b4266705300a778ca4f92974629dc2aa479081bab",
+      "identical": true
+    },
+    {
+      "path": "post/rickenbacker-425-450-460-value-guide/index.html",
+      "sha256": "4af0715c843f5163c66c3c90bc9995c3c8cb2933e5eb1b199040a6568840e8c1",
+      "afterSha256": "4af0715c843f5163c66c3c90bc9995c3c8cb2933e5eb1b199040a6568840e8c1",
+      "identical": true
+    },
+    {
+      "path": "post/rickenbacker-480-481-authentication-guide/index.html",
+      "sha256": "041b373334533be9c12196537f9ab8709de1bb4ac85bbcfff44a8fc08ef8b24f",
+      "afterSha256": "041b373334533be9c12196537f9ab8709de1bb4ac85bbcfff44a8fc08ef8b24f",
+      "identical": true
+    },
+    {
+      "path": "post/rickenbacker-480-481-value-guide/index.html",
+      "sha256": "5ac3d629c580be44611fef4d7d7252db338889ff0575ef39b841b9f37cfb89ca",
+      "afterSha256": "5ac3d629c580be44611fef4d7d7252db338889ff0575ef39b841b9f37cfb89ca",
+      "identical": true
+    },
+    {
+      "path": "post/rickenbacker-600-series-authentication-guide/index.html",
+      "sha256": "035ef9783f526e4cb31a40551c89337c7aa6b29b6deddd9e443bb505cfc92625",
+      "afterSha256": "035ef9783f526e4cb31a40551c89337c7aa6b29b6deddd9e443bb505cfc92625",
+      "identical": true
+    },
+    {
+      "path": "post/rickenbacker-600-series-value-guide/index.html",
+      "sha256": "17e07ace4794a1b6a6a2aa4a917c53ee9bcd83fa6bd518e0134adcca45088fcb",
+      "afterSha256": "17e07ace4794a1b6a6a2aa4a917c53ee9bcd83fa6bd518e0134adcca45088fcb",
+      "identical": true
+    },
+    {
+      "path": "post/rickenbacker-bakelite-lap-steel-authentication-guide/index.html",
+      "sha256": "c249dc95a37cf348dea466a6d409683bdb7dfacb825a82dd18e918df11719242",
+      "afterSha256": "c249dc95a37cf348dea466a6d409683bdb7dfacb825a82dd18e918df11719242",
+      "identical": true
+    },
+    {
+      "path": "post/rickenbacker-bakelite-lap-steel-value-guide/index.html",
+      "sha256": "0d4862a1c6ec51c0a7efaa9f41c0506af0d47073e624022ace38402015c1bccc",
+      "afterSha256": "0d4862a1c6ec51c0a7efaa9f41c0506af0d47073e624022ace38402015c1bccc",
+      "identical": true
+    },
+    {
+      "path": "post/rickenbacker-frying-pan-authentication-guide/index.html",
+      "sha256": "7493b3f3c1f81d3b5ed182b4b75dd95b326ac9faac145d000cdb832fea9bc2c3",
+      "afterSha256": "7493b3f3c1f81d3b5ed182b4b75dd95b326ac9faac145d000cdb832fea9bc2c3",
+      "identical": true
+    },
+    {
+      "path": "post/rickenbacker-frying-pan-value-guide/index.html",
+      "sha256": "9a54c14921e39000732339a657252608950d707d218a1d791c10f4850700407d",
+      "afterSha256": "9a54c14921e39000732339a657252608950d707d218a1d791c10f4850700407d",
+      "identical": true
+    },
+    {
+      "path": "post/vintage-fender-jaguar-guide/index.html",
+      "sha256": "be8b086c7e4af238df5b738c0f36835feb21bd7600eb8799a965b28c245c2245",
+      "afterSha256": "be8b086c7e4af238df5b738c0f36835feb21bd7600eb8799a965b28c245c2245",
+      "identical": true
+    },
+    {
+      "path": "post/vintage-fender-jazz-bass-guide/index.html",
+      "sha256": "3007bc8241a271a303b16bab3b825d8469775054db637905964f92a079637cc2",
+      "afterSha256": "3007bc8241a271a303b16bab3b825d8469775054db637905964f92a079637cc2",
+      "identical": true
+    },
+    {
+      "path": "post/vintage-gibson-hummingbird-history-value-guide/index.html",
+      "sha256": "ca19e4471cfc0533ea3b539ce3ddbc086493c7122e92273155476bea3c1afd5c",
+      "afterSha256": "ca19e4471cfc0533ea3b539ce3ddbc086493c7122e92273155476bea3c1afd5c",
+      "identical": true
+    },
+    {
+      "path": "post/vintage-gibson-sg-family-guide/index.html",
+      "sha256": "2b294455592f36199f4aa67372672bcbd3afec51789d104d3540e0511d1443ee",
+      "afterSha256": "2b294455592f36199f4aa67372672bcbd3afec51789d104d3540e0511d1443ee",
+      "identical": true
+    }
+  ],
+  "brokenInternalLinks": [],
+  "protectedBaselineNote": "The original 505d4dc comparison is retained. Two Fender value pages now differ because approved main commit 4caefc7 changed consignment copy. The Epiphone PR does not modify those files relative to current main. See current-main-protected-check.json for the integrated-production comparison.",
+  "casinoPhotoFollowup": "Joe supplied five original 1962/1965 Casino attachments. See casino-photo-update/README.md for updated image, layout and contrast evidence."
+}

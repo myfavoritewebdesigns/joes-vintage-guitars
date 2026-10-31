@@ -1,0 +1,562 @@
+[
+  {
+    "family": "epiphone-broadway",
+    "title": "Epiphone Serialization Reference",
+    "href": "https://jedistar.com/images/2024_May/BlueBookElectricSerialization.pdf",
+    "note": "Epiphone section, page 1071: the early hollowbody A-label sequence differs from Gibson’s A-prefix series; later impressed numbers require feature checks.",
+    "accessed": "2026-10-30",
+    "purpose": "Technical history and identification; value pages intentionally omit external citations."
+  },
+  {
+    "family": "epiphone-broadway",
+    "title": "New York Epiphone Model Research",
+    "href": "https://wiedler.ch/nyepireg/models.html",
+    "note": "Early Broadway development, materials and acoustic family identification.",
+    "accessed": "2026-10-30",
+    "purpose": "Technical history and identification; value pages intentionally omit external citations."
+  },
+  {
+    "family": "epiphone-broadway",
+    "title": "1954 Epiphone Catalog",
+    "href": "https://wiedler.ch/nyepireg/docs/1954_catalog.pdf",
+    "note": "Philadelphia-era acoustic Broadway construction and appointments.",
+    "accessed": "2026-10-30",
+    "purpose": "Technical history and identification; value pages intentionally omit external citations."
+  },
+  {
+    "family": "epiphone-broadway",
+    "title": "1961 Epiphone Catalog",
+    "href": "https://jazzatelier.com/wp-content/uploads/2008/11/epiphone61_catalog.pdf",
+    "note": "Kalamazoo E252 construction, dimensions, controls, hardware and finish designations.",
+    "accessed": "2026-10-30",
+    "purpose": "Technical history and identification; value pages intentionally omit external citations."
+  },
+  {
+    "family": "epiphone-broadway",
+    "title": "1964 Epiphone Catalog, Page 2",
+    "href": "https://www.vintageguitarandbass.com/epiphone/catalogues/1964_2.php",
+    "note": "Original full-depth Broadway illustration within the Kalamazoo electric line.",
+    "accessed": "2026-10-30",
+    "purpose": "Technical history and identification; value pages intentionally omit external citations."
+  },
+  {
+    "family": "epiphone-broadway",
+    "title": "JVG Sheraton History",
+    "href": "/post/epiphone-sheraton-history-value/",
+    "note": "House factory chronology, pickup transition and center-block comparison.",
+    "accessed": "2026-10-30",
+    "purpose": "Technical history and identification; value pages intentionally omit external citations."
+  },
+  {
+    "family": "epiphone-broadway",
+    "title": "JVG ES-5 History",
+    "href": "/post/gibson-es-5-switchmaster-history-value/",
+    "note": "Limited comparison of deep laminated electric construction and long scale; no production totals transferred.",
+    "accessed": "2026-10-30",
+    "purpose": "Technical history and identification; value pages intentionally omit external citations."
+  },
+  {
+    "family": "epiphone-broadway",
+    "title": "Epiphone Serial Research",
+    "href": "https://wiedler.ch/nyepireg/research.html",
+    "note": "Limits of precise pre-Gibson serial dating.",
+    "accessed": "2026-10-30",
+    "purpose": "Technical history and identification; value pages intentionally omit external citations."
+  },
+  {
+    "family": "epiphone-casino",
+    "title": "1961 Epiphone Catalog",
+    "href": "https://jazzatelier.com/wp-content/uploads/2008/11/epiphone61_catalog.pdf",
+    "note": "Original Casino listing, dimensions, scale, pickup-count choices and finish terminology.",
+    "accessed": "2026-10-30",
+    "purpose": "Technical history and identification; value pages intentionally omit external citations."
+  },
+  {
+    "family": "epiphone-casino",
+    "title": "1966 Epiphone Catalog, Page 3",
+    "href": "https://www.vintageguitarandbass.com/epiphone/catalogues/1966_3.php",
+    "note": "Original catalog image and specification matrix; use the scan, not the dealer listings below it.",
+    "accessed": "2026-10-30",
+    "purpose": "Technical history and identification; value pages intentionally omit external citations."
+  },
+  {
+    "family": "epiphone-casino",
+    "title": "Gibson’s Casino History",
+    "href": "https://www.gibson.com/blogs/gibson-gazette/a-history-of-the-epiphone-casino",
+    "note": "Manufacturer history supporting the 1961 introduction, hollowbody design, trim development and later production exclusions.",
+    "accessed": "2026-10-30",
+    "purpose": "Technical history and identification; value pages intentionally omit external citations."
+  },
+  {
+    "family": "epiphone-casino",
+    "title": "Epiphone Serialization Reference",
+    "href": "https://jedistar.com/images/2024_May/BlueBookElectricSerialization.pdf",
+    "note": "Epiphone section, page 1071: the early hollowbody A-label sequence differs from Gibson’s A-prefix series; later impressed numbers require feature checks.",
+    "accessed": "2026-10-30",
+    "purpose": "Technical history and identification; value pages intentionally omit external citations."
+  },
+  {
+    "family": "epiphone-casino",
+    "title": "JVG Gibson Serial Reference",
+    "href": "/how-to-read-gibson-serial-numbers/",
+    "note": "Kalamazoo serial ranges and the need to compare physical features.",
+    "accessed": "2026-10-30",
+    "purpose": "Technical history and identification; value pages intentionally omit external citations."
+  },
+  {
+    "family": "epiphone-casino",
+    "title": "JVG Sheraton History",
+    "href": "/post/epiphone-sheraton-history-value/",
+    "note": "House chronology for the 1957 purchase, 1958 Kalamazoo start and 1970 end of the original American line.",
+    "accessed": "2026-10-30",
+    "purpose": "Technical history and identification; value pages intentionally omit external citations."
+  },
+  {
+    "family": "epiphone-deluxe",
+    "title": "Epiphone Serialization Reference",
+    "href": "https://jedistar.com/images/2024_May/BlueBookElectricSerialization.pdf",
+    "note": "Epiphone section, page 1071: the early hollowbody A-label sequence differs from Gibson’s A-prefix series; later impressed numbers require feature checks.",
+    "accessed": "2026-10-30",
+    "purpose": "Technical history and identification; value pages intentionally omit external citations."
+  },
+  {
+    "family": "epiphone-deluxe",
+    "title": "Circa-1950 Epiphone Acoustic Catalog",
+    "href": "https://wiedler.ch/nyepireg/docs/1950_Acoustic.pdf",
+    "note": "Original acoustic DeLuxe description and its large-body comparison with the Emperor.",
+    "accessed": "2026-10-30",
+    "purpose": "Technical history and identification; value pages intentionally omit external citations."
+  },
+  {
+    "family": "epiphone-deluxe",
+    "title": "1954 Epiphone Catalog",
+    "href": "https://wiedler.ch/nyepireg/docs/1954_catalog.pdf",
+    "note": "Acoustic DeLuxe and two-pickup De Luxe Electric specifications.",
+    "accessed": "2026-10-30",
+    "purpose": "Technical history and identification; value pages intentionally omit external citations."
+  },
+  {
+    "family": "epiphone-deluxe",
+    "title": "1961 Epiphone Catalog",
+    "href": "https://jazzatelier.com/wp-content/uploads/2008/11/epiphone61_catalog.pdf",
+    "note": "Kalamazoo A212 and A212N materials, inlays, finish designations and hardware.",
+    "accessed": "2026-10-30",
+    "purpose": "Technical history and identification; value pages intentionally omit external citations."
+  },
+  {
+    "family": "epiphone-deluxe",
+    "title": "1966 Epiphone Acoustic Catalog",
+    "href": "https://www.vintageguitarandbass.com/epiphone/catalogues/1966_11.php",
+    "note": "DeLuxe acoustic dimensions and special-order notation.",
+    "accessed": "2026-10-30",
+    "purpose": "Technical history and identification; value pages intentionally omit external citations."
+  },
+  {
+    "family": "epiphone-deluxe",
+    "title": "1960 Gibson Catalog, Page 37",
+    "href": "https://www.vintageguitarandbass.com/gibson/catalogues/1960_37.php",
+    "note": "Original L-5C construction and scale for the limited Gibson comparison.",
+    "accessed": "2026-10-30",
+    "purpose": "Technical history and identification; value pages intentionally omit external citations."
+  },
+  {
+    "family": "epiphone-deluxe",
+    "title": "New York Epiphone Model Research",
+    "href": "https://wiedler.ch/nyepireg/models.html",
+    "note": "Early DeLuxe development and acoustic versus electric model distinctions.",
+    "accessed": "2026-10-30",
+    "purpose": "Technical history and identification; value pages intentionally omit external citations."
+  },
+  {
+    "family": "epiphone-deluxe",
+    "title": "JVG Sheraton History",
+    "href": "/post/epiphone-sheraton-history-value/",
+    "note": "House chronology for CMI ownership, Kalamazoo production and the 1970 move.",
+    "accessed": "2026-10-30",
+    "purpose": "Technical history and identification; value pages intentionally omit external citations."
+  },
+  {
+    "family": "epiphone-emperor",
+    "title": "Epiphone Serialization Reference",
+    "href": "https://jedistar.com/images/2024_May/BlueBookElectricSerialization.pdf",
+    "note": "Epiphone section, page 1071: the early hollowbody A-label sequence differs from Gibson’s A-prefix series; later impressed numbers require feature checks.",
+    "accessed": "2026-10-30",
+    "purpose": "Technical history and identification; value pages intentionally omit external citations."
+  },
+  {
+    "family": "epiphone-emperor",
+    "title": "Circa-1950 Epiphone Acoustic Catalog",
+    "href": "https://wiedler.ch/nyepireg/docs/1950_Acoustic.pdf",
+    "note": "Original acoustic Emperor dimensions, materials and Regent option.",
+    "accessed": "2026-10-30",
+    "purpose": "Technical history and identification; value pages intentionally omit external citations."
+  },
+  {
+    "family": "epiphone-emperor",
+    "title": "1954 Epiphone Catalog",
+    "href": "https://wiedler.ch/nyepireg/docs/1954_catalog.pdf",
+    "note": "Separate acoustic and three-pickup Emperor Electric specifications and controls.",
+    "accessed": "2026-10-30",
+    "purpose": "Technical history and identification; value pages intentionally omit external citations."
+  },
+  {
+    "family": "epiphone-emperor",
+    "title": "1961 Epiphone Catalog",
+    "href": "https://jazzatelier.com/wp-content/uploads/2008/11/epiphone61_catalog.pdf",
+    "note": "Kalamazoo E112T and E112TN dimensions, construction, hardware and controls.",
+    "accessed": "2026-10-30",
+    "purpose": "Technical history and identification; value pages intentionally omit external citations."
+  },
+  {
+    "family": "epiphone-emperor",
+    "title": "1966 Epiphone Acoustic Catalog",
+    "href": "https://www.vintageguitarandbass.com/epiphone/catalogues/1966_11.php",
+    "note": "Original A112 specification matrix and special-order notation.",
+    "accessed": "2026-10-30",
+    "purpose": "Technical history and identification; value pages intentionally omit external citations."
+  },
+  {
+    "family": "epiphone-emperor",
+    "title": "1960 Gibson Catalog, Page 37",
+    "href": "https://www.vintageguitarandbass.com/gibson/catalogues/1960_37.php",
+    "note": "Original Super 400C specification for the limited acoustic construction comparison.",
+    "accessed": "2026-10-30",
+    "purpose": "Technical history and identification; value pages intentionally omit external citations."
+  },
+  {
+    "family": "epiphone-emperor",
+    "title": "New York Epiphone Registry",
+    "href": "https://wiedler.ch/nyepireg/database.html",
+    "note": "Observed serial 68191 and its estimated date; instrument research rather than a factory ledger.",
+    "accessed": "2026-10-30",
+    "purpose": "Technical history and identification; value pages intentionally omit external citations."
+  },
+  {
+    "family": "epiphone-emperor",
+    "title": "Epiphone Serial Research",
+    "href": "https://wiedler.ch/nyepireg/research.html",
+    "note": "Limits of pre-Gibson serial dating and the evidence behind estimated dates.",
+    "accessed": "2026-10-30",
+    "purpose": "Technical history and identification; value pages intentionally omit external citations."
+  },
+  {
+    "family": "epiphone-emperor",
+    "title": "JVG Sheraton History",
+    "href": "/post/epiphone-sheraton-history-value/",
+    "note": "House chronology and New York pickup to mini-humbucker transition.",
+    "accessed": "2026-10-30",
+    "purpose": "Technical history and identification; value pages intentionally omit external citations."
+  },
+  {
+    "family": "epiphone-olympic",
+    "title": "1934 Epiphone Catalog",
+    "href": "https://acousticmusic.org/wp-content/uploads/2016/02/Epiphone-1934-Catalog.pdf",
+    "note": "Original acoustic Olympic listing.",
+    "accessed": "2026-10-30",
+    "purpose": "Technical history and identification; value pages intentionally omit external citations."
+  },
+  {
+    "family": "epiphone-olympic",
+    "title": "New York Epiphone Model Research",
+    "href": "https://wiedler.ch/nyepireg/models.html",
+    "note": "Acoustic Olympic introduction, size development and end of the original acoustic run.",
+    "accessed": "2026-10-30",
+    "purpose": "Technical history and identification; value pages intentionally omit external citations."
+  },
+  {
+    "family": "epiphone-olympic",
+    "title": "1961 Epiphone Catalog",
+    "href": "https://jazzatelier.com/wp-content/uploads/2008/11/epiphone61_catalog.pdf",
+    "note": "Original Olympic solidbody materials, full-scale and short-scale variants, pickup counts and hardware.",
+    "accessed": "2026-10-30",
+    "purpose": "Technical history and identification; value pages intentionally omit external citations."
+  },
+  {
+    "family": "epiphone-olympic",
+    "title": "1962 Epiphone Catalog, Page 9",
+    "href": "https://www.vintageguitarandbass.com/epiphone/catalogues/1962_9.php",
+    "note": "Original illustration of the earlier double-cutaway Olympic with Single, Double and three-quarter listings.",
+    "accessed": "2026-10-30",
+    "purpose": "Technical history and identification; value pages intentionally omit external citations."
+  },
+  {
+    "family": "epiphone-olympic",
+    "title": "1964 Epiphone Catalog, Page 5",
+    "href": "https://www.vintageguitarandbass.com/epiphone/catalogues/1964_5.php",
+    "note": "Original Olympic and Olympic Special catalog entries and illustrations.",
+    "accessed": "2026-10-30",
+    "purpose": "Technical history and identification; value pages intentionally omit external citations."
+  },
+  {
+    "family": "epiphone-olympic",
+    "title": "1960 Gibson Catalog, Page 12",
+    "href": "https://www.vintageguitarandbass.com/gibson/catalogues/1960_12.php",
+    "note": "Original Melody Maker description and illustration for the narrow-pickup student-solidbody comparison.",
+    "accessed": "2026-10-30",
+    "purpose": "Technical history and identification; value pages intentionally omit external citations."
+  },
+  {
+    "family": "epiphone-olympic",
+    "title": "1966 Epiphone Catalog, Page 4",
+    "href": "https://www.vintageguitarandbass.com/epiphone/catalogues/1966_4.php",
+    "note": "Solidbody specification matrix and comparison of Olympic pickups with the Crestwood family.",
+    "accessed": "2026-10-30",
+    "purpose": "Technical history and identification; value pages intentionally omit external citations."
+  },
+  {
+    "family": "epiphone-olympic",
+    "title": "JVG Crestwood History",
+    "href": "/post/vintage-epiphone-crestwood-value-history-guide/",
+    "note": "Broader Kalamazoo solidbody design chronology and Gibson-era serialization.",
+    "accessed": "2026-10-30",
+    "purpose": "Technical history and identification; value pages intentionally omit external citations."
+  },
+  {
+    "family": "epiphone-olympic",
+    "title": "JVG Gibson Serial Guide",
+    "href": "/how-to-read-gibson-serial-numbers/",
+    "note": "Number-system reference for Gibson-built Epiphones, checked against physical features.",
+    "accessed": "2026-10-30",
+    "purpose": "Technical history and identification; value pages intentionally omit external citations."
+  },
+  {
+    "family": "epiphone-sorrento",
+    "title": "1961 Epiphone Catalog",
+    "href": "https://jazzatelier.com/wp-content/uploads/2008/11/epiphone61_catalog.pdf",
+    "note": "Sorrento pickup variants, finish codes, scale, materials and short-scale listing.",
+    "accessed": "2026-10-30",
+    "purpose": "Technical history and identification; value pages intentionally omit external citations."
+  },
+  {
+    "family": "epiphone-sorrento",
+    "title": "1966 Epiphone Catalog, Page 3",
+    "href": "https://www.vintageguitarandbass.com/epiphone/catalogues/1966_3.php",
+    "note": "Later headstock and oval-marker illustration with model matrix.",
+    "accessed": "2026-10-30",
+    "purpose": "Technical history and identification; value pages intentionally omit external citations."
+  },
+  {
+    "family": "epiphone-sorrento",
+    "title": "1960 Gibson Catalog, Page 9",
+    "href": "https://www.vintageguitarandbass.com/gibson/catalogues/1960_9.php",
+    "note": "ES-125TC and TDC comparison for construction and standard scale.",
+    "accessed": "2026-10-30",
+    "purpose": "Technical history and identification; value pages intentionally omit external citations."
+  },
+  {
+    "family": "epiphone-sorrento",
+    "title": "JVG Sheraton History",
+    "href": "/post/epiphone-sheraton-history-value/",
+    "note": "Ownership, Kalamazoo production and the 1970 factory boundary.",
+    "accessed": "2026-10-30",
+    "purpose": "Technical history and identification; value pages intentionally omit external citations."
+  },
+  {
+    "family": "epiphone-sorrento",
+    "title": "Epiphone Serialization Reference",
+    "href": "https://jedistar.com/images/2024_May/BlueBookElectricSerialization.pdf",
+    "note": "Epiphone section, page 1071: the early hollowbody A-label sequence differs from Gibson’s A-prefix series; later impressed numbers require feature checks.",
+    "accessed": "2026-10-30",
+    "purpose": "Technical history and identification; value pages intentionally omit external citations."
+  },
+  {
+    "family": "epiphone-sorrento",
+    "title": "JVG Gibson Serial Guide",
+    "href": "/how-to-read-gibson-serial-numbers/",
+    "note": "Serial interpretation and corroborating physical features.",
+    "accessed": "2026-10-30",
+    "purpose": "Technical history and identification; value pages intentionally omit external citations."
+  },
+  {
+    "family": "epiphone-triumph",
+    "title": "Epiphone Serialization Reference",
+    "href": "https://jedistar.com/images/2024_May/BlueBookElectricSerialization.pdf",
+    "note": "Epiphone section, page 1071: the early hollowbody A-label sequence differs from Gibson’s A-prefix series; later impressed numbers require feature checks.",
+    "accessed": "2026-10-30",
+    "purpose": "Technical history and identification; value pages intentionally omit external citations."
+  },
+  {
+    "family": "epiphone-triumph",
+    "title": "1934 Epiphone Catalog",
+    "href": "https://acousticmusic.org/wp-content/uploads/2016/02/Epiphone-1934-Catalog.pdf",
+    "note": "Original Triumph materials and early acoustic specification.",
+    "accessed": "2026-10-30",
+    "purpose": "Technical history and identification; value pages intentionally omit external citations."
+  },
+  {
+    "family": "epiphone-triumph",
+    "title": "1954 Epiphone Catalog",
+    "href": "https://wiedler.ch/nyepireg/docs/1954_catalog.pdf",
+    "note": "Triumph acoustic, cutaway, finish and tenor versions during the Philadelphia period.",
+    "accessed": "2026-10-30",
+    "purpose": "Technical history and identification; value pages intentionally omit external citations."
+  },
+  {
+    "family": "epiphone-triumph",
+    "title": "1961 Epiphone Catalog",
+    "href": "https://jazzatelier.com/wp-content/uploads/2008/11/epiphone61_catalog.pdf",
+    "note": "A412 and A412N construction, neck, bridge, hardware and finish designations.",
+    "accessed": "2026-10-30",
+    "purpose": "Technical history and identification; value pages intentionally omit external citations."
+  },
+  {
+    "family": "epiphone-triumph",
+    "title": "1966 Epiphone Acoustic Catalog",
+    "href": "https://www.vintageguitarandbass.com/epiphone/catalogues/1966_11.php",
+    "note": "Original specification matrix for the Kalamazoo Triumph.",
+    "accessed": "2026-10-30",
+    "purpose": "Technical history and identification; value pages intentionally omit external citations."
+  },
+  {
+    "family": "epiphone-triumph",
+    "title": "1960 Gibson Catalog, Page 38",
+    "href": "https://www.vintageguitarandbass.com/gibson/catalogues/1960_38.php",
+    "note": "Original L-7C specification used for the limited Gibson comparison.",
+    "accessed": "2026-10-30",
+    "purpose": "Technical history and identification; value pages intentionally omit external citations."
+  },
+  {
+    "family": "epiphone-triumph",
+    "title": "New York Epiphone Research",
+    "href": "https://wiedler.ch/nyepireg/research.html",
+    "note": "Model-batch numbering and limits of precise pre-Gibson serial dating.",
+    "accessed": "2026-10-30",
+    "purpose": "Technical history and identification; value pages intentionally omit external citations."
+  },
+  {
+    "family": "epiphone-triumph",
+    "title": "JVG Sheraton History",
+    "href": "/post/epiphone-sheraton-history-value/",
+    "note": "House ownership and factory chronology.",
+    "accessed": "2026-10-30",
+    "purpose": "Technical history and identification; value pages intentionally omit external citations."
+  },
+  {
+    "family": "epiphone-windsor",
+    "title": "1961 Epiphone Catalog",
+    "href": "https://jazzatelier.com/wp-content/uploads/2008/11/epiphone61_catalog.pdf",
+    "note": "Windsor body, neck, gold hardware, markers and all four model-code listings.",
+    "accessed": "2026-10-30",
+    "purpose": "Technical history and identification; value pages intentionally omit external citations."
+  },
+  {
+    "family": "epiphone-windsor",
+    "title": "2026 Vintage Guitar Price Guide",
+    "href": "https://online.fliphtml5.com/pyepf/xldo/",
+    "note": "Windsor model dates and early versus later pickup groups; page 90.",
+    "accessed": "2026-10-30",
+    "purpose": "Technical history and identification; value pages intentionally omit external citations."
+  },
+  {
+    "family": "epiphone-windsor",
+    "title": "1960 Gibson Catalog, Page 9",
+    "href": "https://www.vintageguitarandbass.com/gibson/catalogues/1960_9.php",
+    "note": "ES-125TC construction and scale for the limited Gibson comparison.",
+    "accessed": "2026-10-30",
+    "purpose": "Technical history and identification; value pages intentionally omit external citations."
+  },
+  {
+    "family": "epiphone-windsor",
+    "title": "New York Epiphone Model Research",
+    "href": "https://wiedler.ch/nyepireg/models.html",
+    "note": "Separate Windsor mandolin naming and older electric pickup-family context.",
+    "accessed": "2026-10-30",
+    "purpose": "Technical history and identification; value pages intentionally omit external citations."
+  },
+  {
+    "family": "epiphone-windsor",
+    "title": "JVG Sheraton History",
+    "href": "/post/epiphone-sheraton-history-value/",
+    "note": "Factory ownership chronology and New York pickup to mini-humbucker transition.",
+    "accessed": "2026-10-30",
+    "purpose": "Technical history and identification; value pages intentionally omit external citations."
+  },
+  {
+    "family": "epiphone-windsor",
+    "title": "Epiphone Serialization Reference",
+    "href": "https://jedistar.com/images/2024_May/BlueBookElectricSerialization.pdf",
+    "note": "Epiphone section, page 1071: the early hollowbody A-label sequence differs from Gibson’s A-prefix series; later impressed numbers require feature checks.",
+    "accessed": "2026-10-30",
+    "purpose": "Technical history and identification; value pages intentionally omit external citations."
+  },
+  {
+    "family": "epiphone-windsor",
+    "title": "JVG Gibson Serial Guide",
+    "href": "/how-to-read-gibson-serial-numbers/",
+    "note": "Kalamazoo serial interpretation and physical corroboration.",
+    "accessed": "2026-10-30",
+    "purpose": "Technical history and identification; value pages intentionally omit external citations."
+  },
+  {
+    "family": "epiphone-zephyr",
+    "title": "1954 Epiphone Catalog",
+    "href": "https://wiedler.ch/nyepireg/docs/1954_catalog.pdf",
+    "note": "Ordinary Zephyr Electric, cutaway, non-cutaway and tenor descriptions; separate DeLuxe and Emperor electrics.",
+    "accessed": "2026-10-30",
+    "purpose": "Technical history and identification; value pages intentionally omit external citations."
+  },
+  {
+    "family": "epiphone-zephyr",
+    "title": "1961 Epiphone Catalog",
+    "href": "https://jazzatelier.com/wp-content/uploads/2008/11/epiphone61_catalog.pdf",
+    "note": "E312T and E312TN construction, two-pickup controls, dimensions, scale and hardware.",
+    "accessed": "2026-10-30",
+    "purpose": "Technical history and identification; value pages intentionally omit external citations."
+  },
+  {
+    "family": "epiphone-zephyr",
+    "title": "New York Epiphone Model Research",
+    "href": "https://wiedler.ch/nyepireg/models.html",
+    "note": "Early Zephyr Spanish development, Regent naming and the separate electric families.",
+    "accessed": "2026-10-30",
+    "purpose": "Technical history and identification; value pages intentionally omit external citations."
+  },
+  {
+    "family": "epiphone-zephyr",
+    "title": "1960 Gibson Catalog, Page 9",
+    "href": "https://www.vintageguitarandbass.com/gibson/catalogues/1960_9.php",
+    "note": "The limited ES-125 thinline construction comparison.",
+    "accessed": "2026-10-30",
+    "purpose": "Technical history and identification; value pages intentionally omit external citations."
+  },
+  {
+    "family": "epiphone-zephyr",
+    "title": "JVG Sheraton History",
+    "href": "/post/epiphone-sheraton-history-value/",
+    "note": "House factory chronology and New York pickup to mini-humbucker transition.",
+    "accessed": "2026-10-30",
+    "purpose": "Technical history and identification; value pages intentionally omit external citations."
+  },
+  {
+    "family": "epiphone-zephyr",
+    "title": "Epiphone Serialization Reference",
+    "href": "https://jedistar.com/images/2024_May/BlueBookElectricSerialization.pdf",
+    "note": "Epiphone section, page 1071: the early hollowbody A-label sequence differs from Gibson’s A-prefix series; later impressed numbers require feature checks.",
+    "accessed": "2026-10-30",
+    "purpose": "Technical history and identification; value pages intentionally omit external citations."
+  },
+  {
+    "family": "epiphone-zephyr",
+    "title": "JVG Gibson Serial Guide",
+    "href": "/how-to-read-gibson-serial-numbers/",
+    "note": "Kalamazoo serial interpretation and corroborating features.",
+    "accessed": "2026-10-30",
+    "purpose": "Technical history and identification; value pages intentionally omit external citations."
+  },
+  {
+    "family": "all",
+    "title": "2026 Vintage Guitar Price Guide",
+    "href": null,
+    "note": "Private baseline transcriptions from pages 81, 82, 83, 87, 89 and 90; no book baseline prices published.",
+    "accessed": "2026-10-30",
+    "purpose": "113 public chart rows traced; seven ambiguous electric groups withheld in value-chart-check.json."
+  },
+  {
+    "family": "seller",
+    "title": "Approved Rickenbacker seller page",
+    "href": "https://www.joesvintageguitarsaz.com/sell-my-rickenbacker-guitar/",
+    "note": "Approved process, shipping, form, contact and seller-page structure.",
+    "accessed": "2026-10-30",
+    "purpose": "Seller page adaptation expressly requested by Joe."
+  }
+]

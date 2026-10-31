@@ -1,0 +1,6 @@
+
+=== Licensed ImageObject contentUrl == rendered <img src> ===
+  post/epiphone-casino-value-guide                             nodes=  4  OK
+  post/epiphone-casino-authentication-guide                    nodes= 13  OK
+
+TOTAL licensed-content nodes: 17, mismatches: 0

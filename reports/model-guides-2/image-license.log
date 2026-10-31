@@ -1,0 +1,23 @@
+
+=== Licensed ImageObject contentUrl == rendered <img src> ===
+  post/epiphone-broadway-value-guide                           nodes=  4  OK
+  post/epiphone-broadway-authentication-guide                  nodes= 10  OK
+  post/epiphone-casino-value-guide                             nodes=  4  OK
+  post/epiphone-casino-authentication-guide                    nodes=  8  OK
+  post/epiphone-deluxe-value-guide                             nodes=  4  OK
+  post/epiphone-deluxe-authentication-guide                    nodes=  9  OK
+  post/epiphone-emperor-value-guide                            nodes=  4  OK
+  post/epiphone-emperor-authentication-guide                   nodes= 11  OK
+  post/epiphone-olympic-value-guide                            nodes=  4  OK
+  post/epiphone-olympic-authentication-guide                   nodes= 12  OK
+  post/epiphone-sorrento-value-guide                           nodes=  4  OK
+  post/epiphone-sorrento-authentication-guide                  nodes=  7  OK
+  post/epiphone-triumph-value-guide                            nodes=  4  OK
+  post/epiphone-triumph-authentication-guide                   nodes=  9  OK
+  post/epiphone-windsor-value-guide                            nodes=  4  OK
+  post/epiphone-windsor-authentication-guide                   nodes=  7  OK
+  post/epiphone-zephyr-value-guide                             nodes=  4  OK
+  post/epiphone-zephyr-authentication-guide                    nodes=  8  OK
+  sell-my-epiphone-guitar                                      nodes=  7  OK
+
+TOTAL licensed-content nodes: 124, mismatches: 0

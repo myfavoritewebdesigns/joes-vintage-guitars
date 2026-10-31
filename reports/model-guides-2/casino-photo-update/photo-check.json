@@ -1,0 +1,121 @@
+{
+  "originals": [
+    {
+      "asset": "src/assets/images/model-guides-2/casino-1962-body.jpg",
+      "width": 2880,
+      "height": 3840,
+      "sha256": "5d6e8d1e8e9cfc80130ccf51591ff107f555edf051295b304828f80101ce561a",
+      "byteIdentical": true
+    },
+    {
+      "asset": "src/assets/images/model-guides-2/casino-1965-case.jpg",
+      "width": 962,
+      "height": 1280,
+      "sha256": "c5e1f499c42a48ffc1b371fb0355785c41795b97435c0209f4f8df97df16620e",
+      "byteIdentical": true
+    },
+    {
+      "asset": "src/assets/images/model-guides-2/casino-1965-hardware.jpg",
+      "width": 1206,
+      "height": 907,
+      "sha256": "f63e40c0932c269c9b1b206f8e90dd67816871446734345e36b71b5510f7838b",
+      "byteIdentical": true
+    },
+    {
+      "asset": "src/assets/images/model-guides-2/casino-1965-label.jpg",
+      "width": 668,
+      "height": 1280,
+      "sha256": "27b857b12430284e5599c9af080e6982a737d400b0ea01b861c3a9236ac7688e",
+      "byteIdentical": true
+    },
+    {
+      "asset": "src/assets/images/model-guides-2/casino-1962-headstock.jpg",
+      "width": 2880,
+      "height": 3840,
+      "sha256": "99f9b6a862359ba76e4e88bec58e890cf92173daac9230b409e3ef9ad933e88d",
+      "byteIdentical": true
+    }
+  ],
+  "pages": [
+    {
+      "slug": "epiphone-casino-value-guide",
+      "tablesUnchanged": true,
+      "titleUnchanged": true,
+      "descriptionUnchanged": true,
+      "hero": "1962 Epiphone Casino with black P-90 covers, dot markers and a dark pickguard",
+      "ogImage": "https://www.joesvintageguitarsaz.com/_astro/casino-1962-body.DXkUV9Uh.jpg",
+      "photos": [
+        {
+          "src": "/_astro/casino-1962-body.DXkUV9Uh_ZeCuwE.webp",
+          "alt": "1962 Epiphone Casino with black P-90 covers, dot markers and a dark pickguard"
+        },
+        {
+          "src": "/_astro/casino-1962-body.DXkUV9Uh_1Fp0hA.webp",
+          "alt": "1962 Epiphone Casino with black P-90 covers, dot markers and a dark pickguard"
+        },
+        {
+          "src": "/_astro/casino-1965-case.CXlfuJOB_Z2a38hk.webp",
+          "alt": "1965 Epiphone Casino in a gold-lined case with chrome P-90 covers and a white pickguard"
+        }
+      ]
+    },
+    {
+      "slug": "epiphone-casino-authentication-guide",
+      "tablesUnchanged": true,
+      "titleUnchanged": true,
+      "descriptionUnchanged": true,
+      "hero": "1962 Epiphone Casino with black P-90 covers, dot markers and a dark pickguard",
+      "ogImage": "https://www.joesvintageguitarsaz.com/_astro/casino-1962-body.DXkUV9Uh.jpg",
+      "photos": [
+        {
+          "src": "/_astro/casino-1962-body.DXkUV9Uh_ZeCuwE.webp",
+          "alt": "1962 Epiphone Casino with black P-90 covers, dot markers and a dark pickguard"
+        },
+        {
+          "src": "/_astro/casino-1962-body.DXkUV9Uh_1Fp0hA.webp",
+          "alt": "1962 Epiphone Casino with black P-90 covers, dot markers and a dark pickguard"
+        },
+        {
+          "src": "/_astro/casino-1965-case.CXlfuJOB_Z2a38hk.webp",
+          "alt": "1965 Epiphone Casino in a gold-lined case with chrome P-90 covers and a white pickguard"
+        },
+        {
+          "src": "/_astro/casino-1962-body.DXkUV9Uh_1Fp0hA.webp",
+          "alt": "1962 Epiphone Casino with black P-90 covers, dot markers and a dark pickguard"
+        },
+        {
+          "src": "/_astro/casino-1962-headstock.Pt-4QABh_ZiEKDy.webp",
+          "alt": "Rear headstock of a 1962 Epiphone Casino showing the stamped number and six tuners"
+        },
+        {
+          "src": "/_astro/casino-1965-case.CXlfuJOB_Z2a38hk.webp",
+          "alt": "1965 Epiphone Casino in a gold-lined case with chrome P-90 covers and a white pickguard"
+        },
+        {
+          "src": "/_astro/casino-1965-hardware.Bf9pqMDJ_3wuG3.webp",
+          "alt": "1965 Epiphone Casino close-up showing chrome P-90 covers, bridge and vibrato"
+        },
+        {
+          "src": "/_astro/casino-1965-label.t23EbMPc_Z1WumTj.webp",
+          "alt": "Internal Casino label visible through the f-hole of a 1965 Epiphone Casino"
+        },
+        {
+          "src": "/_astro/casino-2022-front.HHc2U0Xp_23yzJF.webp",
+          "alt": "2022 USA Epiphone Casino. Modern comparison only: full guitar in blue-lined case"
+        },
+        {
+          "src": "/_astro/casino-2022-body.D-lyh3YR_ZXxyCD.webp",
+          "alt": "2022 USA Epiphone Casino. Modern comparison only: two P-90 pickups and trapeze tailpiece"
+        },
+        {
+          "src": "/_astro/casino-2022-label.DIyUinY4_ZNUGEr.webp",
+          "alt": "2022 USA Epiphone Casino. Modern comparison only: blue label with serial 235420002"
+        },
+        {
+          "src": "/_astro/casino-2022-label.DIyUinY4_Z298gUp.webp",
+          "alt": "2022 USA Epiphone Casino. Modern comparison only: blue label with serial 235420002"
+        }
+      ]
+    }
+  ]
+}
