@@ -128,7 +128,7 @@
   "description": "Verified million dollar guitar auction records, with ordinary model values from Joe's guides, inflation comparisons and guitars that have sold twice.",
   "descriptionLength": 149,
   "duplicateMetadata": [],
-  "proseWords": 2583,
+  "proseWords": 2559,
   "headings": [
     "The Most Expensive Guitar Ever Sold",
     "Every Guitar Sold For $1 Million Or More",
@@ -147,23 +147,23 @@
   "maxEightGramOverlap": [
     {
       "path": "gibson-es-330-dating-guide/index.html",
-      "percentage": 0.07651109410864575
+      "percentage": 0.07704160246533127
     },
     {
       "path": "martin-d-28-d-18-d-45-dreadnought-value-guide/index.html",
-      "percentage": 0.07651109410864575
+      "percentage": 0.07704160246533127
     },
     {
       "path": "post/1958-gibson-les-paul-standard-guide/index.html",
-      "percentage": 0.07651109410864575
+      "percentage": 0.07704160246533127
     },
     {
       "path": "post/1968-1969-1970-les-paul-custom-dating-guide/index.html",
-      "percentage": 0.07651109410864575
+      "percentage": 0.07704160246533127
     },
     {
       "path": "sell-my-gibson-guitar/index.html",
-      "percentage": 0.07651109410864575
+      "percentage": 0.07704160246533127
     }
   ],
   "brokenInternalLinks": [],

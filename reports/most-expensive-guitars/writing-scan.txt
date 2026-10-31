@@ -1,17 +1,17 @@
 === /work/article-prose.txt  [policy: longform] ===
   DOCUMENT-LEVEL CHECKS (whole-draft, no line number):
-    [ok  ] contrast-pivot density     contrast density ok 0.23/200w
+    [ok  ] contrast-pivot density     contrast density ok 0.08/200w
     [ok  ] sentence-length variation  sentence variance ok SD 6.7
     [off ] specificity floor          not run under policy 'longform'
     [ok  ] section-template rhythm    heading template ok
     [ok  ] data tables                data tables ok (none)
     [ok  ] staccato beats             staccato beat ok (none)
-    [ok  ] contractions               contractions ok 17.33/1000 words
+    [ok  ] contractions               contractions ok 8.94/1000 words
     [ok  ] bold-label case            bold labels ok (none)
     [ok  ] reaction emoji             reaction emoji ok (none)
     [ok  ] praise stacking            praise stacking ok
     [off ] social channel checks      not run under policy 'longform'
     [n/a ] cross-draft similarity     needs 2+ inputs and --batch
   clean - no tier-1 or tier-2 hits
-  metrics: words=2596 contrast=0.23/200w (3 hits) sentence_sd=6.69 exempted=0
+  metrics: words=2572 contrast=0.08/200w (1 hits) sentence_sd=6.72 exempted=0
 SUMMARY /work/article-prose.txt: PASS - BAN 0, WARN 0

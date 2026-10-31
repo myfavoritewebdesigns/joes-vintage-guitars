@@ -29,6 +29,10 @@ Project handoff doc. Read this first when picking up the project in a new sessio
 
 Before publishing a new page or site changes, prepare a reviewable preview and ask Joe for explicit approval. A request to create or edit authorizes preparing the preview; it does not authorize publication. Once Joe approves that specific preview, proceed without asking again. Joe stated on 2026-10-26: "in the future you are supposed to give me a preview and ask me before pulishing."
 
+## Joe's Writing Preference
+
+Joe explicitly rejected the repeated contrast pattern “It does X. It doesn't do Y” on October 30, 2026. State the point directly. Avoid equivalent “X, not Y” and “This isn't X, it's Y” framing used for rhetorical emphasis. Keep necessary factual qualifications concise and specific.
+
 ## What this is
 
 A full rebuild of [joesvintageguitarsaz.com](https://www.joesvintageguitarsaz.com/) — currently a WordPress + Avada site — as a static **Astro 6 + Tailwind 4** site deploying to **Cloudflare Pages**. Forms will use the **Mailgun API** via a CF Pages Function (not wired yet).

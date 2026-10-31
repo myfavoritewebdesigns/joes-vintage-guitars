@@ -1,30 +1,30 @@
 $ astro build && node scripts/gen-image-sitemap.mjs && node scripts/gen-indexnow-manifest.mjs
-16:17:52 [content] Syncing content
-16:17:52 [content] Synced content
-16:17:52 [types] Generated 539ms
-16:17:52 [build] output: "static"
-16:17:52 [build] mode: "static"
-16:17:52 [build] directory: C:\Users\joeda\Documents\Codex\2026-10-30\files-pasted-by-the-user-guitars\work\site\dist\
-16:17:52 [build] Collecting build info...
-16:17:52 [build] ✓ Completed in 574ms.
-16:17:54 [build] Building static entrypoints...
-16:18:00 [vite] ✓ built in 6.31s
-16:18:00 [vite] ✓ built in 233ms
-16:18:01 [build] Rearranging server assets...
+20:30:52 [content] Syncing content
+20:30:52 [content] Synced content
+20:30:52 [types] Generated 587ms
+20:30:52 [build] output: "static"
+20:30:52 [build] mode: "static"
+20:30:52 [build] directory: C:\Users\joeda\Documents\Codex\2026-10-30\files-pasted-by-the-user-guitars\work\site\dist\
+20:30:52 [build] Collecting build info...
+20:30:52 [build] ✓ Completed in 646ms.
+20:30:54 [build] Building static entrypoints...
+20:31:00 [vite] ✓ built in 5.82s
+20:31:00 [vite] ✓ built in 274ms
+20:31:01 [build] Rearranging server assets...
 
  generating static routes
 
 [Intermediate route and cached-image lines omitted from this excerpt.]
 
-16:18:20   ▶ /_astro/Photo-7-scaled.D-h4u9l4_Z3WK4u.webp (reused cache entry) (+79ms) (15200/15203)
-16:18:20   ▶ /_astro/Dont-Laugh-scaled.Cw57uwVK_Zldaz3.webp (reused cache entry) (+3ms) (15201/15203)
-16:18:20   ▶ /_astro/Photo_10-scaled.Bhpq3Y5X_pCI9u.webp (reused cache entry) (+3ms) (15202/15203)
-16:18:20   ▶ /_astro/Photo-9-scaled.EBzEAMuu_aUavD.webp (reused cache entry) (+3ms) (15203/15203)
-16:18:20 ✓ Completed in 5.92s.
+20:31:22   ▶ /_astro/Photo-7-scaled.D-h4u9l4_Z3WK4u.webp (reused cache entry) (+3ms) (15200/15203)
+20:31:22   ▶ /_astro/Dont-Laugh-scaled.Cw57uwVK_Zldaz3.webp (reused cache entry) (+2ms) (15201/15203)
+20:31:22   ▶ /_astro/Photo_10-scaled.Bhpq3Y5X_pCI9u.webp (reused cache entry) (+2ms) (15202/15203)
+20:31:22   ▶ /_astro/Photo-9-scaled.EBzEAMuu_aUavD.webp (reused cache entry) (+3ms) (15203/15203)
+20:31:22 ✓ Completed in 6.17s.
 
-16:18:20 [build] ✓ Completed in 26.69s.
-16:18:20 [@astrojs/sitemap] `sitemap-index.xml` created at `dist`
-16:18:20 [build] 384 page(s) built in 29.30s
-16:18:20 [build] Complete!
+20:31:22 [build] ✓ Completed in 28.03s.
+20:31:22 [@astrojs/sitemap] `sitemap-index.xml` created at `dist`
+20:31:22 [build] 384 page(s) built in 30.55s
+20:31:22 [build] Complete!
 [image-sitemap] 368 pages, 3611 image entries -> dist/image-sitemap.xml
-[indexnow] 368 production URLs in manifest (4caefc7)
+[indexnow] 368 production URLs in manifest (7878961)
