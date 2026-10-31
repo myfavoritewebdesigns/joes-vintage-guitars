@@ -19,6 +19,11 @@ import triumph30Side from '../../assets/images/model-guides-2/triumph-1930s-side
 import casino22Body from '../../assets/images/model-guides-2/casino-2022-body.jpg';
 import casino22Front from '../../assets/images/model-guides-2/casino-2022-front.jpg';
 import casino22Label from '../../assets/images/model-guides-2/casino-2022-label.jpg';
+import casino62Body from '../../assets/images/model-guides-2/casino-1962-body.jpg';
+import casino62Head from '../../assets/images/model-guides-2/casino-1962-headstock.jpg';
+import casino65Case from '../../assets/images/model-guides-2/casino-1965-case.jpg';
+import casino65Hardware from '../../assets/images/model-guides-2/casino-1965-hardware.jpg';
+import casino65Label from '../../assets/images/model-guides-2/casino-1965-label.jpg';
 import emperor81Body from '../../assets/images/model-guides-2/emperor-1981-body.jpg';
 import emperor81Head from '../../assets/images/model-guides-2/emperor-1981-headstock.jpg';
 import emperorLabel from '../../assets/images/model-guides-2/emperor-1950s-label.jpg';
@@ -34,6 +39,11 @@ import broadwayBody from '../../assets/images/model-guides-2/broadway-1947-body.
 import broadwaySide from '../../assets/images/model-guides-2/broadway-1947-side.jpg';
 
 export const epiPhotos = {
+  casino62Body: {src:casino62Body,alt:'1962 Epiphone Casino with black P-90 covers, dot markers and a dark pickguard',caption:'1962 Epiphone Casino. Black P-90 covers, dot markers, dark pickguard and vibrato.',captionBelow:true,fit:'contain'},
+  casino62Head: {src:casino62Head,alt:'Rear headstock of a 1962 Epiphone Casino showing the stamped number and six tuners',caption:'1962 Epiphone Casino. Rear headstock, stamped number and six tuners.',captionBelow:true,fit:'contain'},
+  casino65Case: {src:casino65Case,alt:'1965 Epiphone Casino in a gold-lined case with chrome P-90 covers and a white pickguard',caption:'1965 Epiphone Casino. Chrome P-90 covers.',captionBelow:true,fit:'contain'},
+  casino65Hardware: {src:casino65Hardware,alt:'1965 Epiphone Casino close-up showing chrome P-90 covers, bridge and vibrato',caption:'1965 Epiphone Casino. Chrome P-90 covers, bridge and vibrato with an E-decorated panel.',captionBelow:true,fit:'contain'},
+  casino65Label: {src:casino65Label,alt:'Internal Casino label visible through the f-hole of a 1965 Epiphone Casino',caption:'1965 Epiphone Casino. Internal Casino label photographed through the f-hole.',captionBelow:true,fit:'contain'},
   broadwayFront: {src:broadwayFront,alt:'1947 Epiphone Broadway, full acoustic guitar beside its case',caption:'1947 Epiphone Broadway. Non-cutaway acoustic with block markers and Frequensator. Small original from Joe’s archive.',captionBelow:true,fit:'contain'},
   broadwayBody: {src:broadwayBody,alt:'1947 Epiphone Broadway, sunburst acoustic body',caption:'1947 Epiphone Broadway. Sunburst acoustic body and floating bridge. Small original from Joe’s archive.',captionBelow:true,fit:'contain'},
   broadwaySide: {src:broadwaySide,alt:'1947 Epiphone Broadway, deep rim and arched back',caption:'1947 Epiphone Broadway. Side view showing the deep acoustic body. Small original from Joe’s archive.',captionBelow:true,fit:'contain'},

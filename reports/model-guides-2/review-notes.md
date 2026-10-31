@@ -32,7 +32,7 @@ Other price coverage limits:
 ## In-Stock Guitars And Missing Photos
 
 - The Drive folder labeled Zephyr Regent shows a three-pickup Zephyr Emperor Regent, serial 68191. Its visible label and appointments, and the instrument registry, support Emperor-family placement. No separate ordinary in-stock Zephyr Regent photo set was verified.
-- No vintage Kalamazoo Casino set was found; Joe's brief explicitly anticipates labeled comparisons. The 2022 USA Casino is used only as an authentication exclusion example.
+- Casino photo gap resolved: Joe supplied five original attachments showing his 1962 Casino with black P-90 covers and his 1965 Casino with chrome covers. The 1962 guitar is now both guides’ featured/hero image, both vintage guitars appear in the photo bands, and all five supplied views appear in the authentication archive. The 2022 USA Casino remains a separate authentication exclusion example.
 - No Sorrento, Windsor or old acoustic Olympic set was verified after archive-index and Drive searches. Their comparisons remain explicitly named.
 - A 1947 Broadway set was found, but its largest accessible files are only 225/240 × 320 pixels. It appears in the authentication archive; higher-resolution comparison photos lead the pages.
 - Additional Triumph files labeled 1930s remain unused on the pages because their model/year was not sufficiently resolved. The 1946 Triumph with added DeArmond, readable serial 55482, is used.

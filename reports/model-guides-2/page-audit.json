@@ -114,7 +114,7 @@
       "titleLength": 53,
       "description": "Check vintage Epiphone Casino values by year and pickup count, with notes on finishes, repairs, original parts and the photos Joe needs for an appraisal.",
       "descriptionLength": 153,
-      "bodyWordsExcludingHeroNavigationTablesFaqReferencesAuthor": 1492,
+      "bodyWordsExcludingHeroNavigationTablesFaqReferencesAuthor": 1453,
       "h2": [
         "Casino Values By Year And Pickup Count",
         "How The Casino’s Period Affects Its Price",
@@ -126,8 +126,8 @@
         "Joe Dampt"
       ],
       "photos": 4,
-      "exactModelPhotos": 0,
-      "comparisonPhotos": 3,
+      "exactModelPhotos": 3,
+      "comparisonPhotos": 0,
       "existingAuthorPortrait": 1,
       "inboundCount": 3,
       "inboundSources": [
@@ -157,7 +157,7 @@
       ],
       "sellLabel": "Sell My Epiphone",
       "sellHref": "/sell-my-epiphone-guitar/",
-      "twinOverlapPercent": 2.69
+      "twinOverlapPercent": 0.37
     },
     {
       "slug": "epiphone-casino-authentication-guide",
@@ -165,13 +165,13 @@
       "titleLength": 53,
       "description": "Identify a Kalamazoo Epiphone Casino by its body, P-90 pickups, serial, label and original hardware, with clear comparisons to later Casino instruments.",
       "descriptionLength": 152,
-      "bodyWordsExcludingHeroNavigationTablesFaqReferencesAuthor": 2149,
+      "bodyWordsExcludingHeroNavigationTablesFaqReferencesAuthor": 2330,
       "h2": [
         "The Casino’s Defining Construction",
         "How The Casino Entered The Kalamazoo Line",
         "Casino Features Through The Original Run",
         "Confirm P-90s And An Unaltered Top",
-        "Joe’s Casino Comparison Photos",
+        "Joe’s Casino Photo Archive",
         "Date The Casino From Numbers And Construction",
         "Inspect A Kalamazoo Casino In Order",
         "How Later Casinos Fall Outside This Guide",
@@ -181,9 +181,9 @@
         "Keep The Evidence Together",
         "Joe Dampt"
       ],
-      "photos": 8,
-      "exactModelPhotos": 0,
-      "comparisonPhotos": 7,
+      "photos": 13,
+      "exactModelPhotos": 8,
+      "comparisonPhotos": 4,
       "existingAuthorPortrait": 1,
       "inboundCount": 3,
       "inboundSources": [
@@ -213,7 +213,7 @@
       ],
       "sellLabel": "Sell My Epiphone",
       "sellHref": "/sell-my-epiphone-guitar/",
-      "twinOverlapPercent": 2.69
+      "twinOverlapPercent": 0.37
     },
     {
       "slug": "epiphone-deluxe-value-guide",
@@ -994,15 +994,15 @@
       "a": "epiphone-broadway-value-guide",
       "b": "epiphone-casino-value-guide",
       "twin": false,
-      "articlePercent": 7.13,
-      "wholePagePercent": 12.07
+      "articlePercent": 6.08,
+      "wholePagePercent": 11.19
     },
     {
       "a": "epiphone-broadway-value-guide",
       "b": "epiphone-casino-authentication-guide",
       "twin": false,
-      "articlePercent": 1.13,
-      "wholePagePercent": 6.17
+      "articlePercent": 0.05,
+      "wholePagePercent": 5.16
     },
     {
       "a": "epiphone-broadway-value-guide",
@@ -1106,15 +1106,15 @@
       "a": "epiphone-broadway-authentication-guide",
       "b": "epiphone-casino-value-guide",
       "twin": false,
-      "articlePercent": 1.19,
-      "wholePagePercent": 6.28
+      "articlePercent": 0,
+      "wholePagePercent": 5.27
     },
     {
       "a": "epiphone-broadway-authentication-guide",
       "b": "epiphone-casino-authentication-guide",
       "twin": false,
-      "articlePercent": 5.81,
-      "wholePagePercent": 9.4
+      "articlePercent": 4.67,
+      "wholePagePercent": 8.1
     },
     {
       "a": "epiphone-broadway-authentication-guide",
@@ -1218,106 +1218,106 @@
       "a": "epiphone-casino-value-guide",
       "b": "epiphone-casino-authentication-guide",
       "twin": true,
-      "articlePercent": 2.69,
-      "wholePagePercent": 7.69
+      "articlePercent": 0.37,
+      "wholePagePercent": 5.62
     },
     {
       "a": "epiphone-casino-value-guide",
       "b": "epiphone-deluxe-value-guide",
       "twin": false,
-      "articlePercent": 5.89,
-      "wholePagePercent": 10.85
+      "articlePercent": 6.03,
+      "wholePagePercent": 11.09
     },
     {
       "a": "epiphone-casino-value-guide",
       "b": "epiphone-deluxe-authentication-guide",
       "twin": false,
-      "articlePercent": 0.05,
-      "wholePagePercent": 5.21
+      "articlePercent": 0,
+      "wholePagePercent": 5.27
     },
     {
       "a": "epiphone-casino-value-guide",
       "b": "epiphone-emperor-value-guide",
       "twin": false,
-      "articlePercent": 5.89,
-      "wholePagePercent": 10.9
+      "articlePercent": 6.03,
+      "wholePagePercent": 11.14
     },
     {
       "a": "epiphone-casino-value-guide",
       "b": "epiphone-emperor-authentication-guide",
       "twin": false,
       "articlePercent": 0,
-      "wholePagePercent": 5.16
+      "wholePagePercent": 5.27
     },
     {
       "a": "epiphone-casino-value-guide",
       "b": "epiphone-olympic-value-guide",
       "twin": false,
-      "articlePercent": 5.89,
-      "wholePagePercent": 10.85
+      "articlePercent": 6.03,
+      "wholePagePercent": 11.09
     },
     {
       "a": "epiphone-casino-value-guide",
       "b": "epiphone-olympic-authentication-guide",
       "twin": false,
       "articlePercent": 0,
-      "wholePagePercent": 5.16
+      "wholePagePercent": 5.27
     },
     {
       "a": "epiphone-casino-value-guide",
       "b": "epiphone-sorrento-value-guide",
       "twin": false,
-      "articlePercent": 7.28,
-      "wholePagePercent": 12.33
+      "articlePercent": 6.05,
+      "wholePagePercent": 11.18
     },
     {
       "a": "epiphone-casino-value-guide",
       "b": "epiphone-sorrento-authentication-guide",
       "twin": false,
-      "articlePercent": 1.19,
-      "wholePagePercent": 6.28
+      "articlePercent": 0,
+      "wholePagePercent": 5.27
     },
     {
       "a": "epiphone-casino-value-guide",
       "b": "epiphone-triumph-value-guide",
       "twin": false,
-      "articlePercent": 6.03,
-      "wholePagePercent": 11.06
+      "articlePercent": 6.14,
+      "wholePagePercent": 11.24
     },
     {
       "a": "epiphone-casino-value-guide",
       "b": "epiphone-triumph-authentication-guide",
       "twin": false,
       "articlePercent": 0,
-      "wholePagePercent": 5.16
+      "wholePagePercent": 5.27
     },
     {
       "a": "epiphone-casino-value-guide",
       "b": "epiphone-windsor-value-guide",
       "twin": false,
-      "articlePercent": 7.24,
-      "wholePagePercent": 12.17
+      "articlePercent": 6.19,
+      "wholePagePercent": 11.29
     },
     {
       "a": "epiphone-casino-value-guide",
       "b": "epiphone-windsor-authentication-guide",
       "twin": false,
-      "articlePercent": 1.24,
-      "wholePagePercent": 6.33
+      "articlePercent": 0,
+      "wholePagePercent": 5.27
     },
     {
       "a": "epiphone-casino-value-guide",
       "b": "epiphone-zephyr-value-guide",
       "twin": false,
-      "articlePercent": 5.99,
-      "wholePagePercent": 10.95
+      "articlePercent": 6.14,
+      "wholePagePercent": 11.19
     },
     {
       "a": "epiphone-casino-value-guide",
       "b": "epiphone-zephyr-authentication-guide",
       "twin": false,
-      "articlePercent": 0.05,
-      "wholePagePercent": 5.21
+      "articlePercent": 0,
+      "wholePagePercent": 5.27
     },
     {
       "a": "epiphone-casino-authentication-guide",
@@ -1330,8 +1330,8 @@
       "a": "epiphone-casino-authentication-guide",
       "b": "epiphone-deluxe-authentication-guide",
       "twin": false,
-      "articlePercent": 4.98,
-      "wholePagePercent": 8.6
+      "articlePercent": 4.61,
+      "wholePagePercent": 8.02
     },
     {
       "a": "epiphone-casino-authentication-guide",
@@ -1344,8 +1344,8 @@
       "a": "epiphone-casino-authentication-guide",
       "b": "epiphone-emperor-authentication-guide",
       "twin": false,
-      "articlePercent": 5.01,
-      "wholePagePercent": 8.64
+      "articlePercent": 4.73,
+      "wholePagePercent": 8.16
     },
     {
       "a": "epiphone-casino-authentication-guide",
@@ -1358,22 +1358,22 @@
       "a": "epiphone-casino-authentication-guide",
       "b": "epiphone-olympic-authentication-guide",
       "twin": false,
-      "articlePercent": 2.07,
-      "wholePagePercent": 5.82
+      "articlePercent": 1.96,
+      "wholePagePercent": 5.52
     },
     {
       "a": "epiphone-casino-authentication-guide",
       "b": "epiphone-sorrento-value-guide",
       "twin": false,
-      "articlePercent": 1.22,
-      "wholePagePercent": 6.44
+      "articlePercent": 0.05,
+      "wholePagePercent": 5.34
     },
     {
       "a": "epiphone-casino-authentication-guide",
       "b": "epiphone-sorrento-authentication-guide",
       "twin": false,
-      "articlePercent": 6.07,
-      "wholePagePercent": 9.79
+      "articlePercent": 5.1,
+      "wholePagePercent": 8.76
     },
     {
       "a": "epiphone-casino-authentication-guide",
@@ -1393,15 +1393,15 @@
       "a": "epiphone-casino-authentication-guide",
       "b": "epiphone-windsor-value-guide",
       "twin": false,
-      "articlePercent": 1.16,
-      "wholePagePercent": 6.15
+      "articlePercent": 0.05,
+      "wholePagePercent": 5.1
     },
     {
       "a": "epiphone-casino-authentication-guide",
       "b": "epiphone-windsor-authentication-guide",
       "twin": false,
-      "articlePercent": 6.1,
-      "wholePagePercent": 9.68
+      "articlePercent": 5.08,
+      "wholePagePercent": 8.59
     },
     {
       "a": "epiphone-casino-authentication-guide",
@@ -1414,8 +1414,8 @@
       "a": "epiphone-casino-authentication-guide",
       "b": "epiphone-zephyr-authentication-guide",
       "twin": false,
-      "articlePercent": 5.16,
-      "wholePagePercent": 8.78
+      "articlePercent": 4.9,
+      "wholePagePercent": 8.37
     },
     {
       "a": "epiphone-deluxe-value-guide",
@@ -2790,5 +2790,6 @@
     }
   ],
   "brokenInternalLinks": [],
-  "protectedBaselineNote": "The original 505d4dc comparison is retained. Two Fender value pages now differ because approved main commit 4caefc7 changed consignment copy. The Epiphone PR does not modify those files relative to current main. See current-main-protected-check.json for the integrated-production comparison."
+  "protectedBaselineNote": "The original 505d4dc comparison is retained. Two Fender value pages now differ because approved main commit 4caefc7 changed consignment copy. The Epiphone PR does not modify those files relative to current main. See current-main-protected-check.json for the integrated-production comparison.",
+  "casinoPhotoFollowup": "Joe supplied five original 1962/1965 Casino attachments. See casino-photo-update/README.md for updated image, layout and contrast evidence."
 }

@@ -7,11 +7,11 @@ excerpt: "Identify a Kalamazoo Epiphone Casino by its body, P-90 pickups, serial
 category: "specific-model-highlights"
 categoryName: "Specific Model Highlights"
 tags: ["Epiphone","Authentication Guides","Guitars"]
-heroImage: "images/model-guides-2/sheraton-1961-case.jpg"
-heroImageAlt: "Comparison photo: 1961 Epiphone Sheraton. Full guitar in its blue-lined case"
-heroImageCaption: "Comparison: 1961 Epiphone Sheraton. Full guitar in its blue-lined case. Photo from Joe’s archive. This is a Sheraton, not a Casino. Its mini-humbuckers and center-block construction differ from the Casino."
+heroImage: "images/model-guides-2/casino-1962-body.jpg"
+heroImageAlt: "1962 Epiphone Casino with black P-90 covers, dot markers and a dark pickguard"
+heroImageCaption: "1962 Epiphone Casino. Black P-90 covers, dot markers, dark pickguard and vibrato."
 heroImageLicensed: true
-ogImage: "images/model-guides-2/sheraton-1961-case.jpg"
+ogImage: "images/model-guides-2/casino-1962-body.jpg"
 metaDescription: "Identify a Kalamazoo Epiphone Casino by its body, P-90 pickups, serial, label and original hardware, with clear comparisons to later Casino instruments."
 author: "Joe Dampt"
 draft: false
