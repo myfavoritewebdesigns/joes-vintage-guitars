@@ -1,0 +1,13 @@
+---
+import Photo from '../model-guide/Photo.astro';
+import {ranked,money} from '../../data/auction-records';
+---
+<div class="mx-compare-grid">
+  {ranked.filter(r=>r.compare).map(r=>{const c=r.compare!;return <section class="mx-compare-card">
+    {r.photo&&<Photo photo={r.photo} width={900} />}
+    <div class="mx-compare-body"><p class="mx-kicker">{r.player}</p><h3>{r.nickname||r.guitar}</h3><p>{r.guitar}</p>
+    <dl><div><dt>Famous Guitar At Auction</dt><dd>{money(r.priceUsd)}</dd></div><div><dt>{c.label}</dt><dd>{money(c.low)} to {money(c.high)}</dd></div></dl>
+    <p class="mx-multiple">About <strong>{Math.floor(r.priceUsd/c.high)} times</strong> the top of the range for an all-original example.</p>
+    <p class="mx-caveat">{r.comparisonCaveat}</p><a href={c.href}>Read Joe's Model Value Guide →</a></div>
+  </section>})}
+</div>

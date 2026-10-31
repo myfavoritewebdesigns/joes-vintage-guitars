@@ -1,0 +1,171 @@
+{
+  "baseline": "4caefc78c1090af642e279ce588e116a25935aa2",
+  "protectedDocuments": 122,
+  "byteIdentical": 120,
+  "authorizedLinkExceptions": [
+    {
+      "path": "post/fender-mustang-history-value/index.html",
+      "byteIdentical": false,
+      "authorizedInboundOnly": true
+    },
+    {
+      "path": "vintage-gibson-sg-standard-value-guide/index.html",
+      "byteIdentical": false,
+      "authorizedInboundOnly": true
+    }
+  ],
+  "unexpectedProtectedChanges": [],
+  "changedPages": [
+    "blog/index.html",
+    "blog/page/10/index.html",
+    "blog/page/11/index.html",
+    "blog/page/12/index.html",
+    "blog/page/13/index.html",
+    "blog/page/14/index.html",
+    "blog/page/15/index.html",
+    "blog/page/16/index.html",
+    "blog/page/17/index.html",
+    "blog/page/18/index.html",
+    "blog/page/19/index.html",
+    "blog/page/2/index.html",
+    "blog/page/3/index.html",
+    "blog/page/4/index.html",
+    "blog/page/5/index.html",
+    "blog/page/6/index.html",
+    "blog/page/7/index.html",
+    "blog/page/8/index.html",
+    "blog/page/9/index.html",
+    "category/guitar-gear-and-tone/index.html",
+    "category/museum-original-owners/index.html",
+    "category/museum-original-owners/page/2/index.html",
+    "category/serial-number-dating-guides/index.html",
+    "category/specific-model-highlights/index.html",
+    "category/specific-model-highlights/page/10/index.html",
+    "category/specific-model-highlights/page/11/index.html",
+    "category/specific-model-highlights/page/2/index.html",
+    "category/specific-model-highlights/page/3/index.html",
+    "category/specific-model-highlights/page/4/index.html",
+    "category/specific-model-highlights/page/5/index.html",
+    "category/specific-model-highlights/page/6/index.html",
+    "category/specific-model-highlights/page/7/index.html",
+    "category/specific-model-highlights/page/8/index.html",
+    "category/specific-model-highlights/page/9/index.html",
+    "category/value-evaluation/index.html",
+    "category/value-evaluation/page/2/index.html",
+    "category/value-evaluation/page/3/index.html",
+    "category/value-evaluation/page/4/index.html",
+    "category/value-evaluation/page/5/index.html",
+    "category/value-evaluation/page/6/index.html",
+    "post/fender-mustang-history-value/index.html",
+    "post/gretsch-6120-history-value/index.html",
+    "post/martin-d18e-vs-d28e-authentication-guide/index.html",
+    "vintage-fender-stratocaster-value-guide/1954/index.html",
+    "vintage-fender-stratocaster-value-guide/1961/index.html",
+    "vintage-fender-stratocaster-value-guide/1964/index.html",
+    "vintage-gibson-les-paul-market-value-guide/index.html",
+    "vintage-gibson-sg-standard-value-guide/index.html"
+  ],
+  "contextualInbound": [
+    {
+      "path": "post/fender-mustang-history-value/index.html",
+      "anchors": [
+        "Cobain’s specific guitar"
+      ],
+      "contextual": true
+    },
+    {
+      "path": "post/gretsch-6120-history-value/index.html",
+      "anchors": [
+        "most expensive guitars sold at auction"
+      ],
+      "contextual": true
+    },
+    {
+      "path": "post/martin-d18e-vs-d28e-authentication-guide/index.html",
+      "anchors": [
+        "most expensive guitars sold at auction"
+      ],
+      "contextual": true
+    },
+    {
+      "path": "vintage-fender-stratocaster-value-guide/1954/index.html",
+      "anchors": [
+        "guitar auction records and ordinary model values"
+      ],
+      "contextual": true
+    },
+    {
+      "path": "vintage-fender-stratocaster-value-guide/1961/index.html",
+      "anchors": [
+        "guitar auction records and ordinary model values"
+      ],
+      "contextual": true
+    },
+    {
+      "path": "vintage-fender-stratocaster-value-guide/1964/index.html",
+      "anchors": [
+        "guitar auction records and ordinary model values"
+      ],
+      "contextual": true
+    },
+    {
+      "path": "vintage-gibson-les-paul-market-value-guide/index.html",
+      "anchors": [
+        "Les Paul auction record"
+      ],
+      "contextual": true
+    },
+    {
+      "path": "vintage-gibson-sg-standard-value-guide/index.html",
+      "anchors": [
+        "famous SG auction results and ordinary SG values"
+      ],
+      "contextual": true
+    }
+  ],
+  "title": "Most Expensive Guitars Ever Sold: 2026 Auction Records",
+  "titleLength": 54,
+  "description": "Verified million dollar guitar auction records, with ordinary model values from Joe's guides, inflation comparisons and guitars that have sold twice.",
+  "descriptionLength": 149,
+  "duplicateMetadata": [],
+  "proseWords": 2559,
+  "headings": [
+    "The Most Expensive Guitar Ever Sold",
+    "Every Guitar Sold For $1 Million Or More",
+    "Famous Guitar Vs. An Ordinary One",
+    "Most Expensive Electric, Acoustic And Bass Guitars",
+    "Records By Brand",
+    "Guitars That Sold Twice",
+    "The Most Valuable Guitars With No Famous Owner",
+    "Private And Unconfirmed Sales",
+    "What Makes A Famous Guitar Worth Millions",
+    "Could Your Guitar Be Valuable?",
+    "Questions AboutGuitar Auction Records",
+    "Keep The Guitar And Its Story Together",
+    "Joe Dampt"
+  ],
+  "maxEightGramOverlap": [
+    {
+      "path": "gibson-es-330-dating-guide/index.html",
+      "percentage": 0.07704160246533127
+    },
+    {
+      "path": "martin-d-28-d-18-d-45-dreadnought-value-guide/index.html",
+      "percentage": 0.07704160246533127
+    },
+    {
+      "path": "post/1958-gibson-les-paul-standard-guide/index.html",
+      "percentage": 0.07704160246533127
+    },
+    {
+      "path": "post/1968-1969-1970-les-paul-custom-dating-guide/index.html",
+      "percentage": 0.07704160246533127
+    },
+    {
+      "path": "sell-my-gibson-guitar/index.html",
+      "percentage": 0.07704160246533127
+    }
+  ],
+  "brokenInternalLinks": [],
+  "liveSitemapMisses": []
+}

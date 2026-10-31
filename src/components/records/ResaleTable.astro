@@ -1,0 +1,7 @@
+---
+import {resales,money,date,saleTypeLabel} from '../../data/auction-records';
+---
+<div class="mx-scroll" tabindex="0" role="region" aria-label="Guitars Sold Twice">
+<table class="mx-resale"><caption>Verified Earlier And Latest Public Sales</caption><thead><tr>{['Guitar','Earlier Sale','Latest Sale','Change','Years Between'].map(label=><th scope="col">{label}</th>)}</tr></thead><tbody>
+{resales.map(({record:r,prior:p,multiple,years})=><tr><th scope="row">{r.nickname||r.guitar}<small>{r.player}</small></th><td><strong>{money(p.priceUsd)}</strong><small><time datetime={p.date}>{date(p.date,true)}</time><br/>{p.house}<br/>{saleTypeLabel(p.saleType)}</small></td><td><strong>{money(r.priceUsd)}</strong><small><time datetime={r.saleDate}>{date(r.saleDate,true)}</time><br/>{r.house}<br/>{saleTypeLabel(r.saleType)}</small></td><td>{multiple.toFixed(2)}x<small>{multiple<1?'Lower Result':'Higher Result'}</small></td><td>{years.toFixed(1)}</td></tr>)}
+</tbody></table></div>

@@ -29,6 +29,10 @@ Project handoff doc. Read this first when picking up the project in a new sessio
 
 Before publishing a new page or site changes, prepare a reviewable preview and ask Joe for explicit approval. A request to create or edit authorizes preparing the preview; it does not authorize publication. Once Joe approves that specific preview, proceed without asking again. Joe stated on 2026-10-26: "in the future you are supposed to give me a preview and ask me before pulishing."
 
+## Joe's Writing Preference
+
+Joe explicitly rejected the repeated contrast pattern “It does X. It doesn't do Y” on October 30, 2026. State the point directly. Avoid equivalent “X, not Y” and “This isn't X, it's Y” framing used for rhetorical emphasis. Keep necessary factual qualifications concise and specific.
+
 ## What this is
 
 A full rebuild of [joesvintageguitarsaz.com](https://www.joesvintageguitarsaz.com/) — currently a WordPress + Avada site — as a static **Astro 6 + Tailwind 4** site deploying to **Cloudflare Pages**. Forms will use the **Mailgun API** via a CF Pages Function (not wired yet).
@@ -947,3 +951,12 @@ The Country Gentleman archive-date conflict, missing in-stock photo sets, pricin
 Joe found dark-on-dark ranking-card headings in the Batch 1 preview, including “Match The Production Group.” The earlier representative visual review missed the inheritance issue: dark rank cards inside light bands kept the surrounding ink heading color. The shared model-guide stylesheet now explicitly supplies a light foreground on rank cards, cream links on rank/serial cards, and rust labels on light section/closing/author surfaces. This applies across the reusable kit; existing J-200/Rickenbacker styles remain untouched.
 
 All ten guides were checked at 1280px and 375px with FAQ disclosures open: 4,670 text runs, zero computed failures after correction, and zero axe color-contrast violations. Axe's incomplete image/pseudo-layer and overlap cases remain recorded rather than counted as automatic passes. Independent targeted visual review covers all affected rank cards and representative additional surfaces. Future model-guide previews must include this full-page contrast check, not just representative hero/section screenshots. Evidence is in reports/model-guides-1/contrast-review. Joe still must approve the revised preview before publication.
+
+
+### 2026-10-30: Guitar Auction Records Preview
+
+Added /post/most-expensive-guitars-ever-sold/ as a chronological Value & Evaluation article with a separate records wrapper. The shared model-guide stylesheet is linked by URL, and the new mx-prefixed blocks add a server-rendered sortable/filterable auction table, famous-versus-ordinary cards, type/brand records and verified resale history. Prices, ordinary ranges, CPI math and FAQ answers come from src/data/auction-records.ts. Existing model-guide, Rickenbacker and J-200 implementations and data are untouched.
+
+Primary auction evidence, a two-outlet fallback for Cobain’s D-18E, direct live JVG comparison checks, CPI observations, omissions and update instructions are retained in reports/most-expensive-guitars. Do not substitute published charity fundraising totals for guitar sale prices or ordinary asking ranges for completed sales. Missing exact earlier prices are excluded from resale math. Photos are Joe’s licensed archive examples with explicit non-auction and neighboring-year captions.
+
+The protected render comparison covers 122 pages: 120 byte-identical, with only the requested Mustang link and SG inbound sentence excepted. Removing those exact additions restores byte identity. Eight contextual inbound pages support discovery; existing related-post rankings stay fixed. The second top button intentionally links Sell Your Guitar to the homepage. Publication date is provisional until the approved merge. This is preview-only work and must not be merged before Joe approves the specific Cloudflare preview.
