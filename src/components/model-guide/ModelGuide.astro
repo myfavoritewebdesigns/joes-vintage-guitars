@@ -11,6 +11,8 @@ interface Props { guide: ModelGuideData }
 const { guide } = Astro.props;
 const category = guide.kind === 'value' ? ['value-evaluation', 'Value & Evaluation'] : ['specific-model-highlights', 'Specific Model Highlights'];
 let sectionNumber = 0;
+const plainNumbers = guide.brand === 'Epiphone';
+const formatNumber = (value: number) => plainNumbers ? String(value) : String(value).padStart(2, '0');
 const assessmentNote = guide.kind === 'value'
   ? 'This Is An Estimate Of Market Value, Not An Offer To Buy And Not A Guarantee. Market Values Fluctuate; Have Your Specific Item Appraised.'
   : 'Authenticity And Originality Are Assessed From The Information Provided. A Hands-On Inspection Can Change The Conclusion.';
@@ -33,7 +35,7 @@ const assessmentNote = guide.kind === 'value'
   <nav class="mg-toc mg-wrap" aria-label="On This Page"><strong>On This Page</strong><div>{guide.sections.filter(section => section.type === 'section').map(section => section.type === 'section' && <a href={`#${section.id}`}>{section.nav || section.title}</a>)}<a href="#faq">FAQ</a></div></nav>
   {guide.sections.map(section => section.type === 'section' ? (
     <section id={section.id} class:list={['mg-band', {'mg-dark': section.tone === 'dark', 'mg-archive': section.tone === 'archive'}]}>
-      <div class="mg-section mg-wrap"><header class="mg-head"><span>{String(++sectionNumber).padStart(2, '0')}</span><div><p>{section.eyebrow}</p><h2>{section.title}</h2></div></header>{section.blocks.map(block => <GuideBlock block={block} />)}</div>
+      <div class="mg-section mg-wrap"><header class="mg-head"><span>{formatNumber(++sectionNumber)}</span><div><p>{section.eyebrow}</p><h2>{section.title}</h2></div></header>{section.blocks.map(block => <GuideBlock block={block} plainNumbers={plainNumbers} />)}</div>
     </section>
   ) : section.type === 'photo-band' ? (
     <div class="mg-photo-band"><Photo photo={section.photos[0]} /><blockquote>{section.quote}{section.attribution && <cite>{section.attribution}</cite>}</blockquote><Photo photo={section.photos[1]} /></div>

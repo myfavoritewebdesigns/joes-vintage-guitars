@@ -211,6 +211,9 @@ Stored in `~/.claude/projects/C--Users-noahj/memory/feedback_jvg_design_preferen
 
 ## Decision log
 
+- **2026-11-02, Plain Epiphone display numbering:** Joe requested 1, 2, 3 instead of 01, 02, 03. All 18 Epiphone guides now use unpadded section and checklist numbers. The Epiphone seller page uses 1 through 4 for its process and decimal photo-checklist counters. The guide renderer applies this only to Epiphone; other guide brands retain their existing output, and shared seller CSS is unchanged. This is an intentional presentation change from preview 0318cbac. Dates, model numbers, serials, prices, photos and prose are unchanged. Draft PR305 preview only.
+
+
 - **2026-11-02, Olympic preview photo replacement:** Joe requested the photos from sold Reverb listings 85387290 and 37522554 instead of the existing Olympic images. Both guide heroes/blog/social images now feature the 1965 single-pickup Olympic. Eleven local listing views replace all old guide photographs, including the Triumph/Crestwood comparisons, and the seller shipping image is updated to the same 1965 guitar, with its native landscape ratio to keep the caption adjacent. The obsolete Double-specific example, serial 84467 and altered-tuner/SKB-case claims are replaced with the new examples. The acoustic label reads Olympic and 51946; its 1940s date remains at the listing’s decade precision. Cracks, lifted binding, replaced guard and tailpiece are disclosed. No numeric nut width or original-case claim is invented for the 1965 guitar. Replaced headings, images and serial example are intentional deviations from preview 149e237b. Asset bytes/dimensions are preserved from the full gallery images; tables, prices and shared styling are unchanged. Draft PR305 preview only.
 
 
