@@ -33,6 +33,8 @@ Before publishing a new page or site changes, prepare a reviewable preview and a
 
 Joe explicitly rejected the repeated contrast pattern “It does X. It doesn't do Y” on October 30, 2026. State the point directly. Avoid equivalent “X, not Y” and “This isn't X, it's Y” framing used for rhetorical emphasis. Keep necessary factual qualifications concise and specific.
 
+On November 2, 2026, Joe requested plain numbering for future lists and section labels: 1, 2, 3. Do not add leading zeros such as 01, 02, 03; Joe considers that an AI tell.
+
 ## What this is
 
 A full rebuild of [joesvintageguitarsaz.com](https://www.joesvintageguitarsaz.com/) — currently a WordPress + Avada site — as a static **Astro 6 + Tailwind 4** site deploying to **Cloudflare Pages**. Forms will use the **Mailgun API** via a CF Pages Function (not wired yet).
