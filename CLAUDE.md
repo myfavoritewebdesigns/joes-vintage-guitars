@@ -211,6 +211,9 @@ Stored in `~/.claude/projects/C--Users-noahj/memory/feedback_jvg_design_preferen
 
 ## Decision log
 
+- **2026-11-02, Broadway preview photo update:** Joe supplied four 1961 Broadway HEICs in Drive, the original owner holding a 1966 Broadway, and a local 1964 natural-finish JPEG. Both guide heroes and blog/social images now feature the actual 1961 Broadway. New bands and an authentication archive use all six supplied photographs; existing 1947 acoustic and model-comparison archive entries remain. The added headings, owner context and replacement of comparison hero/band images are intentional deviations from preview 4e222829. HEICs are converted at full dimensions without cropping; the local JPEG is byte-identical. Dates and original-owner context come from Joe. No name, additional biography or factory Bigsby claim is inferred. Prices and shared styling remain unchanged. Draft PR305 preview only.
+
+
 - **2026-11-02, Triumph preview photo additions:** Joe requested photos from sold Reverb listings 84139911 and 90125862 plus ended listing 5548161, in addition to existing photographs. Thirteen local images now supplement both Triumph guides. Existing heroes, photo bands and the 1946 archive remain. Two band-only captions were shortened to clear the floating chat control, while full archive captions remain. New archive sections, headings, images and authentication source links are intentional additions from preview dc644352. The 1950s six-string is labeled refinished with its neck reset and replaced neck binding disclosed. The four-string tenor retains an approximate date and is excluded from six-string value comparisons. Price tables and shared styling are unchanged. Draft PR305 preview only.
 
 

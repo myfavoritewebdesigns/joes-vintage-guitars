@@ -60,7 +60,21 @@ import triumphTenorRear from '../../assets/images/model-guides-2/triumph-tenor-r
 import triumphTenorHoles from '../../assets/images/model-guides-2/triumph-tenor-extra-holes.jpg';
 import triumphTenorSeam from '../../assets/images/model-guides-2/triumph-tenor-headstock-seam.jpg';
 
+import broadway66Owner from '../../assets/images/model-guides-2/broadway-1966-owner.jpg';
+import broadway61Front from '../../assets/images/model-guides-2/broadway-1961-front.jpg';
+import broadway61Pickup from '../../assets/images/model-guides-2/broadway-1961-pickup.jpg';
+import broadway61Head from '../../assets/images/model-guides-2/broadway-1961-headstock.jpg';
+import broadway61Label from '../../assets/images/model-guides-2/broadway-1961-label.jpg';
+import broadway64Natural from '../../assets/images/model-guides-2/broadway-1964-natural.jpg';
+
 export const epiPhotos = {
+  broadway66Owner: {src:broadway66Owner,alt:"Original owner holding a sunburst 1966 Epiphone Broadway",caption:"1966 Broadway. Original owner.",captionBelow:true,fit:'contain'},
+  broadway61Front: {src:broadway61Front,alt:"1961 Epiphone Broadway with two mini-humbuckers and a Bigsby vibrato",caption:"1961 Epiphone Broadway. Mini-humbuckers and Bigsby.",captionBelow:true,fit:'contain'},
+  broadway61Pickup: {src:broadway61Pickup,alt:"Mini-humbucker and mounting surround on a 1961 Epiphone Broadway",caption:"1961 Broadway. Mini-humbucker detail.",captionBelow:true,fit:'contain'},
+  broadway61Head: {src:broadway61Head,alt:"1961 Epiphone Broadway headstock with Epiphone logo, decorative inlay and six tuners",caption:"1961 Broadway. Headstock and tuners.",captionBelow:true,fit:'contain'},
+  broadway61Label: {src:broadway61Label,alt:"1961 Epiphone Broadway label reading Broadway, E252 and serial 16102",caption:"1961 Broadway. E252 label, serial 16102.",captionBelow:true,fit:'contain'},
+  broadway64Natural: {src:broadway64Natural,alt:"1964 Epiphone Broadway in natural finish, photographed in its case",caption:"1964 Broadway. Natural finish.",captionBelow:true,fit:'contain'},
+
   triumph40Body: {src:triumph40Body,alt:"1940s Epiphone Triumph, sunburst: Sunburst acoustic body and patterned pickguard",caption:"1940s Triumph. Sunburst acoustic body.",captionBelow:true,fit:'contain'},
   triumph40Front: {src:triumph40Front,alt:"1940s Epiphone Triumph, sunburst: Full front of the six-string sunburst acoustic",caption:"1940s Triumph. Full six-string front.",captionBelow:true,fit:'contain'},
   triumph40Head: {src:triumph40Head,alt:"1940s Epiphone Triumph, sunburst: Six-string headstock with script logo and decorative inlay",caption:"1940s Triumph. Six-string headstock.",captionBelow:true,fit:'contain'},

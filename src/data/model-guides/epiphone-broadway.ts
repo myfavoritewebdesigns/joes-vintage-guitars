@@ -12,7 +12,7 @@ export const broadwayGuides: ModelGuideData[] = [
  description:'Compare vintage Epiphone Broadway values for New York acoustics, Regents and Kalamazoo electrics, with finish, pickup and condition checks for appraisal.',
  eyebrow:'Broadway Acoustic, Regent And Electric · American Models',
  dek:'The older carved-top Broadway and the Kalamazoo electric have different construction, condition questions and price rows.',
- hero:sheraton,
+ hero:ph.broadway61Front,
  glanceTitle:'Broadway Values To Compare',
  glance:[['1930s Walnut Acoustic',range('broadway',0)],['Postwar Sunburst Acoustic',range('broadway',3)],['Early Natural Electric',range('broadway',5)],['1968 To 1969 Sunburst Electric',range('broadway',14)]],
  secondaryActions:[{label:'Find Broadway Values',href:'#values'},{label:'Check Broadway Identity',href:'/post/epiphone-broadway-authentication-guide/'}],
@@ -37,7 +37,10 @@ export const broadwayGuides: ModelGuideData[] = [
   ]},
   p('<p>On a Kalamazoo Broadway, the neck, pickups, bridge and tailpiece each deserve close photographs. The body’s full depth can hide an electrical repair that is not apparent from the front. A technician’s invoice describing rewiring or a pickup rewind is more useful than a broad statement that the electronics were serviced.</p><p>Keep a claimed factory option separate from a later modification until it is supported. An unusual tailpiece, extra switch or rare-looking color should prompt documentation, not an automatic premium. Old parts can be installed later, and normal wear can develop around an alteration over decades.</p>')
  ],'dark'),
- {type:'photo-band',photos:[acoustic,pickups],quote:'Comparison photos: identify the acoustic body and the pickup family separately before choosing a Broadway price.'},
+ {type:'photo-band',photos:[ph.broadway64Natural,ph.broadway66Owner],quote:'A 1964 natural-finish Broadway and the original owner with a 1966 sunburst Broadway.'},
+ section('photo-examples','Broadway Photos From Joe’s Archive','1961, 1964 And 1966 Examples',[
+  p('<p>The featured 1961 Broadway has two mini-humbuckers and a Bigsby vibrato. Its label reads Broadway, E252 and serial 16102. The natural-finish guitar pictured above is a 1964 Broadway, and the owner portrait shows a 1966 Broadway with its original owner. The <a href="/post/epiphone-broadway-authentication-guide/#broadway-photos">Broadway photo archive</a> includes the 1961 headstock, pickup and label close-ups, plus the full owner photograph.</p><p>Use these examples to compare the electric Broadway’s visible configuration. Assess the installed tailpiece and other components against the individual guitar’s history before applying the chart’s original-condition assumptions. Keep ownership records with the serial and condition photographs.</p>')
+ ],'light'),
  section('condition','What Changes A Broadway Appraisal','Structure, Finish And Completeness',[
   {type:'cards',variant:'condition',items:[
    {title:'Neck Angle And Repairs',html:'<p>Show the string height, bridge adjustment and heel from the side. A headstock or heel repair remains relevant even when the guitar plays well. Explain whether the work is documented and stable, and photograph any added finish around the repaired area.</p>'},
@@ -71,7 +74,7 @@ export const broadwayGuides: ModelGuideData[] = [
  description:'Identify a vintage Epiphone Broadway by body construction, cutaway, pickups and markings, from New York acoustics to full-depth Kalamazoo electrics.',
  eyebrow:'New York, Philadelphia And Kalamazoo · Broadway Models',
  dek:'The Broadway changed from a carved acoustic archtop to a full-depth electric with laminated maple construction.',
- hero:sheraton,
+ hero:ph.broadway61Front,
  glanceTitle:'Broadway Identity At A Glance',
  glance:[['Older Acoustic','Carved spruce top; non-cutaway and Regent'],['Kalamazoo Electric','Laminated maple, full-depth cutaway'],['Factory Pickup Layout','Two pickups on the E252 electric'],['Important Comparison','A Broadway isn’t a thin center-block Sheraton']],
  secondaryActions:[{label:'Inspect Broadway Construction',href:'#identity'},{label:'Read Broadway Values',href:'/post/epiphone-broadway-value-guide/'}],
@@ -93,7 +96,7 @@ export const broadwayGuides: ModelGuideData[] = [
    {title:'Philadelphia And The Acoustic Regent',html:'<p>The 1954 catalog documents the Broadway as a carved spruce-top acoustic with maple body and elaborate appointments. The Broadway Regent is the cutaway version of the acoustic Broadway. It should not be confused with the later factory electric simply because both guitars can have a cutaway and an Epiphone tailpiece.</p><p>Keep the factory chronology in order: the older New York and Philadelphia instruments precede CMI’s 1957 purchase and the start of Kalamazoo production in 1958. The <a href="/post/epiphone-sheraton-history-value/">Sheraton history</a> documents that factory transition. A printed address on a surviving label supports the record without necessarily establishing a precise build year.</p>'}
   ]}
  ],'dark'),
- {type:'photo-band',photos:[acoustic,pickups],quote:'These comparison instruments show an acoustic with an accessory pickup and the later Epiphone mini-humbucker family.'},
+ {type:'photo-band',photos:[ph.broadway61Pickup,ph.broadway64Natural],quote:'Broadway details: the 1961 guitar’s mini-humbucker and a 1964 natural-finish example.'},
  section('timeline','Broadway Changes Across The American Years','Follow Construction And Electronics',[
   {type:'timeline',items:[
    {date:'1931 Through The 1930s',title:'The Acoustic Broadway Develops',html:'<p>Use the appropriate early catalog for size and ornamentation. The change from walnut to maple belongs to the older acoustic history, not the later switch from carved acoustic construction to a laminated electric body.</p>'},
@@ -125,6 +128,13 @@ export const broadwayGuides: ModelGuideData[] = [
    {title:'Natural, Shaded And Claimed Cherry Finishes',html:'<p>The 1961 catalog explicitly lists natural and shaded versions. For another claimed finish, inspect the surface and seek documentation rather than dating it by color alone. Wear, fading, overspray and stripping can change the appearance substantially without changing the original factory model.</p>'}
   ]}
  ]),
+ section('broadway-photos','Kalamazoo Broadway Photo Archive','Joe’s 1961, 1964 And 1966 Examples',[
+  {type:'archive',items:[
+   {label:'1961 Electric Broadway',title:'1961 Broadway With Mini-Humbuckers And Bigsby',html:'<p>The full front shows the single-cutaway Broadway body, two mini-humbuckers, four controls, selector and Bigsby vibrato. The pickup close-up shows the cover, pole screws and mounting surround. The headstock view records the Epiphone logo, decorative inlay and six tuner positions. The internal label reads Broadway, E252 and serial 16102.</p><p>The Bigsby is the tailpiece installed on this example. Its presence in the photograph does not by itself establish when it was fitted. Keep the guitar’s hardware history with the model and serial record when evaluating originality.</p>',photos:[ph.broadway61Front,ph.broadway61Pickup,ph.broadway61Head,ph.broadway61Label]},
+   {label:'Natural-Finish Electric',title:'1964 Broadway In Natural Finish',html:'<p>This 1964 Epiphone Broadway is shown in its case with a natural finish, single cutaway, two mini-humbuckers and Frequensator tailpiece. The full view places the neck, body and controls together. It provides a natural-finish comparison alongside the sunburst examples without treating color alone as a dating method.</p>',photos:[ph.broadway64Natural]},
+   {label:'Original-Owner Photograph',title:'The Original Owner With A 1966 Broadway',html:'<p>The original owner is pictured holding a 1966 Epiphone Broadway. The photograph shows the sunburst body, two mini-humbuckers, controls and Frequensator together with its ownership context. Keep an owner photograph with the guitar’s label, serial, receipts and condition records. The 1966 date identifies the guitar, not the date this photograph was taken.</p>',photos:[ph.broadway66Owner]}
+  ]}
+ ],'archive'),
  section('archive','Broadway And Comparison Photographs','Keep The Actual Models Named',[
   {type:'archive',items:[
    {label:'Older Acoustic Broadway',title:'1947 Epiphone Broadway',html:'<p>Joe’s customer archive supplies these views of a 1947 Broadway. The non-cutaway acoustic body, block fingerboard markers, floating bridge and Frequensator are visible, with a side view showing the deep rim. The surviving files are small, so they support the overall configuration rather than close inspection of finish or repairs. No readable serial is shown, and the archive year is not presented as a decoded number.</p>',photos:[ph.broadwayFront,ph.broadwayBody,ph.broadwaySide]},
