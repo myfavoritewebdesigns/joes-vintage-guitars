@@ -1,0 +1,502 @@
+{
+  "pages": [
+    {
+      "slug": "fender-twin-reverb-value-guide",
+      "title": "Vintage Fender Twin Reverb Value Guide: Prices By Era",
+      "titleLength": 53,
+      "descriptionLength": 146,
+      "bodyWordsExcludingChartsFaq": 1499,
+      "articleWords": 1920,
+      "h2": [
+        "Twin Prices By Version",
+        "Why Tweed And Blonde Twins Need Separate Appraisals",
+        "Blackface And Silverface Value Differences",
+        "Speakers, Transformers And Cabinet Work",
+        "How Service History Fits The Value",
+        "Photos For A Twin Appraisal",
+        "Questions AboutVintage Amp Values",
+        "Get Your Amp Appraised",
+        "Joe Dampt"
+      ],
+      "photos": 3,
+      "photoUse": "Exact-model archive examples; no modern reissues pictured. Era/comparison pages use named models.",
+      "inboundCount": 4,
+      "inboundSources": [
+        "/post/fender-amp-eras-tweed-brownface-blackface-silverface/",
+        "/post/fender-twin-reverb-authentication-guide/",
+        "/post/princeton-reverb-vs-deluxe-reverb-vs-twin-reverb/",
+        "/sell-an-amplifier-or-effect/"
+      ],
+      "faqSchema": true,
+      "sellLabel": "Sell My Amp",
+      "sellHref": "/sell-an-amplifier-or-effect/",
+      "externalSources": 0
+    },
+    {
+      "slug": "fender-deluxe-reverb-value-guide",
+      "title": "Vintage Fender Deluxe Reverb Value Guide: Era Prices",
+      "titleLength": 52,
+      "descriptionLength": 146,
+      "bodyWordsExcludingChartsFaq": 1527,
+      "articleWords": 1939,
+      "h2": [
+        "Deluxe Values From Tweed To Silverface",
+        "Pricing A Tweed Deluxe With Its History Intact",
+        "Brownface, Blackface And Silverface Price Groups",
+        "What Moves A Deluxe Away From Its Chart Range",
+        "Prepare The Deluxe Before Asking For A Value",
+        "Send These Deluxe Photographs",
+        "Questions AboutVintage Amp Values",
+        "Get Your Amp Appraised",
+        "Joe Dampt"
+      ],
+      "photos": 3,
+      "photoUse": "Exact-model archive examples; no modern reissues pictured. Era/comparison pages use named models.",
+      "inboundCount": 4,
+      "inboundSources": [
+        "/post/fender-amp-eras-tweed-brownface-blackface-silverface/",
+        "/post/fender-deluxe-reverb-authentication-guide/",
+        "/post/princeton-reverb-vs-deluxe-reverb-vs-twin-reverb/",
+        "/sell-an-amplifier-or-effect/"
+      ],
+      "faqSchema": true,
+      "sellLabel": "Sell My Amp",
+      "sellHref": "/sell-an-amplifier-or-effect/",
+      "externalSources": 0
+    },
+    {
+      "slug": "fender-princeton-reverb-value-guide",
+      "title": "Vintage Fender Princeton Reverb Value Guide: Prices",
+      "titleLength": 51,
+      "descriptionLength": 146,
+      "bodyWordsExcludingChartsFaq": 1541,
+      "articleWords": 2025,
+      "h2": [
+        "Princeton Values By Model And Period",
+        "Tweed And Brownface Princeton Values",
+        "How The Reverb Model Changes The Comparison",
+        "Original Parts In A Compact Amp",
+        "Describe Repairs Before Discussing A Sale",
+        "Princeton Appraisal Photo Checklist",
+        "Questions AboutVintage Amp Values",
+        "Get Your Amp Appraised",
+        "Joe Dampt"
+      ],
+      "photos": 3,
+      "photoUse": "Exact-model archive examples; no modern reissues pictured. Era/comparison pages use named models.",
+      "inboundCount": 4,
+      "inboundSources": [
+        "/post/fender-amp-eras-tweed-brownface-blackface-silverface/",
+        "/post/fender-princeton-reverb-authentication-guide/",
+        "/post/princeton-reverb-vs-deluxe-reverb-vs-twin-reverb/",
+        "/sell-an-amplifier-or-effect/"
+      ],
+      "faqSchema": true,
+      "sellLabel": "Sell My Amp",
+      "sellHref": "/sell-an-amplifier-or-effect/",
+      "externalSources": 0
+    },
+    {
+      "slug": "fender-twin-reverb-authentication-guide",
+      "title": "Fender Twin Reverb Guide: Blackface, Silverface And Dating",
+      "titleLength": 58,
+      "descriptionLength": 149,
+      "bodyWordsExcludingChartsFaq": 1611,
+      "articleWords": 2351,
+      "h2": [
+        "Original Or Reissue? Start At The Back",
+        "Twin Changes From Tweed To High Power",
+        "Twin Circuit And Hardware Comparison",
+        "Date A Twin With Chart And Component Evidence",
+        "Twin Originality Inspection",
+        "Twin Photo Timeline",
+        "Separate Routine Service From Structural Changes",
+        "Twin Technical References",
+        "Questions AboutFender Amp Identification",
+        "Identify The Amp Before Pricing It",
+        "Joe Dampt"
+      ],
+      "photos": 9,
+      "photoUse": "Exact-model archive examples; no modern reissues pictured. Era/comparison pages use named models.",
+      "inboundCount": 4,
+      "inboundSources": [
+        "/post/fender-amp-eras-tweed-brownface-blackface-silverface/",
+        "/post/fender-twin-reverb-value-guide/",
+        "/post/princeton-reverb-vs-deluxe-reverb-vs-twin-reverb/",
+        "/vintage-fender-amplifier-serial-numbers-how-to-find-the-year/"
+      ],
+      "faqSchema": true,
+      "sellLabel": "Sell My Amp",
+      "sellHref": "/sell-an-amplifier-or-effect/"
+    },
+    {
+      "slug": "fender-deluxe-reverb-authentication-guide",
+      "title": "Fender Deluxe Reverb Identification: Tweed To Silverface",
+      "titleLength": 56,
+      "descriptionLength": 148,
+      "bodyWordsExcludingChartsFaq": 1755,
+      "articleWords": 2467,
+      "h2": [
+        "Original Or Reissue? Check Construction And Labels",
+        "Deluxe Model Changes In Sequence",
+        "Deluxe Specifications By Circuit",
+        "Identify A 5E3 Without Relying On Tweed",
+        "Find The Date Evidence On A Deluxe",
+        "Deluxe Originality Checklist",
+        "Deluxe Photo Timeline",
+        "Record Service And Value-Changing Replacements",
+        "Deluxe Sources And Factory Documents",
+        "Questions AboutFender Amp Identification",
+        "Identify The Amp Before Pricing It",
+        "Joe Dampt"
+      ],
+      "photos": 10,
+      "photoUse": "Exact-model archive examples; no modern reissues pictured. Era/comparison pages use named models.",
+      "inboundCount": 4,
+      "inboundSources": [
+        "/post/fender-amp-eras-tweed-brownface-blackface-silverface/",
+        "/post/fender-deluxe-reverb-value-guide/",
+        "/post/princeton-reverb-vs-deluxe-reverb-vs-twin-reverb/",
+        "/vintage-fender-amplifier-serial-numbers-how-to-find-the-year/"
+      ],
+      "faqSchema": true,
+      "sellLabel": "Sell My Amp",
+      "sellHref": "/sell-an-amplifier-or-effect/"
+    },
+    {
+      "slug": "fender-princeton-reverb-authentication-guide",
+      "title": "Fender Princeton Reverb Guide: Identify And Date Your Amp",
+      "titleLength": 57,
+      "descriptionLength": 147,
+      "bodyWordsExcludingChartsFaq": 1781,
+      "articleWords": 2540,
+      "h2": [
+        "Original Or Reissue? Princeton Checks",
+        "How The Princeton Family Developed",
+        "Princeton Specifications By Version",
+        "Read The Chart Stamp Separately From The Circuit",
+        "Dating A Princeton With Missing Paperwork",
+        "Princeton Parts And Cabinet Checklist",
+        "Princeton Photo Timeline",
+        "Preserve The Princeton’s Service History",
+        "Princeton Identification References",
+        "Questions AboutFender Amp Identification",
+        "Identify The Amp Before Pricing It",
+        "Joe Dampt"
+      ],
+      "photos": 9,
+      "photoUse": "Exact-model archive examples; no modern reissues pictured. Era/comparison pages use named models.",
+      "inboundCount": 4,
+      "inboundSources": [
+        "/post/fender-amp-eras-tweed-brownface-blackface-silverface/",
+        "/post/fender-princeton-reverb-value-guide/",
+        "/post/princeton-reverb-vs-deluxe-reverb-vs-twin-reverb/",
+        "/vintage-fender-amplifier-serial-numbers-how-to-find-the-year/"
+      ],
+      "faqSchema": true,
+      "sellLabel": "Sell My Amp",
+      "sellHref": "/sell-an-amplifier-or-effect/"
+    },
+    {
+      "slug": "fender-amp-eras-tweed-brownface-blackface-silverface",
+      "title": "Tweed, Brownface, Blackface, Silverface: Fender Amp Eras",
+      "titleLength": 56,
+      "descriptionLength": 147,
+      "bodyWordsExcludingChartsFaq": 1369,
+      "articleWords": 1794,
+      "h2": [
+        "Which Era Is Mine?",
+        "Tweed: 1948 To 1959",
+        "Blonde And Brownface: 1959 To 1963",
+        "Blackface: 1963 To 1967",
+        "Silverface: 1967 To 1980",
+        "Turn An Era Identification Into A Date And Value",
+        "Sources For Fender Era Changes",
+        "Questions AboutFender Amp Eras",
+        "Use The Era To Choose The Next Check",
+        "Joe Dampt"
+      ],
+      "photos": 5,
+      "photoUse": "Exact-model archive examples; no modern reissues pictured. Era/comparison pages use named models.",
+      "inboundCount": 7,
+      "inboundSources": [
+        "/post/fender-deluxe-reverb-authentication-guide/",
+        "/post/fender-deluxe-reverb-value-guide/",
+        "/post/fender-princeton-reverb-authentication-guide/",
+        "/post/fender-twin-reverb-authentication-guide/",
+        "/post/fender-twin-reverb-value-guide/",
+        "/post/princeton-reverb-vs-deluxe-reverb-vs-twin-reverb/",
+        "/vintage-fender-amplifier-serial-numbers-how-to-find-the-year/"
+      ],
+      "faqSchema": true,
+      "sellLabel": "Sell My Amp",
+      "sellHref": "/sell-an-amplifier-or-effect/"
+    },
+    {
+      "slug": "princeton-reverb-vs-deluxe-reverb-vs-twin-reverb",
+      "title": "Princeton Reverb Vs. Deluxe Reverb Vs. Twin Reverb",
+      "titleLength": 50,
+      "descriptionLength": 148,
+      "bodyWordsExcludingChartsFaq": 1408,
+      "articleWords": 1990,
+      "h2": [
+        "Vintage Fender Reverb Amp Comparison",
+        "Headroom And The Clean Sound You Need",
+        "Volume At Rehearsal And Onstage",
+        "Recording With A Princeton, Deluxe Or Twin",
+        "Weight, Cabinet Size And Everyday Transport",
+        "Price The Version And Its Condition",
+        "Confirm The Model Before Making The Choice",
+        "Comparison Specification Sources",
+        "Questions AboutChoosing A Vintage Fender Amp",
+        "Audition The Amp At The Volume You Need",
+        "Joe Dampt"
+      ],
+      "photos": 3,
+      "photoUse": "Exact-model archive examples; no modern reissues pictured. Era/comparison pages use named models.",
+      "inboundCount": 8,
+      "inboundSources": [
+        "/post/fender-amp-eras-tweed-brownface-blackface-silverface/",
+        "/post/fender-deluxe-reverb-authentication-guide/",
+        "/post/fender-deluxe-reverb-value-guide/",
+        "/post/fender-princeton-reverb-authentication-guide/",
+        "/post/fender-princeton-reverb-value-guide/",
+        "/post/fender-twin-reverb-authentication-guide/",
+        "/post/fender-twin-reverb-value-guide/",
+        "/sell-an-amplifier-or-effect/"
+      ],
+      "faqSchema": true,
+      "sellLabel": "Sell My Amp",
+      "sellHref": "/sell-an-amplifier-or-effect/"
+    }
+  ],
+  "overlap": [
+    {
+      "a": "fender-twin-reverb-value-guide",
+      "b": "fender-deluxe-reverb-value-guide",
+      "shared8grams": 41,
+      "percent": 2.25,
+      "threshold": 26,
+      "pass": true
+    },
+    {
+      "a": "fender-twin-reverb-value-guide",
+      "b": "fender-princeton-reverb-value-guide",
+      "shared8grams": 42,
+      "percent": 2.3,
+      "threshold": 26,
+      "pass": true
+    },
+    {
+      "a": "fender-twin-reverb-value-guide",
+      "b": "fender-twin-reverb-authentication-guide",
+      "shared8grams": 0,
+      "percent": 0,
+      "threshold": 10,
+      "pass": true
+    },
+    {
+      "a": "fender-twin-reverb-value-guide",
+      "b": "fender-deluxe-reverb-authentication-guide",
+      "shared8grams": 0,
+      "percent": 0,
+      "threshold": 26,
+      "pass": true
+    },
+    {
+      "a": "fender-twin-reverb-value-guide",
+      "b": "fender-princeton-reverb-authentication-guide",
+      "shared8grams": 0,
+      "percent": 0,
+      "threshold": 26,
+      "pass": true
+    },
+    {
+      "a": "fender-twin-reverb-value-guide",
+      "b": "fender-amp-eras-tweed-brownface-blackface-silverface",
+      "shared8grams": 0,
+      "percent": 0,
+      "threshold": 26,
+      "pass": true
+    },
+    {
+      "a": "fender-twin-reverb-value-guide",
+      "b": "princeton-reverb-vs-deluxe-reverb-vs-twin-reverb",
+      "shared8grams": 0,
+      "percent": 0,
+      "threshold": 26,
+      "pass": true
+    },
+    {
+      "a": "fender-deluxe-reverb-value-guide",
+      "b": "fender-princeton-reverb-value-guide",
+      "shared8grams": 41,
+      "percent": 2.23,
+      "threshold": 26,
+      "pass": true
+    },
+    {
+      "a": "fender-deluxe-reverb-value-guide",
+      "b": "fender-twin-reverb-authentication-guide",
+      "shared8grams": 3,
+      "percent": 0.16,
+      "threshold": 26,
+      "pass": true
+    },
+    {
+      "a": "fender-deluxe-reverb-value-guide",
+      "b": "fender-deluxe-reverb-authentication-guide",
+      "shared8grams": 0,
+      "percent": 0,
+      "threshold": 10,
+      "pass": true
+    },
+    {
+      "a": "fender-deluxe-reverb-value-guide",
+      "b": "fender-princeton-reverb-authentication-guide",
+      "shared8grams": 0,
+      "percent": 0,
+      "threshold": 26,
+      "pass": true
+    },
+    {
+      "a": "fender-deluxe-reverb-value-guide",
+      "b": "fender-amp-eras-tweed-brownface-blackface-silverface",
+      "shared8grams": 0,
+      "percent": 0,
+      "threshold": 26,
+      "pass": true
+    },
+    {
+      "a": "fender-deluxe-reverb-value-guide",
+      "b": "princeton-reverb-vs-deluxe-reverb-vs-twin-reverb",
+      "shared8grams": 0,
+      "percent": 0,
+      "threshold": 26,
+      "pass": true
+    },
+    {
+      "a": "fender-princeton-reverb-value-guide",
+      "b": "fender-twin-reverb-authentication-guide",
+      "shared8grams": 0,
+      "percent": 0,
+      "threshold": 26,
+      "pass": true
+    },
+    {
+      "a": "fender-princeton-reverb-value-guide",
+      "b": "fender-deluxe-reverb-authentication-guide",
+      "shared8grams": 0,
+      "percent": 0,
+      "threshold": 26,
+      "pass": true
+    },
+    {
+      "a": "fender-princeton-reverb-value-guide",
+      "b": "fender-princeton-reverb-authentication-guide",
+      "shared8grams": 1,
+      "percent": 0.05,
+      "threshold": 10,
+      "pass": true
+    },
+    {
+      "a": "fender-princeton-reverb-value-guide",
+      "b": "fender-amp-eras-tweed-brownface-blackface-silverface",
+      "shared8grams": 0,
+      "percent": 0,
+      "threshold": 26,
+      "pass": true
+    },
+    {
+      "a": "fender-princeton-reverb-value-guide",
+      "b": "princeton-reverb-vs-deluxe-reverb-vs-twin-reverb",
+      "shared8grams": 0,
+      "percent": 0,
+      "threshold": 26,
+      "pass": true
+    },
+    {
+      "a": "fender-twin-reverb-authentication-guide",
+      "b": "fender-deluxe-reverb-authentication-guide",
+      "shared8grams": 40,
+      "percent": 1.77,
+      "threshold": 26,
+      "pass": true
+    },
+    {
+      "a": "fender-twin-reverb-authentication-guide",
+      "b": "fender-princeton-reverb-authentication-guide",
+      "shared8grams": 41,
+      "percent": 1.82,
+      "threshold": 26,
+      "pass": true
+    },
+    {
+      "a": "fender-twin-reverb-authentication-guide",
+      "b": "fender-amp-eras-tweed-brownface-blackface-silverface",
+      "shared8grams": 0,
+      "percent": 0,
+      "threshold": 26,
+      "pass": true
+    },
+    {
+      "a": "fender-twin-reverb-authentication-guide",
+      "b": "princeton-reverb-vs-deluxe-reverb-vs-twin-reverb",
+      "shared8grams": 0,
+      "percent": 0,
+      "threshold": 26,
+      "pass": true
+    },
+    {
+      "a": "fender-deluxe-reverb-authentication-guide",
+      "b": "fender-princeton-reverb-authentication-guide",
+      "shared8grams": 40,
+      "percent": 1.69,
+      "threshold": 26,
+      "pass": true
+    },
+    {
+      "a": "fender-deluxe-reverb-authentication-guide",
+      "b": "fender-amp-eras-tweed-brownface-blackface-silverface",
+      "shared8grams": 3,
+      "percent": 0.18,
+      "threshold": 26,
+      "pass": true
+    },
+    {
+      "a": "fender-deluxe-reverb-authentication-guide",
+      "b": "princeton-reverb-vs-deluxe-reverb-vs-twin-reverb",
+      "shared8grams": 0,
+      "percent": 0,
+      "threshold": 26,
+      "pass": true
+    },
+    {
+      "a": "fender-princeton-reverb-authentication-guide",
+      "b": "fender-amp-eras-tweed-brownface-blackface-silverface",
+      "shared8grams": 0,
+      "percent": 0,
+      "threshold": 26,
+      "pass": true
+    },
+    {
+      "a": "fender-princeton-reverb-authentication-guide",
+      "b": "princeton-reverb-vs-deluxe-reverb-vs-twin-reverb",
+      "shared8grams": 0,
+      "percent": 0,
+      "threshold": 26,
+      "pass": true
+    },
+    {
+      "a": "fender-amp-eras-tweed-brownface-blackface-silverface",
+      "b": "princeton-reverb-vs-deluxe-reverb-vs-twin-reverb",
+      "shared8grams": 0,
+      "percent": 0,
+      "threshold": 26,
+      "pass": true
+    }
+  ],
+  "brokenInternalLinks": [],
+  "serialPageTitle": "Fender Amp Serial Number Lookup: Find The Year By Code",
+  "duplicateNewTitles": []
+}

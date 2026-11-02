@@ -1,0 +1,362 @@
+[
+  {
+    "id": "fender-twin-reverb-1",
+    "family": "fender-twin-reverb",
+    "model": "Twin",
+    "years": "1952 to 1954",
+    "configuration": "Tweed, wide panel",
+    "low": 7250,
+    "high": 9350
+  },
+  {
+    "id": "fender-twin-reverb-2",
+    "family": "fender-twin-reverb",
+    "model": "Twin",
+    "years": "1955 to 1957",
+    "configuration": "Tweed, 50 watts",
+    "low": 10650,
+    "high": 14450
+  },
+  {
+    "id": "fender-twin-reverb-3",
+    "family": "fender-twin-reverb",
+    "model": "Twin",
+    "years": "1958 to 1959",
+    "configuration": "Tweed, 80 watts",
+    "low": 16000,
+    "high": 22250
+  },
+  {
+    "id": "fender-twin-reverb-4",
+    "family": "fender-twin-reverb",
+    "model": "Twin",
+    "years": "1960",
+    "configuration": "Brown covering, 80 watts",
+    "low": 11750,
+    "high": 15650
+  },
+  {
+    "id": "fender-twin-reverb-5",
+    "family": "fender-twin-reverb",
+    "model": "Twin",
+    "years": "1960 to 1962",
+    "configuration": "Rough white covering, oxblood grille",
+    "low": 6450,
+    "high": 8150
+  },
+  {
+    "id": "fender-twin-reverb-6",
+    "family": "fender-twin-reverb",
+    "model": "Twin",
+    "years": "1963",
+    "configuration": "Smooth white covering, gold grille",
+    "low": 5650,
+    "high": 7400
+  },
+  {
+    "id": "fender-twin-reverb-7",
+    "family": "fender-twin-reverb",
+    "model": "Twin Reverb",
+    "years": "1963 to 1967",
+    "configuration": "Blackface",
+    "low": 2250,
+    "high": 3100
+  },
+  {
+    "id": "fender-twin-reverb-8",
+    "family": "fender-twin-reverb",
+    "model": "Twin Reverb",
+    "years": "1968",
+    "configuration": "Silverface, no master volume",
+    "low": 1100,
+    "high": 1550
+  },
+  {
+    "id": "fender-twin-reverb-9",
+    "family": "fender-twin-reverb",
+    "model": "Twin Reverb",
+    "years": "1969 to 1970",
+    "configuration": "Silverface, no master volume",
+    "low": 1000,
+    "high": 1300
+  },
+  {
+    "id": "fender-twin-reverb-10",
+    "family": "fender-twin-reverb",
+    "model": "Twin Reverb",
+    "years": "1971 to 1972",
+    "configuration": "Silverface, no master volume",
+    "low": 750,
+    "high": 1050
+  },
+  {
+    "id": "fender-twin-reverb-11",
+    "family": "fender-twin-reverb",
+    "model": "Twin Reverb",
+    "years": "1973 to 1975",
+    "configuration": "Silverface, master volume",
+    "low": 750,
+    "high": 1000
+  },
+  {
+    "id": "fender-twin-reverb-12",
+    "family": "fender-twin-reverb",
+    "model": "Twin Reverb",
+    "years": "1976 to 1980",
+    "configuration": "Silverface, push/pull",
+    "low": 750,
+    "high": 950
+  },
+  {
+    "id": "fender-deluxe-reverb-1",
+    "family": "fender-deluxe-reverb",
+    "model": "Deluxe",
+    "years": "1948 to 1952",
+    "configuration": "Tweed, TV front",
+    "low": 3650,
+    "high": 4750
+  },
+  {
+    "id": "fender-deluxe-reverb-2",
+    "family": "fender-deluxe-reverb",
+    "model": "Deluxe",
+    "years": "1953 to 1954",
+    "configuration": "Tweed, wide panel",
+    "low": 3750,
+    "high": 4850
+  },
+  {
+    "id": "fender-deluxe-reverb-3",
+    "family": "fender-deluxe-reverb",
+    "model": "Deluxe",
+    "years": "1955",
+    "configuration": "Narrow panel, small cabinet",
+    "low": 6300,
+    "high": 7850
+  },
+  {
+    "id": "fender-deluxe-reverb-4",
+    "family": "fender-deluxe-reverb",
+    "model": "Deluxe",
+    "years": "1956 to 1960",
+    "configuration": "Narrow panel, large cabinet",
+    "low": 6400,
+    "high": 7900
+  },
+  {
+    "id": "fender-deluxe-reverb-5",
+    "family": "fender-deluxe-reverb",
+    "model": "Deluxe",
+    "years": "1961 to 1963",
+    "configuration": "Brown covering",
+    "low": 3400,
+    "high": 4250
+  },
+  {
+    "id": "fender-deluxe-reverb-6",
+    "family": "fender-deluxe-reverb",
+    "model": "Deluxe",
+    "years": "1964 to 1966",
+    "configuration": "Black covering, no reverb",
+    "low": 3500,
+    "high": 4350
+  },
+  {
+    "id": "fender-deluxe-reverb-7",
+    "family": "fender-deluxe-reverb",
+    "model": "Deluxe Reverb",
+    "years": "1963 to 1967",
+    "configuration": "Blackface",
+    "low": 3450,
+    "high": 4300
+  },
+  {
+    "id": "fender-deluxe-reverb-8",
+    "family": "fender-deluxe-reverb",
+    "model": "Deluxe Reverb",
+    "years": "1967 to 1968",
+    "configuration": "Silverface",
+    "low": 1850,
+    "high": 2200
+  },
+  {
+    "id": "fender-deluxe-reverb-9",
+    "family": "fender-deluxe-reverb",
+    "model": "Deluxe Reverb",
+    "years": "1969 to 1970",
+    "configuration": "Silverface",
+    "low": 1550,
+    "high": 2000
+  },
+  {
+    "id": "fender-deluxe-reverb-10",
+    "family": "fender-deluxe-reverb",
+    "model": "Deluxe Reverb",
+    "years": "1971 to 1980",
+    "configuration": "Silverface",
+    "low": 1100,
+    "high": 1550
+  },
+  {
+    "id": "fender-princeton-reverb-1",
+    "family": "fender-princeton-reverb",
+    "model": "Princeton",
+    "years": "1948",
+    "configuration": "Tweed, TV front",
+    "low": 2750,
+    "high": 3500
+  },
+  {
+    "id": "fender-princeton-reverb-2",
+    "family": "fender-princeton-reverb",
+    "model": "Princeton",
+    "years": "1949 to 1953",
+    "configuration": "Tweed, TV front",
+    "low": 2350,
+    "high": 3000
+  },
+  {
+    "id": "fender-princeton-reverb-3",
+    "family": "fender-princeton-reverb",
+    "model": "Princeton",
+    "years": "1953 to 1954",
+    "configuration": "Wide panel",
+    "low": 2350,
+    "high": 2850
+  },
+  {
+    "id": "fender-princeton-reverb-4",
+    "family": "fender-princeton-reverb",
+    "model": "Princeton",
+    "years": "1955 to 1956",
+    "configuration": "Narrow panel, small cabinet",
+    "low": 4350,
+    "high": 5450
+  },
+  {
+    "id": "fender-princeton-reverb-5",
+    "family": "fender-princeton-reverb",
+    "model": "Princeton",
+    "years": "1956 to 1961",
+    "configuration": "Narrow panel, large cabinet",
+    "low": 4300,
+    "high": 5400
+  },
+  {
+    "id": "fender-princeton-reverb-6",
+    "family": "fender-princeton-reverb",
+    "model": "Princeton",
+    "years": "1961 to 1963",
+    "configuration": "Brown, 6G2",
+    "low": 2700,
+    "high": 3450
+  },
+  {
+    "id": "fender-princeton-reverb-7",
+    "family": "fender-princeton-reverb",
+    "model": "Princeton",
+    "years": "1963 to 1964",
+    "configuration": "Black, 6G2",
+    "low": 2200,
+    "high": 2850
+  },
+  {
+    "id": "fender-princeton-reverb-8",
+    "family": "fender-princeton-reverb",
+    "model": "Princeton",
+    "years": "1964 to 1966",
+    "configuration": "Black, AA964, no grille logo",
+    "low": 1950,
+    "high": 2400
+  },
+  {
+    "id": "fender-princeton-reverb-9",
+    "family": "fender-princeton-reverb",
+    "model": "Princeton",
+    "years": "1966 to 1967",
+    "configuration": "Black, AA964, raised grille logo",
+    "low": 1550,
+    "high": 2000
+  },
+  {
+    "id": "fender-princeton-reverb-10",
+    "family": "fender-princeton-reverb",
+    "model": "Princeton",
+    "years": "1968 to 1969",
+    "configuration": "Silverface, aluminum grille trim",
+    "low": 1100,
+    "high": 1300
+  },
+  {
+    "id": "fender-princeton-reverb-11",
+    "family": "fender-princeton-reverb",
+    "model": "Princeton",
+    "years": "1969 to 1970",
+    "configuration": "Silverface, no grille trim",
+    "low": 850,
+    "high": 1100
+  },
+  {
+    "id": "fender-princeton-reverb-12",
+    "family": "fender-princeton-reverb",
+    "model": "Princeton",
+    "years": "1971 to 1979",
+    "configuration": "Silverface, AB1270",
+    "low": 800,
+    "high": 1050
+  },
+  {
+    "id": "fender-princeton-reverb-13",
+    "family": "fender-princeton-reverb",
+    "model": "Princeton",
+    "years": "1973 to 1975",
+    "configuration": "Fender logo with tail",
+    "low": 850,
+    "high": 1100
+  },
+  {
+    "id": "fender-princeton-reverb-14",
+    "family": "fender-princeton-reverb",
+    "model": "Princeton",
+    "years": "1975 to 1978",
+    "configuration": "Fender logo without tail",
+    "low": 800,
+    "high": 1100
+  },
+  {
+    "id": "fender-princeton-reverb-15",
+    "family": "fender-princeton-reverb",
+    "model": "Princeton",
+    "years": "1978 to 1979",
+    "configuration": "With boost pull knob",
+    "low": 800,
+    "high": 1100
+  },
+  {
+    "id": "fender-princeton-reverb-16",
+    "family": "fender-princeton-reverb",
+    "model": "Princeton Reverb",
+    "years": "1964 to 1967",
+    "configuration": "Blackface",
+    "low": 2650,
+    "high": 3550
+  },
+  {
+    "id": "fender-princeton-reverb-17",
+    "family": "fender-princeton-reverb",
+    "model": "Princeton Reverb",
+    "years": "1968 to 1972",
+    "configuration": "Silverface, Fender logo with tail",
+    "low": 1950,
+    "high": 2600
+  },
+  {
+    "id": "fender-princeton-reverb-18",
+    "family": "fender-princeton-reverb",
+    "model": "Princeton Reverb",
+    "years": "1973 to 1979",
+    "configuration": "Silverface, no Fender logo tail",
+    "low": 1500,
+    "high": 1950
+  }
+]
