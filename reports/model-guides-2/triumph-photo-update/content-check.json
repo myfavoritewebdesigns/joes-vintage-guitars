@@ -1,0 +1,99 @@
+{
+  "rows": [
+    {
+      "kind": "value",
+      "tablesUnchanged": true,
+      "titleUnchanged": true,
+      "descriptionUnchanged": true,
+      "ogImageUnchanged": true,
+      "oldImagePlacements": 4,
+      "currentImagePlacements": 7,
+      "missingOriginalImages": [],
+      "originalHeroUnchanged": true,
+      "newExampleHeadings": [
+        "1940s Sunburst Triumph",
+        "1950s Sunburst Triumph With Repair History",
+        "Blonde Triumph Tenor"
+      ],
+      "allRefinishedAltsLabeled": true
+    },
+    {
+      "kind": "authentication",
+      "tablesUnchanged": true,
+      "titleUnchanged": true,
+      "descriptionUnchanged": true,
+      "ogImageUnchanged": true,
+      "oldImagePlacements": 9,
+      "currentImagePlacements": 22,
+      "missingOriginalImages": [],
+      "originalHeroUnchanged": true,
+      "newExampleHeadings": [
+        "1946 Triumph, Serial 55482",
+        "1940s Sunburst Triumph",
+        "1950s Sunburst Triumph With Repair History",
+        "Blonde Triumph Tenor"
+      ],
+      "allRefinishedAltsLabeled": true
+    }
+  ],
+  "newSourcePhotos": 13,
+  "sourceListings": [
+    "84139911",
+    "90125862",
+    "5548161"
+  ],
+  "integrity": [
+    {
+      "path": "src/assets/images/model-guides-2/triumph-1940s-body.jpg",
+      "hashMatches": true
+    },
+    {
+      "path": "src/assets/images/model-guides-2/triumph-1940s-front.jpg",
+      "hashMatches": true
+    },
+    {
+      "path": "src/assets/images/model-guides-2/triumph-1940s-headstock.jpg",
+      "hashMatches": true
+    },
+    {
+      "path": "src/assets/images/model-guides-2/triumph-1940s-back.jpg",
+      "hashMatches": true
+    },
+    {
+      "path": "src/assets/images/model-guides-2/triumph-1950s-refinished-body.jpg",
+      "hashMatches": true
+    },
+    {
+      "path": "src/assets/images/model-guides-2/triumph-1950s-refinished-headstock.jpg",
+      "hashMatches": true
+    },
+    {
+      "path": "src/assets/images/model-guides-2/triumph-1950s-refinished-label.jpg",
+      "hashMatches": true
+    },
+    {
+      "path": "src/assets/images/model-guides-2/triumph-1950s-refinished-heel.jpg",
+      "hashMatches": true
+    },
+    {
+      "path": "src/assets/images/model-guides-2/triumph-tenor-front.jpg",
+      "hashMatches": true
+    },
+    {
+      "path": "src/assets/images/model-guides-2/triumph-tenor-headstock.jpg",
+      "hashMatches": true
+    },
+    {
+      "path": "src/assets/images/model-guides-2/triumph-tenor-rear-headstock.jpg",
+      "hashMatches": true
+    },
+    {
+      "path": "src/assets/images/model-guides-2/triumph-tenor-extra-holes.jpg",
+      "hashMatches": true
+    },
+    {
+      "path": "src/assets/images/model-guides-2/triumph-tenor-headstock-seam.jpg",
+      "hashMatches": true
+    }
+  ]
+}

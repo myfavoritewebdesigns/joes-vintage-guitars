@@ -46,7 +46,35 @@ import deluxe33Holes from '../../assets/images/model-guides-2/deluxe-1933-refini
 import deluxe33Back from '../../assets/images/model-guides-2/deluxe-1933-refinished-back.jpg';
 import deluxe33Fhole from '../../assets/images/model-guides-2/deluxe-1933-refinished-f-hole.jpg';
 
+import triumph40Body from '../../assets/images/model-guides-2/triumph-1940s-body.jpg';
+import triumph40Front from '../../assets/images/model-guides-2/triumph-1940s-front.jpg';
+import triumph40Head from '../../assets/images/model-guides-2/triumph-1940s-headstock.jpg';
+import triumph40Back from '../../assets/images/model-guides-2/triumph-1940s-back.jpg';
+import triumph50Body from '../../assets/images/model-guides-2/triumph-1950s-refinished-body.jpg';
+import triumph50Head from '../../assets/images/model-guides-2/triumph-1950s-refinished-headstock.jpg';
+import triumph50Label from '../../assets/images/model-guides-2/triumph-1950s-refinished-label.jpg';
+import triumph50Heel from '../../assets/images/model-guides-2/triumph-1950s-refinished-heel.jpg';
+import triumphTenorFront from '../../assets/images/model-guides-2/triumph-tenor-front.jpg';
+import triumphTenorHead from '../../assets/images/model-guides-2/triumph-tenor-headstock.jpg';
+import triumphTenorRear from '../../assets/images/model-guides-2/triumph-tenor-rear-headstock.jpg';
+import triumphTenorHoles from '../../assets/images/model-guides-2/triumph-tenor-extra-holes.jpg';
+import triumphTenorSeam from '../../assets/images/model-guides-2/triumph-tenor-headstock-seam.jpg';
+
 export const epiPhotos = {
+  triumph40Body: {src:triumph40Body,alt:"1940s Epiphone Triumph, sunburst: Sunburst acoustic body and patterned pickguard",caption:"1940s Triumph. Sunburst acoustic body.",captionBelow:true,fit:'contain'},
+  triumph40Front: {src:triumph40Front,alt:"1940s Epiphone Triumph, sunburst: Full front of the six-string sunburst acoustic",caption:"1940s Triumph. Full six-string front.",captionBelow:true,fit:'contain'},
+  triumph40Head: {src:triumph40Head,alt:"1940s Epiphone Triumph, sunburst: Six-string headstock with script logo and decorative inlay",caption:"1940s Triumph. Six-string headstock.",captionBelow:true,fit:'contain'},
+  triumph40Back: {src:triumph40Back,alt:"1940s Epiphone Triumph, sunburst: Sunburst back of the acoustic body",caption:"1940s Triumph. Sunburst back.",captionBelow:true,fit:'contain'},
+  triumph50Body: {src:triumph50Body,alt:"1950s Epiphone Triumph, refinished sunburst: Refinished sunburst acoustic body",caption:"1950s Triumph, refinished. Acoustic body.",captionBelow:true,fit:'contain'},
+  triumph50Head: {src:triumph50Head,alt:"1950s Epiphone Triumph, refinished sunburst: Headstock of the refinished six-string acoustic",caption:"1950s Triumph, refinished. Headstock.",captionBelow:true,fit:'contain'},
+  triumph50Label: {src:triumph50Label,alt:"1950s Epiphone Triumph, refinished sunburst: Internal label through the f-hole of the refinished guitar",caption:"1950s Triumph, refinished. Internal label.",captionBelow:true,fit:'contain'},
+  triumph50Heel: {src:triumph50Heel,alt:"1950s Epiphone Triumph, refinished sunburst: Neck heel and body joint on the refinished guitar",caption:"1950s Triumph, refinished. Neck heel.",captionBelow:true,fit:'contain'},
+  triumphTenorFront: {src:triumphTenorFront,alt:"Epiphone Triumph tenor, blonde, approximate 1950s date: Full front of the blonde four-string tenor with replacement pickguard",caption:"Triumph tenor. Four-string front.",captionBelow:true,fit:'contain'},
+  triumphTenorHead: {src:triumphTenorHead,alt:"Epiphone Triumph tenor, blonde, approximate 1950s date: Front headstock with four tuner positions",caption:"Triumph tenor. Four-tuner headstock.",captionBelow:true,fit:'contain'},
+  triumphTenorRear: {src:triumphTenorRear,alt:"Epiphone Triumph tenor, blonde, approximate 1950s date: Rear headstock and four tuners",caption:"Triumph tenor. Rear headstock.",captionBelow:true,fit:'contain'},
+  triumphTenorHoles: {src:triumphTenorHoles,alt:"Epiphone Triumph tenor, blonde, approximate 1950s date: Close-up of extra holes below the rear headstock",caption:"Triumph tenor. Extra holes below the headstock.",captionBelow:true,fit:'contain'},
+  triumphTenorSeam: {src:triumphTenorSeam,alt:"Epiphone Triumph tenor, blonde, approximate 1950s date: Rear headstock close-up showing the center seam",caption:"Triumph tenor. Rear headstock seam.",captionBelow:true,fit:'contain'},
+
   deluxe33Body: {src:deluxe33Body,alt:"Refinished 1933 Epiphone Masterbilt DeLuxe: Front body with a blonde refinish and segmented f-holes",caption:"1933 Epiphone Masterbilt DeLuxe. Refinished.",captionBelow:true,fit:'contain'},
   deluxe33Front: {src:deluxe33Front,alt:"Refinished 1933 Epiphone Masterbilt DeLuxe: Full front of the refinished acoustic archtop",caption:"1933 DeLuxe, refinished. Full front of the refinished acoustic archtop.",captionBelow:true,fit:'contain'},
   deluxe33Head: {src:deluxe33Head,alt:"Refinished 1933 Epiphone Masterbilt DeLuxe: Decorated headstock with the Epiphone logo missing",caption:"1933 DeLuxe, refinished. Headstock.",captionBelow:true,fit:'contain'},

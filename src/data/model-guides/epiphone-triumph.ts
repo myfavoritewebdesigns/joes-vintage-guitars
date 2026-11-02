@@ -2,6 +2,18 @@ import type { ModelGuideData } from '../../components/model-guide/types';
 import { epiPhotos as ph } from './epiphone-photos';
 import { epiBase, epiChart, range, p, section, source, epiCTA } from './epiphone-helpers';
 
+const additionalTriumphExamples = [
+ {label:'Six-String Acoustic',title:'1940s Sunburst Triumph',html:'<p>This 1940s Triumph has a non-cutaway acoustic body, patterned pickguard and six-string neck. The body, full front, headstock and back photographs give a comparison with the existing 1946 example carrying an added DeArmond pickup. Joe’s sold listing records a professional refret. The photographs show the visible configuration without establishing that every part is original.</p>',photos:[ph.triumph40Body,ph.triumph40Front,ph.triumph40Head,ph.triumph40Back]},
+ {label:'Refinished Six-String Acoustic',title:'1950s Sunburst Triumph With Repair History',html:'<p>This pre-Gibson 1950s Triumph is refinished. Joe’s sold listing also documents a neck reset and replaced neck binding. The body, headstock, internal label and heel photographs belong to that same guitar. Its repair history needs an individual condition assessment; it is not an example of the excellent, original condition assumed by the value chart.</p>',photos:[ph.triumph50Body,ph.triumph50Head,ph.triumph50Label,ph.triumph50Heel]},
+ {label:'Four-String Tenor',title:'Blonde Triumph Tenor',html:'<p>The blonde Triumph tenor has a four-string neck and four tuner positions. Its rosewood pickguard is a replacement. The rear-headstock photographs show extra holes and the center seam; Joe’s ended listing also notes slight separation at the back of the headstock. The listing gives an approximate 1950s date, so these photos do not establish an exact year. This tenor needs its own appraisal rather than a price taken from the six-string Triumph chart.</p>',photos:[ph.triumphTenorFront,ph.triumphTenorHead,ph.triumphTenorRear,ph.triumphTenorHoles,ph.triumphTenorSeam]}
+];
+
+const additionalTriumphValueNotes = [
+ '<p>This 1940s six-string Triumph is a sunburst non-cutaway acoustic. Joe’s sold listing records a professional refret. Include that work in a condition assessment rather than assuming that an attractive front view establishes complete originality.</p>',
+ '<p>This 1950s six-string Triumph is refinished and has had a neck reset and replacement neck binding. Those changes need an individual assessment. The guitar is not an example of the excellent, original condition assumed by the chart.</p>',
+ '<p>This blonde Triumph is a four-string tenor with a replacement rosewood pickguard. Its listing gives an approximate 1950s date and records rear-headstock issues. A tenor needs its own appraisal; the six-string ranges above do not price this version.</p>'
+];
+
 export const triumphGuides: ModelGuideData[] = [
 {
  ...epiBase('triumph','value'), title:'Epiphone Triumph Value Guide',
@@ -37,7 +49,11 @@ export const triumphGuides: ModelGuideData[] = [
   ]},
   p('<p>Original hardware can be difficult to evaluate from a full-body view. Add close-ups of the Frequensator, bridge base, tuner backs and pickguard mounts. If a part is a replacement, say so and include the removed component if it survives. A functioning replacement may help playability, but an appraisal should not silently count it as the factory part.</p>')
  ],'dark'),
- {type:'photo-band',photos:[ph.triumph46Front,ph.triumph46Side],quote:'The side view helps explain the neck angle and body condition behind an attractive front photograph.'},
+ {type:'photo-band',photos:[ph.triumph46Front,{...ph.triumph46Side,caption:'1946 Triumph. Side and neck profile.'}],quote:'The side view helps explain the neck angle and body condition behind an attractive front photograph.'},
+ section('photo-examples','More Triumph Examples From Joe’s Shop','Six-String And Tenor Comparisons',[
+  {type:'archive',items:additionalTriumphExamples.map((example,index)=>({...example,html:additionalTriumphValueNotes[index],photos:example.photos.slice(0,1)}))},
+  p('<p>See the <a href="/post/epiphone-triumph-authentication-guide/#additional-photos">Triumph photo archive</a> for the additional headstock, label, heel, back and tenor condition views from these three instruments.</p>')
+ ],'archive'),
  section('condition','What Can Move A Triumph Outside Its Chart Range','Structural And Cosmetic Changes',[
   {type:'cards',variant:'condition',items:[
    {title:'A Pickup Installation',html:'<p>Show how the pickup is attached and where its cable and controls run. A removable accessory and a routed top are different alterations. Do not remove a fragile old installation just to improve the appearance for sale. The <a href="/do-replaced-pickups-hurt-guitar-value/">pickup guide</a> helps frame the questions about original and replacement components.</p>'},
@@ -91,7 +107,7 @@ export const triumphGuides: ModelGuideData[] = [
    {title:'The Philadelphia Continuation',html:'<p>The 1954 catalog preserves the Triumph as an acoustic model and shows cutaway and non-cutaway options. Natural and shaded finishes appear in the period catalog listings, with a tenor version also listed. The move to Philadelphia therefore belongs within the pre-Gibson Triumph story rather than being treated as a new Gibson production period.</p><p>Record a label’s address and model wording exactly, but avoid turning the printed address into a precise build date. Labels and parts can outlast a catalog season. An approximate date supported by construction is more defensible than a single year chosen only because the label looks familiar.</p>'}
   ]}
  ],'dark'),
- {type:'photo-band',photos:[ph.triumph46Body,ph.triumph46Label],quote:'This Triumph’s label and acoustic body identify the guitar separately from the added pickup.'},
+ {type:'photo-band',photos:[ph.triumph46Body,{...ph.triumph46Label,caption:'1946 Triumph. Label with serial 55482.'}],quote:'This Triumph’s label and acoustic body identify the guitar separately from the added pickup.'},
  section('timeline','Triumph Changes To Check In Order','Model Development And Factory Transition',[
   {type:'timeline',items:[
    {date:'1931 To The Mid-1930s',title:'Body And Material Changes',html:'<p>The early model groups include walnut and then maple constructions. Treat dimensions and materials as identification evidence, not merely a finish description. A dark sunburst can hide the wood in a front photograph, so the back and rim views matter.</p>'},
@@ -120,6 +136,9 @@ export const triumphGuides: ModelGuideData[] = [
  section('archive','Joe’s 1946 Triumph With A DeArmond Pickup','A Documented Acoustic Example',[
   {type:'archive',items:[{label:'New York Acoustic With Added Pickup',title:'1946 Triumph, Serial 55482',html:'<p>Joe’s photographs show a sunburst non-cutaway Triumph with a DeArmond pickup and its associated controls. The side view shows the deep acoustic body. The label photograph reads Triumph and serial 55482. The date comes from the documented archive identification; the serial itself should not be presented as an exact calendar code.</p><p>Use this guitar to understand the distinction between model and accessory. Its pickup is visible, but the body remains the acoustic Triumph being identified. The photographs do not prove the installation date or certify every component as original. A useful description preserves that distinction instead of calling the whole instrument a factory electric.</p>',photos:[ph.triumph46Front,ph.triumph46Body,ph.triumph46Label,ph.triumph46Side]}]}
  ],'archive'),
+ section('additional-photos','More Triumph Photos From Joe’s Shop','Sold And Ended Listing Examples',[
+  {type:'archive',items:additionalTriumphExamples}
+ ],'archive'),
  section('numbers','Reading A Triumph Label And Serial','Approximate Pre-Gibson Dating',[
   p("<p>Early Kalamazoo hollowbodies need a separate first check: an A followed by four digits on the interior label belongs to Epiphone’s early A-series, not the similarly named Gibson A-prefix chart. Photograph the whole label and keep any factory order number separate. A model code is not a serial number. Later impressed numbers can be compared with the shared Gibson system, with the guitar’s construction used to check the result.</p>"),
   {type:'serials',items:[{serial:'55482',title:'A Readable Number On Joe’s Triumph',html:'<p>The full-size image supports all five digits. The label and model features identify the instrument together. Do not convert this example into a rule that every nearby serial was finished in the same year.</p>',photo:ph.triumph46Label}]},
@@ -140,6 +159,9 @@ export const triumphGuides: ModelGuideData[] = [
  ]),
  section('references','Triumph Research References','Original Catalogs And Serial Research',[
   {type:'sources',items:[
+   source('Joe’s 1940s Sunburst Triumph','https://reverb.com/item/84139911-epiphone-triumph-1940s-sunburst','Sold six-string example supplying the photographs, decade and refret history.'),
+   source('Joe’s Refinished 1950s Triumph','https://reverb.com/item/90125862-epiphone-triumph-pre-gibson-1950s-sunburst','Sold example with a disclosed refinish, neck reset and replaced neck binding.'),
+   source('Joe’s Blonde Triumph Tenor','https://reverb.com/item/5548161-epiphone-triumph-tenor-guitar-1950s-blonde','Ended four-string listing with an approximate date, replacement guard and rear-headstock condition notes.'),
    source('Epiphone Serialization Reference','https://jedistar.com/images/2024_May/BlueBookElectricSerialization.pdf','Epiphone section, page 1071: the early hollowbody A-label sequence differs from Gibson’s A-prefix series; later impressed numbers require feature checks.'),
    source('1934 Epiphone Catalog','https://acousticmusic.org/wp-content/uploads/2016/02/Epiphone-1934-Catalog.pdf','Original Triumph materials and early acoustic specification.'),
    source('1954 Epiphone Catalog','https://wiedler.ch/nyepireg/docs/1954_catalog.pdf','Triumph acoustic, cutaway, finish and tenor versions during the Philadelphia period.'),

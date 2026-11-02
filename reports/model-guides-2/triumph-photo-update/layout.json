@@ -1,0 +1,460 @@
+[
+  {
+    "slug": "epiphone-triumph-value-guide",
+    "width": 1280,
+    "scrollWidth": 1280,
+    "broken": [],
+    "buttons": [
+      {
+        "label": "Free Appraisal",
+        "href": "/free-appraisal/",
+        "visible": true
+      },
+      {
+        "label": "Sell My Epiphone",
+        "href": "/sell-my-epiphone-guitar/",
+        "visible": true
+      }
+    ],
+    "photos": [
+      {
+        "src": "/_astro/triumph-1946-body.OD3LQAKB_Z1WwTGO.webp",
+        "alt": "1946 Epiphone Triumph. Non-cutaway archtop with added DeArmond pickup",
+        "caption": "1946 Epiphone Triumph. Non-cutaway archtop with added DeArmond pickup. Photo from Joe’s archive.",
+        "fit": "cover",
+        "captionBelow": true
+      },
+      {
+        "src": "/_astro/triumph-1946-front.HQdLqMMA_ZCxydb.webp",
+        "alt": "1946 Epiphone Triumph. Full front with added DeArmond pickup",
+        "caption": "1946 Epiphone Triumph. Full front with added DeArmond pickup. Photo from Joe’s archive.",
+        "fit": "contain",
+        "captionBelow": true
+      },
+      {
+        "src": "/_astro/triumph-1946-side.B7jbJ0yy_Z1kw5cf.webp",
+        "alt": "1946 Epiphone Triumph. Full side and neck profile",
+        "caption": "1946 Triumph. Side and neck profile.",
+        "fit": "contain",
+        "captionBelow": true
+      },
+      {
+        "src": "/_astro/triumph-1940s-body.CgKl4xQJ_Zksuhg.webp",
+        "alt": "1940s Epiphone Triumph, sunburst: Sunburst acoustic body and patterned pickguard",
+        "caption": "1940s Triumph. Sunburst acoustic body.",
+        "fit": "contain",
+        "captionBelow": true
+      },
+      {
+        "src": "/_astro/triumph-1950s-refinished-body.pyXnmlST_1BJI7r.webp",
+        "alt": "1950s Epiphone Triumph, refinished sunburst: Refinished sunburst acoustic body",
+        "caption": "1950s Triumph, refinished. Acoustic body.",
+        "fit": "contain",
+        "captionBelow": true
+      },
+      {
+        "src": "/_astro/triumph-tenor-front.DugaKJIG_1iDqKh.webp",
+        "alt": "Epiphone Triumph tenor, blonde, approximate 1950s date: Full front of the blonde four-string tenor with replacement pickguard",
+        "caption": "Triumph tenor. Four-string front.",
+        "fit": "contain",
+        "captionBelow": true
+      }
+    ]
+  },
+  {
+    "slug": "epiphone-triumph-authentication-guide",
+    "width": 1280,
+    "scrollWidth": 1280,
+    "broken": [],
+    "buttons": [
+      {
+        "label": "Free Appraisal",
+        "href": "/free-appraisal/",
+        "visible": true
+      },
+      {
+        "label": "Sell My Epiphone",
+        "href": "/sell-my-epiphone-guitar/",
+        "visible": true
+      }
+    ],
+    "photos": [
+      {
+        "src": "/_astro/triumph-1946-front.HQdLqMMA_1X8Y1A.webp",
+        "alt": "1946 Epiphone Triumph. Full front with added DeArmond pickup",
+        "caption": "1946 Epiphone Triumph. Full front with added DeArmond pickup. Photo from Joe’s archive.",
+        "fit": "contain",
+        "captionBelow": true
+      },
+      {
+        "src": "/_astro/triumph-1946-body.OD3LQAKB_Z1pgW9N.webp",
+        "alt": "1946 Epiphone Triumph. Non-cutaway archtop with added DeArmond pickup",
+        "caption": "1946 Epiphone Triumph. Non-cutaway archtop with added DeArmond pickup. Photo from Joe’s archive.",
+        "fit": "cover",
+        "captionBelow": true
+      },
+      {
+        "src": "/_astro/triumph-1946-label.Bh7US-tT_Z2qScg5.webp",
+        "alt": "1946 Epiphone Triumph. New York label with serial 55482",
+        "caption": "1946 Triumph. Label with serial 55482.",
+        "fit": "cover",
+        "captionBelow": true
+      },
+      {
+        "src": "/_astro/triumph-1946-front.HQdLqMMA_ZCxydb.webp",
+        "alt": "1946 Epiphone Triumph. Full front with added DeArmond pickup",
+        "caption": "1946 Epiphone Triumph. Full front with added DeArmond pickup. Photo from Joe’s archive.",
+        "fit": "contain",
+        "captionBelow": true
+      },
+      {
+        "src": "/_astro/triumph-1946-body.OD3LQAKB_Z1pgW9N.webp",
+        "alt": "1946 Epiphone Triumph. Non-cutaway archtop with added DeArmond pickup",
+        "caption": "1946 Epiphone Triumph. Non-cutaway archtop with added DeArmond pickup. Photo from Joe’s archive.",
+        "fit": "cover",
+        "captionBelow": true
+      },
+      {
+        "src": "/_astro/triumph-1946-label.Bh7US-tT_Z2qScg5.webp",
+        "alt": "1946 Epiphone Triumph. New York label with serial 55482",
+        "caption": "1946 Epiphone Triumph. New York label with serial 55482. Photo from Joe’s archive.",
+        "fit": "cover",
+        "captionBelow": true
+      },
+      {
+        "src": "/_astro/triumph-1946-side.B7jbJ0yy_Z1kw5cf.webp",
+        "alt": "1946 Epiphone Triumph. Full side and neck profile",
+        "caption": "1946 Epiphone Triumph. Full side and neck profile. Photo from Joe’s archive.",
+        "fit": "contain",
+        "captionBelow": true
+      },
+      {
+        "src": "/_astro/triumph-1940s-body.CgKl4xQJ_Zksuhg.webp",
+        "alt": "1940s Epiphone Triumph, sunburst: Sunburst acoustic body and patterned pickguard",
+        "caption": "1940s Triumph. Sunburst acoustic body.",
+        "fit": "contain",
+        "captionBelow": true
+      },
+      {
+        "src": "/_astro/triumph-1940s-front.B4P8lTx__ZigrYu.webp",
+        "alt": "1940s Epiphone Triumph, sunburst: Full front of the six-string sunburst acoustic",
+        "caption": "1940s Triumph. Full six-string front.",
+        "fit": "contain",
+        "captionBelow": true
+      },
+      {
+        "src": "/_astro/triumph-1940s-headstock.BJjvUoXP_1n7H1y.webp",
+        "alt": "1940s Epiphone Triumph, sunburst: Six-string headstock with script logo and decorative inlay",
+        "caption": "1940s Triumph. Six-string headstock.",
+        "fit": "contain",
+        "captionBelow": true
+      },
+      {
+        "src": "/_astro/triumph-1940s-back.Cr3IL9Cn_Z1vRzwx.webp",
+        "alt": "1940s Epiphone Triumph, sunburst: Sunburst back of the acoustic body",
+        "caption": "1940s Triumph. Sunburst back.",
+        "fit": "contain",
+        "captionBelow": true
+      },
+      {
+        "src": "/_astro/triumph-1950s-refinished-body.pyXnmlST_1BJI7r.webp",
+        "alt": "1950s Epiphone Triumph, refinished sunburst: Refinished sunburst acoustic body",
+        "caption": "1950s Triumph, refinished. Acoustic body.",
+        "fit": "contain",
+        "captionBelow": true
+      },
+      {
+        "src": "/_astro/triumph-1950s-refinished-headstock.Bz3Gcej9_Z3aIht.webp",
+        "alt": "1950s Epiphone Triumph, refinished sunburst: Headstock of the refinished six-string acoustic",
+        "caption": "1950s Triumph, refinished. Headstock.",
+        "fit": "contain",
+        "captionBelow": true
+      },
+      {
+        "src": "/_astro/triumph-1950s-refinished-label.fl3yb0OF_ZoL3yV.webp",
+        "alt": "1950s Epiphone Triumph, refinished sunburst: Internal label through the f-hole of the refinished guitar",
+        "caption": "1950s Triumph, refinished. Internal label.",
+        "fit": "contain",
+        "captionBelow": true
+      },
+      {
+        "src": "/_astro/triumph-1950s-refinished-heel.Byrj7dsO_tIQWD.webp",
+        "alt": "1950s Epiphone Triumph, refinished sunburst: Neck heel and body joint on the refinished guitar",
+        "caption": "1950s Triumph, refinished. Neck heel.",
+        "fit": "contain",
+        "captionBelow": true
+      },
+      {
+        "src": "/_astro/triumph-tenor-front.DugaKJIG_1iDqKh.webp",
+        "alt": "Epiphone Triumph tenor, blonde, approximate 1950s date: Full front of the blonde four-string tenor with replacement pickguard",
+        "caption": "Triumph tenor. Four-string front.",
+        "fit": "contain",
+        "captionBelow": true
+      },
+      {
+        "src": "/_astro/triumph-tenor-headstock.CzmJKtUF_jSgif.webp",
+        "alt": "Epiphone Triumph tenor, blonde, approximate 1950s date: Front headstock with four tuner positions",
+        "caption": "Triumph tenor. Four-tuner headstock.",
+        "fit": "contain",
+        "captionBelow": true
+      },
+      {
+        "src": "/_astro/triumph-tenor-rear-headstock.DLe1HFqw_Z2f2szB.webp",
+        "alt": "Epiphone Triumph tenor, blonde, approximate 1950s date: Rear headstock and four tuners",
+        "caption": "Triumph tenor. Rear headstock.",
+        "fit": "contain",
+        "captionBelow": true
+      },
+      {
+        "src": "/_astro/triumph-tenor-extra-holes.7JzxErgb_1LBi5n.webp",
+        "alt": "Epiphone Triumph tenor, blonde, approximate 1950s date: Close-up of extra holes below the rear headstock",
+        "caption": "Triumph tenor. Extra holes below the headstock.",
+        "fit": "contain",
+        "captionBelow": true
+      },
+      {
+        "src": "/_astro/triumph-tenor-headstock-seam.BoDZduHV_2a54qM.webp",
+        "alt": "Epiphone Triumph tenor, blonde, approximate 1950s date: Rear headstock close-up showing the center seam",
+        "caption": "Triumph tenor. Rear headstock seam.",
+        "fit": "contain",
+        "captionBelow": true
+      },
+      {
+        "src": "/_astro/triumph-1946-label.Bh7US-tT_11oLzD.webp",
+        "alt": "1946 Epiphone Triumph. New York label with serial 55482",
+        "caption": "1946 Epiphone Triumph. New York label with serial 55482. Photo from Joe’s archive.",
+        "fit": "cover",
+        "captionBelow": true
+      }
+    ]
+  },
+  {
+    "slug": "epiphone-triumph-value-guide",
+    "width": 375,
+    "scrollWidth": 375,
+    "broken": [],
+    "buttons": [
+      {
+        "label": "Free Appraisal",
+        "href": "/free-appraisal/",
+        "visible": true
+      },
+      {
+        "label": "Sell My Epiphone",
+        "href": "/sell-my-epiphone-guitar/",
+        "visible": true
+      }
+    ],
+    "photos": [
+      {
+        "src": "/_astro/triumph-1946-body.OD3LQAKB_Z1WwTGO.webp",
+        "alt": "1946 Epiphone Triumph. Non-cutaway archtop with added DeArmond pickup",
+        "caption": "1946 Epiphone Triumph. Non-cutaway archtop with added DeArmond pickup. Photo from Joe’s archive.",
+        "fit": "cover",
+        "captionBelow": true
+      },
+      {
+        "src": "/_astro/triumph-1946-front.HQdLqMMA_ZCxydb.webp",
+        "alt": "1946 Epiphone Triumph. Full front with added DeArmond pickup",
+        "caption": "1946 Epiphone Triumph. Full front with added DeArmond pickup. Photo from Joe’s archive.",
+        "fit": "contain",
+        "captionBelow": true
+      },
+      {
+        "src": "/_astro/triumph-1946-side.B7jbJ0yy_Z1kw5cf.webp",
+        "alt": "1946 Epiphone Triumph. Full side and neck profile",
+        "caption": "1946 Triumph. Side and neck profile.",
+        "fit": "contain",
+        "captionBelow": true
+      },
+      {
+        "src": "/_astro/triumph-1940s-body.CgKl4xQJ_Zksuhg.webp",
+        "alt": "1940s Epiphone Triumph, sunburst: Sunburst acoustic body and patterned pickguard",
+        "caption": "1940s Triumph. Sunburst acoustic body.",
+        "fit": "contain",
+        "captionBelow": true
+      },
+      {
+        "src": "/_astro/triumph-1950s-refinished-body.pyXnmlST_1BJI7r.webp",
+        "alt": "1950s Epiphone Triumph, refinished sunburst: Refinished sunburst acoustic body",
+        "caption": "1950s Triumph, refinished. Acoustic body.",
+        "fit": "contain",
+        "captionBelow": true
+      },
+      {
+        "src": "/_astro/triumph-tenor-front.DugaKJIG_1iDqKh.webp",
+        "alt": "Epiphone Triumph tenor, blonde, approximate 1950s date: Full front of the blonde four-string tenor with replacement pickguard",
+        "caption": "Triumph tenor. Four-string front.",
+        "fit": "contain",
+        "captionBelow": true
+      }
+    ]
+  },
+  {
+    "slug": "epiphone-triumph-authentication-guide",
+    "width": 375,
+    "scrollWidth": 375,
+    "broken": [],
+    "buttons": [
+      {
+        "label": "Free Appraisal",
+        "href": "/free-appraisal/",
+        "visible": true
+      },
+      {
+        "label": "Sell My Epiphone",
+        "href": "/sell-my-epiphone-guitar/",
+        "visible": true
+      }
+    ],
+    "photos": [
+      {
+        "src": "/_astro/triumph-1946-front.HQdLqMMA_1X8Y1A.webp",
+        "alt": "1946 Epiphone Triumph. Full front with added DeArmond pickup",
+        "caption": "1946 Epiphone Triumph. Full front with added DeArmond pickup. Photo from Joe’s archive.",
+        "fit": "contain",
+        "captionBelow": true
+      },
+      {
+        "src": "/_astro/triumph-1946-body.OD3LQAKB_Z1pgW9N.webp",
+        "alt": "1946 Epiphone Triumph. Non-cutaway archtop with added DeArmond pickup",
+        "caption": "1946 Epiphone Triumph. Non-cutaway archtop with added DeArmond pickup. Photo from Joe’s archive.",
+        "fit": "cover",
+        "captionBelow": true
+      },
+      {
+        "src": "/_astro/triumph-1946-label.Bh7US-tT_Z2qScg5.webp",
+        "alt": "1946 Epiphone Triumph. New York label with serial 55482",
+        "caption": "1946 Triumph. Label with serial 55482.",
+        "fit": "cover",
+        "captionBelow": true
+      },
+      {
+        "src": "/_astro/triumph-1946-front.HQdLqMMA_ZCxydb.webp",
+        "alt": "1946 Epiphone Triumph. Full front with added DeArmond pickup",
+        "caption": "1946 Epiphone Triumph. Full front with added DeArmond pickup. Photo from Joe’s archive.",
+        "fit": "contain",
+        "captionBelow": true
+      },
+      {
+        "src": "/_astro/triumph-1946-body.OD3LQAKB_Z1pgW9N.webp",
+        "alt": "1946 Epiphone Triumph. Non-cutaway archtop with added DeArmond pickup",
+        "caption": "1946 Epiphone Triumph. Non-cutaway archtop with added DeArmond pickup. Photo from Joe’s archive.",
+        "fit": "cover",
+        "captionBelow": true
+      },
+      {
+        "src": "/_astro/triumph-1946-label.Bh7US-tT_Z2qScg5.webp",
+        "alt": "1946 Epiphone Triumph. New York label with serial 55482",
+        "caption": "1946 Epiphone Triumph. New York label with serial 55482. Photo from Joe’s archive.",
+        "fit": "cover",
+        "captionBelow": true
+      },
+      {
+        "src": "/_astro/triumph-1946-side.B7jbJ0yy_Z1kw5cf.webp",
+        "alt": "1946 Epiphone Triumph. Full side and neck profile",
+        "caption": "1946 Epiphone Triumph. Full side and neck profile. Photo from Joe’s archive.",
+        "fit": "contain",
+        "captionBelow": true
+      },
+      {
+        "src": "/_astro/triumph-1940s-body.CgKl4xQJ_Zksuhg.webp",
+        "alt": "1940s Epiphone Triumph, sunburst: Sunburst acoustic body and patterned pickguard",
+        "caption": "1940s Triumph. Sunburst acoustic body.",
+        "fit": "contain",
+        "captionBelow": true
+      },
+      {
+        "src": "/_astro/triumph-1940s-front.B4P8lTx__ZigrYu.webp",
+        "alt": "1940s Epiphone Triumph, sunburst: Full front of the six-string sunburst acoustic",
+        "caption": "1940s Triumph. Full six-string front.",
+        "fit": "contain",
+        "captionBelow": true
+      },
+      {
+        "src": "/_astro/triumph-1940s-headstock.BJjvUoXP_1n7H1y.webp",
+        "alt": "1940s Epiphone Triumph, sunburst: Six-string headstock with script logo and decorative inlay",
+        "caption": "1940s Triumph. Six-string headstock.",
+        "fit": "contain",
+        "captionBelow": true
+      },
+      {
+        "src": "/_astro/triumph-1940s-back.Cr3IL9Cn_Z1vRzwx.webp",
+        "alt": "1940s Epiphone Triumph, sunburst: Sunburst back of the acoustic body",
+        "caption": "1940s Triumph. Sunburst back.",
+        "fit": "contain",
+        "captionBelow": true
+      },
+      {
+        "src": "/_astro/triumph-1950s-refinished-body.pyXnmlST_1BJI7r.webp",
+        "alt": "1950s Epiphone Triumph, refinished sunburst: Refinished sunburst acoustic body",
+        "caption": "1950s Triumph, refinished. Acoustic body.",
+        "fit": "contain",
+        "captionBelow": true
+      },
+      {
+        "src": "/_astro/triumph-1950s-refinished-headstock.Bz3Gcej9_Z3aIht.webp",
+        "alt": "1950s Epiphone Triumph, refinished sunburst: Headstock of the refinished six-string acoustic",
+        "caption": "1950s Triumph, refinished. Headstock.",
+        "fit": "contain",
+        "captionBelow": true
+      },
+      {
+        "src": "/_astro/triumph-1950s-refinished-label.fl3yb0OF_ZoL3yV.webp",
+        "alt": "1950s Epiphone Triumph, refinished sunburst: Internal label through the f-hole of the refinished guitar",
+        "caption": "1950s Triumph, refinished. Internal label.",
+        "fit": "contain",
+        "captionBelow": true
+      },
+      {
+        "src": "/_astro/triumph-1950s-refinished-heel.Byrj7dsO_tIQWD.webp",
+        "alt": "1950s Epiphone Triumph, refinished sunburst: Neck heel and body joint on the refinished guitar",
+        "caption": "1950s Triumph, refinished. Neck heel.",
+        "fit": "contain",
+        "captionBelow": true
+      },
+      {
+        "src": "/_astro/triumph-tenor-front.DugaKJIG_1iDqKh.webp",
+        "alt": "Epiphone Triumph tenor, blonde, approximate 1950s date: Full front of the blonde four-string tenor with replacement pickguard",
+        "caption": "Triumph tenor. Four-string front.",
+        "fit": "contain",
+        "captionBelow": true
+      },
+      {
+        "src": "/_astro/triumph-tenor-headstock.CzmJKtUF_jSgif.webp",
+        "alt": "Epiphone Triumph tenor, blonde, approximate 1950s date: Front headstock with four tuner positions",
+        "caption": "Triumph tenor. Four-tuner headstock.",
+        "fit": "contain",
+        "captionBelow": true
+      },
+      {
+        "src": "/_astro/triumph-tenor-rear-headstock.DLe1HFqw_Z2f2szB.webp",
+        "alt": "Epiphone Triumph tenor, blonde, approximate 1950s date: Rear headstock and four tuners",
+        "caption": "Triumph tenor. Rear headstock.",
+        "fit": "contain",
+        "captionBelow": true
+      },
+      {
+        "src": "/_astro/triumph-tenor-extra-holes.7JzxErgb_1LBi5n.webp",
+        "alt": "Epiphone Triumph tenor, blonde, approximate 1950s date: Close-up of extra holes below the rear headstock",
+        "caption": "Triumph tenor. Extra holes below the headstock.",
+        "fit": "contain",
+        "captionBelow": true
+      },
+      {
+        "src": "/_astro/triumph-tenor-headstock-seam.BoDZduHV_2a54qM.webp",
+        "alt": "Epiphone Triumph tenor, blonde, approximate 1950s date: Rear headstock close-up showing the center seam",
+        "caption": "Triumph tenor. Rear headstock seam.",
+        "fit": "contain",
+        "captionBelow": true
+      },
+      {
+        "src": "/_astro/triumph-1946-label.Bh7US-tT_11oLzD.webp",
+        "alt": "1946 Epiphone Triumph. New York label with serial 55482",
+        "caption": "1946 Epiphone Triumph. New York label with serial 55482. Photo from Joe’s archive.",
+        "fit": "cover",
+        "captionBelow": true
+      }
+    ]
+  }
+]

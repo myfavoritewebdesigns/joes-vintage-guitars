@@ -211,6 +211,9 @@ Stored in `~/.claude/projects/C--Users-noahj/memory/feedback_jvg_design_preferen
 
 ## Decision log
 
+- **2026-11-02, Triumph preview photo additions:** Joe requested photos from sold Reverb listings 84139911 and 90125862 plus ended listing 5548161, in addition to existing photographs. Thirteen local images now supplement both Triumph guides. Existing heroes, photo bands and the 1946 archive remain. Two band-only captions were shortened to clear the floating chat control, while full archive captions remain. New archive sections, headings, images and authentication source links are intentional additions from preview dc644352. The 1950s six-string is labeled refinished with its neck reset and replaced neck binding disclosed. The four-string tenor retains an approximate date and is excluded from six-string value comparisons. Price tables and shared styling are unchanged. Draft PR305 preview only.
+
+
 - **2026-11-02, DeLuxe preview photo revision:** Joe requested photos from his sold Reverb listing 103177654 and explicitly identified the refinish. Both DeLuxe guide heroes and blog/social images now use that refinished 1933 Masterbilt. Seven local gallery images support the photo bands and authentication archive. The added headings, images, condition explanation and source link are intentional changes from preview 27589c91. Every new caption/alt identifies the refinish; the value intro separates this repaired example from original-condition chart assumptions. Existing 1950s electric and model-comparison archive entries remain. No valuation rows or shared styling changed. This updates draft PR305 only.
 
 

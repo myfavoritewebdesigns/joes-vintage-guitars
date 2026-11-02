@@ -2,7 +2,7 @@
 title: "Epiphone Triumph Authentication Guide"
 seoTitle: "Epiphone Triumph Authentication Guide: Dates And Details"
 pubDate: "2026-10-30"
-modified: "2026-10-30"
+modified: "2026-11-02"
 excerpt: "Identify a vintage Epiphone Triumph from its body, cutaway, label and hardware. Follow New York, Philadelphia and Kalamazoo versions with Joe’s photos."
 category: "specific-model-highlights"
 categoryName: "Specific Model Highlights"

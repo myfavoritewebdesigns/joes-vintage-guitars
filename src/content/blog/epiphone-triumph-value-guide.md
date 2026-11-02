@@ -2,7 +2,7 @@
 title: "Epiphone Triumph Value Guide"
 seoTitle: "Vintage Epiphone Triumph Value Guide: American Prices"
 pubDate: "2026-10-30"
-modified: "2026-10-30"
+modified: "2026-11-02"
 excerpt: "Compare vintage Epiphone Triumph prices from early New York archtops to Kalamazoo cutaways, with advice on added pickups, repairs and appraisal photos."
 category: "value-evaluation"
 categoryName: "Value & Evaluation"
