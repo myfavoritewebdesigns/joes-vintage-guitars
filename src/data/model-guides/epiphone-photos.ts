@@ -1,3 +1,14 @@
+import olympic65Front from '../../assets/images/model-guides-2/olympic-1965-front.jpg';
+import olympic65Body from '../../assets/images/model-guides-2/olympic-1965-body.jpg';
+import olympic65Back from '../../assets/images/model-guides-2/olympic-1965-back.jpg';
+import olympic65Head from '../../assets/images/model-guides-2/olympic-1965-headstock.jpg';
+import olympic65RearBody from '../../assets/images/model-guides-2/olympic-1965-rear-body.jpg';
+import olympic40Front from '../../assets/images/model-guides-2/olympic-1940s-front.jpg';
+import olympic40Body from '../../assets/images/model-guides-2/olympic-1940s-body.jpg';
+import olympic40Head from '../../assets/images/model-guides-2/olympic-1940s-headstock.jpg';
+import olympic40Binding from '../../assets/images/model-guides-2/olympic-1940s-binding.jpg';
+import olympic40Tailpiece from '../../assets/images/model-guides-2/olympic-1940s-tailpiece.jpg';
+import olympic40Label from '../../assets/images/model-guides-2/olympic-1940s-label.jpg';
 import type { GuidePhoto } from '../../components/model-guide/types';
 import sheratonCase from '../../assets/images/model-guides-2/sheraton-1961-case.jpg';
 import sheratonBody from '../../assets/images/model-guides-2/sheraton-1961-body.jpg';
@@ -68,6 +79,18 @@ import broadway61Label from '../../assets/images/model-guides-2/broadway-1961-la
 import broadway64Natural from '../../assets/images/model-guides-2/broadway-1964-natural.jpg';
 
 export const epiPhotos = {
+  olympic65Front: {src:olympic65Front,alt:"1965 Epiphone Olympic sunburst single-pickup solidbody beside a blue-lined case",caption:"1965 Olympic. Single-pickup solidbody.",captionBelow:true,fit:'contain'},
+  olympic65Body: {src:olympic65Body,alt:"1965 Epiphone Olympic with one narrow single-coil pickup, two controls and vibrato",caption:"1965 Olympic. Single pickup and vibrato.",captionBelow:true,fit:'contain'},
+  olympic65Back: {src:olympic65Back,alt:"Full back and neck of a 1965 Epiphone Olympic solidbody",caption:"1965 Olympic. Full back and neck.",captionBelow:true,fit:'contain'},
+  olympic65Head: {src:olympic65Head,alt:"Six-in-line headstock with Epiphone logo on a 1965 Olympic",caption:"1965 Olympic. Six-in-line headstock.",captionBelow:true,fit:'contain'},
+  olympic65RearBody: {src:olympic65RearBody,alt:"Back of the asymmetrical double-cutaway body on a 1965 Epiphone Olympic",caption:"1965 Olympic. Back of the body.",captionBelow:true,fit:'contain'},
+  olympic40Front: {src:olympic40Front,alt:"Full front of a 1940s Epiphone Olympic acoustic archtop in yellow burst beside its case",caption:"1940s Olympic. Acoustic archtop.",captionBelow:true,fit:'contain'},
+  olympic40Body: {src:olympic40Body,alt:"1940s Epiphone Olympic yellow-burst acoustic body with replaced pickguard and tailpiece",caption:"1940s Olympic. Replaced guard and tailpiece.",captionBelow:true,fit:'contain'},
+  olympic40Head: {src:olympic40Head,alt:"1940s Epiphone Olympic headstock with script logo and three tuners on each side",caption:"1940s Olympic. Headstock and script logo.",captionBelow:true,fit:'contain'},
+  olympic40Binding: {src:olympic40Binding,alt:"Lifted body binding on the 1940s Epiphone Olympic acoustic archtop",caption:"1940s Olympic. Lifted binding.",captionBelow:true,fit:'contain'},
+  olympic40Tailpiece: {src:olympic40Tailpiece,alt:"Replacement tailpiece and acoustic bridge on the 1940s Epiphone Olympic",caption:"1940s Olympic. Replacement tailpiece.",captionBelow:true,fit:'contain'},
+  olympic40Label: {src:olympic40Label,alt:"New York Epiphone label reading Olympic and serial 51946 inside the 1940s acoustic archtop",caption:"1940s Olympic. New York label, serial 51946.",captionBelow:true,fit:'contain'},
+
   broadway66Owner: {src:broadway66Owner,alt:"Original owner holding a sunburst 1966 Epiphone Broadway",caption:"1966 Broadway. Original owner.",captionBelow:true,fit:'contain'},
   broadway61Front: {src:broadway61Front,alt:"1961 Epiphone Broadway with two mini-humbuckers and a Bigsby vibrato",caption:"1961 Epiphone Broadway. Mini-humbuckers and Bigsby.",captionBelow:true,fit:'contain'},
   broadway61Pickup: {src:broadway61Pickup,alt:"Mini-humbucker and mounting surround on a 1961 Epiphone Broadway",caption:"1961 Broadway. Mini-humbucker detail.",captionBelow:true,fit:'contain'},

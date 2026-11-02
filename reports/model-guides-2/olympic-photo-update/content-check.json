@@ -1,0 +1,119 @@
+{
+  "rows": [
+    {
+      "kind": "value",
+      "tablesUnchanged": true,
+      "titleUnchanged": true,
+      "descriptionUnchanged": true,
+      "oldExampleAbsent": true,
+      "imageIs1965": true,
+      "ogImage": "https://www.joesvintageguitarsaz.com/_astro/olympic-1965-front.CIBeSr_a.jpg",
+      "archivePhotos": 0,
+      "onlyRequestedGuidePhotos": true,
+      "serial51946": true
+    },
+    {
+      "kind": "authentication",
+      "tablesUnchanged": true,
+      "titleUnchanged": true,
+      "descriptionUnchanged": true,
+      "oldExampleAbsent": true,
+      "imageIs1965": true,
+      "ogImage": "https://www.joesvintageguitarsaz.com/_astro/olympic-1965-front.CIBeSr_a.jpg",
+      "archivePhotos": 11,
+      "onlyRequestedGuidePhotos": true,
+      "serial51946": true
+    },
+    {
+      "kind": "seller",
+      "tablesUnchanged": true,
+      "titleUnchanged": true,
+      "descriptionUnchanged": true,
+      "oldExampleAbsent": true,
+      "imageIs1965": true,
+      "ogImage": "https://www.joesvintageguitarsaz.com/_astro/sheraton-1961-case.C_Kg83nh_1pADy2.webp",
+      "archivePhotos": 0,
+      "onlyRequestedGuidePhotos": true,
+      "serial51946": true
+    }
+  ],
+  "integrity": [
+    {
+      "asset": "src/assets/images/model-guides-2/olympic-1965-front.jpg",
+      "hashMatches": true,
+      "width": 1600,
+      "height": 1200,
+      "fullDimensions": true
+    },
+    {
+      "asset": "src/assets/images/model-guides-2/olympic-1965-body.jpg",
+      "hashMatches": true,
+      "width": 1200,
+      "height": 1600,
+      "fullDimensions": true
+    },
+    {
+      "asset": "src/assets/images/model-guides-2/olympic-1965-back.jpg",
+      "hashMatches": true,
+      "width": 1200,
+      "height": 1600,
+      "fullDimensions": true
+    },
+    {
+      "asset": "src/assets/images/model-guides-2/olympic-1965-headstock.jpg",
+      "hashMatches": true,
+      "width": 1200,
+      "height": 1600,
+      "fullDimensions": true
+    },
+    {
+      "asset": "src/assets/images/model-guides-2/olympic-1965-rear-body.jpg",
+      "hashMatches": true,
+      "width": 1200,
+      "height": 1600,
+      "fullDimensions": true
+    },
+    {
+      "asset": "src/assets/images/model-guides-2/olympic-1940s-front.jpg",
+      "hashMatches": true,
+      "width": 1200,
+      "height": 1600,
+      "fullDimensions": true
+    },
+    {
+      "asset": "src/assets/images/model-guides-2/olympic-1940s-body.jpg",
+      "hashMatches": true,
+      "width": 1200,
+      "height": 1600,
+      "fullDimensions": true
+    },
+    {
+      "asset": "src/assets/images/model-guides-2/olympic-1940s-headstock.jpg",
+      "hashMatches": true,
+      "width": 1200,
+      "height": 1600,
+      "fullDimensions": true
+    },
+    {
+      "asset": "src/assets/images/model-guides-2/olympic-1940s-binding.jpg",
+      "hashMatches": true,
+      "width": 1200,
+      "height": 1600,
+      "fullDimensions": true
+    },
+    {
+      "asset": "src/assets/images/model-guides-2/olympic-1940s-tailpiece.jpg",
+      "hashMatches": true,
+      "width": 1200,
+      "height": 1600,
+      "fullDimensions": true
+    },
+    {
+      "asset": "src/assets/images/model-guides-2/olympic-1940s-label.jpg",
+      "hashMatches": true,
+      "width": 1200,
+      "height": 1600,
+      "fullDimensions": true
+    }
+  ]
+}
