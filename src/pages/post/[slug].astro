@@ -20,6 +20,8 @@ import martinModelHistories from "../../data/martin-model-history.json";
 import RickenbackerModelGuide from "../../components/RickenbackerModelGuide.astro";
 import { rickenbackerModels, rickenbackerGuideSlug } from "../../data/rickenbacker-models";
 import MartinD18Guide from "../../components/MartinD18Guide.astro";
+import AuctionRecordsGuide from "../../components/records/AuctionRecordsGuide.astro";
+import { faqSchema as auctionFaqSchema } from "../../data/auction-records";
 import ModelGuide from '../../components/model-guide/ModelGuide.astro';
 import { modelGuides } from '../../data/model-guides';
 import GibsonJ200Guide from "../../components/GibsonJ200Guide.astro";
@@ -60,6 +62,7 @@ export const getStaticPaths = (async () => {
 const { entry, related } = Astro.props;
 const { Content } = await render(entry);
 const { data } = entry;
+const isAuctionRecords = entry.id === 'most-expensive-guitars-ever-sold';
 const modelGuide = modelGuides.find(guide => guide.slug === entry.id);
 const modelGuideFaqSchema = modelGuide ? { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: modelGuide.faqs.map(faq => ({ '@type': 'Question', name: faq.q, acceptedAnswer: { '@type': 'Answer', text: faq.a } })) } : null;
 const martinValueGuide = martinValueGuides.find(guide => guide.slug === entry.id);
@@ -192,7 +195,7 @@ const guideBrands: Record<string, "Fender" | "Gibson" | "Gretsch" | "Guild" | "R
 const guideBrand = guideBrands[entry.id];
 const hasGuideHero = presentationPaths.includes('/post/' + entry.id + '/') && Boolean(guideBrand);
 const heroMeta = data.heroImage ? resolveImage(data.heroImage) : null;
-const heroRenderWidth = heroMeta ? Math.min(modelGuide ? 1800 : 1200, heroMeta.width) : 1200;
+const heroRenderWidth = heroMeta ? Math.min(modelGuide || isAuctionRecords ? 1800 : 1200, heroMeta.width) : 1200;
 const captionedHero = heroMeta && data.heroImageCaption
   ? await getImage({ src: heroMeta, layout: "constrained", width: heroRenderWidth })
   : null;
@@ -564,7 +567,7 @@ const articleSchema = {
 ---
 
 <Layout
-  bodyClass={modelGuide ? "blog-post-page mg-page" : isVintageSellingGuide ? "blog-post-page vintage-selling-guide-page" : isNorlinGuide ? "blog-post-page norlin-guide-page" : isOneOwner1956Martin00021Story ? "blog-post-page martin-1956-00021-story-page" : isOneOwner1955MartinD28Story ? "blog-post-page martin-1955-story-page" : isOneOwner1949MartinStory ? "blog-post-page martin-1949-story-page" : isGibsonSGFamilyGuide ? "blog-post-page sgf-guide-page" : isLesPaulFamilyGuide ? "blog-post-page lpf-page" : isEs225Guide ? "blog-post-page es225-guide-page" : isFirebirdGuide ? "blog-post-page firebird-guide-page" : isJaguarGuide ? "blog-post-page jaguar-guide-page" : "blog-post-page"}
+  bodyClass={isAuctionRecords ? "blog-post-page mg-page mx-page" : modelGuide ? "blog-post-page mg-page" : isVintageSellingGuide ? "blog-post-page vintage-selling-guide-page" : isNorlinGuide ? "blog-post-page norlin-guide-page" : isOneOwner1956Martin00021Story ? "blog-post-page martin-1956-00021-story-page" : isOneOwner1955MartinD28Story ? "blog-post-page martin-1955-story-page" : isOneOwner1949MartinStory ? "blog-post-page martin-1949-story-page" : isGibsonSGFamilyGuide ? "blog-post-page sgf-guide-page" : isLesPaulFamilyGuide ? "blog-post-page lpf-page" : isEs225Guide ? "blog-post-page es225-guide-page" : isFirebirdGuide ? "blog-post-page firebird-guide-page" : isJaguarGuide ? "blog-post-page jaguar-guide-page" : "blog-post-page"}
   title={pageTitle}
   noIndex={data.draft}
   description={data.metaDescription || data.excerpt}
@@ -576,7 +579,7 @@ const articleSchema = {
   ogType="article"
   publishedTime={data.pubDate.toISOString()}
   modifiedTime={data.modified.toISOString()}
-  structuredData={modelGuide ? [breadcrumbSchema, articleSchema, modelGuideFaqSchema!] : isGibsonJ200Guide
+  structuredData={isAuctionRecords ? [breadcrumbSchema, articleSchema, auctionFaqSchema] : modelGuide ? [breadcrumbSchema, articleSchema, modelGuideFaqSchema!] : isGibsonJ200Guide
     ? [breadcrumbSchema, articleSchema, j200FaqSchema]
     : isCustomMartinGuide
     ? [breadcrumbSchema, articleSchema, martinFaqSchema]
@@ -597,7 +600,9 @@ const articleSchema = {
 
   {hasGuideHero && !isGibsonSGFamilyGuide && !isGibsonJ200Guide && <GuideHero title={data.title} image={heroMeta || comparisonHero} alt={data.heroImageAlt || 'Sunburst Gibson ES-335 in a pink-lined case'} brand={guideBrand!} byline={'By ' + data.author + ' · ' + formatDate(data.pubDate)} />}
 
-  {modelGuide ? (
+  {isAuctionRecords ? (
+    <AuctionRecordsGuide />
+  ) : modelGuide ? (
     <ModelGuide guide={modelGuide} />
   ) : isVintageSellingGuide ? (
     <VintageSellingGuide />
@@ -778,7 +783,7 @@ const articleSchema = {
     </div>
   </article>
 
-  {!modelGuide && displayedRelated.length > 0 && (
+  {!isAuctionRecords && !modelGuide && displayedRelated.length > 0 && (
     <section class="bpost-related" aria-label="Related posts">
       <div class="bpost__inner">
         <h2 class="bpost-related__h2">Keep Reading</h2>
@@ -793,7 +798,7 @@ const articleSchema = {
 
   {datingBrand && <BrandDatingGuides brand={datingBrand} featuredGuide={featuredDatingGuide} />}
 
-  {!modelGuide && !isAlexandriaStratocasterStory && !isJoshuaTelecasterStory && !isLesPaulFamilyGuide && !isGibsonSGFamilyGuide && <ContactSection />}
+  {!isAuctionRecords && !modelGuide && !isAlexandriaStratocasterStory && !isJoshuaTelecasterStory && !isLesPaulFamilyGuide && !isGibsonSGFamilyGuide && <ContactSection />}
 
   <!-- Floating TOC behavior: hide the sidebar over the contact form, and power
        the mobile "Sections" button by cloning the sidebar links into the sheet.

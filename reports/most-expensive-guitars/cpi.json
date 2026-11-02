@@ -1,0 +1,79 @@
+{
+  "series": "CUUR0000SA0",
+  "asOf": "2026-09",
+  "latest": 336.94,
+  "values": {
+    "2015-11": 237.336,
+    "2019-06": 256.143,
+    "2020-06": 257.797,
+    "2023-04": 303.363,
+    "2023-11": 307.051,
+    "2024-05": 314.069,
+    "2024-10": 315.664,
+    "2025-01": 317.671,
+    "2025-10": 321.943
+  },
+  "source": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+  "factors": {
+    "2015-11": 1.4196750598307883,
+    "2019-06": 1.3154370800685555,
+    "2020-06": 1.3069973661446797,
+    "2023-04": 1.1106825815936683,
+    "2023-11": 1.097342135345594,
+    "2024-05": 1.0728215774240693,
+    "2024-10": 1.067400780576816,
+    "2025-01": 1.060657094918957,
+    "2025-10": 1.046582780181585
+  },
+  "retrieved": "2026-10-30",
+  "apiRequests": [
+    {
+      "seriesid": [
+        "CUUR0000SA0"
+      ],
+      "startyear": "2015",
+      "endyear": "2024"
+    },
+    {
+      "seriesid": [
+        "CUUR0000SA0"
+      ],
+      "startyear": "2025",
+      "endyear": "2026",
+      "annualaverage": true
+    }
+  ],
+  "fallback": {
+    "2025-10": {
+      "value": 321.943,
+      "basis": "2025 published annual average, M13; M10 is unavailable"
+    }
+  },
+  "sameYearPolicy": "2026 sales retain nominal amounts, as expressly requested; earlier sales rounded to nearest $1000.",
+  "spotChecks": [
+    {
+      "id": "unplugged-martin",
+      "nominal": 6010000,
+      "month": "2020-06",
+      "index": 257.797,
+      "factor": 1.3069973661446797,
+      "adjusted": 7855000
+    },
+    {
+      "id": "hot-for-teacher",
+      "nominal": 3932000,
+      "month": "2023-04",
+      "index": 303.363,
+      "factor": 1.1106825815936683,
+      "adjusted": 4367000
+    },
+    {
+      "id": "strat-0001",
+      "nominal": 1815000,
+      "month": "2019-06",
+      "index": 256.143,
+      "factor": 1.3154370800685555,
+      "adjusted": 2388000
+    }
+  ]
+}
