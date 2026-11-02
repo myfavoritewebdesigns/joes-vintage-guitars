@@ -211,6 +211,9 @@ Stored in `~/.claude/projects/C--Users-noahj/memory/feedback_jvg_design_preferen
 
 ## Decision log
 
+- **2026-11-02, DeLuxe preview photo revision:** Joe requested photos from his sold Reverb listing 103177654 and explicitly identified the refinish. Both DeLuxe guide heroes and blog/social images now use that refinished 1933 Masterbilt. Seven local gallery images support the photo bands and authentication archive. The added headings, images, condition explanation and source link are intentional changes from preview 27589c91. Every new caption/alt identifies the refinish; the value intro separates this repaired example from original-condition chart assumptions. Existing 1950s electric and model-comparison archive entries remain. No valuation rows or shared styling changed. This updates draft PR305 only.
+
+
 Living record of intentional design choices on this project. **Check this before "fixing" anything that looks off** — it might be deliberate.
 
 **This table is append-only.** When the user approves a design choice that deviates from the live site OR from default project patterns (especially if it's the kind of thing a future session might "fix" by reverting), add a row. Date it `YYYY-MM` and reference the file. Don't delete old rows — they're the project's institutional memory.

@@ -38,7 +38,23 @@ import broadwayFront from '../../assets/images/model-guides-2/broadway-1947-fron
 import broadwayBody from '../../assets/images/model-guides-2/broadway-1947-body.jpg';
 import broadwaySide from '../../assets/images/model-guides-2/broadway-1947-side.jpg';
 
+import deluxe33Body from '../../assets/images/model-guides-2/deluxe-1933-refinished-body.jpg';
+import deluxe33Front from '../../assets/images/model-guides-2/deluxe-1933-refinished-front.jpg';
+import deluxe33Head from '../../assets/images/model-guides-2/deluxe-1933-refinished-headstock.jpg';
+import deluxe33Bridge from '../../assets/images/model-guides-2/deluxe-1933-refinished-bridge.jpg';
+import deluxe33Holes from '../../assets/images/model-guides-2/deluxe-1933-refinished-pickup-holes.jpg';
+import deluxe33Back from '../../assets/images/model-guides-2/deluxe-1933-refinished-back.jpg';
+import deluxe33Fhole from '../../assets/images/model-guides-2/deluxe-1933-refinished-f-hole.jpg';
+
 export const epiPhotos = {
+  deluxe33Body: {src:deluxe33Body,alt:"Refinished 1933 Epiphone Masterbilt DeLuxe: Front body with a blonde refinish and segmented f-holes",caption:"1933 Epiphone Masterbilt DeLuxe. Refinished.",captionBelow:true,fit:'contain'},
+  deluxe33Front: {src:deluxe33Front,alt:"Refinished 1933 Epiphone Masterbilt DeLuxe: Full front of the refinished acoustic archtop",caption:"1933 DeLuxe, refinished. Full front of the refinished acoustic archtop.",captionBelow:true,fit:'contain'},
+  deluxe33Head: {src:deluxe33Head,alt:"Refinished 1933 Epiphone Masterbilt DeLuxe: Decorated headstock with the Epiphone logo missing",caption:"1933 DeLuxe, refinished. Headstock.",captionBelow:true,fit:'contain'},
+  deluxe33Bridge: {src:deluxe33Bridge,alt:"Refinished 1933 Epiphone Masterbilt DeLuxe: Close-up of the shaved bridge on the refinished top",caption:"1933 DeLuxe, refinished. Shaved bridge.",captionBelow:true,fit:'contain'},
+  deluxe33Holes: {src:deluxe33Holes,alt:"Refinished 1933 Epiphone Masterbilt DeLuxe: Former pickup mounting holes beside the fingerboard",caption:"1933 DeLuxe, refinished. Former pickup mounting holes beside the fingerboard.",captionBelow:true,fit:'contain'},
+  deluxe33Back: {src:deluxe33Back,alt:"Refinished 1933 Epiphone Masterbilt DeLuxe: Figured maple back with a blonde refinish",caption:"1933 DeLuxe, refinished. Figured maple back with a blonde refinish.",captionBelow:true,fit:'contain'},
+  deluxe33Fhole: {src:deluxe33Fhole,alt:"Refinished 1933 Epiphone Masterbilt DeLuxe: Segmented f-hole and patterned body purfling",caption:"1933 DeLuxe, refinished. Segmented f-hole and patterned body purfling.",captionBelow:true,fit:'contain'},
+
   casino62Body: {src:casino62Body,alt:'1962 Epiphone Casino with black P-90 covers, dot markers and a dark pickguard',caption:'1962 Epiphone Casino. Black P-90 covers, dot markers, dark pickguard and vibrato.',captionBelow:true,fit:'contain'},
   casino62Head: {src:casino62Head,alt:'Rear headstock of a 1962 Epiphone Casino showing the stamped number and six tuners',caption:'1962 Epiphone Casino. Rear headstock, stamped number and six tuners.',captionBelow:true,fit:'contain'},
   casino65Case: {src:casino65Case,alt:'1965 Epiphone Casino in a gold-lined case with chrome P-90 covers and a white pickguard',caption:'1965 Epiphone Casino. Chrome P-90 covers.',captionBelow:true,fit:'contain'},
