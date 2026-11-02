@@ -64,6 +64,7 @@ const { Content } = await render(entry);
 const { data } = entry;
 const isAuctionRecords = entry.id === 'most-expensive-guitars-ever-sold';
 const modelGuide = modelGuides.find(guide => guide.slug === entry.id);
+const isFenderAmpGuide = modelGuide?.sellHref === '/sell-an-amplifier-or-effect/';
 const modelGuideFaqSchema = modelGuide ? { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: modelGuide.faqs.map(faq => ({ '@type': 'Question', name: faq.q, acceptedAnswer: { '@type': 'Answer', text: faq.a } })) } : null;
 const martinValueGuide = martinValueGuides.find(guide => guide.slug === entry.id);
 const martinModelHistory = martinModelHistories.find(guide => guide.slug === entry.id);
@@ -796,7 +797,7 @@ const articleSchema = {
     </div>
   )}
 
-  {datingBrand && <BrandDatingGuides brand={datingBrand} featuredGuide={featuredDatingGuide} />}
+  {datingBrand && !isFenderAmpGuide && <BrandDatingGuides brand={datingBrand} featuredGuide={featuredDatingGuide} />}
 
   {!isAuctionRecords && !modelGuide && !isAlexandriaStratocasterStory && !isJoshuaTelecasterStory && !isLesPaulFamilyGuide && !isGibsonSGFamilyGuide && <ContactSection />}
 
