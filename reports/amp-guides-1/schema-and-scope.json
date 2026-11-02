@@ -1,0 +1,173 @@
+{
+  "scope": "Reading words exclude the hero, table of contents, byline, author box and sources list; include section headings, tables, FAQ and photo captions. Values also exclude charts, their note and FAQ.",
+  "results": [
+    {
+      "slug": "fender-twin-reverb-value-guide",
+      "readingWords": 1779,
+      "readingWordsExcludingChartsFaq": 1542,
+      "faqCount": 3,
+      "faqSchemaCount": 1,
+      "faqMatches": true,
+      "forbiddenSchemaTypes": [],
+      "canonical": "https://www.joesvintageguitarsaz.com/post/fender-twin-reverb-value-guide/",
+      "dollars": 36,
+      "lowerCtas": [
+        {
+          "label": "Free Appraisal",
+          "href": "/free-appraisal/"
+        },
+        {
+          "label": "Sell My Amp",
+          "href": "/sell-an-amplifier-or-effect/"
+        }
+      ]
+    },
+    {
+      "slug": "fender-deluxe-reverb-value-guide",
+      "readingWords": 1793,
+      "readingWordsExcludingChartsFaq": 1578,
+      "faqCount": 3,
+      "faqSchemaCount": 1,
+      "faqMatches": true,
+      "forbiddenSchemaTypes": [],
+      "canonical": "https://www.joesvintageguitarsaz.com/post/fender-deluxe-reverb-value-guide/",
+      "dollars": 26,
+      "lowerCtas": [
+        {
+          "label": "Free Appraisal",
+          "href": "/free-appraisal/"
+        },
+        {
+          "label": "Sell My Amp",
+          "href": "/sell-an-amplifier-or-effect/"
+        }
+      ]
+    },
+    {
+      "slug": "fender-princeton-reverb-value-guide",
+      "readingWords": 1887,
+      "readingWordsExcludingChartsFaq": 1585,
+      "faqCount": 3,
+      "faqSchemaCount": 1,
+      "faqMatches": true,
+      "forbiddenSchemaTypes": [],
+      "canonical": "https://www.joesvintageguitarsaz.com/post/fender-princeton-reverb-value-guide/",
+      "dollars": 44,
+      "lowerCtas": [
+        {
+          "label": "Free Appraisal",
+          "href": "/free-appraisal/"
+        },
+        {
+          "label": "Sell My Amp",
+          "href": "/sell-an-amplifier-or-effect/"
+        }
+      ]
+    },
+    {
+      "slug": "fender-twin-reverb-authentication-guide",
+      "readingWords": 2082,
+      "readingWordsExcludingChartsFaq": 1670,
+      "faqCount": 4,
+      "faqSchemaCount": 1,
+      "faqMatches": true,
+      "forbiddenSchemaTypes": [],
+      "canonical": "https://www.joesvintageguitarsaz.com/post/fender-twin-reverb-authentication-guide/",
+      "dollars": 0,
+      "lowerCtas": [
+        {
+          "label": "Free Appraisal",
+          "href": "/free-appraisal/"
+        },
+        {
+          "label": "Sell My Amp",
+          "href": "/sell-an-amplifier-or-effect/"
+        }
+      ]
+    },
+    {
+      "slug": "fender-deluxe-reverb-authentication-guide",
+      "readingWords": 2212,
+      "readingWordsExcludingChartsFaq": 1820,
+      "faqCount": 4,
+      "faqSchemaCount": 1,
+      "faqMatches": true,
+      "forbiddenSchemaTypes": [],
+      "canonical": "https://www.joesvintageguitarsaz.com/post/fender-deluxe-reverb-authentication-guide/",
+      "dollars": 0,
+      "lowerCtas": [
+        {
+          "label": "Free Appraisal",
+          "href": "/free-appraisal/"
+        },
+        {
+          "label": "Sell My Amp",
+          "href": "/sell-an-amplifier-or-effect/"
+        }
+      ]
+    },
+    {
+      "slug": "fender-princeton-reverb-authentication-guide",
+      "readingWords": 2269,
+      "readingWordsExcludingChartsFaq": 1846,
+      "faqCount": 4,
+      "faqSchemaCount": 1,
+      "faqMatches": true,
+      "forbiddenSchemaTypes": [],
+      "canonical": "https://www.joesvintageguitarsaz.com/post/fender-princeton-reverb-authentication-guide/",
+      "dollars": 0,
+      "lowerCtas": [
+        {
+          "label": "Free Appraisal",
+          "href": "/free-appraisal/"
+        },
+        {
+          "label": "Sell My Amp",
+          "href": "/sell-an-amplifier-or-effect/"
+        }
+      ]
+    },
+    {
+      "slug": "fender-amp-eras-tweed-brownface-blackface-silverface",
+      "readingWords": 1612,
+      "readingWordsExcludingChartsFaq": 1425,
+      "faqCount": 3,
+      "faqSchemaCount": 1,
+      "faqMatches": true,
+      "forbiddenSchemaTypes": [],
+      "canonical": "https://www.joesvintageguitarsaz.com/post/fender-amp-eras-tweed-brownface-blackface-silverface/",
+      "dollars": 0,
+      "lowerCtas": [
+        {
+          "label": "Free Appraisal",
+          "href": "/free-appraisal/"
+        },
+        {
+          "label": "Sell My Amp",
+          "href": "/sell-an-amplifier-or-effect/"
+        }
+      ]
+    },
+    {
+      "slug": "princeton-reverb-vs-deluxe-reverb-vs-twin-reverb",
+      "readingWords": 1773,
+      "readingWordsExcludingChartsFaq": 1475,
+      "faqCount": 4,
+      "faqSchemaCount": 1,
+      "faqMatches": true,
+      "forbiddenSchemaTypes": [],
+      "canonical": "https://www.joesvintageguitarsaz.com/post/princeton-reverb-vs-deluxe-reverb-vs-twin-reverb/",
+      "dollars": 6,
+      "lowerCtas": [
+        {
+          "label": "Free Appraisal",
+          "href": "/free-appraisal/"
+        },
+        {
+          "label": "Sell My Amp",
+          "href": "/sell-an-amplifier-or-effect/"
+        }
+      ]
+    }
+  ]
+}

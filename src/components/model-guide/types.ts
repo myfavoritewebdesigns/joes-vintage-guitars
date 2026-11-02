@@ -32,7 +32,12 @@ export type GuideSection =
 export interface ModelGuideData {
   slug: string;
   brand: GuideBrand;
-  kind: 'authentication' | 'value';
+  kind: 'authentication' | 'value' | 'article';
+  category?: [string, string];
+  faqSubtitle?: string;
+  closingTitle?: string;
+  assessmentNote?: string;
+  plainNumbers?: boolean;
   title: string;
   seoTitle: string;
   description: string;

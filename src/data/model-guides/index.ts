@@ -12,4 +12,5 @@ import { broadwayGuides } from './epiphone-broadway';
 import { zephyrGuides } from './epiphone-zephyr';
 import { sorrentoGuides } from './epiphone-sorrento';
 import { windsorGuides } from './epiphone-windsor';
-export const modelGuides = [...whiteFalconGuides, ...countryGentlemanGuides, ...anniversaryGuides, ...starfireGuides, ...nationalGuides, ...casinoGuides, ...emperorGuides, ...triumphGuides, ...olympicGuides, ...deluxeGuides, ...broadwayGuides, ...zephyrGuides, ...sorrentoGuides, ...windsorGuides];
+import { fenderAmpGuides } from './fender-amps';
+export const modelGuides = [...whiteFalconGuides, ...countryGentlemanGuides, ...anniversaryGuides, ...starfireGuides, ...nationalGuides, ...casinoGuides, ...emperorGuides, ...triumphGuides, ...olympicGuides, ...deluxeGuides, ...broadwayGuides, ...zephyrGuides, ...sorrentoGuides, ...windsorGuides, ...fenderAmpGuides];
