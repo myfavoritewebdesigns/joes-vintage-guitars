@@ -125,3 +125,5 @@ For the other models, the [SG value overview](/vintage-gibson-sg-value-guide/) p
 Shipment counts follow my [Gibson shipping totals](/post/gibson-shipping-totals-1948-1979/#sg-std-cust-62-78). They total the listed finishes for each model and year. A blank record means no count is listed, rather than zero production. Shipment year and build date can differ.
 
 For the wider family, my [vintage Gibson value guide](/vintage-gibson-value-guide/) links the solidbody, ES, archtop and acoustic model comparisons.
+
+Compare the [famous SG auction results and ordinary SG values](/post/most-expensive-guitars-ever-sold/#ordinary-value) before applying a celebrity price to a production guitar.

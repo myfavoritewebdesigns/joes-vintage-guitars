@@ -1,0 +1,5 @@
+
+=== Licensed ImageObject contentUrl == rendered <img src> ===
+  post/most-expensive-guitars-ever-sold                        nodes=  9  OK
+
+TOTAL licensed-content nodes: 9, mismatches: 0
