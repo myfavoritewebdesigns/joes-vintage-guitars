@@ -1,7 +1,7 @@
 ---
 title: "The Most Expensive Guitars Ever Sold"
 seoTitle: "Most Expensive Guitars Ever Sold: 2026 Auction Records"
-pubDate: "2026-10-30T12:00:00-07:00"
+pubDate: "2026-11-02T00:00:00-07:00"
 modified: "2026-10-30T12:00:00-07:00"
 excerpt: "Verified million dollar guitar auction records, with ordinary model values from Joe's guides, inflation comparisons and guitars that have sold twice."
 metaDescription: "Verified million dollar guitar auction records, with ordinary model values from Joe's guides, inflation comparisons and guitars that have sold twice."
@@ -17,4 +17,4 @@ author: "Joe Dampt"
 draft: false
 ---
 
-<!-- Rendered by AuctionRecordsGuide. pubDate is provisional until the approved merge date. -->
+<!-- Rendered by AuctionRecordsGuide. Publication approved by Joe on November 2, 2026. -->

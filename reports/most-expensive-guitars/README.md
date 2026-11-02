@@ -1,6 +1,6 @@
 # Guitar Auction Records
 
-Preview work only. Joe must approve this exact Cloudflare preview before merge. The blog publication date is provisionally October 30, 2026 and must be changed to the actual approved merge date.
+Joe approved publication on November 2, 2026 after reviewing the article and requesting direct prose and plain section numbers. The publication date is November 2, 2026. Auction data remains last verified October 30, 2026.
 
 ## What Ships
 
