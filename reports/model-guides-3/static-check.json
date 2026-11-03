@@ -1,0 +1,1338 @@
+{
+  "checkedAt": "2026-11-03T18:08:13.932Z",
+  "pages": [
+    {
+      "slug": "gibson-l-50-authentication-guide",
+      "title": "Gibson L-50 Authentication Guide: Dates And Features",
+      "titleLength": 52,
+      "description": "Identify a vintage Gibson L-50 by body size, carved top, inlays and factory order numbers. Compare Joe’s 1952 guitar and check repairs before selling.",
+      "descriptionLength": 150,
+      "canonical": "https://www.joesvintageguitarsaz.com/post/gibson-l-50-authentication-guide/",
+      "h1Count": 1,
+      "h2": [
+        "Which Features Identify A Gibson L-50?",
+        "How The L-50 Body Changed",
+        "L-50 Production Groups To Compare",
+        "Check The Carved Top And Acoustic Hardware",
+        "Joe’s 1952 L-50 In Photographs",
+        "Read The L-50 Factory Order Number",
+        "Inspect An L-50 Before Calling It Original",
+        "Separate L-50 Identity From Repair Condition",
+        "Compare An L-50 With The Correct Body Generation",
+        "L-50 Technical References",
+        "Questions AboutGibson Identification",
+        "Keep The Evidence Together",
+        "Joe Dampt"
+      ],
+      "photoCount": 8,
+      "comparisonPhotos": 0,
+      "inbound": [
+        {
+          "route": "/how-to-read-gibson-serial-numbers/",
+          "anchors": [
+            "L-50’s changing body and inlays"
+          ]
+        },
+        {
+          "route": "/sell-my-gibson-guitar/",
+          "anchors": [
+            "L-50’s changing body and inlays"
+          ]
+        },
+        {
+          "route": "/vintage-gibson-value-guide/",
+          "anchors": [
+            "L-50’s changing body and inlays"
+          ]
+        }
+      ],
+      "firstSection": "identity",
+      "firstSectionNumber": "1",
+      "sellButtons": [
+        {
+          "text": "Free Appraisal",
+          "href": "/free-appraisal/"
+        },
+        {
+          "text": "Sell My Gibson",
+          "href": "/sell-my-gibson-guitar/"
+        }
+      ],
+      "jsonLd": {
+        "types": [
+          "ProfessionalService",
+          "ImageObject",
+          "QuantitativeValue",
+          "PostalAddress",
+          "ContactPoint",
+          "GeoCoordinates",
+          "AdministrativeArea",
+          "WebSite",
+          "Person",
+          "CollegeOrUniversity",
+          "Service",
+          "BreadcrumbList",
+          "ListItem",
+          "BlogPosting",
+          "FAQPage",
+          "Question",
+          "Answer"
+        ],
+        "parseErrors": [],
+        "imageNodes": 9,
+        "imageMismatches": []
+      },
+      "duplicateTitle": [],
+      "duplicateDescription": []
+    },
+    {
+      "slug": "gibson-l-50-value-guide",
+      "title": "Vintage Gibson L-50 Value Guide: Prices By Production Era",
+      "titleLength": 57,
+      "description": "Compare vintage Gibson L-50 values for early round-hole and later f-hole archtops. Learn how finish, neck angle, repairs and original parts affect price.",
+      "descriptionLength": 153,
+      "canonical": "https://www.joesvintageguitarsaz.com/post/gibson-l-50-value-guide/",
+      "h1Count": 1,
+      "h2": [
+        "Gibson L-50 Values By Production Group",
+        "How The L-50 Price Groups Differ",
+        "How Neck Angle And Top Condition Affect An L-50",
+        "Original Sunburst, Overspray And Refinish",
+        "Price The L-50 With Its Actual Hardware",
+        "What To Send For An L-50 Appraisal",
+        "Questions AboutGibson Values",
+        "A Value For Your Guitar",
+        "Joe Dampt"
+      ],
+      "photoCount": 3,
+      "comparisonPhotos": 0,
+      "inbound": [
+        {
+          "route": "/sell-my-gibson-guitar/",
+          "anchors": [
+            "L-50 value guide"
+          ]
+        },
+        {
+          "route": "/vintage-gibson-acoustic-value-guide/",
+          "anchors": [
+            "L-50 value guide"
+          ]
+        },
+        {
+          "route": "/vintage-gibson-value-guide/",
+          "anchors": [
+            "L-50 value guide"
+          ]
+        }
+      ],
+      "firstSection": "values",
+      "firstSectionNumber": "1",
+      "sellButtons": [
+        {
+          "text": "Free Appraisal",
+          "href": "/free-appraisal/"
+        },
+        {
+          "text": "Sell My Gibson",
+          "href": "/sell-my-gibson-guitar/"
+        }
+      ],
+      "jsonLd": {
+        "types": [
+          "ProfessionalService",
+          "ImageObject",
+          "QuantitativeValue",
+          "PostalAddress",
+          "ContactPoint",
+          "GeoCoordinates",
+          "AdministrativeArea",
+          "WebSite",
+          "Person",
+          "CollegeOrUniversity",
+          "Service",
+          "BreadcrumbList",
+          "ListItem",
+          "BlogPosting",
+          "FAQPage",
+          "Question",
+          "Answer"
+        ],
+        "parseErrors": [],
+        "imageNodes": 4,
+        "imageMismatches": []
+      },
+      "duplicateTitle": [],
+      "duplicateDescription": []
+    },
+    {
+      "slug": "gibson-l-48-authentication-guide",
+      "title": "Gibson L-48 Authentication Guide: Wood, Dates And Parts",
+      "titleLength": 55,
+      "description": "Check a vintage Gibson L-48 by its top, dot inlays, factory markings and acoustic hardware. Separate L-48 construction from the similar Gibson L-50.",
+      "descriptionLength": 148,
+      "canonical": "https://www.joesvintageguitarsaz.com/post/gibson-l-48-authentication-guide/",
+      "h1Count": 1,
+      "h2": [
+        "What Does The 1962 L-48 Catalog Specify?",
+        "How To Separate An L-48 From An L-50",
+        "Compare Documented L-48 Construction",
+        "Place An L-48 Within Postwar Gibson Production",
+        "How To Inspect L-48 Wood Without Damaging It",
+        "Use Joe’s L-50 As An Inspection Comparison",
+        "Where To Look For L-48 Dating Evidence",
+        "Which L-48 Parts Need A Closer Look?",
+        "Build An L-48 Identification Record",
+        "Distinguish An L-48 From A Similar Sunburst Archtop",
+        "L-48 Construction And Dating Sources",
+        "Questions AboutGibson Identification",
+        "Keep The Evidence Together",
+        "Joe Dampt"
+      ],
+      "photoCount": 7,
+      "comparisonPhotos": 7,
+      "inbound": [
+        {
+          "route": "/how-to-read-gibson-serial-numbers/",
+          "anchors": [
+            "L-48’s construction"
+          ]
+        },
+        {
+          "route": "/sell-my-gibson-guitar/",
+          "anchors": [
+            "L-48’s construction"
+          ]
+        },
+        {
+          "route": "/vintage-gibson-value-guide/",
+          "anchors": [
+            "L-48’s construction"
+          ]
+        }
+      ],
+      "firstSection": "specifications",
+      "firstSectionNumber": "1",
+      "sellButtons": [
+        {
+          "text": "Free Appraisal",
+          "href": "/free-appraisal/"
+        },
+        {
+          "text": "Sell My Gibson",
+          "href": "/sell-my-gibson-guitar/"
+        }
+      ],
+      "jsonLd": {
+        "types": [
+          "ProfessionalService",
+          "ImageObject",
+          "QuantitativeValue",
+          "PostalAddress",
+          "ContactPoint",
+          "GeoCoordinates",
+          "AdministrativeArea",
+          "WebSite",
+          "Person",
+          "CollegeOrUniversity",
+          "Service",
+          "BreadcrumbList",
+          "ListItem",
+          "BlogPosting",
+          "FAQPage",
+          "Question",
+          "Answer"
+        ],
+        "parseErrors": [],
+        "imageNodes": 8,
+        "imageMismatches": []
+      },
+      "duplicateTitle": [],
+      "duplicateDescription": []
+    },
+    {
+      "slug": "gibson-l-48-value-guide",
+      "title": "Vintage Gibson L-48 Value Guide: 1946 To 1971 Prices",
+      "titleLength": 52,
+      "description": "See Gibson L-48 value ranges by era and learn how neck angle, finish, pickup additions and missing parts change the appraisal of this acoustic archtop.",
+      "descriptionLength": 151,
+      "canonical": "https://www.joesvintageguitarsaz.com/post/gibson-l-48-value-guide/",
+      "h1Count": 1,
+      "h2": [
+        "Gibson L-48 Estimated Values",
+        "Compare Early And Later L-48 Price Groups",
+        "What Changes An L-48 Appraisal?",
+        "How Finish Work Changes The Comparison",
+        "Value An L-48 With A Pickup Or Changed Parts",
+        "Prepare An L-48 For A Photo Appraisal",
+        "Questions AboutGibson Values",
+        "A Value For Your Guitar",
+        "Joe Dampt"
+      ],
+      "photoCount": 3,
+      "comparisonPhotos": 3,
+      "inbound": [
+        {
+          "route": "/sell-my-gibson-guitar/",
+          "anchors": [
+            "L-48 value guide"
+          ]
+        },
+        {
+          "route": "/vintage-gibson-acoustic-value-guide/",
+          "anchors": [
+            "L-48 value guide"
+          ]
+        },
+        {
+          "route": "/vintage-gibson-value-guide/",
+          "anchors": [
+            "L-48 value guide"
+          ]
+        }
+      ],
+      "firstSection": "values",
+      "firstSectionNumber": "1",
+      "sellButtons": [
+        {
+          "text": "Free Appraisal",
+          "href": "/free-appraisal/"
+        },
+        {
+          "text": "Sell My Gibson",
+          "href": "/sell-my-gibson-guitar/"
+        }
+      ],
+      "jsonLd": {
+        "types": [
+          "ProfessionalService",
+          "ImageObject",
+          "QuantitativeValue",
+          "PostalAddress",
+          "ContactPoint",
+          "GeoCoordinates",
+          "AdministrativeArea",
+          "WebSite",
+          "Person",
+          "CollegeOrUniversity",
+          "Service",
+          "BreadcrumbList",
+          "ListItem",
+          "BlogPosting",
+          "FAQPage",
+          "Question",
+          "Answer"
+        ],
+        "parseErrors": [],
+        "imageNodes": 4,
+        "imageMismatches": []
+      },
+      "duplicateTitle": [],
+      "duplicateDescription": []
+    },
+    {
+      "slug": "gibson-les-paul-deluxe-authentication-guide",
+      "title": "Gibson Les Paul Deluxe Authentication And Dating Guide",
+      "titleLength": 54,
+      "description": "Identify a vintage Gibson Les Paul Deluxe by its mini-humbuckers, neck, body, serial and wiring. Compare original construction with routing and repairs.",
+      "descriptionLength": 152,
+      "canonical": "https://www.joesvintageguitarsaz.com/post/gibson-les-paul-deluxe-authentication-guide/",
+      "h1Count": 1,
+      "h2": [
+        "What Identifies A Les Paul Deluxe?",
+        "Les Paul Deluxe Construction Through The Original Run",
+        "A 1971 Sunburst Deluxe From Joe’s Archive",
+        "Mini-Humbuckers, Replacement Pickups And Routing",
+        "How To Date A Deluxe With Factory Markings",
+        "Neck Construction, Volutes And Repairs",
+        "Prepare A Deluxe Authentication Photo Set",
+        "Factory Full-Size Humbuckers Need Their Own Evidence",
+        "Check A Claimed Original Deluxe Configuration",
+        "Les Paul Deluxe Technical References",
+        "Questions AboutGibson Identification",
+        "Keep The Evidence Together",
+        "Joe Dampt"
+      ],
+      "photoCount": 9,
+      "comparisonPhotos": 0,
+      "inbound": [
+        {
+          "route": "/how-to-read-gibson-serial-numbers/",
+          "anchors": [
+            "Les Paul Deluxe’s pickup cavities and neck"
+          ]
+        },
+        {
+          "route": "/sell-my-gibson-guitar/",
+          "anchors": [
+            "Deluxe identification checks"
+          ]
+        },
+        {
+          "route": "/vintage-gibson-value-guide/",
+          "anchors": [
+            "Deluxe identification checks"
+          ]
+        }
+      ],
+      "firstSection": "features",
+      "firstSectionNumber": "1",
+      "sellButtons": [
+        {
+          "text": "Free Appraisal",
+          "href": "/free-appraisal/"
+        },
+        {
+          "text": "Sell My Gibson",
+          "href": "/sell-my-gibson-guitar/"
+        }
+      ],
+      "jsonLd": {
+        "types": [
+          "ProfessionalService",
+          "ImageObject",
+          "QuantitativeValue",
+          "PostalAddress",
+          "ContactPoint",
+          "GeoCoordinates",
+          "AdministrativeArea",
+          "WebSite",
+          "Person",
+          "CollegeOrUniversity",
+          "Service",
+          "BreadcrumbList",
+          "ListItem",
+          "BlogPosting",
+          "FAQPage",
+          "Question",
+          "Answer"
+        ],
+        "parseErrors": [],
+        "imageNodes": 10,
+        "imageMismatches": []
+      },
+      "duplicateTitle": [],
+      "duplicateDescription": []
+    },
+    {
+      "slug": "gibson-les-paul-deluxe-value-guide",
+      "title": "Gibson Les Paul Deluxe Value Guide: Vintage Price Ranges",
+      "titleLength": 56,
+      "description": "Find vintage Gibson Les Paul Deluxe values by year and finish. Compare goldtops, sunbursts and sparkle finishes, plus pickup routing and repair effects.",
+      "descriptionLength": 152,
+      "canonical": "https://www.joesvintageguitarsaz.com/post/gibson-les-paul-deluxe-value-guide/",
+      "h1Count": 1,
+      "h2": [
+        "Gibson Les Paul Deluxe Values By Year And Finish",
+        "Gold, Sunburst And Sparkle Finish Comparisons",
+        "How Pickup Changes Affect Deluxe Value",
+        "Headstock Repairs, Finish Work And Wear",
+        "Valuing A Later Original-Run Deluxe",
+        "Prepare Your Deluxe For An Appraisal",
+        "Questions AboutGibson Values",
+        "A Value For Your Guitar",
+        "Joe Dampt"
+      ],
+      "photoCount": 3,
+      "comparisonPhotos": 0,
+      "inbound": [
+        {
+          "route": "/sell-my-gibson-guitar/",
+          "anchors": [
+            "Deluxe values by year and finish"
+          ]
+        },
+        {
+          "route": "/vintage-gibson-les-paul-market-value-guide/",
+          "anchors": [
+            "year-and-finish value chart"
+          ]
+        },
+        {
+          "route": "/vintage-gibson-value-guide/",
+          "anchors": [
+            "Deluxe values by year and finish"
+          ]
+        }
+      ],
+      "firstSection": "values",
+      "firstSectionNumber": "1",
+      "sellButtons": [
+        {
+          "text": "Free Appraisal",
+          "href": "/free-appraisal/"
+        },
+        {
+          "text": "Sell My Gibson",
+          "href": "/sell-my-gibson-guitar/"
+        }
+      ],
+      "jsonLd": {
+        "types": [
+          "ProfessionalService",
+          "ImageObject",
+          "QuantitativeValue",
+          "PostalAddress",
+          "ContactPoint",
+          "GeoCoordinates",
+          "AdministrativeArea",
+          "WebSite",
+          "Person",
+          "CollegeOrUniversity",
+          "Service",
+          "BreadcrumbList",
+          "ListItem",
+          "BlogPosting",
+          "FAQPage",
+          "Question",
+          "Answer"
+        ],
+        "parseErrors": [],
+        "imageNodes": 4,
+        "imageMismatches": []
+      },
+      "duplicateTitle": [],
+      "duplicateDescription": []
+    },
+    {
+      "slug": "gibson-l-4-authentication-guide",
+      "title": "Gibson L-4 Authentication Guide: Acoustic, C And CES Models",
+      "titleLength": 59,
+      "description": "Identify Gibson L-4, L-4C and L-4CES guitars by soundholes, body construction, labels and pickups. Compare prewar and later models with archive photos.",
+      "descriptionLength": 151,
+      "canonical": "https://www.joesvintageguitarsaz.com/post/gibson-l-4-authentication-guide/",
+      "h1Count": 1,
+      "h2": [
+        "Which Gibson L-4 Do You Have?",
+        "Reading A Prewar L-4",
+        "Joe’s 1941 F-Hole L-4",
+        "The L-4C In Gibson’s 1962 Catalog",
+        "Authentication Questions For An L-4CES",
+        "L-4 Labels, Serial Numbers And Hardware",
+        "Inspect The Archtop Structure",
+        "Build An L-4 Identification Record",
+        "Separate L-4 Model Evidence From A Later Conversion",
+        "L-4 Construction And Dating References",
+        "Questions AboutGibson Identification",
+        "Keep The Evidence Together",
+        "Joe Dampt"
+      ],
+      "photoCount": 7,
+      "comparisonPhotos": 0,
+      "inbound": [
+        {
+          "route": "/how-to-read-gibson-serial-numbers/",
+          "anchors": [
+            "L-4’s soundhole and cutaway generations"
+          ]
+        },
+        {
+          "route": "/sell-my-gibson-guitar/",
+          "anchors": [
+            "L-4’s soundhole and cutaway generations"
+          ]
+        },
+        {
+          "route": "/vintage-gibson-value-guide/",
+          "anchors": [
+            "L-4’s soundhole and cutaway generations"
+          ]
+        }
+      ],
+      "firstSection": "models",
+      "firstSectionNumber": "1",
+      "sellButtons": [
+        {
+          "text": "Free Appraisal",
+          "href": "/free-appraisal/"
+        },
+        {
+          "text": "Sell My Gibson",
+          "href": "/sell-my-gibson-guitar/"
+        }
+      ],
+      "jsonLd": {
+        "types": [
+          "ProfessionalService",
+          "ImageObject",
+          "QuantitativeValue",
+          "PostalAddress",
+          "ContactPoint",
+          "GeoCoordinates",
+          "AdministrativeArea",
+          "WebSite",
+          "Person",
+          "CollegeOrUniversity",
+          "Service",
+          "BreadcrumbList",
+          "ListItem",
+          "BlogPosting",
+          "FAQPage",
+          "Question",
+          "Answer"
+        ],
+        "parseErrors": [],
+        "imageNodes": 8,
+        "imageMismatches": []
+      },
+      "duplicateTitle": [],
+      "duplicateDescription": []
+    },
+    {
+      "slug": "gibson-l-4-value-guide",
+      "title": "Vintage Gibson L-4 Value Guide: L-4, L-4C And L-4CES",
+      "titleLength": 52,
+      "description": "Compare Gibson L-4, L-4C and L-4CES values by production group. See how soundholes, factory pickups, original finish and structural condition affect price.",
+      "descriptionLength": 155,
+      "canonical": "https://www.joesvintageguitarsaz.com/post/gibson-l-4-value-guide/",
+      "h1Count": 1,
+      "h2": [
+        "Gibson L-4 Values By Model And Era",
+        "Early Acoustic L-4 Price Groups",
+        "How L-4C Finish And Date Affect The Comparison",
+        "Factory Electric L-4CES Values",
+        "L-4 Structural Condition And Originality",
+        "What Helps An L-4 Appraisal",
+        "Questions AboutGibson Values",
+        "A Value For Your Guitar",
+        "Joe Dampt"
+      ],
+      "photoCount": 5,
+      "comparisonPhotos": 0,
+      "inbound": [
+        {
+          "route": "/sell-my-gibson-guitar/",
+          "anchors": [
+            "L-4 and L-4CES values"
+          ]
+        },
+        {
+          "route": "/vintage-gibson-acoustic-value-guide/",
+          "anchors": [
+            "L-4 and L-4CES values"
+          ]
+        },
+        {
+          "route": "/vintage-gibson-value-guide/",
+          "anchors": [
+            "L-4 and L-4CES values"
+          ]
+        }
+      ],
+      "firstSection": "values",
+      "firstSectionNumber": "1",
+      "sellButtons": [
+        {
+          "text": "Free Appraisal",
+          "href": "/free-appraisal/"
+        },
+        {
+          "text": "Sell My Gibson",
+          "href": "/sell-my-gibson-guitar/"
+        }
+      ],
+      "jsonLd": {
+        "types": [
+          "ProfessionalService",
+          "ImageObject",
+          "QuantitativeValue",
+          "PostalAddress",
+          "ContactPoint",
+          "GeoCoordinates",
+          "AdministrativeArea",
+          "WebSite",
+          "Person",
+          "CollegeOrUniversity",
+          "Service",
+          "BreadcrumbList",
+          "ListItem",
+          "BlogPosting",
+          "FAQPage",
+          "Question",
+          "Answer"
+        ],
+        "parseErrors": [],
+        "imageNodes": 6,
+        "imageMismatches": []
+      },
+      "duplicateTitle": [],
+      "duplicateDescription": []
+    },
+    {
+      "slug": "gibson-l-7-authentication-guide",
+      "title": "Gibson L-7 Authentication Guide: Body, Bracing And Dates",
+      "titleLength": 56,
+      "description": "Identify Gibson L-7 and L-7C archtops by body size, cutaway, bracing, labels and appointments. See archive photos and checks for added electric equipment.",
+      "descriptionLength": 154,
+      "canonical": "https://www.joesvintageguitarsaz.com/post/gibson-l-7-authentication-guide/",
+      "h1Count": 1,
+      "h2": [
+        "What Makes An L-7 An L-7?",
+        "Early, Advanced And Postwar L-7s",
+        "Two Noncutaway L-7s From Joe’s Archive",
+        "How To Recognize The L-7C",
+        "L-7E, L-7CE And Added Pickups",
+        "Read An L-7 Label And Corroborate It",
+        "Inspect The L-7 As A Working Acoustic Guitar",
+        "Evaluate An L-7 With Conflicting Appointments",
+        "L-7 Identification Sources",
+        "Questions AboutGibson Identification",
+        "Keep The Evidence Together",
+        "Joe Dampt"
+      ],
+      "photoCount": 9,
+      "comparisonPhotos": 0,
+      "inbound": [
+        {
+          "route": "/how-to-read-gibson-serial-numbers/",
+          "anchors": [
+            "L-7’s body size and bracing"
+          ]
+        },
+        {
+          "route": "/sell-my-gibson-guitar/",
+          "anchors": [
+            "L-7’s body size and bracing"
+          ]
+        },
+        {
+          "route": "/vintage-gibson-value-guide/",
+          "anchors": [
+            "L-7’s body size and bracing"
+          ]
+        }
+      ],
+      "firstSection": "identity",
+      "firstSectionNumber": "1",
+      "sellButtons": [
+        {
+          "text": "Free Appraisal",
+          "href": "/free-appraisal/"
+        },
+        {
+          "text": "Sell My Gibson",
+          "href": "/sell-my-gibson-guitar/"
+        }
+      ],
+      "jsonLd": {
+        "types": [
+          "ProfessionalService",
+          "ImageObject",
+          "QuantitativeValue",
+          "PostalAddress",
+          "ContactPoint",
+          "GeoCoordinates",
+          "AdministrativeArea",
+          "WebSite",
+          "Person",
+          "CollegeOrUniversity",
+          "Service",
+          "BreadcrumbList",
+          "ListItem",
+          "BlogPosting",
+          "FAQPage",
+          "Question",
+          "Answer"
+        ],
+        "parseErrors": [],
+        "imageNodes": 10,
+        "imageMismatches": []
+      },
+      "duplicateTitle": [],
+      "duplicateDescription": []
+    },
+    {
+      "slug": "gibson-l-7-value-guide",
+      "title": "Vintage Gibson L-7 Value Guide: Acoustic And L-7C Prices",
+      "titleLength": 56,
+      "description": "Compare vintage Gibson L-7 and L-7C values by body size, year and finish. Review factory electric models, acoustic repairs, changed parts and case details.",
+      "descriptionLength": 155,
+      "canonical": "https://www.joesvintageguitarsaz.com/post/gibson-l-7-value-guide/",
+      "h1Count": 1,
+      "h2": [
+        "Gibson L-7 Values By Model And Configuration",
+        "How Body Generation Changes The L-7 Comparison",
+        "L-7C And L-7CN Values",
+        "Valuing Historical Electric L-7 Versions",
+        "Neck Angle And Acoustic Condition Affect L-7 Value",
+        "Guards, Tailpieces And Cases",
+        "Request An L-7 Appraisal Before Paying For Work",
+        "Questions AboutGibson Values",
+        "A Value For Your Guitar",
+        "Joe Dampt"
+      ],
+      "photoCount": 5,
+      "comparisonPhotos": 0,
+      "inbound": [
+        {
+          "route": "/sell-my-gibson-guitar/",
+          "anchors": [
+            "L-7 and L-7C prices"
+          ]
+        },
+        {
+          "route": "/vintage-gibson-acoustic-value-guide/",
+          "anchors": [
+            "L-7 and L-7C prices"
+          ]
+        },
+        {
+          "route": "/vintage-gibson-value-guide/",
+          "anchors": [
+            "L-7 and L-7C prices"
+          ]
+        }
+      ],
+      "firstSection": "values",
+      "firstSectionNumber": "1",
+      "sellButtons": [
+        {
+          "text": "Free Appraisal",
+          "href": "/free-appraisal/"
+        },
+        {
+          "text": "Sell My Gibson",
+          "href": "/sell-my-gibson-guitar/"
+        }
+      ],
+      "jsonLd": {
+        "types": [
+          "ProfessionalService",
+          "ImageObject",
+          "QuantitativeValue",
+          "PostalAddress",
+          "ContactPoint",
+          "GeoCoordinates",
+          "AdministrativeArea",
+          "WebSite",
+          "Person",
+          "CollegeOrUniversity",
+          "Service",
+          "BreadcrumbList",
+          "ListItem",
+          "BlogPosting",
+          "FAQPage",
+          "Question",
+          "Answer"
+        ],
+        "parseErrors": [],
+        "imageNodes": 6,
+        "imageMismatches": []
+      },
+      "duplicateTitle": [],
+      "duplicateDescription": []
+    },
+    {
+      "slug": "gibson-thunderbird-eb-bass-authentication-guide",
+      "title": "Gibson Thunderbird And EB Bass Authentication Guide",
+      "titleLength": 51,
+      "description": "Identify vintage Gibson Thunderbird, EB-0, EB-2, EB-3 and EB-4L basses. Check body generations, pickups, scale, factory numbers and common modifications.",
+      "descriptionLength": 153,
+      "canonical": "https://www.joesvintageguitarsaz.com/post/gibson-thunderbird-eb-bass-authentication-guide/",
+      "h1Count": 1,
+      "h2": [
+        "Identify The Gibson Bass Family First",
+        "Reverse And Non-Reverse Thunderbirds",
+        "EB-0 And EB-3 Construction Changes",
+        "The Semi-Hollow EB-2 Family",
+        "What Identifies The EB-4L?",
+        "Dating Gibson Basses With More Than A Serial",
+        "Inspection Areas On A Vintage Gibson Bass",
+        "Resolve Ambiguous Gibson Bass Descriptions",
+        "Gibson Bass Identification References",
+        "Questions AboutGibson Identification",
+        "Keep The Evidence Together",
+        "Joe Dampt"
+      ],
+      "photoCount": 6,
+      "comparisonPhotos": 0,
+      "inbound": [
+        {
+          "route": "/how-to-read-gibson-serial-numbers/",
+          "anchors": [
+            "Thunderbird and EB bass body generations"
+          ]
+        },
+        {
+          "route": "/sell-my-gibson-guitar/",
+          "anchors": [
+            "Thunderbird or EB configuration"
+          ]
+        },
+        {
+          "route": "/vintage-gibson-value-guide/",
+          "anchors": [
+            "Thunderbird or EB configuration"
+          ]
+        }
+      ],
+      "firstSection": "families",
+      "firstSectionNumber": "1",
+      "sellButtons": [
+        {
+          "text": "Free Appraisal",
+          "href": "/free-appraisal/"
+        },
+        {
+          "text": "Sell My Gibson",
+          "href": "/sell-my-gibson-guitar/"
+        }
+      ],
+      "jsonLd": {
+        "types": [
+          "ProfessionalService",
+          "ImageObject",
+          "QuantitativeValue",
+          "PostalAddress",
+          "ContactPoint",
+          "GeoCoordinates",
+          "AdministrativeArea",
+          "WebSite",
+          "Person",
+          "CollegeOrUniversity",
+          "Service",
+          "BreadcrumbList",
+          "ListItem",
+          "BlogPosting",
+          "FAQPage",
+          "Question",
+          "Answer"
+        ],
+        "parseErrors": [],
+        "imageNodes": 7,
+        "imageMismatches": []
+      },
+      "duplicateTitle": [],
+      "duplicateDescription": []
+    },
+    {
+      "slug": "gibson-thunderbird-eb-bass-value-guide",
+      "title": "Gibson Thunderbird And EB Bass Value Guide: Vintage Prices",
+      "titleLength": 58,
+      "description": "Check vintage Gibson Thunderbird and EB bass values by model, year and finish. Compare original examples with repairs, pickup changes and missing parts.",
+      "descriptionLength": 152,
+      "canonical": "https://www.joesvintageguitarsaz.com/post/gibson-thunderbird-eb-bass-value-guide/",
+      "h1Count": 1,
+      "h2": [
+        "Vintage Gibson Bass Values By Model And Year",
+        "Thunderbird Prices Depend On Body Generation And Finish",
+        "EB-0, EB-0F And EB-0L Comparisons",
+        "EB-2 And EB-2D Values",
+        "EB-3 And EB-4L Price Groups",
+        "Repairs And Replaced Parts On Gibson Basses",
+        "Prepare A Vintage Gibson Bass For Appraisal",
+        "Questions AboutGibson Values",
+        "A Value For Your Bass",
+        "Joe Dampt"
+      ],
+      "photoCount": 3,
+      "comparisonPhotos": 0,
+      "inbound": [
+        {
+          "route": "/sell-my-gibson-guitar/",
+          "anchors": [
+            "Gibson bass price group"
+          ]
+        },
+        {
+          "route": "/vintage-gibson-value-guide/",
+          "anchors": [
+            "Gibson bass price group"
+          ]
+        },
+        {
+          "route": "/post/gibson-firebird-history-authentication-value/",
+          "anchors": [
+            "Thunderbird and EB value guide"
+          ]
+        }
+      ],
+      "firstSection": "values",
+      "firstSectionNumber": "1",
+      "sellButtons": [
+        {
+          "text": "Free Appraisal",
+          "href": "/free-appraisal/"
+        },
+        {
+          "text": "Sell My Gibson",
+          "href": "/sell-my-gibson-guitar/"
+        }
+      ],
+      "jsonLd": {
+        "types": [
+          "ProfessionalService",
+          "ImageObject",
+          "QuantitativeValue",
+          "PostalAddress",
+          "ContactPoint",
+          "GeoCoordinates",
+          "AdministrativeArea",
+          "WebSite",
+          "Person",
+          "CollegeOrUniversity",
+          "Service",
+          "BreadcrumbList",
+          "ListItem",
+          "BlogPosting",
+          "FAQPage",
+          "Question",
+          "Answer"
+        ],
+        "parseErrors": [],
+        "imageNodes": 4,
+        "imageMismatches": []
+      },
+      "duplicateTitle": [],
+      "duplicateDescription": []
+    },
+    {
+      "slug": "gibson-es-175-authentication-guide",
+      "title": "Gibson ES-175 Authentication Guide: Pickups, Dates And Parts",
+      "titleLength": 60,
+      "description": "Check a Gibson ES-175 or ES-175D using its label, pickup installation, body, neck and hardware. Compare P-90 and humbucker examples from Joe’s archive.",
+      "descriptionLength": 151,
+      "canonical": "https://www.joesvintageguitarsaz.com/post/gibson-es-175-authentication-guide/",
+      "h1Count": 1,
+      "h2": [
+        "Single-Pickup ES-175 Or Two-Pickup ES-175D?",
+        "A Dated ES-175 Construction Reference",
+        "P-90 And Humbucker ES-175s From Joe’s Archive",
+        "P-90, PAF And Patent Number Pickup Checks",
+        "ES-175 Labels And Serial Numbers",
+        "Neck, Nut Width And Headstock Evidence",
+        "ES-175CC, ES-175T And Later Production",
+        "What To Send For ES-175 Authentication",
+        "Check An ES-175 With Mixed Dating Evidence",
+        "ES-175 Authentication References",
+        "Questions AboutGibson Identification",
+        "Keep The Evidence Together",
+        "Joe Dampt"
+      ],
+      "photoCount": 12,
+      "comparisonPhotos": 0,
+      "inbound": [
+        {
+          "route": "/how-to-read-gibson-serial-numbers/",
+          "anchors": [
+            "ES-175’s label and pickup installation"
+          ]
+        },
+        {
+          "route": "/sell-my-gibson-guitar/",
+          "anchors": [
+            "ES-175 pickup and label inspection"
+          ]
+        },
+        {
+          "route": "/vintage-gibson-value-guide/",
+          "anchors": [
+            "ES-175 pickup and label inspection"
+          ]
+        },
+        {
+          "route": "/post/gibson-es-175-evolution-and-specifications/",
+          "anchors": [
+            "ES-175 authentication guide",
+            "authentication checklist"
+          ]
+        }
+      ],
+      "firstSection": "configuration",
+      "firstSectionNumber": "1",
+      "sellButtons": [
+        {
+          "text": "Free Appraisal",
+          "href": "/free-appraisal/"
+        },
+        {
+          "text": "Sell My Gibson",
+          "href": "/sell-my-gibson-guitar/"
+        }
+      ],
+      "jsonLd": {
+        "types": [
+          "ProfessionalService",
+          "ImageObject",
+          "QuantitativeValue",
+          "PostalAddress",
+          "ContactPoint",
+          "GeoCoordinates",
+          "AdministrativeArea",
+          "WebSite",
+          "Person",
+          "CollegeOrUniversity",
+          "Service",
+          "BreadcrumbList",
+          "ListItem",
+          "BlogPosting",
+          "FAQPage",
+          "Question",
+          "Answer"
+        ],
+        "parseErrors": [],
+        "imageNodes": 13,
+        "imageMismatches": []
+      },
+      "duplicateTitle": [],
+      "duplicateDescription": []
+    },
+    {
+      "slug": "gibson-es-175-value-guide",
+      "title": "Gibson ES-175 Value Guide: P-90 And Humbucker Model Prices",
+      "titleLength": 58,
+      "description": "Compare Gibson ES-175 and ES-175D values by year, pickups and finish. Review PAF models, single P-90 guitars, later variants and the effect of repairs.",
+      "descriptionLength": 151,
+      "canonical": "https://www.joesvintageguitarsaz.com/post/gibson-es-175-value-guide/",
+      "h1Count": 1,
+      "h2": [
+        "Gibson ES-175 Values By Year And Pickups",
+        "Single And Double P-90 ES-175 Values",
+        "PAF And Patent Number ES-175 Price Groups",
+        "Later ES-175D, CC And T Values",
+        "Natural Finish, Sunburst And Surface Work",
+        "How Repairs And Playability Affect An ES-175 Appraisal",
+        "Prepare An ES-175 For A Sale Discussion",
+        "Questions AboutGibson Values",
+        "A Value For Your Guitar",
+        "Joe Dampt"
+      ],
+      "photoCount": 5,
+      "comparisonPhotos": 0,
+      "inbound": [
+        {
+          "route": "/sell-my-gibson-guitar/",
+          "anchors": [
+            "ES-175 value range"
+          ]
+        },
+        {
+          "route": "/vintage-gibson-value-guide/",
+          "anchors": [
+            "ES-175 value range"
+          ]
+        },
+        {
+          "route": "/post/gibson-es-175-evolution-and-specifications/",
+          "anchors": [
+            "ES-175 price chart",
+            "ES-175 value guide"
+          ]
+        }
+      ],
+      "firstSection": "values",
+      "firstSectionNumber": "1",
+      "sellButtons": [
+        {
+          "text": "Free Appraisal",
+          "href": "/free-appraisal/"
+        },
+        {
+          "text": "Sell My Gibson",
+          "href": "/sell-my-gibson-guitar/"
+        }
+      ],
+      "jsonLd": {
+        "types": [
+          "ProfessionalService",
+          "ImageObject",
+          "QuantitativeValue",
+          "PostalAddress",
+          "ContactPoint",
+          "GeoCoordinates",
+          "AdministrativeArea",
+          "WebSite",
+          "Person",
+          "CollegeOrUniversity",
+          "Service",
+          "BreadcrumbList",
+          "ListItem",
+          "BlogPosting",
+          "FAQPage",
+          "Question",
+          "Answer"
+        ],
+        "parseErrors": [],
+        "imageNodes": 6,
+        "imageMismatches": []
+      },
+      "duplicateTitle": [],
+      "duplicateDescription": []
+    },
+    {
+      "slug": "gibson-byrdland-value-guide",
+      "title": "Gibson Byrdland Value Guide: Prices By Era And Finish",
+      "titleLength": 53,
+      "description": "Find Gibson Byrdland values by era, finish and pickup configuration. Compare Alnico, PAF and later models, with notes on repairs and gold hardware.",
+      "descriptionLength": 147,
+      "canonical": "https://www.joesvintageguitarsaz.com/post/gibson-byrdland-value-guide/",
+      "h1Count": 1,
+      "h2": [
+        "Gibson Byrdland Values By Era And Finish",
+        "Early Byrdland Values And Original Pickups",
+        "1960s Byrdland Price Groups",
+        "A 1974 Wine-Red Byrdland From Joe’s Archive",
+        "Original Byrdland Hardware And Completeness",
+        "How Repairs And Finish Work Affect A Byrdland",
+        "Prepare A Byrdland For Joe’s Review",
+        "Questions AboutGibson Values",
+        "A Value For Your Guitar",
+        "Joe Dampt"
+      ],
+      "photoCount": 4,
+      "comparisonPhotos": 0,
+      "inbound": [
+        {
+          "route": "/sell-my-gibson-guitar/",
+          "anchors": [
+            "Byrdland price guide"
+          ]
+        },
+        {
+          "route": "/vintage-gibson-value-guide/",
+          "anchors": [
+            "Byrdland price guide"
+          ]
+        },
+        {
+          "route": "/post/gibson-byrdland-authentication-guide/",
+          "anchors": [
+            "Byrdland value guide",
+            "Byrdland price guide"
+          ]
+        }
+      ],
+      "firstSection": "values",
+      "firstSectionNumber": "1",
+      "sellButtons": [
+        {
+          "text": "Free Appraisal",
+          "href": "/free-appraisal/"
+        },
+        {
+          "text": "Sell My Gibson",
+          "href": "/sell-my-gibson-guitar/"
+        }
+      ],
+      "jsonLd": {
+        "types": [
+          "ProfessionalService",
+          "ImageObject",
+          "QuantitativeValue",
+          "PostalAddress",
+          "ContactPoint",
+          "GeoCoordinates",
+          "AdministrativeArea",
+          "WebSite",
+          "Person",
+          "CollegeOrUniversity",
+          "Service",
+          "BreadcrumbList",
+          "ListItem",
+          "BlogPosting",
+          "FAQPage",
+          "Question",
+          "Answer"
+        ],
+        "parseErrors": [],
+        "imageNodes": 5,
+        "imageMismatches": []
+      },
+      "duplicateTitle": [],
+      "duplicateDescription": []
+    },
+    {
+      "slug": "gibson-es-225-value-guide",
+      "title": "Vintage Gibson ES-225 Value Guide: T, TD And Natural Prices",
+      "titleLength": 59,
+      "description": "Compare Gibson ES-225T and ES-225TD values in sunburst and natural. Learn how pickup count, bridge changes, finish and hollowbody repairs affect price.",
+      "descriptionLength": 151,
+      "canonical": "https://www.joesvintageguitarsaz.com/post/gibson-es-225-value-guide/",
+      "h1Count": 1,
+      "h2": [
+        "Gibson ES-225 Values By Pickup Count And Finish",
+        "Single-Pickup ES-225T And ES-225TN Values",
+        "Two-Pickup ES-225TD And ES-225TDN Values",
+        "Bridge And Tailpiece Changes On An ES-225",
+        "Original Finish And ES-225 Condition",
+        "Hollowbody Repairs And Playing Condition",
+        "What To Send For An ES-225 Appraisal",
+        "Questions AboutGibson Values",
+        "A Value For Your Guitar",
+        "Joe Dampt"
+      ],
+      "photoCount": 4,
+      "comparisonPhotos": 0,
+      "inbound": [
+        {
+          "route": "/sell-my-gibson-guitar/",
+          "anchors": [
+            "ES-225 values"
+          ]
+        },
+        {
+          "route": "/vintage-gibson-value-guide/",
+          "anchors": [
+            "ES-225 values"
+          ]
+        },
+        {
+          "route": "/post/gibson-es-225-guide/",
+          "anchors": [
+            "ES-225 value guide",
+            "ES-225 price chart"
+          ]
+        }
+      ],
+      "firstSection": "values",
+      "firstSectionNumber": "1",
+      "sellButtons": [
+        {
+          "text": "Free Appraisal",
+          "href": "/free-appraisal/"
+        },
+        {
+          "text": "Sell My Gibson",
+          "href": "/sell-my-gibson-guitar/"
+        }
+      ],
+      "jsonLd": {
+        "types": [
+          "ProfessionalService",
+          "ImageObject",
+          "QuantitativeValue",
+          "PostalAddress",
+          "ContactPoint",
+          "GeoCoordinates",
+          "AdministrativeArea",
+          "WebSite",
+          "Person",
+          "CollegeOrUniversity",
+          "Service",
+          "BreadcrumbList",
+          "ListItem",
+          "BlogPosting",
+          "FAQPage",
+          "Question",
+          "Answer"
+        ],
+        "parseErrors": [],
+        "imageNodes": 5,
+        "imageMismatches": []
+      },
+      "duplicateTitle": [],
+      "duplicateDescription": []
+    }
+  ],
+  "broken": [],
+  "protected": {
+    "count": 149,
+    "changed": [
+      "vintage-gibson-acoustic-value-guide/index.html",
+      "vintage-gibson-value-guide/index.html",
+      "post/gibson-byrdland-authentication-guide/index.html",
+      "post/gibson-firebird-history-authentication-value/index.html"
+    ],
+    "identical": 145
+  }
+}

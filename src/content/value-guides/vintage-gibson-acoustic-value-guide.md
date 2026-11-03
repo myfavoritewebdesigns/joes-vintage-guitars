@@ -197,3 +197,5 @@ I can begin with the full front and back, both sides of the headstock, the bridg
 You don't need to authorize repairs or make the guitar look newer first. Documenting its present state gives the appraisal a clear starting point. If closer inspection is needed, I can explain which details remain unresolved.
 
 For electric and archtop models, use the [Gibson value hub](/vintage-gibson-value-guide/). This acoustic hub focuses on the flat-top families above. The model pages contain the full annual tables and condition guidance.
+
+<p>For acoustic archtops, the <a href="/post/gibson-l-4-value-guide/">L-4 and L-4CES values</a> separate acoustic and factory electric versions, while the <a href="/post/gibson-l-7-value-guide/">L-7 and L-7C prices</a> distinguish body and cutaway groups. The <a href="/post/gibson-l-48-value-guide/">L-48 value guide</a> and <a href="/post/gibson-l-50-value-guide/">L-50 value guide</a> keep those two similar-looking models in their own condition comparisons.</p>

@@ -34,6 +34,8 @@ and dating criteria, 1955 to the Custom Shop era
 
 Original finish, correct parts and documented repairs affect value. Use my [Gibson value guide](/vintage-gibson-value-guide/) for the model guides and condition context. This article focuses on dating and authentication.
 
+The <a href="/post/gibson-byrdland-value-guide/">Byrdland value guide</a> provides separate estimates by pickup configuration, finish and production group once the identification is supported.
+
 <h2 id="overview">Overview & Origin</h2>
 
 The Gibson Byrdland is the instrument that invented the thinline electric archtop. Its name is a portmanteau of Nashville session guitarists **Billy Byrd** and **Hank Garland**, the two players who co-designed it with Gibson president Ted McCarty in 1955. Both men were frustrated by the bulk of traditional archtops (the standard L-5CES was over 3⅜ inches deep) and wanted something that combined acoustic resonance with the ease of a solidbody. What they got was a guitar 2¼ inches deep, with a shortened 23½-inch scale, a narrower-than-standard nut, and all the premium appointments of Gibson's flagship L-5CES.
@@ -547,3 +549,5 @@ Expand your knowledge of vintage Gibson authentication and valuation with these 
 This reference is compiled from primary sources including A.R. Duchossoir's *Gibson Electrics, The Classic Years*, Gruhn & Carter's *Electric Guitars and Basses: A Photographic History*, Gibson's published shipping data, and documented production examples. Dates of construction changes are approximate, Gibson's transitions were rarely simultaneous across all production, and transitional examples with mixed-era features are normal and expected.
 
 Always verify against the physical instrument. Not a substitute for hands-on expert examination for high-value transactions.
+
+Bring the supported model and condition to the <a href="/post/gibson-byrdland-value-guide/">Byrdland price guide</a> before requesting an individual appraisal.

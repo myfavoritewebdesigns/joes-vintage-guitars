@@ -1,0 +1,895 @@
+{
+  "checkedAt": "2026-11-03T18:08:16.293Z",
+  "sources": [
+    {
+      "file": "src/content/value-guides/vintage-gibson-value-guide.md",
+      "unchangedAfterRemovingAddedLinks": true
+    },
+    {
+      "file": "src/components/SellMyGibsonFinal.astro",
+      "unchangedAfterRemovingAddedLinks": true
+    },
+    {
+      "file": "src/pages/how-to-read-gibson-serial-numbers.astro",
+      "unchangedAfterRemovingAddedLinks": true
+    },
+    {
+      "file": "src/content/value-guides/vintage-gibson-acoustic-value-guide.md",
+      "unchangedAfterRemovingAddedLinks": true
+    },
+    {
+      "file": "src/pages/vintage-gibson-les-paul-market-value-guide.astro",
+      "unchangedAfterRemovingAddedLinks": true
+    },
+    {
+      "file": "src/content/blog/gibson-firebird-history-authentication-value.md",
+      "unchangedAfterRemovingAddedLinks": true
+    },
+    {
+      "file": "src/content/blog/gibson-es-175-evolution-and-specifications.md",
+      "unchangedAfterRemovingAddedLinks": true
+    },
+    {
+      "file": "src/content/blog/gibson-byrdland-authentication-guide.md",
+      "unchangedAfterRemovingAddedLinks": true
+    },
+    {
+      "file": "src/content/blog/gibson-es-225-guide.md",
+      "unchangedAfterRemovingAddedLinks": true
+    }
+  ],
+  "protectedHtml": [
+    {
+      "path": "fender-jazzmaster-dating-guide/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "fender-mustang-dating-guide/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "gibson-country-western-authentication-guide/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "gibson-dove-authentication-guide/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "gibson-es-330-dating-guide/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "gibson-sg-dating-guide/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "gibson-southern-jumbo-authentication-guide/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "gretsch-body-binding-and-inlays/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "gretsch-bridges-and-tailpieces/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "gretsch-finish-colors/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "gretsch-headstock-and-tuner-dating-guide/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "gretsch-knobs-and-controls/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "gretsch-labels-and-serial-number-locations/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "gretsch-pickup-dating-guide/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "gretsch-vintage-vs-reissue/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "guild-acoustic-guitar-identification/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "guild-electric-guitar-identification/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "guild-factory-eras/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "guild-labels-and-serial-number-locations/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "guild-model-prefix-serial-number-charts/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "guild-pickup-and-hardware-dating-guide/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "guild-vintage-vs-reissue/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "rickenbacker-body-binding-and-inlays/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "rickenbacker-finish-colors/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "rickenbacker-knobs-and-controls/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "rickenbacker-pickup-dating-guide/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "rickenbacker-tailpiece-dating-guide/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "rickenbacker-tuner-dating-guide/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "vintage-fender-jaguar-value-guide/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "vintage-fender-jazz-bass-value-guide/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "vintage-fender-jazzmaster-value-guide/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "vintage-fender-precision-bass-value-guide/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "vintage-fender-stratocaster-value-guide/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "vintage-fender-telecaster-value-guide/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "vintage-fender-value-guide/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "vintage-gibson-acoustic-value-guide/index.html",
+      "byteIdentical": false,
+      "identicalAfterRemovingLinkParagraphs": true
+    },
+    {
+      "path": "vintage-gibson-country-western-value-guide/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "vintage-gibson-dove-value-guide/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "vintage-gibson-es-125-value-guide/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "vintage-gibson-es-330-value-guide/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "vintage-gibson-es-335-value-guide/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "vintage-gibson-es-355-value-guide/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "vintage-gibson-j-200-value-guide/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "vintage-gibson-j-45-value-guide/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "vintage-gibson-l-0-l-00-value-guide/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "vintage-gibson-les-paul-custom-value-guide/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "vintage-gibson-les-paul-junior-value-guide/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "vintage-gibson-les-paul-special-value-guide/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "vintage-gibson-lg-series-value-guide/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "vintage-gibson-sg-custom-value-guide/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "vintage-gibson-sg-junior-value-guide/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "vintage-gibson-sg-special-value-guide/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "vintage-gibson-sg-standard-value-guide/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "vintage-gibson-sg-value-guide/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "vintage-gibson-southern-jumbo-value-guide/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "vintage-gibson-value-guide/index.html",
+      "byteIdentical": false,
+      "identicalAfterRemovingLinkParagraphs": true
+    },
+    {
+      "path": "post/1952-fender-precision-bass-guide/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "post/1955-1958-tv-yellow-les-paul-special-guide/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "post/1959-gibson-es-335-authentication-guide/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "post/1959-gibson-es-355-history-value/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "post/1962-gibson-es-335-guide/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "post/1965-gibson-es-335-short-maestro-vibrola/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "post/1966-gibson-es-335-authentication-guide/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "post/1968-gibson-es-335-guide/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "post/epiphone-broadway-authentication-guide/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "post/epiphone-broadway-value-guide/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "post/epiphone-casino-authentication-guide/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "post/epiphone-casino-value-guide/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "post/epiphone-deluxe-authentication-guide/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "post/epiphone-deluxe-value-guide/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "post/epiphone-emperor-authentication-guide/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "post/epiphone-emperor-value-guide/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "post/epiphone-olympic-authentication-guide/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "post/epiphone-olympic-value-guide/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "post/epiphone-sorrento-authentication-guide/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "post/epiphone-sorrento-value-guide/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "post/epiphone-triumph-authentication-guide/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "post/epiphone-triumph-value-guide/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "post/epiphone-windsor-authentication-guide/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "post/epiphone-windsor-value-guide/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "post/epiphone-zephyr-authentication-guide/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "post/epiphone-zephyr-value-guide/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "post/fender-amp-eras-tweed-brownface-blackface-silverface/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "post/fender-deluxe-reverb-authentication-guide/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "post/fender-deluxe-reverb-value-guide/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "post/fender-jazzmaster-evolution-guide-1958-1971/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "post/fender-mustang-history-value/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "post/fender-princeton-reverb-authentication-guide/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "post/fender-princeton-reverb-value-guide/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "post/fender-twin-reverb-authentication-guide/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "post/fender-twin-reverb-value-guide/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "post/gibson-byrdland-authentication-guide/index.html",
+      "byteIdentical": false,
+      "identicalAfterRemovingLinkParagraphs": true
+    },
+    {
+      "path": "post/gibson-es-125-guide/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "post/gibson-es-335-345-355-guide/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "post/gibson-es-345-history-value/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "post/gibson-es-5-switchmaster-history-value/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "post/gibson-firebird-history-authentication-value/index.html",
+      "byteIdentical": false,
+      "identicalAfterRemovingLinkParagraphs": true
+    },
+    {
+      "path": "post/gibson-j200-model-history-authentication-guide/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "post/gibson-l5-ces-value-guide/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "post/gibson-les-paul-junior-guide/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "post/gretsch-anniversary-authentication-guide/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "post/gretsch-anniversary-value-guide/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "post/gretsch-country-gentleman-authentication-guide/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "post/gretsch-country-gentleman-value-guide/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "post/gretsch-white-falcon-authentication-guide/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "post/gretsch-white-falcon-value-guide/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "post/guild-starfire-authentication-guide/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "post/guild-starfire-value-guide/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "post/identify-vintage-gibson-j45-j50-sj/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "post/joesvintageguitarsaz-com-identify-gibson-lg-series/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "post/most-expensive-guitars-ever-sold/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "post/national-resonator-guitar-authentication-guide/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "post/national-resonator-guitar-value-guide/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "post/norlin-les-paul-custom-year-guide/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "post/princeton-reverb-vs-deluxe-reverb-vs-twin-reverb/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "post/rickenbacker-12-string-authentication-guide/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "post/rickenbacker-12-string-value-guide/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "post/rickenbacker-3000-3001-authentication-guide/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "post/rickenbacker-3000-3001-value-guide/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "post/rickenbacker-325-authentication-guide/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "post/rickenbacker-325-value-guide/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "post/rickenbacker-330-340-authentication-guide/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "post/rickenbacker-330-340-value-guide/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "post/rickenbacker-360-370-authentication-guide/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "post/rickenbacker-360-370-value-guide/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "post/rickenbacker-381-authentication-guide/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "post/rickenbacker-381-value-guide/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "post/rickenbacker-4000-4001-authentication-guide/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "post/rickenbacker-4000-4001-value-guide/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "post/rickenbacker-4002-authentication-guide/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "post/rickenbacker-4002-value-guide/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "post/rickenbacker-4003-authentication-guide/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "post/rickenbacker-4003-value-guide/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "post/rickenbacker-4005-authentication-guide/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "post/rickenbacker-4005-value-guide/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "post/rickenbacker-425-450-460-authentication-guide/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "post/rickenbacker-425-450-460-value-guide/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "post/rickenbacker-480-481-authentication-guide/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "post/rickenbacker-480-481-value-guide/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "post/rickenbacker-600-series-authentication-guide/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "post/rickenbacker-600-series-value-guide/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "post/rickenbacker-bakelite-lap-steel-authentication-guide/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "post/rickenbacker-bakelite-lap-steel-value-guide/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "post/rickenbacker-frying-pan-authentication-guide/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "post/rickenbacker-frying-pan-value-guide/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "post/vintage-fender-jaguar-guide/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "post/vintage-fender-jazz-bass-guide/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "post/vintage-gibson-hummingbird-history-value-guide/index.html",
+      "byteIdentical": true
+    },
+    {
+      "path": "post/vintage-gibson-sg-family-guide/index.html",
+      "byteIdentical": true
+    }
+  ],
+  "photos": [
+    {
+      "key": "lpBody",
+      "assetHashMatches": true,
+      "fullResolutionRetained": true
+    },
+    {
+      "key": "lpFront",
+      "assetHashMatches": true,
+      "fullResolutionRetained": true
+    },
+    {
+      "key": "lpHead",
+      "assetHashMatches": true,
+      "fullResolutionRetained": true
+    },
+    {
+      "key": "lpPickups",
+      "assetHashMatches": true,
+      "fullResolutionRetained": true
+    },
+    {
+      "key": "lpSerial",
+      "assetHashMatches": true,
+      "fullResolutionRetained": true
+    },
+    {
+      "key": "lpBack",
+      "assetHashMatches": true,
+      "fullResolutionRetained": true
+    },
+    {
+      "key": "lpCircuit",
+      "assetHashMatches": true,
+      "fullResolutionRetained": true
+    },
+    {
+      "key": "l4Body",
+      "assetHashMatches": true,
+      "fullResolutionRetained": true
+    },
+    {
+      "key": "l4Head",
+      "assetHashMatches": true,
+      "fullResolutionRetained": true
+    },
+    {
+      "key": "l4Board",
+      "assetHashMatches": true,
+      "fullResolutionRetained": true
+    },
+    {
+      "key": "l4Bridge",
+      "assetHashMatches": true,
+      "fullResolutionRetained": true
+    },
+    {
+      "key": "l4Label",
+      "assetHashMatches": true,
+      "fullResolutionRetained": true
+    },
+    {
+      "key": "l4Back",
+      "assetHashMatches": true,
+      "fullResolutionRetained": true
+    },
+    {
+      "key": "l4Tuners",
+      "assetHashMatches": true,
+      "fullResolutionRetained": true
+    },
+    {
+      "key": "l7Body",
+      "assetHashMatches": true,
+      "fullResolutionRetained": true
+    },
+    {
+      "key": "l7Front",
+      "assetHashMatches": true,
+      "fullResolutionRetained": true
+    },
+    {
+      "key": "l7Head",
+      "assetHashMatches": true,
+      "fullResolutionRetained": true
+    },
+    {
+      "key": "l7Board",
+      "assetHashMatches": true,
+      "fullResolutionRetained": true
+    },
+    {
+      "key": "l7Label",
+      "assetHashMatches": true,
+      "fullResolutionRetained": true
+    },
+    {
+      "key": "l7Back",
+      "assetHashMatches": true,
+      "fullResolutionRetained": true
+    },
+    {
+      "key": "l7Later",
+      "assetHashMatches": true,
+      "fullResolutionRetained": true
+    },
+    {
+      "key": "l50Body",
+      "assetHashMatches": true,
+      "fullResolutionRetained": true
+    },
+    {
+      "key": "l50Front",
+      "assetHashMatches": true,
+      "fullResolutionRetained": true
+    },
+    {
+      "key": "l50Head",
+      "assetHashMatches": true,
+      "fullResolutionRetained": true
+    },
+    {
+      "key": "l50Board",
+      "assetHashMatches": true,
+      "fullResolutionRetained": true
+    },
+    {
+      "key": "l50Fon",
+      "assetHashMatches": true,
+      "fullResolutionRetained": true
+    },
+    {
+      "key": "l50Heel",
+      "assetHashMatches": true,
+      "fullResolutionRetained": true
+    },
+    {
+      "key": "ebBody",
+      "assetHashMatches": true,
+      "fullResolutionRetained": true
+    },
+    {
+      "key": "ebHead",
+      "assetHashMatches": true,
+      "fullResolutionRetained": true
+    },
+    {
+      "key": "ebBackHead",
+      "assetHashMatches": true,
+      "fullResolutionRetained": true
+    },
+    {
+      "key": "tbBody",
+      "assetHashMatches": true,
+      "fullResolutionRetained": true
+    },
+    {
+      "key": "tbHead",
+      "assetHashMatches": true,
+      "fullResolutionRetained": true
+    },
+    {
+      "key": "byrdBody",
+      "assetHashMatches": true,
+      "fullResolutionRetained": true
+    },
+    {
+      "key": "byrdFront",
+      "assetHashMatches": true,
+      "fullResolutionRetained": true
+    },
+    {
+      "key": "byrdBack",
+      "assetHashMatches": true,
+      "fullResolutionRetained": true
+    },
+    {
+      "key": "byrdPickups",
+      "assetHashMatches": true,
+      "fullResolutionRetained": true
+    },
+    {
+      "key": "es175Body",
+      "assetHashMatches": true,
+      "fullResolutionRetained": true
+    },
+    {
+      "key": "es175Front",
+      "assetHashMatches": true,
+      "fullResolutionRetained": true
+    },
+    {
+      "key": "es175Head",
+      "assetHashMatches": true,
+      "fullResolutionRetained": true
+    },
+    {
+      "key": "es175Pickup",
+      "assetHashMatches": true,
+      "fullResolutionRetained": true
+    },
+    {
+      "key": "es175Label",
+      "assetHashMatches": true,
+      "fullResolutionRetained": true
+    },
+    {
+      "key": "es175Back",
+      "assetHashMatches": true,
+      "fullResolutionRetained": true
+    },
+    {
+      "key": "es175DualBody",
+      "assetHashMatches": true,
+      "fullResolutionRetained": true
+    },
+    {
+      "key": "es175DualFront",
+      "assetHashMatches": true,
+      "fullResolutionRetained": true
+    },
+    {
+      "key": "es175DualPickups",
+      "assetHashMatches": true,
+      "fullResolutionRetained": true
+    },
+    {
+      "key": "es175DualSide",
+      "assetHashMatches": true,
+      "fullResolutionRetained": true
+    },
+    {
+      "key": "es175DualLabel",
+      "assetHashMatches": true,
+      "fullResolutionRetained": true
+    },
+    {
+      "key": "es225Body",
+      "assetHashMatches": true,
+      "fullResolutionRetained": true
+    },
+    {
+      "key": "es225Front",
+      "assetHashMatches": true,
+      "fullResolutionRetained": true
+    },
+    {
+      "key": "es225Back",
+      "assetHashMatches": true,
+      "fullResolutionRetained": true
+    }
+  ]
+}
