@@ -16,9 +16,11 @@ export function lookupShipments(modelId: string, finish = 'all', year = 'all', v
   const count = rows.length && !disputed.length ? rows.reduce((sum, row) => sum + row.count, 0) : null;
   const years = [...new Set(rows.map(row => row.year))].sort((a, b) => a - b);
   const gaps = years.length ? Array.from({ length: years.at(-1)! - years[0] + 1 }, (_, i) => years[0] + i).filter(value => !years.includes(value)) : [];
+  const unallocated = finish !== 'all' && finish !== 'Not separated' && finish !== 'Unspecified finish'
+    ? context.filter(row => row.finish === 'Not separated' || row.finish === 'Unspecified finish') : [];
   const unseparated = !rows.length && finish !== 'all' && context.some(row => row.finish === 'Not separated' || row.finish === 'Unspecified finish');
   const status = disputed.length ? 'Sources disagree' : rows.length ? 'Recorded shipments' : unseparated ? 'Finish not separated' : 'No checked count';
-  return { model, rows, context, count, years, gaps, disputed, status, unseparated };
+  return { model, rows, context, count, years, gaps, disputed, status, unseparated, unallocated };
 }
 
 export function shipmentCSV(rows: ShipmentRecord[]) {

@@ -8,6 +8,8 @@ The database contains 2,038 numeric source-category entries across 131 populated
 
 Eight disputed cells remain visible and are excluded from exact lookup totals. A numeric zero is retained only where printed explicitly. Blank, dash, x, annotated, or conjectural cells are not converted to zero. The lookup sums disjoint source categories, never a printed total together with its components. All-year sums cover included records only, with internal year gaps disclosed. Later Kalamazoo figures are not represented as complete company-wide production.
 
+If a named-finish selection matches some rows while other relevant rows have no allocated finish, the result labels the number as recorded entries assigned to that finish and explicitly warns that the unallocated rows may include further examples in that color. This applies, for example, to 1976 Deluxe Goldtop and 1971 ES-335 Sunburst selections.
+
 ## Corrections And Category Repairs
 
 - The 1958/1959 counts 19/3 belong to Explorer, not Moderne. Gibson's own historical article corroborates the 1958 Explorer and Flying V figures.
@@ -34,6 +36,6 @@ Static audit: 12 images on both live and preview; zero broken assets; canonical 
 
 ## Validation
 
-Build, Astro checks and the repository copy gate pass. Boundary checks cover combined finishes, disputed cells, missing records versus explicit zero, model reclassification, mono/stereo separation, CSV source output and source references. Source-total arithmetic has also been checked for Deluxe, L-6S, Midnight Special, Marauder, S-1, Grabber, EB-0, EB-0L and Les Paul Bass/Triumph categories.
+Build, Astro checks and the repository copy gate pass. Boundary checks cover combined finishes, disputed cells, missing records versus explicit zero, model reclassification, mono/stereo separation, CSV source output and source references. Source-total arithmetic matches 86 independently printed annual totals for Deluxe, L-6S, Midnight Special, Marauder, S-1, Grabber, EB-0, EB-0L and Les Paul Bass/Triumph categories. Run `node tests/gibson-shipments.test.mjs` for these checks.
 
 Original numerical cells receive a separate reconciliation disposition: agreement, changed value, broader category only, reclassification, dispute or withheld coverage gap. A withheld cell is not a finding that the old number is false; it means its category and value have not been independently supported by the checked material.

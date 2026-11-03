@@ -15,6 +15,9 @@ assert.equal(lookup('les-paul-model-standard-1952-to-1960', 'Sunburst', '1958').
 assert.equal(lookup('les-paul-deluxe', 'Goldtop', '1976', 'Standard listing').count, 34);
 assert.equal(lookup('les-paul-deluxe', 'all', '1976').count, 172);
 assert.equal(lookup('les-paul-deluxe', 'Goldtop', '1976', 'Left-handed').count, 23);
+assert.equal(lookup('les-paul-deluxe', 'Goldtop', '1976').unallocated.length, 2);
+assert.equal(lookup('les-paul-deluxe', 'Goldtop', '1976', 'Left-handed').unallocated.length, 0);
+assert.equal(lookup('es-335td', 'Sunburst', '1971').unallocated.length, 1);
 assert.equal(lookup('les-paul-junior-original-slab-body', 'all', '1959').count, 4364);
 assert.equal(lookup('es-355td-mono', 'all', '1959').count, 177);
 assert.equal(lookup('es-355tdsv-stereo', 'all', '1959').count, 123);
