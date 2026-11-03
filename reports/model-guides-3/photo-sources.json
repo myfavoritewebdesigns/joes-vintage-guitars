@@ -1090,5 +1090,41 @@
     "path": "work/model-guides-3/byrdland-photo-update/originals/1970s gibson byrdland-4.jpg",
     "originalWidth": 6240,
     "originalHeight": 4160
+  },
+  {
+    "id": "1UgtNiThTOlHJVfsxfyEfhRzr9qQzcUtH",
+    "name": "gibson-es-225-1958-blonde-full-front-in-case.jpg",
+    "path": "work/model-guides-3/es225-photo-update/gibson-es-225-1958-blonde-full-front-in-case.jpg",
+    "key": "es225NaturalFront",
+    "assetPath": "src/assets/images/model-guides-3/gibson-es-225-1958-blonde-full-front-in-case.jpg",
+    "bytes": 72316,
+    "sha256": "59cc0e820e467fc35f479cc013402da7f00ee62dd94a8e6f4eb48daa1ccf0982",
+    "assetSha256": "59cc0e820e467fc35f479cc013402da7f00ee62dd94a8e6f4eb48daa1ccf0982",
+    "originalWidth": 800,
+    "originalHeight": 533,
+    "width": 800,
+    "height": 533,
+    "exifOrientation": 1,
+    "transform": "none",
+    "caption": "1958 Gibson ES-225TN in natural finish, with a single P-90 and two controls.",
+    "dateBasis": "1958 in the user-selected Drive filename"
+  },
+  {
+    "id": "1gU2gy_nSiJ6hKBffnRcjfQtEobN6jBs-",
+    "name": "gibson-es-225-1958-blonde-full-back-in-case.jpg",
+    "path": "work/model-guides-3/es225-photo-update/gibson-es-225-1958-blonde-full-back-in-case.jpg",
+    "key": "es225NaturalBack",
+    "assetPath": "src/assets/images/model-guides-3/gibson-es-225-1958-blonde-full-back-in-case.jpg",
+    "bytes": 95858,
+    "sha256": "59302e8079c2fa181edcb6f621f539c07dc1deef750df09fdfcf047d47bc55cd",
+    "assetSha256": "59302e8079c2fa181edcb6f621f539c07dc1deef750df09fdfcf047d47bc55cd",
+    "originalWidth": 533,
+    "originalHeight": 800,
+    "width": 533,
+    "height": 800,
+    "exifOrientation": 1,
+    "transform": "none",
+    "caption": "1958 Gibson ES-225TN: natural-finish back, neck and tuners.",
+    "dateBasis": "1958 in the user-selected Drive filename"
   }
 ]

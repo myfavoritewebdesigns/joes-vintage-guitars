@@ -1029,3 +1029,7 @@ The preview incorporates approved upstream updates through 6a88b4e, including th
 ### 2026-11-03: Byrdland Value Guide Photo Update
 
 Joe supplied four Drive folders for the Byrdland guide and confirmed that matching photographs in the folders labeled 1964 and 1967 show a 1967 Byrdland. Use 1967 in public captions; retain the source filename and date correction in provenance. The value guide now features the 1957 sunburst and adds ten full-resolution, byte-identical Drive originals across the 1957, 1967 and 1970s examples. Retain the existing 1974 wine-red archive example. Hero, blog card and social image use the same 1957 photo. Captions sit below the added photos, and contain sizing preserves the full photographs. Prices and the published authentication guide are unchanged. This update remains in the Gibson batch preview for Joe's review.
+
+### 2026-11-03: ES-225 Value Guide Natural-Finish Photos
+
+Joe supplied two Drive photographs named as a 1958 blonde ES-225. Add the front and back views of this single-pickup ES-225TN to the single-pickup value section, with captions below and contain sizing. Preserve the supplied image bytes, dimensions and watermarks. Retain the 1956 sunburst ES-225TD hero and archive, all existing prose and prices, and the published ES-225 reference page. The two extra photographs and image-license nodes are intentional preview additions.

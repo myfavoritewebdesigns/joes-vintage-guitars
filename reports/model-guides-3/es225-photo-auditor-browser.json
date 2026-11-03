@@ -1,0 +1,502 @@
+[
+  {
+    "kind": "live",
+    "width": 1920,
+    "hero": {
+      "h1": "Gibson ES-225 Value Guide",
+      "hero": "/_astro/1956-gibson-es-225-1.4XN99AeU_Z2elq4c.webp",
+      "actions": [
+        {
+          "text": "Free Appraisal",
+          "href": "/free-appraisal/",
+          "bottom": 538.734375
+        },
+        {
+          "text": "Sell My Gibson",
+          "href": "/sell-my-gibson-guitar/",
+          "bottom": 538.734375
+        }
+      ]
+    },
+    "walk": [
+      {
+        "tag": "H2",
+        "classes": "",
+        "w": 1128,
+        "h": 137.1875,
+        "display": "block",
+        "background": "rgba(0, 0, 0, 0)",
+        "before": "none",
+        "after": "none"
+      },
+      {
+        "tag": "DIV",
+        "classes": "",
+        "w": 1128,
+        "h": 162.875,
+        "display": "block",
+        "background": "rgba(0, 0, 0, 0)",
+        "before": "none",
+        "after": "none"
+      },
+      {
+        "tag": "HEADER",
+        "classes": "mg-head",
+        "w": 1180,
+        "h": 162.875,
+        "display": "flex",
+        "background": "rgba(0, 0, 0, 0)",
+        "before": "none",
+        "after": "none"
+      },
+      {
+        "tag": "DIV",
+        "classes": "mg-section mg-wrap",
+        "w": 1180,
+        "h": 564.375,
+        "display": "block",
+        "background": "rgba(0, 0, 0, 0)",
+        "before": "none",
+        "after": "none"
+      },
+      {
+        "tag": "SECTION",
+        "classes": "mg-band mg-dark",
+        "w": 1920,
+        "h": 564.375,
+        "display": "block",
+        "background": "rgb(23, 22, 20)",
+        "before": "none",
+        "after": "none"
+      },
+      {
+        "tag": "ARTICLE",
+        "classes": "mg-guide",
+        "w": 1920,
+        "h": 8691.984375,
+        "display": "block",
+        "background": "rgb(243, 234, 216)",
+        "before": "none",
+        "after": "none"
+      },
+      {
+        "tag": "MAIN",
+        "classes": "",
+        "w": 1920,
+        "h": 9103.1875,
+        "display": "block",
+        "background": "rgba(0, 0, 0, 0)",
+        "before": "none",
+        "after": "none"
+      }
+    ],
+    "anchor": {
+      "top": 100.296875,
+      "images": []
+    },
+    "scrollWidth": 1920,
+    "viewport": 1920,
+    "broken": [],
+    "collapsed": [],
+    "photos": [],
+    "widgets": {
+      "forms": 0,
+      "details": 8,
+      "inputs": 0,
+      "iframes": 0
+    },
+    "contrast": []
+  },
+  {
+    "kind": "local",
+    "width": 1920,
+    "hero": {
+      "h1": "Gibson ES-225 Value Guide",
+      "hero": "/_astro/1956-gibson-es-225-1.4XN99AeU_Z2elq4c.webp",
+      "actions": [
+        {
+          "text": "Free Appraisal",
+          "href": "/free-appraisal/",
+          "bottom": 538.734375
+        },
+        {
+          "text": "Sell My Gibson",
+          "href": "/sell-my-gibson-guitar/",
+          "bottom": 538.734375
+        }
+      ]
+    },
+    "walk": [
+      {
+        "tag": "H2",
+        "classes": "",
+        "w": 1128,
+        "h": 137.1875,
+        "display": "block",
+        "background": "rgba(0, 0, 0, 0)",
+        "before": "none",
+        "after": "none"
+      },
+      {
+        "tag": "DIV",
+        "classes": "",
+        "w": 1128,
+        "h": 162.875,
+        "display": "block",
+        "background": "rgba(0, 0, 0, 0)",
+        "before": "none",
+        "after": "none"
+      },
+      {
+        "tag": "HEADER",
+        "classes": "mg-head",
+        "w": 1180,
+        "h": 162.875,
+        "display": "flex",
+        "background": "rgba(0, 0, 0, 0)",
+        "before": "none",
+        "after": "none"
+      },
+      {
+        "tag": "DIV",
+        "classes": "mg-section mg-wrap",
+        "w": 1180,
+        "h": 1059.375,
+        "display": "block",
+        "background": "rgba(0, 0, 0, 0)",
+        "before": "none",
+        "after": "none"
+      },
+      {
+        "tag": "SECTION",
+        "classes": "mg-band mg-dark",
+        "w": 1920,
+        "h": 1059.375,
+        "display": "block",
+        "background": "rgb(23, 22, 20)",
+        "before": "none",
+        "after": "none"
+      },
+      {
+        "tag": "ARTICLE",
+        "classes": "mg-guide",
+        "w": 1920,
+        "h": 9186.984375,
+        "display": "block",
+        "background": "rgb(243, 234, 216)",
+        "before": "none",
+        "after": "none"
+      },
+      {
+        "tag": "MAIN",
+        "classes": "",
+        "w": 1920,
+        "h": 9598.1875,
+        "display": "block",
+        "background": "rgba(0, 0, 0, 0)",
+        "before": "none",
+        "after": "none"
+      }
+    ],
+    "anchor": {
+      "top": 100.296875,
+      "images": [
+        {
+          "src": "/_astro/gibson-es-225-1958-blonde-full-front-in-case.BTAu593v_ZwbNQF.webp",
+          "loaded": true,
+          "height": 420
+        },
+        {
+          "src": "/_astro/gibson-es-225-1958-blonde-full-back-in-case._LNG0scy_SoEoT.webp",
+          "loaded": true,
+          "height": 420
+        }
+      ]
+    },
+    "scrollWidth": 1920,
+    "viewport": 1920,
+    "broken": [],
+    "collapsed": [],
+    "photos": [
+      {
+        "src": "/_astro/gibson-es-225-1958-blonde-full-front-in-case.BTAu593v_ZwbNQF.webp",
+        "width": 577.5,
+        "height": 420,
+        "fit": "contain",
+        "caption": "1958 Gibson ES-225TN in natural finish, with a single P-90 and two controls.",
+        "captionColor": "rgb(255, 255, 255)",
+        "captionBackground": "rgb(17, 17, 17)",
+        "container": "grid",
+        "columns": "577.5px 577.5px"
+      },
+      {
+        "src": "/_astro/gibson-es-225-1958-blonde-full-back-in-case._LNG0scy_SoEoT.webp",
+        "width": 577.5,
+        "height": 420,
+        "fit": "contain",
+        "caption": "1958 Gibson ES-225TN: natural-finish back, neck and tuners.",
+        "captionColor": "rgb(255, 255, 255)",
+        "captionBackground": "rgb(17, 17, 17)",
+        "container": "grid",
+        "columns": "577.5px 577.5px"
+      }
+    ],
+    "widgets": {
+      "forms": 0,
+      "details": 8,
+      "inputs": 0,
+      "iframes": 0
+    },
+    "contrast": []
+  },
+  {
+    "kind": "live",
+    "width": 390,
+    "hero": {
+      "h1": "Gibson ES-225 Value Guide",
+      "hero": "/_astro/1956-gibson-es-225-1.4XN99AeU_Z2elq4c.webp",
+      "actions": [
+        {
+          "text": "Free Appraisal",
+          "href": "/free-appraisal/",
+          "bottom": 498.890625
+        },
+        {
+          "text": "Sell My Gibson",
+          "href": "/sell-my-gibson-guitar/",
+          "bottom": 498.890625
+        }
+      ]
+    },
+    "walk": [
+      {
+        "tag": "H2",
+        "classes": "",
+        "w": 298,
+        "h": 117.5625,
+        "display": "block",
+        "background": "rgba(0, 0, 0, 0)",
+        "before": "none",
+        "after": "none"
+      },
+      {
+        "tag": "DIV",
+        "classes": "",
+        "w": 298,
+        "h": 143.25,
+        "display": "block",
+        "background": "rgba(0, 0, 0, 0)",
+        "before": "none",
+        "after": "none"
+      },
+      {
+        "tag": "HEADER",
+        "classes": "mg-head",
+        "w": 350,
+        "h": 143.25,
+        "display": "flex",
+        "background": "rgba(0, 0, 0, 0)",
+        "before": "none",
+        "after": "none"
+      },
+      {
+        "tag": "DIV",
+        "classes": "mg-section mg-wrap",
+        "w": 350,
+        "h": 954.9375,
+        "display": "block",
+        "background": "rgba(0, 0, 0, 0)",
+        "before": "none",
+        "after": "none"
+      },
+      {
+        "tag": "SECTION",
+        "classes": "mg-band mg-dark",
+        "w": 390,
+        "h": 954.9375,
+        "display": "block",
+        "background": "rgb(23, 22, 20)",
+        "before": "none",
+        "after": "none"
+      },
+      {
+        "tag": "ARTICLE",
+        "classes": "mg-guide",
+        "w": 390,
+        "h": 13544.765625,
+        "display": "block",
+        "background": "rgb(243, 234, 216)",
+        "before": "none",
+        "after": "none"
+      },
+      {
+        "tag": "MAIN",
+        "classes": "",
+        "w": 390,
+        "h": 14226.390625,
+        "display": "block",
+        "background": "rgba(0, 0, 0, 0)",
+        "before": "none",
+        "after": "none"
+      }
+    ],
+    "anchor": {
+      "top": 99.703125,
+      "images": []
+    },
+    "scrollWidth": 390,
+    "viewport": 390,
+    "broken": [],
+    "collapsed": [],
+    "photos": [],
+    "widgets": {
+      "forms": 0,
+      "details": 8,
+      "inputs": 0,
+      "iframes": 0
+    },
+    "contrast": []
+  },
+  {
+    "kind": "local",
+    "width": 390,
+    "hero": {
+      "h1": "Gibson ES-225 Value Guide",
+      "hero": "/_astro/1956-gibson-es-225-1.4XN99AeU_Z2elq4c.webp",
+      "actions": [
+        {
+          "text": "Free Appraisal",
+          "href": "/free-appraisal/",
+          "bottom": 498.890625
+        },
+        {
+          "text": "Sell My Gibson",
+          "href": "/sell-my-gibson-guitar/",
+          "bottom": 498.890625
+        }
+      ]
+    },
+    "walk": [
+      {
+        "tag": "H2",
+        "classes": "",
+        "w": 298,
+        "h": 117.5625,
+        "display": "block",
+        "background": "rgba(0, 0, 0, 0)",
+        "before": "none",
+        "after": "none"
+      },
+      {
+        "tag": "DIV",
+        "classes": "",
+        "w": 298,
+        "h": 143.25,
+        "display": "block",
+        "background": "rgba(0, 0, 0, 0)",
+        "before": "none",
+        "after": "none"
+      },
+      {
+        "tag": "HEADER",
+        "classes": "mg-head",
+        "w": 350,
+        "h": 143.25,
+        "display": "flex",
+        "background": "rgba(0, 0, 0, 0)",
+        "before": "none",
+        "after": "none"
+      },
+      {
+        "tag": "DIV",
+        "classes": "mg-section mg-wrap",
+        "w": 350,
+        "h": 1843.9375,
+        "display": "block",
+        "background": "rgba(0, 0, 0, 0)",
+        "before": "none",
+        "after": "none"
+      },
+      {
+        "tag": "SECTION",
+        "classes": "mg-band mg-dark",
+        "w": 390,
+        "h": 1843.9375,
+        "display": "block",
+        "background": "rgb(23, 22, 20)",
+        "before": "none",
+        "after": "none"
+      },
+      {
+        "tag": "ARTICLE",
+        "classes": "mg-guide",
+        "w": 390,
+        "h": 14433.765625,
+        "display": "block",
+        "background": "rgb(243, 234, 216)",
+        "before": "none",
+        "after": "none"
+      },
+      {
+        "tag": "MAIN",
+        "classes": "",
+        "w": 390,
+        "h": 15115.390625,
+        "display": "block",
+        "background": "rgba(0, 0, 0, 0)",
+        "before": "none",
+        "after": "none"
+      }
+    ],
+    "anchor": {
+      "top": 99.703125,
+      "images": [
+        {
+          "src": "/_astro/gibson-es-225-1958-blonde-full-front-in-case.BTAu593v_ZwbNQF.webp",
+          "loaded": true,
+          "height": 360
+        },
+        {
+          "src": "/_astro/gibson-es-225-1958-blonde-full-back-in-case._LNG0scy_SoEoT.webp",
+          "loaded": true,
+          "height": 360
+        }
+      ]
+    },
+    "scrollWidth": 390,
+    "viewport": 390,
+    "broken": [],
+    "collapsed": [],
+    "photos": [
+      {
+        "src": "/_astro/gibson-es-225-1958-blonde-full-front-in-case.BTAu593v_ZwbNQF.webp",
+        "width": 350,
+        "height": 360,
+        "fit": "contain",
+        "caption": "1958 Gibson ES-225TN in natural finish, with a single P-90 and two controls.",
+        "captionColor": "rgb(255, 255, 255)",
+        "captionBackground": "rgb(17, 17, 17)",
+        "container": "grid",
+        "columns": "350px"
+      },
+      {
+        "src": "/_astro/gibson-es-225-1958-blonde-full-back-in-case._LNG0scy_SoEoT.webp",
+        "width": 350,
+        "height": 360,
+        "fit": "contain",
+        "caption": "1958 Gibson ES-225TN: natural-finish back, neck and tuners.",
+        "captionColor": "rgb(255, 255, 255)",
+        "captionBackground": "rgb(17, 17, 17)",
+        "container": "grid",
+        "columns": "350px"
+      }
+    ],
+    "widgets": {
+      "forms": 0,
+      "details": 8,
+      "inputs": 0,
+      "iframes": 0
+    },
+    "contrast": []
+  }
+]
