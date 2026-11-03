@@ -6,7 +6,7 @@ import { SITE_URL } from "../../../config/site";
 import {
   getPublishedPosts,
   getCategories,
-  postsInCategory,
+  entriesInCategory,
   paginate,
   categoryName,
   CATEGORY_META,
@@ -16,7 +16,7 @@ export const getStaticPaths = (async () => {
   const allPosts = await getPublishedPosts();
   const cats = getCategories(allPosts);
   return cats.map((c) => {
-    const pages = paginate(postsInCategory(allPosts, c.slug));
+    const pages = paginate(entriesInCategory(allPosts, c.slug));
     return {
       params: { slug: c.slug },
       props: { posts: pages[0], current: 1, total: pages.length, slug: c.slug },
