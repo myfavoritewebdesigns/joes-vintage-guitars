@@ -1,5 +1,11 @@
 # Gibson Production Reference: Audit Decisions
 
+## Decoder Metadata And Semrush Query Research
+
+Joe requested an easy-to-use decoder title/description and keyword research on November 3, 2026. Signed-in Semrush US desktop data showed `gibson guitar production numbers` at 1,300 estimated monthly searches (KD 24), compared with 20 each for `gibson production numbers`, `gibson shipping totals` and `gibson les paul production numbers`. The fuller primary phrase is restored to the H1 and meta title. Title: `Gibson Guitar Production Numbers | Easy-to-Use Decoder`. The description highlights the easy-to-use production decoder, shipping totals, model/year/finish controls and 1948 to 1979 coverage. The tool introduction, Les Paul heading and model/year FAQ support those queries naturally.
+
+Semrush reports 480 monthly searches for `gibson serial number decoder` (KD 17). The article links that dating intent to the existing serial-number guide. Production-decoder wording is descriptive; Semrush displayed no exact-phrase volume for `gibson production decoder`. The shipment tool still distinguishes shipments, finish ambiguity and missing records. These estimates are not actual website traffic or ranking guarantees. Source removal from the public page remains in force.
+
 ## Requested Presentation Revision
 
 Joe requested removal of sources on November 3, 2026. Visible citation links, source columns and the bibliography are removed from the article and lookup. Public CSV exports omit source details. The internal dataset retains source provenance for maintenance, and disputed counts, missing-record explanations and coverage qualifications remain visible. This supersedes the original source-display presentation described below. The numerical records are unchanged.

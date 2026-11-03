@@ -1,18 +1,20 @@
 ---
-title: "Gibson Production Numbers And Shipping Totals (1948 To 1979)"
-seoTitle: "Gibson Production Numbers: Shipping Totals (1948 To 1979)"
+title: "Gibson Guitar Production Numbers And Shipping Totals (1948 To 1979)"
+seoTitle: "Gibson Guitar Production Numbers | Easy-to-Use Decoder"
 pubDate: "2026-03-02T21:44:13"
 modified: "2026-11-03T10:10:00-07:00"
-excerpt: "Search published Gibson shipment records by model, year and finish. Includes model tables, disputed figures, acoustic guitars and basses."
+excerpt: "Use the easy-to-use Gibson production decoder to look up shipping totals by model, year and finish. Includes Les Paul, SG, ES models, acoustics and basses."
 category: "serial-number-dating-guides"
 categoryName: "Serial Number & Dating Guides"
 tags: []
 heroImage: "/images/blog/gibson-shipping-totals-1948-1979/1958-gibson-les-paul-special-serial-number-scaled.jpg"
 heroImageAlt: "Serial number on a 1958 Gibson Les Paul Special headstock"
-metaDescription: "Look up Gibson shipping totals by model, year and finish, 1948 to 1979. Sourced records for guitars and basses, with conflicting figures clearly identified."
+metaDescription: "Use our easy-to-use Gibson production decoder to look up shipping totals by model, year and finish from 1948 to 1979, including Les Paul, SG and ES models."
 ogImage: "/images/blog/gibson-shipping-totals-1948-1979/1958-gibson-les-paul-special-serial-number-scaled.jpg"
 wpId: 18430
 faqs:
+  - q: "How Do I Look Up Gibson Guitar Production Numbers By Model And Year?"
+    a: "Choose your Gibson model and year in the production decoder, then select a finish or variant if the records separate it. The result shows recorded shipping totals and explains incomplete or conflicting counts."
   - q: "Are Gibson Shipping Totals The Same As Production Numbers?"
     a: "They count shipments recorded under a model category. An instrument can be built in one year and shipped in another. Published tables can also omit custom orders or combine variants."
   - q: "How Many 1958 Les Paul Sunbursts Were Made?"
