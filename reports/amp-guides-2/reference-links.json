@@ -496,6 +496,14 @@
       "finalUrl": "https://mojotone.com/blogs/fender-field-guide/fender-brownface-super",
       "contentType": "text/html; charset=utf-8",
       "bytes": 757345
+    },
+    {
+      "sourceId": "AMP2-S058",
+      "url": "https://mojotone.com/blogs/fender-field-guide/fender-champion-600",
+      "status": 200,
+      "finalUrl": "https://mojotone.com/blogs/fender-field-guide/fender-champion-600",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 749020
     }
   ],
   "existingInternalDestinations": [

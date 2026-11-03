@@ -1,19 +1,19 @@
 === /work/texts/fender-bassman-authentication-guide.txt  [policy: writing_system] ===
   DOCUMENT-LEVEL CHECKS (whole-draft, no line number):
     [ok  ] contrast-pivot density     contrast density ok 0.33/200w
-    [ok  ] sentence-length variation  sentence variance ok SD 20.4
+    [ok  ] sentence-length variation  sentence variance ok SD 20.6
     [off ] specificity floor          not run under policy 'writing_system'
     [ok  ] section-template rhythm    heading template ok
     [ok  ] data tables                data tables ok (none)
     [ok  ] staccato beats             staccato beat ok (none)
-    [ok  ] contractions               contractions ok 8.35/1000 words
+    [ok  ] contractions               contractions ok 8.34/1000 words
     [ok  ] bold-label case            bold labels ok (none)
     [off ] reaction emoji             not run under policy 'writing_system'
     [ok  ] praise stacking            praise stacking ok
     [off ] social channel checks      not run under policy 'writing_system'
     [n/a ] cross-draft similarity     not run; pass --batch to compare these 8 inputs as a set
   clean - no tier-1 or tier-2 hits
-  metrics: words=2357 contrast=0.33/200w (4 hits) sentence_sd=20.39 exempted=0
+  metrics: words=2361 contrast=0.33/200w (4 hits) sentence_sd=20.57 exempted=0
 SUMMARY /work/texts/fender-bassman-authentication-guide.txt: PASS - BAN 0, WARN 0
 === /work/texts/fender-bassman-value-guide.txt  [policy: writing_system] ===
   DOCUMENT-LEVEL CHECKS (whole-draft, no line number):

@@ -641,6 +641,17 @@
         "fender-super-reverb-authentication-guide#specs"
       ],
       "note": "40-watt rating, original speakers and cosmetics. Full tube counts are taken from the factory drawing, whose 6G4-A complement is four 7025 and two 12AX7."
+    },
+    {
+      "sourceId": "AMP2-S058",
+      "title": "Champion 600 Field Record",
+      "href": "https://mojotone.com/blogs/fender-field-guide/fender-champion-600",
+      "verifiedAt": "2026-11-02",
+      "sourceType": "Manufacturer field research",
+      "usedIn": [
+        "fender-champ-authentication-guide#specs"
+      ],
+      "note": "Early 5B1 set: 6SJ7, 6V6 and 5Y3; four watts and six-inch speaker. Fender history separately confirms Champion 800/600 share the early circuit family."
     }
   ],
   "reissueTells": [

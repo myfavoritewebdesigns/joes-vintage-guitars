@@ -12,7 +12,7 @@ Eight new blog pages pair value and identification guides for Bassman, Super/Sup
 | Writing scan | All eight pages, BAN 0, WARN 0 |
 | Images | 34 original files, unchanged bytes; 67 licensed nodes, 0 mismatches |
 | Routes and anchors | 0 broken; existing targets found in live sitemap |
-| External sources | 49 direct HTTP 200; 8 Fender pages block automated GET but were opened successfully with the public web reader |
+| External sources | 50 direct HTTP 200; 8 Fender pages block automated GET but were opened successfully with the public web reader |
 | Values | 60 new rows; both endpoints match saved 11 to 15 percent reductions and nearest-$50 rounding |
 | Uniqueness | All twins below 10%; all new-page pairs and comparison/value pairs below 26%; maximum 2.12% |
 | Protected documents | 129 byte-identical; only the two intentionally linked PR 1 articles differ among 131 protected documents |
@@ -20,7 +20,7 @@ Eight new blog pages pair value and identification guides for Bassman, Super/Sup
 | Contrast | 3,624 text runs; 0 computed failures; 0 axe color-contrast violations; 16 incomplete layered-background cases retained |
 | FAQ/schema | One FAQPage per page, exact visible/schema parity; no product, offer or rating schema |
 | Live comparison | J-200, dating page, seller, era and comparison articles: 0 must-fix; inherited Reverb icon dimension warnings |
-| Independent reviews | Visual review passed. Editorial review is recorded separately when complete. |
+| Independent reviews | Visual review PASS; editorial SHIP on all eight; fresh Bassman reader also SHIP. |
 
 [Page metrics and incoming links](page-metrics.md), [schema](schema-and-scope.json), [preservation](preservation.json), [layout](layout-audit.json), [contrast](contrast-axe/audit.json), [sources and reissue tells](sources.json), [external links and sitemap](reference-links.json), [price math](value-chart-check.json), [photo provenance and code readings](photo-sources.json).
 
@@ -65,4 +65,4 @@ The four canonical writing databases remain unavailable, as disclosed in PR 1; t
 
 ## Publication
 
-Do not merge before Joe approves this PR's specific Cloudflare preview. After approval, squash-merge, confirm production succeeds and load every new live URL three times. Deployment verification and independent reviews are added to this report and PR before handoff.
+Do not merge before Joe approves this PR's specific Cloudflare preview. After approval, squash-merge, confirm production succeeds and load every new live URL three times. Independent reviews are recorded in editorial-review.md, bassman-fresh-final-read.md and visual-review.md. Deployment verification is added to the PR before handoff.
