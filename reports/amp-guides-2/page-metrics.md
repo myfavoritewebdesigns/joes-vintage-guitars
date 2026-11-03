@@ -4,11 +4,11 @@ Words exclude hero, ToC, byline, author and source list. The second word column 
 
 | Page | Title | Meta | Reading Words | Without Charts/FAQ | Prose Inbounds | FAQ |
 |---|---:|---:|---:|---:|---:|---:|
-| fender-bassman-value-guide | 55 | 145 | 1817 | 1476 | 4 | 3 |
+| fender-bassman-value-guide | 55 | 145 | 1924 | 1583 | 4 | 3 |
 | fender-super-reverb-value-guide | 54 | 151 | 1793 | 1501 | 4 | 3 |
 | fender-vibrolux-value-guide | 55 | 146 | 1673 | 1498 | 5 | 3 |
 | fender-champ-value-guide | 55 | 153 | 1753 | 1492 | 5 | 4 |
-| fender-bassman-authentication-guide | 55 | 147 | 2200 | 1827 | 4 | 4 |
+| fender-bassman-authentication-guide | 55 | 147 | 2293 | 1920 | 4 | 4 |
 | fender-super-reverb-authentication-guide | 55 | 151 | 2272 | 1914 | 6 | 4 |
 | fender-vibrolux-authentication-guide | 52 | 150 | 2265 | 1962 | 6 | 4 |
 | fender-champ-authentication-guide | 56 | 151 | 2344 | 2034 | 5 | 4 |

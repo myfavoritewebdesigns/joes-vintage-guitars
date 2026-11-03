@@ -1,0 +1,2656 @@
+[
+  {
+    "slug": "fender-bassman-value-guide",
+    "version": "baseline",
+    "width": 1280,
+    "height": 800,
+    "documentWidth": 1280,
+    "ctas": [
+      {
+        "label": "Free Appraisal",
+        "href": "/free-appraisal/",
+        "top": 559.34375,
+        "bottom": 609.734375,
+        "left": 284,
+        "right": 428.71875,
+        "visible": true
+      },
+      {
+        "label": "Sell My Amp",
+        "href": "/sell-an-amplifier-or-effect/",
+        "top": 559.34375,
+        "bottom": 609.734375,
+        "left": 440.71875,
+        "right": 571.875,
+        "visible": true
+      }
+    ],
+    "images": [
+      {
+        "alt": "Joe's Vintage Guitars - Preserving History One Guitar at a Time",
+        "loaded": true
+      },
+      {
+        "alt": "Reverb",
+        "loaded": true
+      },
+      {
+        "alt": "Reverb",
+        "loaded": true
+      },
+      {
+        "alt": "1959 Fender Bassman front",
+        "loaded": true
+      },
+      {
+        "alt": "1959 Fender Bassman front",
+        "loaded": true
+      },
+      {
+        "alt": "1963 Fender Bassman front",
+        "loaded": true
+      },
+      {
+        "alt": "Joe Dampt, owner of Joe's Vintage Guitars",
+        "loaded": true
+      },
+      {
+        "alt": "Joe's Vintage Guitars",
+        "loaded": true
+      }
+    ],
+    "widgets": {
+      "forms": 0,
+      "details": 8,
+      "inputs": 0,
+      "iframes": 0
+    },
+    "section": {
+      "text": "3\n\nCHECK EACH PIECE\n\nValuing A Head And Cabinet Together\n\nA blonde Bassman head can survive in excellent condition while its original cabinet is missing. The head-only row accounts for that situation where a separate entry is available. Adding any old Fender cabinet doesn’t automatically justify the complete-set figure. The cabinet’s age, speaker configuration, covering and history need to fit the set being appraised.\n\nPhotograph the piggyback mounting hardware and any unused holes. A missing screw is a smaller issue than a cabinet modified to fit a different head, but both belong in the description. If the pieces have been together for as long as you remember, say that. Family ownership can establish a useful history without proving that Fender shipped that head and cabinet together.\n\nCovers are easy to separate from an amp during a move. Check storage areas before selling and photograph each cover next to the piece it fits. A head cover and a cabinet cover aren’t interchangeable accessories. Torn original material may still help document the set; a modern replacement should be identified as such.\n\nFor a blackface or silverface Bassman, record the exact model name and all controls. A higher output number doesn’t by itself imply a higher collector value. The correct chart entry depends on which version you own, what accompanies it and what has changed. A head fitted into a custom combo cabinet requires an appraisal of that altered configuration.",
+      "headings": [
+        "Valuing A Head And Cabinet Together"
+      ],
+      "links": [],
+      "clipped": [],
+      "walk": [
+        {
+          "tag": "H2",
+          "classes": "",
+          "width": 953.34375,
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(200, 158, 87)",
+          "border": "0px solid rgb(200, 158, 87)",
+          "boxShadow": "none",
+          "transform": "none",
+          "overflowX": "visible",
+          "before": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          },
+          "after": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          }
+        },
+        {
+          "tag": "DIV",
+          "classes": "",
+          "width": 953.34375,
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(200, 158, 87)",
+          "border": "0px solid rgb(200, 158, 87)",
+          "boxShadow": "none",
+          "transform": "none",
+          "overflowX": "visible",
+          "before": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          },
+          "after": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          }
+        },
+        {
+          "tag": "HEADER",
+          "classes": "mg-head",
+          "width": 1152,
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(200, 158, 87)",
+          "border": "0px solid rgb(200, 158, 87)",
+          "boxShadow": "none",
+          "transform": "none",
+          "overflowX": "visible",
+          "before": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          },
+          "after": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          }
+        },
+        {
+          "tag": "DIV",
+          "classes": "mg-section mg-wrap",
+          "width": 1152,
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(244, 239, 227)",
+          "border": "0px solid rgb(244, 239, 227)",
+          "boxShadow": "none",
+          "transform": "none",
+          "overflowX": "visible",
+          "before": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          },
+          "after": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "classes": "mg-band mg-dark",
+          "width": 1280,
+          "background": "rgb(23, 22, 20)",
+          "color": "rgb(244, 239, 227)",
+          "border": "0px solid rgb(244, 239, 227)",
+          "boxShadow": "none",
+          "transform": "none",
+          "overflowX": "visible",
+          "before": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          },
+          "after": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          }
+        },
+        {
+          "tag": "ARTICLE",
+          "classes": "mg-guide",
+          "width": 1280,
+          "background": "rgb(243, 234, 216)",
+          "color": "rgb(27, 25, 22)",
+          "border": "0px solid rgb(27, 25, 22)",
+          "boxShadow": "none",
+          "transform": "none",
+          "overflowX": "hidden",
+          "before": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          },
+          "after": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          }
+        },
+        {
+          "tag": "MAIN",
+          "classes": "",
+          "width": 1280,
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(42, 45, 51)",
+          "border": "0px solid rgb(42, 45, 51)",
+          "boxShadow": "none",
+          "transform": "none",
+          "overflowX": "visible",
+          "before": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          },
+          "after": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          }
+        },
+        {
+          "tag": "BODY",
+          "classes": "min-h-screen overflow-x-hidden blog-post-page mg-page",
+          "width": 1280,
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(42, 45, 51)",
+          "border": "0px solid rgb(42, 45, 51)",
+          "boxShadow": "none",
+          "transform": "none",
+          "overflowX": "hidden",
+          "before": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          },
+          "after": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          }
+        },
+        {
+          "tag": "HTML",
+          "classes": "",
+          "width": 1280,
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "border": "0px solid rgb(0, 0, 0)",
+          "boxShadow": "none",
+          "transform": "none",
+          "overflowX": "visible",
+          "before": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          },
+          "after": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          }
+        }
+      ]
+    },
+    "anchor": {
+      "hash": "#piggyback",
+      "top": 100.4375,
+      "headingTop": 202.125
+    }
+  },
+  {
+    "slug": "fender-bassman-value-guide",
+    "version": "local",
+    "width": 1280,
+    "height": 800,
+    "documentWidth": 1280,
+    "ctas": [
+      {
+        "label": "Free Appraisal",
+        "href": "/free-appraisal/",
+        "top": 559.34375,
+        "bottom": 609.734375,
+        "left": 284,
+        "right": 428.71875,
+        "visible": true
+      },
+      {
+        "label": "Sell My Amp",
+        "href": "/sell-an-amplifier-or-effect/",
+        "top": 559.34375,
+        "bottom": 609.734375,
+        "left": 440.71875,
+        "right": 571.875,
+        "visible": true
+      }
+    ],
+    "images": [
+      {
+        "alt": "Joe's Vintage Guitars - Preserving History One Guitar at a Time",
+        "loaded": true
+      },
+      {
+        "alt": "Reverb",
+        "loaded": true
+      },
+      {
+        "alt": "Reverb",
+        "loaded": true
+      },
+      {
+        "alt": "1959 Fender Bassman front",
+        "loaded": true
+      },
+      {
+        "alt": "1959 Fender Bassman front",
+        "loaded": true
+      },
+      {
+        "alt": "1963 Fender Bassman front",
+        "loaded": true
+      },
+      {
+        "alt": "Joe Dampt, owner of Joe's Vintage Guitars",
+        "loaded": true
+      },
+      {
+        "alt": "Joe's Vintage Guitars",
+        "loaded": true
+      }
+    ],
+    "widgets": {
+      "forms": 0,
+      "details": 8,
+      "inputs": 0,
+      "iframes": 0
+    },
+    "section": {
+      "text": "3\n\nCHECK EACH PIECE\n\nValuing A Head And Cabinet Together\n\nA blonde Bassman head can survive in excellent condition while its original cabinet is missing. The head-only row accounts for that situation where a separate entry is available. Adding any old Fender cabinet doesn’t automatically justify the complete-set figure. The cabinet’s age, speaker configuration, covering and history need to fit the set being appraised.\n\nJoe’s 1961 blonde Bassman listing describes a set with dark oxblood grille cloth and its original 1x12 tone-ring cabinet. Later blonde examples use lighter wheat-colored cloth. Photograph the grille on both pieces and disclose any replacement fabric; color, weave, condition and the surviving cabinet all belong in the appraisal.\n\nPhotograph the piggyback mounting hardware and any unused holes. A missing screw is a smaller issue than a cabinet modified to fit a different head, but both belong in the description. If the pieces have been together for as long as you remember, say that. Family ownership can establish a useful history without proving that Fender shipped that head and cabinet together.\n\nCovers are easy to separate from an amp during a move. Check storage areas before selling and photograph each cover next to the piece it fits. A head cover and a cabinet cover aren’t interchangeable accessories. Torn original material may still help document the set; a modern replacement should be identified as such.\n\nJoe’s 1960s blackface Bassman listing describes a head and discloses a replacement blue pilot-light jewel. That is a useful example of recording a small cosmetic change alongside the larger questions about transformers, circuit work and the cabinet included in a sale. The listing gives a decade, so an exact production year still needs supporting evidence.\n\nFor a blackface or silverface Bassman, record the exact model name and all controls. A higher output number doesn’t by itself imply a higher collector value. The correct chart entry depends on which version you own, what accompanies it and what has changed. A head fitted into a custom combo cabinet requires an appraisal of that altered configuration.",
+      "headings": [
+        "Valuing A Head And Cabinet Together"
+      ],
+      "links": [
+        {
+          "label": "1961 blonde Bassman listing",
+          "href": "https://reverb.com/item/93427883-fender-bassman-1961-blonde-oxblood",
+          "color": "rgb(234, 209, 164)"
+        },
+        {
+          "label": "1960s blackface Bassman listing",
+          "href": "https://reverb.com/item/81558022-fender-bassman-1960s-blackface",
+          "color": "rgb(234, 209, 164)"
+        }
+      ],
+      "clipped": [],
+      "walk": [
+        {
+          "tag": "H2",
+          "classes": "",
+          "width": 953.34375,
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(200, 158, 87)",
+          "border": "0px solid rgb(200, 158, 87)",
+          "boxShadow": "none",
+          "transform": "none",
+          "overflowX": "visible",
+          "before": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          },
+          "after": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          }
+        },
+        {
+          "tag": "DIV",
+          "classes": "",
+          "width": 953.34375,
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(200, 158, 87)",
+          "border": "0px solid rgb(200, 158, 87)",
+          "boxShadow": "none",
+          "transform": "none",
+          "overflowX": "visible",
+          "before": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          },
+          "after": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          }
+        },
+        {
+          "tag": "HEADER",
+          "classes": "mg-head",
+          "width": 1152,
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(200, 158, 87)",
+          "border": "0px solid rgb(200, 158, 87)",
+          "boxShadow": "none",
+          "transform": "none",
+          "overflowX": "visible",
+          "before": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          },
+          "after": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          }
+        },
+        {
+          "tag": "DIV",
+          "classes": "mg-section mg-wrap",
+          "width": 1152,
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(244, 239, 227)",
+          "border": "0px solid rgb(244, 239, 227)",
+          "boxShadow": "none",
+          "transform": "none",
+          "overflowX": "visible",
+          "before": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          },
+          "after": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "classes": "mg-band mg-dark",
+          "width": 1280,
+          "background": "rgb(23, 22, 20)",
+          "color": "rgb(244, 239, 227)",
+          "border": "0px solid rgb(244, 239, 227)",
+          "boxShadow": "none",
+          "transform": "none",
+          "overflowX": "visible",
+          "before": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          },
+          "after": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          }
+        },
+        {
+          "tag": "ARTICLE",
+          "classes": "mg-guide",
+          "width": 1280,
+          "background": "rgb(243, 234, 216)",
+          "color": "rgb(27, 25, 22)",
+          "border": "0px solid rgb(27, 25, 22)",
+          "boxShadow": "none",
+          "transform": "none",
+          "overflowX": "hidden",
+          "before": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          },
+          "after": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          }
+        },
+        {
+          "tag": "MAIN",
+          "classes": "",
+          "width": 1280,
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(42, 45, 51)",
+          "border": "0px solid rgb(42, 45, 51)",
+          "boxShadow": "none",
+          "transform": "none",
+          "overflowX": "visible",
+          "before": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          },
+          "after": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          }
+        },
+        {
+          "tag": "BODY",
+          "classes": "min-h-screen overflow-x-hidden blog-post-page mg-page",
+          "width": 1280,
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(42, 45, 51)",
+          "border": "0px solid rgb(42, 45, 51)",
+          "boxShadow": "none",
+          "transform": "none",
+          "overflowX": "hidden",
+          "before": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          },
+          "after": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          }
+        },
+        {
+          "tag": "HTML",
+          "classes": "",
+          "width": 1280,
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "border": "0px solid rgb(0, 0, 0)",
+          "boxShadow": "none",
+          "transform": "none",
+          "overflowX": "visible",
+          "before": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          },
+          "after": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          }
+        }
+      ]
+    },
+    "anchor": {
+      "hash": "#piggyback",
+      "top": 100.4375,
+      "headingTop": 202.125
+    }
+  },
+  {
+    "slug": "fender-bassman-authentication-guide",
+    "version": "baseline",
+    "width": 1280,
+    "height": 800,
+    "documentWidth": 1280,
+    "ctas": [
+      {
+        "label": "Free Appraisal",
+        "href": "/free-appraisal/",
+        "top": 559.34375,
+        "bottom": 609.734375,
+        "left": 284,
+        "right": 428.71875,
+        "visible": true
+      },
+      {
+        "label": "Sell My Amp",
+        "href": "/sell-an-amplifier-or-effect/",
+        "top": 559.34375,
+        "bottom": 609.734375,
+        "left": 440.71875,
+        "right": 571.875,
+        "visible": true
+      }
+    ],
+    "images": [
+      {
+        "alt": "Joe's Vintage Guitars - Preserving History One Guitar at a Time",
+        "loaded": true
+      },
+      {
+        "alt": "Reverb",
+        "loaded": true
+      },
+      {
+        "alt": "Reverb",
+        "loaded": true
+      },
+      {
+        "alt": "1959 Fender Bassman front",
+        "loaded": true
+      },
+      {
+        "alt": "1959 Fender Bassman controls",
+        "loaded": true
+      },
+      {
+        "alt": "1959 Fender Bassman board",
+        "loaded": true
+      },
+      {
+        "alt": "1959 Fender Bassman speaker",
+        "loaded": true
+      },
+      {
+        "alt": "1963 Fender Bassman chart",
+        "loaded": true
+      },
+      {
+        "alt": "1959 Fender Bassman front",
+        "loaded": true
+      },
+      {
+        "alt": "1959 Fender Bassman back",
+        "loaded": true
+      },
+      {
+        "alt": "1959 Fender Bassman speaker",
+        "loaded": true
+      },
+      {
+        "alt": "1963 Fender Bassman front",
+        "loaded": true
+      },
+      {
+        "alt": "1963 Fender Bassman back",
+        "loaded": true
+      },
+      {
+        "alt": "1963 Fender Bassman board",
+        "loaded": true
+      },
+      {
+        "alt": "Joe Dampt, owner of Joe's Vintage Guitars",
+        "loaded": true
+      },
+      {
+        "alt": "Joe's Vintage Guitars",
+        "loaded": true
+      }
+    ],
+    "widgets": {
+      "forms": 0,
+      "details": 9,
+      "inputs": 0,
+      "iframes": 0
+    },
+    "section": {
+      "text": "2\n\nBROAD ERAS, THEN MODEL-SPECIFIC DETAILS\n\nBassman Changes Across The Fender Eras\n1948 To 1959: Tweed\nSingle Fifteen To Four Tens\n\nThe Bassman itself arrived in 1952. Fender’s history describes the TV-front 1x15, the 1953 wide-panel cabinet and the first 4x10 in 1954. Later four-input 5F6 and 5F6-A versions add the middle control. Tweed Bassman production continued into 1960, a model-specific overlap.\n\n1959 To 1963: Blonde And Brownface\nThe Separate Head And Cabinet\n\nThe blonde Bassman changes to piggyback construction. The 6G6 uses a GZ34 rectifier; the 6G6-B drawing uses diodes. Rough and smooth light coverings, grille changes and early white knobs need to be checked with the dated chassis.\n\n1963 To 1967: Blackface\nAA864 And AB165 Are Different Circuits\n\nThe black-covered head loses the blonde version’s presence control and gains channel switches. AA864 and AB165 share the broad format but differ internally. A surviving earlier chart doesn’t guarantee that the chassis follows that earlier drawing.\n\n1967 To 1980: Silverface\nMore Names And Higher Output\n\nThe silver-panel family includes Bassman 50, 70, 100 and 135 heads and the four-ten Bassman 10 combo. Later high-power versions use ultralinear output stages. Factory master-volume controls and rear output markings help narrow the version before a technician checks it.",
+      "headings": [
+        "Bassman Changes Across The Fender Eras",
+        "Single Fifteen To Four Tens",
+        "The Separate Head And Cabinet",
+        "AA864 And AB165 Are Different Circuits",
+        "More Names And Higher Output"
+      ],
+      "links": [],
+      "clipped": [],
+      "walk": [
+        {
+          "tag": "H2",
+          "classes": "",
+          "width": 1065.546875,
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(200, 158, 87)",
+          "border": "0px solid rgb(200, 158, 87)",
+          "boxShadow": "none",
+          "transform": "none",
+          "overflowX": "visible",
+          "before": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          },
+          "after": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          }
+        },
+        {
+          "tag": "DIV",
+          "classes": "",
+          "width": 1065.546875,
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(200, 158, 87)",
+          "border": "0px solid rgb(200, 158, 87)",
+          "boxShadow": "none",
+          "transform": "none",
+          "overflowX": "visible",
+          "before": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          },
+          "after": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          }
+        },
+        {
+          "tag": "HEADER",
+          "classes": "mg-head",
+          "width": 1152,
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(200, 158, 87)",
+          "border": "0px solid rgb(200, 158, 87)",
+          "boxShadow": "none",
+          "transform": "none",
+          "overflowX": "visible",
+          "before": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          },
+          "after": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          }
+        },
+        {
+          "tag": "DIV",
+          "classes": "mg-section mg-wrap",
+          "width": 1152,
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(244, 239, 227)",
+          "border": "0px solid rgb(244, 239, 227)",
+          "boxShadow": "none",
+          "transform": "none",
+          "overflowX": "visible",
+          "before": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          },
+          "after": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "classes": "mg-band mg-dark",
+          "width": 1280,
+          "background": "rgb(23, 22, 20)",
+          "color": "rgb(244, 239, 227)",
+          "border": "0px solid rgb(244, 239, 227)",
+          "boxShadow": "none",
+          "transform": "none",
+          "overflowX": "visible",
+          "before": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          },
+          "after": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          }
+        },
+        {
+          "tag": "ARTICLE",
+          "classes": "mg-guide",
+          "width": 1280,
+          "background": "rgb(243, 234, 216)",
+          "color": "rgb(27, 25, 22)",
+          "border": "0px solid rgb(27, 25, 22)",
+          "boxShadow": "none",
+          "transform": "none",
+          "overflowX": "hidden",
+          "before": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          },
+          "after": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          }
+        },
+        {
+          "tag": "MAIN",
+          "classes": "",
+          "width": 1280,
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(42, 45, 51)",
+          "border": "0px solid rgb(42, 45, 51)",
+          "boxShadow": "none",
+          "transform": "none",
+          "overflowX": "visible",
+          "before": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          },
+          "after": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          }
+        },
+        {
+          "tag": "BODY",
+          "classes": "min-h-screen overflow-x-hidden blog-post-page mg-page",
+          "width": 1280,
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(42, 45, 51)",
+          "border": "0px solid rgb(42, 45, 51)",
+          "boxShadow": "none",
+          "transform": "none",
+          "overflowX": "hidden",
+          "before": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          },
+          "after": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          }
+        },
+        {
+          "tag": "HTML",
+          "classes": "",
+          "width": 1280,
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "border": "0px solid rgb(0, 0, 0)",
+          "boxShadow": "none",
+          "transform": "none",
+          "overflowX": "visible",
+          "before": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          },
+          "after": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          }
+        }
+      ]
+    },
+    "anchor": {
+      "hash": "#timeline",
+      "top": 100.4375,
+      "headingTop": 202.125
+    }
+  },
+  {
+    "slug": "fender-bassman-authentication-guide",
+    "version": "local",
+    "width": 1280,
+    "height": 800,
+    "documentWidth": 1280,
+    "ctas": [
+      {
+        "label": "Free Appraisal",
+        "href": "/free-appraisal/",
+        "top": 559.34375,
+        "bottom": 609.734375,
+        "left": 284,
+        "right": 428.71875,
+        "visible": true
+      },
+      {
+        "label": "Sell My Amp",
+        "href": "/sell-an-amplifier-or-effect/",
+        "top": 559.34375,
+        "bottom": 609.734375,
+        "left": 440.71875,
+        "right": 571.875,
+        "visible": true
+      }
+    ],
+    "images": [
+      {
+        "alt": "Joe's Vintage Guitars - Preserving History One Guitar at a Time",
+        "loaded": true
+      },
+      {
+        "alt": "Reverb",
+        "loaded": true
+      },
+      {
+        "alt": "Reverb",
+        "loaded": true
+      },
+      {
+        "alt": "1959 Fender Bassman front",
+        "loaded": true
+      },
+      {
+        "alt": "1959 Fender Bassman controls",
+        "loaded": true
+      },
+      {
+        "alt": "1959 Fender Bassman board",
+        "loaded": true
+      },
+      {
+        "alt": "1959 Fender Bassman speaker",
+        "loaded": true
+      },
+      {
+        "alt": "1963 Fender Bassman chart",
+        "loaded": true
+      },
+      {
+        "alt": "1959 Fender Bassman front",
+        "loaded": true
+      },
+      {
+        "alt": "1959 Fender Bassman back",
+        "loaded": true
+      },
+      {
+        "alt": "1959 Fender Bassman speaker",
+        "loaded": true
+      },
+      {
+        "alt": "1963 Fender Bassman front",
+        "loaded": true
+      },
+      {
+        "alt": "1963 Fender Bassman back",
+        "loaded": true
+      },
+      {
+        "alt": "1963 Fender Bassman board",
+        "loaded": true
+      },
+      {
+        "alt": "Joe Dampt, owner of Joe's Vintage Guitars",
+        "loaded": true
+      },
+      {
+        "alt": "Joe's Vintage Guitars",
+        "loaded": true
+      }
+    ],
+    "widgets": {
+      "forms": 0,
+      "details": 9,
+      "inputs": 0,
+      "iframes": 0
+    },
+    "section": {
+      "text": "2\n\nBROAD ERAS, THEN MODEL-SPECIFIC DETAILS\n\nBassman Changes Across The Fender Eras\n1948 To 1959: Tweed\nSingle Fifteen To Four Tens\n\nThe Bassman itself arrived in 1952. Fender’s history describes the TV-front 1x15, the 1953 wide-panel cabinet and the first 4x10 in 1954. Later four-input 5F6 and 5F6-A versions add the middle control. Tweed Bassman production continued into 1960, a model-specific overlap.\n\n1959 To 1963: Blonde And Brownface\nThe Separate Head And Cabinet\n\nThe blonde Bassman changes to piggyback construction. The 6G6 uses a GZ34 rectifier; the 6G6-B drawing uses diodes. Joe’s 1961 blonde and oxblood Bassman provides an early example with a 1x12 tone-ring cabinet.\n\nOxblood is the dark maroon grille cloth used on early blonde Bassmans. Fender’s model history places the change to lighter wheat-colored cloth in late 1962. Check the weave, attachment and replacement history alongside the covering, knobs and dated chassis. Cloth color helps identify the appearance; component evidence is needed to establish the amp’s year.\n\n1963 To 1967: Blackface\nAA864 And AB165 Are Different Circuits\n\nThe black-covered head loses the blonde version’s presence control and gains channel switches. AA864 and AB165 share the broad format but differ internally. A surviving earlier chart doesn’t guarantee that the chassis follows that earlier drawing.\n\nJoe’s archived 1960s blackface Bassman head is another example from this period. Its listing records a replacement blue pilot-light jewel and gives no exact year or circuit designation. Keep those limits when comparing it with a claimed AA864 or AB165.\n\n1967 To 1980: Silverface\nMore Names And Higher Output\n\nThe silver-panel family includes Bassman 50, 70, 100 and 135 heads and the four-ten Bassman 10 combo. Later high-power versions use ultralinear output stages. Factory master-volume controls and rear output markings help narrow the version before a technician checks it.",
+      "headings": [
+        "Bassman Changes Across The Fender Eras",
+        "Single Fifteen To Four Tens",
+        "The Separate Head And Cabinet",
+        "AA864 And AB165 Are Different Circuits",
+        "More Names And Higher Output"
+      ],
+      "links": [
+        {
+          "label": "1961 blonde and oxblood Bassman",
+          "href": "https://reverb.com/item/93427883-fender-bassman-1961-blonde-oxblood",
+          "color": "rgb(234, 209, 164)"
+        },
+        {
+          "label": "Fender’s model history",
+          "href": "https://www.fender.com/articles/parts-and-accessories/going-low-the-history-of-the-bassman",
+          "color": "rgb(234, 209, 164)"
+        },
+        {
+          "label": "1960s blackface Bassman head",
+          "href": "https://reverb.com/item/81558022-fender-bassman-1960s-blackface",
+          "color": "rgb(234, 209, 164)"
+        }
+      ],
+      "clipped": [],
+      "walk": [
+        {
+          "tag": "H2",
+          "classes": "",
+          "width": 1065.546875,
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(200, 158, 87)",
+          "border": "0px solid rgb(200, 158, 87)",
+          "boxShadow": "none",
+          "transform": "none",
+          "overflowX": "visible",
+          "before": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          },
+          "after": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          }
+        },
+        {
+          "tag": "DIV",
+          "classes": "",
+          "width": 1065.546875,
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(200, 158, 87)",
+          "border": "0px solid rgb(200, 158, 87)",
+          "boxShadow": "none",
+          "transform": "none",
+          "overflowX": "visible",
+          "before": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          },
+          "after": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          }
+        },
+        {
+          "tag": "HEADER",
+          "classes": "mg-head",
+          "width": 1152,
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(200, 158, 87)",
+          "border": "0px solid rgb(200, 158, 87)",
+          "boxShadow": "none",
+          "transform": "none",
+          "overflowX": "visible",
+          "before": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          },
+          "after": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          }
+        },
+        {
+          "tag": "DIV",
+          "classes": "mg-section mg-wrap",
+          "width": 1152,
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(244, 239, 227)",
+          "border": "0px solid rgb(244, 239, 227)",
+          "boxShadow": "none",
+          "transform": "none",
+          "overflowX": "visible",
+          "before": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          },
+          "after": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "classes": "mg-band mg-dark",
+          "width": 1280,
+          "background": "rgb(23, 22, 20)",
+          "color": "rgb(244, 239, 227)",
+          "border": "0px solid rgb(244, 239, 227)",
+          "boxShadow": "none",
+          "transform": "none",
+          "overflowX": "visible",
+          "before": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          },
+          "after": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          }
+        },
+        {
+          "tag": "ARTICLE",
+          "classes": "mg-guide",
+          "width": 1280,
+          "background": "rgb(243, 234, 216)",
+          "color": "rgb(27, 25, 22)",
+          "border": "0px solid rgb(27, 25, 22)",
+          "boxShadow": "none",
+          "transform": "none",
+          "overflowX": "hidden",
+          "before": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          },
+          "after": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          }
+        },
+        {
+          "tag": "MAIN",
+          "classes": "",
+          "width": 1280,
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(42, 45, 51)",
+          "border": "0px solid rgb(42, 45, 51)",
+          "boxShadow": "none",
+          "transform": "none",
+          "overflowX": "visible",
+          "before": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          },
+          "after": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          }
+        },
+        {
+          "tag": "BODY",
+          "classes": "min-h-screen overflow-x-hidden blog-post-page mg-page",
+          "width": 1280,
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(42, 45, 51)",
+          "border": "0px solid rgb(42, 45, 51)",
+          "boxShadow": "none",
+          "transform": "none",
+          "overflowX": "hidden",
+          "before": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          },
+          "after": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          }
+        },
+        {
+          "tag": "HTML",
+          "classes": "",
+          "width": 1280,
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "border": "0px solid rgb(0, 0, 0)",
+          "boxShadow": "none",
+          "transform": "none",
+          "overflowX": "visible",
+          "before": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          },
+          "after": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          }
+        }
+      ]
+    },
+    "anchor": {
+      "hash": "#timeline",
+      "top": 100.4375,
+      "headingTop": 202.125
+    }
+  },
+  {
+    "slug": "fender-bassman-value-guide",
+    "version": "baseline",
+    "width": 375,
+    "height": 812,
+    "documentWidth": 375,
+    "ctas": [
+      {
+        "label": "Free Appraisal",
+        "href": "/free-appraisal/",
+        "top": 625.484375,
+        "bottom": 673.875,
+        "left": 20,
+        "right": 182.5,
+        "visible": true
+      },
+      {
+        "label": "Sell My Amp",
+        "href": "/sell-an-amplifier-or-effect/",
+        "top": 625.484375,
+        "bottom": 673.875,
+        "left": 192.5,
+        "right": 355,
+        "visible": true
+      }
+    ],
+    "images": [
+      {
+        "alt": "Joe's Vintage Guitars - Preserving History One Guitar at a Time",
+        "loaded": true
+      },
+      {
+        "alt": "Reverb",
+        "loaded": true
+      },
+      {
+        "alt": "Reverb",
+        "loaded": true
+      },
+      {
+        "alt": "1959 Fender Bassman front",
+        "loaded": true
+      },
+      {
+        "alt": "1959 Fender Bassman front",
+        "loaded": true
+      },
+      {
+        "alt": "1963 Fender Bassman front",
+        "loaded": true
+      },
+      {
+        "alt": "Joe Dampt, owner of Joe's Vintage Guitars",
+        "loaded": true
+      },
+      {
+        "alt": "Joe's Vintage Guitars",
+        "loaded": true
+      }
+    ],
+    "widgets": {
+      "forms": 0,
+      "details": 8,
+      "inputs": 0,
+      "iframes": 0
+    },
+    "section": {
+      "text": "3\n\nCHECK EACH PIECE\n\nValuing A Head And Cabinet Together\n\nA blonde Bassman head can survive in excellent condition while its original cabinet is missing. The head-only row accounts for that situation where a separate entry is available. Adding any old Fender cabinet doesn’t automatically justify the complete-set figure. The cabinet’s age, speaker configuration, covering and history need to fit the set being appraised.\n\nPhotograph the piggyback mounting hardware and any unused holes. A missing screw is a smaller issue than a cabinet modified to fit a different head, but both belong in the description. If the pieces have been together for as long as you remember, say that. Family ownership can establish a useful history without proving that Fender shipped that head and cabinet together.\n\nCovers are easy to separate from an amp during a move. Check storage areas before selling and photograph each cover next to the piece it fits. A head cover and a cabinet cover aren’t interchangeable accessories. Torn original material may still help document the set; a modern replacement should be identified as such.\n\nFor a blackface or silverface Bassman, record the exact model name and all controls. A higher output number doesn’t by itself imply a higher collector value. The correct chart entry depends on which version you own, what accompanies it and what has changed. A head fitted into a custom combo cabinet requires an appraisal of that altered configuration.",
+      "headings": [
+        "Valuing A Head And Cabinet Together"
+      ],
+      "links": [],
+      "clipped": [],
+      "walk": [
+        {
+          "tag": "H2",
+          "classes": "",
+          "width": 283,
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(200, 158, 87)",
+          "border": "0px solid rgb(200, 158, 87)",
+          "boxShadow": "none",
+          "transform": "none",
+          "overflowX": "visible",
+          "before": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          },
+          "after": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          }
+        },
+        {
+          "tag": "DIV",
+          "classes": "",
+          "width": 283,
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(200, 158, 87)",
+          "border": "0px solid rgb(200, 158, 87)",
+          "boxShadow": "none",
+          "transform": "none",
+          "overflowX": "visible",
+          "before": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          },
+          "after": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          }
+        },
+        {
+          "tag": "HEADER",
+          "classes": "mg-head",
+          "width": 335,
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(200, 158, 87)",
+          "border": "0px solid rgb(200, 158, 87)",
+          "boxShadow": "none",
+          "transform": "none",
+          "overflowX": "visible",
+          "before": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          },
+          "after": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          }
+        },
+        {
+          "tag": "DIV",
+          "classes": "mg-section mg-wrap",
+          "width": 335,
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(244, 239, 227)",
+          "border": "0px solid rgb(244, 239, 227)",
+          "boxShadow": "none",
+          "transform": "none",
+          "overflowX": "visible",
+          "before": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          },
+          "after": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "classes": "mg-band mg-dark",
+          "width": 375,
+          "background": "rgb(23, 22, 20)",
+          "color": "rgb(244, 239, 227)",
+          "border": "0px solid rgb(244, 239, 227)",
+          "boxShadow": "none",
+          "transform": "none",
+          "overflowX": "visible",
+          "before": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          },
+          "after": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          }
+        },
+        {
+          "tag": "ARTICLE",
+          "classes": "mg-guide",
+          "width": 375,
+          "background": "rgb(243, 234, 216)",
+          "color": "rgb(27, 25, 22)",
+          "border": "0px solid rgb(27, 25, 22)",
+          "boxShadow": "none",
+          "transform": "none",
+          "overflowX": "hidden",
+          "before": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          },
+          "after": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          }
+        },
+        {
+          "tag": "MAIN",
+          "classes": "",
+          "width": 375,
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(42, 45, 51)",
+          "border": "0px solid rgb(42, 45, 51)",
+          "boxShadow": "none",
+          "transform": "none",
+          "overflowX": "visible",
+          "before": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          },
+          "after": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          }
+        },
+        {
+          "tag": "BODY",
+          "classes": "min-h-screen overflow-x-hidden blog-post-page mg-page",
+          "width": 375,
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(42, 45, 51)",
+          "border": "0px solid rgb(42, 45, 51)",
+          "boxShadow": "none",
+          "transform": "none",
+          "overflowX": "hidden",
+          "before": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          },
+          "after": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          }
+        },
+        {
+          "tag": "HTML",
+          "classes": "",
+          "width": 375,
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "border": "0px solid rgb(0, 0, 0)",
+          "boxShadow": "none",
+          "transform": "none",
+          "overflowX": "visible",
+          "before": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          },
+          "after": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          }
+        }
+      ]
+    },
+    "anchor": {
+      "hash": "#piggyback",
+      "top": 99.96875,
+      "headingTop": 175.65625
+    }
+  },
+  {
+    "slug": "fender-bassman-value-guide",
+    "version": "local",
+    "width": 375,
+    "height": 812,
+    "documentWidth": 375,
+    "ctas": [
+      {
+        "label": "Free Appraisal",
+        "href": "/free-appraisal/",
+        "top": 625.484375,
+        "bottom": 673.875,
+        "left": 20,
+        "right": 182.5,
+        "visible": true
+      },
+      {
+        "label": "Sell My Amp",
+        "href": "/sell-an-amplifier-or-effect/",
+        "top": 625.484375,
+        "bottom": 673.875,
+        "left": 192.5,
+        "right": 355,
+        "visible": true
+      }
+    ],
+    "images": [
+      {
+        "alt": "Joe's Vintage Guitars - Preserving History One Guitar at a Time",
+        "loaded": true
+      },
+      {
+        "alt": "Reverb",
+        "loaded": true
+      },
+      {
+        "alt": "Reverb",
+        "loaded": true
+      },
+      {
+        "alt": "1959 Fender Bassman front",
+        "loaded": true
+      },
+      {
+        "alt": "1959 Fender Bassman front",
+        "loaded": true
+      },
+      {
+        "alt": "1963 Fender Bassman front",
+        "loaded": true
+      },
+      {
+        "alt": "Joe Dampt, owner of Joe's Vintage Guitars",
+        "loaded": true
+      },
+      {
+        "alt": "Joe's Vintage Guitars",
+        "loaded": true
+      }
+    ],
+    "widgets": {
+      "forms": 0,
+      "details": 8,
+      "inputs": 0,
+      "iframes": 0
+    },
+    "section": {
+      "text": "3\n\nCHECK EACH PIECE\n\nValuing A Head And Cabinet Together\n\nA blonde Bassman head can survive in excellent condition while its original cabinet is missing. The head-only row accounts for that situation where a separate entry is available. Adding any old Fender cabinet doesn’t automatically justify the complete-set figure. The cabinet’s age, speaker configuration, covering and history need to fit the set being appraised.\n\nJoe’s 1961 blonde Bassman listing describes a set with dark oxblood grille cloth and its original 1x12 tone-ring cabinet. Later blonde examples use lighter wheat-colored cloth. Photograph the grille on both pieces and disclose any replacement fabric; color, weave, condition and the surviving cabinet all belong in the appraisal.\n\nPhotograph the piggyback mounting hardware and any unused holes. A missing screw is a smaller issue than a cabinet modified to fit a different head, but both belong in the description. If the pieces have been together for as long as you remember, say that. Family ownership can establish a useful history without proving that Fender shipped that head and cabinet together.\n\nCovers are easy to separate from an amp during a move. Check storage areas before selling and photograph each cover next to the piece it fits. A head cover and a cabinet cover aren’t interchangeable accessories. Torn original material may still help document the set; a modern replacement should be identified as such.\n\nJoe’s 1960s blackface Bassman listing describes a head and discloses a replacement blue pilot-light jewel. That is a useful example of recording a small cosmetic change alongside the larger questions about transformers, circuit work and the cabinet included in a sale. The listing gives a decade, so an exact production year still needs supporting evidence.\n\nFor a blackface or silverface Bassman, record the exact model name and all controls. A higher output number doesn’t by itself imply a higher collector value. The correct chart entry depends on which version you own, what accompanies it and what has changed. A head fitted into a custom combo cabinet requires an appraisal of that altered configuration.",
+      "headings": [
+        "Valuing A Head And Cabinet Together"
+      ],
+      "links": [
+        {
+          "label": "1961 blonde Bassman listing",
+          "href": "https://reverb.com/item/93427883-fender-bassman-1961-blonde-oxblood",
+          "color": "rgb(234, 209, 164)"
+        },
+        {
+          "label": "1960s blackface Bassman listing",
+          "href": "https://reverb.com/item/81558022-fender-bassman-1960s-blackface",
+          "color": "rgb(234, 209, 164)"
+        }
+      ],
+      "clipped": [],
+      "walk": [
+        {
+          "tag": "H2",
+          "classes": "",
+          "width": 283,
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(200, 158, 87)",
+          "border": "0px solid rgb(200, 158, 87)",
+          "boxShadow": "none",
+          "transform": "none",
+          "overflowX": "visible",
+          "before": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          },
+          "after": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          }
+        },
+        {
+          "tag": "DIV",
+          "classes": "",
+          "width": 283,
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(200, 158, 87)",
+          "border": "0px solid rgb(200, 158, 87)",
+          "boxShadow": "none",
+          "transform": "none",
+          "overflowX": "visible",
+          "before": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          },
+          "after": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          }
+        },
+        {
+          "tag": "HEADER",
+          "classes": "mg-head",
+          "width": 335,
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(200, 158, 87)",
+          "border": "0px solid rgb(200, 158, 87)",
+          "boxShadow": "none",
+          "transform": "none",
+          "overflowX": "visible",
+          "before": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          },
+          "after": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          }
+        },
+        {
+          "tag": "DIV",
+          "classes": "mg-section mg-wrap",
+          "width": 335,
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(244, 239, 227)",
+          "border": "0px solid rgb(244, 239, 227)",
+          "boxShadow": "none",
+          "transform": "none",
+          "overflowX": "visible",
+          "before": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          },
+          "after": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "classes": "mg-band mg-dark",
+          "width": 375,
+          "background": "rgb(23, 22, 20)",
+          "color": "rgb(244, 239, 227)",
+          "border": "0px solid rgb(244, 239, 227)",
+          "boxShadow": "none",
+          "transform": "none",
+          "overflowX": "visible",
+          "before": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          },
+          "after": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          }
+        },
+        {
+          "tag": "ARTICLE",
+          "classes": "mg-guide",
+          "width": 375,
+          "background": "rgb(243, 234, 216)",
+          "color": "rgb(27, 25, 22)",
+          "border": "0px solid rgb(27, 25, 22)",
+          "boxShadow": "none",
+          "transform": "none",
+          "overflowX": "hidden",
+          "before": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          },
+          "after": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          }
+        },
+        {
+          "tag": "MAIN",
+          "classes": "",
+          "width": 375,
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(42, 45, 51)",
+          "border": "0px solid rgb(42, 45, 51)",
+          "boxShadow": "none",
+          "transform": "none",
+          "overflowX": "visible",
+          "before": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          },
+          "after": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          }
+        },
+        {
+          "tag": "BODY",
+          "classes": "min-h-screen overflow-x-hidden blog-post-page mg-page",
+          "width": 375,
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(42, 45, 51)",
+          "border": "0px solid rgb(42, 45, 51)",
+          "boxShadow": "none",
+          "transform": "none",
+          "overflowX": "hidden",
+          "before": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          },
+          "after": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          }
+        },
+        {
+          "tag": "HTML",
+          "classes": "",
+          "width": 375,
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "border": "0px solid rgb(0, 0, 0)",
+          "boxShadow": "none",
+          "transform": "none",
+          "overflowX": "visible",
+          "before": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          },
+          "after": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          }
+        }
+      ]
+    },
+    "anchor": {
+      "hash": "#piggyback",
+      "top": 99.96875,
+      "headingTop": 175.65625
+    }
+  },
+  {
+    "slug": "fender-bassman-authentication-guide",
+    "version": "baseline",
+    "width": 375,
+    "height": 812,
+    "documentWidth": 375,
+    "ctas": [
+      {
+        "label": "Free Appraisal",
+        "href": "/free-appraisal/",
+        "top": 625.484375,
+        "bottom": 673.875,
+        "left": 20,
+        "right": 182.5,
+        "visible": true
+      },
+      {
+        "label": "Sell My Amp",
+        "href": "/sell-an-amplifier-or-effect/",
+        "top": 625.484375,
+        "bottom": 673.875,
+        "left": 192.5,
+        "right": 355,
+        "visible": true
+      }
+    ],
+    "images": [
+      {
+        "alt": "Joe's Vintage Guitars - Preserving History One Guitar at a Time",
+        "loaded": true
+      },
+      {
+        "alt": "Reverb",
+        "loaded": true
+      },
+      {
+        "alt": "Reverb",
+        "loaded": true
+      },
+      {
+        "alt": "1959 Fender Bassman front",
+        "loaded": true
+      },
+      {
+        "alt": "1959 Fender Bassman controls",
+        "loaded": true
+      },
+      {
+        "alt": "1959 Fender Bassman board",
+        "loaded": true
+      },
+      {
+        "alt": "1959 Fender Bassman speaker",
+        "loaded": true
+      },
+      {
+        "alt": "1963 Fender Bassman chart",
+        "loaded": true
+      },
+      {
+        "alt": "1959 Fender Bassman front",
+        "loaded": true
+      },
+      {
+        "alt": "1959 Fender Bassman back",
+        "loaded": true
+      },
+      {
+        "alt": "1959 Fender Bassman speaker",
+        "loaded": true
+      },
+      {
+        "alt": "1963 Fender Bassman front",
+        "loaded": true
+      },
+      {
+        "alt": "1963 Fender Bassman back",
+        "loaded": true
+      },
+      {
+        "alt": "1963 Fender Bassman board",
+        "loaded": true
+      },
+      {
+        "alt": "Joe Dampt, owner of Joe's Vintage Guitars",
+        "loaded": true
+      },
+      {
+        "alt": "Joe's Vintage Guitars",
+        "loaded": true
+      }
+    ],
+    "widgets": {
+      "forms": 0,
+      "details": 9,
+      "inputs": 0,
+      "iframes": 0
+    },
+    "section": {
+      "text": "2\n\nBROAD ERAS, THEN MODEL-SPECIFIC DETAILS\n\nBassman Changes Across The Fender Eras\n1948 To 1959: Tweed\nSingle Fifteen To Four Tens\n\nThe Bassman itself arrived in 1952. Fender’s history describes the TV-front 1x15, the 1953 wide-panel cabinet and the first 4x10 in 1954. Later four-input 5F6 and 5F6-A versions add the middle control. Tweed Bassman production continued into 1960, a model-specific overlap.\n\n1959 To 1963: Blonde And Brownface\nThe Separate Head And Cabinet\n\nThe blonde Bassman changes to piggyback construction. The 6G6 uses a GZ34 rectifier; the 6G6-B drawing uses diodes. Rough and smooth light coverings, grille changes and early white knobs need to be checked with the dated chassis.\n\n1963 To 1967: Blackface\nAA864 And AB165 Are Different Circuits\n\nThe black-covered head loses the blonde version’s presence control and gains channel switches. AA864 and AB165 share the broad format but differ internally. A surviving earlier chart doesn’t guarantee that the chassis follows that earlier drawing.\n\n1967 To 1980: Silverface\nMore Names And Higher Output\n\nThe silver-panel family includes Bassman 50, 70, 100 and 135 heads and the four-ten Bassman 10 combo. Later high-power versions use ultralinear output stages. Factory master-volume controls and rear output markings help narrow the version before a technician checks it.",
+      "headings": [
+        "Bassman Changes Across The Fender Eras",
+        "Single Fifteen To Four Tens",
+        "The Separate Head And Cabinet",
+        "AA864 And AB165 Are Different Circuits",
+        "More Names And Higher Output"
+      ],
+      "links": [],
+      "clipped": [],
+      "walk": [
+        {
+          "tag": "H2",
+          "classes": "",
+          "width": 283,
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(200, 158, 87)",
+          "border": "0px solid rgb(200, 158, 87)",
+          "boxShadow": "none",
+          "transform": "none",
+          "overflowX": "visible",
+          "before": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          },
+          "after": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          }
+        },
+        {
+          "tag": "DIV",
+          "classes": "",
+          "width": 283,
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(200, 158, 87)",
+          "border": "0px solid rgb(200, 158, 87)",
+          "boxShadow": "none",
+          "transform": "none",
+          "overflowX": "visible",
+          "before": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          },
+          "after": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          }
+        },
+        {
+          "tag": "HEADER",
+          "classes": "mg-head",
+          "width": 335,
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(200, 158, 87)",
+          "border": "0px solid rgb(200, 158, 87)",
+          "boxShadow": "none",
+          "transform": "none",
+          "overflowX": "visible",
+          "before": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          },
+          "after": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          }
+        },
+        {
+          "tag": "DIV",
+          "classes": "mg-section mg-wrap",
+          "width": 335,
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(244, 239, 227)",
+          "border": "0px solid rgb(244, 239, 227)",
+          "boxShadow": "none",
+          "transform": "none",
+          "overflowX": "visible",
+          "before": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          },
+          "after": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "classes": "mg-band mg-dark",
+          "width": 375,
+          "background": "rgb(23, 22, 20)",
+          "color": "rgb(244, 239, 227)",
+          "border": "0px solid rgb(244, 239, 227)",
+          "boxShadow": "none",
+          "transform": "none",
+          "overflowX": "visible",
+          "before": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          },
+          "after": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          }
+        },
+        {
+          "tag": "ARTICLE",
+          "classes": "mg-guide",
+          "width": 375,
+          "background": "rgb(243, 234, 216)",
+          "color": "rgb(27, 25, 22)",
+          "border": "0px solid rgb(27, 25, 22)",
+          "boxShadow": "none",
+          "transform": "none",
+          "overflowX": "hidden",
+          "before": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          },
+          "after": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          }
+        },
+        {
+          "tag": "MAIN",
+          "classes": "",
+          "width": 375,
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(42, 45, 51)",
+          "border": "0px solid rgb(42, 45, 51)",
+          "boxShadow": "none",
+          "transform": "none",
+          "overflowX": "visible",
+          "before": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          },
+          "after": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          }
+        },
+        {
+          "tag": "BODY",
+          "classes": "min-h-screen overflow-x-hidden blog-post-page mg-page",
+          "width": 375,
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(42, 45, 51)",
+          "border": "0px solid rgb(42, 45, 51)",
+          "boxShadow": "none",
+          "transform": "none",
+          "overflowX": "hidden",
+          "before": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          },
+          "after": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          }
+        },
+        {
+          "tag": "HTML",
+          "classes": "",
+          "width": 375,
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "border": "0px solid rgb(0, 0, 0)",
+          "boxShadow": "none",
+          "transform": "none",
+          "overflowX": "visible",
+          "before": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          },
+          "after": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          }
+        }
+      ]
+    },
+    "anchor": {
+      "hash": "#timeline",
+      "top": 100.125,
+      "headingTop": 194.5
+    }
+  },
+  {
+    "slug": "fender-bassman-authentication-guide",
+    "version": "local",
+    "width": 375,
+    "height": 812,
+    "documentWidth": 375,
+    "ctas": [
+      {
+        "label": "Free Appraisal",
+        "href": "/free-appraisal/",
+        "top": 625.484375,
+        "bottom": 673.875,
+        "left": 20,
+        "right": 182.5,
+        "visible": true
+      },
+      {
+        "label": "Sell My Amp",
+        "href": "/sell-an-amplifier-or-effect/",
+        "top": 625.484375,
+        "bottom": 673.875,
+        "left": 192.5,
+        "right": 355,
+        "visible": true
+      }
+    ],
+    "images": [
+      {
+        "alt": "Joe's Vintage Guitars - Preserving History One Guitar at a Time",
+        "loaded": true
+      },
+      {
+        "alt": "Reverb",
+        "loaded": true
+      },
+      {
+        "alt": "Reverb",
+        "loaded": true
+      },
+      {
+        "alt": "1959 Fender Bassman front",
+        "loaded": true
+      },
+      {
+        "alt": "1959 Fender Bassman controls",
+        "loaded": true
+      },
+      {
+        "alt": "1959 Fender Bassman board",
+        "loaded": true
+      },
+      {
+        "alt": "1959 Fender Bassman speaker",
+        "loaded": true
+      },
+      {
+        "alt": "1963 Fender Bassman chart",
+        "loaded": true
+      },
+      {
+        "alt": "1959 Fender Bassman front",
+        "loaded": true
+      },
+      {
+        "alt": "1959 Fender Bassman back",
+        "loaded": true
+      },
+      {
+        "alt": "1959 Fender Bassman speaker",
+        "loaded": true
+      },
+      {
+        "alt": "1963 Fender Bassman front",
+        "loaded": true
+      },
+      {
+        "alt": "1963 Fender Bassman back",
+        "loaded": true
+      },
+      {
+        "alt": "1963 Fender Bassman board",
+        "loaded": true
+      },
+      {
+        "alt": "Joe Dampt, owner of Joe's Vintage Guitars",
+        "loaded": true
+      },
+      {
+        "alt": "Joe's Vintage Guitars",
+        "loaded": true
+      }
+    ],
+    "widgets": {
+      "forms": 0,
+      "details": 9,
+      "inputs": 0,
+      "iframes": 0
+    },
+    "section": {
+      "text": "2\n\nBROAD ERAS, THEN MODEL-SPECIFIC DETAILS\n\nBassman Changes Across The Fender Eras\n1948 To 1959: Tweed\nSingle Fifteen To Four Tens\n\nThe Bassman itself arrived in 1952. Fender’s history describes the TV-front 1x15, the 1953 wide-panel cabinet and the first 4x10 in 1954. Later four-input 5F6 and 5F6-A versions add the middle control. Tweed Bassman production continued into 1960, a model-specific overlap.\n\n1959 To 1963: Blonde And Brownface\nThe Separate Head And Cabinet\n\nThe blonde Bassman changes to piggyback construction. The 6G6 uses a GZ34 rectifier; the 6G6-B drawing uses diodes. Joe’s 1961 blonde and oxblood Bassman provides an early example with a 1x12 tone-ring cabinet.\n\nOxblood is the dark maroon grille cloth used on early blonde Bassmans. Fender’s model history places the change to lighter wheat-colored cloth in late 1962. Check the weave, attachment and replacement history alongside the covering, knobs and dated chassis. Cloth color helps identify the appearance; component evidence is needed to establish the amp’s year.\n\n1963 To 1967: Blackface\nAA864 And AB165 Are Different Circuits\n\nThe black-covered head loses the blonde version’s presence control and gains channel switches. AA864 and AB165 share the broad format but differ internally. A surviving earlier chart doesn’t guarantee that the chassis follows that earlier drawing.\n\nJoe’s archived 1960s blackface Bassman head is another example from this period. Its listing records a replacement blue pilot-light jewel and gives no exact year or circuit designation. Keep those limits when comparing it with a claimed AA864 or AB165.\n\n1967 To 1980: Silverface\nMore Names And Higher Output\n\nThe silver-panel family includes Bassman 50, 70, 100 and 135 heads and the four-ten Bassman 10 combo. Later high-power versions use ultralinear output stages. Factory master-volume controls and rear output markings help narrow the version before a technician checks it.",
+      "headings": [
+        "Bassman Changes Across The Fender Eras",
+        "Single Fifteen To Four Tens",
+        "The Separate Head And Cabinet",
+        "AA864 And AB165 Are Different Circuits",
+        "More Names And Higher Output"
+      ],
+      "links": [
+        {
+          "label": "1961 blonde and oxblood Bassman",
+          "href": "https://reverb.com/item/93427883-fender-bassman-1961-blonde-oxblood",
+          "color": "rgb(234, 209, 164)"
+        },
+        {
+          "label": "Fender’s model history",
+          "href": "https://www.fender.com/articles/parts-and-accessories/going-low-the-history-of-the-bassman",
+          "color": "rgb(234, 209, 164)"
+        },
+        {
+          "label": "1960s blackface Bassman head",
+          "href": "https://reverb.com/item/81558022-fender-bassman-1960s-blackface",
+          "color": "rgb(234, 209, 164)"
+        }
+      ],
+      "clipped": [],
+      "walk": [
+        {
+          "tag": "H2",
+          "classes": "",
+          "width": 283,
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(200, 158, 87)",
+          "border": "0px solid rgb(200, 158, 87)",
+          "boxShadow": "none",
+          "transform": "none",
+          "overflowX": "visible",
+          "before": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          },
+          "after": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          }
+        },
+        {
+          "tag": "DIV",
+          "classes": "",
+          "width": 283,
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(200, 158, 87)",
+          "border": "0px solid rgb(200, 158, 87)",
+          "boxShadow": "none",
+          "transform": "none",
+          "overflowX": "visible",
+          "before": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          },
+          "after": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          }
+        },
+        {
+          "tag": "HEADER",
+          "classes": "mg-head",
+          "width": 335,
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(200, 158, 87)",
+          "border": "0px solid rgb(200, 158, 87)",
+          "boxShadow": "none",
+          "transform": "none",
+          "overflowX": "visible",
+          "before": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          },
+          "after": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          }
+        },
+        {
+          "tag": "DIV",
+          "classes": "mg-section mg-wrap",
+          "width": 335,
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(244, 239, 227)",
+          "border": "0px solid rgb(244, 239, 227)",
+          "boxShadow": "none",
+          "transform": "none",
+          "overflowX": "visible",
+          "before": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          },
+          "after": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "classes": "mg-band mg-dark",
+          "width": 375,
+          "background": "rgb(23, 22, 20)",
+          "color": "rgb(244, 239, 227)",
+          "border": "0px solid rgb(244, 239, 227)",
+          "boxShadow": "none",
+          "transform": "none",
+          "overflowX": "visible",
+          "before": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          },
+          "after": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          }
+        },
+        {
+          "tag": "ARTICLE",
+          "classes": "mg-guide",
+          "width": 375,
+          "background": "rgb(243, 234, 216)",
+          "color": "rgb(27, 25, 22)",
+          "border": "0px solid rgb(27, 25, 22)",
+          "boxShadow": "none",
+          "transform": "none",
+          "overflowX": "hidden",
+          "before": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          },
+          "after": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          }
+        },
+        {
+          "tag": "MAIN",
+          "classes": "",
+          "width": 375,
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(42, 45, 51)",
+          "border": "0px solid rgb(42, 45, 51)",
+          "boxShadow": "none",
+          "transform": "none",
+          "overflowX": "visible",
+          "before": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          },
+          "after": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          }
+        },
+        {
+          "tag": "BODY",
+          "classes": "min-h-screen overflow-x-hidden blog-post-page mg-page",
+          "width": 375,
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(42, 45, 51)",
+          "border": "0px solid rgb(42, 45, 51)",
+          "boxShadow": "none",
+          "transform": "none",
+          "overflowX": "hidden",
+          "before": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          },
+          "after": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          }
+        },
+        {
+          "tag": "HTML",
+          "classes": "",
+          "width": 375,
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "border": "0px solid rgb(0, 0, 0)",
+          "boxShadow": "none",
+          "transform": "none",
+          "overflowX": "visible",
+          "before": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          },
+          "after": {
+            "content": "none",
+            "background": "rgba(0, 0, 0, 0)",
+            "inset": "auto",
+            "clipPath": "none",
+            "transform": "none"
+          }
+        }
+      ]
+    },
+    "anchor": {
+      "hash": "#timeline",
+      "top": 100.125,
+      "headingTop": 194.5
+    }
+  }
+]

@@ -2,7 +2,7 @@
 title: "How To Identify A Vintage Fender Bassman"
 seoTitle: "Fender Bassman Identification: 5F6-A, Blonde And Dating"
 pubDate: "2026-11-02"
-modified: "2026-11-02"
+modified: "2026-11-03"
 excerpt: "Identify an original Fender Bassman by its cabinet, circuit, tubes and dated parts. Compare Joe’s tweed and blonde photos, then check for reissues."
 category: "specific-model-highlights"
 categoryName: "Specific Model Highlights"

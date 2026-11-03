@@ -68,7 +68,8 @@
         "fender-bassman-authentication-guide#specs",
         "fender-bassman-authentication-guide#references"
       ],
-      "note": "Supports the linked claim in this section."
+      "note": "Supports the linked claim in this section. Fender explicitly places wheat grille cloth replacing maroon in late 1962. This supports the requested oxblood/wheat explanation; it is not an individual-amp dating rule.",
+      "reverifiedAt": "2026-11-03"
     },
     {
       "sourceId": "AMP2-S007",
@@ -652,6 +653,30 @@
         "fender-champ-authentication-guide#specs"
       ],
       "note": "Early 5B1 set: 6SJ7, 6V6 and 5Y3; four watts and six-inch speaker. Fender history separately confirms Champion 800/600 share the early circuit family."
+    },
+    {
+      "sourceId": "AMP2-S059",
+      "title": "Joe’s 1960s Blackface Bassman Listing",
+      "href": "https://reverb.com/item/81558022-fender-bassman-1960s-blackface",
+      "verifiedAt": "2026-11-03",
+      "sourceType": "Joe’s original Reverb listing supplied by Joe",
+      "usedIn": [
+        "fender-bassman-value-guide#piggyback",
+        "fender-bassman-authentication-guide#timeline"
+      ],
+      "note": "Listing description identifies a head and discloses a replacement blue pilot-light jewel. Year is only 1960s; no exact circuit or year assigned. Marketplace model metadata is not used to claim that a cabinet accompanied the head. No price imported."
+    },
+    {
+      "sourceId": "AMP2-S060",
+      "title": "Joe’s 1961 Blonde And Oxblood Bassman Listing",
+      "href": "https://reverb.com/item/93427883-fender-bassman-1961-blonde-oxblood",
+      "verifiedAt": "2026-11-03",
+      "sourceType": "Joe’s original Reverb listing supplied by Joe",
+      "usedIn": [
+        "fender-bassman-value-guide#piggyback",
+        "fender-bassman-authentication-guide#timeline"
+      ],
+      "note": "Visible Chrome page verified seller joesvintageguitars, title 1961 Blonde/Oxblood, and description identifying the original 1x12 tone-ring cabinet and a few replaced capacitors. Article attributes originality to the listing. Direct automated requests were blocked; browser read succeeded. No price imported."
     }
   ],
   "reissueTells": [

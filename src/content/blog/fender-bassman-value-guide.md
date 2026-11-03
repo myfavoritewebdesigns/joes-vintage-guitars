@@ -2,7 +2,7 @@
 title: "Vintage Fender Bassman Values By Model"
 seoTitle: "Vintage Fender Bassman Value Guide: Tweed To Silverface"
 pubDate: "2026-11-02"
-modified: "2026-11-02"
+modified: "2026-11-03"
 excerpt: "Find vintage Fender Bassman values for tweed combos and blonde, blackface and silverface heads, with cabinet, speaker and service notes from Joe."
 category: "value-evaluation"
 categoryName: "Value & Evaluation"

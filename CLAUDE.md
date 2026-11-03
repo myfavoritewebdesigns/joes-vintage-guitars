@@ -1014,3 +1014,8 @@ Reports retain source and photo-code ledgers, pricing checks, editorial and visu
 
 
 PR 2 integration update: a concurrent approved Epiphone publication advanced main to 2003b7439b63cae0dc11afe53faba34721d8ae71. Merge it in full before preview handoff. The combined build has 427 pages; comparison with a separately built current-main checkout checks 149 protected documents, with 147 byte-identical and only the two authorized PR 1 articles changed. All eight PR 2 amp pages remain byte-identical to their independently reviewed HTML. Both publication logs and every Epiphone source change are preserved.
+
+
+### 2026-11-03: Bassman Listing Examples And Grille Cloth
+
+Joe supplied Reverb listings 81558022 (1960s blackface head) and 93427883 (1961 blonde/oxblood set) and requested both examples plus an explanation of oxblood and wheat cloth. Add linked examples to the Bassman value guide’s piggyback discussion and identification timeline. Preserve the blackface listing’s decade-only date and disclose its replacement blue pilot-light jewel. Attribute the 1961 original 1x12 tone-ring cabinet to Joe’s listing. Fender’s model history supports the late 1962 maroon-to-wheat change; grille color remains a cosmetic clue to corroborate with dated components. No listing prices, new photographs, value rows or shared styling are introduced. These are intentional text additions to draft PR 308; publication remains pending Joe’s approval.
