@@ -1,0 +1,24 @@
+[
+  {
+    "kind": "value",
+    "tablesBefore": 1,
+    "tablesAfter": 1,
+    "tablesUnchanged": true,
+    "titleUnchanged": true,
+    "descriptionUnchanged": true,
+    "newPhotos": 3,
+    "allNewPhotoAltsSayRefinished": true,
+    "ogImage": "https://www.joesvintageguitarsaz.com/_astro/deluxe-1933-refinished-body.Cobfu7H9.jpg"
+  },
+  {
+    "kind": "authentication",
+    "tablesBefore": 1,
+    "tablesAfter": 1,
+    "tablesUnchanged": true,
+    "titleUnchanged": true,
+    "descriptionUnchanged": true,
+    "newPhotos": 9,
+    "allNewPhotoAltsSayRefinished": true,
+    "ogImage": "https://www.joesvintageguitarsaz.com/_astro/deluxe-1933-refinished-body.Cobfu7H9.jpg"
+  }
+]

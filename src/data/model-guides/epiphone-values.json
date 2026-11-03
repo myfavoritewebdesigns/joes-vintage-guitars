@@ -1,0 +1,906 @@
+[
+  {
+    "family": "epiphone-broadway",
+    "model": "Broadway Acoustic",
+    "years": "1931 to 1938",
+    "configuration": "Sunburst, walnut body",
+    "low": 2700,
+    "high": 4100
+  },
+  {
+    "family": "epiphone-broadway",
+    "model": "Broadway Acoustic",
+    "years": "1939 to 1942",
+    "configuration": "Sunburst, maple body",
+    "low": 2750,
+    "high": 4150
+  },
+  {
+    "family": "epiphone-broadway",
+    "model": "Broadway Acoustic",
+    "years": "1946 to 1958",
+    "configuration": "Natural",
+    "low": 2400,
+    "high": 3600
+  },
+  {
+    "family": "epiphone-broadway",
+    "model": "Broadway Acoustic",
+    "years": "1946 to 1958",
+    "configuration": "Sunburst",
+    "low": 2100,
+    "high": 3150
+  },
+  {
+    "family": "epiphone-broadway",
+    "model": "Broadway Regent",
+    "years": "1950 to 1958",
+    "configuration": "Acoustic cutaway, sunburst",
+    "low": 2100,
+    "high": 3150
+  },
+  {
+    "family": "epiphone-broadway",
+    "model": "Broadway Electric",
+    "years": "1958 to 1959",
+    "configuration": "Natural, New York single-coil pickups",
+    "low": 2600,
+    "high": 3850
+  },
+  {
+    "family": "epiphone-broadway",
+    "model": "Broadway Electric",
+    "years": "1958 to 1959",
+    "configuration": "Sunburst, New York single-coil pickups",
+    "low": 2200,
+    "high": 3350
+  },
+  {
+    "family": "epiphone-broadway",
+    "model": "Broadway Electric",
+    "years": "1960 to 1964",
+    "configuration": "Natural",
+    "low": 2500,
+    "high": 3750
+  },
+  {
+    "family": "epiphone-broadway",
+    "model": "Broadway Electric",
+    "years": "1960 to 1964",
+    "configuration": "Sunburst",
+    "low": 2200,
+    "high": 3350
+  },
+  {
+    "family": "epiphone-broadway",
+    "model": "Broadway Electric",
+    "years": "1965",
+    "configuration": "Natural",
+    "low": 2200,
+    "high": 3350
+  },
+  {
+    "family": "epiphone-broadway",
+    "model": "Broadway Electric",
+    "years": "1965",
+    "configuration": "Sunburst",
+    "low": 1950,
+    "high": 3100
+  },
+  {
+    "family": "epiphone-broadway",
+    "model": "Broadway Electric",
+    "years": "1966 to 1967",
+    "configuration": "Natural or cherry",
+    "low": 1950,
+    "high": 3100
+  },
+  {
+    "family": "epiphone-broadway",
+    "model": "Broadway Electric",
+    "years": "1966 to 1967",
+    "configuration": "Sunburst",
+    "low": 1950,
+    "high": 3100
+  },
+  {
+    "family": "epiphone-broadway",
+    "model": "Broadway Electric",
+    "years": "1968 to 1969",
+    "configuration": "Natural or cherry",
+    "low": 1950,
+    "high": 3100
+  },
+  {
+    "family": "epiphone-broadway",
+    "model": "Broadway Electric",
+    "years": "1968 to 1969",
+    "configuration": "Sunburst",
+    "low": 1850,
+    "high": 3000
+  },
+  {
+    "family": "epiphone-casino",
+    "model": "Casino",
+    "years": "1961 to 1964",
+    "configuration": "One P-90 pickup",
+    "low": 4250,
+    "high": 6400
+  },
+  {
+    "family": "epiphone-casino",
+    "model": "Casino",
+    "years": "1965",
+    "configuration": "One P-90 pickup",
+    "low": 3500,
+    "high": 5300
+  },
+  {
+    "family": "epiphone-casino",
+    "model": "Casino",
+    "years": "1966 to 1969",
+    "configuration": "One P-90 pickup",
+    "low": 3150,
+    "high": 4750
+  },
+  {
+    "family": "epiphone-casino",
+    "model": "Casino",
+    "years": "1961 to 1962",
+    "configuration": "Two P-90 pickups",
+    "low": 6150,
+    "high": 8800
+  },
+  {
+    "family": "epiphone-casino",
+    "model": "Casino",
+    "years": "1963 to 1964",
+    "configuration": "Two P-90 pickups",
+    "low": 5100,
+    "high": 7650
+  },
+  {
+    "family": "epiphone-casino",
+    "model": "Casino",
+    "years": "1965",
+    "configuration": "Two P-90 pickups",
+    "low": 4900,
+    "high": 7550
+  },
+  {
+    "family": "epiphone-casino",
+    "model": "Casino",
+    "years": "1966 to 1970",
+    "configuration": "Two P-90 pickups",
+    "low": 4300,
+    "high": 6450
+  },
+  {
+    "family": "epiphone-deluxe",
+    "model": "De Luxe",
+    "years": "1931 to 1935",
+    "configuration": "Sunburst; 1935 crossover needs appraisal",
+    "low": 8700,
+    "high": 13050
+  },
+  {
+    "family": "epiphone-deluxe",
+    "model": "De Luxe",
+    "years": "1935 to 1944",
+    "configuration": "Sunburst; 1935 crossover needs appraisal",
+    "low": 7100,
+    "high": 10700
+  },
+  {
+    "family": "epiphone-deluxe",
+    "model": "De Luxe",
+    "years": "1939 to 1944",
+    "configuration": "Natural",
+    "low": 7100,
+    "high": 10700
+  },
+  {
+    "family": "epiphone-deluxe",
+    "model": "De Luxe",
+    "years": "1945 to 1949",
+    "configuration": "Natural",
+    "low": 6250,
+    "high": 9350
+  },
+  {
+    "family": "epiphone-deluxe",
+    "model": "De Luxe",
+    "years": "1945 to 1949",
+    "configuration": "Sunburst",
+    "low": 5700,
+    "high": 8800
+  },
+  {
+    "family": "epiphone-deluxe",
+    "model": "De Luxe",
+    "years": "1950 to 1957",
+    "configuration": "Natural",
+    "low": 5550,
+    "high": 8500
+  },
+  {
+    "family": "epiphone-deluxe",
+    "model": "De Luxe",
+    "years": "1950 to 1957",
+    "configuration": "Sunburst",
+    "low": 5200,
+    "high": 8700
+  },
+  {
+    "family": "epiphone-deluxe",
+    "model": "De Luxe Regent",
+    "years": "1948 to 1952",
+    "configuration": "Acoustic cutaway, natural",
+    "low": 9050,
+    "high": 13750
+  },
+  {
+    "family": "epiphone-deluxe",
+    "model": "De Luxe Regent",
+    "years": "1948 to 1952",
+    "configuration": "Acoustic cutaway, sunburst",
+    "low": 7500,
+    "high": 11000
+  },
+  {
+    "family": "epiphone-deluxe",
+    "model": "De Luxe Cutaway",
+    "years": "1953 to 1957",
+    "configuration": "Natural",
+    "low": 8500,
+    "high": 12750
+  },
+  {
+    "family": "epiphone-deluxe",
+    "model": "De Luxe Cutaway",
+    "years": "1953 to 1957",
+    "configuration": "Sunburst",
+    "low": 7250,
+    "high": 10650
+  },
+  {
+    "family": "epiphone-deluxe",
+    "model": "De Luxe Cutaway",
+    "years": "1958 to 1959",
+    "configuration": "Gibson Kalamazoo acoustic",
+    "low": 8250,
+    "high": 12600
+  },
+  {
+    "family": "epiphone-deluxe",
+    "model": "De Luxe Cutaway",
+    "years": "1960 to 1964",
+    "configuration": "Gibson Kalamazoo acoustic",
+    "low": 6550,
+    "high": 10000
+  },
+  {
+    "family": "epiphone-deluxe",
+    "model": "De Luxe Cutaway",
+    "years": "1965 to 1970",
+    "configuration": "Special order only",
+    "low": 5600,
+    "high": 8600
+  },
+  {
+    "family": "epiphone-emperor",
+    "model": "Emperor Acoustic",
+    "years": "1935 to 1939",
+    "configuration": "Natural; documented finish option by 1938",
+    "low": 8500,
+    "high": 12750
+  },
+  {
+    "family": "epiphone-emperor",
+    "model": "Emperor Acoustic",
+    "years": "1935 to 1939",
+    "configuration": "Sunburst",
+    "low": 5750,
+    "high": 8600
+  },
+  {
+    "family": "epiphone-emperor",
+    "model": "Emperor Acoustic",
+    "years": "1940 to 1949",
+    "configuration": "Natural or sunburst",
+    "low": 6550,
+    "high": 10200
+  },
+  {
+    "family": "epiphone-emperor",
+    "model": "Emperor Acoustic",
+    "years": "1950 to 1954",
+    "configuration": "Natural",
+    "low": 5850,
+    "high": 8700
+  },
+  {
+    "family": "epiphone-emperor",
+    "model": "Emperor Acoustic",
+    "years": "1950 to 1954",
+    "configuration": "Sunburst",
+    "low": 5400,
+    "high": 8150
+  },
+  {
+    "family": "epiphone-emperor",
+    "model": "Emperor Regent",
+    "years": "1948 to 1953",
+    "configuration": "Acoustic rounded cutaway, natural",
+    "low": 6250,
+    "high": 8900
+  },
+  {
+    "family": "epiphone-emperor",
+    "model": "Emperor Regent",
+    "years": "1948 to 1953",
+    "configuration": "Acoustic rounded cutaway, sunburst",
+    "low": 5400,
+    "high": 8150
+  },
+  {
+    "family": "epiphone-emperor",
+    "model": "Emperor Cutaway",
+    "years": "1953 to 1957",
+    "configuration": "Acoustic, natural",
+    "low": 6600,
+    "high": 9450
+  },
+  {
+    "family": "epiphone-emperor",
+    "model": "Emperor Cutaway",
+    "years": "1953 to 1957",
+    "configuration": "Acoustic, sunburst",
+    "low": 5900,
+    "high": 8800
+  },
+  {
+    "family": "epiphone-emperor",
+    "model": "Emperor Thinline Electric",
+    "years": "1958 to 1959",
+    "configuration": "Natural, three New York pickups",
+    "low": 7650,
+    "high": 11900
+  },
+  {
+    "family": "epiphone-emperor",
+    "model": "Emperor Thinline Electric",
+    "years": "1958 to 1959",
+    "configuration": "Sunburst, three New York pickups",
+    "low": 6150,
+    "high": 10550
+  },
+  {
+    "family": "epiphone-emperor",
+    "model": "Emperor Thinline Electric",
+    "years": "1960 to 1962",
+    "configuration": "Natural",
+    "low": 7300,
+    "high": 11450
+  },
+  {
+    "family": "epiphone-emperor",
+    "model": "Emperor Thinline Electric",
+    "years": "1960 to 1962",
+    "configuration": "Sunburst",
+    "low": 5700,
+    "high": 9350
+  },
+  {
+    "family": "epiphone-emperor",
+    "model": "Emperor Thinline Electric",
+    "years": "1963 to 1969",
+    "configuration": "Special order",
+    "low": 5650,
+    "high": 8700
+  },
+  {
+    "family": "epiphone-olympic",
+    "model": "Olympic Acoustic",
+    "years": "1931 to 1936",
+    "configuration": "Acoustic; 1936 body-size crossover needs appraisal",
+    "low": 2200,
+    "high": 3050
+  },
+  {
+    "family": "epiphone-olympic",
+    "model": "Olympic Acoustic",
+    "years": "1937 to 1939",
+    "configuration": "Acoustic; later pricing group",
+    "low": 1700,
+    "high": 2600
+  },
+  {
+    "family": "epiphone-olympic",
+    "model": "Olympic Acoustic",
+    "years": "1940 to 1949",
+    "configuration": "Archtop; documented production ends in 1944",
+    "low": 1700,
+    "high": 2550
+  },
+  {
+    "family": "epiphone-olympic",
+    "model": "Olympic Tenor",
+    "years": "1937 to 1949",
+    "configuration": "Four-string archtop; pricing group extends beyond production",
+    "low": 1300,
+    "high": 2200
+  },
+  {
+    "family": "epiphone-olympic",
+    "model": "Olympic Single",
+    "years": "1960 to 1962",
+    "configuration": "Single-cutaway solidbody",
+    "low": 1350,
+    "high": 2250
+  },
+  {
+    "family": "epiphone-olympic",
+    "model": "Olympic Single",
+    "years": "1963 to 1964",
+    "configuration": "Double-cutaway solidbody",
+    "low": 1050,
+    "high": 1550
+  },
+  {
+    "family": "epiphone-olympic",
+    "model": "Olympic Single",
+    "years": "1965 to 1970",
+    "configuration": "Solidbody",
+    "low": 850,
+    "high": 1300
+  },
+  {
+    "family": "epiphone-olympic",
+    "model": "Olympic Double",
+    "years": "1960 to 1963",
+    "configuration": "Single-cutaway solidbody",
+    "low": 2250,
+    "high": 3100
+  },
+  {
+    "family": "epiphone-olympic",
+    "model": "Olympic Double",
+    "years": "1963 to 1964",
+    "configuration": "Double-cutaway solidbody",
+    "low": 1750,
+    "high": 2600
+  },
+  {
+    "family": "epiphone-olympic",
+    "model": "Olympic Double",
+    "years": "1965 to 1969",
+    "configuration": "Cherry or sunburst",
+    "low": 1550,
+    "high": 2400
+  },
+  {
+    "family": "epiphone-olympic",
+    "model": "Olympic 3/4 Scale",
+    "years": "1960 to 1963",
+    "configuration": "Short scale, sunburst",
+    "low": 1300,
+    "high": 2150
+  },
+  {
+    "family": "epiphone-olympic",
+    "model": "Olympic Special",
+    "years": "1962 to 1964",
+    "configuration": "Symmetrical double cutaway",
+    "low": 900,
+    "high": 1300
+  },
+  {
+    "family": "epiphone-olympic",
+    "model": "Olympic Special",
+    "years": "1965 to 1970",
+    "configuration": "Asymmetrical double cutaway",
+    "low": 800,
+    "high": 1050
+  },
+  {
+    "family": "epiphone-sorrento",
+    "model": "Sorrento",
+    "years": "1960 to 1964",
+    "configuration": "One mini-humbucker",
+    "low": 2250,
+    "high": 3100
+  },
+  {
+    "family": "epiphone-sorrento",
+    "model": "Sorrento",
+    "years": "1965",
+    "configuration": "One mini-humbucker",
+    "low": 1850,
+    "high": 2700
+  },
+  {
+    "family": "epiphone-sorrento",
+    "model": "Sorrento",
+    "years": "1966 to 1970",
+    "configuration": "One mini-humbucker",
+    "low": 1800,
+    "high": 2650
+  },
+  {
+    "family": "epiphone-sorrento",
+    "model": "Sorrento",
+    "years": "1960 to 1964",
+    "configuration": "Two mini-humbuckers",
+    "low": 2650,
+    "high": 3950
+  },
+  {
+    "family": "epiphone-sorrento",
+    "model": "Sorrento",
+    "years": "1965",
+    "configuration": "Two mini-humbuckers",
+    "low": 2400,
+    "high": 3600
+  },
+  {
+    "family": "epiphone-sorrento",
+    "model": "Sorrento",
+    "years": "1966 to 1970",
+    "configuration": "Two mini-humbuckers",
+    "low": 2200,
+    "high": 3350
+  },
+  {
+    "family": "epiphone-triumph",
+    "model": "Triumph",
+    "years": "1931 to 1932",
+    "configuration": "Sunburst, laminated walnut body",
+    "low": 2600,
+    "high": 3900
+  },
+  {
+    "family": "epiphone-triumph",
+    "model": "Triumph",
+    "years": "1933",
+    "configuration": "Sunburst, laminated maple body",
+    "low": 2550,
+    "high": 3850
+  },
+  {
+    "family": "epiphone-triumph",
+    "model": "Triumph",
+    "years": "1934 to 1935",
+    "configuration": "Sunburst, solid maple body",
+    "low": 2850,
+    "high": 4350
+  },
+  {
+    "family": "epiphone-triumph",
+    "model": "Triumph",
+    "years": "1936 to 1940",
+    "configuration": "Sunburst, 17 3/8-inch body",
+    "low": 2950,
+    "high": 4450
+  },
+  {
+    "family": "epiphone-triumph",
+    "model": "Triumph",
+    "years": "1941 to 1957",
+    "configuration": "Natural",
+    "low": 2850,
+    "high": 4350
+  },
+  {
+    "family": "epiphone-triumph",
+    "model": "Triumph",
+    "years": "1941 to 1957",
+    "configuration": "Sunburst",
+    "low": 2950,
+    "high": 4450
+  },
+  {
+    "family": "epiphone-triumph",
+    "model": "Triumph Regent",
+    "years": "1948 to 1952",
+    "configuration": "Natural, acoustic cutaway",
+    "low": 3450,
+    "high": 5150
+  },
+  {
+    "family": "epiphone-triumph",
+    "model": "Triumph Regent",
+    "years": "1948 to 1952",
+    "configuration": "Sunburst, acoustic cutaway",
+    "low": 3500,
+    "high": 5300
+  },
+  {
+    "family": "epiphone-triumph",
+    "model": "Triumph Cutaway",
+    "years": "1953 to 1957",
+    "configuration": "Natural",
+    "low": 3250,
+    "high": 4700
+  },
+  {
+    "family": "epiphone-triumph",
+    "model": "Triumph Cutaway",
+    "years": "1953 to 1957",
+    "configuration": "Sunburst",
+    "low": 3100,
+    "high": 4600
+  },
+  {
+    "family": "epiphone-triumph",
+    "model": "Triumph Cutaway",
+    "years": "1958 to 1964",
+    "configuration": "Kalamazoo, sunburst",
+    "low": 3450,
+    "high": 5150
+  },
+  {
+    "family": "epiphone-triumph",
+    "model": "Triumph Cutaway",
+    "years": "1965",
+    "configuration": "Kalamazoo, sunburst",
+    "low": 3300,
+    "high": 5050
+  },
+  {
+    "family": "epiphone-triumph",
+    "model": "Triumph Cutaway",
+    "years": "1966 to 1969",
+    "configuration": "Kalamazoo, sunburst",
+    "low": 3100,
+    "high": 4900
+  },
+  {
+    "family": "epiphone-windsor",
+    "model": "Windsor",
+    "years": "1959 to 1960",
+    "configuration": "Natural, one New York pickup",
+    "low": 2600,
+    "high": 3850
+  },
+  {
+    "family": "epiphone-windsor",
+    "model": "Windsor",
+    "years": "1959 to 1960",
+    "configuration": "Sunburst, one New York pickup",
+    "low": 2400,
+    "high": 3600
+  },
+  {
+    "family": "epiphone-windsor",
+    "model": "Windsor",
+    "years": "1961 to 1962",
+    "configuration": "Natural, one mini-humbucker",
+    "low": 1900,
+    "high": 2850
+  },
+  {
+    "family": "epiphone-windsor",
+    "model": "Windsor",
+    "years": "1961 to 1962",
+    "configuration": "Sunburst, one mini-humbucker",
+    "low": 1700,
+    "high": 2550
+  },
+  {
+    "family": "epiphone-windsor",
+    "model": "Windsor",
+    "years": "1959 to 1960",
+    "configuration": "Natural, two New York pickups",
+    "low": 2900,
+    "high": 4400
+  },
+  {
+    "family": "epiphone-windsor",
+    "model": "Windsor",
+    "years": "1959 to 1960",
+    "configuration": "Sunburst, two New York pickups",
+    "low": 2600,
+    "high": 3850
+  },
+  {
+    "family": "epiphone-windsor",
+    "model": "Windsor",
+    "years": "1961 to 1962",
+    "configuration": "Natural, two mini-humbuckers",
+    "low": 2500,
+    "high": 3750
+  },
+  {
+    "family": "epiphone-windsor",
+    "model": "Windsor",
+    "years": "1961 to 1962",
+    "configuration": "Sunburst, two mini-humbuckers",
+    "low": 1950,
+    "high": 2950
+  },
+  {
+    "family": "epiphone-zephyr",
+    "model": "Zephyr",
+    "years": "1939 to 1940",
+    "configuration": "Natural, metal handrest pickup",
+    "low": 1750,
+    "high": 2650
+  },
+  {
+    "family": "epiphone-zephyr",
+    "model": "Zephyr",
+    "years": "1941 to 1943",
+    "configuration": "Natural, no metal handrest",
+    "low": 1750,
+    "high": 2600
+  },
+  {
+    "family": "epiphone-zephyr",
+    "model": "Zephyr",
+    "years": "1944 to 1946",
+    "configuration": "Natural, top-mounted pickup",
+    "low": 1750,
+    "high": 2600
+  },
+  {
+    "family": "epiphone-zephyr",
+    "model": "Zephyr",
+    "years": "1947 to 1948",
+    "configuration": "17 3/8-inch body, metal-covered pickup",
+    "low": 1750,
+    "high": 2600
+  },
+  {
+    "family": "epiphone-zephyr",
+    "model": "Zephyr",
+    "years": "1949 to 1957",
+    "configuration": "Natural, single pickup; verify period hardware",
+    "low": 1600,
+    "high": 2400
+  },
+  {
+    "family": "epiphone-zephyr",
+    "model": "Zephyr",
+    "years": "1953 to 1957",
+    "configuration": "Sunburst, single pickup; verify period hardware",
+    "low": 1500,
+    "high": 2300
+  },
+  {
+    "family": "epiphone-zephyr",
+    "model": "Zephyr Regent",
+    "years": "1950 to 1953",
+    "configuration": "Natural, single pickup, cutaway",
+    "low": 2700,
+    "high": 4100
+  },
+  {
+    "family": "epiphone-zephyr",
+    "model": "Zephyr Regent",
+    "years": "1950 to 1953",
+    "configuration": "Sunburst, single pickup, cutaway",
+    "low": 2150,
+    "high": 3250
+  },
+  {
+    "family": "epiphone-zephyr",
+    "model": "Zephyr Cutaway",
+    "years": "1954 to 1957",
+    "configuration": "Natural",
+    "low": 2700,
+    "high": 4100
+  },
+  {
+    "family": "epiphone-zephyr",
+    "model": "Zephyr Cutaway",
+    "years": "1954 to 1957",
+    "configuration": "Sunburst",
+    "low": 2400,
+    "high": 3550
+  },
+  {
+    "family": "epiphone-zephyr",
+    "model": "Zephyr Electric Cutaway",
+    "years": "1958 to 1959",
+    "configuration": "Kalamazoo thinline, natural",
+    "low": 3500,
+    "high": 4850
+  },
+  {
+    "family": "epiphone-zephyr",
+    "model": "Zephyr Electric Cutaway",
+    "years": "1958 to 1959",
+    "configuration": "Kalamazoo thinline, sunburst",
+    "low": 3050,
+    "high": 3900
+  },
+  {
+    "family": "epiphone-zephyr",
+    "model": "Zephyr Electric Cutaway",
+    "years": "1960 to 1964",
+    "configuration": "Kalamazoo thinline, natural",
+    "low": 4350,
+    "high": 5200
+  },
+  {
+    "family": "epiphone-zephyr",
+    "model": "Zephyr Electric Cutaway",
+    "years": "1960 to 1964",
+    "configuration": "Kalamazoo thinline, sunburst",
+    "low": 3950,
+    "high": 4850
+  },
+  {
+    "family": "epiphone-zephyr",
+    "model": "Zephyr Tenor",
+    "years": "1940 to 1950",
+    "configuration": "Natural figured top, four strings",
+    "low": 1800,
+    "high": 2650
+  },
+  {
+    "family": "epiphone-deluxe",
+    "model": "Zephyr De Luxe",
+    "years": "1941 to 1942",
+    "configuration": "Natural, non-cutaway",
+    "low": 2500,
+    "high": 4450
+  },
+  {
+    "family": "epiphone-deluxe",
+    "model": "Zephyr De Luxe",
+    "years": "1945 to 1949",
+    "configuration": "Natural, one pickup, non-cutaway",
+    "low": 2850,
+    "high": 4450
+  },
+  {
+    "family": "epiphone-deluxe",
+    "model": "Zephyr De Luxe",
+    "years": "1945 to 1954",
+    "configuration": "Natural, two pickups, non-cutaway",
+    "low": 3100,
+    "high": 4900
+  },
+  {
+    "family": "epiphone-deluxe",
+    "model": "Zephyr De Luxe",
+    "years": "1950 to 1954",
+    "configuration": "Sunburst, two pickups, non-cutaway",
+    "low": 2800,
+    "high": 4350
+  },
+  {
+    "family": "epiphone-deluxe",
+    "model": "Zephyr De Luxe Regent",
+    "years": "1948 to 1949",
+    "configuration": "Natural, one pickup, cutaway",
+    "low": 3000,
+    "high": 5600
+  },
+  {
+    "family": "epiphone-deluxe",
+    "model": "Zephyr De Luxe Regent",
+    "years": "1948 to 1949",
+    "configuration": "Natural, two pickups, cutaway",
+    "low": 3700,
+    "high": 6150
+  },
+  {
+    "family": "epiphone-deluxe",
+    "model": "Zephyr De Luxe Regent",
+    "years": "1948 to 1949",
+    "configuration": "Sunburst, one pickup, cutaway",
+    "low": 2850,
+    "high": 4450
+  },
+  {
+    "family": "epiphone-deluxe",
+    "model": "Zephyr De Luxe Regent",
+    "years": "1948 to 1949",
+    "configuration": "Sunburst, two pickups, cutaway",
+    "low": 3550,
+    "high": 5350
+  }
+]

@@ -1,0 +1,8 @@
+[audit] Live:  https://www.joesvintageguitarsaz.com/sell-a-guitar-collection/
+[audit] Local: http://127.0.0.1:4331/sell-a-guitar-collection/
+[audit] Slug:  mg2-sell-a-guitar-collection
+
+[audit] Liveness-checking 12 asset URL(s) on local (img/picture/poster/iframe)...
+
+[audit] Report: C:\Users\joeda\Documents\Codex\2026-10-29\files-pasted-by-the-user-codex\work\joes-vintage-guitars\reports\mg2-sell-a-guitar-collection-audit-2026-10-30T23-32-36-959Z.md
+[audit] ðŸ”´ must-fix: 0  ðŸŸ¡ should-fix: 1  ðŸŸ¢ acceptable: 0

@@ -6,16 +6,16 @@ Eight new blog pages pair value and identification guides for Bassman, Super/Sup
 
 | Check | Result |
 |---|---|
-| Build | 404 pages; passed |
-| Astro | 0 errors, 0 warnings; 92 pre-existing hints |
-| Copy | 0 hard failures; 769 site-wide advisory warnings |
+| Build | 427 pages; passed |
+| Astro | 0 errors, 0 warnings; 93 advisory hints |
+| Copy | 0 hard failures; 782 site-wide advisory warnings |
 | Writing scan | All eight pages, BAN 0, WARN 0 |
 | Images | 34 original files, unchanged bytes; 67 licensed nodes, 0 mismatches |
 | Routes and anchors | 0 broken; existing targets found in live sitemap |
 | External sources | 50 direct HTTP 200; 8 Fender pages block automated GET but were opened successfully with the public web reader |
 | Values | 60 new rows; both endpoints match saved 11 to 15 percent reductions and nearest-$50 rounding |
 | Uniqueness | All twins below 10%; all new-page pairs and comparison/value pairs below 26%; maximum 2.12% |
-| Protected documents | 129 byte-identical; only the two intentionally linked PR 1 articles differ among 131 protected documents |
+| Protected documents | 147 byte-identical against current main; only the two intentionally linked PR 1 articles differ among 149 protected documents |
 | Layout | 16 desktop/mobile cases, both top actions visible, no document overflow or broken loaded images |
 | Contrast | 3,624 text runs; 0 computed failures; 0 axe color-contrast violations; 16 incomplete layered-background cases retained |
 | FAQ/schema | One FAQPage per page, exact visible/schema parity; no product, offer or rating schema |
@@ -62,6 +62,10 @@ All 34 files come from Joe's Drive originals and retain their full bytes. Readab
 No exact silverface photo set was located for these four families. Blackface/silverface Champ and reverb Vibrolux coverage and a tweed Super set are absent; the pages identify the actual photographed models without implying full era coverage. The only listed in-stock amp with no located matching photo set remains the 1963 Fender Concert. No reissue is pictured as an original.
 
 The four canonical writing databases remain unavailable, as disclosed in PR 1; this is an unresolved QA_GATE 17 editorial exception, not a claimed database approval. Archive observations and factory documents provide specific context, and no first-person experience is invented. Six optional expert questions are in the companion file and at the top of the expert-review copy. An external plagiarism scan remains an agency handoff item. The supplied model-guide blueprint governs the single FAQ section, value-page absence of an external resources block, and omission of review embeds.
+
+## Current Main Integration
+
+A concurrent approved Epiphone publication moved main to 2003b7439b63cae0dc11afe53faba34721d8ae71 during preview work. The branch now includes it in full. A separate main worktree build supplies the new preservation baseline: 149 protected documents checked, 147 byte-identical and only the two approved PR 1 articles changed. All eight PR 2 amp pages are byte-identical to their independently reviewed pre-integration HTML. No amp source or style changed during integration. The original 131-page report is retained as historical evidence; main-integration-preservation.json is the current comparison. See main-integration-amp-render.json and integration-review.md.
 
 ## Publication
 

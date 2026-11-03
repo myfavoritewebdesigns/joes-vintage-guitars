@@ -1,7 +1,7 @@
-17:17:22 [content] Syncing content
-17:17:22 [content] Synced content
-17:17:22 [types] Generated 839ms
-17:17:22 [check] Getting diagnostics for Astro files in C:\Users\joeda\Documents\Codex\2026-11-02\files-pasted-by-the-user-codex\work\amp-guides-1\site...
+17:54:10 [content] Syncing content
+17:54:10 [content] Synced content
+17:54:10 [types] Generated 610ms
+17:54:10 [check] Getting diagnostics for Astro files in C:\Users\joeda\Documents\Codex\2026-11-02\files-pasted-by-the-user-codex\work\amp-guides-1\site...
 [96mpublic/scripts/fsn-tool.js[0m:[93m7[0m:[93m7[0m - [93mwarning[0m[90m ts(6133): [0m'NUMERIC_RANGES' is declared but its value is never read.
 
 [7m7[0m   var NUMERIC_RANGES = [
@@ -294,6 +294,11 @@ Add the `is:inline` directive explicitly to silence this hint.
 [7m13[0m import {ranked,byId,hero,lastVerified,money,date,acousticRecord,biggestResale,bassHighs,lesPaulRecord,ordinaryModels,noCelebrity,ace,privateSales,faqs,titleCase} from '../../data/auction-records';
 [7m  [0m [93m               ~~~~[0m
 
+[96msrc/data/model-guides/epiphone-emperor.ts[0m:[93m2[0m:[93m27[0m - [93mwarning[0m[90m ts(6133): [0m'comparison' is declared but its value is never read.
+
+[7m2[0m import { epiPhotos as ph, comparison } from './epiphone-photos';
+[7m [0m [93m                          ~~~~~~~~~~[0m
+
 [96msrc/data/model-guides/fender-amps.ts[0m:[93m1[0m:[93m43[0m - [93mwarning[0m[90m ts(6196): [0m'GuideSection' is declared but never used.
 
 [7m1[0m import type { ModelGuideData, GuideBlock, GuideSection } from '../../components/model-guide/types';
@@ -338,21 +343,21 @@ Add the `is:inline` directive explicitly to silence this hint.
 [7m90[0m   <link slot="head" rel="stylesheet" href="/styles/lite-yt-embed.css" media="print" onload="this.media='all'" />
 [7m  [0m [93m                                                                                                 ~~~~~[0m
 
-[96msrc/pages/how-to-read-gibson-serial-numbers.astro[0m:[93m508[0m:[93m13[0m - [93mwarning[0m[90m astro(4000): [0mThis script will be treated as if it has the `is:inline` directive because it contains an attribute. Therefore, features that require processing (e.g. using TypeScript or npm packages in the script) are unavailable.
+[96msrc/pages/how-to-read-gibson-serial-numbers.astro[0m:[93m511[0m:[93m13[0m - [93mwarning[0m[90m astro(4000): [0mThis script will be treated as if it has the `is:inline` directive because it contains an attribute. Therefore, features that require processing (e.g. using TypeScript or npm packages in the script) are unavailable.
 
 See docs for more details: https://docs.astro.build/en/guides/client-side-scripts/#script-processing.
 
 Add the `is:inline` directive explicitly to silence this hint.
 
-[7m508[0m     <script src="/scripts/decoder.js" defer></script>
+[7m511[0m     <script src="/scripts/decoder.js" defer></script>
 [7m   [0m [93m            ~~~[0m
-[96msrc/pages/how-to-read-gibson-serial-numbers.astro[0m:[93m506[0m:[93m13[0m - [93mwarning[0m[90m astro(4000): [0mThis script will be treated as if it has the `is:inline` directive because it contains an attribute. Therefore, features that require processing (e.g. using TypeScript or npm packages in the script) are unavailable.
+[96msrc/pages/how-to-read-gibson-serial-numbers.astro[0m:[93m509[0m:[93m13[0m - [93mwarning[0m[90m astro(4000): [0mThis script will be treated as if it has the `is:inline` directive because it contains an attribute. Therefore, features that require processing (e.g. using TypeScript or npm packages in the script) are unavailable.
 
 See docs for more details: https://docs.astro.build/en/guides/client-side-scripts/#script-processing.
 
 Add the `is:inline` directive explicitly to silence this hint.
 
-[7m506[0m     <script src="/scripts/special-formats.js" defer></script>
+[7m509[0m     <script src="/scripts/special-formats.js" defer></script>
 [7m   [0m [93m            ~~~[0m
 
 [96msrc/pages/index.astro[0m:[93m84[0m:[93m98[0m - [93mwarning[0m[90m ts(6133): [0m'media' is declared but its value is never read.
@@ -414,7 +419,7 @@ Add the `is:inline` directive explicitly to silence this hint.
 [7m597[0m       <link slot="head" rel="stylesheet" href="/styles/lite-yt-embed.css" media="print" onload="this.media='all'" />
 [7m   [0m [93m                                                                                                     ~~~~~[0m
 
-Result (376 files):
+Result (388 files):
 - 0 errors
 - 0 warnings
-- 92 hints
+- 93 hints

@@ -2,7 +2,7 @@
 import type { GuideBlock } from './types';
 import Photo from './Photo.astro';
 interface Props { block: GuideBlock; plainNumbers?: boolean }
-const { block, plainNumbers } = Astro.props;
+const { block, plainNumbers = false } = Astro.props;
 ---
 {block.type === 'prose' && <div class="mg-prose" set:html={block.html} />}
 {block.type === 'table' && <>

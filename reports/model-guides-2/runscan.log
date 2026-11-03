@@ -1,0 +1,22 @@
+SUMMARY /work/epiphone-broadway-value-guide.txt: PASS - BAN 0, WARN 0
+SUMMARY /work/epiphone-broadway-authentication-guide.txt: PASS - BAN 0, WARN 1
+SUMMARY /work/epiphone-casino-value-guide.txt: PASS - BAN 0, WARN 0
+SUMMARY /work/epiphone-casino-authentication-guide.txt: PASS - BAN 0, WARN 1
+SUMMARY /work/epiphone-deluxe-value-guide.txt: PASS - BAN 0, WARN 1
+SUMMARY /work/epiphone-deluxe-authentication-guide.txt: PASS - BAN 0, WARN 2
+SUMMARY /work/epiphone-emperor-value-guide.txt: PASS - BAN 0, WARN 1
+SUMMARY /work/epiphone-emperor-authentication-guide.txt: PASS - BAN 0, WARN 2
+SUMMARY /work/epiphone-olympic-value-guide.txt: PASS - BAN 0, WARN 0
+SUMMARY /work/epiphone-olympic-authentication-guide.txt: PASS - BAN 0, WARN 1
+SUMMARY /work/epiphone-sorrento-value-guide.txt: PASS - BAN 0, WARN 1
+SUMMARY /work/epiphone-sorrento-authentication-guide.txt: PASS - BAN 0, WARN 2
+SUMMARY /work/epiphone-triumph-value-guide.txt: PASS - BAN 0, WARN 1
+SUMMARY /work/epiphone-triumph-authentication-guide.txt: PASS - BAN 0, WARN 2
+SUMMARY /work/epiphone-windsor-value-guide.txt: PASS - BAN 0, WARN 1
+SUMMARY /work/epiphone-windsor-authentication-guide.txt: PASS - BAN 0, WARN 2
+SUMMARY /work/epiphone-zephyr-value-guide.txt: PASS - BAN 0, WARN 1
+SUMMARY /work/epiphone-zephyr-authentication-guide.txt: PASS - BAN 0, WARN 2
+
+=== BATCH SIMILARITY (document-level check 4) ===
+  ok - worst of 153 pairs 17% (ceiling 80%)
+TOTAL: BAN 0, WARN 21
