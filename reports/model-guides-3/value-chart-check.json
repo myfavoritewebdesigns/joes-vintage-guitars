@@ -1,6 +1,6 @@
 {
   "edition": 2026,
-  "checkedAt": "2026-11-03T18:08:14.902Z",
+  "checkedAt": "2026-11-03T18:47:40.305Z",
   "rowCount": 186,
   "privateBaselines": "work/model-guides-3/value-baselines.json",
   "privateFrozenAssignments": "work/model-guides-3/value-adjustments.json",
@@ -2236,6 +2236,120 @@
       "lowMathVerified": true,
       "highMathVerified": true,
       "configurationClarified": true
+    }
+  ],
+  "renderedCharts": [
+    {
+      "slug": "gibson-l-50-value-guide",
+      "rendered": 8,
+      "expected": 8,
+      "pass": true,
+      "chartGroups": [
+        {
+          "caption": "Joe’s Estimated Values: Excellent, Original Instruments With The Original Case",
+          "rows": 8
+        }
+      ]
+    },
+    {
+      "slug": "gibson-l-48-value-guide",
+      "rendered": 6,
+      "expected": 6,
+      "pass": true,
+      "chartGroups": [
+        {
+          "caption": "Joe’s Estimated Values: Excellent, Original Instruments With The Original Case",
+          "rows": 6
+        }
+      ]
+    },
+    {
+      "slug": "gibson-les-paul-deluxe-value-guide",
+      "rendered": 14,
+      "expected": 14,
+      "pass": true,
+      "chartGroups": [
+        {
+          "caption": "Joe’s Estimated Values: Excellent, Original Instruments With The Original Case",
+          "rows": 14
+        }
+      ]
+    },
+    {
+      "slug": "gibson-l-4-value-guide",
+      "rendered": 22,
+      "expected": 22,
+      "pass": true,
+      "chartGroups": [
+        {
+          "caption": "Joe’s Estimated Values: Excellent, Original Instruments With The Original Case",
+          "rows": 22
+        }
+      ]
+    },
+    {
+      "slug": "gibson-l-7-value-guide",
+      "rendered": 19,
+      "expected": 19,
+      "pass": true,
+      "chartGroups": [
+        {
+          "caption": "Joe’s Estimated Values: Excellent, Original Instruments With The Original Case",
+          "rows": 19
+        }
+      ]
+    },
+    {
+      "slug": "gibson-thunderbird-eb-bass-value-guide",
+      "rendered": 75,
+      "expected": 75,
+      "pass": true,
+      "chartGroups": [
+        {
+          "caption": "Joe’s Estimated Values: Excellent, Original Instruments With The Original Case",
+          "rows": 71
+        },
+        {
+          "caption": "Estimates Requiring Individual Identification",
+          "rows": 4
+        }
+      ]
+    },
+    {
+      "slug": "gibson-es-175-value-guide",
+      "rendered": 25,
+      "expected": 25,
+      "pass": true,
+      "chartGroups": [
+        {
+          "caption": "Joe’s Estimated Values: Excellent, Original Instruments With The Original Case",
+          "rows": 25
+        }
+      ]
+    },
+    {
+      "slug": "gibson-byrdland-value-guide",
+      "rendered": 13,
+      "expected": 13,
+      "pass": true,
+      "chartGroups": [
+        {
+          "caption": "Joe’s Estimated Values: Excellent, Original Instruments With The Original Case",
+          "rows": 13
+        }
+      ]
+    },
+    {
+      "slug": "gibson-es-225-value-guide",
+      "rendered": 4,
+      "expected": 4,
+      "pass": true,
+      "chartGroups": [
+        {
+          "caption": "Joe’s Estimated Values: Excellent, Original Instruments With The Original Case",
+          "rows": 4
+        }
+      ]
     }
   ]
 }

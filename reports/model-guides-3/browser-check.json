@@ -95,6 +95,7 @@
         "color": "rgb(244, 239, 227)"
       }
     ],
+    "collapsedArticleImages": [],
     "brokenImages": [],
     "h1": {
       "x": 284,
@@ -104,6 +105,7 @@
       "bottom": 431.125
     },
     "adjacentActions": true,
+    "faqsOpened": true,
     "contrast": []
   },
   {
@@ -178,6 +180,7 @@
         "color": "rgb(255, 255, 255)"
       }
     ],
+    "collapsedArticleImages": [],
     "brokenImages": [],
     "h1": {
       "x": 284,
@@ -187,6 +190,7 @@
       "bottom": 431.125
     },
     "adjacentActions": true,
+    "faqsOpened": true,
     "contrast": []
   },
   {
@@ -277,6 +281,7 @@
         "color": "rgb(244, 239, 227)"
       }
     ],
+    "collapsedArticleImages": [],
     "brokenImages": [],
     "h1": {
       "x": 284,
@@ -286,6 +291,7 @@
       "bottom": 431.125
     },
     "adjacentActions": true,
+    "faqsOpened": true,
     "contrast": []
   },
   {
@@ -356,6 +362,7 @@
         "color": "rgb(255, 255, 255)"
       }
     ],
+    "collapsedArticleImages": [],
     "brokenImages": [],
     "h1": {
       "x": 284,
@@ -365,6 +372,7 @@
       "bottom": 431.125
     },
     "adjacentActions": true,
+    "faqsOpened": true,
     "contrast": []
   },
   {
@@ -427,6 +435,7 @@
         "color": "rgb(244, 239, 227)"
       }
     ],
+    "collapsedArticleImages": [],
     "brokenImages": [],
     "h1": {
       "x": 284,
@@ -436,6 +445,7 @@
       "bottom": 431.125
     },
     "adjacentActions": true,
+    "faqsOpened": true,
     "contrast": []
   },
   {
@@ -498,6 +508,7 @@
         "color": "rgb(244, 239, 227)"
       }
     ],
+    "collapsedArticleImages": [],
     "brokenImages": [],
     "h1": {
       "x": 284,
@@ -507,6 +518,7 @@
       "bottom": 431.125
     },
     "adjacentActions": true,
+    "faqsOpened": true,
     "contrast": []
   },
   {
@@ -565,6 +577,7 @@
         "color": "rgb(244, 239, 227)"
       }
     ],
+    "collapsedArticleImages": [],
     "brokenImages": [],
     "h1": {
       "x": 284,
@@ -574,6 +587,7 @@
       "bottom": 431.125
     },
     "adjacentActions": true,
+    "faqsOpened": true,
     "contrast": []
   },
   {
@@ -644,6 +658,7 @@
         "color": "rgb(255, 255, 255)"
       }
     ],
+    "collapsedArticleImages": [],
     "brokenImages": [],
     "h1": {
       "x": 284,
@@ -653,6 +668,7 @@
       "bottom": 330.90625
     },
     "adjacentActions": true,
+    "faqsOpened": true,
     "contrast": []
   },
   {
@@ -723,6 +739,7 @@
         "color": "rgb(255, 255, 255)"
       }
     ],
+    "collapsedArticleImages": [],
     "brokenImages": [],
     "h1": {
       "x": 284,
@@ -732,6 +749,7 @@
       "bottom": 431.125
     },
     "adjacentActions": true,
+    "faqsOpened": true,
     "contrast": []
   },
   {
@@ -786,6 +804,7 @@
         "color": "rgb(200, 158, 87)"
       }
     ],
+    "collapsedArticleImages": [],
     "brokenImages": [],
     "h1": {
       "x": 284,
@@ -795,6 +814,7 @@
       "bottom": 330.90625
     },
     "adjacentActions": true,
+    "faqsOpened": true,
     "contrast": []
   },
   {
@@ -837,6 +857,7 @@
         "color": "rgb(200, 158, 87)"
       }
     ],
+    "collapsedArticleImages": [],
     "brokenImages": [],
     "h1": {
       "x": 284,
@@ -846,6 +867,7 @@
       "bottom": 531.34375
     },
     "adjacentActions": true,
+    "faqsOpened": true,
     "contrast": []
   },
   {
@@ -908,6 +930,7 @@
         "color": "rgb(255, 255, 255)"
       }
     ],
+    "collapsedArticleImages": [],
     "brokenImages": [],
     "h1": {
       "x": 284,
@@ -917,6 +940,7 @@
       "bottom": 531.34375
     },
     "adjacentActions": true,
+    "faqsOpened": true,
     "contrast": []
   },
   {
@@ -979,6 +1003,7 @@
         "color": "rgb(200, 158, 87)"
       }
     ],
+    "collapsedArticleImages": [],
     "brokenImages": [],
     "h1": {
       "x": 284,
@@ -988,6 +1013,7 @@
       "bottom": 431.125
     },
     "adjacentActions": true,
+    "faqsOpened": true,
     "contrast": []
   },
   {
@@ -1042,6 +1068,7 @@
         "color": "rgb(200, 158, 87)"
       }
     ],
+    "collapsedArticleImages": [],
     "brokenImages": [],
     "h1": {
       "x": 284,
@@ -1051,6 +1078,7 @@
       "bottom": 431.125
     },
     "adjacentActions": true,
+    "faqsOpened": true,
     "contrast": []
   },
   {
@@ -1105,6 +1133,7 @@
         "color": "rgb(255, 255, 255)"
       }
     ],
+    "collapsedArticleImages": [],
     "brokenImages": [],
     "h1": {
       "x": 284,
@@ -1114,6 +1143,7 @@
       "bottom": 431.125
     },
     "adjacentActions": true,
+    "faqsOpened": true,
     "contrast": []
   },
   {
@@ -1176,6 +1206,7 @@
         "color": "rgb(244, 239, 227)"
       }
     ],
+    "collapsedArticleImages": [],
     "brokenImages": [],
     "h1": {
       "x": 284,
@@ -1185,6 +1216,7 @@
       "bottom": 431.125
     },
     "adjacentActions": true,
+    "faqsOpened": true,
     "contrast": []
   },
   {
@@ -1283,6 +1315,7 @@
         "color": "rgb(244, 239, 227)"
       }
     ],
+    "collapsedArticleImages": [],
     "brokenImages": [],
     "h1": {
       "x": 20,
@@ -1292,6 +1325,7 @@
       "bottom": 477.640625
     },
     "adjacentActions": true,
+    "faqsOpened": true,
     "contrast": []
   },
   {
@@ -1366,6 +1400,7 @@
         "color": "rgb(255, 255, 255)"
       }
     ],
+    "collapsedArticleImages": [],
     "brokenImages": [],
     "h1": {
       "x": 20,
@@ -1375,6 +1410,7 @@
       "bottom": 399.03125
     },
     "adjacentActions": true,
+    "faqsOpened": true,
     "contrast": []
   },
   {
@@ -1465,6 +1501,7 @@
         "color": "rgb(244, 239, 227)"
       }
     ],
+    "collapsedArticleImages": [],
     "brokenImages": [],
     "h1": {
       "x": 20,
@@ -1474,6 +1511,7 @@
       "bottom": 477.640625
     },
     "adjacentActions": true,
+    "faqsOpened": true,
     "contrast": []
   },
   {
@@ -1544,6 +1582,7 @@
         "color": "rgb(255, 255, 255)"
       }
     ],
+    "collapsedArticleImages": [],
     "brokenImages": [],
     "h1": {
       "x": 20,
@@ -1553,6 +1592,7 @@
       "bottom": 417.71875
     },
     "adjacentActions": true,
+    "faqsOpened": true,
     "contrast": []
   },
   {
@@ -1615,6 +1655,7 @@
         "color": "rgb(244, 239, 227)"
       }
     ],
+    "collapsedArticleImages": [],
     "brokenImages": [],
     "h1": {
       "x": 20,
@@ -1624,6 +1665,7 @@
       "bottom": 537.5625
     },
     "adjacentActions": true,
+    "faqsOpened": true,
     "contrast": []
   },
   {
@@ -1686,6 +1728,7 @@
         "color": "rgb(244, 239, 227)"
       }
     ],
+    "collapsedArticleImages": [],
     "brokenImages": [],
     "h1": {
       "x": 20,
@@ -1695,6 +1738,7 @@
       "bottom": 458.953125
     },
     "adjacentActions": true,
+    "faqsOpened": true,
     "contrast": []
   },
   {
@@ -1753,6 +1797,7 @@
         "color": "rgb(244, 239, 227)"
       }
     ],
+    "collapsedArticleImages": [],
     "brokenImages": [],
     "h1": {
       "x": 20,
@@ -1762,6 +1807,7 @@
       "bottom": 477.640625
     },
     "adjacentActions": true,
+    "faqsOpened": true,
     "contrast": []
   },
   {
@@ -1832,6 +1878,7 @@
         "color": "rgb(255, 255, 255)"
       }
     ],
+    "collapsedArticleImages": [],
     "brokenImages": [],
     "h1": {
       "x": 20,
@@ -1841,6 +1888,7 @@
       "bottom": 417.71875
     },
     "adjacentActions": true,
+    "faqsOpened": true,
     "contrast": []
   },
   {
@@ -1911,6 +1959,7 @@
         "color": "rgb(255, 255, 255)"
       }
     ],
+    "collapsedArticleImages": [],
     "brokenImages": [],
     "h1": {
       "x": 20,
@@ -1920,6 +1969,7 @@
       "bottom": 477.640625
     },
     "adjacentActions": true,
+    "faqsOpened": true,
     "contrast": []
   },
   {
@@ -1974,6 +2024,7 @@
         "color": "rgb(200, 158, 87)"
       }
     ],
+    "collapsedArticleImages": [],
     "brokenImages": [],
     "h1": {
       "x": 20,
@@ -1983,6 +2034,7 @@
       "bottom": 417.71875
     },
     "adjacentActions": true,
+    "faqsOpened": true,
     "contrast": []
   },
   {
@@ -2025,6 +2077,7 @@
         "color": "rgb(200, 158, 87)"
       }
     ],
+    "collapsedArticleImages": [],
     "brokenImages": [],
     "h1": {
       "x": 20,
@@ -2034,6 +2087,7 @@
       "bottom": 597.484375
     },
     "adjacentActions": true,
+    "faqsOpened": true,
     "contrast": []
   },
   {
@@ -2096,6 +2150,7 @@
         "color": "rgb(255, 255, 255)"
       }
     ],
+    "collapsedArticleImages": [],
     "brokenImages": [],
     "h1": {
       "x": 20,
@@ -2105,6 +2160,7 @@
       "bottom": 537.5625
     },
     "adjacentActions": true,
+    "faqsOpened": true,
     "contrast": []
   },
   {
@@ -2167,6 +2223,7 @@
         "color": "rgb(200, 158, 87)"
       }
     ],
+    "collapsedArticleImages": [],
     "brokenImages": [],
     "h1": {
       "x": 20,
@@ -2176,6 +2233,7 @@
       "bottom": 477.640625
     },
     "adjacentActions": true,
+    "faqsOpened": true,
     "contrast": []
   },
   {
@@ -2230,6 +2288,7 @@
         "color": "rgb(200, 158, 87)"
       }
     ],
+    "collapsedArticleImages": [],
     "brokenImages": [],
     "h1": {
       "x": 20,
@@ -2239,6 +2298,7 @@
       "bottom": 417.71875
     },
     "adjacentActions": true,
+    "faqsOpened": true,
     "contrast": []
   },
   {
@@ -2293,6 +2353,7 @@
         "color": "rgb(255, 255, 255)"
       }
     ],
+    "collapsedArticleImages": [],
     "brokenImages": [],
     "h1": {
       "x": 20,
@@ -2302,6 +2363,7 @@
       "bottom": 477.640625
     },
     "adjacentActions": true,
+    "faqsOpened": true,
     "contrast": []
   },
   {
@@ -2364,6 +2426,7 @@
         "color": "rgb(244, 239, 227)"
       }
     ],
+    "collapsedArticleImages": [],
     "brokenImages": [],
     "h1": {
       "x": 20,
@@ -2373,6 +2436,7 @@
       "bottom": 417.71875
     },
     "adjacentActions": true,
+    "faqsOpened": true,
     "contrast": []
   }
 ]
