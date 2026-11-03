@@ -1024,3 +1024,9 @@ Joe supplied Reverb listings 81558022 (1960s blackface head) and 93427883 (1961 
 ### 2026-11-03: Super Reverb Archive Correction
 
 Joe rejected the archive sentences about inferring a blackface or silverface model and preserving wear as an untouched reference; remove them and use direct visual descriptions. Joe also explicitly identified the pictured blackface Super Reverb as a 1965. Update its archive heading, dating-card prose, four photo captions and alt texts, and the value page image metadata to 1965. This supersedes the previous broad 1963 to 1967 archive date; do not restore date uncertainty merely because the paper stamp is faded. Preserve the unreadable-stamp note and avoid inventing a production month. Price groups and broad house era dates remain unchanged. Draft PR 308 preview only.
+
+### 2026-11-03: Standalone Dating Guides In The Blog Category Preview
+
+Joe requested that standalone serial-number and dating pages appear in the existing Serial Number & Dating Guides blog category, with a preview before publishing. Add 54 existing guides as cards linking directly to their current URLs. Keep the seven main serial lookups first, followed by category posts and detailed dating references. Include the guides in the category count and pagination, reuse the existing card styling and licensed local photos, and omit publication dates on standalone-guide cards. The main chronological blog feed and RSS still contain published blog posts. Additional card headings, images, image-license nodes and category pagination are intentional differences from production. This revision remains local until Joe approves its preview.
+
+Joe approved this exact preview on November 3, 2026: "looks good, go ahead and publish it." Publication of this archive revision is authorized.
