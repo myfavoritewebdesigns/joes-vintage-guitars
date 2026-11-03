@@ -358,5 +358,545 @@
     "configuration": "Silverface, no Fender logo tail",
     "low": 1500,
     "high": 1950
+  },
+  {
+    "id": "fender-bassman-1",
+    "family": "fender-bassman",
+    "model": "Bassman",
+    "years": "1952",
+    "configuration": "TV front, 1x15",
+    "low": 2650,
+    "high": 3500
+  },
+  {
+    "id": "fender-bassman-2",
+    "family": "fender-bassman",
+    "model": "Bassman",
+    "years": "1953 to 1954",
+    "configuration": "Wide panel, 1x15",
+    "low": 2650,
+    "high": 3500
+  },
+  {
+    "id": "fender-bassman-3",
+    "family": "fender-bassman",
+    "model": "Bassman",
+    "years": "1955 to 1957",
+    "configuration": "Tweed, 4x10, 2 inputs",
+    "low": 5950,
+    "high": 7650
+  },
+  {
+    "id": "fender-bassman-4",
+    "family": "fender-bassman",
+    "model": "Bassman",
+    "years": "1957 to 1958",
+    "configuration": "Tweed, 4x10, 4 inputs",
+    "low": 7250,
+    "high": 9350
+  },
+  {
+    "id": "fender-bassman-5",
+    "family": "fender-bassman",
+    "model": "Bassman",
+    "years": "1959 to 1960",
+    "configuration": "Old style cabinet, pink brown covering",
+    "low": 7400,
+    "high": 9550
+  },
+  {
+    "id": "fender-bassman-6",
+    "family": "fender-bassman",
+    "model": "Bassman",
+    "years": "1959 to 1960",
+    "configuration": "Tweed, 4x10, 4 inputs",
+    "low": 7300,
+    "high": 9450
+  },
+  {
+    "id": "fender-bassman-7",
+    "family": "fender-bassman",
+    "model": "Bassman",
+    "years": "1961",
+    "configuration": "White 1x12, 6G6, tube rectifier",
+    "low": 3100,
+    "high": 4000
+  },
+  {
+    "id": "fender-bassman-8",
+    "family": "fender-bassman",
+    "model": "Bassman",
+    "years": "1962",
+    "configuration": "Late 1962, white 2x12",
+    "low": 1850,
+    "high": 2400
+  },
+  {
+    "id": "fender-bassman-9",
+    "family": "fender-bassman",
+    "model": "Bassman",
+    "years": "1962",
+    "configuration": "White 1x12, 6G6A, solid-state rectifier",
+    "low": 2600,
+    "high": 3450
+  },
+  {
+    "id": "fender-bassman-10",
+    "family": "fender-bassman",
+    "model": "Bassman",
+    "years": "1963 to 1964",
+    "configuration": "Smooth white 2x12, 6G6A/B",
+    "low": 2200,
+    "high": 3050
+  },
+  {
+    "id": "fender-bassman-11",
+    "family": "fender-bassman",
+    "model": "Bassman",
+    "years": "1963 to 1964",
+    "configuration": "Smooth white 2x12, 6G6A/B, head only",
+    "low": 1300,
+    "high": 1750
+  },
+  {
+    "id": "fender-bassman-12",
+    "family": "fender-bassman",
+    "model": "Bassman",
+    "years": "1964",
+    "configuration": "Transition, black, white knobs",
+    "low": 1550,
+    "high": 2000
+  },
+  {
+    "id": "fender-bassman-13",
+    "family": "fender-bassman",
+    "model": "Bassman",
+    "years": "1965 to 1966",
+    "configuration": "AA165/AB165, black knobs",
+    "low": 1300,
+    "high": 1750
+  },
+  {
+    "id": "fender-bassman-14",
+    "family": "fender-bassman",
+    "model": "Bassman",
+    "years": "1965 to 1966",
+    "configuration": "AA165/AB165, head only",
+    "low": 1000,
+    "high": 1300
+  },
+  {
+    "id": "fender-bassman-15",
+    "family": "fender-bassman",
+    "model": "Bassman",
+    "years": "1967 to 1969",
+    "configuration": "Silverface, vertical 2x15",
+    "low": 700,
+    "high": 900
+  },
+  {
+    "id": "fender-bassman-16",
+    "family": "fender-bassman",
+    "model": "Bassman",
+    "years": "1967 to 1969",
+    "configuration": "Silverface, head only",
+    "low": 600,
+    "high": 850
+  },
+  {
+    "id": "fender-bassman-17",
+    "family": "fender-bassman",
+    "model": "Bassman",
+    "years": "1970 to 1971",
+    "configuration": "Silverface, 2x15",
+    "low": 600,
+    "high": 850
+  },
+  {
+    "id": "fender-bassman-18",
+    "family": "fender-bassman",
+    "model": "Bassman",
+    "years": "1970 to 1971",
+    "configuration": "Silverface, head only",
+    "low": 450,
+    "high": 600
+  },
+  {
+    "id": "fender-bassman-19",
+    "family": "fender-bassman",
+    "model": "Bassman 10",
+    "years": "1972 to 1980",
+    "configuration": "50 watts, 4x10 combo",
+    "low": 650,
+    "high": 900
+  },
+  {
+    "id": "fender-bassman-20",
+    "family": "fender-bassman",
+    "model": "Bassman 50",
+    "years": "1972 to 1977",
+    "configuration": "50 watts, with 2x12 cabinet",
+    "low": 550,
+    "high": 850
+  },
+  {
+    "id": "fender-bassman-22",
+    "family": "fender-bassman",
+    "model": "Bassman 70",
+    "years": "1977 to 1979",
+    "configuration": "70 watts, with 2x15 cabinet",
+    "low": 550,
+    "high": 800
+  },
+  {
+    "id": "fender-bassman-23",
+    "family": "fender-bassman",
+    "model": "Bassman 100",
+    "years": "1972 to 1977",
+    "configuration": "100 watts, 4x12",
+    "low": 600,
+    "high": 850
+  },
+  {
+    "id": "fender-bassman-24",
+    "family": "fender-bassman",
+    "model": "Bassman Solidstate",
+    "years": "1968 to 1971",
+    "configuration": "Solid-state piggyback",
+    "low": 450,
+    "high": 600
+  },
+  {
+    "id": "fender-champ-1",
+    "family": "fender-champ",
+    "model": "Champ",
+    "years": "1953 to 1954",
+    "configuration": "Wide panel, 1x6, 5C1",
+    "low": 1950,
+    "high": 2600
+  },
+  {
+    "id": "fender-champ-2",
+    "family": "fender-champ",
+    "model": "Champ",
+    "years": "1955 to 1956",
+    "configuration": "Narrow panel, 1x6, 5E1",
+    "low": 2000,
+    "high": 2650
+  },
+  {
+    "id": "fender-champ-3",
+    "family": "fender-champ",
+    "model": "Champ",
+    "years": "1956 to 1964",
+    "configuration": "Narrow panel, 1x8, 5F1",
+    "low": 2550,
+    "high": 3400
+  },
+  {
+    "id": "fender-champ-4",
+    "family": "fender-champ",
+    "model": "Champ",
+    "years": "1964",
+    "configuration": "New cabinet, black, AA764",
+    "low": 1550,
+    "high": 2000
+  },
+  {
+    "id": "fender-champ-5",
+    "family": "fender-champ",
+    "model": "Champ",
+    "years": "1964",
+    "configuration": "Old cabinet, black, 1x8, 5F1",
+    "low": 1850,
+    "high": 2400
+  },
+  {
+    "id": "fender-champ-6",
+    "family": "fender-champ",
+    "model": "Champ",
+    "years": "1965 to 1967",
+    "configuration": "New cabinet, black, AA764",
+    "low": 1100,
+    "high": 1500
+  },
+  {
+    "id": "fender-champ-7",
+    "family": "fender-champ",
+    "model": "Champ",
+    "years": "1968 to 1972",
+    "configuration": "Silverface, 1x8",
+    "low": 600,
+    "high": 800
+  },
+  {
+    "id": "fender-champ-8",
+    "family": "fender-champ",
+    "model": "Champ",
+    "years": "1973 to 1980",
+    "configuration": "Silverface, 1x8",
+    "low": 550,
+    "high": 750
+  },
+  {
+    "id": "fender-champ-9",
+    "family": "fender-champ",
+    "model": "Champion 600",
+    "years": "1949 to 1953",
+    "configuration": "Two-tone, TV front, 1x6",
+    "low": 1500,
+    "high": 2400
+  },
+  {
+    "id": "fender-champ-10",
+    "family": "fender-champ",
+    "model": "Champion 800",
+    "years": "1948",
+    "configuration": "TV front, tweed, 1x8",
+    "low": 2350,
+    "high": 3000
+  },
+  {
+    "id": "fender-super-reverb-1",
+    "family": "fender-super-reverb",
+    "model": "Super",
+    "years": "1947 to 1952",
+    "configuration": "V-front",
+    "low": 5700,
+    "high": 7500
+  },
+  {
+    "id": "fender-super-reverb-2",
+    "family": "fender-super-reverb",
+    "model": "Super",
+    "years": "1953 to 1954",
+    "configuration": "Tweed, wide panel",
+    "low": 3750,
+    "high": 4850
+  },
+  {
+    "id": "fender-super-reverb-3",
+    "family": "fender-super-reverb",
+    "model": "Super",
+    "years": "1955",
+    "configuration": "Tweed, narrow panel, 6L6",
+    "low": 5600,
+    "high": 7300
+  },
+  {
+    "id": "fender-super-reverb-4",
+    "family": "fender-super-reverb",
+    "model": "Super",
+    "years": "1956 to 1957",
+    "configuration": "Tweed, narrow panel, 5E4, 6V6",
+    "low": 5200,
+    "high": 6950
+  },
+  {
+    "id": "fender-super-reverb-5",
+    "family": "fender-super-reverb",
+    "model": "Super",
+    "years": "1957 to 1960",
+    "configuration": "Tweed, narrow panel, 6L6",
+    "low": 6950,
+    "high": 9150
+  },
+  {
+    "id": "fender-super-reverb-6",
+    "family": "fender-super-reverb",
+    "model": "Super",
+    "years": "1960",
+    "configuration": "Pink, tweed-era grille",
+    "low": 2650,
+    "high": 3500
+  },
+  {
+    "id": "fender-super-reverb-7",
+    "family": "fender-super-reverb",
+    "model": "Super",
+    "years": "1960",
+    "configuration": "Pink/brown, metal knobs",
+    "low": 2550,
+    "high": 3400
+  },
+  {
+    "id": "fender-super-reverb-8",
+    "family": "fender-super-reverb",
+    "model": "Super",
+    "years": "1960",
+    "configuration": "Pink/brown, reverse knobs",
+    "low": 2650,
+    "high": 3500
+  },
+  {
+    "id": "fender-super-reverb-9",
+    "family": "fender-super-reverb",
+    "model": "Super",
+    "years": "1960 to 1962",
+    "configuration": "Brown, oxblood grille, 6G4",
+    "low": 2250,
+    "high": 3100
+  },
+  {
+    "id": "fender-super-reverb-10",
+    "family": "fender-super-reverb",
+    "model": "Super",
+    "years": "1962 to 1963",
+    "configuration": "Brown, tan/wheat grille, 6G4",
+    "low": 2150,
+    "high": 3000
+  },
+  {
+    "id": "fender-super-reverb-11",
+    "family": "fender-super-reverb",
+    "model": "Super Reverb",
+    "years": "1963 to 1964",
+    "configuration": "Blackface, Fender Electric",
+    "low": 1950,
+    "high": 3450
+  },
+  {
+    "id": "fender-super-reverb-12",
+    "family": "fender-super-reverb",
+    "model": "Super Reverb",
+    "years": "1965 to 1967",
+    "configuration": "Blackface, Fender Musical Instruments",
+    "low": 1700,
+    "high": 3000
+  },
+  {
+    "id": "fender-super-reverb-13",
+    "family": "fender-super-reverb",
+    "model": "Super Reverb",
+    "years": "1968",
+    "configuration": "Silverface, AB763",
+    "low": 1100,
+    "high": 1500
+  },
+  {
+    "id": "fender-super-reverb-14",
+    "family": "fender-super-reverb",
+    "model": "Super Reverb",
+    "years": "1969 to 1970",
+    "configuration": "Silverface",
+    "low": 900,
+    "high": 1350
+  },
+  {
+    "id": "fender-super-reverb-15",
+    "family": "fender-super-reverb",
+    "model": "Super Reverb",
+    "years": "1970 to 1972",
+    "configuration": "Silverface, AA270",
+    "low": 850,
+    "high": 1050
+  },
+  {
+    "id": "fender-super-reverb-16",
+    "family": "fender-super-reverb",
+    "model": "Super Reverb",
+    "years": "1972 to 1975",
+    "configuration": "Initial master volume",
+    "low": 750,
+    "high": 950
+  },
+  {
+    "id": "fender-super-reverb-17",
+    "family": "fender-super-reverb",
+    "model": "Super Reverb",
+    "years": "1975 to 1980",
+    "configuration": "Master volume with pull",
+    "low": 750,
+    "high": 950
+  },
+  {
+    "id": "fender-super-reverb-18",
+    "family": "fender-super-reverb",
+    "model": "Super Reverb Solidstate",
+    "years": "1967 to 1970",
+    "configuration": "50 watts, 4x10",
+    "low": 500,
+    "high": 650
+  },
+  {
+    "id": "fender-champ-11",
+    "family": "fender-champ",
+    "model": "Vibro-Champ",
+    "years": "1964 to 1967",
+    "configuration": "Blackface, AA764",
+    "low": 1050,
+    "high": 1500
+  },
+  {
+    "id": "fender-champ-12",
+    "family": "fender-champ",
+    "model": "Vibro-Champ",
+    "years": "1968 to 1972",
+    "configuration": "Silverface",
+    "low": 750,
+    "high": 1000
+  },
+  {
+    "id": "fender-vibrolux-1",
+    "family": "fender-vibrolux",
+    "model": "Vibrolux",
+    "years": "1956 to 1961",
+    "configuration": "Tweed, 1x10",
+    "low": 5100,
+    "high": 6400
+  },
+  {
+    "id": "fender-vibrolux-2",
+    "family": "fender-vibrolux",
+    "model": "Vibrolux",
+    "years": "1961 to 1962",
+    "configuration": "Brown covering, 1x12",
+    "low": 3400,
+    "high": 4250
+  },
+  {
+    "id": "fender-vibrolux-3",
+    "family": "fender-vibrolux",
+    "model": "Vibrolux",
+    "years": "1963 to 1964",
+    "configuration": "Black covering, 1x12",
+    "low": 3000,
+    "high": 3850
+  },
+  {
+    "id": "fender-vibrolux-4",
+    "family": "fender-vibrolux",
+    "model": "Vibrolux Reverb",
+    "years": "1964 to 1967",
+    "configuration": "Blackface",
+    "low": 3000,
+    "high": 4300
+  },
+  {
+    "id": "fender-vibrolux-5",
+    "family": "fender-vibrolux",
+    "model": "Vibrolux Reverb",
+    "years": "1968",
+    "configuration": "Silverface",
+    "low": 1950,
+    "high": 2600
+  },
+  {
+    "id": "fender-vibrolux-6",
+    "family": "fender-vibrolux",
+    "model": "Vibrolux Reverb",
+    "years": "1969 to 1970",
+    "configuration": "Silverface",
+    "low": 1550,
+    "high": 2250
+  },
+  {
+    "id": "fender-vibrolux-7",
+    "family": "fender-vibrolux",
+    "model": "Vibrolux Reverb",
+    "years": "1971 to 1980",
+    "configuration": "Silverface",
+    "low": 1300,
+    "high": 1750
   }
 ]

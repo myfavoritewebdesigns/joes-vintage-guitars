@@ -1,0 +1,173 @@
+{
+  "scope": "Reading words exclude the hero, table of contents, byline, author box and sources list; include section headings, tables, FAQ and photo captions. Values also exclude charts, their note and FAQ.",
+  "results": [
+    {
+      "slug": "fender-bassman-value-guide",
+      "readingWords": 1817,
+      "readingWordsExcludingChartsFaq": 1476,
+      "faqCount": 3,
+      "faqSchemaCount": 1,
+      "faqMatches": true,
+      "forbiddenSchemaTypes": [],
+      "canonical": "https://www.joesvintageguitarsaz.com/post/fender-bassman-value-guide/",
+      "dollars": 56,
+      "lowerCtas": [
+        {
+          "label": "Free Appraisal",
+          "href": "/free-appraisal/"
+        },
+        {
+          "label": "Sell My Amp",
+          "href": "/sell-an-amplifier-or-effect/"
+        }
+      ]
+    },
+    {
+      "slug": "fender-super-reverb-value-guide",
+      "readingWords": 1793,
+      "readingWordsExcludingChartsFaq": 1501,
+      "faqCount": 3,
+      "faqSchemaCount": 1,
+      "faqMatches": true,
+      "forbiddenSchemaTypes": [],
+      "canonical": "https://www.joesvintageguitarsaz.com/post/fender-super-reverb-value-guide/",
+      "dollars": 46,
+      "lowerCtas": [
+        {
+          "label": "Free Appraisal",
+          "href": "/free-appraisal/"
+        },
+        {
+          "label": "Sell My Amp",
+          "href": "/sell-an-amplifier-or-effect/"
+        }
+      ]
+    },
+    {
+      "slug": "fender-vibrolux-value-guide",
+      "readingWords": 1673,
+      "readingWordsExcludingChartsFaq": 1498,
+      "faqCount": 3,
+      "faqSchemaCount": 1,
+      "faqMatches": true,
+      "forbiddenSchemaTypes": [],
+      "canonical": "https://www.joesvintageguitarsaz.com/post/fender-vibrolux-value-guide/",
+      "dollars": 26,
+      "lowerCtas": [
+        {
+          "label": "Free Appraisal",
+          "href": "/free-appraisal/"
+        },
+        {
+          "label": "Sell My Amp",
+          "href": "/sell-an-amplifier-or-effect/"
+        }
+      ]
+    },
+    {
+      "slug": "fender-champ-value-guide",
+      "readingWords": 1753,
+      "readingWordsExcludingChartsFaq": 1492,
+      "faqCount": 4,
+      "faqSchemaCount": 1,
+      "faqMatches": true,
+      "forbiddenSchemaTypes": [],
+      "canonical": "https://www.joesvintageguitarsaz.com/post/fender-champ-value-guide/",
+      "dollars": 34,
+      "lowerCtas": [
+        {
+          "label": "Free Appraisal",
+          "href": "/free-appraisal/"
+        },
+        {
+          "label": "Sell My Amp",
+          "href": "/sell-an-amplifier-or-effect/"
+        }
+      ]
+    },
+    {
+      "slug": "fender-bassman-authentication-guide",
+      "readingWords": 2200,
+      "readingWordsExcludingChartsFaq": 1827,
+      "faqCount": 4,
+      "faqSchemaCount": 1,
+      "faqMatches": true,
+      "forbiddenSchemaTypes": [],
+      "canonical": "https://www.joesvintageguitarsaz.com/post/fender-bassman-authentication-guide/",
+      "dollars": 0,
+      "lowerCtas": [
+        {
+          "label": "Free Appraisal",
+          "href": "/free-appraisal/"
+        },
+        {
+          "label": "Sell My Amp",
+          "href": "/sell-an-amplifier-or-effect/"
+        }
+      ]
+    },
+    {
+      "slug": "fender-super-reverb-authentication-guide",
+      "readingWords": 2272,
+      "readingWordsExcludingChartsFaq": 1914,
+      "faqCount": 4,
+      "faqSchemaCount": 1,
+      "faqMatches": true,
+      "forbiddenSchemaTypes": [],
+      "canonical": "https://www.joesvintageguitarsaz.com/post/fender-super-reverb-authentication-guide/",
+      "dollars": 0,
+      "lowerCtas": [
+        {
+          "label": "Free Appraisal",
+          "href": "/free-appraisal/"
+        },
+        {
+          "label": "Sell My Amp",
+          "href": "/sell-an-amplifier-or-effect/"
+        }
+      ]
+    },
+    {
+      "slug": "fender-vibrolux-authentication-guide",
+      "readingWords": 2265,
+      "readingWordsExcludingChartsFaq": 1962,
+      "faqCount": 4,
+      "faqSchemaCount": 1,
+      "faqMatches": true,
+      "forbiddenSchemaTypes": [],
+      "canonical": "https://www.joesvintageguitarsaz.com/post/fender-vibrolux-authentication-guide/",
+      "dollars": 0,
+      "lowerCtas": [
+        {
+          "label": "Free Appraisal",
+          "href": "/free-appraisal/"
+        },
+        {
+          "label": "Sell My Amp",
+          "href": "/sell-an-amplifier-or-effect/"
+        }
+      ]
+    },
+    {
+      "slug": "fender-champ-authentication-guide",
+      "readingWords": 2344,
+      "readingWordsExcludingChartsFaq": 2034,
+      "faqCount": 4,
+      "faqSchemaCount": 1,
+      "faqMatches": true,
+      "forbiddenSchemaTypes": [],
+      "canonical": "https://www.joesvintageguitarsaz.com/post/fender-champ-authentication-guide/",
+      "dollars": 0,
+      "lowerCtas": [
+        {
+          "label": "Free Appraisal",
+          "href": "/free-appraisal/"
+        },
+        {
+          "label": "Sell My Amp",
+          "href": "/sell-an-amplifier-or-effect/"
+        }
+      ]
+    }
+  ]
+}

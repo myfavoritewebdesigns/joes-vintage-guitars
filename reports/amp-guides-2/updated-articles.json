@@ -1,0 +1,41 @@
+{
+  "method": "Same reading-word method as schema-and-scope.json",
+  "articles": [
+    {
+      "slug": "fender-amp-eras-tweed-brownface-blackface-silverface",
+      "readingWords": 1702
+    },
+    {
+      "slug": "princeton-reverb-vs-deluxe-reverb-vs-twin-reverb",
+      "readingWords": 1894
+    }
+  ],
+  "comparisonRows": [
+    {
+      "id": "fender-super-reverb-11",
+      "model": "Super Reverb",
+      "years": "1963 to 1964",
+      "configuration": "Blackface, Fender Electric",
+      "guidePage": 468,
+      "baselineId": "fender-super-reverb-11",
+      "reductionPercent": 14,
+      "publishedLow": 1950,
+      "publishedHigh": 3450,
+      "lowVerified": true,
+      "highVerified": true
+    },
+    {
+      "id": "fender-vibrolux-4",
+      "model": "Vibrolux Reverb",
+      "years": "1964 to 1967",
+      "configuration": "Blackface",
+      "guidePage": 470,
+      "baselineId": "fender-vibrolux-4",
+      "reductionPercent": 14,
+      "publishedLow": 3000,
+      "publishedHigh": 4300,
+      "lowVerified": true,
+      "highVerified": true
+    }
+  ]
+}

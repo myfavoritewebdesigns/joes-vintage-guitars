@@ -1,0 +1,43 @@
+{
+  "instruction": "Answer only the prompts where you have something useful to add. These are private editorial questions, not published FAQs.",
+  "technicalPrep": "The pre-draft technical questions were resolved through factory documents and original photos; unresolved pricing identities are excluded and flagged.",
+  "questions": [
+    {
+      "question": "What Bassman head-and-cabinet mismatch do you encounter most often?",
+      "why": "Adds your own appraisal experience.",
+      "integrationPoint": "Bassman value, piggyback section.",
+      "status": "Awaiting Joe’s optional experience; no answer invented"
+    },
+    {
+      "question": "Which Super Reverb alteration makes you ask for more photos before estimating it?",
+      "why": "Explains an actual inspection decision.",
+      "integrationPoint": "Super value, four-speaker condition section.",
+      "status": "Awaiting Joe’s optional experience; no answer invented"
+    },
+    {
+      "question": "What usually confuses owners of a non-reverb Vibrolux?",
+      "why": "Tests whether the opening answers the question owners actually bring.",
+      "integrationPoint": "Vibrolux introduction and 1964 example.",
+      "status": "Awaiting Joe’s optional experience; no answer invented"
+    },
+    {
+      "question": "When would you advise a Champ owner to leave worn cabinet material alone?",
+      "why": "Adds your judgment about restoration.",
+      "integrationPoint": "Champ value, preparation section.",
+      "status": "Awaiting Joe’s optional experience; no answer invented"
+    },
+    {
+      "question": "What service paperwork is most useful when you appraise an amp remotely?",
+      "why": "Can make the photo-request process more specific.",
+      "integrationPoint": "All four value appraisal sections.",
+      "status": "Awaiting Joe’s optional experience; no answer invented"
+    },
+    {
+      "question": "Which amp in this photo selection needs a condition detail added from memory?",
+      "why": "Allows you to correct archive context without inventing an anecdote.",
+      "integrationPoint": "The relevant photo timeline.",
+      "status": "Awaiting Joe’s optional experience; no answer invented"
+    }
+  ],
+  "writingDatabaseException": "The four canonical writing databases remain unavailable as disclosed in PR 1. User approved PR 1 and directed PR 2. No unsupported first-person claims are used; QA_GATE 17 remains a disclosed editorial exception for owner resolution."
+}
