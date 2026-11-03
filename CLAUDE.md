@@ -1001,6 +1001,17 @@ The existing amp serial page's Layout title changes, with Joe's explicit approva
 
 This work is preview-only. Joe must approve the specific Cloudflare preview before squash-merge. Confirm the production build and three fresh loads of every new URL after approval, then begin PR 2. No PR 2 implementation is included here.
 
+### 2026-11-03: Standalone Dating Guides In The Blog Category Preview
+
+Joe requested that standalone serial-number and dating pages appear in the existing Serial Number & Dating Guides blog category, with a preview before publishing. Add 54 existing guides as cards linking directly to their current URLs. Keep the seven main serial lookups first, followed by category posts and detailed dating references. Include the guides in the category count and pagination, reuse the existing card styling and licensed local photos, and omit publication dates on standalone-guide cards. The main chronological blog feed and RSS still contain published blog posts. Additional card headings, images, image-license nodes and category pagination are intentional differences from production. This revision remains local until Joe approves its preview.
+
+Joe approved this exact preview on November 3, 2026: "looks good, go ahead and publish it." Publication of this archive revision is authorized.
+
+
+### 2026-11-03: Restore Collapsed Guide Photo Grids
+
+Joe reported missing photographs above visible caption bars in the Bassman preview and corresponding published sections. The shared caption-below flex rule gave unsized photo-grid images zero height. Restore the existing 420px desktop and 360px mobile image areas with nonshrinking flex items, scoped to caption-below photo grids. Captions keep separate space below photos. This intentionally restores 14 placements across six guides, including the published amp eras and Epiphone Olympic articles. Preserve image files, source URLs, alt text, captions, pricing and prose. Future guide image audits must measure actual rendered dimensions and check normal lazy loading and direct anchors, rather than treating successful downloads as proof of visibility. Keep the published-page repair separate from draft PR 308 so it can be reviewed and released independently.
+
 ### 2026-11-03: Gibson Model Guides Batch 3 Preview
 
 Prepared sixteen new reference posts on joe/model-guides-3-gibson: seven authentication/value pairs (Les Paul Deluxe, Thunderbird and EB basses, L-50, L-48, L-4, L-7 and ES-175), plus Byrdland and ES-225 value guides. The Southern Jumbo pair already published in PR #301 stays at its existing URLs. The existing ES-175 history, Byrdland authentication and ES-225 reference pages retain their copy and receive partner links only. Nine existing source files gain contextual links; every new guide has at least three existing inbound pages.
@@ -1012,3 +1023,5 @@ Fifty full-resolution Joe Drive originals supply the photographs. L-48 uses expl
 All 186 chart rows trace to the unlocked 2026 price guide. Frozen row-specific reductions and nearest-$50 calculations are verified privately; raw book ranges and assignments are not committed. Charts describe retail estimates for excellent original instruments with original cases where applicable. The 1964 EB-0 labels and overlapping 1979 Thunderbird labels require individual selection; the page explicitly discloses that limitation. Do not invent a physical distinction or alter the frozen prices. No 1977/1978 Thunderbird or 1971 EB-4L figure was supplied. Preserve the source-ledger discussion of early spruce-top L-48s, factory full-size-humbucker Deluxes and L-4C Florentine cutaways.
 
 The 149-document preservation check includes the 30 Rickenbacker pages, J-200 and existing GuideActions callers. Four planned inbound-link documents differ only by the inserted paragraphs; all other protected HTML is byte-identical. Writing database scaffolds remain a disclosed owner-review exception, as in prior batches. Independent editorial findings, disputed recommendations and visual checks accompany the preview. This work must not be merged until Joe approves the specific Cloudflare previews.
+
+The preview incorporates approved upstream updates through 6a88b4e, including the dating category, Gibson shipment lookup and caption-below image-height fix. Final preservation uses a separately captured build of that exact main commit; the original 2003b74 baseline is retained privately. No batch-specific shared stylesheet change was made.

@@ -1,0 +1,169 @@
+---
+import LicensedImage from './primitives/LicensedImage.astro';
+import customPhoto from '../assets/blog/gibson-shipping-totals-1948-1979/1958-les-paul-custom-bigsby-1024x683.jpg';
+import specialPhoto from '../assets/blog/gibson-shipping-totals-1948-1979/1958-gibson-les-paul-special-tv-yellow-24-1024x683.jpg';
+import { shipmentData, formatCount } from '../lib/gibson-shipments';
+const populated=shipmentData.models.filter(model=>shipmentData.records.some(row=>row.model===model.id));
+const families=['Solidbody Guitars','Electric Archtops And Thinlines','Acoustic Archtops','Flat-Top Acoustics','Basses'];
+const disputed=shipmentData.records.filter(row=>row.status==='disputed');
+const modelRows=new Map(shipmentData.models.map(model=>[model.id,shipmentData.records.filter(row=>row.model===model.id)]));
+---
+<div class="gpt-guide">
+  <p class="gpt-reviewed">Updated November 3, 2026 · {populated.length} Model And Variant Series · {formatCount(shipmentData.records.length)} Entries</p>
+  <p>Gibson shipping records can help answer how many examples of a model left the factory in a particular year. I use them alongside the guitar’s construction, originality and condition when assessing rarity. The records cover shipments, and the year an instrument shipped can differ from the year it was built.</p>
+  <p>This reference brings together published shipment transcriptions for selected Gibson guitars and basses from 1948 to 1979. The model tables and lookup use the same data. Conflicting figures are identified. Coverage varies by model and year.</p>
+  <nav class="gpt-jumps" aria-label="Production Guide Sections">
+    <a href="#reading-the-records">How To Read The Records</a><a href="#model-tables">Browse Every Model</a><a href="#source-conflicts">Conflicting Figures</a><a href="#sources">Definitions And Coverage</a>
+  </nav>
+
+  <section id="reading-the-records">
+    <h2>What A Gibson Shipping Total Can Tell You</h2>
+    <p>A shipment total records activity under a factory model designation. It can include instruments finished earlier, instruments shipped after a model was discontinued, and variants that the published table groups together. It does not count surviving guitars or establish how many retain their original finish.</p>
+    <ul>
+      <li><strong>Finish counts need a separate record.</strong> A model commonly sold in Cherry may still have a total that includes other finishes. The tool reports “Finish not separated” when only a broader count is available.</li>
+      <li><strong>Blank cells remain unknown.</strong> A blank, dash or “x” in a transcription is not converted to zero. An explicit numerical zero is retained as a reported zero for that category.</li>
+      <li><strong>Model transitions can share a year.</strong> Annual counts alone cannot separate P-90 and humbucker Goldtops, every single-cutaway and double-cutaway Junior, or reverse and non-reverse Firebirds.</li>
+      <li><strong>Source coverage matters.</strong> Later Kalamazoo shipment records should not be assumed to cover every Nashville-made instrument. A low recorded number is not sufficient proof of low company-wide production.</li>
+      <li><strong>Series totals cover only the entries shown.</strong> “All Recorded Years” adds the available entries within this reference. It is not a lifetime production total.</li>
+    </ul>
+    <p>To date your guitar, start with the <a href="/how-to-read-gibson-serial-numbers/">Gibson serial number decoder</a> and the instrument’s physical features. Then use the model, year and finish here to look up shipment quantities.</p>
+  </section>
+
+  <section id="lp-std-52-61">
+    <h2>Gibson Les Paul Production Numbers And Shipping Totals</h2>
+    <p>The familiar 1950s series runs from 1,716 shipments in 1952 to 635 in 1960. The <strong>1958 total of 434 combines Goldtops and Sunbursts</strong>. A reliable separate 1958 finish count is not supplied by that series. The 1959 and 1960 model totals are 643 and 635. Those entries cannot be used to calculate an exact number of surviving Bursts.</p>
+    <p>The original Les Paul body and the SG-shaped Les Paul Standard need separate lookups. The SG-shaped series records 1,662 shipments in 1961.</p>
+    <p>For the finish transition, see the <a href="/post/1958-gibson-les-paul-standard-guide/">1958 Les Paul guide</a>. For value, compare the identified guitar with the <a href="/vintage-gibson-les-paul-market-value-guide/">Les Paul market value guide</a>.</p>
+  </section>
+  <section id="lp-cust-55-61">
+    <h2>Les Paul Custom Shipping Totals</h2>
+    <p>The first Custom series begins with <strong>94 shipments in 1954</strong>. Its 1957 figure of 283 covers a transition year and should not be presented as a count of three-humbucker Customs alone. The original Custom series and SG-shaped Custom have separate records; the latter records 513 shipments in 1961.</p>
+    <p>The Custom shipment table also gives the returning model’s 1968 to 1979 series. Later totals include multiple finishes and configurations. Selecting Black cannot turn a model-wide figure into a Black-only count.</p>
+    <figure class="gpt-photo"><LicensedImage src={customPhoto} alt="1958 Gibson Les Paul Custom with a Bigsby tailpiece" caption="1958 Gibson Les Paul Custom from Joe’s archive. A model total does not isolate its tailpiece configuration." width={1000} /><figcaption>1958 Gibson Les Paul Custom from Joe’s archive. A model total does not isolate its tailpiece configuration.</figcaption></figure>
+  </section>
+  <section id="lp-jr-tv-54-61">
+    <h2>Les Paul Junior And TV Model Records</h2>
+    <p>The checked full-size Junior series places <strong>2,408 shipments in 1958, 4,364 in 1959 and 2,513 in 1960</strong>. The 1958 total spans the body change. The TV Model has its own record and is kept separate from the Junior total.</p>
+    <p>The 1955 TV count remains flagged because the earlier transcription and the checked reference differ. Three-quarter-scale Junior counts also require their own series; they are not included in the full-size Junior totals.</p>
+  </section>
+  <section id="lp-spec-55-61">
+    <h2>Les Paul Special And Finish Changes</h2>
+    <p>The original slab-body Special series reports 373 in 1955, 1,345 in 1956, 1,452 in 1957, 958 in 1958, 1,821 in 1959 and 1,387 in 1960. These are model totals in the published series. The lookup keeps the finish and body-style breakdown unresolved where that table does not separate it.</p>
+    <figure class="gpt-photo"><LicensedImage src={specialPhoto} alt="1958 Gibson Les Paul Special in TV Yellow with two P-90 pickups" caption="1958 Gibson Les Paul Special. Establish the body style and original finish before comparing shipment categories." width={1000} /><figcaption>1958 Gibson Les Paul Special. Establish the body style and original finish before comparing shipment categories.</figcaption></figure>
+  </section>
+  <section id="norlin-lp-68-79">
+    <h2>Later Les Pauls, Finish Rows And Left-Handed Guitars</h2>
+    <p>The Les Paul Deluxe records distinguish Goldtop, Cherry, Cherry Sunburst, Tobacco Sunburst, Natural, Walnut, Wine Red, sparkle finishes, left-handed variants and a full-size-humbucker category. Those distinctions affect the total.</p>
+    <p>For example, <strong>34 is the 1976 Goldtop standard-listing count</strong>. Adding every listed 1976 Deluxe category gives 172. The full Deluxe table supports that calculation. The lookup preserves each component so the arithmetic can be checked.</p>
+    <p>The sequence 2, 331, 293 and 224 for 1976 to 1979 belongs to the Les Paul 55. The Les Paul Pro Deluxe has a different identity. Recording and later Custom records are also included. Annual Artisan, Pro Deluxe and later Standard figures remain unavailable where a dependable category match has not been established.</p>
+  </section>
+  <section id="sg-std-cust-62-78">
+    <h2>SG Standard And Custom Records</h2>
+    <p>The SG-shaped Standard and Custom series starts in 1961 while the instruments still carried Les Paul branding. The 1961 figures are 1,662 Standards and 513 Customs. The older table’s early SG totals agree with the published solidbody series, but labeling every Standard Cherry and every Custom White overstates the finish detail available.</p>
+    <p>For 1970, the catalog reference and shipment discussion reports 6,677 Standards. Later SG finish and hardware categories require care; only the checked entries appear in this edition.</p>
+  </section>
+  <section id="sg-jr-spec-62-78">
+    <h2>SG Junior And Special Records</h2>
+    <p>The SG Junior series includes 2,151 in 1961 and extends through 938 in 1970. The Special has separate Cherry and White records in much of the 1960s. For 1970, the broader published Special total is 4,982, so a smaller finish-category figure cannot stand in for the whole model.</p>
+  </section>
+  <section id="tv-yellow-sg-62-68">
+    <h2>The SG TV Category</h2>
+    <p>The SG TV series is kept as a separate ledger category. Its online reference explicitly expresses uncertainty about whether the entry includes both Juniors and Specials. The lookup therefore makes no exact allocation between them and does not add the category to either model’s total. The familiar television explanation for the finish does not establish how these particular shipments were classified.</p>
+  </section>
+  <section id="es-semi-58-69">
+    <h2>ES-335, ES-345 And ES-355 Records</h2>
+    <p>The ES-335 and ES-345 series separates Sunburst, Cherry and Natural for the years where those records are listed. The ES-335 lookup also includes later Ebony, Walnut, Wine Red and other source categories through 1979. Separate left-handed and unusual source-code entries remain distinct.</p>
+    <p><strong>ES-355 mono and stereo are separate models in the shipment table.</strong> In 1959, the record gives 177 mono ES-355TDs and 123 stereo ES-355TDSVs. Their combined 300 is not a documented Cherry-only total. The source does not resolve every custom finish.</p>
+    <p>The <a href="/post/gibson-es-335-345-355-guide/">ES-335, ES-345 and ES-355 comparison</a> explains their construction and controls. A mono ES-355 should not automatically be described as having the stereo model’s Varitone circuit.</p>
+  </section>
+  <section id="premier-arch-48-69">
+    <h2>L-5CES, Super 400CES And McCarty L-7 Records</h2>
+    <p>Keep the electric L-5CES and Super 400CES separate from their acoustic counterparts. Natural and Sunburst columns belong to a particular model, and moving a Natural figure from one table to another produces a convincing but incorrect result.</p>
+    <p>The McCarty-pickguard L-7 entries distinguish cutaway and non-cutaway bodies as well as one-pickup and two-pickup versions. For example, the 1954 reference has 1 Sunburst L-7E, 8 Sunburst L-7CE and 5 Sunburst L-7CED shipments. The individual tables below preserve those categories instead of hiding them under one L-7E label.</p>
+  </section>
+  <section id="es-arch-49-79">
+    <h2>ES-175, ES-225, ES-295 And ES-5 Records</h2>
+    <p>The ES-175 and ES-175D distinguish one-pickup and two-pickup instruments. The ES-225T and ES-225TD need the same separation, with Natural variants listed individually. Several ES-175 cells conflict between references, and the late 1970s category changes are not clear enough to turn every earlier figure into an exact finish count.</p>
+    <p>The ES-5 and Switchmaster are separate series. The checked ES-5 table includes <strong>88 Sunburst shipments in 1951</strong>, alongside 77 Natural. The ES-295 figures are model totals; a Gold-finish-only count should not be inferred from the model’s usual appearance.</p>
+  </section>
+  <section id="thinline-arch-48-79">
+    <h2>ES-300, ES-330, ES-350 And Byrdland Records</h2>
+    <p>The deep-body ES-350 and thinline ES-350T have separate lookups. The ES-330T is the one-pickup model; the ES-330TD is the two-pickup model. A 1959 ES-330 should not be described as the later long-neck version merely because it is a first-year guitar.</p>
+    <p>The Byrdland series extends through 1979. Its 1959 Sunburst count is disputed between the checked references, so the result shows both figures and withholds an exact total. A model’s normal specifications cannot settle a disagreement in the records.</p>
+  </section>
+  <section id="acoustic-arch-48-79">
+    <h2>Acoustic L-4, L-5, L-7 And Super 400 Records</h2>
+    <p>Acoustic archtops are grouped separately below. A C suffix identifies a cutaway version in these tables. The L-5C Natural series differs from the L-5CES Natural series; for example, the acoustic L-5C record gives 5 Natural shipments in 1961, while the electric L-5CES record gives 13.</p>
+    <p>The reference also lists Natural non-cutaway L-7 shipments from 1948 to 1955, including 125 in 1948. Those entries belong alongside the Sunburst figures. Super 300, L-12 and L-12C records extend the coverage beyond the original page.</p>
+  </section>
+  <section id="firebird-63-69">
+    <h2>Firebird Shipping Totals</h2>
+    <p>The Firebird I, III, V, VII and XII figures are model totals. The 1965 records cross the reverse-to-non-reverse change and do not give a dependable split by body style. A Pelham Blue or Polaris White selection therefore returns no exact finish count from this series. The model’s recorded total remains available as broader context.</p>
+  </section>
+  <section id="modern-59-79">
+    <h2>Flying V, Explorer And Moderne</h2>
+    <p><strong>The 1958 and 1959 counts of 19 and 3 belong to the Explorer.</strong> Gibson itself confirms 19 Explorers and 81 Flying Vs shipped in 1958. The solidbody table gives 3 Explorers and 17 Flying Vs for 1959. These figures cannot be relabeled as Moderne shipments.</p>
+    <p>The Moderne remains searchable to explain the gap, with no unsupported 1950s count. Later V and Explorer runs require their own source categories. A production year, reissue designation and special-run name should all be checked before comparing quantities.</p>
+  </section>
+  <section id="more-models">
+    <h2>Additional Models In This Reference</h2>
+    <p><strong>Flat-tops:</strong> J-45 and J-50 standard-bridge and adjustable-bridge series, J-160E, J-185, J-200, Southern Jumbo, SJN/Country Western, Hummingbird, Dove, Everly Brothers, CF-100, CF-100E and LG-0. Bridge variants and model renamings stay visible.</p>
+    <p><strong>Electric guitars:</strong> Melody Maker variants, Les Paul 55 and Recording, L-6S Custom and Deluxe, Midnight Special, Marauder and Marauder Custom, S-1, RD models, ES-120T, ES-125 variants, ES-150DC, ES-340, Johnny Smith variants, Barney Kessel, Tal Farlow, Trini Lopez and double-neck source categories.</p>
+    <p><strong>Basses:</strong> EB-0, EB-0L, EB-0F, EB-1, EB-2, EB-2D, EB-3, EB-3L, EB-6, Thunderbird II and IV, Grabber, Ripper, fretless Ripper, Les Paul Bass/Triumph, Les Paul Signature Bass and SB models. Early EB-3 records may combine scale lengths; the lookup explains that limitation.</p>
+  </section>
+
+  <section id="model-tables" class="gpt-tables">
+    <h2>Browse The Model Tables</h2>
+    <p>Open a model to see every included year and source category. “Not separated” means the source gives a model-wide count. “Unspecified finish” is a separate, unallocated row in a table that also lists named finishes.</p>
+    {families.map(family=><section class="gpt-family" id={`tables-${family.toLowerCase().replace(/[^a-z0-9]+/g,'-')}`}>
+      <h3>{family}</h3>
+      {shipmentData.models.filter(model=>model.family===family).map(model=>{
+        const rows=modelRows.get(model.id)!;const years=[...new Set(rows.map(row=>row.year))].sort();
+        return <details class="gpt-model" id={`model-${model.id}`}>
+          <summary><strong>{model.name}</strong><span>{rows.length?`${years[0]}${years.length>1?` to ${years.at(-1)}`:''} · ${rows.length} ${rows.length===1?'entry':'entries'}`:'Coverage Note'}</span></summary>
+          <div class="gpt-model__body">
+            {model.note&&<p>{model.note}</p>}
+            <p><a href={`?model=${encodeURIComponent(model.id)}&year=all#shipment-lookup`}>Select {model.name} In The Lookup</a></p>
+            {rows.length>0&&<div class="gpt-table-scroll" role="region" aria-label={`${model.name} shipment records`} tabindex="0"><table>
+              <caption>{model.name}: Included Shipment Records</caption>
+              <thead><tr><th scope="col">Year</th><th scope="col">Finish / Category</th><th scope="col">Variant</th><th scope="col">Shipments</th></tr></thead>
+              <tbody>{rows.map(row=><tr><th scope="row">{row.year}</th><td>{row.finish}</td><td>{row.variant||'As Listed'}</td><td>{row.status==='disputed'?<span class="gpt-disputed">Disputed{row.alternatives&&`: ${row.alternatives.map(value=>formatCount(value.count)).join(' / ')}`}</span>:formatCount(row.count)}</td></tr>)}</tbody>
+            </table></div>}
+          </div>
+        </details>;
+      })}
+    </section>)}
+  </section>
+  <section id="source-conflicts">
+    <h2>Conflicting Figures And Open Questions</h2>
+    <p>Agreement between web tables can reflect a shared earlier transcription. It does not establish an independent reading of the original ledger. These disagreements remain visible, and the lookup does not add a disputed cell into an exact total.</p>
+    <div class="gpt-table-scroll" role="region" aria-label="Conflicting shipment figures" tabindex="0"><table><thead><tr><th scope="col">Model / Year</th><th scope="col">Category</th><th scope="col">Published Figures</th></tr></thead><tbody>{disputed.map(row=><tr><td>{shipmentData.models.find(model=>model.id===row.model)?.name}, {row.year}</td><td>{row.finish}</td><td>{row.alternatives?row.alternatives.map((alt,index)=><>{index>0?'; ':''}{formatCount(alt.count)}</>):'Published counts differ: 230 and 219. An exact count remains unresolved.'}</td></tr>)}</tbody></table></div>
+    <p>Additional gaps include some 1961 original-body Les Paul entries, full three-quarter-scale Junior coverage, later SG subdivisions, parts of the 1970s ES-175 and acoustic archtop series, later Flying V and Explorer categories, Les Paul Artisan and Pro Deluxe totals, and LG-1/LG-2/LG-3/B-25 series. An original shipment ledger or a clearly cited book table is needed to settle those categories. They are not filled with estimates.</p>
+  </section>
+  <section id="sources">
+    <h2>Definitions And Coverage</h2>
+    <p>The numerical database uses published transcriptions and secondary compilations. Gibson’s own historical statement corroborates the 1958 Explorer and Flying V figures. The original factory ledgers and complete printed shipment books were not inspected for every entry in this edition.</p>
+    <p>Counts are transcribed at the source’s level of detail. The tool adds only distinct listed categories; it does not add a printed total to the rows that make up that total. It preserves an explicit zero and withholds disputed values. Downloaded records include their category labels.</p>
+  </section>
+  <section id="conclusion">
+    <h2>Identify Your Gibson Before Comparing Rarity</h2>
+    <p>A low shipment count is one part of an appraisal. Original finish, repairs, replaced parts, features, condition and demand all affect value. Send photographs of the whole guitar, headstock, serial number, label and visible hardware for a <a href="/free-appraisal/">free appraisal</a>. If you are ready to sell, read about <a href="/sell-my-gibson-guitar/">selling a vintage Gibson</a>.</p>
+  </section>
+</div>
+<style>
+  .gpt-reviewed{font-size:.82rem!important;font-weight:700;color:var(--color-brand-rust-dark);letter-spacing:.02em}
+  .gpt-guide section,.gpt-guide li[id],.gpt-model{scroll-margin-top:145px}
+  .gpt-jumps{display:flex;flex-wrap:wrap;gap:10px 22px;padding:18px 0;border-block:1px solid #d7c6a7;margin:2rem 0;font-weight:700;font-size:.9rem}
+  .gpt-guide h2{margin-top:2.5rem}.gpt-guide li{margin-bottom:.7rem}
+  .gpt-photo{margin:24px 0!important}.gpt-photo figcaption{font-size:.85rem!important;line-height:1.6;color:#5d4a33;margin-top:10px}
+  .gpt-family{margin:30px 0}.gpt-family>h3{padding-bottom:12px;border-bottom:3px solid var(--color-brand-rust)}
+  .gpt-model{border-bottom:1px solid #d7c6a7;background:#fffdf8}
+  .gpt-model summary{padding:18px 14px;cursor:pointer;line-height:1.5;color:var(--color-brand-brown)}
+  .gpt-model summary strong{font-size:1rem}.gpt-model summary span{display:block;margin-left:20px;font-size:.8rem;font-weight:400;color:#66543c}
+  .gpt-model[open] summary{background:var(--color-brand-cream)}.gpt-model__body{padding:6px 16px 22px}.gpt-model__body p{font-size:.92rem}
+  .gpt-table-scroll{overflow-x:auto;margin:15px 0}.gpt-table-scroll table{min-width:600px;margin:0!important;font-size:.87rem}
+  .gpt-table-scroll th,.gpt-table-scroll td{vertical-align:top}.gpt-table-scroll tbody th{text-align:left;background:#f5eddf;color:#362719}
+  .gpt-table-scroll caption{text-align:left;font-weight:700;padding:10px 0}.gpt-disputed{font-weight:700;color:#802f1b}
+  summary:focus-visible,.gpt-table-scroll:focus-visible{outline:3px solid #bc682b;outline-offset:3px}
+  @media(max-width:600px){.gpt-model summary{padding:15px 10px}.gpt-model__body{padding-inline:10px}.gpt-table-scroll table{font-size:.8rem}}
+</style>
