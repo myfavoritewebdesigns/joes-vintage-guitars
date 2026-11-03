@@ -2,7 +2,7 @@
 title: "Vintage Fender Super And Super Reverb Identification"
 seoTitle: "Fender Super Reverb Guide: Circuits, Speakers And Dates"
 pubDate: "2026-11-02"
-modified: "2026-11-02"
+modified: "2026-11-03"
 excerpt: "Identify vintage Fender Super and Super Reverb amps with circuit tables, original brownface photos, speaker codes, silverface checks and reissue clues."
 category: "specific-model-highlights"
 categoryName: "Specific Model Highlights"

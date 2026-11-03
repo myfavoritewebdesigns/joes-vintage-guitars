@@ -246,8 +246,9 @@
       "transform": "none",
       "sha256": "e59540b3280bf936178afc1e755f9a0a3208bead1f7ac6a0da780cc10e057588",
       "originalSha256": "e59540b3280bf936178afc1e755f9a0a3208bead1f7ac6a0da780cc10e057588",
-      "verifiedModel": "1963 To 1967 Fender Super Reverb",
-      "codeReadings": []
+      "verifiedModel": "1965 Fender Super Reverb",
+      "codeReadings": [],
+      "yearConfirmation": "Joe explicitly confirmed 1965 on November 3, 2026. The date-stamp letters remain unreadable; no month is inferred from them."
     },
     {
       "key": "superBlackControls",
@@ -262,8 +263,9 @@
       "transform": "none",
       "sha256": "d182b9a679562cc1bcab86a57612c58c8afb848d2a677e9832c2099983f29cdb",
       "originalSha256": "d182b9a679562cc1bcab86a57612c58c8afb848d2a677e9832c2099983f29cdb",
-      "verifiedModel": "1963 To 1967 Fender Super Reverb",
-      "codeReadings": []
+      "verifiedModel": "1965 Fender Super Reverb",
+      "codeReadings": [],
+      "yearConfirmation": "Joe explicitly confirmed 1965 on November 3, 2026. The date-stamp letters remain unreadable; no month is inferred from them."
     },
     {
       "key": "superBlackBack",
@@ -278,8 +280,9 @@
       "transform": "none",
       "sha256": "662e0c3f1873343a392d9ad173b92b7dcfb4d58c4614a722c0857a719a58888d",
       "originalSha256": "662e0c3f1873343a392d9ad173b92b7dcfb4d58c4614a722c0857a719a58888d",
-      "verifiedModel": "1963 To 1967 Fender Super Reverb",
-      "codeReadings": []
+      "verifiedModel": "1965 Fender Super Reverb",
+      "codeReadings": [],
+      "yearConfirmation": "Joe explicitly confirmed 1965 on November 3, 2026. The date-stamp letters remain unreadable; no month is inferred from them."
     },
     {
       "key": "superBlackChart",
@@ -294,11 +297,12 @@
       "transform": "none",
       "sha256": "70ab2f7548fbb659607c4b4eb9a530bf5a29fd4eec407429fc7cd7b881253b2d",
       "originalSha256": "70ab2f7548fbb659607c4b4eb9a530bf5a29fd4eec407429fc7cd7b881253b2d",
-      "verifiedModel": "1963 To 1967 Fender Super Reverb",
+      "verifiedModel": "1965 Fender Super Reverb",
       "codeReadings": [
         "AB763 printed circuit designation",
-        "Two-letter stamp unclear; no exact production year inferred"
-      ]
+        "Two-letter stamp unclear; no date letters transcribed. Joe separately confirmed the amp as a 1965 on November 3, 2026."
+      ],
+      "yearConfirmation": "Joe explicitly confirmed 1965 on November 3, 2026. The date-stamp letters remain unreadable; no month is inferred from them."
     },
     {
       "key": "vibroTweedFront",

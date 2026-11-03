@@ -1019,3 +1019,8 @@ PR 2 integration update: a concurrent approved Epiphone publication advanced mai
 ### 2026-11-03: Bassman Listing Examples And Grille Cloth
 
 Joe supplied Reverb listings 81558022 (1960s blackface head) and 93427883 (1961 blonde/oxblood set) and requested both examples plus an explanation of oxblood and wheat cloth. Add linked examples to the Bassman value guide’s piggyback discussion and identification timeline. Preserve the blackface listing’s decade-only date and disclose its replacement blue pilot-light jewel. Attribute the 1961 original 1x12 tone-ring cabinet to Joe’s listing. Fender’s model history supports the late 1962 maroon-to-wheat change; grille color remains a cosmetic clue to corroborate with dated components. No listing prices, new photographs, value rows or shared styling are introduced. These are intentional text additions to draft PR 308; publication remains pending Joe’s approval.
+
+
+### 2026-11-03: Super Reverb Archive Correction
+
+Joe rejected the archive sentences about inferring a blackface or silverface model and preserving wear as an untouched reference; remove them and use direct visual descriptions. Joe also explicitly identified the pictured blackface Super Reverb as a 1965. Update its archive heading, dating-card prose, four photo captions and alt texts, and the value page image metadata to 1965. This supersedes the previous broad 1963 to 1967 archive date; do not restore date uncertainty merely because the paper stamp is faded. Preserve the unreadable-stamp note and avoid inventing a production month. Price groups and broad house era dates remain unchanged. Draft PR 308 preview only.

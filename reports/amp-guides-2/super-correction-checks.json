@@ -1,0 +1,88 @@
+{
+  "checkedAt": "2026-11-03T16:33:24.584Z",
+  "baselineCommit": "c25c552c36c07f24259391fcc13548e1fb514ad5",
+  "htmlFilesChecked": 427,
+  "changedHtml": [
+    "blog/page/2/index.html",
+    "category/value-evaluation/index.html",
+    "post/fender-super-reverb-authentication-guide/index.html",
+    "post/fender-super-reverb-value-guide/index.html"
+  ],
+  "otherPostChanges": [],
+  "pages": [
+    {
+      "slug": "fender-super-reverb-value-guide",
+      "readingWords": 1793,
+      "readingWordsExcludingChartsFaq": 1501,
+      "removedPhrasesAbsent": true,
+      "confirmedYearPresent": true,
+      "photoLabels": [
+        "1965 Fender Super Reverb front"
+      ],
+      "archiveHeading": [],
+      "dateCard": ""
+    },
+    {
+      "slug": "fender-super-reverb-authentication-guide",
+      "readingWords": 2212,
+      "readingWordsExcludingChartsFaq": 1854,
+      "removedPhrasesAbsent": true,
+      "confirmedYearPresent": true,
+      "photoLabels": [
+        "1965 Fender Super Reverb chart",
+        "1965 Fender Super Reverb front",
+        "1965 Fender Super Reverb controls",
+        "1965 Fender Super Reverb back"
+      ],
+      "archiveHeading": [
+        "1960 Fender Super",
+        "1962 Fender Super",
+        "1965 Fender Super Reverb"
+      ],
+      "dateCard": "5Two Examples From The ArchiveRead The Super’s Codes In ContextStart with the two-letter chart stamp when it survives. Joe’s Fender amplifier decoder uses A for 1951 in the year position and covers stamps used until about 1970. A printed circuit code is a separate kind of information. Fender amp serials don’t reliably establish the production year.Next collect the speaker and transformer markings, keeping all four speakers separate on a Super Reverb. A single changed speaker may have a much later date than the other components. The control-pot reference adds another check when those markings are safely documented by a technician.220014A Speaker Code On The 1960 SuperThe six-digit frame stamp is readable in Joe’s photograph. Any trailing mark is excluded from the transcription. Compare the component code with the cabinet and other dated parts; it is evidence about this speaker, not a complete production certificate for the amplifier.{\"@context\":\"https://schema.org\",\"@type\":\"ImageObject\",\"contentUrl\":\"https://www.joesvintageguitarsaz.com/_astro/1960-fender-super-pink-14.CsgAL-Jp_2oeIkn.webp\",\"width\":1000,\"height\":667,\"caption\":\"1960 Fender Super\",\"license\":\"https://www.joesvintageguitarsaz.com/photo-license/\",\"acquireLicensePage\":\"https://www.joesvintageguitarsaz.com/photo-license/\",\"creditText\":\"Joe Dampt, Joe's Vintage Guitars\",\"creator\":{\"@type\":\"Person\",\"name\":\"Joe Dampt\"},\"copyrightNotice\":\"© Joe Dampt, Joe's Vintage Guitars\"}1960 Fender SuperAB763The Super Reverb’s Printed CircuitThe chart clearly prints AB763 on this 1965 Super Reverb. Its faded date-stamp letters are too faint to read reliably.{\"@context\":\"https://schema.org\",\"@type\":\"ImageObject\",\"contentUrl\":\"https://www.joesvintageguitarsaz.com/_astro/IMG_4382.BJyYAEit_ZwRshE.webp\",\"width\":1000,\"height\":667,\"caption\":\"1965 Fender Super Reverb\",\"license\":\"https://www.joesvintageguitarsaz.com/photo-license/\",\"acquireLicensePage\":\"https://www.joesvintageguitarsaz.com/photo-license/\",\"creditText\":\"Joe Dampt, Joe's Vintage Guitars\",\"creator\":{\"@type\":\"Person\",\"name\":\"Joe Dampt\"},\"copyrightNotice\":\"© Joe Dampt, Joe's Vintage Guitars\"}1965 Fender Super Reverb"
+    }
+  ],
+  "photos": [
+    {
+      "key": "superBlackFront",
+      "verifiedModel": "1965 Fender Super Reverb",
+      "yearConfirmation": "Joe explicitly confirmed 1965 on November 3, 2026. The date-stamp letters remain unreadable; no month is inferred from them.",
+      "originalBytesPreserved": true
+    },
+    {
+      "key": "superBlackControls",
+      "verifiedModel": "1965 Fender Super Reverb",
+      "yearConfirmation": "Joe explicitly confirmed 1965 on November 3, 2026. The date-stamp letters remain unreadable; no month is inferred from them.",
+      "originalBytesPreserved": true
+    },
+    {
+      "key": "superBlackBack",
+      "verifiedModel": "1965 Fender Super Reverb",
+      "yearConfirmation": "Joe explicitly confirmed 1965 on November 3, 2026. The date-stamp letters remain unreadable; no month is inferred from them.",
+      "originalBytesPreserved": true
+    },
+    {
+      "key": "superBlackChart",
+      "verifiedModel": "1965 Fender Super Reverb",
+      "yearConfirmation": "Joe explicitly confirmed 1965 on November 3, 2026. The date-stamp letters remain unreadable; no month is inferred from them.",
+      "originalBytesPreserved": true
+    }
+  ],
+  "licensedImageNodes": 17,
+  "licenseMismatches": 0,
+  "pass": true,
+  "feedChecks": [
+    {
+      "path": "/blog/page/2/",
+      "status": 200,
+      "comparisonNormalization": "Visible time text normalized to its unchanged datetime attribute. Prior hosted UTC and local Phoenix builds already display different calendar dates.",
+      "onlyExpectedImageAltChanged": true
+    },
+    {
+      "path": "/category/value-evaluation/",
+      "status": 200,
+      "comparisonNormalization": "Visible time text normalized to its unchanged datetime attribute. Prior hosted UTC and local Phoenix builds already display different calendar dates.",
+      "onlyExpectedImageAltChanged": true
+    }
+  ]
+}
