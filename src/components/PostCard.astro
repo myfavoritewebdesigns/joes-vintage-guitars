@@ -1,23 +1,36 @@
 ---
-import type { Post } from "../lib/blog";
+import type { ArchiveEntry } from "../lib/blog";
 import { categoryName, formatDate } from "../lib/blog";
 import { assetSrc, resolveImage } from "../lib/images";
 import { Image } from "astro:assets";
+import LicensedImage from "./primitives/LicensedImage.astro";
+import { SERIAL_DATING_CATEGORY } from "../data/serial-dating-guides";
 
 interface Props {
-  post: Post;
+  post: ArchiveEntry;
   eager?: boolean;
 }
 const { post, eager = false } = Astro.props;
-const { data, id } = post;
-const href = `/post/${id}/`;
+const guide = "href" in post ? post : null;
+const data = "data" in post ? post.data : {
+  title: post.title,
+  excerpt: post.excerpt,
+  category: SERIAL_DATING_CATEGORY,
+  categoryName: undefined,
+  heroImage: undefined,
+  heroImageAlt: post.imageAlt,
+  pubDate: undefined,
+};
+const href = "href" in post ? post.href : `/post/${post.id}/`;
 const catHref = `/category/${data.category}/`;
 const heroMeta = data.heroImage ? resolveImage(data.heroImage) : null;
 ---
 
 <article class="bpc">
   <a class="bpc__media" href={href} aria-label={data.title}>
-    {data.heroImage ? (
+    {guide ? (
+      <LicensedImage src={guide.image} alt={guide.imageAlt} width={700} loading={eager ? "eager" : "lazy"} emitSchema={false} />
+    ) : data.heroImage ? (
       heroMeta ? (
         <Image
           src={heroMeta}
@@ -39,10 +52,11 @@ const heroMeta = data.heroImage ? resolveImage(data.heroImage) : null;
       <span class="bpc__media-fallback" aria-hidden="true">JVG</span>
     )}
   </a>
+  {guide && <LicensedImage src={guide.image} alt={guide.imageAlt} width={700} schemaOnly />}
   <div class="bpc__body">
     <a class="bpc__cat" href={catHref}>{categoryName(data.category, data.categoryName)}</a>
     <h2 class="bpc__title"><a href={href}>{data.title}</a></h2>
-    <time class="bpc__date" datetime={data.pubDate.toISOString()}>{formatDate(data.pubDate)}</time>
+    {data.pubDate && <time class="bpc__date" datetime={data.pubDate.toISOString()}>{formatDate(data.pubDate)}</time>}
     {data.excerpt && <p class="bpc__excerpt">{data.excerpt}</p>}
     <a class="bpc__more" href={href}>Read more <span aria-hidden="true">&rarr;</span></a>
   </div>
@@ -69,14 +83,14 @@ const heroMeta = data.heroImage ? resolveImage(data.heroImage) : null;
     overflow: hidden;
     background: var(--color-brand-rust-dark, #682412);
   }
-  .bpc__media img {
+  .bpc__media :global(img) {
     width: 100%;
     height: 100%;
     object-fit: cover;
     display: block;
     transition: transform 0.4s;
   }
-  .bpc:hover .bpc__media img {
+  .bpc:hover .bpc__media :global(img) {
     transform: scale(1.04);
   }
   .bpc__media-fallback {

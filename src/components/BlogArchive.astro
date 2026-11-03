@@ -3,7 +3,7 @@ import { guitarGuides } from "../config/site";
 import PostCard from "./PostCard.astro";
 import BlogPagination from "./BlogPagination.astro";
 import ContactSection from "./ContactSection.astro";
-import type { Post } from "../lib/blog";
+import type { ArchiveEntry } from "../lib/blog";
 
 interface CategoryLink {
   slug: string;
@@ -13,7 +13,7 @@ interface CategoryLink {
 interface Props {
   heading: string;
   intro?: string;
-  posts: Post[];
+  posts: ArchiveEntry[];
   current: number;
   total: number;
   basePath: string;
