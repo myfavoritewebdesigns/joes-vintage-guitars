@@ -7,11 +7,11 @@ excerpt: "Find Gibson Byrdland values by era, finish and pickup configuration. C
 category: "value-evaluation"
 categoryName: "Value & Evaluation"
 tags: ["Gibson","Value Guides","Guitars"]
-heroImage: "images/model-guides-3/1974-gibson-byrdland-winde-red-1.jpg"
-heroImageAlt: "1974 Gibson Byrdland in wine red, with gold hardware."
-heroImageCaption: "1974 Gibson Byrdland in wine red, with gold hardware."
+heroImage: "images/model-guides-3/gibson-byrdland1957-body.jpg"
+heroImageAlt: "1957 Gibson Byrdland in sunburst, with black Alnico pickups and gold hardware."
+heroImageCaption: "1957 Gibson Byrdland in sunburst, with black Alnico pickups and gold hardware."
 heroImageLicensed: true
-ogImage: "images/model-guides-3/1974-gibson-byrdland-winde-red-1.jpg"
+ogImage: "images/model-guides-3/gibson-byrdland1957-body.jpg"
 metaDescription: "Find Gibson Byrdland values by era, finish and pickup configuration. Compare Alnico, PAF and later models, with notes on repairs and gold hardware."
 author: "Joe Dampt"
 draft: false

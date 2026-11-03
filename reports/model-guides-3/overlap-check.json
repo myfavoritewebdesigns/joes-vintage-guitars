@@ -96,8 +96,8 @@
       "a": "gibson-l-50-authentication-guide",
       "b": "gibson-byrdland-value-guide",
       "twin": false,
-      "articlePercent": 1.62,
-      "wholePagePercent": 9.82
+      "articlePercent": 1.5,
+      "wholePagePercent": 9.16
     },
     {
       "a": "gibson-l-50-authentication-guide",
@@ -194,8 +194,8 @@
       "a": "gibson-l-50-value-guide",
       "b": "gibson-byrdland-value-guide",
       "twin": false,
-      "articlePercent": 5.54,
-      "wholePagePercent": 13.48
+      "articlePercent": 5.23,
+      "wholePagePercent": 12.78
     },
     {
       "a": "gibson-l-50-value-guide",
@@ -285,8 +285,8 @@
       "a": "gibson-l-48-authentication-guide",
       "b": "gibson-byrdland-value-guide",
       "twin": false,
-      "articlePercent": 1.62,
-      "wholePagePercent": 9.82
+      "articlePercent": 1.5,
+      "wholePagePercent": 9.16
     },
     {
       "a": "gibson-l-48-authentication-guide",
@@ -369,8 +369,8 @@
       "a": "gibson-l-48-value-guide",
       "b": "gibson-byrdland-value-guide",
       "twin": false,
-      "articlePercent": 5.43,
-      "wholePagePercent": 13.38
+      "articlePercent": 5.17,
+      "wholePagePercent": 12.8
     },
     {
       "a": "gibson-l-48-value-guide",
@@ -446,8 +446,8 @@
       "a": "gibson-les-paul-deluxe-authentication-guide",
       "b": "gibson-byrdland-value-guide",
       "twin": false,
-      "articlePercent": 1.62,
-      "wholePagePercent": 9.41
+      "articlePercent": 1.5,
+      "wholePagePercent": 8.78
     },
     {
       "a": "gibson-les-paul-deluxe-authentication-guide",
@@ -516,8 +516,8 @@
       "a": "gibson-les-paul-deluxe-value-guide",
       "b": "gibson-byrdland-value-guide",
       "twin": false,
-      "articlePercent": 5.76,
-      "wholePagePercent": 13.22
+      "articlePercent": 5.44,
+      "wholePagePercent": 12.54
     },
     {
       "a": "gibson-les-paul-deluxe-value-guide",
@@ -579,8 +579,8 @@
       "a": "gibson-l-4-authentication-guide",
       "b": "gibson-byrdland-value-guide",
       "twin": false,
-      "articlePercent": 1.62,
-      "wholePagePercent": 9.82
+      "articlePercent": 1.5,
+      "wholePagePercent": 9.16
     },
     {
       "a": "gibson-l-4-authentication-guide",
@@ -635,8 +635,8 @@
       "a": "gibson-l-4-value-guide",
       "b": "gibson-byrdland-value-guide",
       "twin": false,
-      "articlePercent": 5.48,
-      "wholePagePercent": 13.43
+      "articlePercent": 5.16,
+      "wholePagePercent": 12.69
     },
     {
       "a": "gibson-l-4-value-guide",
@@ -684,8 +684,8 @@
       "a": "gibson-l-7-authentication-guide",
       "b": "gibson-byrdland-value-guide",
       "twin": false,
-      "articlePercent": 1.62,
-      "wholePagePercent": 9.82
+      "articlePercent": 1.5,
+      "wholePagePercent": 9.16
     },
     {
       "a": "gibson-l-7-authentication-guide",
@@ -726,8 +726,8 @@
       "a": "gibson-l-7-value-guide",
       "b": "gibson-byrdland-value-guide",
       "twin": false,
-      "articlePercent": 5.54,
-      "wholePagePercent": 13.48
+      "articlePercent": 5.15,
+      "wholePagePercent": 12.61
     },
     {
       "a": "gibson-l-7-value-guide",
@@ -761,8 +761,8 @@
       "a": "gibson-thunderbird-eb-bass-authentication-guide",
       "b": "gibson-byrdland-value-guide",
       "twin": false,
-      "articlePercent": 1.62,
-      "wholePagePercent": 9.82
+      "articlePercent": 1.5,
+      "wholePagePercent": 9.16
     },
     {
       "a": "gibson-thunderbird-eb-bass-authentication-guide",
@@ -789,8 +789,8 @@
       "a": "gibson-thunderbird-eb-bass-value-guide",
       "b": "gibson-byrdland-value-guide",
       "twin": false,
-      "articlePercent": 5.31,
-      "wholePagePercent": 13.28
+      "articlePercent": 4.92,
+      "wholePagePercent": 12.39
     },
     {
       "a": "gibson-thunderbird-eb-bass-value-guide",
@@ -810,8 +810,8 @@
       "a": "gibson-es-175-authentication-guide",
       "b": "gibson-byrdland-value-guide",
       "twin": false,
-      "articlePercent": 1.62,
-      "wholePagePercent": 9.82
+      "articlePercent": 1.5,
+      "wholePagePercent": 9.16
     },
     {
       "a": "gibson-es-175-authentication-guide",
@@ -824,8 +824,8 @@
       "a": "gibson-es-175-value-guide",
       "b": "gibson-byrdland-value-guide",
       "twin": false,
-      "articlePercent": 5.37,
-      "wholePagePercent": 13.33
+      "articlePercent": 4.98,
+      "wholePagePercent": 12.43
     },
     {
       "a": "gibson-es-175-value-guide",
@@ -838,8 +838,8 @@
       "a": "gibson-byrdland-value-guide",
       "b": "gibson-es-225-value-guide",
       "twin": false,
-      "articlePercent": 5.43,
-      "wholePagePercent": 13.38
+      "articlePercent": 5.37,
+      "wholePagePercent": 13.24
     },
     {
       "a": "gibson-byrdland-value-guide",
@@ -847,7 +847,7 @@
       "twin": true,
       "existingPartner": true,
       "articlePercent": 0,
-      "wholePagePercent": 7.48
+      "wholePagePercent": 6.98
     },
     {
       "a": "gibson-es-225-value-guide",
