@@ -1,5 +1,9 @@
 # Gibson Production Reference: Audit Decisions
 
+## Requested Presentation Revision
+
+Joe requested removal of sources on November 3, 2026. Visible citation links, source columns and the bibliography are removed from the article and lookup. Public CSV exports omit source details. The internal dataset retains source provenance for maintenance, and disputed counts, missing-record explanations and coverage qualifications remain visible. This supersedes the original source-display presentation described below. The numerical records are unchanged.
+
 Checked November 3, 2026. Scope: `/post/gibson-shipping-totals-1948-1979/` only. Prepared on `joe/gibson-production-audit`; production publication requires Joe's review of the preview.
 
 ## Evidence And Limits

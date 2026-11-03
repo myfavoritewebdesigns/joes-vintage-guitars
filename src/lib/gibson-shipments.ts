@@ -23,8 +23,8 @@ export function lookupShipments(modelId: string, finish = 'all', year = 'all', v
   return { model, rows, context, count, years, gaps, disputed, status, unseparated, unallocated };
 }
 
-export function shipmentCSV(rows: ShipmentRecord[]) {
+export function shipmentCSV(rows: ShipmentRecord[], includeSources = true) {
   const cell = (value: unknown) => `"${String(value ?? '').replace(/"/g, '""')}"`;
-  const header = ['Model','Year','Finish category','Variant','Reported shipments','Status','Source row','Sources','Notes'];
-  return [header, ...rows.map(row => [shipmentData.models.find(model => model.id === row.model)?.name,row.year,row.finish,row.variant,row.status === 'disputed' ? '' : row.count,row.status,row.sourceLabel,row.sources.map(id => shipmentData.sources.find(source => source.id === id)?.url).join(' | '),[row.note,row.alternatives?.map(value => `${value.count} (${value.source})`).join('; ')].filter(Boolean).join(' ')])].map(row => row.map(cell).join(',')).join('\r\n');
+  const header = ['Model','Year','Finish category','Variant','Reported shipments','Status',...(includeSources ? ['Source row','Sources','Notes'] : ['Conflicting figures'])];
+  return [header, ...rows.map(row => [shipmentData.models.find(model => model.id === row.model)?.name,row.year,row.finish,row.variant,row.status === 'disputed' ? '' : row.count,row.status,...(includeSources ? [row.sourceLabel,row.sources.map(id => shipmentData.sources.find(source => source.id === id)?.url).join(' | '),[row.note,row.alternatives?.map(value => `${value.count} (${value.source})`).join('; ')].filter(Boolean).join(' ')] : [row.alternatives?.map(value => value.count).join(' / ') || (row.status === 'disputed' ? 'Unresolved' : '')])])].map(row => row.map(cell).join(',')).join('\r\n');
 }

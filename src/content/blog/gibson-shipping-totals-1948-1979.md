@@ -3,7 +3,7 @@ title: "Gibson Production Numbers And Shipping Totals (1948 To 1979)"
 seoTitle: "Gibson Production Numbers: Shipping Totals (1948 To 1979)"
 pubDate: "2026-03-02T21:44:13"
 modified: "2026-11-03T10:10:00-07:00"
-excerpt: "Search published Gibson shipment records by model, year and finish. Includes source links, model tables, disputed figures, acoustic guitars and basses."
+excerpt: "Search published Gibson shipment records by model, year and finish. Includes model tables, disputed figures, acoustic guitars and basses."
 category: "serial-number-dating-guides"
 categoryName: "Serial Number & Dating Guides"
 tags: []
@@ -43,9 +43,9 @@ toc:
   - href: "#model-tables"
     label: "Every Model Table"
   - href: "#source-conflicts"
-    label: "Source Conflicts"
+    label: "Conflicting Figures"
   - href: "#sources"
-    label: "Sources And Coverage"
+    label: "Definitions And Coverage"
 ---
 
 <!-- GibsonProductionGuide renders this reference from the shared shipment dataset. -->

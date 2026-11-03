@@ -58,4 +58,8 @@ const csv = shipmentCSV(lookup('byrdland', 'Sunburst', '1959').rows);
 assert(csv.includes('"","disputed"'));
 assert(csv.includes('https://www.guitarhq.com/shippin1.html'));
 assert(csv.includes('46 (byrdland)'));
+const publicCSV = shipmentCSV(lookup('byrdland', 'Sunburst', '1959').rows, false);
+assert(!publicCSV.includes('https://'));
+assert(!publicCSV.includes('"Sources"'));
+assert(publicCSV.includes('40 / 46'));
 console.log(`PASS: ${data.records.length} records, category and source integrity, lookup boundaries, CSV dispute handling, and ${totals.length} independently printed annual totals.`);

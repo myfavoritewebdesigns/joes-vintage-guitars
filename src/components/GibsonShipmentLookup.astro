@@ -8,7 +8,7 @@ const families = [...new Set(shipmentData.models.map(model => model.family))];
   <div class="gpt-lookup__intro">
     <p class="gpt-lookup__eyebrow">Gibson Shipping Records</p>
     <h2 id="shipment-lookup-title">Look Up A Model, Year And Finish</h2>
-    <p>Find the published shipment count and the source behind it. Each result shows which categories the record covers.</p>
+    <p>Find the published shipment count. Each result shows which categories the record covers.</p>
   </div>
   <form class="gpt-lookup__form" id="gpt-form">
     <label class="gpt-lookup__model">Model
@@ -37,14 +37,13 @@ const families = [...new Set(shipmentData.models.map(model => model.family))];
   </div>
   <div id="gpt-breakdown" class="gpt-breakdown"></div>
   <div class="gpt-lookup__actions"><button type="button" id="gpt-copy-link">Copy This Lookup</button><button type="button" id="gpt-download">Download These Records</button><span id="gpt-action-status" role="status"></span></div>
-  <noscript><p>The interactive lookup needs JavaScript. All checked records and source links are available in the model tables below.</p></noscript>
+  <noscript><p>The interactive lookup needs JavaScript. All checked records are available in the model tables below.</p></noscript>
 </section>
 <script>
   import { shipmentData, lookupShipments, formatCount, shipmentCSV } from '../lib/gibson-shipments';
   const select = (id: string) => document.getElementById(id) as HTMLSelectElement;
   const model = select('gpt-model'); const year = select('gpt-year'); const finish = select('gpt-finish'); const variant = select('gpt-variant');
   const resultCount = document.getElementById('gpt-result-count')!;
-  const sourceById = new Map(shipmentData.sources.map(source=>[source.id,source]));
   const text = (id: string, value: string) => {document.getElementById(id)!.textContent=value;};
   function options(control: HTMLSelectElement, values: string[], first: string, selected = 'all') {
     control.replaceChildren(new Option(first,'all'), ...values.map(value=>new Option(value || 'Unspecified variant',value || '')));
@@ -76,12 +75,10 @@ const families = [...new Set(shipmentData.models.map(model => model.family))];
       const heading=document.createElement('h3');heading.textContent=result.unseparated?'Broader Records For Context':'Records Behind This Result';box.append(heading);
       const scroll=document.createElement('div');scroll.className='gpt-table-scroll';scroll.tabIndex=0;scroll.setAttribute('role','region');scroll.setAttribute('aria-label','Shipment result records');
       const table=document.createElement('table');const head=table.createTHead().insertRow();
-      for(const label of ['Year','Finish / Variant','Shipments','Source']){const th=document.createElement('th');th.scope='col';th.textContent=label;head.append(th);}
+      for(const label of ['Year','Finish / Variant','Shipments']){const th=document.createElement('th');th.scope='col';th.textContent=label;head.append(th);}
       const body=table.createTBody();
       for(const row of visibleRows){const tr=body.insertRow();tr.insertCell().textContent=String(row.year);tr.insertCell().textContent=[row.finish,row.variant].filter(Boolean).join(' · ');
         tr.insertCell().textContent=row.status==='disputed'?`Disputed${row.alternatives?`: ${row.alternatives.map(item=>formatCount(item.count)).join(' / ')}`:''}`:formatCount(row.count);
-        const td=tr.insertCell();row.sources.forEach((id,i)=>{const source=sourceById.get(id);if(!source)return;if(i)td.append(' · ');const a=document.createElement('a');a.href=source.url;a.textContent=source.title;td.append(a);});
-        if(row.note){const p=document.createElement('p');p.textContent=row.note;td.append(p);}
       }
       scroll.append(table);box.append(scroll);
     }
@@ -92,7 +89,7 @@ const families = [...new Set(shipmentData.models.map(model => model.family))];
   for(const control of [year,finish,variant])control.addEventListener('change',()=>render());
   document.getElementById('gpt-form')!.addEventListener('submit',event=>{event.preventDefault();render();});
   document.getElementById('gpt-copy-link')!.addEventListener('click',async()=>{render();const url=new URL(location.href);url.hash='shipment-lookup';try{await navigator.clipboard.writeText(url.href);text('gpt-action-status','Lookup link copied.');}catch{text('gpt-action-status','Copy the lookup URL from your address bar.');}});
-  document.getElementById('gpt-download')!.addEventListener('click',()=>{const result=lookupShipments(model.value,finish.value,year.value,variant.value);const url=URL.createObjectURL(new Blob(['\uFEFF'+shipmentCSV(result.rows)],{type:'text/csv;charset=utf-8'}));const a=document.createElement('a');a.href=url;a.download=`gibson-${model.value}-${year.value}-shipments.csv`;a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);text('gpt-action-status','Records downloaded with source links.');});
+  document.getElementById('gpt-download')!.addEventListener('click',()=>{const result=lookupShipments(model.value,finish.value,year.value,variant.value);const url=URL.createObjectURL(new Blob(['\uFEFF'+shipmentCSV(result.rows, false)],{type:'text/csv;charset=utf-8'}));const a=document.createElement('a');a.href=url;a.download=`gibson-${model.value}-${year.value}-shipments.csv`;a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);text('gpt-action-status','Records downloaded.');});
   const params=new URLSearchParams(location.search);if(shipmentData.models.some(item=>item.id===params.get('model')))model.value=params.get('model')!;
   updateOptions();if(Array.from(year.options).some(option=>option.value===params.get('year')))year.value=params.get('year')!;
   for(const [control,key]of [[finish,'finish'],[variant,'variant']] as const)if(Array.from(control.options).some(option=>option.value===params.get(key)))control.value=params.get(key)!;
