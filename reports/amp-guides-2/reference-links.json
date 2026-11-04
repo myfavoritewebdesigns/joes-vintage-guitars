@@ -1,0 +1,739 @@
+{
+  "checkedAt": "2026-11-03T00:30:16.183Z",
+  "sources": [
+    {
+      "sourceId": "AMP2-S001",
+      "url": "https://el34world.com/charts/Schematics/files/Fender/Fender_bassman_59_rev_e.pdf",
+      "status": 200,
+      "finalUrl": "https://el34world.com/charts/Schematics/files/Fender/Fender_bassman_59_rev_e.pdf",
+      "contentType": "application/pdf",
+      "bytes": 128207
+    },
+    {
+      "sourceId": "AMP2-S002",
+      "url": "https://www.fender.com/products/59-bassman-ltd",
+      "status": 403,
+      "finalUrl": "https://www.fender.com/products/59-bassman-ltd",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 5569,
+      "alternateVerification": {
+        "method": "Public web reader opened and returned the expected manufacturer page and product/history content on 2026-11-02",
+        "reachable": true,
+        "note": "Direct automated GET is blocked by Fender; this is not a missing source."
+      }
+    },
+    {
+      "sourceId": "AMP2-S003",
+      "url": "https://el34world.com/charts/Schematics/files/Fender/Fender_bassman60.pdf",
+      "status": 200,
+      "finalUrl": "https://el34world.com/charts/Schematics/files/Fender/Fender_bassman60.pdf",
+      "contentType": "application/pdf",
+      "bytes": 6629635
+    },
+    {
+      "sourceId": "AMP2-S004",
+      "url": "https://el34world.com/charts/Schematics/files/Fender/Fender_bassman_5f6a.pdf",
+      "status": 200,
+      "finalUrl": "https://el34world.com/charts/Schematics/files/Fender/Fender_bassman_5f6a.pdf",
+      "contentType": "application/pdf",
+      "bytes": 166760
+    },
+    {
+      "sourceId": "AMP2-S005",
+      "url": "https://el34world.com/charts/Schematics/files/Fender/Fender_bassman_ab165.pdf",
+      "status": 200,
+      "finalUrl": "https://el34world.com/charts/Schematics/files/Fender/Fender_bassman_ab165.pdf",
+      "contentType": "application/pdf",
+      "bytes": 94848
+    },
+    {
+      "sourceId": "AMP2-S006",
+      "url": "https://www.fender.com/articles/parts-and-accessories/going-low-the-history-of-the-bassman",
+      "status": 403,
+      "finalUrl": "https://www.fender.com/articles/parts-and-accessories/going-low-the-history-of-the-bassman",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 5765,
+      "alternateVerification": {
+        "method": "Public web reader opened and returned the expected manufacturer page and product/history content on 2026-11-02",
+        "reachable": true,
+        "note": "Direct automated GET is blocked by Fender; this is not a missing source."
+      }
+    },
+    {
+      "sourceId": "AMP2-S007",
+      "url": "https://mojotone.com/blogs/fender-field-guide/fender-wide-panel-tweed-bassman",
+      "status": 200,
+      "finalUrl": "https://mojotone.com/blogs/fender-field-guide/fender-wide-panel-tweed-bassman",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 750842
+    },
+    {
+      "sourceId": "AMP2-S008",
+      "url": "https://el34world.com/charts/Schematics/files/Fender/Fender_bassman_5e6a.pdf",
+      "status": 200,
+      "finalUrl": "https://el34world.com/charts/Schematics/files/Fender/Fender_bassman_5e6a.pdf",
+      "contentType": "application/pdf",
+      "bytes": 172143
+    },
+    {
+      "sourceId": "AMP2-S009",
+      "url": "https://el34world.com/charts/Schematics/files/Fender/Fender_bassman_6g6b.pdf",
+      "status": 200,
+      "finalUrl": "https://el34world.com/charts/Schematics/files/Fender/Fender_bassman_6g6b.pdf",
+      "contentType": "application/pdf",
+      "bytes": 190460
+    },
+    {
+      "sourceId": "AMP2-S010",
+      "url": "https://el34world.com/charts/Schematics/files/Fender/Fender_bassman70.pdf",
+      "status": 200,
+      "finalUrl": "https://el34world.com/charts/Schematics/files/Fender/Fender_bassman70.pdf",
+      "contentType": "application/pdf",
+      "bytes": 1041177
+    },
+    {
+      "sourceId": "AMP2-S011",
+      "url": "https://el34world.com/charts/Schematics/files/Fender/Fender_bassman_100.pdf",
+      "status": 200,
+      "finalUrl": "https://el34world.com/charts/Schematics/files/Fender/Fender_bassman_100.pdf",
+      "contentType": "application/pdf",
+      "bytes": 147588
+    },
+    {
+      "sourceId": "AMP2-S012",
+      "url": "https://el34world.com/charts/Schematics/files/Fender/Fender_bassman_135.pdf",
+      "status": 200,
+      "finalUrl": "https://el34world.com/charts/Schematics/files/Fender/Fender_bassman_135.pdf",
+      "contentType": "application/pdf",
+      "bytes": 101840
+    },
+    {
+      "sourceId": "AMP2-S013",
+      "url": "https://el34world.com/charts/Schematics/files/Fender/Fender_65_super_reverb.pdf",
+      "status": 200,
+      "finalUrl": "https://el34world.com/charts/Schematics/files/Fender/Fender_65_super_reverb.pdf",
+      "contentType": "application/pdf",
+      "bytes": 311176
+    },
+    {
+      "sourceId": "AMP2-S014",
+      "url": "https://www.fender.com/products/65-super-reverb",
+      "status": 403,
+      "finalUrl": "https://www.fender.com/products/65-super-reverb",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 5572,
+      "alternateVerification": {
+        "method": "Public web reader opened and returned the expected manufacturer page and product/history content on 2026-11-02",
+        "reachable": true,
+        "note": "Direct automated GET is blocked by Fender; this is not a missing source."
+      }
+    },
+    {
+      "sourceId": "AMP2-S015",
+      "url": "https://www.fender.com/products/tone-master-super-reverb",
+      "status": 403,
+      "finalUrl": "https://www.fender.com/products/tone-master-super-reverb",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 5621,
+      "alternateVerification": {
+        "method": "Public web reader opened and returned the expected manufacturer page and product/history content on 2026-11-02",
+        "reachable": true,
+        "note": "Direct automated GET is blocked by Fender; this is not a missing source."
+      }
+    },
+    {
+      "sourceId": "AMP2-S016",
+      "url": "https://www.fender.com/products/62-super-amp",
+      "status": 403,
+      "finalUrl": "https://www.fender.com/products/62-super-amp",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 5563,
+      "alternateVerification": {
+        "method": "Public web reader opened and returned the expected manufacturer page and product/history content on 2026-11-02",
+        "reachable": true,
+        "note": "Direct automated GET is blocked by Fender; this is not a missing source."
+      }
+    },
+    {
+      "sourceId": "AMP2-S017",
+      "url": "https://el34world.com/charts/Schematics/files/Fender/Fender_super5e4_g_ee.pdf",
+      "status": 200,
+      "finalUrl": "https://el34world.com/charts/Schematics/files/Fender/Fender_super5e4_g_ee.pdf",
+      "contentType": "application/pdf",
+      "bytes": 250551
+    },
+    {
+      "sourceId": "AMP2-S018",
+      "url": "https://el34world.com/charts/Schematics/files/Fender/Fender_super_5f4.pdf",
+      "status": 200,
+      "finalUrl": "https://el34world.com/charts/Schematics/files/Fender/Fender_super_5f4.pdf",
+      "contentType": "application/pdf",
+      "bytes": 163424
+    },
+    {
+      "sourceId": "AMP2-S019",
+      "url": "https://el34world.com/charts/Schematics/files/Fender/Fender_super_reverb_ab763_schematic.pdf",
+      "status": 200,
+      "finalUrl": "https://el34world.com/charts/Schematics/files/Fender/Fender_super_reverb_ab763_schematic.pdf",
+      "contentType": "application/pdf",
+      "bytes": 622025
+    },
+    {
+      "sourceId": "AMP2-S020",
+      "url": "https://schematicheaven.net/fenderamps/cbs_45w_mstrvol_pullsw_super-pro-bmstr_rev.pdf",
+      "status": 200,
+      "finalUrl": "https://schematicheaven.net/fenderamps/cbs_45w_mstrvol_pullsw_super-pro-bmstr_rev.pdf",
+      "contentType": "application/pdf",
+      "bytes": 1317126
+    },
+    {
+      "sourceId": "AMP2-S021",
+      "url": "https://schematicheaven.net/fenderamps/cbs_70w_mstrvol_pullsw_super-pro-bmstr_rev.pdf",
+      "status": 200,
+      "finalUrl": "https://schematicheaven.net/fenderamps/cbs_70w_mstrvol_pullsw_super-pro-bmstr_rev.pdf",
+      "contentType": "application/pdf",
+      "bytes": 2304890
+    },
+    {
+      "sourceId": "AMP2-S022",
+      "url": "https://mojotone.com/blogs/fender-field-guide/fender-v-front-super",
+      "status": 200,
+      "finalUrl": "https://mojotone.com/blogs/fender-field-guide/fender-v-front-super",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 751816
+    },
+    {
+      "sourceId": "AMP2-S023",
+      "url": "https://el34world.com/charts/Schematics/files/Fender/Fender_super_5c4.pdf",
+      "status": 200,
+      "finalUrl": "https://el34world.com/charts/Schematics/files/Fender/Fender_super_5c4.pdf",
+      "contentType": "application/pdf",
+      "bytes": 158588
+    },
+    {
+      "sourceId": "AMP2-S024",
+      "url": "https://mojotone.com/blogs/fender-field-guide/fender-narrow-panel-tweed-super",
+      "status": 200,
+      "finalUrl": "https://mojotone.com/blogs/fender-field-guide/fender-narrow-panel-tweed-super",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 757168
+    },
+    {
+      "sourceId": "AMP2-S025",
+      "url": "https://el34world.com/charts/Schematics/files/Fender/Fender_super_6g4a.pdf",
+      "status": 200,
+      "finalUrl": "https://el34world.com/charts/Schematics/files/Fender/Fender_super_6g4a.pdf",
+      "contentType": "application/pdf",
+      "bytes": 234371
+    },
+    {
+      "sourceId": "AMP2-S026",
+      "url": "https://www.fmicassets.com/Damroot/Original/10001/OM_leg_gtramp_Super_Reverb_1976.pdf",
+      "status": 200,
+      "finalUrl": "https://www.fmicassets.com/Damroot/Original/10001/OM_leg_gtramp_Super_Reverb_1976.pdf",
+      "contentType": "application/pdf",
+      "bytes": 987471
+    },
+    {
+      "sourceId": "AMP2-S027",
+      "url": "https://mojotone.com/blogs/fender-field-guide/fender-silverface-super-reverb",
+      "status": 200,
+      "finalUrl": "https://mojotone.com/blogs/fender-field-guide/fender-silverface-super-reverb",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 755256
+    },
+    {
+      "sourceId": "AMP2-S028",
+      "url": "https://www.fmicassets.com/Damroot/Original/10001/OM_2275000000_68_Custom_Vibrolux_Reverb.pdf",
+      "status": 200,
+      "finalUrl": "https://www.fmicassets.com/Damroot/Original/10001/OM_2275000000_68_Custom_Vibrolux_Reverb.pdf",
+      "contentType": "application/pdf",
+      "bytes": 16981170
+    },
+    {
+      "sourceId": "AMP2-S029",
+      "url": "https://el34world.com/charts/Schematics/files/Fender/Fender_custom_vibrolux_manual.pdf",
+      "status": 200,
+      "finalUrl": "https://el34world.com/charts/Schematics/files/Fender/Fender_custom_vibrolux_manual.pdf",
+      "contentType": "application/pdf",
+      "bytes": 534872
+    },
+    {
+      "sourceId": "AMP2-S030",
+      "url": "https://el34world.com/charts/Schematics/files/Fender/Fender_vibrolux_aa763.pdf",
+      "status": 200,
+      "finalUrl": "https://el34world.com/charts/Schematics/files/Fender/Fender_vibrolux_aa763.pdf",
+      "contentType": "application/pdf",
+      "bytes": 270385
+    },
+    {
+      "sourceId": "AMP2-S031",
+      "url": "https://el34world.com/charts/Schematics/files/Fender/Fender_vibrolux_reverb_aa964_layout.pdf",
+      "status": 200,
+      "finalUrl": "https://el34world.com/charts/Schematics/files/Fender/Fender_vibrolux_reverb_aa964_layout.pdf",
+      "contentType": "application/pdf",
+      "bytes": 687372
+    },
+    {
+      "sourceId": "AMP2-S032",
+      "url": "https://el34world.com/charts/Schematics/files/Fender/Fender_vibrolux_reverb_aa270_schem.pdf",
+      "status": 200,
+      "finalUrl": "https://el34world.com/charts/Schematics/files/Fender/Fender_vibrolux_reverb_aa270_schem.pdf",
+      "contentType": "application/pdf",
+      "bytes": 617691
+    },
+    {
+      "sourceId": "AMP2-S033",
+      "url": "https://el34world.com/charts/Schematics/files/Fender/Fender_vibrolux_5f11_schem.pdf",
+      "status": 200,
+      "finalUrl": "https://el34world.com/charts/Schematics/files/Fender/Fender_vibrolux_5f11_schem.pdf",
+      "contentType": "application/pdf",
+      "bytes": 112445
+    },
+    {
+      "sourceId": "AMP2-S034",
+      "url": "https://el34world.com/charts/Schematics/files/Fender/Fender_vibrolux_6g11_a.pdf",
+      "status": 200,
+      "finalUrl": "https://el34world.com/charts/Schematics/files/Fender/Fender_vibrolux_6g11_a.pdf",
+      "contentType": "application/pdf",
+      "bytes": 1221458
+    },
+    {
+      "sourceId": "AMP2-S035",
+      "url": "https://mojotone.com/blogs/fender-field-guide/fender-brownface-vibrolux",
+      "status": 200,
+      "finalUrl": "https://mojotone.com/blogs/fender-field-guide/fender-brownface-vibrolux",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 757176
+    },
+    {
+      "sourceId": "AMP2-S036",
+      "url": "https://mojotone.com/blogs/fender-field-guide/fender-blackface-vibrolux-reverb",
+      "status": 200,
+      "finalUrl": "https://mojotone.com/blogs/fender-field-guide/fender-blackface-vibrolux-reverb",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 757270
+    },
+    {
+      "sourceId": "AMP2-S037",
+      "url": "https://mojotone.com/blogs/fender-field-guide/fender-silverface-vibrolux-reverb",
+      "status": 200,
+      "finalUrl": "https://mojotone.com/blogs/fender-field-guide/fender-silverface-vibrolux-reverb",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 754550
+    },
+    {
+      "sourceId": "AMP2-S038",
+      "url": "https://www.fmicassets.com/Damroot/Original/10001/OM_leg_gtramp_Vibrolux_Reverb_Solid_State.pdf",
+      "status": 200,
+      "finalUrl": "https://www.fmicassets.com/Damroot/Original/10001/OM_leg_gtramp_Vibrolux_Reverb_Solid_State.pdf",
+      "contentType": "application/pdf",
+      "bytes": 4201205
+    },
+    {
+      "sourceId": "AMP2-S039",
+      "url": "https://www.fender.com/products/57-custom-champ",
+      "status": 403,
+      "finalUrl": "https://www.fender.com/products/57-custom-champ",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 5572,
+      "alternateVerification": {
+        "method": "Public web reader opened and returned the expected manufacturer page and product/history content on 2026-11-02",
+        "reachable": true,
+        "note": "Direct automated GET is blocked by Fender; this is not a missing source."
+      }
+    },
+    {
+      "sourceId": "AMP2-S040",
+      "url": "https://www.fender.com/articles/parts-and-accessories/indispensable-undeniable-the-legacy-of-the-champ",
+      "status": 403,
+      "finalUrl": "https://www.fender.com/articles/parts-and-accessories/indispensable-undeniable-the-legacy-of-the-champ",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 5823,
+      "alternateVerification": {
+        "method": "Public web reader opened and returned the expected manufacturer page and product/history content on 2026-11-02",
+        "reachable": true,
+        "note": "Direct automated GET is blocked by Fender; this is not a missing source."
+      }
+    },
+    {
+      "sourceId": "AMP2-S041",
+      "url": "https://www.fender.com/products/68-custom-vibro-champ-reverb",
+      "status": 403,
+      "finalUrl": "https://www.fender.com/products/68-custom-vibro-champ-reverb",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 5633,
+      "alternateVerification": {
+        "method": "Public web reader opened and returned the expected manufacturer page and product/history content on 2026-11-02",
+        "reachable": true,
+        "note": "Direct automated GET is blocked by Fender; this is not a missing source."
+      }
+    },
+    {
+      "sourceId": "AMP2-S042",
+      "url": "https://el34world.com/charts/Schematics/files/Fender/Fender_champ_5e1_schem.pdf",
+      "status": 200,
+      "finalUrl": "https://el34world.com/charts/Schematics/files/Fender/Fender_champ_5e1_schem.pdf",
+      "contentType": "application/pdf",
+      "bytes": 82957
+    },
+    {
+      "sourceId": "AMP2-S043",
+      "url": "https://el34world.com/charts/Schematics/files/Fender/Fender_champ_5f1_schem.pdf",
+      "status": 200,
+      "finalUrl": "https://el34world.com/charts/Schematics/files/Fender/Fender_champ_5f1_schem.pdf",
+      "contentType": "application/pdf",
+      "bytes": 79638
+    },
+    {
+      "sourceId": "AMP2-S044",
+      "url": "https://el34world.com/charts/Schematics/files/Fender/Fender_champ_aa764_schem.pdf",
+      "status": 200,
+      "finalUrl": "https://el34world.com/charts/Schematics/files/Fender/Fender_champ_aa764_schem.pdf",
+      "contentType": "application/pdf",
+      "bytes": 76058
+    },
+    {
+      "sourceId": "AMP2-S045",
+      "url": "https://el34world.com/charts/Schematics/files/Fender/Fender_vibro_champ_aa764.pdf",
+      "status": 200,
+      "finalUrl": "https://el34world.com/charts/Schematics/files/Fender/Fender_vibro_champ_aa764.pdf",
+      "contentType": "application/pdf",
+      "bytes": 129300
+    },
+    {
+      "sourceId": "AMP2-S046",
+      "url": "https://mojotone.com/blogs/fender-field-guide/fender-wide-panel-tweed-champ",
+      "status": 200,
+      "finalUrl": "https://mojotone.com/blogs/fender-field-guide/fender-wide-panel-tweed-champ",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 752738
+    },
+    {
+      "sourceId": "AMP2-S047",
+      "url": "https://mojotone.com/blogs/fender-field-guide/fender-narrow-panel-tweed-champ",
+      "status": 200,
+      "finalUrl": "https://mojotone.com/blogs/fender-field-guide/fender-narrow-panel-tweed-champ",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 753757
+    },
+    {
+      "sourceId": "AMP2-S048",
+      "url": "https://mojotone.com/blogs/fender-field-guide/fender-blackface-champ",
+      "status": 200,
+      "finalUrl": "https://mojotone.com/blogs/fender-field-guide/fender-blackface-champ",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 752792
+    },
+    {
+      "sourceId": "AMP2-S049",
+      "url": "https://www.fmicassets.com/Damroot/Original/10001/OM_leg_gtramp_Vibro_Champ_1980.PDF",
+      "status": 200,
+      "finalUrl": "https://www.fmicassets.com/Damroot/Original/10001/OM_leg_gtramp_Vibro_Champ_1980.PDF",
+      "contentType": "application/pdf",
+      "bytes": 198421
+    },
+    {
+      "sourceId": "AMP2-S050",
+      "url": "https://el34world.com/charts/Schematics/files/Fender/Fender_bassman_5b6_schem.pdf",
+      "status": 200,
+      "finalUrl": "https://el34world.com/charts/Schematics/files/Fender/Fender_bassman_5b6_schem.pdf",
+      "contentType": "application/pdf",
+      "bytes": 89590
+    },
+    {
+      "sourceId": "AMP2-S051",
+      "url": "https://el34world.com/charts/Schematics/files/Fender/Fender_bassman_6g6_schem.pdf",
+      "status": 200,
+      "finalUrl": "https://el34world.com/charts/Schematics/files/Fender/Fender_bassman_6g6_schem.pdf",
+      "contentType": "application/pdf",
+      "bytes": 84232
+    },
+    {
+      "sourceId": "AMP2-S052",
+      "url": "https://el34world.com/charts/Schematics/files/Fender/Fender_bassman_aa864.pdf",
+      "status": 200,
+      "finalUrl": "https://el34world.com/charts/Schematics/files/Fender/Fender_bassman_aa864.pdf",
+      "contentType": "application/pdf",
+      "bytes": 87281
+    },
+    {
+      "sourceId": "AMP2-S053",
+      "url": "https://el34world.com/charts/Schematics/files/Fender/Fender_bassman_10.pdf",
+      "status": 200,
+      "finalUrl": "https://el34world.com/charts/Schematics/files/Fender/Fender_bassman_10.pdf",
+      "contentType": "application/pdf",
+      "bytes": 84829
+    },
+    {
+      "sourceId": "AMP2-S054",
+      "url": "https://el34world.com/charts/Schematics/files/Fender/Fender_bassman_10_75w.pdf",
+      "status": 200,
+      "finalUrl": "https://el34world.com/charts/Schematics/files/Fender/Fender_bassman_10_75w.pdf",
+      "contentType": "application/pdf",
+      "bytes": 106726
+    },
+    {
+      "sourceId": "AMP2-S055",
+      "url": "https://mojotone.com/blogs/fender-field-guide/fender-narrow-panel-tweed-vibrolux",
+      "status": 200,
+      "finalUrl": "https://mojotone.com/blogs/fender-field-guide/fender-narrow-panel-tweed-vibrolux",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 752303
+    },
+    {
+      "sourceId": "AMP2-S056",
+      "url": "https://mojotone.com/blogs/fender-field-guide/fender-blackface-bassman",
+      "status": 200,
+      "finalUrl": "https://mojotone.com/blogs/fender-field-guide/fender-blackface-bassman",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 760444
+    },
+    {
+      "sourceId": "AMP2-S057",
+      "url": "https://mojotone.com/blogs/fender-field-guide/fender-brownface-super",
+      "status": 200,
+      "finalUrl": "https://mojotone.com/blogs/fender-field-guide/fender-brownface-super",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 757345
+    },
+    {
+      "sourceId": "AMP2-S058",
+      "url": "https://mojotone.com/blogs/fender-field-guide/fender-champion-600",
+      "status": 200,
+      "finalUrl": "https://mojotone.com/blogs/fender-field-guide/fender-champion-600",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 749020
+    }
+  ],
+  "existingInternalDestinations": [
+    {
+      "url": "https://www.joesvintageguitarsaz.com/",
+      "inLiveSitemap": true,
+      "newInThisPr": false,
+      "pages": [
+        "fender-bassman-value-guide",
+        "fender-super-reverb-value-guide",
+        "fender-vibrolux-value-guide",
+        "fender-champ-value-guide",
+        "fender-bassman-authentication-guide",
+        "fender-super-reverb-authentication-guide",
+        "fender-vibrolux-authentication-guide",
+        "fender-champ-authentication-guide"
+      ]
+    },
+    {
+      "url": "https://www.joesvintageguitarsaz.com/blog/",
+      "inLiveSitemap": true,
+      "newInThisPr": false,
+      "pages": [
+        "fender-bassman-value-guide",
+        "fender-super-reverb-value-guide",
+        "fender-vibrolux-value-guide",
+        "fender-champ-value-guide",
+        "fender-bassman-authentication-guide",
+        "fender-super-reverb-authentication-guide",
+        "fender-vibrolux-authentication-guide",
+        "fender-champ-authentication-guide"
+      ]
+    },
+    {
+      "url": "https://www.joesvintageguitarsaz.com/category/value-evaluation/",
+      "inLiveSitemap": true,
+      "newInThisPr": false,
+      "pages": [
+        "fender-bassman-value-guide",
+        "fender-super-reverb-value-guide",
+        "fender-vibrolux-value-guide",
+        "fender-champ-value-guide"
+      ]
+    },
+    {
+      "url": "https://www.joesvintageguitarsaz.com/free-appraisal/",
+      "inLiveSitemap": true,
+      "newInThisPr": false,
+      "pages": [
+        "fender-bassman-value-guide",
+        "fender-super-reverb-value-guide",
+        "fender-vibrolux-value-guide",
+        "fender-champ-value-guide",
+        "fender-bassman-authentication-guide",
+        "fender-super-reverb-authentication-guide",
+        "fender-vibrolux-authentication-guide",
+        "fender-champ-authentication-guide"
+      ]
+    },
+    {
+      "url": "https://www.joesvintageguitarsaz.com/sell-an-amplifier-or-effect/",
+      "inLiveSitemap": true,
+      "newInThisPr": false,
+      "pages": [
+        "fender-bassman-value-guide",
+        "fender-super-reverb-value-guide",
+        "fender-vibrolux-value-guide",
+        "fender-champ-value-guide",
+        "fender-bassman-authentication-guide",
+        "fender-super-reverb-authentication-guide",
+        "fender-vibrolux-authentication-guide",
+        "fender-champ-authentication-guide"
+      ]
+    },
+    {
+      "url": "https://www.joesvintageguitarsaz.com/about-me/",
+      "inLiveSitemap": true,
+      "newInThisPr": false,
+      "pages": [
+        "fender-bassman-value-guide",
+        "fender-super-reverb-value-guide",
+        "fender-vibrolux-value-guide",
+        "fender-champ-value-guide",
+        "fender-bassman-authentication-guide",
+        "fender-super-reverb-authentication-guide",
+        "fender-vibrolux-authentication-guide",
+        "fender-champ-authentication-guide"
+      ]
+    },
+    {
+      "url": "https://www.joesvintageguitarsaz.com/post/fender-bassman-authentication-guide/",
+      "inLiveSitemap": false,
+      "newInThisPr": true,
+      "pages": [
+        "fender-bassman-value-guide"
+      ]
+    },
+    {
+      "url": "https://www.joesvintageguitarsaz.com/vintage-fender-amplifier-serial-numbers-how-to-find-the-year/",
+      "inLiveSitemap": true,
+      "newInThisPr": false,
+      "pages": [
+        "fender-bassman-value-guide",
+        "fender-super-reverb-value-guide",
+        "fender-vibrolux-value-guide",
+        "fender-champ-value-guide",
+        "fender-bassman-authentication-guide",
+        "fender-super-reverb-authentication-guide",
+        "fender-vibrolux-authentication-guide",
+        "fender-champ-authentication-guide"
+      ]
+    },
+    {
+      "url": "https://www.joesvintageguitarsaz.com/fender-pot-codes/",
+      "inLiveSitemap": true,
+      "newInThisPr": false,
+      "pages": [
+        "fender-bassman-value-guide",
+        "fender-super-reverb-value-guide",
+        "fender-vibrolux-value-guide",
+        "fender-champ-value-guide",
+        "fender-bassman-authentication-guide",
+        "fender-super-reverb-authentication-guide",
+        "fender-vibrolux-authentication-guide",
+        "fender-champ-authentication-guide"
+      ]
+    },
+    {
+      "url": "https://www.joesvintageguitarsaz.com/post/fender-amp-eras-tweed-brownface-blackface-silverface/",
+      "inLiveSitemap": true,
+      "newInThisPr": false,
+      "pages": [
+        "fender-bassman-value-guide",
+        "fender-champ-value-guide",
+        "fender-bassman-authentication-guide",
+        "fender-vibrolux-authentication-guide",
+        "fender-champ-authentication-guide"
+      ]
+    },
+    {
+      "url": "https://www.joesvintageguitarsaz.com/post/fender-super-reverb-authentication-guide/",
+      "inLiveSitemap": false,
+      "newInThisPr": true,
+      "pages": [
+        "fender-super-reverb-value-guide",
+        "fender-bassman-authentication-guide",
+        "fender-vibrolux-authentication-guide"
+      ]
+    },
+    {
+      "url": "https://www.joesvintageguitarsaz.com/post/princeton-reverb-vs-deluxe-reverb-vs-twin-reverb/",
+      "inLiveSitemap": true,
+      "newInThisPr": false,
+      "pages": [
+        "fender-super-reverb-value-guide",
+        "fender-super-reverb-authentication-guide"
+      ]
+    },
+    {
+      "url": "https://www.joesvintageguitarsaz.com/post/fender-vibrolux-value-guide/",
+      "inLiveSitemap": false,
+      "newInThisPr": true,
+      "pages": [
+        "fender-super-reverb-value-guide",
+        "fender-vibrolux-authentication-guide"
+      ]
+    },
+    {
+      "url": "https://www.joesvintageguitarsaz.com/post/fender-vibrolux-authentication-guide/",
+      "inLiveSitemap": false,
+      "newInThisPr": true,
+      "pages": [
+        "fender-vibrolux-value-guide",
+        "fender-super-reverb-authentication-guide",
+        "fender-champ-authentication-guide"
+      ]
+    },
+    {
+      "url": "https://www.joesvintageguitarsaz.com/post/fender-champ-value-guide/",
+      "inLiveSitemap": false,
+      "newInThisPr": true,
+      "pages": [
+        "fender-vibrolux-value-guide",
+        "fender-champ-authentication-guide"
+      ]
+    },
+    {
+      "url": "https://www.joesvintageguitarsaz.com/post/fender-champ-authentication-guide/",
+      "inLiveSitemap": false,
+      "newInThisPr": true,
+      "pages": [
+        "fender-champ-value-guide",
+        "fender-vibrolux-authentication-guide"
+      ]
+    },
+    {
+      "url": "https://www.joesvintageguitarsaz.com/post/fender-princeton-reverb-authentication-guide/",
+      "inLiveSitemap": true,
+      "newInThisPr": false,
+      "pages": [
+        "fender-champ-value-guide"
+      ]
+    },
+    {
+      "url": "https://www.joesvintageguitarsaz.com/category/specific-model-highlights/",
+      "inLiveSitemap": true,
+      "newInThisPr": false,
+      "pages": [
+        "fender-bassman-authentication-guide",
+        "fender-super-reverb-authentication-guide",
+        "fender-vibrolux-authentication-guide",
+        "fender-champ-authentication-guide"
+      ]
+    },
+    {
+      "url": "https://www.joesvintageguitarsaz.com/post/fender-bassman-value-guide/",
+      "inLiveSitemap": false,
+      "newInThisPr": true,
+      "pages": [
+        "fender-bassman-authentication-guide"
+      ]
+    },
+    {
+      "url": "https://www.joesvintageguitarsaz.com/post/fender-super-reverb-value-guide/",
+      "inLiveSitemap": false,
+      "newInThisPr": true,
+      "pages": [
+        "fender-super-reverb-authentication-guide"
+      ]
+    }
+  ],
+  "sitemapCount": 412
+}

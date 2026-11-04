@@ -1,0 +1,568 @@
+{
+  "pages": [
+    {
+      "slug": "fender-bassman-value-guide",
+      "title": "Vintage Fender Bassman Value Guide: Tweed To Silverface",
+      "titleLength": 55,
+      "descriptionLength": 145,
+      "bodyWordsExcludingChartsFaq": 1427,
+      "articleWords": 1959,
+      "h2": [
+        "Bassman Values From Tweed To Silverface",
+        "What Matters On A Tweed Bassman",
+        "Valuing A Head And Cabinet Together",
+        "Transformers, Speakers And Circuit Changes",
+        "Service Records And An Untested Bassman",
+        "Photographs For A Bassman Appraisal",
+        "Questions AboutOriginal Fender Amp Values",
+        "Get Your Amp Appraised",
+        "Joe Dampt"
+      ],
+      "photos": 3,
+      "photoUse": "Exact-model archive examples; no modern reissues pictured. Era/comparison pages use named models.",
+      "inboundCount": 4,
+      "inboundSources": [
+        "/post/fender-amp-eras-tweed-brownface-blackface-silverface/",
+        "/post/fender-bassman-authentication-guide/",
+        "/post/princeton-reverb-vs-deluxe-reverb-vs-twin-reverb/",
+        "/sell-an-amplifier-or-effect/"
+      ],
+      "faqSchema": true,
+      "sellLabel": "Sell My Amp",
+      "sellHref": "/sell-an-amplifier-or-effect/",
+      "externalSources": 0
+    },
+    {
+      "slug": "fender-super-reverb-value-guide",
+      "title": "Vintage Fender Super Reverb Value Guide: Original Amps",
+      "titleLength": 54,
+      "descriptionLength": 151,
+      "bodyWordsExcludingChartsFaq": 1454,
+      "articleWords": 1940,
+      "h2": [
+        "Super And Super Reverb Price Chart",
+        "The Earlier Super Has Its Own Market",
+        "Four Speaker Positions To Account For",
+        "Using The Correct Reverb Model Entry",
+        "Reverb Equipment And Repair History",
+        "Send These Super Amp Views",
+        "Questions AboutOriginal Fender Amp Values",
+        "Get Your Amp Appraised",
+        "Joe Dampt"
+      ],
+      "photos": 3,
+      "photoUse": "Exact-model archive examples; no modern reissues pictured. Era/comparison pages use named models.",
+      "inboundCount": 4,
+      "inboundSources": [
+        "/post/fender-amp-eras-tweed-brownface-blackface-silverface/",
+        "/post/fender-super-reverb-authentication-guide/",
+        "/post/princeton-reverb-vs-deluxe-reverb-vs-twin-reverb/",
+        "/sell-an-amplifier-or-effect/"
+      ],
+      "faqSchema": true,
+      "sellLabel": "Sell My Amp",
+      "sellHref": "/sell-an-amplifier-or-effect/",
+      "externalSources": 0
+    },
+    {
+      "slug": "fender-vibrolux-value-guide",
+      "title": "Vintage Fender Vibrolux Value Guide: Reverb And Earlier",
+      "titleLength": 55,
+      "descriptionLength": 146,
+      "bodyWordsExcludingChartsFaq": 1452,
+      "articleWords": 1812,
+      "h2": [
+        "Vibrolux Values By Version",
+        "Why The Earlier Vibrolux Needs Its Own Estimate",
+        "Assessing A Vibrolux Reverb Speaker Pair",
+        "Cabinet Wear And Changed Cosmetics",
+        "How Repairs Affect A Vibrolux Appraisal",
+        "Vibrolux Appraisal Photo List",
+        "Questions AboutOriginal Fender Amp Values",
+        "Get Your Amp Appraised",
+        "Joe Dampt"
+      ],
+      "photos": 3,
+      "photoUse": "Exact-model archive examples; no modern reissues pictured. Era/comparison pages use named models.",
+      "inboundCount": 5,
+      "inboundSources": [
+        "/post/fender-amp-eras-tweed-brownface-blackface-silverface/",
+        "/post/fender-super-reverb-value-guide/",
+        "/post/fender-vibrolux-authentication-guide/",
+        "/post/princeton-reverb-vs-deluxe-reverb-vs-twin-reverb/",
+        "/sell-an-amplifier-or-effect/"
+      ],
+      "faqSchema": true,
+      "sellLabel": "Sell My Amp",
+      "sellHref": "/sell-an-amplifier-or-effect/",
+      "externalSources": 0
+    },
+    {
+      "slug": "fender-champ-value-guide",
+      "title": "Vintage Fender Champ Value Guide: Tweed And Vibro Champ",
+      "titleLength": 55,
+      "descriptionLength": 153,
+      "bodyWordsExcludingChartsFaq": 1441,
+      "articleWords": 1895,
+      "h2": [
+        "Champ And Vibro Champ Value Chart",
+        "What Supports A Tweed Champ Estimate",
+        "Champ And Vibro Champ Appraisals",
+        "A Single Speaker Can Change The Assessment",
+        "Before Selling Or Restoring A Champ",
+        "Six Views For A Champ Appraisal",
+        "Questions AboutOriginal Fender Amp Values",
+        "Get Your Amp Appraised",
+        "Joe Dampt"
+      ],
+      "photos": 3,
+      "photoUse": "Exact-model archive examples; no modern reissues pictured. Era/comparison pages use named models.",
+      "inboundCount": 5,
+      "inboundSources": [
+        "/post/fender-amp-eras-tweed-brownface-blackface-silverface/",
+        "/post/fender-champ-authentication-guide/",
+        "/post/fender-vibrolux-value-guide/",
+        "/post/princeton-reverb-vs-deluxe-reverb-vs-twin-reverb/",
+        "/sell-an-amplifier-or-effect/"
+      ],
+      "faqSchema": true,
+      "sellLabel": "Sell My Amp",
+      "sellHref": "/sell-an-amplifier-or-effect/",
+      "externalSources": 0
+    },
+    {
+      "slug": "fender-bassman-authentication-guide",
+      "title": "Fender Bassman Identification: 5F6-A, Blonde And Dating",
+      "titleLength": 55,
+      "descriptionLength": 147,
+      "bodyWordsExcludingChartsFaq": 1752,
+      "articleWords": 2423,
+      "h2": [
+        "Original Or Reissue?",
+        "Bassman Changes Across The Fender Eras",
+        "Bassman Circuits And Tube Complements",
+        "What To Check On A Claimed 5F6-A",
+        "Dating A Bassman From Readable Evidence",
+        "Eleven Bassman Originality Checks",
+        "Service History And Originality",
+        "Bassman Photo Timeline",
+        "Bassman Reference Documents",
+        "Questions AboutOriginal Fender Amplifier Identification",
+        "Identify Your Amp With Joe",
+        "Joe Dampt"
+      ],
+      "photos": 11,
+      "photoUse": "Exact-model archive examples; no modern reissues pictured. Era/comparison pages use named models.",
+      "inboundCount": 4,
+      "inboundSources": [
+        "/post/fender-amp-eras-tweed-brownface-blackface-silverface/",
+        "/post/fender-bassman-value-guide/",
+        "/post/princeton-reverb-vs-deluxe-reverb-vs-twin-reverb/",
+        "/vintage-fender-amplifier-serial-numbers-how-to-find-the-year/"
+      ],
+      "faqSchema": true,
+      "sellLabel": "Sell My Amp",
+      "sellHref": "/sell-an-amplifier-or-effect/"
+    },
+    {
+      "slug": "fender-super-reverb-authentication-guide",
+      "title": "Fender Super Reverb Guide: Circuits, Speakers And Dates",
+      "titleLength": 55,
+      "descriptionLength": 151,
+      "bodyWordsExcludingChartsFaq": 1840,
+      "articleWords": 2490,
+      "h2": [
+        "Original Or Reissue?",
+        "The Super Family Across Four Eras",
+        "Super Specifications By Circuit",
+        "Brown Super Details In Joe’s Photographs",
+        "Read The Super’s Codes In Context",
+        "Eleven Checks For An Original Super",
+        "Servicing A Super Without Losing Its History",
+        "Super Photo Timeline",
+        "Sources For Super Identification",
+        "Questions AboutOriginal Fender Amplifier Identification",
+        "Identify Your Amp With Joe",
+        "Joe Dampt"
+      ],
+      "photos": 12,
+      "photoUse": "Exact-model archive examples; no modern reissues pictured. Era/comparison pages use named models.",
+      "inboundCount": 6,
+      "inboundSources": [
+        "/post/fender-amp-eras-tweed-brownface-blackface-silverface/",
+        "/post/fender-bassman-authentication-guide/",
+        "/post/fender-super-reverb-value-guide/",
+        "/post/fender-vibrolux-authentication-guide/",
+        "/post/princeton-reverb-vs-deluxe-reverb-vs-twin-reverb/",
+        "/vintage-fender-amplifier-serial-numbers-how-to-find-the-year/"
+      ],
+      "faqSchema": true,
+      "sellLabel": "Sell My Amp",
+      "sellHref": "/sell-an-amplifier-or-effect/"
+    },
+    {
+      "slug": "fender-vibrolux-authentication-guide",
+      "title": "Fender Vibrolux Guide: Reverb Models And Originality",
+      "titleLength": 52,
+      "descriptionLength": 150,
+      "bodyWordsExcludingChartsFaq": 1887,
+      "articleWords": 2474,
+      "h2": [
+        "Original Or Reissue?",
+        "How The Vibrolux Changed",
+        "Vibrolux Circuits And Specifications",
+        "Recognizing The 1964 Non-Reverb Vibrolux",
+        "Date Stamps On Joe’s Vibrolux Amps",
+        "Eleven Vibrolux Originality Checks",
+        "Service And Value Are Separate Questions",
+        "Vibrolux Photo Timeline",
+        "Vibrolux Sources And Drawings",
+        "Questions AboutOriginal Fender Amplifier Identification",
+        "Identify Your Amp With Joe",
+        "Joe Dampt"
+      ],
+      "photos": 14,
+      "photoUse": "Exact-model archive examples; no modern reissues pictured. Era/comparison pages use named models.",
+      "inboundCount": 6,
+      "inboundSources": [
+        "/post/fender-amp-eras-tweed-brownface-blackface-silverface/",
+        "/post/fender-champ-authentication-guide/",
+        "/post/fender-super-reverb-authentication-guide/",
+        "/post/fender-vibrolux-value-guide/",
+        "/post/princeton-reverb-vs-deluxe-reverb-vs-twin-reverb/",
+        "/vintage-fender-amplifier-serial-numbers-how-to-find-the-year/"
+      ],
+      "faqSchema": true,
+      "sellLabel": "Sell My Amp",
+      "sellHref": "/sell-an-amplifier-or-effect/"
+    },
+    {
+      "slug": "fender-champ-authentication-guide",
+      "title": "Fender Champ And Vibro Champ: Identify And Date Your Amp",
+      "titleLength": 56,
+      "descriptionLength": 151,
+      "bodyWordsExcludingChartsFaq": 1951,
+      "articleWords": 2559,
+      "h2": [
+        "Original Or Reissue?",
+        "Champ Changes Across The Fender Eras",
+        "Original Champ Specifications",
+        "Reading A Tweed Champ’s Construction",
+        "Date A Champ With Its Chart And Components",
+        "Eleven Checks For A Vintage Champ",
+        "Service Work On A Small Tube Amp",
+        "Champ Photo Timeline",
+        "Champ Identification References",
+        "Questions AboutOriginal Fender Amplifier Identification",
+        "Identify Your Amp With Joe",
+        "Joe Dampt"
+      ],
+      "photos": 10,
+      "photoUse": "Exact-model archive examples; no modern reissues pictured. Era/comparison pages use named models.",
+      "inboundCount": 5,
+      "inboundSources": [
+        "/post/fender-amp-eras-tweed-brownface-blackface-silverface/",
+        "/post/fender-champ-value-guide/",
+        "/post/fender-vibrolux-authentication-guide/",
+        "/post/princeton-reverb-vs-deluxe-reverb-vs-twin-reverb/",
+        "/vintage-fender-amplifier-serial-numbers-how-to-find-the-year/"
+      ],
+      "faqSchema": true,
+      "sellLabel": "Sell My Amp",
+      "sellHref": "/sell-an-amplifier-or-effect/"
+    }
+  ],
+  "overlap": [
+    {
+      "a": "fender-bassman-value-guide",
+      "b": "fender-super-reverb-value-guide",
+      "shared8grams": 34,
+      "percent": 1.85,
+      "threshold": 26,
+      "pass": true
+    },
+    {
+      "a": "fender-bassman-value-guide",
+      "b": "fender-vibrolux-value-guide",
+      "shared8grams": 36,
+      "percent": 2.1,
+      "threshold": 26,
+      "pass": true
+    },
+    {
+      "a": "fender-bassman-value-guide",
+      "b": "fender-champ-value-guide",
+      "shared8grams": 34,
+      "percent": 1.89,
+      "threshold": 26,
+      "pass": true
+    },
+    {
+      "a": "fender-bassman-value-guide",
+      "b": "fender-bassman-authentication-guide",
+      "shared8grams": 0,
+      "percent": 0,
+      "threshold": 10,
+      "pass": true
+    },
+    {
+      "a": "fender-bassman-value-guide",
+      "b": "fender-super-reverb-authentication-guide",
+      "shared8grams": 0,
+      "percent": 0,
+      "threshold": 26,
+      "pass": true
+    },
+    {
+      "a": "fender-bassman-value-guide",
+      "b": "fender-vibrolux-authentication-guide",
+      "shared8grams": 0,
+      "percent": 0,
+      "threshold": 26,
+      "pass": true
+    },
+    {
+      "a": "fender-bassman-value-guide",
+      "b": "fender-champ-authentication-guide",
+      "shared8grams": 0,
+      "percent": 0,
+      "threshold": 26,
+      "pass": true
+    },
+    {
+      "a": "fender-bassman-value-guide",
+      "b": "princeton-reverb-vs-deluxe-reverb-vs-twin-reverb",
+      "shared8grams": 0,
+      "percent": 0,
+      "threshold": 26,
+      "pass": true
+    },
+    {
+      "a": "fender-super-reverb-value-guide",
+      "b": "fender-vibrolux-value-guide",
+      "shared8grams": 34,
+      "percent": 1.98,
+      "threshold": 26,
+      "pass": true
+    },
+    {
+      "a": "fender-super-reverb-value-guide",
+      "b": "fender-champ-value-guide",
+      "shared8grams": 38,
+      "percent": 2.12,
+      "threshold": 26,
+      "pass": true
+    },
+    {
+      "a": "fender-super-reverb-value-guide",
+      "b": "fender-bassman-authentication-guide",
+      "shared8grams": 0,
+      "percent": 0,
+      "threshold": 26,
+      "pass": true
+    },
+    {
+      "a": "fender-super-reverb-value-guide",
+      "b": "fender-super-reverb-authentication-guide",
+      "shared8grams": 0,
+      "percent": 0,
+      "threshold": 10,
+      "pass": true
+    },
+    {
+      "a": "fender-super-reverb-value-guide",
+      "b": "fender-vibrolux-authentication-guide",
+      "shared8grams": 0,
+      "percent": 0,
+      "threshold": 26,
+      "pass": true
+    },
+    {
+      "a": "fender-super-reverb-value-guide",
+      "b": "fender-champ-authentication-guide",
+      "shared8grams": 0,
+      "percent": 0,
+      "threshold": 26,
+      "pass": true
+    },
+    {
+      "a": "fender-super-reverb-value-guide",
+      "b": "princeton-reverb-vs-deluxe-reverb-vs-twin-reverb",
+      "shared8grams": 0,
+      "percent": 0,
+      "threshold": 26,
+      "pass": true
+    },
+    {
+      "a": "fender-vibrolux-value-guide",
+      "b": "fender-champ-value-guide",
+      "shared8grams": 35,
+      "percent": 2.04,
+      "threshold": 26,
+      "pass": true
+    },
+    {
+      "a": "fender-vibrolux-value-guide",
+      "b": "fender-bassman-authentication-guide",
+      "shared8grams": 0,
+      "percent": 0,
+      "threshold": 26,
+      "pass": true
+    },
+    {
+      "a": "fender-vibrolux-value-guide",
+      "b": "fender-super-reverb-authentication-guide",
+      "shared8grams": 0,
+      "percent": 0,
+      "threshold": 26,
+      "pass": true
+    },
+    {
+      "a": "fender-vibrolux-value-guide",
+      "b": "fender-vibrolux-authentication-guide",
+      "shared8grams": 0,
+      "percent": 0,
+      "threshold": 10,
+      "pass": true
+    },
+    {
+      "a": "fender-vibrolux-value-guide",
+      "b": "fender-champ-authentication-guide",
+      "shared8grams": 0,
+      "percent": 0,
+      "threshold": 26,
+      "pass": true
+    },
+    {
+      "a": "fender-vibrolux-value-guide",
+      "b": "princeton-reverb-vs-deluxe-reverb-vs-twin-reverb",
+      "shared8grams": 0,
+      "percent": 0,
+      "threshold": 26,
+      "pass": true
+    },
+    {
+      "a": "fender-champ-value-guide",
+      "b": "fender-bassman-authentication-guide",
+      "shared8grams": 0,
+      "percent": 0,
+      "threshold": 26,
+      "pass": true
+    },
+    {
+      "a": "fender-champ-value-guide",
+      "b": "fender-super-reverb-authentication-guide",
+      "shared8grams": 0,
+      "percent": 0,
+      "threshold": 26,
+      "pass": true
+    },
+    {
+      "a": "fender-champ-value-guide",
+      "b": "fender-vibrolux-authentication-guide",
+      "shared8grams": 0,
+      "percent": 0,
+      "threshold": 26,
+      "pass": true
+    },
+    {
+      "a": "fender-champ-value-guide",
+      "b": "fender-champ-authentication-guide",
+      "shared8grams": 0,
+      "percent": 0,
+      "threshold": 10,
+      "pass": true
+    },
+    {
+      "a": "fender-champ-value-guide",
+      "b": "princeton-reverb-vs-deluxe-reverb-vs-twin-reverb",
+      "shared8grams": 0,
+      "percent": 0,
+      "threshold": 26,
+      "pass": true
+    },
+    {
+      "a": "fender-bassman-authentication-guide",
+      "b": "fender-super-reverb-authentication-guide",
+      "shared8grams": 11,
+      "percent": 0.47,
+      "threshold": 26,
+      "pass": true
+    },
+    {
+      "a": "fender-bassman-authentication-guide",
+      "b": "fender-vibrolux-authentication-guide",
+      "shared8grams": 10,
+      "percent": 0.43,
+      "threshold": 26,
+      "pass": true
+    },
+    {
+      "a": "fender-bassman-authentication-guide",
+      "b": "fender-champ-authentication-guide",
+      "shared8grams": 10,
+      "percent": 0.43,
+      "threshold": 26,
+      "pass": true
+    },
+    {
+      "a": "fender-bassman-authentication-guide",
+      "b": "princeton-reverb-vs-deluxe-reverb-vs-twin-reverb",
+      "shared8grams": 0,
+      "percent": 0,
+      "threshold": 26,
+      "pass": true
+    },
+    {
+      "a": "fender-super-reverb-authentication-guide",
+      "b": "fender-vibrolux-authentication-guide",
+      "shared8grams": 14,
+      "percent": 0.59,
+      "threshold": 26,
+      "pass": true
+    },
+    {
+      "a": "fender-super-reverb-authentication-guide",
+      "b": "fender-champ-authentication-guide",
+      "shared8grams": 12,
+      "percent": 0.5,
+      "threshold": 26,
+      "pass": true
+    },
+    {
+      "a": "fender-super-reverb-authentication-guide",
+      "b": "princeton-reverb-vs-deluxe-reverb-vs-twin-reverb",
+      "shared8grams": 0,
+      "percent": 0,
+      "threshold": 26,
+      "pass": true
+    },
+    {
+      "a": "fender-vibrolux-authentication-guide",
+      "b": "fender-champ-authentication-guide",
+      "shared8grams": 10,
+      "percent": 0.42,
+      "threshold": 26,
+      "pass": true
+    },
+    {
+      "a": "fender-vibrolux-authentication-guide",
+      "b": "princeton-reverb-vs-deluxe-reverb-vs-twin-reverb",
+      "shared8grams": 0,
+      "percent": 0,
+      "threshold": 26,
+      "pass": true
+    },
+    {
+      "a": "fender-champ-authentication-guide",
+      "b": "princeton-reverb-vs-deluxe-reverb-vs-twin-reverb",
+      "shared8grams": 0,
+      "percent": 0,
+      "threshold": 26,
+      "pass": true
+    }
+  ],
+  "brokenInternalLinks": [],
+  "serialPageTitle": "Fender Amp Serial Number Lookup: Find The Year By Code",
+  "duplicateNewTitles": []
+}

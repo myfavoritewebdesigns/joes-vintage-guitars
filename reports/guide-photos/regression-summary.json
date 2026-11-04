@@ -1,0 +1,284 @@
+{
+  "before": {
+    "origin": "http://127.0.0.1:4328",
+    "checkedAt": "2026-11-03T17:08:59.402Z",
+    "pages": 45,
+    "viewportCases": 90,
+    "imageChecks": 830,
+    "affectedPages": [
+      "/post/epiphone-olympic-authentication-guide/",
+      "/post/fender-amp-eras-tweed-brownface-blackface-silverface/",
+      "/post/fender-bassman-authentication-guide/",
+      "/post/fender-champ-authentication-guide/",
+      "/post/fender-super-reverb-authentication-guide/",
+      "/post/fender-vibrolux-authentication-guide/"
+    ],
+    "failures": 28,
+    "overflowCases": 0
+  },
+  "after": {
+    "origin": "http://127.0.0.1:4328",
+    "checkedAt": "2026-11-03T17:11:33.864Z",
+    "pages": 45,
+    "viewportCases": 90,
+    "imageChecks": 830,
+    "affectedPages": [],
+    "failures": 0,
+    "overflowCases": 0
+  },
+  "changes": [
+    {
+      "route": "/post/epiphone-olympic-authentication-guide/",
+      "viewport": 390,
+      "alt": "1965 Epiphone Olympic with one narrow single-coil pickup, two controls and vibrato",
+      "oldHeight": 0,
+      "height": 360,
+      "expected": true,
+      "sourcePreserved": true
+    },
+    {
+      "route": "/post/epiphone-olympic-authentication-guide/",
+      "viewport": 390,
+      "alt": "Six-in-line headstock with Epiphone logo on a 1965 Olympic",
+      "oldHeight": 0,
+      "height": 360,
+      "expected": true,
+      "sourcePreserved": true
+    },
+    {
+      "route": "/post/epiphone-olympic-authentication-guide/",
+      "viewport": 1440,
+      "alt": "1965 Epiphone Olympic with one narrow single-coil pickup, two controls and vibrato",
+      "oldHeight": 0,
+      "height": 420,
+      "expected": true,
+      "sourcePreserved": true
+    },
+    {
+      "route": "/post/epiphone-olympic-authentication-guide/",
+      "viewport": 1440,
+      "alt": "Six-in-line headstock with Epiphone logo on a 1965 Olympic",
+      "oldHeight": 0,
+      "height": 420,
+      "expected": true,
+      "sourcePreserved": true
+    },
+    {
+      "route": "/post/fender-amp-eras-tweed-brownface-blackface-silverface/",
+      "viewport": 390,
+      "alt": "1957 Fender Deluxe front",
+      "oldHeight": 0,
+      "height": 360,
+      "expected": true,
+      "sourcePreserved": true
+    },
+    {
+      "route": "/post/fender-amp-eras-tweed-brownface-blackface-silverface/",
+      "viewport": 390,
+      "alt": "1963 Fender Twin front",
+      "oldHeight": 0,
+      "height": 360,
+      "expected": true,
+      "sourcePreserved": true
+    },
+    {
+      "route": "/post/fender-amp-eras-tweed-brownface-blackface-silverface/",
+      "viewport": 390,
+      "alt": "1966 Fender Princeton Reverb front",
+      "oldHeight": 0,
+      "height": 360,
+      "expected": true,
+      "sourcePreserved": true
+    },
+    {
+      "route": "/post/fender-amp-eras-tweed-brownface-blackface-silverface/",
+      "viewport": 390,
+      "alt": "1979 Fender Deluxe Reverb front",
+      "oldHeight": 0,
+      "height": 360,
+      "expected": true,
+      "sourcePreserved": true
+    },
+    {
+      "route": "/post/fender-amp-eras-tweed-brownface-blackface-silverface/",
+      "viewport": 1440,
+      "alt": "1957 Fender Deluxe front",
+      "oldHeight": 0,
+      "height": 420,
+      "expected": true,
+      "sourcePreserved": true
+    },
+    {
+      "route": "/post/fender-amp-eras-tweed-brownface-blackface-silverface/",
+      "viewport": 1440,
+      "alt": "1963 Fender Twin front",
+      "oldHeight": 0,
+      "height": 420,
+      "expected": true,
+      "sourcePreserved": true
+    },
+    {
+      "route": "/post/fender-amp-eras-tweed-brownface-blackface-silverface/",
+      "viewport": 1440,
+      "alt": "1966 Fender Princeton Reverb front",
+      "oldHeight": 0,
+      "height": 420,
+      "expected": true,
+      "sourcePreserved": true
+    },
+    {
+      "route": "/post/fender-amp-eras-tweed-brownface-blackface-silverface/",
+      "viewport": 1440,
+      "alt": "1979 Fender Deluxe Reverb front",
+      "oldHeight": 0,
+      "height": 420,
+      "expected": true,
+      "sourcePreserved": true
+    },
+    {
+      "route": "/post/fender-bassman-authentication-guide/",
+      "viewport": 390,
+      "alt": "1959 Fender Bassman controls",
+      "oldHeight": 0,
+      "height": 360,
+      "expected": true,
+      "sourcePreserved": true
+    },
+    {
+      "route": "/post/fender-bassman-authentication-guide/",
+      "viewport": 390,
+      "alt": "1959 Fender Bassman board",
+      "oldHeight": 0,
+      "height": 360,
+      "expected": true,
+      "sourcePreserved": true
+    },
+    {
+      "route": "/post/fender-bassman-authentication-guide/",
+      "viewport": 1440,
+      "alt": "1959 Fender Bassman controls",
+      "oldHeight": 0,
+      "height": 420,
+      "expected": true,
+      "sourcePreserved": true
+    },
+    {
+      "route": "/post/fender-bassman-authentication-guide/",
+      "viewport": 1440,
+      "alt": "1959 Fender Bassman board",
+      "oldHeight": 0,
+      "height": 420,
+      "expected": true,
+      "sourcePreserved": true
+    },
+    {
+      "route": "/post/fender-champ-authentication-guide/",
+      "viewport": 390,
+      "alt": "1956 Fender Champ controls",
+      "oldHeight": 0,
+      "height": 360,
+      "expected": true,
+      "sourcePreserved": true
+    },
+    {
+      "route": "/post/fender-champ-authentication-guide/",
+      "viewport": 390,
+      "alt": "1956 Fender Champ board",
+      "oldHeight": 0,
+      "height": 360,
+      "expected": true,
+      "sourcePreserved": true
+    },
+    {
+      "route": "/post/fender-champ-authentication-guide/",
+      "viewport": 1440,
+      "alt": "1956 Fender Champ controls",
+      "oldHeight": 0,
+      "height": 420,
+      "expected": true,
+      "sourcePreserved": true
+    },
+    {
+      "route": "/post/fender-champ-authentication-guide/",
+      "viewport": 1440,
+      "alt": "1956 Fender Champ board",
+      "oldHeight": 0,
+      "height": 420,
+      "expected": true,
+      "sourcePreserved": true
+    },
+    {
+      "route": "/post/fender-super-reverb-authentication-guide/",
+      "viewport": 390,
+      "alt": "1960 Fender Super back",
+      "oldHeight": 0,
+      "height": 360,
+      "expected": true,
+      "sourcePreserved": true
+    },
+    {
+      "route": "/post/fender-super-reverb-authentication-guide/",
+      "viewport": 390,
+      "alt": "1962 Fender Super back",
+      "oldHeight": 0,
+      "height": 360,
+      "expected": true,
+      "sourcePreserved": true
+    },
+    {
+      "route": "/post/fender-super-reverb-authentication-guide/",
+      "viewport": 1440,
+      "alt": "1960 Fender Super back",
+      "oldHeight": 0,
+      "height": 420,
+      "expected": true,
+      "sourcePreserved": true
+    },
+    {
+      "route": "/post/fender-super-reverb-authentication-guide/",
+      "viewport": 1440,
+      "alt": "1962 Fender Super back",
+      "oldHeight": 0,
+      "height": 420,
+      "expected": true,
+      "sourcePreserved": true
+    },
+    {
+      "route": "/post/fender-vibrolux-authentication-guide/",
+      "viewport": 390,
+      "alt": "1964 Fender Vibrolux front",
+      "oldHeight": 0,
+      "height": 360,
+      "expected": true,
+      "sourcePreserved": true
+    },
+    {
+      "route": "/post/fender-vibrolux-authentication-guide/",
+      "viewport": 390,
+      "alt": "1964 Fender Vibrolux back",
+      "oldHeight": 0,
+      "height": 360,
+      "expected": true,
+      "sourcePreserved": true
+    },
+    {
+      "route": "/post/fender-vibrolux-authentication-guide/",
+      "viewport": 1440,
+      "alt": "1964 Fender Vibrolux front",
+      "oldHeight": 0,
+      "height": 420,
+      "expected": true,
+      "sourcePreserved": true
+    },
+    {
+      "route": "/post/fender-vibrolux-authentication-guide/",
+      "viewport": 1440,
+      "alt": "1964 Fender Vibrolux back",
+      "oldHeight": 0,
+      "height": 420,
+      "expected": true,
+      "sourcePreserved": true
+    }
+  ],
+  "otherImageDimensionsPreserved": true
+}

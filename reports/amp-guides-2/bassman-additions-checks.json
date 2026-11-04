@@ -1,0 +1,290 @@
+{
+  "checkedAt": "2026-11-03T16:04:24.876Z",
+  "baselineCommit": "2102d6ba0ae07a97721fd95cf70baf4f1bbafc7c",
+  "htmlFilesChecked": 427,
+  "changedHtml": [
+    "post/fender-bassman-authentication-guide/index.html",
+    "post/fender-bassman-value-guide/index.html"
+  ],
+  "unrelatedHtmlUnchanged": true,
+  "pages": [
+    {
+      "slug": "fender-bassman-value-guide",
+      "readingWords": 1924,
+      "bodyWordsExcludingChartsFaq": 1583,
+      "faqMatches": true,
+      "titleMatches": true,
+      "listingChecks": [
+        {
+          "id": "81558022-fender-bassman-1960s-blackface",
+          "count": 1
+        },
+        {
+          "id": "93427883-fender-bassman-1961-blonde-oxblood",
+          "count": 1
+        }
+      ],
+      "clothChecks": true
+    },
+    {
+      "slug": "fender-super-reverb-value-guide",
+      "readingWords": 1793,
+      "bodyWordsExcludingChartsFaq": 1501,
+      "faqMatches": true,
+      "titleMatches": true
+    },
+    {
+      "slug": "fender-vibrolux-value-guide",
+      "readingWords": 1673,
+      "bodyWordsExcludingChartsFaq": 1498,
+      "faqMatches": true,
+      "titleMatches": true
+    },
+    {
+      "slug": "fender-champ-value-guide",
+      "readingWords": 1753,
+      "bodyWordsExcludingChartsFaq": 1492,
+      "faqMatches": true,
+      "titleMatches": true
+    },
+    {
+      "slug": "fender-bassman-authentication-guide",
+      "readingWords": 2293,
+      "bodyWordsExcludingChartsFaq": 1920,
+      "faqMatches": true,
+      "titleMatches": true,
+      "listingChecks": [
+        {
+          "id": "81558022-fender-bassman-1960s-blackface",
+          "count": 1
+        },
+        {
+          "id": "93427883-fender-bassman-1961-blonde-oxblood",
+          "count": 1
+        }
+      ],
+      "clothChecks": true
+    },
+    {
+      "slug": "fender-super-reverb-authentication-guide",
+      "readingWords": 2272,
+      "bodyWordsExcludingChartsFaq": 1914,
+      "faqMatches": true,
+      "titleMatches": true
+    },
+    {
+      "slug": "fender-vibrolux-authentication-guide",
+      "readingWords": 2265,
+      "bodyWordsExcludingChartsFaq": 1962,
+      "faqMatches": true,
+      "titleMatches": true
+    },
+    {
+      "slug": "fender-champ-authentication-guide",
+      "readingWords": 2344,
+      "bodyWordsExcludingChartsFaq": 2034,
+      "faqMatches": true,
+      "titleMatches": true
+    }
+  ],
+  "overlap": [
+    {
+      "a": "fender-bassman-value-guide",
+      "b": "fender-super-reverb-value-guide",
+      "percent": 1.85,
+      "threshold": 26,
+      "pass": true
+    },
+    {
+      "a": "fender-bassman-value-guide",
+      "b": "fender-vibrolux-value-guide",
+      "percent": 2.1,
+      "threshold": 26,
+      "pass": true
+    },
+    {
+      "a": "fender-bassman-value-guide",
+      "b": "fender-champ-value-guide",
+      "percent": 1.89,
+      "threshold": 26,
+      "pass": true
+    },
+    {
+      "a": "fender-bassman-value-guide",
+      "b": "fender-bassman-authentication-guide",
+      "percent": 0,
+      "threshold": 10,
+      "pass": true
+    },
+    {
+      "a": "fender-bassman-value-guide",
+      "b": "fender-super-reverb-authentication-guide",
+      "percent": 0,
+      "threshold": 26,
+      "pass": true
+    },
+    {
+      "a": "fender-bassman-value-guide",
+      "b": "fender-vibrolux-authentication-guide",
+      "percent": 0,
+      "threshold": 26,
+      "pass": true
+    },
+    {
+      "a": "fender-bassman-value-guide",
+      "b": "fender-champ-authentication-guide",
+      "percent": 0,
+      "threshold": 26,
+      "pass": true
+    },
+    {
+      "a": "fender-super-reverb-value-guide",
+      "b": "fender-vibrolux-value-guide",
+      "percent": 1.98,
+      "threshold": 26,
+      "pass": true
+    },
+    {
+      "a": "fender-super-reverb-value-guide",
+      "b": "fender-champ-value-guide",
+      "percent": 2.12,
+      "threshold": 26,
+      "pass": true
+    },
+    {
+      "a": "fender-super-reverb-value-guide",
+      "b": "fender-bassman-authentication-guide",
+      "percent": 0,
+      "threshold": 26,
+      "pass": true
+    },
+    {
+      "a": "fender-super-reverb-value-guide",
+      "b": "fender-super-reverb-authentication-guide",
+      "percent": 0,
+      "threshold": 10,
+      "pass": true
+    },
+    {
+      "a": "fender-super-reverb-value-guide",
+      "b": "fender-vibrolux-authentication-guide",
+      "percent": 0,
+      "threshold": 26,
+      "pass": true
+    },
+    {
+      "a": "fender-super-reverb-value-guide",
+      "b": "fender-champ-authentication-guide",
+      "percent": 0,
+      "threshold": 26,
+      "pass": true
+    },
+    {
+      "a": "fender-vibrolux-value-guide",
+      "b": "fender-champ-value-guide",
+      "percent": 2.04,
+      "threshold": 26,
+      "pass": true
+    },
+    {
+      "a": "fender-vibrolux-value-guide",
+      "b": "fender-bassman-authentication-guide",
+      "percent": 0,
+      "threshold": 26,
+      "pass": true
+    },
+    {
+      "a": "fender-vibrolux-value-guide",
+      "b": "fender-super-reverb-authentication-guide",
+      "percent": 0,
+      "threshold": 26,
+      "pass": true
+    },
+    {
+      "a": "fender-vibrolux-value-guide",
+      "b": "fender-vibrolux-authentication-guide",
+      "percent": 0,
+      "threshold": 10,
+      "pass": true
+    },
+    {
+      "a": "fender-vibrolux-value-guide",
+      "b": "fender-champ-authentication-guide",
+      "percent": 0,
+      "threshold": 26,
+      "pass": true
+    },
+    {
+      "a": "fender-champ-value-guide",
+      "b": "fender-bassman-authentication-guide",
+      "percent": 0,
+      "threshold": 26,
+      "pass": true
+    },
+    {
+      "a": "fender-champ-value-guide",
+      "b": "fender-super-reverb-authentication-guide",
+      "percent": 0,
+      "threshold": 26,
+      "pass": true
+    },
+    {
+      "a": "fender-champ-value-guide",
+      "b": "fender-vibrolux-authentication-guide",
+      "percent": 0,
+      "threshold": 26,
+      "pass": true
+    },
+    {
+      "a": "fender-champ-value-guide",
+      "b": "fender-champ-authentication-guide",
+      "percent": 0,
+      "threshold": 10,
+      "pass": true
+    },
+    {
+      "a": "fender-bassman-authentication-guide",
+      "b": "fender-super-reverb-authentication-guide",
+      "percent": 0.46,
+      "threshold": 26,
+      "pass": true
+    },
+    {
+      "a": "fender-bassman-authentication-guide",
+      "b": "fender-vibrolux-authentication-guide",
+      "percent": 0.42,
+      "threshold": 26,
+      "pass": true
+    },
+    {
+      "a": "fender-bassman-authentication-guide",
+      "b": "fender-champ-authentication-guide",
+      "percent": 0.41,
+      "threshold": 26,
+      "pass": true
+    },
+    {
+      "a": "fender-super-reverb-authentication-guide",
+      "b": "fender-vibrolux-authentication-guide",
+      "percent": 0.59,
+      "threshold": 26,
+      "pass": true
+    },
+    {
+      "a": "fender-super-reverb-authentication-guide",
+      "b": "fender-champ-authentication-guide",
+      "percent": 0.5,
+      "threshold": 26,
+      "pass": true
+    },
+    {
+      "a": "fender-vibrolux-authentication-guide",
+      "b": "fender-champ-authentication-guide",
+      "percent": 0.42,
+      "threshold": 26,
+      "pass": true
+    }
+  ],
+  "pricesAndPhotos": "No pricing data or photo assets changed; git diff verified.",
+  "pass": true
+}

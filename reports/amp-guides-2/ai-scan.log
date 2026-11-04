@@ -1,0 +1,137 @@
+=== /work/texts/fender-bassman-authentication-guide.txt  [policy: writing_system] ===
+  DOCUMENT-LEVEL CHECKS (whole-draft, no line number):
+    [ok  ] contrast-pivot density     contrast density ok 0.33/200w
+    [ok  ] sentence-length variation  sentence variance ok SD 20.6
+    [off ] specificity floor          not run under policy 'writing_system'
+    [ok  ] section-template rhythm    heading template ok
+    [ok  ] data tables                data tables ok (none)
+    [ok  ] staccato beats             staccato beat ok (none)
+    [ok  ] contractions               contractions ok 8.34/1000 words
+    [ok  ] bold-label case            bold labels ok (none)
+    [off ] reaction emoji             not run under policy 'writing_system'
+    [ok  ] praise stacking            praise stacking ok
+    [off ] social channel checks      not run under policy 'writing_system'
+    [n/a ] cross-draft similarity     not run; pass --batch to compare these 8 inputs as a set
+  clean - no tier-1 or tier-2 hits
+  metrics: words=2361 contrast=0.33/200w (4 hits) sentence_sd=20.57 exempted=0
+SUMMARY /work/texts/fender-bassman-authentication-guide.txt: PASS - BAN 0, WARN 0
+=== /work/texts/fender-bassman-value-guide.txt  [policy: writing_system] ===
+  DOCUMENT-LEVEL CHECKS (whole-draft, no line number):
+    [ok  ] contrast-pivot density     contrast density ok 0.10/200w
+    [ok  ] sentence-length variation  sentence variance ok SD 29.4
+    [off ] specificity floor          not run under policy 'writing_system'
+    [ok  ] section-template rhythm    heading template ok
+    [ok  ] data tables                data tables ok (none)
+    [ok  ] staccato beats             staccato beat ok (none)
+    [ok  ] contractions               contractions ok 9.71/1000 words
+    [ok  ] bold-label case            bold labels ok (none)
+    [off ] reaction emoji             not run under policy 'writing_system'
+    [ok  ] praise stacking            praise stacking ok
+    [off ] social channel checks      not run under policy 'writing_system'
+    [n/a ] cross-draft similarity     not run; pass --batch to compare these 8 inputs as a set
+  clean - no tier-1 or tier-2 hits
+  metrics: words=1932 contrast=0.1/200w (1 hits) sentence_sd=29.37 exempted=0
+SUMMARY /work/texts/fender-bassman-value-guide.txt: PASS - BAN 0, WARN 0
+=== /work/texts/fender-champ-authentication-guide.txt  [policy: writing_system] ===
+  DOCUMENT-LEVEL CHECKS (whole-draft, no line number):
+    [ok  ] contrast-pivot density     contrast density ok 0.39/200w
+    [ok  ] sentence-length variation  sentence variance ok SD 22.7
+    [off ] specificity floor          not run under policy 'writing_system'
+    [ok  ] section-template rhythm    heading template ok
+    [ok  ] data tables                data tables ok (none)
+    [ok  ] staccato beats             staccato beat ok (none)
+    [ok  ] contractions               contractions ok 6.71/1000 words
+    [ok  ] bold-label case            bold labels ok (none)
+    [off ] reaction emoji             not run under policy 'writing_system'
+    [ok  ] praise stacking            praise stacking ok
+    [off ] social channel checks      not run under policy 'writing_system'
+    [n/a ] cross-draft similarity     not run; pass --batch to compare these 8 inputs as a set
+  clean - no tier-1 or tier-2 hits
+  metrics: words=2499 contrast=0.39/200w (5 hits) sentence_sd=22.72 exempted=0
+SUMMARY /work/texts/fender-champ-authentication-guide.txt: PASS - BAN 0, WARN 0
+=== /work/texts/fender-champ-value-guide.txt  [policy: writing_system] ===
+  DOCUMENT-LEVEL CHECKS (whole-draft, no line number):
+    [ok  ] contrast-pivot density     contrast density ok 0.10/200w
+    [ok  ] sentence-length variation  sentence variance ok SD 19.6
+    [off ] specificity floor          not run under policy 'writing_system'
+    [ok  ] section-template rhythm    heading template ok
+    [ok  ] data tables                data tables ok (none)
+    [ok  ] staccato beats             staccato beat ok (none)
+    [ok  ] contractions               contractions ok 8.89/1000 words
+    [ok  ] bold-label case            bold labels ok (none)
+    [off ] reaction emoji             not run under policy 'writing_system'
+    [ok  ] praise stacking            praise stacking ok
+    [off ] social channel checks      not run under policy 'writing_system'
+    [n/a ] cross-draft similarity     not run; pass --batch to compare these 8 inputs as a set
+  clean - no tier-1 or tier-2 hits
+  metrics: words=1884 contrast=0.1/200w (1 hits) sentence_sd=19.65 exempted=0
+SUMMARY /work/texts/fender-champ-value-guide.txt: PASS - BAN 0, WARN 0
+=== /work/texts/fender-super-reverb-authentication-guide.txt  [policy: writing_system] ===
+  DOCUMENT-LEVEL CHECKS (whole-draft, no line number):
+    [ok  ] contrast-pivot density     contrast density ok 0.25/200w
+    [ok  ] sentence-length variation  sentence variance ok SD 24.8
+    [off ] specificity floor          not run under policy 'writing_system'
+    [ok  ] section-template rhythm    heading template ok
+    [ok  ] data tables                data tables ok (none)
+    [ok  ] staccato beats             staccato beat ok (none)
+    [ok  ] contractions               contractions ok 4.51/1000 words
+    [ok  ] bold-label case            bold labels ok (none)
+    [off ] reaction emoji             not run under policy 'writing_system'
+    [ok  ] praise stacking            praise stacking ok
+    [off ] social channel checks      not run under policy 'writing_system'
+    [n/a ] cross-draft similarity     not run; pass --batch to compare these 8 inputs as a set
+  clean - no tier-1 or tier-2 hits
+  metrics: words=2404 contrast=0.25/200w (3 hits) sentence_sd=24.81 exempted=0
+SUMMARY /work/texts/fender-super-reverb-authentication-guide.txt: PASS - BAN 0, WARN 0
+=== /work/texts/fender-super-reverb-value-guide.txt  [policy: writing_system] ===
+  DOCUMENT-LEVEL CHECKS (whole-draft, no line number):
+    [ok  ] contrast-pivot density     contrast density ok 0.10/200w
+    [ok  ] sentence-length variation  sentence variance ok SD 26.3
+    [off ] specificity floor          not run under policy 'writing_system'
+    [ok  ] section-template rhythm    heading template ok
+    [ok  ] data tables                data tables ok (none)
+    [ok  ] staccato beats             staccato beat ok (none)
+    [ok  ] contractions               contractions ok 5.68/1000 words
+    [ok  ] bold-label case            bold labels ok (none)
+    [off ] reaction emoji             not run under policy 'writing_system'
+    [ok  ] praise stacking            praise stacking ok
+    [off ] social channel checks      not run under policy 'writing_system'
+    [n/a ] cross-draft similarity     not run; pass --batch to compare these 8 inputs as a set
+  clean - no tier-1 or tier-2 hits
+  metrics: words=1913 contrast=0.1/200w (1 hits) sentence_sd=26.26 exempted=0
+SUMMARY /work/texts/fender-super-reverb-value-guide.txt: PASS - BAN 0, WARN 0
+=== /work/texts/fender-vibrolux-authentication-guide.txt  [policy: writing_system] ===
+  DOCUMENT-LEVEL CHECKS (whole-draft, no line number):
+    [ok  ] contrast-pivot density     contrast density ok 0.16/200w
+    [ok  ] sentence-length variation  sentence variance ok SD 21.0
+    [off ] specificity floor          not run under policy 'writing_system'
+    [ok  ] section-template rhythm    heading template ok
+    [ok  ] data tables                data tables ok (none)
+    [ok  ] staccato beats             staccato beat ok (none)
+    [ok  ] contractions               contractions ok 3.69/1000 words
+    [ok  ] bold-label case            bold labels ok (none)
+    [off ] reaction emoji             not run under policy 'writing_system'
+    [ok  ] praise stacking            praise stacking ok
+    [off ] social channel checks      not run under policy 'writing_system'
+    [n/a ] cross-draft similarity     not run; pass --batch to compare these 8 inputs as a set
+  clean - no tier-1 or tier-2 hits
+  metrics: words=2407 contrast=0.16/200w (2 hits) sentence_sd=20.99 exempted=0
+SUMMARY /work/texts/fender-vibrolux-authentication-guide.txt: PASS - BAN 0, WARN 0
+=== /work/texts/fender-vibrolux-value-guide.txt  [policy: writing_system] ===
+  DOCUMENT-LEVEL CHECKS (whole-draft, no line number):
+    [ok  ] contrast-pivot density     contrast density ok 0.11/200w
+    [ok  ] sentence-length variation  sentence variance ok SD 15.9
+    [off ] specificity floor          not run under policy 'writing_system'
+    [ok  ] section-template rhythm    heading template ok
+    [ok  ] data tables                data tables ok (none)
+    [ok  ] staccato beats             staccato beat ok (none)
+    [ok  ] contractions               contractions ok 9.35/1000 words
+    [ok  ] bold-label case            bold labels ok (none)
+    [off ] reaction emoji             not run under policy 'writing_system'
+    [ok  ] praise stacking            praise stacking ok
+    [off ] social channel checks      not run under policy 'writing_system'
+    [n/a ] cross-draft similarity     not run; pass --batch to compare these 8 inputs as a set
+  clean - no tier-1 or tier-2 hits
+  metrics: words=1787 contrast=0.11/200w (1 hits) sentence_sd=15.89 exempted=0
+SUMMARY /work/texts/fender-vibrolux-value-guide.txt: PASS - BAN 0, WARN 0
+TOTAL: BAN 0, WARN 0

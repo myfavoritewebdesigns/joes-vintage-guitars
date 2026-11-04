@@ -1,0 +1,265 @@
+{
+  "newRows": 60,
+  "pr1Rows": 40,
+  "pr1Unchanged": true,
+  "checks": [
+    {
+      "id": "fender-bassman-1",
+      "verified": true
+    },
+    {
+      "id": "fender-bassman-2",
+      "verified": true
+    },
+    {
+      "id": "fender-bassman-3",
+      "verified": true
+    },
+    {
+      "id": "fender-bassman-4",
+      "verified": true
+    },
+    {
+      "id": "fender-bassman-5",
+      "verified": true
+    },
+    {
+      "id": "fender-bassman-6",
+      "verified": true
+    },
+    {
+      "id": "fender-bassman-7",
+      "verified": true
+    },
+    {
+      "id": "fender-bassman-8",
+      "verified": true
+    },
+    {
+      "id": "fender-bassman-9",
+      "verified": true
+    },
+    {
+      "id": "fender-bassman-10",
+      "verified": true
+    },
+    {
+      "id": "fender-bassman-11",
+      "verified": true
+    },
+    {
+      "id": "fender-bassman-12",
+      "verified": true
+    },
+    {
+      "id": "fender-bassman-13",
+      "verified": true
+    },
+    {
+      "id": "fender-bassman-14",
+      "verified": true
+    },
+    {
+      "id": "fender-bassman-15",
+      "verified": true
+    },
+    {
+      "id": "fender-bassman-16",
+      "verified": true
+    },
+    {
+      "id": "fender-bassman-17",
+      "verified": true
+    },
+    {
+      "id": "fender-bassman-18",
+      "verified": true
+    },
+    {
+      "id": "fender-bassman-19",
+      "verified": true
+    },
+    {
+      "id": "fender-bassman-20",
+      "verified": true
+    },
+    {
+      "id": "fender-bassman-22",
+      "verified": true
+    },
+    {
+      "id": "fender-bassman-23",
+      "verified": true
+    },
+    {
+      "id": "fender-bassman-24",
+      "verified": true
+    },
+    {
+      "id": "fender-champ-1",
+      "verified": true
+    },
+    {
+      "id": "fender-champ-2",
+      "verified": true
+    },
+    {
+      "id": "fender-champ-3",
+      "verified": true
+    },
+    {
+      "id": "fender-champ-4",
+      "verified": true
+    },
+    {
+      "id": "fender-champ-5",
+      "verified": true
+    },
+    {
+      "id": "fender-champ-6",
+      "verified": true
+    },
+    {
+      "id": "fender-champ-7",
+      "verified": true
+    },
+    {
+      "id": "fender-champ-8",
+      "verified": true
+    },
+    {
+      "id": "fender-champ-9",
+      "verified": true
+    },
+    {
+      "id": "fender-champ-10",
+      "verified": true
+    },
+    {
+      "id": "fender-super-reverb-1",
+      "verified": true
+    },
+    {
+      "id": "fender-super-reverb-2",
+      "verified": true
+    },
+    {
+      "id": "fender-super-reverb-3",
+      "verified": true
+    },
+    {
+      "id": "fender-super-reverb-4",
+      "verified": true
+    },
+    {
+      "id": "fender-super-reverb-5",
+      "verified": true
+    },
+    {
+      "id": "fender-super-reverb-6",
+      "verified": true
+    },
+    {
+      "id": "fender-super-reverb-7",
+      "verified": true
+    },
+    {
+      "id": "fender-super-reverb-8",
+      "verified": true
+    },
+    {
+      "id": "fender-super-reverb-9",
+      "verified": true
+    },
+    {
+      "id": "fender-super-reverb-10",
+      "verified": true
+    },
+    {
+      "id": "fender-super-reverb-11",
+      "verified": true
+    },
+    {
+      "id": "fender-super-reverb-12",
+      "verified": true
+    },
+    {
+      "id": "fender-super-reverb-13",
+      "verified": true
+    },
+    {
+      "id": "fender-super-reverb-14",
+      "verified": true
+    },
+    {
+      "id": "fender-super-reverb-15",
+      "verified": true
+    },
+    {
+      "id": "fender-super-reverb-16",
+      "verified": true
+    },
+    {
+      "id": "fender-super-reverb-17",
+      "verified": true
+    },
+    {
+      "id": "fender-super-reverb-18",
+      "verified": true
+    },
+    {
+      "id": "fender-champ-11",
+      "verified": true
+    },
+    {
+      "id": "fender-champ-12",
+      "verified": true
+    },
+    {
+      "id": "fender-vibrolux-1",
+      "verified": true
+    },
+    {
+      "id": "fender-vibrolux-2",
+      "verified": true
+    },
+    {
+      "id": "fender-vibrolux-3",
+      "verified": true
+    },
+    {
+      "id": "fender-vibrolux-4",
+      "verified": true
+    },
+    {
+      "id": "fender-vibrolux-5",
+      "verified": true
+    },
+    {
+      "id": "fender-vibrolux-6",
+      "verified": true
+    },
+    {
+      "id": "fender-vibrolux-7",
+      "verified": true
+    }
+  ],
+  "existingSourceScope": [
+    {
+      "path": "src/pages/sell-an-amplifier-or-effect.astro",
+      "additions": 1,
+      "restoresExactSource": true,
+      "addedText": [
+        "      <p>The <a href=\"/post/fender-bassman-value-guide/\">Bassman estimates</a> distinguish heads from complete sets. The <a href=\"/post/fender-super-reverb-value-guide/\">Super</a>, <a href=\"/post/fender-vibrolux-value-guide/\">Vibrolux</a> and <a href=\"/post/fender-champ-value-guide/\">Champ value guides</a> cover their earlier models and later versions separately.</p>"
+      ]
+    },
+    {
+      "path": "src/pages/vintage-fender-amplifier-serial-numbers-how-to-find-the-year.astro",
+      "additions": 1,
+      "restoresExactSource": true,
+      "addedText": [
+        "      <p>Further photographed examples appear in the <a href=\"/post/fender-bassman-authentication-guide/\">Bassman</a>, <a href=\"/post/fender-super-reverb-authentication-guide/\">Super and Super Reverb</a>, <a href=\"/post/fender-vibrolux-authentication-guide/\">Vibrolux</a> and <a href=\"/post/fender-champ-authentication-guide/\">Champ identification guides</a>.</p>"
+      ]
+    }
+  ]
+}

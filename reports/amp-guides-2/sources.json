@@ -1,0 +1,885 @@
+{
+  "verifiedAt": "2026-11-02",
+  "hierarchy": "User brief and live JVG reference govern house facts; Fender drawings and manuals govern specific circuitry; manufacturer field research supports cosmetics; Joe’s original photographs support visual observations. Price estimates use only the 2026 book.",
+  "sources": [
+    {
+      "sourceId": "AMP2-S001",
+      "title": "’59 reissue service drawing",
+      "href": "https://el34world.com/charts/Schematics/files/Fender/Fender_bassman_59_rev_e.pdf",
+      "verifiedAt": "2026-11-02",
+      "sourceType": "Fender factory document hosted by manufacturer or schematic archive",
+      "usedIn": [
+        "fender-bassman-authentication-guide#reissues"
+      ],
+      "note": "Supports the linked claim in this section."
+    },
+    {
+      "sourceId": "AMP2-S002",
+      "title": "LTD specification",
+      "href": "https://www.fender.com/products/59-bassman-ltd",
+      "verifiedAt": "2026-11-02",
+      "sourceType": "Fender manufacturer publication",
+      "usedIn": [
+        "fender-bassman-authentication-guide#reissues"
+      ],
+      "note": "Supports the linked claim in this section."
+    },
+    {
+      "sourceId": "AMP2-S003",
+      "title": "Bassman 60 service document",
+      "href": "https://el34world.com/charts/Schematics/files/Fender/Fender_bassman60.pdf",
+      "verifiedAt": "2026-11-02",
+      "sourceType": "Fender factory document hosted by manufacturer or schematic archive",
+      "usedIn": [
+        "fender-bassman-authentication-guide#reissues"
+      ],
+      "note": "Supports the linked claim in this section."
+    },
+    {
+      "sourceId": "AMP2-S004",
+      "title": "5F6-A layout",
+      "href": "https://el34world.com/charts/Schematics/files/Fender/Fender_bassman_5f6a.pdf",
+      "verifiedAt": "2026-11-02",
+      "sourceType": "Fender factory document hosted by manufacturer or schematic archive",
+      "usedIn": [
+        "fender-bassman-authentication-guide#specs",
+        "specification tables"
+      ],
+      "note": "Supports the linked claim in this section."
+    },
+    {
+      "sourceId": "AMP2-S005",
+      "title": "AB165 schematic",
+      "href": "https://el34world.com/charts/Schematics/files/Fender/Fender_bassman_ab165.pdf",
+      "verifiedAt": "2026-11-02",
+      "sourceType": "Fender factory document hosted by manufacturer or schematic archive",
+      "usedIn": [
+        "fender-bassman-authentication-guide#specs"
+      ],
+      "note": "Supports the linked claim in this section."
+    },
+    {
+      "sourceId": "AMP2-S006",
+      "title": "Bassman history",
+      "href": "https://www.fender.com/articles/parts-and-accessories/going-low-the-history-of-the-bassman",
+      "verifiedAt": "2026-11-02",
+      "sourceType": "Fender manufacturer publication",
+      "usedIn": [
+        "fender-bassman-authentication-guide#specs",
+        "fender-bassman-authentication-guide#references"
+      ],
+      "note": "Supports the linked claim in this section. Fender explicitly places wheat grille cloth replacing maroon in late 1962. This supports the requested oxblood/wheat explanation; it is not an individual-amp dating rule.",
+      "reverifiedAt": "2026-11-03"
+    },
+    {
+      "sourceId": "AMP2-S007",
+      "title": "Early Bassman Field Record",
+      "href": "https://mojotone.com/blogs/fender-field-guide/fender-wide-panel-tweed-bassman",
+      "verifiedAt": "2026-11-02",
+      "sourceType": "Manufacturer field research",
+      "usedIn": [
+        "fender-bassman-authentication-guide#references"
+      ],
+      "note": "5B6 rating, octal tube set and exterior details."
+    },
+    {
+      "sourceId": "AMP2-S008",
+      "title": "Fender 5E6-A Drawing",
+      "href": "https://el34world.com/charts/Schematics/files/Fender/Fender_bassman_5e6a.pdf",
+      "verifiedAt": "2026-11-02",
+      "sourceType": "Fender factory document hosted by manufacturer or schematic archive",
+      "usedIn": [
+        "fender-bassman-authentication-guide#references"
+      ],
+      "note": "Two rectifier tubes and the earlier four-ten layout."
+    },
+    {
+      "sourceId": "AMP2-S009",
+      "title": "Fender 6G6-B Drawing",
+      "href": "https://el34world.com/charts/Schematics/files/Fender/Fender_bassman_6g6b.pdf",
+      "verifiedAt": "2026-11-02",
+      "sourceType": "Fender factory document hosted by manufacturer or schematic archive",
+      "usedIn": [
+        "fender-bassman-authentication-guide#references"
+      ],
+      "note": "Blonde head tube complement and diode rectification."
+    },
+    {
+      "sourceId": "AMP2-S010",
+      "title": "Fender Bassman 70 Drawing",
+      "href": "https://el34world.com/charts/Schematics/files/Fender/Fender_bassman70.pdf",
+      "verifiedAt": "2026-11-02",
+      "sourceType": "Fender factory document hosted by manufacturer or schematic archive",
+      "usedIn": [
+        "fender-bassman-authentication-guide#references"
+      ],
+      "note": "Ultralinear output stage and tube set."
+    },
+    {
+      "sourceId": "AMP2-S011",
+      "title": "Fender Bassman 100 Drawing",
+      "href": "https://el34world.com/charts/Schematics/files/Fender/Fender_bassman_100.pdf",
+      "verifiedAt": "2026-11-02",
+      "sourceType": "Fender factory document hosted by manufacturer or schematic archive",
+      "usedIn": [
+        "fender-bassman-authentication-guide#references",
+        "specification tables"
+      ],
+      "note": "100-watt output stage and complete tube set."
+    },
+    {
+      "sourceId": "AMP2-S012",
+      "title": "Fender Bassman 135 Drawing",
+      "href": "https://el34world.com/charts/Schematics/files/Fender/Fender_bassman_135.pdf",
+      "verifiedAt": "2026-11-02",
+      "sourceType": "Fender factory document hosted by manufacturer or schematic archive",
+      "usedIn": [
+        "fender-bassman-authentication-guide#references"
+      ],
+      "note": "135-watt ultralinear output stage and complete tube set."
+    },
+    {
+      "sourceId": "AMP2-S013",
+      "title": "’65 Super Reverb service diagram",
+      "href": "https://el34world.com/charts/Schematics/files/Fender/Fender_65_super_reverb.pdf",
+      "verifiedAt": "2026-11-02",
+      "sourceType": "Fender factory document hosted by manufacturer or schematic archive",
+      "usedIn": [
+        "fender-super-reverb-authentication-guide#reissues"
+      ],
+      "note": "Supports the linked claim in this section."
+    },
+    {
+      "sourceId": "AMP2-S014",
+      "title": "current specification",
+      "href": "https://www.fender.com/products/65-super-reverb",
+      "verifiedAt": "2026-11-02",
+      "sourceType": "Fender manufacturer publication",
+      "usedIn": [
+        "fender-super-reverb-authentication-guide#reissues"
+      ],
+      "note": "Supports the linked claim in this section."
+    },
+    {
+      "sourceId": "AMP2-S015",
+      "title": "Tone Master Super Reverb",
+      "href": "https://www.fender.com/products/tone-master-super-reverb",
+      "verifiedAt": "2026-11-02",
+      "sourceType": "Fender manufacturer publication",
+      "usedIn": [
+        "fender-super-reverb-authentication-guide#reissues"
+      ],
+      "note": "Supports the linked claim in this section."
+    },
+    {
+      "sourceId": "AMP2-S016",
+      "title": "’62 Super",
+      "href": "https://www.fender.com/products/62-super-amp",
+      "verifiedAt": "2026-11-02",
+      "sourceType": "Fender manufacturer publication",
+      "usedIn": [
+        "fender-super-reverb-authentication-guide#reissues"
+      ],
+      "note": "Supports the linked claim in this section."
+    },
+    {
+      "sourceId": "AMP2-S017",
+      "title": "5E4-A factory schematic",
+      "href": "https://el34world.com/charts/Schematics/files/Fender/Fender_super5e4_g_ee.pdf",
+      "verifiedAt": "2026-11-02",
+      "sourceType": "Fender factory document hosted by manufacturer or schematic archive",
+      "usedIn": [
+        "fender-super-reverb-authentication-guide#specs"
+      ],
+      "note": "Supports the linked claim in this section."
+    },
+    {
+      "sourceId": "AMP2-S018",
+      "title": "5F4 drawing",
+      "href": "https://el34world.com/charts/Schematics/files/Fender/Fender_super_5f4.pdf",
+      "verifiedAt": "2026-11-02",
+      "sourceType": "Fender factory document hosted by manufacturer or schematic archive",
+      "usedIn": [
+        "fender-super-reverb-authentication-guide#specs",
+        "specification tables"
+      ],
+      "note": "Supports the linked claim in this section."
+    },
+    {
+      "sourceId": "AMP2-S019",
+      "title": "AB763 Super Reverb drawing",
+      "href": "https://el34world.com/charts/Schematics/files/Fender/Fender_super_reverb_ab763_schematic.pdf",
+      "verifiedAt": "2026-11-02",
+      "sourceType": "Fender factory document hosted by manufacturer or schematic archive",
+      "usedIn": [
+        "fender-super-reverb-authentication-guide#specs",
+        "specification tables"
+      ],
+      "note": "Supports the linked claim in this section."
+    },
+    {
+      "sourceId": "AMP2-S020",
+      "title": "45-watt master-volume drawing",
+      "href": "https://schematicheaven.net/fenderamps/cbs_45w_mstrvol_pullsw_super-pro-bmstr_rev.pdf",
+      "verifiedAt": "2026-11-02",
+      "sourceType": "Fender factory document hosted by manufacturer or schematic archive",
+      "usedIn": [
+        "fender-super-reverb-authentication-guide#specs"
+      ],
+      "note": "Supports the linked claim in this section."
+    },
+    {
+      "sourceId": "AMP2-S021",
+      "title": "70-watt drawing",
+      "href": "https://schematicheaven.net/fenderamps/cbs_70w_mstrvol_pullsw_super-pro-bmstr_rev.pdf",
+      "verifiedAt": "2026-11-02",
+      "sourceType": "Fender factory document hosted by manufacturer or schematic archive",
+      "usedIn": [
+        "fender-super-reverb-authentication-guide#specs"
+      ],
+      "note": "Supports the linked claim in this section."
+    },
+    {
+      "sourceId": "AMP2-S022",
+      "title": "V-Front Super Field Record",
+      "href": "https://mojotone.com/blogs/fender-field-guide/fender-v-front-super",
+      "verifiedAt": "2026-11-02",
+      "sourceType": "Manufacturer field research",
+      "usedIn": [
+        "fender-super-reverb-authentication-guide#sources"
+      ],
+      "note": "Early cabinet form, speaker format and approximate rating."
+    },
+    {
+      "sourceId": "AMP2-S023",
+      "title": "Fender 5C4 Layout",
+      "href": "https://el34world.com/charts/Schematics/files/Fender/Fender_super_5c4.pdf",
+      "verifiedAt": "2026-11-02",
+      "sourceType": "Fender factory document hosted by manufacturer or schematic archive",
+      "usedIn": [
+        "fender-super-reverb-authentication-guide#sources"
+      ],
+      "note": "Socket layout and documented miniature-tube revision."
+    },
+    {
+      "sourceId": "AMP2-S024",
+      "title": "Narrow-Panel Super Field Record",
+      "href": "https://mojotone.com/blogs/fender-field-guide/fender-narrow-panel-tweed-super",
+      "verifiedAt": "2026-11-02",
+      "sourceType": "Manufacturer field research",
+      "usedIn": [
+        "fender-super-reverb-authentication-guide#sources"
+      ],
+      "note": "Cabinet, controls and 5F4 rating."
+    },
+    {
+      "sourceId": "AMP2-S025",
+      "title": "Fender Brown Super 6G4-A",
+      "href": "https://el34world.com/charts/Schematics/files/Fender/Fender_super_6g4a.pdf",
+      "verifiedAt": "2026-11-02",
+      "sourceType": "Fender factory document hosted by manufacturer or schematic archive",
+      "usedIn": [
+        "fender-super-reverb-authentication-guide#sources"
+      ],
+      "note": "Harmonic tremolo and full valve arrangement."
+    },
+    {
+      "sourceId": "AMP2-S026",
+      "title": "Fender Super Reverb Owner’s Manual",
+      "href": "https://www.fmicassets.com/Damroot/Original/10001/OM_leg_gtramp_Super_Reverb_1976.pdf",
+      "verifiedAt": "2026-11-02",
+      "sourceType": "Fender factory document hosted by manufacturer or schematic archive",
+      "usedIn": [
+        "fender-super-reverb-authentication-guide#sources"
+      ],
+      "note": "70-watt rating, master-volume pull switch and rear controls."
+    },
+    {
+      "sourceId": "AMP2-S027",
+      "title": "Silverface Super Reverb Field Record",
+      "href": "https://mojotone.com/blogs/fender-field-guide/fender-silverface-super-reverb",
+      "verifiedAt": "2026-11-02",
+      "sourceType": "Manufacturer field research",
+      "usedIn": [
+        "fender-super-reverb-authentication-guide#sources"
+      ],
+      "note": "Grille trim, speakers and later cosmetic details."
+    },
+    {
+      "sourceId": "AMP2-S028",
+      "title": "’68 Custom manual",
+      "href": "https://www.fmicassets.com/Damroot/Original/10001/OM_2275000000_68_Custom_Vibrolux_Reverb.pdf",
+      "verifiedAt": "2026-11-02",
+      "sourceType": "Fender factory document hosted by manufacturer or schematic archive",
+      "usedIn": [
+        "fender-vibrolux-authentication-guide#reissues"
+      ],
+      "note": "Supports the linked claim in this section."
+    },
+    {
+      "sourceId": "AMP2-S029",
+      "title": "1995 Custom Vibrolux service manual",
+      "href": "https://el34world.com/charts/Schematics/files/Fender/Fender_custom_vibrolux_manual.pdf",
+      "verifiedAt": "2026-11-02",
+      "sourceType": "Fender factory document hosted by manufacturer or schematic archive",
+      "usedIn": [
+        "fender-vibrolux-authentication-guide#reissues"
+      ],
+      "note": "Supports the linked claim in this section."
+    },
+    {
+      "sourceId": "AMP2-S030",
+      "title": "AA763 non-reverb schematic",
+      "href": "https://el34world.com/charts/Schematics/files/Fender/Fender_vibrolux_aa763.pdf",
+      "verifiedAt": "2026-11-02",
+      "sourceType": "Fender factory document hosted by manufacturer or schematic archive",
+      "usedIn": [
+        "fender-vibrolux-authentication-guide#specs",
+        "specification tables"
+      ],
+      "note": "Supports the linked claim in this section."
+    },
+    {
+      "sourceId": "AMP2-S031",
+      "title": "AA964 reverb layout",
+      "href": "https://el34world.com/charts/Schematics/files/Fender/Fender_vibrolux_reverb_aa964_layout.pdf",
+      "verifiedAt": "2026-11-02",
+      "sourceType": "Fender factory document hosted by manufacturer or schematic archive",
+      "usedIn": [
+        "fender-vibrolux-authentication-guide#specs",
+        "specification tables"
+      ],
+      "note": "Supports the linked claim in this section."
+    },
+    {
+      "sourceId": "AMP2-S032",
+      "title": "AA270 drawing",
+      "href": "https://el34world.com/charts/Schematics/files/Fender/Fender_vibrolux_reverb_aa270_schem.pdf",
+      "verifiedAt": "2026-11-02",
+      "sourceType": "Fender factory document hosted by manufacturer or schematic archive",
+      "usedIn": [
+        "fender-vibrolux-authentication-guide#specs",
+        "specification tables"
+      ],
+      "note": "Supports the linked claim in this section."
+    },
+    {
+      "sourceId": "AMP2-S033",
+      "title": "Fender 5F11 Schematic",
+      "href": "https://el34world.com/charts/Schematics/files/Fender/Fender_vibrolux_5f11_schem.pdf",
+      "verifiedAt": "2026-11-02",
+      "sourceType": "Fender factory document hosted by manufacturer or schematic archive",
+      "usedIn": [
+        "fender-vibrolux-authentication-guide#references"
+      ],
+      "note": "Tweed circuit, tremolo, controls and complete tube set."
+    },
+    {
+      "sourceId": "AMP2-S034",
+      "title": "Fender 6G11-A Schematic",
+      "href": "https://el34world.com/charts/Schematics/files/Fender/Fender_vibrolux_6g11_a.pdf",
+      "verifiedAt": "2026-11-02",
+      "sourceType": "Fender factory document hosted by manufacturer or schematic archive",
+      "usedIn": [
+        "fender-vibrolux-authentication-guide#references"
+      ],
+      "note": "Brown circuit and the four small tubes."
+    },
+    {
+      "sourceId": "AMP2-S035",
+      "title": "Brown Vibrolux Field Record",
+      "href": "https://mojotone.com/blogs/fender-field-guide/fender-brownface-vibrolux",
+      "verifiedAt": "2026-11-02",
+      "sourceType": "Manufacturer field research",
+      "usedIn": [
+        "fender-vibrolux-authentication-guide#references"
+      ],
+      "note": "Rating, speaker and exterior details."
+    },
+    {
+      "sourceId": "AMP2-S036",
+      "title": "Blackface Vibrolux Reverb Field Record",
+      "href": "https://mojotone.com/blogs/fender-field-guide/fender-blackface-vibrolux-reverb",
+      "verifiedAt": "2026-11-02",
+      "sourceType": "Manufacturer field research",
+      "usedIn": [
+        "fender-vibrolux-authentication-guide#references"
+      ],
+      "note": "AA964 era, rating and original speaker choices."
+    },
+    {
+      "sourceId": "AMP2-S037",
+      "title": "Silverface Vibrolux Reverb Field Record",
+      "href": "https://mojotone.com/blogs/fender-field-guide/fender-silverface-vibrolux-reverb",
+      "verifiedAt": "2026-11-02",
+      "sourceType": "Manufacturer field research",
+      "usedIn": [
+        "fender-vibrolux-authentication-guide#references"
+      ],
+      "note": "Grille changes, rating range, pull boost and late panel change."
+    },
+    {
+      "sourceId": "AMP2-S038",
+      "title": "Fender Solid-State Vibrolux Manual",
+      "href": "https://www.fmicassets.com/Damroot/Original/10001/OM_leg_gtramp_Vibrolux_Reverb_Solid_State.pdf",
+      "verifiedAt": "2026-11-02",
+      "sourceType": "Fender factory document hosted by manufacturer or schematic archive",
+      "usedIn": [
+        "fender-vibrolux-authentication-guide#references"
+      ],
+      "note": "A separate transistor model with angled control styling."
+    },
+    {
+      "sourceId": "AMP2-S039",
+      "title": "’57 Custom specification",
+      "href": "https://www.fender.com/products/57-custom-champ",
+      "verifiedAt": "2026-11-02",
+      "sourceType": "Fender manufacturer publication",
+      "usedIn": [
+        "fender-champ-authentication-guide#reissues"
+      ],
+      "note": "Supports the linked claim in this section."
+    },
+    {
+      "sourceId": "AMP2-S040",
+      "title": "Champ history",
+      "href": "https://www.fender.com/articles/parts-and-accessories/indispensable-undeniable-the-legacy-of-the-champ",
+      "verifiedAt": "2026-11-02",
+      "sourceType": "Fender manufacturer publication",
+      "usedIn": [
+        "fender-champ-authentication-guide#reissues",
+        "fender-champ-authentication-guide#references"
+      ],
+      "note": "Supports the linked claim in this section."
+    },
+    {
+      "sourceId": "AMP2-S041",
+      "title": "’68 Custom Vibro Champ Reverb",
+      "href": "https://www.fender.com/products/68-custom-vibro-champ-reverb",
+      "verifiedAt": "2026-11-02",
+      "sourceType": "Fender manufacturer publication",
+      "usedIn": [
+        "fender-champ-authentication-guide#reissues"
+      ],
+      "note": "Supports the linked claim in this section."
+    },
+    {
+      "sourceId": "AMP2-S042",
+      "title": "5E1 schematic",
+      "href": "https://el34world.com/charts/Schematics/files/Fender/Fender_champ_5e1_schem.pdf",
+      "verifiedAt": "2026-11-02",
+      "sourceType": "Fender factory document hosted by manufacturer or schematic archive",
+      "usedIn": [
+        "fender-champ-authentication-guide#specs",
+        "specification tables"
+      ],
+      "note": "Supports the linked claim in this section."
+    },
+    {
+      "sourceId": "AMP2-S043",
+      "title": "5F1 schematic",
+      "href": "https://el34world.com/charts/Schematics/files/Fender/Fender_champ_5f1_schem.pdf",
+      "verifiedAt": "2026-11-02",
+      "sourceType": "Fender factory document hosted by manufacturer or schematic archive",
+      "usedIn": [
+        "fender-champ-authentication-guide#specs",
+        "specification tables"
+      ],
+      "note": "Supports the linked claim in this section."
+    },
+    {
+      "sourceId": "AMP2-S044",
+      "title": "AA764 Champ",
+      "href": "https://el34world.com/charts/Schematics/files/Fender/Fender_champ_aa764_schem.pdf",
+      "verifiedAt": "2026-11-02",
+      "sourceType": "Fender factory document hosted by manufacturer or schematic archive",
+      "usedIn": [
+        "fender-champ-authentication-guide#specs",
+        "specification tables"
+      ],
+      "note": "Supports the linked claim in this section."
+    },
+    {
+      "sourceId": "AMP2-S045",
+      "title": "AA764 Vibro Champ",
+      "href": "https://el34world.com/charts/Schematics/files/Fender/Fender_vibro_champ_aa764.pdf",
+      "verifiedAt": "2026-11-02",
+      "sourceType": "Fender factory document hosted by manufacturer or schematic archive",
+      "usedIn": [
+        "fender-champ-authentication-guide#specs",
+        "specification tables"
+      ],
+      "note": "Supports the linked claim in this section."
+    },
+    {
+      "sourceId": "AMP2-S046",
+      "title": "Wide-Panel Champ Field Record",
+      "href": "https://mojotone.com/blogs/fender-field-guide/fender-wide-panel-tweed-champ",
+      "verifiedAt": "2026-11-02",
+      "sourceType": "Manufacturer field research",
+      "usedIn": [
+        "fender-champ-authentication-guide#references"
+      ],
+      "note": "5C1 tube set, rating and cabinet details."
+    },
+    {
+      "sourceId": "AMP2-S047",
+      "title": "Narrow-Panel Champ Field Record",
+      "href": "https://mojotone.com/blogs/fender-field-guide/fender-narrow-panel-tweed-champ",
+      "verifiedAt": "2026-11-02",
+      "sourceType": "Manufacturer field research",
+      "usedIn": [
+        "fender-champ-authentication-guide#references"
+      ],
+      "note": "5E1/5F1 sequence, speaker sizes and black-covered transition."
+    },
+    {
+      "sourceId": "AMP2-S048",
+      "title": "Blackface Champ Field Record",
+      "href": "https://mojotone.com/blogs/fender-field-guide/fender-blackface-champ",
+      "verifiedAt": "2026-11-02",
+      "sourceType": "Manufacturer field research",
+      "usedIn": [
+        "fender-champ-authentication-guide#references"
+      ],
+      "note": "AA764 controls, eight-inch speaker and early grille-logo details."
+    },
+    {
+      "sourceId": "AMP2-S049",
+      "title": "Fender Champ And Vibro Champ Manual",
+      "href": "https://www.fmicassets.com/Damroot/Original/10001/OM_leg_gtramp_Vibro_Champ_1980.PDF",
+      "verifiedAt": "2026-11-02",
+      "sourceType": "Fender manufacturer publication",
+      "usedIn": [
+        "fender-champ-authentication-guide#references"
+      ],
+      "note": "1980 six-watt rating and separate control layouts."
+    },
+    {
+      "sourceId": "AMP2-S050",
+      "title": "Fender bassman 5b6 schem",
+      "href": "https://el34world.com/charts/Schematics/files/Fender/Fender_bassman_5b6_schem.pdf",
+      "verifiedAt": "2026-11-02",
+      "sourceType": "Fender factory document hosted by manufacturer or schematic archive",
+      "usedIn": [
+        "specification tables"
+      ],
+      "note": "Early Bassman schematic; full tube labels cross-checked against Mojotone’s 5B6 field record."
+    },
+    {
+      "sourceId": "AMP2-S051",
+      "title": "Fender bassman 6g6 schem",
+      "href": "https://el34world.com/charts/Schematics/files/Fender/Fender_bassman_6g6_schem.pdf",
+      "verifiedAt": "2026-11-02",
+      "sourceType": "Fender factory document hosted by manufacturer or schematic archive",
+      "usedIn": [
+        "specification tables"
+      ],
+      "note": "GZ34, two 5881 and four 7025 tubes."
+    },
+    {
+      "sourceId": "AMP2-S052",
+      "title": "Fender bassman aa864",
+      "href": "https://el34world.com/charts/Schematics/files/Fender/Fender_bassman_aa864.pdf",
+      "verifiedAt": "2026-11-02",
+      "sourceType": "Fender factory document hosted by manufacturer or schematic archive",
+      "usedIn": [
+        "specification tables"
+      ],
+      "note": "Two 6L6GC, three 7025 and one 12AT7; diode rectification."
+    },
+    {
+      "sourceId": "AMP2-S053",
+      "title": "Fender bassman 10",
+      "href": "https://el34world.com/charts/Schematics/files/Fender/Fender_bassman_10.pdf",
+      "verifiedAt": "2026-11-02",
+      "sourceType": "Fender factory document hosted by manufacturer or schematic archive",
+      "usedIn": [
+        "specification tables"
+      ],
+      "note": "Original 50-watt Bassman 10: two 6L6GC, two 7025, one 12AT7."
+    },
+    {
+      "sourceId": "AMP2-S054",
+      "title": "Fender bassman 10 75w",
+      "href": "https://el34world.com/charts/Schematics/files/Fender/Fender_bassman_10_75w.pdf",
+      "verifiedAt": "2026-11-02",
+      "sourceType": "Fender factory document hosted by manufacturer or schematic archive",
+      "usedIn": [
+        "specification tables"
+      ],
+      "note": "The file name says 75w, but the actual Fender title block says BASSMAN TEN 70 WATT. The public table follows the drawing, not the mirror filename."
+    },
+    {
+      "sourceId": "AMP2-S055",
+      "title": "Tweed Vibrolux Field Record",
+      "href": "https://mojotone.com/blogs/fender-field-guide/fender-narrow-panel-tweed-vibrolux",
+      "verifiedAt": "2026-11-02",
+      "sourceType": "Manufacturer field research",
+      "usedIn": [
+        "fender-vibrolux-authentication-guide#specs"
+      ],
+      "note": "Ten-watt 5F11, Jensen P10R, controls and cosmetics."
+    },
+    {
+      "sourceId": "AMP2-S056",
+      "title": "Blackface Bassman Field Record",
+      "href": "https://mojotone.com/blogs/fender-field-guide/fender-blackface-bassman",
+      "verifiedAt": "2026-11-02",
+      "sourceType": "Manufacturer field research",
+      "usedIn": [
+        "fender-bassman-authentication-guide#specs"
+      ],
+      "note": "50-watt family, cabinet and cosmetic details."
+    },
+    {
+      "sourceId": "AMP2-S057",
+      "title": "Brown Super Field Record",
+      "href": "https://mojotone.com/blogs/fender-field-guide/fender-brownface-super",
+      "verifiedAt": "2026-11-02",
+      "sourceType": "Manufacturer field research",
+      "usedIn": [
+        "fender-super-reverb-authentication-guide#specs"
+      ],
+      "note": "40-watt rating, original speakers and cosmetics. Full tube counts are taken from the factory drawing, whose 6G4-A complement is four 7025 and two 12AX7."
+    },
+    {
+      "sourceId": "AMP2-S058",
+      "title": "Champion 600 Field Record",
+      "href": "https://mojotone.com/blogs/fender-field-guide/fender-champion-600",
+      "verifiedAt": "2026-11-02",
+      "sourceType": "Manufacturer field research",
+      "usedIn": [
+        "fender-champ-authentication-guide#specs"
+      ],
+      "note": "Early 5B1 set: 6SJ7, 6V6 and 5Y3; four watts and six-inch speaker. Fender history separately confirms Champion 800/600 share the early circuit family."
+    },
+    {
+      "sourceId": "AMP2-S059",
+      "title": "Joe’s 1960s Blackface Bassman Listing",
+      "href": "https://reverb.com/item/81558022-fender-bassman-1960s-blackface",
+      "verifiedAt": "2026-11-03",
+      "sourceType": "Joe’s original Reverb listing supplied by Joe",
+      "usedIn": [
+        "fender-bassman-value-guide#piggyback",
+        "fender-bassman-authentication-guide#timeline"
+      ],
+      "note": "Listing description identifies a head and discloses a replacement blue pilot-light jewel. Year is only 1960s; no exact circuit or year assigned. Marketplace model metadata is not used to claim that a cabinet accompanied the head. No price imported."
+    },
+    {
+      "sourceId": "AMP2-S060",
+      "title": "Joe’s 1961 Blonde And Oxblood Bassman Listing",
+      "href": "https://reverb.com/item/93427883-fender-bassman-1961-blonde-oxblood",
+      "verifiedAt": "2026-11-03",
+      "sourceType": "Joe’s original Reverb listing supplied by Joe",
+      "usedIn": [
+        "fender-bassman-value-guide#piggyback",
+        "fender-bassman-authentication-guide#timeline"
+      ],
+      "note": "Visible Chrome page verified seller joesvintageguitars, title 1961 Blonde/Oxblood, and description identifying the original 1x12 tone-ring cabinet and a few replaced capacitors. Article attributes originality to the listing. Direct automated requests were blocked; browser read succeeded. No price imported."
+    },
+    {
+      "sourceId": "AMP2-S061",
+      "title": "Joe’s 1949 Champion 600",
+      "href": "https://reverb.com/item/71880693-fender-champion-600-1949",
+      "verifiedAt": "2026-11-04",
+      "sourceType": "Joe’s own listing supplied by Joe; viewed in signed-in Chrome",
+      "usedIn": [
+        "fender-champ-authentication-guide"
+      ],
+      "note": "1949 date; gallery and disclosed capacitor/cord replacements and handle wear."
+    },
+    {
+      "sourceId": "AMP2-S062",
+      "title": "Joe’s 1965 Blackface Vibro Champ",
+      "href": "https://reverb.com/item/100841502-fender-vibro-champ-1965-blackface",
+      "verifiedAt": "2026-11-04",
+      "sourceType": "Joe’s own listing supplied by Joe; viewed in signed-in Chrome",
+      "usedIn": [
+        "fender-champ-authentication-guide"
+      ],
+      "note": "Listing supplies 1965 date. Photographs support front/rear, chassis and printed AA764 observations. No new stamp decoding; listing power claim not used."
+    },
+    {
+      "sourceId": "AMP2-S063",
+      "title": "Joe’s 1968 Drip-Edge Vibro Champ",
+      "href": "https://reverb.com/item/63721946-fender-vibro-champ-1968-drip-edge",
+      "verifiedAt": "2026-11-04",
+      "sourceType": "Joe’s own listing supplied by Joe; viewed in signed-in Chrome",
+      "usedIn": [
+        "fender-champ-authentication-guide"
+      ],
+      "note": "Installed Warehouse replacement speaker; original loose speaker needs recone. Gallery identifies silver panel and aluminum trim."
+    }
+  ],
+  "reissueTells": [
+    {
+      "page": "fender-bassman-authentication-guide",
+      "claim": "Fender’s ’59 reissue service drawing identifies control and main printed circuit boards. That differs from the original 5F6-A eyelet-board layout. The LTD specification lists a lacquered tweed pine cabinet, four Jensen P10R speakers and a rubber dogbone handle. Those present-day parts can resemble older designs, so their appearance alone doesn’t authenticate a 1959 amp.",
+      "sources": [
+        "https://el34world.com/charts/Schematics/files/Fender/Fender_bassman_59_rev_e.pdf",
+        "https://www.fender.com/products/59-bassman-ltd"
+      ],
+      "sourceNote": "Direct source links in claim."
+    },
+    {
+      "page": "fender-bassman-authentication-guide",
+      "claim": "The Bassman 60 service document identifies the much later PR421 model. Fender’s history also places the Bassman 20 and solid-state Compact after this guide’s cutoff. Read the complete rear model identification. Don’t place an unfamiliar Bassman into a 1960s group merely because it has black covering or a low serial number.",
+      "sources": [
+        "https://el34world.com/charts/Schematics/files/Fender/Fender_bassman60.pdf"
+      ],
+      "sourceNote": "Direct source links in claim."
+    },
+    {
+      "page": "fender-bassman-authentication-guide",
+      "claim": "Ask a technician to photograph board construction if exterior labels leave the question open. A modern handwired replacement board or a complete replica can follow an old drawing closely. Hand assembly establishes how something was built, not when it was built. The same caution applies to an aged cabinet fitted with modern transformers.A new speaker inside an old cabinet is evidence of a changed speaker. It doesn’t, by itself, make the entire amplifier a reissue. Record the parts separately and look for agreement among the chassis, cabinet and component dates. If those groups disagree, describe the amp as needing further identification rather than forcing one date onto everything.",
+      "sources": [],
+      "sourceNote": "General identification reasoning; not a model-specific factory specification."
+    },
+    {
+      "page": "fender-super-reverb-authentication-guide",
+      "claim": "The modern ’65 Super Reverb service diagram includes a combined printed circuit board carrying the controls and electronic components. The original AB763 uses an eyelet-board layout. Fender’s current specification also identifies four Jensen P10R speakers and a birch-plywood cabinet. New speakers can be fitted to an old amp, so confirm the chassis construction too.",
+      "sources": [
+        "https://el34world.com/charts/Schematics/files/Fender/Fender_65_super_reverb.pdf",
+        "https://www.fender.com/products/65-super-reverb",
+        "https://el34world.com/charts/Schematics/files/Fender/Fender_super_reverb_ab763_schematic.pdf"
+      ],
+      "sourceNote": "Inline sources plus factory documents linked elsewhere on this page; general condition reasoning is separate from these specific model claims."
+    },
+    {
+      "page": "fender-super-reverb-authentication-guide",
+      "claim": "A Tone Master Super Reverb has digital amplification and modern rear controls, including output attenuation and an XLR line output. The newer ’62 Super recreates brown cosmetics but lists two Celestion Custom ten-inch speakers. Its model documentation and modern components distinguish it from an original brown Super.",
+      "sources": [
+        "https://www.fender.com/products/tone-master-super-reverb",
+        "https://www.fender.com/products/62-super-amp"
+      ],
+      "sourceNote": "Direct source links in claim."
+    },
+    {
+      "page": "fender-super-reverb-authentication-guide",
+      "claim": "Handwiring doesn’t establish a vintage production date. A newly built tweed Super-style amp can use a traditional board and an old schematic. Ask for the maker’s identity, the chassis markings and the age of the major components. A replacement cabinet can also reproduce the outline of a V-front or narrow-panel amp.Use photographs of the front and rear together. A familiar grille may conceal a different chassis, while a modern replacement speaker can sit inside an otherwise old amplifier. The identification should explain both situations. Don’t open the chassis to investigate; a qualified technician can supply the board photographs needed for that comparison.",
+      "sources": [],
+      "sourceNote": "General identification reasoning; not a model-specific factory specification."
+    },
+    {
+      "page": "fender-vibrolux-authentication-guide",
+      "claim": "Fender’s ’68 Custom manual names the channels Custom and Vintage. It specifies two Celestion TEN 30 speakers and reverb and tremolo on both channels. Those labels differ from the original Normal/Vibrato arrangement. The manual’s rear diagram also shows a detachable IEC power connection. These are practical clues before any chassis inspection.",
+      "sources": [
+        "https://www.fmicassets.com/Damroot/Original/10001/OM_2275000000_68_Custom_Vibrolux_Reverb.pdf"
+      ],
+      "sourceNote": "Direct source links in claim."
+    },
+    {
+      "page": "fender-vibrolux-authentication-guide",
+      "claim": "The 1995 Custom Vibrolux service manual documents printed circuit-board construction and cream control knobs. That is a later product with a familiar name. The original AA964 drawing uses an eyelet-board layout. A technician can compare the construction when the rear identification or cabinet has been changed.",
+      "sources": [
+        "https://el34world.com/charts/Schematics/files/Fender/Fender_custom_vibrolux_manual.pdf",
+        "https://el34world.com/charts/Schematics/files/Fender/Fender_vibrolux_reverb_aa964_layout.pdf"
+      ],
+      "sourceNote": "Inline sources plus factory documents linked elsewhere on this page; general condition reasoning is separate from these specific model claims."
+    },
+    {
+      "page": "fender-vibrolux-authentication-guide",
+      "claim": "Some modern components deliberately reproduce older appearances. Fender’s ’68 Custom documentation even names Schumacher transformers, so a familiar transformer maker alone cannot establish a 1960s date. Read the full markings and identify the model as a whole. A speaker brand is useful evidence only when its actual model and production period are considered.A handwired replica can also follow an early Vibrolux circuit. Handwiring is a construction method, not an age test. Conversely, replacement speakers in an original amp don’t automatically make it a modern reissue. Separate the chassis identity from the age and condition of each replaceable component.The period all-transistor Vibrolux Reverb is another possible source of confusion. Its factory manual shows an angled control arrangement and identifies solid-state construction. It shouldn’t be confused with a tube amp that merely has diode rectification. The tube specifications below apply only to the named tube circuits.",
+      "sources": [
+        "https://www.fmicassets.com/Damroot/Original/10001/OM_2275000000_68_Custom_Vibrolux_Reverb.pdf",
+        "https://www.fmicassets.com/Damroot/Original/10001/OM_leg_gtramp_Vibrolux_Reverb_Solid_State.pdf"
+      ],
+      "sourceNote": "Inline sources plus factory documents linked elsewhere on this page; general condition reasoning is separate from these specific model claims."
+    },
+    {
+      "page": "fender-champ-authentication-guide",
+      "claim": "Fender’s ’57 Custom specification describes a handwired 5F1 with a Weber eight-inch speaker and a 12AY7 preamp tube. Its modern manufacture shows why handwiring alone is insufficient. Fender’s Champ history identifies the EC Vibro-Champ by its EC grille badge, added tremolo-speed control and output attenuator. The original 5F1 has neither tremolo control nor attenuator.",
+      "sources": [
+        "https://www.fender.com/products/57-custom-champ",
+        "https://www.fender.com/articles/parts-and-accessories/indispensable-undeniable-the-legacy-of-the-champ"
+      ],
+      "sourceNote": "Direct source links in claim."
+    },
+    {
+      "page": "fender-champ-authentication-guide",
+      "claim": "The modern Champion 600 introduced in 2007 closely copies the earlier two-tone appearance. Fender’s history identifies its revised preamp and internal speaker-output jack. The ’68 Custom Vibro Champ Reverb is easier to distinguish: it has a ten-inch Celestion TEN 30 and digital hall reverb. A reverb control and larger stock speaker don’t match an original silverface Vibro Champ.",
+      "sources": [
+        "https://www.fender.com/products/68-custom-vibro-champ-reverb",
+        "https://www.fender.com/articles/parts-and-accessories/indispensable-undeniable-the-legacy-of-the-champ"
+      ],
+      "sourceNote": "Inline sources plus factory documents linked elsewhere on this page; general condition reasoning is separate from these specific model claims."
+    },
+    {
+      "page": "fender-champ-authentication-guide",
+      "claim": "Read any rear product label and compare the entire amplifier with the documentation for that exact model. A replacement label or recovered cabinet can make the outside less conclusive. Have a technician document the board, transformers and tube sockets if the identification remains uncertain. Modern vintage-style components should be evaluated by their actual markings.The XD and X2 families add modern voicing or effects controls and fall outside this original-amp guide. Rivera-era Champ II and Super Champ models are also later exclusions. The familiar Champ name was used for several different products, so it shouldn’t be treated as a continuous specification from the 1940s onward.A replaced speaker in an old Champ is a condition finding, not automatic evidence that the whole amp is new. The reverse is also true: fitting an old speaker into a newer reproduction doesn’t create an original vintage amplifier. Identify the chassis and cabinet, then record the age of the installed parts individually.",
+      "sources": [
+        "https://www.fender.com/articles/parts-and-accessories/indispensable-undeniable-the-legacy-of-the-champ"
+      ],
+      "sourceNote": "Inline sources plus factory documents linked elsewhere on this page; general condition reasoning is separate from these specific model claims."
+    }
+  ],
+  "conflicts": [
+    {
+      "id": "HOUSE-001",
+      "topic": "Era boundaries",
+      "decision": "Use exactly 1948 to 1959 tweed, 1959 to 1963 blonde/brownface, 1963 to 1967 blackface, 1967 to 1980 silverface. Model-specific overlaps are explicit. Earliest V-front Super group begins in 1947; Champ silver change is 1968."
+    },
+    {
+      "id": "HOUSE-002",
+      "topic": "Chart dating cutoff",
+      "conflict": "VG-AMP-0052 describes a different end date from the live house reference.",
+      "decision": "User explicitly requires the live dating page’s about-1970 rule and A=1951 mapping. No serial dating."
+    },
+    {
+      "id": "BOOK-001",
+      "topic": "Bassman 60",
+      "conflict": "Book page 461 lists 1972 to 1976, but the verified factory Bassman 60 document identifies 1999 PR421.",
+      "decision": "Omit the disputed row. Keep its frozen baseline and adjustment privately. Do not reuse 1999 specifications for an alleged 1970s amp."
+    },
+    {
+      "id": "BOOK-002",
+      "topic": "Solid-state Vibrolux wattage",
+      "conflict": "Book page 470 labels 35 watts; the period Fender manual states 42 watts RMS.",
+      "decision": "Omit that value row pending reconciliation. Preserve its exact original row privately; describe only identifying construction on the authentication page."
+    },
+    {
+      "id": "BOOK-003",
+      "topic": "Bassman 50 cabinet",
+      "conflict": "Book page 461 prices a 2x12 set; Fender’s historical account describes a 2x15 combination.",
+      "decision": "Retain the book’s exact priced configuration. Authentication copy says actual cabinet pairings varied and requires an inventory; no 2x15 value invented."
+    },
+    {
+      "id": "BOOK-004",
+      "topic": "Bassman 135",
+      "conflict": "Book groups 1978 to 1983 and describes 4x10; Fender history describes the high-power continuation of the 4x12 Bassman 100.",
+      "decision": "No value row because the source group crosses 1980. Factory-authentication information covers pre-1981 examples only."
+    },
+    {
+      "id": "BOOK-005",
+      "topic": "Late Bassman 10",
+      "conflict": "Book prices 50 watts for 1972 to 1980 and a 70-watt group in 1981 to 1982. The later factory drawing is labeled 70 watts and includes 1977 revision dates; its mirror filename misleadingly says 75w.",
+      "decision": "Public value row retains exact book group. Later unmatched version gets individual appraisal. Authentication follows 70-watt factory title, no 75-watt claim."
+    },
+    {
+      "id": "BOOK-006",
+      "topic": "Narrow-panel 6V6 Super",
+      "conflict": "Book page 468 labels its 1956 to 1957 6V6 entry 5E4. The verified schematic title is 5E4-A, with a 1955 drawing code.",
+      "decision": "Value row preserves book’s group. Technical page calls the drawing 5E4-A and does not turn its drawing date into a claimed individual production date. Exact 6V6 output rating is left unasserted."
+    },
+    {
+      "id": "MODEL-001",
+      "topic": "Super Reverb master-volume and high-power dates",
+      "conflict": "Book and field records place control and rating changes in different year groups. Factory 45-watt and 70-watt drawings both show master-volume/pull controls.",
+      "decision": "Show both electrical designs; avoid assigning power by the knob or imposing a disputed exact transition year. Values retain source year groups."
+    },
+    {
+      "id": "MODEL-002",
+      "topic": "Incomplete field-guide small-tube lists",
+      "conflict": "Some field entries list only a generic preamp tube rather than every tube, and the brown Vibrolux field record differs from the 6G11-A drawing.",
+      "decision": "Use full factory sets: 6G11-A two 7025 plus two 12AX7; 6G4-A four 7025 plus two 12AX7; Bassman 100/135 two 7025 plus one 12AT7. Schematic labels were inspected visually."
+    },
+    {
+      "id": "PHOTOS-001",
+      "topic": "Faded date stamps",
+      "decision": "Bassman 6G6-B and Super Reverb AB763 chart printing is legible, but the date letters remain undecoded. Use only verified NC and IB readings. Joe explicitly confirmed the pictured Super Reverb as a 1965 on November 3, 2026; that owner identification supersedes the earlier broad archive range without inventing a chart-stamp reading."
+    }
+  ],
+  "photoEvidence": "See photo-sources.json for original file IDs, hashes and character-by-character readings.",
+  "valueEvidence": "See value-chart-check.json; source baselines and random assignments remain private."
+}

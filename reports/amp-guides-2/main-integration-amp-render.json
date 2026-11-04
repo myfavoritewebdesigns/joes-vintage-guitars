@@ -1,0 +1,58 @@
+[
+  {
+    "slug": "fender-bassman-value-guide",
+    "htmlHash": "5c917378aae9a85734e1f08884038897bfe379673a265ba9eb59818c4518c168",
+    "articleHash": "63763e91e49b1cbd5398752583ed68151622776b1a5b10168d1c3e3d4c6e07af",
+    "currentHtmlHash": "5c917378aae9a85734e1f08884038897bfe379673a265ba9eb59818c4518c168",
+    "identical": true
+  },
+  {
+    "slug": "fender-super-reverb-value-guide",
+    "htmlHash": "80122b4802d0d79219cff20c449d3787b94008e11b08d217d5ef042011cda369",
+    "articleHash": "4b36911d5192f7a5d73b2f221008ce2da4673fe2488956406a4adad0602c531c",
+    "currentHtmlHash": "80122b4802d0d79219cff20c449d3787b94008e11b08d217d5ef042011cda369",
+    "identical": true
+  },
+  {
+    "slug": "fender-vibrolux-value-guide",
+    "htmlHash": "8fc92e40b656263834e08c10c30ebf2ea89cb660001fafc9d8cb50e943e697c8",
+    "articleHash": "1b90158668e95010aa7f1ba611adb0cdb580c049dcd66420a9519ba083ae5224",
+    "currentHtmlHash": "8fc92e40b656263834e08c10c30ebf2ea89cb660001fafc9d8cb50e943e697c8",
+    "identical": true
+  },
+  {
+    "slug": "fender-champ-value-guide",
+    "htmlHash": "7e73c65876c25d78f52fdd56c3f25088da8b6b9d2c17e28c88ac342c4f9e01f5",
+    "articleHash": "347fdff842b157d7eabb88f7bcbc4007a5e0021e9d45c593eeadfa39561dd600",
+    "currentHtmlHash": "7e73c65876c25d78f52fdd56c3f25088da8b6b9d2c17e28c88ac342c4f9e01f5",
+    "identical": true
+  },
+  {
+    "slug": "fender-bassman-authentication-guide",
+    "htmlHash": "da847b47af72a2be0b264dc9afb757b2ff380d60108dfbfe8e92263ae6d6db90",
+    "articleHash": "fadbcb40420fcea34c2009f19e0defb6f7fdf2ba86764dccb620ed8aa92d762f",
+    "currentHtmlHash": "da847b47af72a2be0b264dc9afb757b2ff380d60108dfbfe8e92263ae6d6db90",
+    "identical": true
+  },
+  {
+    "slug": "fender-super-reverb-authentication-guide",
+    "htmlHash": "faa8b0a4ea36e536ee9fc6574fba2aa6343130eb9aee17357e40cd2bf549bee2",
+    "articleHash": "67e47866189e77b0e052983e021670d232a074de242511aedef33380996da883",
+    "currentHtmlHash": "faa8b0a4ea36e536ee9fc6574fba2aa6343130eb9aee17357e40cd2bf549bee2",
+    "identical": true
+  },
+  {
+    "slug": "fender-vibrolux-authentication-guide",
+    "htmlHash": "caac0897fa3ce6e43baa32749fa9ec49f726344b936b18d6594b4b9eb76c06d6",
+    "articleHash": "2c53099c61b25613e9017412e64de1d44a6102b4c6cf73d10f5ab7d9a22bfbcf",
+    "currentHtmlHash": "caac0897fa3ce6e43baa32749fa9ec49f726344b936b18d6594b4b9eb76c06d6",
+    "identical": true
+  },
+  {
+    "slug": "fender-champ-authentication-guide",
+    "htmlHash": "87a33ff5cef4625c99dbde0bdfe29b19537f2e00ccd50c8e86484bfcc42e9c6f",
+    "articleHash": "2e625655d805bcd83cfd21a5675624ba26b5239ca91f7b018c2cee1d3cf93510",
+    "currentHtmlHash": "87a33ff5cef4625c99dbde0bdfe29b19537f2e00ccd50c8e86484bfcc42e9c6f",
+    "identical": true
+  }
+]

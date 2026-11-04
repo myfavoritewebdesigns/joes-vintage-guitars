@@ -1001,6 +1001,30 @@ The existing amp serial page's Layout title changes, with Joe's explicit approva
 
 This work is preview-only. Joe must approve the specific Cloudflare preview before squash-merge. Confirm the production build and three fresh loads of every new URL after approval, then begin PR 2. No PR 2 implementation is included here.
 
+
+### 2026-11-02: Fender Amp Guides PR 1 Published And PR 2 Preview
+
+Joe approved PR 1 and explicitly requested publication, live verification and then PR 2. PR #307 was squash-merged as d5f867948ec58c11bd0e601357c7c866512f7894. Cloudflare production deployment 157c52a6-cc43-48ca-aaca-cc63dea23a20 succeeded. All eight new live URLs passed three fresh loads each, all 33 referenced assets loaded, and all eight URLs appeared in the production sitemap. Titles, canonicals, FAQ data, image licenses, both amp actions and rendered article hashes matched the approved build; browser checks found no overflow or broken loaded images.
+
+PR 2 adds Bassman, Super/Super Reverb, Vibrolux/Vibrolux Reverb and Champ/Vibro Champ value/authentication pairs, using the existing kit without shared component or style edits. Sixty additional book-derived price rows use the saved per-row 11 to 15 percent reductions and nearest-$50 rounding. Thirty-four original Drive files retain their full bytes. The two PR 1 articles gain contextual links, and Joe explicitly directed the deferred Vibrolux and Super Reverb comparison values to be added in PR 2. The serial and seller pages gain one contextual paragraph apiece. All other 129 protected guide documents remain byte-identical.
+
+Factory drawings govern technical conflicts. The disputed Bassman 60 date group and solid-state Vibrolux output group are omitted from public value charts, as are book groups extending beyond 1980. The public Bassman 10 chart preserves the book grouping while its identification guide documents the later 70-watt circuit. The Bassman 50 cabinet conflict and uncertain Super transition dates remain recorded in reports/amp-guides-2. No serial is treated as a year code, and unclear photo stamps are not decoded. Missing silverface archive coverage, the missing in-stock 1963 Concert photos and unavailable canonical writing databases remain explicit limitations. The Fender guitar value and pot-code pages have no existing amp passage and remain unchanged.
+
+Reports retain source and photo-code ledgers, pricing checks, editorial and visual reviews, metadata/schema/link/overlap checks, full-page contrast evidence and desktop/mobile screenshots. This branch is for preview only. Joe must explicitly approve this specific Cloudflare preview before PR 2 is squash-merged. After approval, confirm the production deployment and load each new live URL three times.
+
+
+PR 2 integration update: a concurrent approved Epiphone publication advanced main to 2003b7439b63cae0dc11afe53faba34721d8ae71. Merge it in full before preview handoff. The combined build has 427 pages; comparison with a separately built current-main checkout checks 149 protected documents, with 147 byte-identical and only the two authorized PR 1 articles changed. All eight PR 2 amp pages remain byte-identical to their independently reviewed HTML. Both publication logs and every Epiphone source change are preserved.
+
+
+### 2026-11-03: Bassman Listing Examples And Grille Cloth
+
+Joe supplied Reverb listings 81558022 (1960s blackface head) and 93427883 (1961 blonde/oxblood set) and requested both examples plus an explanation of oxblood and wheat cloth. Add linked examples to the Bassman value guide’s piggyback discussion and identification timeline. Preserve the blackface listing’s decade-only date and disclose its replacement blue pilot-light jewel. Attribute the 1961 original 1x12 tone-ring cabinet to Joe’s listing. Fender’s model history supports the late 1962 maroon-to-wheat change; grille color remains a cosmetic clue to corroborate with dated components. No listing prices, new photographs, value rows or shared styling are introduced. These are intentional text additions to draft PR 308; publication remains pending Joe’s approval.
+
+
+### 2026-11-03: Super Reverb Archive Correction
+
+Joe rejected the archive sentences about inferring a blackface or silverface model and preserving wear as an untouched reference; remove them and use direct visual descriptions. Joe also explicitly identified the pictured blackface Super Reverb as a 1965. Update its archive heading, dating-card prose, four photo captions and alt texts, and the value page image metadata to 1965. This supersedes the previous broad 1963 to 1967 archive date; do not restore date uncertainty merely because the paper stamp is faded. Preserve the unreadable-stamp note and avoid inventing a production month. Price groups and broad house era dates remain unchanged. Draft PR 308 preview only.
+
 ### 2026-11-03: Standalone Dating Guides In The Blog Category Preview
 
 Joe requested that standalone serial-number and dating pages appear in the existing Serial Number & Dating Guides blog category, with a preview before publishing. Add 54 existing guides as cards linking directly to their current URLs. Keep the seven main serial lookups first, followed by category posts and detailed dating references. Include the guides in the category count and pagination, reuse the existing card styling and licensed local photos, and omit publication dates on standalone-guide cards. The main chronological blog feed and RSS still contain published blog posts. Additional card headings, images, image-license nodes and category pagination are intentional differences from production. This revision remains local until Joe approves its preview.
@@ -1011,6 +1035,12 @@ Joe approved this exact preview on November 3, 2026: "looks good, go ahead and p
 ### 2026-11-03: Restore Collapsed Guide Photo Grids
 
 Joe reported missing photographs above visible caption bars in the Bassman preview and corresponding published sections. The shared caption-below flex rule gave unsized photo-grid images zero height. Restore the existing 420px desktop and 360px mobile image areas with nonshrinking flex items, scoped to caption-below photo grids. Captions keep separate space below photos. This intentionally restores 14 placements across six guides, including the published amp eras and Epiphone Olympic articles. Preserve image files, source URLs, alt text, captions, pricing and prose. Future guide image audits must measure actual rendered dimensions and check normal lazy loading and direct anchors, rather than treating successful downloads as proof of visibility. Keep the published-page repair separate from draft PR 308 so it can be reviewed and released independently.
+
+
+
+### 2026-11-04: Champ Archive Expansion
+
+Joe supplied his Reverb listings for the 1949 Champion 600, 1965 blackface Vibro Champ and 1968 drip-edge Vibro Champ and requested their photographs in the Champ guide. Add eleven locally stored 1600px gallery renditions, preserving downloaded bytes and licensing Joe’s photographs through the existing kit. Matching originals were not located in connected Drive. Add a dedicated Champion 600 section and expand the authentication photo timeline. Preserve the Champion’s disclosed capacitor/cord replacement and worn handle, and distinguish the installed Warehouse speaker from the 1968 amp’s removed original requiring a recone. Listing dates identify the examples; no new stamp decoding or price changes are introduced. PR #308 remains a draft pending Joe’s approval.
 
 ### 2026-11-03: Gibson Model Guides Batch 3 Preview
 
@@ -1041,3 +1071,8 @@ Joe corrected the personalized-guard 1949 guitar to a cutaway L-7C. Correct the 
 ### 2026-11-04: Gibson Batch 3 Publication Approval
 
 Joe explicitly approved publishing all sixteen Gibson guides after reviewing the L-7 correction and photo updates: 'ok lets get all of these live'. This supersedes the earlier preview-only restriction for this batch and includes its existing inbound links and the reviewed Byrdland, ES-225 and L-7 photo revisions. Preserve the stable social-image URLs already published through PR 280 when integrating with main.
+
+
+### 2026-11-04: Fender Amp Guides PR 2 Publication Approval
+
+Joe reviewed the updated Champ preview and explicitly instructed: 'ok get these live'. This approves publication of PR 308, including all eight amp guides, the Bassman and Super Reverb corrections, eleven new Champion/Vibro Champ photos, and related inbound links. Preserve the concurrent Gibson publication when integrating main. The prior draft-only restriction is superseded by this approval. Confirm the production deployment and three fresh loads of each new live URL.
