@@ -9,7 +9,7 @@ Sixteen new posts: seven authentication/value pairs (Les Paul Deluxe, Thunderbir
 ## Fact Conflicts And Archive Limits
 
 - The early ES-175 archive folder says 1952, but its photographed A 12622 label falls in the existing serial reference's 1953 range. Public captions use “early-1950s”; the authentication page explains the discrepancy. The separate 1962 ES-175D label reads 84513.
-- The archive folder called 1949 L-7C contains a noncutaway L-7. Both new L-7 guides identify the photographed body correctly and distinguish it from an L-7C.
+- Joe confirmed on November 4 that the personalized-guard 1949 guitar is a cutaway L-7C. This supersedes the earlier noncutaway classification; both guide captions and the authentication explanation are corrected.
 - The white Thunderbird's archive date and brief attribution disagree. Its exact year stays unconfirmed; no 1976 or 1977 price is assigned from the photograph.
 - The existing ES-225 reference calls student-model dots pearl. Joe's explicit celluloid instruction controls the new text. The existing page is not rewritten.
 - The existing Byrdland page describes PAF introduction in 1957; the price reference groups 1955 to 1957 Alnico instruments and 1958 to 1959 PAF instruments. New text treats pricing groups as configurations, not universal pickup-transition dates.

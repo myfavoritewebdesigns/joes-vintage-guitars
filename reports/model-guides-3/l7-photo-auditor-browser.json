@@ -1,0 +1,1380 @@
+[
+  {
+    "kind": "live",
+    "guide": "authentication",
+    "width": 1920,
+    "hero": {
+      "h1": "Gibson L-7 Authentication Guide",
+      "src": "/_astro/1947-gibson-l-7-1.8wOHxwDk_wCvzL.webp",
+      "actions": [
+        {
+          "text": "Free Appraisal",
+          "href": "/free-appraisal/",
+          "bottom": 653.5625
+        },
+        {
+          "text": "Sell My Gibson",
+          "href": "/sell-my-gibson-guitar/",
+          "bottom": 653.5625
+        }
+      ]
+    },
+    "walk": [
+      {
+        "tag": "H2",
+        "classes": "",
+        "w": 684.75,
+        "h": 68.59375,
+        "bg": "rgba(0, 0, 0, 0)",
+        "display": "block",
+        "before": "none",
+        "after": "none"
+      },
+      {
+        "tag": "DIV",
+        "classes": "",
+        "w": 684.75,
+        "h": 94.28125,
+        "bg": "rgba(0, 0, 0, 0)",
+        "display": "block",
+        "before": "none",
+        "after": "none"
+      },
+      {
+        "tag": "HEADER",
+        "classes": "mg-head",
+        "w": 1180,
+        "h": 94.28125,
+        "bg": "rgba(0, 0, 0, 0)",
+        "display": "flex",
+        "before": "none",
+        "after": "none"
+      },
+      {
+        "tag": "DIV",
+        "classes": "mg-section mg-wrap",
+        "w": 1180,
+        "h": 955.78125,
+        "bg": "rgba(0, 0, 0, 0)",
+        "display": "block",
+        "before": "none",
+        "after": "none"
+      },
+      {
+        "tag": "SECTION",
+        "classes": "mg-band",
+        "w": 1920,
+        "h": 955.78125,
+        "bg": "rgba(0, 0, 0, 0)",
+        "display": "block",
+        "before": "none",
+        "after": "none"
+      },
+      {
+        "tag": "ARTICLE",
+        "classes": "mg-guide",
+        "w": 1920,
+        "h": 11955.703125,
+        "bg": "rgb(243, 234, 216)",
+        "display": "block",
+        "before": "none",
+        "after": "none"
+      },
+      {
+        "tag": "MAIN",
+        "classes": "",
+        "w": 1920,
+        "h": 12366.90625,
+        "bg": "rgba(0, 0, 0, 0)",
+        "display": "block",
+        "before": "none",
+        "after": "none"
+      }
+    ],
+    "anchors": [
+      {
+        "id": "archive",
+        "top": 99.59375,
+        "photos": [
+          {
+            "src": "/_astro/1947-gibson-l-7-1.8wOHxwDk_14St7M.webp",
+            "loaded": true,
+            "height": 500,
+            "top": 350.875
+          },
+          {
+            "src": "/_astro/1947-gibson-l-7-3.C8oC4S_s_Z1EiGJr.webp",
+            "loaded": true,
+            "height": 350,
+            "top": 862.875
+          },
+          {
+            "src": "/_astro/1947-gibson-l-7-11.DY-0twfX_2lGvmR.webp",
+            "loaded": true,
+            "height": 350,
+            "top": 862.875
+          },
+          {
+            "src": "/_astro/1947-gibson-l-7-6.BrBTmNf7_ZW36uJ.webp",
+            "loaded": true,
+            "height": 350,
+            "top": 1224.875
+          },
+          {
+            "src": "/_astro/1949-gibson-l-7-sunburst-2.DwjGaczG_qfnqY.webp",
+            "loaded": true,
+            "height": 500,
+            "top": 1671.875
+          }
+        ]
+      }
+    ],
+    "scrollWidth": 1920,
+    "viewport": 1920,
+    "broken": [],
+    "collapsed": [],
+    "photoCount": 9,
+    "photos": [],
+    "widgets": {
+      "forms": 0,
+      "details": 9,
+      "inputs": 0,
+      "iframes": 0
+    },
+    "contrast": []
+  },
+  {
+    "kind": "local",
+    "guide": "authentication",
+    "width": 1920,
+    "hero": {
+      "h1": "Gibson L-7 Authentication Guide",
+      "src": "/_astro/1947-gibson-l-7-1.8wOHxwDk_wCvzL.webp",
+      "actions": [
+        {
+          "text": "Free Appraisal",
+          "href": "/free-appraisal/",
+          "bottom": 653.5625
+        },
+        {
+          "text": "Sell My Gibson",
+          "href": "/sell-my-gibson-guitar/",
+          "bottom": 653.5625
+        }
+      ]
+    },
+    "walk": [
+      {
+        "tag": "H2",
+        "classes": "",
+        "w": 684.75,
+        "h": 68.59375,
+        "bg": "rgba(0, 0, 0, 0)",
+        "display": "block",
+        "before": "none",
+        "after": "none"
+      },
+      {
+        "tag": "DIV",
+        "classes": "",
+        "w": 684.75,
+        "h": 94.28125,
+        "bg": "rgba(0, 0, 0, 0)",
+        "display": "block",
+        "before": "none",
+        "after": "none"
+      },
+      {
+        "tag": "HEADER",
+        "classes": "mg-head",
+        "w": 1180,
+        "h": 94.28125,
+        "bg": "rgba(0, 0, 0, 0)",
+        "display": "flex",
+        "before": "none",
+        "after": "none"
+      },
+      {
+        "tag": "DIV",
+        "classes": "mg-section mg-wrap",
+        "w": 1180,
+        "h": 955.78125,
+        "bg": "rgba(0, 0, 0, 0)",
+        "display": "block",
+        "before": "none",
+        "after": "none"
+      },
+      {
+        "tag": "SECTION",
+        "classes": "mg-band",
+        "w": 1920,
+        "h": 955.78125,
+        "bg": "rgba(0, 0, 0, 0)",
+        "display": "block",
+        "before": "none",
+        "after": "none"
+      },
+      {
+        "tag": "ARTICLE",
+        "classes": "mg-guide",
+        "w": 1920,
+        "h": 15006.609375,
+        "bg": "rgb(243, 234, 216)",
+        "display": "block",
+        "before": "none",
+        "after": "none"
+      },
+      {
+        "tag": "MAIN",
+        "classes": "",
+        "w": 1920,
+        "h": 15417.8125,
+        "bg": "rgba(0, 0, 0, 0)",
+        "display": "block",
+        "before": "none",
+        "after": "none"
+      }
+    ],
+    "anchors": [
+      {
+        "id": "prewar-archive",
+        "top": 99.59375,
+        "photos": [
+          {
+            "src": "/_astro/gibson-l7-1937-body.CYDpFFzb_Z1Qwjd3.webp",
+            "loaded": true,
+            "height": 420,
+            "top": 450.625
+          },
+          {
+            "src": "/_astro/gibson-l7-1937-fingerboard.AgrYfaGf_ZLRC0Y.webp",
+            "loaded": true,
+            "height": 420,
+            "top": 450.625
+          },
+          {
+            "src": "/_astro/gibson-l7-1937-headstock.CbHNP09o_ZKyyt2.webp",
+            "loaded": true,
+            "height": 420,
+            "top": 934.625
+          },
+          {
+            "src": "/_astro/gibson-l7-1937-back.BNlOfWGT_Z1Me8ah.webp",
+            "loaded": true,
+            "height": 420,
+            "top": 934.625
+          }
+        ]
+      },
+      {
+        "id": "fleur-de-lis",
+        "top": 99.625,
+        "photos": [
+          {
+            "src": "/_astro/gibson-l7-1944-fleur-de-lis.DWtbdUJG_Z4a4VV.webp",
+            "loaded": true,
+            "height": 420,
+            "top": 477.84375
+          },
+          {
+            "src": "/_astro/gibson-l7-1944-body.gIcOKT-6_tv9IV.webp",
+            "loaded": true,
+            "height": 420,
+            "top": 477.84375
+          },
+          {
+            "src": "/_astro/gibson-l7-1944-fingerboard.D3ablha7_ZI3vbE.webp",
+            "loaded": true,
+            "height": 420,
+            "top": 1063.21875
+          },
+          {
+            "src": "/_astro/gibson-l7-1944-tailpiece.Di-WCh-w_e8p7a.webp",
+            "loaded": true,
+            "height": 420,
+            "top": 1063.21875
+          }
+        ]
+      },
+      {
+        "id": "archive",
+        "top": 100.21875,
+        "photos": [
+          {
+            "src": "/_astro/1947-gibson-l-7-1.8wOHxwDk_14St7M.webp",
+            "loaded": true,
+            "height": 500,
+            "top": 420.09375
+          },
+          {
+            "src": "/_astro/1947-gibson-l-7-3.C8oC4S_s_Z1EiGJr.webp",
+            "loaded": true,
+            "height": 350,
+            "top": 932.09375
+          },
+          {
+            "src": "/_astro/1947-gibson-l-7-11.DY-0twfX_2lGvmR.webp",
+            "loaded": true,
+            "height": 350,
+            "top": 932.09375
+          },
+          {
+            "src": "/_astro/1947-gibson-l-7-6.BrBTmNf7_ZW36uJ.webp",
+            "loaded": true,
+            "height": 350,
+            "top": 1294.09375
+          },
+          {
+            "src": "/_astro/1949-gibson-l-7-sunburst-2.DwjGaczG_qfnqY.webp",
+            "loaded": true,
+            "height": 500,
+            "top": 1741.09375
+          }
+        ]
+      }
+    ],
+    "scrollWidth": 1920,
+    "viewport": 1920,
+    "broken": [],
+    "collapsed": [],
+    "photoCount": 17,
+    "photos": [
+      {
+        "src": "/_astro/gibson-l7-1937-body.CYDpFFzb_Z1Qwjd3.webp",
+        "width": 577.5,
+        "height": 420,
+        "fit": "contain",
+        "caption": "1937 Gibson L-7: sunburst body, f-holes and acoustic bridge.",
+        "captionColor": "rgb(255, 255, 255)",
+        "captionBg": "rgb(17, 17, 17)",
+        "container": "grid",
+        "columns": "577.5px 577.5px"
+      },
+      {
+        "src": "/_astro/gibson-l7-1937-fingerboard.AgrYfaGf_ZLRC0Y.webp",
+        "width": 577.5,
+        "height": 420,
+        "fit": "contain",
+        "caption": "1937 Gibson L-7: decorative fingerboard inlays.",
+        "captionColor": "rgb(255, 255, 255)",
+        "captionBg": "rgb(17, 17, 17)",
+        "container": "grid",
+        "columns": "577.5px 577.5px"
+      },
+      {
+        "src": "/_astro/gibson-l7-1937-headstock.CbHNP09o_ZKyyt2.webp",
+        "width": 577.5,
+        "height": 420,
+        "fit": "contain",
+        "caption": "1937 Gibson L-7: script Gibson logo and ornate headstock inlay.",
+        "captionColor": "rgb(255, 255, 255)",
+        "captionBg": "rgb(17, 17, 17)",
+        "container": "grid",
+        "columns": "577.5px 577.5px"
+      },
+      {
+        "src": "/_astro/gibson-l7-1937-back.BNlOfWGT_Z1Me8ah.webp",
+        "width": 577.5,
+        "height": 420,
+        "fit": "contain",
+        "caption": "1937 Gibson L-7: figured back and body binding.",
+        "captionColor": "rgb(255, 255, 255)",
+        "captionBg": "rgb(17, 17, 17)",
+        "container": "grid",
+        "columns": "577.5px 577.5px"
+      },
+      {
+        "src": "/_astro/gibson-l7-1944-fleur-de-lis.DWtbdUJG_Z4a4VV.webp",
+        "width": 577.5,
+        "height": 420,
+        "fit": "contain",
+        "caption": "1944 Gibson L-7: fleur-de-lis headstock inlay beneath the script Gibson logo.",
+        "captionColor": "rgb(255, 255, 255)",
+        "captionBg": "rgb(17, 17, 17)",
+        "container": "grid",
+        "columns": "577.5px 577.5px"
+      },
+      {
+        "src": "/_astro/gibson-l7-1944-body.gIcOKT-6_tv9IV.webp",
+        "width": 577.5,
+        "height": 420,
+        "fit": "contain",
+        "caption": "1944 Gibson L-7: sunburst noncutaway body and acoustic hardware.",
+        "captionColor": "rgb(255, 255, 255)",
+        "captionBg": "rgb(17, 17, 17)",
+        "container": "grid",
+        "columns": "577.5px 577.5px"
+      },
+      {
+        "src": "/_astro/gibson-l7-1944-fingerboard.D3ablha7_ZI3vbE.webp",
+        "width": 577.5,
+        "height": 420,
+        "fit": "contain",
+        "caption": "1944 Gibson L-7: split-parallelogram fingerboard inlays.",
+        "captionColor": "rgb(255, 255, 255)",
+        "captionBg": "rgb(17, 17, 17)",
+        "container": "grid",
+        "columns": "577.5px 577.5px"
+      },
+      {
+        "src": "/_astro/gibson-l7-1944-tailpiece.Di-WCh-w_e8p7a.webp",
+        "width": 577.5,
+        "height": 420,
+        "fit": "contain",
+        "caption": "1944 Gibson L-7: trapeze tailpiece with a wooden crossbar.",
+        "captionColor": "rgb(255, 255, 255)",
+        "captionBg": "rgb(17, 17, 17)",
+        "container": "grid",
+        "columns": "577.5px 577.5px"
+      }
+    ],
+    "widgets": {
+      "forms": 0,
+      "details": 9,
+      "inputs": 0,
+      "iframes": 0
+    },
+    "contrast": []
+  },
+  {
+    "kind": "live",
+    "guide": "value",
+    "width": 1920,
+    "hero": {
+      "h1": "Gibson L-7 Value Guide",
+      "src": "/_astro/1947-gibson-l-7-1.8wOHxwDk_wCvzL.webp",
+      "actions": [
+        {
+          "text": "Free Appraisal",
+          "href": "/free-appraisal/",
+          "bottom": 538.734375
+        },
+        {
+          "text": "Sell My Gibson",
+          "href": "/sell-my-gibson-guitar/",
+          "bottom": 538.734375
+        }
+      ]
+    },
+    "walk": [
+      {
+        "tag": "H2",
+        "classes": "",
+        "w": 1128,
+        "h": 137.1875,
+        "bg": "rgba(0, 0, 0, 0)",
+        "display": "block",
+        "before": "none",
+        "after": "none"
+      },
+      {
+        "tag": "DIV",
+        "classes": "",
+        "w": 1128,
+        "h": 162.875,
+        "bg": "rgba(0, 0, 0, 0)",
+        "display": "block",
+        "before": "none",
+        "after": "none"
+      },
+      {
+        "tag": "HEADER",
+        "classes": "mg-head",
+        "w": 1180,
+        "h": 162.875,
+        "bg": "rgba(0, 0, 0, 0)",
+        "display": "flex",
+        "before": "none",
+        "after": "none"
+      },
+      {
+        "tag": "DIV",
+        "classes": "mg-section mg-wrap",
+        "w": 1180,
+        "h": 1549.21875,
+        "bg": "rgba(0, 0, 0, 0)",
+        "display": "block",
+        "before": "none",
+        "after": "none"
+      },
+      {
+        "tag": "SECTION",
+        "classes": "mg-band",
+        "w": 1920,
+        "h": 1549.21875,
+        "bg": "rgba(0, 0, 0, 0)",
+        "display": "block",
+        "before": "none",
+        "after": "none"
+      },
+      {
+        "tag": "ARTICLE",
+        "classes": "mg-guide",
+        "w": 1920,
+        "h": 9437.21875,
+        "bg": "rgb(243, 234, 216)",
+        "display": "block",
+        "before": "none",
+        "after": "none"
+      },
+      {
+        "tag": "MAIN",
+        "classes": "",
+        "w": 1920,
+        "h": 9848.421875,
+        "bg": "rgba(0, 0, 0, 0)",
+        "display": "block",
+        "before": "none",
+        "after": "none"
+      }
+    ],
+    "anchors": [
+      {
+        "id": "parts",
+        "top": 100.109375,
+        "photos": [
+          {
+            "src": "/_astro/1949-gibson-l-7-sunburst-2.DwjGaczG_qfnqY.webp",
+            "loaded": true,
+            "height": 420,
+            "top": 505.515625
+          },
+          {
+            "src": "/_astro/1947-gibson-l-7-3.C8oC4S_s_Z1EiGJr.webp",
+            "loaded": true,
+            "height": 420,
+            "top": 505.515625
+          }
+        ]
+      }
+    ],
+    "scrollWidth": 1920,
+    "viewport": 1920,
+    "broken": [],
+    "collapsed": [],
+    "photoCount": 5,
+    "photos": [],
+    "widgets": {
+      "forms": 0,
+      "details": 8,
+      "inputs": 0,
+      "iframes": 0
+    },
+    "contrast": []
+  },
+  {
+    "kind": "local",
+    "guide": "value",
+    "width": 1920,
+    "hero": {
+      "h1": "Gibson L-7 Value Guide",
+      "src": "/_astro/1947-gibson-l-7-1.8wOHxwDk_wCvzL.webp",
+      "actions": [
+        {
+          "text": "Free Appraisal",
+          "href": "/free-appraisal/",
+          "bottom": 538.734375
+        },
+        {
+          "text": "Sell My Gibson",
+          "href": "/sell-my-gibson-guitar/",
+          "bottom": 538.734375
+        }
+      ]
+    },
+    "walk": [
+      {
+        "tag": "H2",
+        "classes": "",
+        "w": 1128,
+        "h": 137.1875,
+        "bg": "rgba(0, 0, 0, 0)",
+        "display": "block",
+        "before": "none",
+        "after": "none"
+      },
+      {
+        "tag": "DIV",
+        "classes": "",
+        "w": 1128,
+        "h": 162.875,
+        "bg": "rgba(0, 0, 0, 0)",
+        "display": "block",
+        "before": "none",
+        "after": "none"
+      },
+      {
+        "tag": "HEADER",
+        "classes": "mg-head",
+        "w": 1180,
+        "h": 162.875,
+        "bg": "rgba(0, 0, 0, 0)",
+        "display": "flex",
+        "before": "none",
+        "after": "none"
+      },
+      {
+        "tag": "DIV",
+        "classes": "mg-section mg-wrap",
+        "w": 1180,
+        "h": 1549.21875,
+        "bg": "rgba(0, 0, 0, 0)",
+        "display": "block",
+        "before": "none",
+        "after": "none"
+      },
+      {
+        "tag": "SECTION",
+        "classes": "mg-band",
+        "w": 1920,
+        "h": 1549.21875,
+        "bg": "rgba(0, 0, 0, 0)",
+        "display": "block",
+        "before": "none",
+        "after": "none"
+      },
+      {
+        "tag": "ARTICLE",
+        "classes": "mg-guide",
+        "w": 1920,
+        "h": 9437.21875,
+        "bg": "rgb(243, 234, 216)",
+        "display": "block",
+        "before": "none",
+        "after": "none"
+      },
+      {
+        "tag": "MAIN",
+        "classes": "",
+        "w": 1920,
+        "h": 9848.421875,
+        "bg": "rgba(0, 0, 0, 0)",
+        "display": "block",
+        "before": "none",
+        "after": "none"
+      }
+    ],
+    "anchors": [
+      {
+        "id": "parts",
+        "top": 100.109375,
+        "photos": [
+          {
+            "src": "/_astro/1949-gibson-l-7-sunburst-2.DwjGaczG_qfnqY.webp",
+            "loaded": true,
+            "height": 420,
+            "top": 505.515625
+          },
+          {
+            "src": "/_astro/1947-gibson-l-7-3.C8oC4S_s_Z1EiGJr.webp",
+            "loaded": true,
+            "height": 420,
+            "top": 505.515625
+          }
+        ]
+      }
+    ],
+    "scrollWidth": 1920,
+    "viewport": 1920,
+    "broken": [],
+    "collapsed": [],
+    "photoCount": 5,
+    "photos": [],
+    "widgets": {
+      "forms": 0,
+      "details": 8,
+      "inputs": 0,
+      "iframes": 0
+    },
+    "contrast": []
+  },
+  {
+    "kind": "live",
+    "guide": "authentication",
+    "width": 390,
+    "hero": {
+      "h1": "Gibson L-7 Authentication Guide",
+      "src": "/_astro/1947-gibson-l-7-1.8wOHxwDk_wCvzL.webp",
+      "actions": [
+        {
+          "text": "Free Appraisal",
+          "href": "/free-appraisal/",
+          "bottom": 561.203125
+        },
+        {
+          "text": "Sell My Gibson",
+          "href": "/sell-my-gibson-guitar/",
+          "bottom": 561.203125
+        }
+      ]
+    },
+    "walk": [
+      {
+        "tag": "H2",
+        "classes": "",
+        "w": 298,
+        "h": 78.375,
+        "bg": "rgba(0, 0, 0, 0)",
+        "display": "block",
+        "before": "none",
+        "after": "none"
+      },
+      {
+        "tag": "DIV",
+        "classes": "",
+        "w": 298,
+        "h": 122.75,
+        "bg": "rgba(0, 0, 0, 0)",
+        "display": "block",
+        "before": "none",
+        "after": "none"
+      },
+      {
+        "tag": "HEADER",
+        "classes": "mg-head",
+        "w": 350,
+        "h": 122.75,
+        "bg": "rgba(0, 0, 0, 0)",
+        "display": "flex",
+        "before": "none",
+        "after": "none"
+      },
+      {
+        "tag": "DIV",
+        "classes": "mg-section mg-wrap",
+        "w": 350,
+        "h": 1805,
+        "bg": "rgba(0, 0, 0, 0)",
+        "display": "block",
+        "before": "none",
+        "after": "none"
+      },
+      {
+        "tag": "SECTION",
+        "classes": "mg-band",
+        "w": 390,
+        "h": 1805,
+        "bg": "rgba(0, 0, 0, 0)",
+        "display": "block",
+        "before": "none",
+        "after": "none"
+      },
+      {
+        "tag": "ARTICLE",
+        "classes": "mg-guide",
+        "w": 390,
+        "h": 18625.765625,
+        "bg": "rgb(243, 234, 216)",
+        "display": "block",
+        "before": "none",
+        "after": "none"
+      },
+      {
+        "tag": "MAIN",
+        "classes": "",
+        "w": 390,
+        "h": 19307.390625,
+        "bg": "rgba(0, 0, 0, 0)",
+        "display": "block",
+        "before": "none",
+        "after": "none"
+      }
+    ],
+    "anchors": [
+      {
+        "id": "archive",
+        "top": 100.34375,
+        "photos": [
+          {
+            "src": "/_astro/1947-gibson-l-7-1.8wOHxwDk_14St7M.webp",
+            "loaded": true,
+            "height": 400,
+            "top": 816.765625
+          },
+          {
+            "src": "/_astro/1947-gibson-l-7-3.C8oC4S_s_Z1EiGJr.webp",
+            "loaded": true,
+            "height": 350,
+            "top": 1228.765625
+          },
+          {
+            "src": "/_astro/1947-gibson-l-7-11.DY-0twfX_2lGvmR.webp",
+            "loaded": true,
+            "height": 350,
+            "top": 1590.765625
+          },
+          {
+            "src": "/_astro/1947-gibson-l-7-6.BrBTmNf7_ZW36uJ.webp",
+            "loaded": true,
+            "height": 350,
+            "top": 1952.765625
+          },
+          {
+            "src": "/_astro/1949-gibson-l-7-sunburst-2.DwjGaczG_qfnqY.webp",
+            "loaded": false,
+            "height": 400,
+            "top": 2736.234375
+          }
+        ]
+      }
+    ],
+    "scrollWidth": 390,
+    "viewport": 390,
+    "broken": [],
+    "collapsed": [],
+    "photoCount": 9,
+    "photos": [],
+    "widgets": {
+      "forms": 0,
+      "details": 9,
+      "inputs": 0,
+      "iframes": 0
+    },
+    "contrast": []
+  },
+  {
+    "kind": "local",
+    "guide": "authentication",
+    "width": 390,
+    "hero": {
+      "h1": "Gibson L-7 Authentication Guide",
+      "src": "/_astro/1947-gibson-l-7-1.8wOHxwDk_wCvzL.webp",
+      "actions": [
+        {
+          "text": "Free Appraisal",
+          "href": "/free-appraisal/",
+          "bottom": 561.203125
+        },
+        {
+          "text": "Sell My Gibson",
+          "href": "/sell-my-gibson-guitar/",
+          "bottom": 561.203125
+        }
+      ]
+    },
+    "walk": [
+      {
+        "tag": "H2",
+        "classes": "",
+        "w": 298,
+        "h": 78.375,
+        "bg": "rgba(0, 0, 0, 0)",
+        "display": "block",
+        "before": "none",
+        "after": "none"
+      },
+      {
+        "tag": "DIV",
+        "classes": "",
+        "w": 298,
+        "h": 122.75,
+        "bg": "rgba(0, 0, 0, 0)",
+        "display": "block",
+        "before": "none",
+        "after": "none"
+      },
+      {
+        "tag": "HEADER",
+        "classes": "mg-head",
+        "w": 350,
+        "h": 122.75,
+        "bg": "rgba(0, 0, 0, 0)",
+        "display": "flex",
+        "before": "none",
+        "after": "none"
+      },
+      {
+        "tag": "DIV",
+        "classes": "mg-section mg-wrap",
+        "w": 350,
+        "h": 1805,
+        "bg": "rgba(0, 0, 0, 0)",
+        "display": "block",
+        "before": "none",
+        "after": "none"
+      },
+      {
+        "tag": "SECTION",
+        "classes": "mg-band",
+        "w": 390,
+        "h": 1805,
+        "bg": "rgba(0, 0, 0, 0)",
+        "display": "block",
+        "before": "none",
+        "after": "none"
+      },
+      {
+        "tag": "ARTICLE",
+        "classes": "mg-guide",
+        "w": 390,
+        "h": 23873.703125,
+        "bg": "rgb(243, 234, 216)",
+        "display": "block",
+        "before": "none",
+        "after": "none"
+      },
+      {
+        "tag": "MAIN",
+        "classes": "",
+        "w": 390,
+        "h": 24555.328125,
+        "bg": "rgba(0, 0, 0, 0)",
+        "display": "block",
+        "before": "none",
+        "after": "none"
+      }
+    ],
+    "anchors": [
+      {
+        "id": "prewar-archive",
+        "top": 100.34375,
+        "photos": [
+          {
+            "src": "/_astro/gibson-l7-1937-body.CYDpFFzb_Z1Qwjd3.webp",
+            "loaded": true,
+            "height": 360,
+            "top": 671.34375
+          },
+          {
+            "src": "/_astro/gibson-l7-1937-fingerboard.AgrYfaGf_ZLRC0Y.webp",
+            "loaded": true,
+            "height": 360,
+            "top": 1110.34375
+          },
+          {
+            "src": "/_astro/gibson-l7-1937-headstock.CbHNP09o_ZKyyt2.webp",
+            "loaded": true,
+            "height": 360,
+            "top": 1534.34375
+          },
+          {
+            "src": "/_astro/gibson-l7-1937-back.BNlOfWGT_Z1Me8ah.webp",
+            "loaded": true,
+            "height": 360,
+            "top": 1973.34375
+          }
+        ]
+      },
+      {
+        "id": "fleur-de-lis",
+        "top": 100.34375,
+        "photos": [
+          {
+            "src": "/_astro/gibson-l7-1944-fleur-de-lis.DWtbdUJG_Z4a4VV.webp",
+            "loaded": true,
+            "height": 360,
+            "top": 792.09375
+          },
+          {
+            "src": "/_astro/gibson-l7-1944-body.gIcOKT-6_tv9IV.webp",
+            "loaded": true,
+            "height": 360,
+            "top": 1231.09375
+          },
+          {
+            "src": "/_astro/gibson-l7-1944-fingerboard.D3ablha7_ZI3vbE.webp",
+            "loaded": true,
+            "height": 360,
+            "top": 1907.40625
+          },
+          {
+            "src": "/_astro/gibson-l7-1944-tailpiece.Di-WCh-w_e8p7a.webp",
+            "loaded": false,
+            "height": 360,
+            "top": 2346.40625
+          }
+        ]
+      },
+      {
+        "id": "archive",
+        "top": 100.40625,
+        "photos": [
+          {
+            "src": "/_astro/1947-gibson-l-7-1.8wOHxwDk_14St7M.webp",
+            "loaded": true,
+            "height": 400,
+            "top": 835.515625
+          },
+          {
+            "src": "/_astro/1947-gibson-l-7-3.C8oC4S_s_Z1EiGJr.webp",
+            "loaded": true,
+            "height": 350,
+            "top": 1247.515625
+          },
+          {
+            "src": "/_astro/1947-gibson-l-7-11.DY-0twfX_2lGvmR.webp",
+            "loaded": true,
+            "height": 350,
+            "top": 1609.515625
+          },
+          {
+            "src": "/_astro/1947-gibson-l-7-6.BrBTmNf7_ZW36uJ.webp",
+            "loaded": true,
+            "height": 350,
+            "top": 1971.515625
+          },
+          {
+            "src": "/_astro/1949-gibson-l-7-sunburst-2.DwjGaczG_qfnqY.webp",
+            "loaded": false,
+            "height": 400,
+            "top": 2727.796875
+          }
+        ]
+      }
+    ],
+    "scrollWidth": 390,
+    "viewport": 390,
+    "broken": [],
+    "collapsed": [],
+    "photoCount": 17,
+    "photos": [
+      {
+        "src": "/_astro/gibson-l7-1937-body.CYDpFFzb_Z1Qwjd3.webp",
+        "width": 350,
+        "height": 360,
+        "fit": "contain",
+        "caption": "1937 Gibson L-7: sunburst body, f-holes and acoustic bridge.",
+        "captionColor": "rgb(255, 255, 255)",
+        "captionBg": "rgb(17, 17, 17)",
+        "container": "grid",
+        "columns": "350px"
+      },
+      {
+        "src": "/_astro/gibson-l7-1937-fingerboard.AgrYfaGf_ZLRC0Y.webp",
+        "width": 350,
+        "height": 360,
+        "fit": "contain",
+        "caption": "1937 Gibson L-7: decorative fingerboard inlays.",
+        "captionColor": "rgb(255, 255, 255)",
+        "captionBg": "rgb(17, 17, 17)",
+        "container": "grid",
+        "columns": "350px"
+      },
+      {
+        "src": "/_astro/gibson-l7-1937-headstock.CbHNP09o_ZKyyt2.webp",
+        "width": 350,
+        "height": 360,
+        "fit": "contain",
+        "caption": "1937 Gibson L-7: script Gibson logo and ornate headstock inlay.",
+        "captionColor": "rgb(255, 255, 255)",
+        "captionBg": "rgb(17, 17, 17)",
+        "container": "grid",
+        "columns": "350px"
+      },
+      {
+        "src": "/_astro/gibson-l7-1937-back.BNlOfWGT_Z1Me8ah.webp",
+        "width": 350,
+        "height": 360,
+        "fit": "contain",
+        "caption": "1937 Gibson L-7: figured back and body binding.",
+        "captionColor": "rgb(255, 255, 255)",
+        "captionBg": "rgb(17, 17, 17)",
+        "container": "grid",
+        "columns": "350px"
+      },
+      {
+        "src": "/_astro/gibson-l7-1944-fleur-de-lis.DWtbdUJG_Z4a4VV.webp",
+        "width": 350,
+        "height": 360,
+        "fit": "contain",
+        "caption": "1944 Gibson L-7: fleur-de-lis headstock inlay beneath the script Gibson logo.",
+        "captionColor": "rgb(255, 255, 255)",
+        "captionBg": "rgb(17, 17, 17)",
+        "container": "grid",
+        "columns": "350px"
+      },
+      {
+        "src": "/_astro/gibson-l7-1944-body.gIcOKT-6_tv9IV.webp",
+        "width": 350,
+        "height": 360,
+        "fit": "contain",
+        "caption": "1944 Gibson L-7: sunburst noncutaway body and acoustic hardware.",
+        "captionColor": "rgb(255, 255, 255)",
+        "captionBg": "rgb(17, 17, 17)",
+        "container": "grid",
+        "columns": "350px"
+      },
+      {
+        "src": "/_astro/gibson-l7-1944-fingerboard.D3ablha7_ZI3vbE.webp",
+        "width": 350,
+        "height": 360,
+        "fit": "contain",
+        "caption": "1944 Gibson L-7: split-parallelogram fingerboard inlays.",
+        "captionColor": "rgb(255, 255, 255)",
+        "captionBg": "rgb(17, 17, 17)",
+        "container": "grid",
+        "columns": "350px"
+      },
+      {
+        "src": "/_astro/gibson-l7-1944-tailpiece.Di-WCh-w_e8p7a.webp",
+        "width": 350,
+        "height": 360,
+        "fit": "contain",
+        "caption": "1944 Gibson L-7: trapeze tailpiece with a wooden crossbar.",
+        "captionColor": "rgb(255, 255, 255)",
+        "captionBg": "rgb(17, 17, 17)",
+        "container": "grid",
+        "columns": "350px"
+      }
+    ],
+    "widgets": {
+      "forms": 0,
+      "details": 9,
+      "inputs": 0,
+      "iframes": 0
+    },
+    "contrast": []
+  },
+  {
+    "kind": "live",
+    "guide": "value",
+    "width": 390,
+    "hero": {
+      "h1": "Gibson L-7 Value Guide",
+      "src": "/_astro/1947-gibson-l-7-1.8wOHxwDk_wCvzL.webp",
+      "actions": [
+        {
+          "text": "Free Appraisal",
+          "href": "/free-appraisal/",
+          "bottom": 498.890625
+        },
+        {
+          "text": "Sell My Gibson",
+          "href": "/sell-my-gibson-guitar/",
+          "bottom": 498.890625
+        }
+      ]
+    },
+    "walk": [
+      {
+        "tag": "H2",
+        "classes": "",
+        "w": 298,
+        "h": 117.5625,
+        "bg": "rgba(0, 0, 0, 0)",
+        "display": "block",
+        "before": "none",
+        "after": "none"
+      },
+      {
+        "tag": "DIV",
+        "classes": "",
+        "w": 298,
+        "h": 143.25,
+        "bg": "rgba(0, 0, 0, 0)",
+        "display": "block",
+        "before": "none",
+        "after": "none"
+      },
+      {
+        "tag": "HEADER",
+        "classes": "mg-head",
+        "w": 350,
+        "h": 143.25,
+        "bg": "rgba(0, 0, 0, 0)",
+        "display": "flex",
+        "before": "none",
+        "after": "none"
+      },
+      {
+        "tag": "DIV",
+        "classes": "mg-section mg-wrap",
+        "w": 350,
+        "h": 1790.28125,
+        "bg": "rgba(0, 0, 0, 0)",
+        "display": "block",
+        "before": "none",
+        "after": "none"
+      },
+      {
+        "tag": "SECTION",
+        "classes": "mg-band",
+        "w": 390,
+        "h": 1790.28125,
+        "bg": "rgba(0, 0, 0, 0)",
+        "display": "block",
+        "before": "none",
+        "after": "none"
+      },
+      {
+        "tag": "ARTICLE",
+        "classes": "mg-guide",
+        "w": 390,
+        "h": 14248.71875,
+        "bg": "rgb(243, 234, 216)",
+        "display": "block",
+        "before": "none",
+        "after": "none"
+      },
+      {
+        "tag": "MAIN",
+        "classes": "",
+        "w": 390,
+        "h": 14930.34375,
+        "bg": "rgba(0, 0, 0, 0)",
+        "display": "block",
+        "before": "none",
+        "after": "none"
+      }
+    ],
+    "anchors": [
+      {
+        "id": "parts",
+        "top": 99.53125,
+        "photos": [
+          {
+            "src": "/_astro/1949-gibson-l-7-sunburst-2.DwjGaczG_qfnqY.webp",
+            "loaded": true,
+            "height": 360,
+            "top": 842.15625
+          },
+          {
+            "src": "/_astro/1947-gibson-l-7-3.C8oC4S_s_Z1EiGJr.webp",
+            "loaded": true,
+            "height": 360,
+            "top": 1231.15625
+          }
+        ]
+      }
+    ],
+    "scrollWidth": 390,
+    "viewport": 390,
+    "broken": [],
+    "collapsed": [],
+    "photoCount": 5,
+    "photos": [],
+    "widgets": {
+      "forms": 0,
+      "details": 8,
+      "inputs": 0,
+      "iframes": 0
+    },
+    "contrast": []
+  },
+  {
+    "kind": "local",
+    "guide": "value",
+    "width": 390,
+    "hero": {
+      "h1": "Gibson L-7 Value Guide",
+      "src": "/_astro/1947-gibson-l-7-1.8wOHxwDk_wCvzL.webp",
+      "actions": [
+        {
+          "text": "Free Appraisal",
+          "href": "/free-appraisal/",
+          "bottom": 498.890625
+        },
+        {
+          "text": "Sell My Gibson",
+          "href": "/sell-my-gibson-guitar/",
+          "bottom": 498.890625
+        }
+      ]
+    },
+    "walk": [
+      {
+        "tag": "H2",
+        "classes": "",
+        "w": 298,
+        "h": 117.5625,
+        "bg": "rgba(0, 0, 0, 0)",
+        "display": "block",
+        "before": "none",
+        "after": "none"
+      },
+      {
+        "tag": "DIV",
+        "classes": "",
+        "w": 298,
+        "h": 143.25,
+        "bg": "rgba(0, 0, 0, 0)",
+        "display": "block",
+        "before": "none",
+        "after": "none"
+      },
+      {
+        "tag": "HEADER",
+        "classes": "mg-head",
+        "w": 350,
+        "h": 143.25,
+        "bg": "rgba(0, 0, 0, 0)",
+        "display": "flex",
+        "before": "none",
+        "after": "none"
+      },
+      {
+        "tag": "DIV",
+        "classes": "mg-section mg-wrap",
+        "w": 350,
+        "h": 1790.28125,
+        "bg": "rgba(0, 0, 0, 0)",
+        "display": "block",
+        "before": "none",
+        "after": "none"
+      },
+      {
+        "tag": "SECTION",
+        "classes": "mg-band",
+        "w": 390,
+        "h": 1790.28125,
+        "bg": "rgba(0, 0, 0, 0)",
+        "display": "block",
+        "before": "none",
+        "after": "none"
+      },
+      {
+        "tag": "ARTICLE",
+        "classes": "mg-guide",
+        "w": 390,
+        "h": 14248.71875,
+        "bg": "rgb(243, 234, 216)",
+        "display": "block",
+        "before": "none",
+        "after": "none"
+      },
+      {
+        "tag": "MAIN",
+        "classes": "",
+        "w": 390,
+        "h": 14930.34375,
+        "bg": "rgba(0, 0, 0, 0)",
+        "display": "block",
+        "before": "none",
+        "after": "none"
+      }
+    ],
+    "anchors": [
+      {
+        "id": "parts",
+        "top": 99.53125,
+        "photos": [
+          {
+            "src": "/_astro/1949-gibson-l-7-sunburst-2.DwjGaczG_qfnqY.webp",
+            "loaded": true,
+            "height": 360,
+            "top": 842.15625
+          },
+          {
+            "src": "/_astro/1947-gibson-l-7-3.C8oC4S_s_Z1EiGJr.webp",
+            "loaded": true,
+            "height": 360,
+            "top": 1231.15625
+          }
+        ]
+      }
+    ],
+    "scrollWidth": 390,
+    "viewport": 390,
+    "broken": [],
+    "collapsed": [],
+    "photoCount": 5,
+    "photos": [],
+    "widgets": {
+      "forms": 0,
+      "details": 8,
+      "inputs": 0,
+      "iframes": 0
+    },
+    "contrast": []
+  }
+]

@@ -70,7 +70,7 @@ export const gibsonPhotos = {
   l7Board: {src:l7Board,alt:"1947 Gibson L-7: double-parallelogram fingerboard inlays.",caption:"1947 Gibson L-7: double-parallelogram fingerboard inlays.",fit:"contain"},
   l7Label: {src:l7Label,alt:"1947 Gibson L-7: A 976 on the white paper label.",caption:"1947 Gibson L-7: A 976 on the white paper label.",fit:"contain"},
   l7Back: {src:l7Back,alt:"1947 Gibson L-7: figured maple back.",caption:"1947 Gibson L-7: figured maple back.",fit:"contain"},
-  l7Later: {src:l7Later,alt:"1949 Gibson L-7: noncutaway body and personalized pickguard.",caption:"1949 Gibson L-7: noncutaway body and personalized pickguard.",fit:"contain"},
+  l7Later: {src:l7Later,alt:"1949 Gibson L-7C: rounded cutaway and personalized pickguard.",caption:"1949 Gibson L-7C: rounded cutaway and personalized pickguard.",fit:"contain"},
   l50Body: {src:l50Body,alt:"1952 Gibson L-50: sunburst carved-top acoustic archtop.",caption:"1952 Gibson L-50: sunburst carved-top acoustic archtop.",fit:"contain"},
   l50Front: {src:l50Front,alt:"1952 Gibson L-50: full instrument and headstock.",caption:"1952 Gibson L-50: full instrument and headstock.",fit:"contain"},
   l50Head: {src:l50Head,alt:"1952 Gibson L-50: headstock logo and truss-rod cover.",caption:"1952 Gibson L-50: headstock logo and truss-rod cover.",fit:"contain"},

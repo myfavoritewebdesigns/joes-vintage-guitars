@@ -2,7 +2,7 @@
 title: "Gibson L-7 Value Guide"
 seoTitle: "Vintage Gibson L-7 Value Guide: Acoustic And L-7C Prices"
 pubDate: "2026-11-03"
-modified: "2026-11-03"
+modified: "2026-11-04"
 excerpt: "Compare vintage Gibson L-7 and L-7C values by body size, year and finish. Review factory electric models, acoustic repairs, changed parts and case details."
 category: "value-evaluation"
 categoryName: "Value & Evaluation"
