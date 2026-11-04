@@ -87,7 +87,7 @@ Gibson's Custom Shop reissues of the 1954 Les Paul use the **same "4 XXXX" forma
 
 The "Gibson" [headstock logo](/gibson-headstock-logo-chronology/) on a 1954 is a **mother-of-pearl inlay** in the classic mid-1950s script. Key characteristics to verify:
 
--   Letter forms**Open "b" and "o"**, the counters (enclosed spaces) are open, not filled. This open-letter style is correct through 1967. Closed letters appear post-1967.
+-   Letter forms**Open "b" and "o"**, the counters (enclosed spaces) are open, not filled. This open-letter style with a dotted "i" is correct through late 1968. The dot disappears from late 1968 into the early 1970s, and closed letters become common in the 1970s.
 -   Dot over "i"Present on 1954 examples. The dot is a small, separate piece of MOP inlaid above the stem of the "i".
 -   Logo positionOn 1954 examples, the "Gibson" logo sits relatively **high on the headstock**, approximately ¾" from the top tip. Some late 1954 models begin showing the logo positioned slightly lower, a change that became standard by 1955 to 1956. The exact position can help narrow down early vs. late 1954 production.
 -   MaterialGenuine **mother-of-pearl**, creamy white with a subtle orient (directional shimmer). Not abalone (more colorful iridescence) and not plastic (no shimmer, uniform color).
