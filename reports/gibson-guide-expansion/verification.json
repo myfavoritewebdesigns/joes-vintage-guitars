@@ -1,0 +1,151 @@
+{
+  "rows": [
+    {
+      "slug": "gibson-l-50-authentication-guide",
+      "bodyWords": 2314,
+      "originalEightGramRetention": 99.65,
+      "retainedInternalLinks": 6,
+      "images": 13,
+      "canonical": "https://www.joesvintageguitarsaz.com/post/gibson-l-50-authentication-guide/",
+      "broken": []
+    },
+    {
+      "slug": "gibson-l-50-value-guide",
+      "bodyWords": 1559,
+      "originalEightGramRetention": 99.49,
+      "retainedInternalLinks": 6,
+      "images": 6,
+      "canonical": "https://www.joesvintageguitarsaz.com/post/gibson-l-50-value-guide/",
+      "broken": []
+    },
+    {
+      "slug": "gibson-l-48-authentication-guide",
+      "bodyWords": 2608,
+      "originalEightGramRetention": 92.6,
+      "retainedInternalLinks": 6,
+      "images": 13,
+      "canonical": "https://www.joesvintageguitarsaz.com/post/gibson-l-48-authentication-guide/",
+      "broken": []
+    },
+    {
+      "slug": "gibson-l-48-value-guide",
+      "bodyWords": 1549,
+      "originalEightGramRetention": 93.31,
+      "retainedInternalLinks": 6,
+      "images": 7,
+      "canonical": "https://www.joesvintageguitarsaz.com/post/gibson-l-48-value-guide/",
+      "broken": []
+    },
+    {
+      "slug": "gibson-les-paul-deluxe-authentication-guide",
+      "bodyWords": 3092,
+      "originalEightGramRetention": 82.72,
+      "retainedInternalLinks": 6,
+      "images": 22,
+      "canonical": "https://www.joesvintageguitarsaz.com/post/gibson-les-paul-deluxe-authentication-guide/",
+      "broken": []
+    },
+    {
+      "slug": "gibson-les-paul-deluxe-value-guide",
+      "bodyWords": 2049,
+      "originalEightGramRetention": 99.48,
+      "retainedInternalLinks": 6,
+      "images": 10,
+      "canonical": "https://www.joesvintageguitarsaz.com/post/gibson-les-paul-deluxe-value-guide/",
+      "broken": []
+    },
+    {
+      "slug": "gibson-l-4-authentication-guide",
+      "bodyWords": 2354,
+      "originalEightGramRetention": 99.66,
+      "retainedInternalLinks": 5,
+      "images": 12,
+      "canonical": "https://www.joesvintageguitarsaz.com/post/gibson-l-4-authentication-guide/",
+      "broken": []
+    },
+    {
+      "slug": "gibson-l-4-value-guide",
+      "bodyWords": 1454,
+      "originalEightGramRetention": 99.44,
+      "retainedInternalLinks": 6,
+      "images": 8,
+      "canonical": "https://www.joesvintageguitarsaz.com/post/gibson-l-4-value-guide/",
+      "broken": []
+    },
+    {
+      "slug": "gibson-thunderbird-eb-bass-authentication-guide",
+      "bodyWords": 2528,
+      "originalEightGramRetention": 99.68,
+      "retainedInternalLinks": 7,
+      "images": 13,
+      "canonical": "https://www.joesvintageguitarsaz.com/post/gibson-thunderbird-eb-bass-authentication-guide/",
+      "broken": []
+    },
+    {
+      "slug": "gibson-thunderbird-eb-bass-value-guide",
+      "bodyWords": 1587,
+      "originalEightGramRetention": 99.49,
+      "retainedInternalLinks": 7,
+      "images": 7,
+      "canonical": "https://www.joesvintageguitarsaz.com/post/gibson-thunderbird-eb-bass-value-guide/",
+      "broken": []
+    },
+    {
+      "slug": "gibson-es-175-authentication-guide",
+      "bodyWords": 2516,
+      "originalEightGramRetention": 99.66,
+      "retainedInternalLinks": 9,
+      "images": 20,
+      "canonical": "https://www.joesvintageguitarsaz.com/post/gibson-es-175-authentication-guide/",
+      "broken": []
+    },
+    {
+      "slug": "gibson-es-175-value-guide",
+      "bodyWords": 1551,
+      "originalEightGramRetention": 99.45,
+      "retainedInternalLinks": 8,
+      "images": 10,
+      "canonical": "https://www.joesvintageguitarsaz.com/post/gibson-es-175-value-guide/",
+      "broken": []
+    }
+  ],
+  "pairs": [
+    {
+      "a": "gibson-l-50-authentication-guide",
+      "b": "gibson-l-50-value-guide",
+      "twin": true,
+      "bodyEightGramPercent": 1.48
+    },
+    {
+      "a": "gibson-l-48-authentication-guide",
+      "b": "gibson-l-48-value-guide",
+      "twin": true,
+      "bodyEightGramPercent": 1.82
+    },
+    {
+      "a": "gibson-les-paul-deluxe-authentication-guide",
+      "b": "gibson-les-paul-deluxe-value-guide",
+      "twin": true,
+      "bodyEightGramPercent": 0.34
+    },
+    {
+      "a": "gibson-l-4-authentication-guide",
+      "b": "gibson-l-4-value-guide",
+      "twin": true,
+      "bodyEightGramPercent": 0.62
+    },
+    {
+      "a": "gibson-thunderbird-eb-bass-authentication-guide",
+      "b": "gibson-thunderbird-eb-bass-value-guide",
+      "twin": true,
+      "bodyEightGramPercent": 2.15
+    },
+    {
+      "a": "gibson-es-175-authentication-guide",
+      "b": "gibson-es-175-value-guide",
+      "twin": true,
+      "bodyEightGramPercent": 1.42
+    }
+  ],
+  "errors": []
+}

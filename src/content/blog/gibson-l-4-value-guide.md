@@ -2,7 +2,7 @@
 title: "Gibson L-4 Value Guide"
 seoTitle: "Vintage Gibson L-4 Value Guide: L-4, L-4C And L-4CES"
 pubDate: "2026-11-03"
-modified: "2026-11-03"
+modified: "2026-11-04"
 excerpt: "Compare Gibson L-4, L-4C and L-4CES values by production group. See how soundholes, factory pickups, original finish and structural condition affect price."
 category: "value-evaluation"
 categoryName: "Value & Evaluation"

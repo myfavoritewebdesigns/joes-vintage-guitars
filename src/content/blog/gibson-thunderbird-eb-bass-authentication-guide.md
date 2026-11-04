@@ -2,7 +2,7 @@
 title: "Gibson Thunderbird And EB Bass Authentication Guide"
 seoTitle: "Gibson Thunderbird And EB Bass Authentication Guide"
 pubDate: "2026-11-03"
-modified: "2026-11-03"
+modified: "2026-11-04"
 excerpt: "Identify vintage Gibson Thunderbird, EB-0, EB-2, EB-3 and EB-4L basses. Check body generations, pickups, scale, factory numbers and common modifications."
 category: "specific-model-highlights"
 categoryName: "Specific Model Highlights"

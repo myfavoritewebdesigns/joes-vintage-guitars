@@ -1,0 +1,62 @@
+[
+  {
+    "slug": "gibson-l-50-value-guide",
+    "code": 1,
+    "log": "[audit] Live:  https://www.joesvintageguitarsaz.com/post/gibson-l-50-value-guide/\n[audit] Local: http://127.0.0.1:4325/post/gibson-l-50-value-guide/\n[audit] Slug:  expansion-before-gibson-l-50-value-guide\n\n[audit] Liveness-checking 9 asset URL(s) on local (img/picture/poster/iframe)...\n\n[audit] Report: C:\\Users\\joeda\\Documents\\Codex\\2026-10-29\\files-pasted-by-the-user-codex\\work\\joes-vintage-guitars\\reports\\expansion-before-gibson-l-50-value-guide-audit-2026-11-04T21-59-01-391Z.md\n[audit] ðŸ”´ must-fix: 1  ðŸŸ¡ should-fix: 4  ðŸŸ¢ acceptable: 1\n"
+  },
+  {
+    "slug": "gibson-l-48-authentication-guide",
+    "code": 1,
+    "log": "[audit] Live:  https://www.joesvintageguitarsaz.com/post/gibson-l-48-authentication-guide/\n[audit] Local: http://127.0.0.1:4325/post/gibson-l-48-authentication-guide/\n[audit] Slug:  expansion-before-gibson-l-48-authentication-guide\n\n[audit] Liveness-checking 13 asset URL(s) on local (img/picture/poster/iframe)...\n\n[audit] Report: C:\\Users\\joeda\\Documents\\Codex\\2026-10-29\\files-pasted-by-the-user-codex\\work\\joes-vintage-guitars\\reports\\expansion-before-gibson-l-48-authentication-guide-audit-2026-11-04T21-59-01-427Z.md\n[audit] ðŸ”´ must-fix: 1  ðŸŸ¡ should-fix: 5  ðŸŸ¢ acceptable: 1\n"
+  },
+  {
+    "slug": "gibson-l-50-authentication-guide",
+    "code": 0,
+    "log": "[audit] Live:  https://www.joesvintageguitarsaz.com/post/gibson-l-50-authentication-guide/\n[audit] Local: http://127.0.0.1:4325/post/gibson-l-50-authentication-guide/\n[audit] Slug:  expansion-before-gibson-l-50-authentication-guide\n\n[audit] Liveness-checking 14 asset URL(s) on local (img/picture/poster/iframe)...\n\n[audit] Report: C:\\Users\\joeda\\Documents\\Codex\\2026-10-29\\files-pasted-by-the-user-codex\\work\\joes-vintage-guitars\\reports\\expansion-before-gibson-l-50-authentication-guide-audit-2026-11-04T21-59-01-428Z.md\n[audit] ðŸ”´ must-fix: 0  ðŸŸ¡ should-fix: 5  ðŸŸ¢ acceptable: 1\n"
+  },
+  {
+    "slug": "gibson-l-48-value-guide",
+    "code": 1,
+    "log": "[audit] Live:  https://www.joesvintageguitarsaz.com/post/gibson-l-48-value-guide/\n[audit] Local: http://127.0.0.1:4325/post/gibson-l-48-value-guide/\n[audit] Slug:  expansion-before-gibson-l-48-value-guide\n\n[audit] Liveness-checking 8 asset URL(s) on local (img/picture/poster/iframe)...\n\n[audit] Report: C:\\Users\\joeda\\Documents\\Codex\\2026-10-29\\files-pasted-by-the-user-codex\\work\\joes-vintage-guitars\\reports\\expansion-before-gibson-l-48-value-guide-audit-2026-11-04T21-59-02-680Z.md\n[audit] ðŸ”´ must-fix: 1  ðŸŸ¡ should-fix: 4  ðŸŸ¢ acceptable: 1\n"
+  },
+  {
+    "slug": "gibson-les-paul-deluxe-value-guide",
+    "code": 1,
+    "log": "[audit] Live:  https://www.joesvintageguitarsaz.com/post/gibson-les-paul-deluxe-value-guide/\n[audit] Local: http://127.0.0.1:4325/post/gibson-les-paul-deluxe-value-guide/\n[audit] Slug:  expansion-before-gibson-les-paul-deluxe-value-guide\n\n[audit] Liveness-checking 13 asset URL(s) on local (img/picture/poster/iframe)...\n\n[audit] Report: C:\\Users\\joeda\\Documents\\Codex\\2026-10-29\\files-pasted-by-the-user-codex\\work\\joes-vintage-guitars\\reports\\expansion-before-gibson-les-paul-deluxe-value-guide-audit-2026-11-04T21-59-02-984Z.md\n[audit] ðŸ”´ must-fix: 1  ðŸŸ¡ should-fix: 4  ðŸŸ¢ acceptable: 1\n"
+  },
+  {
+    "slug": "gibson-les-paul-deluxe-authentication-guide",
+    "code": 1,
+    "log": "[audit] Live:  https://www.joesvintageguitarsaz.com/post/gibson-les-paul-deluxe-authentication-guide/\n[audit] Local: http://127.0.0.1:4325/post/gibson-les-paul-deluxe-authentication-guide/\n[audit] Slug:  expansion-before-gibson-les-paul-deluxe-authentication-guide\n\n[audit] Liveness-checking 23 asset URL(s) on local (img/picture/poster/iframe)...\n\n[audit] Report: C:\\Users\\joeda\\Documents\\Codex\\2026-10-29\\files-pasted-by-the-user-codex\\work\\joes-vintage-guitars\\reports\\expansion-before-gibson-les-paul-deluxe-authentication-guide-audit-2026-11-04T21-59-03-070Z.md\n[audit] ðŸ”´ must-fix: 1  ðŸŸ¡ should-fix: 5  ðŸŸ¢ acceptable: 1\n"
+  },
+  {
+    "slug": "gibson-l-4-authentication-guide",
+    "code": 0,
+    "log": "[audit] Live:  https://www.joesvintageguitarsaz.com/post/gibson-l-4-authentication-guide/\n[audit] Local: http://127.0.0.1:4325/post/gibson-l-4-authentication-guide/\n[audit] Slug:  expansion-before-gibson-l-4-authentication-guide\n\n[audit] Liveness-checking 14 asset URL(s) on local (img/picture/poster/iframe)...\n\n[audit] Report: C:\\Users\\joeda\\Documents\\Codex\\2026-10-29\\files-pasted-by-the-user-codex\\work\\joes-vintage-guitars\\reports\\expansion-before-gibson-l-4-authentication-guide-audit-2026-11-04T21-59-04-010Z.md\n[audit] ðŸ”´ must-fix: 0  ðŸŸ¡ should-fix: 5  ðŸŸ¢ acceptable: 1\n"
+  },
+  {
+    "slug": "gibson-l-4-value-guide",
+    "code": 0,
+    "log": "[audit] Live:  https://www.joesvintageguitarsaz.com/post/gibson-l-4-value-guide/\n[audit] Local: http://127.0.0.1:4325/post/gibson-l-4-value-guide/\n[audit] Slug:  expansion-before-gibson-l-4-value-guide\n\n[audit] Liveness-checking 10 asset URL(s) on local (img/picture/poster/iframe)...\n\n[audit] Report: C:\\Users\\joeda\\Documents\\Codex\\2026-10-29\\files-pasted-by-the-user-codex\\work\\joes-vintage-guitars\\reports\\expansion-before-gibson-l-4-value-guide-audit-2026-11-04T21-59-04-018Z.md\n[audit] ðŸ”´ must-fix: 0  ðŸŸ¡ should-fix: 5  ðŸŸ¢ acceptable: 1\n"
+  },
+  {
+    "slug": "gibson-thunderbird-eb-bass-authentication-guide",
+    "code": 0,
+    "log": "[audit] Live:  https://www.joesvintageguitarsaz.com/post/gibson-thunderbird-eb-bass-authentication-guide/\n[audit] Local: http://127.0.0.1:4325/post/gibson-thunderbird-eb-bass-authentication-guide/\n[audit] Slug:  expansion-before-gibson-thunderbird-eb-bass-authentication-g\n\n[audit] Liveness-checking 15 asset URL(s) on local (img/picture/poster/iframe)...\n\n[audit] Report: C:\\Users\\joeda\\Documents\\Codex\\2026-10-29\\files-pasted-by-the-user-codex\\work\\joes-vintage-guitars\\reports\\expansion-before-gibson-thunderbird-eb-bass-authentication-g-audit-2026-11-04T21-59-04-603Z.md\n[audit] ðŸ”´ must-fix: 0  ðŸŸ¡ should-fix: 5  ðŸŸ¢ acceptable: 1\n"
+  },
+  {
+    "slug": "gibson-thunderbird-eb-bass-value-guide",
+    "code": 0,
+    "log": "[audit] Live:  https://www.joesvintageguitarsaz.com/post/gibson-thunderbird-eb-bass-value-guide/\n[audit] Local: http://127.0.0.1:4325/post/gibson-thunderbird-eb-bass-value-guide/\n[audit] Slug:  expansion-before-gibson-thunderbird-eb-bass-value-guide\n\n[audit] Liveness-checking 9 asset URL(s) on local (img/picture/poster/iframe)...\n\n[audit] Report: C:\\Users\\joeda\\Documents\\Codex\\2026-10-29\\files-pasted-by-the-user-codex\\work\\joes-vintage-guitars\\reports\\expansion-before-gibson-thunderbird-eb-bass-value-guide-audit-2026-11-04T21-59-05-403Z.md\n[audit] ðŸ”´ must-fix: 0  ðŸŸ¡ should-fix: 5  ðŸŸ¢ acceptable: 1\n"
+  },
+  {
+    "slug": "gibson-es-175-authentication-guide",
+    "code": 0,
+    "log": "[audit] Live:  https://www.joesvintageguitarsaz.com/post/gibson-es-175-authentication-guide/\n[audit] Local: http://127.0.0.1:4325/post/gibson-es-175-authentication-guide/\n[audit] Slug:  expansion-before-gibson-es-175-authentication-guide\n\n[audit] Liveness-checking 19 asset URL(s) on local (img/picture/poster/iframe)...\n\n[audit] Report: C:\\Users\\joeda\\Documents\\Codex\\2026-10-29\\files-pasted-by-the-user-codex\\work\\joes-vintage-guitars\\reports\\expansion-before-gibson-es-175-authentication-guide-audit-2026-11-04T21-59-05-688Z.md\n[audit] ðŸ”´ must-fix: 0  ðŸŸ¡ should-fix: 5  ðŸŸ¢ acceptable: 1\n"
+  },
+  {
+    "slug": "gibson-es-175-value-guide",
+    "code": 0,
+    "log": "[audit] Live:  https://www.joesvintageguitarsaz.com/post/gibson-es-175-value-guide/\n[audit] Local: http://127.0.0.1:4325/post/gibson-es-175-value-guide/\n[audit] Slug:  expansion-before-gibson-es-175-value-guide\n\n[audit] Liveness-checking 13 asset URL(s) on local (img/picture/poster/iframe)...\n\n[audit] Report: C:\\Users\\joeda\\Documents\\Codex\\2026-10-29\\files-pasted-by-the-user-codex\\work\\joes-vintage-guitars\\reports\\expansion-before-gibson-es-175-value-guide-audit-2026-11-04T21-59-06-044Z.md\n[audit] ðŸ”´ must-fix: 0  ðŸŸ¡ should-fix: 5  ðŸŸ¢ acceptable: 1\n"
+  }
+]

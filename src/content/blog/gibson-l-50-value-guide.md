@@ -2,7 +2,7 @@
 title: "Gibson L-50 Value Guide"
 seoTitle: "Vintage Gibson L-50 Value Guide: Prices By Production Era"
 pubDate: "2026-11-03"
-modified: "2026-11-03"
+modified: "2026-11-04"
 excerpt: "Compare vintage Gibson L-50 values for early round-hole and later f-hole archtops. Learn how finish, neck angle, repairs and original parts affect price."
 category: "value-evaluation"
 categoryName: "Value & Evaluation"

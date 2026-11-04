@@ -2,7 +2,7 @@
 title: "Gibson Thunderbird And EB Bass Value Guide"
 seoTitle: "Gibson Thunderbird And EB Bass Value Guide: Vintage Prices"
 pubDate: "2026-11-03"
-modified: "2026-11-03"
+modified: "2026-11-04"
 excerpt: "Check vintage Gibson Thunderbird and EB bass values by model, year and finish. Compare original examples with repairs, pickup changes and missing parts."
 category: "value-evaluation"
 categoryName: "Value & Evaluation"

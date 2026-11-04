@@ -2,7 +2,7 @@
 title: "Gibson L-4 Authentication Guide"
 seoTitle: "Gibson L-4 Authentication Guide: Acoustic, C And CES Models"
 pubDate: "2026-11-03"
-modified: "2026-11-03"
+modified: "2026-11-04"
 excerpt: "Identify Gibson L-4, L-4C and L-4CES guitars by soundholes, body construction, labels and pickups. Compare prewar and later models with archive photos."
 category: "specific-model-highlights"
 categoryName: "Specific Model Highlights"

@@ -2,7 +2,7 @@
 title: "Gibson L-50 Authentication Guide"
 seoTitle: "Gibson L-50 Authentication Guide: Dates And Features"
 pubDate: "2026-11-03"
-modified: "2026-11-03"
+modified: "2026-11-04"
 excerpt: "Identify a vintage Gibson L-50 by body size, carved top, inlays and factory order numbers. Compare Joe’s 1952 guitar and check repairs before selling."
 category: "specific-model-highlights"
 categoryName: "Specific Model Highlights"
