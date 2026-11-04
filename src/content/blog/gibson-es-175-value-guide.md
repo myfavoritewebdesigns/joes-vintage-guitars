@@ -2,7 +2,7 @@
 title: "Gibson ES-175 Value Guide"
 seoTitle: "Gibson ES-175 Value Guide: P-90 And Humbucker Model Prices"
 pubDate: "2026-11-03"
-modified: "2026-11-03"
+modified: "2026-11-04"
 excerpt: "Compare Gibson ES-175 and ES-175D values by year, pickups and finish. Review PAF models, single P-90 guitars, later variants and the effect of repairs."
 category: "value-evaluation"
 categoryName: "Value & Evaluation"

@@ -2,7 +2,7 @@
 title: "Gibson ES-175 Authentication Guide"
 seoTitle: "Gibson ES-175 Authentication Guide: Pickups, Dates And Parts"
 pubDate: "2026-11-03"
-modified: "2026-11-03"
+modified: "2026-11-04"
 excerpt: "Check a Gibson ES-175 or ES-175D using its label, pickup installation, body, neck and hardware. Compare P-90 and humbucker examples from Joe’s archive."
 category: "specific-model-highlights"
 categoryName: "Specific Model Highlights"

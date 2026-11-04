@@ -2,7 +2,7 @@
 title: "Gibson Les Paul Deluxe Value Guide"
 seoTitle: "Gibson Les Paul Deluxe Value Guide: Vintage Price Ranges"
 pubDate: "2026-11-03"
-modified: "2026-11-03"
+modified: "2026-11-04"
 excerpt: "Find vintage Gibson Les Paul Deluxe values by year and finish. Compare goldtops, sunbursts and sparkle finishes, plus pickup routing and repair effects."
 category: "value-evaluation"
 categoryName: "Value & Evaluation"
