@@ -1,0 +1,2299 @@
+[
+  {
+    "slug": "gibson-j200-model-history-authentication-guide",
+    "walks": [
+      [
+        {
+          "tag": "H2",
+          "cls": "",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(27, 25, 22)",
+          "display": "block",
+          "border": "0px solid rgb(27, 25, 22)",
+          "overflow": "visible",
+          "before": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          },
+          "after": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(27, 25, 22)",
+          "display": "block",
+          "border": "0px solid rgb(27, 25, 22)",
+          "overflow": "visible",
+          "before": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          },
+          "after": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          }
+        },
+        {
+          "tag": "HEADER",
+          "cls": "j200-head",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(27, 25, 22)",
+          "display": "flex",
+          "border": "0px solid rgb(27, 25, 22)",
+          "overflow": "visible",
+          "before": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          },
+          "after": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "cls": "j200-section j200-wrap",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(27, 25, 22)",
+          "display": "block",
+          "border": "0px solid rgb(27, 25, 22)",
+          "overflow": "visible",
+          "before": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          },
+          "after": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          }
+        },
+        {
+          "tag": "ARTICLE",
+          "cls": "j200-guide",
+          "bg": "rgb(243, 234, 216)",
+          "color": "rgb(27, 25, 22)",
+          "display": "block",
+          "border": "0px solid rgb(27, 25, 22)",
+          "overflow": "hidden",
+          "before": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          },
+          "after": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          }
+        },
+        {
+          "tag": "MAIN",
+          "cls": "",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(42, 45, 51)",
+          "display": "block",
+          "border": "0px solid rgb(42, 45, 51)",
+          "overflow": "visible",
+          "before": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          },
+          "after": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          }
+        }
+      ],
+      [
+        {
+          "tag": "H2",
+          "cls": "",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(27, 25, 22)",
+          "display": "block",
+          "border": "0px solid rgb(27, 25, 22)",
+          "overflow": "visible",
+          "before": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          },
+          "after": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(27, 25, 22)",
+          "display": "block",
+          "border": "0px solid rgb(27, 25, 22)",
+          "overflow": "visible",
+          "before": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          },
+          "after": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          }
+        },
+        {
+          "tag": "HEADER",
+          "cls": "j200-head",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(27, 25, 22)",
+          "display": "flex",
+          "border": "0px solid rgb(27, 25, 22)",
+          "overflow": "visible",
+          "before": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          },
+          "after": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "cls": "j200-section j200-wrap",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(27, 25, 22)",
+          "display": "block",
+          "border": "0px solid rgb(27, 25, 22)",
+          "overflow": "visible",
+          "before": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          },
+          "after": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          }
+        },
+        {
+          "tag": "ARTICLE",
+          "cls": "j200-guide",
+          "bg": "rgb(243, 234, 216)",
+          "color": "rgb(27, 25, 22)",
+          "display": "block",
+          "border": "0px solid rgb(27, 25, 22)",
+          "overflow": "hidden",
+          "before": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          },
+          "after": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          }
+        },
+        {
+          "tag": "MAIN",
+          "cls": "",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(42, 45, 51)",
+          "display": "block",
+          "border": "0px solid rgb(42, 45, 51)",
+          "overflow": "visible",
+          "before": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          },
+          "after": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          }
+        }
+      ],
+      [
+        {
+          "tag": "H2",
+          "cls": "",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(200, 158, 87)",
+          "display": "block",
+          "border": "0px solid rgb(200, 158, 87)",
+          "overflow": "visible",
+          "before": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          },
+          "after": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(200, 158, 87)",
+          "display": "block",
+          "border": "0px solid rgb(200, 158, 87)",
+          "overflow": "visible",
+          "before": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          },
+          "after": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          }
+        },
+        {
+          "tag": "HEADER",
+          "cls": "j200-head",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(200, 158, 87)",
+          "display": "flex",
+          "border": "0px solid rgb(200, 158, 87)",
+          "overflow": "visible",
+          "before": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          },
+          "after": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "j200-wrap",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(244, 239, 227)",
+          "display": "block",
+          "border": "0px solid rgb(244, 239, 227)",
+          "overflow": "visible",
+          "before": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          },
+          "after": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "cls": "j200-section j200-dark",
+          "bg": "rgb(23, 22, 20)",
+          "color": "rgb(244, 239, 227)",
+          "display": "block",
+          "border": "0px solid rgb(244, 239, 227)",
+          "overflow": "visible",
+          "before": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          },
+          "after": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          }
+        },
+        {
+          "tag": "ARTICLE",
+          "cls": "j200-guide",
+          "bg": "rgb(243, 234, 216)",
+          "color": "rgb(27, 25, 22)",
+          "display": "block",
+          "border": "0px solid rgb(27, 25, 22)",
+          "overflow": "hidden",
+          "before": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          },
+          "after": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          }
+        },
+        {
+          "tag": "MAIN",
+          "cls": "",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(42, 45, 51)",
+          "display": "block",
+          "border": "0px solid rgb(42, 45, 51)",
+          "overflow": "visible",
+          "before": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          },
+          "after": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          }
+        }
+      ]
+    ],
+    "tables": [
+      {
+        "client": 335,
+        "scroll": 760,
+        "reached": 425
+      }
+    ],
+    "widgets": {
+      "details": 8,
+      "open": 8,
+      "forms": 0,
+      "iframes": 0
+    },
+    "anchors": [
+      {
+        "hash": "#timeline",
+        "exists": true
+      },
+      {
+        "hash": "#identity",
+        "exists": true
+      },
+      {
+        "hash": "#history",
+        "exists": true
+      },
+      {
+        "hash": "#timeline",
+        "exists": true
+      },
+      {
+        "hash": "#bridge",
+        "exists": true
+      },
+      {
+        "hash": "#models",
+        "exists": true
+      },
+      {
+        "hash": "#archive",
+        "exists": true
+      },
+      {
+        "hash": "#dating",
+        "exists": true
+      },
+      {
+        "hash": "#authenticate",
+        "exists": true
+      },
+      {
+        "hash": "#repairs",
+        "exists": true
+      },
+      {
+        "hash": "#faq",
+        "exists": true
+      }
+    ]
+  },
+  {
+    "slug": "gibson-les-paul-deluxe-authentication-guide",
+    "walks": [
+      [
+        {
+          "tag": "H2",
+          "cls": "",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(27, 25, 22)",
+          "display": "block",
+          "border": "0px solid rgb(27, 25, 22)",
+          "overflow": "visible",
+          "before": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          },
+          "after": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(27, 25, 22)",
+          "display": "block",
+          "border": "0px solid rgb(27, 25, 22)",
+          "overflow": "visible",
+          "before": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          },
+          "after": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          }
+        },
+        {
+          "tag": "HEADER",
+          "cls": "mg-head",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(27, 25, 22)",
+          "display": "flex",
+          "border": "0px solid rgb(27, 25, 22)",
+          "overflow": "visible",
+          "before": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          },
+          "after": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "mg-section mg-wrap",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(27, 25, 22)",
+          "display": "block",
+          "border": "0px solid rgb(27, 25, 22)",
+          "overflow": "visible",
+          "before": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          },
+          "after": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "cls": "mg-band",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(27, 25, 22)",
+          "display": "block",
+          "border": "0px solid rgb(27, 25, 22)",
+          "overflow": "visible",
+          "before": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          },
+          "after": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          }
+        },
+        {
+          "tag": "ARTICLE",
+          "cls": "mg-guide",
+          "bg": "rgb(243, 234, 216)",
+          "color": "rgb(27, 25, 22)",
+          "display": "block",
+          "border": "0px solid rgb(27, 25, 22)",
+          "overflow": "hidden",
+          "before": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          },
+          "after": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          }
+        },
+        {
+          "tag": "MAIN",
+          "cls": "",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(42, 45, 51)",
+          "display": "block",
+          "border": "0px solid rgb(42, 45, 51)",
+          "overflow": "visible",
+          "before": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          },
+          "after": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          }
+        }
+      ],
+      [
+        {
+          "tag": "H2",
+          "cls": "",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(200, 158, 87)",
+          "display": "block",
+          "border": "0px solid rgb(200, 158, 87)",
+          "overflow": "visible",
+          "before": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          },
+          "after": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(200, 158, 87)",
+          "display": "block",
+          "border": "0px solid rgb(200, 158, 87)",
+          "overflow": "visible",
+          "before": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          },
+          "after": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          }
+        },
+        {
+          "tag": "HEADER",
+          "cls": "mg-head",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(200, 158, 87)",
+          "display": "flex",
+          "border": "0px solid rgb(200, 158, 87)",
+          "overflow": "visible",
+          "before": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          },
+          "after": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "mg-section mg-wrap",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(244, 239, 227)",
+          "display": "block",
+          "border": "0px solid rgb(244, 239, 227)",
+          "overflow": "visible",
+          "before": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          },
+          "after": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "cls": "mg-band mg-dark",
+          "bg": "rgb(23, 22, 20)",
+          "color": "rgb(244, 239, 227)",
+          "display": "block",
+          "border": "0px solid rgb(244, 239, 227)",
+          "overflow": "visible",
+          "before": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          },
+          "after": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          }
+        },
+        {
+          "tag": "ARTICLE",
+          "cls": "mg-guide",
+          "bg": "rgb(243, 234, 216)",
+          "color": "rgb(27, 25, 22)",
+          "display": "block",
+          "border": "0px solid rgb(27, 25, 22)",
+          "overflow": "hidden",
+          "before": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          },
+          "after": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          }
+        },
+        {
+          "tag": "MAIN",
+          "cls": "",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(42, 45, 51)",
+          "display": "block",
+          "border": "0px solid rgb(42, 45, 51)",
+          "overflow": "visible",
+          "before": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          },
+          "after": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          }
+        }
+      ],
+      [
+        {
+          "tag": "H2",
+          "cls": "",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(27, 25, 22)",
+          "display": "block",
+          "border": "0px solid rgb(27, 25, 22)",
+          "overflow": "visible",
+          "before": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          },
+          "after": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(27, 25, 22)",
+          "display": "block",
+          "border": "0px solid rgb(27, 25, 22)",
+          "overflow": "visible",
+          "before": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          },
+          "after": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          }
+        },
+        {
+          "tag": "HEADER",
+          "cls": "mg-head",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(27, 25, 22)",
+          "display": "flex",
+          "border": "0px solid rgb(27, 25, 22)",
+          "overflow": "visible",
+          "before": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          },
+          "after": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "mg-section mg-wrap",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(27, 25, 22)",
+          "display": "block",
+          "border": "0px solid rgb(27, 25, 22)",
+          "overflow": "visible",
+          "before": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          },
+          "after": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "cls": "mg-band mg-archive",
+          "bg": "rgb(225, 209, 180)",
+          "color": "rgb(27, 25, 22)",
+          "display": "block",
+          "border": "0px solid rgb(27, 25, 22)",
+          "overflow": "visible",
+          "before": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          },
+          "after": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          }
+        },
+        {
+          "tag": "ARTICLE",
+          "cls": "mg-guide",
+          "bg": "rgb(243, 234, 216)",
+          "color": "rgb(27, 25, 22)",
+          "display": "block",
+          "border": "0px solid rgb(27, 25, 22)",
+          "overflow": "hidden",
+          "before": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          },
+          "after": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          }
+        },
+        {
+          "tag": "MAIN",
+          "cls": "",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(42, 45, 51)",
+          "display": "block",
+          "border": "0px solid rgb(42, 45, 51)",
+          "overflow": "visible",
+          "before": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          },
+          "after": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          }
+        }
+      ]
+    ],
+    "tables": [],
+    "widgets": {
+      "details": 4,
+      "open": 4,
+      "forms": 0,
+      "iframes": 0
+    },
+    "anchors": [
+      {
+        "hash": "#features",
+        "exists": true
+      },
+      {
+        "hash": "#features",
+        "exists": true
+      },
+      {
+        "hash": "#timeline",
+        "exists": true
+      },
+      {
+        "hash": "#archive",
+        "exists": true
+      },
+      {
+        "hash": "#pickups",
+        "exists": true
+      },
+      {
+        "hash": "#serials",
+        "exists": true
+      },
+      {
+        "hash": "#neck",
+        "exists": true
+      },
+      {
+        "hash": "#checklist",
+        "exists": true
+      },
+      {
+        "hash": "#configuration-review",
+        "exists": true
+      },
+      {
+        "hash": "#references",
+        "exists": true
+      },
+      {
+        "hash": "#faq",
+        "exists": true
+      }
+    ]
+  },
+  {
+    "slug": "gibson-les-paul-deluxe-value-guide",
+    "walks": [
+      [
+        {
+          "tag": "H2",
+          "cls": "",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(27, 25, 22)",
+          "display": "block",
+          "border": "0px solid rgb(27, 25, 22)",
+          "overflow": "visible",
+          "before": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          },
+          "after": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(27, 25, 22)",
+          "display": "block",
+          "border": "0px solid rgb(27, 25, 22)",
+          "overflow": "visible",
+          "before": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          },
+          "after": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          }
+        },
+        {
+          "tag": "HEADER",
+          "cls": "mg-head",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(27, 25, 22)",
+          "display": "flex",
+          "border": "0px solid rgb(27, 25, 22)",
+          "overflow": "visible",
+          "before": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          },
+          "after": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "mg-section mg-wrap",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(27, 25, 22)",
+          "display": "block",
+          "border": "0px solid rgb(27, 25, 22)",
+          "overflow": "visible",
+          "before": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          },
+          "after": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "cls": "mg-band",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(27, 25, 22)",
+          "display": "block",
+          "border": "0px solid rgb(27, 25, 22)",
+          "overflow": "visible",
+          "before": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          },
+          "after": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          }
+        },
+        {
+          "tag": "ARTICLE",
+          "cls": "mg-guide",
+          "bg": "rgb(243, 234, 216)",
+          "color": "rgb(27, 25, 22)",
+          "display": "block",
+          "border": "0px solid rgb(27, 25, 22)",
+          "overflow": "hidden",
+          "before": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          },
+          "after": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          }
+        },
+        {
+          "tag": "MAIN",
+          "cls": "",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(42, 45, 51)",
+          "display": "block",
+          "border": "0px solid rgb(42, 45, 51)",
+          "overflow": "visible",
+          "before": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          },
+          "after": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          }
+        }
+      ],
+      [
+        {
+          "tag": "H2",
+          "cls": "",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(200, 158, 87)",
+          "display": "block",
+          "border": "0px solid rgb(200, 158, 87)",
+          "overflow": "visible",
+          "before": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          },
+          "after": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(200, 158, 87)",
+          "display": "block",
+          "border": "0px solid rgb(200, 158, 87)",
+          "overflow": "visible",
+          "before": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          },
+          "after": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          }
+        },
+        {
+          "tag": "HEADER",
+          "cls": "mg-head",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(200, 158, 87)",
+          "display": "flex",
+          "border": "0px solid rgb(200, 158, 87)",
+          "overflow": "visible",
+          "before": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          },
+          "after": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "mg-section mg-wrap",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(244, 239, 227)",
+          "display": "block",
+          "border": "0px solid rgb(244, 239, 227)",
+          "overflow": "visible",
+          "before": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          },
+          "after": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "cls": "mg-band mg-dark",
+          "bg": "rgb(23, 22, 20)",
+          "color": "rgb(244, 239, 227)",
+          "display": "block",
+          "border": "0px solid rgb(244, 239, 227)",
+          "overflow": "visible",
+          "before": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          },
+          "after": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          }
+        },
+        {
+          "tag": "ARTICLE",
+          "cls": "mg-guide",
+          "bg": "rgb(243, 234, 216)",
+          "color": "rgb(27, 25, 22)",
+          "display": "block",
+          "border": "0px solid rgb(27, 25, 22)",
+          "overflow": "hidden",
+          "before": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          },
+          "after": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          }
+        },
+        {
+          "tag": "MAIN",
+          "cls": "",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(42, 45, 51)",
+          "display": "block",
+          "border": "0px solid rgb(42, 45, 51)",
+          "overflow": "visible",
+          "before": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          },
+          "after": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          }
+        }
+      ],
+      [
+        {
+          "tag": "H2",
+          "cls": "",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(27, 25, 22)",
+          "display": "block",
+          "border": "0px solid rgb(27, 25, 22)",
+          "overflow": "visible",
+          "before": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          },
+          "after": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(27, 25, 22)",
+          "display": "block",
+          "border": "0px solid rgb(27, 25, 22)",
+          "overflow": "visible",
+          "before": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          },
+          "after": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          }
+        },
+        {
+          "tag": "HEADER",
+          "cls": "mg-head",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(27, 25, 22)",
+          "display": "flex",
+          "border": "0px solid rgb(27, 25, 22)",
+          "overflow": "visible",
+          "before": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          },
+          "after": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "mg-section mg-wrap",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(27, 25, 22)",
+          "display": "block",
+          "border": "0px solid rgb(27, 25, 22)",
+          "overflow": "visible",
+          "before": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          },
+          "after": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "cls": "mg-band",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(27, 25, 22)",
+          "display": "block",
+          "border": "0px solid rgb(27, 25, 22)",
+          "overflow": "visible",
+          "before": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          },
+          "after": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          }
+        },
+        {
+          "tag": "ARTICLE",
+          "cls": "mg-guide",
+          "bg": "rgb(243, 234, 216)",
+          "color": "rgb(27, 25, 22)",
+          "display": "block",
+          "border": "0px solid rgb(27, 25, 22)",
+          "overflow": "hidden",
+          "before": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          },
+          "after": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          }
+        },
+        {
+          "tag": "MAIN",
+          "cls": "",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(42, 45, 51)",
+          "display": "block",
+          "border": "0px solid rgb(42, 45, 51)",
+          "overflow": "visible",
+          "before": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          },
+          "after": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          }
+        }
+      ]
+    ],
+    "tables": [
+      {
+        "client": 335,
+        "scroll": 760,
+        "reached": 425
+      }
+    ],
+    "widgets": {
+      "details": 3,
+      "open": 3,
+      "forms": 0,
+      "iframes": 0
+    },
+    "anchors": [
+      {
+        "hash": "#values",
+        "exists": true
+      },
+      {
+        "hash": "#values",
+        "exists": true
+      },
+      {
+        "hash": "#finishes",
+        "exists": true
+      },
+      {
+        "hash": "#routing",
+        "exists": true
+      },
+      {
+        "hash": "#repairs",
+        "exists": true
+      },
+      {
+        "hash": "#later",
+        "exists": true
+      },
+      {
+        "hash": "#selling",
+        "exists": true
+      },
+      {
+        "hash": "#faq",
+        "exists": true
+      }
+    ]
+  },
+  {
+    "slug": "gibson-l-50-authentication-guide",
+    "walks": [
+      [
+        {
+          "tag": "H2",
+          "cls": "",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(27, 25, 22)",
+          "display": "block",
+          "border": "0px solid rgb(27, 25, 22)",
+          "overflow": "visible",
+          "before": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          },
+          "after": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(27, 25, 22)",
+          "display": "block",
+          "border": "0px solid rgb(27, 25, 22)",
+          "overflow": "visible",
+          "before": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          },
+          "after": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          }
+        },
+        {
+          "tag": "HEADER",
+          "cls": "mg-head",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(27, 25, 22)",
+          "display": "flex",
+          "border": "0px solid rgb(27, 25, 22)",
+          "overflow": "visible",
+          "before": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          },
+          "after": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "mg-section mg-wrap",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(27, 25, 22)",
+          "display": "block",
+          "border": "0px solid rgb(27, 25, 22)",
+          "overflow": "visible",
+          "before": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          },
+          "after": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "cls": "mg-band",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(27, 25, 22)",
+          "display": "block",
+          "border": "0px solid rgb(27, 25, 22)",
+          "overflow": "visible",
+          "before": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          },
+          "after": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          }
+        },
+        {
+          "tag": "ARTICLE",
+          "cls": "mg-guide",
+          "bg": "rgb(243, 234, 216)",
+          "color": "rgb(27, 25, 22)",
+          "display": "block",
+          "border": "0px solid rgb(27, 25, 22)",
+          "overflow": "hidden",
+          "before": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          },
+          "after": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          }
+        },
+        {
+          "tag": "MAIN",
+          "cls": "",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(42, 45, 51)",
+          "display": "block",
+          "border": "0px solid rgb(42, 45, 51)",
+          "overflow": "visible",
+          "before": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          },
+          "after": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          }
+        }
+      ],
+      [
+        {
+          "tag": "H2",
+          "cls": "",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(200, 158, 87)",
+          "display": "block",
+          "border": "0px solid rgb(200, 158, 87)",
+          "overflow": "visible",
+          "before": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          },
+          "after": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(200, 158, 87)",
+          "display": "block",
+          "border": "0px solid rgb(200, 158, 87)",
+          "overflow": "visible",
+          "before": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          },
+          "after": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          }
+        },
+        {
+          "tag": "HEADER",
+          "cls": "mg-head",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(200, 158, 87)",
+          "display": "flex",
+          "border": "0px solid rgb(200, 158, 87)",
+          "overflow": "visible",
+          "before": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          },
+          "after": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "mg-section mg-wrap",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(244, 239, 227)",
+          "display": "block",
+          "border": "0px solid rgb(244, 239, 227)",
+          "overflow": "visible",
+          "before": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          },
+          "after": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "cls": "mg-band mg-dark",
+          "bg": "rgb(23, 22, 20)",
+          "color": "rgb(244, 239, 227)",
+          "display": "block",
+          "border": "0px solid rgb(244, 239, 227)",
+          "overflow": "visible",
+          "before": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          },
+          "after": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          }
+        },
+        {
+          "tag": "ARTICLE",
+          "cls": "mg-guide",
+          "bg": "rgb(243, 234, 216)",
+          "color": "rgb(27, 25, 22)",
+          "display": "block",
+          "border": "0px solid rgb(27, 25, 22)",
+          "overflow": "hidden",
+          "before": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          },
+          "after": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          }
+        },
+        {
+          "tag": "MAIN",
+          "cls": "",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(42, 45, 51)",
+          "display": "block",
+          "border": "0px solid rgb(42, 45, 51)",
+          "overflow": "visible",
+          "before": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          },
+          "after": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          }
+        }
+      ],
+      [
+        {
+          "tag": "H2",
+          "cls": "",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(200, 158, 87)",
+          "display": "block",
+          "border": "0px solid rgb(200, 158, 87)",
+          "overflow": "visible",
+          "before": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          },
+          "after": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(200, 158, 87)",
+          "display": "block",
+          "border": "0px solid rgb(200, 158, 87)",
+          "overflow": "visible",
+          "before": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          },
+          "after": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          }
+        },
+        {
+          "tag": "HEADER",
+          "cls": "mg-head",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(200, 158, 87)",
+          "display": "flex",
+          "border": "0px solid rgb(200, 158, 87)",
+          "overflow": "visible",
+          "before": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          },
+          "after": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "mg-section mg-wrap",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(244, 239, 227)",
+          "display": "block",
+          "border": "0px solid rgb(244, 239, 227)",
+          "overflow": "visible",
+          "before": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          },
+          "after": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "cls": "mg-band mg-dark",
+          "bg": "rgb(23, 22, 20)",
+          "color": "rgb(244, 239, 227)",
+          "display": "block",
+          "border": "0px solid rgb(244, 239, 227)",
+          "overflow": "visible",
+          "before": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          },
+          "after": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          }
+        },
+        {
+          "tag": "ARTICLE",
+          "cls": "mg-guide",
+          "bg": "rgb(243, 234, 216)",
+          "color": "rgb(27, 25, 22)",
+          "display": "block",
+          "border": "0px solid rgb(27, 25, 22)",
+          "overflow": "hidden",
+          "before": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          },
+          "after": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          }
+        },
+        {
+          "tag": "MAIN",
+          "cls": "",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(42, 45, 51)",
+          "display": "block",
+          "border": "0px solid rgb(42, 45, 51)",
+          "overflow": "visible",
+          "before": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          },
+          "after": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          }
+        }
+      ]
+    ],
+    "tables": [
+      {
+        "client": 335,
+        "scroll": 760,
+        "reached": 425
+      }
+    ],
+    "widgets": {
+      "details": 4,
+      "open": 4,
+      "forms": 0,
+      "iframes": 0
+    },
+    "anchors": [
+      {
+        "hash": "#identity",
+        "exists": true
+      },
+      {
+        "hash": "#identity",
+        "exists": true
+      },
+      {
+        "hash": "#history",
+        "exists": true
+      },
+      {
+        "hash": "#timeline",
+        "exists": true
+      },
+      {
+        "hash": "#top",
+        "exists": true
+      },
+      {
+        "hash": "#archive",
+        "exists": true
+      },
+      {
+        "hash": "#numbers",
+        "exists": true
+      },
+      {
+        "hash": "#inspection",
+        "exists": true
+      },
+      {
+        "hash": "#repairs",
+        "exists": true
+      },
+      {
+        "hash": "#configuration-review",
+        "exists": true
+      },
+      {
+        "hash": "#references",
+        "exists": true
+      },
+      {
+        "hash": "#faq",
+        "exists": true
+      }
+    ]
+  },
+  {
+    "slug": "gibson-l-48-authentication-guide",
+    "walks": [
+      [
+        {
+          "tag": "H2",
+          "cls": "",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(27, 25, 22)",
+          "display": "block",
+          "border": "0px solid rgb(27, 25, 22)",
+          "overflow": "visible",
+          "before": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          },
+          "after": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(27, 25, 22)",
+          "display": "block",
+          "border": "0px solid rgb(27, 25, 22)",
+          "overflow": "visible",
+          "before": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          },
+          "after": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          }
+        },
+        {
+          "tag": "HEADER",
+          "cls": "mg-head",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(27, 25, 22)",
+          "display": "flex",
+          "border": "0px solid rgb(27, 25, 22)",
+          "overflow": "visible",
+          "before": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          },
+          "after": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "mg-section mg-wrap",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(27, 25, 22)",
+          "display": "block",
+          "border": "0px solid rgb(27, 25, 22)",
+          "overflow": "visible",
+          "before": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          },
+          "after": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "cls": "mg-band",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(27, 25, 22)",
+          "display": "block",
+          "border": "0px solid rgb(27, 25, 22)",
+          "overflow": "visible",
+          "before": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          },
+          "after": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          }
+        },
+        {
+          "tag": "ARTICLE",
+          "cls": "mg-guide",
+          "bg": "rgb(243, 234, 216)",
+          "color": "rgb(27, 25, 22)",
+          "display": "block",
+          "border": "0px solid rgb(27, 25, 22)",
+          "overflow": "hidden",
+          "before": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          },
+          "after": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          }
+        },
+        {
+          "tag": "MAIN",
+          "cls": "",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(42, 45, 51)",
+          "display": "block",
+          "border": "0px solid rgb(42, 45, 51)",
+          "overflow": "visible",
+          "before": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          },
+          "after": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          }
+        }
+      ],
+      [
+        {
+          "tag": "H2",
+          "cls": "",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(200, 158, 87)",
+          "display": "block",
+          "border": "0px solid rgb(200, 158, 87)",
+          "overflow": "visible",
+          "before": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          },
+          "after": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(200, 158, 87)",
+          "display": "block",
+          "border": "0px solid rgb(200, 158, 87)",
+          "overflow": "visible",
+          "before": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          },
+          "after": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          }
+        },
+        {
+          "tag": "HEADER",
+          "cls": "mg-head",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(200, 158, 87)",
+          "display": "flex",
+          "border": "0px solid rgb(200, 158, 87)",
+          "overflow": "visible",
+          "before": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          },
+          "after": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "mg-section mg-wrap",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(244, 239, 227)",
+          "display": "block",
+          "border": "0px solid rgb(244, 239, 227)",
+          "overflow": "visible",
+          "before": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          },
+          "after": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "cls": "mg-band mg-dark",
+          "bg": "rgb(23, 22, 20)",
+          "color": "rgb(244, 239, 227)",
+          "display": "block",
+          "border": "0px solid rgb(244, 239, 227)",
+          "overflow": "visible",
+          "before": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          },
+          "after": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          }
+        },
+        {
+          "tag": "ARTICLE",
+          "cls": "mg-guide",
+          "bg": "rgb(243, 234, 216)",
+          "color": "rgb(27, 25, 22)",
+          "display": "block",
+          "border": "0px solid rgb(27, 25, 22)",
+          "overflow": "hidden",
+          "before": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          },
+          "after": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          }
+        },
+        {
+          "tag": "MAIN",
+          "cls": "",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(42, 45, 51)",
+          "display": "block",
+          "border": "0px solid rgb(42, 45, 51)",
+          "overflow": "visible",
+          "before": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          },
+          "after": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          }
+        }
+      ],
+      [
+        {
+          "tag": "H2",
+          "cls": "",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(200, 158, 87)",
+          "display": "block",
+          "border": "0px solid rgb(200, 158, 87)",
+          "overflow": "visible",
+          "before": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          },
+          "after": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(200, 158, 87)",
+          "display": "block",
+          "border": "0px solid rgb(200, 158, 87)",
+          "overflow": "visible",
+          "before": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          },
+          "after": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          }
+        },
+        {
+          "tag": "HEADER",
+          "cls": "mg-head",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(200, 158, 87)",
+          "display": "flex",
+          "border": "0px solid rgb(200, 158, 87)",
+          "overflow": "visible",
+          "before": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          },
+          "after": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          }
+        },
+        {
+          "tag": "DIV",
+          "cls": "mg-section mg-wrap",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(244, 239, 227)",
+          "display": "block",
+          "border": "0px solid rgb(244, 239, 227)",
+          "overflow": "visible",
+          "before": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          },
+          "after": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          }
+        },
+        {
+          "tag": "SECTION",
+          "cls": "mg-band mg-dark",
+          "bg": "rgb(23, 22, 20)",
+          "color": "rgb(244, 239, 227)",
+          "display": "block",
+          "border": "0px solid rgb(244, 239, 227)",
+          "overflow": "visible",
+          "before": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          },
+          "after": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          }
+        },
+        {
+          "tag": "ARTICLE",
+          "cls": "mg-guide",
+          "bg": "rgb(243, 234, 216)",
+          "color": "rgb(27, 25, 22)",
+          "display": "block",
+          "border": "0px solid rgb(27, 25, 22)",
+          "overflow": "hidden",
+          "before": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          },
+          "after": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          }
+        },
+        {
+          "tag": "MAIN",
+          "cls": "",
+          "bg": "rgba(0, 0, 0, 0)",
+          "color": "rgb(42, 45, 51)",
+          "display": "block",
+          "border": "0px solid rgb(42, 45, 51)",
+          "overflow": "visible",
+          "before": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          },
+          "after": {
+            "content": "none",
+            "bg": "rgba(0, 0, 0, 0)",
+            "clip": "none"
+          }
+        }
+      ]
+    ],
+    "tables": [
+      {
+        "client": 335,
+        "scroll": 760,
+        "reached": 425
+      }
+    ],
+    "widgets": {
+      "details": 4,
+      "open": 4,
+      "forms": 0,
+      "iframes": 0
+    },
+    "anchors": [
+      {
+        "hash": "#specifications",
+        "exists": true
+      },
+      {
+        "hash": "#specifications",
+        "exists": true
+      },
+      {
+        "hash": "#l48-l50",
+        "exists": true
+      },
+      {
+        "hash": "#production",
+        "exists": true
+      },
+      {
+        "hash": "#wood",
+        "exists": true
+      },
+      {
+        "hash": "#comparison-archive",
+        "exists": true
+      },
+      {
+        "hash": "#dating",
+        "exists": true
+      },
+      {
+        "hash": "#hardware",
+        "exists": true
+      },
+      {
+        "hash": "#checklist",
+        "exists": true
+      },
+      {
+        "hash": "#configuration-review",
+        "exists": true
+      },
+      {
+        "hash": "#references",
+        "exists": true
+      },
+      {
+        "hash": "#faq",
+        "exists": true
+      }
+    ]
+  }
+]

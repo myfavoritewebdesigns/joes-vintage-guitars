@@ -1,0 +1,648 @@
+[
+  {
+    "width": 1920,
+    "scrollWidth": 1920,
+    "actions": [
+      {
+        "text": "Free Appraisal",
+        "top": 488.34375,
+        "bottom": 538.734375
+      },
+      {
+        "text": "Sell My Gibson",
+        "top": 488.34375,
+        "bottom": 538.734375
+      }
+    ],
+    "normalLoads": [
+      {
+        "alt": "1957 Gibson Byrdland in sunburst, with black Alnico pickups and gold hardware.",
+        "ok": true
+      },
+      {
+        "alt": "1957 Gibson Byrdland: full front view and rounded cutaway.",
+        "ok": true
+      },
+      {
+        "alt": "1957 Gibson Byrdland: black Alnico pickup with rectangular polepieces.",
+        "ok": true
+      },
+      {
+        "alt": "1957 Gibson Byrdland: figured maple back and sunburst finish.",
+        "ok": true
+      },
+      {
+        "alt": "1967 Gibson Byrdland: full front view, pointed cutaway and covered pickups.",
+        "ok": true
+      },
+      {
+        "alt": "1967 Gibson Byrdland: covered pickups, bridge and pickguard.",
+        "ok": true
+      },
+      {
+        "alt": "1970s Gibson Byrdland in sunburst, with a rounded cutaway and gold hardware.",
+        "ok": true
+      },
+      {
+        "alt": "1970s Gibson Byrdland: sunburst back and contrasting neck laminations.",
+        "ok": true
+      },
+      {
+        "alt": "1974 Gibson Byrdland in wine red, with gold hardware.",
+        "ok": true
+      },
+      {
+        "alt": "1974 Gibson Byrdland: full front view.",
+        "ok": true
+      },
+      {
+        "alt": "1974 Gibson Byrdland: figured back and binding.",
+        "ok": true
+      },
+      {
+        "alt": "1967 Gibson Byrdland: engraved tailpiece and gold hardware.",
+        "ok": true
+      },
+      {
+        "alt": "1967 Gibson Byrdland: rear headstock and gold tuners.",
+        "ok": true
+      },
+      {
+        "alt": "Joe Dampt, owner of Joe's Vintage Guitars",
+        "ok": true
+      }
+    ],
+    "anchors": [
+      {
+        "id": "values",
+        "exists": true,
+        "top": 100.078125
+      },
+      {
+        "id": "early",
+        "exists": true,
+        "top": 113.703125
+      },
+      {
+        "id": "sixties",
+        "exists": true,
+        "top": 100.484375
+      },
+      {
+        "id": "archive",
+        "exists": true,
+        "top": 99.640625
+      },
+      {
+        "id": "hardware",
+        "exists": true,
+        "top": 199.921875
+      },
+      {
+        "id": "condition",
+        "exists": true,
+        "top": 193.296875
+      },
+      {
+        "id": "appraisal",
+        "exists": true,
+        "top": 188.921875
+      },
+      {
+        "id": "faq",
+        "exists": true,
+        "top": 0
+      }
+    ],
+    "images": [
+      {
+        "alt": "1957 Gibson Byrdland in sunburst, with black Alnico pickups and gold hardware.",
+        "src": "/_astro/gibson-byrdland1957-body.DMMzobXS_ZdqUOK.webp",
+        "width": 690,
+        "height": 555,
+        "naturalWidth": 1800,
+        "fit": "contain",
+        "caption": "1957 Gibson Byrdland in sunburst, with black Alnico pickups and gold hardware.",
+        "captionTop": -9721.796875,
+        "imageBottom": -9721.796875
+      },
+      {
+        "alt": "1957 Gibson Byrdland: full front view and rounded cutaway.",
+        "src": "/_astro/gibson-byrdland1957-front.DbF7Zx_F_ZYC2L5.webp",
+        "width": 577.5,
+        "height": 420,
+        "naturalWidth": 1400,
+        "fit": "contain",
+        "caption": "1957 Gibson Byrdland: full front view and rounded cutaway.",
+        "captionTop": -6817.515625,
+        "imageBottom": -6817.515625
+      },
+      {
+        "alt": "1957 Gibson Byrdland: black Alnico pickup with rectangular polepieces.",
+        "src": "/_astro/gibson-byrdland1957-pickup.C9KjkpNR_Z1iz2dt.webp",
+        "width": 577.5,
+        "height": 420,
+        "naturalWidth": 1400,
+        "fit": "contain",
+        "caption": "1957 Gibson Byrdland: black Alnico pickup with rectangular polepieces.",
+        "captionTop": -6817.515625,
+        "imageBottom": -6817.515625
+      },
+      {
+        "alt": "1957 Gibson Byrdland: figured maple back and sunburst finish.",
+        "src": "/_astro/gibson-byrdland1957-back.CDFJ9ADv_Z1Pt654.webp",
+        "width": 577.5,
+        "height": 420,
+        "naturalWidth": 1400,
+        "fit": "contain",
+        "caption": "1957 Gibson Byrdland: figured maple back and sunburst finish.",
+        "captionTop": -6333.515625,
+        "imageBottom": -6333.515625
+      },
+      {
+        "alt": "1967 Gibson Byrdland: full front view, pointed cutaway and covered pickups.",
+        "src": "/_astro/gibson-byrdland1967-front.C43bQMBt_Z1JT8O7.webp",
+        "width": 577.5,
+        "height": 420,
+        "naturalWidth": 1400,
+        "fit": "contain",
+        "caption": "1967 Gibson Byrdland: full front view, pointed cutaway and covered pickups.",
+        "captionTop": -5243.359375,
+        "imageBottom": -5243.359375
+      },
+      {
+        "alt": "1967 Gibson Byrdland: covered pickups, bridge and pickguard.",
+        "src": "/_astro/gibson-byrdland1967-pickups.BgXRTFm7_Z11RIHp.webp",
+        "width": 577.5,
+        "height": 420,
+        "naturalWidth": 1400,
+        "fit": "contain",
+        "caption": "1967 Gibson Byrdland: covered pickups, bridge and pickguard.",
+        "captionTop": -5243.359375,
+        "imageBottom": -5243.359375
+      },
+      {
+        "alt": "1970s Gibson Byrdland in sunburst, with a rounded cutaway and gold hardware.",
+        "src": "/_astro/gibson-byrdland1970s-body.DkfAu56A_27zALS.webp",
+        "width": 860,
+        "height": 465,
+        "naturalWidth": 1400,
+        "fit": "contain",
+        "caption": "1970s Gibson Byrdland in sunburst, with a rounded cutaway and gold hardware.",
+        "captionTop": -4416.078125,
+        "imageBottom": -4416.078125
+      },
+      {
+        "alt": "1970s Gibson Byrdland: sunburst back and contrasting neck laminations.",
+        "src": "/_astro/gibson-byrdland1970s-back.D6E-Ic8z_Z25zRMc.webp",
+        "width": 424,
+        "height": 300,
+        "naturalWidth": 1400,
+        "fit": "contain",
+        "caption": "1970s Gibson Byrdland: sunburst back and contrasting neck laminations.",
+        "captionTop": -4069.078125,
+        "imageBottom": -4069.078125
+      },
+      {
+        "alt": "1974 Gibson Byrdland in wine red, with gold hardware.",
+        "src": "/_astro/1974-gibson-byrdland-winde-red-1.CQo5xKCi_25yrDN.webp",
+        "width": 860,
+        "height": 500,
+        "naturalWidth": 1400,
+        "fit": "contain",
+        "caption": "1974 Gibson Byrdland in wine red, with gold hardware.",
+        "captionTop": -3457.078125,
+        "imageBottom": -3422.078125
+      },
+      {
+        "alt": "1974 Gibson Byrdland: full front view.",
+        "src": "/_astro/1974-gibson-byrdland-winde-red-2.BVa8Amx6_1cBINF.webp",
+        "width": 424,
+        "height": 350,
+        "naturalWidth": 1400,
+        "fit": "contain",
+        "caption": "1974 Gibson Byrdland: full front view.",
+        "captionTop": -3095.078125,
+        "imageBottom": -3060.078125
+      },
+      {
+        "alt": "1974 Gibson Byrdland: figured back and binding.",
+        "src": "/_astro/1974-gibson-byrdland-winde-red-10.D8q0E3X1_ZGfODe.webp",
+        "width": 424,
+        "height": 350,
+        "naturalWidth": 1400,
+        "fit": "contain",
+        "caption": "1974 Gibson Byrdland: figured back and binding.",
+        "captionTop": -3095.078125,
+        "imageBottom": -3060.078125
+      },
+      {
+        "alt": "1967 Gibson Byrdland: engraved tailpiece and gold hardware.",
+        "src": "/_astro/gibson-byrdland1967-tailpiece._MDyMIR9_vld9v.webp",
+        "width": 577.5,
+        "height": 420,
+        "naturalWidth": 1400,
+        "fit": "contain",
+        "caption": "1967 Gibson Byrdland: engraved tailpiece and gold hardware.",
+        "captionTop": -1987.703125,
+        "imageBottom": -1987.703125
+      },
+      {
+        "alt": "1967 Gibson Byrdland: rear headstock and gold tuners.",
+        "src": "/_astro/gibson-byrdland1967-tuners.CI0N174A_5hjAo.webp",
+        "width": 577.5,
+        "height": 420,
+        "naturalWidth": 1400,
+        "fit": "contain",
+        "caption": "1967 Gibson Byrdland: rear headstock and gold tuners.",
+        "captionTop": -1987.703125,
+        "imageBottom": -1987.703125
+      },
+      {
+        "alt": "Joe Dampt, owner of Joe's Vintage Guitars",
+        "src": "/_astro/about-me-joe-1.C--UV5nX_Ypsuu.webp",
+        "width": 140,
+        "height": 140,
+        "naturalWidth": 140,
+        "fit": "cover",
+        "imageBottom": 1055.484375
+      }
+    ],
+    "walk": [
+      {
+        "tag": "DIV",
+        "class": "mg-photo-grid",
+        "width": 1180,
+        "height": 943,
+        "display": "grid",
+        "bg": "rgba(0, 0, 0, 0)",
+        "before": "none",
+        "after": "none"
+      },
+      {
+        "tag": "DIV",
+        "class": "mg-section mg-wrap",
+        "width": 1180,
+        "height": 1474.78125,
+        "display": "block",
+        "bg": "rgba(0, 0, 0, 0)",
+        "before": "none",
+        "after": "none"
+      },
+      {
+        "tag": "SECTION",
+        "class": "mg-band mg-dark",
+        "width": 1920,
+        "height": 1474.78125,
+        "display": "block",
+        "bg": "rgb(23, 22, 20)",
+        "before": "none",
+        "after": "none"
+      },
+      {
+        "tag": "ARTICLE",
+        "class": "mg-guide",
+        "width": 1920,
+        "height": 12252.515625,
+        "display": "block",
+        "bg": "rgb(243, 234, 216)",
+        "before": "none",
+        "after": "none"
+      },
+      {
+        "tag": "MAIN",
+        "class": "",
+        "width": 1920,
+        "height": 12663.71875,
+        "display": "block",
+        "bg": "rgba(0, 0, 0, 0)",
+        "before": "none",
+        "after": "none"
+      }
+    ],
+    "contrast": []
+  },
+  {
+    "width": 390,
+    "scrollWidth": 390,
+    "actions": [
+      {
+        "text": "Free Appraisal",
+        "top": 512.8125,
+        "bottom": 561.203125
+      },
+      {
+        "text": "Sell My Gibson",
+        "top": 512.8125,
+        "bottom": 561.203125
+      }
+    ],
+    "normalLoads": [
+      {
+        "alt": "1957 Gibson Byrdland in sunburst, with black Alnico pickups and gold hardware.",
+        "ok": true
+      },
+      {
+        "alt": "1957 Gibson Byrdland: full front view and rounded cutaway.",
+        "ok": true
+      },
+      {
+        "alt": "1957 Gibson Byrdland: black Alnico pickup with rectangular polepieces.",
+        "ok": true
+      },
+      {
+        "alt": "1957 Gibson Byrdland: figured maple back and sunburst finish.",
+        "ok": true
+      },
+      {
+        "alt": "1967 Gibson Byrdland: full front view, pointed cutaway and covered pickups.",
+        "ok": true
+      },
+      {
+        "alt": "1967 Gibson Byrdland: covered pickups, bridge and pickguard.",
+        "ok": true
+      },
+      {
+        "alt": "1970s Gibson Byrdland in sunburst, with a rounded cutaway and gold hardware.",
+        "ok": true
+      },
+      {
+        "alt": "1970s Gibson Byrdland: sunburst back and contrasting neck laminations.",
+        "ok": true
+      },
+      {
+        "alt": "1974 Gibson Byrdland in wine red, with gold hardware.",
+        "ok": true
+      },
+      {
+        "alt": "1974 Gibson Byrdland: full front view.",
+        "ok": true
+      },
+      {
+        "alt": "1974 Gibson Byrdland: figured back and binding.",
+        "ok": true
+      },
+      {
+        "alt": "1967 Gibson Byrdland: engraved tailpiece and gold hardware.",
+        "ok": true
+      },
+      {
+        "alt": "1967 Gibson Byrdland: rear headstock and gold tuners.",
+        "ok": true
+      },
+      {
+        "alt": "Joe Dampt, owner of Joe's Vintage Guitars",
+        "ok": true
+      }
+    ],
+    "anchors": [
+      {
+        "id": "values",
+        "exists": true,
+        "top": 198.75
+      },
+      {
+        "id": "early",
+        "exists": true,
+        "top": 100.09375
+      },
+      {
+        "id": "sixties",
+        "exists": true,
+        "top": 100.21875
+      },
+      {
+        "id": "archive",
+        "exists": true,
+        "top": 100.28125
+      },
+      {
+        "id": "hardware",
+        "exists": true,
+        "top": 100.171875
+      },
+      {
+        "id": "condition",
+        "exists": true,
+        "top": 199.984375
+      },
+      {
+        "id": "appraisal",
+        "exists": true,
+        "top": 195.671875
+      },
+      {
+        "id": "faq",
+        "exists": true,
+        "top": -0.171875
+      }
+    ],
+    "images": [
+      {
+        "alt": "1957 Gibson Byrdland in sunburst, with black Alnico pickups and gold hardware.",
+        "src": "/_astro/gibson-byrdland1957-body.DMMzobXS_ZdqUOK.webp",
+        "width": 350,
+        "height": 340,
+        "naturalWidth": 390,
+        "fit": "contain",
+        "caption": "1957 Gibson Byrdland in sunburst, with black Alnico pickups and gold hardware.",
+        "captionTop": -16946.125,
+        "imageBottom": -16946.125
+      },
+      {
+        "alt": "1957 Gibson Byrdland: full front view and rounded cutaway.",
+        "src": "/_astro/gibson-byrdland1957-front.DbF7Zx_F_ZYC2L5.webp",
+        "width": 350,
+        "height": 360,
+        "naturalWidth": 390,
+        "fit": "contain",
+        "caption": "1957 Gibson Byrdland: full front view and rounded cutaway.",
+        "captionTop": -12004.78125,
+        "imageBottom": -12004.78125
+      },
+      {
+        "alt": "1957 Gibson Byrdland: black Alnico pickup with rectangular polepieces.",
+        "src": "/_astro/gibson-byrdland1957-pickup.C9KjkpNR_Z1iz2dt.webp",
+        "width": 350,
+        "height": 360,
+        "naturalWidth": 390,
+        "fit": "contain",
+        "caption": "1957 Gibson Byrdland: black Alnico pickup with rectangular polepieces.",
+        "captionTop": -11565.78125,
+        "imageBottom": -11565.78125
+      },
+      {
+        "alt": "1957 Gibson Byrdland: figured maple back and sunburst finish.",
+        "src": "/_astro/gibson-byrdland1957-back.CDFJ9ADv_Z1Pt654.webp",
+        "width": 350,
+        "height": 360,
+        "naturalWidth": 390,
+        "fit": "contain",
+        "caption": "1957 Gibson Byrdland: figured maple back and sunburst finish.",
+        "captionTop": -11126.78125,
+        "imageBottom": -11126.78125
+      },
+      {
+        "alt": "1967 Gibson Byrdland: full front view, pointed cutaway and covered pickups.",
+        "src": "/_astro/gibson-byrdland1967-front.C43bQMBt_Z1JT8O7.webp",
+        "width": 350,
+        "height": 360,
+        "naturalWidth": 390,
+        "fit": "contain",
+        "caption": "1967 Gibson Byrdland: full front view, pointed cutaway and covered pickups.",
+        "captionTop": -9454.71875,
+        "imageBottom": -9454.71875
+      },
+      {
+        "alt": "1967 Gibson Byrdland: covered pickups, bridge and pickguard.",
+        "src": "/_astro/gibson-byrdland1967-pickups.BgXRTFm7_Z11RIHp.webp",
+        "width": 350,
+        "height": 360,
+        "naturalWidth": 390,
+        "fit": "contain",
+        "caption": "1967 Gibson Byrdland: covered pickups, bridge and pickguard.",
+        "captionTop": -9015.71875,
+        "imageBottom": -9015.71875
+      },
+      {
+        "alt": "1970s Gibson Byrdland in sunburst, with a rounded cutaway and gold hardware.",
+        "src": "/_astro/gibson-byrdland1970s-body.DkfAu56A_27zALS.webp",
+        "width": 350,
+        "height": 350,
+        "naturalWidth": 390,
+        "fit": "contain",
+        "caption": "1970s Gibson Byrdland in sunburst, with a rounded cutaway and gold hardware.",
+        "captionTop": -7994.1875,
+        "imageBottom": -7994.1875
+      },
+      {
+        "alt": "1970s Gibson Byrdland: sunburst back and contrasting neck laminations.",
+        "src": "/_astro/gibson-byrdland1970s-back.D6E-Ic8z_Z25zRMc.webp",
+        "width": 350,
+        "height": 300,
+        "naturalWidth": 390,
+        "fit": "contain",
+        "caption": "1970s Gibson Byrdland: sunburst back and contrasting neck laminations.",
+        "captionTop": -7632.1875,
+        "imageBottom": -7632.1875
+      },
+      {
+        "alt": "1974 Gibson Byrdland in wine red, with gold hardware.",
+        "src": "/_astro/1974-gibson-byrdland-winde-red-1.CQo5xKCi_25yrDN.webp",
+        "width": 350,
+        "height": 400,
+        "naturalWidth": 390,
+        "fit": "contain",
+        "caption": "1974 Gibson Byrdland in wine red, with gold hardware.",
+        "captionTop": -6665.828125,
+        "imageBottom": -6615.828125
+      },
+      {
+        "alt": "1974 Gibson Byrdland: full front view.",
+        "src": "/_astro/1974-gibson-byrdland-winde-red-2.BVa8Amx6_1cBINF.webp",
+        "width": 350,
+        "height": 350,
+        "naturalWidth": 390,
+        "fit": "contain",
+        "caption": "1974 Gibson Byrdland: full front view.",
+        "captionTop": -6288.828125,
+        "imageBottom": -6253.828125
+      },
+      {
+        "alt": "1974 Gibson Byrdland: figured back and binding.",
+        "src": "/_astro/1974-gibson-byrdland-winde-red-10.D8q0E3X1_ZGfODe.webp",
+        "width": 350,
+        "height": 350,
+        "naturalWidth": 390,
+        "fit": "contain",
+        "caption": "1974 Gibson Byrdland: figured back and binding.",
+        "captionTop": -5926.828125,
+        "imageBottom": -5891.828125
+      },
+      {
+        "alt": "1967 Gibson Byrdland: engraved tailpiece and gold hardware.",
+        "src": "/_astro/gibson-byrdland1967-tailpiece._MDyMIR9_vld9v.webp",
+        "width": 350,
+        "height": 360,
+        "naturalWidth": 390,
+        "fit": "contain",
+        "caption": "1967 Gibson Byrdland: engraved tailpiece and gold hardware.",
+        "captionTop": -4443.015625,
+        "imageBottom": -4443.015625
+      },
+      {
+        "alt": "1967 Gibson Byrdland: rear headstock and gold tuners.",
+        "src": "/_astro/gibson-byrdland1967-tuners.CI0N174A_5hjAo.webp",
+        "width": 350,
+        "height": 360,
+        "naturalWidth": 390,
+        "fit": "contain",
+        "caption": "1967 Gibson Byrdland: rear headstock and gold tuners.",
+        "captionTop": -4004.015625,
+        "imageBottom": -4004.015625
+      },
+      {
+        "alt": "Joe Dampt, owner of Joe's Vintage Guitars",
+        "src": "/_astro/about-me-joe-1.C--UV5nX_Ypsuu.webp",
+        "width": 140,
+        "height": 140,
+        "naturalWidth": 140,
+        "fit": "cover",
+        "imageBottom": 529.734375
+      }
+    ],
+    "walk": [
+      {
+        "tag": "DIV",
+        "class": "mg-photo-grid",
+        "width": 350,
+        "height": 1292,
+        "display": "grid",
+        "bg": "rgba(0, 0, 0, 0)",
+        "before": "none",
+        "after": "none"
+      },
+      {
+        "tag": "DIV",
+        "class": "mg-section mg-wrap",
+        "width": 350,
+        "height": 2310.125,
+        "display": "block",
+        "bg": "rgba(0, 0, 0, 0)",
+        "before": "none",
+        "after": "none"
+      },
+      {
+        "tag": "SECTION",
+        "class": "mg-band mg-dark",
+        "width": 390,
+        "height": 2310.125,
+        "display": "block",
+        "bg": "rgb(23, 22, 20)",
+        "before": "none",
+        "after": "none"
+      },
+      {
+        "tag": "ARTICLE",
+        "class": "mg-guide",
+        "width": 390,
+        "height": 19144.359375,
+        "display": "block",
+        "bg": "rgb(243, 234, 216)",
+        "before": "none",
+        "after": "none"
+      },
+      {
+        "tag": "MAIN",
+        "class": "",
+        "width": 390,
+        "height": 19825.984375,
+        "display": "block",
+        "bg": "rgba(0, 0, 0, 0)",
+        "before": "none",
+        "after": "none"
+      }
+    ],
+    "contrast": []
+  }
+]

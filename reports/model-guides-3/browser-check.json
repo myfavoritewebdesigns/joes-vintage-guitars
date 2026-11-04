@@ -1,0 +1,2442 @@
+[
+  {
+    "slug": "gibson-l-50-authentication-guide",
+    "viewport": {
+      "width": 1280,
+      "height": 800
+    },
+    "width": 1280,
+    "scrollWidth": 1280,
+    "actions": [
+      {
+        "text": "Free Appraisal",
+        "x": 284,
+        "y": 459.125,
+        "width": 144.71875,
+        "height": 50.390625,
+        "bottom": 509.515625
+      },
+      {
+        "text": "Sell My Gibson",
+        "x": 440.71875,
+        "y": 459.125,
+        "width": 147,
+        "height": 50.390625,
+        "bottom": 509.515625
+      }
+    ],
+    "headings": [
+      {
+        "text": "How The L-50 Body Changed",
+        "color": "rgb(200, 158, 87)"
+      },
+      {
+        "text": "The Small Early L-50",
+        "color": "rgb(244, 239, 227)"
+      },
+      {
+        "text": "The Larger F-Hole L-50",
+        "color": "rgb(244, 239, 227)"
+      },
+      {
+        "text": "L-50 Production Groups To Compare",
+        "color": "rgb(200, 158, 87)"
+      },
+      {
+        "text": "Early Round-Soundhole Examples",
+        "color": "rgb(244, 239, 227)"
+      },
+      {
+        "text": "Small And Larger F-Hole Bodies",
+        "color": "rgb(244, 239, 227)"
+      },
+      {
+        "text": "Wartime And Postwar Appointments",
+        "color": "rgb(244, 239, 227)"
+      },
+      {
+        "text": "Later L-50 Construction",
+        "color": "rgb(244, 239, 227)"
+      },
+      {
+        "text": "Check The Carved Top And Acoustic Hardware",
+        "color": "rgb(200, 158, 87)"
+      },
+      {
+        "text": "Joe’s 1952 L-50 In Photographs",
+        "color": "rgb(27, 25, 22)"
+      },
+      {
+        "text": "A Sunburst L-50 With Z-Prefix FON",
+        "color": "rgb(27, 25, 22)"
+      },
+      {
+        "text": "Inspect An L-50 Before Calling It Original",
+        "color": "rgb(200, 158, 87)"
+      },
+      {
+        "text": "Record The Body And Soundholes",
+        "color": "rgb(244, 239, 227)"
+      },
+      {
+        "text": "Follow The Neck Into The Heel",
+        "color": "rgb(244, 239, 227)"
+      },
+      {
+        "text": "Photograph The Bridge Under String Tension",
+        "color": "rgb(244, 239, 227)"
+      },
+      {
+        "text": "Document Tuners And Tailpiece",
+        "color": "rgb(244, 239, 227)"
+      },
+      {
+        "text": "Preserve The Factory Markings",
+        "color": "rgb(244, 239, 227)"
+      }
+    ],
+    "collapsedArticleImages": [],
+    "brokenImages": [],
+    "h1": {
+      "x": 284,
+      "y": 230.6875,
+      "width": 932,
+      "height": 200.4375,
+      "bottom": 431.125
+    },
+    "adjacentActions": true,
+    "faqsOpened": true,
+    "contrast": []
+  },
+  {
+    "slug": "gibson-l-50-value-guide",
+    "viewport": {
+      "width": 1280,
+      "height": 800
+    },
+    "width": 1280,
+    "scrollWidth": 1280,
+    "actions": [
+      {
+        "text": "Free Appraisal",
+        "x": 284,
+        "y": 459.125,
+        "width": 144.71875,
+        "height": 50.390625,
+        "bottom": 509.515625
+      },
+      {
+        "text": "Sell My Gibson",
+        "x": 440.71875,
+        "y": 459.125,
+        "width": 147,
+        "height": 50.390625,
+        "bottom": 509.515625
+      }
+    ],
+    "headings": [
+      {
+        "text": "How The L-50 Price Groups Differ",
+        "color": "rgb(200, 158, 87)"
+      },
+      {
+        "text": "Small-Body L-50s",
+        "color": "rgb(244, 239, 227)"
+      },
+      {
+        "text": "Check The Correct Size And Period",
+        "color": "rgb(244, 239, 227)"
+      },
+      {
+        "text": "Assess The Guitar’s Current Usability",
+        "color": "rgb(244, 239, 227)"
+      },
+      {
+        "text": "Original Sunburst, Overspray And Refinish",
+        "color": "rgb(200, 158, 87)"
+      },
+      {
+        "text": "What To Send For An L-50 Appraisal",
+        "color": "rgb(200, 158, 87)"
+      },
+      {
+        "text": "Photograph The Complete Instrument",
+        "color": "rgb(244, 239, 227)"
+      },
+      {
+        "text": "Show The Acoustic Setup",
+        "color": "rgb(244, 239, 227)"
+      },
+      {
+        "text": "Include The Interior Mark And Repair History",
+        "color": "rgb(244, 239, 227)"
+      },
+      {
+        "text": "Gather The Case And Removed Parts",
+        "color": "rgb(244, 239, 227)"
+      },
+      {
+        "text": "Get An Individual L-50 Appraisal",
+        "color": "rgb(255, 255, 255)"
+      }
+    ],
+    "collapsedArticleImages": [],
+    "brokenImages": [],
+    "h1": {
+      "x": 284,
+      "y": 230.6875,
+      "width": 932,
+      "height": 200.4375,
+      "bottom": 431.125
+    },
+    "adjacentActions": true,
+    "faqsOpened": true,
+    "contrast": []
+  },
+  {
+    "slug": "gibson-l-48-authentication-guide",
+    "viewport": {
+      "width": 1280,
+      "height": 800
+    },
+    "width": 1280,
+    "scrollWidth": 1280,
+    "actions": [
+      {
+        "text": "Free Appraisal",
+        "x": 284,
+        "y": 459.125,
+        "width": 144.71875,
+        "height": 50.390625,
+        "bottom": 509.515625
+      },
+      {
+        "text": "Sell My Gibson",
+        "x": 440.71875,
+        "y": 459.125,
+        "width": 147,
+        "height": 50.390625,
+        "bottom": 509.515625
+      }
+    ],
+    "headings": [
+      {
+        "text": "How To Separate An L-48 From An L-50",
+        "color": "rgb(200, 158, 87)"
+      },
+      {
+        "text": "The Cataloged L-48",
+        "color": "rgb(244, 239, 227)"
+      },
+      {
+        "text": "The Cataloged L-50",
+        "color": "rgb(244, 239, 227)"
+      },
+      {
+        "text": "Place An L-48 Within Postwar Gibson Production",
+        "color": "rgb(200, 158, 87)"
+      },
+      {
+        "text": "Early Postwar L-48s",
+        "color": "rgb(244, 239, 227)"
+      },
+      {
+        "text": "Factory Order Numbers And Component Evidence",
+        "color": "rgb(244, 239, 227)"
+      },
+      {
+        "text": "A Detailed Published Specification",
+        "color": "rgb(244, 239, 227)"
+      },
+      {
+        "text": "Check The Individual Guitar",
+        "color": "rgb(244, 239, 227)"
+      },
+      {
+        "text": "How To Inspect L-48 Wood Without Damaging It",
+        "color": "rgb(200, 158, 87)"
+      },
+      {
+        "text": "Use Joe’s L-50 As An Inspection Comparison",
+        "color": "rgb(27, 25, 22)"
+      },
+      {
+        "text": "1952 Gibson L-50",
+        "color": "rgb(27, 25, 22)"
+      },
+      {
+        "text": "Which L-48 Parts Need A Closer Look?",
+        "color": "rgb(200, 158, 87)"
+      },
+      {
+        "text": "The Floating Bridge",
+        "color": "rgb(244, 239, 227)"
+      },
+      {
+        "text": "The Raised Pickguard",
+        "color": "rgb(244, 239, 227)"
+      },
+      {
+        "text": "The Trapeze Tailpiece",
+        "color": "rgb(244, 239, 227)"
+      }
+    ],
+    "collapsedArticleImages": [],
+    "brokenImages": [],
+    "h1": {
+      "x": 284,
+      "y": 230.6875,
+      "width": 932,
+      "height": 200.4375,
+      "bottom": 431.125
+    },
+    "adjacentActions": true,
+    "faqsOpened": true,
+    "contrast": []
+  },
+  {
+    "slug": "gibson-l-48-value-guide",
+    "viewport": {
+      "width": 1280,
+      "height": 800
+    },
+    "width": 1280,
+    "scrollWidth": 1280,
+    "actions": [
+      {
+        "text": "Free Appraisal",
+        "x": 284,
+        "y": 459.125,
+        "width": 144.71875,
+        "height": 50.390625,
+        "bottom": 509.515625
+      },
+      {
+        "text": "Sell My Gibson",
+        "x": 440.71875,
+        "y": 459.125,
+        "width": 147,
+        "height": 50.390625,
+        "bottom": 509.515625
+      }
+    ],
+    "headings": [
+      {
+        "text": "Compare Early And Later L-48 Price Groups",
+        "color": "rgb(200, 158, 87)"
+      },
+      {
+        "text": "Early Postwar L-48s",
+        "color": "rgb(244, 239, 227)"
+      },
+      {
+        "text": "Later L-48s",
+        "color": "rgb(244, 239, 227)"
+      },
+      {
+        "text": "How Finish Work Changes The Comparison",
+        "color": "rgb(200, 158, 87)"
+      },
+      {
+        "text": "Prepare An L-48 For A Photo Appraisal",
+        "color": "rgb(200, 158, 87)"
+      },
+      {
+        "text": "Establish The Model",
+        "color": "rgb(244, 239, 227)"
+      },
+      {
+        "text": "Show The Surface And Structure",
+        "color": "rgb(244, 239, 227)"
+      },
+      {
+        "text": "Describe Playing And Storage History",
+        "color": "rgb(244, 239, 227)"
+      },
+      {
+        "text": "Include The Case And Paperwork",
+        "color": "rgb(244, 239, 227)"
+      },
+      {
+        "text": "Request Your L-48 Value Assessment",
+        "color": "rgb(255, 255, 255)"
+      }
+    ],
+    "collapsedArticleImages": [],
+    "brokenImages": [],
+    "h1": {
+      "x": 284,
+      "y": 230.6875,
+      "width": 932,
+      "height": 200.4375,
+      "bottom": 431.125
+    },
+    "adjacentActions": true,
+    "faqsOpened": true,
+    "contrast": []
+  },
+  {
+    "slug": "gibson-les-paul-deluxe-authentication-guide",
+    "viewport": {
+      "width": 1280,
+      "height": 800
+    },
+    "width": 1280,
+    "scrollWidth": 1280,
+    "actions": [
+      {
+        "text": "Free Appraisal",
+        "x": 284,
+        "y": 459.125,
+        "width": 144.71875,
+        "height": 50.390625,
+        "bottom": 509.515625
+      },
+      {
+        "text": "Sell My Gibson",
+        "x": 440.71875,
+        "y": 459.125,
+        "width": 147,
+        "height": 50.390625,
+        "bottom": 509.515625
+      }
+    ],
+    "headings": [
+      {
+        "text": "Les Paul Deluxe Construction Through The Original Run",
+        "color": "rgb(200, 158, 87)"
+      },
+      {
+        "text": "The Early Deluxe",
+        "color": "rgb(244, 239, 227)"
+      },
+      {
+        "text": "Neck And Bridge Changes",
+        "color": "rgb(244, 239, 227)"
+      },
+      {
+        "text": "Read The Later Serial Format",
+        "color": "rgb(244, 239, 227)"
+      },
+      {
+        "text": "A 1971 Sunburst Deluxe From Joe’s Archive",
+        "color": "rgb(27, 25, 22)"
+      },
+      {
+        "text": "Small Pickups In The Les Paul Body",
+        "color": "rgb(27, 25, 22)"
+      },
+      {
+        "text": "How To Date A Deluxe With Factory Markings",
+        "color": "rgb(200, 158, 87)"
+      },
+      {
+        "text": "The Archive Guitar’s Headstock",
+        "color": "rgb(244, 239, 227)"
+      }
+    ],
+    "collapsedArticleImages": [],
+    "brokenImages": [],
+    "h1": {
+      "x": 284,
+      "y": 230.6875,
+      "width": 932,
+      "height": 200.4375,
+      "bottom": 431.125
+    },
+    "adjacentActions": true,
+    "faqsOpened": true,
+    "contrast": []
+  },
+  {
+    "slug": "gibson-les-paul-deluxe-value-guide",
+    "viewport": {
+      "width": 1280,
+      "height": 800
+    },
+    "width": 1280,
+    "scrollWidth": 1280,
+    "actions": [
+      {
+        "text": "Free Appraisal",
+        "x": 284,
+        "y": 459.125,
+        "width": 144.71875,
+        "height": 50.390625,
+        "bottom": 509.515625
+      },
+      {
+        "text": "Sell My Gibson",
+        "x": 440.71875,
+        "y": 459.125,
+        "width": 147,
+        "height": 50.390625,
+        "bottom": 509.515625
+      }
+    ],
+    "headings": [
+      {
+        "text": "Gold, Sunburst And Sparkle Finish Comparisons",
+        "color": "rgb(200, 158, 87)"
+      },
+      {
+        "text": "Early Gold-Finish Deluxes",
+        "color": "rgb(244, 239, 227)"
+      },
+      {
+        "text": "1971 To 1975 Sunburst",
+        "color": "rgb(244, 239, 227)"
+      },
+      {
+        "text": "Red And Blue Sparkle",
+        "color": "rgb(244, 239, 227)"
+      },
+      {
+        "text": "Headstock Repairs, Finish Work And Wear",
+        "color": "rgb(200, 158, 87)"
+      },
+      {
+        "text": "A Repaired Headstock",
+        "color": "rgb(244, 239, 227)"
+      },
+      {
+        "text": "Refinish Or Overspray",
+        "color": "rgb(244, 239, 227)"
+      },
+      {
+        "text": "Fret And Neck Condition",
+        "color": "rgb(244, 239, 227)"
+      }
+    ],
+    "collapsedArticleImages": [],
+    "brokenImages": [],
+    "h1": {
+      "x": 284,
+      "y": 230.6875,
+      "width": 932,
+      "height": 200.4375,
+      "bottom": 431.125
+    },
+    "adjacentActions": true,
+    "faqsOpened": true,
+    "contrast": []
+  },
+  {
+    "slug": "gibson-l-4-authentication-guide",
+    "viewport": {
+      "width": 1280,
+      "height": 800
+    },
+    "width": 1280,
+    "scrollWidth": 1280,
+    "actions": [
+      {
+        "text": "Free Appraisal",
+        "x": 284,
+        "y": 459.125,
+        "width": 144.71875,
+        "height": 50.390625,
+        "bottom": 509.515625
+      },
+      {
+        "text": "Sell My Gibson",
+        "x": 440.71875,
+        "y": 459.125,
+        "width": 147,
+        "height": 50.390625,
+        "bottom": 509.515625
+      }
+    ],
+    "headings": [
+      {
+        "text": "Joe’s 1941 F-Hole L-4",
+        "color": "rgb(27, 25, 22)"
+      },
+      {
+        "text": "The Body And Appointments Together",
+        "color": "rgb(27, 25, 22)"
+      },
+      {
+        "text": "Authentication Questions For An L-4CES",
+        "color": "rgb(200, 158, 87)"
+      },
+      {
+        "text": "Inspect The Archtop Structure",
+        "color": "rgb(200, 158, 87)"
+      },
+      {
+        "text": "Bridge And Neck Angle",
+        "color": "rgb(244, 239, 227)"
+      },
+      {
+        "text": "Top, Back And Rim Repairs",
+        "color": "rgb(244, 239, 227)"
+      },
+      {
+        "text": "Pickup And Guard Additions",
+        "color": "rgb(244, 239, 227)"
+      }
+    ],
+    "collapsedArticleImages": [],
+    "brokenImages": [],
+    "h1": {
+      "x": 284,
+      "y": 230.6875,
+      "width": 932,
+      "height": 200.4375,
+      "bottom": 431.125
+    },
+    "adjacentActions": true,
+    "faqsOpened": true,
+    "contrast": []
+  },
+  {
+    "slug": "gibson-l-4-value-guide",
+    "viewport": {
+      "width": 1280,
+      "height": 800
+    },
+    "width": 1280,
+    "scrollWidth": 1280,
+    "actions": [
+      {
+        "text": "Free Appraisal",
+        "x": 284,
+        "y": 358.90625,
+        "width": 144.71875,
+        "height": 50.390625,
+        "bottom": 409.296875
+      },
+      {
+        "text": "Sell My Gibson",
+        "x": 440.71875,
+        "y": 358.90625,
+        "width": 147,
+        "height": 50.390625,
+        "bottom": 409.296875
+      }
+    ],
+    "headings": [
+      {
+        "text": "Early Acoustic L-4 Price Groups",
+        "color": "rgb(200, 158, 87)"
+      },
+      {
+        "text": "Factory Electric L-4CES Values",
+        "color": "rgb(200, 158, 87)"
+      },
+      {
+        "text": "1958 PAF-Equipped Examples",
+        "color": "rgb(244, 239, 227)"
+      },
+      {
+        "text": "The 1969 Group",
+        "color": "rgb(244, 239, 227)"
+      },
+      {
+        "text": "Later Production",
+        "color": "rgb(244, 239, 227)"
+      },
+      {
+        "text": "What Helps An L-4 Appraisal",
+        "color": "rgb(200, 158, 87)"
+      },
+      {
+        "text": "State The Model And Configuration",
+        "color": "rgb(244, 239, 227)"
+      },
+      {
+        "text": "Show The Playing Condition",
+        "color": "rgb(244, 239, 227)"
+      },
+      {
+        "text": "Keep The Case And Removed Equipment",
+        "color": "rgb(244, 239, 227)"
+      },
+      {
+        "text": "Get A Gibson L-4 Appraisal",
+        "color": "rgb(255, 255, 255)"
+      }
+    ],
+    "collapsedArticleImages": [],
+    "brokenImages": [],
+    "h1": {
+      "x": 284,
+      "y": 230.6875,
+      "width": 932,
+      "height": 100.21875,
+      "bottom": 330.90625
+    },
+    "adjacentActions": true,
+    "faqsOpened": true,
+    "contrast": []
+  },
+  {
+    "slug": "gibson-l-7-authentication-guide",
+    "viewport": {
+      "width": 1280,
+      "height": 800
+    },
+    "width": 1280,
+    "scrollWidth": 1280,
+    "actions": [
+      {
+        "text": "Free Appraisal",
+        "x": 284,
+        "y": 459.125,
+        "width": 144.71875,
+        "height": 50.390625,
+        "bottom": 509.515625
+      },
+      {
+        "text": "Sell My Gibson",
+        "x": 440.71875,
+        "y": 459.125,
+        "width": 147,
+        "height": 50.390625,
+        "bottom": 509.515625
+      }
+    ],
+    "headings": [
+      {
+        "text": "Early, Advanced And Postwar L-7s",
+        "color": "rgb(200, 158, 87)"
+      },
+      {
+        "text": "The 16-Inch L-7",
+        "color": "rgb(244, 239, 227)"
+      },
+      {
+        "text": "The 17-Inch Advanced Group",
+        "color": "rgb(244, 239, 227)"
+      },
+      {
+        "text": "Postwar Noncutaways And Cutaways",
+        "color": "rgb(244, 239, 227)"
+      },
+      {
+        "text": "Two Noncutaway L-7s From Joe’s Archive",
+        "color": "rgb(27, 25, 22)"
+      },
+      {
+        "text": "A Label That Can Be Read",
+        "color": "rgb(27, 25, 22)"
+      },
+      {
+        "text": "A Personalized Guard On A Noncutaway Body",
+        "color": "rgb(27, 25, 22)"
+      },
+      {
+        "text": "L-7E, L-7CE And Added Pickups",
+        "color": "rgb(200, 158, 87)"
+      },
+      {
+        "text": "Inspect The L-7 As A Working Acoustic Guitar",
+        "color": "rgb(200, 158, 87)"
+      },
+      {
+        "text": "Send Joe Your L-7 Identification Photos",
+        "color": "rgb(255, 255, 255)"
+      }
+    ],
+    "collapsedArticleImages": [],
+    "brokenImages": [],
+    "h1": {
+      "x": 284,
+      "y": 230.6875,
+      "width": 932,
+      "height": 200.4375,
+      "bottom": 431.125
+    },
+    "adjacentActions": true,
+    "faqsOpened": true,
+    "contrast": []
+  },
+  {
+    "slug": "gibson-l-7-value-guide",
+    "viewport": {
+      "width": 1280,
+      "height": 800
+    },
+    "width": 1280,
+    "scrollWidth": 1280,
+    "actions": [
+      {
+        "text": "Free Appraisal",
+        "x": 284,
+        "y": 358.90625,
+        "width": 144.71875,
+        "height": 50.390625,
+        "bottom": 409.296875
+      },
+      {
+        "text": "Sell My Gibson",
+        "x": 440.71875,
+        "y": 358.90625,
+        "width": 147,
+        "height": 50.390625,
+        "bottom": 409.296875
+      }
+    ],
+    "headings": [
+      {
+        "text": "How Body Generation Changes The L-7 Comparison",
+        "color": "rgb(200, 158, 87)"
+      },
+      {
+        "text": "Valuing Historical Electric L-7 Versions",
+        "color": "rgb(200, 158, 87)"
+      },
+      {
+        "text": "1936 Custom Electric",
+        "color": "rgb(244, 239, 227)"
+      },
+      {
+        "text": "L-7CE With McCarty Assembly",
+        "color": "rgb(244, 239, 227)"
+      },
+      {
+        "text": "L-7E With McCarty Assembly",
+        "color": "rgb(244, 239, 227)"
+      },
+      {
+        "text": "Guards, Tailpieces And Cases",
+        "color": "rgb(200, 158, 87)"
+      }
+    ],
+    "collapsedArticleImages": [],
+    "brokenImages": [],
+    "h1": {
+      "x": 284,
+      "y": 230.6875,
+      "width": 932,
+      "height": 100.21875,
+      "bottom": 330.90625
+    },
+    "adjacentActions": true,
+    "faqsOpened": true,
+    "contrast": []
+  },
+  {
+    "slug": "gibson-thunderbird-eb-bass-authentication-guide",
+    "viewport": {
+      "width": 1280,
+      "height": 800
+    },
+    "width": 1280,
+    "scrollWidth": 1280,
+    "actions": [
+      {
+        "text": "Free Appraisal",
+        "x": 284,
+        "y": 559.34375,
+        "width": 144.71875,
+        "height": 50.390625,
+        "bottom": 609.734375
+      },
+      {
+        "text": "Sell My Gibson",
+        "x": 440.71875,
+        "y": 559.34375,
+        "width": 147,
+        "height": 50.390625,
+        "bottom": 609.734375
+      }
+    ],
+    "headings": [
+      {
+        "text": "The Semi-Hollow EB-2 Family",
+        "color": "rgb(27, 25, 22)"
+      },
+      {
+        "text": "Sunburst, One Pickup And Baritone Switch",
+        "color": "rgb(27, 25, 22)"
+      },
+      {
+        "text": "Dating Gibson Basses With More Than A Serial",
+        "color": "rgb(200, 158, 87)"
+      }
+    ],
+    "collapsedArticleImages": [],
+    "brokenImages": [],
+    "h1": {
+      "x": 284,
+      "y": 230.6875,
+      "width": 932,
+      "height": 300.65625,
+      "bottom": 531.34375
+    },
+    "adjacentActions": true,
+    "faqsOpened": true,
+    "contrast": []
+  },
+  {
+    "slug": "gibson-thunderbird-eb-bass-value-guide",
+    "viewport": {
+      "width": 1280,
+      "height": 800
+    },
+    "width": 1280,
+    "scrollWidth": 1280,
+    "actions": [
+      {
+        "text": "Free Appraisal",
+        "x": 284,
+        "y": 559.34375,
+        "width": 144.71875,
+        "height": 50.390625,
+        "bottom": 609.734375
+      },
+      {
+        "text": "Sell My Gibson",
+        "x": 440.71875,
+        "y": 559.34375,
+        "width": 147,
+        "height": 50.390625,
+        "bottom": 609.734375
+      }
+    ],
+    "headings": [
+      {
+        "text": "Thunderbird Prices Depend On Body Generation And Finish",
+        "color": "rgb(200, 158, 87)"
+      },
+      {
+        "text": "EB-2 And EB-2D Values",
+        "color": "rgb(27, 25, 22)"
+      },
+      {
+        "text": "EB-3 And EB-4L Price Groups",
+        "color": "rgb(200, 158, 87)"
+      },
+      {
+        "text": "Early EB-3",
+        "color": "rgb(244, 239, 227)"
+      },
+      {
+        "text": "Later EB-3 And EB-3L",
+        "color": "rgb(244, 239, 227)"
+      },
+      {
+        "text": "EB-4L",
+        "color": "rgb(244, 239, 227)"
+      },
+      {
+        "text": "Prepare A Vintage Gibson Bass For Appraisal",
+        "color": "rgb(200, 158, 87)"
+      },
+      {
+        "text": "Get Your Gibson Bass Appraised",
+        "color": "rgb(255, 255, 255)"
+      }
+    ],
+    "collapsedArticleImages": [],
+    "brokenImages": [],
+    "h1": {
+      "x": 284,
+      "y": 230.6875,
+      "width": 932,
+      "height": 300.65625,
+      "bottom": 531.34375
+    },
+    "adjacentActions": true,
+    "faqsOpened": true,
+    "contrast": []
+  },
+  {
+    "slug": "gibson-es-175-authentication-guide",
+    "viewport": {
+      "width": 1280,
+      "height": 800
+    },
+    "width": 1280,
+    "scrollWidth": 1280,
+    "actions": [
+      {
+        "text": "Free Appraisal",
+        "x": 284,
+        "y": 459.125,
+        "width": 144.71875,
+        "height": 50.390625,
+        "bottom": 509.515625
+      },
+      {
+        "text": "Sell My Gibson",
+        "x": 440.71875,
+        "y": 459.125,
+        "width": 147,
+        "height": 50.390625,
+        "bottom": 509.515625
+      }
+    ],
+    "headings": [
+      {
+        "text": "A Dated ES-175 Construction Reference",
+        "color": "rgb(200, 158, 87)"
+      },
+      {
+        "text": "P-90 And Humbucker ES-175s From Joe’s Archive",
+        "color": "rgb(27, 25, 22)"
+      },
+      {
+        "text": "One Neck P-90",
+        "color": "rgb(27, 25, 22)"
+      },
+      {
+        "text": "Two Humbuckers And A Selector",
+        "color": "rgb(27, 25, 22)"
+      },
+      {
+        "text": "ES-175 Labels And Serial Numbers",
+        "color": "rgb(200, 158, 87)"
+      },
+      {
+        "text": "An Archive Date Conflict",
+        "color": "rgb(244, 239, 227)"
+      },
+      {
+        "text": "The Orange Label On The 1962 ES-175D",
+        "color": "rgb(244, 239, 227)"
+      },
+      {
+        "text": "ES-175CC, ES-175T And Later Production",
+        "color": "rgb(200, 158, 87)"
+      }
+    ],
+    "collapsedArticleImages": [],
+    "brokenImages": [],
+    "h1": {
+      "x": 284,
+      "y": 230.6875,
+      "width": 932,
+      "height": 200.4375,
+      "bottom": 431.125
+    },
+    "adjacentActions": true,
+    "faqsOpened": true,
+    "contrast": []
+  },
+  {
+    "slug": "gibson-es-175-value-guide",
+    "viewport": {
+      "width": 1280,
+      "height": 800
+    },
+    "width": 1280,
+    "scrollWidth": 1280,
+    "actions": [
+      {
+        "text": "Free Appraisal",
+        "x": 284,
+        "y": 459.125,
+        "width": 144.71875,
+        "height": 50.390625,
+        "bottom": 509.515625
+      },
+      {
+        "text": "Sell My Gibson",
+        "x": 440.71875,
+        "y": 459.125,
+        "width": 147,
+        "height": 50.390625,
+        "bottom": 509.515625
+      }
+    ],
+    "headings": [
+      {
+        "text": "Single And Double P-90 ES-175 Values",
+        "color": "rgb(200, 158, 87)"
+      },
+      {
+        "text": "Later ES-175D, CC And T Values",
+        "color": "rgb(200, 158, 87)"
+      },
+      {
+        "text": "Later 1960s And 1970s ES-175D",
+        "color": "rgb(244, 239, 227)"
+      },
+      {
+        "text": "1980 To 2016 Mainline ES-175D",
+        "color": "rgb(244, 239, 227)"
+      },
+      {
+        "text": "CC And Thinline T",
+        "color": "rgb(244, 239, 227)"
+      },
+      {
+        "text": "How Repairs And Playability Affect An ES-175 Appraisal",
+        "color": "rgb(200, 158, 87)"
+      }
+    ],
+    "collapsedArticleImages": [],
+    "brokenImages": [],
+    "h1": {
+      "x": 284,
+      "y": 230.6875,
+      "width": 932,
+      "height": 200.4375,
+      "bottom": 431.125
+    },
+    "adjacentActions": true,
+    "faqsOpened": true,
+    "contrast": []
+  },
+  {
+    "slug": "gibson-byrdland-value-guide",
+    "viewport": {
+      "width": 1280,
+      "height": 800
+    },
+    "width": 1280,
+    "scrollWidth": 1280,
+    "actions": [
+      {
+        "text": "Free Appraisal",
+        "x": 284,
+        "y": 459.125,
+        "width": 144.71875,
+        "height": 50.390625,
+        "bottom": 509.515625
+      },
+      {
+        "text": "Sell My Gibson",
+        "x": 440.71875,
+        "y": 459.125,
+        "width": 147,
+        "height": 50.390625,
+        "bottom": 509.515625
+      }
+    ],
+    "headings": [
+      {
+        "text": "Early Byrdland Values And Original Pickups",
+        "color": "rgb(200, 158, 87)"
+      },
+      {
+        "text": "A 1974 Wine-Red Byrdland From Joe’s Archive",
+        "color": "rgb(27, 25, 22)"
+      },
+      {
+        "text": "Wine Red And Gold Hardware",
+        "color": "rgb(27, 25, 22)"
+      },
+      {
+        "text": "Original Byrdland Hardware And Completeness",
+        "color": "rgb(200, 158, 87)"
+      },
+      {
+        "text": "Prepare A Byrdland For Joe’s Review",
+        "color": "rgb(200, 158, 87)"
+      },
+      {
+        "text": "Get A Gibson Byrdland Appraisal",
+        "color": "rgb(255, 255, 255)"
+      }
+    ],
+    "collapsedArticleImages": [],
+    "brokenImages": [],
+    "h1": {
+      "x": 284,
+      "y": 230.6875,
+      "width": 932,
+      "height": 200.4375,
+      "bottom": 431.125
+    },
+    "adjacentActions": true,
+    "faqsOpened": true,
+    "contrast": []
+  },
+  {
+    "slug": "gibson-es-225-value-guide",
+    "viewport": {
+      "width": 1280,
+      "height": 800
+    },
+    "width": 1280,
+    "scrollWidth": 1280,
+    "actions": [
+      {
+        "text": "Free Appraisal",
+        "x": 284,
+        "y": 459.125,
+        "width": 144.71875,
+        "height": 50.390625,
+        "bottom": 509.515625
+      },
+      {
+        "text": "Sell My Gibson",
+        "x": 440.71875,
+        "y": 459.125,
+        "width": 147,
+        "height": 50.390625,
+        "bottom": 509.515625
+      }
+    ],
+    "headings": [
+      {
+        "text": "Single-Pickup ES-225T And ES-225TN Values",
+        "color": "rgb(200, 158, 87)"
+      },
+      {
+        "text": "Two-Pickup ES-225TD And ES-225TDN Values",
+        "color": "rgb(27, 25, 22)"
+      },
+      {
+        "text": "Sunburst And Two P-90s",
+        "color": "rgb(27, 25, 22)"
+      },
+      {
+        "text": "Bridge And Tailpiece Changes On An ES-225",
+        "color": "rgb(200, 158, 87)"
+      },
+      {
+        "text": "Hollowbody Repairs And Playing Condition",
+        "color": "rgb(200, 158, 87)"
+      },
+      {
+        "text": "Headstock And Heel Repairs",
+        "color": "rgb(244, 239, 227)"
+      },
+      {
+        "text": "Top And Rim Condition",
+        "color": "rgb(244, 239, 227)"
+      },
+      {
+        "text": "Controls And Pickup Function",
+        "color": "rgb(244, 239, 227)"
+      }
+    ],
+    "collapsedArticleImages": [],
+    "brokenImages": [],
+    "h1": {
+      "x": 284,
+      "y": 230.6875,
+      "width": 932,
+      "height": 200.4375,
+      "bottom": 431.125
+    },
+    "adjacentActions": true,
+    "faqsOpened": true,
+    "contrast": []
+  },
+  {
+    "slug": "gibson-l-50-authentication-guide",
+    "viewport": {
+      "width": 375,
+      "height": 812
+    },
+    "width": 375,
+    "scrollWidth": 375,
+    "actions": [
+      {
+        "text": "Free Appraisal",
+        "x": 20,
+        "y": 505.640625,
+        "width": 162.5,
+        "height": 48.390625,
+        "bottom": 554.03125
+      },
+      {
+        "text": "Sell My Gibson",
+        "x": 192.5,
+        "y": 505.640625,
+        "width": 162.5,
+        "height": 48.390625,
+        "bottom": 554.03125
+      }
+    ],
+    "headings": [
+      {
+        "text": "How The L-50 Body Changed",
+        "color": "rgb(200, 158, 87)"
+      },
+      {
+        "text": "The Small Early L-50",
+        "color": "rgb(244, 239, 227)"
+      },
+      {
+        "text": "The Larger F-Hole L-50",
+        "color": "rgb(244, 239, 227)"
+      },
+      {
+        "text": "L-50 Production Groups To Compare",
+        "color": "rgb(200, 158, 87)"
+      },
+      {
+        "text": "Early Round-Soundhole Examples",
+        "color": "rgb(244, 239, 227)"
+      },
+      {
+        "text": "Small And Larger F-Hole Bodies",
+        "color": "rgb(244, 239, 227)"
+      },
+      {
+        "text": "Wartime And Postwar Appointments",
+        "color": "rgb(244, 239, 227)"
+      },
+      {
+        "text": "Later L-50 Construction",
+        "color": "rgb(244, 239, 227)"
+      },
+      {
+        "text": "Check The Carved Top And Acoustic Hardware",
+        "color": "rgb(200, 158, 87)"
+      },
+      {
+        "text": "Joe’s 1952 L-50 In Photographs",
+        "color": "rgb(27, 25, 22)"
+      },
+      {
+        "text": "A Sunburst L-50 With Z-Prefix FON",
+        "color": "rgb(27, 25, 22)"
+      },
+      {
+        "text": "Inspect An L-50 Before Calling It Original",
+        "color": "rgb(200, 158, 87)"
+      },
+      {
+        "text": "Record The Body And Soundholes",
+        "color": "rgb(244, 239, 227)"
+      },
+      {
+        "text": "Follow The Neck Into The Heel",
+        "color": "rgb(244, 239, 227)"
+      },
+      {
+        "text": "Photograph The Bridge Under String Tension",
+        "color": "rgb(244, 239, 227)"
+      },
+      {
+        "text": "Document Tuners And Tailpiece",
+        "color": "rgb(244, 239, 227)"
+      },
+      {
+        "text": "Preserve The Factory Markings",
+        "color": "rgb(244, 239, 227)"
+      }
+    ],
+    "collapsedArticleImages": [],
+    "brokenImages": [],
+    "h1": {
+      "x": 20,
+      "y": 297.875,
+      "width": 335,
+      "height": 179.765625,
+      "bottom": 477.640625
+    },
+    "adjacentActions": true,
+    "faqsOpened": true,
+    "contrast": []
+  },
+  {
+    "slug": "gibson-l-50-value-guide",
+    "viewport": {
+      "width": 375,
+      "height": 812
+    },
+    "width": 375,
+    "scrollWidth": 375,
+    "actions": [
+      {
+        "text": "Free Appraisal",
+        "x": 20,
+        "y": 427.03125,
+        "width": 162.5,
+        "height": 48.390625,
+        "bottom": 475.421875
+      },
+      {
+        "text": "Sell My Gibson",
+        "x": 192.5,
+        "y": 427.03125,
+        "width": 162.5,
+        "height": 48.390625,
+        "bottom": 475.421875
+      }
+    ],
+    "headings": [
+      {
+        "text": "How The L-50 Price Groups Differ",
+        "color": "rgb(200, 158, 87)"
+      },
+      {
+        "text": "Small-Body L-50s",
+        "color": "rgb(244, 239, 227)"
+      },
+      {
+        "text": "Check The Correct Size And Period",
+        "color": "rgb(244, 239, 227)"
+      },
+      {
+        "text": "Assess The Guitar’s Current Usability",
+        "color": "rgb(244, 239, 227)"
+      },
+      {
+        "text": "Original Sunburst, Overspray And Refinish",
+        "color": "rgb(200, 158, 87)"
+      },
+      {
+        "text": "What To Send For An L-50 Appraisal",
+        "color": "rgb(200, 158, 87)"
+      },
+      {
+        "text": "Photograph The Complete Instrument",
+        "color": "rgb(244, 239, 227)"
+      },
+      {
+        "text": "Show The Acoustic Setup",
+        "color": "rgb(244, 239, 227)"
+      },
+      {
+        "text": "Include The Interior Mark And Repair History",
+        "color": "rgb(244, 239, 227)"
+      },
+      {
+        "text": "Gather The Case And Removed Parts",
+        "color": "rgb(244, 239, 227)"
+      },
+      {
+        "text": "Get An Individual L-50 Appraisal",
+        "color": "rgb(255, 255, 255)"
+      }
+    ],
+    "collapsedArticleImages": [],
+    "brokenImages": [],
+    "h1": {
+      "x": 20,
+      "y": 279.1875,
+      "width": 335,
+      "height": 119.84375,
+      "bottom": 399.03125
+    },
+    "adjacentActions": true,
+    "faqsOpened": true,
+    "contrast": []
+  },
+  {
+    "slug": "gibson-l-48-authentication-guide",
+    "viewport": {
+      "width": 375,
+      "height": 812
+    },
+    "width": 375,
+    "scrollWidth": 375,
+    "actions": [
+      {
+        "text": "Free Appraisal",
+        "x": 20,
+        "y": 505.640625,
+        "width": 162.5,
+        "height": 48.390625,
+        "bottom": 554.03125
+      },
+      {
+        "text": "Sell My Gibson",
+        "x": 192.5,
+        "y": 505.640625,
+        "width": 162.5,
+        "height": 48.390625,
+        "bottom": 554.03125
+      }
+    ],
+    "headings": [
+      {
+        "text": "How To Separate An L-48 From An L-50",
+        "color": "rgb(200, 158, 87)"
+      },
+      {
+        "text": "The Cataloged L-48",
+        "color": "rgb(244, 239, 227)"
+      },
+      {
+        "text": "The Cataloged L-50",
+        "color": "rgb(244, 239, 227)"
+      },
+      {
+        "text": "Place An L-48 Within Postwar Gibson Production",
+        "color": "rgb(200, 158, 87)"
+      },
+      {
+        "text": "Early Postwar L-48s",
+        "color": "rgb(244, 239, 227)"
+      },
+      {
+        "text": "Factory Order Numbers And Component Evidence",
+        "color": "rgb(244, 239, 227)"
+      },
+      {
+        "text": "A Detailed Published Specification",
+        "color": "rgb(244, 239, 227)"
+      },
+      {
+        "text": "Check The Individual Guitar",
+        "color": "rgb(244, 239, 227)"
+      },
+      {
+        "text": "How To Inspect L-48 Wood Without Damaging It",
+        "color": "rgb(200, 158, 87)"
+      },
+      {
+        "text": "Use Joe’s L-50 As An Inspection Comparison",
+        "color": "rgb(27, 25, 22)"
+      },
+      {
+        "text": "1952 Gibson L-50",
+        "color": "rgb(27, 25, 22)"
+      },
+      {
+        "text": "Which L-48 Parts Need A Closer Look?",
+        "color": "rgb(200, 158, 87)"
+      },
+      {
+        "text": "The Floating Bridge",
+        "color": "rgb(244, 239, 227)"
+      },
+      {
+        "text": "The Raised Pickguard",
+        "color": "rgb(244, 239, 227)"
+      },
+      {
+        "text": "The Trapeze Tailpiece",
+        "color": "rgb(244, 239, 227)"
+      }
+    ],
+    "collapsedArticleImages": [],
+    "brokenImages": [],
+    "h1": {
+      "x": 20,
+      "y": 297.875,
+      "width": 335,
+      "height": 179.765625,
+      "bottom": 477.640625
+    },
+    "adjacentActions": true,
+    "faqsOpened": true,
+    "contrast": []
+  },
+  {
+    "slug": "gibson-l-48-value-guide",
+    "viewport": {
+      "width": 375,
+      "height": 812
+    },
+    "width": 375,
+    "scrollWidth": 375,
+    "actions": [
+      {
+        "text": "Free Appraisal",
+        "x": 20,
+        "y": 445.71875,
+        "width": 162.5,
+        "height": 48.390625,
+        "bottom": 494.109375
+      },
+      {
+        "text": "Sell My Gibson",
+        "x": 192.5,
+        "y": 445.71875,
+        "width": 162.5,
+        "height": 48.390625,
+        "bottom": 494.109375
+      }
+    ],
+    "headings": [
+      {
+        "text": "Compare Early And Later L-48 Price Groups",
+        "color": "rgb(200, 158, 87)"
+      },
+      {
+        "text": "Early Postwar L-48s",
+        "color": "rgb(244, 239, 227)"
+      },
+      {
+        "text": "Later L-48s",
+        "color": "rgb(244, 239, 227)"
+      },
+      {
+        "text": "How Finish Work Changes The Comparison",
+        "color": "rgb(200, 158, 87)"
+      },
+      {
+        "text": "Prepare An L-48 For A Photo Appraisal",
+        "color": "rgb(200, 158, 87)"
+      },
+      {
+        "text": "Establish The Model",
+        "color": "rgb(244, 239, 227)"
+      },
+      {
+        "text": "Show The Surface And Structure",
+        "color": "rgb(244, 239, 227)"
+      },
+      {
+        "text": "Describe Playing And Storage History",
+        "color": "rgb(244, 239, 227)"
+      },
+      {
+        "text": "Include The Case And Paperwork",
+        "color": "rgb(244, 239, 227)"
+      },
+      {
+        "text": "Request Your L-48 Value Assessment",
+        "color": "rgb(255, 255, 255)"
+      }
+    ],
+    "collapsedArticleImages": [],
+    "brokenImages": [],
+    "h1": {
+      "x": 20,
+      "y": 297.875,
+      "width": 335,
+      "height": 119.84375,
+      "bottom": 417.71875
+    },
+    "adjacentActions": true,
+    "faqsOpened": true,
+    "contrast": []
+  },
+  {
+    "slug": "gibson-les-paul-deluxe-authentication-guide",
+    "viewport": {
+      "width": 375,
+      "height": 812
+    },
+    "width": 375,
+    "scrollWidth": 375,
+    "actions": [
+      {
+        "text": "Free Appraisal",
+        "x": 20,
+        "y": 565.5625,
+        "width": 162.5,
+        "height": 48.390625,
+        "bottom": 613.953125
+      },
+      {
+        "text": "Sell My Gibson",
+        "x": 192.5,
+        "y": 565.5625,
+        "width": 162.5,
+        "height": 48.390625,
+        "bottom": 613.953125
+      }
+    ],
+    "headings": [
+      {
+        "text": "Les Paul Deluxe Construction Through The Original Run",
+        "color": "rgb(200, 158, 87)"
+      },
+      {
+        "text": "The Early Deluxe",
+        "color": "rgb(244, 239, 227)"
+      },
+      {
+        "text": "Neck And Bridge Changes",
+        "color": "rgb(244, 239, 227)"
+      },
+      {
+        "text": "Read The Later Serial Format",
+        "color": "rgb(244, 239, 227)"
+      },
+      {
+        "text": "A 1971 Sunburst Deluxe From Joe’s Archive",
+        "color": "rgb(27, 25, 22)"
+      },
+      {
+        "text": "Small Pickups In The Les Paul Body",
+        "color": "rgb(27, 25, 22)"
+      },
+      {
+        "text": "How To Date A Deluxe With Factory Markings",
+        "color": "rgb(200, 158, 87)"
+      },
+      {
+        "text": "The Archive Guitar’s Headstock",
+        "color": "rgb(244, 239, 227)"
+      }
+    ],
+    "collapsedArticleImages": [],
+    "brokenImages": [],
+    "h1": {
+      "x": 20,
+      "y": 297.875,
+      "width": 335,
+      "height": 239.6875,
+      "bottom": 537.5625
+    },
+    "adjacentActions": true,
+    "faqsOpened": true,
+    "contrast": []
+  },
+  {
+    "slug": "gibson-les-paul-deluxe-value-guide",
+    "viewport": {
+      "width": 375,
+      "height": 812
+    },
+    "width": 375,
+    "scrollWidth": 375,
+    "actions": [
+      {
+        "text": "Free Appraisal",
+        "x": 20,
+        "y": 486.953125,
+        "width": 162.5,
+        "height": 48.390625,
+        "bottom": 535.34375
+      },
+      {
+        "text": "Sell My Gibson",
+        "x": 192.5,
+        "y": 486.953125,
+        "width": 162.5,
+        "height": 48.390625,
+        "bottom": 535.34375
+      }
+    ],
+    "headings": [
+      {
+        "text": "Gold, Sunburst And Sparkle Finish Comparisons",
+        "color": "rgb(200, 158, 87)"
+      },
+      {
+        "text": "Early Gold-Finish Deluxes",
+        "color": "rgb(244, 239, 227)"
+      },
+      {
+        "text": "1971 To 1975 Sunburst",
+        "color": "rgb(244, 239, 227)"
+      },
+      {
+        "text": "Red And Blue Sparkle",
+        "color": "rgb(244, 239, 227)"
+      },
+      {
+        "text": "Headstock Repairs, Finish Work And Wear",
+        "color": "rgb(200, 158, 87)"
+      },
+      {
+        "text": "A Repaired Headstock",
+        "color": "rgb(244, 239, 227)"
+      },
+      {
+        "text": "Refinish Or Overspray",
+        "color": "rgb(244, 239, 227)"
+      },
+      {
+        "text": "Fret And Neck Condition",
+        "color": "rgb(244, 239, 227)"
+      }
+    ],
+    "collapsedArticleImages": [],
+    "brokenImages": [],
+    "h1": {
+      "x": 20,
+      "y": 279.1875,
+      "width": 335,
+      "height": 179.765625,
+      "bottom": 458.953125
+    },
+    "adjacentActions": true,
+    "faqsOpened": true,
+    "contrast": []
+  },
+  {
+    "slug": "gibson-l-4-authentication-guide",
+    "viewport": {
+      "width": 375,
+      "height": 812
+    },
+    "width": 375,
+    "scrollWidth": 375,
+    "actions": [
+      {
+        "text": "Free Appraisal",
+        "x": 20,
+        "y": 505.640625,
+        "width": 162.5,
+        "height": 48.390625,
+        "bottom": 554.03125
+      },
+      {
+        "text": "Sell My Gibson",
+        "x": 192.5,
+        "y": 505.640625,
+        "width": 162.5,
+        "height": 48.390625,
+        "bottom": 554.03125
+      }
+    ],
+    "headings": [
+      {
+        "text": "Joe’s 1941 F-Hole L-4",
+        "color": "rgb(27, 25, 22)"
+      },
+      {
+        "text": "The Body And Appointments Together",
+        "color": "rgb(27, 25, 22)"
+      },
+      {
+        "text": "Authentication Questions For An L-4CES",
+        "color": "rgb(200, 158, 87)"
+      },
+      {
+        "text": "Inspect The Archtop Structure",
+        "color": "rgb(200, 158, 87)"
+      },
+      {
+        "text": "Bridge And Neck Angle",
+        "color": "rgb(244, 239, 227)"
+      },
+      {
+        "text": "Top, Back And Rim Repairs",
+        "color": "rgb(244, 239, 227)"
+      },
+      {
+        "text": "Pickup And Guard Additions",
+        "color": "rgb(244, 239, 227)"
+      }
+    ],
+    "collapsedArticleImages": [],
+    "brokenImages": [],
+    "h1": {
+      "x": 20,
+      "y": 297.875,
+      "width": 335,
+      "height": 179.765625,
+      "bottom": 477.640625
+    },
+    "adjacentActions": true,
+    "faqsOpened": true,
+    "contrast": []
+  },
+  {
+    "slug": "gibson-l-4-value-guide",
+    "viewport": {
+      "width": 375,
+      "height": 812
+    },
+    "width": 375,
+    "scrollWidth": 375,
+    "actions": [
+      {
+        "text": "Free Appraisal",
+        "x": 20,
+        "y": 445.71875,
+        "width": 162.5,
+        "height": 48.390625,
+        "bottom": 494.109375
+      },
+      {
+        "text": "Sell My Gibson",
+        "x": 192.5,
+        "y": 445.71875,
+        "width": 162.5,
+        "height": 48.390625,
+        "bottom": 494.109375
+      }
+    ],
+    "headings": [
+      {
+        "text": "Early Acoustic L-4 Price Groups",
+        "color": "rgb(200, 158, 87)"
+      },
+      {
+        "text": "Factory Electric L-4CES Values",
+        "color": "rgb(200, 158, 87)"
+      },
+      {
+        "text": "1958 PAF-Equipped Examples",
+        "color": "rgb(244, 239, 227)"
+      },
+      {
+        "text": "The 1969 Group",
+        "color": "rgb(244, 239, 227)"
+      },
+      {
+        "text": "Later Production",
+        "color": "rgb(244, 239, 227)"
+      },
+      {
+        "text": "What Helps An L-4 Appraisal",
+        "color": "rgb(200, 158, 87)"
+      },
+      {
+        "text": "State The Model And Configuration",
+        "color": "rgb(244, 239, 227)"
+      },
+      {
+        "text": "Show The Playing Condition",
+        "color": "rgb(244, 239, 227)"
+      },
+      {
+        "text": "Keep The Case And Removed Equipment",
+        "color": "rgb(244, 239, 227)"
+      },
+      {
+        "text": "Get A Gibson L-4 Appraisal",
+        "color": "rgb(255, 255, 255)"
+      }
+    ],
+    "collapsedArticleImages": [],
+    "brokenImages": [],
+    "h1": {
+      "x": 20,
+      "y": 297.875,
+      "width": 335,
+      "height": 119.84375,
+      "bottom": 417.71875
+    },
+    "adjacentActions": true,
+    "faqsOpened": true,
+    "contrast": []
+  },
+  {
+    "slug": "gibson-l-7-authentication-guide",
+    "viewport": {
+      "width": 375,
+      "height": 812
+    },
+    "width": 375,
+    "scrollWidth": 375,
+    "actions": [
+      {
+        "text": "Free Appraisal",
+        "x": 20,
+        "y": 505.640625,
+        "width": 162.5,
+        "height": 48.390625,
+        "bottom": 554.03125
+      },
+      {
+        "text": "Sell My Gibson",
+        "x": 192.5,
+        "y": 505.640625,
+        "width": 162.5,
+        "height": 48.390625,
+        "bottom": 554.03125
+      }
+    ],
+    "headings": [
+      {
+        "text": "Early, Advanced And Postwar L-7s",
+        "color": "rgb(200, 158, 87)"
+      },
+      {
+        "text": "The 16-Inch L-7",
+        "color": "rgb(244, 239, 227)"
+      },
+      {
+        "text": "The 17-Inch Advanced Group",
+        "color": "rgb(244, 239, 227)"
+      },
+      {
+        "text": "Postwar Noncutaways And Cutaways",
+        "color": "rgb(244, 239, 227)"
+      },
+      {
+        "text": "Two Noncutaway L-7s From Joe’s Archive",
+        "color": "rgb(27, 25, 22)"
+      },
+      {
+        "text": "A Label That Can Be Read",
+        "color": "rgb(27, 25, 22)"
+      },
+      {
+        "text": "A Personalized Guard On A Noncutaway Body",
+        "color": "rgb(27, 25, 22)"
+      },
+      {
+        "text": "L-7E, L-7CE And Added Pickups",
+        "color": "rgb(200, 158, 87)"
+      },
+      {
+        "text": "Inspect The L-7 As A Working Acoustic Guitar",
+        "color": "rgb(200, 158, 87)"
+      },
+      {
+        "text": "Send Joe Your L-7 Identification Photos",
+        "color": "rgb(255, 255, 255)"
+      }
+    ],
+    "collapsedArticleImages": [],
+    "brokenImages": [],
+    "h1": {
+      "x": 20,
+      "y": 297.875,
+      "width": 335,
+      "height": 179.765625,
+      "bottom": 477.640625
+    },
+    "adjacentActions": true,
+    "faqsOpened": true,
+    "contrast": []
+  },
+  {
+    "slug": "gibson-l-7-value-guide",
+    "viewport": {
+      "width": 375,
+      "height": 812
+    },
+    "width": 375,
+    "scrollWidth": 375,
+    "actions": [
+      {
+        "text": "Free Appraisal",
+        "x": 20,
+        "y": 445.71875,
+        "width": 162.5,
+        "height": 48.390625,
+        "bottom": 494.109375
+      },
+      {
+        "text": "Sell My Gibson",
+        "x": 192.5,
+        "y": 445.71875,
+        "width": 162.5,
+        "height": 48.390625,
+        "bottom": 494.109375
+      }
+    ],
+    "headings": [
+      {
+        "text": "How Body Generation Changes The L-7 Comparison",
+        "color": "rgb(200, 158, 87)"
+      },
+      {
+        "text": "Valuing Historical Electric L-7 Versions",
+        "color": "rgb(200, 158, 87)"
+      },
+      {
+        "text": "1936 Custom Electric",
+        "color": "rgb(244, 239, 227)"
+      },
+      {
+        "text": "L-7CE With McCarty Assembly",
+        "color": "rgb(244, 239, 227)"
+      },
+      {
+        "text": "L-7E With McCarty Assembly",
+        "color": "rgb(244, 239, 227)"
+      },
+      {
+        "text": "Guards, Tailpieces And Cases",
+        "color": "rgb(200, 158, 87)"
+      }
+    ],
+    "collapsedArticleImages": [],
+    "brokenImages": [],
+    "h1": {
+      "x": 20,
+      "y": 297.875,
+      "width": 335,
+      "height": 119.84375,
+      "bottom": 417.71875
+    },
+    "adjacentActions": true,
+    "faqsOpened": true,
+    "contrast": []
+  },
+  {
+    "slug": "gibson-thunderbird-eb-bass-authentication-guide",
+    "viewport": {
+      "width": 375,
+      "height": 812
+    },
+    "width": 375,
+    "scrollWidth": 375,
+    "actions": [
+      {
+        "text": "Free Appraisal",
+        "x": 20,
+        "y": 625.484375,
+        "width": 162.5,
+        "height": 48.390625,
+        "bottom": 673.875
+      },
+      {
+        "text": "Sell My Gibson",
+        "x": 192.5,
+        "y": 625.484375,
+        "width": 162.5,
+        "height": 48.390625,
+        "bottom": 673.875
+      }
+    ],
+    "headings": [
+      {
+        "text": "The Semi-Hollow EB-2 Family",
+        "color": "rgb(27, 25, 22)"
+      },
+      {
+        "text": "Sunburst, One Pickup And Baritone Switch",
+        "color": "rgb(27, 25, 22)"
+      },
+      {
+        "text": "Dating Gibson Basses With More Than A Serial",
+        "color": "rgb(200, 158, 87)"
+      }
+    ],
+    "collapsedArticleImages": [],
+    "brokenImages": [],
+    "h1": {
+      "x": 20,
+      "y": 297.875,
+      "width": 335,
+      "height": 299.609375,
+      "bottom": 597.484375
+    },
+    "adjacentActions": true,
+    "faqsOpened": true,
+    "contrast": []
+  },
+  {
+    "slug": "gibson-thunderbird-eb-bass-value-guide",
+    "viewport": {
+      "width": 375,
+      "height": 812
+    },
+    "width": 375,
+    "scrollWidth": 375,
+    "actions": [
+      {
+        "text": "Free Appraisal",
+        "x": 20,
+        "y": 565.5625,
+        "width": 162.5,
+        "height": 48.390625,
+        "bottom": 613.953125
+      },
+      {
+        "text": "Sell My Gibson",
+        "x": 192.5,
+        "y": 565.5625,
+        "width": 162.5,
+        "height": 48.390625,
+        "bottom": 613.953125
+      }
+    ],
+    "headings": [
+      {
+        "text": "Thunderbird Prices Depend On Body Generation And Finish",
+        "color": "rgb(200, 158, 87)"
+      },
+      {
+        "text": "EB-2 And EB-2D Values",
+        "color": "rgb(27, 25, 22)"
+      },
+      {
+        "text": "EB-3 And EB-4L Price Groups",
+        "color": "rgb(200, 158, 87)"
+      },
+      {
+        "text": "Early EB-3",
+        "color": "rgb(244, 239, 227)"
+      },
+      {
+        "text": "Later EB-3 And EB-3L",
+        "color": "rgb(244, 239, 227)"
+      },
+      {
+        "text": "EB-4L",
+        "color": "rgb(244, 239, 227)"
+      },
+      {
+        "text": "Prepare A Vintage Gibson Bass For Appraisal",
+        "color": "rgb(200, 158, 87)"
+      },
+      {
+        "text": "Get Your Gibson Bass Appraised",
+        "color": "rgb(255, 255, 255)"
+      }
+    ],
+    "collapsedArticleImages": [],
+    "brokenImages": [],
+    "h1": {
+      "x": 20,
+      "y": 297.875,
+      "width": 335,
+      "height": 239.6875,
+      "bottom": 537.5625
+    },
+    "adjacentActions": true,
+    "faqsOpened": true,
+    "contrast": []
+  },
+  {
+    "slug": "gibson-es-175-authentication-guide",
+    "viewport": {
+      "width": 375,
+      "height": 812
+    },
+    "width": 375,
+    "scrollWidth": 375,
+    "actions": [
+      {
+        "text": "Free Appraisal",
+        "x": 20,
+        "y": 505.640625,
+        "width": 162.5,
+        "height": 48.390625,
+        "bottom": 554.03125
+      },
+      {
+        "text": "Sell My Gibson",
+        "x": 192.5,
+        "y": 505.640625,
+        "width": 162.5,
+        "height": 48.390625,
+        "bottom": 554.03125
+      }
+    ],
+    "headings": [
+      {
+        "text": "A Dated ES-175 Construction Reference",
+        "color": "rgb(200, 158, 87)"
+      },
+      {
+        "text": "P-90 And Humbucker ES-175s From Joe’s Archive",
+        "color": "rgb(27, 25, 22)"
+      },
+      {
+        "text": "One Neck P-90",
+        "color": "rgb(27, 25, 22)"
+      },
+      {
+        "text": "Two Humbuckers And A Selector",
+        "color": "rgb(27, 25, 22)"
+      },
+      {
+        "text": "ES-175 Labels And Serial Numbers",
+        "color": "rgb(200, 158, 87)"
+      },
+      {
+        "text": "An Archive Date Conflict",
+        "color": "rgb(244, 239, 227)"
+      },
+      {
+        "text": "The Orange Label On The 1962 ES-175D",
+        "color": "rgb(244, 239, 227)"
+      },
+      {
+        "text": "ES-175CC, ES-175T And Later Production",
+        "color": "rgb(200, 158, 87)"
+      }
+    ],
+    "collapsedArticleImages": [],
+    "brokenImages": [],
+    "h1": {
+      "x": 20,
+      "y": 297.875,
+      "width": 335,
+      "height": 179.765625,
+      "bottom": 477.640625
+    },
+    "adjacentActions": true,
+    "faqsOpened": true,
+    "contrast": []
+  },
+  {
+    "slug": "gibson-es-175-value-guide",
+    "viewport": {
+      "width": 375,
+      "height": 812
+    },
+    "width": 375,
+    "scrollWidth": 375,
+    "actions": [
+      {
+        "text": "Free Appraisal",
+        "x": 20,
+        "y": 445.71875,
+        "width": 162.5,
+        "height": 48.390625,
+        "bottom": 494.109375
+      },
+      {
+        "text": "Sell My Gibson",
+        "x": 192.5,
+        "y": 445.71875,
+        "width": 162.5,
+        "height": 48.390625,
+        "bottom": 494.109375
+      }
+    ],
+    "headings": [
+      {
+        "text": "Single And Double P-90 ES-175 Values",
+        "color": "rgb(200, 158, 87)"
+      },
+      {
+        "text": "Later ES-175D, CC And T Values",
+        "color": "rgb(200, 158, 87)"
+      },
+      {
+        "text": "Later 1960s And 1970s ES-175D",
+        "color": "rgb(244, 239, 227)"
+      },
+      {
+        "text": "1980 To 2016 Mainline ES-175D",
+        "color": "rgb(244, 239, 227)"
+      },
+      {
+        "text": "CC And Thinline T",
+        "color": "rgb(244, 239, 227)"
+      },
+      {
+        "text": "How Repairs And Playability Affect An ES-175 Appraisal",
+        "color": "rgb(200, 158, 87)"
+      }
+    ],
+    "collapsedArticleImages": [],
+    "brokenImages": [],
+    "h1": {
+      "x": 20,
+      "y": 297.875,
+      "width": 335,
+      "height": 119.84375,
+      "bottom": 417.71875
+    },
+    "adjacentActions": true,
+    "faqsOpened": true,
+    "contrast": []
+  },
+  {
+    "slug": "gibson-byrdland-value-guide",
+    "viewport": {
+      "width": 375,
+      "height": 812
+    },
+    "width": 375,
+    "scrollWidth": 375,
+    "actions": [
+      {
+        "text": "Free Appraisal",
+        "x": 20,
+        "y": 505.640625,
+        "width": 162.5,
+        "height": 48.390625,
+        "bottom": 554.03125
+      },
+      {
+        "text": "Sell My Gibson",
+        "x": 192.5,
+        "y": 505.640625,
+        "width": 162.5,
+        "height": 48.390625,
+        "bottom": 554.03125
+      }
+    ],
+    "headings": [
+      {
+        "text": "Early Byrdland Values And Original Pickups",
+        "color": "rgb(200, 158, 87)"
+      },
+      {
+        "text": "A 1974 Wine-Red Byrdland From Joe’s Archive",
+        "color": "rgb(27, 25, 22)"
+      },
+      {
+        "text": "Wine Red And Gold Hardware",
+        "color": "rgb(27, 25, 22)"
+      },
+      {
+        "text": "Original Byrdland Hardware And Completeness",
+        "color": "rgb(200, 158, 87)"
+      },
+      {
+        "text": "Prepare A Byrdland For Joe’s Review",
+        "color": "rgb(200, 158, 87)"
+      },
+      {
+        "text": "Get A Gibson Byrdland Appraisal",
+        "color": "rgb(255, 255, 255)"
+      }
+    ],
+    "collapsedArticleImages": [],
+    "brokenImages": [],
+    "h1": {
+      "x": 20,
+      "y": 297.875,
+      "width": 335,
+      "height": 179.765625,
+      "bottom": 477.640625
+    },
+    "adjacentActions": true,
+    "faqsOpened": true,
+    "contrast": []
+  },
+  {
+    "slug": "gibson-es-225-value-guide",
+    "viewport": {
+      "width": 375,
+      "height": 812
+    },
+    "width": 375,
+    "scrollWidth": 375,
+    "actions": [
+      {
+        "text": "Free Appraisal",
+        "x": 20,
+        "y": 445.71875,
+        "width": 162.5,
+        "height": 48.390625,
+        "bottom": 494.109375
+      },
+      {
+        "text": "Sell My Gibson",
+        "x": 192.5,
+        "y": 445.71875,
+        "width": 162.5,
+        "height": 48.390625,
+        "bottom": 494.109375
+      }
+    ],
+    "headings": [
+      {
+        "text": "Single-Pickup ES-225T And ES-225TN Values",
+        "color": "rgb(200, 158, 87)"
+      },
+      {
+        "text": "Two-Pickup ES-225TD And ES-225TDN Values",
+        "color": "rgb(27, 25, 22)"
+      },
+      {
+        "text": "Sunburst And Two P-90s",
+        "color": "rgb(27, 25, 22)"
+      },
+      {
+        "text": "Bridge And Tailpiece Changes On An ES-225",
+        "color": "rgb(200, 158, 87)"
+      },
+      {
+        "text": "Hollowbody Repairs And Playing Condition",
+        "color": "rgb(200, 158, 87)"
+      },
+      {
+        "text": "Headstock And Heel Repairs",
+        "color": "rgb(244, 239, 227)"
+      },
+      {
+        "text": "Top And Rim Condition",
+        "color": "rgb(244, 239, 227)"
+      },
+      {
+        "text": "Controls And Pickup Function",
+        "color": "rgb(244, 239, 227)"
+      }
+    ],
+    "collapsedArticleImages": [],
+    "brokenImages": [],
+    "h1": {
+      "x": 20,
+      "y": 297.875,
+      "width": 335,
+      "height": 119.84375,
+      "bottom": 417.71875
+    },
+    "adjacentActions": true,
+    "faqsOpened": true,
+    "contrast": []
+  }
+]

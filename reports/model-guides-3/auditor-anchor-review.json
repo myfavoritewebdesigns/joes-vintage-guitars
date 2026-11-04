@@ -1,0 +1,157 @@
+[
+  {
+    "slug": "gibson-les-paul-deluxe-authentication-guide",
+    "anchors": [
+      {
+        "hash": "#features",
+        "top": 100,
+        "missingVisible": []
+      },
+      {
+        "hash": "#timeline",
+        "top": 100,
+        "missingVisible": []
+      },
+      {
+        "hash": "#archive",
+        "top": 100,
+        "missingVisible": []
+      },
+      {
+        "hash": "#pickups",
+        "top": 100,
+        "missingVisible": []
+      },
+      {
+        "hash": "#serials",
+        "top": 100,
+        "missingVisible": []
+      },
+      {
+        "hash": "#neck",
+        "top": 100,
+        "missingVisible": []
+      },
+      {
+        "hash": "#checklist",
+        "top": 100,
+        "missingVisible": []
+      },
+      {
+        "hash": "#configuration-review",
+        "top": 100,
+        "missingVisible": []
+      },
+      {
+        "hash": "#references",
+        "top": 100,
+        "missingVisible": []
+      },
+      {
+        "hash": "#faq",
+        "top": 0,
+        "missingVisible": []
+      }
+    ]
+  },
+  {
+    "slug": "gibson-les-paul-deluxe-value-guide",
+    "anchors": [
+      {
+        "hash": "#values",
+        "top": 100,
+        "missingVisible": []
+      },
+      {
+        "hash": "#finishes",
+        "top": 100,
+        "missingVisible": []
+      },
+      {
+        "hash": "#routing",
+        "top": 100,
+        "missingVisible": []
+      },
+      {
+        "hash": "#repairs",
+        "top": 100,
+        "missingVisible": []
+      },
+      {
+        "hash": "#later",
+        "top": 100,
+        "missingVisible": []
+      },
+      {
+        "hash": "#selling",
+        "top": 100,
+        "missingVisible": []
+      },
+      {
+        "hash": "#faq",
+        "top": 0,
+        "missingVisible": []
+      }
+    ]
+  },
+  {
+    "slug": "gibson-l-50-authentication-guide",
+    "anchors": [
+      {
+        "hash": "#identity",
+        "top": 100,
+        "missingVisible": []
+      },
+      {
+        "hash": "#history",
+        "top": 100,
+        "missingVisible": []
+      },
+      {
+        "hash": "#timeline",
+        "top": 100,
+        "missingVisible": []
+      },
+      {
+        "hash": "#top",
+        "top": 100,
+        "missingVisible": []
+      },
+      {
+        "hash": "#archive",
+        "top": 100,
+        "missingVisible": []
+      },
+      {
+        "hash": "#numbers",
+        "top": 100,
+        "missingVisible": []
+      },
+      {
+        "hash": "#inspection",
+        "top": 100,
+        "missingVisible": []
+      },
+      {
+        "hash": "#repairs",
+        "top": 100,
+        "missingVisible": []
+      },
+      {
+        "hash": "#configuration-review",
+        "top": 100,
+        "missingVisible": []
+      },
+      {
+        "hash": "#references",
+        "top": 100,
+        "missingVisible": []
+      },
+      {
+        "hash": "#faq",
+        "top": 0,
+        "missingVisible": []
+      }
+    ]
+  }
+]

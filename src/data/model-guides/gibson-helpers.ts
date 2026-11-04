@@ -1,0 +1,10 @@
+import type {GuideBlock, ModelGuideData} from '../../components/model-guide/types';
+import values from './gibson-values.json';
+export {p,section,source,authorBio} from './helpers';
+import {authorBio} from './helpers';
+export const money=(n:number)=>'$'+n.toLocaleString('en-US');
+export const gRows=(family:string)=>values.filter(r=>r.family===`gibson-${family}`);
+export const range=(family:string,index:number)=>{const r=gRows(family)[index];if(!r)throw Error(`Missing Gibson value ${family}/${index}`);return `${money(r.low)} to ${money(r.high)}`;};
+export const gChart=(family:string):GuideBlock=>({type:'table',valueChart:true,caption:'Joe’s Estimated Values: Excellent, Original Instruments With The Original Case',columns:['Model','Pricing Year Group','Configuration','Estimated Value'],rows:gRows(family).map(r=>[r.model,r.years,r.configuration,`${money(r.low)} to ${money(r.high)}`]),note:'U.S. dollars. These November 2026 retail market estimates assume excellent, original condition and the original case where applicable. An individual sale can fall outside the range; these figures are not purchase offers. Repairs, changed parts and market conditions require an individual appraisal.'});
+export const gBase=(model:string,kind:ModelGuideData['kind'])=>({slug:`gibson-${model}-${kind}-guide`,brand:'Gibson' as const,kind,plainNumbers:true,date:'November 3, 2026',authorBio,sellLabel:'Sell My Gibson',sellHref:'/sell-my-gibson-guitar/'});
+export const gCTA=(title:string,html:string):GuideBlock=>({type:'cta',title,html,appraisalLabel:'Free Appraisal',sellLabel:'Sell My Gibson',sellHref:'/sell-my-gibson-guitar/'});

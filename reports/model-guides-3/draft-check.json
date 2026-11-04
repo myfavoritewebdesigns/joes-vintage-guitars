@@ -1,0 +1,117 @@
+{
+  "pages": [
+    {
+      "slug": "gibson-l-50-authentication-guide",
+      "kind": "authentication",
+      "words": 1838,
+      "titleLength": 52,
+      "descriptionLength": 150
+    },
+    {
+      "slug": "gibson-l-50-value-guide",
+      "kind": "value",
+      "words": 1292,
+      "titleLength": 57,
+      "descriptionLength": 153
+    },
+    {
+      "slug": "gibson-l-48-authentication-guide",
+      "kind": "authentication",
+      "words": 1976,
+      "titleLength": 55,
+      "descriptionLength": 148
+    },
+    {
+      "slug": "gibson-l-48-value-guide",
+      "kind": "value",
+      "words": 1259,
+      "titleLength": 52,
+      "descriptionLength": 151
+    },
+    {
+      "slug": "gibson-les-paul-deluxe-authentication-guide",
+      "kind": "authentication",
+      "words": 1986,
+      "titleLength": 54,
+      "descriptionLength": 152
+    },
+    {
+      "slug": "gibson-les-paul-deluxe-value-guide",
+      "kind": "value",
+      "words": 1298,
+      "titleLength": 56,
+      "descriptionLength": 152
+    },
+    {
+      "slug": "gibson-l-4-authentication-guide",
+      "kind": "authentication",
+      "words": 1931,
+      "titleLength": 59,
+      "descriptionLength": 151
+    },
+    {
+      "slug": "gibson-l-4-value-guide",
+      "kind": "value",
+      "words": 1211,
+      "titleLength": 52,
+      "descriptionLength": 155
+    },
+    {
+      "slug": "gibson-l-7-authentication-guide",
+      "kind": "authentication",
+      "words": 2097,
+      "titleLength": 56,
+      "descriptionLength": 154
+    },
+    {
+      "slug": "gibson-l-7-value-guide",
+      "kind": "value",
+      "words": 1238,
+      "titleLength": 56,
+      "descriptionLength": 155
+    },
+    {
+      "slug": "gibson-thunderbird-eb-bass-authentication-guide",
+      "kind": "authentication",
+      "words": 2029,
+      "titleLength": 51,
+      "descriptionLength": 153
+    },
+    {
+      "slug": "gibson-thunderbird-eb-bass-value-guide",
+      "kind": "value",
+      "words": 1368,
+      "titleLength": 58,
+      "descriptionLength": 152
+    },
+    {
+      "slug": "gibson-es-175-authentication-guide",
+      "kind": "authentication",
+      "words": 1885,
+      "titleLength": 60,
+      "descriptionLength": 151
+    },
+    {
+      "slug": "gibson-es-175-value-guide",
+      "kind": "value",
+      "words": 1214,
+      "titleLength": 58,
+      "descriptionLength": 151
+    },
+    {
+      "slug": "gibson-byrdland-value-guide",
+      "kind": "value",
+      "words": 1258,
+      "titleLength": 53,
+      "descriptionLength": 147
+    },
+    {
+      "slug": "gibson-es-225-value-guide",
+      "kind": "value",
+      "words": 1251,
+      "titleLength": 59,
+      "descriptionLength": 151
+    }
+  ],
+  "overlaps": []
+}

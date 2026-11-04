@@ -1,0 +1,1394 @@
+[
+  {
+    "slug": "gibson-l-48-authentication-guide",
+    "width": 1280,
+    "caption": [
+      {
+        "tag": "CAPTION",
+        "cls": "",
+        "color": "rgb(157, 53, 27)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "TABLE",
+        "cls": "",
+        "color": "rgb(244, 239, 227)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "DIV",
+        "cls": "mg-table-wrap",
+        "color": "rgb(244, 239, 227)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "DIV",
+        "cls": "mg-section mg-wrap",
+        "color": "rgb(244, 239, 227)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "SECTION",
+        "cls": "mg-band mg-dark",
+        "color": "rgb(244, 239, 227)",
+        "bg": "rgb(23, 22, 20)",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "ARTICLE",
+        "cls": "mg-guide",
+        "color": "rgb(27, 25, 22)",
+        "bg": "rgb(243, 234, 216)",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "MAIN",
+        "cls": "",
+        "color": "rgb(42, 45, 51)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        }
+      }
+    ],
+    "stripe": [
+      {
+        "tag": "TD",
+        "cls": "",
+        "color": "rgb(244, 239, 227)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "TR",
+        "cls": "",
+        "color": "rgb(244, 239, 227)",
+        "bg": "rgb(234, 221, 199)",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "TBODY",
+        "cls": "",
+        "color": "rgb(244, 239, 227)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "TABLE",
+        "cls": "",
+        "color": "rgb(244, 239, 227)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "DIV",
+        "cls": "mg-table-wrap",
+        "color": "rgb(244, 239, 227)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "DIV",
+        "cls": "mg-section mg-wrap",
+        "color": "rgb(244, 239, 227)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "SECTION",
+        "cls": "mg-band mg-dark",
+        "color": "rgb(244, 239, 227)",
+        "bg": "rgb(23, 22, 20)",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "ARTICLE",
+        "cls": "mg-guide",
+        "color": "rgb(27, 25, 22)",
+        "bg": "rgb(243, 234, 216)",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "MAIN",
+        "cls": "",
+        "color": "rgb(42, 45, 51)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "gibson-l-4-authentication-guide",
+    "width": 1280,
+    "caption": [
+      {
+        "tag": "CAPTION",
+        "cls": "",
+        "color": "rgb(157, 53, 27)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "TABLE",
+        "cls": "",
+        "color": "rgb(244, 239, 227)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "DIV",
+        "cls": "mg-table-wrap",
+        "color": "rgb(244, 239, 227)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "DIV",
+        "cls": "mg-section mg-wrap",
+        "color": "rgb(244, 239, 227)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "SECTION",
+        "cls": "mg-band mg-dark",
+        "color": "rgb(244, 239, 227)",
+        "bg": "rgb(23, 22, 20)",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "ARTICLE",
+        "cls": "mg-guide",
+        "color": "rgb(27, 25, 22)",
+        "bg": "rgb(243, 234, 216)",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "MAIN",
+        "cls": "",
+        "color": "rgb(42, 45, 51)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        }
+      }
+    ],
+    "stripe": [
+      {
+        "tag": "TD",
+        "cls": "",
+        "color": "rgb(244, 239, 227)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "TR",
+        "cls": "",
+        "color": "rgb(244, 239, 227)",
+        "bg": "rgb(234, 221, 199)",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "TBODY",
+        "cls": "",
+        "color": "rgb(244, 239, 227)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "TABLE",
+        "cls": "",
+        "color": "rgb(244, 239, 227)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "DIV",
+        "cls": "mg-table-wrap",
+        "color": "rgb(244, 239, 227)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "DIV",
+        "cls": "mg-section mg-wrap",
+        "color": "rgb(244, 239, 227)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "SECTION",
+        "cls": "mg-band mg-dark",
+        "color": "rgb(244, 239, 227)",
+        "bg": "rgb(23, 22, 20)",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "ARTICLE",
+        "cls": "mg-guide",
+        "color": "rgb(27, 25, 22)",
+        "bg": "rgb(243, 234, 216)",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "MAIN",
+        "cls": "",
+        "color": "rgb(42, 45, 51)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "gibson-thunderbird-eb-bass-authentication-guide",
+    "width": 1280,
+    "caption": [
+      {
+        "tag": "CAPTION",
+        "cls": "",
+        "color": "rgb(157, 53, 27)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "TABLE",
+        "cls": "",
+        "color": "rgb(244, 239, 227)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "DIV",
+        "cls": "mg-table-wrap",
+        "color": "rgb(244, 239, 227)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "DIV",
+        "cls": "mg-section mg-wrap",
+        "color": "rgb(244, 239, 227)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "SECTION",
+        "cls": "mg-band mg-dark",
+        "color": "rgb(244, 239, 227)",
+        "bg": "rgb(23, 22, 20)",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "ARTICLE",
+        "cls": "mg-guide",
+        "color": "rgb(27, 25, 22)",
+        "bg": "rgb(243, 234, 216)",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "MAIN",
+        "cls": "",
+        "color": "rgb(42, 45, 51)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        }
+      }
+    ],
+    "stripe": [
+      {
+        "tag": "TD",
+        "cls": "",
+        "color": "rgb(244, 239, 227)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "TR",
+        "cls": "",
+        "color": "rgb(244, 239, 227)",
+        "bg": "rgb(234, 221, 199)",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "TBODY",
+        "cls": "",
+        "color": "rgb(244, 239, 227)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "TABLE",
+        "cls": "",
+        "color": "rgb(244, 239, 227)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "DIV",
+        "cls": "mg-table-wrap",
+        "color": "rgb(244, 239, 227)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "DIV",
+        "cls": "mg-section mg-wrap",
+        "color": "rgb(244, 239, 227)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "SECTION",
+        "cls": "mg-band mg-dark",
+        "color": "rgb(244, 239, 227)",
+        "bg": "rgb(23, 22, 20)",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "ARTICLE",
+        "cls": "mg-guide",
+        "color": "rgb(27, 25, 22)",
+        "bg": "rgb(243, 234, 216)",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "MAIN",
+        "cls": "",
+        "color": "rgb(42, 45, 51)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "gibson-l-48-authentication-guide",
+    "width": 375,
+    "caption": [
+      {
+        "tag": "CAPTION",
+        "cls": "",
+        "color": "rgb(157, 53, 27)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "TABLE",
+        "cls": "",
+        "color": "rgb(244, 239, 227)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "DIV",
+        "cls": "mg-table-wrap",
+        "color": "rgb(244, 239, 227)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "DIV",
+        "cls": "mg-section mg-wrap",
+        "color": "rgb(244, 239, 227)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "SECTION",
+        "cls": "mg-band mg-dark",
+        "color": "rgb(244, 239, 227)",
+        "bg": "rgb(23, 22, 20)",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "ARTICLE",
+        "cls": "mg-guide",
+        "color": "rgb(27, 25, 22)",
+        "bg": "rgb(243, 234, 216)",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "MAIN",
+        "cls": "",
+        "color": "rgb(42, 45, 51)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        }
+      }
+    ],
+    "stripe": [
+      {
+        "tag": "TD",
+        "cls": "",
+        "color": "rgb(244, 239, 227)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "TR",
+        "cls": "",
+        "color": "rgb(244, 239, 227)",
+        "bg": "rgb(234, 221, 199)",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "TBODY",
+        "cls": "",
+        "color": "rgb(244, 239, 227)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "TABLE",
+        "cls": "",
+        "color": "rgb(244, 239, 227)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "DIV",
+        "cls": "mg-table-wrap",
+        "color": "rgb(244, 239, 227)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "DIV",
+        "cls": "mg-section mg-wrap",
+        "color": "rgb(244, 239, 227)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "SECTION",
+        "cls": "mg-band mg-dark",
+        "color": "rgb(244, 239, 227)",
+        "bg": "rgb(23, 22, 20)",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "ARTICLE",
+        "cls": "mg-guide",
+        "color": "rgb(27, 25, 22)",
+        "bg": "rgb(243, 234, 216)",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "MAIN",
+        "cls": "",
+        "color": "rgb(42, 45, 51)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "gibson-l-4-authentication-guide",
+    "width": 375,
+    "caption": [
+      {
+        "tag": "CAPTION",
+        "cls": "",
+        "color": "rgb(157, 53, 27)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "TABLE",
+        "cls": "",
+        "color": "rgb(244, 239, 227)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "DIV",
+        "cls": "mg-table-wrap",
+        "color": "rgb(244, 239, 227)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "DIV",
+        "cls": "mg-section mg-wrap",
+        "color": "rgb(244, 239, 227)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "SECTION",
+        "cls": "mg-band mg-dark",
+        "color": "rgb(244, 239, 227)",
+        "bg": "rgb(23, 22, 20)",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "ARTICLE",
+        "cls": "mg-guide",
+        "color": "rgb(27, 25, 22)",
+        "bg": "rgb(243, 234, 216)",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "MAIN",
+        "cls": "",
+        "color": "rgb(42, 45, 51)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        }
+      }
+    ],
+    "stripe": [
+      {
+        "tag": "TD",
+        "cls": "",
+        "color": "rgb(244, 239, 227)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "TR",
+        "cls": "",
+        "color": "rgb(244, 239, 227)",
+        "bg": "rgb(234, 221, 199)",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "TBODY",
+        "cls": "",
+        "color": "rgb(244, 239, 227)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "TABLE",
+        "cls": "",
+        "color": "rgb(244, 239, 227)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "DIV",
+        "cls": "mg-table-wrap",
+        "color": "rgb(244, 239, 227)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "DIV",
+        "cls": "mg-section mg-wrap",
+        "color": "rgb(244, 239, 227)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "SECTION",
+        "cls": "mg-band mg-dark",
+        "color": "rgb(244, 239, 227)",
+        "bg": "rgb(23, 22, 20)",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "ARTICLE",
+        "cls": "mg-guide",
+        "color": "rgb(27, 25, 22)",
+        "bg": "rgb(243, 234, 216)",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "MAIN",
+        "cls": "",
+        "color": "rgb(42, 45, 51)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "gibson-thunderbird-eb-bass-authentication-guide",
+    "width": 375,
+    "caption": [
+      {
+        "tag": "CAPTION",
+        "cls": "",
+        "color": "rgb(157, 53, 27)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "TABLE",
+        "cls": "",
+        "color": "rgb(244, 239, 227)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "DIV",
+        "cls": "mg-table-wrap",
+        "color": "rgb(244, 239, 227)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "DIV",
+        "cls": "mg-section mg-wrap",
+        "color": "rgb(244, 239, 227)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "SECTION",
+        "cls": "mg-band mg-dark",
+        "color": "rgb(244, 239, 227)",
+        "bg": "rgb(23, 22, 20)",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "ARTICLE",
+        "cls": "mg-guide",
+        "color": "rgb(27, 25, 22)",
+        "bg": "rgb(243, 234, 216)",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "MAIN",
+        "cls": "",
+        "color": "rgb(42, 45, 51)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        }
+      }
+    ],
+    "stripe": [
+      {
+        "tag": "TD",
+        "cls": "",
+        "color": "rgb(244, 239, 227)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "TR",
+        "cls": "",
+        "color": "rgb(244, 239, 227)",
+        "bg": "rgb(234, 221, 199)",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "TBODY",
+        "cls": "",
+        "color": "rgb(244, 239, 227)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "TABLE",
+        "cls": "",
+        "color": "rgb(244, 239, 227)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "DIV",
+        "cls": "mg-table-wrap",
+        "color": "rgb(244, 239, 227)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "DIV",
+        "cls": "mg-section mg-wrap",
+        "color": "rgb(244, 239, 227)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "SECTION",
+        "cls": "mg-band mg-dark",
+        "color": "rgb(244, 239, 227)",
+        "bg": "rgb(23, 22, 20)",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "ARTICLE",
+        "cls": "mg-guide",
+        "color": "rgb(27, 25, 22)",
+        "bg": "rgb(243, 234, 216)",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "tag": "MAIN",
+        "cls": "",
+        "color": "rgb(42, 45, 51)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)"
+        }
+      }
+    ]
+  }
+]

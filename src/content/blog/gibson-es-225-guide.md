@@ -52,6 +52,8 @@ The ES-225 connects two Gibson eras. Its outline comes from the full-depth [ES-1
 
 This guide treats originality as a chain of evidence. A factory order number can support a year. It cannot prove that the pickups, finish, or hardware left Kalamazoo together. A period-correct part can still be a later transplant. Conversely, a missing paper label or a late-1959 bridge is not automatically a problem. The whole guitar has to tell one coherent story.
 
+The <a href="/post/gibson-es-225-value-guide/">ES-225 value guide</a> compares single- and double-pickup guitars in sunburst and factory natural finish, with condition notes for an appraisal.
+
 <div class="es225-facts">
   <div><span>Original run</span><strong>1955 to 1959</strong>Five shipment years with normal factory overlap.</div>
   <div><span>Core variants</span><strong>T · TD · TN · TDN</strong>One or two pickups, in sunburst or natural.</div>
@@ -663,3 +665,5 @@ An original 1955 to 1959 guitar should show Kalamazoo-era body stamps, 1950s com
 Do not dismantle a clean vintage harness only to take a photograph. If access requires force, a repair professional should handle it.
 
 Have an ES-225 to identify or sell? [Request a free, evidence-based appraisal](/free-appraisal/) and send clear photographs plus everything you know about the guitar. Original parts, repairs, and uncertainty are all easier to evaluate when they are documented up front. If you are ready to sell, see [how Joe buys vintage Gibson guitars](/sell-my-gibson-guitar/), or call [(602) 900-6635](tel:+16029006635).
+
+Once the suffix and hardware are established, use the <a href="/post/gibson-es-225-value-guide/">ES-225 price chart</a> to choose the matching original-condition comparison.

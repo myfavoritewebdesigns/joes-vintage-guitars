@@ -1,0 +1,1490 @@
+[
+  {
+    "family": "gibson-les-paul-deluxe",
+    "model": "Les Paul Deluxe",
+    "years": "1969",
+    "configuration": "Goldtop",
+    "low": 7250,
+    "high": 9350
+  },
+  {
+    "family": "gibson-les-paul-deluxe",
+    "model": "Les Paul Deluxe",
+    "years": "1970",
+    "configuration": "Goldtop",
+    "low": 6000,
+    "high": 7750
+  },
+  {
+    "family": "gibson-les-paul-deluxe",
+    "model": "Les Paul Deluxe",
+    "years": "1971 to 1975",
+    "configuration": "Goldtop",
+    "low": 5550,
+    "high": 7250
+  },
+  {
+    "family": "gibson-les-paul-deluxe",
+    "model": "Les Paul Deluxe",
+    "years": "1971 to 1975",
+    "configuration": "Natural",
+    "low": 3400,
+    "high": 4700
+  },
+  {
+    "family": "gibson-les-paul-deluxe",
+    "model": "Les Paul Deluxe",
+    "years": "1971 to 1975",
+    "configuration": "Solid red",
+    "low": 3550,
+    "high": 4900
+  },
+  {
+    "family": "gibson-les-paul-deluxe",
+    "model": "Les Paul Deluxe",
+    "years": "1971 to 1975",
+    "configuration": "Sunburst",
+    "low": 3500,
+    "high": 4800
+  },
+  {
+    "family": "gibson-les-paul-deluxe",
+    "model": "Les Paul Deluxe",
+    "years": "1971 to 1975",
+    "configuration": "Wine",
+    "low": 3550,
+    "high": 4900
+  },
+  {
+    "family": "gibson-les-paul-deluxe",
+    "model": "Les Paul Deluxe",
+    "years": "1973 to 1975",
+    "configuration": "Red Sparkle",
+    "low": 6550,
+    "high": 8700
+  },
+  {
+    "family": "gibson-les-paul-deluxe",
+    "model": "Les Paul Deluxe",
+    "years": "1973 to 1977",
+    "configuration": "Blue Sparkle",
+    "low": 5950,
+    "high": 8100
+  },
+  {
+    "family": "gibson-les-paul-deluxe",
+    "model": "Les Paul Deluxe",
+    "years": "1976 to 1979",
+    "configuration": "Other colors",
+    "low": 3100,
+    "high": 4450
+  },
+  {
+    "family": "gibson-les-paul-deluxe",
+    "model": "Les Paul Deluxe",
+    "years": "1976 to 1979",
+    "configuration": "Goldtop",
+    "low": 4300,
+    "high": 5600
+  },
+  {
+    "family": "gibson-les-paul-deluxe",
+    "model": "Les Paul Deluxe",
+    "years": "1976 to 1979",
+    "configuration": "Natural",
+    "low": 3300,
+    "high": 4350
+  },
+  {
+    "family": "gibson-les-paul-deluxe",
+    "model": "Les Paul Deluxe",
+    "years": "1976 to 1979",
+    "configuration": "Sunburst",
+    "low": 3400,
+    "high": 4450
+  },
+  {
+    "family": "gibson-les-paul-deluxe",
+    "model": "Les Paul Deluxe",
+    "years": "1980 to 1985",
+    "configuration": "Various colors",
+    "low": 3050,
+    "high": 3900
+  },
+  {
+    "family": "gibson-l-4",
+    "model": "L-4",
+    "years": "1912 to 1919",
+    "configuration": "12-fret neck; oval soundhole",
+    "low": 3550,
+    "high": 4450
+  },
+  {
+    "family": "gibson-l-4",
+    "model": "L-4",
+    "years": "1920",
+    "configuration": "Oval soundhole",
+    "low": 3500,
+    "high": 4350
+  },
+  {
+    "family": "gibson-l-4",
+    "model": "L-4",
+    "years": "1921 to 1924",
+    "configuration": "Loar-era oval soundhole",
+    "low": 3450,
+    "high": 4300
+  },
+  {
+    "family": "gibson-l-4",
+    "model": "L-4",
+    "years": "1925 to 1927",
+    "configuration": "12-fret neck; oval soundhole",
+    "low": 3450,
+    "high": 4300
+  },
+  {
+    "family": "gibson-l-4",
+    "model": "L-4",
+    "years": "1928 to 1934",
+    "configuration": "14-fret neck; round soundhole",
+    "low": 3450,
+    "high": 4300
+  },
+  {
+    "family": "gibson-l-4",
+    "model": "L-4",
+    "years": "1935 to 1946",
+    "configuration": "F-holes; fleur-de-lis headstock",
+    "low": 4400,
+    "high": 5700
+  },
+  {
+    "family": "gibson-l-4",
+    "model": "L-4",
+    "years": "1947 to 1949",
+    "configuration": "Crown headstock; double-parallelogram inlays",
+    "low": 4300,
+    "high": 5600
+  },
+  {
+    "family": "gibson-l-4",
+    "model": "L-4",
+    "years": "1950 to 1956",
+    "configuration": "Non-cutaway acoustic",
+    "low": 4000,
+    "high": 4900
+  },
+  {
+    "family": "gibson-l-4",
+    "model": "L-4C / L-4CN",
+    "years": "1949 to 1959",
+    "configuration": "Natural",
+    "low": 5150,
+    "high": 6900
+  },
+  {
+    "family": "gibson-l-4",
+    "model": "L-4C / L-4CN",
+    "years": "1949 to 1959",
+    "configuration": "Sunburst",
+    "low": 4800,
+    "high": 6100
+  },
+  {
+    "family": "gibson-l-4",
+    "model": "L-4C / L-4CN",
+    "years": "1960 to 1964",
+    "configuration": "Natural",
+    "low": 4700,
+    "high": 5950
+  },
+  {
+    "family": "gibson-l-4",
+    "model": "L-4C / L-4CN",
+    "years": "1960 to 1964",
+    "configuration": "Sunburst",
+    "low": 3850,
+    "high": 4750
+  },
+  {
+    "family": "gibson-l-4",
+    "model": "L-4C / L-4CN",
+    "years": "1965",
+    "configuration": "Natural",
+    "low": 3400,
+    "high": 4250
+  },
+  {
+    "family": "gibson-l-4",
+    "model": "L-4C / L-4CN",
+    "years": "1965",
+    "configuration": "Sunburst",
+    "low": 3000,
+    "high": 3850
+  },
+  {
+    "family": "gibson-l-4",
+    "model": "L-4C / L-4CN",
+    "years": "1966 to 1969",
+    "configuration": "Natural or sunburst",
+    "low": 2600,
+    "high": 3500
+  },
+  {
+    "family": "gibson-l-4",
+    "model": "L-4C / L-4CN",
+    "years": "1970 to 1971",
+    "configuration": "Natural or sunburst",
+    "low": 2250,
+    "high": 3100
+  },
+  {
+    "family": "gibson-l-4",
+    "model": "L-4CES",
+    "years": "1958",
+    "configuration": "Natural; PAF pickups",
+    "low": 13050,
+    "high": 17400
+  },
+  {
+    "family": "gibson-l-4",
+    "model": "L-4CES",
+    "years": "1958",
+    "configuration": "Sunburst; PAF pickups",
+    "low": 10300,
+    "high": 14600
+  },
+  {
+    "family": "gibson-l-4",
+    "model": "L-4CES",
+    "years": "1969",
+    "configuration": "Natural or sunburst",
+    "low": 4450,
+    "high": 6700
+  },
+  {
+    "family": "gibson-l-4",
+    "model": "L-4CES",
+    "years": "1986 to 1993",
+    "configuration": "Laminated mahogany back",
+    "low": 3450,
+    "high": 5150
+  },
+  {
+    "family": "gibson-l-4",
+    "model": "L-4CES",
+    "years": "1994 to 2003",
+    "configuration": "Laminated maple back",
+    "low": 3500,
+    "high": 5300
+  },
+  {
+    "family": "gibson-l-4",
+    "model": "L-4CES",
+    "years": "2004 to 2018",
+    "configuration": "Solid mahogany back",
+    "low": 3850,
+    "high": 5950
+  },
+  {
+    "family": "gibson-l-7",
+    "model": "L-7 / L-7N",
+    "years": "1932 to 1934",
+    "configuration": "16-inch body",
+    "low": 4350,
+    "high": 5650
+  },
+  {
+    "family": "gibson-l-7",
+    "model": "L-7 / L-7N",
+    "years": "1935 to 1939",
+    "configuration": "17-inch body; X-bracing",
+    "low": 4450,
+    "high": 5800
+  },
+  {
+    "family": "gibson-l-7",
+    "model": "L-7 / L-7N",
+    "years": "1940 to 1949",
+    "configuration": "Natural",
+    "low": 3950,
+    "high": 5300
+  },
+  {
+    "family": "gibson-l-7",
+    "model": "L-7 / L-7N",
+    "years": "1940 to 1949",
+    "configuration": "Sunburst",
+    "low": 3850,
+    "high": 5100
+  },
+  {
+    "family": "gibson-l-7",
+    "model": "L-7 / L-7N",
+    "years": "1950 to 1956",
+    "configuration": "Natural",
+    "low": 3850,
+    "high": 5150
+  },
+  {
+    "family": "gibson-l-7",
+    "model": "L-7 / L-7N",
+    "years": "1950 to 1956",
+    "configuration": "Sunburst",
+    "low": 3750,
+    "high": 4900
+  },
+  {
+    "family": "gibson-l-7",
+    "model": "L-7C / L-7CN",
+    "years": "1948 to 1949",
+    "configuration": "Natural",
+    "low": 5200,
+    "high": 6950
+  },
+  {
+    "family": "gibson-l-7",
+    "model": "L-7C / L-7CN",
+    "years": "1948 to 1949",
+    "configuration": "Sunburst",
+    "low": 4450,
+    "high": 6250
+  },
+  {
+    "family": "gibson-l-7",
+    "model": "L-7C / L-7CN",
+    "years": "1950 to 1959",
+    "configuration": "Natural",
+    "low": 4250,
+    "high": 5950
+  },
+  {
+    "family": "gibson-l-7",
+    "model": "L-7C / L-7CN",
+    "years": "1950 to 1959",
+    "configuration": "Sunburst",
+    "low": 3850,
+    "high": 5150
+  },
+  {
+    "family": "gibson-l-7",
+    "model": "L-7C / L-7CN",
+    "years": "1960 to 1964",
+    "configuration": "Natural",
+    "low": 3650,
+    "high": 4800
+  },
+  {
+    "family": "gibson-l-7",
+    "model": "L-7C / L-7CN",
+    "years": "1960 to 1964",
+    "configuration": "Sunburst",
+    "low": 3550,
+    "high": 4450
+  },
+  {
+    "family": "gibson-l-7",
+    "model": "L-7C / L-7CN",
+    "years": "1965",
+    "configuration": "Natural",
+    "low": 3700,
+    "high": 4850
+  },
+  {
+    "family": "gibson-l-7",
+    "model": "L-7C / L-7CN",
+    "years": "1965",
+    "configuration": "Sunburst",
+    "low": 3250,
+    "high": 4300
+  },
+  {
+    "family": "gibson-l-7",
+    "model": "L-7C / L-7CN",
+    "years": "1966 to 1972",
+    "configuration": "Natural",
+    "low": 3400,
+    "high": 4700
+  },
+  {
+    "family": "gibson-l-7",
+    "model": "L-7C / L-7CN",
+    "years": "1966 to 1972",
+    "configuration": "Sunburst",
+    "low": 3100,
+    "high": 4400
+  },
+  {
+    "family": "gibson-l-7",
+    "model": "L-7 Custom Electric",
+    "years": "1936",
+    "configuration": "Factory Charlie Christian-style pickup",
+    "low": 8500,
+    "high": 11050
+  },
+  {
+    "family": "gibson-l-7",
+    "model": "L-7CE",
+    "years": "1948 to 1954",
+    "configuration": "Cutaway; McCarty pickup assembly",
+    "low": 4800,
+    "high": 6950
+  },
+  {
+    "family": "gibson-l-7",
+    "model": "L-7E",
+    "years": "1948 to 1954",
+    "configuration": "Non-cutaway; McCarty pickup assembly",
+    "low": 3950,
+    "high": 6150
+  },
+  {
+    "family": "gibson-l-48",
+    "model": "L-48",
+    "years": "1946 to 1949",
+    "configuration": "Sunburst acoustic archtop",
+    "low": 1700,
+    "high": 2150
+  },
+  {
+    "family": "gibson-l-48",
+    "model": "L-48",
+    "years": "1950 to 1959",
+    "configuration": "Sunburst acoustic archtop",
+    "low": 1750,
+    "high": 2200
+  },
+  {
+    "family": "gibson-l-48",
+    "model": "L-48",
+    "years": "1960 to 1964",
+    "configuration": "Sunburst acoustic archtop",
+    "low": 1600,
+    "high": 2000
+  },
+  {
+    "family": "gibson-l-48",
+    "model": "L-48",
+    "years": "1965",
+    "configuration": "Sunburst acoustic archtop",
+    "low": 1300,
+    "high": 1750
+  },
+  {
+    "family": "gibson-l-48",
+    "model": "L-48",
+    "years": "1966 to 1969",
+    "configuration": "Sunburst acoustic archtop",
+    "low": 1050,
+    "high": 1400
+  },
+  {
+    "family": "gibson-l-48",
+    "model": "L-48",
+    "years": "1970 to 1971",
+    "configuration": "Sunburst acoustic archtop",
+    "low": 850,
+    "high": 1300
+  },
+  {
+    "family": "gibson-l-50",
+    "model": "L-50",
+    "years": "1932 to 1934",
+    "configuration": "14.75-inch body",
+    "low": 2450,
+    "high": 3300
+  },
+  {
+    "family": "gibson-l-50",
+    "model": "L-50",
+    "years": "1934 to 1943",
+    "configuration": "16-inch body",
+    "low": 2400,
+    "high": 3250
+  },
+  {
+    "family": "gibson-l-50",
+    "model": "L-50",
+    "years": "1946 to 1949",
+    "configuration": "16-inch body; trapezoid inlays",
+    "low": 2400,
+    "high": 3100
+  },
+  {
+    "family": "gibson-l-50",
+    "model": "L-50",
+    "years": "1950 to 1959",
+    "configuration": "Sunburst acoustic archtop",
+    "low": 1950,
+    "high": 2500
+  },
+  {
+    "family": "gibson-l-50",
+    "model": "L-50",
+    "years": "1960 to 1964",
+    "configuration": "Sunburst acoustic archtop",
+    "low": 1700,
+    "high": 2250
+  },
+  {
+    "family": "gibson-l-50",
+    "model": "L-50",
+    "years": "1965",
+    "configuration": "Sunburst acoustic archtop",
+    "low": 1500,
+    "high": 1950
+  },
+  {
+    "family": "gibson-l-50",
+    "model": "L-50",
+    "years": "1966 to 1969",
+    "configuration": "Sunburst acoustic archtop",
+    "low": 1350,
+    "high": 1800
+  },
+  {
+    "family": "gibson-l-50",
+    "model": "L-50",
+    "years": "1970 to 1971",
+    "configuration": "Sunburst acoustic archtop",
+    "low": 1300,
+    "high": 1750
+  },
+  {
+    "family": "gibson-byrdland",
+    "model": "Byrdland",
+    "years": "1955 to 1957",
+    "configuration": "Natural; Alnico pickups",
+    "low": 10300,
+    "high": 13350
+  },
+  {
+    "family": "gibson-byrdland",
+    "model": "Byrdland",
+    "years": "1955 to 1957",
+    "configuration": "Sunburst; Alnico pickups",
+    "low": 8800,
+    "high": 11450
+  },
+  {
+    "family": "gibson-byrdland",
+    "model": "Byrdland",
+    "years": "1958 to 1959",
+    "configuration": "Natural; PAF pickups",
+    "low": 15500,
+    "high": 21500
+  },
+  {
+    "family": "gibson-byrdland",
+    "model": "Byrdland",
+    "years": "1958 to 1959",
+    "configuration": "Sunburst; PAF pickups",
+    "low": 13200,
+    "high": 17600
+  },
+  {
+    "family": "gibson-byrdland",
+    "model": "Byrdland",
+    "years": "1960 to 1962",
+    "configuration": "Natural; PAF pickups",
+    "low": 13200,
+    "high": 17600
+  },
+  {
+    "family": "gibson-byrdland",
+    "model": "Byrdland",
+    "years": "1960 to 1962",
+    "configuration": "Sunburst; PAF pickups",
+    "low": 10900,
+    "high": 15650
+  },
+  {
+    "family": "gibson-byrdland",
+    "model": "Byrdland",
+    "years": "1963 to 1964",
+    "configuration": "Natural; Patent Number pickups",
+    "low": 8900,
+    "high": 13350
+  },
+  {
+    "family": "gibson-byrdland",
+    "model": "Byrdland",
+    "years": "1963 to 1964",
+    "configuration": "Sunburst; Patent Number pickups",
+    "low": 7850,
+    "high": 10450
+  },
+  {
+    "family": "gibson-byrdland",
+    "model": "Byrdland",
+    "years": "1965",
+    "configuration": "Natural",
+    "low": 6550,
+    "high": 8700
+  },
+  {
+    "family": "gibson-byrdland",
+    "model": "Byrdland",
+    "years": "1965",
+    "configuration": "Sunburst",
+    "low": 6150,
+    "high": 8350
+  },
+  {
+    "family": "gibson-byrdland",
+    "model": "Byrdland",
+    "years": "1966 to 1969",
+    "configuration": "Natural",
+    "low": 5100,
+    "high": 6800
+  },
+  {
+    "family": "gibson-byrdland",
+    "model": "Byrdland",
+    "years": "1966 to 1969",
+    "configuration": "Sunburst",
+    "low": 5300,
+    "high": 7050
+  },
+  {
+    "family": "gibson-byrdland",
+    "model": "Byrdland",
+    "years": "1970 to 1992",
+    "configuration": "Various colors",
+    "low": 4000,
+    "high": 5350
+  },
+  {
+    "family": "gibson-es-175",
+    "model": "ES-175 / ES-175N",
+    "years": "1949 to 1956",
+    "configuration": "Natural; one P-90",
+    "low": 5350,
+    "high": 7300
+  },
+  {
+    "family": "gibson-es-175",
+    "model": "ES-175 / ES-175N",
+    "years": "1949 to 1956",
+    "configuration": "Sunburst; one P-90",
+    "low": 5350,
+    "high": 7100
+  },
+  {
+    "family": "gibson-es-175",
+    "model": "ES-175 / ES-175N",
+    "years": "1957 to 1959",
+    "configuration": "Natural; one humbucker",
+    "low": 8450,
+    "high": 10700
+  },
+  {
+    "family": "gibson-es-175",
+    "model": "ES-175 / ES-175N",
+    "years": "1957 to 1963",
+    "configuration": "Sunburst; one PAF",
+    "low": 7950,
+    "high": 9900
+  },
+  {
+    "family": "gibson-es-175",
+    "model": "ES-175 / ES-175N",
+    "years": "1964",
+    "configuration": "Sunburst; one Patent Number pickup",
+    "low": 6150,
+    "high": 7900
+  },
+  {
+    "family": "gibson-es-175",
+    "model": "ES-175 / ES-175N",
+    "years": "1965",
+    "configuration": "Sunburst; one humbucker",
+    "low": 3850,
+    "high": 5950
+  },
+  {
+    "family": "gibson-es-175",
+    "model": "ES-175 / ES-175N",
+    "years": "1966 to 1969",
+    "configuration": "Sunburst; one Patent Number pickup",
+    "low": 3400,
+    "high": 5550
+  },
+  {
+    "family": "gibson-es-175",
+    "model": "ES-175 / ES-175N",
+    "years": "1967 to 1969",
+    "configuration": "Black; one humbucker",
+    "low": 3850,
+    "high": 4700
+  },
+  {
+    "family": "gibson-es-175",
+    "model": "ES-175 / ES-175N",
+    "years": "1970 to 1971",
+    "configuration": "Various colors; one humbucker",
+    "low": 3250,
+    "high": 5150
+  },
+  {
+    "family": "gibson-es-175",
+    "model": "ES-175D / ES-175DN",
+    "years": "1952 to 1956",
+    "configuration": "Natural; two P-90s",
+    "low": 5600,
+    "high": 7750
+  },
+  {
+    "family": "gibson-es-175",
+    "model": "ES-175D / ES-175DN",
+    "years": "1952 to 1956",
+    "configuration": "Sunburst; two P-90s",
+    "low": 5300,
+    "high": 7500
+  },
+  {
+    "family": "gibson-es-175",
+    "model": "ES-175D / ES-175DN",
+    "years": "1957 to 1963",
+    "configuration": "Natural; two PAFs",
+    "low": 14100,
+    "high": 17600
+  },
+  {
+    "family": "gibson-es-175",
+    "model": "ES-175D / ES-175DN",
+    "years": "1957 to 1963",
+    "configuration": "Sunburst; two PAFs",
+    "low": 12900,
+    "high": 16350
+  },
+  {
+    "family": "gibson-es-175",
+    "model": "ES-175D / ES-175DN",
+    "years": "1964",
+    "configuration": "Natural; Patent Number pickups",
+    "low": 6600,
+    "high": 8800
+  },
+  {
+    "family": "gibson-es-175",
+    "model": "ES-175D / ES-175DN",
+    "years": "1964",
+    "configuration": "Sunburst; Patent Number pickups",
+    "low": 5700,
+    "high": 7900
+  },
+  {
+    "family": "gibson-es-175",
+    "model": "ES-175D / ES-175DN",
+    "years": "1965",
+    "configuration": "Natural; Patent Number pickups",
+    "low": 5600,
+    "high": 7750
+  },
+  {
+    "family": "gibson-es-175",
+    "model": "ES-175D / ES-175DN",
+    "years": "1965",
+    "configuration": "Sunburst; humbuckers",
+    "low": 5200,
+    "high": 6950
+  },
+  {
+    "family": "gibson-es-175",
+    "model": "ES-175D / ES-175DN",
+    "years": "1966",
+    "configuration": "Natural; Patent Number pickups",
+    "low": 4400,
+    "high": 6150
+  },
+  {
+    "family": "gibson-es-175",
+    "model": "ES-175D / ES-175DN",
+    "years": "1966",
+    "configuration": "Sunburst; humbuckers",
+    "low": 4400,
+    "high": 6150
+  },
+  {
+    "family": "gibson-es-175",
+    "model": "ES-175D / ES-175DN",
+    "years": "1967 to 1969",
+    "configuration": "Black; two humbuckers",
+    "low": 4400,
+    "high": 6150
+  },
+  {
+    "family": "gibson-es-175",
+    "model": "ES-175D / ES-175DN",
+    "years": "1967 to 1969",
+    "configuration": "Various colors; two humbuckers",
+    "low": 4000,
+    "high": 6250
+  },
+  {
+    "family": "gibson-es-175",
+    "model": "ES-175D / ES-175DN",
+    "years": "1970 to 1979",
+    "configuration": "Various colors; two humbuckers",
+    "low": 3550,
+    "high": 5800
+  },
+  {
+    "family": "gibson-es-175",
+    "model": "ES-175D / ES-175DN",
+    "years": "1980 to 2016",
+    "configuration": "Various colors; two humbuckers",
+    "low": 3100,
+    "high": 5350
+  },
+  {
+    "family": "gibson-es-175",
+    "model": "ES-175CC",
+    "years": "1978 to 1979",
+    "configuration": "Charlie Christian pickup; sunburst or walnut",
+    "low": 3000,
+    "high": 4750
+  },
+  {
+    "family": "gibson-es-175",
+    "model": "ES-175T",
+    "years": "1976 to 1980",
+    "configuration": "Thinline; two humbuckers",
+    "low": 2400,
+    "high": 3850
+  },
+  {
+    "family": "gibson-es-225",
+    "model": "ES-225T / ES-225TN",
+    "years": "1955 to 1959",
+    "configuration": "Natural; one P-90",
+    "low": 4300,
+    "high": 5600
+  },
+  {
+    "family": "gibson-es-225",
+    "model": "ES-225T / ES-225TN",
+    "years": "1955 to 1959",
+    "configuration": "Sunburst; one P-90",
+    "low": 3100,
+    "high": 4000
+  },
+  {
+    "family": "gibson-es-225",
+    "model": "ES-225TD / ES-225TDN",
+    "years": "1956 to 1959",
+    "configuration": "Natural; two P-90s",
+    "low": 6700,
+    "high": 8450
+  },
+  {
+    "family": "gibson-es-225",
+    "model": "ES-225TD / ES-225TDN",
+    "years": "1956 to 1959",
+    "configuration": "Sunburst; two P-90s",
+    "low": 4850,
+    "high": 6600
+  },
+  {
+    "family": "gibson-thunderbird-eb-bass",
+    "model": "EB-0",
+    "years": "1959 to 1960",
+    "configuration": "Cherry; slab body",
+    "low": 3100,
+    "high": 5350
+  },
+  {
+    "family": "gibson-thunderbird-eb-bass",
+    "model": "EB-0",
+    "years": "1961",
+    "configuration": "Cherry; SG body",
+    "low": 2150,
+    "high": 3000
+  },
+  {
+    "family": "gibson-thunderbird-eb-bass",
+    "model": "EB-0",
+    "years": "1962",
+    "configuration": "Cherry",
+    "low": 2200,
+    "high": 3100
+  },
+  {
+    "family": "gibson-thunderbird-eb-bass",
+    "model": "EB-0",
+    "years": "1963",
+    "configuration": "Cherry",
+    "low": 2250,
+    "high": 3100
+  },
+  {
+    "family": "gibson-thunderbird-eb-bass",
+    "model": "EB-0",
+    "years": "1964",
+    "configuration": "Cherry; late-1964 truss rod",
+    "low": 1950,
+    "high": 2800
+  },
+  {
+    "family": "gibson-thunderbird-eb-bass",
+    "model": "EB-0",
+    "years": "1964",
+    "configuration": "Cherry; raised truss rod",
+    "low": 2350,
+    "high": 2750
+  },
+  {
+    "family": "gibson-thunderbird-eb-bass",
+    "model": "EB-0",
+    "years": "1965 to 1966",
+    "configuration": "Cherry",
+    "low": 2200,
+    "high": 2650
+  },
+  {
+    "family": "gibson-thunderbird-eb-bass",
+    "model": "EB-0",
+    "years": "1965 to 1966",
+    "configuration": "Pelham Blue",
+    "low": 3050,
+    "high": 3900
+  },
+  {
+    "family": "gibson-thunderbird-eb-bass",
+    "model": "EB-0",
+    "years": "1967 to 1968",
+    "configuration": "Cherry",
+    "low": 1750,
+    "high": 2200
+  },
+  {
+    "family": "gibson-thunderbird-eb-bass",
+    "model": "EB-0",
+    "years": "1967 to 1968",
+    "configuration": "Pelham Blue",
+    "low": 3450,
+    "high": 4750
+  },
+  {
+    "family": "gibson-thunderbird-eb-bass",
+    "model": "EB-0",
+    "years": "1968",
+    "configuration": "Black",
+    "low": 3450,
+    "high": 4300
+  },
+  {
+    "family": "gibson-thunderbird-eb-bass",
+    "model": "EB-0",
+    "years": "1968",
+    "configuration": "Burgundy Metallic",
+    "low": 2650,
+    "high": 4000
+  },
+  {
+    "family": "gibson-thunderbird-eb-bass",
+    "model": "EB-0",
+    "years": "1969",
+    "configuration": "Cherry; solid headstock",
+    "low": 1550,
+    "high": 2000
+  },
+  {
+    "family": "gibson-thunderbird-eb-bass",
+    "model": "EB-0",
+    "years": "1969",
+    "configuration": "Pelham Blue",
+    "low": 2250,
+    "high": 3100
+  },
+  {
+    "family": "gibson-thunderbird-eb-bass",
+    "model": "EB-0",
+    "years": "1969 to 1974",
+    "configuration": "Later EB-0",
+    "low": 1100,
+    "high": 1500
+  },
+  {
+    "family": "gibson-thunderbird-eb-bass",
+    "model": "EB-0",
+    "years": "1975 to 1979",
+    "configuration": "Later production",
+    "low": 1100,
+    "high": 1500
+  },
+  {
+    "family": "gibson-thunderbird-eb-bass",
+    "model": "EB-0F",
+    "years": "1962 to 1965",
+    "configuration": "Cherry; built-in fuzz",
+    "low": 2800,
+    "high": 3850
+  },
+  {
+    "family": "gibson-thunderbird-eb-bass",
+    "model": "EB-0L",
+    "years": "1969 to 1979",
+    "configuration": "Long scale; various colors",
+    "low": 1500,
+    "high": 2150
+  },
+  {
+    "family": "gibson-thunderbird-eb-bass",
+    "model": "EB-2",
+    "years": "1958",
+    "configuration": "Sunburst",
+    "low": 4350,
+    "high": 6100
+  },
+  {
+    "family": "gibson-thunderbird-eb-bass",
+    "model": "EB-2",
+    "years": "1959",
+    "configuration": "Natural",
+    "low": 5300,
+    "high": 8350
+  },
+  {
+    "family": "gibson-thunderbird-eb-bass",
+    "model": "EB-2",
+    "years": "1959",
+    "configuration": "Sunburst",
+    "low": 3850,
+    "high": 5550
+  },
+  {
+    "family": "gibson-thunderbird-eb-bass",
+    "model": "EB-2",
+    "years": "1960",
+    "configuration": "Natural",
+    "low": 5200,
+    "high": 6950
+  },
+  {
+    "family": "gibson-thunderbird-eb-bass",
+    "model": "EB-2",
+    "years": "1960",
+    "configuration": "Sunburst",
+    "low": 3750,
+    "high": 4850
+  },
+  {
+    "family": "gibson-thunderbird-eb-bass",
+    "model": "EB-2",
+    "years": "1961",
+    "configuration": "Sunburst; black pickup cover",
+    "low": 3450,
+    "high": 4300
+  },
+  {
+    "family": "gibson-thunderbird-eb-bass",
+    "model": "EB-2",
+    "years": "1961",
+    "configuration": "Sunburst; brown pickup cover",
+    "low": 3700,
+    "high": 4350
+  },
+  {
+    "family": "gibson-thunderbird-eb-bass",
+    "model": "EB-2",
+    "years": "1964",
+    "configuration": "Sunburst",
+    "low": 2450,
+    "high": 3100
+  },
+  {
+    "family": "gibson-thunderbird-eb-bass",
+    "model": "EB-2",
+    "years": "1965",
+    "configuration": "Sunburst",
+    "low": 2400,
+    "high": 3100
+  },
+  {
+    "family": "gibson-thunderbird-eb-bass",
+    "model": "EB-2",
+    "years": "1966 to 1969",
+    "configuration": "Cherry or sunburst",
+    "low": 2200,
+    "high": 2850
+  },
+  {
+    "family": "gibson-thunderbird-eb-bass",
+    "model": "EB-2",
+    "years": "1967 to 1969",
+    "configuration": "Sparkling Burgundy",
+    "low": 2650,
+    "high": 3550
+  },
+  {
+    "family": "gibson-thunderbird-eb-bass",
+    "model": "EB-2",
+    "years": "1967 to 1969",
+    "configuration": "Walnut",
+    "low": 2600,
+    "high": 3050
+  },
+  {
+    "family": "gibson-thunderbird-eb-bass",
+    "model": "EB-2",
+    "years": "1970 to 1972",
+    "configuration": "Sunburst",
+    "low": 2200,
+    "high": 2600
+  },
+  {
+    "family": "gibson-thunderbird-eb-bass",
+    "model": "EB-2D",
+    "years": "1966 to 1969",
+    "configuration": "Cherry or sunburst; two pickups",
+    "low": 2550,
+    "high": 4250
+  },
+  {
+    "family": "gibson-thunderbird-eb-bass",
+    "model": "EB-2D",
+    "years": "1967 to 1969",
+    "configuration": "Sparkling Burgundy; two pickups",
+    "low": 2350,
+    "high": 3000
+  },
+  {
+    "family": "gibson-thunderbird-eb-bass",
+    "model": "EB-2D",
+    "years": "1967 to 1969",
+    "configuration": "Walnut; two pickups",
+    "low": 3000,
+    "high": 3850
+  },
+  {
+    "family": "gibson-thunderbird-eb-bass",
+    "model": "EB-2D",
+    "years": "1970 to 1972",
+    "configuration": "Cherry or sunburst; two pickups",
+    "low": 2150,
+    "high": 3000
+  },
+  {
+    "family": "gibson-thunderbird-eb-bass",
+    "model": "EB-3",
+    "years": "1961 to 1964",
+    "configuration": "Cherry; two pickups",
+    "low": 3850,
+    "high": 5600
+  },
+  {
+    "family": "gibson-thunderbird-eb-bass",
+    "model": "EB-3",
+    "years": "1965",
+    "configuration": "Early version",
+    "low": 3550,
+    "high": 5350
+  },
+  {
+    "family": "gibson-thunderbird-eb-bass",
+    "model": "EB-3",
+    "years": "1965",
+    "configuration": "Late version",
+    "low": 3000,
+    "high": 3850
+  },
+  {
+    "family": "gibson-thunderbird-eb-bass",
+    "model": "EB-3",
+    "years": "1965",
+    "configuration": "White",
+    "low": 4400,
+    "high": 8800
+  },
+  {
+    "family": "gibson-thunderbird-eb-bass",
+    "model": "EB-3",
+    "years": "1966",
+    "configuration": "Two pickups",
+    "low": 2650,
+    "high": 3500
+  },
+  {
+    "family": "gibson-thunderbird-eb-bass",
+    "model": "EB-3",
+    "years": "1967 to 1968",
+    "configuration": "Two pickups",
+    "low": 2200,
+    "high": 2850
+  },
+  {
+    "family": "gibson-thunderbird-eb-bass",
+    "model": "EB-3",
+    "years": "1969",
+    "configuration": "Early version",
+    "low": 2000,
+    "high": 2650
+  },
+  {
+    "family": "gibson-thunderbird-eb-bass",
+    "model": "EB-3",
+    "years": "1969",
+    "configuration": "Late version",
+    "low": 2000,
+    "high": 2400
+  },
+  {
+    "family": "gibson-thunderbird-eb-bass",
+    "model": "EB-3",
+    "years": "1970",
+    "configuration": "Two pickups",
+    "low": 1700,
+    "high": 2150
+  },
+  {
+    "family": "gibson-thunderbird-eb-bass",
+    "model": "EB-3",
+    "years": "1971",
+    "configuration": "Two pickups",
+    "low": 1750,
+    "high": 2200
+  },
+  {
+    "family": "gibson-thunderbird-eb-bass",
+    "model": "EB-3",
+    "years": "1972 to 1979",
+    "configuration": "Two pickups",
+    "low": 1500,
+    "high": 1950
+  },
+  {
+    "family": "gibson-thunderbird-eb-bass",
+    "model": "EB-3L",
+    "years": "1969 to 1972",
+    "configuration": "Long scale; cherry, natural or walnut",
+    "low": 1900,
+    "high": 2550
+  },
+  {
+    "family": "gibson-thunderbird-eb-bass",
+    "model": "EB-4L",
+    "years": "1972 to 1979",
+    "configuration": "Long scale; cherry or walnut",
+    "low": 1350,
+    "high": 1800
+  },
+  {
+    "family": "gibson-thunderbird-eb-bass",
+    "model": "Thunderbird II",
+    "years": "1963",
+    "configuration": "Sunburst; reverse body",
+    "low": 8500,
+    "high": 11900
+  },
+  {
+    "family": "gibson-thunderbird-eb-bass",
+    "model": "Thunderbird II",
+    "years": "1964",
+    "configuration": "Pelham Blue; reverse body",
+    "low": 13200,
+    "high": 21550
+  },
+  {
+    "family": "gibson-thunderbird-eb-bass",
+    "model": "Thunderbird II",
+    "years": "1964",
+    "configuration": "Sunburst; reverse body",
+    "low": 8600,
+    "high": 12050
+  },
+  {
+    "family": "gibson-thunderbird-eb-bass",
+    "model": "Thunderbird II",
+    "years": "1965",
+    "configuration": "Cardinal Red; non-reverse body",
+    "low": 8500,
+    "high": 11050
+  },
+  {
+    "family": "gibson-thunderbird-eb-bass",
+    "model": "Thunderbird II",
+    "years": "1965",
+    "configuration": "Inverness Green; non-reverse body",
+    "low": 8900,
+    "high": 11550
+  },
+  {
+    "family": "gibson-thunderbird-eb-bass",
+    "model": "Thunderbird II",
+    "years": "1965",
+    "configuration": "Sunburst; non-reverse body",
+    "low": 6100,
+    "high": 8250
+  },
+  {
+    "family": "gibson-thunderbird-eb-bass",
+    "model": "Thunderbird II",
+    "years": "1965",
+    "configuration": "Sunburst; reverse body",
+    "low": 8500,
+    "high": 11900
+  },
+  {
+    "family": "gibson-thunderbird-eb-bass",
+    "model": "Thunderbird II",
+    "years": "1966",
+    "configuration": "Cardinal Red; non-reverse body",
+    "low": 11900,
+    "high": 15300
+  },
+  {
+    "family": "gibson-thunderbird-eb-bass",
+    "model": "Thunderbird II",
+    "years": "1966",
+    "configuration": "Pelham Blue; non-reverse body",
+    "low": 11900,
+    "high": 15300
+  },
+  {
+    "family": "gibson-thunderbird-eb-bass",
+    "model": "Thunderbird II",
+    "years": "1966",
+    "configuration": "Sunburst; non-reverse body",
+    "low": 6250,
+    "high": 8900
+  },
+  {
+    "family": "gibson-thunderbird-eb-bass",
+    "model": "Thunderbird II",
+    "years": "1967",
+    "configuration": "Cardinal Red; non-reverse body",
+    "low": 10450,
+    "high": 13500
+  },
+  {
+    "family": "gibson-thunderbird-eb-bass",
+    "model": "Thunderbird II",
+    "years": "1967",
+    "configuration": "Sunburst; non-reverse body",
+    "low": 6250,
+    "high": 8450
+  },
+  {
+    "family": "gibson-thunderbird-eb-bass",
+    "model": "Thunderbird II",
+    "years": "1968",
+    "configuration": "Cardinal Red; non-reverse body",
+    "low": 10300,
+    "high": 13350
+  },
+  {
+    "family": "gibson-thunderbird-eb-bass",
+    "model": "Thunderbird II",
+    "years": "1968 to 1969",
+    "configuration": "Sunburst; non-reverse body",
+    "low": 6250,
+    "high": 8450
+  },
+  {
+    "family": "gibson-thunderbird-eb-bass",
+    "model": "Thunderbird IV",
+    "years": "1963",
+    "configuration": "Sunburst; reverse body",
+    "low": 10000,
+    "high": 12600
+  },
+  {
+    "family": "gibson-thunderbird-eb-bass",
+    "model": "Thunderbird IV",
+    "years": "1964",
+    "configuration": "Frost Blue; reverse body",
+    "low": 20000,
+    "high": 25500
+  },
+  {
+    "family": "gibson-thunderbird-eb-bass",
+    "model": "Thunderbird IV",
+    "years": "1964",
+    "configuration": "Pelham Blue; reverse body",
+    "low": 20450,
+    "high": 26100
+  },
+  {
+    "family": "gibson-thunderbird-eb-bass",
+    "model": "Thunderbird IV",
+    "years": "1964",
+    "configuration": "Sunburst; reverse body",
+    "low": 9900,
+    "high": 12900
+  },
+  {
+    "family": "gibson-thunderbird-eb-bass",
+    "model": "Thunderbird IV",
+    "years": "1965",
+    "configuration": "Cardinal Red; non-reverse body",
+    "low": 9700,
+    "high": 19350
+  },
+  {
+    "family": "gibson-thunderbird-eb-bass",
+    "model": "Thunderbird IV",
+    "years": "1965",
+    "configuration": "Inverness Green; non-reverse body",
+    "low": 9700,
+    "high": 19350
+  },
+  {
+    "family": "gibson-thunderbird-eb-bass",
+    "model": "Thunderbird IV",
+    "years": "1965",
+    "configuration": "Sunburst; reverse body",
+    "low": 9900,
+    "high": 12450
+  },
+  {
+    "family": "gibson-thunderbird-eb-bass",
+    "model": "Thunderbird IV",
+    "years": "1965 to 1966",
+    "configuration": "Sunburst; non-reverse body",
+    "low": 7400,
+    "high": 10000
+  },
+  {
+    "family": "gibson-thunderbird-eb-bass",
+    "model": "Thunderbird IV",
+    "years": "1966",
+    "configuration": "White; non-reverse body",
+    "low": 12300,
+    "high": 19800
+  },
+  {
+    "family": "gibson-thunderbird-eb-bass",
+    "model": "Thunderbird IV",
+    "years": "1967 to 1969",
+    "configuration": "Sunburst; non-reverse body",
+    "low": 7550,
+    "high": 10250
+  },
+  {
+    "family": "gibson-thunderbird-eb-bass",
+    "model": "Thunderbird 76",
+    "years": "1976",
+    "configuration": "Bicentennial; reverse body; various colors",
+    "low": 3000,
+    "high": 5150
+  },
+  {
+    "family": "gibson-thunderbird-eb-bass",
+    "model": "Thunderbird 79",
+    "years": "1979",
+    "configuration": "Reverse body; sunburst",
+    "low": 3000,
+    "high": 5100
+  },
+  {
+    "family": "gibson-thunderbird-eb-bass",
+    "model": "Thunderbird III",
+    "years": "1979",
+    "configuration": "Reverse body; two pickups",
+    "low": 3100,
+    "high": 3750
+  }
+]
