@@ -378,14 +378,15 @@ The Byrdland carries the **pearl "flowerpot" inlay** on the headstock face, a de
 
 ### Gibson Logo Evolution
 
-The "Gibson" script logo on the headstock was always a **pearl inlay** throughout all eras of Byrdland production, never a silkscreen or decal. What changed was the letter forms within that inlay:
+The "Gibson" logo on the headstock was always a **pearl inlay** throughout all eras of Byrdland production, never a silkscreen or decal. What changed was the letter forms within that inlay, following the same timeline as the [Gibson logo history](/gibson-headstock-logo-chronology/):
 
 | Period | Logo Style | Key Identifiers |
 | --- | --- | --- |
-| 1955 to 1967 | **Open-letter pearl inlay** | Pearl script "Gibson" with open "b" and "o" (counters/interiors are open voids); dot present over the "i" |
-| 1967 to 1969 | **Closed-letter pearl inlay** | "b" and "o" are filled/closed; dot over "i" drops off on some late-1960s examples |
-| 1970 to 1972 | **Closed letters, no dot on "i"** | Early Norlin period; closed "b" and "o" with the dot over "i" absent on most examples |
-| 1972 to present | **Closed letters, dot restored** | Closed "b" and "o" with dot over "i" reinstated, standard Norlin and post-Norlin logo |
+| 1955 to late 1968 | **Open-letter pearl block logo** | Block-letter "Gibson" with open "b" and "o" (counters/interiors are open voids) and a separate dot over the "i" |
+| Late 1968 to early 1970s | **No-dot transitional logo** | No dot over the "i"; open and closed "b" and "o" shapes both occur. Most common around 1969, so a missing dot alone does not prove a 1969 date |
+| 1970s to early 1980s | **Closed-letter Norlin logo** | Closed "b" and "o" are common, with the "o" joining the "n" near the bottom. The dot returns gradually, and dated 1972 and 1973 guitars can still be dotless |
+| About 1981 to early 1990s | **Squared modern logo** | Squared, closed letters can remain, but the "o" now joins the "n" near the top |
+| Mid-1990s to present | **Rounded modern logo** | Rounded, open letters with the high "o" to "n" join and a separate dot over the "i" |
 
 ### Headstock Shape & Back
 
@@ -435,11 +436,11 @@ Gibson begins using pressed/laminated maple backs as a cost reduction. Transitio
 
 #### Classic Florentine Era, Patent Number Pickups
 
-Laminated maple backs standard. Patent Number humbuckers, gold covers, narrow neck spacing. Florentine cutaway. 5-piece maple/mahogany neck. 6-digit impressed headstock serial (no "Made in USA"). Open-letter pearl "Gibson" logo (through 1967). Top-hat reflector knobs. "Custom" truss rod cover. All gold hardware.
+Laminated maple backs standard. Patent Number humbuckers, gold covers, narrow neck spacing. Florentine cutaway. 5-piece maple/mahogany neck. 6-digit impressed headstock serial (no "Made in USA"). Open-letter pearl "Gibson" logo with a dotted "i" (through late 1968). Top-hat reflector knobs. "Custom" truss rod cover. All gold hardware.
 
 #### Logo Change & T-Top Transition
 
-Around 1967: Gibson logo changes to closed-letter style (filled "b" and "o"). T-Top humbuckers begin appearing, replacing earlier Patent Number construction. Witch-hat/bell knobs begin replacing top-hat style. Florentine cutaway continues through 1968; Venetian begins returning in very late 1968 on some examples. Laminated back.
+Around 1967 to 1968: the open-letter pearl logo with a dotted "i" continues until late 1968, when the no-dot logo begins to appear. T-Top humbuckers begin appearing, replacing earlier Patent Number construction. Witch-hat/bell knobs begin replacing top-hat style. Florentine cutaway continues through 1968; Venetian begins returning in very late 1968 on some examples. Laminated back.
 
 #### Venetian Returns · Solid Back Returns · Nut Widens
 
@@ -447,11 +448,11 @@ Venetian (rounded) cutaway fully reinstated. **Solid carved maple back returns**
 
 #### Norlin Era Begins, "Made in USA", New Truss Rod Cover
 
-ECL/Norlin acquires Gibson's parent company. "Made in USA" stamp now appears below headstock serial on every Gibson from this point forward. Its presence confirms post-1969 manufacture. **Truss rod cover changes from "Custom" to black cover reading "Byrdland."** Venetian cutaway. Solid back. Wider nut (1 11/16"). Norlin-era interior label. Kalamazoo production continues. Natural and Sunburst finishes. Logo transitions to closed-letter with no dot over "i" on some early examples.
+ECL/Norlin acquires Gibson's parent company. "Made in USA" stamp now appears below headstock serial on every Gibson from this point forward. Its presence confirms post-1969 manufacture. **Truss rod cover changes from "Custom" to black cover reading "Byrdland."** Venetian cutaway. Solid back. Wider nut (1 11/16"). Norlin-era interior label. Kalamazoo production continues. Natural and Sunburst finishes. The logo usually has no dot over the "i" in the early 1970s, and closed "b" and "o" letterforms become common through the decade.
 
 #### Wine Red Introduced (Limited)
 
-Wine Red finish offered in limited production for 1972 and 1974 only, extremely rare. Venetian cutaway. Solid back. Norlin-era construction throughout. Logo dot restored by 1972.
+Wine Red finish offered in limited production for 1972 and 1974 only, extremely rare. Venetian cutaway. Solid back. Norlin-era construction throughout. The logo dot returns gradually, and dated 1972 and 1973 examples can still be dotless.
 
 #### Decal Serial · Volute Appears
 
@@ -518,7 +519,7 @@ Use this checklist when examining any Byrdland. Not all items apply to all eras,
 -   Nut width: 1⅝" (narrow) for pre-1969; 1 11/16" for 1969 and later, always measure, don't estimate
 -   Neck seam(s) on back of neck match claimed era: thin walnut center strip = pre-1962 (3-piece); alternating maple/mahogany stripes = 1962 onward (5-piece)
 -   Volute is present only if claimed era is roughly 1970 to 1981
--   Gibson logo: open-letter pearl inlay pre-1967; closed-letter 1967 onward, always pearl inlay, never a decal
+-   Gibson logo: open letters with a dotted "i" through late 1968; no dot from late 1968 into the early 1970s; closed letters common through the 1970s. Always pearl inlay, never a decal
 -   Neck joins at 14th fret for all but the very earliest (1955) examples
 -   Neck does not taper conventionally, width is nearly uniform from nut to body
 

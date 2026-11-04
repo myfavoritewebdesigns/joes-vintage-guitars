@@ -114,7 +114,7 @@ Because these were built in a single short run, the specs are consistent from gu
 | Tailpiece | Separate stop-bar (no Vibrola, not string-through) |
 | Pickguard | Large three-ply plastic, cream |
 | Hardware finish | Chrome |
-| Headstock | Short second-version peghead, black face, gold Gibson logo, bell truss rod cover |
+| Headstock | Short second-version peghead, black face, [Gibson logo on the white bell truss rod cover](/gibson-headstock-logo-chronology/#logo-materials) |
 | Tuners | Gibson Deluxe double-ring, as built (this example wears Grovers, see below) |
 | Medallion | Gold coin in the lower bass wing, "Limited Edition Model," eagle, Gibson logo, and a stamped number |
 | Case | Hardshell |
@@ -123,9 +123,9 @@ A few of these are worth a closer look.
 
 <figure>
 
-![Front of the black headstock on a 1971 Gibson Flying V Medallion, with the gold Gibson script logo, a white bell-shaped truss rod cover, and three tuners per side.](../../assets/blog/gibson-flying-v-medallion-guide/gibson-flying-v-headstock-gibson-logo.jpg)
+![Front of the black headstock on a 1971 Gibson Flying V Medallion, with the Gibson logo on a white bell-shaped truss rod cover and three tuners per side.](../../assets/blog/gibson-flying-v-medallion-guide/gibson-flying-v-headstock-gibson-logo.jpg)
 
-<figcaption>The short second-version headstock, black face with the gold Gibson logo and a bell-shaped truss rod cover. It is noticeably shorter than the elongated 1958 peghead.</figcaption>
+<figcaption>The short second-version headstock, black face with the Gibson logo on the bell-shaped truss rod cover. It is noticeably shorter than the elongated 1958 peghead.</figcaption>
 
 </figure>
 
