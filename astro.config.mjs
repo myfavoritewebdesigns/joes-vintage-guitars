@@ -42,7 +42,8 @@ export default defineConfig({
   devToolbar: { enabled: false },
   integrations: [
     sitemap({
-      filter: (page) => !SITEMAP_EXCLUDE.some((path) => page === `${SITE_URL}${path}`),
+      filter: (page) => !new URL(page).pathname.startsWith('/forum-sample/') &&
+        !SITEMAP_EXCLUDE.some((path) => page === `${SITE_URL}${path}`),
     }),
   ],
   vite: {

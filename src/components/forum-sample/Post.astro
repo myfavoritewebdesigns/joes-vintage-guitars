@@ -1,0 +1,12 @@
+---
+import Identity from './Identity.astro';
+import { memberBySlug, formatDate, guideUrl, type Post } from '../../data/forum-sample';
+interface Props { post: Post; original?: boolean; }
+const { post, original = false } = Astro.props;
+---
+<article id={post.id} class="forum-card p-5 sm:p-6">
+  <div class="mb-5 flex flex-wrap items-start justify-between gap-3"><Identity member={memberBySlug(post.author)} /><div class="text-xs text-stone-500">{original && <span class="mb-1 block font-semibold text-[#74382d]">Original post</span>}<a href={`#${post.id}`}><time datetime={post.date}>{formatDate(post.date)}</time></a></div></div>
+  <div class="forum-prose max-w-3xl text-[15px]">{post.body.map((paragraph) => <p>{paragraph}</p>)}</div>
+  {post.guide && <a class="mt-4 inline-block text-sm font-semibold text-[#74382d] underline" href={guideUrl(post.guide.slug)}>{post.guide.label}</a>}
+  {post.photo && <figure class="mt-5 max-w-md rounded border border-dashed border-stone-300 bg-stone-50 p-8 text-center"><div aria-hidden="true" class="mx-auto mb-3 h-12 w-16 rounded border-2 border-stone-300"></div><figcaption class="text-xs text-stone-500">Member photo goes here</figcaption></figure>}
+</article>

@@ -1,0 +1,13 @@
+---
+import Identity from './Identity.astro';
+import { threadPosts, memberBySlug, formatDate, type Thread } from '../../data/forum-sample';
+interface Props { thread: Thread; }
+const { thread } = Astro.props;
+const allPosts = threadPosts(thread.slug);
+const first = allPosts[0];
+const last = allPosts.at(-1)!;
+---
+<article class="grid gap-4 border-b border-stone-200 p-5 last:border-b-0 sm:grid-cols-[minmax(0,1fr)_auto] sm:items-center">
+  <div class="min-w-0"><h2 class="mb-3 text-lg"><a class="hover:text-[#74382d] hover:underline" href={`/forum-sample/t/${thread.slug}/`}>{thread.title}</a></h2><Identity member={memberBySlug(first.author)} /></div>
+  <div class="text-sm text-stone-600 sm:text-right"><p>{allPosts.length - 1} replies</p><p class="mt-1 text-xs">Last activity <time datetime={last.date}>{formatDate(last.date)}</time></p></div>
+</article>

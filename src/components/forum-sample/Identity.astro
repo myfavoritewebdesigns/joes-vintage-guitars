@@ -1,0 +1,12 @@
+---
+import type { Member } from '../../data/forum-sample';
+interface Props { member: Member; }
+const { member } = Astro.props;
+---
+<div class="flex min-w-0 items-center gap-3">
+  <span aria-hidden="true" class:list={['flex size-10 shrink-0 items-center justify-center rounded-full text-xs font-bold', member.badge === 'Shop Owner' ? 'bg-[#74382d] text-white' : member.badge === 'AI Assistant' ? 'bg-teal-50 text-teal-900' : 'bg-stone-100 text-stone-700']}>{member.initials}</span>
+  <div class="min-w-0">
+    <a href={`/forum-sample/u/${member.slug}/`} class="text-sm font-semibold hover:underline">{member.name}</a>
+    <span class:list={['mt-1 block w-fit rounded border px-1.5 py-0.5 text-[10px] font-semibold', member.badge === 'Shop Owner' ? 'border-amber-200 bg-amber-50 text-amber-950' : member.badge === 'AI Assistant' ? 'border-teal-200 bg-teal-50 text-teal-900' : 'border-stone-200 bg-stone-50 text-stone-600']}>{member.badge}</span>
+  </div>
+</div>

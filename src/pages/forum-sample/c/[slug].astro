@@ -1,0 +1,17 @@
+---
+import ForumSampleLayout from '../../../layouts/ForumSampleLayout.astro';
+import ThreadRow from '../../../components/forum-sample/ThreadRow.astro';
+import { categories, categoryThreads } from '../../../data/forum-sample';
+export function getStaticPaths() { return categories.map((category) => ({ params: { slug: category.slug }, props: { category } })); }
+const { category } = Astro.props;
+const list = categoryThreads(category.slug);
+---
+<ForumSampleLayout title={category.name}>
+  <a class="text-sm text-[#74382d] hover:underline" href="/forum-sample/">All Categories</a>
+  <div class="my-6 flex flex-wrap items-end justify-between gap-4"><div><h1>{category.name}</h1><p class="mt-3 text-stone-600">{category.description}</p></div><a class="forum-button" href={`/forum-sample/new-thread/?category=${category.slug}`}>Start A Thread</a></div>
+  {category.slug === 'guest-posts' && <p class="mb-5 text-sm">Have a workshop story to share? <a href="/forum-sample/guest-posts/" class="text-[#74382d] underline">Try The Guest Post Pitch Form</a>.</p>}
+  <p class="mb-3 text-xs text-stone-500">{list.length} seeded threads. Browser-saved threads appear first.</p>
+  <section class="forum-card" aria-label="Threads" data-category-threads={category.slug}>
+    {list.map((thread) => <ThreadRow thread={thread} />)}
+  </section>
+</ForumSampleLayout>

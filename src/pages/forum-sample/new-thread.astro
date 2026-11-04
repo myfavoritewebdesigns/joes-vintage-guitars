@@ -1,0 +1,24 @@
+---
+import ForumSampleLayout from '../../layouts/ForumSampleLayout.astro';
+import ReplyBox from '../../components/forum-sample/ReplyBox.astro';
+import { categories } from '../../data/forum-sample';
+---
+<ForumSampleLayout title="New Thread">
+  <div data-create-thread class="max-w-3xl">
+    <a href="/forum-sample/" class="text-sm text-[#74382d] hover:underline">All Categories</a>
+    <h1 class="mb-3 mt-5">Start A Thread</h1><p class="mb-6 text-stone-600">Try posting as Sample Member 1, Demo Account. Saved in your browser only.</p>
+    <noscript><p class="mb-6">Enable JavaScript to try posting. <a href="/forum-sample/" class="text-[#74382d] underline">Browse The Seeded Discussions</a> without JavaScript.</p></noscript>
+    <form data-thread-form class="forum-card space-y-5 p-5 sm:p-6">
+      <label class="block text-sm font-semibold">Category<select disabled name="category" required class="forum-field">{categories.map((category) => <option value={category.slug}>{category.name}</option>)}</select></label>
+      <label class="block text-sm font-semibold">Thread Title<input disabled name="title" required maxlength="120" class="forum-field" placeholder="What would you like to ask?" /></label>
+      <label class="block text-sm font-semibold">Your Post<textarea disabled name="body" required maxlength="3000" rows="6" class="forum-field" placeholder="Share a few details"></textarea></label>
+      <p class="text-xs text-stone-500">Use demo details only. This sample does not upload photos or contact anyone.</p>
+      <button disabled class="forum-button" type="submit">Save Demo Thread</button><p role="status" data-status class="text-sm text-stone-600"></p>
+    </form>
+  </div>
+  <section hidden data-local-thread>
+    <a data-local-category href="/forum-sample/" class="text-sm text-[#74382d] underline">Back To Category</a><h1 data-local-title class="mb-3 mt-5"></h1><p class="mb-6 text-sm text-stone-600">Saved in your browser only. This thread is visible on this device and browser.</p>
+    <div data-local-posts class="space-y-4"></div><ReplyBox />
+    <a href="/forum-sample/new-thread/" class="mt-6 inline-block text-sm text-[#74382d] underline">Start Another Thread</a>
+  </section>
+</ForumSampleLayout>

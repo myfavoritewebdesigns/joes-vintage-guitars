@@ -1,0 +1,59 @@
+---
+import '../styles/global.css';
+import BrowserDemo from '../components/forum-sample/BrowserDemo.astro';
+interface Props { title: string; }
+const { title } = Astro.props;
+const navigation = [
+  ['Categories', '/forum-sample/'], ['Guest Posts', '/forum-sample/guest-posts/'],
+  ['Moderation', '/forum-sample/moderation/'], ['About This Sample', '/forum-sample/about/'],
+];
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex, nofollow" />
+    <title>{title} | Vintage Guitar Forum</title>
+    <meta name="description" content="A placeholder forum sample for Joe's review." />
+  </head>
+  <body class="bg-[#f7f5f0] text-stone-800 antialiased">
+    <a href="#main-content" class="sr-only focus:not-sr-only focus:block focus:bg-white focus:p-3">Skip To Content</a>
+    <header class="border-t-4 border-[#74382d] bg-white">
+      <div class="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-4 px-4 py-6 sm:px-6">
+        <a href="/forum-sample/" class="flex min-w-0 items-center gap-3 no-underline">
+          <span aria-hidden="true" class="flex size-11 shrink-0 items-center justify-center rounded-full bg-[#74382d] font-serif text-xl text-white">V</span>
+          <span class="font-serif text-xl font-bold sm:text-2xl">Vintage Guitar Forum</span>
+        </a>
+        <span class="rounded-full border border-amber-200 bg-amber-50 px-3 py-1 text-xs font-semibold text-amber-950">Sample for review</span>
+      </div>
+      <nav aria-label="Forum" class="border-t border-stone-100">
+        <div class="mx-auto flex max-w-6xl flex-wrap gap-x-6 gap-y-2 px-4 py-3 text-sm sm:px-6">
+          {navigation.map(([label, href]) => <a href={href} aria-current={Astro.url.pathname === href ? 'page' : undefined} class="py-1 font-medium hover:text-[#74382d] aria-[current=page]:text-[#74382d] aria-[current=page]:underline">{label}</a>)}
+          <a href="/forum-sample/new-thread/" class="font-semibold text-[#74382d] sm:ml-auto">+ New Thread</a>
+        </div>
+      </nav>
+    </header>
+    <div class="border-y border-[#e7dbc4] bg-[#f1e9da] px-4 py-3 text-center text-sm text-[#573b27]">Sample forum for Joe's review. Every post here is placeholder demo content.</div>
+    <main id="main-content" class="mx-auto min-h-[60vh] max-w-6xl px-4 py-8 sm:px-6 sm:py-10"><slot /></main>
+    <footer class="mx-auto max-w-6xl border-t border-stone-300 px-4 py-6 text-sm text-stone-600 sm:px-6">
+      <div class="flex flex-wrap justify-between gap-3"><p>Vintage Guitar Forum <span class="mx-2" aria-hidden="true">/</span> A sample for Joe's review</p><a class="underline" href="/forum-sample/about/">About This Sample</a></div>
+    </footer>
+    <BrowserDemo />
+  </body>
+</html>
+<style is:global>
+  body { overflow-wrap: anywhere; }
+  h1, h2, h3 { font-family: Georgia, 'Times New Roman', serif; text-wrap: balance; }
+  h1 { font-size: clamp(1.8rem, 5vw, 2.5rem); line-height: 1.2; }
+  h2 { font-size: 1.35rem; line-height: 1.35; }
+  p { line-height: 1.7; }
+  a, button, input, textarea, select { touch-action: manipulation; }
+  :focus-visible { outline: 3px solid #995529; outline-offset: 4px; }
+  input, textarea, select { max-width: 100%; min-width: 0; }
+  .forum-card { border: 1px solid #e4dfd6; border-radius: .6rem; background: white; }
+  .forum-button { display: inline-block; border-radius: .35rem; background: #74382d; color: white; padding: .7rem 1rem; font-size: .875rem; font-weight: 600; text-decoration: none; }
+  .forum-button:hover { background: #54271f; }
+  .forum-field { display: block; width: 100%; border: 1px solid #a8a29e; border-radius: .3rem; background: white; padding: .65rem .75rem; margin-top: .4rem; font-size: 1rem; }
+  .forum-prose p + p { margin-top: .8rem; }
+</style>

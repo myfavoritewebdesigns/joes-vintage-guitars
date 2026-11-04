@@ -1,0 +1,31 @@
+---
+import ForumSampleLayout from '../../../layouts/ForumSampleLayout.astro';
+import Post from '../../../components/forum-sample/Post.astro';
+import ReplyBox from '../../../components/forum-sample/ReplyBox.astro';
+import { threads, categories, threadPosts, memberBySlug, guideUrl } from '../../../data/forum-sample';
+export function getStaticPaths() { return threads.map((thread) => ({ params: { slug: thread.slug }, props: { thread } })); }
+const { thread } = Astro.props;
+const category = categories.find((item) => item.slug === thread.category)!;
+const allPosts = threadPosts(thread.slug);
+const original = allPosts[0];
+const url = guideUrl(`forum-sample/t/${thread.slug}`);
+const schemaAuthor = (slug: string) => {
+  const member = memberBySlug(slug);
+  return { '@type': slug === 'forum-helper' ? 'Organization' : 'Person', name: member.name, url: guideUrl(`forum-sample/u/${slug}`) };
+};
+const postText = (post: typeof original) => [...post.body, ...(post.guide ? [`${post.guide.label}: ${guideUrl(post.guide.slug)}`] : [])].join('\n\n');
+const schema = {
+  '@context': 'https://schema.org', '@type': 'DiscussionForumPosting', headline: thread.title,
+  text: postText(original), author: schemaAuthor(original.author), datePublished: original.date,
+  dateModified: allPosts.at(-1)!.date, url, mainEntityOfPage: url,
+  comment: allPosts.slice(1).map((post) => ({ '@type': 'Comment', text: postText(post), author: schemaAuthor(post.author), datePublished: post.date, url: `${url}#${post.id}` })),
+  interactionStatistic: { '@type': 'InteractionCounter', interactionType: 'https://schema.org/CommentAction', userInteractionCount: allPosts.length - 1 },
+};
+---
+<ForumSampleLayout title={thread.title}>
+  <nav aria-label="Breadcrumb" class="mb-5 flex flex-wrap gap-2 text-sm text-[#74382d]"><a href="/forum-sample/" class="hover:underline">Categories</a><span aria-hidden="true">/</span><a href={`/forum-sample/c/${category.slug}/`} class="hover:underline">{category.name}</a></nav>
+  <h1>{thread.title}</h1><p class="mb-6 mt-3 text-sm text-stone-500"><span data-reply-count data-seeded={allPosts.length - 1}>{allPosts.length - 1}</span> replies <span aria-hidden="true">/</span> Placeholder discussion</p>
+  <div class="space-y-4" data-posts data-thread={thread.slug}>{allPosts.map((post, index) => <Post post={post} original={index === 0} />)}</div>
+  <ReplyBox thread={thread.slug} />
+  <script is:inline type="application/ld+json" set:html={JSON.stringify(schema).replace(/</g, '\\u003c')} />
+</ForumSampleLayout>

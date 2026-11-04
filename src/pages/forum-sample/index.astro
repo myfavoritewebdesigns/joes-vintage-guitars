@@ -1,0 +1,25 @@
+---
+import ForumSampleLayout from '../../layouts/ForumSampleLayout.astro';
+import Identity from '../../components/forum-sample/Identity.astro';
+import { categories, threads, posts, categoryThreads, threadPosts, memberBySlug, formatDate } from '../../data/forum-sample';
+---
+<ForumSampleLayout title="Categories">
+  <div class="mb-7 flex flex-wrap items-end justify-between gap-4"><div><p class="mb-2 text-xs font-semibold uppercase tracking-widest text-[#74382d]">The Discussion Board</p><h1>Vintage Guitars, Shared Knowledge</h1><p class="mt-3 text-stone-600">Identification, stories and advice from the shop bench.</p></div><a class="forum-button" href="/forum-sample/new-thread/">Start A Thread</a></div>
+  <div class="mb-6 flex flex-wrap gap-x-5 gap-y-1 text-xs text-stone-600"><span>{categories.length} categories</span><span>{threads.length} sample threads</span><span>{posts.length} demo posts</span><span>October 2026</span></div>
+  <div class="grid items-start gap-6 lg:grid-cols-[minmax(0,1fr)_280px]">
+    <section class="forum-card overflow-hidden" aria-label="Forum Categories">
+      <div class="border-b border-stone-200 bg-stone-50 px-5 py-3 text-xs font-semibold uppercase tracking-wider text-stone-500">Browse Categories</div>
+      {categories.map((category) => {
+        const list = categoryThreads(category.slug);
+        const latestThread = list[0];
+        const latest = threadPosts(latestThread.slug).at(-1)!;
+        return <article class="border-b border-stone-200 p-5 last:border-b-0"><div class="flex items-start justify-between gap-4"><div class="min-w-0"><h2 class="text-lg"><a href={`/forum-sample/c/${category.slug}/`} class="hover:text-[#74382d] hover:underline">{category.name}</a></h2><p class="mt-1 text-sm text-stone-600">{category.description}</p></div><span class="shrink-0 rounded bg-stone-100 px-2 py-1 text-xs text-stone-600">{list.length} {list.length === 1 ? 'thread' : 'threads'}</span></div><div class="mt-3 border-l-2 border-[#e9dccb] pl-3 text-xs text-stone-500"><a href={`/forum-sample/t/${latestThread.slug}/#${latest.id}`} class="font-medium text-stone-700 hover:underline">{latestThread.title}</a><p class="mt-1">Latest: {memberBySlug(latest.author).name} <span class="rounded bg-stone-100 px-1">{memberBySlug(latest.author).badge}</span> <span aria-hidden="true">/</span> <time datetime={latest.date}>{formatDate(latest.date)}</time></p></div></article>;
+      })}
+    </section>
+    <aside class="space-y-5">
+      <section class="forum-card p-5"><h2 class="mb-4">Expert Contributors</h2><Identity member={memberBySlug('joe-dampt')} /><p class="mt-4 text-sm text-stone-600">Owner, lead appraiser and head of preservation at Joe's Vintage Guitars in Mesa, Arizona.</p><a href="/forum-sample/u/joe-dampt/" class="mt-4 inline-block text-sm font-semibold text-[#74382d] underline">Visit Joe's Expert Page</a></section>
+      <section class="forum-card p-5"><h2>How This Forum Works</h2><ol class="mt-4 space-y-4 text-sm text-stone-600"><li><span class="font-semibold text-stone-800">1. Members post.</span> Share a question, a few details and photos.</li><li><span class="font-semibold text-stone-800">2. The AI helper responds.</span> In the proposed forum it answers within the day and flags anything it cannot verify for Joe.</li><li><span class="font-semibold text-stone-800">3. A person approves every new member.</span> The moderation queue shows the review process.</li></ol><a class="mt-4 inline-block text-sm text-[#74382d] underline" href="/forum-sample/moderation/">View The Sample Queue</a></section>
+      <p class="px-1 text-xs leading-relaxed text-stone-500">A platform preview for vintageguitarforum.com. All discussions are demo content, including Joe's replies.</p>
+    </aside>
+  </div>
+</ForumSampleLayout>

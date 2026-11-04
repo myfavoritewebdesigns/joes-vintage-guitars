@@ -1,0 +1,24 @@
+---
+import ForumSampleLayout from '../../../layouts/ForumSampleLayout.astro';
+import Identity from '../../../components/forum-sample/Identity.astro';
+import ThreadRow from '../../../components/forum-sample/ThreadRow.astro';
+import { members, threads, posts, threadPosts, guideUrl } from '../../../data/forum-sample';
+export function getStaticPaths() { return members.map((member) => ({ params: { slug: member.slug }, props: { member } })); }
+const { member } = Astro.props;
+const started = threads.filter((thread) => threadPosts(thread.slug)[0].author === member.slug);
+const replies = posts.filter((post) => post.author === member.slug && threadPosts(post.thread)[0].id !== post.id);
+const isJoe = member.slug === 'joe-dampt';
+---
+<ForumSampleLayout title={isJoe ? "Joe Dampt's Expert Page" : member.name}>
+  <a href="/forum-sample/" class="text-sm text-[#74382d] hover:underline">All Categories</a>
+  <section class="forum-card my-6 p-6 sm:p-8">
+    <p class="mb-2 text-xs font-semibold uppercase tracking-widest text-[#74382d]">{isJoe ? 'Expert Page' : 'Member Profile'}</p>
+    <h1 class="mb-5">{member.name}</h1><Identity member={member} />
+    <p class="mt-6 max-w-3xl text-stone-600">{member.bio}</p>
+    <div class="mt-5 flex flex-wrap gap-5 text-sm"><span><strong>{started.length}</strong> threads started</span><span><strong>{replies.length}</strong> replies</span></div>
+    {isJoe && <div class="mt-6"><h2>Specialties</h2><ul class="mt-3 list-inside list-disc space-y-2 text-sm text-stone-600">{member.specialties?.map((specialty) => <li>{specialty}</li>)}</ul><p class="mt-6 text-sm"><a href="https://www.joesvintageguitarsaz.com/" class="font-semibold text-[#74382d] underline">Visit Joe's Vintage Guitars</a><span class="mx-3" aria-hidden="true">/</span><a href={guideUrl('about-me')} class="text-[#74382d] underline">Read Joe's Published Bio</a></p><p class="mt-4 text-xs text-stone-500">Profile facts come from Joe's published about page. His forum replies are placeholder demo content.</p></div>}
+  </section>
+  {isJoe && <section class="mb-8"><h2 class="mb-4">From Joe's Collection And Workshop</h2><div class="grid grid-cols-2 gap-3 sm:grid-cols-3">{Array.from({ length: 6 }, (_, i) => <div class="flex aspect-[4/3] items-center justify-center rounded border border-dashed border-stone-300 bg-[#eee9e0] p-4 text-center text-xs text-stone-600" aria-label={`Photo placeholder ${i + 1}`}>Joe's photos go here</div>)}</div></section>}
+  <section class="mb-8"><h2 class="mb-4">Threads Started</h2>{started.length ? <div class="forum-card">{started.map((thread) => <ThreadRow thread={thread} />)}</div> : <p class="text-sm text-stone-600">No seeded threads started.</p>}</section>
+  <section><h2 class="mb-4">Replies</h2>{replies.length ? <div class="forum-card divide-y divide-stone-200">{replies.map((post) => <article class="p-5"><a href={`/forum-sample/t/${post.thread}/#${post.id}`} class="font-semibold text-[#74382d] hover:underline">{threads.find((thread) => thread.slug === post.thread)!.title}</a><p class="mt-2 text-sm text-stone-600">{post.body[0]}</p></article>)}</div> : <p class="text-sm text-stone-600">No seeded replies.</p>}</section>
+</ForumSampleLayout>

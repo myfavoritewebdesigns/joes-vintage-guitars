@@ -1,0 +1,17 @@
+---
+import ForumSampleLayout from '../../layouts/ForumSampleLayout.astro';
+---
+<ForumSampleLayout title="Guest Posts">
+  <div class="max-w-3xl"><h1>Guest Posts From The Workshop</h1><div class="forum-prose my-6 text-stone-600"><p>Shops, builders and collectors could share a repair story, a build or a useful identification detail. Send a topic and a short pitch to start.</p><p>Joe or the helper reviews the pitch before publication. An approved post would include the author's bio and a link back to their shop or site.</p><p>This form demonstrates the process. Nothing is sent, reviewed or published.</p></div>
+    <a href="/forum-sample/t/repair-bench-sample/" class="mb-6 inline-block text-sm font-semibold text-[#74382d] underline">Read The Sample Guest Post</a>
+    <section class="forum-card p-5 sm:p-6"><h2>Pitch A Guest Post</h2><noscript><p class="mt-3 text-sm">Enable JavaScript to try the demo form. No pitch can be submitted from this sample.</p></noscript>
+      <form data-pitch-form class="mt-5 space-y-4">
+        <label class="block text-sm font-semibold">Name<input disabled class="forum-field" name="name" required maxlength="100" autocomplete="name" /></label>
+        <label class="block text-sm font-semibold">Shop Or Site<input disabled class="forum-field" name="site" required maxlength="200" /></label>
+        <label class="block text-sm font-semibold">Topic<input disabled class="forum-field" name="topic" required maxlength="150" /></label>
+        <label class="block text-sm font-semibold">Short Pitch<textarea disabled class="forum-field" name="pitch" required maxlength="2000" rows="4"></textarea></label>
+        <button disabled class="forum-button" type="submit">Try The Pitch Form</button><p data-status role="status" class="text-sm text-stone-600"></p>
+      </form>
+    </section>
+  </div>
+</ForumSampleLayout>

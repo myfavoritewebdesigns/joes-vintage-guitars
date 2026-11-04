@@ -1,0 +1,14 @@
+---
+interface Props { thread?: string; }
+const { thread } = Astro.props;
+---
+<section class="forum-card mt-6 p-5 sm:p-6" data-reply-section>
+  <h2>Reply</h2>
+  <p class="mt-2 text-sm text-stone-600">Try a reply as Sample Member 1, Demo Account. Saved in your browser only.</p>
+  <noscript><p class="mt-3 text-sm">Enable JavaScript to save a demo reply. The sample discussion is readable above.</p></noscript>
+  <form data-reply-form data-thread={thread} class="mt-5 space-y-4">
+    <label class="block text-sm font-semibold">Your Reply<textarea disabled name="body" required maxlength="3000" rows="4" class="forum-field" placeholder="Add to the discussion"></textarea></label>
+    <button disabled class="forum-button" type="submit">Save Demo Reply</button>
+    <p role="status" data-status class="text-sm text-stone-600"></p>
+  </form>
+</section>
