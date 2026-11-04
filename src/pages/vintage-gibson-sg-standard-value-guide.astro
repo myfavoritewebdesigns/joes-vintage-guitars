@@ -6,6 +6,10 @@ import ValueGuidePhotos from '../components/ValueGuidePhotos.astro';
 import { Content, getHeadings } from '../content/value-guides/vintage-gibson-sg-standard-value-guide.md';
 import data from '../data/value-guides/vintage-gibson-sg-standard-value-guide.json';
 import ogAsset from '../assets/images/gibson-sg-family-guide/early-60s-gibson-sg-standard-comparison.webp';
+import { getImage } from 'astro:assets';
+// The original file's own address is never written to dist (the page only uses resized
+// copies), so the share tags pointed at a 404. Build a real 1200 px JPEG for them instead.
+const ogImg = await getImage({ src: ogAsset, width: Math.min(ogAsset.width, 1200), format: 'jpg', quality: 86 });
 import { SITE_URL } from '../config/site';
 const headings = getHeadings().filter(h => h.depth === 2);
 const isPreview = import.meta.env.CF_PAGES_BRANCH
@@ -18,7 +22,7 @@ const faqSchema = {
 const structuredData = [faqSchema, {
   '@context': 'https://schema.org', '@type': 'Article',
   headline: data.h1, description: data.description,
-  image: SITE_URL + ogAsset.src,
+  image: SITE_URL + ogImg.src,
   datePublished: data.date, dateModified: data.date, inLanguage: 'en-US',
   author: { '@id': SITE_URL + '/about-me/#person' },
   publisher: { '@id': SITE_URL + '/' }, mainEntityOfPage: SITE_URL + data.url
@@ -31,7 +35,7 @@ const structuredData = [faqSchema, {
 }];
 ---
 <Layout title={data.title} description={data.description} canonical={data.url}
-  ogImage={SITE_URL + ogAsset.src} ogImageWidth={ogAsset.width} ogImageHeight={ogAsset.height} ogImageAlt={data.alt}
+  ogImage={SITE_URL + ogImg.src} ogImageWidth={Number(ogImg.attributes.width)} ogImageHeight={Number(ogImg.attributes.height)} ogImageAlt={data.alt}
   ogType="article" structuredData={structuredData} publishedTime={data.date} modifiedTime={data.date}
   noIndex={isPreview} bodyClass="ssvg-page">
   <GuideHero title={data.h1} image={ogAsset} alt={data.alt} brand="Gibson" eyebrow="Joe's Vintage Guitars / Value Reference" byline="By Joe Dampt · October 2026" />
