@@ -166,7 +166,7 @@ The ES-5 body is 17 inches across, the same width as an L-5, with a single round
 
 ![Headstock of a 1958 Gibson ES-5 Switchmaster showing the gold Gibson logo and the pearl crown inlay on a bound black headstock.](../../assets/blog/gibson-es-5-switchmaster-history-value/1958-gibson-es-5-switchmaster-headstock-crown-inlay.jpg)
 
-The headstock wears the Gibson logo and a pearl crown inlay, sometimes called the thistle, on a bound peghead. This is the correct ornament for the ES-5, and it is a useful check, because the acoustic L-5 uses a flowerpot inlay instead. If someone tells you an ES-5 should have a flowerpot on the headstock, that is the L-5 they are thinking of.
+The headstock wears the [Gibson logo](/gibson-headstock-logo-chronology/) and a pearl crown inlay, sometimes called the thistle, on a bound peghead. This is the correct ornament for the ES-5, and it is a useful check, because the acoustic L-5 uses a flowerpot inlay instead. If someone tells you an ES-5 should have a flowerpot on the headstock, that is the L-5 they are thinking of.
 
 ![Bound rosewood fingerboard with large pearl block inlays on a 1958 Gibson ES-5 Switchmaster.](../../assets/blog/gibson-es-5-switchmaster-history-value/1958-gibson-es-5-switchmaster-pearl-block-inlays.jpg)
 

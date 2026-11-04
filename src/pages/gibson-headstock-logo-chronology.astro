@@ -19,8 +19,8 @@ import modernLogo from '../assets/logos/2000-gibson-logo-modern-logo.jpg';
 import tvModelSilkscreen from '../assets/les-paul-family/feature-details/1957-gibson-les-paul-tv-model-logo-close-up.jpg';
 import { imageOrigin } from '../config/image-license';
 
-const title = 'Gibson Headstock Logo Dating Guide And Timeline';
-const description = 'Date a Gibson by its headstock logo, from the slanted “The Gibson” script and wartime banner to the missing dot over the “i” and today’s logo.';
+const title = 'Gibson Logo History: Every Gibson Headstock Logo By Year';
+const description = 'See every Gibson logo, from the slanted “The Gibson” script and wartime banner to the late 1960s no-dot logo and today’s, with real headstock photos.';
 const canonical = 'https://www.joesvintageguitarsaz.com/gibson-headstock-logo-chronology/';
 const share = await getImage({ src: modernLogo, width: 1200, height: 630, fit: 'cover', format: 'webp', quality: 88 });
 const shareUrl = new URL(share.src, imageOrigin).href;
@@ -38,7 +38,7 @@ const eras = [
   },
   {
     id: 'slanted-the-gibson', period: 'By 1906 To About 1928', shortPeriod: 'By 1906 To About 1928', name: 'Slanted “The Gibson” Script', src: slantedTheGibson,
-    alt: 'Vintage Gibson L-4 headstock with The Gibson in slanted pearl script',
+    alt: 'Slanted The Gibson pearl script logo on a vintage Gibson L-4 headstock',
     caption: 'The early “The Gibson” logo is set at an angle and uses thin, flowing script. This example is on a Gibson L-4.',
     summary: 'The best-known early logo spells out “The Gibson” in pearl script and runs diagonally across the peghead. The fine, hand-lettered appearance is very different from the postwar block logo.',
     fastClue: '“The Gibson” climbs diagonally',
@@ -48,7 +48,7 @@ const eras = [
   },
   {
     id: 'straight-the-gibson', period: 'About 1928 to 1932', shortPeriod: 'About 1928 to 1932', name: 'Straight “The Gibson” Script', src: straightTheGibson,
-    alt: 'Vintage four-string Gibson instrument with The Gibson written straight across in thin script',
+    alt: 'Straight The Gibson script logo running across the headstock of a vintage four-string Gibson',
     caption: 'This four-string instrument keeps the words “The Gibson,” but the logo reads straight across instead of climbing diagonally.',
     summary: 'Gibson straightened the earlier script across the top of the peghead before it dropped “The” from the brand mark. This is a useful prewar clue because both the wording and the angle are easy to compare.',
     fastClue: '“The Gibson” sits horizontally',
@@ -78,7 +78,7 @@ const eras = [
   },
   {
     id: 'banner-logo', period: '1942 to 1945', shortPeriod: '1942 to 1945', name: 'Wartime Banner Logo', src: bannerLogo,
-    alt: 'Wartime Gibson headstock with gold script and Only a Gibson Is Good Enough banner',
+    alt: 'Wartime Gibson banner logo with gold script and the Only a Gibson Is Good Enough slogan',
     caption: 'The gold silkscreened ribbon reads “Only a Gibson Is Good Enough.” The banner is one of Gibson’s clearest wartime dating features.',
     summary: 'The wartime banner sits below the gold script logo and carries the “Only a Gibson Is Good Enough” slogan. It is strongly associated with J-45, Southern Jumbo, LG-2 and related wartime flat-tops.',
     fastClue: 'Printed slogan below the script',
@@ -118,7 +118,7 @@ const eras = [
   },
   {
     id: 'no-dot-logo', period: 'Late 1968 to early 1970s', shortPeriod: 'Late 1968 to early 1970s', name: 'No-Dot Transitional Logo', src: noDot,
-    alt: '1969 Gibson headstock with curved open letters and no dot above the i',
+    alt: '1969 Gibson logo with curved open letters and no dot above the i',
     caption: 'This 1969 example has curved, open letters but no dot above the “i.” The missing dot is the useful clue here, not a claim that every 1969 logo is square.',
     summary: 'The missing dot above the “i” is the easiest late 1960s clue. Letterforms vary through the transition, including open and closed “b” and “o” shapes.',
     fastClue: 'No dot above the “i”',
@@ -138,7 +138,7 @@ const eras = [
   },
   {
     id: 'squared-modern-logo', period: 'About 1981 to early 1990s', shortPeriod: 'About 1981 to early 1990s', name: 'Squared Modern Logo', src: squaredModern,
-    alt: '1986 Gibson J-200 headstock with squared closed letters and high o to n connection',
+    alt: '1986 Gibson J-200 headstock logo with squared closed letters and a high o to n connection',
     caption: 'Joe’s 1986 J-200 shows the transitional modern construction: squared, closed letters remain, but the “o” now joins the “n” near the top.',
     summary: 'Around 1981, the “o” to “n” connection moves from the bottom toward the top while the letters can remain squared and closed. This makes the high join more useful than roundness for this period.',
     fastClue: 'High “o” to “n” join with squared letters',
@@ -159,6 +159,7 @@ const eras = [
 ];
 
 const faqs = [
+  ['What Is The Old Gibson Logo?', 'There is more than one. The oldest common logo is the slanted “The Gibson” pearl script, documented by 1906 and used into the late 1920s. Gibson then ran “The Gibson” straight across, dropped “The” in the early 1930s and used thin and later bold “Gibson” script through 1941. Many wartime flat-tops from 1942 to 1945 add the “Only a Gibson Is Good Enough” banner. The block logo most people picture arrived model by model from about 1947, and the 1950s and 1960s version with a separate dot over the “i” is the style many Historic reissues reproduce.'],
   ['Can A Gibson Headstock Logo Give Me An Exact Year?', 'Usually not. A logo is best used to narrow the guitar to an era. Gibson changed different model lines at different times, so the serial number, Factory Order Number, pot codes and construction still need to agree.'],
   ['Does A Missing Dot Over The “i” Mean My Gibson Is From 1969?', 'It strongly suggests the late 1960s or early 1970s, and it is especially common in 1969. It is not an exact one-year code because the transition began in late 1968 and continued on some instruments after 1969.'],
   ['Why Does The Logo Look Newer Than The Rest Of The Guitar?', 'The guitar may have a replacement neck, a repaired or replaced headstock veneer, or a refinish. Compare the neck joint, finish, serial number and construction before deciding what changed.'],
@@ -175,13 +176,13 @@ const schema = {
       author: { '@type': 'Person', '@id': 'https://www.joesvintageguitarsaz.com/about-me/#person', name: 'Joe Dampt', url: 'https://www.joesvintageguitarsaz.com/about-me/' },
       publisher: { '@type': 'Organization', name: 'Joe’s Vintage Guitars', url: 'https://www.joesvintageguitarsaz.com/' },
       datePublished: '2026-09-08',
-      dateModified: '2026-09-15',
+      dateModified: '2026-11-04',
     },
     {
       '@type': 'BreadcrumbList', itemListElement: [
         { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.joesvintageguitarsaz.com/' },
         { '@type': 'ListItem', position: 2, name: 'Gibson Serial Number Lookup', item: 'https://www.joesvintageguitarsaz.com/how-to-read-gibson-serial-numbers/' },
-        { '@type': 'ListItem', position: 3, name: 'Gibson Headstock Logo Chronology', item: canonical },
+        { '@type': 'ListItem', position: 3, name: 'Gibson Logo History', item: canonical },
       ],
     },
     {
@@ -197,11 +198,11 @@ const schema = {
   description={description}
   canonical={canonical}
   ogImage={shareUrl}
-  ogImageAlt="Gibson headstock logo used for the logo dating timeline"
+  ogImageAlt="Modern Gibson logo on a Les Paul Custom headstock"
   ogImageWidth={share.attributes.width}
   ogImageHeight={share.attributes.height}
   publishedTime="2026-09-09"
-  modifiedTime="2026-09-15"
+  modifiedTime="2026-11-04"
   structuredData={schema}
 >
     <a href="#logo-guide" class="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-50 focus:bg-cream focus:px-4 focus:py-2">Skip to the Gibson logo guide</a>
@@ -210,11 +211,11 @@ const schema = {
         <div class="logo-container logo-hero__grid">
           <div>
             <p class="logo-eyebrow">Gibson Dating Guides</p>
-            <h1>Gibson Headstock <span>Logo Chronology</span></h1>
-            <p class="logo-lede">Compare original Gibson headstock photographs from early pegheads through “The Gibson” script, the wartime banner, the 1950s block logo, the Norlin years and two modern wordmark periods.</p>
+            <h1>Gibson Logo <span>History By Year</span></h1>
+            <p class="logo-lede">The Gibson logo on a guitar’s headstock changed many times, and each version helps narrow down when the guitar was made. Compare original photographs from early pegheads through “The Gibson” script, the wartime banner, the 1950s block logo, the Norlin years and two modern wordmark periods.</p>
         <p class="jvg-guide-context">If you're unsure the worn name says Gibson, start with <a class="underline underline-offset-4" href="/what-brand-is-my-guitar/">how to identify a guitar brand</a>.</p>
             <a class="logo-hero__jump" href="#logo-timeline">Jump straight to the logo timeline</a>
-            <p class="logo-byline">By <a href="https://www.joesvintageguitarsaz.com/about-me/">Joe Dampt</a> · Updated September 15, 2026</p>
+            <p class="logo-byline">By <a href="https://www.joesvintageguitarsaz.com/about-me/">Joe Dampt</a> · Updated November 4, 2026</p>
           </div>
           <aside class="logo-read-card" aria-labelledby="read-logo-title">
             <p class="logo-eyebrow">Start Here</p>
@@ -266,7 +267,7 @@ const schema = {
 
         <section class="logo-section" id="at-a-glance">
           <p class="logo-eyebrow">Quick Reference</p>
-          <h2>Gibson Headstock Logo Timeline At A Glance</h2>
+          <h2>Gibson Logos Through The Years At A Glance</h2>
           <p>These are working date ranges. The photo sections below explain the overlap and the details to inspect.</p>
           <div class="logo-table-card">
             <table>
@@ -322,22 +323,22 @@ const schema = {
           <p class="logo-eyebrow">Continue the Inspection</p>
           <h2>Related Gibson Dating And Identification Guides</h2>
           <div class="logo-related-grid">
-            <a class="logo-related-card" href="https://www.joesvintageguitarsaz.com/how-to-read-gibson-serial-numbers/"><h3>Gibson Serial Number Lookup</h3><p>Decode the serial or FON, then compare its possible date with the logo era.</p><span>Use The Lookup And Charts</span></a>
-            <a class="logo-related-card" href="/gibson-pot-codes/"><h3>Gibson Pot Code Guide</h3><p>Read maker, year and week codes when the serial number fits more than one year.</p><span>Read The Pot Code Guide</span></a>
-            <a class="logo-related-card" href="/gibson-physical-features-hardware-guide/"><h3>Gibson Physical Features And Hardware</h3><p>Cross-check the logo with neck construction, volutes, body seams, bridges and plating.</p><span>Open The Hardware Guide</span></a>
-            <a class="logo-related-card" href="https://www.joesvintageguitarsaz.com/post/identify-vintage-gibson-j45-j50-sj/"><h3>Gibson J-45, J-50 And Southern Jumbo</h3><p>Compare silkscreen, banner and pearl logos on Gibson’s slope-shouldered acoustics.</p><span>Read The Acoustic Guide</span></a>
-            <a class="logo-related-card" href="https://www.joesvintageguitarsaz.com/post/gibson-les-paul-tv-model-guide/"><h3>Gibson Les Paul TV Model Guide</h3><p>See the gold silkscreen in model-specific context with finish, hardware and serial evidence.</p><span>Read The TV Model Guide</span></a>
-            <a class="logo-related-card" href="/gibson-es-335-345-355-dating-guide/"><h3>Gibson ES-335, ES-345 And ES-355</h3><p>Cross-date thinline headstocks with inlays, pickups, hardware and electronics.</p><span>Open The ES Family Guide</span></a>
-            <a class="logo-related-card" href="https://www.joesvintageguitarsaz.com/post/gibson-j200-model-history-authentication-guide/"><h3>Gibson J-200 Guide</h3><p>Cross-date an acoustic Gibson with its logo, label, FON, construction and hardware.</p><span>Read The J-200 Guide</span></a>
-            <a class="logo-related-card" href="https://www.joesvintageguitarsaz.com/post/gibson-l5-ces-value-guide/"><h3>Gibson L-5 CES Guide</h3><p>Follow premium archtop logos, flowerpot inlays and model changes in their proper context.</p><span>Read The L-5 CES Guide</span></a>
-            <a class="logo-related-card" href="/vintage-gibson-les-paul-market-value-guide/"><h3>Vintage Gibson Les Paul Value Guide</h3><p>Compare published Les Paul ranges after the logo, model, year and original parts have been checked.</p><span>Read The Value Guide</span></a>
-            <a class="logo-related-card logo-related-card--sell" href="https://www.joesvintageguitarsaz.com/sell-my-gibson-guitar/"><h3>Sell My Gibson Guitar</h3><p>Joe buys vintage Gibson guitars nationwide and can help identify what you have.</p><span>Learn How To Sell Your Gibson</span></a>
+            <a class="logo-related-card" href="https://www.joesvintageguitarsaz.com/how-to-read-gibson-serial-numbers/"><strong class="logo-related-card__title">Gibson Serial Number Lookup</strong><p>Decode the serial or FON, then compare its possible date with the logo era.</p><span>Use The Lookup And Charts</span></a>
+            <a class="logo-related-card" href="/gibson-pot-codes/"><strong class="logo-related-card__title">Gibson Pot Code Guide</strong><p>Read maker, year and week codes when the serial number fits more than one year.</p><span>Read The Pot Code Guide</span></a>
+            <a class="logo-related-card" href="/gibson-physical-features-hardware-guide/"><strong class="logo-related-card__title">Gibson Physical Features And Hardware</strong><p>Cross-check the logo with neck construction, volutes, body seams, bridges and plating.</p><span>Open The Hardware Guide</span></a>
+            <a class="logo-related-card" href="https://www.joesvintageguitarsaz.com/post/identify-vintage-gibson-j45-j50-sj/"><strong class="logo-related-card__title">Gibson J-45, J-50 And Southern Jumbo</strong><p>Compare silkscreen, banner and pearl logos on Gibson’s slope-shouldered acoustics.</p><span>Read The Acoustic Guide</span></a>
+            <a class="logo-related-card" href="https://www.joesvintageguitarsaz.com/post/gibson-les-paul-tv-model-guide/"><strong class="logo-related-card__title">Gibson Les Paul TV Model Guide</strong><p>See the gold silkscreen in model-specific context with finish, hardware and serial evidence.</p><span>Read The TV Model Guide</span></a>
+            <a class="logo-related-card" href="/gibson-es-335-345-355-dating-guide/"><strong class="logo-related-card__title">Gibson ES-335, ES-345 And ES-355</strong><p>Cross-date thinline headstocks with inlays, pickups, hardware and electronics.</p><span>Open The ES Family Guide</span></a>
+            <a class="logo-related-card" href="https://www.joesvintageguitarsaz.com/post/gibson-j200-model-history-authentication-guide/"><strong class="logo-related-card__title">Gibson J-200 Guide</strong><p>Cross-date an acoustic Gibson with its logo, label, FON, construction and hardware.</p><span>Read The J-200 Guide</span></a>
+            <a class="logo-related-card" href="https://www.joesvintageguitarsaz.com/post/gibson-l5-ces-value-guide/"><strong class="logo-related-card__title">Gibson L-5 CES Guide</strong><p>Follow premium archtop logos, flowerpot inlays and model changes in their proper context.</p><span>Read The L-5 CES Guide</span></a>
+            <a class="logo-related-card" href="/vintage-gibson-les-paul-market-value-guide/"><strong class="logo-related-card__title">Vintage Gibson Les Paul Value Guide</strong><p>Compare published Les Paul ranges after the logo, model, year and original parts have been checked.</p><span>Read The Value Guide</span></a>
+            <a class="logo-related-card logo-related-card--sell" href="https://www.joesvintageguitarsaz.com/sell-my-gibson-guitar/"><strong class="logo-related-card__title">Sell My Gibson Guitar</strong><p>Joe buys vintage Gibson guitars nationwide and can help identify what you have.</p><span>Learn How To Sell Your Gibson</span></a>
           </div>
         </section>
 
         <section class="logo-section" id="logo-faq">
           <p class="logo-eyebrow">Common Questions</p>
-          <h2>Gibson Headstock Logo Questions</h2>
+          <h2>Gibson Logo Questions</h2>
           <div class="logo-faq">
             {faqs.map(([question, answer]) => <details><summary>{question}</summary><p>{answer}</p></details>)}
           </div>
@@ -415,7 +416,7 @@ const schema = {
   .logo-check-grid span { display: grid; width: 1.8rem; height: 1.8rem; place-items: center; border-radius: 50%; background: var(--color-wine-dark); color: white; font-family: var(--font-display); }
   .logo-section a.logo-related-card { display: flex; min-height: 100%; flex-direction: column; border: 1px solid var(--color-rule); border-top: 4px solid var(--color-wine-dark); border-radius: .8rem; background: white; padding: 1.25rem; color: var(--color-ink); text-decoration: none; transition: transform .18s ease, box-shadow .18s ease; }
   .logo-section a.logo-related-card:hover, .logo-section a.logo-related-card:focus-visible { transform: translateY(-2px); box-shadow: 0 .6rem 1.4rem rgb(56 34 22 / .12); }
-  .logo-related-card h3 { margin: 0 0 .65rem; font-family: var(--font-display); font-size: 1.3rem; }
+  .logo-related-card__title { display: block; margin: 0 0 .65rem; font-family: var(--font-display); font-size: 1.3rem; font-weight: inherit; }
   .logo-related-card p { margin: 0 0 1rem; color: #5f5149; line-height: 1.65; }
   .logo-related-card span { margin-top: auto; color: var(--color-wine-dark); font-weight: 800; text-decoration: underline; text-underline-offset: 3px; }
   .logo-section a.logo-related-card--sell { border-top-color: var(--color-gold); background: var(--color-cream); }

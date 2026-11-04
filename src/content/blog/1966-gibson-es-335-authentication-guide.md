@@ -62,7 +62,7 @@ Here is the short version before the detail sections. A factory-correct 1966 ES-
 -   **Nut:** White nylon or white plastic, not bone. Bone on a claimed 1966 points to a replacement.
 -   **Fingerboard:** Rosewood, bound on both edges in single-ply cream, with fret nibs present at every position on original frets.
 -   **Inlays:** Cellulose nitrate pearloid blocks, not dots and not solid mother-of-pearl. Side dots are tortoise amber-brown, not white.
--   **Headstock:** Mother-of-pearl crown inlay and pearloid Gibson logo, both inlaid flush rather than applied as a decal. Blank bell-shaped truss rod cover with no text.
+-   **Headstock:** Mother-of-pearl crown inlay and [pearloid Gibson logo](/gibson-headstock-logo-chronology/#golden-era-block), both inlaid flush rather than applied as a decal. Blank bell-shaped truss rod cover with no text.
 -   **Pickups:** Humbuckers carrying the black "Patent No 2,737,842" sticker on the base plate, Alnico magnets, braid-covered coaxial leads, roughly 7.5k to 8.5k ohms per pickup. Most 1966 examples are pre-T-top, though the T-top changeover ran from 1965 into 1967 and either can turn up.
 -   **Controls:** Two volume, two tone, and a three-way toggle on the upper bout, with the output jack recessed into a side-mounted barrel cup. Braid-covered coaxial wiring throughout.
 -   **Pots and capacitors:** CTS was the usual 1966 supplier, so codes read 137 66XX. A Sprague "Black Beauty" capacitor is period-correct through about 1969, and ceramic disc or Vitamin Q units also turn up.

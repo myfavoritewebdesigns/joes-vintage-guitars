@@ -83,7 +83,7 @@ The fingerboard inlays are plain dots, and on a student-grade Junior they are cr
 
 ### Headstock And Tuners
 
-Headstock is standard Gibson 3+3 with no binding and a black-painted face. The "Gibson" script and "Les Paul Junior" designation are silk-screened in gold ink rather than inlaid in pearl. Pearl logos were one of the things Gibson stripped to hit the $99.50 price point. Tuners are Kluson strip tuners with three machines on a single mounting strip per side, stamped housings, oval plastic buttons. Original Klusons from this era have brass shafts. Reproductions and later replacements often use pot metal that looks visually identical until you turn the tuner under hand and feel the difference. There's also a fast field check: brass is non-magnetic. If a small magnet picks up on the shafts of "original" tuners, they aren't original.
+Headstock is standard Gibson 3+3 with no binding and a black-painted face. The "Gibson" script and "Les Paul Junior" designation are [silk-screened in gold ink](/gibson-headstock-logo-chronology/#logo-materials) rather than inlaid in pearl. Pearl logos were one of the things Gibson stripped to hit the $99.50 price point. Tuners are Kluson strip tuners with three machines on a single mounting strip per side, stamped housings, oval plastic buttons. Original Klusons from this era have brass shafts. Reproductions and later replacements often use pot metal that looks visually identical until you turn the tuner under hand and feel the difference. There's also a fast field check: brass is non-magnetic. If a small magnet picks up on the shafts of "original" tuners, they aren't original.
 
 ### Pickup: The P-90 "Dog Ear"
 

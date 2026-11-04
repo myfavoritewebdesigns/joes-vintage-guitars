@@ -64,7 +64,7 @@ For Banner headstocks, wartime wood variations and later construction changes, u
     
 -   **Binding:** Multi-ply binding on the top and back, and almost always features a **bound fingerboard**.
     
--   **Logo:** A pearl-inlaid logo (often with a “Crown” or “Crest” inlay on the headstock). Gibson Script & Banner logo guitars are an exception to this.
+-   **Logo:** A pearl-inlaid logo (often with a “Crown” or “Crest” inlay on the headstock). Gibson Script & [Banner logo](/gibson-headstock-logo-chronology/#banner-logo) guitars are an exception to this.
     
 
 ![Close-up of the split-parallelogram mother of pearl inlays](../../assets/blog/identify-vintage-gibson-j45-j50-sj/gibson-parallelogram-inlays-1-1024x683.jpg)
