@@ -1,0 +1,782 @@
+[
+  {
+    "label": "Total Les Paul Deluxe",
+    "models": [
+      "les-paul-deluxe"
+    ],
+    "year": 1970,
+    "total": 2587,
+    "source": "https://www.vintageguitarandbass.com/gibson/Les_Paul_Deluxe.php"
+  },
+  {
+    "label": "Total Les Paul Deluxe",
+    "models": [
+      "les-paul-deluxe"
+    ],
+    "year": 1971,
+    "total": 4466,
+    "source": "https://www.vintageguitarandbass.com/gibson/Les_Paul_Deluxe.php"
+  },
+  {
+    "label": "Total Les Paul Deluxe",
+    "models": [
+      "les-paul-deluxe"
+    ],
+    "year": 1972,
+    "total": 5194,
+    "source": "https://www.vintageguitarandbass.com/gibson/Les_Paul_Deluxe.php"
+  },
+  {
+    "label": "Total Les Paul Deluxe",
+    "models": [
+      "les-paul-deluxe"
+    ],
+    "year": 1973,
+    "total": 10484,
+    "source": "https://www.vintageguitarandbass.com/gibson/Les_Paul_Deluxe.php"
+  },
+  {
+    "label": "Total Les Paul Deluxe",
+    "models": [
+      "les-paul-deluxe"
+    ],
+    "year": 1974,
+    "total": 7367,
+    "source": "https://www.vintageguitarandbass.com/gibson/Les_Paul_Deluxe.php"
+  },
+  {
+    "label": "Total Les Paul Deluxe",
+    "models": [
+      "les-paul-deluxe"
+    ],
+    "year": 1975,
+    "total": 2561,
+    "source": "https://www.vintageguitarandbass.com/gibson/Les_Paul_Deluxe.php"
+  },
+  {
+    "label": "Total Les Paul Deluxe",
+    "models": [
+      "les-paul-deluxe"
+    ],
+    "year": 1976,
+    "total": 172,
+    "source": "https://www.vintageguitarandbass.com/gibson/Les_Paul_Deluxe.php"
+  },
+  {
+    "label": "Total Les Paul Deluxe",
+    "models": [
+      "les-paul-deluxe"
+    ],
+    "year": 1977,
+    "total": 413,
+    "source": "https://www.vintageguitarandbass.com/gibson/Les_Paul_Deluxe.php"
+  },
+  {
+    "label": "Total Les Paul Deluxe",
+    "models": [
+      "les-paul-deluxe"
+    ],
+    "year": 1978,
+    "total": 4450,
+    "source": "https://www.vintageguitarandbass.com/gibson/Les_Paul_Deluxe.php"
+  },
+  {
+    "label": "Total Les Paul Deluxe",
+    "models": [
+      "les-paul-deluxe"
+    ],
+    "year": 1979,
+    "total": 413,
+    "source": "https://www.vintageguitarandbass.com/gibson/Les_Paul_Deluxe.php"
+  },
+  {
+    "label": "Total L6-S Custom",
+    "models": [
+      "l-6s-custom"
+    ],
+    "year": 1973,
+    "total": 181,
+    "source": "https://www.vintageguitarandbass.com/gibson/L6S_shipping.php"
+  },
+  {
+    "label": "Total L6-S Custom",
+    "models": [
+      "l-6s-custom"
+    ],
+    "year": 1974,
+    "total": 5044,
+    "source": "https://www.vintageguitarandbass.com/gibson/L6S_shipping.php"
+  },
+  {
+    "label": "Total L6-S Custom",
+    "models": [
+      "l-6s-custom"
+    ],
+    "year": 1975,
+    "total": 2115,
+    "source": "https://www.vintageguitarandbass.com/gibson/L6S_shipping.php"
+  },
+  {
+    "label": "Total L6-S Custom",
+    "models": [
+      "l-6s-custom"
+    ],
+    "year": 1976,
+    "total": 2516,
+    "source": "https://www.vintageguitarandbass.com/gibson/L6S_shipping.php"
+  },
+  {
+    "label": "Total L6-S Custom",
+    "models": [
+      "l-6s-custom"
+    ],
+    "year": 1977,
+    "total": 1131,
+    "source": "https://www.vintageguitarandbass.com/gibson/L6S_shipping.php"
+  },
+  {
+    "label": "Total L6-S Custom",
+    "models": [
+      "l-6s-custom"
+    ],
+    "year": 1978,
+    "total": 1463,
+    "source": "https://www.vintageguitarandbass.com/gibson/L6S_shipping.php"
+  },
+  {
+    "label": "Total L6-S Custom",
+    "models": [
+      "l-6s-custom"
+    ],
+    "year": 1979,
+    "total": 10,
+    "source": "https://www.vintageguitarandbass.com/gibson/L6S_shipping.php"
+  },
+  {
+    "label": "Total L6-S Deluxe",
+    "models": [
+      "l-6s-deluxe"
+    ],
+    "year": 1975,
+    "total": 1239,
+    "source": "https://www.vintageguitarandbass.com/gibson/L6S_shipping.php"
+  },
+  {
+    "label": "Total L6-S Deluxe",
+    "models": [
+      "l-6s-deluxe"
+    ],
+    "year": 1976,
+    "total": 964,
+    "source": "https://www.vintageguitarandbass.com/gibson/L6S_shipping.php"
+  },
+  {
+    "label": "Total L6-S Deluxe",
+    "models": [
+      "l-6s-deluxe"
+    ],
+    "year": 1977,
+    "total": 964,
+    "source": "https://www.vintageguitarandbass.com/gibson/L6S_shipping.php"
+  },
+  {
+    "label": "Total L6-S Deluxe",
+    "models": [
+      "l-6s-deluxe"
+    ],
+    "year": 1978,
+    "total": 313,
+    "source": "https://www.vintageguitarandbass.com/gibson/L6S_shipping.php"
+  },
+  {
+    "label": "Total L6-S Deluxe",
+    "models": [
+      "l-6s-deluxe"
+    ],
+    "year": 1979,
+    "total": 3,
+    "source": "https://www.vintageguitarandbass.com/gibson/L6S_shipping.php"
+  },
+  {
+    "label": "Total Midnight Special",
+    "models": [
+      "midnight-special"
+    ],
+    "year": 1974,
+    "total": 1149,
+    "source": "https://www.vintageguitarandbass.com/gibson/L6S_shipping.php"
+  },
+  {
+    "label": "Total Midnight Special",
+    "models": [
+      "midnight-special"
+    ],
+    "year": 1975,
+    "total": 763,
+    "source": "https://www.vintageguitarandbass.com/gibson/L6S_shipping.php"
+  },
+  {
+    "label": "Total Midnight Special",
+    "models": [
+      "midnight-special"
+    ],
+    "year": 1976,
+    "total": 129,
+    "source": "https://www.vintageguitarandbass.com/gibson/L6S_shipping.php"
+  },
+  {
+    "label": "Total Midnight Special",
+    "models": [
+      "midnight-special"
+    ],
+    "year": 1977,
+    "total": 29,
+    "source": "https://www.vintageguitarandbass.com/gibson/L6S_shipping.php"
+  },
+  {
+    "label": "Total Midnight Special",
+    "models": [
+      "midnight-special"
+    ],
+    "year": 1978,
+    "total": 3,
+    "source": "https://www.vintageguitarandbass.com/gibson/L6S_shipping.php"
+  },
+  {
+    "label": "Total Midnight Special",
+    "models": [
+      "midnight-special"
+    ],
+    "year": 1979,
+    "total": 4,
+    "source": "https://www.vintageguitarandbass.com/gibson/L6S_shipping.php"
+  },
+  {
+    "label": "Total",
+    "models": [
+      "marauder",
+      "marauder-custom"
+    ],
+    "year": 1974,
+    "total": 1,
+    "source": "https://www.vintageguitarandbass.com/gibson/Marauder_2.php"
+  },
+  {
+    "label": "Total",
+    "models": [
+      "marauder",
+      "marauder-custom"
+    ],
+    "year": 1975,
+    "total": 2906,
+    "source": "https://www.vintageguitarandbass.com/gibson/Marauder_2.php"
+  },
+  {
+    "label": "Total",
+    "models": [
+      "marauder",
+      "marauder-custom"
+    ],
+    "year": 1976,
+    "total": 745,
+    "source": "https://www.vintageguitarandbass.com/gibson/Marauder_2.php"
+  },
+  {
+    "label": "Total",
+    "models": [
+      "marauder",
+      "marauder-custom"
+    ],
+    "year": 1977,
+    "total": 80,
+    "source": "https://www.vintageguitarandbass.com/gibson/Marauder_2.php"
+  },
+  {
+    "label": "Total",
+    "models": [
+      "marauder",
+      "marauder-custom"
+    ],
+    "year": 1978,
+    "total": 3178,
+    "source": "https://www.vintageguitarandbass.com/gibson/Marauder_2.php"
+  },
+  {
+    "label": "Total",
+    "models": [
+      "marauder",
+      "marauder-custom"
+    ],
+    "year": 1979,
+    "total": 202,
+    "source": "https://www.vintageguitarandbass.com/gibson/Marauder_2.php"
+  },
+  {
+    "label": "Total",
+    "models": [
+      "s-1"
+    ],
+    "year": 1975,
+    "total": 1064,
+    "source": "https://www.vintageguitarandbass.com/gibson/S1_controls.php"
+  },
+  {
+    "label": "Total",
+    "models": [
+      "s-1"
+    ],
+    "year": 1976,
+    "total": 742,
+    "source": "https://www.vintageguitarandbass.com/gibson/S1_controls.php"
+  },
+  {
+    "label": "Total",
+    "models": [
+      "s-1"
+    ],
+    "year": 1977,
+    "total": 70,
+    "source": "https://www.vintageguitarandbass.com/gibson/S1_controls.php"
+  },
+  {
+    "label": "Total",
+    "models": [
+      "s-1"
+    ],
+    "year": 1978,
+    "total": 1158,
+    "source": "https://www.vintageguitarandbass.com/gibson/S1_controls.php"
+  },
+  {
+    "label": "Total",
+    "models": [
+      "s-1"
+    ],
+    "year": 1979,
+    "total": 55,
+    "source": "https://www.vintageguitarandbass.com/gibson/S1_controls.php"
+  },
+  {
+    "label": "Total",
+    "models": [
+      "grabber-g1"
+    ],
+    "year": 1973,
+    "total": 1,
+    "source": "https://www.flyguitars.com/gibson/bass/GrabberShippingFigures.php"
+  },
+  {
+    "label": "Total",
+    "models": [
+      "grabber-g1"
+    ],
+    "year": 1974,
+    "total": 219,
+    "source": "https://www.flyguitars.com/gibson/bass/GrabberShippingFigures.php"
+  },
+  {
+    "label": "Total",
+    "models": [
+      "grabber-g1"
+    ],
+    "year": 1975,
+    "total": 2637,
+    "source": "https://www.flyguitars.com/gibson/bass/GrabberShippingFigures.php"
+  },
+  {
+    "label": "Total",
+    "models": [
+      "grabber-g1"
+    ],
+    "year": 1976,
+    "total": 1630,
+    "source": "https://www.flyguitars.com/gibson/bass/GrabberShippingFigures.php"
+  },
+  {
+    "label": "Total",
+    "models": [
+      "grabber-g1"
+    ],
+    "year": 1977,
+    "total": 1109,
+    "source": "https://www.flyguitars.com/gibson/bass/GrabberShippingFigures.php"
+  },
+  {
+    "label": "Total",
+    "models": [
+      "grabber-g1"
+    ],
+    "year": 1978,
+    "total": 808,
+    "source": "https://www.flyguitars.com/gibson/bass/GrabberShippingFigures.php"
+  },
+  {
+    "label": "Total",
+    "models": [
+      "grabber-g1"
+    ],
+    "year": 1979,
+    "total": 396,
+    "source": "https://www.flyguitars.com/gibson/bass/GrabberShippingFigures.php"
+  },
+  {
+    "label": "EB-0 Total",
+    "models": [
+      "eb-0"
+    ],
+    "year": 1959,
+    "total": 123,
+    "source": "https://www.flyguitars.com/gibson/bass/EB0ShippingFigures.php"
+  },
+  {
+    "label": "EB-0 Total",
+    "models": [
+      "eb-0"
+    ],
+    "year": 1960,
+    "total": 342,
+    "source": "https://www.flyguitars.com/gibson/bass/EB0ShippingFigures.php"
+  },
+  {
+    "label": "EB-0 Total",
+    "models": [
+      "eb-0"
+    ],
+    "year": 1961,
+    "total": 535,
+    "source": "https://www.flyguitars.com/gibson/bass/EB0ShippingFigures.php"
+  },
+  {
+    "label": "EB-0 Total",
+    "models": [
+      "eb-0"
+    ],
+    "year": 1962,
+    "total": 815,
+    "source": "https://www.flyguitars.com/gibson/bass/EB0ShippingFigures.php"
+  },
+  {
+    "label": "EB-0 Total",
+    "models": [
+      "eb-0"
+    ],
+    "year": 1963,
+    "total": 681,
+    "source": "https://www.flyguitars.com/gibson/bass/EB0ShippingFigures.php"
+  },
+  {
+    "label": "EB-0 Total",
+    "models": [
+      "eb-0"
+    ],
+    "year": 1964,
+    "total": 1133,
+    "source": "https://www.flyguitars.com/gibson/bass/EB0ShippingFigures.php"
+  },
+  {
+    "label": "EB-0 Total",
+    "models": [
+      "eb-0"
+    ],
+    "year": 1965,
+    "total": 2006,
+    "source": "https://www.flyguitars.com/gibson/bass/EB0ShippingFigures.php"
+  },
+  {
+    "label": "EB-0 Total",
+    "models": [
+      "eb-0"
+    ],
+    "year": 1966,
+    "total": 1660,
+    "source": "https://www.flyguitars.com/gibson/bass/EB0ShippingFigures.php"
+  },
+  {
+    "label": "EB-0 Total",
+    "models": [
+      "eb-0"
+    ],
+    "year": 1967,
+    "total": 1676,
+    "source": "https://www.flyguitars.com/gibson/bass/EB0ShippingFigures.php"
+  },
+  {
+    "label": "EB-0 Total",
+    "models": [
+      "eb-0"
+    ],
+    "year": 1968,
+    "total": 1350,
+    "source": "https://www.flyguitars.com/gibson/bass/EB0ShippingFigures.php"
+  },
+  {
+    "label": "EB-0 Total",
+    "models": [
+      "eb-0"
+    ],
+    "year": 1969,
+    "total": 3018,
+    "source": "https://www.flyguitars.com/gibson/bass/EB0ShippingFigures.php"
+  },
+  {
+    "label": "EB-0 Total",
+    "models": [
+      "eb-0"
+    ],
+    "year": 1970,
+    "total": 2896,
+    "source": "https://www.flyguitars.com/gibson/bass/EB0ShippingFigures.php"
+  },
+  {
+    "label": "EB-0 Total",
+    "models": [
+      "eb-0"
+    ],
+    "year": 1971,
+    "total": 1681,
+    "source": "https://www.flyguitars.com/gibson/bass/EB0ShippingFigures.php"
+  },
+  {
+    "label": "EB-0 Total",
+    "models": [
+      "eb-0"
+    ],
+    "year": 1972,
+    "total": 930,
+    "source": "https://www.flyguitars.com/gibson/bass/EB0ShippingFigures.php"
+  },
+  {
+    "label": "EB-0 Total",
+    "models": [
+      "eb-0"
+    ],
+    "year": 1973,
+    "total": 1408,
+    "source": "https://www.flyguitars.com/gibson/bass/EB0ShippingFigures.php"
+  },
+  {
+    "label": "EB-0 Total",
+    "models": [
+      "eb-0"
+    ],
+    "year": 1974,
+    "total": 384,
+    "source": "https://www.flyguitars.com/gibson/bass/EB0ShippingFigures.php"
+  },
+  {
+    "label": "EB-0 Total",
+    "models": [
+      "eb-0"
+    ],
+    "year": 1975,
+    "total": 95,
+    "source": "https://www.flyguitars.com/gibson/bass/EB0ShippingFigures.php"
+  },
+  {
+    "label": "EB-0 Total",
+    "models": [
+      "eb-0"
+    ],
+    "year": 1976,
+    "total": 55,
+    "source": "https://www.flyguitars.com/gibson/bass/EB0ShippingFigures.php"
+  },
+  {
+    "label": "EB-0 Total",
+    "models": [
+      "eb-0"
+    ],
+    "year": 1977,
+    "total": 36,
+    "source": "https://www.flyguitars.com/gibson/bass/EB0ShippingFigures.php"
+  },
+  {
+    "label": "EB-0 Total",
+    "models": [
+      "eb-0"
+    ],
+    "year": 1978,
+    "total": 14,
+    "source": "https://www.flyguitars.com/gibson/bass/EB0ShippingFigures.php"
+  },
+  {
+    "label": "EB-0 Total",
+    "models": [
+      "eb-0"
+    ],
+    "year": 1979,
+    "total": 6,
+    "source": "https://www.flyguitars.com/gibson/bass/EB0ShippingFigures.php"
+  },
+  {
+    "label": "EB-0L Total",
+    "models": [
+      "eb-0l"
+    ],
+    "year": 1970,
+    "total": 335,
+    "source": "https://www.flyguitars.com/gibson/bass/EB0ShippingFigures.php"
+  },
+  {
+    "label": "EB-0L Total",
+    "models": [
+      "eb-0l"
+    ],
+    "year": 1971,
+    "total": 363,
+    "source": "https://www.flyguitars.com/gibson/bass/EB0ShippingFigures.php"
+  },
+  {
+    "label": "EB-0L Total",
+    "models": [
+      "eb-0l"
+    ],
+    "year": 1972,
+    "total": 149,
+    "source": "https://www.flyguitars.com/gibson/bass/EB0ShippingFigures.php"
+  },
+  {
+    "label": "EB-0L Total",
+    "models": [
+      "eb-0l"
+    ],
+    "year": 1973,
+    "total": 251,
+    "source": "https://www.flyguitars.com/gibson/bass/EB0ShippingFigures.php"
+  },
+  {
+    "label": "EB-0L Total",
+    "models": [
+      "eb-0l"
+    ],
+    "year": 1974,
+    "total": 36,
+    "source": "https://www.flyguitars.com/gibson/bass/EB0ShippingFigures.php"
+  },
+  {
+    "label": "EB-0L Total",
+    "models": [
+      "eb-0l"
+    ],
+    "year": 1975,
+    "total": 12,
+    "source": "https://www.flyguitars.com/gibson/bass/EB0ShippingFigures.php"
+  },
+  {
+    "label": "EB-0L Total",
+    "models": [
+      "eb-0l"
+    ],
+    "year": 1976,
+    "total": 2,
+    "source": "https://www.flyguitars.com/gibson/bass/EB0ShippingFigures.php"
+  },
+  {
+    "label": "EB-0L Total",
+    "models": [
+      "eb-0l"
+    ],
+    "year": 1977,
+    "total": 5,
+    "source": "https://www.flyguitars.com/gibson/bass/EB0ShippingFigures.php"
+  },
+  {
+    "label": "Total",
+    "models": [
+      "les-paul-bass-triumph"
+    ],
+    "year": 1969,
+    "total": 33,
+    "source": "https://www.flyguitars.com/gibson/bass/LesPaulBassTriumphShippingFigures.php"
+  },
+  {
+    "label": "Total",
+    "models": [
+      "les-paul-bass-triumph"
+    ],
+    "year": 1970,
+    "total": 710,
+    "source": "https://www.flyguitars.com/gibson/bass/LesPaulBassTriumphShippingFigures.php"
+  },
+  {
+    "label": "Total",
+    "models": [
+      "les-paul-bass-triumph"
+    ],
+    "year": 1971,
+    "total": 321,
+    "source": "https://www.flyguitars.com/gibson/bass/LesPaulBassTriumphShippingFigures.php"
+  },
+  {
+    "label": "Total",
+    "models": [
+      "les-paul-bass-triumph"
+    ],
+    "year": 1972,
+    "total": 768,
+    "source": "https://www.flyguitars.com/gibson/bass/LesPaulBassTriumphShippingFigures.php"
+  },
+  {
+    "label": "Total",
+    "models": [
+      "les-paul-bass-triumph"
+    ],
+    "year": 1973,
+    "total": 959,
+    "source": "https://www.flyguitars.com/gibson/bass/LesPaulBassTriumphShippingFigures.php"
+  },
+  {
+    "label": "Total",
+    "models": [
+      "les-paul-bass-triumph"
+    ],
+    "year": 1974,
+    "total": 526,
+    "source": "https://www.flyguitars.com/gibson/bass/LesPaulBassTriumphShippingFigures.php"
+  },
+  {
+    "label": "Total",
+    "models": [
+      "les-paul-bass-triumph"
+    ],
+    "year": 1975,
+    "total": 208,
+    "source": "https://www.flyguitars.com/gibson/bass/LesPaulBassTriumphShippingFigures.php"
+  },
+  {
+    "label": "Total",
+    "models": [
+      "les-paul-bass-triumph"
+    ],
+    "year": 1976,
+    "total": 171,
+    "source": "https://www.flyguitars.com/gibson/bass/LesPaulBassTriumphShippingFigures.php"
+  },
+  {
+    "label": "Total",
+    "models": [
+      "les-paul-bass-triumph"
+    ],
+    "year": 1977,
+    "total": 101,
+    "source": "https://www.flyguitars.com/gibson/bass/LesPaulBassTriumphShippingFigures.php"
+  },
+  {
+    "label": "Total",
+    "models": [
+      "les-paul-bass-triumph"
+    ],
+    "year": 1978,
+    "total": 80,
+    "source": "https://www.flyguitars.com/gibson/bass/LesPaulBassTriumphShippingFigures.php"
+  },
+  {
+    "label": "Total",
+    "models": [
+      "les-paul-bass-triumph"
+    ],
+    "year": 1979,
+    "total": 44,
+    "source": "https://www.flyguitars.com/gibson/bass/LesPaulBassTriumphShippingFigures.php"
+  }
+]

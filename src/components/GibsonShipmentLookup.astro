@@ -1,0 +1,114 @@
+---
+import { shipmentData, lookupShipments, formatCount } from '../lib/gibson-shipments';
+const initialModel = 'les-paul-model-standard-1952-to-1960';
+const initial = lookupShipments(initialModel, 'all', '1958');
+const families = [...new Set(shipmentData.models.map(model => model.family))];
+---
+<section class="gpt-lookup" id="shipment-lookup" aria-labelledby="shipment-lookup-title">
+  <div class="gpt-lookup__intro">
+    <p class="gpt-lookup__eyebrow">Gibson Production Decoder</p>
+    <h2 id="shipment-lookup-title">Look Up A Model, Year And Finish</h2>
+    <p>This easy-to-use decoder helps you research Gibson guitar production numbers. Select a model, year and finish to see the recorded shipping total and any gaps in the records.</p>
+  </div>
+  <form class="gpt-lookup__form" id="gpt-form">
+    <label class="gpt-lookup__model">Model
+      <select id="gpt-model" name="model">
+        {families.map(family => <optgroup label={family}>{shipmentData.models.filter(model=>model.family===family).map(model=><option value={model.id} selected={model.id===initialModel}>{model.name}</option>)}</optgroup>)}
+      </select>
+    </label>
+    <label>Year
+      <select id="gpt-year" name="year"><option value="all">All Recorded Years</option>{Array.from({length:32},(_,i)=>1948+i).map(year=><option value={year} selected={year===1958}>{year}</option>)}</select>
+    </label>
+    <label>Finish
+      <select id="gpt-finish" name="finish"><option value="all">All Documented Categories</option><option>Goldtop</option><option>Sunburst</option><option>Not separated</option></select>
+    </label>
+    <label>Variant
+      <select id="gpt-variant" name="variant"><option value="all">All Listed Variants</option></select>
+    </label>
+    <button class="gpt-lookup__submit" type="submit">Look Up Shipments</button>
+  </form>
+  <div class="gpt-result" id="gpt-result" aria-live="polite" aria-atomic="true">
+    <p class="gpt-result__label" id="gpt-result-label">1958 · Les Paul Model / Standard</p>
+    <p class="gpt-result__count" id="gpt-result-count">{formatCount(initial.count!)}</p>
+    <p class="gpt-result__status" id="gpt-result-status">Recorded shipments</p>
+    <p id="gpt-result-note">The 1958 record combines Goldtops and Sunbursts. A separate finish count is not available in this series.</p>
+    <p id="gpt-model-note">{initial.model?.note}</p>
+    <p class="gpt-result__scope" id="gpt-result-scope">Published shipment records can differ from the number built. Missing entries do not establish zero production.</p>
+  </div>
+  <div id="gpt-breakdown" class="gpt-breakdown"></div>
+  <div class="gpt-lookup__actions"><button type="button" id="gpt-copy-link">Copy This Lookup</button><button type="button" id="gpt-download">Download These Records</button><span id="gpt-action-status" role="status"></span></div>
+  <noscript><p>The interactive lookup needs JavaScript. All checked records are available in the model tables below.</p></noscript>
+</section>
+<script>
+  import { shipmentData, lookupShipments, formatCount, shipmentCSV } from '../lib/gibson-shipments';
+  const select = (id: string) => document.getElementById(id) as HTMLSelectElement;
+  const model = select('gpt-model'); const year = select('gpt-year'); const finish = select('gpt-finish'); const variant = select('gpt-variant');
+  const resultCount = document.getElementById('gpt-result-count')!;
+  const text = (id: string, value: string) => {document.getElementById(id)!.textContent=value;};
+  function options(control: HTMLSelectElement, values: string[], first: string, selected = 'all') {
+    control.replaceChildren(new Option(first,'all'), ...values.map(value=>new Option(value || 'Unspecified variant',value || '')));
+    control.value=Array.from(control.options).some(option=>option.value===selected)?selected:'all';
+  }
+  function updateOptions(keep=false) {
+    const selectedModel=shipmentData.models.find(item=>item.id===model.value)!;
+    const rows=shipmentData.records.filter(row=>row.model===model.value);
+    options(finish,[...new Set([...rows.map(row=>row.finish),...selectedModel.finishHints])].sort(),'All Documented Categories',keep?finish.value:'all');
+    const variants=[...new Set(rows.map(row=>row.variant))].sort();
+    options(variant,variants.length>1||variants.some(Boolean)?variants:[],'All Listed Variants',keep?variant.value:'all');
+    variant.disabled=variant.options.length===1;
+  }
+  function render(updateUrl=true) {
+    const result=lookupShipments(model.value,finish.value,year.value,variant.value);
+    if(!result.model)return;
+    text('gpt-result-label',`${year.value==='all'?'All recorded years':year.value} · ${result.model.name}${finish.value==='all'?'':` · ${finish.value}`}`);
+    resultCount.textContent=result.count===null?result.status:formatCount(result.count);
+    resultCount.classList.toggle('gpt-result__count--text',result.count===null);
+    text('gpt-result-status',result.count===null?'Exact count unavailable':result.unallocated.length?'Recorded entries assigned to this finish':result.rows.length>1?'Sum of the listed shipment entries':'Reported shipment entry');
+    const span=result.years.length?`${result.years[0]}${result.years.length>1?` to ${result.years.at(-1)}`:''}`:'';
+    let explanation=result.count!==null?`${result.rows.length} ${result.rows.length===1?'entry':'entries'} in ${span}. This is a count of the records listed below. Coverage can be incomplete.`:result.disputed.length?'Conflicting figures are shown below. This selection has no single defensible total.':result.unseparated?'The source gives a broader model count. It does not isolate the selected finish; broader records below are context only.':'No checked record matches this selection. This does not mean that none were made.';
+    if(result.gaps.length)explanation+=` No numeric entry is included for ${result.gaps.join(', ')} within that span.`;
+    if(result.rows.length&&result.unallocated.length)explanation+=' Other records in this selection do not identify a finish and may include more examples in this color. The number shown covers only entries explicitly assigned to the selected finish. Choose All Documented Categories to see the unallocated records.';
+    text('gpt-result-note',explanation);text('gpt-model-note',result.model.note);
+    const box=document.getElementById('gpt-breakdown')!;box.replaceChildren();
+    const visibleRows=result.rows.length?result.rows:result.unseparated?result.context:[];
+    if(visibleRows.length){
+      const heading=document.createElement('h3');heading.textContent=result.unseparated?'Broader Records For Context':'Records Behind This Result';box.append(heading);
+      const scroll=document.createElement('div');scroll.className='gpt-table-scroll';scroll.tabIndex=0;scroll.setAttribute('role','region');scroll.setAttribute('aria-label','Shipment result records');
+      const table=document.createElement('table');const head=table.createTHead().insertRow();
+      for(const label of ['Year','Finish / Variant','Shipments']){const th=document.createElement('th');th.scope='col';th.textContent=label;head.append(th);}
+      const body=table.createTBody();
+      for(const row of visibleRows){const tr=body.insertRow();tr.insertCell().textContent=String(row.year);tr.insertCell().textContent=[row.finish,row.variant].filter(Boolean).join(' · ');
+        tr.insertCell().textContent=row.status==='disputed'?`Disputed${row.alternatives?`: ${row.alternatives.map(item=>formatCount(item.count)).join(' / ')}`:''}`:formatCount(row.count);
+      }
+      scroll.append(table);box.append(scroll);
+    }
+    (document.getElementById('gpt-download') as HTMLButtonElement).disabled=!result.rows.length;
+    if(updateUrl){const url=new URL(location.href);url.searchParams.set('model',model.value);url.searchParams.set('year',year.value);url.searchParams.set('finish',finish.value);if(variant.value!=='all')url.searchParams.set('variant',variant.value);else url.searchParams.delete('variant');history.replaceState(null,'',url);}
+  }
+  model.addEventListener('change',()=>{updateOptions();render();});
+  for(const control of [year,finish,variant])control.addEventListener('change',()=>render());
+  document.getElementById('gpt-form')!.addEventListener('submit',event=>{event.preventDefault();render();});
+  document.getElementById('gpt-copy-link')!.addEventListener('click',async()=>{render();const url=new URL(location.href);url.hash='shipment-lookup';try{await navigator.clipboard.writeText(url.href);text('gpt-action-status','Lookup link copied.');}catch{text('gpt-action-status','Copy the lookup URL from your address bar.');}});
+  document.getElementById('gpt-download')!.addEventListener('click',()=>{const result=lookupShipments(model.value,finish.value,year.value,variant.value);const url=URL.createObjectURL(new Blob(['\uFEFF'+shipmentCSV(result.rows, false)],{type:'text/csv;charset=utf-8'}));const a=document.createElement('a');a.href=url;a.download=`gibson-${model.value}-${year.value}-shipments.csv`;a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);text('gpt-action-status','Records downloaded.');});
+  const params=new URLSearchParams(location.search);if(shipmentData.models.some(item=>item.id===params.get('model')))model.value=params.get('model')!;
+  updateOptions();if(Array.from(year.options).some(option=>option.value===params.get('year')))year.value=params.get('year')!;
+  for(const [control,key]of [[finish,'finish'],[variant,'variant']] as const)if(Array.from(control.options).some(option=>option.value===params.get(key)))control.value=params.get(key)!;
+  render(false);
+</script>
+<style>
+  .gpt-lookup{margin:1.5rem 0 2.5rem;border:1px solid #d7c6a7;border-top:5px solid var(--color-brand-rust);background:#fffdf8;color:var(--color-brand-brown);padding:clamp(18px,3vw,34px);scroll-margin-top:140px}
+  .gpt-lookup__eyebrow{font-weight:700;letter-spacing:.12em;text-transform:uppercase;font-size:.78rem;margin:0 0 .6rem!important;color:var(--color-brand-rust-dark)}
+  .gpt-lookup h2{margin:0 0 12px!important;font-family:var(--font-display);font-size:clamp(1.65rem,3vw,2.2rem);line-height:1.2}.gpt-lookup__intro p{max-width:65ch}
+  .gpt-lookup__form{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin:24px 0}.gpt-lookup__model{grid-column:1/-1}
+  label{display:flex;flex-direction:column;gap:7px;font-size:.88rem;font-weight:700}
+  select{width:100%;min-width:0;min-height:48px;border:1px solid #8c795e;border-radius:3px;background:white;color:#362719;padding:10px 30px 10px 10px;font:inherit;font-weight:400}
+  button{min-height:46px;border:1px solid var(--color-brand-rust-dark);border-radius:3px;padding:10px 16px;font:inherit;font-size:.88rem;font-weight:700;cursor:pointer;color:var(--color-brand-rust-dark);background:white}
+  button:disabled{opacity:.5;cursor:not-allowed}.gpt-lookup__submit{align-self:end;background:var(--color-brand-rust-dark);color:white}
+  select:focus-visible,button:focus-visible{outline:3px solid #bc682b;outline-offset:3px}
+  .gpt-result{background:var(--color-brand-cream);border-left:4px solid var(--color-brand-rust-dark);padding:22px}
+  .gpt-result__label{font-size:.9rem;font-weight:700;margin:0 0 12px!important}.gpt-result__count{font-family:var(--font-display);font-size:clamp(3rem,7vw,5rem)!important;line-height:1.1;margin:0!important;color:var(--color-brand-rust-dark)}
+  .gpt-result__count--text{font-size:clamp(1.8rem,4vw,2.7rem)!important}.gpt-result__status{margin:6px 0 16px!important;font-weight:700}
+  .gpt-result__scope{font-size:.85rem!important;margin-bottom:0!important}.gpt-lookup__actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:20px}.gpt-lookup__actions span{font-size:.85rem;align-self:center}
+  .gpt-breakdown :global(h3){font-family:var(--font-display);font-size:1.35rem;margin:22px 0 10px}.gpt-breakdown :global(.gpt-table-scroll){overflow-x:auto;margin-top:16px}.gpt-breakdown :global(table){width:100%;min-width:560px;border-collapse:collapse;font-size:.86rem;text-align:left}.gpt-breakdown :global(th){background:var(--color-brand-brown);color:white;font-weight:700;padding:10px}.gpt-breakdown :global(td){vertical-align:top;padding:10px;border-bottom:1px solid #d7c6a7}.gpt-breakdown :global(td p){font-size:.8rem;margin:.4rem 0}.gpt-breakdown :global(a){color:var(--color-brand-rust-dark);text-decoration:underline}
+  @media(max-width:600px){.gpt-lookup__form{grid-template-columns:1fr}.gpt-result{padding:17px}.gpt-lookup__actions button{flex:1 1 160px}}
+</style>

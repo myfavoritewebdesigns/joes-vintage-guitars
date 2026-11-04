@@ -42,6 +42,8 @@ import OneOwner1955MartinD28Story from "../../components/OneOwner1955MartinD28St
 import OneOwner1956Martin00021Story from "../../components/OneOwner1956Martin00021Story.astro";
 import LesPaulFamilyGuide from "../../components/LesPaulFamilyGuide.astro";
 import GibsonSGFamilyGuide from "../../components/GibsonSGFamilyGuide.astro";
+import GibsonProductionGuide from "../../components/GibsonProductionGuide.astro";
+import GibsonShipmentLookup from "../../components/GibsonShipmentLookup.astro";
 import BrandDatingGuides from "../../components/BrandDatingGuides.astro";
 import { SITE_URL, hrefs, contact, imageLicense } from "../../config/site";
 import { getPublishedPosts, getRelated, categoryName, formatDate } from "../../lib/blog";
@@ -706,11 +708,12 @@ const articleSchema = {
       <p class:list={["bpost__meta", { "bpost__byline": isBurstYearGuide || isNorlinGuide }]}>
         By <a href="/about-me/">{data.author}</a>
         <span aria-hidden="true">·</span>
-        {isMartinValueArticle ? <span>Updated <time datetime={data.modified.toISOString()}>{data.modified.toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric", timeZone: "UTC" })}</time></span> : <time datetime={data.pubDate.toISOString()}>{formatDate(data.pubDate)}</time>}
+        {isMartinValueArticle || entry.id === 'gibson-shipping-totals-1948-1979' ? <span>Updated <time datetime={data.modified.toISOString()}>{data.modified.toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric", timeZone: "UTC" })}</time></span> : <time datetime={data.pubDate.toISOString()}>{formatDate(data.pubDate)}</time>}
       </p>
       {isBurstYearGuide && <p class="bpost__value-jump">
         <a href={`#${entry.id.slice(0, 4)}-les-paul-value`}>See {entry.id.slice(0, 4)} Les Paul Values</a>
       </p>}
+      {entry.id === 'gibson-shipping-totals-1948-1979' && <GibsonShipmentLookup />}
     </div>}
 
     {!hasGuideHero && !isFirebirdGuide && data.heroImage && (
@@ -749,7 +752,7 @@ const articleSchema = {
         <ul>{data.toc.map(t => <li><a href={t.href}>{t.label}</a></li>)}</ul>
       </nav>}
       <div class="blog-prose">
-        {isGap2ValueConversion || isMartinValueArticle ? <ValueGuidePhotos allImages><Content /></ValueGuidePhotos> : (isBurstYearGuide || isNorlinGuide) ? <LicensedMarkdownPhotos><Content /></LicensedMarkdownPhotos> : <Content />}
+        {entry.id === 'gibson-shipping-totals-1948-1979' ? <GibsonProductionGuide /> : isGap2ValueConversion || isMartinValueArticle ? <ValueGuidePhotos allImages><Content /></ValueGuidePhotos> : (isBurstYearGuide || isNorlinGuide) ? <LicensedMarkdownPhotos><Content /></LicensedMarkdownPhotos> : <Content />}
         {data.faqs.length > 0 && !data.faqsInline && <section class="post-faq" aria-labelledby="faq">
           <h2 id="faq">Frequently Asked Questions</h2>
           {data.faqs.map(item => <div class="post-faq-answer">
