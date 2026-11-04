@@ -572,12 +572,13 @@
     }
   ],
   "missingExactPhotos": [
-    "Blackface and silverface Champ/Vibro Champ",
-    "Silverface examples of these four families",
+    "Blackface and silverface non-tremolo Champ",
+    "Silverface Bassman, Super Reverb and Vibrolux Reverb",
     "Tweed Super"
   ],
   "missingInStock": [
     "1963 Concert"
   ],
-  "note": "Both Drive archives were searched for every model/year named in the brief during PR 1; see reports/amp-guides-1/drive-searches.json. PR 2 additionally inspected ten original model folders and duplicate folders, recorded privately in photo-folders.json and photo-folders-more.json."
+  "note": "Both Drive archives were searched for every model/year named in the brief during PR 1; see reports/amp-guides-1/drive-searches.json. PR 2 additionally inspected ten original model folders and duplicate folders, recorded privately in photo-folders.json and photo-folders-more.json.",
+  "champUpdate": "2026-11-04: eleven local gallery photos from Joe’s supplied Reverb listings add Champion 600, blackface Vibro Champ and drip-edge Vibro Champ coverage. See champ-listing-photos.json for URLs, hashes and condition notes."
 }

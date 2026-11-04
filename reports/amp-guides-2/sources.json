@@ -677,6 +677,39 @@
         "fender-bassman-authentication-guide#timeline"
       ],
       "note": "Visible Chrome page verified seller joesvintageguitars, title 1961 Blonde/Oxblood, and description identifying the original 1x12 tone-ring cabinet and a few replaced capacitors. Article attributes originality to the listing. Direct automated requests were blocked; browser read succeeded. No price imported."
+    },
+    {
+      "sourceId": "AMP2-S061",
+      "title": "Joe’s 1949 Champion 600",
+      "href": "https://reverb.com/item/71880693-fender-champion-600-1949",
+      "verifiedAt": "2026-11-04",
+      "sourceType": "Joe’s own listing supplied by Joe; viewed in signed-in Chrome",
+      "usedIn": [
+        "fender-champ-authentication-guide"
+      ],
+      "note": "1949 date; gallery and disclosed capacitor/cord replacements and handle wear."
+    },
+    {
+      "sourceId": "AMP2-S062",
+      "title": "Joe’s 1965 Blackface Vibro Champ",
+      "href": "https://reverb.com/item/100841502-fender-vibro-champ-1965-blackface",
+      "verifiedAt": "2026-11-04",
+      "sourceType": "Joe’s own listing supplied by Joe; viewed in signed-in Chrome",
+      "usedIn": [
+        "fender-champ-authentication-guide"
+      ],
+      "note": "Listing supplies 1965 date. Photographs support front/rear, chassis and printed AA764 observations. No new stamp decoding; listing power claim not used."
+    },
+    {
+      "sourceId": "AMP2-S063",
+      "title": "Joe’s 1968 Drip-Edge Vibro Champ",
+      "href": "https://reverb.com/item/63721946-fender-vibro-champ-1968-drip-edge",
+      "verifiedAt": "2026-11-04",
+      "sourceType": "Joe’s own listing supplied by Joe; viewed in signed-in Chrome",
+      "usedIn": [
+        "fender-champ-authentication-guide"
+      ],
+      "note": "Installed Warehouse replacement speaker; original loose speaker needs recone. Gallery identifies silver panel and aluminum trim."
     }
   ],
   "reissueTells": [
