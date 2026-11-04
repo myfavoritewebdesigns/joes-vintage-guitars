@@ -1,0 +1,275 @@
+{
+  "base": "http://127.0.0.1:4326",
+  "passed": true,
+  "worksWithoutJS": true,
+  "results": [
+    {
+      "width": 1440,
+      "initial": [
+        false,
+        false
+      ],
+      "hidden": true,
+      "linkCount": 12,
+      "links": [
+        {
+          "href": "/what-guitar-do-i-have/",
+          "text": "What Guitar Do I Have?"
+        },
+        {
+          "href": "/found-an-old-guitar/",
+          "text": "Found An Old Guitar?"
+        },
+        {
+          "href": "/what-brand-is-my-guitar/",
+          "text": "What Brand Is My Guitar?"
+        },
+        {
+          "href": "/how-old-is-my-guitar/",
+          "text": "How Old Is My Guitar?"
+        },
+        {
+          "href": "/post/is-your-vintage-guitar-valuable-7-factors-that-determine-its-value/",
+          "text": "What Affects My Guitar's Value?"
+        },
+        {
+          "href": "/what-lowers-vintage-guitar-value/",
+          "text": "What Lowers Vintage Guitar Value?"
+        },
+        {
+          "href": "/how-much-does-a-refinish-hurt-guitar-value/",
+          "text": "How A Refinish Affects Value"
+        },
+        {
+          "href": "/how-to-tell-if-a-guitar-has-been-refinished/",
+          "text": "How To Recognize A Refinish"
+        },
+        {
+          "href": "/do-replaced-pickups-hurt-guitar-value/",
+          "text": "Replaced Pickups And Guitar Value"
+        },
+        {
+          "href": "/should-i-restore-my-guitar-before-selling/",
+          "text": "Should You Restore Before Selling?"
+        },
+        {
+          "href": "/inherited-a-guitar/",
+          "text": "First Steps With An Inherited Guitar"
+        },
+        {
+          "href": "/selling-a-loved-ones-guitar/",
+          "text": "Keeping Or Selling A Loved One's Guitar"
+        }
+      ],
+      "clickOpened": true,
+      "secondStillClosed": true,
+      "keyboardOpened": true,
+      "allVisible": true,
+      "keyboardClosed": true,
+      "documentWidth": 1440,
+      "closedHeight": 133.59375,
+      "a11y": []
+    },
+    {
+      "width": 768,
+      "initial": [
+        false,
+        false
+      ],
+      "hidden": true,
+      "linkCount": 12,
+      "links": [
+        {
+          "href": "/what-guitar-do-i-have/",
+          "text": "What Guitar Do I Have?"
+        },
+        {
+          "href": "/found-an-old-guitar/",
+          "text": "Found An Old Guitar?"
+        },
+        {
+          "href": "/what-brand-is-my-guitar/",
+          "text": "What Brand Is My Guitar?"
+        },
+        {
+          "href": "/how-old-is-my-guitar/",
+          "text": "How Old Is My Guitar?"
+        },
+        {
+          "href": "/post/is-your-vintage-guitar-valuable-7-factors-that-determine-its-value/",
+          "text": "What Affects My Guitar's Value?"
+        },
+        {
+          "href": "/what-lowers-vintage-guitar-value/",
+          "text": "What Lowers Vintage Guitar Value?"
+        },
+        {
+          "href": "/how-much-does-a-refinish-hurt-guitar-value/",
+          "text": "How A Refinish Affects Value"
+        },
+        {
+          "href": "/how-to-tell-if-a-guitar-has-been-refinished/",
+          "text": "How To Recognize A Refinish"
+        },
+        {
+          "href": "/do-replaced-pickups-hurt-guitar-value/",
+          "text": "Replaced Pickups And Guitar Value"
+        },
+        {
+          "href": "/should-i-restore-my-guitar-before-selling/",
+          "text": "Should You Restore Before Selling?"
+        },
+        {
+          "href": "/inherited-a-guitar/",
+          "text": "First Steps With An Inherited Guitar"
+        },
+        {
+          "href": "/selling-a-loved-ones-guitar/",
+          "text": "Keeping Or Selling A Loved One's Guitar"
+        }
+      ],
+      "clickOpened": true,
+      "secondStillClosed": true,
+      "keyboardOpened": true,
+      "allVisible": true,
+      "keyboardClosed": true,
+      "documentWidth": 768,
+      "closedHeight": 133.59375,
+      "a11y": []
+    },
+    {
+      "width": 390,
+      "initial": [
+        false,
+        false
+      ],
+      "hidden": true,
+      "linkCount": 12,
+      "links": [
+        {
+          "href": "/what-guitar-do-i-have/",
+          "text": "What Guitar Do I Have?"
+        },
+        {
+          "href": "/found-an-old-guitar/",
+          "text": "Found An Old Guitar?"
+        },
+        {
+          "href": "/what-brand-is-my-guitar/",
+          "text": "What Brand Is My Guitar?"
+        },
+        {
+          "href": "/how-old-is-my-guitar/",
+          "text": "How Old Is My Guitar?"
+        },
+        {
+          "href": "/post/is-your-vintage-guitar-valuable-7-factors-that-determine-its-value/",
+          "text": "What Affects My Guitar's Value?"
+        },
+        {
+          "href": "/what-lowers-vintage-guitar-value/",
+          "text": "What Lowers Vintage Guitar Value?"
+        },
+        {
+          "href": "/how-much-does-a-refinish-hurt-guitar-value/",
+          "text": "How A Refinish Affects Value"
+        },
+        {
+          "href": "/how-to-tell-if-a-guitar-has-been-refinished/",
+          "text": "How To Recognize A Refinish"
+        },
+        {
+          "href": "/do-replaced-pickups-hurt-guitar-value/",
+          "text": "Replaced Pickups And Guitar Value"
+        },
+        {
+          "href": "/should-i-restore-my-guitar-before-selling/",
+          "text": "Should You Restore Before Selling?"
+        },
+        {
+          "href": "/inherited-a-guitar/",
+          "text": "First Steps With An Inherited Guitar"
+        },
+        {
+          "href": "/selling-a-loved-ones-guitar/",
+          "text": "Keeping Or Selling A Loved One's Guitar"
+        }
+      ],
+      "clickOpened": true,
+      "secondStillClosed": true,
+      "keyboardOpened": true,
+      "allVisible": true,
+      "keyboardClosed": true,
+      "documentWidth": 390,
+      "closedHeight": 157.59375,
+      "a11y": []
+    },
+    {
+      "width": 320,
+      "initial": [
+        false,
+        false
+      ],
+      "hidden": true,
+      "linkCount": 12,
+      "links": [
+        {
+          "href": "/what-guitar-do-i-have/",
+          "text": "What Guitar Do I Have?"
+        },
+        {
+          "href": "/found-an-old-guitar/",
+          "text": "Found An Old Guitar?"
+        },
+        {
+          "href": "/what-brand-is-my-guitar/",
+          "text": "What Brand Is My Guitar?"
+        },
+        {
+          "href": "/how-old-is-my-guitar/",
+          "text": "How Old Is My Guitar?"
+        },
+        {
+          "href": "/post/is-your-vintage-guitar-valuable-7-factors-that-determine-its-value/",
+          "text": "What Affects My Guitar's Value?"
+        },
+        {
+          "href": "/what-lowers-vintage-guitar-value/",
+          "text": "What Lowers Vintage Guitar Value?"
+        },
+        {
+          "href": "/how-much-does-a-refinish-hurt-guitar-value/",
+          "text": "How A Refinish Affects Value"
+        },
+        {
+          "href": "/how-to-tell-if-a-guitar-has-been-refinished/",
+          "text": "How To Recognize A Refinish"
+        },
+        {
+          "href": "/do-replaced-pickups-hurt-guitar-value/",
+          "text": "Replaced Pickups And Guitar Value"
+        },
+        {
+          "href": "/should-i-restore-my-guitar-before-selling/",
+          "text": "Should You Restore Before Selling?"
+        },
+        {
+          "href": "/inherited-a-guitar/",
+          "text": "First Steps With An Inherited Guitar"
+        },
+        {
+          "href": "/selling-a-loved-ones-guitar/",
+          "text": "Keeping Or Selling A Loved One's Guitar"
+        }
+      ],
+      "clickOpened": true,
+      "secondStillClosed": true,
+      "keyboardOpened": true,
+      "allVisible": true,
+      "keyboardClosed": true,
+      "documentWidth": 320,
+      "closedHeight": 157.59375,
+      "a11y": []
+    }
+  ]
+}

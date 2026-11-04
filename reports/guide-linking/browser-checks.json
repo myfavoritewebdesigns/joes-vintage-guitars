@@ -1,0 +1,96 @@
+{
+  "base": "http://127.0.0.1:4326",
+  "passed": true,
+  "results": [
+    {
+      "route": "/blog/",
+      "width": 1440,
+      "status": 200,
+      "documentWidth": 1440,
+      "links": 7,
+      "keyboardFocus": true,
+      "a11y": []
+    },
+    {
+      "route": "/blog/",
+      "width": 390,
+      "status": 200,
+      "documentWidth": 390,
+      "links": 7,
+      "keyboardFocus": true,
+      "a11y": []
+    },
+    {
+      "route": "/post/what-to-consider-when-selling-a-vintage-guitar/",
+      "width": 1440,
+      "status": 200,
+      "documentWidth": 1440,
+      "links": 8,
+      "keyboardFocus": true,
+      "a11y": []
+    },
+    {
+      "route": "/post/what-to-consider-when-selling-a-vintage-guitar/",
+      "width": 390,
+      "status": 200,
+      "documentWidth": 390,
+      "links": 8,
+      "keyboardFocus": true,
+      "a11y": []
+    },
+    {
+      "route": "/post/martin-d-28-value-guide/",
+      "width": 1440,
+      "status": 200,
+      "documentWidth": 1440,
+      "links": 2,
+      "keyboardFocus": true,
+      "a11y": []
+    },
+    {
+      "route": "/post/martin-d-28-value-guide/",
+      "width": 390,
+      "status": 200,
+      "documentWidth": 390,
+      "links": 2,
+      "keyboardFocus": true,
+      "a11y": []
+    },
+    {
+      "route": "/post/one-family-1959-gibson-es-355/",
+      "width": 1440,
+      "status": 200,
+      "documentWidth": 1440,
+      "links": 1,
+      "keyboardFocus": true,
+      "a11y": []
+    },
+    {
+      "route": "/post/one-family-1959-gibson-es-355/",
+      "width": 390,
+      "status": 200,
+      "documentWidth": 390,
+      "links": 1,
+      "keyboardFocus": true,
+      "a11y": []
+    },
+    {
+      "route": "/post/one-owner-1965-fender-stratocaster/",
+      "width": 1440,
+      "status": 200,
+      "documentWidth": 1440,
+      "links": 1,
+      "keyboardFocus": true,
+      "a11y": []
+    },
+    {
+      "route": "/post/one-owner-1965-fender-stratocaster/",
+      "width": 390,
+      "status": 200,
+      "documentWidth": 390,
+      "links": 1,
+      "keyboardFocus": true,
+      "a11y": []
+    }
+  ]
+}

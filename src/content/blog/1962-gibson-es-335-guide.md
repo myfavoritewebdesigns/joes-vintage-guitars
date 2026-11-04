@@ -1,5 +1,6 @@
 ---
 title: "The 1962 Gibson ES-335 Guide: Identifying the Block Inlay & Patent Number Transition"
+seoTitle: "1962 Gibson ES-335: Block Inlays And Pickup Transitions"
 pubDate: "2026-03-03T18:37:00"
 modified: "2026-03-23T18:57:14"
 excerpt: "The 1962 Gibson ES-335 is a “transitional” model that sits between the 1950s dot-neck era and the block-inlay look. This guide covers the “Mickey Mouse” ear body shape, the shift from PAF to Patent Number pickups, and the details that determine 1962 vintage value. If you are looking for an appraisal or want to know what makes this “Golden Era” semi-hollow sound the way it does, here is why the 1962 ES-335 stays a collector favorite."

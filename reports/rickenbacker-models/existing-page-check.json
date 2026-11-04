@@ -1,0 +1,47 @@
+[
+  {
+    "slug": "rickenbacker-pickup-dating-guide",
+    "code": 0,
+    "output": "[audit] Live:  https://www.joesvintageguitarsaz.com/rickenbacker-pickup-dating-guide/\n[audit] Local: http://127.0.0.1:4327/rickenbacker-pickup-dating-guide/\n[audit] Slug:  ric-model-links-rickenbacker-pickup-dating-guide\n\n[audit] Liveness-checking 8 asset URL(s) on local (img/picture/poster/iframe)...\n\n[audit] Report: C:\\Users\\joeda\\Documents\\Codex\\work\\jvg-gap3\\reports\\ric-model-links-rickenbacker-pickup-dating-guide-audit-2026-10-27T16-47-05-818Z.md\n[audit] ðŸ”´ must-fix: 0  ðŸŸ¡ should-fix: 1  ðŸŸ¢ acceptable: 0\n"
+  },
+  {
+    "slug": "blog",
+    "code": 0,
+    "output": "[audit] Live:  https://www.joesvintageguitarsaz.com/blog/\n[audit] Local: http://127.0.0.1:4327/blog/\n[audit] Slug:  ric-model-links-blog\n\n[audit] Liveness-checking 13 asset URL(s) on local (img/picture/poster/iframe)...\n\n[audit] Report: C:\\Users\\joeda\\Documents\\Codex\\work\\jvg-gap3\\reports\\ric-model-links-blog-audit-2026-10-27T16-47-05-824Z.md\n[audit] ðŸ”´ must-fix: 0  ðŸŸ¡ should-fix: 1  ðŸŸ¢ acceptable: 0\n"
+  },
+  {
+    "slug": "rickenbacker-serial-numbers",
+    "code": 0,
+    "output": "[audit] Live:  https://www.joesvintageguitarsaz.com/rickenbacker-serial-numbers/\n[audit] Local: http://127.0.0.1:4327/rickenbacker-serial-numbers/\n[audit] Slug:  ric-model-links-rickenbacker-serial-numbers\n\n[audit] Liveness-checking 15 asset URL(s) on local (img/picture/poster/iframe)...\n\n[audit] Report: C:\\Users\\joeda\\Documents\\Codex\\work\\jvg-gap3\\reports\\ric-model-links-rickenbacker-serial-numbers-audit-2026-10-27T16-47-05-856Z.md\n[audit] ðŸ”´ must-fix: 0  ðŸŸ¡ should-fix: 1  ðŸŸ¢ acceptable: 0\n"
+  },
+  {
+    "slug": "rickenbacker-tuner-dating-guide",
+    "code": 0,
+    "output": "[audit] Live:  https://www.joesvintageguitarsaz.com/rickenbacker-tuner-dating-guide/\n[audit] Local: http://127.0.0.1:4327/rickenbacker-tuner-dating-guide/\n[audit] Slug:  ric-model-links-rickenbacker-tuner-dating-guide\n\n[audit] Liveness-checking 8 asset URL(s) on local (img/picture/poster/iframe)...\n\n[audit] Report: C:\\Users\\joeda\\Documents\\Codex\\work\\jvg-gap3\\reports\\ric-model-links-rickenbacker-tuner-dating-guide-audit-2026-10-27T16-47-06-412Z.md\n[audit] ðŸ”´ must-fix: 0  ðŸŸ¡ should-fix: 1  ðŸŸ¢ acceptable: 0\n"
+  },
+  {
+    "slug": "rickenbacker-knobs-and-controls",
+    "code": 0,
+    "output": "[audit] Live:  https://www.joesvintageguitarsaz.com/rickenbacker-knobs-and-controls/\n[audit] Local: http://127.0.0.1:4327/rickenbacker-knobs-and-controls/\n[audit] Slug:  ric-model-links-rickenbacker-knobs-and-controls\n\n[audit] Liveness-checking 7 asset URL(s) on local (img/picture/poster/iframe)...\n\n[audit] Report: C:\\Users\\joeda\\Documents\\Codex\\work\\jvg-gap3\\reports\\ric-model-links-rickenbacker-knobs-and-controls-audit-2026-10-27T16-47-06-460Z.md\n[audit] ðŸ”´ must-fix: 0  ðŸŸ¡ should-fix: 1  ðŸŸ¢ acceptable: 0\n"
+  },
+  {
+    "slug": "rickenbacker-body-binding-and-inlays",
+    "code": 0,
+    "output": "[audit] Live:  https://www.joesvintageguitarsaz.com/rickenbacker-body-binding-and-inlays/\n[audit] Local: http://127.0.0.1:4327/rickenbacker-body-binding-and-inlays/\n[audit] Slug:  ric-model-links-rickenbacker-body-binding-and-inlays\n\n[audit] Liveness-checking 10 asset URL(s) on local (img/picture/poster/iframe)...\n\n[audit] Report: C:\\Users\\joeda\\Documents\\Codex\\work\\jvg-gap3\\reports\\ric-model-links-rickenbacker-body-binding-and-inlays-audit-2026-10-27T16-47-06-605Z.md\n[audit] ðŸ”´ must-fix: 0  ðŸŸ¡ should-fix: 1  ðŸŸ¢ acceptable: 0\n"
+  },
+  {
+    "slug": "rickenbacker-tailpiece-dating-guide",
+    "code": 0,
+    "output": "[audit] Live:  https://www.joesvintageguitarsaz.com/rickenbacker-tailpiece-dating-guide/\n[audit] Local: http://127.0.0.1:4327/rickenbacker-tailpiece-dating-guide/\n[audit] Slug:  ric-model-links-rickenbacker-tailpiece-dating-guide\n\n[audit] Liveness-checking 8 asset URL(s) on local (img/picture/poster/iframe)...\n\n[audit] Report: C:\\Users\\joeda\\Documents\\Codex\\work\\jvg-gap3\\reports\\ric-model-links-rickenbacker-tailpiece-dating-guide-audit-2026-10-27T16-47-06-953Z.md\n[audit] ðŸ”´ must-fix: 0  ðŸŸ¡ should-fix: 1  ðŸŸ¢ acceptable: 0\n"
+  },
+  {
+    "slug": "rickenbacker-finish-colors",
+    "code": 0,
+    "output": "[audit] Live:  https://www.joesvintageguitarsaz.com/rickenbacker-finish-colors/\n[audit] Local: http://127.0.0.1:4327/rickenbacker-finish-colors/\n[audit] Slug:  ric-model-links-rickenbacker-finish-colors\n\n[audit] Liveness-checking 8 asset URL(s) on local (img/picture/poster/iframe)...\n\n[audit] Report: C:\\Users\\joeda\\Documents\\Codex\\work\\jvg-gap3\\reports\\ric-model-links-rickenbacker-finish-colors-audit-2026-10-27T16-47-07-093Z.md\n[audit] ðŸ”´ must-fix: 0  ðŸŸ¡ should-fix: 1  ðŸŸ¢ acceptable: 0\n"
+  },
+  {
+    "slug": "sell-my-rickenbacker-guitar",
+    "code": 0,
+    "output": "[audit] Live:  https://www.joesvintageguitarsaz.com/sell-my-rickenbacker-guitar/\n[audit] Local: http://127.0.0.1:4327/sell-my-rickenbacker-guitar/\n[audit] Slug:  ric-model-links-sell-my-rickenbacker-guitar\n\n[audit] Liveness-checking 11 asset URL(s) on local (img/picture/poster/iframe)...\n\n[audit] Report: C:\\Users\\joeda\\Documents\\Codex\\work\\jvg-gap3\\reports\\ric-model-links-sell-my-rickenbacker-guitar-audit-2026-10-27T16-47-07-212Z.md\n[audit] ðŸ”´ must-fix: 0  ðŸŸ¡ should-fix: 1  ðŸŸ¢ acceptable: 0\n"
+  }
+]

@@ -1,4 +1,4 @@
-Vintage Fender Jaguar sunburst values run from $3,500 to $9,000 across the original 1962 to 1975 production years, with condition and case differences set out below. First-year examples sit at $6,000 to $9,000; the 1970s range is $3,500 to $4,500. I use those as starting ranges, then assess the actual guitar.
+Vintage Fender Jaguar sunburst values run from $3,500 to $9,000 across the original 1962 to 1975 production years, with condition and case differences set out below. First-year examples sit at $4,800 to $6,550; the 1970s range is $3,500 to $4,500. I use those as starting ranges, then assess the actual guitar.
 
 I start with the guitar's year and configuration, then compare the finish, parts, repairs and case with guitars in the same condition. If you need to establish the year or originality first, my [vintage Fender Jaguar authentication guide](/post/vintage-fender-jaguar-guide/) explains the evidence to check.
 
@@ -10,9 +10,9 @@ These ranges are reviewed as of October 2026 and stated in U.S. dollars, excludi
 
 | Year | Sunburst Comparison | Condition |
 | --- | --- | --- |
-| 1962 | $6,000 to $9,000 | Very Good to Excellent; case and originality documentation vary |
-| 1963 | $5,500 to $6,500 | Very Good; see parts and case condition |
-| 1964 | $5,500 to $6,500 | Very Good; see parts and case condition |
+| 1962 | $4,800 to $6,550 | Very Good to Excellent; case and originality documentation vary |
+| 1963 | $4,900 to $6,700 | Very Good; see parts and case condition |
+| 1964 | $4,850 to $6,600 | Very Good; see parts and case condition |
 | 1965 | $4,000 to $5,500 | Varying condition; see fretwork and case condition |
 | 1966 | $4,000 to $4,500 | Very Good originals with original cases |
 | 1967 | $4,000 to $4,500 | Very Good originals with original cases |
@@ -76,6 +76,8 @@ For these instruments, comfortable setup, working electronics and disclosed modi
 </figure>
 
 ## Original Finish And Custom Color Value
+
+For condition comparisons beyond this model, I explain [how a refinish affects vintage guitar value](/how-much-does-a-refinish-hurt-guitar-value/).
 
 An original finish is part of the collectible instrument. Repainting changes that category even when the new work looks attractive and the guitar plays well. I compare a refinished Jaguar with other refinished examples instead of assuming that a new coat of a rare color recreates the rare original.
 

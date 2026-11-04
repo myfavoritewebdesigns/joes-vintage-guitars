@@ -1,0 +1,13 @@
+import type { GuideBlock, GuideSection, ModelGuideData } from '../../components/model-guide/types';
+import gretschValues from './gretsch-values.json';
+import guildValues from './guild-values.json';
+import nationalValues from './national-values.json';
+export const p = (html: string): GuideBlock => ({type:'prose',html});
+export const section = (id:string,title:string,eyebrow:string,blocks:GuideBlock[],tone:'light'|'dark'|'archive'='light'): GuideSection => ({type:'section',id,title,eyebrow,blocks,tone});
+export const money=(value:number)=>'$'+value.toLocaleString('en-US');
+export const priceRows = (family:string) => [...gretschValues,...guildValues,...nationalValues].filter(row=>row.family===family);
+export const chart=(family:string):GuideBlock=>({type:'table',valueChart:true,caption:'Joe’s Estimated Values: Excellent, Original Instruments With The Original Case',columns:['Model','Years','Configuration','Estimated Value'],rows:priceRows(family).map(row=>[row.model,row.years,row.configuration,`${money(row.low)} to ${money(row.high)}`]),note:'U.S. dollars. These are estimated values, not purchase offers. Repairs, replaced parts, finish work and market changes require an individual assessment.'});
+export const source=(title:string,href:string,note:string)=>({title,href,note});
+export const authorBio='Joe Dampt owns Joe’s Vintage Guitars in Mesa, Arizona. He buys and evaluates vintage guitars and uses instrument photographs, serial records and repair history when assessing a guitar.';
+export const base = (slug:string,brand:ModelGuideData['brand'],kind:ModelGuideData['kind']) => ({slug:slug+'-'+kind+'-guide',brand,kind,date:'October 29, 2026',authorBio});
+export const twin=(slug:string,kind:ModelGuideData['kind'])=>`/post/${slug}-${kind==='value'?'authentication':'value'}-guide/`;

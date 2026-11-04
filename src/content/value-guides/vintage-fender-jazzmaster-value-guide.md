@@ -1,4 +1,4 @@
-Vintage Fender Jazzmaster guide values run from $4,000 to $5,500 for typical 1970s sunburst guitars to $11,000 to $18,000 for early sunburst guitars, as of October 2026. Gold guards, slab rosewood boards and original custom colors attract additional collector interest, which a year alone won't capture.
+Vintage Fender Jazzmaster guide values run from $3,400 to $5,500 for typical 1970s sunburst guitars to $9,150 to $18,350 for early sunburst guitars, as of October 2026. Gold guards, slab rosewood boards and original custom colors attract additional collector interest, which a year alone won't capture.
 
 For the year and original specification, use my [Fender Jazzmaster dating and identification guide](/fender-jazzmaster-dating-guide/). This guide covers market value and the features that move it.
 
@@ -10,30 +10,30 @@ For comparisons with other Fender models, my [vintage Fender value guide](/vinta
 
 | Year | Value Range | Configuration And Year Notes |
 | --- | --- | --- |
-| 1958 | $11,000 to $18,000 | Gold anodized guard and slab rosewood board. |
-| 1959, Gold Guard | $11,000 to $18,000 | Gold-guard premium exists; shared early-era envelope. |
-| 1959, Tortoise Guard | $11,000 to $18,000 | Slab board and original tortoise guard. |
-| 1960 | $11,000 to $18,000 | Slab board and tortoise guard on sunburst. |
-| 1961 | $11,000 to $18,000 | Slab board; original finish and pickups drive placement. |
-| 1962, Early Slab Board | $11,000 to $18,000 | Shared slab-era reference; slab premium over veneer. |
-| 1962, Veneer Board | $8,000 to $10,000 | Slab to veneer transition during spring. |
-| 1963 | $8,000 to $10,000 | Veneer board and unbound neck. |
-| 1964 | $8,000 to $10,000 | Logo and dot-material transitions; still pre-CBS. |
-| 1965 | $5,500 to $6,500 | CBS purchase in January; binding arrives late in year. |
-| 1966 | $5,000 to $9,000 | Bound dots give way to blocks around midyear. |
-| 1967 | $5,000 to $9,000 | Bound blocks; later logo and headstock changes. |
-| 1968 | $5,000 to $9,000 | CBS bound-block version; original sunburst. |
-| 1969 | $5,000 to $9,000 | Late 1960s bound-block configuration. |
-| 1970 | $4,000 to $5,500 | 1970s sunburst reference; custom colors excluded. |
-| 1971 | $4,000 to $5,500 | Original pickups and dual circuit retained. |
-| 1972 | $4,000 to $5,500 | Sunburst and rosewood-board reference. |
-| 1973 | $4,000 to $5,500 | Weight, wear and original parts affect placement. |
-| 1974 | $4,000 to $5,500 | Working electronics and original finish assumed. |
+| 1958 | $14,350 to $18,350 | Gold anodized guard and slab rosewood board. |
+| 1959, Gold Guard | $12,000 to $15,600 | Gold-guard premium exists; shared early-era envelope. |
+| 1959, Tortoise Guard | $11,500 to $14,900 | Slab board and original tortoise guard. |
+| 1960 | $9,450 to $12,600 | Slab board and tortoise guard on sunburst. |
+| 1961 | $9,350 to $12,500 | Slab board; original finish and pickups drive placement. |
+| 1962, Early Slab Board | $9,150 to $11,750 | Shared slab-era reference; slab premium over veneer. |
+| 1962, Veneer Board | $9,050 to $11,600 | Slab to veneer transition during spring. |
+| 1963 | $9,350 to $12,000 | Veneer board and unbound neck. |
+| 1964 | $9,350 to $12,000 | Logo and dot-material transitions; still pre-CBS. |
+| 1965 | $6,100 to $7,850 | CBS purchase in January; binding arrives late in year. |
+| 1966 | $5,550 to $7,250 | Bound dots give way to blocks around midyear. |
+| 1967 | $5,800 to $7,550 | Bound blocks; later logo and headstock changes. |
+| 1968 | $5,600 to $7,300 | CBS bound-block version; original sunburst. |
+| 1969 | $5,550 to $7,250 | Late 1960s bound-block configuration. |
+| 1970 | $3,500 to $4,850 | 1970s sunburst reference; custom colors excluded. |
+| 1971 | $3,500 to $4,850 | Original pickups and dual circuit retained. |
+| 1972 | $3,550 to $4,900 | Sunburst and rosewood-board reference. |
+| 1973 | $3,400 to $4,700 | Weight, wear and original parts affect placement. |
+| 1974 | $3,450 to $4,750 | Working electronics and original finish assumed. |
 | 1975 | $4,000 to $5,500 | Unmodified body and original pickups assumed. |
-| 1976 | $4,000 to $5,500 | Case and refret quality affect the individual guitar. |
-| 1977 | $4,000 to $5,500 | Later vintage production; reissues excluded. |
-| 1978 | $4,000 to $5,500 | Sunburst reference; unusual options need individual evidence. |
-| 1979 | $4,000 to $5,500 | Final year covered here, not the end of all Jazzmaster production. |
+| 1976 | $3,550 to $4,900 | Case and refret quality affect the individual guitar. |
+| 1977 | $3,500 to $4,850 | Later vintage production; reissues excluded. |
+| 1978 | $3,400 to $4,700 | Sunburst reference; unusual options need individual evidence. |
+| 1979 | $3,500 to $4,850 | Final year covered here, not the end of all Jazzmaster production. |
 
 Gold guards and slab rosewood boards attract collector interest. Both 1959 configurations share the broad early range; condition and originality determine the individual premium. The two 1962 rows distinguish slab and veneer boards. The 1965 range covers played sunburst guitars, while a clean bound-dot example needs an individual appraisal.
 
@@ -73,7 +73,7 @@ An original finish with honest playing wear is a different purchase from a fresh
 
 Pre-CBS refers to manufacture before CBS bought Fender in January 1965. The ownership date doesn't create a single overnight specification change. Jazzmasters built during 1965 move through changes to knobs, plates and tuners, with fingerboard binding appearing late in the year.
 
-Bound dot-marker necks precede the block-inlay version that arrives around mid-1966. A clean bound-dot guitar can interest a different buyer from a worn earlier-style 1965. The $5,500 to $6,500 row covers played sunburst guitars; it isn't an upper limit for every transitional example.
+Bound dot-marker necks precede the block-inlay version that arrives around mid-1966. A clean bound-dot guitar can interest a different buyer from a worn earlier-style 1965. The $6,100 to $7,850 row covers played sunburst guitars; it isn't an upper limit for every transitional example.
 
 The later 1960s range reaches $9,000 for cleaner guitars and desirable configurations. That doesn't make every 1967 worth more than every 1965. Condition and configuration can outweigh the calendar year.
 
@@ -115,6 +115,8 @@ The Charcoal Frost photograph shows visible wear on a custom-color guitar. Origi
 
 ## Original Pickups, Routing And Refinished Bodies
 
+For condition comparisons beyond this model, I explain [how a refinish affects vintage guitar value](/how-much-does-a-refinish-hurt-guitar-value/).
+
 The broad Jazzmaster pickups are part of the model's appeal. A guitar cut for other pickups has changed wood as well as changed electronics. Restoring the appearance with original-style covers doesn't restore the removed material.
 
 A professional refinish reduces collector value, while normal wear on an original finish belongs in a different category. I assess the finish, repair quality and retained parts together before adjusting a Jazzmaster's value.
@@ -142,7 +144,7 @@ The original case and accessories can complete an unusually intact guitar. Early
 
 </figure>
 
-The $4,000 to $5,500 1970s range covers sunburst guitars with original pickups and finish. A quality refret, replacement nut or strap buttons, or added shielding can fit within that range. Factory custom colors and unusual options need a separate appraisal.
+The $3,400 to $5,500 1970s range covers sunburst guitars with original pickups and finish. A quality refret, replacement nut or strap buttons, or added shielding can fit within that range. Factory custom colors and unusual options need a separate appraisal.
 
 These later guitars can provide the familiar Jazzmaster layout without the early gold-guard or slab-board collector price. A working vibrato, intact controls and a comfortable neck affect their usefulness as instruments. Original parts and a clear repair history help explain a particular asking or selling figure.
 

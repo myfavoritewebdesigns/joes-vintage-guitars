@@ -1,0 +1,7 @@
+## October 30: 1965 Double-Cutaway Country Gentleman Photos
+
+Added the two user-supplied Downloads originals to both Country Gentleman guides. Both heroes show the 1965 double-cutaway body; comparison bands show it beside the earlier single cutaway. Each archive includes the body and headstock, and the authentication serial section now includes the clearly readable 69723 nameplate. Captions identify the model as Country Gentleman and the year as 1965. The separate 35114 guitar’s date conflict remains distinct.
+
+The body original is 4000×3000 and the headstock original is 5712×4284. EXIF rotation produces 3000×4000 and 4284×5712 assets, retaining the full pixel count. Original and asset SHA-256 values are recorded; no resizing or cropping was applied. Downloads originals remain untouched. The source inventory now contains 60 views: 52 Drive originals, two local originals and six 1959 Reverb gallery renditions.
+
+Build: 372 pages. Copy: zero hard failures, 760 existing warning-tier findings. All ten guides: 115 licensed image nodes, zero mismatches. All 105 protected existing pages remain byte-identical; zero broken internal links or duplicate metadata. Maximum whole-page twin overlap is 9.24%. No prices or Anniversary content changed. An opt-in caption-below layout is enabled only for these two portrait photos so captions cannot cover the lower Bigsby, nut or image frame. Targeted visual review is recorded in country-gentleman-1965-review.

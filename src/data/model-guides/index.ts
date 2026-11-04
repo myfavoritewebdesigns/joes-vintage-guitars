@@ -1,0 +1,16 @@
+import { whiteFalconGuides } from './white-falcon';
+import { countryGentlemanGuides } from './country-gentleman';
+import { anniversaryGuides } from './anniversary';
+import { starfireGuides } from './starfire';
+import { nationalGuides } from './national';
+import { casinoGuides } from './epiphone-casino';
+import { emperorGuides } from './epiphone-emperor';
+import { triumphGuides } from './epiphone-triumph';
+import { olympicGuides } from './epiphone-olympic';
+import { deluxeGuides } from './epiphone-deluxe';
+import { broadwayGuides } from './epiphone-broadway';
+import { zephyrGuides } from './epiphone-zephyr';
+import { sorrentoGuides } from './epiphone-sorrento';
+import { windsorGuides } from './epiphone-windsor';
+import { fenderAmpGuides } from './fender-amps';
+export const modelGuides = [...whiteFalconGuides, ...countryGentlemanGuides, ...anniversaryGuides, ...starfireGuides, ...nationalGuides, ...casinoGuides, ...emperorGuides, ...triumphGuides, ...olympicGuides, ...deluxeGuides, ...broadwayGuides, ...zephyrGuides, ...sorrentoGuides, ...windsorGuides, ...fenderAmpGuides];

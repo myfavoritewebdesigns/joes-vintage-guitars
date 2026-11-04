@@ -1,0 +1,111 @@
+{
+  "authorization": "Joe approved fixing the existing metadata in the asynchronous question reply on 2026-10-26.",
+  "fixes": [
+    {
+      "file": "src/pages/blog/index.astro",
+      "field": "title",
+      "before": "Vintage Guitar Authentication & Selling Guides | Joe's Vintage Guitars Blog",
+      "beforeLength": 75,
+      "after": "Vintage Guitar Guides And Stories | Joe's Vintage Guitars",
+      "afterLength": 57
+    },
+    {
+      "file": "src/pages/fender-serial-tool-v2.astro",
+      "field": "title",
+      "before": "Fender Serial Tool v2 (Internal Test) | Joe's Vintage Guitars",
+      "beforeLength": 61,
+      "after": "Fender Serial Number Tool Test | Joe's Vintage Guitars",
+      "afterLength": 54
+    },
+    {
+      "file": "src/pages/vintage-fender-amplifier-serial-numbers-how-to-find-the-year.astro",
+      "field": "title",
+      "before": "Vintage Fender Amplifier Serial Numbers - How To Find The Year",
+      "beforeLength": 62,
+      "after": "Vintage Fender Amplifier Serial Numbers: Find The Year",
+      "afterLength": 54
+    },
+    {
+      "file": "src/pages/jvg-shipping-process.astro",
+      "field": "description",
+      "before": "Step-by-step instructions for shipping your guitar to Joe's Vintage Guitars: free packing and shipping on my FedEx account, full insurance, and payment before you leave the counter.",
+      "beforeLength": 181,
+      "after": "Learn how to pack and ship your guitar to Joe's Vintage Guitars with prepaid FedEx shipping, insurance and payment before you leave the counter.",
+      "afterLength": 144
+    },
+    {
+      "file": "src/pages/jvg-shipping-process-2.astro",
+      "field": "description",
+      "before": "Step-by-step instructions for shipping your guitar to Joe's Vintage Guitars, backed by the Fair-Play Guarantee: free insured shipping, same-day inspection, and same-day payment.",
+      "beforeLength": 177,
+      "after": "Pack and ship your guitar to Joe's Vintage Guitars with free insured shipping, the Fair-Play Guarantee, same-day inspection and same-day payment.",
+      "afterLength": 145
+    }
+  ],
+  "categoryPagination": "Remove only the trailing Blog suffix when a category pagination title exceeds 60 characters; preserve short titles, headings, routes and descriptions.",
+  "categoryPaginationFixes": [
+    {
+      "route": "/category/museum-original-owners/page/2/",
+      "after": "Museum & Original Owners (Page 2) | Joe's Vintage Guitars",
+      "before": "Museum & Original Owners (Page 2) | Joe's Vintage Guitars Blog",
+      "beforeLength": 62,
+      "afterLength": 57
+    },
+    {
+      "route": "/category/specific-model-highlights/page/2/",
+      "after": "Specific Model Highlights (Page 2) | Joe's Vintage Guitars",
+      "before": "Specific Model Highlights (Page 2) | Joe's Vintage Guitars Blog",
+      "beforeLength": 63,
+      "afterLength": 58
+    },
+    {
+      "route": "/category/specific-model-highlights/page/3/",
+      "after": "Specific Model Highlights (Page 3) | Joe's Vintage Guitars",
+      "before": "Specific Model Highlights (Page 3) | Joe's Vintage Guitars Blog",
+      "beforeLength": 63,
+      "afterLength": 58
+    },
+    {
+      "route": "/category/specific-model-highlights/page/4/",
+      "after": "Specific Model Highlights (Page 4) | Joe's Vintage Guitars",
+      "before": "Specific Model Highlights (Page 4) | Joe's Vintage Guitars Blog",
+      "beforeLength": 63,
+      "afterLength": 58
+    },
+    {
+      "route": "/category/specific-model-highlights/page/5/",
+      "after": "Specific Model Highlights (Page 5) | Joe's Vintage Guitars",
+      "before": "Specific Model Highlights (Page 5) | Joe's Vintage Guitars Blog",
+      "beforeLength": 63,
+      "afterLength": 58
+    },
+    {
+      "route": "/category/specific-model-highlights/page/6/",
+      "after": "Specific Model Highlights (Page 6) | Joe's Vintage Guitars",
+      "before": "Specific Model Highlights (Page 6) | Joe's Vintage Guitars Blog",
+      "beforeLength": 63,
+      "afterLength": 58
+    },
+    {
+      "route": "/category/specific-model-highlights/page/7/",
+      "after": "Specific Model Highlights (Page 7) | Joe's Vintage Guitars",
+      "before": "Specific Model Highlights (Page 7) | Joe's Vintage Guitars Blog",
+      "beforeLength": 63,
+      "afterLength": 58
+    },
+    {
+      "route": "/category/specific-model-highlights/page/8/",
+      "after": "Specific Model Highlights (Page 8) | Joe's Vintage Guitars",
+      "before": "Specific Model Highlights (Page 8) | Joe's Vintage Guitars Blog",
+      "beforeLength": 63,
+      "afterLength": 58
+    },
+    {
+      "route": "/category/specific-model-highlights/page/9/",
+      "after": "Specific Model Highlights (Page 9) | Joe's Vintage Guitars",
+      "before": "Specific Model Highlights (Page 9) | Joe's Vintage Guitars Blog",
+      "beforeLength": 63,
+      "afterLength": 58
+    }
+  ]
+}

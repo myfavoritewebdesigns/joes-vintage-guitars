@@ -129,3 +129,5 @@ Whether you’ve inherited a rare “E” series Martin or you’re looking to c
 ![A full-length frontal shot of a 1959 Martin D-28E vintage acoustic-electric guitar, showcasing the dreadnought body shape, dual factory DeArmond pickups, and original gold hardware.](../../assets/blog/martin-d18e-vs-d28e-authentication-guide/1959-martin-d-28-e-2-683x1024.jpg)
 
 The 1959 Martin D-28E. A rare mix of Martin’s craftsmanship and early electric experimentation, this Brazilian Rosewood guitar is one of the more unusual dreadnoughts the company ever built.
+
+See how Cobain's documented instrument fits among the [most expensive guitars sold at auction](/post/most-expensive-guitars-ever-sold/#by-type).

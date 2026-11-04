@@ -1,5 +1,6 @@
 ---
 title: "How to Sell a Large Guitar Collection (Every Option, Honestly Explained)"
+seoTitle: "How To Sell A Large Guitar Collection: Options Compared"
 pubDate: "2026-04-02T22:47:45"
 modified: "2026-05-14T17:07:36"
 excerpt: "If you've built your collection over decades, or just inherited one you don't know how to value, selling a large guitar collection is a real job, not a weekend project. This guide covers every selling avenue honestly: Reverb, eBay, Facebook Marketplace, local dealers, consignment, auction houses, and more. We've handled collections of 700+ instruments and help with every step, including identification, documentation, and organization. Read the full breakdown, then decide what's right for you."
@@ -8,7 +9,7 @@ categoryName: "Value & Evaluation"
 tags: []
 heroImage: "/images/blog/how-to-sell-a-large-guitar-collection-every-option-honestly-explained/large-vintage-guitar-collection.jpg"
 heroImageAlt: "A vintage guitar collection purchased by Joe's Vintage Guitars"
-metaDescription: "If you've built your collection over decades, or just inherited one you don't know how to value, selling a large guitar collection is a real job, not a weekend project. This guide covers every selling avenue honestly: Reverb, eBay, Facebook Marketplace, local dealers, consignment, auction houses, and more. We've handled collections of 700+ instruments and help with every step, including identification, documentation, and organization. Read the full breakdown, then decide what's right for you."
+metaDescription: "Selling a large guitar collection: Reverb, eBay, Facebook, dealers, consignment and auction houses compared, plus how to document and organize it."
 ogImage: "/images/blog/how-to-sell-a-large-guitar-collection-every-option-honestly-explained/large-vintage-guitar-collection.jpg"
 wpId: 20723
 ---
@@ -25,6 +26,8 @@ This guide walks through every legitimate avenue: what each platform requires, w
 **Who this is for:** anyone selling 10 or more instruments. Your own lifetime collection, an inherited collection from an estate, or instruments you're managing on behalf of a family member. The math works the same. Collections range from a dozen guitars to several hundred or more. We've personally handled collections over **700 instruments**. Whatever the scale, if you don't know what you have or where to begin, [start here](/sell-a-guitar-collection/). We can help from step one.
 
 <h2 id="inherited">If You've Inherited a Guitar Collection: Read This First</h2>
+
+For the ownership and appraisal questions behind an estate collection, start with [the inherited-guitar guide](/inherited-a-guitar/).
 
 If you've just opened the cases, my [first steps after finding an old guitar](/found-an-old-guitar/) cover handling, photographs and changes to avoid before identification. Use the [full guitar identification checklist](/what-guitar-do-i-have/) to record each instrument without guessing its model or year.
 

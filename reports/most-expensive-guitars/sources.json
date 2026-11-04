@@ -1,0 +1,701 @@
+{
+  "lastVerified": "2026-10-30",
+  "records": [
+    {
+      "id": "black-strat",
+      "guitar": "1969 And 1983 Fender Stratocaster",
+      "player": "David Gilmour",
+      "date": "2026-03-12",
+      "house": "Christie's",
+      "urls": [
+        "https://www.christies.com/en/lot/lot-6573403"
+      ],
+      "retrieved": "2026-10-30",
+      "quotedPrice": "USD 14,550,000",
+      "priceUsd": 14550000,
+      "premiumIncluded": true,
+      "premiumEvidence": "Christie’s price realised includes buyer premium; published conditions and results release.",
+      "estimateString": "USD 2,000,000 – USD 4,000,000",
+      "currency": "USD",
+      "conversion": null,
+      "verification": "primary-auction-house",
+      "claims": [
+        "Catalog dates components 1969 and 1983; Pink Floyd recording use; identity of prior auction"
+      ],
+      "priorSales": [
+        {
+          "date": "2019-06-20",
+          "house": "Christie's",
+          "priceUsd": 3975000,
+          "saleType": "charity-auction",
+          "urls": [
+            "https://www.christies.com/presscenter/pdf/9429/RESULTS_David%20Gilmour%20Guitars%2020%20June%202019_9429_1.pdf"
+          ],
+          "retrieved": "2026-10-30",
+          "quotedPrice": "$3,975,000",
+          "premiumIncluded": true
+        }
+      ],
+      "notes": null
+    },
+    {
+      "id": "tiger",
+      "guitar": "1979 Doug Irwin Custom Guitar",
+      "player": "Jerry Garcia",
+      "date": "2026-03-12",
+      "house": "Christie's",
+      "urls": [
+        "https://www.christies.com/en/lot/lot-6573406"
+      ],
+      "retrieved": "2026-10-30",
+      "quotedPrice": "USD 11,560,000",
+      "priceUsd": 11560000,
+      "premiumIncluded": true,
+      "premiumEvidence": "Christie’s price realised includes buyer premium; published conditions and results release.",
+      "estimateString": "USD 1,000,000 – USD 2,000,000",
+      "currency": "USD",
+      "conversion": null,
+      "verification": "primary-auction-house",
+      "claims": [
+        "Model, year, artist and auction identity"
+      ],
+      "notes": null
+    },
+    {
+      "id": "competition-mustang",
+      "guitar": "1969 Fender Competition Mustang",
+      "player": "Kurt Cobain",
+      "date": "2026-03-12",
+      "house": "Christie's",
+      "urls": [
+        "https://www.christies.com/en/lot/lot-6573410"
+      ],
+      "retrieved": "2026-10-30",
+      "quotedPrice": "USD 6,907,000",
+      "priceUsd": 6907000,
+      "premiumIncluded": true,
+      "premiumEvidence": "Christie’s price realised includes buyer premium; published conditions and results release.",
+      "estimateString": "USD 2,500,000 – USD 5,000,000",
+      "currency": "USD",
+      "conversion": null,
+      "verification": "primary-auction-house",
+      "claims": [
+        "Model, year, artist and auction identity"
+      ],
+      "notes": null
+    },
+    {
+      "id": "unplugged-martin",
+      "guitar": "1959 Martin D-18E",
+      "player": "Kurt Cobain",
+      "date": "2020-06-20",
+      "house": "Julien's Auctions",
+      "urls": [
+        "https://www.wdtv.com/content/news/Kurt-Cobains-MTV-Unplugged-guitar-sells-for-record-6M-571410171.html",
+        "https://www.gmanetwork.com/news/lifestyle/artandculture/743562/kurt-cobain-s-unplugged-guitar-sells-for-record-6-million-at-auction/story/"
+      ],
+      "retrieved": "2026-10-30",
+      "quotedPrice": "$6,010,000",
+      "priceUsd": 6010000,
+      "premiumIncluded": true,
+      "premiumEvidence": "AFP explicitly says after fees and commission; CNN quotes exact Julien’s result.",
+      "estimateString": null,
+      "currency": "USD",
+      "conversion": null,
+      "verification": "two-independent-major-outlets",
+      "outlets": [
+        "CNN / Amy Woodyatt, syndicated by WDTV",
+        "Agence France-Presse, syndicated by GMA"
+      ],
+      "claims": [
+        "Model, year, artist and auction identity"
+      ],
+      "notes": null
+    },
+    {
+      "id": "clapton-martin",
+      "guitar": "1939 Martin 000-42",
+      "player": "Eric Clapton",
+      "date": "2026-03-12",
+      "house": "Christie's",
+      "urls": [
+        "https://www.christies.com/en/lot/lot-6573411"
+      ],
+      "retrieved": "2026-10-30",
+      "quotedPrice": "USD 4,101,000",
+      "priceUsd": 4101000,
+      "premiumIncluded": true,
+      "premiumEvidence": "Christie’s price realised includes buyer premium; published conditions and results release.",
+      "estimateString": "USD 800,000 – USD 1,200,000",
+      "currency": "USD",
+      "conversion": null,
+      "verification": "primary-auction-house",
+      "claims": [
+        "Model, year, artist and auction identity"
+      ],
+      "priorSales": [
+        {
+          "date": "2004-06-24",
+          "house": "Christie's",
+          "priceUsd": 791500,
+          "saleType": "charity-auction",
+          "urls": [
+            "https://www.christies.com/presscenter/pdf/06252004/guitars_062404.pdf",
+            "https://www.christies.com/presscenter/pdf/06252004/tt_guitars_062404.pdf"
+          ],
+          "retrieved": "2026-10-30",
+          "quotedPrice": "$791,500",
+          "premiumIncluded": true
+        }
+      ],
+      "notes": null
+    },
+    {
+      "id": "hot-for-teacher",
+      "guitar": "Circa 1983 Kramer Custom Guitar",
+      "player": "Eddie Van Halen",
+      "date": "2023-04-18",
+      "house": "Sotheby's",
+      "urls": [
+        "https://www.sothebys.com/en/articles/2023-in-review-books-and-manuscripts",
+        "https://www.sothebys.com/en/digital-catalogues/rock-roll",
+        "https://www.sothebys.com/en/buy/auction/2023/rock-roll/eddie-van-halen-hot-for-teacher-guitar"
+      ],
+      "retrieved": "2026-10-30",
+      "quotedPrice": "$3,932,000",
+      "priceUsd": 3932000,
+      "premiumIncluded": true,
+      "premiumEvidence": "Published house sold result; price convention includes buyer premium.",
+      "estimateString": "$2,000,000 to $3,000,000",
+      "currency": "USD",
+      "conversion": null,
+      "verification": "primary-auction-house",
+      "claims": [
+        "Model, year, artist and auction identity"
+      ],
+      "notes": "2023 catalog dates completed late 1982/delivered January 1983. A 2026 Sotheby’s article photo caption incorrectly says sold in 2025; original 2023 catalog and year-end results control."
+    },
+    {
+      "id": "fool",
+      "guitar": "1964 Gibson SG Standard",
+      "player": "Eric Clapton",
+      "date": "2026-03-12",
+      "house": "Christie's",
+      "urls": [
+        "https://www.christies.com/en/lot/lot-6573397"
+      ],
+      "retrieved": "2026-10-30",
+      "quotedPrice": "USD 3,003,000",
+      "priceUsd": 3003000,
+      "premiumIncluded": true,
+      "premiumEvidence": "Christie’s price realised includes buyer premium; published conditions and results release.",
+      "estimateString": "USD 800,000 – USD 1,200,000",
+      "currency": "USD",
+      "conversion": null,
+      "verification": "primary-auction-house",
+      "claims": [
+        "1964, artist-painted finish"
+      ],
+      "priorSales": [
+        {
+          "date": "2023-11-16",
+          "house": "Julien's Auctions",
+          "priceUsd": 1270000,
+          "saleType": "public-auction",
+          "urls": [
+            "https://www.juliensauctions.com/en/articles/juliens-auctions-played-worn-and-torn-rock-n-roll-iconic-guitars-and-memorabilia-auction-results-announced"
+          ],
+          "retrieved": "2026-10-30",
+          "quotedPrice": "$1,270,000",
+          "premiumIncluded": true
+        }
+      ],
+      "notes": null
+    },
+    {
+      "id": "hootenanny",
+      "guitar": "1964 Framus Hootenanny 12-String",
+      "player": "John Lennon",
+      "date": "2024-05-29",
+      "house": "Julien's Auctions",
+      "urls": [
+        "https://www.juliensauctions.com/en/articles/john-lennon-help-hootenanny-sells-2-85-million-music-icons"
+      ],
+      "retrieved": "2026-10-30",
+      "quotedPrice": "$2,857,500",
+      "priceUsd": 2857500,
+      "premiumIncluded": true,
+      "premiumEvidence": "Published house sold result; price convention includes buyer premium.",
+      "estimateString": "$600,000 to $800,000",
+      "currency": "USD",
+      "conversion": null,
+      "verification": "primary-auction-house",
+      "claims": [
+        "Model, year, artist and auction identity"
+      ],
+      "notes": null
+    },
+    {
+      "id": "kramer-ad",
+      "guitar": "1982 Kramer Electric Guitar",
+      "player": "Eddie Van Halen",
+      "date": "2025-10-24",
+      "house": "Sotheby's",
+      "urls": [
+        "https://www.sothebys.com/en/articles/eddie-van-halens-guitars-that-changed-rock-history",
+        "https://www.sothebys.com/en/buy/auction/2025/rock-pop/eddie-van-halen"
+      ],
+      "retrieved": "2026-10-30",
+      "quotedPrice": "$2,734,000",
+      "priceUsd": 2734000,
+      "premiumIncluded": true,
+      "premiumEvidence": "Published house sold result; price convention includes buyer premium.",
+      "estimateString": "$2,000,000 to $3,000,000",
+      "currency": "USD",
+      "conversion": null,
+      "verification": "primary-auction-house",
+      "claims": [
+        "Model, year, artist and auction identity"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lennon-j160e",
+      "guitar": "1962 Gibson J-160E",
+      "player": "John Lennon",
+      "date": "2015-11-07",
+      "house": "Julien's Auctions",
+      "urls": [
+        "https://www.juliensauctions.com/en/articles/top-5-john-lennon-items-in-music-icons",
+        "https://www.juliensauctions.com/en/search?lotSort=%7B%22soldPrice%22%3A%22DescNullsLast%22%7D&query=John+Lennon"
+      ],
+      "retrieved": "2026-10-30",
+      "quotedPrice": "$2,410,000",
+      "priceUsd": 2410000,
+      "premiumIncluded": true,
+      "premiumEvidence": "Published house sold result; price convention includes buyer premium.",
+      "estimateString": "$600,000 to $800,000",
+      "currency": "USD",
+      "conversion": null,
+      "verification": "primary-auction-house",
+      "claims": [
+        "Model, year, artist and auction identity"
+      ],
+      "notes": null
+    },
+    {
+      "id": "gilmour-d35",
+      "guitar": "1969 Martin D-35",
+      "player": "David Gilmour",
+      "date": "2026-03-12",
+      "house": "Christie's",
+      "urls": [
+        "https://www.christies.com/en/lot/lot-6573404"
+      ],
+      "retrieved": "2026-10-30",
+      "quotedPrice": "USD 2,393,000",
+      "priceUsd": 2393000,
+      "premiumIncluded": true,
+      "premiumEvidence": "Christie’s price realised includes buyer premium; published conditions and results release.",
+      "estimateString": "USD 800,000 – USD 1,200,000",
+      "currency": "USD",
+      "conversion": null,
+      "verification": "primary-auction-house",
+      "claims": [
+        "Model, year, artist and auction identity"
+      ],
+      "priorSales": [
+        {
+          "date": "2019-06-20",
+          "house": "Christie's",
+          "priceUsd": 1095000,
+          "saleType": "charity-auction",
+          "urls": [
+            "https://www.christies.com/presscenter/pdf/9429/RESULTS_David%20Gilmour%20Guitars%2020%20June%202019_9429_1.pdf"
+          ],
+          "retrieved": "2026-10-30",
+          "quotedPrice": "$1,095,000",
+          "premiumIncluded": true
+        }
+      ],
+      "notes": null
+    },
+    {
+      "id": "harrison-sg",
+      "guitar": "1964 Gibson SG Standard",
+      "player": "George Harrison",
+      "date": "2026-03-12",
+      "house": "Christie's",
+      "urls": [
+        "https://www.christies.com/en/lot/lot-6573389"
+      ],
+      "retrieved": "2026-10-30",
+      "quotedPrice": "USD 2,271,000",
+      "priceUsd": 2271000,
+      "premiumIncluded": true,
+      "premiumEvidence": "Christie’s price realised includes buyer premium; published conditions and results release.",
+      "estimateString": "USD 800,000 – USD 1,200,000",
+      "currency": "USD",
+      "conversion": null,
+      "verification": "primary-auction-house",
+      "claims": [
+        "Model, year, artist and auction identity"
+      ],
+      "notes": null
+    },
+    {
+      "id": "strat-0001",
+      "guitar": "Circa 1954 And Later Fender Stratocaster",
+      "player": "David Gilmour",
+      "date": "2019-06-20",
+      "house": "Christie's",
+      "urls": [
+        "https://www.christies.com/en/lot/lot-6198082"
+      ],
+      "retrieved": "2026-10-30",
+      "quotedPrice": "USD 1,815,000",
+      "priceUsd": 1815000,
+      "premiumIncluded": true,
+      "premiumEvidence": "Christie’s price realised includes buyer premium; published conditions and results release.",
+      "estimateString": "USD 100,000 – USD 150,000",
+      "currency": "USD",
+      "conversion": null,
+      "verification": "primary-auction-house",
+      "claims": [
+        "Circa 1954 and later, white finish, serial 0001; not claimed to be first production guitar"
+      ],
+      "notes": null
+    },
+    {
+      "id": "sky-stang",
+      "guitar": "1993 Fender Mustang",
+      "player": "Kurt Cobain",
+      "date": "2023-11-17",
+      "house": "Julien's Auctions",
+      "urls": [
+        "https://www.juliensauctions.com/en/articles/juliens-auctions-played-worn-and-torn-rock-n-roll-iconic-guitars-and-memorabilia-auction-results-announced",
+        "https://www.juliensauctions.com/en/items/97525/nirvana-kurt-cobain-stage-played-skystang-i-fender-mustang-electric-guitar"
+      ],
+      "retrieved": "2026-10-30",
+      "quotedPrice": "$1,587,500",
+      "priceUsd": 1587500,
+      "premiumIncluded": true,
+      "premiumEvidence": "Published house sold result; price convention includes buyer premium.",
+      "estimateString": "$1,000,000 to $2,000,000",
+      "currency": "USD",
+      "conversion": null,
+      "verification": "primary-auction-house",
+      "claims": [
+        "Model, year, artist and auction identity"
+      ],
+      "notes": null
+    },
+    {
+      "id": "oxblood",
+      "guitar": "1954 And Later Gibson Les Paul",
+      "player": "Jeff Beck",
+      "date": "2025-01-22",
+      "house": "Christie's",
+      "urls": [
+        "https://www.christies.com/en/lot/lot-6520001"
+      ],
+      "retrieved": "2026-10-30",
+      "quotedPrice": "GBP 1,068,500",
+      "priceUsd": 1316819,
+      "premiumIncluded": true,
+      "premiumEvidence": "Christie’s price realised includes buyer premium; published conditions and results release.",
+      "estimateString": "GBP 350,000 – GBP 500,000",
+      "currency": "GBP",
+      "conversion": {
+        "originalAmount": 1068500,
+        "originalCurrency": "GBP",
+        "usd": 1316819,
+        "rate": 1.2324,
+        "source": "https://www.federalreserve.gov/releases/h10/20250127/",
+        "rateDate": "2025-01-22",
+        "method": "Federal Reserve H.10 sale-date USD per GBP; rounded to nearest dollar; same rate applied to estimates"
+      },
+      "verification": "primary-auction-house",
+      "claims": [
+        "Model, year, artist and auction identity"
+      ],
+      "notes": null
+    },
+    {
+      "id": "lennon-rickenbacker",
+      "guitar": "1964 Rickenbacker Model 1996",
+      "player": "John Lennon",
+      "date": "2026-03-12",
+      "house": "Christie's",
+      "urls": [
+        "https://www.christies.com/en/lot/lot-6573387"
+      ],
+      "retrieved": "2026-10-30",
+      "quotedPrice": "USD 1,270,000",
+      "priceUsd": 1270000,
+      "premiumIncluded": true,
+      "premiumEvidence": "Christie’s price realised includes buyer premium; published conditions and results release.",
+      "estimateString": "USD 800,000 – USD 1,200,000",
+      "currency": "USD",
+      "conversion": null,
+      "verification": "primary-auction-house",
+      "claims": [
+        "Model, year, artist and auction identity"
+      ],
+      "priorSales": [
+        {
+          "date": "2015-12-05",
+          "house": "Julien's Auctions",
+          "priceUsd": 910000,
+          "saleType": "public-auction",
+          "urls": [
+            "https://www.juliensauctions.com/en/articles/top-5-john-lennon-items-in-music-icons",
+            "https://www.juliensauctions.com/en/items/2031511/-john-lennon-rickenbacker-gifted-to-ringo-starr",
+            "https://www.ksl.com/article/37666660"
+          ],
+          "retrieved": "2026-10-30",
+          "quotedPrice": "$910,000",
+          "premiumIncluded": true,
+          "dateEvidence": "Julien’s December 5, 2015 JUST SOLD announcement embedded in CNN / KSL. Christie’s provenance lists the event start December 3; the row uses the actual announcement day."
+        }
+      ],
+      "notes": null
+    },
+    {
+      "id": "lennon-gretsch",
+      "guitar": "1963 Gretsch 6120",
+      "player": "John Lennon",
+      "date": "2026-03-12",
+      "house": "Christie's",
+      "urls": [
+        "https://www.christies.com/en/lot/lot-6573388"
+      ],
+      "retrieved": "2026-10-30",
+      "quotedPrice": "USD 1,270,000",
+      "priceUsd": 1270000,
+      "premiumIncluded": true,
+      "premiumEvidence": "Christie’s price realised includes buyer premium; published conditions and results release.",
+      "estimateString": "USD 600,000 – USD 800,000",
+      "currency": "USD",
+      "conversion": null,
+      "verification": "primary-auction-house",
+      "claims": [
+        "Model, year, artist and auction identity"
+      ],
+      "notes": null
+    },
+    {
+      "id": "anoushka",
+      "guitar": "1990 And 1993 Fender Custom Shop Stratocaster",
+      "player": "Jeff Beck",
+      "date": "2025-01-22",
+      "house": "Christie's",
+      "urls": [
+        "https://www.christies.com/en/lot/lot-6520056"
+      ],
+      "retrieved": "2026-10-30",
+      "quotedPrice": "GBP 1,008,000",
+      "priceUsd": 1242259,
+      "premiumIncluded": true,
+      "premiumEvidence": "Christie’s price realised includes buyer premium; published conditions and results release.",
+      "estimateString": "GBP 20,000 – GBP 30,000",
+      "currency": "GBP",
+      "conversion": {
+        "originalAmount": 1008000,
+        "originalCurrency": "GBP",
+        "usd": 1242259,
+        "rate": 1.2324,
+        "source": "https://www.federalreserve.gov/releases/h10/20250127/",
+        "rateDate": "2025-01-22",
+        "method": "Federal Reserve H.10 sale-date USD per GBP; rounded to nearest dollar; same rate applied to estimates"
+      },
+      "verification": "primary-auction-house",
+      "claims": [
+        "1990 and 1993 components, not 1999"
+      ],
+      "notes": null
+    },
+    {
+      "id": "gallagher-strat",
+      "guitar": "1961 Fender Stratocaster",
+      "player": "Rory Gallagher",
+      "date": "2024-10-17",
+      "house": "Bonhams",
+      "urls": [
+        "https://bonhams.shorthandstories.com/sell-with-bonhams-private-iconic-collections/",
+        "https://images1.bonhams.com/original?src=Images%2Flive%2F2024-09%2F18%2FC-30318-0-1.pdf"
+      ],
+      "retrieved": "2026-10-30",
+      "quotedPrice": "GBP 889,400",
+      "priceUsd": 1156793,
+      "premiumIncluded": true,
+      "premiumEvidence": "Published house sold result; price convention includes buyer premium.",
+      "estimateString": null,
+      "currency": "GBP",
+      "conversion": {
+        "originalAmount": 889400,
+        "originalCurrency": "GBP",
+        "usd": 1156793,
+        "rate": 1.3006442545536316,
+        "source": "https://bonhams.shorthandstories.com/sell-with-bonhams-private-iconic-collections/",
+        "rateDate": "2024-10-17",
+        "method": "House-published USD equivalent"
+      },
+      "verification": "primary-auction-house",
+      "claims": [
+        "1961, originally sunburst, wear and modifications"
+      ],
+      "notes": null
+    },
+    {
+      "id": "mccartney-bass",
+      "guitar": "Circa 1979 Yamaha BB-1200",
+      "player": "Paul McCartney",
+      "date": "2026-03-12",
+      "house": "Christie's",
+      "urls": [
+        "https://www.christies.com/en/lot/lot-6573396"
+      ],
+      "retrieved": "2026-10-30",
+      "quotedPrice": "USD 228,600",
+      "priceUsd": 228600,
+      "premiumIncluded": true,
+      "premiumEvidence": "Christie’s price realised includes buyer premium; published conditions and results release.",
+      "estimateString": "USD 200,000 – USD 400,000",
+      "currency": "USD",
+      "conversion": null,
+      "verification": "primary-auction-house",
+      "claims": [
+        "Model, year, artist and auction identity"
+      ],
+      "priorSales": [
+        {
+          "date": "2021-12-11",
+          "house": "Van Eaton Galleries",
+          "priceUsd": 471900,
+          "saleType": "charity-auction",
+          "urls": [
+            "https://bid.vegalleries.com/Paul-McCartney-s-Tour-and-Studio-Played-Left-Handed-Wings-Yamaha-BB-1200-Bass_i43638527",
+            "https://vegalleries.com/sites/default/files/art/product_images/auctions/2021.12MusicRising/GuitarIcons_PricesRealized.pdf"
+          ],
+          "retrieved": "2026-10-30",
+          "quotedPrice": "390,000.00 USD; 21% Buyer’s Premium",
+          "premiumIncluded": true,
+          "calculation": "390000 * 1.21 = 471900"
+        }
+      ],
+      "notes": "House arithmetic gives $471,900, not the frequently repeated $496,100. Later Christie’s provenance identifies Van Eaton lot 31."
+    },
+    {
+      "id": "dusty-precision",
+      "guitar": "1953 Fender Precision Bass",
+      "player": "Dusty Hill",
+      "date": "2023-12-07",
+      "house": "Julien's Auctions",
+      "urls": [
+        "https://www.juliensauctions.com/en/articles/juliens-auctions-the-collection-of-dusty-hill-of-zz-top-auction-results-announced"
+      ],
+      "retrieved": "2026-10-30",
+      "quotedPrice": "$393,700",
+      "priceUsd": 393700,
+      "premiumIncluded": true,
+      "premiumEvidence": "Published house sold result; price convention includes buyer premium.",
+      "estimateString": "$80,000 to $120,000",
+      "currency": "USD",
+      "conversion": null,
+      "verification": "primary-auction-house",
+      "claims": [
+        "Model, year, artist and auction identity"
+      ],
+      "notes": "Sale window December 7 to 9, 2023. ISO date stores event start; display uses month/year, not unverified individual lot day."
+    },
+    {
+      "id": "dusty-dean",
+      "guitar": "1983 Dean Explorer Style Bass",
+      "player": "Dusty Hill",
+      "date": "2023-12-07",
+      "house": "Julien's Auctions",
+      "urls": [
+        "https://www.juliensauctions.com/en/articles/juliens-auctions-the-collection-of-dusty-hill-of-zz-top-auction-results-announced"
+      ],
+      "retrieved": "2026-10-30",
+      "quotedPrice": "$317,500",
+      "priceUsd": 317500,
+      "premiumIncluded": true,
+      "premiumEvidence": "Published house sold result; price convention includes buyer premium.",
+      "estimateString": null,
+      "currency": "USD",
+      "conversion": null,
+      "verification": "primary-auction-house",
+      "claims": [
+        "Model, year, artist and auction identity"
+      ],
+      "notes": "Sale window December 7 to 9, 2023. ISO date stores event start; display uses month/year, not unverified individual lot day."
+    }
+  ],
+  "additional": [
+    {
+      "id": "no-celebrity",
+      "guitar": "1959 Gibson Les Paul Standard Sunburst",
+      "priceUsd": 781250,
+      "house": "Heritage Auctions",
+      "saleDate": "2026-10-15",
+      "url": "https://entertainment.ha.com/heritage-auctions-press-releases-and-news.s?releaseId=5559",
+      "quotedPrice": "$781,250",
+      "retrieved": "2026-10-30",
+      "premiumIncluded": true,
+      "claims": [
+        "Heritage calls this a world auction record without celebrity provenance",
+        "Preservation and originality emphasized in house report"
+      ]
+    },
+    {
+      "id": "ace-frehley",
+      "guitar": "1975 Gibson Les Paul Custom",
+      "priceUsd": 512000,
+      "saleDate": "2026-05-30",
+      "house": "Julien's Auctions",
+      "reportedBy": "MusicRadar",
+      "saleWindow": "May 29 to 30, 2026",
+      "url": "https://www.musicradar.com/guitars/ace-frehley-budokan-les-paul-custom-sells-at-auction",
+      "quotedPrice": "$512,000",
+      "retrieved": "2026-10-30",
+      "status": "Attributed reported result only; below threshold; not in verified table"
+    },
+    {
+      "id": "private-reports",
+      "urls": [
+        "https://www.guitarworld.com/features/most-expensive-guitars-sold-at-auction",
+        "https://www.guitarworld.com/features/jimi-hendrix-fender-stratocasters"
+      ],
+      "retrieved": "2026-10-30",
+      "claims": [
+        "Woodstock Stratocaster and Greeny reported private transfers; no price asserted"
+      ]
+    },
+    {
+      "id": "martin-donation",
+      "url": "https://www.rcm.ac.uk/media/Kurt%20Cobain%20Guitar%20Donation%20Press%20Release%201.pdf",
+      "retrieved": "2026-10-30",
+      "claims": [
+        "D-18E donation announced in 2026, not another auction"
+      ]
+    },
+    {
+      "id": "ordinary-authentication",
+      "urls": [
+        "https://www.joesvintageguitarsaz.com/what-lowers-vintage-guitar-value/",
+        "https://www.joesvintageguitarsaz.com/how-much-does-a-refinish-hurt-guitar-value/",
+        "https://www.joesvintageguitarsaz.com/post/what-a-serial-number-cant-tell-you/",
+        "https://www.joesvintageguitarsaz.com/post/one-owner-1965-fender-stratocaster/"
+      ],
+      "localSource": "VG_FACTS.md: multi-feature identification and originality assessment",
+      "retrieved": "2026-10-30",
+      "claims": [
+        "Serial alone is not authentication",
+        "Condition, repairs, original finish and components affect ordinary value",
+        "Preserve documentation and avoid unnecessary alterations"
+      ]
+    }
+  ]
+}

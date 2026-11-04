@@ -1,0 +1,128 @@
+[
+  {
+    "report": "martin-values-12-string-audit-2026-10-26T21-08-17-650Z.md",
+    "expected_template_differences": [
+      "- **1 heading(s) on live but missing on local:**",
+      "- **2 <picture><source> URL(s) on live but missing on local:**",
+      "- **JSON-LD @type(s) on live but missing on local:** Organization, Organization"
+    ],
+    "broken_assets": 0
+  },
+  {
+    "report": "martin-values-archtop-audit-2026-10-26T21-08-18-505Z.md",
+    "expected_template_differences": [
+      "- **1 heading(s) on live but missing on local:**",
+      "- **1 <picture><source> URL(s) on live but missing on local:**",
+      "- **JSON-LD @type(s) on live but missing on local:** Organization, Organization"
+    ],
+    "broken_assets": 0
+  },
+  {
+    "report": "martin-values-classical-audit-2026-10-26T21-08-17-363Z.md",
+    "expected_template_differences": [
+      "- **1 heading(s) on live but missing on local:**",
+      "- **2 <picture><source> URL(s) on live but missing on local:**",
+      "- **JSON-LD @type(s) on live but missing on local:** Organization, Organization"
+    ],
+    "broken_assets": 0
+  },
+  {
+    "report": "martin-values-d-21-audit-2026-10-26T21-08-15-041Z.md",
+    "expected_template_differences": [
+      "- **1 heading(s) on live but missing on local:**",
+      "- **3 <picture><source> URL(s) on live but missing on local:**",
+      "- **JSON-LD @type(s) on live but missing on local:** Organization, Organization"
+    ],
+    "broken_assets": 0
+  },
+  {
+    "report": "martin-values-d-28-audit-2026-10-26T21-08-15-619Z.md",
+    "expected_template_differences": [
+      "- **1 heading(s) on live but missing on local:**",
+      "- **3 <picture><source> URL(s) on live but missing on local:**",
+      "- **JSON-LD @type(s) on live but missing on local:** Organization, Organization"
+    ],
+    "broken_assets": 0
+  },
+  {
+    "report": "martin-values-d-35-audit-2026-10-26T21-08-15-333Z.md",
+    "expected_template_differences": [
+      "- **1 heading(s) on live but missing on local:**",
+      "- **3 <picture><source> URL(s) on live but missing on local:**",
+      "- **JSON-LD @type(s) on live but missing on local:** Organization, Organization"
+    ],
+    "broken_assets": 0
+  },
+  {
+    "report": "martin-values-d-45-audit-2026-10-26T21-08-15-915Z.md",
+    "expected_template_differences": [
+      "- **1 heading(s) on live but missing on local:**",
+      "- **2 <picture><source> URL(s) on live but missing on local:**",
+      "- **JSON-LD @type(s) on live but missing on local:** Organization, Organization"
+    ],
+    "broken_assets": 0
+  },
+  {
+    "report": "martin-values-electric-audit-2026-10-26T21-08-18-793Z.md",
+    "expected_template_differences": [
+      "- **1 heading(s) on live but missing on local:**",
+      "- **2 <picture><source> URL(s) on live but missing on local:**",
+      "- **JSON-LD @type(s) on live but missing on local:** Organization, Organization"
+    ],
+    "broken_assets": 0
+  },
+  {
+    "report": "martin-values-om-18-audit-2026-10-26T21-08-16-201Z.md",
+    "expected_template_differences": [
+      "- **1 heading(s) on live but missing on local:**",
+      "- **2 <picture><source> URL(s) on live but missing on local:**",
+      "- **JSON-LD @type(s) on live but missing on local:** Organization, Organization"
+    ],
+    "broken_assets": 0
+  },
+  {
+    "report": "martin-values-om-28-audit-2026-10-26T21-08-16-487Z.md",
+    "expected_template_differences": [
+      "- **1 heading(s) on live but missing on local:**",
+      "- **1 <picture><source> URL(s) on live but missing on local:**",
+      "- **JSON-LD @type(s) on live but missing on local:** Organization, Organization"
+    ],
+    "broken_assets": 0
+  },
+  {
+    "report": "martin-values-om-45-audit-2026-10-26T21-08-16-786Z.md",
+    "expected_template_differences": [
+      "- **1 heading(s) on live but missing on local:**",
+      "- **2 <picture><source> URL(s) on live but missing on local:**",
+      "- **JSON-LD @type(s) on live but missing on local:** Organization, Organization"
+    ],
+    "broken_assets": 0
+  },
+  {
+    "report": "martin-values-plectrum-audit-2026-10-26T21-08-18-225Z.md",
+    "expected_template_differences": [
+      "- **1 heading(s) on live but missing on local:**",
+      "- **1 <picture><source> URL(s) on live but missing on local:**",
+      "- **JSON-LD @type(s) on live but missing on local:** Organization, Organization"
+    ],
+    "broken_assets": 0
+  },
+  {
+    "report": "martin-values-small-early-audit-2026-10-26T21-08-17-070Z.md",
+    "expected_template_differences": [
+      "- **1 heading(s) on live but missing on local:**",
+      "- **2 <picture><source> URL(s) on live but missing on local:**",
+      "- **JSON-LD @type(s) on live but missing on local:** Organization, Organization"
+    ],
+    "broken_assets": 0
+  },
+  {
+    "report": "martin-values-tenor-audit-2026-10-26T21-08-17-943Z.md",
+    "expected_template_differences": [
+      "- **1 heading(s) on live but missing on local:**",
+      "- **2 <picture><source> URL(s) on live but missing on local:**",
+      "- **JSON-LD @type(s) on live but missing on local:** Organization, Organization"
+    ],
+    "broken_assets": 0
+  }
+]

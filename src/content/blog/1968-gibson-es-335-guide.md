@@ -169,7 +169,7 @@ What is the difference between a 1968 and a 1969 Gibson ES-335?
 
 How much is a 1968 Gibson ES-335 worth?
 
-Value depends on condition, originality, and finish. A clean, fully original Cherry or Sunburst example in excellent condition typically trades in the $6,500 to $7,500 range. Rare finishes like Pelham Blue, Polaris White, or Ebony bring significant premiums. For a precise number on a specific instrument, [request a free appraisal](/free-appraisal/). Generic online estimates almost never account for the hardware and finish details that actually move the price.
+Value depends on condition, originality, and finish. A clean, fully original Cherry or Sunburst example in excellent condition typically trades in the $5,800 to $7,550 range. Rare finishes like Pelham Blue, Polaris White, or Ebony bring significant premiums. For a precise number on a specific instrument, [request a free appraisal](/free-appraisal/). Generic online estimates almost never account for the hardware and finish details that actually move the price.
 
 How do I decode the serial number on my 1968 Gibson ES-335?
 

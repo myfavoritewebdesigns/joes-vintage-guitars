@@ -1,0 +1,486 @@
+{
+  "base": "http://127.0.0.1:4326",
+  "passed": true,
+  "views": [
+    {
+      "width": 1920,
+      "httpStatus": 200,
+      "documentWidth": 1920,
+      "photoCount": 15,
+      "images": [
+        {
+          "alt": "Black 1969 Gibson SG Special with replacement humbuckers and pickguard, photographed in front of a Fender amplifier.",
+          "src": "/_astro/1969-gibson-sg-special-black-refinish.piNbaU6O_2hAU5P.webp",
+          "loaded": true,
+          "displayWidth": 390,
+          "naturalWidth": 800
+        },
+        {
+          "alt": "Bronze refinished 1950s Danelectro U-1 with a single lipstick pickup, standing in front of amplifiers.",
+          "src": "/_astro/1950s-danelectro-u1-bronze-refinish.DSMXEo2g_1RsFog.webp",
+          "loaded": true,
+          "displayWidth": 390,
+          "naturalWidth": 800
+        },
+        {
+          "alt": "Lake Placid Blue 1966 Fender Jazzmaster with its pickguard lifted, exposing thin blue coverage and yellow sealed wood around the pickup routes.",
+          "src": "/_astro/1966-fender-jazzmaster-lake-placid-blue-shadow-under-pickguard.B3hjbHaC_Z15OoLj.webp",
+          "loaded": true,
+          "displayWidth": 830,
+          "naturalWidth": 800
+        },
+        {
+          "alt": "Lake Placid Blue matching headstock of a 1966 Fender Jaguar with its gold Fender Jaguar decal.",
+          "src": "/_astro/1966-fender-jaguar-lake-placid-blue-matching-headstock.BCqxCCpt_ptikS.webp",
+          "loaded": true,
+          "displayWidth": 390,
+          "naturalWidth": 800
+        },
+        {
+          "alt": "Close view of the black headstock face and Gibson logo on the refinished 1969 SG Special.",
+          "src": "/_astro/1969-gibson-sg-special-headstock.Wxk1CyJR_b5h8X.webp",
+          "loaded": true,
+          "displayWidth": 390,
+          "naturalWidth": 800
+        },
+        {
+          "alt": "Natural-finish 1962 Guild Starfire III beside its open red-lined case, showing the body binding and f-holes.",
+          "src": "/_astro/1962-guild-starfire-natural-refinish.CDq0hoOO_rXbvG.webp",
+          "loaded": true,
+          "displayWidth": 390,
+          "naturalWidth": 800
+        },
+        {
+          "alt": "Detail of the refinished Guild Starfire showing the lower f-hole, bridge, vibrato tailpiece and light body binding.",
+          "src": "/_astro/1962-guild-starfire-f-hole-and-binding.D8Xf2YM__ZIfPxu.webp",
+          "loaded": true,
+          "displayWidth": 390,
+          "naturalWidth": 800
+        },
+        {
+          "alt": "Black refinished 1961 Fender Jazz Bass with a tortoise pickguard and worn body edges, resting in a grey-lined case.",
+          "src": "/_astro/1961-fender-jazz-bass-stack-knob-refinished-black.CUUZuh3__Z9AwVW.webp",
+          "loaded": true,
+          "displayWidth": 390,
+          "naturalWidth": 800
+        },
+        {
+          "alt": "Back of an Olympic White 1965 Fender Stratocaster with ambered finish, worn wood and a whiter layer at the wear boundary.",
+          "src": "/_astro/1965-fender-stratocaster-olympic-white-back-wear-white-undercoat.DplZUtIR_Z1OjpYq.webp",
+          "loaded": true,
+          "displayWidth": 390,
+          "naturalWidth": 800
+        },
+        {
+          "alt": "Neck plate on a refinished blue metallic Fender Stratocaster, with ridged finish and a chip showing grey primer.",
+          "src": "/_astro/1960s-fender-stratocaster-refin-neck-plate-bulge-grey-primer.DVj4OQXT_Z1m2uPa.webp",
+          "loaded": true,
+          "displayWidth": 390,
+          "naturalWidth": 800
+        },
+        {
+          "alt": "Close-up of a pickguard screw hole on a Candy Apple Red 1965 Stratocaster, with silver undercoat exposed at the chip.",
+          "src": "/_astro/1965-fender-stratocaster-candy-apple-red-screw-hole-chip-with-undercoat.t2JCmnlz_2bVcsR.webp",
+          "loaded": true,
+          "displayWidth": 390,
+          "naturalWidth": 800
+        },
+        {
+          "alt": "Back of a natural-refinished 1960 Fender Precision Bass, showing a small circular router dowel in the ash below the neck plate.",
+          "src": "/_astro/1960-fender-precision-bass-pin-router-dowel.BMZEwUJZ_ZYqBhN.webp",
+          "loaded": true,
+          "displayWidth": 830,
+          "naturalWidth": 800
+        },
+        {
+          "alt": "Sunburst front of a restored 1928 Gibson L1, with its bridge, soundhole and fingerboard visible.",
+          "src": "/_astro/1928-gibson-l1-restored-sunburst.b5gg_oLO_ROFDX.webp",
+          "loaded": true,
+          "displayWidth": 390,
+          "naturalWidth": 800
+        },
+        {
+          "alt": "Front of a refinished 1923 Martin 0-21 with a pointed black pickguard and replacement bridge.",
+          "src": "/_astro/1923-martin-0-21-refinished.zK9kj7z__4wLNo.webp",
+          "loaded": true,
+          "displayWidth": 390,
+          "naturalWidth": 800
+        },
+        {
+          "alt": "Removed neck heel of a factory-refinished 1956 Fender Stratocaster, showing a burned-in serial number beside its blonde body.",
+          "src": "/_astro/1956-fender-stratocaster-blonde-factory-refin-serial-number-neck-heel.CjUwucAT_ZhfsyN.webp",
+          "loaded": true,
+          "displayWidth": 830,
+          "naturalWidth": 800
+        }
+      ],
+      "pairColumns": "420px 420px",
+      "toc": "fixed",
+      "robots": "noindex, follow",
+      "captionCount": 15,
+      "originalComparisons": 4,
+      "errors": [],
+      "a11y": []
+    },
+    {
+      "width": 1280,
+      "httpStatus": 200,
+      "documentWidth": 1280,
+      "photoCount": 15,
+      "images": [
+        {
+          "alt": "Black 1969 Gibson SG Special with replacement humbuckers and pickguard, photographed in front of a Fender amplifier.",
+          "src": "/_astro/1969-gibson-sg-special-black-refinish.piNbaU6O_2hAU5P.webp",
+          "loaded": true,
+          "displayWidth": 390,
+          "naturalWidth": 800
+        },
+        {
+          "alt": "Bronze refinished 1950s Danelectro U-1 with a single lipstick pickup, standing in front of amplifiers.",
+          "src": "/_astro/1950s-danelectro-u1-bronze-refinish.DSMXEo2g_1RsFog.webp",
+          "loaded": true,
+          "displayWidth": 390,
+          "naturalWidth": 800
+        },
+        {
+          "alt": "Lake Placid Blue 1966 Fender Jazzmaster with its pickguard lifted, exposing thin blue coverage and yellow sealed wood around the pickup routes.",
+          "src": "/_astro/1966-fender-jazzmaster-lake-placid-blue-shadow-under-pickguard.B3hjbHaC_Z15OoLj.webp",
+          "loaded": true,
+          "displayWidth": 830,
+          "naturalWidth": 800
+        },
+        {
+          "alt": "Lake Placid Blue matching headstock of a 1966 Fender Jaguar with its gold Fender Jaguar decal.",
+          "src": "/_astro/1966-fender-jaguar-lake-placid-blue-matching-headstock.BCqxCCpt_ptikS.webp",
+          "loaded": true,
+          "displayWidth": 390,
+          "naturalWidth": 800
+        },
+        {
+          "alt": "Close view of the black headstock face and Gibson logo on the refinished 1969 SG Special.",
+          "src": "/_astro/1969-gibson-sg-special-headstock.Wxk1CyJR_b5h8X.webp",
+          "loaded": true,
+          "displayWidth": 390,
+          "naturalWidth": 800
+        },
+        {
+          "alt": "Natural-finish 1962 Guild Starfire III beside its open red-lined case, showing the body binding and f-holes.",
+          "src": "/_astro/1962-guild-starfire-natural-refinish.CDq0hoOO_rXbvG.webp",
+          "loaded": true,
+          "displayWidth": 390,
+          "naturalWidth": 800
+        },
+        {
+          "alt": "Detail of the refinished Guild Starfire showing the lower f-hole, bridge, vibrato tailpiece and light body binding.",
+          "src": "/_astro/1962-guild-starfire-f-hole-and-binding.D8Xf2YM__ZIfPxu.webp",
+          "loaded": true,
+          "displayWidth": 390,
+          "naturalWidth": 800
+        },
+        {
+          "alt": "Black refinished 1961 Fender Jazz Bass with a tortoise pickguard and worn body edges, resting in a grey-lined case.",
+          "src": "/_astro/1961-fender-jazz-bass-stack-knob-refinished-black.CUUZuh3__Z9AwVW.webp",
+          "loaded": true,
+          "displayWidth": 390,
+          "naturalWidth": 800
+        },
+        {
+          "alt": "Back of an Olympic White 1965 Fender Stratocaster with ambered finish, worn wood and a whiter layer at the wear boundary.",
+          "src": "/_astro/1965-fender-stratocaster-olympic-white-back-wear-white-undercoat.DplZUtIR_Z1OjpYq.webp",
+          "loaded": true,
+          "displayWidth": 390,
+          "naturalWidth": 800
+        },
+        {
+          "alt": "Neck plate on a refinished blue metallic Fender Stratocaster, with ridged finish and a chip showing grey primer.",
+          "src": "/_astro/1960s-fender-stratocaster-refin-neck-plate-bulge-grey-primer.DVj4OQXT_Z1m2uPa.webp",
+          "loaded": true,
+          "displayWidth": 390,
+          "naturalWidth": 800
+        },
+        {
+          "alt": "Close-up of a pickguard screw hole on a Candy Apple Red 1965 Stratocaster, with silver undercoat exposed at the chip.",
+          "src": "/_astro/1965-fender-stratocaster-candy-apple-red-screw-hole-chip-with-undercoat.t2JCmnlz_2bVcsR.webp",
+          "loaded": true,
+          "displayWidth": 390,
+          "naturalWidth": 800
+        },
+        {
+          "alt": "Back of a natural-refinished 1960 Fender Precision Bass, showing a small circular router dowel in the ash below the neck plate.",
+          "src": "/_astro/1960-fender-precision-bass-pin-router-dowel.BMZEwUJZ_ZYqBhN.webp",
+          "loaded": true,
+          "displayWidth": 830,
+          "naturalWidth": 800
+        },
+        {
+          "alt": "Sunburst front of a restored 1928 Gibson L1, with its bridge, soundhole and fingerboard visible.",
+          "src": "/_astro/1928-gibson-l1-restored-sunburst.b5gg_oLO_ROFDX.webp",
+          "loaded": true,
+          "displayWidth": 390,
+          "naturalWidth": 800
+        },
+        {
+          "alt": "Front of a refinished 1923 Martin 0-21 with a pointed black pickguard and replacement bridge.",
+          "src": "/_astro/1923-martin-0-21-refinished.zK9kj7z__4wLNo.webp",
+          "loaded": true,
+          "displayWidth": 390,
+          "naturalWidth": 800
+        },
+        {
+          "alt": "Removed neck heel of a factory-refinished 1956 Fender Stratocaster, showing a burned-in serial number beside its blonde body.",
+          "src": "/_astro/1956-fender-stratocaster-blonde-factory-refin-serial-number-neck-heel.CjUwucAT_ZhfsyN.webp",
+          "loaded": true,
+          "displayWidth": 830,
+          "naturalWidth": 800
+        }
+      ],
+      "pairColumns": "420px 420px",
+      "toc": "fixed",
+      "robots": "noindex, follow",
+      "captionCount": 15,
+      "originalComparisons": 4,
+      "errors": [],
+      "a11y": []
+    },
+    {
+      "width": 768,
+      "httpStatus": 200,
+      "documentWidth": 768,
+      "photoCount": 15,
+      "images": [
+        {
+          "alt": "Black 1969 Gibson SG Special with replacement humbuckers and pickguard, photographed in front of a Fender amplifier.",
+          "src": "/_astro/1969-gibson-sg-special-black-refinish.piNbaU6O_2hAU5P.webp",
+          "loaded": true,
+          "displayWidth": 316,
+          "naturalWidth": 696
+        },
+        {
+          "alt": "Bronze refinished 1950s Danelectro U-1 with a single lipstick pickup, standing in front of amplifiers.",
+          "src": "/_astro/1950s-danelectro-u1-bronze-refinish.DSMXEo2g_1RsFog.webp",
+          "loaded": true,
+          "displayWidth": 316,
+          "naturalWidth": 696
+        },
+        {
+          "alt": "Lake Placid Blue 1966 Fender Jazzmaster with its pickguard lifted, exposing thin blue coverage and yellow sealed wood around the pickup routes.",
+          "src": "/_astro/1966-fender-jazzmaster-lake-placid-blue-shadow-under-pickguard.B3hjbHaC_Z15OoLj.webp",
+          "loaded": true,
+          "displayWidth": 682,
+          "naturalWidth": 696
+        },
+        {
+          "alt": "Lake Placid Blue matching headstock of a 1966 Fender Jaguar with its gold Fender Jaguar decal.",
+          "src": "/_astro/1966-fender-jaguar-lake-placid-blue-matching-headstock.BCqxCCpt_ptikS.webp",
+          "loaded": true,
+          "displayWidth": 316,
+          "naturalWidth": 696
+        },
+        {
+          "alt": "Close view of the black headstock face and Gibson logo on the refinished 1969 SG Special.",
+          "src": "/_astro/1969-gibson-sg-special-headstock.Wxk1CyJR_b5h8X.webp",
+          "loaded": true,
+          "displayWidth": 316,
+          "naturalWidth": 696
+        },
+        {
+          "alt": "Natural-finish 1962 Guild Starfire III beside its open red-lined case, showing the body binding and f-holes.",
+          "src": "/_astro/1962-guild-starfire-natural-refinish.CDq0hoOO_rXbvG.webp",
+          "loaded": true,
+          "displayWidth": 316,
+          "naturalWidth": 696
+        },
+        {
+          "alt": "Detail of the refinished Guild Starfire showing the lower f-hole, bridge, vibrato tailpiece and light body binding.",
+          "src": "/_astro/1962-guild-starfire-f-hole-and-binding.D8Xf2YM__ZIfPxu.webp",
+          "loaded": true,
+          "displayWidth": 316,
+          "naturalWidth": 696
+        },
+        {
+          "alt": "Black refinished 1961 Fender Jazz Bass with a tortoise pickguard and worn body edges, resting in a grey-lined case.",
+          "src": "/_astro/1961-fender-jazz-bass-stack-knob-refinished-black.CUUZuh3__Z9AwVW.webp",
+          "loaded": true,
+          "displayWidth": 316,
+          "naturalWidth": 696
+        },
+        {
+          "alt": "Back of an Olympic White 1965 Fender Stratocaster with ambered finish, worn wood and a whiter layer at the wear boundary.",
+          "src": "/_astro/1965-fender-stratocaster-olympic-white-back-wear-white-undercoat.DplZUtIR_Z1OjpYq.webp",
+          "loaded": true,
+          "displayWidth": 316,
+          "naturalWidth": 696
+        },
+        {
+          "alt": "Neck plate on a refinished blue metallic Fender Stratocaster, with ridged finish and a chip showing grey primer.",
+          "src": "/_astro/1960s-fender-stratocaster-refin-neck-plate-bulge-grey-primer.DVj4OQXT_Z1m2uPa.webp",
+          "loaded": true,
+          "displayWidth": 316,
+          "naturalWidth": 696
+        },
+        {
+          "alt": "Close-up of a pickguard screw hole on a Candy Apple Red 1965 Stratocaster, with silver undercoat exposed at the chip.",
+          "src": "/_astro/1965-fender-stratocaster-candy-apple-red-screw-hole-chip-with-undercoat.t2JCmnlz_2bVcsR.webp",
+          "loaded": true,
+          "displayWidth": 316,
+          "naturalWidth": 696
+        },
+        {
+          "alt": "Back of a natural-refinished 1960 Fender Precision Bass, showing a small circular router dowel in the ash below the neck plate.",
+          "src": "/_astro/1960-fender-precision-bass-pin-router-dowel.BMZEwUJZ_ZYqBhN.webp",
+          "loaded": true,
+          "displayWidth": 682,
+          "naturalWidth": 696
+        },
+        {
+          "alt": "Sunburst front of a restored 1928 Gibson L1, with its bridge, soundhole and fingerboard visible.",
+          "src": "/_astro/1928-gibson-l1-restored-sunburst.b5gg_oLO_ROFDX.webp",
+          "loaded": true,
+          "displayWidth": 316,
+          "naturalWidth": 696
+        },
+        {
+          "alt": "Front of a refinished 1923 Martin 0-21 with a pointed black pickguard and replacement bridge.",
+          "src": "/_astro/1923-martin-0-21-refinished.zK9kj7z__4wLNo.webp",
+          "loaded": true,
+          "displayWidth": 316,
+          "naturalWidth": 696
+        },
+        {
+          "alt": "Removed neck heel of a factory-refinished 1956 Fender Stratocaster, showing a burned-in serial number beside its blonde body.",
+          "src": "/_astro/1956-fender-stratocaster-blonde-factory-refin-serial-number-neck-heel.CjUwucAT_ZhfsyN.webp",
+          "loaded": true,
+          "displayWidth": 682,
+          "naturalWidth": 696
+        }
+      ],
+      "pairColumns": "346px 346px",
+      "toc": "static",
+      "robots": "noindex, follow",
+      "captionCount": 15,
+      "originalComparisons": 4,
+      "errors": [],
+      "a11y": []
+    },
+    {
+      "width": 390,
+      "httpStatus": 200,
+      "documentWidth": 390,
+      "photoCount": 15,
+      "images": [
+        {
+          "alt": "Black 1969 Gibson SG Special with replacement humbuckers and pickguard, photographed in front of a Fender amplifier.",
+          "src": "/_astro/1969-gibson-sg-special-black-refinish.piNbaU6O_2hAU5P.webp",
+          "loaded": true,
+          "displayWidth": 324,
+          "naturalWidth": 317
+        },
+        {
+          "alt": "Bronze refinished 1950s Danelectro U-1 with a single lipstick pickup, standing in front of amplifiers.",
+          "src": "/_astro/1950s-danelectro-u1-bronze-refinish.DSMXEo2g_1RsFog.webp",
+          "loaded": true,
+          "displayWidth": 324,
+          "naturalWidth": 318
+        },
+        {
+          "alt": "Lake Placid Blue 1966 Fender Jazzmaster with its pickguard lifted, exposing thin blue coverage and yellow sealed wood around the pickup routes.",
+          "src": "/_astro/1966-fender-jazzmaster-lake-placid-blue-shadow-under-pickguard.B3hjbHaC_Z15OoLj.webp",
+          "loaded": true,
+          "displayWidth": 324,
+          "naturalWidth": 317
+        },
+        {
+          "alt": "Lake Placid Blue matching headstock of a 1966 Fender Jaguar with its gold Fender Jaguar decal.",
+          "src": "/_astro/1966-fender-jaguar-lake-placid-blue-matching-headstock.BCqxCCpt_ptikS.webp",
+          "loaded": true,
+          "displayWidth": 324,
+          "naturalWidth": 317
+        },
+        {
+          "alt": "Close view of the black headstock face and Gibson logo on the refinished 1969 SG Special.",
+          "src": "/_astro/1969-gibson-sg-special-headstock.Wxk1CyJR_b5h8X.webp",
+          "loaded": true,
+          "displayWidth": 324,
+          "naturalWidth": 318
+        },
+        {
+          "alt": "Natural-finish 1962 Guild Starfire III beside its open red-lined case, showing the body binding and f-holes.",
+          "src": "/_astro/1962-guild-starfire-natural-refinish.CDq0hoOO_rXbvG.webp",
+          "loaded": true,
+          "displayWidth": 324,
+          "naturalWidth": 317
+        },
+        {
+          "alt": "Detail of the refinished Guild Starfire showing the lower f-hole, bridge, vibrato tailpiece and light body binding.",
+          "src": "/_astro/1962-guild-starfire-f-hole-and-binding.D8Xf2YM__ZIfPxu.webp",
+          "loaded": true,
+          "displayWidth": 324,
+          "naturalWidth": 318
+        },
+        {
+          "alt": "Black refinished 1961 Fender Jazz Bass with a tortoise pickguard and worn body edges, resting in a grey-lined case.",
+          "src": "/_astro/1961-fender-jazz-bass-stack-knob-refinished-black.CUUZuh3__Z9AwVW.webp",
+          "loaded": true,
+          "displayWidth": 324,
+          "naturalWidth": 317
+        },
+        {
+          "alt": "Back of an Olympic White 1965 Fender Stratocaster with ambered finish, worn wood and a whiter layer at the wear boundary.",
+          "src": "/_astro/1965-fender-stratocaster-olympic-white-back-wear-white-undercoat.DplZUtIR_Z1OjpYq.webp",
+          "loaded": true,
+          "displayWidth": 324,
+          "naturalWidth": 317
+        },
+        {
+          "alt": "Neck plate on a refinished blue metallic Fender Stratocaster, with ridged finish and a chip showing grey primer.",
+          "src": "/_astro/1960s-fender-stratocaster-refin-neck-plate-bulge-grey-primer.DVj4OQXT_Z1m2uPa.webp",
+          "loaded": true,
+          "displayWidth": 324,
+          "naturalWidth": 317
+        },
+        {
+          "alt": "Close-up of a pickguard screw hole on a Candy Apple Red 1965 Stratocaster, with silver undercoat exposed at the chip.",
+          "src": "/_astro/1965-fender-stratocaster-candy-apple-red-screw-hole-chip-with-undercoat.t2JCmnlz_2bVcsR.webp",
+          "loaded": true,
+          "displayWidth": 324,
+          "naturalWidth": 317
+        },
+        {
+          "alt": "Back of a natural-refinished 1960 Fender Precision Bass, showing a small circular router dowel in the ash below the neck plate.",
+          "src": "/_astro/1960-fender-precision-bass-pin-router-dowel.BMZEwUJZ_ZYqBhN.webp",
+          "loaded": true,
+          "displayWidth": 324,
+          "naturalWidth": 317
+        },
+        {
+          "alt": "Sunburst front of a restored 1928 Gibson L1, with its bridge, soundhole and fingerboard visible.",
+          "src": "/_astro/1928-gibson-l1-restored-sunburst.b5gg_oLO_ROFDX.webp",
+          "loaded": true,
+          "displayWidth": 324,
+          "naturalWidth": 317
+        },
+        {
+          "alt": "Front of a refinished 1923 Martin 0-21 with a pointed black pickguard and replacement bridge.",
+          "src": "/_astro/1923-martin-0-21-refinished.zK9kj7z__4wLNo.webp",
+          "loaded": true,
+          "displayWidth": 324,
+          "naturalWidth": 317
+        },
+        {
+          "alt": "Removed neck heel of a factory-refinished 1956 Fender Stratocaster, showing a burned-in serial number beside its blonde body.",
+          "src": "/_astro/1956-fender-stratocaster-blonde-factory-refin-serial-number-neck-heel.CjUwucAT_ZhfsyN.webp",
+          "loaded": true,
+          "displayWidth": 324,
+          "naturalWidth": 317
+        }
+      ],
+      "pairColumns": "346px",
+      "toc": "static",
+      "robots": "noindex, follow",
+      "captionCount": 15,
+      "originalComparisons": 4,
+      "errors": [],
+      "a11y": []
+    }
+  ]
+}

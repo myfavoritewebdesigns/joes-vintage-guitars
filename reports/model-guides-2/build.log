@@ -1,0 +1,26 @@
+$ astro build && node scripts/gen-image-sitemap.mjs && node scripts/gen-indexnow-manifest.mjs
+16:29:53 [content] Syncing content
+16:29:53 [content] Synced content
+16:29:53 [types] Generated 597ms
+16:29:53 [build] output: "static"
+16:29:53 [build] mode: "static"
+16:29:53 [build] directory: C:\Users\joeda\Documents\Codex\2026-10-29\files-pasted-by-the-user-codex\work\joes-vintage-guitars\dist\
+16:29:53 [build] Collecting build info...
+16:29:53 [build] ✓ Completed in 651ms.
+16:29:55 [build] Building static entrypoints...
+16:30:02 [vite] ✓ built in 6.77s
+16:30:03 [vite] ✓ built in 225ms
+16:30:03 [build] Rearranging server assets...
+
+ generating static routes
+16:30:08 ✓ Completed in 3.34s.
+
+ generating optimized images
+16:30:13 ✓ Completed in 5.24s.
+
+16:30:13 [build] ✓ Completed in 17.98s.
+16:30:13 [@astrojs/sitemap] `sitemap-index.xml` created at `dist`
+16:30:13 [build] 406 page(s) built in 21.40s
+16:30:13 [build] Complete!
+[image-sitemap] 390 pages, 3750 image entries -> dist/image-sitemap.xml
+[indexnow] 390 production URLs in manifest (5dc782d)

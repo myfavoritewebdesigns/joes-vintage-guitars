@@ -1,5 +1,6 @@
 ---
 title: "The Hardtail Stratocaster: Why This Underrated Vintage Fender is a Tone Monster"
+seoTitle: "Vintage Fender Hardtail Stratocaster: Tone And History"
 pubDate: "2026-03-05T22:26:22"
 modified: "2026-03-05T22:26:22"
 excerpt: "Think of it as a “Telecaster on steroids.” The Fender Hardtail Stratocaster is one of the most underrated tools in vintage Fender. From the resonant pre-CBS models of the 1950s to the punchy, lightweight players of the 1970s, the hardtail offers a percussive “snap” and rock-solid tuning stability that traditional tremolo models don’t. Find out why these rare “string-through” Strats, which made up only about 5% of early production, were the choice of players like Nile Rodgers and Robert Cray."
@@ -8,7 +9,7 @@ categoryName: "Specific Model Highlights"
 tags: []
 heroImage: "/images/blog/hardtail-stratocaster-vintage-guide/1960-fender-stratocaster-hardtail-sunburst-scaled.jpg"
 heroImageAlt: "Rear view of a vintage Fender Stratocaster hardtail body showing the solid wood construction with six chrome string-through-body ferrules and the absence of a tremolo spring cavity or plastic backplate."
-metaDescription: "Think of it as a “Telecaster on steroids.” The Fender Hardtail Stratocaster is one of the most underrated tools in vintage Fender. From the resonant pre-CBS models of the 1950s to the punchy, lightweight players of the 1970s, the hardtail offers a percussive “snap” and rock-solid tuning stability that traditional tremolo models don’t. Find out why these rare “string-through” Strats, which made up only about 5% of early production, were the choice of players like Nile Rodgers and Robert Cray."
+metaDescription: "The hardtail Stratocaster was about 5% of early production. Why the string-through bridge gives a percussive snap and rock-solid tuning stability."
 ogImage: "/images/blog/hardtail-stratocaster-vintage-guide/1960-fender-stratocaster-hardtail-sunburst-scaled.jpg"
 wpId: 19372
 ---

@@ -8,7 +8,7 @@ categoryName: "Specific Model Highlights"
 tags: []
 heroImage: "/images/blog/fender-pink-paisley-telecaster-guide/1969-fender-paisley-telecaster-scaled.jpg"
 heroImageAlt: "A 1969 Fender Telecaster in rare Paisley finish."
-metaDescription: "An original 1968 or 1969 Fender Pink Paisley Telecaster takes some careful checking to authenticate. This guide covers the Cling-Foil finish chemistry, neck dating, CBS-era hardware, and the “puzzle piece” test every serious buyer needs to know."
+metaDescription: "Authenticating an original 1968 or 1969 Fender Pink Paisley Telecaster: Cling-Foil finish chemistry, neck dating, CBS hardware and the puzzle piece test."
 ogImage: "/images/blog/fender-pink-paisley-telecaster-guide/1969-fender-paisley-telecaster-scaled.jpg"
 wpId: 20744
 ---

@@ -1,0 +1,74 @@
+{
+  "observed": "2026-10-26",
+  "conflicts": [
+    {
+      "type": "anchor-conflict",
+      "route": "/vintage-gibson-les-paul-market-value-guide/",
+      "issue": "Live full-refinish wording is roughly 40 to 50%; new pages use the user-mandated 40 to 60 percent less than a comparable original.",
+      "action": "Preserved existing page."
+    },
+    {
+      "type": "anchor-conflict",
+      "route": "/sell-my-gibson-guitar/",
+      "issue": "Body and FAQ combine headstock crack/full refinish at 40 to 50 percent off. Only refinish conflicts with the new house range.",
+      "action": "Preserved existing page."
+    },
+    {
+      "type": "anchor-conflict",
+      "route": "/post/what-a-serial-number-cant-tell-you/",
+      "issue": "Body and FAQ use refinish 40 to 50 percent. The refret body also says it leaves strict all-original status, whereas the LP anchor treats a quality refret as accepted maintenance within otherwise original status.",
+      "action": "Preserved existing wording; new hub follows LP anchor."
+    },
+    {
+      "type": "anchor-conflict",
+      "route": "/vintage-fender-stratocaster-value-guide/",
+      "issue": "Existing finish comparisons use worth 45 to 60 percent of original, equivalent to 40 to 55 percent less; year templates retain that direction.",
+      "action": "Added contextual links only; existing figures unchanged."
+    },
+    {
+      "type": "anchor-wording-conflict",
+      "route": "/post/gold-guard-fender-precision-bass/",
+      "issue": "Existing page says worth 40 to 60% of all-original. Equivalent loss endpoints agree with 40 to 60, but the direction differs.",
+      "action": "Preserved existing page."
+    },
+    {
+      "type": "anchor-conflict",
+      "route": "/post/1962-gibson-es-335-guide/",
+      "issue": "Existing headstock repair is a single 50% deduction; house comparison uses 40 to 50 percent less.",
+      "action": "Preserved existing page."
+    },
+    {
+      "type": "anchor-conflict",
+      "route": "/post/gibson-es-5-switchmaster-history-value/",
+      "issue": "The existing refinish list item uses 30 to 50 percent, including the user-flagged 30 percent floor.",
+      "action": "No edit."
+    },
+    {
+      "type": "anchor-conflict",
+      "route": "/post/1962-fender-stratocaster-authentication-guide/",
+      "issue": "The existing refinish list item uses 50 to 70% loss, outside the 40 to 60 house range.",
+      "action": "No edit."
+    },
+    {
+      "type": "anchor-conflict",
+      "route": "/post/gibson-super-400-ces-history-authentication-value/",
+      "issue": "Existing refinish list item uses about 40 to 50 percent loss.",
+      "action": "No edit."
+    },
+    {
+      "type": "anchor-conflict",
+      "route": "/post/gibson-es-345-history-value/",
+      "issue": "Existing refinish list item uses 40 to 50 percent loss, and headstock repair uses 30 to 50 percent. Missing PAFs have a separate 30 to 50 percent or more deduction for 1959 to 1962 instruments.",
+      "action": "No edit; new general pickup comparison follows the explicit LP/house anchor."
+    },
+    {
+      "type": "price-conflict",
+      "routes": [
+        "/post/how-to-tell-if-your-acoustic-guitar-needs-a-neck-reset/",
+        "/post/vintage-gibson-hummingbird-history-value-guide/"
+      ],
+      "issue": "Dedicated page quotes $400 to $1,000 as of 2025; Hummingbird quotes $700 to $1,200.",
+      "action": "New restoration page copies $400 to $1,000 verbatim and preserves its 2025 date; existing pages unchanged."
+    }
+  ]
+}

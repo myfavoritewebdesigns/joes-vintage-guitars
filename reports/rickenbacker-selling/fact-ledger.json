@@ -1,0 +1,159 @@
+{
+  "reviewed": "2026-10-26",
+  "scope": "Draft claim support; not a new agency-approved fact registry",
+  "sources": [
+    [
+      "JVG-001",
+      "Current Rickenbacker Selling Page",
+      "https://www.joesvintageguitarsaz.com/sell-my-rickenbacker-guitar/",
+      "Business identity, contact details, nationwide buying, appraisals, consignment/trade discussion and existing review excerpts. Read live HTML on October 26, 2026."
+    ],
+    [
+      "JVG-002",
+      "Rickenbacker Serial Number Lookup",
+      "https://www.joesvintageguitarsaz.com/rickenbacker-serial-numbers/",
+      "Serial locations, replacement-part limitation and links into the existing identification library."
+    ],
+    [
+      "JVG-003",
+      "Sell A Guitar Collection",
+      "https://www.joesvintageguitarsaz.com/sell-a-guitar-collection/",
+      "Collection buying and nationwide scope."
+    ],
+    [
+      "JVG-004",
+      "Fender Selling Process",
+      "https://www.joesvintageguitarsaz.com/sell-my-fender-guitar/",
+      "Four-step appraisal and offer process; prepaid FedEx account includes box, professional packing, full transit insurance and tracking. Payment is made the same day in most cases. Read October 26, 2026."
+    ],
+    [
+      "JVG-005",
+      "Gibson Selling Process",
+      "https://www.joesvintageguitarsaz.com/sell-my-gibson-guitar/",
+      "Confirms the owner-led four-step process, FedEx packing and shipping arrangements, and same-day payment in most cases. Individual handoff and payment terms are agreed before shipping. Read October 26, 2026."
+    ],
+    [
+      "PHOTO-007",
+      "User-Supplied Rickenbacker Bass At FedEx",
+      "https://drive.google.com/file/d/14RzS0Wl3N2bs3q6zgSGk8xsOj8WKxdAG/view",
+      "IMG_4273.HEIC. User identified the bass and FedEx counter and requested its use as a shipping example. No model, year, sale price or transaction-specific payment claim is inferred."
+    ],
+    [
+      "RIC-001",
+      "Rickenbacker's 12-String Models",
+      "https://www.rickenbacker.com/style/12-string/",
+      "Manufacturer source distinguishing the 360/12C63 replica from an original-period instrument."
+    ],
+    [
+      "RIC-002",
+      "Rickenbacker Model 360/12",
+      "https://www.rickenbacker.com/guitars/model-360-12/",
+      "Manufacturer confirmation of the 360/12 model."
+    ],
+    [
+      "REV-001",
+      "Reverb Price Index Explanation",
+      "https://reverb.com/featured/electric-guitars-reverb-price-index",
+      "A sold listing can display the list price rather than the final amount paid."
+    ],
+    [
+      "REV-002",
+      "Reverb Price Guide",
+      "https://applink.reverb.com/price-guide",
+      "Comparable sale history and condition are inputs to its estimates. No unsupported value ranges added to the remodel."
+    ],
+    [
+      "REV-003",
+      "Reverb In-Store Selling",
+      "https://help.reverb.com/hc/en-us/articles/42562673688091-How-does-selling-in-store-through-Reverb-work",
+      "Dealer offers account for resale work such as photography, listing, storage and shipping. Not used to assert a fixed JVG margin."
+    ],
+    [
+      "PHOTO-REV",
+      "Joe’s Sold 4005 Listing",
+      "https://reverb.com/item/93803936-rickenbacker-4005-1968-azureglo",
+      "Verified seller is joesvintageguitars in Mesa, Arizona. Distinguished from the similarly named California shop. Photos used in this preview came from Drive."
+    ],
+    [
+      "SEO-001",
+      "Google Image SEO Best Practices",
+      "https://developers.google.com/search/docs/appearance/google-images",
+      "HTML image elements, useful alt text, descriptive filenames, responsive sizes and context around the photos."
+    ],
+    [
+      "SEO-002",
+      "Google People-First Content Guidance",
+      "https://developers.google.com/search/docs/fundamentals/creating-helpful-content",
+      "Useful first-hand material and answers that serve the visitor. More words or photos alone do not establish SEO quality."
+    ],
+    [
+      "SEO-003",
+      "Google Title Link Guidance",
+      "https://developers.google.com/search/docs/appearance/title-link",
+      "Clear, descriptive title and a single prominent primary heading."
+    ],
+    [
+      "SEO-004",
+      "Google Crawlable Link Guidance",
+      "https://developers.google.com/search/docs/crawling-indexing/links-crawlable",
+      "Standard anchor links with descriptive text."
+    ],
+    [
+      "SEO-005",
+      "Google Search Documentation Updates",
+      "https://developers.google.com/search/updates",
+      "FAQ rich results ended May 7, 2026, and the documentation was removed June 15. Questions remain useful content; no FAQ rich-result promise is made."
+    ]
+  ],
+  "claimGroups": [
+    {
+      "section": "Opening and process",
+      "facts": [
+        "JVG-001",
+        "JVG-003",
+        "JVG-004",
+        "JVG-005"
+      ],
+      "claims": "Joe buys Rickenbacker guitars/basses; free appraisal; nationwide buying; Mesa location; collection handling. Four-step seller process. Prepaid FedEx box, professional packing, full transit insurance and tracking. Same-day payment offered in most cases; method and timing confirmed before drop-off."
+    },
+    {
+      "section": "Models and photos",
+      "facts": [
+        "RIC-001",
+        "RIC-002",
+        "PHOTO-REV",
+        "PHOTO-007"
+      ],
+      "claims": "Model examples supported by manufacturer information and instrument photo folders. Archive photos do not establish availability, originality or realized price."
+    },
+    {
+      "section": "Value",
+      "facts": [
+        "JVG-001",
+        "REV-001",
+        "REV-002",
+        "REV-003"
+      ],
+      "claims": "Model, age, condition and originality inform review; list/sale/dealer price distinction."
+    },
+    {
+      "section": "Identification",
+      "facts": [
+        "JVG-002"
+      ],
+      "claims": "Complete serial and multiple instrument features needed; replacement numbered parts can mislead."
+    },
+    {
+      "section": "Photo checklist and preparation",
+      "type": "Editorial instructions",
+      "claims": "Phone photographs, complete instrument views, detail photos, disclosure of repairs; no disassembly required for initial photos."
+    },
+    {
+      "section": "Reviews and bio",
+      "facts": [
+        "JVG-001"
+      ],
+      "claims": "Short existing seller review excerpts and paraphrased owner bio."
+    }
+  ]
+}

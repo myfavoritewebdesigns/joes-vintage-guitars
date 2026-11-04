@@ -1,0 +1,246 @@
+---
+import Layout from "../layouts/Layout.astro";
+import PageHero from "../components/primitives/PageHero.astro";
+import Button from "../components/primitives/Button.astro";
+import LicensedImage from "../components/primitives/LicensedImage.astro";
+import LeadForm from "../components/LeadForm.astro";
+import FAQ from "../components/FAQ.astro";
+import ContactSection from "../components/ContactSection.astro";
+import { SITE_URL, contact, hrefs } from "../config/site";
+import electric from "../assets/images/sell-levin-goya/levin-320-m2-front.jpg";
+import steel from "../assets/images/sell-levin-goya/goya-gg5-front.jpg";
+import nylon from "../assets/images/sell-levin-goya/levin-113-front.jpg";
+import label from "../assets/images/sell-levin-goya/levin-113-sweden-label.jpg";
+
+const route = "/sell-your-levin-or-goya-guitar/";
+const faqs = [
+  { q: "Do You Buy Both Levin and Goya Guitars?", a: "Yes. I am interested in Swedish-made Levin and Goya electric guitars, steel-string acoustics and nylon-string guitars. Send photos even if you do not know the model or year. I can help identify the instrument before discussing an offer." },
+  { q: "Were All Goya Guitars Made in Sweden?", a: "No. Many vintage Goya acoustics were made by Levin in Sweden, but the Goya name also appeared on instruments made elsewhere. A readable interior label, headstock photo and any country-of-origin markings help establish what you have. The name alone is not enough." },
+  { q: "How Much Is My Levin or Goya Guitar Worth?", a: "The model, production period, originality, condition and current demand all matter. A Swedish electric archtop, a 12-string and a nylon-string guitar need different comparisons. Send photographs for a free appraisal and a purchase offer based on your particular guitar." },
+  { q: "Can I Sell a Guitar That Needs Repairs?", a: "Yes, I consider guitars with wear, cracks, changed parts or other repair needs. Show me the problems before paying for work. The extent of the repairs affects whether I can buy the guitar and what I can offer." },
+  { q: "Can I Sell My Guitar From Outside Arizona?", a: "Yes. I buy vintage guitars across the United States. We can begin with photos, then agree on price, payment and delivery. If we cannot meet, I can arrange professional prepaid packing and shipping. Contact me before sending the guitar." },
+  { q: "What If I Inherited It and Know Nothing About Guitars?", a: "You can start with pictures of the front, back, headstock and any label inside. Include the case and anything that came with it. Tell me what you know about its history; you do not need to research the model, replace the strings or take it apart first." },
+];
+const structuredData = [
+  { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Home", item: `${SITE_URL}/` },
+    { "@type": "ListItem", position: 2, name: "Sell Your Levin or Goya Guitar", item: `${SITE_URL}${route}` },
+  ] },
+  { "@context": "https://schema.org", "@type": "FAQPage", mainEntity: faqs.map(f => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a } })) },
+  { "@context": "https://schema.org", "@type": "Service", name: "Swedish Levin and Goya Guitar Buying", serviceType: "Vintage guitar appraisal and purchasing", provider: { "@id": `${SITE_URL}/` }, areaServed: { "@type": "Country", name: "United States" }, url: `${SITE_URL}${route}` },
+];
+---
+
+<Layout bodyClass="levin-goya-sell-page" title="Sell Your Levin or Goya Guitar | Joe's Vintage Guitars"
+  description="Sell your Swedish-made Levin or Goya guitar. Joe buys electric, steel-string and nylon-string guitars nationwide. Send photos for a free appraisal and offer."
+  canonical={route} ogImage={`${SITE_URL}${electric.src}`} ogImageWidth={electric.width} ogImageHeight={electric.height}
+  ogImageAlt="Swedish Levin 320/M2 electric archtop from Joe's Vintage Guitars" structuredData={structuredData}>
+  <div class="lg-page">
+    <PageHero eyebrow="Swedish Guitars Wanted · Nationwide Buyer"
+      title="Sell Your Levin or Goya Guitar"
+      subhead="I buy Swedish-made electric guitars, steel-string acoustics and nylon-string guitars. Send me a few photos and let’s talk about yours."
+      subheadTag="p" bgImage="/images/hero-background.jpg">
+      <Button slot="cta" href="#get-offer" variant="cream" size="lg">Get a Free Appraisal &amp; Offer</Button>
+      <Button slot="cta" href={hrefs.sms} variant="outline-cream" size="lg">Text Joe Your Photos</Button>
+    </PageHero>
+
+    <nav class="lg-jump" aria-label="On this page">
+      <a href="#guitars-i-buy">Guitars I Buy</a><a href="#made-in-sweden">Made in Sweden?</a><a href="#guitar-value">What Affects Value</a><a href="#how-to-sell">How to Sell</a>
+    </nav>
+
+    <section class="lg-section lg-intro">
+      <div class="lg-wrap lg-split">
+        <div>
+          <p class="lg-kicker">Talk Directly With the Buyer</p>
+          <h2>Have an Old Swedish Guitar to Sell?</h2>
+          <p class="lg-lead">I’m Joe Dampt, owner of Joe’s Vintage Guitars in Mesa, Arizona. If you have a Levin or a Swedish-made Goya you’re ready to part with, I’d like to see it.</p>
+          <p>My interest includes electric archtops, six- and twelve-string steel-string acoustics, and classical or folk-style nylon-string guitars. The three instruments pictured below are examples I have sold through my shop.</p>
+          <p>You do not need the exact year or model before getting in touch. A few clear phone photos are enough to start. I’ll look at the instrument, help identify it and discuss a purchase offer with you.</p>
+          <p class="lg-direct">Call or text <a href={hrefs.tel}>{contact.phone}</a></p>
+          <p class="lg-small">Selling more than one instrument? I also buy <a href="/sell-a-guitar-collection/">guitar collections</a>.</p>
+        </div>
+        <div class="lg-form" id="get-offer">
+          <LeadForm formId="sell-levin-goya" heading="Tell Me About Your Guitar" headingLevel="h2" subheading="Not sure of the model? Leave it blank and tell me what you know." submitLabel="Request My Free Appraisal" />
+        </div>
+      </div>
+    </section>
+
+    <section class="lg-section" id="guitars-i-buy">
+      <div class="lg-wrap">
+        <p class="lg-kicker">Real Guitars From My Shop</p>
+        <h2>Levin and Goya Guitars I Buy</h2>
+        <p class="lg-section-lead">These are examples of the Swedish instruments I’m looking for. Your guitar does not have to be the same model, and it does not have to be in perfect condition.</p>
+        <div class="lg-guitars">
+          <article>
+            <figure>
+              <LicensedImage src={electric} alt="Sunburst Levin 320/M2 electric archtop with two pickups in its red-lined case" width={800} sizes="(max-width: 760px) 92vw, 32vw" loading="lazy" />
+              <figcaption>1960s Levin 320/M2 electric archtop. Previously sold by my shop.</figcaption>
+            </figure>
+            <h3>Electric Guitars</h3>
+            <p>I’m interested in Swedish Levin and Goya electrics, including hollowbody and archtop guitars. This two-pickup Levin 320/M2 is one example I’ve handled.</p>
+            <p>Include close-ups of the pickups, controls, bridge and tailpiece. If parts have been changed or the electronics need attention, tell me what you know.</p>
+          </article>
+          <article>
+            <figure>
+              <LicensedImage src={steel} alt="Natural-finish Swedish Goya GG-5 12-string acoustic on a stand in Joe's shop" width={600} sizes="(max-width: 760px) 92vw, 32vw" loading="lazy" />
+              <figcaption>Swedish-made Goya GG-5 12-string. Previously sold by my shop.</figcaption>
+            </figure>
+            <h3>Steel-String Acoustics</h3>
+            <p>I buy Swedish-made six-string and twelve-string acoustics carrying either name. Smaller bodies, larger flat-tops and guitars like this Goya GG-5 are all worth showing me.</p>
+            <p>High action, cracks or a lifting bridge affect the evaluation. You can send photos of the guitar as it is before deciding whether to spend money on repairs.</p>
+          </article>
+          <article>
+            <figure>
+              <LicensedImage src={nylon} alt="Levin Model 113 nylon-string acoustic with a patterned rosette and tie-block bridge" width={600} sizes="(max-width: 760px) 92vw, 32vw" loading="lazy" />
+              <figcaption>1965 Levin Model 113, listed as the Goya G-30 equivalent. Previously sold by my shop.</figcaption>
+            </figure>
+            <h3>Nylon-String Guitars</h3>
+            <p>I’m also looking for Swedish classical and folk-style nylon-string guitars. A family’s old Goya or Levin may be an instrument I’d like to buy, even if it has been sitting in its case for years.</p>
+            <p>This Levin Model 113 shows the kind of guitar I mean. Send a photo of yours, including its label, bridge and tuners, and I’ll help you work out what you have.</p>
+          </article>
+        </div>
+        <div class="lg-inline-cta"><p>Something different? I’d still like to see it.</p><a href={hrefs.sms}>Text Joe Your Guitar Photos →</a></div>
+      </div>
+    </section>
+
+    <section class="lg-section lg-cream" id="made-in-sweden">
+      <div class="lg-wrap lg-origin">
+        <div>
+          <p class="lg-kicker">Start With the Label</p>
+          <h2>Is Your Levin or Goya Made in Sweden?</h2>
+          <p>Many vintage Goya acoustics were built by Levin in Sweden for the American market. That connection is why you may find similar guitars with different names on their headstocks.</p>
+          <p>The Goya name was also used on guitars made in other countries. For this page, I’m especially interested in the Swedish instruments. A logo or a seller’s description alone does not establish where a guitar was made.</p>
+          <p>Photograph the entire label inside the body, the front and back of the headstock, and any serial number or country-of-origin marking. On a label like this one, the maker’s name, model and “Made in Sweden” wording are useful clues.</p>
+          <p>If the label is missing or hard to read, send the photos you can get. Please leave the guitar assembled; you do not need to remove the neck, pickups or hardware.</p>
+        </div>
+        <figure class="lg-label">
+          <LicensedImage src={label} alt="Interior label reading AB Herman Carlson Levin, Göteborg, Model 113, Made in Sweden" width={400} loading="lazy" />
+          <figcaption>The label inside my 1965 Levin Model 113. It identifies the maker, model and Swedish origin.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="lg-section" id="guitar-value">
+      <div class="lg-wrap lg-value">
+        <div>
+          <p class="lg-kicker">A Value for Your Particular Guitar</p>
+          <h2>What Is Your Levin or Goya Worth?</h2>
+          <p>There is no single price that fits every Swedish Levin or Goya. An electric archtop, a twelve-string flat-top and a nylon-string guitar appeal to different players and need different comparisons.</p>
+          <p>I look at the model and construction first, then condition and originality. I also consider what comparable instruments have actually sold for. An online asking price can be a starting point, but it does not tell us what another buyer paid.</p>
+          <p>A dealer’s purchase offer and a retail asking price are different figures. My offer takes account of the work the guitar needs and the cost of preparing and reselling it. I’ll explain the details that matter on yours.</p>
+          <a class="lg-text-link" href="#get-offer">Ask Joe for a Free Appraisal →</a>
+        </div>
+        <dl class="lg-factors">
+          <div><dt>Model and Origin</dt><dd>The model, production period, body style and verified country of manufacture.</dd></div>
+          <div><dt>Condition and Playability</dt><dd>Neck angle, string height, cracks, bridge condition, fret wear and previous repairs.</dd></div>
+          <div><dt>Original Parts and Finish</dt><dd>Pickups, tuners, bridge, tailpiece and finish work, as applicable to the instrument.</dd></div>
+          <div><dt>Case and History</dt><dd>The accompanying case, paperwork, loose original parts and any ownership history you know.</dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <section class="lg-section lg-dark" id="how-to-sell">
+      <div class="lg-wrap">
+        <p class="lg-kicker">From Photos to a Purchase Offer</p>
+        <h2>How to Sell Your Guitar to Joe</h2>
+        <ol class="lg-steps">
+          <li><span aria-hidden="true">01</span><h3>Send a Few Photos</h3><p>Start with the front, back, headstock and label. Add close-ups of damage or repairs, and let me know where you and the guitar are located.</p></li>
+          <li><span aria-hidden="true">02</span><h3>Talk Through an Offer</h3><p>I’ll review the photos, ask for any missing details and discuss the guitar with you. You can decide whether the offer works for you.</p></li>
+          <li><span aria-hidden="true">03</span><h3>Arrange Payment and Delivery</h3><p>We’ll agree on the price, payment method and handoff before the guitar moves. I buy nationwide and can arrange professional prepaid packing and shipping when we cannot meet.</p></li>
+        </ol>
+        <p class="lg-no-repairs">No need to polish it, change the strings or pay for repairs first. Show me the guitar as it is.</p>
+        <div class="lg-buttons"><Button href={hrefs.sms} variant="cream" size="lg">Text Photos to {contact.phone}</Button><Button href="#get-offer" variant="outline-cream" size="lg">Use the Appraisal Form</Button></div>
+      </div>
+    </section>
+
+    <FAQ faqs={faqs} mainTitle="Questions About Selling" subTitle="Your Levin or Goya" headingLevel="h2" />
+    <section class="lg-resources lg-wrap" aria-label="Related selling resources">
+      <p>More help with your instrument: <a href="/free-appraisal/">Free Guitar Appraisals</a> · <a href="/sell-a-guitar-collection/">Sell a Collection</a> · <a href="/about-me/">Meet Joe Dampt</a></p>
+    </section>
+  </div>
+  <ContactSection />
+</Layout>
+
+<style>
+  .lg-page { color: var(--color-brand-charcoal); font-size: 17px; line-height: 1.75; }
+  .lg-wrap { max-width: 1140px; margin: 0 auto; padding: 0 28px; }
+  .lg-section { padding: 78px 0; scroll-margin-top: 30px; }
+  .lg-page h2, .lg-page h3 { font-family: var(--font-display); color: var(--color-brand-brown); line-height: 1.18; font-weight: 600; }
+  .lg-page h2 { font-size: clamp(32px, 3.4vw, 45px); margin: 0 0 24px; }
+  .lg-page h3 { font-size: 28px; margin: 24px 0 14px; }
+  .lg-page p { margin: 0 0 20px; }
+  .lg-page a { text-underline-offset: 4px; }
+  .lg-page a:focus-visible { outline: 3px solid var(--color-brand-rust-bright); outline-offset: 5px; }
+  .lg-kicker { font-family: var(--font-display); font-size: 14px; letter-spacing: .14em; text-transform: uppercase; color: var(--color-brand-rust); font-weight: 600; }
+  .lg-jump { display:flex; justify-content:center; flex-wrap:wrap; gap: 12px 34px; padding: 20px 28px; background: #f4ebdb; border-bottom:1px solid #d9c8ad; }
+  .lg-jump a { color:var(--color-brand-brown); font-family:var(--font-display); font-size:17px; }
+  .lg-split { display:grid; grid-template-columns:1fr 1fr; gap:58px; align-items:start; }
+  .lg-intro { background: #fbf7f0; }
+  .lg-lead { font-size: 21px; }
+  .lg-small { font-size:15px; }
+  .lg-intro a, .lg-text-link { color:var(--color-brand-rust); font-weight:700; }
+  .lg-direct { padding-top:16px; font-size:23px; }
+  .lg-form { scroll-margin-top:24px; padding:32px; background:var(--color-brand-rust-dark); color:#fff; border-top:5px solid var(--color-brand-brown-tan); }
+  .lg-form :global(.lead-form) { background:transparent; border:0; padding:0; box-shadow:none; }
+  .lg-form :global(.lead-form__heading) { color:var(--color-brand-cream); font-size:30px; }
+  .lg-form :global(.lead-form__sub) { font-size:15px; color:#fff; }
+  .lg-form :global(.lead-form__label),.lg-form :global(.lead-form__radio),.lg-form :global(.lead-form__note) { color:var(--color-brand-cream); }
+  .lg-form :global(.lead-form__submit) { background:var(--color-brand-cream); color:var(--color-brand-rust-dark); }
+  .lg-form :global(.lead-form__submit:hover) { background:#fff; }
+  .lg-section-lead { max-width:780px; }
+  .lg-guitars { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:28px; margin-top:36px; }
+  .lg-guitars article { min-width:0; }
+  .lg-guitars figure { margin:0; }
+  .lg-guitars :global(img) { width:100%; height:340px; object-fit:contain; background:#201b16; }
+  .lg-guitars article:first-child :global(img) { object-fit:contain; }
+  .lg-page figcaption { font-size:13px; line-height:1.5; color:#635a4d; padding:12px 0 0; }
+  .lg-guitars figcaption { min-height:70px; }
+  .lg-inline-cta { margin-top:28px; border-top:1px solid #d9c8ad; padding-top:26px; display:flex; gap:20px; justify-content:space-between; align-items:center; flex-wrap:wrap; }
+  .lg-inline-cta p { margin:0; }
+  .lg-inline-cta a { color:var(--color-brand-rust); font-weight:700; }
+  .lg-cream { background:#f0e8d8; }
+  .lg-origin { display:grid; grid-template-columns:1.55fr 1fr; gap:70px; align-items:center; }
+  .lg-label { margin:0; }
+  .lg-label :global(img) { width:100%; max-width:400px; height:auto; margin:auto; }
+  .lg-value { display:grid; grid-template-columns:1fr 1fr; gap:60px; }
+  .lg-factors { margin:0; }
+  .lg-factors div { border-top:1px solid #d9c8ad; padding:19px 0; }
+  .lg-factors dt { font-family:var(--font-display); font-size:23px; color:var(--color-brand-brown); }
+  .lg-factors dd { margin:8px 0 0; }
+  .lg-dark { background:var(--color-brand-rust-dark); color:#fff; }
+  .lg-dark h2,.lg-dark h3,.lg-dark .lg-kicker { color:var(--color-brand-cream); }
+  .lg-steps { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:38px; padding:0; margin:38px 0 28px; list-style:none; }
+  .lg-steps li { border-top:1px solid #bc8e72; padding-top:20px; }
+  .lg-steps span { font-family:var(--font-display); font-size:44px; color:var(--color-brand-brown-tan); }
+  .lg-steps h3 { font-size:26px; margin-top:15px; }
+  .lg-no-repairs { border-top:1px solid #bc8e72; padding-top:25px; }
+  .lg-buttons { display:flex; flex-wrap:wrap; gap:16px; margin-top:26px; }
+  .lg-resources { padding-top:30px; padding-bottom:30px; font-size:15px; }
+  .lg-resources p { margin:0; }
+  .lg-resources a { color:var(--color-brand-rust); }
+  @media(max-width:1200px) {
+    :global(body.levin-goya-sell-page aside[aria-label="Quick contact"]) { display:none; }
+  }
+  @media(max-width:1000px) {
+    .lg-split,.lg-value { gap:32px; }
+    .lg-guitars { gap:22px; }
+    .lg-guitars :global(img) { height:280px; }
+    .lg-origin { gap:34px; }
+    .lg-form { padding:24px; }
+  }
+  @media(max-width:760px) {
+    .lg-wrap { padding:0 24px; }
+    .lg-section { padding:52px 0; }
+    .lg-split,.lg-guitars,.lg-origin,.lg-value,.lg-steps { grid-template-columns:1fr; gap:30px; }
+    .lg-guitars { gap:38px; }
+    .lg-guitars :global(img) { height:auto; max-height:500px; object-fit:contain; }
+    .lg-guitars figcaption { min-height:0; }
+    .lg-form { padding:26px 22px; }
+    .lg-jump { gap:8px 20px; }
+    .lg-label { max-width:400px; margin:auto; }
+    .lg-steps { gap:15px; }
+    .lg-steps li { padding-top:12px; }
+    .lg-steps h3 { margin-top:7px; }
+    .lg-resources { padding-top:25px; padding-bottom:32px; }
+  }
+</style>

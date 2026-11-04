@@ -1,0 +1,562 @@
+[
+  {
+    "slug": "gretsch-white-falcon-value-guide",
+    "width": 1280,
+    "height": 800,
+    "scrollWidth": 1280,
+    "innerWidth": 1280,
+    "buttons": [
+      {
+        "text": "Free Appraisal",
+        "href": "/free-appraisal/",
+        "top": 459.125,
+        "bottom": 509.515625,
+        "left": 284,
+        "right": 428.71875,
+        "visible": true
+      },
+      {
+        "text": "Sell My Gretsch",
+        "href": "/sell-my-gretsch-guitar/",
+        "top": 459.125,
+        "bottom": 509.515625,
+        "left": 440.71875,
+        "right": 594.671875,
+        "visible": true
+      }
+    ],
+    "brokenImages": []
+  },
+  {
+    "slug": "gretsch-white-falcon-authentication-guide",
+    "width": 1280,
+    "height": 800,
+    "scrollWidth": 1280,
+    "innerWidth": 1280,
+    "buttons": [
+      {
+        "text": "Free Appraisal",
+        "href": "/free-appraisal/",
+        "top": 459.125,
+        "bottom": 509.515625,
+        "left": 284,
+        "right": 428.71875,
+        "visible": true
+      },
+      {
+        "text": "Sell My Gretsch",
+        "href": "/sell-my-gretsch-guitar/",
+        "top": 459.125,
+        "bottom": 509.515625,
+        "left": 440.71875,
+        "right": 594.671875,
+        "visible": true
+      }
+    ],
+    "brokenImages": []
+  },
+  {
+    "slug": "gretsch-country-gentleman-value-guide",
+    "width": 1280,
+    "height": 800,
+    "scrollWidth": 1280,
+    "innerWidth": 1280,
+    "buttons": [
+      {
+        "text": "Free Appraisal",
+        "href": "/free-appraisal/",
+        "top": 459.125,
+        "bottom": 509.515625,
+        "left": 284,
+        "right": 428.71875,
+        "visible": true
+      },
+      {
+        "text": "Sell My Gretsch",
+        "href": "/sell-my-gretsch-guitar/",
+        "top": 459.125,
+        "bottom": 509.515625,
+        "left": 440.71875,
+        "right": 594.671875,
+        "visible": true
+      }
+    ],
+    "brokenImages": []
+  },
+  {
+    "slug": "gretsch-country-gentleman-authentication-guide",
+    "width": 1280,
+    "height": 800,
+    "scrollWidth": 1280,
+    "innerWidth": 1280,
+    "buttons": [
+      {
+        "text": "Free Appraisal",
+        "href": "/free-appraisal/",
+        "top": 559.34375,
+        "bottom": 609.734375,
+        "left": 284,
+        "right": 428.71875,
+        "visible": true
+      },
+      {
+        "text": "Sell My Gretsch",
+        "href": "/sell-my-gretsch-guitar/",
+        "top": 559.34375,
+        "bottom": 609.734375,
+        "left": 440.71875,
+        "right": 594.671875,
+        "visible": true
+      }
+    ],
+    "brokenImages": []
+  },
+  {
+    "slug": "gretsch-anniversary-value-guide",
+    "width": 1280,
+    "height": 800,
+    "scrollWidth": 1280,
+    "innerWidth": 1280,
+    "buttons": [
+      {
+        "text": "Free Appraisal",
+        "href": "/free-appraisal/",
+        "top": 459.125,
+        "bottom": 509.515625,
+        "left": 284,
+        "right": 428.71875,
+        "visible": true
+      },
+      {
+        "text": "Sell My Gretsch",
+        "href": "/sell-my-gretsch-guitar/",
+        "top": 459.125,
+        "bottom": 509.515625,
+        "left": 440.71875,
+        "right": 594.671875,
+        "visible": true
+      }
+    ],
+    "brokenImages": []
+  },
+  {
+    "slug": "gretsch-anniversary-authentication-guide",
+    "width": 1280,
+    "height": 800,
+    "scrollWidth": 1280,
+    "innerWidth": 1280,
+    "buttons": [
+      {
+        "text": "Free Appraisal",
+        "href": "/free-appraisal/",
+        "top": 459.125,
+        "bottom": 509.515625,
+        "left": 284,
+        "right": 428.71875,
+        "visible": true
+      },
+      {
+        "text": "Sell My Gretsch",
+        "href": "/sell-my-gretsch-guitar/",
+        "top": 459.125,
+        "bottom": 509.515625,
+        "left": 440.71875,
+        "right": 594.671875,
+        "visible": true
+      }
+    ],
+    "brokenImages": []
+  },
+  {
+    "slug": "guild-starfire-value-guide",
+    "width": 1280,
+    "height": 800,
+    "scrollWidth": 1280,
+    "innerWidth": 1280,
+    "buttons": [
+      {
+        "text": "Free Appraisal",
+        "href": "/free-appraisal/",
+        "top": 459.125,
+        "bottom": 509.515625,
+        "left": 284,
+        "right": 428.71875,
+        "visible": true
+      },
+      {
+        "text": "Sell My Guild",
+        "href": "/sell-my-guild-guitar/",
+        "top": 459.125,
+        "bottom": 509.515625,
+        "left": 440.71875,
+        "right": 577.078125,
+        "visible": true
+      }
+    ],
+    "brokenImages": []
+  },
+  {
+    "slug": "guild-starfire-authentication-guide",
+    "width": 1280,
+    "height": 800,
+    "scrollWidth": 1280,
+    "innerWidth": 1280,
+    "buttons": [
+      {
+        "text": "Free Appraisal",
+        "href": "/free-appraisal/",
+        "top": 459.125,
+        "bottom": 509.515625,
+        "left": 284,
+        "right": 428.71875,
+        "visible": true
+      },
+      {
+        "text": "Sell My Guild",
+        "href": "/sell-my-guild-guitar/",
+        "top": 459.125,
+        "bottom": 509.515625,
+        "left": 440.71875,
+        "right": 577.078125,
+        "visible": true
+      }
+    ],
+    "brokenImages": []
+  },
+  {
+    "slug": "national-resonator-guitar-value-guide",
+    "width": 1280,
+    "height": 800,
+    "scrollWidth": 1280,
+    "innerWidth": 1280,
+    "buttons": [
+      {
+        "text": "Free Appraisal",
+        "href": "/free-appraisal/",
+        "top": 459.125,
+        "bottom": 509.515625,
+        "left": 284,
+        "right": 428.71875,
+        "visible": true
+      },
+      {
+        "text": "Sell My National",
+        "href": "/sell-my-national-guitar/",
+        "top": 459.125,
+        "bottom": 509.515625,
+        "left": 440.71875,
+        "right": 597.578125,
+        "visible": true
+      }
+    ],
+    "brokenImages": []
+  },
+  {
+    "slug": "national-resonator-guitar-authentication-guide",
+    "width": 1280,
+    "height": 800,
+    "scrollWidth": 1280,
+    "innerWidth": 1280,
+    "buttons": [
+      {
+        "text": "Free Appraisal",
+        "href": "/free-appraisal/",
+        "top": 559.34375,
+        "bottom": 609.734375,
+        "left": 284,
+        "right": 428.71875,
+        "visible": true
+      },
+      {
+        "text": "Sell My National",
+        "href": "/sell-my-national-guitar/",
+        "top": 559.34375,
+        "bottom": 609.734375,
+        "left": 440.71875,
+        "right": 597.578125,
+        "visible": true
+      }
+    ],
+    "brokenImages": []
+  },
+  {
+    "slug": "gretsch-white-falcon-value-guide",
+    "width": 375,
+    "height": 812,
+    "scrollWidth": 375,
+    "innerWidth": 375,
+    "buttons": [
+      {
+        "text": "Free Appraisal",
+        "href": "/free-appraisal/",
+        "top": 505.640625,
+        "bottom": 554.03125,
+        "left": 20,
+        "right": 182.5,
+        "visible": true
+      },
+      {
+        "text": "Sell My Gretsch",
+        "href": "/sell-my-gretsch-guitar/",
+        "top": 505.640625,
+        "bottom": 554.03125,
+        "left": 192.5,
+        "right": 355,
+        "visible": true
+      }
+    ],
+    "brokenImages": []
+  },
+  {
+    "slug": "gretsch-white-falcon-authentication-guide",
+    "width": 375,
+    "height": 812,
+    "scrollWidth": 375,
+    "innerWidth": 375,
+    "buttons": [
+      {
+        "text": "Free Appraisal",
+        "href": "/free-appraisal/",
+        "top": 565.5625,
+        "bottom": 613.953125,
+        "left": 20,
+        "right": 182.5,
+        "visible": true
+      },
+      {
+        "text": "Sell My Gretsch",
+        "href": "/sell-my-gretsch-guitar/",
+        "top": 565.5625,
+        "bottom": 613.953125,
+        "left": 192.5,
+        "right": 355,
+        "visible": true
+      }
+    ],
+    "brokenImages": []
+  },
+  {
+    "slug": "gretsch-country-gentleman-value-guide",
+    "width": 375,
+    "height": 812,
+    "scrollWidth": 375,
+    "innerWidth": 375,
+    "buttons": [
+      {
+        "text": "Free Appraisal",
+        "href": "/free-appraisal/",
+        "top": 565.5625,
+        "bottom": 613.953125,
+        "left": 20,
+        "right": 182.5,
+        "visible": true
+      },
+      {
+        "text": "Sell My Gretsch",
+        "href": "/sell-my-gretsch-guitar/",
+        "top": 565.5625,
+        "bottom": 613.953125,
+        "left": 192.5,
+        "right": 355,
+        "visible": true
+      }
+    ],
+    "brokenImages": []
+  },
+  {
+    "slug": "gretsch-country-gentleman-authentication-guide",
+    "width": 375,
+    "height": 812,
+    "scrollWidth": 375,
+    "innerWidth": 375,
+    "buttons": [
+      {
+        "text": "Free Appraisal",
+        "href": "/free-appraisal/",
+        "top": 625.484375,
+        "bottom": 673.875,
+        "left": 20,
+        "right": 182.5,
+        "visible": true
+      },
+      {
+        "text": "Sell My Gretsch",
+        "href": "/sell-my-gretsch-guitar/",
+        "top": 625.484375,
+        "bottom": 673.875,
+        "left": 192.5,
+        "right": 355,
+        "visible": true
+      }
+    ],
+    "brokenImages": []
+  },
+  {
+    "slug": "gretsch-anniversary-value-guide",
+    "width": 375,
+    "height": 812,
+    "scrollWidth": 375,
+    "innerWidth": 375,
+    "buttons": [
+      {
+        "text": "Free Appraisal",
+        "href": "/free-appraisal/",
+        "top": 505.640625,
+        "bottom": 554.03125,
+        "left": 20,
+        "right": 182.5,
+        "visible": true
+      },
+      {
+        "text": "Sell My Gretsch",
+        "href": "/sell-my-gretsch-guitar/",
+        "top": 505.640625,
+        "bottom": 554.03125,
+        "left": 192.5,
+        "right": 355,
+        "visible": true
+      }
+    ],
+    "brokenImages": []
+  },
+  {
+    "slug": "gretsch-anniversary-authentication-guide",
+    "width": 375,
+    "height": 812,
+    "scrollWidth": 375,
+    "innerWidth": 375,
+    "buttons": [
+      {
+        "text": "Free Appraisal",
+        "href": "/free-appraisal/",
+        "top": 565.5625,
+        "bottom": 613.953125,
+        "left": 20,
+        "right": 182.5,
+        "visible": true
+      },
+      {
+        "text": "Sell My Gretsch",
+        "href": "/sell-my-gretsch-guitar/",
+        "top": 565.5625,
+        "bottom": 613.953125,
+        "left": 192.5,
+        "right": 355,
+        "visible": true
+      }
+    ],
+    "brokenImages": []
+  },
+  {
+    "slug": "guild-starfire-value-guide",
+    "width": 375,
+    "height": 812,
+    "scrollWidth": 375,
+    "innerWidth": 375,
+    "buttons": [
+      {
+        "text": "Free Appraisal",
+        "href": "/free-appraisal/",
+        "top": 445.71875,
+        "bottom": 494.109375,
+        "left": 20,
+        "right": 182.5,
+        "visible": true
+      },
+      {
+        "text": "Sell My Guild",
+        "href": "/sell-my-guild-guitar/",
+        "top": 445.71875,
+        "bottom": 494.109375,
+        "left": 192.5,
+        "right": 355,
+        "visible": true
+      }
+    ],
+    "brokenImages": []
+  },
+  {
+    "slug": "guild-starfire-authentication-guide",
+    "width": 375,
+    "height": 812,
+    "scrollWidth": 375,
+    "innerWidth": 375,
+    "buttons": [
+      {
+        "text": "Free Appraisal",
+        "href": "/free-appraisal/",
+        "top": 505.640625,
+        "bottom": 554.03125,
+        "left": 20,
+        "right": 182.5,
+        "visible": true
+      },
+      {
+        "text": "Sell My Guild",
+        "href": "/sell-my-guild-guitar/",
+        "top": 505.640625,
+        "bottom": 554.03125,
+        "left": 192.5,
+        "right": 355,
+        "visible": true
+      }
+    ],
+    "brokenImages": []
+  },
+  {
+    "slug": "national-resonator-guitar-value-guide",
+    "width": 375,
+    "height": 812,
+    "scrollWidth": 375,
+    "innerWidth": 375,
+    "buttons": [
+      {
+        "text": "Free Appraisal",
+        "href": "/free-appraisal/",
+        "top": 565.5625,
+        "bottom": 613.953125,
+        "left": 20,
+        "right": 182.5,
+        "visible": true
+      },
+      {
+        "text": "Sell My National",
+        "href": "/sell-my-national-guitar/",
+        "top": 565.5625,
+        "bottom": 613.953125,
+        "left": 192.5,
+        "right": 355,
+        "visible": true
+      }
+    ],
+    "brokenImages": []
+  },
+  {
+    "slug": "national-resonator-guitar-authentication-guide",
+    "width": 375,
+    "height": 812,
+    "scrollWidth": 375,
+    "innerWidth": 375,
+    "buttons": [
+      {
+        "text": "Free Appraisal",
+        "href": "/free-appraisal/",
+        "top": 625.484375,
+        "bottom": 673.875,
+        "left": 20,
+        "right": 182.5,
+        "visible": true
+      },
+      {
+        "text": "Sell My National",
+        "href": "/sell-my-national-guitar/",
+        "top": 625.484375,
+        "bottom": 673.875,
+        "left": 192.5,
+        "right": 355,
+        "visible": true
+      }
+    ],
+    "brokenImages": []
+  }
+]

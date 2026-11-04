@@ -1,0 +1,178 @@
+=== /work/gretsch-anniversary-authentication-guide.txt  [policy: longform] ===
+  DOCUMENT-LEVEL CHECKS (whole-draft, no line number):
+    [ok  ] contrast-pivot density     contrast density ok 0.45/200w
+    [ok  ] sentence-length variation  sentence variance ok SD 12.2
+    [off ] specificity floor          not run under policy 'longform'
+    [ok  ] section-template rhythm    heading template ok
+    [ok  ] data tables                data tables ok (none)
+    [WARN] staccato beats             STACCATO BEAT x1: consecutive fragments used as a punch, write the sentence - L97: Photo from Joe’s archive. Photo from Joe’s archive. Photo from Joe’s a
+    [ok  ] contractions               contractions ok 6.0/1000 words
+    [ok  ] bold-label case            bold labels ok (none)
+    [ok  ] reaction emoji             reaction emoji ok (none)
+    [ok  ] praise stacking            praise stacking ok
+    [off ] social channel checks      not run under policy 'longform'
+    [n/a ] cross-draft similarity     not run; pass --batch to compare these 10 inputs as a set
+  metrics: words=2618 contrast=0.45/200w (6 hits) sentence_sd=12.17 exempted=0
+  (of the totals below, document-level: BAN 0, WARN 1)
+SUMMARY /work/gretsch-anniversary-authentication-guide.txt: PASS - BAN 0, WARN 1
+=== /work/gretsch-anniversary-value-guide.txt  [policy: longform] ===
+  DOCUMENT-LEVEL CHECKS (whole-draft, no line number):
+    [ok  ] contrast-pivot density     contrast density ok 0.38/200w
+    [ok  ] sentence-length variation  sentence variance ok SD 29.3
+    [off ] specificity floor          not run under policy 'longform'
+    [ok  ] section-template rhythm    heading template ok
+    [ok  ] data tables                data tables ok (none)
+    [WARN] staccato beats             STACCATO BEAT x1: consecutive fragments used as a punch, write the sentence - L135: Photo from Joe’s archive. Photo from Joe’s archive. Photo from Joe’s a
+    [ok  ] contractions               contractions ok 8.12/1000 words
+    [ok  ] bold-label case            bold labels ok (none)
+    [ok  ] reaction emoji             reaction emoji ok (none)
+    [ok  ] praise stacking            praise stacking ok
+    [off ] social channel checks      not run under policy 'longform'
+    [n/a ] cross-draft similarity     not run; pass --batch to compare these 10 inputs as a set
+  metrics: words=2080 contrast=0.38/200w (4 hits) sentence_sd=29.32 exempted=0
+  (of the totals below, document-level: BAN 0, WARN 1)
+SUMMARY /work/gretsch-anniversary-value-guide.txt: PASS - BAN 0, WARN 1
+=== /work/gretsch-country-gentleman-authentication-guide.txt  [policy: longform] ===
+  DOCUMENT-LEVEL CHECKS (whole-draft, no line number):
+    [ok  ] contrast-pivot density     contrast density ok 0.30/200w
+    [ok  ] sentence-length variation  sentence variance ok SD 9.9
+    [off ] specificity floor          not run under policy 'longform'
+    [ok  ] section-template rhythm    heading template ok
+    [ok  ] data tables                data tables ok (none)
+    [WARN] staccato beats             STACCATO BEAT x2: consecutive fragments used as a punch, write the sentence - L40: Photo from Joe’s archive. Photo from Joe’s archive.; L96: Photo from Joe’s archive. Photo from Joe’s archive. Photo from Joe’s a
+    [ok  ] contractions               contractions ok 7.89/1000 words
+    [ok  ] bold-label case            bold labels ok (none)
+    [ok  ] reaction emoji             reaction emoji ok (none)
+    [ok  ] praise stacking            praise stacking ok
+    [off ] social channel checks      not run under policy 'longform'
+    [n/a ] cross-draft similarity     not run; pass --batch to compare these 10 inputs as a set
+  metrics: words=2616 contrast=0.3/200w (4 hits) sentence_sd=9.92 exempted=0
+  (of the totals below, document-level: BAN 0, WARN 1)
+SUMMARY /work/gretsch-country-gentleman-authentication-guide.txt: PASS - BAN 0, WARN 1
+=== /work/gretsch-country-gentleman-value-guide.txt  [policy: longform] ===
+  DOCUMENT-LEVEL CHECKS (whole-draft, no line number):
+    [ok  ] contrast-pivot density     contrast density ok 0.73/200w
+    [ok  ] sentence-length variation  sentence variance ok SD 12.8
+    [off ] specificity floor          not run under policy 'longform'
+    [ok  ] section-template rhythm    heading template ok
+    [ok  ] data tables                data tables ok (none)
+    [WARN] staccato beats             STACCATO BEAT x1: consecutive fragments used as a punch, write the sentence - L83: Photo from Joe’s archive. Photo from Joe’s archive. Photo from Joe’s a
+    [ok  ] contractions               contractions ok 6.3/1000 words
+    [ok  ] bold-label case            bold labels ok (none)
+    [ok  ] reaction emoji             reaction emoji ok (none)
+    [ok  ] praise stacking            praise stacking ok
+    [off ] social channel checks      not run under policy 'longform'
+    [n/a ] cross-draft similarity     not run; pass --batch to compare these 10 inputs as a set
+  metrics: words=1890 contrast=0.73/200w (7 hits) sentence_sd=12.76 exempted=0
+  (of the totals below, document-level: BAN 0, WARN 1)
+SUMMARY /work/gretsch-country-gentleman-value-guide.txt: PASS - BAN 0, WARN 1
+=== /work/gretsch-white-falcon-authentication-guide.txt  [policy: longform] ===
+  TIER 2 - WARN (use sparingly):
+    L46    contrast: ', not just' minimizer tail          ', not just'         ...propriate pickup and control system, not just two output paths added later.
+    L93    contrast: evaluative adjective + straw-man negation 'Real Label, Not'    07A Real Label, Not A Sample Code
+  DOCUMENT-LEVEL CHECKS (whole-draft, no line number):
+    [ok  ] contrast-pivot density     contrast density ok 0.45/200w
+    [ok  ] sentence-length variation  sentence variance ok SD 11.1
+    [off ] specificity floor          not run under policy 'longform'
+    [ok  ] section-template rhythm    heading template ok
+    [ok  ] data tables                data tables ok (none)
+    [WARN] staccato beats             STACCATO BEAT x2: consecutive fragments used as a punch, write the sentence - L33: Photo from Joe’s archive. Photo from Joe’s archive.; L89: Photo from Joe’s archive. Photo from Joe’s archive. Photo from Joe’s a
+    [ok  ] contractions               contractions ok 8.67/1000 words
+    [ok  ] bold-label case            bold labels ok (none)
+    [ok  ] reaction emoji             reaction emoji ok (none)
+    [ok  ] praise stacking            praise stacking ok
+    [off ] social channel checks      not run under policy 'longform'
+    [n/a ] cross-draft similarity     not run; pass --batch to compare these 10 inputs as a set
+  metrics: words=2612 contrast=0.45/200w (6 hits) sentence_sd=11.15 exempted=0
+  (of the totals below, document-level: BAN 0, WARN 1)
+SUMMARY /work/gretsch-white-falcon-authentication-guide.txt: PASS - BAN 0, WARN 3
+=== /work/gretsch-white-falcon-value-guide.txt  [policy: longform] ===
+  DOCUMENT-LEVEL CHECKS (whole-draft, no line number):
+    [ok  ] contrast-pivot density     contrast density ok 0.41/200w
+    [ok  ] sentence-length variation  sentence variance ok SD 14.1
+    [off ] specificity floor          not run under policy 'longform'
+    [ok  ] section-template rhythm    heading template ok
+    [ok  ] data tables                data tables ok (none)
+    [WARN] staccato beats             STACCATO BEAT x1: consecutive fragments used as a punch, write the sentence - L87: Photo from Joe’s archive. Photo from Joe’s archive. Photo from Joe’s a
+    [ok  ] contractions               contractions ok 13.91/1000 words
+    [ok  ] bold-label case            bold labels ok (none)
+    [ok  ] reaction emoji             reaction emoji ok (none)
+    [ok  ] praise stacking            praise stacking ok
+    [off ] social channel checks      not run under policy 'longform'
+    [n/a ] cross-draft similarity     not run; pass --batch to compare these 10 inputs as a set
+  metrics: words=1922 contrast=0.41/200w (4 hits) sentence_sd=14.09 exempted=0
+  (of the totals below, document-level: BAN 0, WARN 1)
+SUMMARY /work/gretsch-white-falcon-value-guide.txt: PASS - BAN 0, WARN 1
+=== /work/guild-starfire-authentication-guide.txt  [policy: longform] ===
+  DOCUMENT-LEVEL CHECKS (whole-draft, no line number):
+    [ok  ] contrast-pivot density     contrast density ok 0.52/200w
+    [ok  ] sentence-length variation  sentence variance ok SD 14.8
+    [off ] specificity floor          not run under policy 'longform'
+    [ok  ] section-template rhythm    heading template ok
+    [ok  ] data tables                data tables ok (none)
+    [WARN] staccato beats             STACCATO BEAT x2: consecutive fragments used as a punch, write the sentence - L101: Photo from Joe’s archive. Photo from Joe’s archive. Photo from Joe’s a; L108: Photo from Joe’s archive. Photo from Joe’s archive. Photo from Joe’s a
+    [ok  ] contractions               contractions ok 4.49/1000 words
+    [ok  ] bold-label case            bold labels ok (none)
+    [ok  ] reaction emoji             reaction emoji ok (none)
+    [ok  ] praise stacking            praise stacking ok
+    [off ] social channel checks      not run under policy 'longform'
+    [n/a ] cross-draft similarity     not run; pass --batch to compare these 10 inputs as a set
+  metrics: words=2640 contrast=0.52/200w (7 hits) sentence_sd=14.8 exempted=0
+  (of the totals below, document-level: BAN 0, WARN 1)
+SUMMARY /work/guild-starfire-authentication-guide.txt: PASS - BAN 0, WARN 1
+=== /work/guild-starfire-value-guide.txt  [policy: longform] ===
+  DOCUMENT-LEVEL CHECKS (whole-draft, no line number):
+    [ok  ] contrast-pivot density     contrast density ok 0.37/200w
+    [ok  ] sentence-length variation  sentence variance ok SD 30.5
+    [off ] specificity floor          not run under policy 'longform'
+    [ok  ] section-template rhythm    heading template ok
+    [ok  ] data tables                data tables ok (none)
+    [WARN] staccato beats             STACCATO BEAT x2: consecutive fragments used as a punch, write the sentence - L157: Photo from Joe’s archive. Photo from Joe’s archive. Photo from Joe’s a; L164: Photo from Joe’s archive. Photo from Joe’s archive. Photo from Joe’s a
+    [ok  ] contractions               contractions ok 6.51/1000 words
+    [ok  ] bold-label case            bold labels ok (none)
+    [ok  ] reaction emoji             reaction emoji ok (none)
+    [ok  ] praise stacking            praise stacking ok
+    [off ] social channel checks      not run under policy 'longform'
+    [n/a ] cross-draft similarity     not run; pass --batch to compare these 10 inputs as a set
+  metrics: words=2133 contrast=0.37/200w (4 hits) sentence_sd=30.48 exempted=0
+  (of the totals below, document-level: BAN 0, WARN 1)
+SUMMARY /work/guild-starfire-value-guide.txt: PASS - BAN 0, WARN 1
+=== /work/national-resonator-guitar-authentication-guide.txt  [policy: longform] ===
+  TIER 2 - WARN (use sparingly):
+    L151   structure: counted phrase mid-sentence (a fact stays; an announcer goes on the list) '4 examples'         ...xamplesFirsthand Style 3 and Style 4 examples, engraving names and square-neck c...
+  DOCUMENT-LEVEL CHECKS (whole-draft, no line number):
+    [ok  ] contrast-pivot density     contrast density ok 0.15/200w
+    [ok  ] sentence-length variation  sentence variance ok SD 11.2
+    [off ] specificity floor          not run under policy 'longform'
+    [ok  ] section-template rhythm    heading template ok
+    [ok  ] data tables                data tables ok (none)
+    [WARN] staccato beats             STACCATO BEAT x4: consecutive fragments used as a punch, write the sentence - L73: Photo from Joe’s archive. Photo from Joe’s archive. Photo from Joe’s a; L80: Photo from Joe’s archive. Photo from Joe’s archive. Photo from Joe’s a; L86: Photo from Joe’s archive. Photo from Joe’s archive. Photo from Joe’s a; L92: Photo from Joe’s archive. Photo from Joe’s archive. Photo from Joe’s a
+    [WARN] contractions               CONTRACTIONS ESSENTIALLY ABSENT: 5 in 2583 words (1.94/1000, want >= 2.0) - 17 stiff forms (do not, it is, cannot...) to reread aloud and rewrite naturally
+    [ok  ] bold-label case            bold labels ok (none)
+    [ok  ] reaction emoji             reaction emoji ok (none)
+    [ok  ] praise stacking            praise stacking ok
+    [off ] social channel checks      not run under policy 'longform'
+    [n/a ] cross-draft similarity     not run; pass --batch to compare these 10 inputs as a set
+  metrics: words=2552 contrast=0.15/200w (2 hits) sentence_sd=11.24 exempted=0
+  (of the totals below, document-level: BAN 0, WARN 2)
+SUMMARY /work/national-resonator-guitar-authentication-guide.txt: PASS - BAN 0, WARN 3
+=== /work/national-resonator-guitar-value-guide.txt  [policy: longform] ===
+  TIER 2 - WARN (use sparingly):
+    L146   contrast: ', not just' minimizer tail          ', not just'         ...ck needs a description of that work, not just the string count it has today.
+  DOCUMENT-LEVEL CHECKS (whole-draft, no line number):
+    [ok  ] contrast-pivot density     contrast density ok 0.27/200w
+    [ok  ] sentence-length variation  sentence variance ok SD 36.3
+    [off ] specificity floor          not run under policy 'longform'
+    [ok  ] section-template rhythm    heading template ok
+    [ok  ] data tables                data tables ok (none)
+    [WARN] staccato beats             STACCATO BEAT x4: consecutive fragments used as a punch, write the sentence - L166: Photo from Joe’s archive. Photo from Joe’s archive.; L171: Photo from Joe’s archive. Photo from Joe’s archive.; L176: Photo from Joe’s archive. Photo from Joe’s archive.; L181: Photo from Joe’s archive. Photo from Joe’s archive.
+    [ok  ] contractions               contractions ok 4.95/1000 words
+    [ok  ] bold-label case            bold labels ok (none)
+    [ok  ] reaction emoji             reaction emoji ok (none)
+    [ok  ] praise stacking            praise stacking ok
+    [off ] social channel checks      not run under policy 'longform'
+    [n/a ] cross-draft similarity     not run; pass --batch to compare these 10 inputs as a set
+  metrics: words=2202 contrast=0.27/200w (3 hits) sentence_sd=36.33 exempted=0
+  (of the totals below, document-level: BAN 0, WARN 1)
+SUMMARY /work/national-resonator-guitar-value-guide.txt: PASS - BAN 0, WARN 2
+TOTAL: BAN 0, WARN 15

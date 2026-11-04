@@ -1,6 +1,8 @@
 import { getCollection, type CollectionEntry } from "astro:content";
+import { serialDatingGuides, SERIAL_DATING_CATEGORY, MAIN_SERIAL_GUIDE_COUNT, type StandaloneGuide } from "../data/serial-dating-guides";
 
 export type Post = CollectionEntry<"blog">;
+export type ArchiveEntry = Post | StandaloneGuide;
 
 export const PAGE_SIZE = 9;
 
@@ -45,10 +47,11 @@ export function categoryName(slug: string, fallback?: string): string {
   return CATEGORY_META[slug]?.name ?? fallback ?? slug;
 }
 
-/** Distinct categories that actually have posts, with counts, ordered by count desc. */
+/** Categories with published posts or standalone guides, ordered by entry count. */
 export function getCategories(posts: Post[]): { slug: string; name: string; count: number }[] {
   const counts = new Map<string, number>();
   for (const p of posts) counts.set(p.data.category, (counts.get(p.data.category) ?? 0) + 1);
+  counts.set(SERIAL_DATING_CATEGORY, (counts.get(SERIAL_DATING_CATEGORY) ?? 0) + serialDatingGuides.length);
   return [...counts.entries()]
     .map(([slug, count]) => ({ slug, name: categoryName(slug), count }))
     .sort((a, b) => b.count - a.count);
@@ -57,6 +60,17 @@ export function getCategories(posts: Post[]): { slug: string; name: string; coun
 /** Posts in a category, newest first. */
 export function postsInCategory(posts: Post[], slug: string): Post[] {
   return posts.filter((p) => p.data.category === slug);
+}
+
+/** Pin the main serial lookups, then category posts and the detailed guides. */
+export function entriesInCategory(posts: Post[], slug: string): ArchiveEntry[] {
+  const categoryPosts = postsInCategory(posts, slug);
+  if (slug !== SERIAL_DATING_CATEGORY) return categoryPosts;
+  return [
+    ...serialDatingGuides.slice(0, MAIN_SERIAL_GUIDE_COUNT),
+    ...categoryPosts,
+    ...serialDatingGuides.slice(MAIN_SERIAL_GUIDE_COUNT),
+  ];
 }
 
 // Generic words that carry no topical signal — dropped before scoring so the
@@ -87,7 +101,7 @@ function relatedTokens(p: Post): Set<string> {
  * 3 newest posts in the largest category on nearly every page.
  */
 export function getRelated(posts: Post[], current: Post, n = 3): Post[] {
-  const others = posts.filter((p) => p.id !== current.id);
+  const others = posts.filter((p) => p.id !== current.id && p.id !== "most-expensive-guitars-ever-sold");
   // This comparison needs acoustic Gibson context, not generic Gibson matches.
   if (current.id === "identify-vintage-gibson-j45-j50-sj") {
     const acousticIds = [

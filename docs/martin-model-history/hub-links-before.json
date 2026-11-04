@@ -1,0 +1,265 @@
+{
+  "checkedAt": "2026-10-26T19:04:05.499Z",
+  "mode": "before",
+  "base": "https://www.joesvintageguitarsaz.com",
+  "targetCount": 15,
+  "results": [
+    {
+      "hub": "/martin-serial-and-model-numbers/",
+      "status": 200,
+      "linkedGuides": 0,
+      "targets": [],
+      "links": [],
+      "headings": [
+        "Find Your Martin’s Year",
+        "Martin Dating Photo Guides",
+        "Where To Find Your Martin’s Serial Number",
+        "How To Date A Martin Guitar",
+        "Martin Guitar Serial Number Chart",
+        "Other Martin Instrument Serial Charts",
+        "Use Features To Check The Serial Date",
+        "When The Serial And Features Seem To Disagree",
+        "Frequently Asked Questions",
+        "Get Help With Your Martin",
+        "Martin Detail Photo",
+        "Talk With Joe Today"
+      ]
+    },
+    {
+      "hub": "/martin-guitar-dating-guide/",
+      "status": 200,
+      "linkedGuides": 0,
+      "targets": [],
+      "links": [],
+      "headings": [
+        "12-Fret And 14-Fret Body Joints",
+        "Rectangular And Belly Bridges",
+        "Pickguard Shape, Material And Repair Evidence",
+        "Binding, Purfling And Fingerboard Inlays",
+        "Brazilian Rosewood, Indian Rosewood And Mahogany",
+        "Bracing And Internal Inspection",
+        "Ebony Bars, Steel T-Bars, Square Tubes And Truss Rods",
+        "Finish, Sunburst, Endpins And Case Records",
+        "Martin Construction Timeline",
+        "Frequently Asked Questions",
+        "Related Martin Dating Guides",
+        "Martin Detail Photo",
+        "Talk With Joe Today"
+      ]
+    },
+    {
+      "hub": "/prewar-martin-guitar-guide/",
+      "status": 200,
+      "linkedGuides": 0,
+      "targets": [],
+      "links": [],
+      "headings": [
+        "What Prewar Means For A Martin Guitar",
+        "Early X-Bracing And The Move To Steel Strings",
+        "Forward And Rearward X-Brace Position",
+        "Scalloped Braces And The Postwar Transition",
+        "Bridge Plates, Pin Holes And Repairs",
+        "Nut Width, Body Joints And Frets",
+        "Ebony Reinforcement And Steel T-Bars",
+        "Model Woods, Herringbone And Pearl Trim",
+        "Bridge Shape, Original Parts And Repair History",
+        "Photos And Records For A Prewar Martin Assessment",
+        "Prewar And Wartime Martin Construction Timeline",
+        "Frequently Asked Questions",
+        "Related Martin Dating Guides",
+        "Martin Detail Photo",
+        "Talk With Joe Today"
+      ]
+    },
+    {
+      "hub": "/how-to-spot-a-fake-martin/",
+      "status": 200,
+      "linkedGuides": 0,
+      "targets": [],
+      "links": [],
+      "headings": [
+        "The Fast Martin Field Check",
+        "Start With the Neck-Block Markings",
+        "Use the Inside-Outside Grain Test Carefully",
+        "Read the Center Strip and Interior Work",
+        "What Else Has to Match?",
+        "Photos to Send for a Martin Authentication Review",
+        "Keep Researching Your Martin",
+        "Vintage Guitar Authentication Guides",
+        "Martin Authentication Questions",
+        "Have Joe Review the Whole Guitar"
+      ]
+    },
+    {
+      "hub": "/martin-d-28-d-18-d-45-dreadnought-value-guide/",
+      "status": 200,
+      "linkedGuides": 0,
+      "targets": [],
+      "links": [],
+      "headings": [
+        "How Much Is a Vintage Martin Dreadnought Worth?",
+        "Find the Model and Year Before Estimating Value",
+        "Vintage Martin Dreadnought Values",
+        "The Martin Changes That Matter to Value",
+        "Brazilian vs. East Indian Rosewood: How It Affects Martin Value",
+        "What Determines a Vintage Martin’s Value?",
+        "What Lowers a Vintage Martin’s Value?",
+        "How I Determine a Vintage Martin Dreadnought’s Value",
+        "Selling Your Vintage Martin",
+        "Related Martin Guides",
+        "Talk With Joe Today"
+      ]
+    },
+    {
+      "hub": "/how-old-is-my-guitar/",
+      "status": 200,
+      "linkedGuides": 0,
+      "targets": [],
+      "links": [],
+      "headings": [
+        "Find The Serial Number First",
+        "The Serial Tells You Less Than You'd Think",
+        "Dating Guides By Brand",
+        "The Parts Date The Guitar Too",
+        "When The Serial And The Parts Disagree",
+        "Model Specific Dating Guides",
+        "Related Guides",
+        "FAQ",
+        "Talk With Joe Today"
+      ]
+    },
+    {
+      "hub": "/sell-my-martin-guitar/",
+      "status": 200,
+      "linkedGuides": 1,
+      "targets": [
+        "/post/martin-d18e-vs-d28e-authentication-guide/"
+      ],
+      "links": [
+        {
+          "href": "/post/martin-d18e-vs-d28e-authentication-guide/",
+          "text": "Martin Electric Models",
+          "rel": ""
+        },
+        {
+          "href": "/post/martin-d18e-vs-d28e-authentication-guide/",
+          "text": "Compare the Martin D-18E and D-28E",
+          "rel": ""
+        }
+      ],
+      "headings": [
+        "Tell Me About Your Martin",
+        "Selling Your Martin Doesn't Have to Be Complicated",
+        "A Simple, Proven Way to Ship Your Vintage Martin",
+        "How Much Is My Martin Guitar Worth?",
+        "What I Have Paid for Vintage Martin Guitars",
+        "Six Photos That Help Me Make An Accurate Offer",
+        "Original Owners and the Stories Behind Their Martins",
+        "I'm Joe Dampt",
+        "Original Photos And Stories Can Add To My Offer",
+        "Learn More About Your Martin Before You Sell",
+        "The Best Way to Sell a Vintage Martin: Dealer, Consignment, Auction or Reverb?",
+        "Vintage Martin Guitars I Buy",
+        "What People Say After Selling Me a Guitar",
+        "Before You Sell a Vintage Martin",
+        "Ready To Sell Your Martin?",
+        "Talk With Joe Today"
+      ]
+    },
+    {
+      "hub": "/martin-guitar-model-numbers/",
+      "status": 200,
+      "linkedGuides": 1,
+      "targets": [
+        "/post/martin-d18e-vs-d28e-authentication-guide/"
+      ],
+      "links": [
+        {
+          "href": "/post/martin-d18e-vs-d28e-authentication-guide/",
+          "text": "Compare The Original D-18E And D-28E",
+          "rel": ""
+        }
+      ],
+      "headings": [
+        "Decode Your Martin Model Stamp",
+        "Martin Body Sizes Explained",
+        "Martin Style Numbers And Trim",
+        "Model Numbers On Real Martin Guitars",
+        "Measure A Body Without A Model Stamp",
+        "Compare Style 17, 21 And 45 Details",
+        "Model Suffixes, CUSTOM Stamps And Reissues",
+        "Dealer Names And Historical Model Codes",
+        "Frequently Asked Questions",
+        "Related Martin Dating Guides",
+        "Martin Detail Photo",
+        "Talk With Joe Today"
+      ]
+    }
+  ],
+  "inbound": [
+    {
+      "url": "/post/martin-12-string-authentication-guide/",
+      "hubs": []
+    },
+    {
+      "url": "/post/martin-archtop-authentication-guide/",
+      "hubs": []
+    },
+    {
+      "url": "/post/martin-classical-authentication-guide/",
+      "hubs": []
+    },
+    {
+      "url": "/post/martin-d-21-authentication-guide/",
+      "hubs": []
+    },
+    {
+      "url": "/post/martin-d-28-authentication-guide/",
+      "hubs": []
+    },
+    {
+      "url": "/post/martin-d-35-authentication-guide/",
+      "hubs": []
+    },
+    {
+      "url": "/post/martin-d-45-authentication-guide/",
+      "hubs": []
+    },
+    {
+      "url": "/post/martin-d18e-vs-d28e-authentication-guide/",
+      "hubs": [
+        "/sell-my-martin-guitar/",
+        "/martin-guitar-model-numbers/"
+      ]
+    },
+    {
+      "url": "/post/martin-electric-authentication-guide/",
+      "hubs": []
+    },
+    {
+      "url": "/post/martin-om-18-authentication-guide/",
+      "hubs": []
+    },
+    {
+      "url": "/post/martin-om-28-authentication-guide/",
+      "hubs": []
+    },
+    {
+      "url": "/post/martin-om-45-authentication-guide/",
+      "hubs": []
+    },
+    {
+      "url": "/post/martin-plectrum-authentication-guide/",
+      "hubs": []
+    },
+    {
+      "url": "/post/martin-small-early-authentication-guide/",
+      "hubs": []
+    },
+    {
+      "url": "/post/martin-tenor-authentication-guide/",
+      "hubs": []
+    }
+  ],
+  "errors": []
+}

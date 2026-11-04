@@ -1,0 +1,342 @@
+{
+  "checkedAt": "2026-10-26T21:12:29.247Z",
+  "base": "http://127.0.0.1:4326",
+  "http": [
+    {
+      "url": "/category/museum-original-owners/",
+      "status": 200,
+      "anchorExists": true
+    },
+    {
+      "url": "/do-replaced-pickups-hurt-guitar-value/",
+      "status": 200,
+      "anchorExists": true,
+      "title": "Do Replaced Pickups Hurt Your Vintage Guitar's Value?",
+      "robots": "noindex, follow",
+      "faqMatch": true,
+      "metadataMatch": true,
+      "bodyMatchesLocal": true
+    },
+    {
+      "url": "/fender-pickup-dates/",
+      "status": 200,
+      "anchorExists": true
+    },
+    {
+      "url": "/fender-pot-codes/",
+      "status": 200,
+      "anchorExists": true
+    },
+    {
+      "url": "/found-an-old-guitar/",
+      "status": 200,
+      "anchorExists": true
+    },
+    {
+      "url": "/free-appraisal/",
+      "status": 200,
+      "anchorExists": true
+    },
+    {
+      "url": "/gibson-pot-codes/",
+      "status": 200,
+      "anchorExists": true
+    },
+    {
+      "url": "/gibson-tuner-dating-guide/",
+      "status": 200,
+      "anchorExists": true
+    },
+    {
+      "url": "/how-much-does-a-refinish-hurt-guitar-value/",
+      "status": 200,
+      "anchorExists": true,
+      "title": "How Much Does A Refinish Hurt A Vintage Guitar's Value?",
+      "robots": "noindex, follow",
+      "faqMatch": true,
+      "metadataMatch": true,
+      "bodyMatchesLocal": true
+    },
+    {
+      "url": "/how-old-is-my-guitar/",
+      "status": 200,
+      "anchorExists": true
+    },
+    {
+      "url": "/how-to-spot-a-fake-fender/",
+      "status": 200,
+      "anchorExists": true
+    },
+    {
+      "url": "/how-to-spot-a-fake-gibson/",
+      "status": 200,
+      "anchorExists": true
+    },
+    {
+      "url": "/how-to-spot-a-fake-martin/",
+      "status": 200,
+      "anchorExists": true
+    },
+    {
+      "url": "/how-to-tell-if-a-guitar-has-been-refinished/",
+      "status": 200,
+      "anchorExists": true,
+      "title": "How To Tell If Your Vintage Guitar Has Been Refinished",
+      "robots": "noindex, follow",
+      "faqMatch": true,
+      "metadataMatch": true,
+      "bodyMatchesLocal": true
+    },
+    {
+      "url": "/inherited-a-guitar/",
+      "status": 200,
+      "anchorExists": true,
+      "title": "Inherited A Guitar? How To Identify, Value And Decide",
+      "robots": "noindex, follow",
+      "faqMatch": true,
+      "metadataMatch": true,
+      "bodyMatchesLocal": true
+    },
+    {
+      "url": "/post/best-online-platforms-sell-vintage-guitars/",
+      "status": 200,
+      "anchorExists": true
+    },
+    {
+      "url": "/post/fender-custom-color-authentication-guide/",
+      "status": 200,
+      "anchorExists": true
+    },
+    {
+      "url": "/post/gibson-paf-patent-number-pickup-guide/",
+      "status": 200,
+      "anchorExists": true
+    },
+    {
+      "url": "/post/how-to-sell-a-large-guitar-collection-every-option-honestly-explained/",
+      "status": 200,
+      "anchorExists": true
+    },
+    {
+      "url": "/post/how-to-tell-if-your-acoustic-guitar-needs-a-neck-reset/",
+      "status": 200,
+      "anchorExists": true
+    },
+    {
+      "url": "/post/is-your-vintage-guitar-valuable-7-factors-that-determine-its-value/",
+      "status": 200,
+      "anchorExists": true
+    },
+    {
+      "url": "/post/mistakes-to-avoid-when-selling-a-vintage-guitar/",
+      "status": 200,
+      "anchorExists": true
+    },
+    {
+      "url": "/post/one-family-1946-martin-d-28/",
+      "status": 200,
+      "anchorExists": true
+    },
+    {
+      "url": "/post/one-family-1959-gibson-es-355/",
+      "status": 200,
+      "anchorExists": true
+    },
+    {
+      "url": "/post/one-owner-1955-martin-d28/",
+      "status": 200,
+      "anchorExists": true
+    },
+    {
+      "url": "/post/one-owner-1957-gibson-byrdland/",
+      "status": 200,
+      "anchorExists": true
+    },
+    {
+      "url": "/post/one-owner-1965-fender-stratocaster/",
+      "status": 200,
+      "anchorExists": true
+    },
+    {
+      "url": "/post/what-a-serial-number-cant-tell-you/",
+      "status": 200,
+      "anchorExists": true
+    },
+    {
+      "url": "/repair/",
+      "status": 200,
+      "anchorExists": true
+    },
+    {
+      "url": "/sell-a-guitar-collection/",
+      "status": 200,
+      "anchorExists": true
+    },
+    {
+      "url": "/selling-a-loved-ones-guitar/",
+      "status": 200,
+      "anchorExists": true,
+      "title": "Is It Wrong To Sell My Dad's Guitar? Keeping Or Letting Go",
+      "robots": "noindex, follow",
+      "faqMatch": true,
+      "metadataMatch": true,
+      "bodyMatchesLocal": true
+    },
+    {
+      "url": "/should-i-restore-my-guitar-before-selling/",
+      "status": 200,
+      "anchorExists": true,
+      "title": "Should I Restore My Vintage Guitar Before Selling It?",
+      "robots": "noindex, follow",
+      "faqMatch": true,
+      "metadataMatch": true,
+      "bodyMatchesLocal": true
+    },
+    {
+      "url": "/vintage-fender-stratocaster-value-guide/",
+      "status": 200,
+      "anchorExists": true
+    },
+    {
+      "url": "/vintage-fender-value-guide/",
+      "status": 200,
+      "anchorExists": true
+    },
+    {
+      "url": "/vintage-gibson-es-335-value-guide/",
+      "status": 200,
+      "anchorExists": true
+    },
+    {
+      "url": "/vintage-gibson-les-paul-market-value-guide/",
+      "status": 200,
+      "anchorExists": true
+    },
+    {
+      "url": "/vintage-gibson-value-guide/",
+      "status": 200,
+      "anchorExists": true
+    },
+    {
+      "url": "/what-brand-is-my-guitar/",
+      "status": 200,
+      "anchorExists": true
+    },
+    {
+      "url": "/what-guitar-do-i-have/",
+      "status": 200,
+      "anchorExists": true
+    },
+    {
+      "url": "/what-lowers-vintage-guitar-value/",
+      "status": 200,
+      "anchorExists": true,
+      "title": "What Lowers A Vintage Guitar's Value? Repairs And Changes",
+      "robots": "noindex, follow",
+      "faqMatch": true,
+      "metadataMatch": true,
+      "bodyMatchesLocal": true
+    }
+  ],
+  "newPages": [
+    {
+      "url": "/what-lowers-vintage-guitar-value/",
+      "visibleRefinishStatements": 4,
+      "schemaRefinishStatements": 1,
+      "metadataRefinishStatements": 0,
+      "peers": [],
+      "schemaDashes": []
+    },
+    {
+      "url": "/how-much-does-a-refinish-hurt-guitar-value/",
+      "visibleRefinishStatements": 7,
+      "schemaRefinishStatements": 3,
+      "metadataRefinishStatements": 3,
+      "peers": [
+        {
+          "url": "/how-to-tell-if-a-guitar-has-been-refinished/",
+          "count": 1
+        },
+        {
+          "url": "/do-replaced-pickups-hurt-guitar-value/",
+          "count": 1
+        }
+      ],
+      "schemaDashes": []
+    },
+    {
+      "url": "/how-to-tell-if-a-guitar-has-been-refinished/",
+      "visibleRefinishStatements": 0,
+      "schemaRefinishStatements": 0,
+      "metadataRefinishStatements": 0,
+      "peers": [
+        {
+          "url": "/how-much-does-a-refinish-hurt-guitar-value/",
+          "count": 1
+        },
+        {
+          "url": "/do-replaced-pickups-hurt-guitar-value/",
+          "count": 1
+        }
+      ],
+      "schemaDashes": []
+    },
+    {
+      "url": "/do-replaced-pickups-hurt-guitar-value/",
+      "visibleRefinishStatements": 1,
+      "schemaRefinishStatements": 0,
+      "metadataRefinishStatements": 0,
+      "peers": [
+        {
+          "url": "/how-much-does-a-refinish-hurt-guitar-value/",
+          "count": 1
+        },
+        {
+          "url": "/how-to-tell-if-a-guitar-has-been-refinished/",
+          "count": 1
+        }
+      ],
+      "schemaDashes": []
+    },
+    {
+      "url": "/should-i-restore-my-guitar-before-selling/",
+      "visibleRefinishStatements": 4,
+      "schemaRefinishStatements": 1,
+      "metadataRefinishStatements": 0,
+      "peers": [],
+      "schemaDashes": []
+    },
+    {
+      "url": "/inherited-a-guitar/",
+      "visibleRefinishStatements": 0,
+      "schemaRefinishStatements": 0,
+      "metadataRefinishStatements": 0,
+      "peers": [
+        {
+          "url": "/selling-a-loved-ones-guitar/",
+          "count": 1
+        }
+      ],
+      "schemaDashes": []
+    },
+    {
+      "url": "/selling-a-loved-ones-guitar/",
+      "visibleRefinishStatements": 0,
+      "schemaRefinishStatements": 0,
+      "metadataRefinishStatements": 0,
+      "peers": [
+        {
+          "url": "/inherited-a-guitar/",
+          "count": 1
+        }
+      ],
+      "schemaDashes": []
+    }
+  ],
+  "refinishCounts": {
+    "visible": 16,
+    "schema": 5,
+    "metadata": 3
+  },
+  "errors": []
+}

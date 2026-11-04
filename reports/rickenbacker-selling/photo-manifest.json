@@ -1,0 +1,59 @@
+[
+  {
+    "id": "1JhqzfuuB_3ecjGyo85ILsVGzEkwkVgrv",
+    "name": "360-front",
+    "sourceTitle": "1960s-rickenbacker-360-1.jpg",
+    "sourceUrl": "https://drive.google.com/file/d/1JhqzfuuB_3ecjGyo85ILsVGzEkwkVgrv/view",
+    "usedAs": "images/360-front-1200.webp",
+    "treatment": "EXIF orientation, resize and WebP compression only; no generative alteration"
+  },
+  {
+    "id": "14i7-3hjc0GR1QL4VwV5lPpEbzlGXzJWW",
+    "name": "360-detail",
+    "sourceTitle": "1960s-rickenbacker-360-2.jpg",
+    "sourceUrl": "https://drive.google.com/file/d/14i7-3hjc0GR1QL4VwV5lPpEbzlGXzJWW/view",
+    "usedAs": "images/360-detail-1200.webp",
+    "treatment": "EXIF orientation, resize and WebP compression only; no generative alteration"
+  },
+  {
+    "id": "1PtKpEJ-dClVpIK3SWmyEMk_WpjhvX0Rl",
+    "name": "325-front",
+    "sourceTitle": "1997-rickenbacker-325-1.jpg",
+    "sourceUrl": "https://drive.google.com/file/d/1PtKpEJ-dClVpIK3SWmyEMk_WpjhvX0Rl/view",
+    "usedAs": "images/325-front-1200.webp",
+    "treatment": "EXIF orientation, resize and WebP compression only; no generative alteration"
+  },
+  {
+    "id": "1xMGzuuWQAeZvKfCq_AsdsxTYAs_PgU8Y",
+    "name": "4005-front",
+    "sourceTitle": "1968-rickenbacker-4005-azureglo.jpg",
+    "sourceUrl": "https://drive.google.com/file/d/1xMGzuuWQAeZvKfCq_AsdsxTYAs_PgU8Y/view",
+    "usedAs": "images/4005-front-1200.webp",
+    "treatment": "EXIF orientation, resize and WebP compression only; no generative alteration"
+  },
+  {
+    "id": "1Q7YbdT2gE9B_vKdtyXv46PtjiLdOcETS",
+    "name": "4003-front",
+    "sourceTitle": "1989-rickenbacker-4003-blue-2.jpg",
+    "sourceUrl": "https://drive.google.com/file/d/1Q7YbdT2gE9B_vKdtyXv46PtjiLdOcETS/view",
+    "usedAs": "images/4003-front-1200.webp",
+    "treatment": "EXIF orientation, resize and WebP compression only; no generative alteration"
+  },
+  {
+    "id": "1k5aWoalQO7t6iTghZ9MDjpylAuTqYWPt",
+    "name": "360-12-front",
+    "sourceTitle": "IMG_5318.jpg",
+    "sourceUrl": "https://drive.google.com/file/d/1k5aWoalQO7t6iTghZ9MDjpylAuTqYWPt/view",
+    "usedAs": "images/360-12-front-1200.webp",
+    "treatment": "EXIF orientation, resize and WebP compression only; no generative alteration"
+  },
+  {
+    "id": "14RzS0Wl3N2bs3q6zgSGk8xsOj8WKxdAG",
+    "name": "rickenbacker-bass-fedex-counter",
+    "sourceTitle": "IMG_4273.HEIC",
+    "sourceUrl": "https://drive.google.com/file/d/14RzS0Wl3N2bs3q6zgSGk8xsOj8WKxdAG/view",
+    "usedAs": "images/rickenbacker-bass-fedex-counter-1200.webp",
+    "treatment": "EXIF orientation, resize and WebP compression only; no crop or generative alteration",
+    "identification": "User identified Rickenbacker bass and FedEx counter; no model/year or transaction-specific claim added"
+  }
+]

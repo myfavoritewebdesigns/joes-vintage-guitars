@@ -8,11 +8,22 @@ import LicensedMarkdownPhotos from "../../components/LicensedMarkdownPhotos.astr
 import GuideHero from '../../components/GuideHero.astro';
 import presentationPaths from '../../data/gap2-presentation-paths.json';
 import comparisonHero from '../../assets/blog/1959-gibson-es-335-authentication-guide/1959-gibson-es-335t-sunburst-scaled.jpg';
+import VintageSellingGuide from "../../components/VintageSellingGuide.astro";
 import Layout from "../../layouts/Layout.astro";
 import PostCard from "../../components/PostCard.astro";
 import ContactSection from "../../components/ContactSection.astro";
 import MartinSmallBodyGuide from "../../components/MartinSmallBodyGuide.astro";
+import MartinValueGuide from "../../components/MartinValueGuide.astro";
+import martinValueGuides from "../../data/martin-value-guides.json";
+import MartinModelHistory from "../../components/MartinModelHistory.astro";
+import martinModelHistories from "../../data/martin-model-history.json";
+import RickenbackerModelGuide from "../../components/RickenbackerModelGuide.astro";
+import { rickenbackerModels, rickenbackerGuideSlug } from "../../data/rickenbacker-models";
 import MartinD18Guide from "../../components/MartinD18Guide.astro";
+import AuctionRecordsGuide from "../../components/records/AuctionRecordsGuide.astro";
+import { faqSchema as auctionFaqSchema } from "../../data/auction-records";
+import ModelGuide from '../../components/model-guide/ModelGuide.astro';
+import { modelGuides } from '../../data/model-guides';
 import GibsonJ200Guide from "../../components/GibsonJ200Guide.astro";
 import GibsonES225Guide from "../../components/GibsonES225Guide.astro";
 import DennisHiattLesPaulStory from "../../components/DennisHiattLesPaulStory.astro";
@@ -31,6 +42,8 @@ import OneOwner1955MartinD28Story from "../../components/OneOwner1955MartinD28St
 import OneOwner1956Martin00021Story from "../../components/OneOwner1956Martin00021Story.astro";
 import LesPaulFamilyGuide from "../../components/LesPaulFamilyGuide.astro";
 import GibsonSGFamilyGuide from "../../components/GibsonSGFamilyGuide.astro";
+import GibsonProductionGuide from "../../components/GibsonProductionGuide.astro";
+import GibsonShipmentLookup from "../../components/GibsonShipmentLookup.astro";
 import BrandDatingGuides from "../../components/BrandDatingGuides.astro";
 import { SITE_URL, hrefs, contact, imageLicense } from "../../config/site";
 import { getPublishedPosts, getRelated, categoryName, formatDate } from "../../lib/blog";
@@ -44,23 +57,42 @@ export const getStaticPaths = (async () => {
   const customPostRoutes = new Set(["gibson-es-335-345-355-guide", "is-your-vintage-guitar-valuable-7-factors-that-determine-its-value"]);
   return posts.filter((entry) => !customPostRoutes.has(entry.id)).map((entry) => ({
     params: { slug: entry.id },
-    props: { entry, related: getRelated(posts, entry, 3) },
+    props: { entry, related: getRelated(modelGuides.some(guide => guide.slug === entry.id) ? posts : posts.filter(post => !modelGuides.some(guide => guide.slug === post.id)), entry, 3) },
   }));
 }) satisfies GetStaticPaths;
 
 const { entry, related } = Astro.props;
 const { Content } = await render(entry);
 const { data } = entry;
+const isAuctionRecords = entry.id === 'most-expensive-guitars-ever-sold';
+const modelGuide = modelGuides.find(guide => guide.slug === entry.id);
+const isFenderAmpGuide = modelGuide?.sellHref === '/sell-an-amplifier-or-effect/';
+const modelGuideFaqSchema = modelGuide ? { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: modelGuide.faqs.map(faq => ({ '@type': 'Question', name: faq.q, acceptedAnswer: { '@type': 'Answer', text: faq.a } })) } : null;
+const martinValueGuide = martinValueGuides.find(guide => guide.slug === entry.id);
+const martinModelHistory = martinModelHistories.find(guide => guide.slug === entry.id);
+const rickenbackerModel = rickenbackerModels.find(model => ['authentication','value'].some(kind => rickenbackerGuideSlug(model,kind as 'authentication'|'value') === entry.id));
+const rickenbackerKind = entry.id.endsWith('-authentication-guide') ? 'authentication' : 'value';
+const isVintageSellingGuide = entry.id === "what-to-consider-when-selling-a-vintage-guitar";
 const isBurstYearGuide = /^19(?:58|59|60)-gibson-les-paul-standard-guide$/.test(entry.id);
 const isNorlinGuide = ["norlin-les-paul-custom-year-guide", "1968-gibson-les-paul-custom-guide", "1969-gibson-les-paul-custom-guide", "1970-gibson-les-paul-custom-guide", "1968-1969-1970-les-paul-custom-dating-guide"].includes(entry.id);
 const isGap2ValueConversion = ["fender-mustang-history-value","vintage-gibson-hummingbird-history-value-guide","gibson-es-345-history-value","gibson-firebird-history-authentication-value","gibson-es-5-switchmaster-history-value","gibson-l5-ces-value-guide"].includes(entry.id);
-// Only explicitly reviewed GAP 2 titles opt out of the automatic brand suffix.
-const hasGap2SeoTitle = (data.seoTitle?.length ?? 0) >= 50 && ["fender-mustang-history-value","vintage-gibson-hummingbird-history-value-guide","gibson-es-345-history-value","gibson-firebird-history-authentication-value","gibson-es-5-switchmaster-history-value","gibson-l5-ces-value-guide","vintage-fender-jaguar-guide","vintage-fender-jazz-bass-guide","1952-fender-precision-bass-guide","gibson-les-paul-junior-guide","gibson-byrdland-authentication-guide","gibson-es-125-guide","identify-vintage-gibson-j45-j50-sj","gibson-j200-model-history-authentication-guide","1955-1958-tv-yellow-les-paul-special-guide","1959-gibson-es-355-history-value"].includes(entry.id);
+// Brand suffix is appended only when the finished title still fits Google's
+// ~60-character display limit. This replaces the per-slug allowlists that used
+// to opt individual posts out by hand, so new posts get the right behaviour
+// without anyone remembering to add them to a list.
+const BRAND_SUFFIX = " | Joe's Vintage Guitars";
+const TITLE_LIMIT = 60;
+const baseTitle = data.seoTitle || data.title;
+const pageTitle =
+  baseTitle.length + BRAND_SUFFIX.length <= TITLE_LIMIT
+    ? `${baseTitle}${BRAND_SUFFIX}`
+    : baseTitle;
 const displayedRelated = isBurstYearGuide
   ? related.filter((post) => /^19(?:58|59|60)-gibson-les-paul-standard-guide$/.test(post.id))
   : related;
 const isMartinSmallBodyGuide = entry.id === "martin-0-00-000-history-authentication-value-guide";
 const isMartinD18Guide = entry.id === "martin-d18-history-specs-authentication-value-guide";
+const isMartinValueArticle = entry.id === "how-to-determine-the-value-of-your-old-martin-acoustic-guitar";
 const isCustomMartinGuide = isMartinSmallBodyGuide || isMartinD18Guide;
 const isDennisHiattStory = entry.id === "one-owner-1983-gibson-les-paul-custom";
 const isBobDentonJ200Story = entry.id === "bob-denton-1955-gibson-j200";
@@ -166,7 +198,7 @@ const guideBrands: Record<string, "Fender" | "Gibson" | "Gretsch" | "Guild" | "R
 const guideBrand = guideBrands[entry.id];
 const hasGuideHero = presentationPaths.includes('/post/' + entry.id + '/') && Boolean(guideBrand);
 const heroMeta = data.heroImage ? resolveImage(data.heroImage) : null;
-const heroRenderWidth = heroMeta ? Math.min(1200, heroMeta.width) : 1200;
+const heroRenderWidth = heroMeta ? Math.min(modelGuide || isAuctionRecords ? 1800 : 1200, heroMeta.width) : 1200;
 const captionedHero = heroMeta && data.heroImageCaption
   ? await getImage({ src: heroMeta, layout: "constrained", width: heroRenderWidth })
   : null;
@@ -304,7 +336,7 @@ const martinD18Faqs = [
   { q: "What is the difference between a Martin D-18 and D-28?", a: "A traditional D-18 has mahogany back and sides with restrained Style 18 trim. A D-28 has rosewood back and sides and Style 28 appointments. Players often describe the D-18 as dry and direct and the D-28 as overtone-rich, but individual guitars vary." },
   { q: "How can I tell if a vintage Martin D-18 is original?", a: "Start with the neck-block model and serial stamps, then inspect the woods, X-brace location, brace carving, neck reinforcement, bridge, bridge plate, pickguard, finish, tuners, frets, and repair history. The features must agree with one another and the production period." },
   { q: "Does a neck reset reduce the value of a Martin D-18?", a: "A professionally executed neck reset is accepted maintenance on many old Martins and can improve usability. Poor workmanship, heel damage, finish disturbance, or altered geometry can reduce value. A shaved bridge used to postpone a reset is usually a larger concern." },
-  { q: "How much is a vintage Martin D-18 worth?", a: "Joe's broad published ranges run from about $3,000 to $6,000 for many 1960s examples up to $25,000 to $110,000 for prewar guitars. Those are orientation ranges, not an offer. Year, bracing, originality, condition, repairs, provenance, and sound determine an individual value." },
+  { q: "How much is a vintage Martin D-18 worth?", a: "Joe's broad published ranges run from about $3,450 to $7,300 for many 1960s examples up to $25,500 to $93,500 for prewar guitars. Those are orientation ranges, not an offer. Year, bracing, originality, condition, repairs, provenance, and sound determine an individual value." },
   { q: "What do D-18S, D-18E, D-18V, D-18GE, and D-18 Authentic mean?", a: "They identify materially different variants: 12-fret or special construction, factory electronics, Vintage Series, Golden Era, and historically targeted Authentic recreations. The complete suffix and production year are essential because these models do not share one specification or value range." },
 ];
 
@@ -337,7 +369,7 @@ const firebirdFaqSchema = {
   "@type": "FAQPage",
   "@id": `${postUrl}#faq-schema`,
   mainEntity: [
-    { "@type": "Question", name: "How much is a vintage Gibson Firebird worth?", acceptedAnswer: { "@type": "Answer", text: "Broad 2026 retail-market guides range from about $5,000 for some Bicentennial examples to $26,000 to $45,000+ for reverse Firebird VIIs. Originality, condition, repairs, playability, provenance, color, and sold comparables determine the value of an individual guitar." } },
+    { "@type": "Question", name: "How much is a vintage Gibson Firebird worth?", acceptedAnswer: { "@type": "Answer", text: "Broad 2026 retail-market guides range from about $4,400 for some Bicentennial examples to $24,050 to $31,500 for reverse Firebird VIIs. Originality, condition, repairs, playability, provenance, color, and sold comparables determine the value of an individual guitar." } },
     { "@type": "Question", name: "How do you date a Gibson Firebird?", acceptedAnswer: { "@type": "Answer", text: "Use the serial as one clue, then compare construction, potentiometer codes, pickup construction, hardware, finish, solder, and repair evidence. Overlapping serial ranges mean one number is not enough." } },
     { "@type": "Question", name: "What separates a reverse Firebird from a non-reverse model?", acceptedAnswer: { "@type": "Answer", text: "The 1963 to 1965 reverse design has a raised neck-through center, attached wings, a reverse headstock, and banjo-style tuners. The non-reverse model introduced in 1965 has a flatter body, a glued-in neck, conventional tuners, and a large pickguard carrying much of the wiring." } },
   ],
@@ -501,7 +533,7 @@ const articleSchema = {
   image: imageSchema ? [imageSchema] : undefined,
   datePublished: data.pubDate.toISOString(),
   dateModified: data.modified.toISOString(),
-  author: { "@id": `${SITE_URL}/about-me/#person`, ...((isBurstYearGuide || isNorlinGuide) ? { name: data.author, url: `${SITE_URL}/about-me/` } : {}) },
+  author: { "@id": `${SITE_URL}/about-me/#person`, ...((isBurstYearGuide || isNorlinGuide || martinModelHistory) ? { name: data.author, url: `${SITE_URL}/about-me/` } : {}) },
   publisher: { "@id": `${SITE_URL}/` },
   mainEntityOfPage: postUrl,
   articleSection: catName,
@@ -538,8 +570,8 @@ const articleSchema = {
 ---
 
 <Layout
-  bodyClass={isNorlinGuide ? "blog-post-page norlin-guide-page" : isOneOwner1956Martin00021Story ? "blog-post-page martin-1956-00021-story-page" : isOneOwner1955MartinD28Story ? "blog-post-page martin-1955-story-page" : isOneOwner1949MartinStory ? "blog-post-page martin-1949-story-page" : isGibsonSGFamilyGuide ? "blog-post-page sgf-guide-page" : isLesPaulFamilyGuide ? "blog-post-page lpf-page" : isEs225Guide ? "blog-post-page es225-guide-page" : isFirebirdGuide ? "blog-post-page firebird-guide-page" : isJaguarGuide ? "blog-post-page jaguar-guide-page" : "blog-post-page"}
-  title={(isNorlinGuide || hasGap2SeoTitle) ? (data.seoTitle || data.title) : `${data.seoTitle || data.title} | Joe's Vintage Guitars`}
+  bodyClass={isAuctionRecords ? "blog-post-page mg-page mx-page" : modelGuide ? "blog-post-page mg-page" : isVintageSellingGuide ? "blog-post-page vintage-selling-guide-page" : isNorlinGuide ? "blog-post-page norlin-guide-page" : isOneOwner1956Martin00021Story ? "blog-post-page martin-1956-00021-story-page" : isOneOwner1955MartinD28Story ? "blog-post-page martin-1955-story-page" : isOneOwner1949MartinStory ? "blog-post-page martin-1949-story-page" : isGibsonSGFamilyGuide ? "blog-post-page sgf-guide-page" : isLesPaulFamilyGuide ? "blog-post-page lpf-page" : isEs225Guide ? "blog-post-page es225-guide-page" : isFirebirdGuide ? "blog-post-page firebird-guide-page" : isJaguarGuide ? "blog-post-page jaguar-guide-page" : "blog-post-page"}
+  title={pageTitle}
   noIndex={data.draft}
   description={data.metaDescription || data.excerpt}
   canonical={`/post/${entry.id}/`}
@@ -550,7 +582,7 @@ const articleSchema = {
   ogType="article"
   publishedTime={data.pubDate.toISOString()}
   modifiedTime={data.modified.toISOString()}
-  structuredData={isGibsonJ200Guide
+  structuredData={isAuctionRecords ? [breadcrumbSchema, articleSchema, auctionFaqSchema] : modelGuide ? [breadcrumbSchema, articleSchema, modelGuideFaqSchema!] : isGibsonJ200Guide
     ? [breadcrumbSchema, articleSchema, j200FaqSchema]
     : isCustomMartinGuide
     ? [breadcrumbSchema, articleSchema, martinFaqSchema]
@@ -571,7 +603,19 @@ const articleSchema = {
 
   {hasGuideHero && !isGibsonSGFamilyGuide && !isGibsonJ200Guide && <GuideHero title={data.title} image={heroMeta || comparisonHero} alt={data.heroImageAlt || 'Sunburst Gibson ES-335 in a pink-lined case'} brand={guideBrand!} byline={'By ' + data.author + ' · ' + formatDate(data.pubDate)} />}
 
-  {isOneOwner1956Martin00021Story ? (
+  {isAuctionRecords ? (
+    <AuctionRecordsGuide />
+  ) : modelGuide ? (
+    <ModelGuide guide={modelGuide} />
+  ) : isVintageSellingGuide ? (
+    <VintageSellingGuide />
+  ) : martinValueGuide ? (
+    <MartinValueGuide guide={martinValueGuide} />
+  ) : rickenbackerModel ? (
+    <RickenbackerModelGuide model={rickenbackerModel} kind={rickenbackerKind} />
+  ) : martinModelHistory ? (
+    <MartinModelHistory guide={martinModelHistory} />
+  ) : isOneOwner1956Martin00021Story ? (
     <OneOwner1956Martin00021Story />
   ) : isMartinD28OwnerStory ? (
     <MartinD28OwnerStory />
@@ -651,7 +695,7 @@ const articleSchema = {
     </>
   )}
 
-  <article class="bpost">
+  <article class:list={["bpost", { "bpost--martin-value": isMartinValueArticle }]}>
     {!hasGuideHero && !isFirebirdGuide && <div class="bpost__inner">
       <nav class="bpost__crumbs" aria-label="Breadcrumb">
         <a href="/">Home</a><span aria-hidden="true">/</span>
@@ -664,11 +708,12 @@ const articleSchema = {
       <p class:list={["bpost__meta", { "bpost__byline": isBurstYearGuide || isNorlinGuide }]}>
         By <a href="/about-me/">{data.author}</a>
         <span aria-hidden="true">·</span>
-        <time datetime={data.pubDate.toISOString()}>{formatDate(data.pubDate)}</time>
+        {isMartinValueArticle || entry.id === 'gibson-shipping-totals-1948-1979' ? <span>Updated <time datetime={data.modified.toISOString()}>{data.modified.toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric", timeZone: "UTC" })}</time></span> : <time datetime={data.pubDate.toISOString()}>{formatDate(data.pubDate)}</time>}
       </p>
       {isBurstYearGuide && <p class="bpost__value-jump">
         <a href={`#${entry.id.slice(0, 4)}-les-paul-value`}>See {entry.id.slice(0, 4)} Les Paul Values</a>
       </p>}
+      {entry.id === 'gibson-shipping-totals-1948-1979' && <GibsonShipmentLookup />}
     </div>}
 
     {!hasGuideHero && !isFirebirdGuide && data.heroImage && (
@@ -707,7 +752,7 @@ const articleSchema = {
         <ul>{data.toc.map(t => <li><a href={t.href}>{t.label}</a></li>)}</ul>
       </nav>}
       <div class="blog-prose">
-        {isGap2ValueConversion ? <ValueGuidePhotos allImages><Content /></ValueGuidePhotos> : (isBurstYearGuide || isNorlinGuide) ? <LicensedMarkdownPhotos><Content /></LicensedMarkdownPhotos> : <Content />}
+        {entry.id === 'gibson-shipping-totals-1948-1979' ? <GibsonProductionGuide /> : isGap2ValueConversion || isMartinValueArticle ? <ValueGuidePhotos allImages><Content /></ValueGuidePhotos> : (isBurstYearGuide || isNorlinGuide) ? <LicensedMarkdownPhotos><Content /></LicensedMarkdownPhotos> : <Content />}
         {data.faqs.length > 0 && !data.faqsInline && <section class="post-faq" aria-labelledby="faq">
           <h2 id="faq">Frequently Asked Questions</h2>
           {data.faqs.map(item => <div class="post-faq-answer">
@@ -742,7 +787,7 @@ const articleSchema = {
     </div>
   </article>
 
-  {displayedRelated.length > 0 && (
+  {!isAuctionRecords && !modelGuide && displayedRelated.length > 0 && (
     <section class="bpost-related" aria-label="Related posts">
       <div class="bpost__inner">
         <h2 class="bpost-related__h2">Keep Reading</h2>
@@ -755,9 +800,9 @@ const articleSchema = {
     </div>
   )}
 
-  {datingBrand && <BrandDatingGuides brand={datingBrand} featuredGuide={featuredDatingGuide} />}
+  {datingBrand && !isFenderAmpGuide && <BrandDatingGuides brand={datingBrand} featuredGuide={featuredDatingGuide} />}
 
-  {!isAlexandriaStratocasterStory && !isJoshuaTelecasterStory && !isLesPaulFamilyGuide && !isGibsonSGFamilyGuide && <ContactSection />}
+  {!isAuctionRecords && !modelGuide && !isAlexandriaStratocasterStory && !isJoshuaTelecasterStory && !isLesPaulFamilyGuide && !isGibsonSGFamilyGuide && <ContactSection />}
 
   <!-- Floating TOC behavior: hide the sidebar over the contact form, and power
        the mobile "Sections" button by cloning the sidebar links into the sheet.
@@ -1611,5 +1656,8 @@ const articleSchema = {
   @media (max-width: 640px) {
     .blog-prose { font-size: 1rem; }
     .blog-prose table { display: block; overflow-x: auto; white-space: nowrap; }
+    .bpost--martin-value .blog-prose table { display: table; table-layout: fixed; white-space: normal; }
+    .bpost--martin-value .blog-prose th,
+    .bpost--martin-value .blog-prose td { padding: 10px 8px; font-size: 0.9rem; line-height: 1.5; overflow-wrap: break-word; }
   }
 </style>

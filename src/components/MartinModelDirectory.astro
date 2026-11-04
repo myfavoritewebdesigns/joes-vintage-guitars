@@ -1,0 +1,26 @@
+---
+import { martinModelGroups, martinModelLinks } from '../data/martin-model-links';
+interface Props { intro: string; }
+const { intro } = Astro.props;
+---
+<section class="mtn-section mtn-section--tint martin-model-directory" id="martin-model-histories" aria-labelledby="martin-model-histories-title">
+  <div class="mtn-wrap">
+    <h2 id="martin-model-histories-title">Martin Model Histories And Year Changes</h2>
+    <p>{intro}</p>
+    <div class="martin-model-directory__groups">
+      {martinModelGroups.map(group => <div>
+        <h3>{group.title}</h3>
+        <ul>{group.keys.map(key => <li><a href={martinModelLinks[key].href}>{martinModelLinks[key].label}</a><span>{martinModelLinks[key].note}</span></li>)}</ul>
+      </div>)}
+    </div>
+  </div>
+</section>
+<style>
+  .martin-model-directory__groups { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 28px 48px; margin-top: 28px; }
+  .martin-model-directory__groups h3 { margin: 0 0 12px; color: var(--color-brand-brown); font-family: var(--font-display); font-size: 25px; line-height: 1.3; }
+  .martin-model-directory__groups ul { margin: 0; padding: 0; list-style: none; }
+  .martin-model-directory__groups li { padding: 12px 0; border-top: 1px solid var(--color-brand-brown-tan); }
+  .martin-model-directory__groups a { font-weight: 700; text-decoration: underline; text-underline-offset: 3px; }
+  .martin-model-directory__groups span { display: block; margin-top: 4px; font-size: 15px; line-height: 1.6; }
+  @media (max-width: 640px) { .martin-model-directory__groups { grid-template-columns: 1fr; gap: 24px; } }
+</style>

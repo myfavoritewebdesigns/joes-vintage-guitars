@@ -1,0 +1,620 @@
+[
+  {
+    "photos": [
+      {
+        "alt": "1966 Guild Starfire V showing sunburst body with factory Bigsby",
+        "captionFits": true,
+        "fit": "contain",
+        "loaded": true,
+        "overlap": 0
+      },
+      {
+        "alt": "1964 Guild Starfire II showing single-cutaway front with harp tailpiece",
+        "captionFits": true,
+        "fit": "contain",
+        "loaded": true,
+        "overlap": 0
+      },
+      {
+        "alt": "1966 Guild Starfire V showing sunburst body with factory Bigsby",
+        "captionFits": true,
+        "fit": "contain",
+        "loaded": true,
+        "overlap": 0
+      },
+      {
+        "alt": "1964 Guild Starfire II showing single-cutaway front with harp tailpiece",
+        "captionFits": true,
+        "fit": "contain",
+        "loaded": true,
+        "overlap": 0
+      },
+      {
+        "alt": "1964 Guild Starfire II showing two humbuckers and bridge",
+        "captionFits": true,
+        "fit": "contain",
+        "loaded": true,
+        "overlap": 0
+      },
+      {
+        "alt": "1964 Guild Starfire II showing cherry back and neck heel",
+        "captionFits": true,
+        "fit": "contain",
+        "loaded": true,
+        "overlap": 0
+      },
+      {
+        "alt": "1966 Guild Starfire V showing complete double-cutaway guitar",
+        "captionFits": true,
+        "fit": "contain",
+        "loaded": true,
+        "overlap": 0
+      },
+      {
+        "alt": "1966 Guild Starfire V showing Guild-branded factory Bigsby",
+        "captionFits": true,
+        "fit": "contain",
+        "loaded": true,
+        "overlap": 0
+      },
+      {
+        "alt": "1966 Guild Starfire V showing aluminum bridge and vibrato assembly",
+        "captionFits": true,
+        "fit": "contain",
+        "loaded": true,
+        "overlap": 0
+      },
+      {
+        "alt": "1977 Guild Starfire IV showing blonde double-cutaway body and harp tailpiece",
+        "captionFits": true,
+        "fit": "contain",
+        "loaded": true,
+        "overlap": 0
+      },
+      {
+        "alt": "1977 Guild Starfire IV showing headstock with SF-4 marking",
+        "captionFits": true,
+        "fit": "contain",
+        "loaded": true,
+        "overlap": 0
+      },
+      {
+        "alt": "1977 Guild Starfire IV showing blonde back and neck joint",
+        "captionFits": true,
+        "fit": "contain",
+        "loaded": true,
+        "overlap": 0
+      }
+    ],
+    "route": "/post/guild-starfire-authentication-guide/",
+    "scrollWidth": 1265,
+    "walk": [
+      {
+        "after": "none",
+        "before": "none",
+        "bg": "rgba(0, 0, 0, 0)",
+        "cls": "",
+        "color": "rgb(27, 25, 22)",
+        "display": "block",
+        "tag": "H3"
+      },
+      {
+        "after": "none",
+        "before": "none",
+        "bg": "rgba(0, 0, 0, 0)",
+        "cls": "",
+        "color": "rgb(27, 25, 22)",
+        "display": "block",
+        "tag": "DIV"
+      },
+      {
+        "after": "none",
+        "before": "none",
+        "bg": "rgba(0, 0, 0, 0)",
+        "cls": "mg-era",
+        "color": "rgb(27, 25, 22)",
+        "display": "grid",
+        "tag": "DIV"
+      },
+      {
+        "after": "none",
+        "before": "none",
+        "bg": "rgba(0, 0, 0, 0)",
+        "cls": "mg-archive-items",
+        "color": "rgb(27, 25, 22)",
+        "display": "block",
+        "tag": "DIV"
+      },
+      {
+        "after": "none",
+        "before": "none",
+        "bg": "rgba(0, 0, 0, 0)",
+        "cls": "mg-section mg-wrap",
+        "color": "rgb(27, 25, 22)",
+        "display": "block",
+        "tag": "DIV"
+      },
+      {
+        "after": "none",
+        "before": "none",
+        "bg": "rgb(225, 209, 180)",
+        "cls": "mg-band mg-archive",
+        "color": "rgb(27, 25, 22)",
+        "display": "block",
+        "tag": "SECTION"
+      },
+      {
+        "after": "none",
+        "before": "none",
+        "bg": "rgb(243, 234, 216)",
+        "cls": "mg-guide",
+        "color": "rgb(27, 25, 22)",
+        "display": "block",
+        "tag": "ARTICLE"
+      },
+      {
+        "after": "none",
+        "before": "none",
+        "bg": "rgba(0, 0, 0, 0)",
+        "cls": "",
+        "color": "rgb(42, 45, 51)",
+        "display": "block",
+        "tag": "MAIN"
+      }
+    ],
+    "width": 1280
+  },
+  {
+    "photos": [
+      {
+        "alt": "1966 Guild Starfire V showing sunburst body with factory Bigsby",
+        "captionFits": true,
+        "fit": "contain",
+        "loaded": true,
+        "overlap": 0
+      },
+      {
+        "alt": "1964 Guild Starfire II showing single-cutaway front with harp tailpiece",
+        "captionFits": true,
+        "fit": "contain",
+        "loaded": true,
+        "overlap": 0
+      },
+      {
+        "alt": "1966 Guild Starfire V showing sunburst body with factory Bigsby",
+        "captionFits": true,
+        "fit": "contain",
+        "loaded": true,
+        "overlap": 0
+      },
+      {
+        "alt": "1964 Guild Starfire II showing single-cutaway front with harp tailpiece",
+        "captionFits": true,
+        "fit": "contain",
+        "loaded": true,
+        "overlap": 0
+      },
+      {
+        "alt": "1964 Guild Starfire II showing two humbuckers and bridge",
+        "captionFits": true,
+        "fit": "contain",
+        "loaded": true,
+        "overlap": 0
+      },
+      {
+        "alt": "1964 Guild Starfire II showing cherry back and neck heel",
+        "captionFits": true,
+        "fit": "contain",
+        "loaded": true,
+        "overlap": 0
+      },
+      {
+        "alt": "1966 Guild Starfire V showing complete double-cutaway guitar",
+        "captionFits": true,
+        "fit": "contain",
+        "loaded": true,
+        "overlap": 0
+      },
+      {
+        "alt": "1966 Guild Starfire V showing Guild-branded factory Bigsby",
+        "captionFits": true,
+        "fit": "contain",
+        "loaded": true,
+        "overlap": 0
+      },
+      {
+        "alt": "1966 Guild Starfire V showing aluminum bridge and vibrato assembly",
+        "captionFits": true,
+        "fit": "contain",
+        "loaded": true,
+        "overlap": 0
+      },
+      {
+        "alt": "1977 Guild Starfire IV showing blonde double-cutaway body and harp tailpiece",
+        "captionFits": true,
+        "fit": "contain",
+        "loaded": true,
+        "overlap": 0
+      },
+      {
+        "alt": "1977 Guild Starfire IV showing headstock with SF-4 marking",
+        "captionFits": true,
+        "fit": "contain",
+        "loaded": true,
+        "overlap": 0
+      },
+      {
+        "alt": "1977 Guild Starfire IV showing blonde back and neck joint",
+        "captionFits": true,
+        "fit": "contain",
+        "loaded": true,
+        "overlap": 0
+      }
+    ],
+    "route": "/post/guild-starfire-authentication-guide/",
+    "scrollWidth": 360,
+    "walk": [
+      {
+        "after": "none",
+        "before": "none",
+        "bg": "rgba(0, 0, 0, 0)",
+        "cls": "",
+        "color": "rgb(27, 25, 22)",
+        "display": "block",
+        "tag": "H3"
+      },
+      {
+        "after": "none",
+        "before": "none",
+        "bg": "rgba(0, 0, 0, 0)",
+        "cls": "",
+        "color": "rgb(27, 25, 22)",
+        "display": "block",
+        "tag": "DIV"
+      },
+      {
+        "after": "none",
+        "before": "none",
+        "bg": "rgba(0, 0, 0, 0)",
+        "cls": "mg-era",
+        "color": "rgb(27, 25, 22)",
+        "display": "grid",
+        "tag": "DIV"
+      },
+      {
+        "after": "none",
+        "before": "none",
+        "bg": "rgba(0, 0, 0, 0)",
+        "cls": "mg-archive-items",
+        "color": "rgb(27, 25, 22)",
+        "display": "block",
+        "tag": "DIV"
+      },
+      {
+        "after": "none",
+        "before": "none",
+        "bg": "rgba(0, 0, 0, 0)",
+        "cls": "mg-section mg-wrap",
+        "color": "rgb(27, 25, 22)",
+        "display": "block",
+        "tag": "DIV"
+      },
+      {
+        "after": "none",
+        "before": "none",
+        "bg": "rgb(225, 209, 180)",
+        "cls": "mg-band mg-archive",
+        "color": "rgb(27, 25, 22)",
+        "display": "block",
+        "tag": "SECTION"
+      },
+      {
+        "after": "none",
+        "before": "none",
+        "bg": "rgb(243, 234, 216)",
+        "cls": "mg-guide",
+        "color": "rgb(27, 25, 22)",
+        "display": "block",
+        "tag": "ARTICLE"
+      },
+      {
+        "after": "none",
+        "before": "none",
+        "bg": "rgba(0, 0, 0, 0)",
+        "cls": "",
+        "color": "rgb(42, 45, 51)",
+        "display": "block",
+        "tag": "MAIN"
+      }
+    ],
+    "width": 375
+  },
+  {
+    "photos": [
+      {
+        "alt": "1966 Guild Starfire V showing sunburst body with factory Bigsby",
+        "captionFits": true,
+        "fit": "contain",
+        "loaded": true,
+        "overlap": 0
+      },
+      {
+        "alt": "1964 Guild Starfire II showing single-cutaway front with harp tailpiece",
+        "captionFits": true,
+        "fit": "contain",
+        "loaded": true,
+        "overlap": 0
+      },
+      {
+        "alt": "1977 Guild Starfire IV showing blonde double-cutaway body and harp tailpiece",
+        "captionFits": true,
+        "fit": "contain",
+        "loaded": true,
+        "overlap": 0
+      },
+      {
+        "alt": "1964 Guild Starfire II showing single-cutaway front with harp tailpiece",
+        "captionFits": true,
+        "fit": "contain",
+        "loaded": true,
+        "overlap": 0
+      },
+      {
+        "alt": "1964 Guild Starfire II showing cherry back and neck heel",
+        "captionFits": true,
+        "fit": "contain",
+        "loaded": true,
+        "overlap": 0
+      },
+      {
+        "alt": "1966 Guild Starfire V showing complete double-cutaway guitar",
+        "captionFits": true,
+        "fit": "contain",
+        "loaded": true,
+        "overlap": 0
+      },
+      {
+        "alt": "1966 Guild Starfire V showing Guild-branded factory Bigsby",
+        "captionFits": true,
+        "fit": "contain",
+        "loaded": true,
+        "overlap": 0
+      },
+      {
+        "alt": "1977 Guild Starfire IV showing blonde double-cutaway body and harp tailpiece",
+        "captionFits": true,
+        "fit": "contain",
+        "loaded": true,
+        "overlap": 0
+      },
+      {
+        "alt": "1977 Guild Starfire IV showing blonde back and neck joint",
+        "captionFits": true,
+        "fit": "contain",
+        "loaded": true,
+        "overlap": 0
+      }
+    ],
+    "route": "/post/guild-starfire-value-guide/",
+    "scrollWidth": 360,
+    "walk": [
+      {
+        "after": "none",
+        "before": "none",
+        "bg": "rgba(0, 0, 0, 0)",
+        "cls": "",
+        "color": "rgb(27, 25, 22)",
+        "display": "block",
+        "tag": "H3"
+      },
+      {
+        "after": "none",
+        "before": "none",
+        "bg": "rgba(0, 0, 0, 0)",
+        "cls": "",
+        "color": "rgb(27, 25, 22)",
+        "display": "block",
+        "tag": "DIV"
+      },
+      {
+        "after": "none",
+        "before": "none",
+        "bg": "rgba(0, 0, 0, 0)",
+        "cls": "mg-era",
+        "color": "rgb(27, 25, 22)",
+        "display": "grid",
+        "tag": "DIV"
+      },
+      {
+        "after": "none",
+        "before": "none",
+        "bg": "rgba(0, 0, 0, 0)",
+        "cls": "mg-archive-items",
+        "color": "rgb(27, 25, 22)",
+        "display": "block",
+        "tag": "DIV"
+      },
+      {
+        "after": "none",
+        "before": "none",
+        "bg": "rgba(0, 0, 0, 0)",
+        "cls": "mg-section mg-wrap",
+        "color": "rgb(27, 25, 22)",
+        "display": "block",
+        "tag": "DIV"
+      },
+      {
+        "after": "none",
+        "before": "none",
+        "bg": "rgb(225, 209, 180)",
+        "cls": "mg-band mg-archive",
+        "color": "rgb(27, 25, 22)",
+        "display": "block",
+        "tag": "SECTION"
+      },
+      {
+        "after": "none",
+        "before": "none",
+        "bg": "rgb(243, 234, 216)",
+        "cls": "mg-guide",
+        "color": "rgb(27, 25, 22)",
+        "display": "block",
+        "tag": "ARTICLE"
+      },
+      {
+        "after": "none",
+        "before": "none",
+        "bg": "rgba(0, 0, 0, 0)",
+        "cls": "",
+        "color": "rgb(42, 45, 51)",
+        "display": "block",
+        "tag": "MAIN"
+      }
+    ],
+    "width": 375
+  },
+  {
+    "photos": [
+      {
+        "alt": "1966 Guild Starfire V showing sunburst body with factory Bigsby",
+        "captionFits": true,
+        "fit": "contain",
+        "loaded": true,
+        "overlap": 0
+      },
+      {
+        "alt": "1964 Guild Starfire II showing single-cutaway front with harp tailpiece",
+        "captionFits": true,
+        "fit": "contain",
+        "loaded": true,
+        "overlap": 0
+      },
+      {
+        "alt": "1977 Guild Starfire IV showing blonde double-cutaway body and harp tailpiece",
+        "captionFits": true,
+        "fit": "contain",
+        "loaded": true,
+        "overlap": 0
+      },
+      {
+        "alt": "1964 Guild Starfire II showing single-cutaway front with harp tailpiece",
+        "captionFits": true,
+        "fit": "contain",
+        "loaded": true,
+        "overlap": 0
+      },
+      {
+        "alt": "1964 Guild Starfire II showing cherry back and neck heel",
+        "captionFits": true,
+        "fit": "contain",
+        "loaded": true,
+        "overlap": 0
+      },
+      {
+        "alt": "1966 Guild Starfire V showing complete double-cutaway guitar",
+        "captionFits": true,
+        "fit": "contain",
+        "loaded": true,
+        "overlap": 0
+      },
+      {
+        "alt": "1966 Guild Starfire V showing Guild-branded factory Bigsby",
+        "captionFits": true,
+        "fit": "contain",
+        "loaded": true,
+        "overlap": 0
+      },
+      {
+        "alt": "1977 Guild Starfire IV showing blonde double-cutaway body and harp tailpiece",
+        "captionFits": true,
+        "fit": "contain",
+        "loaded": true,
+        "overlap": 0
+      },
+      {
+        "alt": "1977 Guild Starfire IV showing blonde back and neck joint",
+        "captionFits": true,
+        "fit": "contain",
+        "loaded": true,
+        "overlap": 0
+      }
+    ],
+    "route": "/post/guild-starfire-value-guide/",
+    "scrollWidth": 1265,
+    "walk": [
+      {
+        "after": "none",
+        "before": "none",
+        "bg": "rgba(0, 0, 0, 0)",
+        "cls": "",
+        "color": "rgb(27, 25, 22)",
+        "display": "block",
+        "tag": "H3"
+      },
+      {
+        "after": "none",
+        "before": "none",
+        "bg": "rgba(0, 0, 0, 0)",
+        "cls": "",
+        "color": "rgb(27, 25, 22)",
+        "display": "block",
+        "tag": "DIV"
+      },
+      {
+        "after": "none",
+        "before": "none",
+        "bg": "rgba(0, 0, 0, 0)",
+        "cls": "mg-era",
+        "color": "rgb(27, 25, 22)",
+        "display": "grid",
+        "tag": "DIV"
+      },
+      {
+        "after": "none",
+        "before": "none",
+        "bg": "rgba(0, 0, 0, 0)",
+        "cls": "mg-archive-items",
+        "color": "rgb(27, 25, 22)",
+        "display": "block",
+        "tag": "DIV"
+      },
+      {
+        "after": "none",
+        "before": "none",
+        "bg": "rgba(0, 0, 0, 0)",
+        "cls": "mg-section mg-wrap",
+        "color": "rgb(27, 25, 22)",
+        "display": "block",
+        "tag": "DIV"
+      },
+      {
+        "after": "none",
+        "before": "none",
+        "bg": "rgb(225, 209, 180)",
+        "cls": "mg-band mg-archive",
+        "color": "rgb(27, 25, 22)",
+        "display": "block",
+        "tag": "SECTION"
+      },
+      {
+        "after": "none",
+        "before": "none",
+        "bg": "rgb(243, 234, 216)",
+        "cls": "mg-guide",
+        "color": "rgb(27, 25, 22)",
+        "display": "block",
+        "tag": "ARTICLE"
+      },
+      {
+        "after": "none",
+        "before": "none",
+        "bg": "rgba(0, 0, 0, 0)",
+        "cls": "",
+        "color": "rgb(42, 45, 51)",
+        "display": "block",
+        "tag": "MAIN"
+      }
+    ],
+    "width": 1280
+  }
+]

@@ -8,7 +8,7 @@ categoryName: "Specific Model Highlights"
 tags: []
 heroImage: "/images/blog/epiphone-sheraton-history-value/1961-epiphone-sheraton-sunburst-front.jpg"
 heroImageAlt: "Front of a 1961 Epiphone Sheraton in sunburst with mini-humbuckers and a Bigsby vibrato, lying in its original blue-lined case. We buy vintage Epiphone guitars nationwide at Joe's Vintage Guitars."
-metaDescription: "The complete vintage Epiphone Sheraton guide: year-by-year specs, New York pickups vs mini-humbuckers, how to spot a refinish or reissue, serial number dating, and what a Kalamazoo Sheraton is worth."
+metaDescription: "Vintage Epiphone Sheraton guide: year-by-year specs, New York pickups vs mini-humbuckers, refinish and reissue tells, serial dating and values."
 ogImage: "/images/blog/epiphone-sheraton-history-value/1961-epiphone-sheraton-sunburst-front.jpg"
 ---
 <nav class="esh-nav-sidebar" id="eshNavSidebar" aria-label="Article section navigation">
@@ -91,6 +91,12 @@ Gibson's Epiphone thinlines all share a body and separate out by appointments an
 ![Full front of a 1961 Epiphone Sheraton showing the double rounded cutaways, sunburst laminated maple top, f-holes, and pickguard.](../../assets/blog/epiphone-sheraton-history-value/epiphone-sheraton-side-profile-controls.jpg)
 
 The Sheraton from the side, resting in its case. You can see the shallow thinline body, the bound f-hole, the tune-o-matic bridge, and the Bigsby. It is a semi-hollow, so there is a solid maple block running down the center under the top, which is what gives these guitars their sustain and their resistance to feedback compared to a fully hollow Casino.
+
+For a Casino, establish the <a href="/post/epiphone-casino-authentication-guide/">hollow body and P-90 configuration</a> before comparing <a href="/post/epiphone-casino-value-guide/">Casino values</a>. A Sorrento needs its <a href="/post/epiphone-sorrento-authentication-guide/">factory pickup count and neck details</a> checked against the matching <a href="/post/epiphone-sorrento-value-guide/">Sorrento price group</a>. For a Windsor, compare the <a href="/post/epiphone-windsor-authentication-guide/">early and later pickup configurations</a> before choosing a <a href="/post/epiphone-windsor-value-guide/">Windsor value row</a>.
+
+The older archtop names need their own comparisons. Separate the <a href="/post/epiphone-emperor-authentication-guide/">Emperor’s acoustic and electric versions</a> before reading <a href="/post/epiphone-emperor-value-guide/">Emperor prices</a>, and identify the <a href="/post/epiphone-deluxe-authentication-guide/">DeLuxe or Zephyr De Luxe configuration</a> before using <a href="/post/epiphone-deluxe-value-guide/">DeLuxe values</a>. A Triumph needs its <a href="/post/epiphone-triumph-authentication-guide/">factory acoustic construction and added pickups</a> understood before the <a href="/post/epiphone-triumph-value-guide/">Triumph condition comparison</a>.
+
+For a Broadway, compare <a href="/post/epiphone-broadway-authentication-guide/">older acoustic and Kalamazoo electric construction</a> before selecting <a href="/post/epiphone-broadway-value-guide/">Broadway prices</a>. The <a href="/post/epiphone-olympic-authentication-guide/">Olympic name covers different body types</a>, which have separate <a href="/post/epiphone-olympic-value-guide/">Olympic value groups</a>. Establish the <a href="/post/epiphone-zephyr-authentication-guide/">ordinary Zephyr and Regent identity</a> before applying the <a href="/post/epiphone-zephyr-value-guide/">Zephyr estimates</a>.
 
 <h2 id="esh-built">How It Was Built</h2>
 
@@ -222,9 +228,9 @@ Vintage Sheraton values move with the year, the pickups, the finish, the conditi
 
 | Segment | Player or modified | All-original, excellent |
 | --- | --- | --- |
-| 1958 to 1960, New York pickups | about $5,000 to $8,000 | about $10,000 to $16,000 |
-| 1961 to 1965, mini-humbuckers | about $4,000 to $6,500 | about $8,000 to $12,000 |
-| Late 1960s Kalamazoo | about $3,500 to $5,500 | about $6,000 to $9,000 |
+| 1958 to 1960, New York pickups | about $5,000 to $8,000 | about $7,150 to $10,700 |
+| 1961 to 1965, mini-humbuckers | about $4,000 to $6,500 | about $4,450 to $10,050 |
+| Late 1960s Kalamazoo | about $3,500 to $5,500 | about $3,450 to $9,750 |
 
 A few things sit outside the table. A rare Natural, or blonde, finish carries a strong premium over sunburst, because far fewer were made. Gruhn's shipping data records only around 689 Sheratons leaving Kalamazoo across the entire 1959 to 1969 run, with sunburst outnumbering Natural by roughly four to one, so a clean early blonde can bring well beyond the sunburst figures above. All-original New York pickups, an original Frequensator, an original case, and any documented history all push a guitar toward the top of its range. A refinish, changed pickups, a converted tailpiece, a headstock repair, or a refret all pull it down.
 
@@ -238,7 +244,7 @@ Here is the context that makes the Sheraton so interesting to value: it is the a
 
 If you have a Sheraton and you are considering selling it, the most valuable thing you can do is resist the urge to improve it. Do not refinish it, do not swap the pickups for something that sounds better to modern ears, and do not convert the tailpiece. Every bit of honest wear and every original part is part of the value, and once an original finish or an original pickup is gone, it does not come back.
 
-At Joe's Vintage Guitars we buy vintage Epiphone Sheratons, Rivieras, Casinos, and the rest of the Kalamazoo line, and we pay top dollar for clean, original examples. Send us photos through our [free appraisal](/free-appraisal/) page, including the front, the back, the headstock front and back, the serial number, and close-ups of the pickups, the tailpiece, and any wear, and we will tell you exactly what you have and what it is worth. You can also [contact us directly](/contact-me/) with questions. Whether you decide to sell to us or not, you deserve a straight answer from someone who handles these guitars, and that is what we give.
+At Joe's Vintage Guitars we [buy vintage Epiphone](/sell-my-epiphone-guitar/) Sheratons, Rivieras, Casinos, and the rest of the Kalamazoo line, and we pay top dollar for clean, original examples. Send us photos through our [free appraisal](/free-appraisal/) page, including the front, the back, the headstock front and back, the serial number, and close-ups of the pickups, the tailpiece, and any wear, and we will tell you exactly what you have and what it is worth. You can also [contact us directly](/contact-me/) with questions. Whether you decide to sell to us or not, you deserve a straight answer from someone who handles these guitars, and that is what we give.
 
 <h2 id="esh-faq">Frequently Asked Questions</h2>
 

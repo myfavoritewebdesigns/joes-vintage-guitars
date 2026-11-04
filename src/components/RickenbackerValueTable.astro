@@ -1,0 +1,22 @@
+---
+import valueData from '../data/rickenbacker-values.json';
+interface Props { modelKey:string; name:string }
+const {modelKey,name}=Astro.props;
+const rows=valueData.tables[modelKey as keyof typeof valueData.tables];
+if(!rows?.length)throw new Error(`Missing Rickenbacker value chart: ${modelKey}`);
+const money=(value:number)=>new Intl.NumberFormat('en-US',{style:'currency',currency:'USD',maximumFractionDigits:0}).format(value);
+---
+<section id="prices" class="ric-value-section" aria-labelledby="ric-value-title">
+ <p class="ric-eyebrow">Joe’s Vintage Guitars · October 2026</p>
+ <h2 id="ric-value-title">Rickenbacker {name} Value Chart</h2>
+ <p>These are Joe’s estimated current market values in US dollars for original instruments in excellent condition, with the original case where applicable. Choose the row that matches the model, production years and configuration. A refinished, modified or repaired instrument needs a separate condition adjustment.</p>
+ <div class="ric-value-scroll" role="region" aria-label={`Rickenbacker ${name} estimated values`} tabindex="0">
+  <table class="ric-value-table">
+   <caption>Estimated Market Values In USD · Updated October 29, 2026</caption>
+   <thead><tr><th scope="col">Model</th><th scope="col">Years</th><th scope="col">Configuration</th><th scope="col">Estimated Value</th></tr></thead>
+   <tbody>{rows.map(row=><tr><th scope="row">Rickenbacker {row.model}<small class="ric-value-config-mobile">{row.details}</small></th><td>{row.years}</td><td>{row.details}</td><td class="ric-value-range">{money(row.low)} to {money(row.high)}</td></tr>)}</tbody>
+  </table>
+ </div>
+ <p class="ric-small">Ranges are estimates of instrument market value, not purchase offers or insurance replacement values. Originality, playability, repairs and the details of the sale affect the final amount. Unlisted years and unusual variants need an individual appraisal. Later production and reissues appear only in rows that identify them.</p>
+ <a href="/free-appraisal/">Get A Value Estimate For Your Rickenbacker</a>
+</section>

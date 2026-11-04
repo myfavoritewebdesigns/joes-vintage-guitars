@@ -1,0 +1,5 @@
+pnpm exec astro check
+394 files checked
+0 errors
+0 warnings
+109 hints (informational)

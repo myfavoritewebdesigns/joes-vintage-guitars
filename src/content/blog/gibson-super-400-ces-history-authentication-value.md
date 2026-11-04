@@ -52,12 +52,12 @@ Documented Reverb sold comps on Super 400 CES guitars run from **$5,780** (Very 
 
 | Era | What it is | 2026 figure | Sold or asking |
 | --- | --- | --- | --- |
-| **1934 to 1941** | Acoustic Super 400, non-cutaway | $14,000 to $18,000 | Asking on clean examples. The mixed 1934 to 1955 guide range is lower: $6,000 to $11,000 |
-| **1939 to 1942** | Super 400 Premier, cutaway acoustic | $37,000 to $44,000 | Asking only. I have no matching sold pair |
+| **1934 to 1941** | Acoustic Super 400, non-cutaway | $14,000 to $18,000 | Asking on clean examples. The mixed 1934 to 1955 guide range is lower: $5,650 to $18,900 |
+| **1939 to 1942** | Super 400 Premier, cutaway acoustic | $21,150 to $27,000 | Asking only. I have no matching sold pair |
 | **1948 to 1955** | Postwar acoustic Super 400 and Super 400c | No published band | Scarce in some years. 3 non-cutaway shipped in 1955 |
 | **1951 to 1953** | P-90 Super 400 CES | No dated sold comp | First electric year: 2 shipped in 1951 |
 | **1954 to 1956** | Alnico V staple CES | $7,415 to $15,000 | Sold. Good in 2022 to Excellent in 2024 |
-| **1957 to 1960** | PAF humbucker, Venetian CES | Above $14,000 toward $17,000 | Read off the rows either side. Needs a current comp |
+| **1957 to 1960** | PAF humbucker, Venetian CES | $24,800 to $32,200 | Guide-based estimate. Needs a current comp |
 | **1961 to 1968** | Florentine CES | $6,699 to $18,500 | Sold, 2018 to 2021 |
 | **1969** | Venetian returns, 165 shipped | $12,599 | Asking, on a natural example |
 
@@ -400,7 +400,7 @@ Reverb's Super 400CES 1954 to 1956 price-guide page lists completed sales of $5,
 
 Reverb's Super 400CES 1961 to 1968 page lists $6,699 (Very Good, September 20, 2018), $7,500 (Good, April 12, 2019), $10,500 (Excellent, April 5, 2019), and $18,500 (Excellent, July 16, 2021). A current asking example on that same product page was $19,500.
 
-The broad guide range for 1934 to 1955 acoustic Super 400s is $6,000 to $11,000, spanning different years and conditions. Public asking on individual pre-war acoustics sits higher: a 1938 listed at $15,000 (Very Good), a 1939 with case at $18,990, a 1936 at $19,995 (Excellent). A 1942 Super 400 Premier was listed at $47,900 (Excellent) and a 1942 Premier Natural at $41,099. Those Premier numbers are asking, not sold.
+The broad guide range for 1934 to 1955 acoustic Super 400s is $5,650 to $18,900, spanning different years and conditions. Public asking on individual pre-war acoustics sits higher: a 1938 listed at $15,000 (Very Good), a 1939 with case at $18,990, a 1936 at $19,995 (Excellent). A 1942 Super 400 Premier was listed at $47,900 (Excellent) and a 1942 Premier Natural at $41,099. Those Premier numbers are asking, not sold.
 
 
 <h3 id="ranges">Dealer-Style Ranges I Would Start From In 2026</h3>
@@ -409,8 +409,8 @@ Use this as a map, then check current comps before you buy or sell. Clean, origi
 
 | What you have | How I would talk about it | Anchors |
 | --- | --- | --- |
-| **Pre-war acoustic Super 400, non-cutaway** | Public asking on clean examples recently clustered around $14,000 to $18,000. The mixed 1934 to 1955 guide range is lower ($6,000 to $11,000), which is where played or problem guitars often land. | Reverb estimate plus 1936 / 1938 / 1939 askings cited above |
-| **Pre-war Premier / cutaway acoustic** | The broad Premier asking range is $37,000 to $44,000. Individual listing records above retain their actual advertised amounts; asking prices are not completed sales. | 1942 Premier listings |
+| **Pre-war acoustic Super 400, non-cutaway** | Public asking on clean examples recently clustered around $14,000 to $18,000. The mixed 1934 to 1955 guide range is lower ($5,650 to $18,900), which is where played or problem guitars often land. | Reverb estimate plus 1936 / 1938 / 1939 askings cited above |
+| **Pre-war Premier / cutaway acoustic** | The broad Premier asking range is $21,150 to $27,000. Individual listing records above retain their actual advertised amounts; asking prices are not completed sales. | 1942 Premier listings |
 | **Postwar acoustic Super 400 / Super 400c** | Scarcer in some years than the CES (look at 1955: 3 non-cutaway acoustics shipped). Price off recent comps for that exact cutaway and year. I won't invent a band. | Shipping table plus a photo appraisal |
 | **1951 to 1953 P-90 CES** | First-electric-year scarcity (2 shipped in 1951). I don't have a dated sold comp in the Reverb extracts above for this exact window. | Shipping table. Get photos to me. |
 | **1954 to 1956 Alnico CES** | Reverb sold $7,415 (Good, 2022) to $15,000 (Excellent, May 2024). | Reverb 1954 to 1956 guide |

@@ -1,0 +1,2237 @@
+{
+  "method": "Computed text foreground against composited ancestor background colors; normal text >=4.5:1 and large text >=3:1. Image backgrounds flagged for visual review. FAQ disclosures opened for coverage.",
+  "results": [
+    {
+      "slug": "epiphone-olympic-value-guide",
+      "width": 1280,
+      "textRuns": 194,
+      "failures": [],
+      "imageBackgroundRuns": 10,
+      "headings": [
+        {
+          "tag": "H1",
+          "text": "Epiphone Olympic Value Guide",
+          "classes": "",
+          "parentClasses": "mg-wrap mg-hero-copy",
+          "color": "rgb(255, 255, 255)",
+          "background": [
+            23,
+            22,
+            20
+          ],
+          "backgroundImage": false,
+          "fontSize": "115.2px",
+          "fontWeight": "700",
+          "ratio": 18.08,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H2",
+          "text": "Olympic Prices By Instrument Type",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(27, 25, 22)",
+          "background": [
+            243,
+            234,
+            216
+          ],
+          "backgroundImage": false,
+          "fontSize": "70px",
+          "fontWeight": "700",
+          "ratio": 14.68,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H2",
+          "text": "Value The New York Acoustic On Its Own Terms",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(200, 158, 87)",
+          "background": [
+            23,
+            22,
+            20
+          ],
+          "backgroundImage": false,
+          "fontSize": "70px",
+          "fontWeight": "700",
+          "ratio": 7.31,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H3",
+          "text": "Early And Later Acoustic Sizes",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(244, 239, 227)",
+          "background": [
+            23,
+            22,
+            20
+          ],
+          "backgroundImage": false,
+          "fontSize": "27px",
+          "fontWeight": "700",
+          "ratio": 15.76,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H3",
+          "text": "Four-String Olympic Tenors",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(244, 239, 227)",
+          "background": [
+            23,
+            22,
+            20
+          ],
+          "backgroundImage": false,
+          "fontSize": "27px",
+          "fontWeight": "700",
+          "ratio": 15.76,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H2",
+          "text": "How Kalamazoo Olympic Versions Compare",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(27, 25, 22)",
+          "background": [
+            243,
+            234,
+            216
+          ],
+          "backgroundImage": false,
+          "fontSize": "70px",
+          "fontWeight": "700",
+          "ratio": 14.68,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H3",
+          "text": "Single-Pickup Olympics",
+          "classes": "",
+          "parentClasses": "mg-card",
+          "color": "rgb(244, 239, 227)",
+          "background": [
+            36,
+            35,
+            33
+          ],
+          "backgroundImage": false,
+          "fontSize": "25px",
+          "fontWeight": "700",
+          "ratio": 13.69,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H3",
+          "text": "Olympic Double",
+          "classes": "",
+          "parentClasses": "mg-card",
+          "color": "rgb(244, 239, 227)",
+          "background": [
+            36,
+            35,
+            33
+          ],
+          "backgroundImage": false,
+          "fontSize": "25px",
+          "fontWeight": "700",
+          "ratio": 13.69,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H3",
+          "text": "Short Scale And Olympic Special",
+          "classes": "",
+          "parentClasses": "mg-card",
+          "color": "rgb(244, 239, 227)",
+          "background": [
+            36,
+            35,
+            33
+          ],
+          "backgroundImage": false,
+          "fontSize": "25px",
+          "fontWeight": "700",
+          "ratio": 13.69,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H2",
+          "text": "The Olympic Examples In These Photos",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(27, 25, 22)",
+          "background": [
+            243,
+            234,
+            216
+          ],
+          "backgroundImage": false,
+          "fontSize": "70px",
+          "fontWeight": "700",
+          "ratio": 14.68,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H2",
+          "text": "Changes That Affect An Olympic Estimate",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(200, 158, 87)",
+          "background": [
+            23,
+            22,
+            20
+          ],
+          "backgroundImage": false,
+          "fontSize": "70px",
+          "fontWeight": "700",
+          "ratio": 7.31,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H3",
+          "text": "Routing For Larger Pickups",
+          "classes": "",
+          "parentClasses": "mg-card",
+          "color": "rgb(244, 239, 227)",
+          "background": [
+            36,
+            35,
+            33
+          ],
+          "backgroundImage": false,
+          "fontSize": "25px",
+          "fontWeight": "700",
+          "ratio": 13.69,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H3",
+          "text": "Tuners And Headstock Work",
+          "classes": "",
+          "parentClasses": "mg-card",
+          "color": "rgb(244, 239, 227)",
+          "background": [
+            36,
+            35,
+            33
+          ],
+          "backgroundImage": false,
+          "fontSize": "25px",
+          "fontWeight": "700",
+          "ratio": 13.69,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H3",
+          "text": "Finish And Neck-Joint Repairs",
+          "classes": "",
+          "parentClasses": "mg-card",
+          "color": "rgb(244, 239, 227)",
+          "background": [
+            36,
+            35,
+            33
+          ],
+          "backgroundImage": false,
+          "fontSize": "25px",
+          "fontWeight": "700",
+          "ratio": 13.69,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H2",
+          "text": "Build A Useful Olympic Appraisal Submission",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(27, 25, 22)",
+          "background": [
+            243,
+            234,
+            216
+          ],
+          "backgroundImage": false,
+          "fontSize": "70px",
+          "fontWeight": "700",
+          "ratio": 14.68,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H3",
+          "text": "Identify The Body And Scale",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(27, 25, 22)",
+          "background": [
+            243,
+            234,
+            216
+          ],
+          "backgroundImage": false,
+          "fontSize": "22px",
+          "fontWeight": "700",
+          "ratio": 14.68,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H3",
+          "text": "Show Serial, Pickups And Hardware",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(27, 25, 22)",
+          "background": [
+            243,
+            234,
+            216
+          ],
+          "backgroundImage": false,
+          "fontSize": "22px",
+          "fontWeight": "700",
+          "ratio": 14.68,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H3",
+          "text": "Explain Repairs And Ownership",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(27, 25, 22)",
+          "background": [
+            243,
+            234,
+            216
+          ],
+          "backgroundImage": false,
+          "fontSize": "22px",
+          "fontWeight": "700",
+          "ratio": 14.68,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H3",
+          "text": "Ask Joe To Value Your Olympic",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(255, 255, 255)",
+          "background": [
+            104,
+            36,
+            18
+          ],
+          "backgroundImage": false,
+          "fontSize": "27px",
+          "fontWeight": "700",
+          "ratio": 11.35,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H2",
+          "text": "Questions About",
+          "classes": "faqr-sct__h3",
+          "parentClasses": "faqr-col__inner",
+          "color": "rgb(104, 36, 18)",
+          "background": [
+            238,
+            223,
+            192
+          ],
+          "backgroundImage": true,
+          "fontSize": "38.4px",
+          "fontWeight": "600",
+          "ratio": 8.62,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H2",
+          "text": "A Value For Your Guitar",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(27, 25, 22)",
+          "background": [
+            243,
+            234,
+            216
+          ],
+          "backgroundImage": false,
+          "fontSize": "70px",
+          "fontWeight": "700",
+          "ratio": 14.68,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H2",
+          "text": "Joe Dampt",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(27, 25, 22)",
+          "background": [
+            226,
+            212,
+            186
+          ],
+          "backgroundImage": false,
+          "fontSize": "30px",
+          "fontWeight": "700",
+          "ratio": 11.99,
+          "required": 3,
+          "pass": true
+        }
+      ]
+    },
+    {
+      "slug": "epiphone-olympic-authentication-guide",
+      "width": 1280,
+      "textRuns": 245,
+      "failures": [],
+      "imageBackgroundRuns": 10,
+      "headings": [
+        {
+          "tag": "H1",
+          "text": "Epiphone Olympic Authentication Guide",
+          "classes": "",
+          "parentClasses": "mg-wrap mg-hero-copy",
+          "color": "rgb(255, 255, 255)",
+          "background": [
+            23,
+            22,
+            20
+          ],
+          "backgroundImage": false,
+          "fontSize": "115.2px",
+          "fontWeight": "700",
+          "ratio": 18.08,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H2",
+          "text": "Olympic Identity By Construction",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(27, 25, 22)",
+          "background": [
+            243,
+            234,
+            216
+          ],
+          "backgroundImage": false,
+          "fontSize": "70px",
+          "fontWeight": "700",
+          "ratio": 14.68,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H2",
+          "text": "The New York Olympic And The Gap Before Kalamazoo",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(200, 158, 87)",
+          "background": [
+            23,
+            22,
+            20
+          ],
+          "backgroundImage": false,
+          "fontSize": "70px",
+          "fontWeight": "700",
+          "ratio": 7.31,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H3",
+          "text": "The Original Acoustic Olympic",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(244, 239, 227)",
+          "background": [
+            23,
+            22,
+            20
+          ],
+          "backgroundImage": false,
+          "fontSize": "27px",
+          "fontWeight": "700",
+          "ratio": 15.76,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H3",
+          "text": "No Continuous Philadelphia Archtop Run",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(244, 239, 227)",
+          "background": [
+            23,
+            22,
+            20
+          ],
+          "backgroundImage": false,
+          "fontSize": "27px",
+          "fontWeight": "700",
+          "ratio": 15.76,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H2",
+          "text": "What The Kalamazoo Olympic Is Built From",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(27, 25, 22)",
+          "background": [
+            243,
+            234,
+            216
+          ],
+          "backgroundImage": false,
+          "fontSize": "70px",
+          "fontWeight": "700",
+          "ratio": 14.68,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H3",
+          "text": "The Melody Maker Comparison",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(27, 25, 22)",
+          "background": [
+            243,
+            234,
+            216
+          ],
+          "backgroundImage": false,
+          "fontSize": "27px",
+          "fontWeight": "700",
+          "ratio": 14.68,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H3",
+          "text": "Headstock And Tailpiece Changes",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(27, 25, 22)",
+          "background": [
+            243,
+            234,
+            216
+          ],
+          "backgroundImage": false,
+          "fontSize": "27px",
+          "fontWeight": "700",
+          "ratio": 14.68,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H2",
+          "text": "Separate The Solidbody Olympic Versions",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(200, 158, 87)",
+          "background": [
+            23,
+            22,
+            20
+          ],
+          "backgroundImage": false,
+          "fontSize": "70px",
+          "fontWeight": "700",
+          "ratio": 7.31,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H3",
+          "text": "Olympic Single",
+          "classes": "",
+          "parentClasses": "mg-card",
+          "color": "rgb(244, 239, 227)",
+          "background": [
+            36,
+            35,
+            33
+          ],
+          "backgroundImage": false,
+          "fontSize": "25px",
+          "fontWeight": "700",
+          "ratio": 13.69,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H3",
+          "text": "Olympic Double",
+          "classes": "",
+          "parentClasses": "mg-card",
+          "color": "rgb(244, 239, 227)",
+          "background": [
+            36,
+            35,
+            33
+          ],
+          "backgroundImage": false,
+          "fontSize": "25px",
+          "fontWeight": "700",
+          "ratio": 13.69,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H3",
+          "text": "Three-Quarter Scale",
+          "classes": "",
+          "parentClasses": "mg-card",
+          "color": "rgb(244, 239, 227)",
+          "background": [
+            36,
+            35,
+            33
+          ],
+          "backgroundImage": false,
+          "fontSize": "25px",
+          "fontWeight": "700",
+          "ratio": 13.69,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H3",
+          "text": "Olympic Special",
+          "classes": "",
+          "parentClasses": "mg-card",
+          "color": "rgb(244, 239, 227)",
+          "background": [
+            36,
+            35,
+            33
+          ],
+          "backgroundImage": false,
+          "fontSize": "25px",
+          "fontWeight": "700",
+          "ratio": 13.69,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H2",
+          "text": "A Practical Olympic Production Sequence",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(200, 158, 87)",
+          "background": [
+            23,
+            22,
+            20
+          ],
+          "backgroundImage": false,
+          "fontSize": "70px",
+          "fontWeight": "700",
+          "ratio": 7.31,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H3",
+          "text": "The Acoustic Family",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(244, 239, 227)",
+          "background": [
+            23,
+            22,
+            20
+          ],
+          "backgroundImage": false,
+          "fontSize": "23px",
+          "fontWeight": "700",
+          "ratio": 15.76,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H3",
+          "text": "Single-Cutaway And Short-Scale Catalog Models",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(244, 239, 227)",
+          "background": [
+            23,
+            22,
+            20
+          ],
+          "backgroundImage": false,
+          "fontSize": "23px",
+          "fontWeight": "700",
+          "ratio": 15.76,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H3",
+          "text": "The Earlier Double-Cutaway Olympic",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(244, 239, 227)",
+          "background": [
+            23,
+            22,
+            20
+          ],
+          "backgroundImage": false,
+          "fontSize": "23px",
+          "fontWeight": "700",
+          "ratio": 15.76,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H3",
+          "text": "Double-Cutaway Olympic And Separate Special",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(244, 239, 227)",
+          "background": [
+            23,
+            22,
+            20
+          ],
+          "backgroundImage": false,
+          "fontSize": "23px",
+          "fontWeight": "700",
+          "ratio": 15.76,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H3",
+          "text": "End Of The Original American Scope",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(244, 239, 227)",
+          "background": [
+            23,
+            22,
+            20
+          ],
+          "backgroundImage": false,
+          "fontSize": "23px",
+          "fontWeight": "700",
+          "ratio": 15.76,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H2",
+          "text": "Olympic Photos From Joe’s Shop",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(27, 25, 22)",
+          "background": [
+            225,
+            209,
+            180
+          ],
+          "backgroundImage": false,
+          "fontSize": "70px",
+          "fontWeight": "700",
+          "ratio": 11.68,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H3",
+          "text": "1940s Yellow-Burst Olympic Archtop",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(27, 25, 22)",
+          "background": [
+            225,
+            209,
+            180
+          ],
+          "backgroundImage": false,
+          "fontSize": "27px",
+          "fontWeight": "700",
+          "ratio": 11.68,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H3",
+          "text": "1965 Sunburst Single-Pickup Olympic",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(27, 25, 22)",
+          "background": [
+            225,
+            209,
+            180
+          ],
+          "backgroundImage": false,
+          "fontSize": "27px",
+          "fontWeight": "700",
+          "ratio": 11.68,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H2",
+          "text": "Olympic Labels And Serial Systems",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(27, 25, 22)",
+          "background": [
+            243,
+            234,
+            216
+          ],
+          "backgroundImage": false,
+          "fontSize": "70px",
+          "fontWeight": "700",
+          "ratio": 14.68,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H3",
+          "text": "The New York Acoustic Olympic Label",
+          "classes": "",
+          "parentClasses": "mg-serial-card",
+          "color": "rgb(244, 239, 227)",
+          "background": [
+            36,
+            35,
+            33
+          ],
+          "backgroundImage": false,
+          "fontSize": "23px",
+          "fontWeight": "700",
+          "ratio": 13.69,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H2",
+          "text": "Read The Pickguard And Control Layout",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(27, 25, 22)",
+          "background": [
+            243,
+            234,
+            216
+          ],
+          "backgroundImage": false,
+          "fontSize": "70px",
+          "fontWeight": "700",
+          "ratio": 14.68,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H3",
+          "text": "Separate The Guard From The Wood Beneath It",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(27, 25, 22)",
+          "background": [
+            243,
+            234,
+            216
+          ],
+          "backgroundImage": false,
+          "fontSize": "27px",
+          "fontWeight": "700",
+          "ratio": 14.68,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H3",
+          "text": "Document The Circuit Without Guessing From Sound",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(27, 25, 22)",
+          "background": [
+            243,
+            234,
+            216
+          ],
+          "backgroundImage": false,
+          "fontSize": "27px",
+          "fontWeight": "700",
+          "ratio": 14.68,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H2",
+          "text": "Inspect A Kalamazoo Olympic In This Order",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(27, 25, 22)",
+          "background": [
+            243,
+            234,
+            216
+          ],
+          "backgroundImage": false,
+          "fontSize": "70px",
+          "fontWeight": "700",
+          "ratio": 14.68,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H3",
+          "text": "Measure The Scale And Identify The Body",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(27, 25, 22)",
+          "background": [
+            243,
+            234,
+            216
+          ],
+          "backgroundImage": false,
+          "fontSize": "22px",
+          "fontWeight": "700",
+          "ratio": 14.68,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H3",
+          "text": "Check Factory Pickup Openings",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(27, 25, 22)",
+          "background": [
+            243,
+            234,
+            216
+          ],
+          "backgroundImage": false,
+          "fontSize": "22px",
+          "fontWeight": "700",
+          "ratio": 14.68,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H3",
+          "text": "Photograph Headstock And Tuners",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(27, 25, 22)",
+          "background": [
+            243,
+            234,
+            216
+          ],
+          "backgroundImage": false,
+          "fontSize": "22px",
+          "fontWeight": "700",
+          "ratio": 14.68,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H3",
+          "text": "Review Bridge And Vibrato Mounts",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(27, 25, 22)",
+          "background": [
+            243,
+            234,
+            216
+          ],
+          "backgroundImage": false,
+          "fontSize": "22px",
+          "fontWeight": "700",
+          "ratio": 14.68,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H3",
+          "text": "Reconcile The Evidence",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(27, 25, 22)",
+          "background": [
+            243,
+            234,
+            216
+          ],
+          "backgroundImage": false,
+          "fontSize": "22px",
+          "fontWeight": "700",
+          "ratio": 14.68,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H2",
+          "text": "Repairs And Later Olympic Names",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(27, 25, 22)",
+          "background": [
+            243,
+            234,
+            216
+          ],
+          "backgroundImage": false,
+          "fontSize": "70px",
+          "fontWeight": "700",
+          "ratio": 14.68,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H3",
+          "text": "Send Your Olympic For A Closer Review",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(255, 255, 255)",
+          "background": [
+            104,
+            36,
+            18
+          ],
+          "backgroundImage": false,
+          "fontSize": "27px",
+          "fontWeight": "700",
+          "ratio": 11.35,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H2",
+          "text": "Olympic Research References",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(27, 25, 22)",
+          "background": [
+            243,
+            234,
+            216
+          ],
+          "backgroundImage": false,
+          "fontSize": "70px",
+          "fontWeight": "700",
+          "ratio": 14.68,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H2",
+          "text": "Questions About",
+          "classes": "faqr-sct__h3",
+          "parentClasses": "faqr-col__inner",
+          "color": "rgb(104, 36, 18)",
+          "background": [
+            238,
+            223,
+            192
+          ],
+          "backgroundImage": true,
+          "fontSize": "38.4px",
+          "fontWeight": "600",
+          "ratio": 8.62,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H2",
+          "text": "Keep The Evidence Together",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(27, 25, 22)",
+          "background": [
+            243,
+            234,
+            216
+          ],
+          "backgroundImage": false,
+          "fontSize": "70px",
+          "fontWeight": "700",
+          "ratio": 14.68,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H2",
+          "text": "Joe Dampt",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(27, 25, 22)",
+          "background": [
+            226,
+            212,
+            186
+          ],
+          "backgroundImage": false,
+          "fontSize": "30px",
+          "fontWeight": "700",
+          "ratio": 11.99,
+          "required": 3,
+          "pass": true
+        }
+      ]
+    },
+    {
+      "slug": "epiphone-olympic-value-guide",
+      "width": 375,
+      "textRuns": 194,
+      "failures": [],
+      "imageBackgroundRuns": 10,
+      "headings": [
+        {
+          "tag": "H1",
+          "text": "Epiphone Olympic Value Guide",
+          "classes": "",
+          "parentClasses": "mg-wrap mg-hero-copy",
+          "color": "rgb(255, 255, 255)",
+          "background": [
+            23,
+            22,
+            20
+          ],
+          "backgroundImage": false,
+          "fontSize": "63.75px",
+          "fontWeight": "700",
+          "ratio": 18.08,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H2",
+          "text": "Olympic Prices By Instrument Type",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(27, 25, 22)",
+          "background": [
+            243,
+            234,
+            216
+          ],
+          "backgroundImage": false,
+          "fontSize": "40px",
+          "fontWeight": "700",
+          "ratio": 14.68,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H2",
+          "text": "Value The New York Acoustic On Its Own Terms",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(200, 158, 87)",
+          "background": [
+            23,
+            22,
+            20
+          ],
+          "backgroundImage": false,
+          "fontSize": "40px",
+          "fontWeight": "700",
+          "ratio": 7.31,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H3",
+          "text": "Early And Later Acoustic Sizes",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(244, 239, 227)",
+          "background": [
+            23,
+            22,
+            20
+          ],
+          "backgroundImage": false,
+          "fontSize": "27px",
+          "fontWeight": "700",
+          "ratio": 15.76,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H3",
+          "text": "Four-String Olympic Tenors",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(244, 239, 227)",
+          "background": [
+            23,
+            22,
+            20
+          ],
+          "backgroundImage": false,
+          "fontSize": "27px",
+          "fontWeight": "700",
+          "ratio": 15.76,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H2",
+          "text": "How Kalamazoo Olympic Versions Compare",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(27, 25, 22)",
+          "background": [
+            243,
+            234,
+            216
+          ],
+          "backgroundImage": false,
+          "fontSize": "40px",
+          "fontWeight": "700",
+          "ratio": 14.68,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H3",
+          "text": "Single-Pickup Olympics",
+          "classes": "",
+          "parentClasses": "mg-card",
+          "color": "rgb(244, 239, 227)",
+          "background": [
+            36,
+            35,
+            33
+          ],
+          "backgroundImage": false,
+          "fontSize": "25px",
+          "fontWeight": "700",
+          "ratio": 13.69,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H3",
+          "text": "Olympic Double",
+          "classes": "",
+          "parentClasses": "mg-card",
+          "color": "rgb(244, 239, 227)",
+          "background": [
+            36,
+            35,
+            33
+          ],
+          "backgroundImage": false,
+          "fontSize": "25px",
+          "fontWeight": "700",
+          "ratio": 13.69,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H3",
+          "text": "Short Scale And Olympic Special",
+          "classes": "",
+          "parentClasses": "mg-card",
+          "color": "rgb(244, 239, 227)",
+          "background": [
+            36,
+            35,
+            33
+          ],
+          "backgroundImage": false,
+          "fontSize": "25px",
+          "fontWeight": "700",
+          "ratio": 13.69,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H2",
+          "text": "The Olympic Examples In These Photos",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(27, 25, 22)",
+          "background": [
+            243,
+            234,
+            216
+          ],
+          "backgroundImage": false,
+          "fontSize": "40px",
+          "fontWeight": "700",
+          "ratio": 14.68,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H2",
+          "text": "Changes That Affect An Olympic Estimate",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(200, 158, 87)",
+          "background": [
+            23,
+            22,
+            20
+          ],
+          "backgroundImage": false,
+          "fontSize": "40px",
+          "fontWeight": "700",
+          "ratio": 7.31,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H3",
+          "text": "Routing For Larger Pickups",
+          "classes": "",
+          "parentClasses": "mg-card",
+          "color": "rgb(244, 239, 227)",
+          "background": [
+            36,
+            35,
+            33
+          ],
+          "backgroundImage": false,
+          "fontSize": "25px",
+          "fontWeight": "700",
+          "ratio": 13.69,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H3",
+          "text": "Tuners And Headstock Work",
+          "classes": "",
+          "parentClasses": "mg-card",
+          "color": "rgb(244, 239, 227)",
+          "background": [
+            36,
+            35,
+            33
+          ],
+          "backgroundImage": false,
+          "fontSize": "25px",
+          "fontWeight": "700",
+          "ratio": 13.69,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H3",
+          "text": "Finish And Neck-Joint Repairs",
+          "classes": "",
+          "parentClasses": "mg-card",
+          "color": "rgb(244, 239, 227)",
+          "background": [
+            36,
+            35,
+            33
+          ],
+          "backgroundImage": false,
+          "fontSize": "25px",
+          "fontWeight": "700",
+          "ratio": 13.69,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H2",
+          "text": "Build A Useful Olympic Appraisal Submission",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(27, 25, 22)",
+          "background": [
+            243,
+            234,
+            216
+          ],
+          "backgroundImage": false,
+          "fontSize": "40px",
+          "fontWeight": "700",
+          "ratio": 14.68,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H3",
+          "text": "Identify The Body And Scale",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(27, 25, 22)",
+          "background": [
+            243,
+            234,
+            216
+          ],
+          "backgroundImage": false,
+          "fontSize": "22px",
+          "fontWeight": "700",
+          "ratio": 14.68,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H3",
+          "text": "Show Serial, Pickups And Hardware",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(27, 25, 22)",
+          "background": [
+            243,
+            234,
+            216
+          ],
+          "backgroundImage": false,
+          "fontSize": "22px",
+          "fontWeight": "700",
+          "ratio": 14.68,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H3",
+          "text": "Explain Repairs And Ownership",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(27, 25, 22)",
+          "background": [
+            243,
+            234,
+            216
+          ],
+          "backgroundImage": false,
+          "fontSize": "22px",
+          "fontWeight": "700",
+          "ratio": 14.68,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H3",
+          "text": "Ask Joe To Value Your Olympic",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(255, 255, 255)",
+          "background": [
+            104,
+            36,
+            18
+          ],
+          "backgroundImage": false,
+          "fontSize": "27px",
+          "fontWeight": "700",
+          "ratio": 11.35,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H2",
+          "text": "Questions About",
+          "classes": "faqr-sct__h3",
+          "parentClasses": "faqr-col__inner",
+          "color": "rgb(104, 36, 18)",
+          "background": [
+            238,
+            223,
+            192
+          ],
+          "backgroundImage": true,
+          "fontSize": "22px",
+          "fontWeight": "600",
+          "ratio": 8.62,
+          "required": 4.5,
+          "pass": true
+        },
+        {
+          "tag": "H2",
+          "text": "A Value For Your Guitar",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(27, 25, 22)",
+          "background": [
+            243,
+            234,
+            216
+          ],
+          "backgroundImage": false,
+          "fontSize": "40px",
+          "fontWeight": "700",
+          "ratio": 14.68,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H2",
+          "text": "Joe Dampt",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(27, 25, 22)",
+          "background": [
+            226,
+            212,
+            186
+          ],
+          "backgroundImage": false,
+          "fontSize": "30px",
+          "fontWeight": "700",
+          "ratio": 11.99,
+          "required": 3,
+          "pass": true
+        }
+      ]
+    },
+    {
+      "slug": "epiphone-olympic-authentication-guide",
+      "width": 375,
+      "textRuns": 245,
+      "failures": [],
+      "imageBackgroundRuns": 10,
+      "headings": [
+        {
+          "tag": "H1",
+          "text": "Epiphone Olympic Authentication Guide",
+          "classes": "",
+          "parentClasses": "mg-wrap mg-hero-copy",
+          "color": "rgb(255, 255, 255)",
+          "background": [
+            23,
+            22,
+            20
+          ],
+          "backgroundImage": false,
+          "fontSize": "63.75px",
+          "fontWeight": "700",
+          "ratio": 18.08,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H2",
+          "text": "Olympic Identity By Construction",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(27, 25, 22)",
+          "background": [
+            243,
+            234,
+            216
+          ],
+          "backgroundImage": false,
+          "fontSize": "40px",
+          "fontWeight": "700",
+          "ratio": 14.68,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H2",
+          "text": "The New York Olympic And The Gap Before Kalamazoo",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(200, 158, 87)",
+          "background": [
+            23,
+            22,
+            20
+          ],
+          "backgroundImage": false,
+          "fontSize": "40px",
+          "fontWeight": "700",
+          "ratio": 7.31,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H3",
+          "text": "The Original Acoustic Olympic",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(244, 239, 227)",
+          "background": [
+            23,
+            22,
+            20
+          ],
+          "backgroundImage": false,
+          "fontSize": "27px",
+          "fontWeight": "700",
+          "ratio": 15.76,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H3",
+          "text": "No Continuous Philadelphia Archtop Run",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(244, 239, 227)",
+          "background": [
+            23,
+            22,
+            20
+          ],
+          "backgroundImage": false,
+          "fontSize": "27px",
+          "fontWeight": "700",
+          "ratio": 15.76,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H2",
+          "text": "What The Kalamazoo Olympic Is Built From",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(27, 25, 22)",
+          "background": [
+            243,
+            234,
+            216
+          ],
+          "backgroundImage": false,
+          "fontSize": "40px",
+          "fontWeight": "700",
+          "ratio": 14.68,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H3",
+          "text": "The Melody Maker Comparison",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(27, 25, 22)",
+          "background": [
+            243,
+            234,
+            216
+          ],
+          "backgroundImage": false,
+          "fontSize": "27px",
+          "fontWeight": "700",
+          "ratio": 14.68,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H3",
+          "text": "Headstock And Tailpiece Changes",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(27, 25, 22)",
+          "background": [
+            243,
+            234,
+            216
+          ],
+          "backgroundImage": false,
+          "fontSize": "27px",
+          "fontWeight": "700",
+          "ratio": 14.68,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H2",
+          "text": "Separate The Solidbody Olympic Versions",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(200, 158, 87)",
+          "background": [
+            23,
+            22,
+            20
+          ],
+          "backgroundImage": false,
+          "fontSize": "40px",
+          "fontWeight": "700",
+          "ratio": 7.31,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H3",
+          "text": "Olympic Single",
+          "classes": "",
+          "parentClasses": "mg-card",
+          "color": "rgb(244, 239, 227)",
+          "background": [
+            36,
+            35,
+            33
+          ],
+          "backgroundImage": false,
+          "fontSize": "25px",
+          "fontWeight": "700",
+          "ratio": 13.69,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H3",
+          "text": "Olympic Double",
+          "classes": "",
+          "parentClasses": "mg-card",
+          "color": "rgb(244, 239, 227)",
+          "background": [
+            36,
+            35,
+            33
+          ],
+          "backgroundImage": false,
+          "fontSize": "25px",
+          "fontWeight": "700",
+          "ratio": 13.69,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H3",
+          "text": "Three-Quarter Scale",
+          "classes": "",
+          "parentClasses": "mg-card",
+          "color": "rgb(244, 239, 227)",
+          "background": [
+            36,
+            35,
+            33
+          ],
+          "backgroundImage": false,
+          "fontSize": "25px",
+          "fontWeight": "700",
+          "ratio": 13.69,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H3",
+          "text": "Olympic Special",
+          "classes": "",
+          "parentClasses": "mg-card",
+          "color": "rgb(244, 239, 227)",
+          "background": [
+            36,
+            35,
+            33
+          ],
+          "backgroundImage": false,
+          "fontSize": "25px",
+          "fontWeight": "700",
+          "ratio": 13.69,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H2",
+          "text": "A Practical Olympic Production Sequence",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(200, 158, 87)",
+          "background": [
+            23,
+            22,
+            20
+          ],
+          "backgroundImage": false,
+          "fontSize": "40px",
+          "fontWeight": "700",
+          "ratio": 7.31,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H3",
+          "text": "The Acoustic Family",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(244, 239, 227)",
+          "background": [
+            23,
+            22,
+            20
+          ],
+          "backgroundImage": false,
+          "fontSize": "23px",
+          "fontWeight": "700",
+          "ratio": 15.76,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H3",
+          "text": "Single-Cutaway And Short-Scale Catalog Models",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(244, 239, 227)",
+          "background": [
+            23,
+            22,
+            20
+          ],
+          "backgroundImage": false,
+          "fontSize": "23px",
+          "fontWeight": "700",
+          "ratio": 15.76,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H3",
+          "text": "The Earlier Double-Cutaway Olympic",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(244, 239, 227)",
+          "background": [
+            23,
+            22,
+            20
+          ],
+          "backgroundImage": false,
+          "fontSize": "23px",
+          "fontWeight": "700",
+          "ratio": 15.76,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H3",
+          "text": "Double-Cutaway Olympic And Separate Special",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(244, 239, 227)",
+          "background": [
+            23,
+            22,
+            20
+          ],
+          "backgroundImage": false,
+          "fontSize": "23px",
+          "fontWeight": "700",
+          "ratio": 15.76,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H3",
+          "text": "End Of The Original American Scope",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(244, 239, 227)",
+          "background": [
+            23,
+            22,
+            20
+          ],
+          "backgroundImage": false,
+          "fontSize": "23px",
+          "fontWeight": "700",
+          "ratio": 15.76,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H2",
+          "text": "Olympic Photos From Joe’s Shop",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(27, 25, 22)",
+          "background": [
+            225,
+            209,
+            180
+          ],
+          "backgroundImage": false,
+          "fontSize": "40px",
+          "fontWeight": "700",
+          "ratio": 11.68,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H3",
+          "text": "1940s Yellow-Burst Olympic Archtop",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(27, 25, 22)",
+          "background": [
+            225,
+            209,
+            180
+          ],
+          "backgroundImage": false,
+          "fontSize": "27px",
+          "fontWeight": "700",
+          "ratio": 11.68,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H3",
+          "text": "1965 Sunburst Single-Pickup Olympic",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(27, 25, 22)",
+          "background": [
+            225,
+            209,
+            180
+          ],
+          "backgroundImage": false,
+          "fontSize": "27px",
+          "fontWeight": "700",
+          "ratio": 11.68,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H2",
+          "text": "Olympic Labels And Serial Systems",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(27, 25, 22)",
+          "background": [
+            243,
+            234,
+            216
+          ],
+          "backgroundImage": false,
+          "fontSize": "40px",
+          "fontWeight": "700",
+          "ratio": 14.68,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H3",
+          "text": "The New York Acoustic Olympic Label",
+          "classes": "",
+          "parentClasses": "mg-serial-card",
+          "color": "rgb(244, 239, 227)",
+          "background": [
+            36,
+            35,
+            33
+          ],
+          "backgroundImage": false,
+          "fontSize": "23px",
+          "fontWeight": "700",
+          "ratio": 13.69,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H2",
+          "text": "Read The Pickguard And Control Layout",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(27, 25, 22)",
+          "background": [
+            243,
+            234,
+            216
+          ],
+          "backgroundImage": false,
+          "fontSize": "40px",
+          "fontWeight": "700",
+          "ratio": 14.68,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H3",
+          "text": "Separate The Guard From The Wood Beneath It",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(27, 25, 22)",
+          "background": [
+            243,
+            234,
+            216
+          ],
+          "backgroundImage": false,
+          "fontSize": "27px",
+          "fontWeight": "700",
+          "ratio": 14.68,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H3",
+          "text": "Document The Circuit Without Guessing From Sound",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(27, 25, 22)",
+          "background": [
+            243,
+            234,
+            216
+          ],
+          "backgroundImage": false,
+          "fontSize": "27px",
+          "fontWeight": "700",
+          "ratio": 14.68,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H2",
+          "text": "Inspect A Kalamazoo Olympic In This Order",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(27, 25, 22)",
+          "background": [
+            243,
+            234,
+            216
+          ],
+          "backgroundImage": false,
+          "fontSize": "40px",
+          "fontWeight": "700",
+          "ratio": 14.68,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H3",
+          "text": "Measure The Scale And Identify The Body",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(27, 25, 22)",
+          "background": [
+            243,
+            234,
+            216
+          ],
+          "backgroundImage": false,
+          "fontSize": "22px",
+          "fontWeight": "700",
+          "ratio": 14.68,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H3",
+          "text": "Check Factory Pickup Openings",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(27, 25, 22)",
+          "background": [
+            243,
+            234,
+            216
+          ],
+          "backgroundImage": false,
+          "fontSize": "22px",
+          "fontWeight": "700",
+          "ratio": 14.68,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H3",
+          "text": "Photograph Headstock And Tuners",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(27, 25, 22)",
+          "background": [
+            243,
+            234,
+            216
+          ],
+          "backgroundImage": false,
+          "fontSize": "22px",
+          "fontWeight": "700",
+          "ratio": 14.68,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H3",
+          "text": "Review Bridge And Vibrato Mounts",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(27, 25, 22)",
+          "background": [
+            243,
+            234,
+            216
+          ],
+          "backgroundImage": false,
+          "fontSize": "22px",
+          "fontWeight": "700",
+          "ratio": 14.68,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H3",
+          "text": "Reconcile The Evidence",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(27, 25, 22)",
+          "background": [
+            243,
+            234,
+            216
+          ],
+          "backgroundImage": false,
+          "fontSize": "22px",
+          "fontWeight": "700",
+          "ratio": 14.68,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H2",
+          "text": "Repairs And Later Olympic Names",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(27, 25, 22)",
+          "background": [
+            243,
+            234,
+            216
+          ],
+          "backgroundImage": false,
+          "fontSize": "40px",
+          "fontWeight": "700",
+          "ratio": 14.68,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H3",
+          "text": "Send Your Olympic For A Closer Review",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(255, 255, 255)",
+          "background": [
+            104,
+            36,
+            18
+          ],
+          "backgroundImage": false,
+          "fontSize": "27px",
+          "fontWeight": "700",
+          "ratio": 11.35,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H2",
+          "text": "Olympic Research References",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(27, 25, 22)",
+          "background": [
+            243,
+            234,
+            216
+          ],
+          "backgroundImage": false,
+          "fontSize": "40px",
+          "fontWeight": "700",
+          "ratio": 14.68,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H2",
+          "text": "Questions About",
+          "classes": "faqr-sct__h3",
+          "parentClasses": "faqr-col__inner",
+          "color": "rgb(104, 36, 18)",
+          "background": [
+            238,
+            223,
+            192
+          ],
+          "backgroundImage": true,
+          "fontSize": "22px",
+          "fontWeight": "600",
+          "ratio": 8.62,
+          "required": 4.5,
+          "pass": true
+        },
+        {
+          "tag": "H2",
+          "text": "Keep The Evidence Together",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(27, 25, 22)",
+          "background": [
+            243,
+            234,
+            216
+          ],
+          "backgroundImage": false,
+          "fontSize": "40px",
+          "fontWeight": "700",
+          "ratio": 14.68,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H2",
+          "text": "Joe Dampt",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(27, 25, 22)",
+          "background": [
+            226,
+            212,
+            186
+          ],
+          "backgroundImage": false,
+          "fontSize": "30px",
+          "fontWeight": "700",
+          "ratio": 11.99,
+          "required": 3,
+          "pass": true
+        }
+      ]
+    }
+  ]
+}

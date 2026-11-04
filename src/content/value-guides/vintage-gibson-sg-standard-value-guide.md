@@ -1,4 +1,4 @@
-Vintage Gibson SG Standard guide values run from $2,500 to $3,000 for typical 1970s cherry guitars to $13,000 to $23,000 for early small-guard examples, as of October 2026. Original humbuckers, the factory vibrato and an unbroken neck put the strongest examples near the top of their group.
+Vintage Gibson SG Standard guide values run from $2,500 to $3,000 for typical 1970s cherry guitars to $13,000 to $24,350 for early small-guard examples, as of October 2026. Original humbuckers, the factory vibrato and an unbroken neck put the strongest examples near the top of their group.
 
 For the year and original specification, use my [Gibson SG Standard dating and identification guide](/gibson-sg-dating-guide/#sg-standard). This guide covers market value and the features that move it.
 
@@ -8,17 +8,17 @@ For the year and original specification, use my [Gibson SG Standard dating and i
 
 | Year | Value Range | Configuration And Year Notes | Shipments |
 | --- | --- | --- | --- |
-| 1961 | $13,000 to $23,000 | Small guard, early humbuckers and sideways vibrato. | Not listed |
+| 1961 | $19,600 to $24,350 | Small guard, early humbuckers and sideways vibrato. | Not listed |
 | 1962 | $13,000 to $23,000 | Small guard, early humbuckers and sideways vibrato. | 1,449 |
-| 1963 | $13,000 to $23,000 | Small guard; long lyre Vibrola becomes familiar. | 1,445 |
+| 1963 | $16,950 to $21,650 | Small guard; long lyre Vibrola becomes familiar. | 1,445 |
 | 1964 | $13,000 to $23,000 | Small guard; long lyre Vibrola becomes familiar. | 1,375 |
-| 1965 | $11,000 to $13,000 | Nut-width and plating transition; small guard. | 1,731 |
-| 1966 | $4,500 to $7,500 | Small to large guard transition; match actual version. | 1,046 |
-| 1967 | $4,500 to $7,500 | Large guard, full-size humbuckers and lyre Vibrola. | 1,154 |
-| 1968 | $4,500 to $7,500 | Large guard, full-size humbuckers and lyre Vibrola. | 1,340 |
+| 1965 | $13,500 to $17,400 | Nut-width and plating transition; small guard. | 1,731 |
+| 1966 | $8,150 to $10,550 | Small to large guard transition; match actual version. | 1,046 |
+| 1967 | $7,550 to $9,800 | Large guard, full-size humbuckers and lyre Vibrola. | 1,154 |
+| 1968 | $6,050 to $7,650 | Large guard, full-size humbuckers and lyre Vibrola. | 1,340 |
 | 1969 | $4,500 to $7,500 | Large guard, full-size humbuckers and lyre Vibrola. | 3,354 |
-| 1970 | $4,500 to $7,500 | Large guard, full-size humbuckers and lyre Vibrola. | 5,048 |
-| 1971 | $4,500 to $7,500 | Large-guard Standard only; SG Deluxe excluded. | Not listed |
+| 1970 | $3,400 to $4,550 | Large guard, full-size humbuckers and lyre Vibrola. | 5,048 |
+| 1971 | $3,350 to $4,350 | Large-guard Standard only; SG Deluxe excluded. | Not listed |
 | 1972 | $2,500 to $3,000 | Standard returns; identify it separately from Deluxe. | 1,009 |
 | 1973 | $2,500 to $3,000 | Small guard, block inlays and later bridge configurations. | 3,009 |
 | 1974 | $2,500 to $3,000 | Small guard, block inlays and later bridge configurations. | 2,295 |
@@ -74,6 +74,8 @@ The 1965 band uses cherry small-guard guitars with their original cases. Nut wid
 
 ## Large Guards And Later Finishes
 
+For condition comparisons beyond this model, I explain [how a refinish affects vintage guitar value](/how-much-does-a-refinish-hurt-guitar-value/).
+
 <figure>
 
 ![Cherry SG Standard with a large black pickguard, two covered humbuckers and a long lyre Vibrola](../../assets/sg-family/late-1960s-sg-standard-large-pickguard.jpg)
@@ -84,7 +86,7 @@ The 1965 band uses cherry small-guard guitars with their original cases. Nut wid
 
 The batwing guard surrounds the pickups and supports them through the guard. It appears during 1966, with early small-guard guitars still requiring the earlier configuration considered. The later look usually includes the long lyre Vibrola and eventually taller witch-hat knobs.
 
-The $4,500 to $7,500 range includes original cherry and walnut guitars. Finish and condition together affect the comparison. The guard, finish, pickup set and repairs determine where an individual Standard belongs.
+The $3,350 to $10,550 range includes original cherry and walnut guitars. Finish and condition together affect the comparison. The guard, finish, pickup set and repairs determine where an individual Standard belongs.
 
 Later Patent Number and T-Top humbuckers are part of the correct period specification. T-Top refers to a molded marking on the pickup bobbin, not a promise that the exterior decal alone can date it. An original later pickup pair shouldn't be valued as though it were a pair of early PAFs.
 
@@ -123,3 +125,5 @@ For the other models, the [SG value overview](/vintage-gibson-sg-value-guide/) p
 Shipment counts follow my [Gibson shipping totals](/post/gibson-shipping-totals-1948-1979/#sg-std-cust-62-78). They total the listed finishes for each model and year. A blank record means no count is listed, rather than zero production. Shipment year and build date can differ.
 
 For the wider family, my [vintage Gibson value guide](/vintage-gibson-value-guide/) links the solidbody, ES, archtop and acoustic model comparisons.
+
+Compare the [famous SG auction results and ordinary SG values](/post/most-expensive-guitars-ever-sold/#ordinary-value) before applying a celebrity price to a production guitar.

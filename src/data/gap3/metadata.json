@@ -1,0 +1,107 @@
+{
+  "what-lowers-vintage-guitar-value": {
+    "url": "/what-lowers-vintage-guitar-value/",
+    "title": "What Lowers A Vintage Guitar's Value? Repairs And Changes",
+    "description": "See how refinishes, repairs and replaced parts affect vintage guitar value. I'll explain the comparisons, routine maintenance and what to leave alone.",
+    "h1": "What Lowers A Vintage Guitar's Value?",
+    "prefix": "wlv",
+    "eyebrow": "Originality And Condition",
+    "primaryQuery": "what lowers a guitar's value",
+    "secondaryQueries": [
+      "vintage guitar value deductions",
+      "does a refret hurt value",
+      "does a headstock repair hurt value"
+    ],
+    "published": "2026-10-26T12:00:00-07:00"
+  },
+  "how-much-does-a-refinish-hurt-guitar-value": {
+    "url": "/how-much-does-a-refinish-hurt-guitar-value/",
+    "title": "How Much Does A Refinish Hurt A Vintage Guitar's Value?",
+    "description": "A full refinish means 40 to 60 percent less than a comparable original. I'll explain Gibson and Fender comparisons, partial work and factory refinishes.",
+    "h1": "How Much Does A Refinish Hurt A Vintage Guitar's Value?",
+    "prefix": "rfv",
+    "eyebrow": "Originality And Condition",
+    "primaryQuery": "does refinishing a guitar decrease value",
+    "secondaryQueries": [
+      "refinished vintage guitar value",
+      "refinished stratocaster value",
+      "refinished les paul value"
+    ],
+    "published": "2026-10-26T12:00:00-07:00"
+  },
+  "how-to-tell-if-a-guitar-has-been-refinished": {
+    "url": "/how-to-tell-if-a-guitar-has-been-refinished/",
+    "title": "How To Tell If Your Vintage Guitar Has Been Refinished",
+    "description": "Learn where to look for a guitar refinish, from the headstock and hardware to finish wear. I'll explain the clues and what needs a bench inspection.",
+    "h1": "How To Tell If A Vintage Guitar Has Been Refinished",
+    "prefix": "rfd",
+    "eyebrow": "Originality And Condition",
+    "primaryQuery": "how to tell if a guitar has been refinished",
+    "secondaryQueries": [
+      "signs of a refinished guitar",
+      "refinished guitar under blacklight",
+      "overspray on a guitar"
+    ],
+    "published": "2026-10-26T12:00:00-07:00"
+  },
+  "do-replaced-pickups-hurt-guitar-value": {
+    "url": "/do-replaced-pickups-hurt-guitar-value/",
+    "title": "Do Replaced Pickups Hurt Your Vintage Guitar's Value?",
+    "description": "See how pickup swaps, routing and rewinds affect a vintage guitar. I'll explain missing originals, PAF decals and why removed parts should stay with it.",
+    "h1": "Do Replaced Pickups Hurt A Vintage Guitar's Value?",
+    "prefix": "ppv",
+    "eyebrow": "Originality And Condition",
+    "primaryQuery": "do replaced pickups devalue a guitar",
+    "secondaryQueries": [
+      "rewound pickups value",
+      "routed guitar value",
+      "original paf value"
+    ],
+    "published": "2026-10-26T12:00:00-07:00"
+  },
+  "should-i-restore-my-guitar-before-selling": {
+    "url": "/should-i-restore-my-guitar-before-selling/",
+    "title": "Should I Restore My Vintage Guitar Before Selling It?",
+    "description": "Get your vintage guitar assessed before paying for repairs or restoration. I'll explain repair costs, originality and when work may be necessary.",
+    "h1": "Should I Restore My Vintage Guitar Before Selling It?",
+    "prefix": "rbs",
+    "eyebrow": "Originality And Condition",
+    "primaryQuery": "should i restore my guitar before selling",
+    "secondaryQueries": [
+      "should i fix my guitar before selling it",
+      "should i clean my vintage guitar before selling",
+      "is it worth repairing an old guitar to sell"
+    ],
+    "published": "2026-10-26T12:00:00-07:00"
+  },
+  "inherited-a-guitar": {
+    "url": "/inherited-a-guitar/",
+    "title": "Inherited A Guitar? How To Identify, Value And Decide",
+    "description": "Inherited a guitar? I'll explain identification, estate appraisal questions and the choices families face, with time to decide whether to keep or sell.",
+    "h1": "Inherited A Guitar? What To Do Next",
+    "prefix": "inh",
+    "eyebrow": "A Guitar In The Family",
+    "primaryQuery": "inherited a guitar",
+    "secondaryQueries": [
+      "inherited guitar value",
+      "estate guitar appraisal",
+      "executor selling a guitar"
+    ],
+    "published": "2026-10-26T12:00:00-07:00"
+  },
+  "selling-a-loved-ones-guitar": {
+    "url": "/selling-a-loved-ones-guitar/",
+    "title": "Is It Wrong To Sell My Dad's Guitar? Keeping Or Letting Go",
+    "description": "It isn't wrong to sell a loved one's guitar or to keep it. Explore ways to preserve its story, involve your family and decide without pressure to sell.",
+    "h1": "Is It Wrong To Sell A Loved One's Guitar?",
+    "prefix": "slg",
+    "eyebrow": "A Guitar In The Family",
+    "primaryQuery": "is it wrong to sell my dad's guitar",
+    "secondaryQueries": [
+      "selling my late father's guitar",
+      "should i sell my grandfather's guitar",
+      "keep or sell inherited guitar"
+    ],
+    "published": "2026-10-26T12:00:00-07:00"
+  }
+}

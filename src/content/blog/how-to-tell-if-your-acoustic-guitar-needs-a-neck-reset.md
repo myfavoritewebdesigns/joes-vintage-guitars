@@ -8,7 +8,7 @@ categoryName: "Value & Evaluation"
 tags: []
 heroImage: "/images/blog/how-to-tell-if-your-acoustic-guitar-needs-a-neck-reset/neck-reset-straightedge-test-vintage-acoustic.jpg"
 heroImageAlt: "Joe Dampt holding a vintage mahogany flat-top guitar with a flat straightedge laid along the fretboard and pointed at the bridge, checking the neck angle."
-metaDescription: "A two minute straightedge test tells you whether your acoustic guitar needs a neck reset. What to look for, what causes it, what the repair costs, and how it affects a vintage guitar's value."
+metaDescription: "A two minute straightedge test tells you if your acoustic needs a neck reset. What causes it, what the repair costs, and how it affects value."
 ogImage: "/images/blog/how-to-tell-if-your-acoustic-guitar-needs-a-neck-reset/neck-reset-straightedge-test-vintage-acoustic.jpg"
 video:
   id: "5vG9ug5XhTI"
@@ -139,6 +139,8 @@ For what it's worth, on a guitar worth keeping this is money well spent. A reset
 
 <h2 id="value">What It Does To Value</h2>
 
+For the broader condition comparison, read about [other repairs and originality changes](/what-lowers-vintage-guitar-value/). If a sale is the goal, I also explain [whether to commission repairs before selling](/should-i-restore-my-guitar-before-selling/).
+
 Three different situations get confused with each other, so here's how each one actually lands.
 
 **A guitar that has already been reset properly.** Almost no penalty. On a sixty year old flat-top, a competent reset is expected maintenance, the same way you'd expect a refret. Collectors care about original finish, original parts, and original bracing. A reset touches none of those. This is not the same category as a refinish.
@@ -176,6 +178,8 @@ I'd point you somewhere else on this one. A dovetail reset means getting steam o
 Run the test, take a photo down the length of the straightedge so the bridge is in frame, and send it over. I look at vintage acoustics all day and I'll tell you what I see. That goes for a guitar you inherited and can't place, and for one you're weighing up before you buy it.
 
 If it's the value side you're after, our [free appraisal](/free-appraisal/) covers Martin, Gibson, Guild, and the rest, and [the seven factors that drive a vintage guitar's value](/post/is-your-vintage-guitar-valuable-7-factors-that-determine-its-value/) explains where a repair like this actually sits in the picture. Owners of smaller Martins can also use the [vintage Martin 0, 00, and 000 guide](/post/martin-0-00-000-history-authentication-value-guide/) to identify the model family and understand how a neck reset fits into the guitar's larger condition story. If you would rather sell than repair it, see how I buy vintage [Martin](/sell-my-martin-guitar/) and [Gibson](/sell-my-gibson-guitar/) acoustics.
+
+I also buy [Swedish-made Levin and Goya acoustic guitars](/sell-your-levin-or-goya-guitar/), including steel-string and nylon-string models. If yours has high action or past neck work, include that in your photos and description when asking about a sale.
 
 <script type="application/ld+json">
 {

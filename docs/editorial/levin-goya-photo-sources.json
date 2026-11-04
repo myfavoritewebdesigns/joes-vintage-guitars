@@ -1,0 +1,48 @@
+{
+  "retrievedAt": "2026-10-26",
+  "owner": "Joe's Vintage Guitars / joesvintageguitars, Mesa, Arizona",
+  "permission": "User requested use of photos from their Reverb listings.",
+  "assets": [
+    {
+      "filename": "levin-320-m2-front.jpg",
+      "listingUrl": "https://reverb.com/item/85671573-levin-320-m2-1960s-sunburst",
+      "imageUrl": "https://rvb-img.reverb.com/i/s--dmSXeYLo--/quality=medium-low,height=800,width=800,fit=contain/x02axtw8zmxlxevgm7vx.jpg",
+      "width": 800,
+      "height": 533,
+      "caption": "1960s Levin 320/M2 electric archtop from Joe's Reverb archive.",
+      "alt": "Sunburst Levin 320/M2 electric archtop with two pickups resting in its red-lined case",
+      "notes": "Visually inspected; Joe's watermark appears at lower left. Body detail rather than full guitar. Preserved local original from prior Reverb gallery work."
+    },
+    {
+      "filename": "goya-gg5-front.jpg",
+      "listingUrl": "https://reverb.com/item/85387625-made-in-sweden-goya-gg-5-12-string-acoustic-natural-levin",
+      "imageUrl": "https://rvb-img.reverb.com/i/s--y920Zqdo--/quality=medium-low,height=800,width=800,fit=contain/usrj78skxydjxw74h20h.jpg",
+      "width": 600,
+      "height": 800,
+      "caption": "Swedish-made Goya GG-5 12-string acoustic from Joe's Reverb archive.",
+      "alt": "Natural-finish Goya GG-5 12-string acoustic guitar body on a stand in Joe's shop",
+      "notes": "Visually inspected; body and fretboard shown, headstock outside frame. Twelve-string bridge and paired strings are visible. Listing reports Sweden."
+    },
+    {
+      "filename": "levin-113-front.jpg",
+      "listingUrl": "https://reverb.com/item/95723091-made-in-sweden-1965-levin-model-113-goya-g-30-nylon-string-classical-grand-concert-w-case",
+      "imageUrl": "https://rvb-img.reverb.com/i/s--B14_ZcT3--/quality=medium-low,height=800,width=800,fit=contain/8b0264cc-a6bd-45f6-8a3d-f36158f391dc.jpeg",
+      "width": 600,
+      "height": 800,
+      "caption": "1965 Levin Model 113 nylon-string guitar, listed by Joe as the Goya G-30 equivalent.",
+      "alt": "Natural-finish Levin Model 113 nylon-string guitar with a patterned rosette and tie-block bridge",
+      "notes": "Visually inspected; body close-up with finish checking. Listing identifies 1965, Model 113, Sweden and serial 446718. Avoid implying this photograph bears Goya branding: its interior label says Levin."
+    },
+    {
+      "filename": "levin-113-sweden-label.jpg",
+      "listingUrl": "https://reverb.com/item/95723091-made-in-sweden-1965-levin-model-113-goya-g-30-nylon-string-classical-grand-concert-w-case",
+      "imageUrl": "https://rvb-img.reverb.com/i/s--3uwNGqCk--/quality=medium-low,height=400,width=400,fit=cover,gravity=bottom/8c5c67a1-4ee5-461a-ae84-b30ce49a8327.jpeg",
+      "width": 400,
+      "height": 400,
+      "caption": "The interior label identifies AB Herman Carlson Levin, Göteborg, Model 113, made in Sweden.",
+      "alt": "Interior label reading AB Herman Carlson Levin, Göteborg, Model 113, made in Sweden",
+      "notes": "Visually inspected. Text is naturally dim at right; show near native size. This is listing photo 9."
+    }
+  ],
+  "editorial": "All three listings are marked sold. Describe these as previously handled guitars or archive examples, not current inventory. Prices are intentionally omitted. Extra numbered thumbnail files in this folder are selection intermediates; the named assets above are recommended."
+}

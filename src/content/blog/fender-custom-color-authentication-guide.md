@@ -1,5 +1,6 @@
 ---
 title: "How to Authenticate a Fender Custom Color Finish (1950s and 1960s)"
+seoTitle: "Authenticate A Fender Custom Color Finish (1950s And 1960s)"
 pubDate: "2026-07-08T12:00:00"
 modified: "2026-07-08T12:00:00"
 excerpt: "A real 1960s Fender custom color can be worth several times what the same guitar brings in sunburst, which is exactly why so many refinished guitars are wearing one today. This guide covers everything we check when a custom color Fender comes through the shop: the color charts, the undercoats (white, silver, gold, and Desert Sand), nail holes, paint stick shadows in the neck pocket, what belongs under the pickguard, matching headstocks, how each color ages, blacklight testing, the classic refinish tells, and the soldering iron mark that gives away a factory refinish."
@@ -357,6 +358,8 @@ How we run the test: dark room, lamp at an angle, and work the edges first. Refi
 Two honest limits. First, a fifty-year-old refinish is itself old lacquer now, and it can glow convincingly, which is why the process tells in the sections above matter as much as the lamp. Second, the reverse: a factory finish that got a small period touch-up at the dealer is still a 95% original guitar. The lamp gives you data, not a verdict. Weigh it with everything else.
 
 <h2 id="fcc-refin">Telltale Signs of a Refinish</h2>
+
+For a first look at an electric or acoustic guitar, use my [cross-brand guide to spotting a refinish](/how-to-tell-if-a-guitar-has-been-refinished/).
 
 Now the rogues' gallery. Most refinished "custom color" Fenders give themselves away with the same handful of mistakes, and every one below came through our shop.
 

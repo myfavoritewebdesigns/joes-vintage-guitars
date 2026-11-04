@@ -1,0 +1,268 @@
+{
+  "base": "http://127.0.0.1:4326",
+  "views": [
+    {
+      "slug": "selling-a-loved-ones-guitar",
+      "width": 1920,
+      "httpStatus": 200,
+      "documentWidth": 1920,
+      "images": [
+        {
+          "alt": "The original owner's grandson in Apache Junction, Arizona, holding the family's 1946 Martin D-28",
+          "loaded": true,
+          "width": 367
+        },
+        {
+          "alt": "The original owner's son holding the family's 1959 Gibson ES-355",
+          "loaded": true,
+          "width": 367
+        },
+        {
+          "alt": "Steve Minnich smiling while holding the worn 1955 Martin D-28 his father bought new",
+          "loaded": true,
+          "width": 367
+        },
+        {
+          "alt": "The original owner holding his 1965 Olympic White Fender Stratocaster with its factory tortoise pickguard",
+          "loaded": true,
+          "width": 367
+        }
+      ],
+      "h1": {
+        "x": 530,
+        "y": -545.5,
+        "width": 830,
+        "height": 127.65625,
+        "top": -545.5,
+        "right": 1360,
+        "bottom": -417.84375,
+        "left": 530
+      },
+      "toc": "fixed",
+      "firstSection": "stories",
+      "photoCount": 4,
+      "links": [
+        "/post/one-family-1946-martin-d-28/",
+        "/post/one-family-1959-gibson-es-355/",
+        "/post/one-owner-1955-martin-d28/",
+        "/post/one-owner-1965-fender-stratocaster/",
+        "/post/one-owner-1957-gibson-byrdland/",
+        "/category/museum-original-owners/"
+      ],
+      "captions": [
+        "The original owner's grandson with the family's 1946 Martin D-28 in Apache Junction, Arizona.",
+        "The Handoff The original owner's son with the guitar his family kept and played since 1959.",
+        "Steve Minnich with the 1955 Martin D-28 his father, Bill, bought new.",
+        "The original owner with his 1965 Fender Stratocaster"
+      ],
+      "robots": "noindex, follow",
+      "errors": [],
+      "a11y": [],
+      "cardKeyboardFocus": true
+    },
+    {
+      "slug": "selling-a-loved-ones-guitar",
+      "width": 1280,
+      "httpStatus": 200,
+      "documentWidth": 1280,
+      "images": [
+        {
+          "alt": "The original owner's grandson in Apache Junction, Arizona, holding the family's 1946 Martin D-28",
+          "loaded": true,
+          "width": 367
+        },
+        {
+          "alt": "The original owner's son holding the family's 1959 Gibson ES-355",
+          "loaded": true,
+          "width": 367
+        },
+        {
+          "alt": "Steve Minnich smiling while holding the worn 1955 Martin D-28 his father bought new",
+          "loaded": true,
+          "width": 367
+        },
+        {
+          "alt": "The original owner holding his 1965 Olympic White Fender Stratocaster with its factory tortoise pickguard",
+          "loaded": true,
+          "width": 367
+        }
+      ],
+      "h1": {
+        "x": 28,
+        "y": -476.5,
+        "width": 830,
+        "height": 58.359375,
+        "top": -476.5,
+        "right": 858,
+        "bottom": -418.140625,
+        "left": 28
+      },
+      "toc": "fixed",
+      "firstSection": "stories",
+      "photoCount": 4,
+      "links": [
+        "/post/one-family-1946-martin-d-28/",
+        "/post/one-family-1959-gibson-es-355/",
+        "/post/one-owner-1955-martin-d28/",
+        "/post/one-owner-1965-fender-stratocaster/",
+        "/post/one-owner-1957-gibson-byrdland/",
+        "/category/museum-original-owners/"
+      ],
+      "captions": [
+        "The original owner's grandson with the family's 1946 Martin D-28 in Apache Junction, Arizona.",
+        "The Handoff The original owner's son with the guitar his family kept and played since 1959.",
+        "Steve Minnich with the 1955 Martin D-28 his father, Bill, bought new.",
+        "The original owner with his 1965 Fender Stratocaster"
+      ],
+      "robots": "noindex, follow",
+      "errors": [],
+      "a11y": [],
+      "cardKeyboardFocus": true
+    },
+    {
+      "slug": "selling-a-loved-ones-guitar",
+      "width": 768,
+      "httpStatus": 200,
+      "documentWidth": 768,
+      "images": [
+        {
+          "alt": "The original owner's grandson in Apache Junction, Arizona, holding the family's 1946 Martin D-28",
+          "loaded": true,
+          "width": 293
+        },
+        {
+          "alt": "The original owner's son holding the family's 1959 Gibson ES-355",
+          "loaded": true,
+          "width": 293
+        },
+        {
+          "alt": "Steve Minnich smiling while holding the worn 1955 Martin D-28 his father bought new",
+          "loaded": true,
+          "width": 293
+        },
+        {
+          "alt": "The original owner holding his 1965 Olympic White Fender Stratocaster with its factory tortoise pickguard",
+          "loaded": true,
+          "width": 293
+        }
+      ],
+      "h1": {
+        "x": 28,
+        "y": -718.5,
+        "width": 712,
+        "height": 42.171875,
+        "top": -718.5,
+        "right": 740,
+        "bottom": -676.328125,
+        "left": 28
+      },
+      "toc": "static",
+      "firstSection": "stories",
+      "photoCount": 4,
+      "links": [
+        "/post/one-family-1946-martin-d-28/",
+        "/post/one-family-1959-gibson-es-355/",
+        "/post/one-owner-1955-martin-d28/",
+        "/post/one-owner-1965-fender-stratocaster/",
+        "/post/one-owner-1957-gibson-byrdland/",
+        "/category/museum-original-owners/"
+      ],
+      "captions": [
+        "The original owner's grandson with the family's 1946 Martin D-28 in Apache Junction, Arizona.",
+        "The Handoff The original owner's son with the guitar his family kept and played since 1959.",
+        "Steve Minnich with the 1955 Martin D-28 his father, Bill, bought new.",
+        "The original owner with his 1965 Fender Stratocaster"
+      ],
+      "robots": "noindex, follow",
+      "errors": [],
+      "a11y": [],
+      "cardKeyboardFocus": true
+    },
+    {
+      "slug": "selling-a-loved-ones-guitar",
+      "width": 390,
+      "httpStatus": 200,
+      "documentWidth": 390,
+      "images": [
+        {
+          "alt": "The original owner's grandson in Apache Junction, Arizona, holding the family's 1946 Martin D-28",
+          "loaded": true,
+          "width": 292
+        },
+        {
+          "alt": "The original owner's son holding the family's 1959 Gibson ES-355",
+          "loaded": true,
+          "width": 292
+        },
+        {
+          "alt": "Steve Minnich smiling while holding the worn 1955 Martin D-28 his father bought new",
+          "loaded": true,
+          "width": 292
+        },
+        {
+          "alt": "The original owner holding his 1965 Olympic White Fender Stratocaster with its factory tortoise pickguard",
+          "loaded": true,
+          "width": 292
+        }
+      ],
+      "h1": {
+        "x": 22,
+        "y": -1096.5,
+        "width": 346,
+        "height": 84.34375,
+        "top": -1096.5,
+        "right": 368,
+        "bottom": -1012.15625,
+        "left": 22
+      },
+      "toc": "static",
+      "firstSection": "stories",
+      "photoCount": 4,
+      "links": [
+        "/post/one-family-1946-martin-d-28/",
+        "/post/one-family-1959-gibson-es-355/",
+        "/post/one-owner-1955-martin-d28/",
+        "/post/one-owner-1965-fender-stratocaster/",
+        "/post/one-owner-1957-gibson-byrdland/",
+        "/category/museum-original-owners/"
+      ],
+      "captions": [
+        "The original owner's grandson with the family's 1946 Martin D-28 in Apache Junction, Arizona.",
+        "The Handoff The original owner's son with the guitar his family kept and played since 1959.",
+        "Steve Minnich with the 1955 Martin D-28 his father, Bill, bought new.",
+        "The original owner with his 1965 Fender Stratocaster"
+      ],
+      "robots": "noindex, follow",
+      "errors": [],
+      "a11y": [],
+      "cardKeyboardFocus": true
+    }
+  ],
+  "links": [
+    {
+      "href": "/post/one-family-1946-martin-d-28/",
+      "status": 200
+    },
+    {
+      "href": "/post/one-family-1959-gibson-es-355/",
+      "status": 200
+    },
+    {
+      "href": "/post/one-owner-1955-martin-d28/",
+      "status": 200
+    },
+    {
+      "href": "/post/one-owner-1965-fender-stratocaster/",
+      "status": 200
+    },
+    {
+      "href": "/post/one-owner-1957-gibson-byrdland/",
+      "status": 200
+    },
+    {
+      "href": "/category/museum-original-owners/",
+      "status": 200
+    }
+  ],
+  "passed": true
+}

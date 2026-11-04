@@ -1,0 +1,76 @@
+{
+  "rows": [
+    {
+      "kind": "value",
+      "tablesUnchanged": true,
+      "titleUnchanged": true,
+      "descriptionUnchanged": true,
+      "heroIs1961Broadway": true,
+      "ogImage": "https://www.joesvintageguitarsaz.com/_astro/broadway-1961-front.3wLJ40FJ.jpg",
+      "missingExistingArchiveImages": [],
+      "ownerCaption": "1966 Broadway. Original owner.",
+      "newArchivePhotos": 0
+    },
+    {
+      "kind": "authentication",
+      "tablesUnchanged": true,
+      "titleUnchanged": true,
+      "descriptionUnchanged": true,
+      "heroIs1961Broadway": true,
+      "ogImage": "https://www.joesvintageguitarsaz.com/_astro/broadway-1961-front.3wLJ40FJ.jpg",
+      "missingExistingArchiveImages": [],
+      "ownerCaption": "1966 Broadway. Original owner.",
+      "newArchivePhotos": 6
+    }
+  ],
+  "integrity": [
+    {
+      "asset": "src/assets/images/model-guides-2/broadway-1961-front.jpg",
+      "hashMatches": true,
+      "width": 4284,
+      "height": 5712,
+      "fullDimensions": true,
+      "hasExif": true
+    },
+    {
+      "asset": "src/assets/images/model-guides-2/broadway-1961-pickup.jpg",
+      "hashMatches": true,
+      "width": 4284,
+      "height": 5712,
+      "fullDimensions": true,
+      "hasExif": true
+    },
+    {
+      "asset": "src/assets/images/model-guides-2/broadway-1961-headstock.jpg",
+      "hashMatches": true,
+      "width": 4284,
+      "height": 5712,
+      "fullDimensions": true,
+      "hasExif": true
+    },
+    {
+      "asset": "src/assets/images/model-guides-2/broadway-1961-label.jpg",
+      "hashMatches": true,
+      "width": 4032,
+      "height": 3024,
+      "fullDimensions": true,
+      "hasExif": true
+    },
+    {
+      "asset": "src/assets/images/model-guides-2/broadway-1964-natural.jpg",
+      "hashMatches": true,
+      "width": 640,
+      "height": 480,
+      "fullDimensions": true,
+      "hasExif": true
+    },
+    {
+      "asset": "src/assets/images/model-guides-2/broadway-1966-owner.jpg",
+      "hashMatches": true,
+      "width": 3024,
+      "height": 4032,
+      "fullDimensions": true,
+      "hasExif": true
+    }
+  ]
+}

@@ -1,0 +1,834 @@
+[
+  {
+    "brand": "epiphone",
+    "width": 1280,
+    "scrollWidth": 1280,
+    "innerWidth": 1280,
+    "images": [],
+    "forms": [
+      {
+        "id": "",
+        "fields": [
+          {
+            "name": "name",
+            "type": "text",
+            "required": true
+          },
+          {
+            "name": "phone",
+            "type": "tel",
+            "required": true
+          },
+          {
+            "name": "email",
+            "type": "email",
+            "required": true
+          },
+          {
+            "name": "model",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "year",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "comments",
+            "type": "textarea",
+            "required": false
+          },
+          {
+            "name": "reply",
+            "type": "radio",
+            "required": false
+          },
+          {
+            "name": "reply",
+            "type": "radio",
+            "required": false
+          },
+          {
+            "name": "reply",
+            "type": "radio",
+            "required": false
+          }
+        ]
+      },
+      {
+        "id": "",
+        "fields": [
+          {
+            "name": "first-name",
+            "type": "text",
+            "required": true
+          },
+          {
+            "name": "last-name",
+            "type": "text",
+            "required": true
+          },
+          {
+            "name": "phone",
+            "type": "tel",
+            "required": true
+          },
+          {
+            "name": "email",
+            "type": "email",
+            "required": true
+          },
+          {
+            "name": "instrument",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "year",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "comments",
+            "type": "textarea",
+            "required": false
+          },
+          {
+            "name": "reply",
+            "type": "radio",
+            "required": false
+          },
+          {
+            "name": "reply",
+            "type": "radio",
+            "required": false
+          },
+          {
+            "name": "reply",
+            "type": "radio",
+            "required": false
+          }
+        ]
+      }
+    ],
+    "headings": [
+      {
+        "text": "Sell Your Vintage Epiphone Guitar",
+        "color": "rgb(62, 42, 20)"
+      },
+      {
+        "text": "Tell Me About Your Epiphone",
+        "color": "rgb(62, 42, 20)"
+      },
+      {
+        "text": "Epiphone Models I Buy",
+        "color": "rgb(62, 42, 20)"
+      },
+      {
+        "text": "Kalamazoo Hollow And Semi-Hollow Guitars",
+        "color": "rgb(62, 42, 20)"
+      },
+      {
+        "text": "Kalamazoo Solidbodies And Carved Archtops",
+        "color": "rgb(62, 42, 20)"
+      },
+      {
+        "text": "New York And Philadelphia Acoustic Archtops",
+        "color": "rgb(62, 42, 20)"
+      },
+      {
+        "text": "Early Epiphone Electric Archtops",
+        "color": "rgb(62, 42, 20)"
+      },
+      {
+        "text": "What Is My Epiphone Worth?",
+        "color": "rgb(62, 42, 20)"
+      },
+      {
+        "text": "Epiphone Appraisal Details",
+        "color": "rgb(62, 42, 20)"
+      },
+      {
+        "text": "Compare Your Guitar With Its Model Guide",
+        "color": "rgb(62, 42, 20)"
+      },
+      {
+        "text": "Photos To Send For An Epiphone Offer",
+        "color": "rgb(62, 42, 20)"
+      },
+      {
+        "text": "How To Sell Your Epiphone To Joe",
+        "color": "rgb(255, 248, 232)"
+      },
+      {
+        "text": "Send Me Photos",
+        "color": "rgb(255, 248, 232)"
+      },
+      {
+        "text": "I'll Appraise Your Epiphone",
+        "color": "rgb(255, 248, 232)"
+      },
+      {
+        "text": "I'll Make A Cash Offer",
+        "color": "rgb(255, 248, 232)"
+      },
+      {
+        "text": "Agree On Shipping And Payment",
+        "color": "rgb(255, 248, 232)"
+      },
+      {
+        "text": "Sell An Epiphone In Mesa Or From Another State",
+        "color": "rgb(255, 248, 232)"
+      },
+      {
+        "text": "Selling An Epiphone Guitar Collection",
+        "color": "rgb(255, 248, 232)"
+      },
+      {
+        "text": "Shipping Your Epiphone Through A FedEx Office Print & Ship Center",
+        "color": "rgb(62, 42, 20)"
+      },
+      {
+        "text": "How You'll Be Paid",
+        "color": "rgb(62, 42, 20)"
+      },
+      {
+        "text": "Meet Vintage Guitar Expert, Joe Dampt",
+        "color": "rgb(62, 42, 20)"
+      },
+      {
+        "text": "Questions About Selling An Epiphone",
+        "color": "rgb(62, 42, 20)"
+      }
+    ],
+    "cta": "#appraisal",
+    "contrastViolations": [],
+    "faqOpened": true,
+    "offerAnchor": {
+      "hash": "#appraisal",
+      "top": 607.1875
+    }
+  },
+  {
+    "brand": "rickenbacker",
+    "width": 1280,
+    "scrollWidth": 1280,
+    "innerWidth": 1280,
+    "images": [],
+    "forms": [
+      {
+        "id": "",
+        "fields": [
+          {
+            "name": "name",
+            "type": "text",
+            "required": true
+          },
+          {
+            "name": "phone",
+            "type": "tel",
+            "required": true
+          },
+          {
+            "name": "email",
+            "type": "email",
+            "required": true
+          },
+          {
+            "name": "model",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "year",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "comments",
+            "type": "textarea",
+            "required": false
+          },
+          {
+            "name": "reply",
+            "type": "radio",
+            "required": false
+          },
+          {
+            "name": "reply",
+            "type": "radio",
+            "required": false
+          },
+          {
+            "name": "reply",
+            "type": "radio",
+            "required": false
+          }
+        ]
+      },
+      {
+        "id": "",
+        "fields": [
+          {
+            "name": "first-name",
+            "type": "text",
+            "required": true
+          },
+          {
+            "name": "last-name",
+            "type": "text",
+            "required": true
+          },
+          {
+            "name": "phone",
+            "type": "tel",
+            "required": true
+          },
+          {
+            "name": "email",
+            "type": "email",
+            "required": true
+          },
+          {
+            "name": "instrument",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "year",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "comments",
+            "type": "textarea",
+            "required": false
+          },
+          {
+            "name": "reply",
+            "type": "radio",
+            "required": false
+          },
+          {
+            "name": "reply",
+            "type": "radio",
+            "required": false
+          },
+          {
+            "name": "reply",
+            "type": "radio",
+            "required": false
+          }
+        ]
+      }
+    ],
+    "headings": [
+      {
+        "text": "Sell Your Rickenbacker Guitar Or Bass",
+        "color": "rgb(62, 42, 20)"
+      },
+      {
+        "text": "Tell Me About Your Rickenbacker",
+        "color": "rgb(62, 42, 20)"
+      },
+      {
+        "text": "Rickenbacker Models I Buy",
+        "color": "rgb(62, 42, 20)"
+      },
+      {
+        "text": "330, 360 & 12-String Guitars",
+        "color": "rgb(62, 42, 20)"
+      },
+      {
+        "text": "325, 350, 620 & 660 Models",
+        "color": "rgb(62, 42, 20)"
+      },
+      {
+        "text": "4001 & 4003 Basses",
+        "color": "rgb(62, 42, 20)"
+      },
+      {
+        "text": "4005 Basses & Earlier Instruments",
+        "color": "rgb(62, 42, 20)"
+      },
+      {
+        "text": "What Is My Rickenbacker Worth?",
+        "color": "rgb(62, 42, 20)"
+      },
+      {
+        "text": "Rickenbacker Value Factors",
+        "color": "rgb(62, 42, 20)"
+      },
+      {
+        "text": "Asking Price, Sale Price And A Cash Offer",
+        "color": "rgb(62, 42, 20)"
+      },
+      {
+        "text": "Photos To Send For A Rickenbacker Offer",
+        "color": "rgb(62, 42, 20)"
+      },
+      {
+        "text": "How To Sell Your Rickenbacker To Joe",
+        "color": "rgb(255, 248, 232)"
+      },
+      {
+        "text": "Send Me Photos",
+        "color": "rgb(255, 248, 232)"
+      },
+      {
+        "text": "I'll Appraise Your Rickenbacker",
+        "color": "rgb(255, 248, 232)"
+      },
+      {
+        "text": "I'll Make A Cash Offer",
+        "color": "rgb(255, 248, 232)"
+      },
+      {
+        "text": "Agree On Shipping And Payment",
+        "color": "rgb(255, 248, 232)"
+      },
+      {
+        "text": "Nationwide Rickenbacker Bass Guitar Resale & Appraisals",
+        "color": "rgb(255, 248, 232)"
+      },
+      {
+        "text": "Sell Your Rickenbacker Guitar Collection Online",
+        "color": "rgb(255, 248, 232)"
+      },
+      {
+        "text": "How I Arrange FedEx Shipping For Your Rickenbacker",
+        "color": "rgb(62, 42, 20)"
+      },
+      {
+        "text": "How You'll Be Paid",
+        "color": "rgb(62, 42, 20)"
+      },
+      {
+        "text": "Meet Vintage Guitar Expert, Joe Dampt",
+        "color": "rgb(62, 42, 20)"
+      },
+      {
+        "text": "Questions About Selling A Rickenbacker",
+        "color": "rgb(62, 42, 20)"
+      }
+    ],
+    "cta": "#appraisal"
+  },
+  {
+    "brand": "epiphone",
+    "width": 375,
+    "scrollWidth": 375,
+    "innerWidth": 375,
+    "images": [],
+    "forms": [
+      {
+        "id": "",
+        "fields": [
+          {
+            "name": "name",
+            "type": "text",
+            "required": true
+          },
+          {
+            "name": "phone",
+            "type": "tel",
+            "required": true
+          },
+          {
+            "name": "email",
+            "type": "email",
+            "required": true
+          },
+          {
+            "name": "model",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "year",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "comments",
+            "type": "textarea",
+            "required": false
+          },
+          {
+            "name": "reply",
+            "type": "radio",
+            "required": false
+          },
+          {
+            "name": "reply",
+            "type": "radio",
+            "required": false
+          },
+          {
+            "name": "reply",
+            "type": "radio",
+            "required": false
+          }
+        ]
+      },
+      {
+        "id": "",
+        "fields": [
+          {
+            "name": "first-name",
+            "type": "text",
+            "required": true
+          },
+          {
+            "name": "last-name",
+            "type": "text",
+            "required": true
+          },
+          {
+            "name": "phone",
+            "type": "tel",
+            "required": true
+          },
+          {
+            "name": "email",
+            "type": "email",
+            "required": true
+          },
+          {
+            "name": "instrument",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "year",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "comments",
+            "type": "textarea",
+            "required": false
+          },
+          {
+            "name": "reply",
+            "type": "radio",
+            "required": false
+          },
+          {
+            "name": "reply",
+            "type": "radio",
+            "required": false
+          },
+          {
+            "name": "reply",
+            "type": "radio",
+            "required": false
+          }
+        ]
+      }
+    ],
+    "headings": [
+      {
+        "text": "Sell Your Vintage Epiphone Guitar",
+        "color": "rgb(62, 42, 20)"
+      },
+      {
+        "text": "Tell Me About Your Epiphone",
+        "color": "rgb(62, 42, 20)"
+      },
+      {
+        "text": "Epiphone Models I Buy",
+        "color": "rgb(62, 42, 20)"
+      },
+      {
+        "text": "Kalamazoo Hollow And Semi-Hollow Guitars",
+        "color": "rgb(62, 42, 20)"
+      },
+      {
+        "text": "Kalamazoo Solidbodies And Carved Archtops",
+        "color": "rgb(62, 42, 20)"
+      },
+      {
+        "text": "New York And Philadelphia Acoustic Archtops",
+        "color": "rgb(62, 42, 20)"
+      },
+      {
+        "text": "Early Epiphone Electric Archtops",
+        "color": "rgb(62, 42, 20)"
+      },
+      {
+        "text": "What Is My Epiphone Worth?",
+        "color": "rgb(62, 42, 20)"
+      },
+      {
+        "text": "Epiphone Appraisal Details",
+        "color": "rgb(62, 42, 20)"
+      },
+      {
+        "text": "Compare Your Guitar With Its Model Guide",
+        "color": "rgb(62, 42, 20)"
+      },
+      {
+        "text": "Photos To Send For An Epiphone Offer",
+        "color": "rgb(62, 42, 20)"
+      },
+      {
+        "text": "How To Sell Your Epiphone To Joe",
+        "color": "rgb(255, 248, 232)"
+      },
+      {
+        "text": "Send Me Photos",
+        "color": "rgb(255, 248, 232)"
+      },
+      {
+        "text": "I'll Appraise Your Epiphone",
+        "color": "rgb(255, 248, 232)"
+      },
+      {
+        "text": "I'll Make A Cash Offer",
+        "color": "rgb(255, 248, 232)"
+      },
+      {
+        "text": "Agree On Shipping And Payment",
+        "color": "rgb(255, 248, 232)"
+      },
+      {
+        "text": "Sell An Epiphone In Mesa Or From Another State",
+        "color": "rgb(255, 248, 232)"
+      },
+      {
+        "text": "Selling An Epiphone Guitar Collection",
+        "color": "rgb(255, 248, 232)"
+      },
+      {
+        "text": "Shipping Your Epiphone Through A FedEx Office Print & Ship Center",
+        "color": "rgb(62, 42, 20)"
+      },
+      {
+        "text": "How You'll Be Paid",
+        "color": "rgb(62, 42, 20)"
+      },
+      {
+        "text": "Meet Vintage Guitar Expert, Joe Dampt",
+        "color": "rgb(62, 42, 20)"
+      },
+      {
+        "text": "Questions About Selling An Epiphone",
+        "color": "rgb(62, 42, 20)"
+      }
+    ],
+    "cta": "#appraisal",
+    "contrastViolations": [],
+    "faqOpened": true,
+    "offerAnchor": {
+      "hash": "#appraisal",
+      "top": 932.03125
+    }
+  },
+  {
+    "brand": "rickenbacker",
+    "width": 375,
+    "scrollWidth": 375,
+    "innerWidth": 375,
+    "images": [],
+    "forms": [
+      {
+        "id": "",
+        "fields": [
+          {
+            "name": "name",
+            "type": "text",
+            "required": true
+          },
+          {
+            "name": "phone",
+            "type": "tel",
+            "required": true
+          },
+          {
+            "name": "email",
+            "type": "email",
+            "required": true
+          },
+          {
+            "name": "model",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "year",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "comments",
+            "type": "textarea",
+            "required": false
+          },
+          {
+            "name": "reply",
+            "type": "radio",
+            "required": false
+          },
+          {
+            "name": "reply",
+            "type": "radio",
+            "required": false
+          },
+          {
+            "name": "reply",
+            "type": "radio",
+            "required": false
+          }
+        ]
+      },
+      {
+        "id": "",
+        "fields": [
+          {
+            "name": "first-name",
+            "type": "text",
+            "required": true
+          },
+          {
+            "name": "last-name",
+            "type": "text",
+            "required": true
+          },
+          {
+            "name": "phone",
+            "type": "tel",
+            "required": true
+          },
+          {
+            "name": "email",
+            "type": "email",
+            "required": true
+          },
+          {
+            "name": "instrument",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "year",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "comments",
+            "type": "textarea",
+            "required": false
+          },
+          {
+            "name": "reply",
+            "type": "radio",
+            "required": false
+          },
+          {
+            "name": "reply",
+            "type": "radio",
+            "required": false
+          },
+          {
+            "name": "reply",
+            "type": "radio",
+            "required": false
+          }
+        ]
+      }
+    ],
+    "headings": [
+      {
+        "text": "Sell Your Rickenbacker Guitar Or Bass",
+        "color": "rgb(62, 42, 20)"
+      },
+      {
+        "text": "Tell Me About Your Rickenbacker",
+        "color": "rgb(62, 42, 20)"
+      },
+      {
+        "text": "Rickenbacker Models I Buy",
+        "color": "rgb(62, 42, 20)"
+      },
+      {
+        "text": "330, 360 & 12-String Guitars",
+        "color": "rgb(62, 42, 20)"
+      },
+      {
+        "text": "325, 350, 620 & 660 Models",
+        "color": "rgb(62, 42, 20)"
+      },
+      {
+        "text": "4001 & 4003 Basses",
+        "color": "rgb(62, 42, 20)"
+      },
+      {
+        "text": "4005 Basses & Earlier Instruments",
+        "color": "rgb(62, 42, 20)"
+      },
+      {
+        "text": "What Is My Rickenbacker Worth?",
+        "color": "rgb(62, 42, 20)"
+      },
+      {
+        "text": "Rickenbacker Value Factors",
+        "color": "rgb(62, 42, 20)"
+      },
+      {
+        "text": "Asking Price, Sale Price And A Cash Offer",
+        "color": "rgb(62, 42, 20)"
+      },
+      {
+        "text": "Photos To Send For A Rickenbacker Offer",
+        "color": "rgb(62, 42, 20)"
+      },
+      {
+        "text": "How To Sell Your Rickenbacker To Joe",
+        "color": "rgb(255, 248, 232)"
+      },
+      {
+        "text": "Send Me Photos",
+        "color": "rgb(255, 248, 232)"
+      },
+      {
+        "text": "I'll Appraise Your Rickenbacker",
+        "color": "rgb(255, 248, 232)"
+      },
+      {
+        "text": "I'll Make A Cash Offer",
+        "color": "rgb(255, 248, 232)"
+      },
+      {
+        "text": "Agree On Shipping And Payment",
+        "color": "rgb(255, 248, 232)"
+      },
+      {
+        "text": "Nationwide Rickenbacker Bass Guitar Resale & Appraisals",
+        "color": "rgb(255, 248, 232)"
+      },
+      {
+        "text": "Sell Your Rickenbacker Guitar Collection Online",
+        "color": "rgb(255, 248, 232)"
+      },
+      {
+        "text": "How I Arrange FedEx Shipping For Your Rickenbacker",
+        "color": "rgb(62, 42, 20)"
+      },
+      {
+        "text": "How You'll Be Paid",
+        "color": "rgb(62, 42, 20)"
+      },
+      {
+        "text": "Meet Vintage Guitar Expert, Joe Dampt",
+        "color": "rgb(62, 42, 20)"
+      },
+      {
+        "text": "Questions About Selling A Rickenbacker",
+        "color": "rgb(62, 42, 20)"
+      }
+    ],
+    "cta": "#appraisal"
+  }
+]

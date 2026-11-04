@@ -8,7 +8,7 @@ categoryName: "Museum & Original Owners"
 tags: []
 heroImage: "/images/blog/one-owner-1957-gibson-byrdland/don-majure-with-1957-gibson-byrdland.jpg"
 heroImageAlt: "Don Majure as a teenager in 1957, holding the Gibson Byrdland he bought new with paper-route money"
-metaDescription: "A one-owner 1957 Gibson Byrdland bought new by a 16-year-old with paper-route money. The guitar, the history of the year, and the owner's story, from Joe's Vintage Guitars."
+metaDescription: "A one-owner 1957 Gibson Byrdland, bought new by a 16-year-old with paper-route money. The guitar, the year it came from, and the owner's story."
 ogImage: "/images/blog/one-owner-1957-gibson-byrdland/don-majure-with-1957-gibson-byrdland.jpg"
 ---
 We get a lot of guitars through the shop. Every now and then one arrives carrying something that money cannot add later: a story that never left the family. This 1957 Gibson Byrdland is one of those.
@@ -149,6 +149,8 @@ The gold plating has worn through in the spots a right hand and a set of fingers
 If you want to read these numbers yourself, our [Gibson serial number guide](/how-to-read-gibson-serial-numbers/) explains the A-series orange labels and how to date one.
 
 ## Why the Story Is the Point
+
+If a family instrument has left you with a decision of your own, I discuss [keeping or selling a loved one's guitar](/selling-a-loved-ones-guitar/).
 
 We handle a lot of vintage guitars, and after a while the spec sheets start to blur together. What never gets old is a guitar that still has its life attached to it.
 

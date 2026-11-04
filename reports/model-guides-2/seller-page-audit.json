@@ -1,0 +1,113 @@
+{
+  "title": "Sell My Vintage Epiphone Guitar | Joe's Vintage Guitars",
+  "titleLength": 55,
+  "description": "Sell your vintage Epiphone guitar to Joe. Send photos for a free appraisal and cash offer, with prepaid insured shipping. Based in Mesa, buying nationwide.",
+  "descriptionLength": 155,
+  "duplicateTitle": [],
+  "duplicateDescription": [],
+  "inbound": [
+    "sell-a-guitar-collection/index.html",
+    "sell-my-gibson-guitar/index.html",
+    "sitemap/index.html",
+    "what-brand-is-my-guitar/index.html",
+    "post/epiphone-broadway-authentication-guide/index.html",
+    "post/epiphone-broadway-value-guide/index.html",
+    "post/epiphone-casino-authentication-guide/index.html",
+    "post/epiphone-casino-value-guide/index.html",
+    "post/epiphone-deluxe-authentication-guide/index.html",
+    "post/epiphone-deluxe-value-guide/index.html",
+    "post/epiphone-emperor-authentication-guide/index.html",
+    "post/epiphone-emperor-value-guide/index.html",
+    "post/epiphone-olympic-authentication-guide/index.html",
+    "post/epiphone-olympic-value-guide/index.html",
+    "post/epiphone-sheraton-history-value/index.html",
+    "post/epiphone-sorrento-authentication-guide/index.html",
+    "post/epiphone-sorrento-value-guide/index.html",
+    "post/epiphone-triumph-authentication-guide/index.html",
+    "post/epiphone-triumph-value-guide/index.html",
+    "post/epiphone-windsor-authentication-guide/index.html",
+    "post/epiphone-windsor-value-guide/index.html",
+    "post/epiphone-zephyr-authentication-guide/index.html",
+    "post/epiphone-zephyr-value-guide/index.html",
+    "post/vintage-epiphone-crestwood-value-history-guide/index.html"
+  ],
+  "guideLinks": [
+    {
+      "slug": "epiphone-broadway-value-guide",
+      "exists": true
+    },
+    {
+      "slug": "epiphone-broadway-authentication-guide",
+      "exists": true
+    },
+    {
+      "slug": "epiphone-casino-value-guide",
+      "exists": true
+    },
+    {
+      "slug": "epiphone-casino-authentication-guide",
+      "exists": true
+    },
+    {
+      "slug": "epiphone-deluxe-value-guide",
+      "exists": true
+    },
+    {
+      "slug": "epiphone-deluxe-authentication-guide",
+      "exists": true
+    },
+    {
+      "slug": "epiphone-emperor-value-guide",
+      "exists": true
+    },
+    {
+      "slug": "epiphone-emperor-authentication-guide",
+      "exists": true
+    },
+    {
+      "slug": "epiphone-olympic-value-guide",
+      "exists": true
+    },
+    {
+      "slug": "epiphone-olympic-authentication-guide",
+      "exists": true
+    },
+    {
+      "slug": "epiphone-sorrento-value-guide",
+      "exists": true
+    },
+    {
+      "slug": "epiphone-sorrento-authentication-guide",
+      "exists": true
+    },
+    {
+      "slug": "epiphone-triumph-value-guide",
+      "exists": true
+    },
+    {
+      "slug": "epiphone-triumph-authentication-guide",
+      "exists": true
+    },
+    {
+      "slug": "epiphone-windsor-value-guide",
+      "exists": true
+    },
+    {
+      "slug": "epiphone-windsor-authentication-guide",
+      "exists": true
+    },
+    {
+      "slug": "epiphone-zephyr-value-guide",
+      "exists": true
+    },
+    {
+      "slug": "epiphone-zephyr-authentication-guide",
+      "exists": true
+    }
+  ],
+  "forms": 2,
+  "heroOffer": "#appraisal",
+  "heroOfferTarget": 1,
+  "importBuyingPolicy": "Intentionally unspecified pending Joe’s answer",
+  "dollarFigures": []
+}

@@ -1,0 +1,23 @@
+[
+  {
+    "file": "src/data/model-guides/gretsch-values.json",
+    "rows": 38,
+    "beforeSha256": "a56802fa88178966e0f4a23b1f9a349a2194da4d1655abe2f49589285fb37e3d",
+    "afterSha256": "a56802fa88178966e0f4a23b1f9a349a2194da4d1655abe2f49589285fb37e3d",
+    "identical": true
+  },
+  {
+    "file": "src/data/model-guides/guild-values.json",
+    "rows": 27,
+    "beforeSha256": "00862949fe70a37352394143dfa375cd6e2fbdbd80a25e2c23d513aebd6754a3",
+    "afterSha256": "00862949fe70a37352394143dfa375cd6e2fbdbd80a25e2c23d513aebd6754a3",
+    "identical": true
+  },
+  {
+    "file": "src/data/model-guides/national-values.json",
+    "rows": 29,
+    "beforeSha256": "0ce7376cef5b0a159434716180576df07ac2473badde0b9867f215972234663b",
+    "afterSha256": "0ce7376cef5b0a159434716180576df07ac2473badde0b9867f215972234663b",
+    "identical": true
+  }
+]

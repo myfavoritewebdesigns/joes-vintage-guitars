@@ -12,7 +12,7 @@ heroImageAlt: "A 1963 Gibson ES-345TD in sunburst standing in its case at Joe's 
 metaDescription: "Vintage Gibson ES-345 values by year from 1959 to 1979, with price ranges, stereo wiring, original parts, repairs and photographs from my guitar shop."
 ogImage: "/images/blog/gibson-es-345-history-value/1963-gibson-es-345-stereo-full-front.jpg"
 ---
-The asking range for an all-original, excellent 1959 sunburst Gibson ES-345 is $20,000 to $41,000+. Original-finish 1970s stereo examples have a guide range of $4,000 to $5,500 under the condition assumptions below. I check the pickups, finish, stereo circuit and repairs before choosing the range that fits.
+The asking range for an all-original, excellent 1959 sunburst Gibson ES-345 is $24,050 to $30,050+. Original-finish 1970s stereo examples have a guide range of $2,800 to $4,950 under the condition assumptions below. I check the pickups, finish, stereo circuit and repairs before choosing the range that fits.
 
 <h2 id="value">Vintage Gibson ES-345 Values By Year</h2>
 
@@ -20,35 +20,35 @@ As of October 2026, the 1959 to 1969 rows show asking ranges for all-original, e
 
 | Year | Configuration | Range |
 | --- | --- | --- |
-| 1959 | Sunburst, PAF | $20,000 to $41,000+ |
-| 1959 | Natural Finish | $41,000 to $68,000+ |
-| 1960 | PAF, Stop Bar, Wide Nut | $17,000 to $29,000 |
-| 1961 | PAF, Stop Bar, Wide Nut | $17,000 to $29,000 |
+| 1959 | Sunburst, PAF | $24,050 to $30,050+ |
+| 1959 | Natural Finish | $58,500 to $78,750+ |
+| 1960 | PAF, Stop Bar, Wide Nut | $22,950 to $30,600 |
+| 1961 | PAF, Stop Bar, Wide Nut | $15,250 to $19,600 |
 | 1962 | Stop Bar, Wide Nut | $11,000 to $20,000 |
-| 1963 | Stop Bar, Wide Nut | $11,000 to $20,000 |
-| 1964 | Stop Bar, Wide Nut | $11,000 to $20,000 |
-| 1965 | Transition Specifications | $7,500 to $20,000 |
-| 1966 | Later 1960s Trapeze Or Factory Vibrato | $6,500 to $11,000 |
-| 1967 | Later 1960s Trapeze Or Factory Vibrato | $6,500 to $11,000 |
-| 1968 | Later 1960s Trapeze Or Factory Vibrato | $6,500 to $11,000 |
-| 1969 | Later 1960s Trapeze Or Factory Vibrato | $6,500 to $11,000 |
-| 1970 | Stereo Varitone, Cherry Or Wine Red | $4,000 to $5,500 |
-| 1971 | Stereo Varitone, Cherry Or Wine Red | $4,000 to $5,500 |
-| 1972 | Stereo Varitone, Cherry Or Wine Red | $4,000 to $5,500 |
-| 1973 | Stereo Varitone, Cherry Or Wine Red | $4,000 to $5,500 |
-| 1974 | Stereo Varitone, Cherry Or Wine Red | $4,000 to $5,500 |
-| 1975 | Stereo Varitone, Cherry Or Wine Red | $4,000 to $5,500 |
-| 1976 | Stereo Varitone, Cherry Or Wine Red | $4,000 to $5,500 |
-| 1977 | Stereo Varitone, Cherry Or Wine Red | $4,000 to $5,500 |
-| 1978 | Stereo Varitone, Cherry Or Wine Red | $4,000 to $5,500 |
-| 1979 | Stereo Varitone, Cherry Or Wine Red | $4,000 to $5,500 |
+| 1963 | Stop Bar, Wide Nut | $11,250 to $15,750 |
+| 1964 | Stop Bar, Wide Nut | $10,900 to $15,250 |
+| 1965 | Transition Specifications | $5,300 to $6,850 |
+| 1966 | Later 1960s Trapeze Or Factory Vibrato | $4,000 to $5,300 |
+| 1967 | Later 1960s Trapeze Or Factory Vibrato | $3,950 to $5,250 |
+| 1968 | Later 1960s Trapeze Or Factory Vibrato | $4,050 to $5,400 |
+| 1969 | Later 1960s Trapeze Or Factory Vibrato | $4,050 to $5,350 |
+| 1970 | Stereo Varitone, Cherry Or Wine Red | $3,050 to $4,800 |
+| 1971 | Stereo Varitone, Cherry Or Wine Red | $3,150 to $4,950 |
+| 1972 | Stereo Varitone, Cherry Or Wine Red | $3,150 to $4,900 |
+| 1973 | Stereo Varitone, Cherry Or Wine Red | $3,100 to $4,850 |
+| 1974 | Stereo Varitone, Cherry Or Wine Red | $3,050 to $4,800 |
+| 1975 | Stereo Varitone, Cherry Or Wine Red | $3,150 to $4,950 |
+| 1976 | Stereo Varitone, Cherry Or Wine Red | $3,150 to $4,900 |
+| 1977 | Stereo Varitone, Cherry Or Wine Red | $2,850 to $4,400 |
+| 1978 | Stereo Varitone, Cherry Or Wine Red | $2,800 to $4,350 |
+| 1979 | Stereo Varitone, Cherry Or Wine Red | $2,900 to $4,500 |
 
 
 Adjacent years can share an era range. A calendar year alone doesn't establish original PAF pickups, a factory tailpiece or a wide nut. The 1965 asking range is broad because those combinations cross the transition year.
 
 The 1970s comparison assumes original finish and pickups with functioning stereo Varitone electronics, in Very Good to Excellent condition. Replacement tuners, strap pins or a truss rod cover can be present, as can a quality refret; the original case isn't universal. It covers cherry and Wine Red examples with no disclosed structural break. It isn't an untouched collector band or a separate finish premium.
 
-The 1969 range is $6,500 to $11,000 for original later-1960s configurations. The 1970 to 1972 cherry and wine-red range is $4,000 to $5,500. A natural 1959 or an exceptional original custom color needs an individual appraisal.
+The 1969 range is $3,950 to $5,400 for original later-1960s configurations. The 1970 to 1972 cherry and wine-red range is $2,800 to $4,950. A natural 1959 or an exceptional original custom color needs an individual appraisal.
 
 ### Deductions From The All-Original Figure
 
@@ -409,7 +409,7 @@ Yes. An original stereo Varitone circuit is part of what makes a vintage 345 col
 
 **How much is a vintage Gibson ES-345 worth?**
 
-As of October 2026, the asking range for an all-original, excellent 1959 sunburst ES-345 is $20,000 to $41,000+. A separate guide range for 1970s stereo guitars is $4,000 to $5,500, allowing the disclosed minor changes and case differences described in the annual table. Asking prices and realized prices aren't interchangeable, and a repair or missing original pickup changes the comparison.
+As of October 2026, the asking range for an all-original, excellent 1959 sunburst ES-345 is $24,050 to $30,050+. A separate guide range for 1970s stereo guitars is $2,800 to $4,950, allowing the disclosed minor changes and case differences described in the annual table. Asking prices and realized prices aren't interchangeable, and a repair or missing original pickup changes the comparison.
 
 <script type="application/ld+json">
 {
@@ -461,7 +461,7 @@ As of October 2026, the asking range for an all-original, excellent 1959 sunburs
       "name": "How much is a vintage Gibson ES-345 worth?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "As of October 2026, the asking range for an all-original, excellent 1959 sunburst ES-345 is $20,000 to $41,000+. A separate guide range for 1970s stereo guitars is $4,000 to $5,500, allowing the disclosed minor changes and case differences described in the annual table. Asking prices and realized prices aren’t interchangeable, and a repair or missing original pickup changes the comparison."
+        "text": "As of October 2026, the asking range for an all-original, excellent 1959 sunburst ES-345 is $24,050 to $30,050+. A separate guide range for 1970s stereo guitars is $2,800 to $4,950, allowing the disclosed minor changes and case differences described in the annual table. Asking prices and realized prices aren’t interchangeable, and a repair or missing original pickup changes the comparison."
       }
     }
   ]

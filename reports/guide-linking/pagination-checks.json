@@ -1,0 +1,32 @@
+{
+  "base": "http://127.0.0.1:4326",
+  "passed": true,
+  "results": [
+    {
+      "width": 320,
+      "before": {
+        "count": 14,
+        "width": 320,
+        "bounds": true
+      },
+      "after": {
+        "current": "2",
+        "width": 320,
+        "previous": "/blog/"
+      }
+    },
+    {
+      "width": 390,
+      "before": {
+        "count": 14,
+        "width": 390,
+        "bounds": true
+      },
+      "after": {
+        "current": "2",
+        "width": 390,
+        "previous": "/blog/"
+      }
+    }
+  ]
+}

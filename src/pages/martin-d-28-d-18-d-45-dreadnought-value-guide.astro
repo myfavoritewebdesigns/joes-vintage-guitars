@@ -1,5 +1,6 @@
 ---
 import Layout from "../layouts/Layout.astro";
+import MartinModelLinks from "../components/MartinModelLinks.astro";
 import PageHero from "../components/primitives/PageHero.astro";
 import Button from "../components/primitives/Button.astro";
 import LicensedImage from "../components/primitives/LicensedImage.astro";
@@ -84,16 +85,16 @@ const drivers = [
 ];
 
 const prices = [
-  { m: "D-45 (pre-war, 1936 to 1942)", v: "$450,000 to $675,000" },
-  { m: "D-45 (1968 to 1969)", v: "$35,000 to $55,000" },
+  { m: "D-45 (pre-war, 1936 to 1942)", v: "$396,000 to $594,000" },
+  { m: "D-45 (1968 to 1969)", v: "$43,500 to $60,900" },
   { m: "D-28 (pre-war, 1931 to 1944)", v: "$80,000 to $300,000" },
   { m: "D-28 (1944 to 1949)", v: "$19,000 to $80,000" },
-  { m: "D-28 (1950 to 1959)", v: "$12,000 to $19,000" },
+  { m: "D-28 (1950 to 1959)", v: "$12,450 to $17,800" },
   { m: "D-28 (1960 to 1969)", v: "$6,000 to $11,500" },
-  { m: "D-18 (pre-war, 1931 to 1944)", v: "$25,000 to $110,000" },
-  { m: "D-18 (1944 to 1949)", v: "$12,000 to $45,000" },
+  { m: "D-18 (pre-war, 1931 to 1944)", v: "$25,500 to $93,500" },
+  { m: "D-18 (1944 to 1949)", v: "$9,600 to $32,650" },
   { m: "D-18 (1950 to 1959)", v: "$7,000 to $11,000" },
-  { m: "D-18 (1960 to 1969)", v: "$3,000 to $6,000" },
+  { m: "D-18 (1960 to 1969)", v: "$3,450 to $7,300" },
 ];
 
 const milestones = [
@@ -223,12 +224,14 @@ structuredData.push({
               <LicensedImage src={model.image} alt={model.alt} width={760} loading="lazy" decoding="async" sizes="(max-width: 720px) 100vw, 33vw" />
               <figcaption>{model.caption}</figcaption>
             </figure>
-            <div class="vg-model-card__body"><h3>{model.name}</h3><p>{model.copy} {model.guide && <a href={model.guide.href}>{model.guide.label}</a>}</p></div>
+            <div class="vg-model-card__body"><h3>{model.name}</h3><p>{model.copy} {model.guide && <a href={model.guide.href}>{model.guide.label}</a>}</p>{model.name === "Martin D-28" && <MartinModelLinks keys={["d-28"]} label="Follow the construction changes in the" />}{model.name === "Martin D-45" && <MartinModelLinks keys={["d-45"]} label="Follow the production changes in the" />}</div>
           </article>
         ))}
       </div>
     </div>
   </section>
+
+  <div class="vg-inner"><MartinModelLinks keys={["d-21", "d-35", "12-string", "d18e-d28e"]} label="Other Martin dreadnoughts have their own specifications and production histories:" /></div>
 
   <section class="vg-section" id="price-table">
     <div class="vg-inner">
@@ -363,7 +366,7 @@ structuredData.push({
       <h2 class="vg-head">Selling Your Vintage Martin</h2>
       <div class="vg-rule" aria-hidden="true"></div>
       <div class="vg-grid vg-grid--three">
-        <article class="vg-card"><h3>Consign It</h3><p>I handle the photography, listing, authentication, buyer questions and insured transaction. <a href="/consignment/">Consignment</a> runs from as low as 8% on top-tier instruments.</p></article>
+        <article class="vg-card"><h3>Consign It</h3><p>I handle the photography, listing, authentication, buyer questions and insured transaction. <a href="/consignment/">Consignment</a> has a 10% commission for instruments selling for $100,000 or more.</p></article>
         <article class="vg-card"><h3>Sell It Outright</h3><p>Get a straightforward cash offer and payment up front, with me handling the rest. <a href="/sell-my-martin-guitar/">Sell your Martin to me</a> directly.</p></article>
         <article class="vg-card"><h3>Sell It Privately</h3><p>Price it from comparable guitars with the same year, originality and repairs. Disclose every issue and use a written agreement plus trackable, insured shipping.</p></article>
       </div>

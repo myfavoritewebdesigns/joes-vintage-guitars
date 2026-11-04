@@ -1,0 +1,205 @@
+{
+  "comparisons": [
+    {
+      "id": "competition-mustang",
+      "url": "https://www.joesvintageguitarsaz.com/post/fender-mustang-history-value/",
+      "retrieved": "2026-10-30",
+      "rowText": "1969 $2,150 to $2,750 $3,500 to $4,600",
+      "label": "1969 Competition Mustang Asking Range",
+      "low": 3500,
+      "high": 4600,
+      "auctionPrice": 6907000,
+      "multiple": 1501,
+      "math": "floor(6907000 / 4600) = 1501",
+      "caveat": "Joe's figure is a Competition asking range, not a completed sale. The auction guitar is left handed and artist modified; the benchmark is an original production example.",
+      "photoCaption": "A 1971 Competition Blue Mustang, a later year than the comparison from Joe's archive. Not the auction guitar."
+    },
+    {
+      "id": "fool",
+      "url": "https://www.joesvintageguitarsaz.com/vintage-gibson-sg-standard-value-guide/",
+      "retrieved": "2026-10-30",
+      "rowText": "1964 $13,000 to $23,000 Small guard; long lyre Vibrola becomes familiar. 1,375",
+      "label": "1964 SG Standard, Original Finish",
+      "low": 13000,
+      "high": 23000,
+      "auctionPrice": 3003000,
+      "multiple": 130,
+      "math": "floor(3003000 / 23000) = 130",
+      "caveat": "The benchmark is an unpainted, original-finish SG. The Fool's artist-painted finish belongs to its celebrity history; it does not establish a premium for painting another SG.",
+      "photoCaption": "An early 1960s Gibson SG Standard from Joe's archive. Not one of the auction guitars."
+    },
+    {
+      "id": "gilmour-d35",
+      "url": "https://www.joesvintageguitarsaz.com/post/martin-d-35-value-guide/",
+      "retrieved": "2026-10-30",
+      "rowText": "1966 To 1969 D-35, Brazilian$8,000 to $10,700",
+      "label": "1966 To 1969 Brazilian D-35",
+      "low": 8000,
+      "high": 10700,
+      "auctionPrice": 2393000,
+      "multiple": 223,
+      "math": "floor(2393000 / 10700) = 223",
+      "caveat": "The auction catalog dates this guitar to 1969. The benchmark covers the Brazilian rosewood production era; it does not price the D-35S.",
+      "photoCaption": "A 1967 Martin D-35, within the comparison era from Joe's archive. Not the auction guitar."
+    },
+    {
+      "id": "harrison-sg",
+      "url": "https://www.joesvintageguitarsaz.com/vintage-gibson-sg-standard-value-guide/",
+      "retrieved": "2026-10-30",
+      "rowText": "1964 $13,000 to $23,000 Small guard; long lyre Vibrola becomes familiar. 1,375",
+      "label": "1964 SG Standard, Original Finish",
+      "low": 13000,
+      "high": 23000,
+      "auctionPrice": 2271000,
+      "multiple": 98,
+      "math": "floor(2271000 / 23000) = 98",
+      "caveat": "Compare the same model and year in excellent original condition. The archive photograph illustrates an early SG Standard, without claiming the exact auction year.",
+      "photoCaption": "An early 1960s Gibson SG Standard from Joe's archive. Not one of the auction guitars."
+    },
+    {
+      "id": "strat-0001",
+      "url": "https://www.joesvintageguitarsaz.com/vintage-fender-stratocaster-value-guide/1954/",
+      "retrieved": "2026-10-30",
+      "rowText": "Early spring 1954$88,000 to $184,800Tremolo-cover serials, earliest plastics, strong provenance, and exceptional originality can place a guitar in this upper first-year market.",
+      "label": "Early Spring 1954 Stratocaster Benchmark",
+      "low": 88000,
+      "high": 184800,
+      "auctionPrice": 1815000,
+      "multiple": 9,
+      "math": "floor(1815000 / 184800) = 9",
+      "caveat": "We use Joe's early spring row because early production is part of this comparison. The white auction guitar is cataloged as circa 1954 and later. Its #0001 serial and configuration require individual appraisal; this sunburst benchmark is not an exact finish match or proof it was the first Strat made.",
+      "photoCaption": "The 1955 sunburst Stratocaster identified in Joe’s year guide, a neighboring-year example from Joe's archive. Not the auction guitar."
+    },
+    {
+      "id": "lennon-rickenbacker",
+      "url": "https://www.joesvintageguitarsaz.com/post/rickenbacker-325-value-guide/",
+      "retrieved": "2026-10-30",
+      "rowText": "Rickenbacker 325SF-hole export configuration1964 to 1967F-hole export configuration$7,050 to $10,550",
+      "label": "1964 To 1967 Rickenbacker 325S Export",
+      "low": 7050,
+      "high": 10550,
+      "auctionPrice": 1270000,
+      "multiple": 120,
+      "math": "floor(1270000 / 10550) = 120",
+      "caveat": "Joe's guide identifies the Model 1996 as the export version and supplies an F-hole export row. The later archive photo does not illustrate the auction guitar's F-hole configuration.",
+      "photoCaption": "A 1997 Rickenbacker 325, a later-production illustration, not a Model 1996 from Joe's archive. Not the auction guitar."
+    },
+    {
+      "id": "gallagher-strat",
+      "url": "https://www.joesvintageguitarsaz.com/vintage-fender-stratocaster-value-guide/1961/",
+      "retrieved": "2026-10-30",
+      "rowText": "Excellent and all original$26,100 to $34,800The headline sunburst range, assuming the original case and a coherent, authenticated guitar.",
+      "label": "1961 Sunburst Stratocaster, Excellent And All Original",
+      "low": 26100,
+      "high": 34800,
+      "auctionPrice": 1156793,
+      "multiple": 33,
+      "math": "floor(1156793 / 34800) = 33",
+      "caveat": "Gallagher's guitar began as a sunburst. Its extensive wear and modifications mean the original-condition range is a reference point, not a condition match.",
+      "photoCaption": "A 1962 sunburst Stratocaster, a neighboring-year example from Joe's archive. Not the auction guitar."
+    }
+  ],
+  "ordinaryModels": [
+    {
+      "label": "Les Paul Standard, 1958 To 1960 Sunburst With Humbuckers",
+      "low": 315350,
+      "high": 501650,
+      "plus": true,
+      "href": "/vintage-gibson-les-paul-market-value-guide/",
+      "url": "https://www.joesvintageguitarsaz.com/vintage-gibson-les-paul-market-value-guide/",
+      "retrieved": "2026-10-30",
+      "sourceRows": [
+        "Model And YearEstimated Value",
+        "Standard, 1952 to 1953$28,300 to $43,500",
+        "Standard, 1954 to 1956$34,800 to $87,000",
+        "Standard, 1957 to 1958 Goldtop with humbuckers$122,000 to $225,000",
+        "Standard, 1958 to 1960 Sunburst with humbuckers$315,350 to $501,650+",
+        "Standard, 1968 to 1969$14,500 to $20,000",
+        "Custom, 1953 to 1957$23,000 to $50,000",
+        "Custom, 1957 to 1961$73,550 to $147,000",
+        "Custom, 1968 to 1969$11,000 to $23,150",
+        "Special, 1955 to 1959 TV Yellow$9,600 to $19,000",
+        "Special, 1959 Cherry Red$7,500 to $14,000",
+        "Junior, 1954 to 1958 Sunburst$8,800 to $11,250",
+        "Junior, 1955 to 1958 TV Yellow$12,700 to $22,000"
+      ]
+    },
+    {
+      "label": "Les Paul Standard, 1957 To 1958 Goldtop With Humbuckers",
+      "low": 122000,
+      "high": 225000,
+      "href": "/vintage-gibson-les-paul-market-value-guide/",
+      "url": "https://www.joesvintageguitarsaz.com/vintage-gibson-les-paul-market-value-guide/",
+      "retrieved": "2026-10-30",
+      "sourceRows": [
+        "Model And YearEstimated Value",
+        "Standard, 1952 to 1953$28,300 to $43,500",
+        "Standard, 1954 to 1956$34,800 to $87,000",
+        "Standard, 1957 to 1958 Goldtop with humbuckers$122,000 to $225,000",
+        "Standard, 1958 to 1960 Sunburst with humbuckers$315,350 to $501,650+",
+        "Standard, 1968 to 1969$14,500 to $20,000",
+        "Custom, 1953 to 1957$23,000 to $50,000",
+        "Custom, 1957 to 1961$73,550 to $147,000",
+        "Custom, 1968 to 1969$11,000 to $23,150",
+        "Special, 1955 to 1959 TV Yellow$9,600 to $19,000",
+        "Special, 1959 Cherry Red$7,500 to $14,000",
+        "Junior, 1954 to 1958 Sunburst$8,800 to $11,250",
+        "Junior, 1955 to 1958 TV Yellow$12,700 to $22,000"
+      ]
+    },
+    {
+      "label": "Les Paul Custom, 1957 To 1961",
+      "low": 73550,
+      "high": 147000,
+      "href": "/vintage-gibson-les-paul-custom-value-guide/",
+      "url": "https://www.joesvintageguitarsaz.com/vintage-gibson-les-paul-custom-value-guide/",
+      "retrieved": "2026-10-30",
+      "sourceRows": [
+        "Model And YearEstimated Value",
+        "Standard, 1952 to 1953$28,300 to $43,500",
+        "Standard, 1954 to 1956$34,800 to $87,000",
+        "Standard, 1957 to 1958 Goldtop with humbuckers$122,000 to $225,000",
+        "Standard, 1958 to 1960 Sunburst with humbuckers$315,350 to $501,650+",
+        "Standard, 1968 to 1969$14,500 to $20,000",
+        "Custom, 1953 to 1957$23,000 to $50,000",
+        "Custom, 1957 to 1961$73,550 to $147,000",
+        "Custom, 1968 to 1969$11,000 to $23,150",
+        "Special, 1955 to 1959 TV Yellow$9,600 to $19,000",
+        "Special, 1959 Cherry Red$7,500 to $14,000",
+        "Junior, 1954 to 1958 Sunburst$8,800 to $11,250",
+        "Junior, 1955 to 1958 TV Yellow$12,700 to $22,000"
+      ]
+    },
+    {
+      "label": "Stratocaster, Early Spring 1954",
+      "low": 88000,
+      "high": 184800,
+      "href": "/vintage-fender-stratocaster-value-guide/1954/",
+      "url": "https://www.joesvintageguitarsaz.com/vintage-fender-stratocaster-value-guide/1954/",
+      "retrieved": "2026-10-30",
+      "sourceRows": [
+        "Condition and originalityEstimated valueHow to use it",
+        "Excellent and all original$108,750 to $175,450The headline sunburst range, assuming the original case and a coherent, authenticated guitar.",
+        "Very good and largely original$97,900 to $157,900About 75% to 90% of the excellent range. Honest play wear, normal checking, or a professional refret can fit here when the finish and major parts remain original.",
+        "Professional refinish$28,000 to $119,000Often about 45% to 60% of a comparable original. The exact result depends on the remaining parts, quality of the work, and whether the body has been altered.",
+        "Major parts mismatchValue component by componentA replacement neck or body, extra routes, mixed-year parts, or uncertain provenance prevents a reliable whole-guitar comparison."
+      ]
+    },
+    {
+      "label": "Broadcaster, 1950",
+      "low": 129000,
+      "high": 215000,
+      "href": "/vintage-fender-telecaster-value-guide/1950-broadcaster/",
+      "url": "https://www.joesvintageguitarsaz.com/vintage-fender-telecaster-value-guide/1950-broadcaster/",
+      "retrieved": "2026-10-30",
+      "sourceRows": [
+        "Condition and originalityEstimated valueHow to use it",
+        "Excellent and all original$129,000 to $215,000The headline blonde range, assuming the original case and a coherent, authenticated guitar.",
+        "Very good and largely original$62,000 to $143,000About 75% to 90% of the excellent range. Honest play wear, normal checking, or a professional refret can fit here when the original finish and major parts remain intact.",
+        "Professional refinish$37,000 to $95,000About 45% to 60% of a comparable original. The remaining original parts, quality of the work, sanding, extra routes, and changed wood determine the final deduction.",
+        "Major parts mismatchValue component by componentA replacement neck or body, extra routes, mixed-year parts, or uncertain provenance prevents a dependable whole-guitar comparison."
+      ]
+    }
+  ],
+  "method": "Direct HTTP retrieval of live pages, not cached search summaries. Price figures and row scope checked against current live HTML."
+}

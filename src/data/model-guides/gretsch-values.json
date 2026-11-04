@@ -1,0 +1,306 @@
+[
+  {
+    "family": "gretsch-anniversary",
+    "model": "6124/6125 Single Anniversary",
+    "years": "1958 to 1959",
+    "configuration": "Two-tone green",
+    "low": 2600,
+    "high": 4300
+  },
+  {
+    "family": "gretsch-anniversary",
+    "model": "6124/6125 Single Anniversary",
+    "years": "1958 to 1959",
+    "configuration": "Sunburst",
+    "low": 2650,
+    "high": 4450
+  },
+  {
+    "family": "gretsch-anniversary",
+    "model": "6124/6125 Single Anniversary",
+    "years": "1960 to 1961",
+    "configuration": "Two-tone green or tan",
+    "low": 2600,
+    "high": 3000
+  },
+  {
+    "family": "gretsch-anniversary",
+    "model": "6124/6125 Single Anniversary",
+    "years": "1960 to 1961",
+    "configuration": "Sunburst",
+    "low": 2650,
+    "high": 3100
+  },
+  {
+    "family": "gretsch-anniversary",
+    "model": "6124/6125 Single Anniversary",
+    "years": "1962 to 1964",
+    "configuration": "Two-tone green or tan",
+    "low": 2200,
+    "high": 3050
+  },
+  {
+    "family": "gretsch-anniversary",
+    "model": "6124/6125 Single Anniversary",
+    "years": "1962 to 1964",
+    "configuration": "Sunburst",
+    "low": 2200,
+    "high": 3100
+  },
+  {
+    "family": "gretsch-anniversary",
+    "model": "6124/6125 Single Anniversary",
+    "years": "1965 to 1966",
+    "configuration": "Various colors",
+    "low": 1500,
+    "high": 1950
+  },
+  {
+    "family": "gretsch-anniversary",
+    "model": "6124/6125 Single Anniversary",
+    "years": "1967 to 1969",
+    "configuration": "Various colors",
+    "low": 1300,
+    "high": 1700
+  },
+  {
+    "family": "gretsch-anniversary",
+    "model": "6124/6125 Single Anniversary",
+    "years": "1970 to 1972",
+    "configuration": "Various colors",
+    "low": 1200,
+    "high": 1550
+  },
+  {
+    "family": "gretsch-anniversary",
+    "model": "6124 Anniversary Tenor",
+    "years": "1958 to 1971",
+    "configuration": "Four-string tenor",
+    "low": 1350,
+    "high": 1800
+  },
+  {
+    "family": "gretsch-country-gentleman",
+    "model": "6122 Country Gentleman",
+    "years": "1958 to 1959",
+    "configuration": "Original single-cutaway",
+    "low": 6400,
+    "high": 8500
+  },
+  {
+    "family": "gretsch-country-gentleman",
+    "model": "6122 Country Gentleman",
+    "years": "1960",
+    "configuration": "Single-cutaway",
+    "low": 5800,
+    "high": 8000
+  },
+  {
+    "family": "gretsch-country-gentleman",
+    "model": "6122 Country Gentleman",
+    "years": "1961",
+    "configuration": "Single-cutaway",
+    "low": 5800,
+    "high": 8000
+  },
+  {
+    "family": "gretsch-country-gentleman",
+    "model": "6122 Country Gentleman",
+    "years": "1962 to 1963",
+    "configuration": "George Harrison specifications",
+    "low": 5800,
+    "high": 8000
+  },
+  {
+    "family": "gretsch-country-gentleman",
+    "model": "6122 Country Gentleman",
+    "years": "1964",
+    "configuration": "Double-cutaway",
+    "low": 2900,
+    "high": 3550
+  },
+  {
+    "family": "gretsch-country-gentleman",
+    "model": "6122 Country Gentleman",
+    "years": "1965 to 1967",
+    "configuration": "Double-cutaway",
+    "low": 2850,
+    "high": 3500
+  },
+  {
+    "family": "gretsch-country-gentleman",
+    "model": "6122 Country Gentleman",
+    "years": "1968 to 1970",
+    "configuration": "Double-cutaway",
+    "low": 2450,
+    "high": 3100
+  },
+  {
+    "family": "gretsch-country-gentleman",
+    "model": "7670 Country Gentleman",
+    "years": "1971 to 1981",
+    "configuration": "Later US production",
+    "low": 2400,
+    "high": 3050
+  },
+  {
+    "family": "gretsch-anniversary",
+    "model": "6117/6118 Double Anniversary Mono",
+    "years": "1958 to 1959",
+    "configuration": "Two-tone green",
+    "low": 4250,
+    "high": 5950
+  },
+  {
+    "family": "gretsch-anniversary",
+    "model": "6117/6118 Double Anniversary Mono",
+    "years": "1958 to 1959",
+    "configuration": "Sunburst",
+    "low": 4300,
+    "high": 6000
+  },
+  {
+    "family": "gretsch-anniversary",
+    "model": "6117/6118 Double Anniversary Mono",
+    "years": "1960 to 1961",
+    "configuration": "Two-tone green",
+    "low": 3500,
+    "high": 4400
+  },
+  {
+    "family": "gretsch-anniversary",
+    "model": "6117/6118 Double Anniversary Mono",
+    "years": "1960 to 1961",
+    "configuration": "Sunburst",
+    "low": 3500,
+    "high": 4400
+  },
+  {
+    "family": "gretsch-anniversary",
+    "model": "6117/6118 Double Anniversary Mono",
+    "years": "1962 to 1964",
+    "configuration": "Two-tone green or tan",
+    "low": 2650,
+    "high": 3500
+  },
+  {
+    "family": "gretsch-anniversary",
+    "model": "6117/6118 Double Anniversary Mono",
+    "years": "1962 to 1964",
+    "configuration": "Sunburst",
+    "low": 2150,
+    "high": 2800
+  },
+  {
+    "family": "gretsch-anniversary",
+    "model": "6117/6118 Double Anniversary Mono",
+    "years": "1965 to 1966",
+    "configuration": "Various colors",
+    "low": 1550,
+    "high": 2000
+  },
+  {
+    "family": "gretsch-anniversary",
+    "model": "6117/6118 Double Anniversary Mono",
+    "years": "1967 to 1969",
+    "configuration": "Various colors",
+    "low": 1300,
+    "high": 1700
+  },
+  {
+    "family": "gretsch-anniversary",
+    "model": "6117/6118 Double Anniversary Mono",
+    "years": "1970 to 1976",
+    "configuration": "Various colors",
+    "low": 1200,
+    "high": 1550
+  },
+  {
+    "family": "gretsch-anniversary",
+    "model": "6111/6112 Double Anniversary Stereo",
+    "years": "1961 to 1963",
+    "configuration": "Green",
+    "low": 2600,
+    "high": 3500
+  },
+  {
+    "family": "gretsch-anniversary",
+    "model": "6111/6112 Double Anniversary Stereo",
+    "years": "1961 to 1963",
+    "configuration": "Sunburst",
+    "low": 2200,
+    "high": 3100
+  },
+  {
+    "family": "gretsch-white-falcon",
+    "model": "6136 White Falcon Mono",
+    "years": "1955",
+    "configuration": "Single-cutaway, gold-leaf trim",
+    "low": 44000,
+    "high": 57200
+  },
+  {
+    "family": "gretsch-white-falcon",
+    "model": "6136 White Falcon Mono",
+    "years": "1956 to 1961",
+    "configuration": "Single-cutaway, sparkle binding",
+    "low": 40050,
+    "high": 48950
+  },
+  {
+    "family": "gretsch-white-falcon",
+    "model": "6136 White Falcon Mono",
+    "years": "1962 to 1964",
+    "configuration": "Double-cutaway",
+    "low": 22250,
+    "high": 26700
+  },
+  {
+    "family": "gretsch-white-falcon",
+    "model": "6136 White Falcon Mono",
+    "years": "1965 to 1969",
+    "configuration": "Double-cutaway",
+    "low": 13050,
+    "high": 17400
+  },
+  {
+    "family": "gretsch-white-falcon",
+    "model": "6136 White Falcon Mono",
+    "years": "1970",
+    "configuration": "Double-cutaway",
+    "low": 8600,
+    "high": 10750
+  },
+  {
+    "family": "gretsch-white-falcon",
+    "model": "7594 White Falcon Mono",
+    "years": "1971 to 1972",
+    "configuration": "Later US production",
+    "low": 6550,
+    "high": 8700
+  },
+  {
+    "family": "gretsch-white-falcon",
+    "model": "7594 White Falcon Mono",
+    "years": "1973 to 1981",
+    "configuration": "Later US production",
+    "low": 6250,
+    "high": 8000
+  },
+  {
+    "family": "gretsch-white-falcon",
+    "model": "6137 White Falcon Stereo",
+    "years": "1958 to 1961",
+    "configuration": "Single-cutaway",
+    "low": 39600,
+    "high": 52800
+  },
+  {
+    "family": "gretsch-white-falcon",
+    "model": "6137 White Falcon Stereo",
+    "years": "1962 to 1964",
+    "configuration": "Double-cutaway",
+    "low": 21500,
+    "high": 25800
+  }
+]

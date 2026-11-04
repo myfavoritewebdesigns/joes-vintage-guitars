@@ -1,0 +1,312 @@
+[
+  {
+    "assetPath": "src/assets/images/model-guides-2/sheraton-1961-case.jpg",
+    "dimensions": [
+      6240,
+      4160
+    ],
+    "shaMatches": true,
+    "originalRetained": true,
+    "transform": "None; byte-identical original"
+  },
+  {
+    "assetPath": "src/assets/images/model-guides-2/sheraton-1961-body.jpg",
+    "dimensions": [
+      6240,
+      4160
+    ],
+    "shaMatches": true,
+    "originalRetained": true,
+    "transform": "None; byte-identical original"
+  },
+  {
+    "assetPath": "src/assets/images/model-guides-2/crestwood-1964-body.jpg",
+    "dimensions": [
+      6177,
+      4118
+    ],
+    "shaMatches": true,
+    "originalRetained": true,
+    "transform": "None; byte-identical original"
+  },
+  {
+    "assetPath": "src/assets/images/model-guides-2/olympic-1960s-case.jpg",
+    "dimensions": [
+      4284,
+      5712
+    ],
+    "shaMatches": true,
+    "originalRetained": true,
+    "transform": "EXIF rotation only, full pixel count retained"
+  },
+  {
+    "assetPath": "src/assets/images/model-guides-2/triumph-1946-body.jpg",
+    "dimensions": [
+      5472,
+      3648
+    ],
+    "shaMatches": true,
+    "originalRetained": true,
+    "transform": "None; byte-identical original"
+  },
+  {
+    "assetPath": "src/assets/images/model-guides-2/emperor-1950s-body.jpg",
+    "dimensions": [
+      5472,
+      3648
+    ],
+    "shaMatches": true,
+    "originalRetained": true,
+    "transform": "None; byte-identical original"
+  },
+  {
+    "assetPath": "src/assets/images/model-guides-2/emperor-1950s-front.jpg",
+    "dimensions": [
+      3648,
+      5472
+    ],
+    "shaMatches": true,
+    "originalRetained": true,
+    "transform": "None; byte-identical original"
+  },
+  {
+    "assetPath": "src/assets/images/model-guides-2/olympic-1960s-body.jpg",
+    "dimensions": [
+      3024,
+      4032
+    ],
+    "shaMatches": true,
+    "originalRetained": true,
+    "transform": "EXIF rotation only, full pixel count retained"
+  },
+  {
+    "assetPath": "src/assets/images/model-guides-2/olympic-1960s-headstock.jpg",
+    "dimensions": [
+      3024,
+      4032
+    ],
+    "shaMatches": true,
+    "originalRetained": true,
+    "transform": "EXIF rotation only, full pixel count retained"
+  },
+  {
+    "assetPath": "src/assets/images/model-guides-2/olympic-1960s-back.jpg",
+    "dimensions": [
+      4284,
+      5712
+    ],
+    "shaMatches": true,
+    "originalRetained": true,
+    "transform": "EXIF rotation only, full pixel count retained"
+  },
+  {
+    "assetPath": "src/assets/images/model-guides-2/olympic-1960s-serial.jpg",
+    "dimensions": [
+      3024,
+      4032
+    ],
+    "shaMatches": true,
+    "originalRetained": true,
+    "transform": "EXIF rotation only, full pixel count retained"
+  },
+  {
+    "assetPath": "src/assets/images/model-guides-2/triumph-1946-front.jpg",
+    "dimensions": [
+      3648,
+      5472
+    ],
+    "shaMatches": true,
+    "originalRetained": true,
+    "transform": "None; byte-identical original"
+  },
+  {
+    "assetPath": "src/assets/images/model-guides-2/triumph-1946-label.jpg",
+    "dimensions": [
+      5472,
+      3648
+    ],
+    "shaMatches": true,
+    "originalRetained": true,
+    "transform": "None; byte-identical original"
+  },
+  {
+    "assetPath": "src/assets/images/model-guides-2/triumph-1946-side.jpg",
+    "dimensions": [
+      3648,
+      5472
+    ],
+    "shaMatches": true,
+    "originalRetained": true,
+    "transform": "None; byte-identical original"
+  },
+  {
+    "assetPath": "src/assets/images/model-guides-2/triumph-1930s-body.jpg",
+    "dimensions": [
+      6240,
+      4160
+    ],
+    "shaMatches": true,
+    "originalRetained": true,
+    "transform": "None; byte-identical original"
+  },
+  {
+    "assetPath": "src/assets/images/model-guides-2/triumph-1930s-front.jpg",
+    "dimensions": [
+      4160,
+      6240
+    ],
+    "shaMatches": true,
+    "originalRetained": true,
+    "transform": "None; byte-identical original"
+  },
+  {
+    "assetPath": "src/assets/images/model-guides-2/triumph-1930s-side.jpg",
+    "dimensions": [
+      6240,
+      4160
+    ],
+    "shaMatches": true,
+    "originalRetained": true,
+    "transform": "None; byte-identical original"
+  },
+  {
+    "assetPath": "src/assets/images/model-guides-2/casino-2022-body.jpg",
+    "dimensions": [
+      6240,
+      4160
+    ],
+    "shaMatches": true,
+    "originalRetained": true,
+    "transform": "None; byte-identical original"
+  },
+  {
+    "assetPath": "src/assets/images/model-guides-2/casino-2022-front.jpg",
+    "dimensions": [
+      4160,
+      6240
+    ],
+    "shaMatches": true,
+    "originalRetained": true,
+    "transform": "None; byte-identical original"
+  },
+  {
+    "assetPath": "src/assets/images/model-guides-2/casino-2022-label.jpg",
+    "dimensions": [
+      6240,
+      4160
+    ],
+    "shaMatches": true,
+    "originalRetained": true,
+    "transform": "None; byte-identical original"
+  },
+  {
+    "assetPath": "src/assets/images/model-guides-2/emperor-1981-body.jpg",
+    "dimensions": [
+      800,
+      533
+    ],
+    "shaMatches": true,
+    "originalRetained": true,
+    "transform": "None; byte-identical original"
+  },
+  {
+    "assetPath": "src/assets/images/model-guides-2/emperor-1981-headstock.jpg",
+    "dimensions": [
+      800,
+      533
+    ],
+    "shaMatches": true,
+    "originalRetained": true,
+    "transform": "None; byte-identical original"
+  },
+  {
+    "assetPath": "src/assets/images/model-guides-2/emperor-1950s-label.jpg",
+    "dimensions": [
+      5472,
+      3648
+    ],
+    "shaMatches": true,
+    "originalRetained": true,
+    "transform": "None; byte-identical original"
+  },
+  {
+    "assetPath": "src/assets/images/model-guides-2/emperor-1950s-fingerboard.jpg",
+    "dimensions": [
+      3648,
+      5472
+    ],
+    "shaMatches": true,
+    "originalRetained": true,
+    "transform": "None; byte-identical original"
+  },
+  {
+    "assetPath": "src/assets/images/model-guides-2/deluxe-1950s-body.jpg",
+    "dimensions": [
+      1128,
+      752
+    ],
+    "shaMatches": true,
+    "originalRetained": true,
+    "transform": "None; byte-identical original"
+  },
+  {
+    "assetPath": "src/assets/images/model-guides-2/deluxe-1950s-headstock.jpg",
+    "dimensions": [
+      1128,
+      752
+    ],
+    "shaMatches": true,
+    "originalRetained": true,
+    "transform": "None; byte-identical original"
+  },
+  {
+    "assetPath": "src/assets/images/model-guides-2/zephyr-1961-body.jpg",
+    "dimensions": [
+      1512,
+      2016
+    ],
+    "shaMatches": true,
+    "originalRetained": true,
+    "transform": "EXIF rotation only, full pixel count retained"
+  },
+  {
+    "assetPath": "src/assets/images/model-guides-2/zephyr-1961-headstock.jpg",
+    "dimensions": [
+      1512,
+      2016
+    ],
+    "shaMatches": true,
+    "originalRetained": true,
+    "transform": "EXIF rotation only, full pixel count retained"
+  },
+  {
+    "assetPath": "src/assets/images/model-guides-2/broadway-1947-front.jpg",
+    "dimensions": [
+      225,
+      320
+    ],
+    "shaMatches": true,
+    "originalRetained": true,
+    "transform": "None; byte-identical original"
+  },
+  {
+    "assetPath": "src/assets/images/model-guides-2/broadway-1947-body.jpg",
+    "dimensions": [
+      240,
+      320
+    ],
+    "shaMatches": true,
+    "originalRetained": true,
+    "transform": "EXIF rotation only"
+  },
+  {
+    "assetPath": "src/assets/images/model-guides-2/broadway-1947-side.jpg",
+    "dimensions": [
+      240,
+      320
+    ],
+    "shaMatches": true,
+    "originalRetained": true,
+    "transform": "EXIF rotation only"
+  }
+]

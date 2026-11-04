@@ -1,0 +1,113 @@
+{
+  "results": [
+    {
+      "route": "/blog/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "cards": 9,
+      "brokenImages": []
+    },
+    {
+      "route": "/blog/page/4/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "cards": 9,
+      "brokenImages": []
+    },
+    {
+      "route": "/category/value-evaluation/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "cards": 9,
+      "brokenImages": []
+    },
+    {
+      "route": "/category/specific-model-highlights/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "cards": 9,
+      "brokenImages": []
+    },
+    {
+      "route": "/post/rickenbacker-325-value-guide/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "cards": 0,
+      "brokenImages": []
+    },
+    {
+      "route": "/post/rickenbacker-325-authentication-guide/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "cards": 0,
+      "brokenImages": []
+    },
+    {
+      "route": "/blog/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "cards": 9,
+      "brokenImages": []
+    },
+    {
+      "route": "/blog/page/4/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "cards": 9,
+      "brokenImages": []
+    },
+    {
+      "route": "/category/value-evaluation/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "cards": 9,
+      "brokenImages": []
+    },
+    {
+      "route": "/category/specific-model-highlights/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "cards": 9,
+      "brokenImages": []
+    },
+    {
+      "route": "/post/rickenbacker-325-value-guide/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "cards": 0,
+      "brokenImages": []
+    },
+    {
+      "route": "/post/rickenbacker-325-authentication-guide/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "h1": 1,
+      "cards": 0,
+      "brokenImages": []
+    }
+  ],
+  "failures": []
+}

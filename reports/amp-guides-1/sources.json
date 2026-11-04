@@ -1,0 +1,1391 @@
+{
+  "verifiedAt": "2026-11-02",
+  "hierarchy": "User brief and live JVG dating anchor govern era boundaries and dating language. Manufacturer drawings, manuals and launch records support construction. Specialist field records support model history. Joe archive photos support visual observations. Values use only the 2026 Price Guide.",
+  "sources": [
+    {
+      "sourceId": "AMP-S001",
+      "title": "Fender 5C8 Factory Schematic",
+      "href": "https://www.prowessamplifiers.com/schematics/fender/twin_5c8_schem.pdf",
+      "note": "Original tube complement and early circuit layout.",
+      "verified": "2026-11-02",
+      "sourceType": "manufacturer primary document"
+    },
+    {
+      "sourceId": "AMP-S002",
+      "title": "Fender 5E8-A Factory Drawing",
+      "href": "https://cdn.shopify.com/s/files/1/0604/9615/0624/files/Fender-Twin-5E8A-Schematic.pdf?v=1759173642",
+      "note": "Low-power narrow-panel tube layout.",
+      "verified": "2026-11-02",
+      "sourceType": "manufacturer primary document"
+    },
+    {
+      "sourceId": "AMP-S003",
+      "title": "Fender 5F8-A Factory Drawing",
+      "href": "https://el34world.com/charts/Schematics/Files/Fender/Fender_twin_5f8a.pdf",
+      "note": "High-power narrow-panel tube layout.",
+      "verified": "2026-11-02",
+      "sourceType": "manufacturer primary document"
+    },
+    {
+      "sourceId": "AMP-S004",
+      "title": "Fender ’65 Twin Reverb Service Manual",
+      "href": "https://schematicheaven.net/fenderamps/65_twin_reverb_%20manual.pdf",
+      "note": "Factory PCB assembly details.",
+      "verified": "2026-11-02",
+      "sourceType": "manufacturer primary document"
+    },
+    {
+      "sourceId": "AMP-S005",
+      "title": "Fender ’68 Custom Twin Reverb",
+      "href": "https://www.fender.com/products/68-custom-twin-reverb",
+      "note": "Custom and Vintage labels and Celestion speaker identification.",
+      "verified": "2026-11-02",
+      "sourceType": "manufacturer primary document"
+    },
+    {
+      "sourceId": "AMP-S006",
+      "title": "Fender’s Twin History",
+      "href": "https://www.fender.com/articles/behind-the-scenes/pristine-cleans-aggressive-overdrive-the-fender-twin-story",
+      "note": "Model introductions, control changes, master volume and high-power development.",
+      "verified": "2026-11-02",
+      "sourceType": "manufacturer primary document"
+    },
+    {
+      "sourceId": "AMP-S007",
+      "title": "Blonde Twin Field Guide",
+      "href": "https://mojotone.com/blogs/fender-field-guide/fender-blonde-twin",
+      "note": "6G8-family configuration, hardware and component references.",
+      "verified": "2026-11-02",
+      "sourceType": "specialist original model research"
+    },
+    {
+      "sourceId": "AMP-S008",
+      "title": "Blackface Twin Reverb",
+      "href": "https://mojotone.com/blogs/fender-field-guide/fender-blackface-twin-reverb",
+      "note": "AB763 specification and physical features.",
+      "verified": "2026-11-02",
+      "sourceType": "specialist original model research"
+    },
+    {
+      "sourceId": "AMP-S009",
+      "title": "Silverface Twin Reverb",
+      "href": "https://mojotone.com/blogs/fender-field-guide/fender-silverface-twin-reverb",
+      "note": "Later output and control variants.",
+      "verified": "2026-11-02",
+      "sourceType": "specialist original model research"
+    },
+    {
+      "sourceId": "AMP-S010",
+      "title": "Fender ’57 Custom Twin-Amp",
+      "href": "https://www.fender.com/products/57-custom-twin-amp",
+      "note": "Modern handwired model, pine cabinet and Eminence speakers.",
+      "verified": "2026-11-02",
+      "sourceType": "manufacturer primary document"
+    },
+    {
+      "sourceId": "AMP-S011",
+      "title": "Fender ’65 Twin Reverb Manual",
+      "href": "https://www.fmicassets.com/Damroot/Original/10001/021730_gamp_manual_all_revE.pdf",
+      "note": "Modern reissue identification, controls, tube complement and service safety.",
+      "verified": "2026-11-02",
+      "sourceType": "manufacturer primary document"
+    },
+    {
+      "sourceId": "AMP-S012",
+      "title": "Fender Tone Master Twin Reverb",
+      "href": "https://www.fender.com/products/tone-master-twin-reverb",
+      "note": "Digital architecture and modern rear-panel connections.",
+      "verified": "2026-11-02",
+      "sourceType": "manufacturer primary document"
+    },
+    {
+      "sourceId": "AMP-S013",
+      "title": "Narrow-Panel Deluxe",
+      "href": "https://mojotone.com/blogs/fender-field-guide/fender-narrow-panel-tweed-deluxe",
+      "note": "5E3 controls, speaker family, cosmetics and schematic link.",
+      "verified": "2026-11-02",
+      "sourceType": "specialist original model research"
+    },
+    {
+      "sourceId": "AMP-S014",
+      "title": "Brown Deluxe",
+      "href": "https://mojotone.com/blogs/fender-field-guide/fender-brownface-deluxe",
+      "note": "6G3 specifications and cabinet features.",
+      "verified": "2026-11-02",
+      "sourceType": "specialist original model research"
+    },
+    {
+      "sourceId": "AMP-S015",
+      "title": "Blackface Deluxe",
+      "href": "https://mojotone.com/blogs/fender-field-guide/fender-blackface-deluxe",
+      "note": "Non-reverb configuration and tube layout.",
+      "verified": "2026-11-02",
+      "sourceType": "specialist original model research"
+    },
+    {
+      "sourceId": "AMP-S016",
+      "title": "Blackface Deluxe Reverb",
+      "href": "https://mojotone.com/blogs/fender-field-guide/fender-blackface-deluxe-reverb",
+      "note": "AB763 output, controls and hardware.",
+      "verified": "2026-11-02",
+      "sourceType": "specialist original model research"
+    },
+    {
+      "sourceId": "AMP-S017",
+      "title": "Silverface Deluxe Reverb",
+      "href": "https://mojotone.com/blogs/fender-field-guide/fender-silverface-deluxe-reverb",
+      "note": "Rectifier, pull-boost and cosmetic revisions.",
+      "verified": "2026-11-02",
+      "sourceType": "specialist original model research"
+    },
+    {
+      "sourceId": "AMP-S018",
+      "title": "Fender ’65 Deluxe Reverb Service Manual",
+      "href": "https://el34world.com/charts/Schematics/files/Fender/Fender_65_deluxe_reverb_reissue_sm.pdf",
+      "note": "Factory printed-circuit-board documentation for reissue identification.",
+      "verified": "2026-11-02",
+      "sourceType": "manufacturer primary document"
+    },
+    {
+      "sourceId": "AMP-S019",
+      "title": "Fender ’57 Custom Deluxe",
+      "href": "https://www.fender.com/products/57-custom-deluxe",
+      "note": "Modern handwired tweed construction.",
+      "verified": "2026-11-02",
+      "sourceType": "manufacturer primary document"
+    },
+    {
+      "sourceId": "AMP-S020",
+      "title": "Fender ’64 Custom Deluxe Reverb",
+      "href": "https://www.fender.com/products/64-custom-deluxe-reverb",
+      "note": "Modern handwired model, channel names and effects on both channels.",
+      "verified": "2026-11-02",
+      "sourceType": "manufacturer primary document"
+    },
+    {
+      "sourceId": "AMP-S021",
+      "title": "Fender ’68 Custom Series Announcement",
+      "href": "https://www.fender.com/newsroom/271377-fender-releases-68-custom-series-amplifiers/",
+      "note": "Custom/Vintage channels and Celestion speaker specification.",
+      "verified": "2026-11-02",
+      "sourceType": "manufacturer primary document"
+    },
+    {
+      "sourceId": "AMP-S022",
+      "title": "Fender’s 2026 Model Announcement",
+      "href": "https://www.fender.com/newsroom/270122-from-vintage-purists-to-down-tuned-strummers-fender-s-mid-year-drop-leaves-no-player-behind/",
+      "note": "The modern ’62 Deluxe and its stated output and speaker.",
+      "verified": "2026-11-02",
+      "sourceType": "manufacturer primary document"
+    },
+    {
+      "sourceId": "AMP-S023",
+      "title": "Tone Master Deluxe Reverb",
+      "href": "https://www.fender.com/products/tone-master-deluxe-reverb",
+      "note": "Digital model and rear-panel features.",
+      "verified": "2026-11-02",
+      "sourceType": "manufacturer primary document"
+    },
+    {
+      "sourceId": "AMP-S024",
+      "title": "Narrow-Panel Princeton",
+      "href": "https://mojotone.com/blogs/fender-field-guide/fender-narrow-panel-tweed-princeton",
+      "note": "5E2, 5F2 and 5F2-A specifications and choke differences.",
+      "verified": "2026-11-02",
+      "sourceType": "specialist original model research"
+    },
+    {
+      "sourceId": "AMP-S025",
+      "title": "Brownface Princeton",
+      "href": "https://mojotone.com/blogs/fender-field-guide/fender-brownface-princeton",
+      "note": "6G2 tubes, controls, speaker and cosmetics.",
+      "verified": "2026-11-02",
+      "sourceType": "specialist original model research"
+    },
+    {
+      "sourceId": "AMP-S026",
+      "title": "Blackface Princeton",
+      "href": "https://mojotone.com/blogs/fender-field-guide/fender-blackface-princeton",
+      "note": "Transitional 6G2, AA964 and grille-logo differences.",
+      "verified": "2026-11-02",
+      "sourceType": "specialist original model research"
+    },
+    {
+      "sourceId": "AMP-S027",
+      "title": "Blackface Princeton Reverb",
+      "href": "https://mojotone.com/blogs/fender-field-guide/fender-blackface-princeton-reverb",
+      "note": "Original reverb configuration.",
+      "verified": "2026-11-02",
+      "sourceType": "specialist original model research"
+    },
+    {
+      "sourceId": "AMP-S028",
+      "title": "Silverface Princeton Without Reverb",
+      "href": "https://mojotone.com/blogs/fender-field-guide/fender-silverface-princeton",
+      "note": "Non-reverb controls, speaker, tubes and cosmetic revisions.",
+      "verified": "2026-11-02",
+      "sourceType": "specialist original model research"
+    },
+    {
+      "sourceId": "AMP-S029",
+      "title": "Silverface Princeton Reverb",
+      "href": "https://mojotone.com/blogs/fender-field-guide/fender-silverface-princeton-reverb",
+      "note": "Later rectifier, control and cosmetic changes.",
+      "verified": "2026-11-02",
+      "sourceType": "specialist original model research"
+    },
+    {
+      "sourceId": "AMP-S030",
+      "title": "Original Princeton Schematics",
+      "href": "https://mojotone.com/blogs/fender-field-guide/fender-princeton-schematics",
+      "note": "Factory circuit drawings, including 6G2 and AA1164.",
+      "verified": "2026-11-02",
+      "sourceType": "specialist original model research"
+    },
+    {
+      "sourceId": "AMP-S031",
+      "title": "Fender ’65 Princeton Reverb Service Drawing",
+      "href": "https://www.gregcutshaw.com/Sweetwater%20Tweed%20Princeton%20Reverb/Fender-65-Princeton-Reverb-Schematic.pdf",
+      "note": "Factory PCB assembly drawing for the reissue.",
+      "verified": "2026-11-02",
+      "sourceType": "manufacturer primary document"
+    },
+    {
+      "sourceId": "AMP-S032",
+      "title": "Inside The ’64 Custom Princeton Reverb",
+      "href": "https://www.fender.com/articles/parts-and-accessories/go-inside-the-64-custom-princeton-reverb",
+      "note": "Modern handwired recreation.",
+      "verified": "2026-11-02",
+      "sourceType": "manufacturer primary document"
+    },
+    {
+      "sourceId": "AMP-S033",
+      "title": "Fender Chris Stapleton Princeton",
+      "href": "https://www.fender.com/articles/parts-and-accessories/62-princeton-amp-chris-stapleton-edition",
+      "note": "Modern twelve-inch Eminence speaker contrasted with the original ten-inch format.",
+      "verified": "2026-11-02",
+      "sourceType": "manufacturer primary document"
+    },
+    {
+      "sourceId": "AMP-S034",
+      "title": "Tone Master Princeton Reverb Manual",
+      "href": "https://www.fmicassets.com/Damroot/Original/10003/OM_2274400000_Tone-Master-Princeton-Reverb_EU.pdf",
+      "note": "Digital model, USB, XLR and power selector.",
+      "verified": "2026-11-02",
+      "sourceType": "manufacturer primary document"
+    },
+    {
+      "sourceId": "AMP-S035",
+      "title": "Joe’s Fender Amp Dating Reference",
+      "href": "/vintage-fender-amplifier-serial-numbers-how-to-find-the-year/",
+      "note": "The four era boundaries and dating method.",
+      "verified": "2026-11-02",
+      "sourceType": "house anchor"
+    },
+    {
+      "sourceId": "AMP-S036",
+      "title": "Greg Gagliano’s Vibrolux Reverb",
+      "href": "https://www.ggjaguar.com/vluxrev.htm",
+      "note": "Documented 1967 example: 35 watts, two 6L6GC, two ten-inch speakers and 40 pounds.",
+      "verified": "2026-11-02",
+      "sourceType": "specialist original model research"
+    },
+    {
+      "sourceId": "AMP-S037",
+      "title": "Greg Gagliano’s Super Reverb",
+      "href": "https://www.ggjaguar.com/superrev.htm",
+      "note": "Documented 1967 example: 40 watts, two 6L6GC, four ten-inch speakers and 60 pounds.",
+      "verified": "2026-11-02",
+      "sourceType": "specialist original model research"
+    }
+  ],
+  "claims": [
+    {
+      "factId": "AMP-0001",
+      "page": "fender-twin-reverb-value-guide",
+      "section": "values",
+      "claimType": "table",
+      "claim": {
+        "columns": [
+          "Model",
+          "Years",
+          "Version",
+          "Estimated Value"
+        ],
+        "rows": [
+          [
+            "Twin",
+            "1952 to 1954",
+            "Tweed, wide panel",
+            "$7,250 to $9,350"
+          ],
+          [
+            "Twin",
+            "1955 to 1957",
+            "Tweed, 50 watts",
+            "$10,650 to $14,450"
+          ],
+          [
+            "Twin",
+            "1958 to 1959",
+            "Tweed, 80 watts",
+            "$16,000 to $22,250"
+          ],
+          [
+            "Twin",
+            "1960",
+            "Brown covering, 80 watts",
+            "$11,750 to $15,650"
+          ],
+          [
+            "Twin",
+            "1960 to 1962",
+            "Rough white covering, oxblood grille",
+            "$6,450 to $8,150"
+          ],
+          [
+            "Twin",
+            "1963",
+            "Smooth white covering, gold grille",
+            "$5,650 to $7,400"
+          ],
+          [
+            "Twin Reverb",
+            "1963 to 1967",
+            "Blackface",
+            "$2,250 to $3,100"
+          ],
+          [
+            "Twin Reverb",
+            "1968",
+            "Silverface, no master volume",
+            "$1,100 to $1,550"
+          ],
+          [
+            "Twin Reverb",
+            "1969 to 1970",
+            "Silverface, no master volume",
+            "$1,000 to $1,300"
+          ],
+          [
+            "Twin Reverb",
+            "1971 to 1972",
+            "Silverface, no master volume",
+            "$750 to $1,050"
+          ],
+          [
+            "Twin Reverb",
+            "1973 to 1975",
+            "Silverface, master volume",
+            "$750 to $1,000"
+          ],
+          [
+            "Twin Reverb",
+            "1976 to 1980",
+            "Silverface, push/pull",
+            "$750 to $950"
+          ]
+        ]
+      },
+      "support": [
+        "value-chart-check.json; private baselines and frozen assignments outside repository"
+      ]
+    },
+    {
+      "factId": "AMP-0002",
+      "page": "fender-deluxe-reverb-value-guide",
+      "section": "values",
+      "claimType": "table",
+      "claim": {
+        "columns": [
+          "Model",
+          "Years",
+          "Version",
+          "Estimated Value"
+        ],
+        "rows": [
+          [
+            "Deluxe",
+            "1948 to 1952",
+            "Tweed, TV front",
+            "$3,650 to $4,750"
+          ],
+          [
+            "Deluxe",
+            "1953 to 1954",
+            "Tweed, wide panel",
+            "$3,750 to $4,850"
+          ],
+          [
+            "Deluxe",
+            "1955",
+            "Narrow panel, small cabinet",
+            "$6,300 to $7,850"
+          ],
+          [
+            "Deluxe",
+            "1956 to 1960",
+            "Narrow panel, large cabinet",
+            "$6,400 to $7,900"
+          ],
+          [
+            "Deluxe",
+            "1961 to 1963",
+            "Brown covering",
+            "$3,400 to $4,250"
+          ],
+          [
+            "Deluxe",
+            "1964 to 1966",
+            "Black covering, no reverb",
+            "$3,500 to $4,350"
+          ],
+          [
+            "Deluxe Reverb",
+            "1963 to 1967",
+            "Blackface",
+            "$3,450 to $4,300"
+          ],
+          [
+            "Deluxe Reverb",
+            "1967 to 1968",
+            "Silverface",
+            "$1,850 to $2,200"
+          ],
+          [
+            "Deluxe Reverb",
+            "1969 to 1970",
+            "Silverface",
+            "$1,550 to $2,000"
+          ],
+          [
+            "Deluxe Reverb",
+            "1971 to 1980",
+            "Silverface",
+            "$1,100 to $1,550"
+          ]
+        ]
+      },
+      "support": [
+        "value-chart-check.json; private baselines and frozen assignments outside repository"
+      ]
+    },
+    {
+      "factId": "AMP-0003",
+      "page": "fender-princeton-reverb-value-guide",
+      "section": "values",
+      "claimType": "table",
+      "claim": {
+        "columns": [
+          "Model",
+          "Years",
+          "Version",
+          "Estimated Value"
+        ],
+        "rows": [
+          [
+            "Princeton",
+            "1948",
+            "Tweed, TV front",
+            "$2,750 to $3,500"
+          ],
+          [
+            "Princeton",
+            "1949 to 1953",
+            "Tweed, TV front",
+            "$2,350 to $3,000"
+          ],
+          [
+            "Princeton",
+            "1953 to 1954",
+            "Wide panel",
+            "$2,350 to $2,850"
+          ],
+          [
+            "Princeton",
+            "1955 to 1956",
+            "Narrow panel, small cabinet",
+            "$4,350 to $5,450"
+          ],
+          [
+            "Princeton",
+            "1956 to 1961",
+            "Narrow panel, large cabinet",
+            "$4,300 to $5,400"
+          ],
+          [
+            "Princeton",
+            "1961 to 1963",
+            "Brown, 6G2",
+            "$2,700 to $3,450"
+          ],
+          [
+            "Princeton",
+            "1963 to 1964",
+            "Black, 6G2",
+            "$2,200 to $2,850"
+          ],
+          [
+            "Princeton",
+            "1964 to 1966",
+            "Black, AA964, no grille logo",
+            "$1,950 to $2,400"
+          ],
+          [
+            "Princeton",
+            "1966 to 1967",
+            "Black, AA964, raised grille logo",
+            "$1,550 to $2,000"
+          ],
+          [
+            "Princeton",
+            "1968 to 1969",
+            "Silverface, aluminum grille trim",
+            "$1,100 to $1,300"
+          ],
+          [
+            "Princeton",
+            "1969 to 1970",
+            "Silverface, no grille trim",
+            "$850 to $1,100"
+          ],
+          [
+            "Princeton",
+            "1971 to 1979",
+            "Silverface, AB1270",
+            "$800 to $1,050"
+          ],
+          [
+            "Princeton",
+            "1973 to 1975",
+            "Fender logo with tail",
+            "$850 to $1,100"
+          ],
+          [
+            "Princeton",
+            "1975 to 1978",
+            "Fender logo without tail",
+            "$800 to $1,100"
+          ],
+          [
+            "Princeton",
+            "1978 to 1979",
+            "With boost pull knob",
+            "$800 to $1,100"
+          ],
+          [
+            "Princeton Reverb",
+            "1964 to 1967",
+            "Blackface",
+            "$2,650 to $3,550"
+          ],
+          [
+            "Princeton Reverb",
+            "1968 to 1972",
+            "Silverface, Fender logo with tail",
+            "$1,950 to $2,600"
+          ],
+          [
+            "Princeton Reverb",
+            "1973 to 1979",
+            "Silverface, no Fender logo tail",
+            "$1,500 to $1,950"
+          ]
+        ]
+      },
+      "support": [
+        "value-chart-check.json; private baselines and frozen assignments outside repository"
+      ]
+    },
+    {
+      "factId": "AMP-0004",
+      "page": "fender-twin-reverb-authentication-guide",
+      "section": "timeline",
+      "claimType": "timeline",
+      "claim": [
+        {
+          "date": "1952 To 1959",
+          "title": "Tweed Twin Development",
+          "html": "<p>Fender’s first Twin appeared in 1952. Wide-panel and narrow-panel cabinets accompanied several circuit revisions. The family progressed from the early 25-watt model through the 5E8-A and higher-powered 5F8-A designs. Those circuit names distinguish electrical versions that a front view alone can’t settle.</p>"
+        },
+        {
+          "date": "1960 To 1963",
+          "title": "Brown And Blonde Twin",
+          "html": "<p>The transitional Twin family moved into brown and blonde cosmetics. The 6G8 and 6G8-A circuits added the characteristic multi-control arrangement and tremolo, with four output tubes. Joe’s blonde 1963 example has white barrel knobs, a brown control panel and a 6G8-A paper chart.</p>"
+        },
+        {
+          "date": "Late 1963",
+          "title": "Twin Reverb Arrives",
+          "html": "<p>The blackface Twin Reverb introduced built-in spring reverb in the AB763 family. It has Normal and Vibrato channels, bright switches and separate tone controls. Its two-speaker format continued, while the reverb equipment and control layout distinguish it from the preceding blonde Twin.</p>"
+        },
+        {
+          "date": "1967 To 1980",
+          "title": "Silverface Changes In Stages",
+          "html": "<p>The silverface era begins in 1967. Early Twin Reverbs received a silver panel and aluminum grille surround before all electrical revisions occurred. Master volume arrived in 1972; subsequent versions added a pull function. The 135-watt ultralinear version followed in 1977. A late black-panel appearance requires component dating rather than an automatic earlier date.</p>"
+        }
+      ],
+      "support": [
+        "AMP-S001",
+        "AMP-S002",
+        "AMP-S003",
+        "AMP-S004",
+        "AMP-S005",
+        "AMP-S006",
+        "AMP-S007",
+        "AMP-S008",
+        "AMP-S009",
+        "AMP-S010",
+        "AMP-S011",
+        "AMP-S012"
+      ]
+    },
+    {
+      "factId": "AMP-0005",
+      "page": "fender-twin-reverb-authentication-guide",
+      "section": "specifications",
+      "claimType": "table",
+      "claim": {
+        "columns": [
+          "Version / Circuit",
+          "Output And Tubes",
+          "Rectifier / Speakers",
+          "Controls",
+          "Cabinet Details"
+        ],
+        "rows": [
+          [
+            "Early Tweed / 5C8",
+            "About 25 W; two 6L6-family output tubes; three 6SC7 and one 6J5",
+            "5U4 rectifier; two 12-inch speakers",
+            "Normal and Bright volume; bass and treble",
+            "Tweed; wide panels; brown grille; chrome top panel; chicken-head knobs; leather handle"
+          ],
+          [
+            "Narrow Tweed / 5E8-A, 5F8-A",
+            "About 50 W, then 80 to 100 W; two then four 6L6-family output tubes. 5E8-A: three 12AY7 plus one 12AX7; 5F8-A: one 12AY7 plus two 12AX7",
+            "5E8-A: two 5U4; 5F8-A: GZ34; two 12-inch speakers",
+            "Two volumes; treble, bass, presence; later middle control",
+            "Narrow tweed panels; dark grille; chrome top panel; script badge; black chicken-head knobs; leather strap"
+          ],
+          [
+            "Blonde / 6G8, 6G8-A",
+            "80 to 100 W; four 6L6GC/5881; six 12AX7/7025-family small tubes",
+            "Solid-state rectifier; two 12-inch speakers",
+            "Normal and Vibrato channels; tone controls; speed, intensity, presence",
+            "Blonde covering; oxblood or wheat grille; brown panel; flat script logo; white barrel knobs; strap handle"
+          ],
+          [
+            "Blackface Twin Reverb / AB763",
+            "85 W; four 6L6GC; four 12AX7/7025 plus two 12AT7",
+            "Solid-state rectifier; two 12-inch speakers",
+            "Two channels with bright switches; reverb; speed and intensity",
+            "Black covering; silver grille; black panel and skirted knobs; raised logo; black strap; tilt-back legs"
+          ],
+          [
+            "Silverface Twin Reverb",
+            "100 W in later standard versions; 135 W ultralinear from 1977; four 6L6GC; six small tubes as above",
+            "Solid-state rectifier; two 12-inch speakers",
+            "Earlier layout; later master volume and pull function",
+            "Black covering; silver/blue grille with later variations; silver panel; skirted knobs; logo revisions; strap handle"
+          ]
+        ]
+      },
+      "support": [
+        "AMP-S001",
+        "AMP-S002",
+        "AMP-S003",
+        "AMP-S004",
+        "AMP-S005",
+        "AMP-S006",
+        "AMP-S007",
+        "AMP-S008",
+        "AMP-S009",
+        "AMP-S010",
+        "AMP-S011",
+        "AMP-S012"
+      ]
+    },
+    {
+      "factId": "AMP-0006",
+      "page": "fender-twin-reverb-authentication-guide",
+      "section": "dating",
+      "claimType": "serials",
+      "claim": [
+        {
+          "serial": "MC",
+          "title": "March 1963 Tube-Chart Stamp",
+          "html": "<p>The ink stamp on Joe’s blonde Twin reads MC. Its printed 6G8-A designation identifies the circuit family. The production number elsewhere on the chart is a separate marking and isn’t used as the date.</p>",
+          "photo": {
+            "src": {
+              "src": "images/amp-guides-1/1963-fender-twin-amp-17.jpg"
+            },
+            "alt": "1963 Fender Twin chart",
+            "caption": "1963 Fender Twin"
+          }
+        },
+        {
+          "serial": "606248",
+          "title": "A Component Date On The Choke",
+          "html": "<p>The choke photograph shows 125C1A above 606248. The first is the part designation; the second is the source-date stamp. Read it with the <a href=\"/vintage-fender-amplifier-serial-numbers-how-to-find-the-year/#tc-9\">component-code reference</a> and compare it with the chart and the remaining transformers before assigning an assembly period.</p>",
+          "photo": {
+            "src": {
+              "src": "images/amp-guides-1/1963-fender-twin-amp-9.jpg"
+            },
+            "alt": "1963 Fender Twin choke",
+            "caption": "1963 Fender Twin"
+          }
+        }
+      ],
+      "support": [
+        "AMP-S001",
+        "AMP-S002",
+        "AMP-S003",
+        "AMP-S004",
+        "AMP-S005",
+        "AMP-S006",
+        "AMP-S007",
+        "AMP-S008",
+        "AMP-S009",
+        "AMP-S010",
+        "AMP-S011",
+        "AMP-S012"
+      ]
+    },
+    {
+      "factId": "AMP-0007",
+      "page": "fender-twin-reverb-authentication-guide",
+      "section": "original-or-reissue",
+      "claimType": "reissue-tells",
+      "content": [
+        {
+          "type": "prose",
+          "html": "<p>The modern ’65 Twin Reverb uses PCB assemblies identified in Fender’s service manual. A technician can distinguish those boards from an original eyelet-board circuit. The ’68 Custom Twin Reverb has Custom and Vintage channel labels and two Celestion G12V-70 speakers in its standard configuration. Read the rear model identification and compare it with the correct Fender manual before treating the styling as age evidence. Modern production speakers and transformers need to be dated themselves; a period-looking label alone can’t authenticate the complete amp.</p><p>The ’57 Custom Twin-Amp is handwired and uses a tweed-covered pine cabinet with two twelve-inch Eminence speakers. That construction makes “handwired” an insufficient vintage test. Original and modern examples must be distinguished by the complete chassis, labels and component history. A technician can compare construction with the relevant factory drawing without relying on how old the covering looks.</p><p>A Tone Master Twin Reverb has digital electronics and rear features including a USB connection, balanced XLR output and selectable output power. Those controls identify a modern family immediately. It has no vintage tube complement to date. Later Twin designs, including the post-1980 redesigns, also fall outside this guide’s original-era coverage.</p>"
+        },
+        {
+          "type": "callout",
+          "title": "Have Chassis Work Done By An Amp Technician",
+          "html": "<p>Stored electrical charge can remain after the amplifier is unplugged. Exterior photographs and rear labels are a safe starting point; leave internal inspection and component access to a qualified technician.</p>"
+        }
+      ],
+      "support": [
+        "AMP-S002",
+        "AMP-S003",
+        "AMP-S004",
+        "AMP-S005",
+        "AMP-S010",
+        "AMP-S012"
+      ]
+    },
+    {
+      "factId": "AMP-0008",
+      "page": "fender-deluxe-reverb-authentication-guide",
+      "section": "timeline",
+      "claimType": "timeline",
+      "claim": [
+        {
+          "date": "1948 To 1959",
+          "title": "The Tweed Era",
+          "html": "<p>Tweed is the broad era label here for 1948 to 1959. Within the Deluxe family, TV-front and wide-panel cabinets preceded the narrow-panel 5E3. Model-specific records carry narrow-panel Deluxe production into 1960. That continuation is an exception within the model history, rather than a different boundary for the overall Fender era.</p>"
+        },
+        {
+          "date": "1961 To 1963",
+          "title": "Brown Deluxe 6G3",
+          "html": "<p>The brown Deluxe introduced a front-facing control panel and tremolo. Its two channels each have volume and tone controls, with speed and intensity for the effect. Brown covering, a brown panel and barrel knobs give the version a different visible identity from the preceding tweed cabinet.</p>"
+        },
+        {
+          "date": "1963 To 1967",
+          "title": "Blackface Deluxe And Deluxe Reverb",
+          "html": "<p>The blackface era includes both the Deluxe without reverb and the Deluxe Reverb. The AB763 Deluxe Reverb adds the reverb system and associated controls. Identify the model lettering before using the number of knobs or the cabinet’s appearance to make further comparisons.</p>"
+        },
+        {
+          "date": "1967 To 1980",
+          "title": "Silverface Deluxe Reverb",
+          "html": "<p>The silverface era brought a silver control panel and, early in the transition, aluminum grille trim. Later Deluxe Reverbs received a pull-boost feature. The model remained a two-6V6, single-twelve-inch combo; the Twin’s ultralinear power changes shouldn’t be assigned to the Deluxe. A black-panel return at the end of this period needs careful dating.</p>"
+        }
+      ],
+      "support": [
+        "AMP-S013",
+        "AMP-S014",
+        "AMP-S015",
+        "AMP-S016",
+        "AMP-S017",
+        "AMP-S018",
+        "AMP-S019",
+        "AMP-S020",
+        "AMP-S021",
+        "AMP-S022",
+        "AMP-S023"
+      ]
+    },
+    {
+      "factId": "AMP-0009",
+      "page": "fender-deluxe-reverb-authentication-guide",
+      "section": "specifications",
+      "claimType": "table",
+      "claim": {
+        "columns": [
+          "Version / Circuit",
+          "Output And Tubes",
+          "Rectifier / Speakers",
+          "Controls",
+          "Cabinet Details"
+        ],
+        "rows": [
+          [
+            "Tweed / 5E3",
+            "About 12 to 15 W in published ratings; two 6V6GT; one 12AY7 and one 12AX7",
+            "5Y3GT; one 12-inch Jensen P12R/P12Q among documented speakers",
+            "Instrument volume, microphone volume, shared tone",
+            "Narrow tweed panels; brown/oxblood grille; chrome top panel; small script badge; chicken-head knobs; leather handle"
+          ],
+          [
+            "Brown / 6G3",
+            "About 15 W; two 6V6GT; one 7025 and two 12AX7",
+            "GZ34; one 12-inch speaker, including Oxford 12K5",
+            "Two volume/tone channels; speed and intensity",
+            "Brown covering and faceplate; wheat grille; raised script logo; brown barrel knobs; leather strap"
+          ],
+          [
+            "Blackface Deluxe / AA763, AB763",
+            "22 W; two 6V6GT; three 12AX7/7025 and one 12AT7",
+            "GZ34; one 12-inch speaker",
+            "Normal and Vibrato channels; volume, treble, bass; speed and intensity",
+            "Black covering and panel; silver grille; skirted black knobs; logo details require model inspection; black strap"
+          ],
+          [
+            "Blackface Deluxe Reverb / AB763",
+            "22 W; two 6V6GT; four 12AX7/7025 and two 12AT7",
+            "GZ34; one 12-inch speaker, including Oxford 12K5",
+            "Normal volume/treble/bass; Vibrato channel adds reverb, speed, intensity",
+            "Black covering; silver grille; black panel and skirted knobs; raised Fender logo; black strap"
+          ],
+          [
+            "Silverface Deluxe Reverb / AA1270, AA1172",
+            "22 W; two 6V6GT; four 12AX7/7025 and two 12AT7",
+            "5U4GB on later examples; GZ34 on earlier versions; one 12-inch speaker",
+            "Reverb and tremolo layout; later pull boost",
+            "Black covering; silver/blue and later grille variations; silver panel; black skirted knobs; logo and trim changes"
+          ]
+        ]
+      },
+      "support": [
+        "AMP-S013",
+        "AMP-S014",
+        "AMP-S015",
+        "AMP-S016",
+        "AMP-S017",
+        "AMP-S018",
+        "AMP-S019",
+        "AMP-S020",
+        "AMP-S021",
+        "AMP-S022",
+        "AMP-S023"
+      ]
+    },
+    {
+      "factId": "AMP-0010",
+      "page": "fender-deluxe-reverb-authentication-guide",
+      "section": "five-e-three",
+      "claimType": "serials",
+      "claim": [
+        {
+          "serial": "5E3",
+          "title": "A Circuit Code, With No Date Inferred",
+          "html": "<p>This printed designation is legible on Joe’s Deluxe tube chart. The photograph doesn’t support a complete date-stamp reading. The archive identifies the amp as a 1957 Deluxe, and that archive year is kept separate from what can be read from this label.</p>",
+          "photo": {
+            "src": {
+              "src": "images/amp-guides-1/1957-fender-deluxe-tweed-7.jpg"
+            },
+            "alt": "1957 Fender Deluxe chart",
+            "caption": "1957 Fender Deluxe"
+          }
+        }
+      ],
+      "support": [
+        "AMP-S013",
+        "AMP-S014",
+        "AMP-S015",
+        "AMP-S016",
+        "AMP-S017",
+        "AMP-S018",
+        "AMP-S019",
+        "AMP-S020",
+        "AMP-S021",
+        "AMP-S022",
+        "AMP-S023"
+      ]
+    },
+    {
+      "factId": "AMP-0011",
+      "page": "fender-deluxe-reverb-authentication-guide",
+      "section": "original-or-reissue",
+      "claimType": "reissue-tells",
+      "content": [
+        {
+          "type": "columns",
+          "items": [
+            {
+              "title": "’65 And ’68 Reverb Reissues",
+              "html": "<p>Fender’s ’65 Deluxe Reverb service documentation identifies printed-circuit-board assemblies. A technician can distinguish that construction from the original eyelet-board layout. The ’68 Custom uses Custom and Vintage channel labels and a Celestion G12V-70 speaker in its standard specification. Read those labels and the rear identification before dating an amp by a silver panel or aluminum trim.</p>"
+            },
+            {
+              "title": "Handwired Recreations And Tone Master",
+              "html": "<p>The ’57 Custom Deluxe is a modern handwired tweed model, while the ’64 Custom Deluxe Reverb has handwired circuitry and effects on both channels. The ’64’s Normal and Bright channel names help distinguish that version. Tone Master Deluxe Reverbs use digital electronics and have modern rear connections, including USB and XLR. None of those families belongs in an original-era value row.</p>"
+            }
+          ]
+        },
+        {
+          "type": "prose",
+          "html": "<p>The newer ’62 Deluxe also recreates a brownface appearance. Fender identifies that model as a 20-watt design with a twelve-inch Celestion speaker. Compare the full product identification and present parts with the original 6G3 specification. A brown panel and a vintage-style handle by themselves don’t establish 1960s production.</p><p>A modern speaker alone doesn’t prove the entire amplifier is a reissue: it may be a replacement in an old chassis. Conversely, a period speaker doesn’t authenticate the cabinet around it. Check the evidence as a group. For internal board inspection, use a qualified amp technician; dangerous charge can remain inside an unplugged amplifier.</p>"
+        }
+      ],
+      "support": [
+        "AMP-S018",
+        "AMP-S019",
+        "AMP-S020",
+        "AMP-S021",
+        "AMP-S022",
+        "AMP-S023"
+      ]
+    },
+    {
+      "factId": "AMP-0012",
+      "page": "fender-princeton-reverb-authentication-guide",
+      "section": "timeline",
+      "claimType": "timeline",
+      "claim": [
+        {
+          "date": "1948 To 1959",
+          "title": "The Tweed Era And Small Princeton",
+          "html": "<p>The tweed era covers 1948 to 1959. The Princeton passed through TV-front, wide-panel and narrow-panel cabinets, with a single output tube and a small speaker. The narrow-panel 5F2-A is a distinct circuit with volume and tone controls. Model-specific price records include later tweed examples, so the broad era dates aren’t a substitute for individual identification.</p>"
+        },
+        {
+          "date": "1961 To 1963",
+          "title": "Brownface 6G2 Princeton",
+          "html": "<p>The brown 6G2 uses a pair of 6V6 output tubes, a ten-inch speaker and tremolo. Its four controls are volume, tone, speed and intensity. Joe’s brown Princeton shows that arrangement and the later date evidence discussed below. The larger circuit is a substantial change from the small tweed design.</p>"
+        },
+        {
+          "date": "1963 To 1964",
+          "title": "Transitional Black 6G2",
+          "html": "<p>Early black-covered Princetons can retain the 6G2 circuit and white barrel knobs. This transitional appearance is often called tuxedo styling. A black cabinet therefore doesn’t automatically establish the later treble-and-bass-control circuit. Read the controls and chart together.</p>"
+        },
+        {
+          "date": "1964 To 1967",
+          "title": "AA964 Princeton And Princeton Reverb",
+          "html": "<p>The later non-reverb Princeton has separate treble and bass controls. The Princeton Reverb adds reverb and uses its own expanded tube complement. The AA1164 schematic is a reference for that reverb circuit; printed tube-chart designations can differ, as Joe’s AA764-labeled example demonstrates.</p>"
+        },
+        {
+          "date": "1967 To 1980",
+          "title": "Silverface Appearance And Later Controls",
+          "html": "<p>Within the silverface era, the Princeton families adopted silver panels and early aluminum grille trim. Trim, grille and logo details changed over time. Later versions added a pull-boost function, and a black-panel return appears near the end of this scope. Reverb and non-reverb variants still need separate identification.</p>"
+        }
+      ],
+      "support": [
+        "AMP-S024",
+        "AMP-S025",
+        "AMP-S026",
+        "AMP-S027",
+        "AMP-S028",
+        "AMP-S029",
+        "AMP-S030",
+        "AMP-S031",
+        "AMP-S021",
+        "AMP-S032",
+        "AMP-S033",
+        "AMP-S034"
+      ]
+    },
+    {
+      "factId": "AMP-0013",
+      "page": "fender-princeton-reverb-authentication-guide",
+      "section": "specifications",
+      "claimType": "table",
+      "claim": {
+        "columns": [
+          "Version / Circuit",
+          "Output And Tubes",
+          "Rectifier / Speakers",
+          "Controls",
+          "Cabinet Details"
+        ],
+        "rows": [
+          [
+            "Narrow Tweed / 5E2, 5F2, 5F2-A",
+            "About 4 W; one 6V6GT; one 12AX7",
+            "5Y3GT; one 8-inch speaker",
+            "Volume and tone; switch layout varies",
+            "Tweed; oxblood/gold grille; chrome top panel; script badge; black chicken-head knobs; leather handle"
+          ],
+          [
+            "Brown / 6G2",
+            "About 12 W; two 6V6GT; one 7025 and one 12AX7",
+            "5Y3GT; one 10-inch speaker",
+            "Volume, tone, speed and intensity",
+            "Brown covering and panel; wheat grille; brown barrel knobs; script logo; leather strap"
+          ],
+          [
+            "Transitional Black / 6G2",
+            "About 12 W; two 6V6GT; two 12AX7/7025-family small tubes",
+            "5Y3GT; one 10-inch speaker",
+            "Volume and tone; tremolo speed and intensity",
+            "Black covering and panel; light grille; white barrel knobs; transitional trim"
+          ],
+          [
+            "Blackface Princeton / AA964",
+            "About 12 W; two 6V6GT; two 12AX7/7025-family small tubes",
+            "GZ34; one 10-inch speaker",
+            "Volume, treble, bass, speed and intensity",
+            "Black covering; silver grille; black skirted knobs; early examples without grille logo; later raised logo"
+          ],
+          [
+            "Blackface Princeton Reverb / AA1164 Reference",
+            "12 W; two 6V6GT; three 12AX7/7025 and one 12AT7",
+            "GZ34; one 10-inch speaker",
+            "Volume, treble, bass, reverb, speed and intensity",
+            "Black covering and faceplate; silver grille; raised logo; black skirted knobs and strap"
+          ],
+          [
+            "Silverface Princeton Without Reverb / AA964 And Later Revisions",
+            "12 W; two 6V6GT; two 12AX7/7025-family small tubes",
+            "Early GZ34 or later 5U4GB; one 10-inch speaker",
+            "Volume, treble, bass, speed and intensity; later pull boost",
+            "Black covering; silver panel; blue/silver grille; early aluminum surround; black skirted knobs and strap"
+          ],
+          [
+            "Silverface Princeton Reverb",
+            "12 W; two 6V6GT; three 12AX7/7025 and one 12AT7",
+            "Earlier GZ34, later 5U4GB; one 10-inch speaker",
+            "Six-control reverb layout; later pull boost",
+            "Black covering; silver panel; blue/silver grille and later variants; early aluminum trim; black knobs and strap"
+          ]
+        ]
+      },
+      "support": [
+        "AMP-S024",
+        "AMP-S025",
+        "AMP-S026",
+        "AMP-S027",
+        "AMP-S028",
+        "AMP-S029",
+        "AMP-S030",
+        "AMP-S031",
+        "AMP-S021",
+        "AMP-S032",
+        "AMP-S033",
+        "AMP-S034"
+      ]
+    },
+    {
+      "factId": "AMP-0014",
+      "page": "fender-princeton-reverb-authentication-guide",
+      "section": "date-cards",
+      "claimType": "serials",
+      "claim": [
+        {
+          "serial": "ML",
+          "title": "December 1963 On The Brown Princeton",
+          "html": "<p>The two-letter ink stamp reads ML on this chart. M is 1963 and L is December in the decoder. The production notation higher on the label is kept separate. The surrounding cabinet and components still need to support the date.</p>",
+          "photo": {
+            "src": {
+              "src": "images/amp-guides-1/1963-fender-princeton-6.jpg"
+            },
+            "alt": "1963 Fender Princeton chart",
+            "caption": "1963 Fender Princeton"
+          }
+        },
+        {
+          "serial": "PE",
+          "title": "May 1966 On The Princeton Reverb",
+          "html": "<p>P identifies 1966 and E identifies May. The chart also prints AA764 and a power-consumption figure. Neither of those is the date stamp, and wall-power consumption isn’t the amp’s audio output rating.</p>",
+          "photo": {
+            "src": {
+              "src": "images/amp-guides-1/fender-princeton-reverb-1966-blackface-w-paperwo-tube-chart-label.jpg"
+            },
+            "alt": "1966 Fender Princeton Reverb chart",
+            "caption": "1966 Fender Princeton Reverb"
+          }
+        }
+      ],
+      "support": [
+        "AMP-S024",
+        "AMP-S025",
+        "AMP-S026",
+        "AMP-S027",
+        "AMP-S028",
+        "AMP-S029",
+        "AMP-S030",
+        "AMP-S031",
+        "AMP-S021",
+        "AMP-S032",
+        "AMP-S033",
+        "AMP-S034"
+      ]
+    },
+    {
+      "factId": "AMP-0015",
+      "page": "fender-princeton-reverb-authentication-guide",
+      "section": "original-or-reissue",
+      "claimType": "reissue-tells",
+      "content": [
+        {
+          "type": "prose",
+          "html": "<p>The ’65 Princeton Reverb reissue uses a printed circuit board documented in Fender’s service drawing. A qualified technician can compare it with an original eyelet-board layout. Rear model identification and modern component dates provide additional evidence. A replaced modern speaker in an older amp must be distinguished from a complete modern reissue.</p><p>The ’68 Custom Princeton Reverb recreates early silverface styling, including the bright aluminum surround. Its standard Celestion TEN 30 speaker and modern model identification belong to that reissue specification. The surround alone doesn’t establish an original 1968 amplifier. Ask for the rear labels before making an age claim from a front photograph.</p><p>The ’64 Custom Princeton Reverb is a modern handwired model, so hand wiring by itself can’t prove 1960s manufacture. Fender’s ’62 Princeton Chris Stapleton Edition is another modern handwired recreation, with a twelve-inch Eminence speaker instead of the original brown Princeton’s ten-inch format. Those are useful physical distinctions, checked together with the complete model labeling.</p><p>Tone Master Princeton Reverbs are digital models with a rear USB port, XLR output and selectable power settings. The connections provide quick exclusion evidence for an original tube amp. Post-1980 Princeton redesigns also sit outside this guide. Keep those later products separate from the vintage circuits below, even when the Princeton name appears on both.</p>"
+        }
+      ],
+      "support": [
+        "AMP-S031",
+        "AMP-S021",
+        "AMP-S032",
+        "AMP-S033",
+        "AMP-S034"
+      ]
+    },
+    {
+      "factId": "AMP-0016",
+      "page": "fender-amp-eras-tweed-brownface-blackface-silverface",
+      "section": "which-era",
+      "claimType": "table",
+      "claim": {
+        "columns": [
+          "Era",
+          "Years",
+          "Covering",
+          "Grille",
+          "Faceplate",
+          "Knobs",
+          "Example Models"
+        ],
+        "rows": [
+          [
+            "Tweed",
+            "1948 to 1959",
+            "Woven tweed",
+            "Brown or oxblood variations",
+            "Usually chrome, top mounted",
+            "Chicken-head styles",
+            "Deluxe, Princeton, Twin, Bassman"
+          ],
+          [
+            "Blonde And Brownface",
+            "1959 to 1963",
+            "Blonde or brown vinyl",
+            "Oxblood and wheat variations",
+            "Brown, front facing",
+            "Brown or white barrel styles",
+            "Twin, Deluxe, Princeton, Super"
+          ],
+          [
+            "Blackface",
+            "1963 to 1967",
+            "Black vinyl",
+            "Silver cloth; transitional variations",
+            "Black with light lettering",
+            "Usually black skirted; transitional white barrels",
+            "Twin Reverb, Deluxe Reverb, Princeton Reverb"
+          ],
+          [
+            "Silverface",
+            "1967 to 1980",
+            "Black vinyl",
+            "Silver/blue and later pattern changes",
+            "Silver with colored lettering",
+            "Black skirted styles",
+            "Twin Reverb, Deluxe Reverb, Princeton Reverb"
+          ]
+        ]
+      },
+      "support": [
+        "AMP-S035",
+        "AMP-S006",
+        "AMP-S013",
+        "AMP-S026",
+        "AMP-S017"
+      ]
+    },
+    {
+      "factId": "AMP-0017",
+      "page": "princeton-reverb-vs-deluxe-reverb-vs-twin-reverb",
+      "section": "comparison",
+      "claimType": "table",
+      "claim": {
+        "columns": [
+          "Model",
+          "Output",
+          "Power Tubes",
+          "Speakers",
+          "Weight",
+          "Best For",
+          "Value Range"
+        ],
+        "rows": [
+          [
+            "Princeton Reverb",
+            "12 W",
+            "Two 6V6",
+            "One 10-inch",
+            "28 lb documented example",
+            "Compact recording and lower-volume use",
+            "$2,650 to $3,550"
+          ],
+          [
+            "Deluxe Reverb",
+            "22 W",
+            "Two 6V6",
+            "One 12-inch",
+            "37 lb documented example",
+            "A portable starting point for rehearsal and gigs",
+            "$3,450 to $4,300"
+          ],
+          [
+            "Twin Reverb",
+            "85 W",
+            "Four 6L6GC",
+            "Two 12-inch",
+            "62 lb documented example",
+            "Higher clean-volume requirements",
+            "$2,250 to $3,100"
+          ],
+          [
+            "Vibrolux Reverb",
+            "35 W",
+            "Two 6L6GC",
+            "Two 10-inch",
+            "40 lb documented example",
+            "Two ten-inch speakers in a smaller combo",
+            "Individual appraisal"
+          ],
+          [
+            "Super Reverb",
+            "40 W",
+            "Two 6L6GC",
+            "Four 10-inch",
+            "60 lb documented example",
+            "Four-speaker coverage and stage use",
+            "Individual appraisal"
+          ]
+        ]
+      },
+      "support": [
+        "AMP-S027",
+        "AMP-S016",
+        "AMP-S008",
+        "AMP-S036",
+        "AMP-S037"
+      ]
+    }
+  ],
+  "reissueTells": [
+    {
+      "tell": "Twin ’65 PCB construction",
+      "source": "https://schematicheaven.net/fenderamps/65_twin_reverb_%20manual.pdf",
+      "evidence": "Factory service parts list identifies PCB assembly."
+    },
+    {
+      "tell": "Twin ’68 Custom/Vintage channels and Celestion G12V-70 pair",
+      "source": "https://www.fender.com/products/68-custom-twin-reverb",
+      "evidence": "Factory controls and speaker specifications."
+    },
+    {
+      "tell": "Twin ’57 Custom hand wiring, pine cabinet and Eminence speakers",
+      "source": "https://www.fender.com/products/57-custom-twin-amp",
+      "evidence": "Factory features; hand wiring alone does not prove age."
+    },
+    {
+      "tell": "Tone Master Twin digital architecture, USB, XLR and power selector",
+      "source": "https://www.fender.com/products/tone-master-twin-reverb",
+      "evidence": "Factory model features."
+    },
+    {
+      "tell": "Deluxe ’65 PCB construction",
+      "source": "https://el34world.com/charts/Schematics/files/Fender/Fender_65_deluxe_reverb_reissue_sm.pdf",
+      "evidence": "Factory service manual printed-circuit-board assemblies."
+    },
+    {
+      "tell": "Deluxe ’57 Custom handwired tweed",
+      "source": "https://www.fender.com/products/57-custom-deluxe",
+      "evidence": "Factory construction description."
+    },
+    {
+      "tell": "Deluxe ’64 Custom handwired, Normal/Bright labels and effects both channels",
+      "source": "https://www.fender.com/products/64-custom-deluxe-reverb",
+      "evidence": "Factory features and controls; inconsistent small-tube count on product specs is not copied."
+    },
+    {
+      "tell": "Deluxe ’68 Custom/Vintage labels, Celestion G12V-70",
+      "source": "https://www.fender.com/newsroom/271377-fender-releases-68-custom-series-amplifiers/",
+      "evidence": "Factory launch release and specifications."
+    },
+    {
+      "tell": "Modern ’62 Deluxe 20 watts and 12-inch Celestion",
+      "source": "https://www.fender.com/newsroom/270122-from-vintage-purists-to-down-tuned-strummers-fender-s-mid-year-drop-leaves-no-player-behind/",
+      "evidence": "2026 Fender launch announcement; modern exclusion only."
+    },
+    {
+      "tell": "Tone Master Deluxe digital, USB and XLR",
+      "source": "https://www.fender.com/products/tone-master-deluxe-reverb",
+      "evidence": "Factory rear-panel specification."
+    },
+    {
+      "tell": "Princeton ’65 PCB construction",
+      "source": "https://www.gregcutshaw.com/Sweetwater%20Tweed%20Princeton%20Reverb/Fender-65-Princeton-Reverb-Schematic.pdf",
+      "evidence": "Fender PCB assembly drawing; not the unrelated solid-state Princeton 65."
+    },
+    {
+      "tell": "Princeton ’68 Custom aluminum trim, Celestion TEN 30",
+      "source": "https://www.fender.com/newsroom/271377-fender-releases-68-custom-series-amplifiers/",
+      "evidence": "Factory announcement."
+    },
+    {
+      "tell": "Princeton ’64 Custom handwired",
+      "source": "https://www.fender.com/articles/parts-and-accessories/go-inside-the-64-custom-princeton-reverb",
+      "evidence": "Fender construction discussion."
+    },
+    {
+      "tell": "Princeton ’62 Stapleton handwired with 12-inch Eminence versus original 10-inch",
+      "source": "https://www.fender.com/articles/parts-and-accessories/62-princeton-amp-chris-stapleton-edition",
+      "evidence": "Manufacturer comparison to original brown Princeton."
+    },
+    {
+      "tell": "Tone Master Princeton digital, USB, XLR and power selection",
+      "source": "https://www.fmicassets.com/Damroot/Original/10003/OM_2274400000_Tone-Master-Princeton-Reverb_EU.pdf",
+      "evidence": "Manufacturer manual rear-panel controls."
+    }
+  ],
+  "comparisonWeights": [
+    {
+      "model": "Princeton",
+      "url": "https://www.ggjaguar.com/princrev.htm",
+      "pounds": 28,
+      "basis": "Weight of a documented individual vintage example, explicitly labeled. No modern reissue weight substituted."
+    },
+    {
+      "model": "Deluxe",
+      "url": "https://www.ggjaguar.com/dlxrev.htm",
+      "pounds": 37,
+      "basis": "Weight of a documented individual vintage example, explicitly labeled. No modern reissue weight substituted."
+    },
+    {
+      "model": "Twin",
+      "url": "https://www.creamcitymusic.com/vintage-1966-blackface-fender-twin-reverb-2x12-tube-combo-amp/",
+      "pounds": 62,
+      "basis": "Weight of a documented individual vintage example, explicitly labeled. No modern reissue weight substituted."
+    },
+    {
+      "model": "Vibrolux",
+      "url": "https://www.ggjaguar.com/vluxrev.htm",
+      "pounds": 40,
+      "basis": "Weight of a documented individual vintage example, explicitly labeled. No modern reissue weight substituted."
+    },
+    {
+      "model": "Super",
+      "url": "https://www.ggjaguar.com/superrev.htm",
+      "pounds": 60,
+      "basis": "Weight of a documented individual vintage example, explicitly labeled. No modern reissue weight substituted."
+    }
+  ],
+  "editorialJudgment": "Condition checklists and audition suggestions are advice, not claimed statistical premiums or guaranteed outcomes. No invented first-person anecdote or sale result.",
+  "exceptions": [
+    "Canonical company writing databases remain unavailable, as disclosed by the previously approved model-guide batch. Technical research and owned photographs supplied for this brief.",
+    "No modern schematic is used to date an original amp. Reissue documents are used only for exclusion checks and general service safety."
+  ]
+}

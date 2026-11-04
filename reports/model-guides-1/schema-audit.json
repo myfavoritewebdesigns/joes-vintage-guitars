@@ -1,0 +1,112 @@
+[
+  {
+    "slug": "gretsch-white-falcon-value-guide",
+    "faqPairsMatch": true,
+    "faqCount": 4,
+    "headlineMatchesH1": true,
+    "authorMatchesByline": true,
+    "authorBioLink": "/about-me/",
+    "noProhibitedSchema": true,
+    "assessmentNotes": true,
+    "pass": true
+  },
+  {
+    "slug": "gretsch-white-falcon-authentication-guide",
+    "faqPairsMatch": true,
+    "faqCount": 4,
+    "headlineMatchesH1": true,
+    "authorMatchesByline": true,
+    "authorBioLink": "/about-me/",
+    "noProhibitedSchema": true,
+    "assessmentNotes": true,
+    "pass": true
+  },
+  {
+    "slug": "gretsch-country-gentleman-value-guide",
+    "faqPairsMatch": true,
+    "faqCount": 4,
+    "headlineMatchesH1": true,
+    "authorMatchesByline": true,
+    "authorBioLink": "/about-me/",
+    "noProhibitedSchema": true,
+    "assessmentNotes": true,
+    "pass": true
+  },
+  {
+    "slug": "gretsch-country-gentleman-authentication-guide",
+    "faqPairsMatch": true,
+    "faqCount": 4,
+    "headlineMatchesH1": true,
+    "authorMatchesByline": true,
+    "authorBioLink": "/about-me/",
+    "noProhibitedSchema": true,
+    "assessmentNotes": true,
+    "pass": true
+  },
+  {
+    "slug": "gretsch-anniversary-value-guide",
+    "faqPairsMatch": true,
+    "faqCount": 4,
+    "headlineMatchesH1": true,
+    "authorMatchesByline": true,
+    "authorBioLink": "/about-me/",
+    "noProhibitedSchema": true,
+    "assessmentNotes": true,
+    "pass": true
+  },
+  {
+    "slug": "gretsch-anniversary-authentication-guide",
+    "faqPairsMatch": true,
+    "faqCount": 4,
+    "headlineMatchesH1": true,
+    "authorMatchesByline": true,
+    "authorBioLink": "/about-me/",
+    "noProhibitedSchema": true,
+    "assessmentNotes": true,
+    "pass": true
+  },
+  {
+    "slug": "guild-starfire-value-guide",
+    "faqPairsMatch": true,
+    "faqCount": 4,
+    "headlineMatchesH1": true,
+    "authorMatchesByline": true,
+    "authorBioLink": "/about-me/",
+    "noProhibitedSchema": true,
+    "assessmentNotes": true,
+    "pass": true
+  },
+  {
+    "slug": "guild-starfire-authentication-guide",
+    "faqPairsMatch": true,
+    "faqCount": 4,
+    "headlineMatchesH1": true,
+    "authorMatchesByline": true,
+    "authorBioLink": "/about-me/",
+    "noProhibitedSchema": true,
+    "assessmentNotes": true,
+    "pass": true
+  },
+  {
+    "slug": "national-resonator-guitar-value-guide",
+    "faqPairsMatch": true,
+    "faqCount": 4,
+    "headlineMatchesH1": true,
+    "authorMatchesByline": true,
+    "authorBioLink": "/about-me/",
+    "noProhibitedSchema": true,
+    "assessmentNotes": true,
+    "pass": true
+  },
+  {
+    "slug": "national-resonator-guitar-authentication-guide",
+    "faqPairsMatch": true,
+    "faqCount": 4,
+    "headlineMatchesH1": true,
+    "authorMatchesByline": true,
+    "authorBioLink": "/about-me/",
+    "noProhibitedSchema": true,
+    "assessmentNotes": true,
+    "pass": true
+  }
+]

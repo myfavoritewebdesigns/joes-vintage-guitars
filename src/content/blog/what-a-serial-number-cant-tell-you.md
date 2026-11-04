@@ -1,5 +1,6 @@
 ---
 title: "What A Serial Number Can't Tell You: How A Dealer Actually Checks A Vintage Guitar"
+seoTitle: "Vintage Guitar Checks: What A Serial Number Can't Tell You"
 pubDate: "2026-08-26T12:00:00"
 modified: "2026-09-21T11:45:00-07:00"
 excerpt: "On this 1965 Candy Apple Red Strat the silver under the red and the checking off the neck plate do the work a serial can't. A 1966 Lake Placid Blue Jazzmaster shows the same gap on an offset."
@@ -70,6 +71,8 @@ If the number and the guitar disagree, I trust the guitar.
 If you already have photos and you want a person to read them, use the [free appraisal](/free-appraisal/). I work out of Mesa. I do most appraisals remotely from photos.
 
 <h2 id="what-all-original-actually-means">What All Original Actually Means</h2>
+
+For visible clues across electric and acoustic guitars, read about [spotting a guitar refinish](/how-to-tell-if-a-guitar-has-been-refinished/).
 
 Listings use "all original" like a switch. On a guitar that's been played sixty years, I have to say the actual sentence: original finish, original pickups, original tuners, original bridge, original frets, original electronics. A refret knocks it off that strict list even when the work kept it playable.
 

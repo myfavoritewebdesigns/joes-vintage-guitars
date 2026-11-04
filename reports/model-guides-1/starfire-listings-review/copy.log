@@ -1,0 +1,7 @@
+$ node scripts/check-copy.mjs "--" "--out" "work/model-guides-1/starfire-listings/copy.md"
+
+Scanned 372 pages.
+Report: work\model-guides-1\starfire-listings\copy.md
+
+✓ 0 hard-fails. Copy gate is clean.
+🟡 760 warn(s) (report only, never gates).

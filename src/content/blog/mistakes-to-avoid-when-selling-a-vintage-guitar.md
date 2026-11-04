@@ -48,6 +48,8 @@ Before an evaluation, leave the strings, finish, hardware, and electronics alone
 
 You don’t need to make the guitar ready for a performance to find out what it’s worth. Let a [vintage guitar specialist](/about-me/) assess it before you authorize any work.
 
+I explain the repair bill and sale comparison in [whether restoration before selling makes sense](/should-i-restore-my-guitar-before-selling/).
+
 <span id="identify"></span>
 
 ## 2\. Assuming the Serial Number Tells the Whole Story

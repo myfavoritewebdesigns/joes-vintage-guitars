@@ -1,0 +1,89 @@
+{
+  "ranked": 19,
+  "uniqueIds": 19,
+  "allHavePriceEvidence": true,
+  "comparisons": [
+    {
+      "id": "competition-mustang",
+      "low": 3500,
+      "high": 4600,
+      "multiple": 1501,
+      "exactLiveRowVerified": true,
+      "sourceLocation": "Guide table row"
+    },
+    {
+      "id": "fool",
+      "low": 13000,
+      "high": 23000,
+      "multiple": 130,
+      "exactLiveRowVerified": true,
+      "sourceLocation": "Guide table row"
+    },
+    {
+      "id": "gilmour-d35",
+      "low": 8000,
+      "high": 10700,
+      "multiple": 223,
+      "exactLiveRowVerified": true,
+      "sourceLocation": "Guide table row"
+    },
+    {
+      "id": "harrison-sg",
+      "low": 13000,
+      "high": 23000,
+      "multiple": 98,
+      "exactLiveRowVerified": true,
+      "sourceLocation": "Guide table row"
+    },
+    {
+      "id": "strat-0001",
+      "low": 88000,
+      "high": 184800,
+      "multiple": 9,
+      "exactLiveRowVerified": true,
+      "sourceLocation": "Early spring 1954 card div; not a table row"
+    },
+    {
+      "id": "lennon-rickenbacker",
+      "low": 7050,
+      "high": 10550,
+      "multiple": 120,
+      "exactLiveRowVerified": true,
+      "sourceLocation": "Guide table row"
+    },
+    {
+      "id": "gallagher-strat",
+      "low": 26100,
+      "high": 34800,
+      "multiple": 33,
+      "exactLiveRowVerified": true,
+      "sourceLocation": "Guide table row"
+    }
+  ],
+  "cpiSpotChecks": [
+    {
+      "id": "unplugged-martin",
+      "nominal": 6010000,
+      "month": "2020-06",
+      "index": 257.797,
+      "factor": 1.3069973661446797,
+      "adjusted": 7855000
+    },
+    {
+      "id": "hot-for-teacher",
+      "nominal": 3932000,
+      "month": "2023-04",
+      "index": 303.363,
+      "factor": 1.1106825815936683,
+      "adjusted": 4367000
+    },
+    {
+      "id": "strat-0001",
+      "nominal": 1815000,
+      "month": "2019-06",
+      "index": 256.143,
+      "factor": 1.3154370800685555,
+      "adjusted": 2388000
+    }
+  ]
+}

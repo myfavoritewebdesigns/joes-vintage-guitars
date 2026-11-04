@@ -33,7 +33,7 @@ toc:
   - { href: "#five", label: "The Five in These Photos" }
   - { href: "#faq", label: "Frequently Asked Questions" }
 ---
-The asking range for a clean, original vintage Gibson Hummingbird is $1,500 to $11,000, with early 1960s guitars toward the upper end. A 1960 to 1962 cherry sunburst sits at $7,500 to $11,000; a 1973 to 1979 example sits at $1,500 to $3,000. I assess the year, bridge condition, originality and repairs before discussing an offer.
+The asking range for a clean, original vintage Gibson Hummingbird is $1,500 to $11,000, with early 1960s guitars toward the upper end. A 1960 to 1962 cherry sunburst sits at $7,500 to $11,000; a 1973 to 1979 example sits at $2,600 to $3,600. I assess the year, bridge condition, originality and repairs before discussing an offer.
 
 <h2 id="value">Vintage Gibson Hummingbird Values By Year</h2>
 
@@ -44,23 +44,23 @@ As of October 2026, the table shows asking ranges for clean, all-original, struc
 | 1960 | $7,500 to $11,000 | First Year, Cherry Sunburst, Wide Nut, Fixed Saddle |
 | 1961 | $7,500 to $11,000 | Cherry Sunburst, Wide Nut, Early Run |
 | 1962 | $7,500 to $11,000 | Cherry Sunburst, Wide Nut, Early Run |
-| 1963 | $6,000 to $9,000 | Cherry Sunburst, Wide Nut, Adjustable Saddle |
-| 1964 | $6,000 to $9,000 | Cherry Sunburst, Wide Nut, Adjustable Saddle |
-| 1965 | $4,500 to $6,500 | Narrow Nut, Otherwise Unchanged |
+| 1963 | $7,900 to $10,550 | Cherry Sunburst, Wide Nut, Adjustable Saddle |
+| 1964 | $7,850 to $10,450 | Cherry Sunburst, Wide Nut, Adjustable Saddle |
+| 1965 | $5,200 to $7,400 | Narrow Nut, Otherwise Unchanged |
 | 1966 | $3,500 to $5,000 | Later 1960s, Heavier Build From 1968 |
 | 1967 | $3,500 to $5,000 | Later 1960s, Heavier Build From 1968 |
 | 1968 | $3,500 to $5,000 | Later 1960s, Heavier Build From 1968 |
-| 1969 | $2,000 to $3,500 | Late 1960s Neck And Bridge Transition |
-| 1970 | $2,000 to $3,500 | Fixed Saddle, Chrome, Three-Piece Neck |
-| 1971 | $2,000 to $3,500 | Fixed Saddle, Chrome, Three-Piece Neck |
-| 1972 | $2,000 to $3,500 | Fixed Saddle, Chrome, Three-Piece Neck |
-| 1973 | $1,500 to $3,000 | Block Inlays, Double-X Bracing, Custom Label |
-| 1974 | $1,500 to $3,000 | Block Inlays, Double-X Bracing, Custom Label |
-| 1975 | $1,500 to $3,000 | Block Inlays, Double-X Bracing, Custom Label |
-| 1976 | $1,500 to $3,000 | Block Inlays, Double-X Bracing, Custom Label |
-| 1977 | $1,500 to $3,000 | Block Inlays, Double-X Bracing, Custom Label |
-| 1978 | $1,500 to $3,000 | Block Inlays, Double-X Bracing, Custom Label |
-| 1979 | $1,500 to $3,000 | Block Inlays, Double-X Bracing, Custom Label |
+| 1969 | $3,100 to $4,400 | Late 1960s Neck And Bridge Transition |
+| 1970 | $2,650 to $3,950 | Fixed Saddle, Chrome, Three-Piece Neck |
+| 1971 | $2,700 to $4,050 | Fixed Saddle, Chrome, Three-Piece Neck |
+| 1972 | $2,650 to $3,550 | Fixed Saddle, Chrome, Three-Piece Neck |
+| 1973 | $2,700 to $3,600 | Block Inlays, Double-X Bracing, Custom Label |
+| 1974 | $2,650 to $3,500 | Block Inlays, Double-X Bracing, Custom Label |
+| 1975 | $2,650 to $3,550 | Block Inlays, Double-X Bracing, Custom Label |
+| 1976 | $2,650 to $3,500 | Block Inlays, Double-X Bracing, Custom Label |
+| 1977 | $2,650 to $3,500 | Block Inlays, Double-X Bracing, Custom Label |
+| 1978 | $2,600 to $3,500 | Block Inlays, Double-X Bracing, Custom Label |
+| 1979 | $2,600 to $3,450 | Block Inlays, Double-X Bracing, Custom Label |
 
 A 1965 label alone doesn't settle the nut width. That row covers the narrow-nut configuration; an early wide-nut guitar needs an individual appraisal. Natural finishes, unusual wood combinations, major repairs and bridge replacements also need separate consideration.
 
@@ -254,9 +254,9 @@ What we tell people: **do not convert a clean, original, early Hummingbird.** A 
 
 <figure>
 
-![Close up of the rectangular rosewood bridge on a 1961 Gibson Hummingbird, showing a rosewood saddle set into the routed slot with no height adjustment screws present.](../../assets/blog/vintage-gibson-hummingbird-history-value-guide/1961-gibson-hummingbird-rosewood-bridge-detail.jpg)
+![Close up of the rectangular rosewood bridge on a 1961 Gibson Hummingbird, showing a later fixed wooden saddle made to fit the original adjustable-saddle channel.](../../assets/blog/vintage-gibson-hummingbird-history-value-guide/1961-gibson-hummingbird-rosewood-bridge-detail.jpg)
 
-<figcaption><strong>Here is what to look for.</strong> The 1961 has a wide routed saddle channel with a rosewood saddle sitting down in it and no adjuster screws at either end. Given that 1961 is the exact year the adjustable saddle came in, this one could be a transitional guitar or it could be an adjustable bridge that lost its hardware. That is a question worth settling with the guitar in your hands before you agree a number.</figcaption>
+<figcaption><strong>Here is what to look for.</strong> This 1961 left the factory with an adjustable saddle. Someone later made a non-adjustable wooden saddle to fit the wide routed channel, removing the height-adjustment hardware. The fixed wooden saddle is a modification, not a factory transitional feature. Include that change when judging originality and value.</figcaption>
 </figure>
 
 <figure>
@@ -327,7 +327,7 @@ Check that the number on the label matches the stamp on the headstock. On the 19
 This is how you actually date one, and it takes about a minute:
 
 1. **Look at the fretboard inlays.** Blocks means 1973 to about 1980. Parallelograms means everything else.
-2. **Look at the bridge.** Adjustable saddle on two screws means 1961 to 1969. Plain fixed saddle means either a first year guitar or 1970 and later, and the rest of the list tells you which.
+2. **Look at the bridge.** Adjustable saddle on two screws means 1961 to 1969. A factory fixed saddle can indicate a first-year guitar or 1970 and later, but a converted adjustable bridge also loses its screws. Check the slot and repair history before dating it.
 3. **Look at the bridge shape.** Belly up through most of the sixties, moving to belly down across 1968 and 1969.
 4. **Look at the tuner plating.** Gold means the sixties. Chrome means 1970 or later.
 5. **Look at the back of the neck.** One piece mahogany, no glue lines, means the sixties. Two visible glue lines means 1970 or later.
@@ -346,6 +346,8 @@ What the Hummingbird does that the Martin does not is sit under a voice without 
 The eras really do sound different. An early sixties one with light bracing and sixty years on it is open, loud for a mahogany guitar, and quick to respond. A 1968 is noticeably stiffer. A 1975 with double X bracing is a different instrument, tight and polite, and no amount of playing in is going to loosen it much, because the bracing is the reason.
 
 <h2 id="versus">Hummingbird Vs J-45 Vs Dove</h2>
+
+For the maple-bodied model in this comparison, my [Dove authentication guide](/gibson-dove-authentication-guide/) covers its bridge, woods and original features, while the [Dove value guide](/vintage-gibson-dove-value-guide/) provides its own era ranges. A natural Gibson with Southern Jumbo trim also needs a separate comparison; see the [Country Western authentication guide](/gibson-country-western-authentication-guide/).
 
 The three questions we get asked most, answered together.
 
@@ -393,7 +395,7 @@ The mid sixties guitar in these photos is the honest example. It has the prettie
 
 For the record, since every photo above is one of these:
 
-**The 1961, serial 35384.** Two word HUMMING BIRD label matching the headstock stamp, gold Klusons with white buttons, deep original cherry on the mahogany. The bridge on this one has a rosewood saddle sitting in the slot with no adjuster screws present, so at some point somebody dealt with the adjustable hardware. Worth knowing about, and exactly the kind of thing to check before you agree a price.
+**The 1961, serial 35384.** Two word HUMMING BIRD label matching the headstock stamp, gold Klusons with white buttons, deep original cherry on the mahogany. It originally had an adjustable saddle; someone later made a fixed wooden replacement for that routed channel and removed the adjustment hardware. That conversion belongs in its condition report.
 
 **The mid sixties example, serial 150277.** Two word label matching the headstock stamp, gold tuners, and the best preserved burst of the five, complete with its case, the case key, and an unopened box of Gibson strings. The adjustable bridge with the rosewood saddle is a replacement, which we mention because a guitar this clean is exactly the kind where a buyer assumes everything is original and nobody thinks to ask.
 

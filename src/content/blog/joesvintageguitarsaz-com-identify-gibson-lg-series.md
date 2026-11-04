@@ -1,5 +1,6 @@
 ---
 title: "Vintage Gibson LG Series: A Guide to the LG-0, LG-1, LG-2, and LG-3 Models"
+seoTitle: "Vintage Gibson LG-0, LG-1, LG-2 And LG-3 Identification"
 pubDate: "2026-02-17T03:29:04"
 modified: "2026-04-01T16:46:52"
 excerpt: "The Gibson LG series packs a lot of guitar into a small body. From the X-braced LG-2 to the mahogany LG-0, these “Little Guitars” offer a focused, punchy tone that has made them a favorite for over 80 years. If you have a wartime “Banner” model or a late-60s workhorse, our guide helps you identify your specific model and explains why these small-body Gibsons are climbing in collector value."
@@ -17,6 +18,8 @@ A prime example of a late 1950s Gibson LG-2. This model features the transition-
 ## How to Identify a Gibson LG-0, LG-1, LG-2, and LG-3
 
 For annual price references and repair context, use my [vintage Gibson LG series value guide](/vintage-gibson-lg-series-value-guide/). This page explains identification and construction.
+
+The L-0 and L-00 are separate small-body Gibson models, not alternative names for the LG-0 or LG-2. My [combined L-0 and L-00 guide](/vintage-gibson-l-0-l-00-value-guide/) compares the early all-mahogany L-0, revived black L-0 and sunburst L-00, with photographs, identification checks and values.
 
 Among vintage acoustics, the **Gibson LG series** is a real “sleeper” guitar. While the J-45 gets the attention for its big volume, the LG models (the LG-0, LG-1, LG-2, and LG-3) are studio favorites. Their 14 1/8″ body size makes them comfortable, balanced, and very articulate.
 

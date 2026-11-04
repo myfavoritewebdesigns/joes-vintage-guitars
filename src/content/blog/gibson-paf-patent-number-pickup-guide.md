@@ -1,5 +1,6 @@
 ---
 title: "Gibson PAF and Patent Number Pickups: History, Authentication, and Value"
+seoTitle: "Gibson PAF And Patent Number Pickups: Authentication"
 pubDate: "2026-07-13T12:00:00"
 modified: "2026-07-13T12:00:00"
 excerpt: "The Gibson PAF humbucker is the most valuable two ounces of wire and metal in the guitar world, and the patent number pickup that followed it is the best bargain. This guide covers the whole story: how Seth Lover invented the humbucker, how the pickup changed from 1957 through the 1970s, every authentication point we check on the bench, and what these pickups are really worth. It also explains, in plain terms, why you should never take one apart to find out."
@@ -157,6 +158,8 @@ Add it up and you get the practical truth we tell customers: PAFs range from goo
 The reason a wire coil costs five figures is the records it made. Eric Clapton's 1966 Bluesbreakers sessions with a sunburst Les Paul into a Marshall defined the rock guitar sound and sent every serious player hunting for a PAF Les Paul. Mike Bloomfield did the same for American players once his own sunburst Les Paul arrived in 1967. Jimmy Page cut most of the first Led Zeppelin record on a Telecaster, then spent the rest of the catalog on the PAF loaded Les Paul the whole world pictures him with. Duane Allman's slide voice and Paul Kossoff's vibrato were PAF humbuckers into loud amps, and by the mid 1970s the pickups had a reputation, a nickname, and a market of their own. Allman even moved his favorite set from one Les Paul to the next when he traded guitars, which tells you players knew exactly where the sound lived. Players pulled them out of unfashionable archtops to stuff into Les Pauls, which is why so many loose examples exist at all, and why so many big hollow bodies from the era now wear replacements. That history lives on in a legal footnote too: the trademark on the term "PAF" for pickups has belonged to DiMarzio since the late 1970s, which is why Gibson's own reissue pickups carry names like Burstbucker and 57 Classic rather than the name everyone actually uses. Gibson has been challenging that registration in recent years, so sixty years on, even the name is still being fought over.
 
 <h2 id="paf-guitar">Start with the Guitar, Not the Pickup</h2>
+
+If the pickups have been changed, I explain [how replacement pickups and routing affect the whole guitar](/do-replaced-pickups-hurt-guitar-value/).
 
 Now the bench work. The first rule of pickup authentication is that a pickup almost never walks in alone. It arrives in a guitar, and the guitar is a witness with a long memory. Before we look at the pickup at all, we read everything around it.
 

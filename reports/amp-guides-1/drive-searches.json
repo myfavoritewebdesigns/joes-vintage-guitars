@@ -1,0 +1,437 @@
+{
+  "searchedAt": "2026-11-02",
+  "scope": "All accessible Drive folders, plus direct inventory CSV reads for media archive tranches 1, 2 and 4, 2) Guitar photos and original backup folders. Browser Drive search supplied archive folders absent from connector keyword results.",
+  "queries": [
+    {
+      "query": "1956 Champ",
+      "results": [
+        {
+          "url": "https://drive.google.com/drive/folders/1ql9A1ZjU8A7AFonGPt2S20ZbzIJzzKzN",
+          "title": "1956 Tweed Champ",
+          "id": "1ql9A1ZjU8A7AFonGPt2S20ZbzIJzzKzN",
+          "mime_type": "application/vnd.google-apps.folder",
+          "size": null,
+          "file_or_folder": "folder",
+          "created_at": "2026-09-30T23:37:06.511Z",
+          "updated_at": "2026-09-30T23:37:06.511Z",
+          "viewedByMeTime": "2026-09-30T23:37:06.511Z",
+          "display_title": "1956 Tweed Champ",
+          "display_url": "https://drive.google.com/drive/folders/1ql9A1ZjU8A7AFonGPt2S20ZbzIJzzKzN",
+          "parent_ids": [
+            "1Pq5xqoIdNTeD5N4H5kcAYhG_GYLD-FIf"
+          ],
+          "shared": true,
+          "can_download": true,
+          "can_list_children": true
+        }
+      ]
+    },
+    {
+      "query": "1959 Champ",
+      "results": [
+        {
+          "url": "https://drive.google.com/drive/folders/1-VJvwFufccfxKXqwcnYWMWNuQP1dfE0h",
+          "title": "1959 fender champ",
+          "id": "1-VJvwFufccfxKXqwcnYWMWNuQP1dfE0h",
+          "mime_type": "application/vnd.google-apps.folder",
+          "size": null,
+          "file_or_folder": "folder",
+          "created_at": "2026-09-30T23:37:06.510Z",
+          "updated_at": "2026-09-30T23:37:06.510Z",
+          "viewedByMeTime": "2026-09-30T23:37:06.510Z",
+          "display_title": "1959 fender champ",
+          "display_url": "https://drive.google.com/drive/folders/1-VJvwFufccfxKXqwcnYWMWNuQP1dfE0h",
+          "parent_ids": [
+            "1Pq5xqoIdNTeD5N4H5kcAYhG_GYLD-FIf"
+          ],
+          "shared": true,
+          "can_download": true,
+          "can_list_children": true
+        }
+      ]
+    },
+    {
+      "query": "1958 Princeton",
+      "results": [
+        {
+          "url": "https://drive.google.com/drive/folders/1h4I_S7vuWamHt-DxTwU31PfInKEK6Jbl",
+          "title": "1958 Fender Princeton",
+          "id": "1h4I_S7vuWamHt-DxTwU31PfInKEK6Jbl",
+          "mime_type": "application/vnd.google-apps.folder",
+          "size": null,
+          "file_or_folder": "folder",
+          "created_at": "2026-09-30T23:37:06.509Z",
+          "updated_at": "2026-09-30T23:37:06.509Z",
+          "viewedByMeTime": "2026-09-30T23:37:06.509Z",
+          "display_title": "1958 Fender Princeton",
+          "display_url": "https://drive.google.com/drive/folders/1h4I_S7vuWamHt-DxTwU31PfInKEK6Jbl",
+          "parent_ids": [
+            "1Pq5xqoIdNTeD5N4H5kcAYhG_GYLD-FIf"
+          ],
+          "shared": true,
+          "can_download": true,
+          "can_list_children": true
+        }
+      ]
+    },
+    {
+      "query": "1963 Princeton",
+      "results": [
+        {
+          "url": "https://drive.google.com/drive/folders/1AXHOavvEvY-ir51OfUKbiimR882xU3N2",
+          "title": "1963 Fender Princeton",
+          "id": "1AXHOavvEvY-ir51OfUKbiimR882xU3N2",
+          "mime_type": "application/vnd.google-apps.folder",
+          "size": null,
+          "file_or_folder": "folder",
+          "created_at": "2026-09-30T17:02:45.018Z",
+          "updated_at": "2026-09-30T17:02:45.018Z",
+          "viewedByMeTime": "2026-09-30T17:02:45.018Z",
+          "display_title": "1963 Fender Princeton",
+          "display_url": "https://drive.google.com/drive/folders/1AXHOavvEvY-ir51OfUKbiimR882xU3N2",
+          "parent_ids": [
+            "1ACaTVazgLuYJEuEN2u1cmcd5Lbmh-_uN"
+          ],
+          "shared": true,
+          "can_download": true,
+          "can_list_children": true
+        }
+      ]
+    },
+    {
+      "query": "1959 Bassman",
+      "results": [
+        {
+          "url": "https://drive.google.com/drive/folders/1bSjnHaXdSltHtK6o1D3Zqr0ev_anBe2Z",
+          "title": "1959 Fender Bassman",
+          "id": "1bSjnHaXdSltHtK6o1D3Zqr0ev_anBe2Z",
+          "mime_type": "application/vnd.google-apps.folder",
+          "size": null,
+          "file_or_folder": "folder",
+          "created_at": "2026-09-30T23:37:06.499Z",
+          "updated_at": "2026-09-30T23:37:06.499Z",
+          "viewedByMeTime": "2026-09-30T23:37:06.499Z",
+          "display_title": "1959 Fender Bassman",
+          "display_url": "https://drive.google.com/drive/folders/1bSjnHaXdSltHtK6o1D3Zqr0ev_anBe2Z",
+          "parent_ids": [
+            "1Pq5xqoIdNTeD5N4H5kcAYhG_GYLD-FIf"
+          ],
+          "shared": true,
+          "can_download": true,
+          "can_list_children": true
+        }
+      ]
+    },
+    {
+      "query": "1963 Bassman",
+      "results": [
+        {
+          "url": "https://drive.google.com/drive/folders/1rADWtwcegSwXkwqlSDRGABLhcTHauXzf",
+          "title": "1963 Fender Bassman",
+          "id": "1rADWtwcegSwXkwqlSDRGABLhcTHauXzf",
+          "mime_type": "application/vnd.google-apps.folder",
+          "size": null,
+          "file_or_folder": "folder",
+          "created_at": "2026-09-30T23:37:03.552Z",
+          "updated_at": "2026-09-30T23:37:03.552Z",
+          "viewedByMeTime": "2026-09-30T23:37:03.552Z",
+          "display_title": "1963 Fender Bassman",
+          "display_url": "https://drive.google.com/drive/folders/1rADWtwcegSwXkwqlSDRGABLhcTHauXzf",
+          "parent_ids": [
+            "1Pq5xqoIdNTeD5N4H5kcAYhG_GYLD-FIf"
+          ],
+          "shared": true,
+          "can_download": true,
+          "can_list_children": true
+        },
+        {
+          "url": "https://drive.google.com/drive/folders/1ml-ci5IQsLtCvZFGwot2uiZG3wQIOAJa",
+          "title": "1963 Fender Bassman",
+          "id": "1ml-ci5IQsLtCvZFGwot2uiZG3wQIOAJa",
+          "mime_type": "application/vnd.google-apps.folder",
+          "size": null,
+          "file_or_folder": "folder",
+          "created_at": "2026-02-10T17:30:10.006Z",
+          "updated_at": "2026-02-10T17:30:10.006Z",
+          "viewedByMeTime": "2026-02-10T17:30:10.006Z",
+          "display_title": "1963 Fender Bassman",
+          "display_url": "https://drive.google.com/drive/folders/1ml-ci5IQsLtCvZFGwot2uiZG3wQIOAJa",
+          "parent_ids": [
+            "1ACaTVazgLuYJEuEN2u1cmcd5Lbmh-_uN"
+          ],
+          "shared": true,
+          "can_download": true,
+          "can_list_children": true
+        }
+      ]
+    },
+    {
+      "query": "1959 Vibrolux",
+      "results": [
+        {
+          "url": "https://drive.google.com/drive/folders/15xdc98CKz5EqHMcn_QxxTpbppJrSuGI_",
+          "title": "1959 Fender Vibrolux",
+          "id": "15xdc98CKz5EqHMcn_QxxTpbppJrSuGI_",
+          "mime_type": "application/vnd.google-apps.folder",
+          "size": null,
+          "file_or_folder": "folder",
+          "created_at": "2026-09-30T23:37:05.597Z",
+          "updated_at": "2026-09-30T23:37:05.597Z",
+          "viewedByMeTime": "2026-09-30T23:37:05.597Z",
+          "display_title": "1959 Fender Vibrolux",
+          "display_url": "https://drive.google.com/drive/folders/15xdc98CKz5EqHMcn_QxxTpbppJrSuGI_",
+          "parent_ids": [
+            "1Pq5xqoIdNTeD5N4H5kcAYhG_GYLD-FIf"
+          ],
+          "shared": true,
+          "can_download": true,
+          "can_list_children": true
+        },
+        {
+          "url": "https://drive.google.com/drive/folders/1jb1QGZtL8FtGpVCtWcEFDYhVf8JnKNnb",
+          "title": "1959 Fender Vibrolux",
+          "id": "1jb1QGZtL8FtGpVCtWcEFDYhVf8JnKNnb",
+          "mime_type": "application/vnd.google-apps.folder",
+          "size": null,
+          "file_or_folder": "folder",
+          "created_at": "2025-12-22T17:57:06.844Z",
+          "updated_at": "2025-12-22T17:57:06.844Z",
+          "viewedByMeTime": "2025-12-22T17:57:06.844Z",
+          "display_title": "1959 Fender Vibrolux",
+          "display_url": "https://drive.google.com/drive/folders/1jb1QGZtL8FtGpVCtWcEFDYhVf8JnKNnb",
+          "parent_ids": [
+            "1ACaTVazgLuYJEuEN2u1cmcd5Lbmh-_uN"
+          ],
+          "shared": true,
+          "can_download": true,
+          "can_list_children": true
+        }
+      ]
+    },
+    {
+      "query": "1961 Vibrolux",
+      "results": [
+        {
+          "url": "https://drive.google.com/drive/folders/1Qcjkh8D8wpBDnoOhuW4kdCdxFmGa5GaZ",
+          "title": "1961 Fender Vibrolux",
+          "id": "1Qcjkh8D8wpBDnoOhuW4kdCdxFmGa5GaZ",
+          "mime_type": "application/vnd.google-apps.folder",
+          "size": null,
+          "file_or_folder": "folder",
+          "created_at": "2026-09-30T23:37:05.499Z",
+          "updated_at": "2026-09-30T23:37:05.499Z",
+          "viewedByMeTime": "2026-09-30T23:37:05.499Z",
+          "display_title": "1961 Fender Vibrolux",
+          "display_url": "https://drive.google.com/drive/folders/1Qcjkh8D8wpBDnoOhuW4kdCdxFmGa5GaZ",
+          "parent_ids": [
+            "1Pq5xqoIdNTeD5N4H5kcAYhG_GYLD-FIf"
+          ],
+          "shared": true,
+          "can_download": true,
+          "can_list_children": true
+        }
+      ]
+    },
+    {
+      "query": "1965 Super Reverb",
+      "results": []
+    },
+    {
+      "query": "1966 Super Reverb",
+      "results": []
+    },
+    {
+      "query": "1965 Showman",
+      "results": []
+    },
+    {
+      "query": "1967 Bandmaster",
+      "results": []
+    },
+    {
+      "query": "1967 Pro Reverb",
+      "results": []
+    },
+    {
+      "query": "1968 Twin",
+      "results": []
+    },
+    {
+      "query": "1969 Twin",
+      "results": []
+    },
+    {
+      "query": "1973 Princeton",
+      "results": []
+    },
+    {
+      "query": "1979 Deluxe",
+      "results": []
+    },
+    {
+      "query": "1962 Tremolux",
+      "results": [
+        {
+          "url": "https://drive.google.com/drive/folders/1YJJa6kYjOFZSIWcufX6ox2nB-Ncyzvi-",
+          "title": "1962 Fender Tremolux",
+          "id": "1YJJa6kYjOFZSIWcufX6ox2nB-Ncyzvi-",
+          "mime_type": "application/vnd.google-apps.folder",
+          "size": null,
+          "file_or_folder": "folder",
+          "created_at": "2026-09-30T23:37:03.563Z",
+          "updated_at": "2026-09-30T23:37:03.563Z",
+          "viewedByMeTime": "2026-09-30T23:37:03.563Z",
+          "display_title": "1962 Fender Tremolux",
+          "display_url": "https://drive.google.com/drive/folders/1YJJa6kYjOFZSIWcufX6ox2nB-Ncyzvi-",
+          "parent_ids": [
+            "1Pq5xqoIdNTeD5N4H5kcAYhG_GYLD-FIf"
+          ],
+          "shared": true,
+          "can_download": true,
+          "can_list_children": true
+        }
+      ]
+    },
+    {
+      "query": "1962 Super",
+      "results": [
+        {
+          "url": "https://drive.google.com/drive/folders/11FILDB4kOS1VTeXfpzS8Ek3mBHhRQ1HS",
+          "title": "1962 Fender Super Amp",
+          "id": "11FILDB4kOS1VTeXfpzS8Ek3mBHhRQ1HS",
+          "mime_type": "application/vnd.google-apps.folder",
+          "size": null,
+          "file_or_folder": "folder",
+          "created_at": "2026-08-26T20:09:15.133Z",
+          "updated_at": "2026-08-26T20:09:15.133Z",
+          "viewedByMeTime": "2026-08-26T20:09:15.133Z",
+          "display_title": "1962 Fender Super Amp",
+          "display_url": "https://drive.google.com/drive/folders/11FILDB4kOS1VTeXfpzS8Ek3mBHhRQ1HS",
+          "parent_ids": [
+            "1ACaTVazgLuYJEuEN2u1cmcd5Lbmh-_uN"
+          ],
+          "shared": true,
+          "can_download": true,
+          "can_list_children": true
+        }
+      ]
+    },
+    {
+      "query": "1963 Concert",
+      "results": []
+    },
+    {
+      "query": "1964 Vibrolux",
+      "results": [
+        {
+          "url": "https://drive.google.com/drive/folders/1I-qqkPi4Z4EjFkVpAMkHzcGC5P9DH1V2",
+          "title": "1964 Fender Vibrolux",
+          "id": "1I-qqkPi4Z4EjFkVpAMkHzcGC5P9DH1V2",
+          "mime_type": "application/vnd.google-apps.folder",
+          "size": null,
+          "file_or_folder": "folder",
+          "created_at": "2026-08-26T20:09:22.227Z",
+          "updated_at": "2026-08-26T20:09:22.227Z",
+          "viewedByMeTime": "2026-08-26T20:09:22.227Z",
+          "display_title": "1964 Fender Vibrolux",
+          "display_url": "https://drive.google.com/drive/folders/1I-qqkPi4Z4EjFkVpAMkHzcGC5P9DH1V2",
+          "parent_ids": [
+            "1ACaTVazgLuYJEuEN2u1cmcd5Lbmh-_uN"
+          ],
+          "shared": true,
+          "can_download": true,
+          "can_list_children": true
+        }
+      ]
+    },
+    {
+      "query": "Vibrasonic",
+      "results": [
+        {
+          "url": "https://drive.google.com/drive/folders/1BItXF1e2pQi1mAvbY6o4nyMaWzZBLPIp",
+          "title": "1959 Fender Vibrasonic",
+          "id": "1BItXF1e2pQi1mAvbY6o4nyMaWzZBLPIp",
+          "mime_type": "application/vnd.google-apps.folder",
+          "size": null,
+          "file_or_folder": "folder",
+          "created_at": "2026-09-30T23:37:05.591Z",
+          "updated_at": "2026-09-30T23:37:05.591Z",
+          "viewedByMeTime": "2026-09-30T23:37:05.591Z",
+          "display_title": "1959 Fender Vibrasonic",
+          "display_url": "https://drive.google.com/drive/folders/1BItXF1e2pQi1mAvbY6o4nyMaWzZBLPIp",
+          "parent_ids": [
+            "1Pq5xqoIdNTeD5N4H5kcAYhG_GYLD-FIf"
+          ],
+          "shared": true,
+          "can_download": true,
+          "can_list_children": true
+        }
+      ]
+    },
+    {
+      "query": "1960 Super",
+      "results": [
+        {
+          "url": "https://drive.google.com/drive/folders/1PtqQmSEYJ7vcbcxxjCwqmuoVerRP0ccK",
+          "title": "1960 Fender Super Pink",
+          "id": "1PtqQmSEYJ7vcbcxxjCwqmuoVerRP0ccK",
+          "mime_type": "application/vnd.google-apps.folder",
+          "size": null,
+          "file_or_folder": "folder",
+          "created_at": "2026-09-30T23:37:05.595Z",
+          "updated_at": "2026-09-30T23:37:05.595Z",
+          "viewedByMeTime": "2026-09-30T23:37:05.595Z",
+          "display_title": "1960 Fender Super Pink",
+          "display_url": "https://drive.google.com/drive/folders/1PtqQmSEYJ7vcbcxxjCwqmuoVerRP0ccK",
+          "parent_ids": [
+            "1Pq5xqoIdNTeD5N4H5kcAYhG_GYLD-FIf"
+          ],
+          "shared": true,
+          "can_download": true,
+          "can_list_children": true
+        },
+        {
+          "url": "https://drive.google.com/drive/folders/1bSZ3Dps5Z9nPN9zEOnAawrbQ2_48FDIr",
+          "title": "1960 Fender Super Amp",
+          "id": "1bSZ3Dps5Z9nPN9zEOnAawrbQ2_48FDIr",
+          "mime_type": "application/vnd.google-apps.folder",
+          "size": null,
+          "file_or_folder": "folder",
+          "created_at": "2026-09-30T23:37:05.594Z",
+          "updated_at": "2026-09-30T23:37:05.594Z",
+          "viewedByMeTime": "2026-09-30T23:37:05.594Z",
+          "display_title": "1960 Fender Super Amp",
+          "display_url": "https://drive.google.com/drive/folders/1bSZ3Dps5Z9nPN9zEOnAawrbQ2_48FDIr",
+          "parent_ids": [
+            "1Pq5xqoIdNTeD5N4H5kcAYhG_GYLD-FIf"
+          ],
+          "shared": true,
+          "can_download": true,
+          "can_list_children": true
+        },
+        {
+          "url": "https://drive.google.com/drive/folders/1dzijK3w9BZkqhJpGfPcj4rKGITpywH9X",
+          "title": "1960 Fender Super Center Volume",
+          "id": "1dzijK3w9BZkqhJpGfPcj4rKGITpywH9X",
+          "mime_type": "application/vnd.google-apps.folder",
+          "size": null,
+          "file_or_folder": "folder",
+          "created_at": "2026-09-30T23:37:05.591Z",
+          "updated_at": "2026-09-30T23:37:05.591Z",
+          "viewedByMeTime": "2026-09-30T23:37:05.591Z",
+          "display_title": "1960 Fender Super Center Volume",
+          "display_url": "https://drive.google.com/drive/folders/1dzijK3w9BZkqhJpGfPcj4rKGITpywH9X",
+          "parent_ids": [
+            "1Pq5xqoIdNTeD5N4H5kcAYhG_GYLD-FIf"
+          ],
+          "shared": true,
+          "can_download": true,
+          "can_list_children": true
+        }
+      ]
+    }
+  ],
+  "stockMissing": [
+    "1963 Fender Concert: no matching Fender folder found by Concert browser search, year/model connector search or archive CSV review."
+  ]
+}

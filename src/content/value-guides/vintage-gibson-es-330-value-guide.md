@@ -1,4 +1,4 @@
-A clean, original two-pickup Gibson ES-330 from the 1959 to 1962 dot-neck era has a guide range of $8,500 to $11,000 in sunburst, with cherry included from 1960. Standard-finish 1966 to 1972 examples sit at $5,000 to $6,000. Those figures assume excellent condition and the original case; I assess repairs and changes separately.
+A clean, original two-pickup Gibson ES-330 from the 1959 to 1962 dot-neck era has a guide range of $7,250 to $9,700 in sunburst, with cherry included from 1960. Standard-finish 1966 to 1972 examples sit at $3,950 to $6,000. Those figures assume excellent condition and the original case; I assess repairs and changes separately.
 
 I buy vintage ES-330s and compare them by their own construction, condition and production period. My [Gibson ES-330 dating guide](/gibson-es-330-dating-guide/) covers the features and original parts needed to establish the year. Here, I'll keep the focus on price and the differences that change an appraisal.
 
@@ -10,21 +10,21 @@ The table assumes original finish and parts, excellent condition, an original ca
 
 | Year | Configuration | Value Range |
 | --- | --- | --- |
-| 1959 | Two pickups, dots, sunburst | $8,500 to $11,000 |
-| 1960 | Two pickups, dots, sunburst or cherry | $8,500 to $11,000 |
-| 1961 | Two pickups, dots, sunburst or cherry | $8,500 to $11,000 |
-| 1962 | Two pickups, dots, sunburst or cherry | $8,500 to $11,000 |
+| 1959 | Two pickups, dots, sunburst | $7,250 to $9,350 |
+| 1960 | Two pickups, dots, sunburst or cherry | $7,300 to $9,450 |
+| 1961 | Two pickups, dots, sunburst or cherry | $7,400 to $9,550 |
+| 1962 | Two pickups, dots, sunburst or cherry | $7,500 to $9,700 |
 | 1962 | Two pickups, small blocks, sunburst or cherry | Individual Appraisal |
-| 1963 | Two pickups, blocks, sunburst or cherry | $6,500 to $9,000 |
-| 1964 | Two pickups, blocks, sunburst or cherry | $6,500 to $9,000 |
-| 1965 | Two pickups, blocks, sunburst or cherry | $6,500 to $9,000 |
-| 1966 | Two pickups, standard era finishes | $5,000 to $6,000 |
-| 1967 | Two pickups, standard era finishes | $5,000 to $6,000 |
-| 1968 | Two pickups, standard era finishes | $5,000 to $6,000 |
-| 1969 | Two pickups, standard era finishes | $5,000 to $6,000 |
-| 1970 | Two pickups, standard era finishes | $5,000 to $6,000 |
-| 1971 | Two pickups, standard era finishes | $5,000 to $6,000 |
-| 1972 | Two pickups, standard era finishes | $5,000 to $6,000 |
+| 1963 | Two pickups, blocks, sunburst or cherry | $6,200 to $8,150 |
+| 1964 | Two pickups, blocks, sunburst or cherry | $6,200 to $8,150 |
+| 1965 | Two pickups, blocks, sunburst or cherry | $5,500 to $7,050 |
+| 1966 | Two pickups, standard era finishes | $4,100 to $5,550 |
+| 1967 | Two pickups, standard era finishes | $4,100 to $5,550 |
+| 1968 | Two pickups, standard era finishes | $4,200 to $5,650 |
+| 1969 | Two pickups, standard era finishes | $4,050 to $5,700 |
+| 1970 | Two pickups, standard era finishes | $4,000 to $5,550 |
+| 1971 | Two pickups, standard era finishes | $3,950 to $5,500 |
+| 1972 | Two pickups, standard era finishes | $4,050 to $5,700 |
 
 Several years share an era range. The 1963 to 1965 range is broad enough to cover differences within that period. I assess its actual configuration and condition before narrowing the range.
 
@@ -83,6 +83,8 @@ The hollow construction also gives the ES-330 its own playing appeal. Buyers may
 For an owner, the practical step is simple: photograph the whole instrument and any model markings that are safely visible. Don't assume the model from the outline alone. Establishing the correct comparison prevents a much larger pricing error than choosing the wrong end of a range.
 
 ## Original Finish And Visible Wear
+
+For condition comparisons beyond this model, I explain [how a refinish affects vintage guitar value](/how-much-does-a-refinish-hurt-guitar-value/).
 
 Original finish is part of the table's condition assumption. A refinish is a different category even when the replacement finish looks attractive. Local touch-up, added clear coat and a complete refinish also need to be described separately.
 

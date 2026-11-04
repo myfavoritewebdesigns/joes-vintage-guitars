@@ -1,0 +1,7 @@
+---
+import ModelGuide from '../layouts/AcousticModelGuide.astro';
+import { Content, getHeadings } from '../content/model-guides/vintage-gibson-country-western-value-guide.md';
+import data from '../data/model-guides/vintage-gibson-country-western-value-guide.json';
+import hero from '../assets/acoustic-models/gibson-slope-shoulder-country-western-1957.jpg';
+---
+<ModelGuide data={data} headings={getHeadings()} image={hero}><Content /></ModelGuide>

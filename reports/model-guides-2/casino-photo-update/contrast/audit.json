@@ -1,0 +1,2021 @@
+{
+  "method": "Computed text foreground against composited ancestor background colors; normal text >=4.5:1 and large text >=3:1. Image backgrounds flagged for visual review. FAQ disclosures opened for coverage.",
+  "results": [
+    {
+      "slug": "epiphone-casino-value-guide",
+      "width": 1280,
+      "textRuns": 166,
+      "failures": [],
+      "imageBackgroundRuns": 10,
+      "headings": [
+        {
+          "tag": "H1",
+          "text": "Epiphone Casino Value Guide",
+          "classes": "",
+          "parentClasses": "mg-wrap mg-hero-copy",
+          "color": "rgb(255, 255, 255)",
+          "background": [
+            23,
+            22,
+            20
+          ],
+          "backgroundImage": false,
+          "fontSize": "115.2px",
+          "fontWeight": "700",
+          "ratio": 18.08,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H2",
+          "text": "Casino Values By Year And Pickup Count",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(27, 25, 22)",
+          "background": [
+            243,
+            234,
+            216
+          ],
+          "backgroundImage": false,
+          "fontSize": "70px",
+          "fontWeight": "700",
+          "ratio": 14.68,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H2",
+          "text": "How The Casino’s Period Affects Its Price",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(200, 158, 87)",
+          "background": [
+            23,
+            22,
+            20
+          ],
+          "backgroundImage": false,
+          "fontSize": "70px",
+          "fontWeight": "700",
+          "ratio": 7.31,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H3",
+          "text": "The Earliest Kalamazoo Casinos",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(244, 239, 227)",
+          "background": [
+            23,
+            22,
+            20
+          ],
+          "backgroundImage": false,
+          "fontSize": "23px",
+          "fontWeight": "700",
+          "ratio": 15.76,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H3",
+          "text": "Match The Middle Years Carefully",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(244, 239, 227)",
+          "background": [
+            23,
+            22,
+            20
+          ],
+          "backgroundImage": false,
+          "fontSize": "23px",
+          "fontWeight": "700",
+          "ratio": 15.76,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H3",
+          "text": "Later American Examples",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(244, 239, 227)",
+          "background": [
+            23,
+            22,
+            20
+          ],
+          "backgroundImage": false,
+          "fontSize": "23px",
+          "fontWeight": "700",
+          "ratio": 15.76,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H2",
+          "text": "What Makes Two Casinos Different Purchases",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(200, 158, 87)",
+          "background": [
+            23,
+            22,
+            20
+          ],
+          "backgroundImage": false,
+          "fontSize": "70px",
+          "fontWeight": "700",
+          "ratio": 7.31,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H3",
+          "text": "One Pickup Or Two",
+          "classes": "",
+          "parentClasses": "mg-card",
+          "color": "rgb(244, 239, 227)",
+          "background": [
+            36,
+            35,
+            33
+          ],
+          "backgroundImage": false,
+          "fontSize": "25px",
+          "fontWeight": "700",
+          "ratio": 13.69,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H3",
+          "text": "Original Color And Surface",
+          "classes": "",
+          "parentClasses": "mg-card",
+          "color": "rgb(244, 239, 227)",
+          "background": [
+            36,
+            35,
+            33
+          ],
+          "backgroundImage": false,
+          "fontSize": "25px",
+          "fontWeight": "700",
+          "ratio": 13.69,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H3",
+          "text": "Tailpiece, Case And Loose Parts",
+          "classes": "",
+          "parentClasses": "mg-card",
+          "color": "rgb(244, 239, 227)",
+          "background": [
+            36,
+            35,
+            33
+          ],
+          "backgroundImage": false,
+          "fontSize": "25px",
+          "fontWeight": "700",
+          "ratio": 13.69,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H2",
+          "text": "Repairs That Change A Casino Estimate",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(200, 158, 87)",
+          "background": [
+            23,
+            22,
+            20
+          ],
+          "backgroundImage": false,
+          "fontSize": "70px",
+          "fontWeight": "700",
+          "ratio": 7.31,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H3",
+          "text": "Neck And Headstock Repairs",
+          "classes": "",
+          "parentClasses": "mg-card",
+          "color": "rgb(244, 239, 227)",
+          "background": [
+            36,
+            35,
+            33
+          ],
+          "backgroundImage": false,
+          "fontSize": "25px",
+          "fontWeight": "700",
+          "ratio": 13.69,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H3",
+          "text": "Pickup And Wiring Changes",
+          "classes": "",
+          "parentClasses": "mg-card",
+          "color": "rgb(244, 239, 227)",
+          "background": [
+            36,
+            35,
+            33
+          ],
+          "backgroundImage": false,
+          "fontSize": "25px",
+          "fontWeight": "700",
+          "ratio": 13.69,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H3",
+          "text": "Finish Work And Top Damage",
+          "classes": "",
+          "parentClasses": "mg-card",
+          "color": "rgb(244, 239, 227)",
+          "background": [
+            36,
+            35,
+            33
+          ],
+          "backgroundImage": false,
+          "fontSize": "25px",
+          "fontWeight": "700",
+          "ratio": 13.69,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H2",
+          "text": "Photos That Make A Casino Appraisal Useful",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(27, 25, 22)",
+          "background": [
+            243,
+            234,
+            216
+          ],
+          "backgroundImage": false,
+          "fontSize": "70px",
+          "fontWeight": "700",
+          "ratio": 14.68,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H3",
+          "text": "Show The Complete Guitar",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(27, 25, 22)",
+          "background": [
+            243,
+            234,
+            216
+          ],
+          "backgroundImage": false,
+          "fontSize": "22px",
+          "fontWeight": "700",
+          "ratio": 14.68,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H3",
+          "text": "Record Numbers And Hardware",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(27, 25, 22)",
+          "background": [
+            243,
+            234,
+            216
+          ],
+          "backgroundImage": false,
+          "fontSize": "22px",
+          "fontWeight": "700",
+          "ratio": 14.68,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H3",
+          "text": "Include Repairs And Accessories",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(27, 25, 22)",
+          "background": [
+            243,
+            234,
+            216
+          ],
+          "backgroundImage": false,
+          "fontSize": "22px",
+          "fontWeight": "700",
+          "ratio": 14.68,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H3",
+          "text": "Get A Value For Your Casino",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(255, 255, 255)",
+          "background": [
+            104,
+            36,
+            18
+          ],
+          "backgroundImage": false,
+          "fontSize": "27px",
+          "fontWeight": "700",
+          "ratio": 11.35,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H2",
+          "text": "Questions About",
+          "classes": "faqr-sct__h3",
+          "parentClasses": "faqr-col__inner",
+          "color": "rgb(104, 36, 18)",
+          "background": [
+            238,
+            223,
+            192
+          ],
+          "backgroundImage": true,
+          "fontSize": "38.4px",
+          "fontWeight": "600",
+          "ratio": 8.62,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H2",
+          "text": "A Value For Your Guitar",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(27, 25, 22)",
+          "background": [
+            243,
+            234,
+            216
+          ],
+          "backgroundImage": false,
+          "fontSize": "70px",
+          "fontWeight": "700",
+          "ratio": 14.68,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H2",
+          "text": "Joe Dampt",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(27, 25, 22)",
+          "background": [
+            226,
+            212,
+            186
+          ],
+          "backgroundImage": false,
+          "fontSize": "30px",
+          "fontWeight": "700",
+          "ratio": 11.99,
+          "required": 3,
+          "pass": true
+        }
+      ]
+    },
+    {
+      "slug": "epiphone-casino-authentication-guide",
+      "width": 1280,
+      "textRuns": 226,
+      "failures": [],
+      "imageBackgroundRuns": 10,
+      "headings": [
+        {
+          "tag": "H1",
+          "text": "Epiphone Casino Authentication Guide",
+          "classes": "",
+          "parentClasses": "mg-wrap mg-hero-copy",
+          "color": "rgb(255, 255, 255)",
+          "background": [
+            23,
+            22,
+            20
+          ],
+          "backgroundImage": false,
+          "fontSize": "115.2px",
+          "fontWeight": "700",
+          "ratio": 18.08,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H2",
+          "text": "The Casino’s Defining Construction",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(27, 25, 22)",
+          "background": [
+            243,
+            234,
+            216
+          ],
+          "backgroundImage": false,
+          "fontSize": "70px",
+          "fontWeight": "700",
+          "ratio": 14.68,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H2",
+          "text": "How The Casino Entered The Kalamazoo Line",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(200, 158, 87)",
+          "background": [
+            23,
+            22,
+            20
+          ],
+          "backgroundImage": false,
+          "fontSize": "70px",
+          "fontWeight": "700",
+          "ratio": 7.31,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H3",
+          "text": "Epiphone After The 1957 Sale",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(244, 239, 227)",
+          "background": [
+            23,
+            22,
+            20
+          ],
+          "backgroundImage": false,
+          "fontSize": "27px",
+          "fontWeight": "700",
+          "ratio": 15.76,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H3",
+          "text": "The ES-330 Connection",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(244, 239, 227)",
+          "background": [
+            23,
+            22,
+            20
+          ],
+          "backgroundImage": false,
+          "fontSize": "27px",
+          "fontWeight": "700",
+          "ratio": 15.76,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H2",
+          "text": "Casino Features Through The Original Run",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(200, 158, 87)",
+          "background": [
+            23,
+            22,
+            20
+          ],
+          "backgroundImage": false,
+          "fontSize": "70px",
+          "fontWeight": "700",
+          "ratio": 7.31,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H3",
+          "text": "Single And Double Pickup Choices",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(244, 239, 227)",
+          "background": [
+            23,
+            22,
+            20
+          ],
+          "backgroundImage": false,
+          "fontSize": "23px",
+          "fontWeight": "700",
+          "ratio": 15.76,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H3",
+          "text": "Logo And Trim Changes",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(244, 239, 227)",
+          "background": [
+            23,
+            22,
+            20
+          ],
+          "backgroundImage": false,
+          "fontSize": "23px",
+          "fontWeight": "700",
+          "ratio": 15.76,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H3",
+          "text": "Compare The Later Headstock And Hardware",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(244, 239, 227)",
+          "background": [
+            23,
+            22,
+            20
+          ],
+          "backgroundImage": false,
+          "fontSize": "23px",
+          "fontWeight": "700",
+          "ratio": 15.76,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H3",
+          "text": "Late Kalamazoo Evidence",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(244, 239, 227)",
+          "background": [
+            23,
+            22,
+            20
+          ],
+          "backgroundImage": false,
+          "fontSize": "23px",
+          "fontWeight": "700",
+          "ratio": 15.76,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H2",
+          "text": "Confirm P-90s And An Unaltered Top",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(200, 158, 87)",
+          "background": [
+            23,
+            22,
+            20
+          ],
+          "backgroundImage": false,
+          "fontSize": "70px",
+          "fontWeight": "700",
+          "ratio": 7.31,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H3",
+          "text": "E230T",
+          "classes": "",
+          "parentClasses": "mg-card",
+          "color": "rgb(244, 239, 227)",
+          "background": [
+            36,
+            35,
+            33
+          ],
+          "backgroundImage": false,
+          "fontSize": "25px",
+          "fontWeight": "700",
+          "ratio": 13.69,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H3",
+          "text": "E230TD",
+          "classes": "",
+          "parentClasses": "mg-card",
+          "color": "rgb(244, 239, 227)",
+          "background": [
+            36,
+            35,
+            33
+          ],
+          "backgroundImage": false,
+          "fontSize": "25px",
+          "fontWeight": "700",
+          "ratio": 13.69,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H3",
+          "text": "Vibrato Configurations",
+          "classes": "",
+          "parentClasses": "mg-card",
+          "color": "rgb(244, 239, 227)",
+          "background": [
+            36,
+            35,
+            33
+          ],
+          "backgroundImage": false,
+          "fontSize": "25px",
+          "fontWeight": "700",
+          "ratio": 13.69,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H2",
+          "text": "Joe’s Casino Photo Archive",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(27, 25, 22)",
+          "background": [
+            225,
+            209,
+            180
+          ],
+          "backgroundImage": false,
+          "fontSize": "70px",
+          "fontWeight": "700",
+          "ratio": 11.68,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H3",
+          "text": "1962 Epiphone Casino",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(27, 25, 22)",
+          "background": [
+            225,
+            209,
+            180
+          ],
+          "backgroundImage": false,
+          "fontSize": "27px",
+          "fontWeight": "700",
+          "ratio": 11.68,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H3",
+          "text": "1965 Epiphone Casino",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(27, 25, 22)",
+          "background": [
+            225,
+            209,
+            180
+          ],
+          "backgroundImage": false,
+          "fontSize": "27px",
+          "fontWeight": "700",
+          "ratio": 11.68,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H3",
+          "text": "2022 USA Casino",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(27, 25, 22)",
+          "background": [
+            225,
+            209,
+            180
+          ],
+          "backgroundImage": false,
+          "fontSize": "27px",
+          "fontWeight": "700",
+          "ratio": 11.68,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H2",
+          "text": "Date The Casino From Numbers And Construction",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(27, 25, 22)",
+          "background": [
+            243,
+            234,
+            216
+          ],
+          "backgroundImage": false,
+          "fontSize": "70px",
+          "fontWeight": "700",
+          "ratio": 14.68,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H3",
+          "text": "A Modern Casino Number For Comparison",
+          "classes": "",
+          "parentClasses": "mg-serial-card",
+          "color": "rgb(244, 239, 227)",
+          "background": [
+            36,
+            35,
+            33
+          ],
+          "backgroundImage": false,
+          "fontSize": "23px",
+          "fontWeight": "700",
+          "ratio": 13.69,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H2",
+          "text": "Inspect A Kalamazoo Casino In Order",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(27, 25, 22)",
+          "background": [
+            243,
+            234,
+            216
+          ],
+          "backgroundImage": false,
+          "fontSize": "70px",
+          "fontWeight": "700",
+          "ratio": 14.68,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H3",
+          "text": "Establish The Hollow Body",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(27, 25, 22)",
+          "background": [
+            243,
+            234,
+            216
+          ],
+          "backgroundImage": false,
+          "fontSize": "22px",
+          "fontWeight": "700",
+          "ratio": 14.68,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H3",
+          "text": "Match Model And Controls",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(27, 25, 22)",
+          "background": [
+            243,
+            234,
+            216
+          ],
+          "backgroundImage": false,
+          "fontSize": "22px",
+          "fontWeight": "700",
+          "ratio": 14.68,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H3",
+          "text": "Check The Neck And Headstock",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(27, 25, 22)",
+          "background": [
+            243,
+            234,
+            216
+          ],
+          "backgroundImage": false,
+          "fontSize": "22px",
+          "fontWeight": "700",
+          "ratio": 14.68,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H3",
+          "text": "Inspect Finish And Tailpiece Footprints",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(27, 25, 22)",
+          "background": [
+            243,
+            234,
+            216
+          ],
+          "backgroundImage": false,
+          "fontSize": "22px",
+          "fontWeight": "700",
+          "ratio": 14.68,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H3",
+          "text": "Reconcile The Date",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(27, 25, 22)",
+          "background": [
+            243,
+            234,
+            216
+          ],
+          "backgroundImage": false,
+          "fontSize": "22px",
+          "fontWeight": "700",
+          "ratio": 14.68,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H2",
+          "text": "How Later Casinos Fall Outside This Guide",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(27, 25, 22)",
+          "background": [
+            243,
+            234,
+            216
+          ],
+          "backgroundImage": false,
+          "fontSize": "70px",
+          "fontWeight": "700",
+          "ratio": 14.68,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H3",
+          "text": "Have Joe Review Your Casino Evidence",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(255, 255, 255)",
+          "background": [
+            104,
+            36,
+            18
+          ],
+          "backgroundImage": false,
+          "fontSize": "27px",
+          "fontWeight": "700",
+          "ratio": 11.35,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H2",
+          "text": "Separate Identity From Originality",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(27, 25, 22)",
+          "background": [
+            243,
+            234,
+            216
+          ],
+          "backgroundImage": false,
+          "fontSize": "70px",
+          "fontWeight": "700",
+          "ratio": 14.68,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H2",
+          "text": "Casino Research References",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(27, 25, 22)",
+          "background": [
+            243,
+            234,
+            216
+          ],
+          "backgroundImage": false,
+          "fontSize": "70px",
+          "fontWeight": "700",
+          "ratio": 14.68,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H2",
+          "text": "Questions About",
+          "classes": "faqr-sct__h3",
+          "parentClasses": "faqr-col__inner",
+          "color": "rgb(104, 36, 18)",
+          "background": [
+            238,
+            223,
+            192
+          ],
+          "backgroundImage": true,
+          "fontSize": "38.4px",
+          "fontWeight": "600",
+          "ratio": 8.62,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H2",
+          "text": "Keep The Evidence Together",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(27, 25, 22)",
+          "background": [
+            243,
+            234,
+            216
+          ],
+          "backgroundImage": false,
+          "fontSize": "70px",
+          "fontWeight": "700",
+          "ratio": 14.68,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H2",
+          "text": "Joe Dampt",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(27, 25, 22)",
+          "background": [
+            226,
+            212,
+            186
+          ],
+          "backgroundImage": false,
+          "fontSize": "30px",
+          "fontWeight": "700",
+          "ratio": 11.99,
+          "required": 3,
+          "pass": true
+        }
+      ]
+    },
+    {
+      "slug": "epiphone-casino-value-guide",
+      "width": 375,
+      "textRuns": 166,
+      "failures": [],
+      "imageBackgroundRuns": 10,
+      "headings": [
+        {
+          "tag": "H1",
+          "text": "Epiphone Casino Value Guide",
+          "classes": "",
+          "parentClasses": "mg-wrap mg-hero-copy",
+          "color": "rgb(255, 255, 255)",
+          "background": [
+            23,
+            22,
+            20
+          ],
+          "backgroundImage": false,
+          "fontSize": "63.75px",
+          "fontWeight": "700",
+          "ratio": 18.08,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H2",
+          "text": "Casino Values By Year And Pickup Count",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(27, 25, 22)",
+          "background": [
+            243,
+            234,
+            216
+          ],
+          "backgroundImage": false,
+          "fontSize": "40px",
+          "fontWeight": "700",
+          "ratio": 14.68,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H2",
+          "text": "How The Casino’s Period Affects Its Price",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(200, 158, 87)",
+          "background": [
+            23,
+            22,
+            20
+          ],
+          "backgroundImage": false,
+          "fontSize": "40px",
+          "fontWeight": "700",
+          "ratio": 7.31,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H3",
+          "text": "The Earliest Kalamazoo Casinos",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(244, 239, 227)",
+          "background": [
+            23,
+            22,
+            20
+          ],
+          "backgroundImage": false,
+          "fontSize": "23px",
+          "fontWeight": "700",
+          "ratio": 15.76,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H3",
+          "text": "Match The Middle Years Carefully",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(244, 239, 227)",
+          "background": [
+            23,
+            22,
+            20
+          ],
+          "backgroundImage": false,
+          "fontSize": "23px",
+          "fontWeight": "700",
+          "ratio": 15.76,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H3",
+          "text": "Later American Examples",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(244, 239, 227)",
+          "background": [
+            23,
+            22,
+            20
+          ],
+          "backgroundImage": false,
+          "fontSize": "23px",
+          "fontWeight": "700",
+          "ratio": 15.76,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H2",
+          "text": "What Makes Two Casinos Different Purchases",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(200, 158, 87)",
+          "background": [
+            23,
+            22,
+            20
+          ],
+          "backgroundImage": false,
+          "fontSize": "40px",
+          "fontWeight": "700",
+          "ratio": 7.31,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H3",
+          "text": "One Pickup Or Two",
+          "classes": "",
+          "parentClasses": "mg-card",
+          "color": "rgb(244, 239, 227)",
+          "background": [
+            36,
+            35,
+            33
+          ],
+          "backgroundImage": false,
+          "fontSize": "25px",
+          "fontWeight": "700",
+          "ratio": 13.69,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H3",
+          "text": "Original Color And Surface",
+          "classes": "",
+          "parentClasses": "mg-card",
+          "color": "rgb(244, 239, 227)",
+          "background": [
+            36,
+            35,
+            33
+          ],
+          "backgroundImage": false,
+          "fontSize": "25px",
+          "fontWeight": "700",
+          "ratio": 13.69,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H3",
+          "text": "Tailpiece, Case And Loose Parts",
+          "classes": "",
+          "parentClasses": "mg-card",
+          "color": "rgb(244, 239, 227)",
+          "background": [
+            36,
+            35,
+            33
+          ],
+          "backgroundImage": false,
+          "fontSize": "25px",
+          "fontWeight": "700",
+          "ratio": 13.69,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H2",
+          "text": "Repairs That Change A Casino Estimate",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(200, 158, 87)",
+          "background": [
+            23,
+            22,
+            20
+          ],
+          "backgroundImage": false,
+          "fontSize": "40px",
+          "fontWeight": "700",
+          "ratio": 7.31,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H3",
+          "text": "Neck And Headstock Repairs",
+          "classes": "",
+          "parentClasses": "mg-card",
+          "color": "rgb(244, 239, 227)",
+          "background": [
+            36,
+            35,
+            33
+          ],
+          "backgroundImage": false,
+          "fontSize": "25px",
+          "fontWeight": "700",
+          "ratio": 13.69,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H3",
+          "text": "Pickup And Wiring Changes",
+          "classes": "",
+          "parentClasses": "mg-card",
+          "color": "rgb(244, 239, 227)",
+          "background": [
+            36,
+            35,
+            33
+          ],
+          "backgroundImage": false,
+          "fontSize": "25px",
+          "fontWeight": "700",
+          "ratio": 13.69,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H3",
+          "text": "Finish Work And Top Damage",
+          "classes": "",
+          "parentClasses": "mg-card",
+          "color": "rgb(244, 239, 227)",
+          "background": [
+            36,
+            35,
+            33
+          ],
+          "backgroundImage": false,
+          "fontSize": "25px",
+          "fontWeight": "700",
+          "ratio": 13.69,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H2",
+          "text": "Photos That Make A Casino Appraisal Useful",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(27, 25, 22)",
+          "background": [
+            243,
+            234,
+            216
+          ],
+          "backgroundImage": false,
+          "fontSize": "40px",
+          "fontWeight": "700",
+          "ratio": 14.68,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H3",
+          "text": "Show The Complete Guitar",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(27, 25, 22)",
+          "background": [
+            243,
+            234,
+            216
+          ],
+          "backgroundImage": false,
+          "fontSize": "22px",
+          "fontWeight": "700",
+          "ratio": 14.68,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H3",
+          "text": "Record Numbers And Hardware",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(27, 25, 22)",
+          "background": [
+            243,
+            234,
+            216
+          ],
+          "backgroundImage": false,
+          "fontSize": "22px",
+          "fontWeight": "700",
+          "ratio": 14.68,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H3",
+          "text": "Include Repairs And Accessories",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(27, 25, 22)",
+          "background": [
+            243,
+            234,
+            216
+          ],
+          "backgroundImage": false,
+          "fontSize": "22px",
+          "fontWeight": "700",
+          "ratio": 14.68,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H3",
+          "text": "Get A Value For Your Casino",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(255, 255, 255)",
+          "background": [
+            104,
+            36,
+            18
+          ],
+          "backgroundImage": false,
+          "fontSize": "27px",
+          "fontWeight": "700",
+          "ratio": 11.35,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H2",
+          "text": "Questions About",
+          "classes": "faqr-sct__h3",
+          "parentClasses": "faqr-col__inner",
+          "color": "rgb(104, 36, 18)",
+          "background": [
+            238,
+            223,
+            192
+          ],
+          "backgroundImage": true,
+          "fontSize": "22px",
+          "fontWeight": "600",
+          "ratio": 8.62,
+          "required": 4.5,
+          "pass": true
+        },
+        {
+          "tag": "H2",
+          "text": "A Value For Your Guitar",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(27, 25, 22)",
+          "background": [
+            243,
+            234,
+            216
+          ],
+          "backgroundImage": false,
+          "fontSize": "40px",
+          "fontWeight": "700",
+          "ratio": 14.68,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H2",
+          "text": "Joe Dampt",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(27, 25, 22)",
+          "background": [
+            226,
+            212,
+            186
+          ],
+          "backgroundImage": false,
+          "fontSize": "30px",
+          "fontWeight": "700",
+          "ratio": 11.99,
+          "required": 3,
+          "pass": true
+        }
+      ]
+    },
+    {
+      "slug": "epiphone-casino-authentication-guide",
+      "width": 375,
+      "textRuns": 226,
+      "failures": [],
+      "imageBackgroundRuns": 10,
+      "headings": [
+        {
+          "tag": "H1",
+          "text": "Epiphone Casino Authentication Guide",
+          "classes": "",
+          "parentClasses": "mg-wrap mg-hero-copy",
+          "color": "rgb(255, 255, 255)",
+          "background": [
+            23,
+            22,
+            20
+          ],
+          "backgroundImage": false,
+          "fontSize": "63.75px",
+          "fontWeight": "700",
+          "ratio": 18.08,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H2",
+          "text": "The Casino’s Defining Construction",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(27, 25, 22)",
+          "background": [
+            243,
+            234,
+            216
+          ],
+          "backgroundImage": false,
+          "fontSize": "40px",
+          "fontWeight": "700",
+          "ratio": 14.68,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H2",
+          "text": "How The Casino Entered The Kalamazoo Line",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(200, 158, 87)",
+          "background": [
+            23,
+            22,
+            20
+          ],
+          "backgroundImage": false,
+          "fontSize": "40px",
+          "fontWeight": "700",
+          "ratio": 7.31,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H3",
+          "text": "Epiphone After The 1957 Sale",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(244, 239, 227)",
+          "background": [
+            23,
+            22,
+            20
+          ],
+          "backgroundImage": false,
+          "fontSize": "27px",
+          "fontWeight": "700",
+          "ratio": 15.76,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H3",
+          "text": "The ES-330 Connection",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(244, 239, 227)",
+          "background": [
+            23,
+            22,
+            20
+          ],
+          "backgroundImage": false,
+          "fontSize": "27px",
+          "fontWeight": "700",
+          "ratio": 15.76,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H2",
+          "text": "Casino Features Through The Original Run",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(200, 158, 87)",
+          "background": [
+            23,
+            22,
+            20
+          ],
+          "backgroundImage": false,
+          "fontSize": "40px",
+          "fontWeight": "700",
+          "ratio": 7.31,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H3",
+          "text": "Single And Double Pickup Choices",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(244, 239, 227)",
+          "background": [
+            23,
+            22,
+            20
+          ],
+          "backgroundImage": false,
+          "fontSize": "23px",
+          "fontWeight": "700",
+          "ratio": 15.76,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H3",
+          "text": "Logo And Trim Changes",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(244, 239, 227)",
+          "background": [
+            23,
+            22,
+            20
+          ],
+          "backgroundImage": false,
+          "fontSize": "23px",
+          "fontWeight": "700",
+          "ratio": 15.76,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H3",
+          "text": "Compare The Later Headstock And Hardware",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(244, 239, 227)",
+          "background": [
+            23,
+            22,
+            20
+          ],
+          "backgroundImage": false,
+          "fontSize": "23px",
+          "fontWeight": "700",
+          "ratio": 15.76,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H3",
+          "text": "Late Kalamazoo Evidence",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(244, 239, 227)",
+          "background": [
+            23,
+            22,
+            20
+          ],
+          "backgroundImage": false,
+          "fontSize": "23px",
+          "fontWeight": "700",
+          "ratio": 15.76,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H2",
+          "text": "Confirm P-90s And An Unaltered Top",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(200, 158, 87)",
+          "background": [
+            23,
+            22,
+            20
+          ],
+          "backgroundImage": false,
+          "fontSize": "40px",
+          "fontWeight": "700",
+          "ratio": 7.31,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H3",
+          "text": "E230T",
+          "classes": "",
+          "parentClasses": "mg-card",
+          "color": "rgb(244, 239, 227)",
+          "background": [
+            36,
+            35,
+            33
+          ],
+          "backgroundImage": false,
+          "fontSize": "25px",
+          "fontWeight": "700",
+          "ratio": 13.69,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H3",
+          "text": "E230TD",
+          "classes": "",
+          "parentClasses": "mg-card",
+          "color": "rgb(244, 239, 227)",
+          "background": [
+            36,
+            35,
+            33
+          ],
+          "backgroundImage": false,
+          "fontSize": "25px",
+          "fontWeight": "700",
+          "ratio": 13.69,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H3",
+          "text": "Vibrato Configurations",
+          "classes": "",
+          "parentClasses": "mg-card",
+          "color": "rgb(244, 239, 227)",
+          "background": [
+            36,
+            35,
+            33
+          ],
+          "backgroundImage": false,
+          "fontSize": "25px",
+          "fontWeight": "700",
+          "ratio": 13.69,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H2",
+          "text": "Joe’s Casino Photo Archive",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(27, 25, 22)",
+          "background": [
+            225,
+            209,
+            180
+          ],
+          "backgroundImage": false,
+          "fontSize": "40px",
+          "fontWeight": "700",
+          "ratio": 11.68,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H3",
+          "text": "1962 Epiphone Casino",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(27, 25, 22)",
+          "background": [
+            225,
+            209,
+            180
+          ],
+          "backgroundImage": false,
+          "fontSize": "27px",
+          "fontWeight": "700",
+          "ratio": 11.68,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H3",
+          "text": "1965 Epiphone Casino",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(27, 25, 22)",
+          "background": [
+            225,
+            209,
+            180
+          ],
+          "backgroundImage": false,
+          "fontSize": "27px",
+          "fontWeight": "700",
+          "ratio": 11.68,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H3",
+          "text": "2022 USA Casino",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(27, 25, 22)",
+          "background": [
+            225,
+            209,
+            180
+          ],
+          "backgroundImage": false,
+          "fontSize": "27px",
+          "fontWeight": "700",
+          "ratio": 11.68,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H2",
+          "text": "Date The Casino From Numbers And Construction",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(27, 25, 22)",
+          "background": [
+            243,
+            234,
+            216
+          ],
+          "backgroundImage": false,
+          "fontSize": "40px",
+          "fontWeight": "700",
+          "ratio": 14.68,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H3",
+          "text": "A Modern Casino Number For Comparison",
+          "classes": "",
+          "parentClasses": "mg-serial-card",
+          "color": "rgb(244, 239, 227)",
+          "background": [
+            36,
+            35,
+            33
+          ],
+          "backgroundImage": false,
+          "fontSize": "23px",
+          "fontWeight": "700",
+          "ratio": 13.69,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H2",
+          "text": "Inspect A Kalamazoo Casino In Order",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(27, 25, 22)",
+          "background": [
+            243,
+            234,
+            216
+          ],
+          "backgroundImage": false,
+          "fontSize": "40px",
+          "fontWeight": "700",
+          "ratio": 14.68,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H3",
+          "text": "Establish The Hollow Body",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(27, 25, 22)",
+          "background": [
+            243,
+            234,
+            216
+          ],
+          "backgroundImage": false,
+          "fontSize": "22px",
+          "fontWeight": "700",
+          "ratio": 14.68,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H3",
+          "text": "Match Model And Controls",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(27, 25, 22)",
+          "background": [
+            243,
+            234,
+            216
+          ],
+          "backgroundImage": false,
+          "fontSize": "22px",
+          "fontWeight": "700",
+          "ratio": 14.68,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H3",
+          "text": "Check The Neck And Headstock",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(27, 25, 22)",
+          "background": [
+            243,
+            234,
+            216
+          ],
+          "backgroundImage": false,
+          "fontSize": "22px",
+          "fontWeight": "700",
+          "ratio": 14.68,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H3",
+          "text": "Inspect Finish And Tailpiece Footprints",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(27, 25, 22)",
+          "background": [
+            243,
+            234,
+            216
+          ],
+          "backgroundImage": false,
+          "fontSize": "22px",
+          "fontWeight": "700",
+          "ratio": 14.68,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H3",
+          "text": "Reconcile The Date",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(27, 25, 22)",
+          "background": [
+            243,
+            234,
+            216
+          ],
+          "backgroundImage": false,
+          "fontSize": "22px",
+          "fontWeight": "700",
+          "ratio": 14.68,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H2",
+          "text": "How Later Casinos Fall Outside This Guide",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(27, 25, 22)",
+          "background": [
+            243,
+            234,
+            216
+          ],
+          "backgroundImage": false,
+          "fontSize": "40px",
+          "fontWeight": "700",
+          "ratio": 14.68,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H3",
+          "text": "Have Joe Review Your Casino Evidence",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(255, 255, 255)",
+          "background": [
+            104,
+            36,
+            18
+          ],
+          "backgroundImage": false,
+          "fontSize": "27px",
+          "fontWeight": "700",
+          "ratio": 11.35,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H2",
+          "text": "Separate Identity From Originality",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(27, 25, 22)",
+          "background": [
+            243,
+            234,
+            216
+          ],
+          "backgroundImage": false,
+          "fontSize": "40px",
+          "fontWeight": "700",
+          "ratio": 14.68,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H2",
+          "text": "Casino Research References",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(27, 25, 22)",
+          "background": [
+            243,
+            234,
+            216
+          ],
+          "backgroundImage": false,
+          "fontSize": "40px",
+          "fontWeight": "700",
+          "ratio": 14.68,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H2",
+          "text": "Questions About",
+          "classes": "faqr-sct__h3",
+          "parentClasses": "faqr-col__inner",
+          "color": "rgb(104, 36, 18)",
+          "background": [
+            238,
+            223,
+            192
+          ],
+          "backgroundImage": true,
+          "fontSize": "22px",
+          "fontWeight": "600",
+          "ratio": 8.62,
+          "required": 4.5,
+          "pass": true
+        },
+        {
+          "tag": "H2",
+          "text": "Keep The Evidence Together",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(27, 25, 22)",
+          "background": [
+            243,
+            234,
+            216
+          ],
+          "backgroundImage": false,
+          "fontSize": "40px",
+          "fontWeight": "700",
+          "ratio": 14.68,
+          "required": 3,
+          "pass": true
+        },
+        {
+          "tag": "H2",
+          "text": "Joe Dampt",
+          "classes": "",
+          "parentClasses": "",
+          "color": "rgb(27, 25, 22)",
+          "background": [
+            226,
+            212,
+            186
+          ],
+          "backgroundImage": false,
+          "fontSize": "30px",
+          "fontWeight": "700",
+          "ratio": 11.99,
+          "required": 3,
+          "pass": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,5 +1,6 @@
 ---
 title: "1966 Gibson ES-335 Authentication Guide: Patent Number Pickups, Trapeze Tailpiece & Every Pre-Norlin Detail"
+seoTitle: "1966 Gibson ES-335 Authentication: Pickups And Specs"
 pubDate: "2026-03-17T19:32:18"
 modified: "2026-03-24T20:49:09"
 excerpt: "The 1966 Gibson ES-335 is a pre-Norlin Kalamazoo instrument built to the same standard as the early 1960s examples: Patent Number humbuckers, ABR-1 bridge with nylon saddles, trapeze tailpiece, and tortoise side dots most buyers don’t know to look for. This guide walks through every authentication detail with close-up photos of a clean original, including a full set of intact case candy, one of the rarest things to find on a vintage Gibson."

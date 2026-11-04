@@ -1,5 +1,7 @@
 ---
 import Layout from "../layouts/Layout.astro";
+import MartinModelLinks from "./MartinModelLinks.astro";
+const martinComparisonModels: Record<string, string[]> = { "neck-block": ["electric", "d18e-d28e"], grain: ["d-21", "d-28", "d-35"], "center-strip": ["d-45", "om-45", "small-early", "classical", "archtop"] };
 import LicensedImage from "./primitives/LicensedImage.astro";
 import { authenticationGuides, type AuthenticationGuide } from "../data/authentication-guides";
 import { SITE_URL, hrefs } from "../config/site";
@@ -116,6 +118,7 @@ const faqSchema = {
               <p class="eyebrow">{section.eyebrow}</p>
               <h2>{section.title}</h2>
               <p set:html={section.bodyHtml} />
+              {page.brand === "Martin" && martinComparisonModels[section.id] && <MartinModelLinks keys={martinComparisonModels[section.id]} label="Compare the model’s production history:" />}
               <ul>{section.bullets.map((item) => <li>{item}</li>)}</ul>
               <div class="caution"><strong>Keep it in context.</strong> {section.caution}</div>
             </div>

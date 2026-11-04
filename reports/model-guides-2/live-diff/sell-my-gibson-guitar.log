@@ -1,0 +1,8 @@
+[audit] Live:  https://www.joesvintageguitarsaz.com/sell-my-gibson-guitar/
+[audit] Local: http://127.0.0.1:4331/sell-my-gibson-guitar/
+[audit] Slug:  mg2-sell-my-gibson-guitar
+
+[audit] Liveness-checking 28 asset URL(s) on local (img/picture/poster/iframe)...
+
+[audit] Report: C:\Users\joeda\Documents\Codex\2026-10-29\files-pasted-by-the-user-codex\work\joes-vintage-guitars\reports\mg2-sell-my-gibson-guitar-audit-2026-10-30T23-32-37-055Z.md
+[audit] ðŸ”´ must-fix: 0  ðŸŸ¡ should-fix: 2  ðŸŸ¢ acceptable: 0

@@ -1,0 +1,687 @@
+{
+  "numbers": [
+    {
+      "slug": "epiphone-broadway-authentication-guide",
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "checklists": [
+        {
+          "values": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        }
+      ],
+      "plain": true
+    },
+    {
+      "slug": "epiphone-broadway-value-guide",
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "checklists": [
+        {
+          "values": [
+            "1",
+            "2",
+            "3"
+          ]
+        }
+      ],
+      "plain": true
+    },
+    {
+      "slug": "epiphone-casino-authentication-guide",
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "checklists": [
+        {
+          "values": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        }
+      ],
+      "plain": true
+    },
+    {
+      "slug": "epiphone-casino-value-guide",
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "checklists": [
+        {
+          "values": [
+            "1",
+            "2",
+            "3"
+          ]
+        }
+      ],
+      "plain": true
+    },
+    {
+      "slug": "epiphone-deluxe-authentication-guide",
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "checklists": [
+        {
+          "values": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        }
+      ],
+      "plain": true
+    },
+    {
+      "slug": "epiphone-deluxe-value-guide",
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "checklists": [
+        {
+          "values": [
+            "1",
+            "2",
+            "3"
+          ]
+        }
+      ],
+      "plain": true
+    },
+    {
+      "slug": "epiphone-emperor-authentication-guide",
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11"
+      ],
+      "checklists": [
+        {
+          "values": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        }
+      ],
+      "plain": true
+    },
+    {
+      "slug": "epiphone-emperor-value-guide",
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "checklists": [
+        {
+          "values": [
+            "1",
+            "2",
+            "3"
+          ]
+        }
+      ],
+      "plain": true
+    },
+    {
+      "slug": "epiphone-olympic-authentication-guide",
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11"
+      ],
+      "checklists": [
+        {
+          "values": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        }
+      ],
+      "plain": true
+    },
+    {
+      "slug": "epiphone-olympic-value-guide",
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "checklists": [
+        {
+          "values": [
+            "1",
+            "2",
+            "3"
+          ]
+        }
+      ],
+      "plain": true
+    },
+    {
+      "slug": "epiphone-sorrento-authentication-guide",
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "checklists": [
+        {
+          "values": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ]
+        }
+      ],
+      "plain": true
+    },
+    {
+      "slug": "epiphone-sorrento-value-guide",
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "checklists": [
+        {
+          "values": [
+            "1",
+            "2",
+            "3"
+          ]
+        }
+      ],
+      "plain": true
+    },
+    {
+      "slug": "epiphone-triumph-authentication-guide",
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11"
+      ],
+      "checklists": [
+        {
+          "values": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        }
+      ],
+      "plain": true
+    },
+    {
+      "slug": "epiphone-triumph-value-guide",
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "checklists": [
+        {
+          "values": [
+            "1",
+            "2",
+            "3"
+          ]
+        }
+      ],
+      "plain": true
+    },
+    {
+      "slug": "epiphone-windsor-authentication-guide",
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "checklists": [
+        {
+          "values": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ]
+        }
+      ],
+      "plain": true
+    },
+    {
+      "slug": "epiphone-windsor-value-guide",
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "checklists": [
+        {
+          "values": [
+            "1",
+            "2",
+            "3"
+          ]
+        }
+      ],
+      "plain": true
+    },
+    {
+      "slug": "epiphone-zephyr-authentication-guide",
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11"
+      ],
+      "checklists": [
+        {
+          "values": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ]
+        }
+      ],
+      "plain": true
+    },
+    {
+      "slug": "epiphone-zephyr-value-guide",
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "checklists": [
+        {
+          "values": [
+            "1",
+            "2",
+            "3"
+          ]
+        }
+      ],
+      "plain": true
+    }
+  ],
+  "content": [
+    {
+      "slug": "epiphone-broadway-authentication-guide",
+      "contentUnchangedExceptNumbers": true,
+      "tablesUnchanged": true
+    },
+    {
+      "slug": "epiphone-broadway-value-guide",
+      "contentUnchangedExceptNumbers": true,
+      "tablesUnchanged": true
+    },
+    {
+      "slug": "epiphone-casino-authentication-guide",
+      "contentUnchangedExceptNumbers": true,
+      "tablesUnchanged": true
+    },
+    {
+      "slug": "epiphone-casino-value-guide",
+      "contentUnchangedExceptNumbers": true,
+      "tablesUnchanged": true
+    },
+    {
+      "slug": "epiphone-deluxe-authentication-guide",
+      "contentUnchangedExceptNumbers": true,
+      "tablesUnchanged": true
+    },
+    {
+      "slug": "epiphone-deluxe-value-guide",
+      "contentUnchangedExceptNumbers": true,
+      "tablesUnchanged": true
+    },
+    {
+      "slug": "epiphone-emperor-authentication-guide",
+      "contentUnchangedExceptNumbers": true,
+      "tablesUnchanged": true
+    },
+    {
+      "slug": "epiphone-emperor-value-guide",
+      "contentUnchangedExceptNumbers": true,
+      "tablesUnchanged": true
+    },
+    {
+      "slug": "epiphone-olympic-authentication-guide",
+      "contentUnchangedExceptNumbers": true,
+      "tablesUnchanged": true
+    },
+    {
+      "slug": "epiphone-olympic-value-guide",
+      "contentUnchangedExceptNumbers": true,
+      "tablesUnchanged": true
+    },
+    {
+      "slug": "epiphone-sorrento-authentication-guide",
+      "contentUnchangedExceptNumbers": true,
+      "tablesUnchanged": true
+    },
+    {
+      "slug": "epiphone-sorrento-value-guide",
+      "contentUnchangedExceptNumbers": true,
+      "tablesUnchanged": true
+    },
+    {
+      "slug": "epiphone-triumph-authentication-guide",
+      "contentUnchangedExceptNumbers": true,
+      "tablesUnchanged": true
+    },
+    {
+      "slug": "epiphone-triumph-value-guide",
+      "contentUnchangedExceptNumbers": true,
+      "tablesUnchanged": true
+    },
+    {
+      "slug": "epiphone-windsor-authentication-guide",
+      "contentUnchangedExceptNumbers": true,
+      "tablesUnchanged": true
+    },
+    {
+      "slug": "epiphone-windsor-value-guide",
+      "contentUnchangedExceptNumbers": true,
+      "tablesUnchanged": true
+    },
+    {
+      "slug": "epiphone-zephyr-authentication-guide",
+      "contentUnchangedExceptNumbers": true,
+      "tablesUnchanged": true
+    },
+    {
+      "slug": "epiphone-zephyr-value-guide",
+      "contentUnchangedExceptNumbers": true,
+      "tablesUnchanged": true
+    },
+    {
+      "slug": "sell-my-epiphone-guitar",
+      "contentUnchangedExceptNumbers": true,
+      "tablesUnchanged": true
+    }
+  ],
+  "sellerSteps": [
+    "1",
+    "2",
+    "3",
+    "4"
+  ],
+  "protectedPages": 387,
+  "changedProtectedPages": [],
+  "layouts": [
+    {
+      "slug": "sell-my-epiphone-guitar",
+      "width": 1280,
+      "scrollWidth": 1280,
+      "photoCounters": [
+        "counter(photo)",
+        "counter(photo)",
+        "counter(photo)",
+        "counter(photo)",
+        "counter(photo)"
+      ],
+      "sections": [],
+      "checklists": [],
+      "steps": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ]
+    },
+    {
+      "slug": "post/epiphone-olympic-value-guide",
+      "width": 1280,
+      "scrollWidth": 1280,
+      "photoCounters": [],
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "checklists": [
+        "1",
+        "2",
+        "3"
+      ],
+      "steps": []
+    },
+    {
+      "slug": "post/epiphone-olympic-authentication-guide",
+      "width": 1280,
+      "scrollWidth": 1280,
+      "photoCounters": [],
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11"
+      ],
+      "checklists": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "steps": []
+    },
+    {
+      "slug": "sell-my-epiphone-guitar",
+      "width": 375,
+      "scrollWidth": 375,
+      "photoCounters": [
+        "counter(photo)",
+        "counter(photo)",
+        "counter(photo)",
+        "counter(photo)",
+        "counter(photo)"
+      ],
+      "sections": [],
+      "checklists": [],
+      "steps": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ]
+    },
+    {
+      "slug": "post/epiphone-olympic-value-guide",
+      "width": 375,
+      "scrollWidth": 375,
+      "photoCounters": [],
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "checklists": [
+        "1",
+        "2",
+        "3"
+      ],
+      "steps": []
+    },
+    {
+      "slug": "post/epiphone-olympic-authentication-guide",
+      "width": 375,
+      "scrollWidth": 375,
+      "photoCounters": [],
+      "sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11"
+      ],
+      "checklists": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "steps": []
+    }
+  ]
+}

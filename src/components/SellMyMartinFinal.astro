@@ -1,5 +1,7 @@
 ---
 import LicensedImage from "./primitives/LicensedImage.astro";
+import MartinModelLinks from "./MartinModelLinks.astro";
+import { martinSellingModels } from "../data/martin-model-links";
 import Button from "./primitives/Button.astro";
 import LeadForm from "./LeadForm.astro";
 import ContactSection from "./ContactSection.astro";
@@ -72,10 +74,10 @@ const values = [
 ];
 
 const valueRows = [
-  ["Pre-War D-45 (1936 to 1942)", "$450,000 to $675,000"],
+  ["Pre-War D-45 (1936 to 1942)", "$396,000 to $594,000"],
   ["Pre-War D-28 (1931 to 1944)", "$80,000 to $300,000"],
-  ["Pre-War D-18 (1931 to 1944)", "$25,000 to $110,000"],
-  ["D-28 (1950 to 1959)", "$12,000 to $19,000"],
+  ["Pre-War D-18 (1931 to 1944)", "$25,500 to $93,500"],
+  ["D-28 (1950 to 1959)", "$12,450 to $17,800"],
   ["D-28 (1960 to 1969)", "$6,000 to $11,500"],
   ["D-18 (1950 to 1959)", "$7,000 to $11,000"],
 ] as const;
@@ -382,11 +384,13 @@ const sellerPhoto = resolveImage("images/sell-martin/Copy-of-IMG_1620-600x800.jp
             <span>{guide.era}</span>
             <h3><a href={guide.url}>{guide.title}</a></h3>
             <p>{guide.buying}</p>
+            {martinSellingModels[guide.title] && <MartinModelLinks keys={martinSellingModels[guide.title]} label="Model histories:" />}
             <a class="smm-guide-card__primary" href={guide.url}>{guide.action}</a>
           </div>
         </li>
       ))}
     </ul>
+    <MartinModelLinks keys={["classical", "12-string", "tenor", "plectrum", "archtop"]} label="For other Martin families, read the" />
     <a class="smm-all-guides" href="/blog/">Browse All Guitar Articles</a>
   </section>
 

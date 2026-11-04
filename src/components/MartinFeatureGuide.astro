@@ -1,5 +1,8 @@
 ---
 import MartinGuideLayout from '../layouts/MartinGuideLayout.astro';
+import MartinModelDirectory from './MartinModelDirectory.astro';
+import MartinModelLinks from './MartinModelLinks.astro';
+import { martinSectionModels } from '../data/martin-model-links';
 import MartinPhotoGallery from './MartinPhotoGallery.astro';
 import MartinModelDecoder from './MartinModelDecoder.astro';
 import MartinPhotoViewer from './MartinPhotoViewer.astro';
@@ -8,6 +11,7 @@ import { SITE_URL } from '../config/site';
 interface Props { guide: MartinGuide; }
 const { guide } = Astro.props;
 const canonical = `/${guide.slug}/`;
+const modelLinksBySection = martinSectionModels[guide.slug] || {};
 const socialImage = martinImage(guide.cardImage);
 const updated = guide.updated || { date: '2026-10-12', label: 'October 12, 2026' };
 const showCreditsAndReferences = guide.showCreditsAndReferences !== false;
@@ -20,16 +24,17 @@ const schema = [
   <section class="mtn-hero"><div class="mtn-wrap">
     <p class="mtn-kicker">Martin Identification / {guide.shortTitle}</p><h1>{guide.title}</h1>
     <p class="mtn-lede">{guide.intro}</p><p class="mtn-byline">By <a href="/about-me/">Joe Dampt</a> · Updated {updated.label}</p>
-    <nav class="mtn-toc" aria-label="On this page">{guide.slug === 'martin-guitar-model-numbers' && <><a href="#model-decoder">Model Decoder</a><a href="#body-sizes">Body Sizes</a><a href="#style-numbers">Style Numbers</a></>}{guide.sections.map(s=><a href={`#${s.id}`}>{s.title}</a>)}{guide.timeline && <a href="#guide-timeline">Construction Timeline</a>}</nav>
+    <nav class="mtn-toc" aria-label="On this page">{guide.slug === 'martin-guitar-model-numbers' && <><a href="#model-decoder">Model Decoder</a><a href="#body-sizes">Body Sizes</a><a href="#style-numbers">Style Numbers</a><a href="#martin-model-histories">Model Histories</a></>}{guide.sections.map(s=><a href={`#${s.id}`}>{s.title}</a>)}{guide.timeline && <a href="#guide-timeline">Construction Timeline</a>}</nav>
     <a href="/martin-serial-and-model-numbers/#decoder" class="mtn-button">Look Up Your Serial Number</a>
   </div></section>
-  {guide.slug === 'martin-guitar-model-numbers' && <MartinModelDecoder />}
+  {guide.slug === 'martin-guitar-model-numbers' && <><MartinModelDecoder /><MartinModelDirectory intro="Use the body size, style and suffix to choose a model history. These guides explain the changes within each family, from the original production period through later revisions or returns." /></>}
   {guide.slug === 'martin-tuner-dating-guide' && <section class="mtn-section"><div class="mtn-wrap"><h2>Martin Tuner Timeline</h2><p>Martin used several tuner designs at the same time. Match the period and model in the table, then check the mounting holes for evidence of replacements.</p><div class="mtn-table-scroll"><table><caption class="sr-only">Martin Tuner Timeline</caption><thead><tr><th scope="col">Period</th><th scope="col">Hardware Family</th><th scope="col">Detail To Check</th></tr></thead><tbody>{martinTunerTimeline.map(row=><tr>{row.map(cell=><td>{cell}</td>)}</tr>)}</tbody></table></div></div></section>}
 
   {guide.sections.map((section,index)=><section class:list={['mtn-section',{'mtn-section--tint':index%2===1}]} id={section.id}>{section.anchorIds?.map(id=><span id={id} aria-hidden="true"></span>)}<div class:list={['mtn-wrap', {'mtn-section-beside':section.photoLayout === 'beside'}]}>
     <div class="mtn-section-copy">
     <div class="mtn-section-head">{section.period && <p class="mtn-kicker">{section.period}</p>}<h2>{section.title}</h2></div>
     {section.paragraphs.map(text=><p>{text}</p>)}
+    {modelLinksBySection[section.id] && <MartinModelLinks keys={modelLinksBySection[section.id]} />}
     {section.points && <ul>{section.points.map(text=><li>{text}</li>)}</ul>}
     {section.inspection && <aside class="mtn-inspection" aria-labelledby={`${section.id}-inspection`}><h3 id={`${section.id}-inspection`}>{section.inspection.title}</h3><ol>{section.inspection.steps.map(text=><li>{text}</li>)}</ol><p>{section.inspection.note}</p></aside>}
     {section.table && <div class="mtn-table-scroll"><table><caption>{section.table.caption}</caption><thead><tr>{section.table.headers.map(heading=><th scope="col">{heading}</th>)}</tr></thead><tbody>{section.table.rows.map(row=><tr>{row.map((cell,column)=>column===0?<th scope="row">{cell}</th>:<td>{cell}</td>)}</tr>)}</tbody></table></div>}

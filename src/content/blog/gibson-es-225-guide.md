@@ -1,5 +1,6 @@
 ---
 title: "Gibson ES-225 Model Guide: Variations, Transitions & Authentication"
+seoTitle: "Gibson ES-225: Variations, Transitions & Authentication"
 pubDate: "2026-09-04T12:00:00-07:00"
 modified: "2026-09-04T12:00:00-07:00"
 excerpt: "A comprehensive field guide to the 1955 to 1959 Gibson ES-225, including every model suffix, factory transitions, shipping totals, natural finish examples, and the authentication details that matter."
