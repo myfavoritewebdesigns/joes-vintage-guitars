@@ -73,11 +73,11 @@ A genuine 1954 Les Paul Goldtop serial number starts with **"4"**, followed by a
 
 ### Reading the Serial, What to Look For
 
--   Prefix digit**Must be "4"** for 1954. A "3" = 1953, a "5" = 1955. There is no ambiguity in this prefix system for 1950s solid bodies.
--   Application method**Ink stamped**. The numbers sit on top of the lacquer surface. You may see slight ink fading or "halo" bleed into surrounding lacquer after 70+ years of aging. This is authentic. Impressed/die-stamped numbers = 1961 or later.
--   FontThe mid-1950s Gibson ink stamp uses a specific **blocky, slightly heavy typeface**. Numbers are not perfectly aligned. There is slight organic variation from unit to unit. Modern reissues and fakes typically have a cleaner, thinner, or more evenly spaced font.
--   LocationCenter of the **back of the headstock**, between the tuner bushings. Not on a label, not inside the body; 1950s solid bodies have no interior label.
--   Pot codesCross-reference with potentiometer date codes inside the control cavity. 1954 pots carry codes from Stackpole (304) or Centralab (134). On 1954 examples, **the date code is often on the side rim of the pot**, not the back face, making them harder to read without removing the back plate. This is a known characteristic of mid-1954 production.
+-   **Prefix digit:** **Must be "4"** for 1954. A "3" = 1953, a "5" = 1955. There is no ambiguity in this prefix system for 1950s solid bodies.
+-   **Application method:** **Ink stamped**. The numbers sit on top of the lacquer surface. You may see slight ink fading or "halo" bleed into surrounding lacquer after 70+ years of aging. This is authentic. Impressed/die-stamped numbers = 1961 or later.
+-   **Font:** The mid-1950s Gibson ink stamp uses a specific **blocky, slightly heavy typeface**. Numbers are not perfectly aligned. There is slight organic variation from unit to unit. Modern reissues and fakes typically have a cleaner, thinner, or more evenly spaced font.
+-   **Location:** Center of the **back of the headstock**, between the tuner bushings. Not on a label, not inside the body; 1950s solid bodies have no interior label.
+-   **Pot codes:** Cross-reference with potentiometer date codes inside the control cavity. 1954 pots carry codes from Stackpole (304) or Centralab (134). On 1954 examples, **the date code is often on the side rim of the pot**, not the back face, making them harder to read without removing the back plate. This is a known characteristic of mid-1954 production.
 
 Gibson's Custom Shop reissues of the 1954 Les Paul use the **same "4 XXXX" format** as the originals, making them potentially confusing at a glance. The reissue font is noticeably thinner and more uniform. More importantly, reissues carry a Certificate of Authenticity and have modern construction details (Nashville bridge inserts, modern pickup cavities, polyurethane or VOS lacquer). Always verify with physical features; the serial alone is never sufficient. For detailed help decoding serial numbers, see our [complete Gibson serial number guide](/how-to-read-gibson-serial-numbers/).
 
@@ -87,10 +87,10 @@ Gibson's Custom Shop reissues of the 1954 Les Paul use the **same "4 XXXX" forma
 
 The "Gibson" [headstock logo](/gibson-headstock-logo-chronology/) on a 1954 is a **mother-of-pearl inlay** in the classic mid-1950s script. Key characteristics to verify:
 
--   Letter forms**Open "b" and "o"**, the counters (enclosed spaces) are open, not filled. This open-letter style with a dotted "i" is correct through late 1968. The dot disappears from late 1968 into the early 1970s, and closed letters become common in the 1970s.
--   Dot over "i"Present on 1954 examples. The dot is a small, separate piece of MOP inlaid above the stem of the "i".
--   Logo positionOn 1954 examples, the "Gibson" logo sits relatively **high on the headstock**, approximately ¾" from the top tip. Some late 1954 models begin showing the logo positioned slightly lower, a change that became standard by 1955 to 1956. The exact position can help narrow down early vs. late 1954 production.
--   MaterialGenuine **mother-of-pearl**, creamy white with a subtle orient (directional shimmer). Not abalone (more colorful iridescence) and not plastic (no shimmer, uniform color).
+-   **Letter forms:** **Open "b" and "o"**, the counters (enclosed spaces) are open, not filled. This open-letter style with a dotted "i" is correct through late 1968. The dot disappears from late 1968 into the early 1970s, and closed letters become common in the 1970s.
+-   **Dot over "i":** Present on 1954 examples. The dot is a small, separate piece of MOP inlaid above the stem of the "i".
+-   **Logo position:** On 1954 examples, the "Gibson" logo sits relatively **high on the headstock**, approximately ¾" from the top tip. Some late 1954 models begin showing the logo positioned slightly lower, a change that became standard by 1955 to 1956. The exact position can help narrow down early vs. late 1954 production.
+-   **Material:** Genuine **mother-of-pearl**, creamy white with a subtle orient (directional shimmer). Not abalone (more colorful iridescence) and not plastic (no shimmer, uniform color).
 
 ### "Les Paul Model" Silkscreen
 
@@ -194,11 +194,11 @@ On a 1954, the bridge should sit at a **proper height off the top**, typically w
 
 ### What to Check on the Bridge
 
--   MaterialThe bridge is **nickel-plated** on all 1954 hardware, not gold, not chrome. Verify that the plating color matches the rest of the nickel hardware (studs, tuner housings). Gold-plated hardware on a claimed 1954 is incorrect.
--   Post bushingsThe 1954 bridge posts use **shorter bushings** than those introduced in 1956. This shorter bushing depth was identified as contributing to the "post lean" problem, where sustained string tension gradually cants the posts forward. Many 1954 bridges show slight forward lean of the posts; this is an authentic and common condition, not a defect per se.
--   Post leanA certain amount of forward post lean is **normal and expected** on a 1954. Experienced luthiers can replace the short bushings with deeper post-1956 units to stabilize the posts if needed. The presence of the original shorter bushings is actually an authentication point.
--   String wearOriginal bridge bars will typically show string-contact wear grooves on the top surface of the bar where decades of strings have rested. Absence of any wear on a claimed original bridge is worth noting.
--   NOT presentThere should be **no ABR-1 Tune-o-Matic bridge** and **no separate stop tailpiece**. If you see those, the guitar has been heavily modified or is misdated. The ABR-1 arrived on the goldtop in late 1955.
+-   **Material:** The bridge is **nickel-plated** on all 1954 hardware, not gold, not chrome. Verify that the plating color matches the rest of the nickel hardware (studs, tuner housings). Gold-plated hardware on a claimed 1954 is incorrect.
+-   **Post bushings:** The 1954 bridge posts use **shorter bushings** than those introduced in 1956. This shorter bushing depth was identified as contributing to the "post lean" problem, where sustained string tension gradually cants the posts forward. Many 1954 bridges show slight forward lean of the posts; this is an authentic and common condition, not a defect per se.
+-   **Post lean:** A certain amount of forward post lean is **normal and expected** on a 1954. Experienced luthiers can replace the short bushings with deeper post-1956 units to stabilize the posts if needed. The presence of the original shorter bushings is actually an authentication point.
+-   **String wear:** Original bridge bars will typically show string-contact wear grooves on the top surface of the bar where decades of strings have rested. Absence of any wear on a claimed original bridge is worth noting.
+-   **NOT present:** There should be **no ABR-1 Tune-o-Matic bridge** and **no separate stop tailpiece**. If you see those, the guitar has been heavily modified or is misdated. The ABR-1 arrived on the goldtop in late 1955.
 
 Many 1954 goldtops have had their wrap tail bridges replaced with ABR-1 Tune-o-Matic setups at some point, either by a previous owner seeking better intonation, or as part of a Gibson factory update in the late 1950s or 1960s. If a claimed 1954 has a Tune-o-Matic, look for the **plugged stud holes** under the bridge, two filled holes ahead of the bridge post holes confirm an original wrap tail was present. Also check for a third hole between the two pickups where the wrap tail's center mounting screw (if any) was located. A bridge swap significantly affects collector value but does not disqualify a guitar from being a genuine 1954.
 
@@ -216,12 +216,12 @@ The 1954 Les Paul uses two **P-90 "soapbar" single-coil pickups** with cream pla
 
 ### Identifying Original 1954 P-90s
 
--   Cover color**Cream**, not black (black covers appear on some other models), not white (a brighter, more modern-looking plastic). Authentic 1954 cream covers have aged to a warm off-white with a slight yellow cast.
--   Lead wiresOriginal 1954 P-90 coils have **two black lead wires** coming from the base of the coil. This is a key authentication detail: **P-90s from the 1960s onward use one black and one white lead wire**. Two black leads = pre-1960 production. If you can access the inside of the pickup cavity and see the wires coming off the coil, that is a reliable early-production indicator.
--   Shielding wireSome 1954 examples use **three-strand shielded lead wire** running from the pickup to the control cavity, a less common configuration seen on some 1952 to 1955 production. More typical is standard single-conductor shielded wire.
--   Black tape wrapOriginal 1954 P-90 coils are wrapped in **black electrical tape** applied at the factory. Undisturbed coils still carry this original tape. Disturbed or rewound coils will not.
--   DC resistanceOriginal 1954 P-90s typically measure between **7.2k and 8.0k ohms**. Both bridge and neck pickups should be in this range. Significant deviation (especially over 9k) suggests a rewind.
--   Pole piecesSix individually adjustable slot-head pole screws are visible through the top of the cover. These are steel screws against an Alnico bar magnet underneath. The pole screws should show light oxidation consistent with age.
+-   **Cover color:** **Cream**, not black (black covers appear on some other models), not white (a brighter, more modern-looking plastic). Authentic 1954 cream covers have aged to a warm off-white with a slight yellow cast.
+-   **Lead wires:** Original 1954 P-90 coils have **two black lead wires** coming from the base of the coil. This is a key authentication detail: **P-90s from the 1960s onward use one black and one white lead wire**. Two black leads = pre-1960 production. If you can access the inside of the pickup cavity and see the wires coming off the coil, that is a reliable early-production indicator.
+-   **Shielding wire:** Some 1954 examples use **three-strand shielded lead wire** running from the pickup to the control cavity, a less common configuration seen on some 1952 to 1955 production. More typical is standard single-conductor shielded wire.
+-   **Black tape wrap:** Original 1954 P-90 coils are wrapped in **black electrical tape** applied at the factory. Undisturbed coils still carry this original tape. Disturbed or rewound coils will not.
+-   **DC resistance:** Original 1954 P-90s typically measure between **7.2k and 8.0k ohms**. Both bridge and neck pickups should be in this range. Significant deviation (especially over 9k) suggests a rewind.
+-   **Pole pieces:** Six individually adjustable slot-head pole screws are visible through the top of the cover. These are steel screws against an Alnico bar magnet underneath. The pole screws should show light oxidation consistent with age.
 
 Original 1954 P-90s in a 1954 body produce a vocal, midrange-forward tone, warm and thick in the neck position, with a cutting, slightly nasal quality at the bridge. The combination of these pickups with the wrap tail bridge (which some players believe transfers string energy more directly to the body than a separate bridge/tailpiece combination) gives the 1954 a very specific character. This is why players like Freddie King, Alan Wilson of Canned Heat, and later Jeff Beck specifically sought out these instruments.
 
@@ -418,12 +418,12 @@ A 1954 Les Paul Goldtop that still has its original case is meaningfully more de
 
 ### Case Authentication Details
 
--   Manufacturer**Lifton**, the case manufacturer used by Gibson in this era. The Lifton name may appear on a small label inside the case lid.
--   ExteriorBrown imitation leather exterior with a **curved top lid**, the arched lid shape was introduced in 1953 and mirrors the carved maple top of the guitar. Flat-lid cases predate this era.
--   Interior liningPink, salmon, or orange-pink plush lining. The exact tone varies with age and light exposure, heavily faded examples can appear almost tan. The lining is the same color on the lid and body of the case.
--   LatchesFour latches, one at each corner end and one on each long side. Correct hardware is nickel-plated.
--   Case fitThe original Lifton case is form-fitted to the 1954 body shape. A guitar that sits loosely in a case or requires packing material to stay in place has likely been paired with a non-original case.
--   Inside lidA small accessory pocket inside the lid is typical. Provenance items, original hangtags, receipts, old strings, are sometimes found here and can add significantly to a guitar's documented history.
+-   **Manufacturer:** **Lifton**, the case manufacturer used by Gibson in this era. The Lifton name may appear on a small label inside the case lid.
+-   **Exterior:** Brown imitation leather exterior with a **curved top lid**, the arched lid shape was introduced in 1953 and mirrors the carved maple top of the guitar. Flat-lid cases predate this era.
+-   **Interior lining:** Pink, salmon, or orange-pink plush lining. The exact tone varies with age and light exposure, heavily faded examples can appear almost tan. The lining is the same color on the lid and body of the case.
+-   **Latches:** Four latches, one at each corner end and one on each long side. Correct hardware is nickel-plated.
+-   **Case fit:** The original Lifton case is form-fitted to the 1954 body shape. A guitar that sits loosely in a case or requires packing material to stay in place has likely been paired with a non-original case.
+-   **Inside lid:** A small accessory pocket inside the lid is typical. Provenance items, original hangtags, receipts, old strings, are sometimes found here and can add significantly to a guitar's documented history.
 
 An all-original 1954 in its original Lifton case in good condition commands a premium over the same guitar without a case. More importantly, a case with provenance documentation, original receipt, owner's name, purchase date, is a great find that adds both historical value and authentication confidence. If a 1954 comes with paperwork, treat that paperwork as carefully as the guitar itself.
 
