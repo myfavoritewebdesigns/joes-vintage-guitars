@@ -20,7 +20,7 @@ Joe supplied four additional Drive folders and confirmed the matching 1964-folde
 
 The refreshed build passes (443 pages), Astro reports zero errors/warnings, and the rendered copy gate reports zero hard failures. Independent visual review at 1920px and 390px found no broken/collapsed photos, overflow or article contrast failures. Fourteen licensed images, including the author, match rendered image URLs. Source images retain their full original bytes and dimensions. Price data and the published authentication guide are unchanged. The historical batch checks below remain applicable to the other pages; the focused revision evidence is in [photo provenance](byrdland-photo-update.json), [rendered checks](byrdland-photo-check.json), [visual review](byrdland-photo-visual-review.md) and [browser measurements](byrdland-photo-auditor-browser.json).
 
-Sixteen preview posts. Southern Jumbo already has a published pair and retains its existing URLs. No merge or production publication is authorized for this batch until Joe approves these previews.
+Joe approved publication of all sixteen Gibson batch guides on November 4, 2026: "ok lets get all of these live". This approval includes the reviewed Byrdland, ES-225 and L-7 photo revisions. Southern Jumbo already has a published pair and retains its existing URLs. Production integration preserves the stable social-image URLs merged into main in PR 280.
 
 ## Verification
 
