@@ -1,0 +1,956 @@
+{
+  "checkedAt": "2026-11-03T18:02:32.345Z",
+  "facts": [
+    {
+      "id": "G3-DELUXE-FACTORY",
+      "families": [
+        "les-paul-deluxe"
+      ],
+      "claim": "Factory shipping records include Deluxes with full-size humbuckers, distinct from routed conversions.",
+      "url": "https://www.vintageguitarandbass.com/gibson/Les_Paul_Deluxe.php",
+      "evidence": "Factory shipping-table reproduction checked; no inferred quantity or premium."
+    },
+    {
+      "id": "G3-L48-EARLY",
+      "families": [
+        "l-48"
+      ],
+      "claim": "Inspected 1948 L48 carved spruce top, maple back and mahogany sides; inspected 1952 spruce top with mahogany back/sides.",
+      "url": "https://www.archtop.com/ac_48_L48.html",
+      "evidence": "Firsthand specimen descriptions; 1952 corroboration https://cartervintage.com/shop/gibson-l-48-1952-natural/3C50nfCIGBfzPFG2aCx2leRV8hn. No external photos or prices used."
+    },
+    {
+      "id": "G3-TB-CONSTRUCTION",
+      "families": [
+        "thunderbird-eb-bass"
+      ],
+      "claim": "Original reverse Thunderbird neck-through construction; non-reverse version set neck.",
+      "url": "https://www.gibson.com/products/gibson-thunderbird-bass-guitar-tobacco-burst-perimeter",
+      "evidence": "Manufacturer historical description, not inferred from a modern product specification."
+    },
+    {
+      "id": "G3-L4-CHRONOLOGY",
+      "families": [
+        "l-4"
+      ],
+      "claim": "L4 oval/round/f-hole periods and L4CES back-material year groups.",
+      "url": "https://www.vintageguitar.com/price-guide/",
+      "evidence": "2026 book pp169–170 visually checked; dated catalog specifications supply independent snapshots."
+    },
+    {
+      "id": "G3-CAT62-41",
+      "families": [
+        "l-4",
+        "l-48",
+        "l-50"
+      ],
+      "claim": "1962 catalog p41: L-4C pointed Florentine cutaway; L-4C and L-50 carved spruce tops; L-48 laminated mahogany top, laminated maple back, mahogany rims; model appointments, 16¼-inch width and 24¾-inch scale.",
+      "url": "https://www.vintageguitarandbass.com/gibson/catalogues/1962_41.php",
+      "evidence": "Original Gibson catalog scan; interpreted only as a 1962 specification."
+    },
+    {
+      "id": "G3-CAT62-40",
+      "families": [
+        "l-7"
+      ],
+      "claim": "1962 L-7C: 17-inch body, 25½-inch scale, carved spruce top, maple back/rims, three-piece maple neck.",
+      "url": "https://www.vintageguitarandbass.com/gibson/catalogues/1962_40.php",
+      "evidence": "Original Gibson catalog scan."
+    },
+    {
+      "id": "G3-CAT34",
+      "families": [
+        "l-4",
+        "l-7"
+      ],
+      "claim": "1934 catalog W printed pp13–14: 16-inch L-7 and round-hole L-4, carved spruce tops and carved maple backs, mahogany necks.",
+      "url": "https://acousticmusic.org/wp-content/uploads/2016/02/Gibson-1934-Catalog-W.pdf",
+      "evidence": "PDF rendered and inspected; historical construction snapshots, not universal across years."
+    },
+    {
+      "id": "G3-CAT50",
+      "families": [
+        "l-50"
+      ],
+      "claim": "1934 W small f-hole L-50 width14¾/length19¼; 1937 X larger width16¼/length20¼.",
+      "url": "https://prewargibsonl-5.com/2026/03/15/gibsons-prewar-budget-f-hole-archtops/",
+      "evidence": "Original catalog scans embedded on host, inspected directly; no inferred exact transition date."
+    },
+    {
+      "id": "G3-CAT70",
+      "families": [
+        "les-paul-deluxe"
+      ],
+      "claim": "1970 Deluxe catalog: mini-humbuckers, carved maple top, laminated mahogany body and three-piece mahogany neck, 24¾-inch scale.",
+      "url": "https://www.vintageguitarandbass.com/gibson/catalogues/1970_Les_Paul_4.php",
+      "evidence": "Primary catalog image. Host introductory date not used."
+    },
+    {
+      "id": "G3-CAT64",
+      "families": [
+        "thunderbird-eb-bass"
+      ],
+      "claim": "1964 reverse Thunderbird II one pickup; IV two pickups, two volumes and tone; catalog34⅜-inch scale.",
+      "url": "https://www.vintageguitarandbass.com/gibson/catalogues/1964_13.php",
+      "evidence": "Original Gibson catalog scan."
+    },
+    {
+      "id": "G3-CAT66",
+      "families": [
+        "thunderbird-eb-bass",
+        "es-175"
+      ],
+      "claim": "1966 catalog: non-reverse Thunderbird II/IV, EB-0/3 and EB-2/D controls and dimensions; ES-175D maple body, mahogany neck, 24¾-inch scale, dual humbuckers and rosewood bridge.",
+      "url": "https://acousticmusic.org/wp-content/uploads/2016/02/Gibson-1966-Catalog.pdf",
+      "evidence": "PDF printed pp4–5,12–15 visually inspected."
+    },
+    {
+      "id": "G3-CAT72-EB",
+      "families": [
+        "thunderbird-eb-bass"
+      ],
+      "claim": "1972 EB-0/3 solid headstock, laminated maple neck, relocated pickup and21frets; short30½/long34½-inch scales.",
+      "url": "https://www.vintageguitarandbass.com/gibson/catalogues/1972_bass_4.php",
+      "evidence": "Original Gibson catalog scan."
+    },
+    {
+      "id": "G3-CAT72-EB4",
+      "families": [
+        "thunderbird-eb-bass"
+      ],
+      "claim": "1972 EB-4L Super Humbucking pickup, three-position tone switch,34½-inch scale,20frets, maple neck and mahogany body.",
+      "url": "https://www.vintageguitarandbass.com/gibson/catalogues/1972_bass_2.php",
+      "evidence": "Original Gibson catalog scan."
+    },
+    {
+      "id": "G3-VG26",
+      "families": [
+        "les-paul-deluxe",
+        "thunderbird-eb-bass",
+        "l-4",
+        "l-7",
+        "l-48",
+        "l-50",
+        "es-175",
+        "byrdland",
+        "es-225"
+      ],
+      "claim": "186 adjusted value rows and separately scoped chronology/configuration groups. Raw ranges and frozen reductions remain private.",
+      "url": "https://www.vintageguitar.com/price-guide/",
+      "evidence": "Unlocked2026book read pages145,150,169–172,179,416–419. Public row checks in value-chart-check.json. Pricing groups are not exact introduction dates."
+    },
+    {
+      "id": "G3-SERIAL",
+      "families": [
+        "l-4",
+        "l-7",
+        "l-48",
+        "l-50",
+        "les-paul-deluxe",
+        "thunderbird-eb-bass",
+        "es-175"
+      ],
+      "claim": "A976 fits1947; Z699 fits1952; A12622 fits1953 although archive says1952; reused1960s/1970s numbers need features.",
+      "url": "/how-to-read-gibson-serial-numbers/",
+      "evidence": "Existing approved house reference and original photo examination."
+    },
+    {
+      "id": "G3-HARDWARE",
+      "families": [
+        "les-paul-deluxe",
+        "thunderbird-eb-bass",
+        "es-175",
+        "l-4",
+        "l-7",
+        "l-48",
+        "l-50"
+      ],
+      "claim": "Logo, tuner, neck construction, bridge and pickup transitions need model and era corroboration; component dates can predate assembly.",
+      "url": "/gibson-physical-features-hardware-guide/",
+      "evidence": "House reference plus linked logo, tuner, pickup, knob and pot-code guides. No universal dates inferred across all models."
+    },
+    {
+      "id": "G3-JOE-DOTS",
+      "families": [
+        "l-48",
+        "l-50"
+      ],
+      "claim": "Student-model Gibson dot markers are celluloid.",
+      "url": "user:original-brief",
+      "evidence": "Explicit Joe factual ruling; overrides generic pearl descriptions."
+    },
+    {
+      "id": "G3-JOE-PAF",
+      "families": [
+        "es-175",
+        "l-4",
+        "byrdland"
+      ],
+      "claim": "Sanding marks on a PAF baseplate can be factory work; inspection must use multiple features.",
+      "url": "user:original-brief",
+      "evidence": "Explicit Joe factual ruling; no automatic rejection from sanding alone."
+    },
+    {
+      "id": "G3-ARCHIVE",
+      "families": [
+        "les-paul-deluxe",
+        "thunderbird-eb-bass",
+        "l-4",
+        "l-7",
+        "l-48",
+        "l-50",
+        "es-175",
+        "byrdland",
+        "es-225"
+      ],
+      "claim": "Visible instrument features, labels and repair observations in Joe’s photographs.",
+      "url": "reports/model-guides-3/photo-sources.json",
+      "evidence": "50 full-resolution originals; hashes and EXIF transformations recorded. L48 uses labeled L50 comparisons. Ambiguous archive years stated as unresolved."
+    },
+    {
+      "id": "G3-PROCESS",
+      "families": [
+        "les-paul-deluxe",
+        "thunderbird-eb-bass",
+        "l-4",
+        "l-7",
+        "l-48",
+        "l-50",
+        "es-175",
+        "byrdland",
+        "es-225"
+      ],
+      "claim": "Photo-based appraisals use whole-instrument views, numbers and repair history; sellers can contact Joe before shipping or restoration.",
+      "url": "/free-appraisal/",
+      "evidence": "Established live business process; /about-me/, /sell-my-gibson-guitar/, /should-i-restore-my-guitar-before-selling/. No invented firsthand anecdotes."
+    }
+  ],
+  "pages": [
+    {
+      "slug": "gibson-l-50-authentication-guide",
+      "kind": "authentication",
+      "factIds": [
+        "G3-CAT62-41",
+        "G3-CAT50",
+        "G3-VG26",
+        "G3-SERIAL",
+        "G3-HARDWARE",
+        "G3-JOE-DOTS",
+        "G3-ARCHIVE",
+        "G3-PROCESS"
+      ],
+      "publicSources": [
+        {
+          "title": "Gibson Catalog W And Catalog X Illustrations",
+          "href": "https://prewargibsonl-5.com/2026/03/15/gibsons-prewar-budget-f-hole-archtops/",
+          "note": "Original 1934 and 1937 L-50 catalog scans reproduced on the linked page establish the two body sizes and listed construction."
+        },
+        {
+          "title": "Gibson 1962 Catalog, Page 41",
+          "href": "https://www.vintageguitarandbass.com/gibson/catalogues/1962_41.php",
+          "note": "L-50, L-48 and L-4C construction and dimensions for this catalog year."
+        },
+        {
+          "title": "Gibson Serial Numbers And Factory Order Numbers",
+          "href": "/how-to-read-gibson-serial-numbers/",
+          "note": "Z-prefix dating, serial systems and the need to verify physical features."
+        },
+        {
+          "title": "Gibson Physical Features And Hardware",
+          "href": "/gibson-physical-features-hardware-guide/",
+          "note": "Neck, bridge, tailpiece, case and repair inspection principles."
+        }
+      ],
+      "archiveContext": "Original instrument photo observations and appraisal preparation appear in the opening and inspection/condition sections.",
+      "scope": [
+        [
+          "Original Run",
+          "1932 To 1971"
+        ],
+        [
+          "Later Body",
+          "16¼ Inches Wide"
+        ],
+        [
+          "1962 Catalog Top",
+          "Carved Spruce"
+        ],
+        [
+          "Archive Example",
+          "1952 · FON Z 699"
+        ]
+      ]
+    },
+    {
+      "slug": "gibson-l-50-value-guide",
+      "kind": "value",
+      "factIds": [
+        "G3-CAT62-41",
+        "G3-CAT50",
+        "G3-VG26",
+        "G3-SERIAL",
+        "G3-HARDWARE",
+        "G3-JOE-DOTS",
+        "G3-ARCHIVE",
+        "G3-PROCESS"
+      ],
+      "publicSources": [],
+      "archiveContext": "Original instrument photo observations and appraisal preparation appear in the opening and inspection/condition sections.",
+      "scope": [
+        [
+          "1932 To 1934, Small Body",
+          "$2,450 to $3,300"
+        ],
+        [
+          "1934 To 1943",
+          "$2,400 to $3,250"
+        ],
+        [
+          "1950 To 1959",
+          "$1,950 to $2,500"
+        ],
+        [
+          "1970 To 1971",
+          "$1,300 to $1,750"
+        ]
+      ]
+    },
+    {
+      "slug": "gibson-l-48-authentication-guide",
+      "kind": "authentication",
+      "factIds": [
+        "G3-L48-EARLY",
+        "G3-CAT62-41",
+        "G3-VG26",
+        "G3-SERIAL",
+        "G3-HARDWARE",
+        "G3-JOE-DOTS",
+        "G3-ARCHIVE",
+        "G3-PROCESS"
+      ],
+      "publicSources": [
+        {
+          "title": "Documented 1948 Spruce-Top L-48",
+          "href": "https://www.archtop.com/ac_48_L48.html",
+          "note": "Firsthand instrument description and photographs; construction evidence only."
+        },
+        {
+          "title": "Documented 1952 Spruce-Top L-48",
+          "href": "https://cartervintage.com/shop/gibson-l-48-1952-natural/3C50nfCIGBfzPFG2aCx2leRV8hn",
+          "note": "Firsthand specimen specification; no price used."
+        },
+        {
+          "title": "Gibson 1962 Catalog, Page 41",
+          "href": "https://www.vintageguitarandbass.com/gibson/catalogues/1962_41.php",
+          "note": "Primary L-48 and L-50 construction specifications, dimensions and appointments."
+        },
+        {
+          "title": "Gibson Serial Numbers And FONs",
+          "href": "/how-to-read-gibson-serial-numbers/",
+          "note": "Factory-number systems and physical corroboration."
+        },
+        {
+          "title": "Gibson Logo Chronology",
+          "href": "/gibson-headstock-logo-chronology/",
+          "note": "Postwar logo transitions and model-specific limits."
+        },
+        {
+          "title": "Gibson Hardware Guide",
+          "href": "/gibson-physical-features-hardware-guide/",
+          "note": "Bridge, tailpiece, neck and repair checks."
+        }
+      ],
+      "archiveContext": "Original instrument photo observations and appraisal preparation appear in the opening and inspection/condition sections.",
+      "scope": [
+        [
+          "Original Production",
+          "1946 To 1971"
+        ],
+        [
+          "1962 Catalog Body",
+          "16¼ Inches Wide"
+        ],
+        [
+          "1962 Catalog Top",
+          "Laminated Mahogany"
+        ],
+        [
+          "Fingerboard Markers",
+          "Celluloid Dots"
+        ]
+      ]
+    },
+    {
+      "slug": "gibson-l-48-value-guide",
+      "kind": "value",
+      "factIds": [
+        "G3-L48-EARLY",
+        "G3-CAT62-41",
+        "G3-VG26",
+        "G3-SERIAL",
+        "G3-HARDWARE",
+        "G3-JOE-DOTS",
+        "G3-ARCHIVE",
+        "G3-PROCESS"
+      ],
+      "publicSources": [],
+      "archiveContext": "Original instrument photo observations and appraisal preparation appear in the opening and inspection/condition sections.",
+      "scope": [
+        [
+          "1946 To 1949",
+          "$1,700 to $2,150"
+        ],
+        [
+          "1950 To 1959",
+          "$1,750 to $2,200"
+        ],
+        [
+          "1960 To 1964",
+          "$1,600 to $2,000"
+        ],
+        [
+          "1970 To 1971",
+          "$850 to $1,300"
+        ]
+      ]
+    },
+    {
+      "slug": "gibson-les-paul-deluxe-authentication-guide",
+      "kind": "authentication",
+      "factIds": [
+        "G3-DELUXE-FACTORY",
+        "G3-CAT70",
+        "G3-VG26",
+        "G3-SERIAL",
+        "G3-HARDWARE",
+        "G3-ARCHIVE",
+        "G3-PROCESS"
+      ],
+      "publicSources": [
+        {
+          "title": "Gibson Les Paul Deluxe Shipping Records",
+          "href": "https://www.vintageguitarandbass.com/gibson/Les_Paul_Deluxe.php",
+          "note": "Reproduced factory totals distinguish Deluxes with full-size humbuckers."
+        },
+        {
+          "title": "Gibson 1970 Les Paul Catalog, Page 4",
+          "href": "https://www.vintageguitarandbass.com/gibson/catalogues/1970_Les_Paul_4.php",
+          "note": "Original Deluxe photograph and specifications for the 1970 catalog model."
+        },
+        {
+          "title": "Gibson Physical Features And Hardware",
+          "href": "/gibson-physical-features-hardware-guide/",
+          "note": "Neck laminations, pancake bodies, volutes and bridge transitions."
+        },
+        {
+          "title": "Gibson Serial Numbers",
+          "href": "/how-to-read-gibson-serial-numbers/",
+          "note": "Six-digit, decal and eight-digit numbering systems."
+        },
+        {
+          "title": "Gibson Pot Codes",
+          "href": "/gibson-pot-codes/",
+          "note": "Component-date interpretation and replacement-pot limits."
+        }
+      ],
+      "archiveContext": "Original instrument photo observations and appraisal preparation appear in the opening and inspection/condition sections.",
+      "scope": [
+        [
+          "Main Pickup Type",
+          "Two Mini-Humbuckers"
+        ],
+        [
+          "Body Inspection",
+          "Maple Cap And Back Construction"
+        ],
+        [
+          "Dating Evidence",
+          "Serial, Neck And Pot Codes"
+        ],
+        [
+          "Common Modification",
+          "Full-Size Humbucker Routing"
+        ]
+      ]
+    },
+    {
+      "slug": "gibson-les-paul-deluxe-value-guide",
+      "kind": "value",
+      "factIds": [
+        "G3-DELUXE-FACTORY",
+        "G3-CAT70",
+        "G3-VG26",
+        "G3-SERIAL",
+        "G3-HARDWARE",
+        "G3-ARCHIVE",
+        "G3-PROCESS"
+      ],
+      "publicSources": [],
+      "archiveContext": "Original instrument photo observations and appraisal preparation appear in the opening and inspection/condition sections.",
+      "scope": [
+        [
+          "1969 Gold Finish",
+          "$7,250 to $9,350"
+        ],
+        [
+          "1971 To 1975 Sunburst",
+          "$3,500 to $4,800"
+        ],
+        [
+          "1973 To 1977 Blue Sparkle",
+          "$5,950 to $8,100"
+        ],
+        [
+          "1980 To 1985",
+          "$3,050 to $3,900"
+        ]
+      ]
+    },
+    {
+      "slug": "gibson-l-4-authentication-guide",
+      "kind": "authentication",
+      "factIds": [
+        "G3-L4-CHRONOLOGY",
+        "G3-CAT62-41",
+        "G3-CAT34",
+        "G3-VG26",
+        "G3-SERIAL",
+        "G3-HARDWARE",
+        "G3-JOE-PAF",
+        "G3-ARCHIVE",
+        "G3-PROCESS"
+      ],
+      "publicSources": [
+        {
+          "title": "Gibson 1934 Catalog W, Printed Page 14",
+          "href": "https://acousticmusic.org/wp-content/uploads/2016/02/Gibson-1934-Catalog-W.pdf",
+          "note": "Original round-hole L-4 illustration, woods and dimensions."
+        },
+        {
+          "title": "Gibson 1962 Catalog, Page 41",
+          "href": "https://www.vintageguitarandbass.com/gibson/catalogues/1962_41.php",
+          "note": "Cutaway acoustic L-4C specification."
+        },
+        {
+          "title": "The Official Vintage Guitar Price Guide, 2026 Edition",
+          "href": "https://www.vintageguitar.com/price-guide/",
+          "note": "L-4 family chronology and separate L-4CES construction groups, pages 169 and 170."
+        },
+        {
+          "title": "Gibson Factory Numbers",
+          "href": "/how-to-read-gibson-serial-numbers/",
+          "note": "Numbering systems and physical corroboration."
+        }
+      ],
+      "archiveContext": "Original instrument photo observations and appraisal preparation appear in the opening and inspection/condition sections.",
+      "scope": [
+        [
+          "Early Acoustic",
+          "Oval Or Round Soundhole"
+        ],
+        [
+          "Later Acoustic",
+          "F-Holes, With Or Without Cutaway"
+        ],
+        [
+          "C Suffix",
+          "Cutaway Acoustic Model"
+        ],
+        [
+          "CES Suffix",
+          "Electric Spanish Version"
+        ]
+      ]
+    },
+    {
+      "slug": "gibson-l-4-value-guide",
+      "kind": "value",
+      "factIds": [
+        "G3-L4-CHRONOLOGY",
+        "G3-CAT62-41",
+        "G3-CAT34",
+        "G3-VG26",
+        "G3-SERIAL",
+        "G3-HARDWARE",
+        "G3-JOE-PAF",
+        "G3-ARCHIVE",
+        "G3-PROCESS"
+      ],
+      "publicSources": [],
+      "archiveContext": "Original instrument photo observations and appraisal preparation appear in the opening and inspection/condition sections.",
+      "scope": [
+        [
+          "1935 To 1946 Acoustic",
+          "$4,400 to $5,700"
+        ],
+        [
+          "1949 To 1959 L-4C Sunburst",
+          "$4,800 to $6,100"
+        ],
+        [
+          "1958 L-4CES Natural",
+          "$13,050 to $17,400"
+        ],
+        [
+          "2004 To 2018 L-4CES",
+          "$3,850 to $5,950"
+        ]
+      ]
+    },
+    {
+      "slug": "gibson-l-7-authentication-guide",
+      "kind": "authentication",
+      "factIds": [
+        "G3-CAT62-40",
+        "G3-CAT34",
+        "G3-VG26",
+        "G3-SERIAL",
+        "G3-HARDWARE",
+        "G3-ARCHIVE",
+        "G3-PROCESS"
+      ],
+      "publicSources": [
+        {
+          "title": "Gibson 1934 Catalog W, Printed Page 13",
+          "href": "https://acousticmusic.org/wp-content/uploads/2016/02/Gibson-1934-Catalog-W.pdf",
+          "note": "Original 16-inch L-7 construction and appointments."
+        },
+        {
+          "title": "Gibson 1962 Catalog, Page 40",
+          "href": "https://www.vintageguitarandbass.com/gibson/catalogues/1962_40.php",
+          "note": "L-7C dimensions, neck, scale and acoustic hardware."
+        },
+        {
+          "title": "The Official Vintage Guitar Price Guide, 2026 Edition",
+          "href": "https://www.vintageguitar.com/price-guide/",
+          "note": "L-7 body, bracing and historical electric groups, page 171."
+        },
+        {
+          "title": "Gibson Serial Numbers And FONs",
+          "href": "/how-to-read-gibson-serial-numbers/",
+          "note": "Postwar A-prefix ranges and other Gibson dating systems."
+        }
+      ],
+      "archiveContext": "Original instrument photo observations and appraisal preparation appear in the opening and inspection/condition sections.",
+      "scope": [
+        [
+          "Early Body",
+          "16-Inch Group"
+        ],
+        [
+          "Advanced Body",
+          "17-Inch Group"
+        ],
+        [
+          "L-7C",
+          "Cutaway Acoustic"
+        ],
+        [
+          "Archive Label",
+          "A 976, In The 1947 Range"
+        ]
+      ]
+    },
+    {
+      "slug": "gibson-l-7-value-guide",
+      "kind": "value",
+      "factIds": [
+        "G3-CAT62-40",
+        "G3-CAT34",
+        "G3-VG26",
+        "G3-SERIAL",
+        "G3-HARDWARE",
+        "G3-ARCHIVE",
+        "G3-PROCESS"
+      ],
+      "publicSources": [],
+      "archiveContext": "Original instrument photo observations and appraisal preparation appear in the opening and inspection/condition sections.",
+      "scope": [
+        [
+          "1932 To 1934, 16-Inch",
+          "$4,350 to $5,650"
+        ],
+        [
+          "1940 To 1949 Sunburst",
+          "$3,850 to $5,100"
+        ],
+        [
+          "1950 To 1959 L-7C Natural",
+          "$4,250 to $5,950"
+        ],
+        [
+          "1948 To 1954 L-7CE",
+          "$4,800 to $6,950"
+        ]
+      ]
+    },
+    {
+      "slug": "gibson-thunderbird-eb-bass-authentication-guide",
+      "kind": "authentication",
+      "factIds": [
+        "G3-TB-CONSTRUCTION",
+        "G3-CAT64",
+        "G3-CAT66",
+        "G3-CAT72-EB",
+        "G3-CAT72-EB4",
+        "G3-VG26",
+        "G3-SERIAL",
+        "G3-HARDWARE",
+        "G3-ARCHIVE",
+        "G3-PROCESS"
+      ],
+      "publicSources": [
+        {
+          "title": "Documented EB-3 Production Changes",
+          "href": "https://www.flyguitars.com/gibson/bass/EB3timeline.php",
+          "note": "Photographed specimens compare control spacing and headstock generations."
+        },
+        {
+          "title": "Gibson’s Thunderbird Construction History",
+          "href": "https://www.gibson.com/products/gibson-thunderbird-bass-guitar-tobacco-burst-perimeter",
+          "note": "Manufacturer’s historical account distinguishes early neck-through and later non-reverse set-neck construction; modern specifications are excluded from vintage identification."
+        },
+        {
+          "title": "Gibson 1964 Catalog, Page 13",
+          "href": "https://www.vintageguitarandbass.com/gibson/catalogues/1964_13.php",
+          "note": "Original reverse Thunderbird II and IV layouts."
+        },
+        {
+          "title": "Gibson 1966 Catalog",
+          "href": "https://acousticmusic.org/wp-content/uploads/2016/02/Gibson-1966-Catalog.pdf",
+          "note": "Non-reverse Thunderbirds and EB-0, EB-3 and EB-2 specifications, printed pages 12 through 15."
+        },
+        {
+          "title": "Gibson 1972 Bass Catalog, Page 4",
+          "href": "https://www.vintageguitarandbass.com/gibson/catalogues/1972_bass_4.php",
+          "note": "Redesigned EB-0 and EB-3, long-scale variants and solid headstocks."
+        },
+        {
+          "title": "Gibson 1972 Bass Catalog, Page 2",
+          "href": "https://www.vintageguitarandbass.com/gibson/catalogues/1972_bass_2.php",
+          "note": "EB-4L pickup, neck, scale and control specification."
+        },
+        {
+          "title": "The Official Vintage Guitar Price Guide, 2026 Edition",
+          "href": "https://www.vintageguitar.com/price-guide/",
+          "note": "Historical bass model groups through 1979, pages 416 through 419."
+        },
+        {
+          "title": "Gibson Serial Numbers",
+          "href": "/how-to-read-gibson-serial-numbers/",
+          "note": "Serial formats and the limits of isolated number matching."
+        }
+      ],
+      "archiveContext": "Original instrument photo observations and appraisal preparation appear in the opening and inspection/condition sections.",
+      "scope": [
+        [
+          "Thunderbird II / IV",
+          "One / Two Pickups"
+        ],
+        [
+          "EB-0 / EB-3",
+          "Different Pickup And Control Layouts"
+        ],
+        [
+          "EB-2 / EB-2D",
+          "Semi-Hollow, One / Two Pickups"
+        ],
+        [
+          "L Suffix",
+          "Long-Scale Version Where Specified"
+        ]
+      ]
+    },
+    {
+      "slug": "gibson-thunderbird-eb-bass-value-guide",
+      "kind": "value",
+      "factIds": [
+        "G3-TB-CONSTRUCTION",
+        "G3-CAT64",
+        "G3-CAT66",
+        "G3-CAT72-EB",
+        "G3-CAT72-EB4",
+        "G3-VG26",
+        "G3-SERIAL",
+        "G3-HARDWARE",
+        "G3-ARCHIVE",
+        "G3-PROCESS"
+      ],
+      "publicSources": [],
+      "archiveContext": "Original instrument photo observations and appraisal preparation appear in the opening and inspection/condition sections.",
+      "scope": [
+        [
+          "1963 Thunderbird IV Sunburst",
+          "$10,000 to $12,600"
+        ],
+        [
+          "1966 To 1969 EB-2",
+          "$2,200 to $2,850"
+        ],
+        [
+          "1961 To 1964 EB-3",
+          "$3,850 to $5,600"
+        ],
+        [
+          "1972 To 1979 EB-4L",
+          "$1,350 to $1,800"
+        ]
+      ]
+    },
+    {
+      "slug": "gibson-es-175-authentication-guide",
+      "kind": "authentication",
+      "factIds": [
+        "G3-CAT66",
+        "G3-VG26",
+        "G3-SERIAL",
+        "G3-HARDWARE",
+        "G3-JOE-PAF",
+        "G3-ARCHIVE",
+        "G3-PROCESS"
+      ],
+      "publicSources": [
+        {
+          "title": "Gibson 1966 Catalog, Printed Pages 4 And 5",
+          "href": "https://acousticmusic.org/wp-content/uploads/2016/02/Gibson-1966-Catalog.pdf",
+          "note": "ES-175D body dimensions, neck, controls, scale and hardware."
+        },
+        {
+          "title": "ES-175 History And Specifications",
+          "href": "/post/gibson-es-175-evolution-and-specifications/",
+          "note": "House history anchor for laminated construction and pickup development."
+        },
+        {
+          "title": "Gibson Serial Numbers",
+          "href": "/how-to-read-gibson-serial-numbers/",
+          "note": "A-prefix ranges and later serial systems."
+        },
+        {
+          "title": "Gibson Physical Features And Hardware",
+          "href": "/gibson-physical-features-hardware-guide/",
+          "note": "Neck, volute and hardware transitions with model-specific qualifications."
+        },
+        {
+          "title": "The Official Vintage Guitar Price Guide, 2026 Edition",
+          "href": "https://www.vintageguitar.com/price-guide/",
+          "note": "Separate ES-175, ES-175D, CC and T reference groups, page 150."
+        }
+      ],
+      "archiveContext": "Original instrument photo observations and appraisal preparation appear in the opening and inspection/condition sections.",
+      "scope": [
+        [
+          "ES-175",
+          "Single-Pickup Configuration"
+        ],
+        [
+          "ES-175D",
+          "Two-Pickup Configuration"
+        ],
+        [
+          "Body",
+          "Full-Depth Laminated Archtop"
+        ],
+        [
+          "Date Evidence",
+          "Label, Serial And Physical Features"
+        ]
+      ]
+    },
+    {
+      "slug": "gibson-es-175-value-guide",
+      "kind": "value",
+      "factIds": [
+        "G3-CAT66",
+        "G3-VG26",
+        "G3-SERIAL",
+        "G3-HARDWARE",
+        "G3-JOE-PAF",
+        "G3-ARCHIVE",
+        "G3-PROCESS"
+      ],
+      "publicSources": [],
+      "archiveContext": "Original instrument photo observations and appraisal preparation appear in the opening and inspection/condition sections.",
+      "scope": [
+        [
+          "1949 To 1956 Single P-90 Sunburst",
+          "$5,350 to $7,100"
+        ],
+        [
+          "1957 To 1963 ES-175D Sunburst",
+          "$12,900 to $16,350"
+        ],
+        [
+          "1967 To 1969 ES-175D Various Finishes",
+          "$4,000 to $6,250"
+        ],
+        [
+          "1980 To 2016 ES-175D",
+          "$3,100 to $5,350"
+        ]
+      ]
+    },
+    {
+      "slug": "gibson-byrdland-value-guide",
+      "kind": "value",
+      "factIds": [
+        "G3-VG26",
+        "G3-JOE-PAF",
+        "G3-ARCHIVE",
+        "G3-PROCESS"
+      ],
+      "publicSources": [],
+      "archiveContext": "Original instrument photo observations and appraisal preparation appear in the opening and inspection/condition sections.",
+      "scope": [
+        [
+          "1955 To 1957 Natural, Alnico",
+          "$10,300 to $13,350"
+        ],
+        [
+          "1958 To 1959 Natural, PAF",
+          "$15,500 to $21,500"
+        ],
+        [
+          "1963 To 1964 Sunburst",
+          "$7,850 to $10,450"
+        ],
+        [
+          "1970 To 1992 Various Finishes",
+          "$4,000 to $5,350"
+        ]
+      ]
+    },
+    {
+      "slug": "gibson-es-225-value-guide",
+      "kind": "value",
+      "factIds": [
+        "G3-VG26",
+        "G3-ARCHIVE",
+        "G3-PROCESS"
+      ],
+      "publicSources": [],
+      "archiveContext": "Original instrument photo observations and appraisal preparation appear in the opening and inspection/condition sections.",
+      "scope": [
+        [
+          "Single Pickup, Sunburst",
+          "$3,100 to $4,000"
+        ],
+        [
+          "Single Pickup, Natural",
+          "$4,300 to $5,600"
+        ],
+        [
+          "Two Pickups, Sunburst",
+          "$4,850 to $6,600"
+        ],
+        [
+          "Two Pickups, Natural",
+          "$6,700 to $8,450"
+        ]
+      ]
+    }
+  ],
+  "limitations": [
+    "Formal locality/professional/practice database records were unavailable beyond scaffolds. Existing approved author/process sources and instrument archive records supply context; no unverified anecdotes were substituted.",
+    "Joe retains final editorial and publication approval. Original price-book text and signed Drive download URLs are excluded from public reports."
+  ]
+}

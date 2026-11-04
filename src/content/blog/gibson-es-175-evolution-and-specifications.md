@@ -17,6 +17,8 @@ A 1950s Gibson ES-175 with the Florentine cutaway and Sunburst finish, the kind 
 
 If there is one guitar that truly defines the “workhorse” era of Gibson’s golden years, it’s the ES-175. While the high-end carved-top models like the L-5 were getting all the glory in the late 40s, the 175 was quietly becoming the most recorded jazz guitar in history. At Joe’s Vintage Guitars, we’ve handled our fair share of these instruments, and honestly, no two are exactly alike. If you’re sitting on one, maybe it was your father’s or you found it at an estate sale, you’re looking at a piece of history that has a very specific “DNA” that determines its value. As always, if you need help [appraising your guitar](/free-appraisal/), we are happy to help with a valuation, as well as a competitive cash offer to [buy your Gibson](/sell-my-gibson-guitar/) if you are in the market to sell.
 
+For an individual instrument, the <a href="/post/gibson-es-175-authentication-guide/">ES-175 authentication guide</a> examines the label and pickup installation in detail. The <a href="/post/gibson-es-175-value-guide/">ES-175 price chart</a> separates single- and double-pickup models, finishes and production groups.
+
 ## Why the 175 Changed the Game in 1949
 
 Before the 175 hit the scene, “electric” guitars were mostly acoustic archtops with a pickup slapped on them. Gibson’s big move in 1949 was deciding to use laminated maple instead of solid spruce. Now, to a casual observer, “laminated” sounds like a cost-cutting measure. In reality, it was a genius move for tone.
@@ -97,3 +99,5 @@ Market demand for the ES-175 remains high because it is the “gold standard” 
 The ES-175 is a complex beast. Between the single-pickup (ES-175) and double-pickup (ES-175D) versions, the transitions from nickel to chrome hardware in 1965, and the rare variations like the ES-175CC (with the Charlie Christian pickup), there is a lot of room for error.
 
 At the end of the day, these guitars were built to be played. They have soul, they have history, and they have a value that has remained remarkably steady for decades. If you have one sitting in a closet in Arizona or anywhere else, it’s worth taking the time to have it appraised by someone who knows the difference between a “player grade” 1972 and a “museum grade” 1959. Joe’s vintage guitars is here to help! [Contact us](/contact-me/) for a free appraisal today!
+
+After confirming the model, compare its condition with the <a href="/post/gibson-es-175-value-guide/">ES-175 value guide</a> and use the <a href="/post/gibson-es-175-authentication-guide/">authentication checklist</a> for unresolved physical details.

@@ -83,3 +83,5 @@ body.firebird-guide-page .blog-prose .fbv-header{min-height:0;background:#3e2a14
 </style>
 
 For the wider family, my [vintage Gibson value guide](/vintage-gibson-value-guide/) links the solidbody, ES, archtop and acoustic model comparisons.
+
+For the bass family, the <a href="/post/gibson-thunderbird-eb-bass-value-guide/">Thunderbird and EB value guide</a> keeps reverse, non-reverse and later Thunderbird price groups separate from Firebird guitar values.
