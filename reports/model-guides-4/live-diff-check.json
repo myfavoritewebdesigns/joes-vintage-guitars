@@ -5,7 +5,7 @@
     "target": "http://127.0.0.1:4338/post/fender-bass-vi-value-guide/",
     "mode": "Net-new page structural self-check; independent qualitative review is separate",
     "exitCode": 0,
-    "output": "[audit] Live:  http://127.0.0.1:4338/post/fender-bass-vi-value-guide/\n[audit] Local: http://127.0.0.1:4338/post/fender-bass-vi-value-guide/\n[audit] Slug:  mg4-preview-1\n\n[audit] Liveness-checking 6 asset URL(s) on local (img/picture/poster/iframe)...\n\n[audit] Report: C:\\Users\\joeda\\Documents\\Codex\\2026-10-29\\files-pasted-by-the-user-codex\\work\\joes-vintage-guitars\\reports\\mg4-preview-1-audit-2026-11-05T16-33-02-290Z.md\n[audit] ðŸ”´ must-fix: 0  ðŸŸ¡ should-fix: 1  ðŸŸ¢ acceptable: 0\n"
+    "output": "[audit] Live:  http://127.0.0.1:4338/post/fender-bass-vi-value-guide/\n[audit] Local: http://127.0.0.1:4338/post/fender-bass-vi-value-guide/\n[audit] Slug:  mg4-preview-1\n\n[audit] Liveness-checking 6 asset URL(s) on local (img/picture/poster/iframe)...\n\n[audit] Report: C:\\Users\\joeda\\Documents\\Codex\\2026-10-29\\files-pasted-by-the-user-codex\\work\\joes-vintage-guitars\\reports\\mg4-preview-1-audit-2026-11-05T17-30-10-720Z.md\n[audit] ðŸ”´ must-fix: 0  ðŸŸ¡ should-fix: 1  ðŸŸ¢ acceptable: 0\n"
   },
   {
     "slug": "fender-bass-vi-authentication-guide",
@@ -13,7 +13,7 @@
     "target": "http://127.0.0.1:4338/post/fender-bass-vi-authentication-guide/",
     "mode": "Net-new page structural self-check; independent qualitative review is separate",
     "exitCode": 0,
-    "output": "[audit] Live:  http://127.0.0.1:4338/post/fender-bass-vi-authentication-guide/\n[audit] Local: http://127.0.0.1:4338/post/fender-bass-vi-authentication-guide/\n[audit] Slug:  mg4-preview-2\n\n[audit] Liveness-checking 7 asset URL(s) on local (img/picture/poster/iframe)...\n\n[audit] Report: C:\\Users\\joeda\\Documents\\Codex\\2026-10-29\\files-pasted-by-the-user-codex\\work\\joes-vintage-guitars\\reports\\mg4-preview-2-audit-2026-11-05T16-33-02-298Z.md\n[audit] ðŸ”´ must-fix: 0  ðŸŸ¡ should-fix: 1  ðŸŸ¢ acceptable: 0\n"
+    "output": "[audit] Live:  http://127.0.0.1:4338/post/fender-bass-vi-authentication-guide/\n[audit] Local: http://127.0.0.1:4338/post/fender-bass-vi-authentication-guide/\n[audit] Slug:  mg4-preview-2\n\n[audit] Liveness-checking 7 asset URL(s) on local (img/picture/poster/iframe)...\n\n[audit] Report: C:\\Users\\joeda\\Documents\\Codex\\2026-10-29\\files-pasted-by-the-user-codex\\work\\joes-vintage-guitars\\reports\\mg4-preview-2-audit-2026-11-05T17-30-10-720Z.md\n[audit] ðŸ”´ must-fix: 0  ðŸŸ¡ should-fix: 1  ðŸŸ¢ acceptable: 0\n"
   },
   {
     "slug": "fender-telecaster-thinline-custom-deluxe-value-guide",
@@ -21,7 +21,7 @@
     "target": "http://127.0.0.1:4338/post/fender-telecaster-thinline-custom-deluxe-value-guide/",
     "mode": "Net-new page structural self-check; independent qualitative review is separate",
     "exitCode": 0,
-    "output": "[audit] Live:  http://127.0.0.1:4338/post/fender-telecaster-thinline-custom-deluxe-value-guide/\n[audit] Local: http://127.0.0.1:4338/post/fender-telecaster-thinline-custom-deluxe-value-guide/\n[audit] Slug:  mg4-preview-3\n\n[audit] Liveness-checking 13 asset URL(s) on local (img/picture/poster/iframe)...\n\n[audit] Report: C:\\Users\\joeda\\Documents\\Codex\\2026-10-29\\files-pasted-by-the-user-codex\\work\\joes-vintage-guitars\\reports\\mg4-preview-3-audit-2026-11-05T16-33-02-302Z.md\n[audit] ðŸ”´ must-fix: 0  ðŸŸ¡ should-fix: 1  ðŸŸ¢ acceptable: 0\n"
+    "output": "[audit] Live:  http://127.0.0.1:4338/post/fender-telecaster-thinline-custom-deluxe-value-guide/\n[audit] Local: http://127.0.0.1:4338/post/fender-telecaster-thinline-custom-deluxe-value-guide/\n[audit] Slug:  mg4-preview-3\n\n[audit] Liveness-checking 13 asset URL(s) on local (img/picture/poster/iframe)...\n\n[audit] Report: C:\\Users\\joeda\\Documents\\Codex\\2026-10-29\\files-pasted-by-the-user-codex\\work\\joes-vintage-guitars\\reports\\mg4-preview-3-audit-2026-11-05T17-30-10-777Z.md\n[audit] ðŸ”´ must-fix: 0  ðŸŸ¡ should-fix: 1  ðŸŸ¢ acceptable: 0\n"
   },
   {
     "slug": "fender-telecaster-thinline-custom-deluxe-authentication-guide",
@@ -29,7 +29,7 @@
     "target": "http://127.0.0.1:4338/post/fender-telecaster-thinline-custom-deluxe-authentication-guide/",
     "mode": "Net-new page structural self-check; independent qualitative review is separate",
     "exitCode": 0,
-    "output": "[audit] Live:  http://127.0.0.1:4338/post/fender-telecaster-thinline-custom-deluxe-authentication-guide/\n[audit] Local: http://127.0.0.1:4338/post/fender-telecaster-thinline-custom-deluxe-authentication-guide/\n[audit] Slug:  mg4-preview-4\n\n[audit] Liveness-checking 21 asset URL(s) on local (img/picture/poster/iframe)...\n\n[audit] Report: C:\\Users\\joeda\\Documents\\Codex\\2026-10-29\\files-pasted-by-the-user-codex\\work\\joes-vintage-guitars\\reports\\mg4-preview-4-audit-2026-11-05T16-33-02-306Z.md\n[audit] ðŸ”´ must-fix: 0  ðŸŸ¡ should-fix: 1  ðŸŸ¢ acceptable: 0\n"
+    "output": "[audit] Live:  http://127.0.0.1:4338/post/fender-telecaster-thinline-custom-deluxe-authentication-guide/\n[audit] Local: http://127.0.0.1:4338/post/fender-telecaster-thinline-custom-deluxe-authentication-guide/\n[audit] Slug:  mg4-preview-4\n\n[audit] Liveness-checking 21 asset URL(s) on local (img/picture/poster/iframe)...\n\n[audit] Report: C:\\Users\\joeda\\Documents\\Codex\\2026-10-29\\files-pasted-by-the-user-codex\\work\\joes-vintage-guitars\\reports\\mg4-preview-4-audit-2026-11-05T17-30-10-767Z.md\n[audit] ðŸ”´ must-fix: 0  ðŸŸ¡ should-fix: 1  ðŸŸ¢ acceptable: 0\n"
   },
   {
     "slug": "fender-esquire-authentication-guide",
@@ -37,6 +37,6 @@
     "target": "http://127.0.0.1:4338/post/fender-esquire-authentication-guide/",
     "mode": "Net-new page structural self-check; independent qualitative review is separate",
     "exitCode": 0,
-    "output": "[audit] Live:  http://127.0.0.1:4338/post/fender-esquire-authentication-guide/\n[audit] Local: http://127.0.0.1:4338/post/fender-esquire-authentication-guide/\n[audit] Slug:  mg4-preview-5\n\n[audit] Liveness-checking 19 asset URL(s) on local (img/picture/poster/iframe)...\n\n[audit] Report: C:\\Users\\joeda\\Documents\\Codex\\2026-10-29\\files-pasted-by-the-user-codex\\work\\joes-vintage-guitars\\reports\\mg4-preview-5-audit-2026-11-05T16-33-02-311Z.md\n[audit] ðŸ”´ must-fix: 0  ðŸŸ¡ should-fix: 1  ðŸŸ¢ acceptable: 0\n"
+    "output": "[audit] Live:  http://127.0.0.1:4338/post/fender-esquire-authentication-guide/\n[audit] Local: http://127.0.0.1:4338/post/fender-esquire-authentication-guide/\n[audit] Slug:  mg4-preview-5\n\n[audit] Liveness-checking 19 asset URL(s) on local (img/picture/poster/iframe)...\n\n[audit] Report: C:\\Users\\joeda\\Documents\\Codex\\2026-10-29\\files-pasted-by-the-user-codex\\work\\joes-vintage-guitars\\reports\\mg4-preview-5-audit-2026-11-05T17-30-10-774Z.md\n[audit] ðŸ”´ must-fix: 0  ðŸŸ¡ should-fix: 1  ðŸŸ¢ acceptable: 0\n"
   }
 ]

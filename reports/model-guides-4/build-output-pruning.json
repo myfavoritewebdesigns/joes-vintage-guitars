@@ -1,0 +1,13 @@
+{
+  "before": 20222,
+  "after": 17791,
+  "removedCount": 2431,
+  "removedBytes": 562345538,
+  "unchangedNonWebpFiles": 2460,
+  "changed": [],
+  "originalAssetsPresent": true,
+  "cloudflareFailureCause": "Unconfirmed; detailed log inaccessible. File count exceeds documented Free-plan limit.",
+  "rules": "Only unreferenced generated WebP variants inside resolved dist/_astro; source originals and public assets retained.",
+  "checkedAstroReferences": 15439,
+  "missingAstroReferences": []
+}
