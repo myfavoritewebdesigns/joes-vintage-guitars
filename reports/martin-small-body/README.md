@@ -8,7 +8,7 @@ Adds six 000-18, 00-18 and 0-18 identification/value posts and a 58-row price ta
 
 - Build: 459 pages; Astro check: 0 errors, 0 warnings (110 informational hints).
 - Copy gate: 0 hard fails (795 pre-existing/sitewide warnings). AI-tell scan: 0 Tier 1 hits; 6 reviewed warnings concern the required authentication terminology and photo-caption fragments. Decorative section counters are excluded from prose scanning.
-- Image licensing: 43 content nodes, 0 mismatches. All 25 selected originals pass SHA-256 checks; 17 new full-byte assets, with existing originals reused.
+- Image licensing: 43 content nodes, 0 mismatches. All 25 selected originals pass SHA-256 checks; 14 new full-byte assets, with existing originals reused.
 - Internal links: 0 broken routes/anchors on all six new and five touched pages. Each new guide has 3 contextual prose inbounds from existing pages, and 4 FAQs with FAQPage JSON-LD. No prohibited schemas or external value-page citations.
 - Prices: all 58 frozen reductions independently recalculated; every hub figure exactly matches its value page. Trace: value-chart-check.json and deep-verification.json.
 - Visual: all 12 required page/viewport cases have visible top buttons, 0 document overflow, 0 broken images, 0 computed contrast failures and 0 axe violations. Full visible text-run checks include open FAQ answers. Axe incomplete/pseudo-background cases are retained and visually reviewed, not counted as automated passes.
