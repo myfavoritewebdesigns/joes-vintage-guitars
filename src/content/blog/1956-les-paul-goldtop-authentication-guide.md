@@ -20,7 +20,7 @@ After confirming the year and original parts, use the [vintage Gibson Les Paul v
 
 ## The Headstock & Neck
 
--   **The Gibson Logo:** This is a Mother of Pearl inlay with the classic mid-50s font. You’re looking for an open “b” and “o,” with a thickness and “dot” over the “i” that is specific to the era.
+-   **[The Gibson Logo](/gibson-headstock-logo-chronology/#golden-era-block):** This is a Mother of Pearl inlay with the classic mid-50s font. You’re looking for an open “b” and “o,” with a thickness and “dot” over the “i” that is specific to the era.
     
 
 ![Close-up of a 1956 Gibson Les Paul headstock featuring the Mother of Pearl Gibson inlay and the gold "Les Paul Model" silkscreen, showing the specific mid-50s font and the vertical spacing between the logo and the script.](../../assets/blog/1956-les-paul-goldtop-authentication-guide/1956-gibson-les-paul-standard-logo-close-up-1024x683.jpg)

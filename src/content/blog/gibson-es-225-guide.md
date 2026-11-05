@@ -341,7 +341,7 @@ The FON is usually ink-stamped inside the body and viewed through the treble-sid
 
 ### 4. Read the neck and headstock as a group
 
-Look for a one-piece mahogany neck, bound rosewood fingerboard, pearl dots, pearl Gibson logo, correct open-book outline, bell truss-rod cover, cream nylon nut, and individual Kluson Deluxe tuners. Compare tuner footprints, bushing diameter, and screw holes. Replaced tuners often leave a second outline or enlarged holes.
+Look for a one-piece mahogany neck, bound rosewood fingerboard, pearl dots, [pearl Gibson logo](/gibson-headstock-logo-chronology/), correct open-book outline, bell truss-rod cover, cream nylon nut, and individual Kluson Deluxe tuners. Compare tuner footprints, bushing diameter, and screw holes. Replaced tuners often leave a second outline or enlarged holes.
 
 <figure>
 

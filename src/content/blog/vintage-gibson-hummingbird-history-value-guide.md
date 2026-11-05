@@ -134,7 +134,7 @@ What Gibson actually built at the start, before the specs began drifting:
 - **Back and sides.** Honduras mahogany, finished in cherry.
 - **Neck.** One piece Honduras mahogany with an adjustable truss rod and a 1 11/16 inch nut.
 - **Fretboard.** Bound rosewood, 20 frets, large split parallelogram pearl inlays.
-- **Headstock.** Gibson logo in gold, crown inlay below it, gold single line Kluson tuners with white plastic buttons, pitched back 17 degrees.
+- **Headstock.** [Gibson logo](/gibson-headstock-logo-chronology/) in gold, crown inlay below it, gold single line Kluson tuners with white plastic buttons, pitched back 17 degrees.
 - **Bridge.** Rectangular rosewood. The first ones had a fixed saddle. The adjustable saddle became standard during 1961, with ceramic and rosewood saddles both in use.
 - **Guard.** Large engraved plastic guard with the hummingbird, trumpet flower vine, and butterfly.
 - **Binding.** Multi ply on the top, single ply on the back, bound neck.

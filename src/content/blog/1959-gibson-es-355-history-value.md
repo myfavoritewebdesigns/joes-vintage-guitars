@@ -88,7 +88,7 @@ Gibson quickly built a three-model ladder on that body. The **ES-335** was the w
 
 ![Split-diamond pearl headstock inlay and gold Gibson logo on a black multi-bound headstock of a 1959 Gibson ES-355.](../../assets/blog/1959-gibson-es-355-history-value/1959-gibson-es-355-split-diamond-headstock.jpg)
 
-The fastest way to know you are looking at a 355 and not a 335 or 345 is the headstock. The 335 and 345 wear a simple pearl crown. The 355 gets this five-piece split-diamond inlay and a pearl Gibson logo on a black, multi-bound headstock, the same top-tier peghead Gibson used on its most expensive guitars.
+The fastest way to know you are looking at a 355 and not a 335 or 345 is the headstock. The 335 and 345 wear a simple pearl crown. The 355 gets this five-piece split-diamond inlay and a [pearl Gibson logo](/gibson-headstock-logo-chronology/#golden-era-block) on a black, multi-bound headstock, the same top-tier peghead Gibson used on its most expensive guitars.
 
 A quick word on the dates, because people state them sloppily. The very first ES-355s shipped in 1958, only about ten of them, all mono. The model reached full production and its catalog debut in 1959. So a 1959 355 is a genuine first-generation instrument, and it arrived slightly ahead of the mid-tier 345. It was a low-production luxury item from the start. Where the 335 sold in the thousands, the 355 sold in the low hundreds. If you want to see the plainer, and today more valuable, sister model, our [1959 Gibson ES-335 authentication guide](/post/1959-gibson-es-335-authentication-guide/) is the companion to this one, and it is worth reading both side by side.
 

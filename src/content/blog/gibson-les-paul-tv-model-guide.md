@@ -55,7 +55,7 @@ Whatever the origin, the name stuck, and the finish became iconic. On the actual
 
 ![Extreme close-up of the headstock silk-screen on a 1957 Gibson Les Paul TV Model, showing the gold Gibson logo, the Les Paul signature script, and the words TV MODEL in small gold capital letters on the aged black headstock face.](../../assets/blog/gibson-les-paul-tv-model-guide/1957-gibson-les-paul-tv-model-logo-close-up.jpg)
 
-The proof is in the gold. Under the Gibson logo and the Les Paul script, the headstock reads TV MODEL. On a Junior this line would say Junior, and the two guitars are otherwise built the same way. This silk-screen is the fastest way to confirm you are looking at a TV Model and not a repainted Junior.
+The proof is in the gold. Under the [Gibson logo](/gibson-headstock-logo-chronology/#logo-materials) and the Les Paul script, the headstock reads TV MODEL. On a Junior this line would say Junior, and the two guitars are otherwise built the same way. This silk-screen is the fastest way to confirm you are looking at a TV Model and not a repainted Junior.
 
 <h2 id="tvm-history">Where the TV Model Fits in the Les Paul Line</h2>
 

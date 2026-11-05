@@ -135,7 +135,7 @@ Few guitars give you as many useful dating clues as the ES-125. Gibson's hardwar
 
 Gold silkscreened **script "Gibson" logo** with no tail on the lowercase 'n.' The crown inlay above the nut is missing on most examples from this stretch.
 
-Transition to the **gold silkscreened block logo**, "Gibson" in a slightly condensed sans-serif face. This is the logo you'll see on most production ES-125s.
+Transition to the **[gold silkscreened block logo](/gibson-headstock-logo-chronology/#logo-materials)**, "Gibson" in a slightly condensed sans-serif face. This is the logo you'll see on most production ES-125s.
 
 Logo style went through small refinements through the 60s as Gibson standardized across the product line. Later examples can show slightly different proportions on the lettering.
 

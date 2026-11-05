@@ -47,7 +47,7 @@ Authentication on a 1968 ES-335 means looking well past the finish. The componen
 
 ### The "No-i-Dot" Logo
 
-1968 is when Gibson started dropping the dot over the *i* in the headstock script inlay. The change wasn't immediate or universal. Early 1968 guitars still carry the dot. Later ones don't. So you can't use a dot-less logo as definitive proof of a 1968 on its own. Pair it with a 1 9/16″ nut, one-piece neck, and correct pot codes, though, and the picture comes together fast. Treat the no-dot logo as a supporting detail, not a smoking gun.
+1968 is when Gibson started [dropping the dot over the *i*](/gibson-headstock-logo-chronology/#no-dot-logo) in the headstock script inlay. The change wasn't immediate or universal. Early 1968 guitars still carry the dot. Later ones don't. So you can't use a dot-less logo as definitive proof of a 1968 on its own. Pair it with a 1 9/16″ nut, one-piece neck, and correct pot codes, though, and the picture comes together fast. Treat the no-dot logo as a supporting detail, not a smoking gun.
 
 ### Chrome Hardware Throughout
 

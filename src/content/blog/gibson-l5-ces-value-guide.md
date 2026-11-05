@@ -191,7 +191,7 @@ The L-5 has always featured Gibson’s highest level of ornamentation.
 
 -   **Headstock Logo:**
     
-    -   **Block Logo:** “Gibson” block logo (sometimes called the “Gibson Pearl” logo). The style has subtly shifted over decades, but it has remained the standard.
+    -   **Block Logo:** [“Gibson” block logo](/gibson-headstock-logo-chronology/) (sometimes called the “Gibson Pearl” logo). The style has subtly shifted over decades, but it has remained the standard.
         
 
 ### 4\. Finishes: Natural, Sunburst, And Custom Colors
