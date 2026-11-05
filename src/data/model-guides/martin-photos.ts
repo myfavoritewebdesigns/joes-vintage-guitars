@@ -51,10 +51,3 @@ w_full_front_view: {src:image22,alt:"Wurlitzer-branded 00-18 from Joe’s archiv
 w_back_of_headstock_tuners_02: {src:image23,alt:"Wurlitzer-branded 00-18 from Joe’s archive, cataloged as a 1924 model 2086: Wurlitzer name on the headstock face.",caption:"Wurlitzer-branded 00-18 from Joe’s archive, cataloged as a 1924 model 2086: Wurlitzer name on the headstock face.",captionBelow:true,fit:"contain"},
 w_inside_body_bracing_pins: {src:image24,alt:"Wurlitzer-branded 00-18 from Joe’s archive, cataloged as a 1924 model 2086: X-bracing and bridge-pin area.",caption:"Wurlitzer-branded 00-18 from Joe’s archive, cataloged as a 1924 model 2086: X-bracing and bridge-pin area.",captionBelow:true,fit:"contain"}
 };
-// Keep full source originals while avoiding unused breakpoint variants in this batch.
-// Existing guide photos do not opt in and retain their original rendering behavior.
-const reusedWidths: Record<string, number> = {a49front:1600,a49back:1600,a49stamp:1066,a49owner:540,a60:800,a20:1000,a66tuners:1000,a31koa:700};
-for (const [key, photo] of Object.entries(martinPhotos)) {
-  photo.renderWidth = Math.min(reusedWidths[key] ?? 1280, photo.src.width);
-  photo.responsiveWidths = [photo.renderWidth];
-}

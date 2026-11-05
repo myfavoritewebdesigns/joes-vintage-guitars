@@ -1,0 +1,32 @@
+{
+  "checked": "2026-11-04",
+  "pricing": {"source": "The Official Vintage Guitar Magazine Price Guide 2026", "pages": [131, 134, 406], "access": "Authenticated browser book supplied by Joe", "rawValues": "Private work/model-guides-4 files only", "method": "One frozen random 11 to 15 percent reduction per published row, rounded to nearest 50 dollars", "publicCheck": "value-chart-check.json"},
+  "technical": [
+    {"url": "https://www.fender.com/articles/instruments/the-bass-vi-part-guitar-part-bass-all-epic", "supports": "Bass VI original production and neck-appointment sequence", "caution": "Article's IV wording and description of bass-cut switch are not used; visible headstock and circuit function control."},
+    {"url": "https://www.fender.com/articles/instruments/the-bass-vi-baritone-guitar-or-bass", "supports": "Bass VI six-string bass identity, 30-inch scale, EADGBE tuning an octave below guitar and Fender VI headstock wording"},
+    {"url": "https://www.vintageguitarandbass.com/fender/catalogues/1963_1964_2.php", "supports": "Original Fender catalog context for Bass VI"},
+    {"url": "https://www.fender.com/articles/instruments/country-tradition-soul-survivor-rock-legend-the-thinline-telecaster", "supports": "1968 Thinline introduction, chambers/back panel, early single-coils, 1971 Wide Range and three-bolt transition"},
+    {"url": "https://www.fender.com/articles/behind-the-scenes/a-classic-evolved-the-telecaster-custom-story", "supports": "Earlier bound Custom versus 1972 to 1981 Custom, pickup combination, controls and CuNiFe design"},
+    {"url": "https://www.fender.com/articles/instruments/absolute-power-the-telecaster-deluxe", "supports": "Deluxe 1972 development, January 1973 introduction, 1981 end, headstock/body construction and early vibrato option"},
+    {"url": "https://acousticmusic.org/wp-content/uploads/2016/02/1957-58-Fender-Catalog.pdf", "supports": "Period Esquire factory reference"},
+    {"url": "https://www.fender.com/articles/instruments/70th-anniversary-esquire", "supports": "Classic Esquire control functions, with modern anniversary specification clearly distinguished"},
+    {"url": "https://www.fmicassets.com/Damroot/Original/10001/SM_0170532XXX_Fender_70th_Anniv_Esquire_REV_A_5_20_2020.pdf", "supports": "Official modern Esquire control reference; not used as a universal vintage circuit"}
+  ],
+  "houseEvidence": [
+    {"url": "/fender-guitars-serial-number-guide/", "supports": "Overlapping ranges, removable parts and later headstock serial systems"},
+    {"url": "/fender-neck-dates/", "supports": "Pencil and stamped systems; component date versus assembly"},
+    {"url": "/fender-pot-codes/", "supports": "134 Centralab, 137 CTS, 304 Stackpole; component date context"},
+    {"url": "/vintage-fender-esquire-value-guide/", "supports": "Factory neck-pickup cavities, period-dependent circuits, conversion distinction; existing pricing unchanged"},
+    {"url": "/post/fender-custom-color-authentication-guide/", "supports": "Candy Apple Red silver base before gold, finish authentication"},
+    {"source": "Joe's brief and VG_FACTS.md VG-0047, VG-0048, VG-0050, VG-0051, VG-0053, VG-0062, VG-0063", "supports": "Pot/date interpretation, serial overlap and stated house rulings; body-date location deliberately unspecified"}
+  ],
+  "photoEvidence": "See photo-sources.json for every original hash, dimension and authorized Drive/Reverb/user source. Captions retain the documented modifications. The 1957 heel visibly reads 4-57; the 1963 Bass VI photo visibly shows four switches and smooth surrounds, with history of that combination left unresolved.",
+  "conflictsAndOmissions": [
+    "Deluxe price-book 1972 rows omitted because Fender gives January 1973 commercial introduction.",
+    "1968 Thinline sunburst row omitted because Fender describes sunburst introduction in 1969.",
+    "1971 duplicated natural ash/mahogany three-bolt rows consolidated to explicit humbucker rows.",
+    "No extrapolation for Thinline years after the last available 1978 price row.",
+    "Telecaster generic color categories require Joe's assignment; no unverified per-color mapping invented.",
+    "No existing live price figure was changed. Amp broad-pair gaps remain documented in amp-gap-report.md."
+  ]
+}

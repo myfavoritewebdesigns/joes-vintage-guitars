@@ -1,0 +1,63 @@
+{
+  "searchedAt": "2026-11-04",
+  "drive": "Media archive and Joe’s Guitar photos folders, plus model/folder-name searches and full-resolution duplicate comparison",
+  "reverb": {
+    "shop": "Joe’s Vintage Guitars, Mesa",
+    "filters": [
+      "Live",
+      "Ended",
+      "Ordered"
+    ],
+    "queries": [
+      "Bass VI",
+      "Thinline",
+      "Telecaster Deluxe",
+      "Telecaster Custom",
+      "Esquire"
+    ],
+    "pagination": "Ordered Thinline 12, Deluxe 13 and Custom 14 results traversed",
+    "counts": {
+      "bassVI": {
+        "live": 0,
+        "ended": 1,
+        "ordered": 10
+      },
+      "thinline": {
+        "live": 1,
+        "ended": 4,
+        "ordered": 12
+      },
+      "deluxe": {
+        "live": 1,
+        "ended": 3,
+        "ordered": 13
+      },
+      "custom": {
+        "live": 0,
+        "ended": 10,
+        "ordered": 14
+      },
+      "esquire": {
+        "live": 0,
+        "ended": 4,
+        "ordered": 3
+      }
+    },
+    "notes": [
+      "Unrelated and later reissue results excluded from original-era value examples.",
+      "Only one original Bass VI photo set found; two Drive folders held duplicate versions. Larger originals selected.",
+      "Telecaster Deluxe Reverb results were later reissues; Joe supplied three Downloads photos covering two vintage guitars.",
+      "Drive Custom set duplicates the worn 1974 Reverb guitar, not the cleaner 1974 example.",
+      "One worn Custom gallery URL returned 401 and was excluded.",
+      "No order/customer information was copied into guides."
+    ]
+  },
+  "localFiles": [
+    "fender-telecaster-deluxe.jpg",
+    "1977-telecaster-deluxe.jpg",
+    "1977-telecaster-deluxe-2.jpg"
+  ],
+  "selectedUniquePhotoFiles": 37,
+  "newAssets": 30,
+  "reusedExistingAssets": 7
+}

@@ -1,0 +1,34 @@
+{
+  "sourcePreservation": [
+    {
+      "file": "src/pages/sell-my-fender-guitar.astro",
+      "originalSourcePreserved": true
+    },
+    {
+      "file": "src/pages/vintage-fender-value-guide.astro",
+      "originalSourcePreserved": true
+    },
+    {
+      "file": "src/pages/fender-guitars-serial-number-guide.astro",
+      "originalSourcePreserved": true
+    },
+    {
+      "file": "src/pages/fender-telecaster-dating-guide.astro",
+      "originalSourcePreserved": true
+    },
+    {
+      "file": "src/pages/vintage-fender-esquire-value-guide.astro",
+      "originalSourcePreserved": true
+    }
+  ],
+  "protectedTotal": 173,
+  "protectedByteIdentical": 172,
+  "htmlExceptions": [
+    {
+      "file": "vintage-fender-value-guide/index.html",
+      "onlyAddedLinks": true
+    }
+  ],
+  "sharedKitUntouched": true,
+  "allPhotoOriginalsPreserved": true
+}
