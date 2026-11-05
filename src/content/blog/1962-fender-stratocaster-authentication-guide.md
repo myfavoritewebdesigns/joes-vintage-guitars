@@ -108,9 +108,9 @@ Fender penciled a date inside one of the body's routed cavities. On a 1962 Strat
 
 The three pots in the control cavity carry manufacturer-stamped date codes in the format **MFRYYWW**: manufacturer code, year (2 digits), week (2 digits). Common 1962 Fender pot manufacturers:
 
--   Stackpole (304)Most common. A code reading "304 6232" = Stackpole, 1962, week 32, assembled no earlier than approximately mid-August 1962.
--   CTS (137)Common alternative. "137 6215" = CTS, 1962, week 15, assembled no earlier than approximately mid-April 1962.
--   Centralab (134)Less common by 1962 but still appears. Same date code format applies.
+-   **Stackpole (304):** Most common. A code reading "304 6232" = Stackpole, 1962, week 32, assembled no earlier than approximately mid-August 1962.
+-   **CTS (137):** Common alternative. "137 6215" = CTS, 1962, week 15, assembled no earlier than approximately mid-April 1962.
+-   **Centralab (134):** Less common by 1962 but still appears. Same date code format applies.
 
 The pot code gives you the **earliest possible assembly date**. Always read all three pots. The latest date code sets the floor. A pot reading significantly later than the neck date indicates a replaced pot.
 
@@ -164,11 +164,11 @@ The replacement introduced in mid-1962, used on all rosewood-board Stratocasters
 
 The clearest test is to look at the **headstock end of the neck** from the front, where the rosewood meets the maple at the nut. The depth of the rosewood relative to the maple is immediately visible:
 
--   Slab, depth at nutThe rosewood occupies a **significant portion** of the neck depth at the headstock end. The glue line between rosewood and maple sits well below the fretboard surface, approximately halfway down the neck thickness or more.
--   Veneer, depth at nutThe rosewood is **much thinner**, only about 2mm. The maple neck wood is visible much higher up, and the glue line sits very close to the fretboard surface. The difference is immediately apparent compared to a slab.
--   Skunk stripeNeither slab nor veneer rosewood boards have a skunk stripe. On a rosewood-board Fender the truss rod went in from the front of the neck blank and the fingerboard was glued over it, so the back of the neck is a clean, unbroken piece of maple with no walnut stripe and no plug behind the nut. The stripe returns in 1971 with the bullet truss rod. **A skunk stripe on a rosewood-board 1962 means the neck is not original.**
--   Truss rod accessBoth types adjust at the **body end of the neck** (neck heel), not at the headstock. Headstock truss rod access is a post-1971 feature, any pre-CBS claimed Strat with headstock truss rod access has a non-original neck.
--   Clay dot inlaysAll 1962 rosewood-board Stratocasters use **clay dot inlays**, dull, matte, slightly chalky. They age to an off-white or yellowish tone. Shiny, bright pearloid dots are incorrect for any pre-1965 Fender.
+-   **Slab, depth at nut:** The rosewood occupies a **significant portion** of the neck depth at the headstock end. The glue line between rosewood and maple sits well below the fretboard surface, approximately halfway down the neck thickness or more.
+-   **Veneer, depth at nut:** The rosewood is **much thinner**, only about 2mm. The maple neck wood is visible much higher up, and the glue line sits very close to the fretboard surface. The difference is immediately apparent compared to a slab.
+-   **Skunk stripe:** Neither slab nor veneer rosewood boards have a skunk stripe. On a rosewood-board Fender the truss rod went in from the front of the neck blank and the fingerboard was glued over it, so the back of the neck is a clean, unbroken piece of maple with no walnut stripe and no plug behind the nut. The stripe returns in 1971 with the bullet truss rod. **A skunk stripe on a rosewood-board 1962 means the neck is not original.**
+-   **Truss rod access:** Both types adjust at the **body end of the neck** (neck heel), not at the headstock. Headstock truss rod access is a post-1971 feature, any pre-CBS claimed Strat with headstock truss rod access has a non-original neck.
+-   **Clay dot inlays:** All 1962 rosewood-board Stratocasters use **clay dot inlays**, dull, matte, slightly chalky. They age to an off-white or yellowish tone. Shiny, bright pearloid dots are incorrect for any pre-1965 Fender.
 
 A slab-board 1962 Stratocaster can be worth substantially more than a veneer-board example from the same year with otherwise identical specifications. The slab board is thicker, tonally distinct to many players, and historically significant as the design Leo Fender intended when he introduced the rosewood fingerboard. If you're evaluating a claimed early-1962 and the seller hasn't mentioned slab vs. veneer, look before you buy.
 
@@ -274,21 +274,21 @@ This is one of the most widely misunderstood details in vintage Strat collecting
 
 ### Pickup Specifications
 
--   Coil wire**Formvar-coated wire**, the yellow-orange wire insulation visible on the coil windings. Formvar was used through approximately 1964 to 1965; plain enamel wire indicates a rewind or replacement.
--   Lead wiresThe two wires running from each pickup to the wiring harness are **black and white cloth-covered**, a black-insulated wire and a white-insulated wire with braided cloth over each. Plastic-insulated lead wires indicate a replacement pickup or rewound unit. All three pickups should have matching black/white cloth leads.
--   Pole pieces**Staggered** on all three pickups, in Fender's classic vintage stagger: the **G pole is the tallest**, the D and A poles sit high, and the low E, B and high E poles sit lower. That pattern matches the 7.25 inch fingerboard radius and the wound G string that was standard at the time. Non-staggered poles, or a flat bass-to-treble ramp, on a claimed 1962 are a mismatch.
--   DC resistanceNeck pickup: approximately **5.5 to 6.5k ohms**. Middle and bridge pickups: approximately **5.8 to 6.8k ohms**. Readings significantly outside these ranges suggest a rewind. Bridge pickups typically read slightly higher than neck.
--   Wax pottingPre-CBS Fender pickups are **wax-potted**, dipped in paraffin wax to prevent microphonic feedback. Original potted pickups show a slight wax coating on the flatwork and sometimes on the cover base. Un-potted pickups may squeal at high volumes.
--   Pickup covers**White plastic**, same material as the knobs. All three covers should show consistent aging, if the bridge pickup cover is noticeably whiter or more brittle-looking than the neck pickup cover, one has been replaced.
--   Pickup datesA date may be **stamped or hand-written** on the bottom of the pickup bobbin or on a piece of tape wrapped around the base. Not always present, but when found it is a strong corroborating dating tool.
+-   **Coil wire:** **Formvar-coated wire**, the yellow-orange wire insulation visible on the coil windings. Formvar was used through approximately 1964 to 1965; plain enamel wire indicates a rewind or replacement.
+-   **Lead wires:** The two wires running from each pickup to the wiring harness are **black and white cloth-covered**, a black-insulated wire and a white-insulated wire with braided cloth over each. Plastic-insulated lead wires indicate a replacement pickup or rewound unit. All three pickups should have matching black/white cloth leads.
+-   **Pole pieces:** **Staggered** on all three pickups, in Fender's classic vintage stagger: the **G pole is the tallest**, the D and A poles sit high, and the low E, B and high E poles sit lower. That pattern matches the 7.25 inch fingerboard radius and the wound G string that was standard at the time. Non-staggered poles, or a flat bass-to-treble ramp, on a claimed 1962 are a mismatch.
+-   **DC resistance:** Neck pickup: approximately **5.5 to 6.5k ohms**. Middle and bridge pickups: approximately **5.8 to 6.8k ohms**. Readings significantly outside these ranges suggest a rewind. Bridge pickups typically read slightly higher than neck.
+-   **Wax potting:** Pre-CBS Fender pickups are **wax-potted**, dipped in paraffin wax to prevent microphonic feedback. Original potted pickups show a slight wax coating on the flatwork and sometimes on the cover base. Un-potted pickups may squeal at high volumes.
+-   **Pickup covers:** **White plastic**, same material as the knobs. All three covers should show consistent aging, if the bridge pickup cover is noticeably whiter or more brittle-looking than the neck pickup cover, one has been replaced.
+-   **Pickup dates:** A date may be **stamped or hand-written** on the bottom of the pickup bobbin or on a piece of tape wrapped around the base. Not always present, but when found it is a strong corroborating dating tool.
 
 ### Wiring & Electronics
 
--   Wire insulationAll internal hookup wiring should be **cloth-covered**. The braided cloth over the wire core was standard pre-CBS practice. Plastic-insulated wiring throughout indicates non-original wiring.
--   Tone capacitorsThe 1962 Stratocaster tone capacitors are **ceramic disc caps**, typically 0.1mfd or 0.05mfd. Earlier round brown paper caps also appear. Bumblebee caps are Gibson parts; modern orange drop caps are replacements. Neither is original to a 1962 Strat.
--   Pot valuesAll three pots are **250k ohms**, master volume and both tone controls. Higher-value pots (500k, as used on Gibson) indicate replacements. Reading significantly away from 250k after 60+ years of drift is possible on original pots.
--   Switch**3-way CRL switch**, original Stratocaster switches are marked "CRL" (Centralab, from Central Radio Laboratories) on the housing. A 5-way switch is a post-1977 replacement. An original 3-way that has been modified with toothpick wedges (to hold in-between positions) is a very common period modification that does not diminish authenticity.
--   Output jack**Switchcraft 1/4" jack** recessed into an angled chrome jack cup on the lower side of the body. The cup is secured by two screws. All lead wiring to the jack should be cloth-covered.
+-   **Wire insulation:** All internal hookup wiring should be **cloth-covered**. The braided cloth over the wire core was standard pre-CBS practice. Plastic-insulated wiring throughout indicates non-original wiring.
+-   **Tone capacitors:** The 1962 Stratocaster tone capacitors are **ceramic disc caps**, typically 0.1mfd or 0.05mfd. Earlier round brown paper caps also appear. Bumblebee caps are Gibson parts; modern orange drop caps are replacements. Neither is original to a 1962 Strat.
+-   **Pot values:** All three pots are **250k ohms**, master volume and both tone controls. Higher-value pots (500k, as used on Gibson) indicate replacements. Reading significantly away from 250k after 60+ years of drift is possible on original pots.
+-   **Switch:** **3-way CRL switch**, original Stratocaster switches are marked "CRL" (Centralab, from Central Radio Laboratories) on the housing. A 5-way switch is a post-1977 replacement. An original 3-way that has been modified with toothpick wedges (to hold in-between positions) is a very common period modification that does not diminish authenticity.
+-   **Output jack:** **Switchcraft 1/4" jack** recessed into an angled chrome jack cup on the lower side of the body. The cup is secured by two screws. All lead wiring to the jack should be cloth-covered.
 
 <figure>
 
@@ -304,11 +304,11 @@ The Fender Synchronized Tremolo, introduced on the Stratocaster in 1954, is one 
 
 ### Bridge Plate & Block
 
--   Bridge plateA **chrome-plated steel plate** that pivots on six mounting screws. The six screws engage a knife edge on the front of the plate. On a well-set-up original, the back of the plate should float slightly above the body surface.
--   Tremolo blockA **heavy steel sustain block** hanging below the bridge plate into the routed spring cavity. The block has six string channels and six intonation screws. The mass of the block contributes significantly to the Stratocaster's tone and sustain, lighter zinc blocks (used on some later and cheaper models) produce a noticeably thinner tone.
--   Block materialThe original 1962 tremolo block is **steel**, cold to the touch, heavy, and magnetic. Zinc blocks (used on many reissues and cost-reduced versions) are lighter, warmer to the touch, and non-magnetic. Weight the block if you can access it.
--   Saddles**Six individual bent (pressed) steel saddles**, one per string, stamped "FENDER PAT. PEND." Each saddle is adjustable for height (via two height screws) and intonation (moving fore and aft on the block). Note the terminology: Stratocaster saddles are formed from stamped steel and are never threaded barrels. Threaded barrel saddles are Telecaster hardware. The saddles show characteristic rust pitting on original examples after 60+ years.
--   Tremolo armA **thin chrome steel arm** with a white plastic tip, threaded into the block. Original tips are slightly yellowed with age and have a characteristic translucent quality. Replacement tips are often bright white and opaque.
+-   **Bridge plate:** A **chrome-plated steel plate** that pivots on six mounting screws. The six screws engage a knife edge on the front of the plate. On a well-set-up original, the back of the plate should float slightly above the body surface.
+-   **Tremolo block:** A **heavy steel sustain block** hanging below the bridge plate into the routed spring cavity. The block has six string channels and six intonation screws. The mass of the block contributes significantly to the Stratocaster's tone and sustain, lighter zinc blocks (used on some later and cheaper models) produce a noticeably thinner tone.
+-   **Block material:** The original 1962 tremolo block is **steel**, cold to the touch, heavy, and magnetic. Zinc blocks (used on many reissues and cost-reduced versions) are lighter, warmer to the touch, and non-magnetic. Weight the block if you can access it.
+-   **Saddles:** **Six individual bent (pressed) steel saddles**, one per string, stamped "FENDER PAT. PEND." Each saddle is adjustable for height (via two height screws) and intonation (moving fore and aft on the block). Note the terminology: Stratocaster saddles are formed from stamped steel and are never threaded barrels. Threaded barrel saddles are Telecaster hardware. The saddles show characteristic rust pitting on original examples after 60+ years.
+-   **Tremolo arm:** A **thin chrome steel arm** with a white plastic tip, threaded into the block. Original tips are slightly yellowed with age and have a characteristic translucent quality. Replacement tips are often bright white and opaque.
 
 ### Spring Cavity & Back Plate
 
@@ -338,10 +338,10 @@ The 1962 Stratocaster has a **single butterfly/wing string tree** on the headsto
 
 The 1962 Stratocaster headstock carries the classic **"spaghetti" Fender logo**, the thin, flowing cursive script in gold that was used from the early 1950s through approximately 1964 to 1965. On a Stratocaster this decal is gold, not silver. The silver/chrome description belongs to the standard Telecaster, and applying it to a Strat sends people looking for the wrong thing. The logo is a water-slide decal applied **on top of the headstock finish**, with no clear coat sprayed over it. Key authentication points:
 
--   ApplicationThe decal sits directly on top of the finish with nothing sprayed over it, so you can catch its edge with a fingernail at a low angle. A logo buried under a layer of clear lacquer means the headstock has been resprayed and re-decaled.
--   Patent numbersMost 1962 Stratocaster decals include **three patent numbers**: "2,573,254," "2,960,900," and "Des. 164,227." Very early 1962 examples transitioning from the previous decal version may show two patent numbers, but three is correct for the majority of 1962 production. Note that the Stratocaster patent numbers differ from the Telecaster's, a claimed 1962 Strat showing only Telecaster patent numbers has a non-original decal. Count the numbers and match them to known 1962 reference examples.
--   Model name"Stratocaster" appears below the Fender name in smaller script, with "WITH SYNCHRONIZED TREMOLO" on a separate line below that, correct for standard tremolo models. The text stack is distinctive and differs from later logo treatments.
--   Color agingThe gold of the spaghetti logo darkens over decades, often reading closer to a dark bronze against aged amber maple than to bright metallic gold. A very bright, fresh-looking logo on a claimed 1962 may indicate headstock refinish or decal replacement. Some darkening and dulling of the gold is expected and normal.
+-   **Application:** The decal sits directly on top of the finish with nothing sprayed over it, so you can catch its edge with a fingernail at a low angle. A logo buried under a layer of clear lacquer means the headstock has been resprayed and re-decaled.
+-   **Patent numbers:** Most 1962 Stratocaster decals include **three patent numbers**: "2,573,254," "2,960,900," and "Des. 164,227." Very early 1962 examples transitioning from the previous decal version may show two patent numbers, but three is correct for the majority of 1962 production. Note that the Stratocaster patent numbers differ from the Telecaster's, a claimed 1962 Strat showing only Telecaster patent numbers has a non-original decal. Count the numbers and match them to known 1962 reference examples.
+-   **Model name:** "Stratocaster" appears below the Fender name in smaller script, with "WITH SYNCHRONIZED TREMOLO" on a separate line below that, correct for standard tremolo models. The text stack is distinctive and differs from later logo treatments.
+-   **Color aging:** The gold of the spaghetti logo darkens over decades, often reading closer to a dark bronze against aged amber maple than to bright metallic gold. A very bright, fresh-looking logo on a claimed 1962 may indicate headstock refinish or decal replacement. Some darkening and dulling of the gold is expected and normal.
 
 <figure>
 
@@ -532,11 +532,11 @@ By 1962, Fender had completed its transition from the late-1950s tweed case to a
 
 ### The 1962 Stratocaster Case
 
--   Exterior**Brown Tolex** covering, a textured vinyl material that replaced the tweed covering in approximately 1960. The brown Tolex is a warm brown with a slightly rough texture, distinctly different from the black Tolex used on many post-CBS cases.
--   Interior**Orange or red-orange plush** lining, the color of the interior lining is a useful dating cross-check. The orange/red plush is distinctive to the pre-CBS and early CBS era. Later cases use different interior colors and materials.
--   Shape**Contoured** to follow the Stratocaster's double-cutaway body shape, wider at the lower bout, narrowing at the waist, and cut away at the upper bout. The case fits the guitar snugly.
--   HardwareChrome or nickel-plated latches and handle hardware with appropriate age patina. The handle is typically a leather or vinyl strap with chrome end fittings.
--   Case keyOriginal cases had a keyed latch. An original key, often a small barrel-style key, surviving with the guitar is a significant provenance indicator.
+-   **Exterior:** **Brown Tolex** covering, a textured vinyl material that replaced the tweed covering in approximately 1960. The brown Tolex is a warm brown with a slightly rough texture, distinctly different from the black Tolex used on many post-CBS cases.
+-   **Interior:** **Orange or red-orange plush** lining, the color of the interior lining is a useful dating cross-check. The orange/red plush is distinctive to the pre-CBS and early CBS era. Later cases use different interior colors and materials.
+-   **Shape:** **Contoured** to follow the Stratocaster's double-cutaway body shape, wider at the lower bout, narrowing at the waist, and cut away at the upper bout. The case fits the guitar snugly.
+-   **Hardware:** Chrome or nickel-plated latches and handle hardware with appropriate age patina. The handle is typically a leather or vinyl strap with chrome end fittings.
+-   **Case key:** Original cases had a keyed latch. An original key, often a small barrel-style key, surviving with the guitar is a significant provenance indicator.
 
 A 1962 Stratocaster with its original brown Tolex case, original case key, original tremolo arm, and any surviving paperwork (hang tags, owner's manual, warranty card) represents a complete and historically intact instrument. These accessories are increasingly rare as decades pass and original cases wear out or get separated. A complete original package can add meaningfully to both value and authentication confidence, an unbroken chain of custody from the Fullerton factory is the most compelling authentication available.
 

@@ -126,10 +126,10 @@ The 1966 ES-335 carries a **pearloid "Gibson" logo** on the headstock face, set 
 
 The 1966 ES-335 uses a **bell-shaped truss rod cover**, a black plastic cover with a slightly wider bottom that narrows toward the top, secured by two screws. The cover is **blank**, no text. It also features a **narrow raised bezel** around its perimeter, a detail specific to this era of Gibson truss rod cover. This is the standard format for mid-1960s Gibsons.
 
--   ShapeBell-shaped, wider at the bottom, tapering to a rounded top. Earlier Gibson guitars used a diamond-shaped cover; the bell shape is correct for 1966.
--   MaterialBlack plastic. Should show age-appropriate brittleness at the edges and screw holes on a 60-year-old original, not crisp and fresh-looking.
--   Text**Blank**, no text. Both screws should show consistent aging with the surrounding headstock finish. One fresh-looking screw on an otherwise aged guitar is a service indicator.
--   ScrewsTwo screws secure the cover. The screw slots should show consistent oxidation and tool marks from original factory installation.
+-   **Shape:** Bell-shaped, wider at the bottom, tapering to a rounded top. Earlier Gibson guitars used a diamond-shaped cover; the bell shape is correct for 1966.
+-   **Material:** Black plastic. Should show age-appropriate brittleness at the edges and screw holes on a 60-year-old original, not crisp and fresh-looking.
+-   **Text:** **Blank**, no text. Both screws should show consistent aging with the surrounding headstock finish. One fresh-looking screw on an otherwise aged guitar is a service indicator.
+-   **Screws:** Two screws secure the cover. The screw slots should show consistent oxidation and tool marks from original factory installation.
 
 <h2 id="neck">Neck, Nut, Fingerboard & Inlays</h2>
 
@@ -269,22 +269,22 @@ The pickups on a 1966 ES-335 are among the most important and scrutinized authen
 
 Gibson's humbucker pickup went through three distinct phases in the first decade of production:
 
--   PAF Era**~1957 to 1962.** "Patent Applied For" sticker on the base plate. The gold label. Hand-wound with varying specifications. Generally considered the most tonally complex and desirable. NOT present on 1966 instruments.
--   Patent Sticker Era**~1962 to 1965.** The PAF sticker replaced with a black sticker reading the patent number. Still largely hand-wound with similar specs to late PAFs. Transitional era. NOT present on 1966.
--   Patent Number Era**~1962 to late 1960s.** A **black sticker reading "Patent No 2,737,842"** on the base plate. This is what a genuine 1966 ES-335 has. Pre-T-top winding and construction. Genuinely excellent pickups that are often underrated.
--   T-Top Era**Phased in gradually between 1965 and 1967, standard through about 1975.** Named for the raised T moulded into the top of each bobbin, visible from the adjustable-pole side with the cover off. More consistent winding, different sonic character. Most 1966s predate it, but the changeover overlaps the year.
+-   **PAF Era:** **~1957 to 1962.** "Patent Applied For" sticker on the base plate. The gold label. Hand-wound with varying specifications. Generally considered the most tonally complex and desirable. NOT present on 1966 instruments.
+-   **Patent Sticker Era:** **~1962 to 1965.** The PAF sticker replaced with a black sticker reading the patent number. Still largely hand-wound with similar specs to late PAFs. Transitional era. NOT present on 1966.
+-   **Patent Number Era:** **~1962 to late 1960s.** A **black sticker reading "Patent No 2,737,842"** on the base plate. This is what a genuine 1966 ES-335 has. Pre-T-top winding and construction. Genuinely excellent pickups that are often underrated.
+-   **T-Top Era:** **Phased in gradually between 1965 and 1967, standard through about 1975.** Named for the raised T moulded into the top of each bobbin, visible from the adjustable-pole side with the cover off. More consistent winding, different sonic character. Most 1966s predate it, but the changeover overlaps the year.
 
 ### Authenticating 1966 Patent Number Pickups
 
 Pickup swaps are extremely common on vintage Gibsons, PAFs especially are highly desirable and frequently transplanted. For production volume context, our [Gibson shipping totals 1948 to 1979](/post/gibson-shipping-totals-1948-1979/) shows how many ES-335s were built each year. Confirming that the pickups in a claimed 1966 ES-335 are original and period-correct requires checking multiple details:
 
--   Base plate stickerA **black sticker reading "Patent No 2,737,842"** on the base plate, this is the correct form for 1966. On a 1966, you should see the sticker.
--   Magnet type**Alnico magnet**, not ceramic. Genuine pre-T-top Patent Number pickups use Alnico II or Alnico V magnets. Ceramic magnets (which are stronger and harder to the touch) indicate a later or replacement pickup. A small rare-earth magnet held near the pickup will be attracted to Alnico; ceramic pickups interact differently.
--   Pole piecesOne row of **adjustable pole pieces** (slotted screws) and one row of **non-adjustable slugs**, the standard Gibson humbucker configuration. Both rows are only visible with the cover removed.
--   DC resistanceTypically **7.5k to 8.5k ohms** per pickup on period-correct examples. Readings significantly outside this range suggest a rewind. Both pickups should read in roughly the same range, a dramatic mismatch indicates one may be a replacement.
--   Lead wires**Coaxial lead wires with a metal braid outer shield** over a cloth-covered inner conductor. Plastic-insulated lead wires indicate a replacement pickup or a rewound unit.
--   Cover solderThe pickup cover is **held by solder**, not screws. The cover is soldered to the base plate at two points. Undisturbed original factory solder at these joints is a strong indicator the cover has never been removed. Re-flowed or disturbed solder is not automatically disqualifying but should be noted, as it indicates the cover has been off at some point.
--   T-top checkThe T-top coil former (visible from the adjustable-pole side with the cover removed) points to the later end of the changeover. Gibson phased the T-top in gradually between 1965 and 1967, so most 1966 ES-335s predate it, but a genuine late-1966 guitar can carry them and a T-top on its own does not condemn the instrument. However, **you do not need to remove the cover** to make this assessment, and on an original unplayed example you should avoid disturbing the solder. If you have suspicions about pickup replacement, check instead whether the pickup aging and wiring condition matches the rest of the guitar. Mismatched wear, different lead wire style, or solder that looks re-flowed are more practical tells than pulling the cover.
+-   **Base plate sticker:** A **black sticker reading "Patent No 2,737,842"** on the base plate, this is the correct form for 1966. On a 1966, you should see the sticker.
+-   **Magnet type:** **Alnico magnet**, not ceramic. Genuine pre-T-top Patent Number pickups use Alnico II or Alnico V magnets. Ceramic magnets (which are stronger and harder to the touch) indicate a later or replacement pickup. A small rare-earth magnet held near the pickup will be attracted to Alnico; ceramic pickups interact differently.
+-   **Pole pieces:** One row of **adjustable pole pieces** (slotted screws) and one row of **non-adjustable slugs**, the standard Gibson humbucker configuration. Both rows are only visible with the cover removed.
+-   **DC resistance:** Typically **7.5k to 8.5k ohms** per pickup on period-correct examples. Readings significantly outside this range suggest a rewind. Both pickups should read in roughly the same range, a dramatic mismatch indicates one may be a replacement.
+-   **Lead wires:** **Coaxial lead wires with a metal braid outer shield** over a cloth-covered inner conductor. Plastic-insulated lead wires indicate a replacement pickup or a rewound unit.
+-   **Cover solder:** The pickup cover is **held by solder**, not screws. The cover is soldered to the base plate at two points. Undisturbed original factory solder at these joints is a strong indicator the cover has never been removed. Re-flowed or disturbed solder is not automatically disqualifying but should be noted, as it indicates the cover has been off at some point.
+-   **T-top check:** The T-top coil former (visible from the adjustable-pole side with the cover removed) points to the later end of the changeover. Gibson phased the T-top in gradually between 1965 and 1967, so most 1966 ES-335s predate it, but a genuine late-1966 guitar can carry them and a T-top on its own does not condemn the instrument. However, **you do not need to remove the cover** to make this assessment, and on an original unplayed example you should avoid disturbing the solder. If you have suspicions about pickup replacement, check instead whether the pickup aging and wiring condition matches the rest of the guitar. Mismatched wear, different lead wire style, or solder that looks re-flowed are more practical tells than pulling the cover.
 
 <figure>
 
@@ -310,9 +310,9 @@ Because PAF pickups are significantly more valuable than Patent Number units, th
 
 The 1966 ES-335 uses the **ABR-1 Tune-o-matic bridge**, the original Gibson adjustable bridge design introduced in 1954. The "ABR-1" designation is cast or stamped on the **back of the bridge**, which is a key authentication detail. The bridge sits on two threaded posts that screw into anchors in the top; height is adjusted by raising or lowering these posts.
 
--   "ABR-1" markingLook on the back of the bridge (the side facing the tailpiece). "ABR-1" should be legible, cast or stamped into the metal. Later Nashville-style Tune-o-matics are dimensionally different and do not have this marking in the same location. An ABR-1 is narrower and sits on smaller posts than the Nashville bridge.
--   Retainer wireA thin metal retainer wire runs through the saddle adjustment screws, holding the saddles in position on the bridge chassis. This wire is **present on all authentic ABR-1 bridges through approximately 1975** and is one of the fastest ways to confirm an original or period-correct bridge. A bridge without the retainer wire on a claimed 1966 is either a replacement or has had the wire removed.
--   Posts and anchorsThe bridge posts on a 1966 ES-335 have **thumbwheel adjusters** that allow height adjustment by hand. The posts thread into anchors set into the maple top. Original posts and anchors will show consistent aging and chrome wear with the rest of the hardware.
+-   **"ABR-1" marking:** Look on the back of the bridge (the side facing the tailpiece). "ABR-1" should be legible, cast or stamped into the metal. Later Nashville-style Tune-o-matics are dimensionally different and do not have this marking in the same location. An ABR-1 is narrower and sits on smaller posts than the Nashville bridge.
+-   **Retainer wire:** A thin metal retainer wire runs through the saddle adjustment screws, holding the saddles in position on the bridge chassis. This wire is **present on all authentic ABR-1 bridges through approximately 1975** and is one of the fastest ways to confirm an original or period-correct bridge. A bridge without the retainer wire on a claimed 1966 is either a replacement or has had the wire removed.
+-   **Posts and anchors:** The bridge posts on a 1966 ES-335 have **thumbwheel adjusters** that allow height adjustment by hand. The posts thread into anchors set into the maple top. Original posts and anchors will show consistent aging and chrome wear with the rest of the hardware.
 
 <figure>
 
@@ -424,11 +424,11 @@ The strap buttons on the 1966 ES-335 are **aluminum with a chrome screw**. The a
 
 Inside the body of the 1966 ES-335, visible through the bass-side f-hole, is the **orange oval paper label**, one of the most important authentication and dating references on any Gibson from this period. The orange label replaced the earlier white labels and tan labels and was used by Gibson through the 1960s and into the 1970s.
 
--   ColorOrange, unmistakably orange on a genuine example. Not red, not yellow, not tan.
--   ShapeOval. The label includes "UNION MADE" and "HEREBY GUARANTEED" text, these are period-specific details to look for on a genuine 1966 label.
--   Model designation"STYLE ES-335 TDC", the suffixes stand for Thinline, Dual pickup, Cutaway. This model designation should match the instrument you're looking at.
--   Serial numberThe serial number is printed on the label and should match the ink stamp on the back of the headstock. A mismatch between label and headstock serial is a significant red flag.
--   Kalamazoo, MichiganThe label reads "Made in Kalamazoo, Michigan, U.S.A.", correct for all pre-1984 Gibson electric guitars. Nashville production began in 1974 for some models; by 1984 Kalamazoo had closed. A 1966 label should read Kalamazoo.
+-   **Color:** Orange, unmistakably orange on a genuine example. Not red, not yellow, not tan.
+-   **Shape:** Oval. The label includes "UNION MADE" and "HEREBY GUARANTEED" text, these are period-specific details to look for on a genuine 1966 label.
+-   **Model designation:** "STYLE ES-335 TDC", the suffixes stand for Thinline, Dual pickup, Cutaway. This model designation should match the instrument you're looking at.
+-   **Serial number:** The serial number is printed on the label and should match the ink stamp on the back of the headstock. A mismatch between label and headstock serial is a significant red flag.
+-   **Kalamazoo, Michigan:** The label reads "Made in Kalamazoo, Michigan, U.S.A.", correct for all pre-1984 Gibson electric guitars. Nashville production began in 1974 for some models; by 1984 Kalamazoo had closed. A 1966 label should read Kalamazoo.
 
 <figure>
 
@@ -480,10 +480,10 @@ The hardware on a 1966 ES-335, bridge, tailpiece, tuners, pickup covers, strap b
 
 Genuine mid-1960s Gibson chrome on a well-played example shows a characteristic **consistent dulling**, the chrome loses its mirror-bright quality and develops a patina. However, **mint unplayed examples do exist**, including the guitar shown in the photos throughout this guide, where the chrome remains bright and largely unaged. On such an example, the key authentication indicator is not the level of aging but the **consistency**: all hardware should look equally new or equally aged. A mix of fresh and tarnished hardware on the same guitar is the red flag, not brightness itself. This aging is not random: it follows the natural pattern of corrosion and environmental exposure, which means areas protected from handling (like the underside of the bridge) age more slowly than areas in contact with hands (like the top of the tailpiece bar).
 
--   Consistent patinaAll chrome hardware on an all-original guitar should show **matched, consistent aging**. Hardware that is dramatically brighter or more tarnished than the surrounding pieces suggests replacement. The bridge, tailpiece, and tuner housings should all show the same general level of age.
--   No pitting on originalsOriginal 1966 Gibson chrome typically shows a uniform dulling without heavy pitting or flaking, the mid-1960s chrome plating quality was generally good. Heavy pitting more often indicates lower-quality plating (common on import reproductions) or extreme environmental exposure.
--   Reproduction hardware tellsReproduction chrome hardware is almost always either too bright (freshly plated) or artificially aged in a way that is too uniform, real aging follows contour, contact, and protection patterns. Artificially aged hardware tends to look consistently dull across all surfaces, whereas genuine age produces variation.
--   Where aging concentratesAreas with regular hand contact, the tailpiece top surface, the bridge thumbwheels, the tuner buttons and housing backs, show more significant wear than protected areas. This differential wear pattern is authentic and should be present.
+-   **Consistent patina:** All chrome hardware on an all-original guitar should show **matched, consistent aging**. Hardware that is dramatically brighter or more tarnished than the surrounding pieces suggests replacement. The bridge, tailpiece, and tuner housings should all show the same general level of age.
+-   **No pitting on originals:** Original 1966 Gibson chrome typically shows a uniform dulling without heavy pitting or flaking, the mid-1960s chrome plating quality was generally good. Heavy pitting more often indicates lower-quality plating (common on import reproductions) or extreme environmental exposure.
+-   **Reproduction hardware tells:** Reproduction chrome hardware is almost always either too bright (freshly plated) or artificially aged in a way that is too uniform, real aging follows contour, contact, and protection patterns. Artificially aged hardware tends to look consistently dull across all surfaces, whereas genuine age produces variation.
+-   **Where aging concentrates:** Areas with regular hand contact, the tailpiece top surface, the bridge thumbwheels, the tuner buttons and housing backs, show more significant wear than protected areas. This differential wear pattern is authentic and should be present.
 
 <h2 id="case">Case & Case Candy</h2>
 
