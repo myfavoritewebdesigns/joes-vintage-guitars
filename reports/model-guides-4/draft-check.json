@@ -1,0 +1,40 @@
+{
+  "pages": [
+    {
+      "slug": "fender-bass-vi-value-guide",
+      "kind": "value",
+      "words": 1384,
+      "titleLength": 55,
+      "descriptionLength": 155
+    },
+    {
+      "slug": "fender-bass-vi-authentication-guide",
+      "kind": "authentication",
+      "words": 1878,
+      "titleLength": 58,
+      "descriptionLength": 154
+    },
+    {
+      "slug": "fender-telecaster-thinline-custom-deluxe-value-guide",
+      "kind": "value",
+      "words": 1364,
+      "titleLength": 53,
+      "descriptionLength": 150
+    },
+    {
+      "slug": "fender-telecaster-thinline-custom-deluxe-authentication-guide",
+      "kind": "authentication",
+      "words": 1919,
+      "titleLength": 60,
+      "descriptionLength": 153
+    },
+    {
+      "slug": "fender-esquire-authentication-guide",
+      "kind": "authentication",
+      "words": 1976,
+      "titleLength": 55,
+      "descriptionLength": 155
+    }
+  ],
+  "overlaps": []
+}

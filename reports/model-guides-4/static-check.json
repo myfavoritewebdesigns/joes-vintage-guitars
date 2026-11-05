@@ -1,0 +1,448 @@
+{
+  "checkedAt": "2026-11-05T17:29:22.468Z",
+  "pages": [
+    {
+      "slug": "fender-bass-vi-value-guide",
+      "title": "Vintage Fender Bass VI Value Guide: 1961 To 1975 Prices",
+      "titleLength": 55,
+      "description": "Compare original Fender Bass VI values by year and finish. Learn how pickups, missing hardware, refinishes, neck condition and original cases affect price.",
+      "descriptionLength": 155,
+      "canonical": "https://www.joesvintageguitarsaz.com/post/fender-bass-vi-value-guide/",
+      "h1Count": 1,
+      "h2": [
+        "Fender Bass VI Values By Year And Finish",
+        "Early Bass VI Values And Original Equipment",
+        "Later 1960s And 1970s Bass VI Values",
+        "Factory Color, Refinish And Touch-Up",
+        "Bass VI Repairs And Missing Parts",
+        "Prepare A Bass VI For An Appraisal",
+        "Questions AboutFender Values",
+        "A Value For Your Guitar",
+        "Joe Dampt"
+      ],
+      "photoCount": 3,
+      "comparisonPhotos": 0,
+      "inbound": [
+        {
+          "route": "/fender-guitars-serial-number-guide/",
+          "anchors": [
+            "year and finish price comparisons"
+          ]
+        },
+        {
+          "route": "/sell-my-fender-guitar/",
+          "anchors": [
+            "Bass VI values"
+          ]
+        },
+        {
+          "route": "/vintage-fender-value-guide/",
+          "anchors": [
+            "Bass VI price guide"
+          ]
+        }
+      ],
+      "firstSection": "values",
+      "firstSectionNumber": "1",
+      "sellButtons": [
+        {
+          "text": "Free Appraisal",
+          "href": "/free-appraisal/"
+        },
+        {
+          "text": "Sell My Fender",
+          "href": "/sell-my-fender-guitar/"
+        }
+      ],
+      "jsonLd": {
+        "types": [
+          "ProfessionalService",
+          "ImageObject",
+          "QuantitativeValue",
+          "PostalAddress",
+          "ContactPoint",
+          "GeoCoordinates",
+          "AdministrativeArea",
+          "WebSite",
+          "Person",
+          "CollegeOrUniversity",
+          "Service",
+          "BreadcrumbList",
+          "ListItem",
+          "BlogPosting",
+          "FAQPage",
+          "Question",
+          "Answer"
+        ],
+        "parseErrors": [],
+        "imageNodes": 4,
+        "imageMismatches": []
+      },
+      "duplicateTitle": [],
+      "duplicateDescription": []
+    },
+    {
+      "slug": "fender-bass-vi-authentication-guide",
+      "title": "Fender Bass VI Authentication: Dates, Pickups And Hardware",
+      "titleLength": 58,
+      "description": "Identify an original Fender Bass VI using neck features, serials, pickups, switches and hardware. Compare Joe’s 1963 example with a modern Squier Bass VI.",
+      "descriptionLength": 154,
+      "canonical": "https://www.joesvintageguitarsaz.com/post/fender-bass-vi-authentication-guide/",
+      "h1Count": 1,
+      "h2": [
+        "Identify The Six-String Bass Layout",
+        "Read The Details On Joe’s 1963 Bass VI",
+        "Bass VI Features Across The Original Run",
+        "Serial Numbers And Component Dates",
+        "Pickups, Switches And Wiring",
+        "Bridge, Mute, Vibrato And Neck Condition",
+        "Recognize Reissues And Modern Bass VIs",
+        "Photographs For A Bass VI Identification",
+        "Bass VI Reference Material",
+        "Questions AboutFender Identification",
+        "Keep The Evidence Together",
+        "Joe Dampt"
+      ],
+      "photoCount": 4,
+      "comparisonPhotos": 1,
+      "inbound": [
+        {
+          "route": "/fender-guitars-serial-number-guide/",
+          "anchors": [
+            "Bass VI authentication guide"
+          ]
+        },
+        {
+          "route": "/sell-my-fender-guitar/",
+          "anchors": [
+            "Bass VI identification checks"
+          ]
+        },
+        {
+          "route": "/vintage-fender-value-guide/",
+          "anchors": [
+            "Bass VI identification guide"
+          ]
+        }
+      ],
+      "firstSection": "identity",
+      "firstSectionNumber": "1",
+      "sellButtons": [
+        {
+          "text": "Free Appraisal",
+          "href": "/free-appraisal/"
+        },
+        {
+          "text": "Sell My Fender",
+          "href": "/sell-my-fender-guitar/"
+        }
+      ],
+      "jsonLd": {
+        "types": [
+          "ProfessionalService",
+          "ImageObject",
+          "QuantitativeValue",
+          "PostalAddress",
+          "ContactPoint",
+          "GeoCoordinates",
+          "AdministrativeArea",
+          "WebSite",
+          "Person",
+          "CollegeOrUniversity",
+          "Service",
+          "BreadcrumbList",
+          "ListItem",
+          "BlogPosting",
+          "FAQPage",
+          "Question",
+          "Answer"
+        ],
+        "parseErrors": [],
+        "imageNodes": 5,
+        "imageMismatches": []
+      },
+      "duplicateTitle": [],
+      "duplicateDescription": []
+    },
+    {
+      "slug": "fender-telecaster-thinline-custom-deluxe-value-guide",
+      "title": "Vintage Telecaster Thinline, Custom And Deluxe Values",
+      "titleLength": 53,
+      "description": "Compare vintage Fender Telecaster Thinline, Custom and Deluxe prices. Assess Wide Range pickups, factory finish, altered bodies and original hardware.",
+      "descriptionLength": 150,
+      "canonical": "https://www.joesvintageguitarsaz.com/post/fender-telecaster-thinline-custom-deluxe-value-guide/",
+      "h1Count": 1,
+      "h2": [
+        "Telecaster Thinline, Custom And Deluxe Price Charts",
+        "Thinline Values Depend On The Pickup Generation",
+        "Telecaster Custom Values And Condition",
+        "Telecaster Deluxe Values And Wide Range Pickups",
+        "Finish And Permanent Modifications",
+        "What To Send Before Selling",
+        "Questions AboutFender Values",
+        "A Value For Your Guitar",
+        "Joe Dampt"
+      ],
+      "photoCount": 10,
+      "comparisonPhotos": 0,
+      "inbound": [
+        {
+          "route": "/fender-guitars-serial-number-guide/",
+          "anchors": [
+            "matching Telecaster variant values"
+          ]
+        },
+        {
+          "route": "/fender-telecaster-dating-guide/",
+          "anchors": [
+            "model-specific price charts"
+          ]
+        },
+        {
+          "route": "/sell-my-fender-guitar/",
+          "anchors": [
+            "Thinline, Custom and Deluxe price charts"
+          ]
+        },
+        {
+          "route": "/vintage-fender-value-guide/",
+          "anchors": [
+            "Telecaster Thinline, Custom and Deluxe values"
+          ]
+        }
+      ],
+      "firstSection": "values",
+      "firstSectionNumber": "1",
+      "sellButtons": [
+        {
+          "text": "Free Appraisal",
+          "href": "/free-appraisal/"
+        },
+        {
+          "text": "Sell My Fender",
+          "href": "/sell-my-fender-guitar/"
+        }
+      ],
+      "jsonLd": {
+        "types": [
+          "ProfessionalService",
+          "ImageObject",
+          "QuantitativeValue",
+          "PostalAddress",
+          "ContactPoint",
+          "GeoCoordinates",
+          "AdministrativeArea",
+          "WebSite",
+          "Person",
+          "CollegeOrUniversity",
+          "Service",
+          "BreadcrumbList",
+          "ListItem",
+          "BlogPosting",
+          "FAQPage",
+          "Question",
+          "Answer"
+        ],
+        "parseErrors": [],
+        "imageNodes": 11,
+        "imageMismatches": []
+      },
+      "duplicateTitle": [],
+      "duplicateDescription": []
+    },
+    {
+      "slug": "fender-telecaster-thinline-custom-deluxe-authentication-guide",
+      "title": "Authenticate A Vintage Telecaster Thinline, Custom Or Deluxe",
+      "titleLength": 60,
+      "description": "Identify vintage Telecaster Thinline, Custom and Deluxe guitars through pickups, neck joints, serials and construction, with original and reissue photos.",
+      "descriptionLength": 153,
+      "canonical": "https://www.joesvintageguitarsaz.com/post/fender-telecaster-thinline-custom-deluxe-authentication-guide/",
+      "h1Count": 1,
+      "h2": [
+        "Identify Thinline, Custom And Deluxe Features",
+        "Thinline Construction And The Pickup Transition",
+        "The 1972 To 1981 Telecaster Custom",
+        "Original Telecaster Deluxe Identification",
+        "Authenticate Wide Range Pickups Beyond The Cover",
+        "Neck Joints, Serials And Component Dates",
+        "Finish, Wood And Body Alterations",
+        "Later Reissues And Custom Shop Instruments",
+        "Send A Useful Telecaster Photo Set",
+        "Telecaster Variant References",
+        "Questions AboutFender Identification",
+        "Keep The Evidence Together",
+        "Joe Dampt"
+      ],
+      "photoCount": 17,
+      "comparisonPhotos": 0,
+      "inbound": [
+        {
+          "route": "/fender-guitars-serial-number-guide/",
+          "anchors": [
+            "Thinline, Custom and Deluxe identification guide"
+          ]
+        },
+        {
+          "route": "/fender-telecaster-dating-guide/",
+          "anchors": [
+            "Thinline, Custom and Deluxe construction guide"
+          ]
+        },
+        {
+          "route": "/sell-my-fender-guitar/",
+          "anchors": [
+            "model authentication guide"
+          ]
+        },
+        {
+          "route": "/vintage-fender-value-guide/",
+          "anchors": [
+            "different factory layouts"
+          ]
+        }
+      ],
+      "firstSection": "models",
+      "firstSectionNumber": "1",
+      "sellButtons": [
+        {
+          "text": "Free Appraisal",
+          "href": "/free-appraisal/"
+        },
+        {
+          "text": "Sell My Fender",
+          "href": "/sell-my-fender-guitar/"
+        }
+      ],
+      "jsonLd": {
+        "types": [
+          "ProfessionalService",
+          "ImageObject",
+          "QuantitativeValue",
+          "PostalAddress",
+          "ContactPoint",
+          "GeoCoordinates",
+          "AdministrativeArea",
+          "WebSite",
+          "Person",
+          "CollegeOrUniversity",
+          "Service",
+          "BreadcrumbList",
+          "ListItem",
+          "BlogPosting",
+          "FAQPage",
+          "Question",
+          "Answer"
+        ],
+        "parseErrors": [],
+        "imageNodes": 18,
+        "imageMismatches": []
+      },
+      "duplicateTitle": [],
+      "duplicateDescription": []
+    },
+    {
+      "slug": "fender-esquire-authentication-guide",
+      "title": "Vintage Fender Esquire Authentication: Wiring And Dates",
+      "titleLength": 55,
+      "description": "Identify a vintage Fender Esquire using wiring, dates, decals and construction. Study 1957 and 1965 examples, a black refinish and a converted 1951 guitar.",
+      "descriptionLength": 155,
+      "canonical": "https://www.joesvintageguitarsaz.com/post/fender-esquire-authentication-guide/",
+      "h1Count": 1,
+      "h2": [
+        "Establish Factory Esquire Identity",
+        "Examine The 1957 Esquire As A Complete Guitar",
+        "Understand The Esquire’s Three-Way Circuit",
+        "Read The Neck-Pickup Cavity Correctly",
+        "Compare Serial, Neck And Pot Dates",
+        "Inspect The Bridge Pickup And Hardware",
+        "Recognize A Refinished Esquire",
+        "Document A Converted Esquire Without Changing Its History",
+        "Prepare An Esquire Authentication Photo Set",
+        "Esquire Reference Material",
+        "Questions AboutFender Identification",
+        "Keep The Evidence Together",
+        "Joe Dampt"
+      ],
+      "photoCount": 15,
+      "comparisonPhotos": 0,
+      "inbound": [
+        {
+          "route": "/fender-guitars-serial-number-guide/",
+          "anchors": [
+            "Esquire authentication guide"
+          ]
+        },
+        {
+          "route": "/fender-telecaster-dating-guide/",
+          "anchors": [
+            "Esquire factory-identity checks"
+          ]
+        },
+        {
+          "route": "/sell-my-fender-guitar/",
+          "anchors": [
+            "Esquire authentication guide"
+          ]
+        },
+        {
+          "route": "/vintage-fender-esquire-value-guide/",
+          "anchors": [
+            "Esquire authentication guide"
+          ]
+        },
+        {
+          "route": "/vintage-fender-value-guide/",
+          "anchors": [
+            "Esquire authentication guide"
+          ]
+        }
+      ],
+      "firstSection": "identity",
+      "firstSectionNumber": "1",
+      "sellButtons": [
+        {
+          "text": "Free Appraisal",
+          "href": "/free-appraisal/"
+        },
+        {
+          "text": "Sell My Fender",
+          "href": "/sell-my-fender-guitar/"
+        }
+      ],
+      "jsonLd": {
+        "types": [
+          "ProfessionalService",
+          "ImageObject",
+          "QuantitativeValue",
+          "PostalAddress",
+          "ContactPoint",
+          "GeoCoordinates",
+          "AdministrativeArea",
+          "WebSite",
+          "Person",
+          "CollegeOrUniversity",
+          "Service",
+          "BreadcrumbList",
+          "ListItem",
+          "BlogPosting",
+          "FAQPage",
+          "Question",
+          "Answer"
+        ],
+        "parseErrors": [],
+        "imageNodes": 16,
+        "imageMismatches": []
+      },
+      "duplicateTitle": [],
+      "duplicateDescription": []
+    }
+  ],
+  "broken": [],
+  "protected": {
+    "count": 173,
+    "changed": [
+      "vintage-fender-value-guide/index.html"
+    ],
+    "identical": 172
+  }
+}
