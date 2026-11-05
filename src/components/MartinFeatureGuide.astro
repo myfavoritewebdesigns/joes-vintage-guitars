@@ -1,4 +1,5 @@
 ---
+const smallBodyTargets: Record<string,string> = {'1938 000-18':'/post/martin-000-18-authentication-guide/','1966 0-18':'/post/martin-0-18-authentication-guide/','1952 00-18':'/post/martin-00-18-authentication-guide/','In 000-18':'/post/martin-000-18-authentication-guide/'};
 import MartinGuideLayout from '../layouts/MartinGuideLayout.astro';
 import MartinModelDirectory from './MartinModelDirectory.astro';
 import MartinModelLinks from './MartinModelLinks.astro';
@@ -33,7 +34,7 @@ const schema = [
   {guide.sections.map((section,index)=><section class:list={['mtn-section',{'mtn-section--tint':index%2===1}]} id={section.id}>{section.anchorIds?.map(id=><span id={id} aria-hidden="true"></span>)}<div class:list={['mtn-wrap', {'mtn-section-beside':section.photoLayout === 'beside'}]}>
     <div class="mtn-section-copy">
     <div class="mtn-section-head">{section.period && <p class="mtn-kicker">{section.period}</p>}<h2>{section.title}</h2></div>
-    {section.paragraphs.map(text=><p>{text}</p>)}
+    {section.paragraphs.map(text=><p>{text.split(/(1938 000-18|1966 0-18|1952 00-18|In 000-18)/g).map(part => smallBodyTargets[part] && ['martin-tuner-dating-guide','martin-neck-block-stamps'].includes(guide.slug) ? <a href={smallBodyTargets[part]}>{part}</a> : part)}</p>)}
     {modelLinksBySection[section.id] && <MartinModelLinks keys={modelLinksBySection[section.id]} />}
     {section.points && <ul>{section.points.map(text=><li>{text}</li>)}</ul>}
     {section.inspection && <aside class="mtn-inspection" aria-labelledby={`${section.id}-inspection`}><h3 id={`${section.id}-inspection`}>{section.inspection.title}</h3><ol>{section.inspection.steps.map(text=><li>{text}</li>)}</ol><p>{section.inspection.note}</p></aside>}

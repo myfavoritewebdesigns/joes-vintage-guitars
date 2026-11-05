@@ -1,0 +1,466 @@
+[
+  {
+    "family": "martin-0-18",
+    "model": "0-18",
+    "years": "1920 to 1922",
+    "configuration": "Mahogany, gut",
+    "low": 3500,
+    "high": 4350
+  },
+  {
+    "family": "martin-0-18",
+    "model": "0-18",
+    "years": "1923 to 1934",
+    "configuration": "12-fret, steel",
+    "low": 6250,
+    "high": 8000
+  },
+  {
+    "family": "martin-0-18",
+    "model": "0-18",
+    "years": "1939",
+    "configuration": "Early 1939, 1 3/4-inch nut",
+    "low": 6800,
+    "high": 8500
+  },
+  {
+    "family": "martin-0-18",
+    "model": "0-18",
+    "years": "1939",
+    "configuration": "Late 1939, 1 11/16-inch nut",
+    "low": 6000,
+    "high": 7750
+  },
+  {
+    "family": "martin-0-18",
+    "model": "0-18",
+    "years": "1940 to 1944",
+    "configuration": "Standard",
+    "low": 5800,
+    "high": 7550
+  },
+  {
+    "family": "martin-0-18",
+    "model": "0-18",
+    "years": "1945 to 1946",
+    "configuration": "Standard",
+    "low": 4800,
+    "high": 6100
+  },
+  {
+    "family": "martin-0-18",
+    "model": "0-18",
+    "years": "1947 to 1949",
+    "configuration": "Standard",
+    "low": 4350,
+    "high": 5650
+  },
+  {
+    "family": "martin-0-18",
+    "model": "0-18",
+    "years": "1950 to 1959",
+    "configuration": "Standard",
+    "low": 3900,
+    "high": 5200
+  },
+  {
+    "family": "martin-0-18",
+    "model": "0-18",
+    "years": "1960 to 1964",
+    "configuration": "Standard",
+    "low": 3750,
+    "high": 4900
+  },
+  {
+    "family": "martin-0-18",
+    "model": "0-18",
+    "years": "1965",
+    "configuration": "Standard",
+    "low": 3400,
+    "high": 5100
+  },
+  {
+    "family": "martin-0-18",
+    "model": "0-18",
+    "years": "1966 to 1969",
+    "configuration": "Standard",
+    "low": 3000,
+    "high": 3850
+  },
+  {
+    "family": "martin-0-18",
+    "model": "0-18",
+    "years": "1970 to 1979",
+    "configuration": "Standard",
+    "low": 2550,
+    "high": 3400
+  },
+  {
+    "family": "martin-0-18",
+    "model": "0-18",
+    "years": "1980 to 1989",
+    "configuration": "Standard",
+    "low": 2150,
+    "high": 3000
+  },
+  {
+    "family": "martin-0-18",
+    "model": "0-18K",
+    "years": "1918 to 1933",
+    "configuration": "Hawaiian, all koa",
+    "low": 5650,
+    "high": 7400
+  },
+  {
+    "family": "martin-0-18",
+    "model": "0-18K",
+    "years": "1934 to 1935",
+    "configuration": "Hawaiian, all koa",
+    "low": 6550,
+    "high": 8250
+  },
+  {
+    "family": "martin-0-18",
+    "model": "0-18KH",
+    "years": "1927 to 1928",
+    "configuration": "Hawaiian, koa",
+    "low": 6600,
+    "high": 8350
+  },
+  {
+    "family": "martin-00-18",
+    "model": "00-18",
+    "years": "1920 to 1922",
+    "configuration": "Mahogany",
+    "low": 6000,
+    "high": 7900
+  },
+  {
+    "family": "martin-00-18",
+    "model": "00-18",
+    "years": "1923 to 1929",
+    "configuration": "Standard",
+    "low": 8700,
+    "high": 10700
+  },
+  {
+    "family": "martin-00-18",
+    "model": "00-18",
+    "years": "1930 to 1932",
+    "configuration": "12-fret",
+    "low": 12000,
+    "high": 16000
+  },
+  {
+    "family": "martin-00-18",
+    "model": "00-18",
+    "years": "1933",
+    "configuration": "14-fret, bar fret",
+    "low": 15300,
+    "high": 20400
+  },
+  {
+    "family": "martin-00-18",
+    "model": "00-18",
+    "years": "1934 to 1937",
+    "configuration": "14-fret",
+    "low": 15650,
+    "high": 20900
+  },
+  {
+    "family": "martin-00-18",
+    "model": "00-18",
+    "years": "1938",
+    "configuration": "1 3/4-inch nut",
+    "low": 16000,
+    "high": 21350
+  },
+  {
+    "family": "martin-00-18",
+    "model": "00-18",
+    "years": "1939",
+    "configuration": "Early 1939, 1 3/4-inch nut",
+    "low": 15850,
+    "high": 21100
+  },
+  {
+    "family": "martin-00-18",
+    "model": "00-18",
+    "years": "1939",
+    "configuration": "Late 1939, 1 11/16-inch nut",
+    "low": 14700,
+    "high": 19600
+  },
+  {
+    "family": "martin-00-18",
+    "model": "00-18",
+    "years": "1940 to 1941",
+    "configuration": "Standard",
+    "low": 14050,
+    "high": 18700
+  },
+  {
+    "family": "martin-00-18",
+    "model": "00-18",
+    "years": "1942 to 1944",
+    "configuration": "Scalloped",
+    "low": 14500,
+    "high": 19350
+  },
+  {
+    "family": "martin-00-18",
+    "model": "00-18",
+    "years": "1944 to 1946",
+    "configuration": "Non-scalloped",
+    "low": 9800,
+    "high": 12750
+  },
+  {
+    "family": "martin-00-18",
+    "model": "00-18",
+    "years": "1947 to 1949",
+    "configuration": "Standard",
+    "low": 8000,
+    "high": 10700
+  },
+  {
+    "family": "martin-00-18",
+    "model": "00-18",
+    "years": "1950 to 1953",
+    "configuration": "Standard",
+    "low": 4400,
+    "high": 5700
+  },
+  {
+    "family": "martin-00-18",
+    "model": "00-18",
+    "years": "1954 to 1959",
+    "configuration": "Standard",
+    "low": 4450,
+    "high": 5800
+  },
+  {
+    "family": "martin-00-18",
+    "model": "00-18",
+    "years": "1960 to 1964",
+    "configuration": "Standard",
+    "low": 3650,
+    "high": 4800
+  },
+  {
+    "family": "martin-00-18",
+    "model": "00-18",
+    "years": "1965",
+    "configuration": "Standard",
+    "low": 3500,
+    "high": 4800
+  },
+  {
+    "family": "martin-00-18",
+    "model": "00-18",
+    "years": "1966 to 1969",
+    "configuration": "Standard",
+    "low": 3150,
+    "high": 4350
+  },
+  {
+    "family": "martin-00-18",
+    "model": "00-18",
+    "years": "1970 to 1979",
+    "configuration": "Standard",
+    "low": 2850,
+    "high": 4000
+  },
+  {
+    "family": "martin-00-18",
+    "model": "00-18",
+    "years": "1980 to 1989",
+    "configuration": "Standard",
+    "low": 2350,
+    "high": 3050
+  },
+  {
+    "family": "martin-00-18",
+    "model": "00-18H",
+    "years": "1935 to 1941",
+    "configuration": "Converted From Hawaiian To Spanish Playing",
+    "low": 9550,
+    "high": 12600
+  },
+  {
+    "family": "martin-00-18",
+    "model": "00-18K",
+    "years": "1918 to 1921",
+    "configuration": "All koa",
+    "low": 4400,
+    "high": 5700
+  },
+  {
+    "family": "martin-00-18",
+    "model": "00-18K",
+    "years": "1922 to 1925",
+    "configuration": "All koa",
+    "low": 6550,
+    "high": 8250
+  },
+  {
+    "family": "martin-00-18",
+    "model": "00-18K",
+    "years": "1934",
+    "configuration": "All koa",
+    "low": 7100,
+    "high": 8900
+  },
+  {
+    "family": "martin-000-18",
+    "model": "000-18",
+    "years": "1906",
+    "configuration": "Maple",
+    "low": 11500,
+    "high": 15300
+  },
+  {
+    "family": "martin-000-18",
+    "model": "000-18",
+    "years": "1911 to 1917",
+    "configuration": "Rosewood",
+    "low": 12000,
+    "high": 16000
+  },
+  {
+    "family": "martin-000-18",
+    "model": "000-18",
+    "years": "1920 to 1922",
+    "configuration": "Gut, mahogany",
+    "low": 10550,
+    "high": 14100
+  },
+  {
+    "family": "martin-000-18",
+    "model": "000-18",
+    "years": "1923 to 1931",
+    "configuration": "Steel",
+    "low": 17600,
+    "high": 24650
+  },
+  {
+    "family": "martin-000-18",
+    "model": "000-18",
+    "years": "1934",
+    "configuration": "Early 1934, long scale",
+    "low": 28050,
+    "high": 35600
+  },
+  {
+    "family": "martin-000-18",
+    "model": "000-18",
+    "years": "1934 to 1938",
+    "configuration": "14-fret",
+    "low": 27700,
+    "high": 35200
+  },
+  {
+    "family": "martin-000-18",
+    "model": "000-18",
+    "years": "1939",
+    "configuration": "Early 1939, 1 3/4-inch nut",
+    "low": 18500,
+    "high": 24650
+  },
+  {
+    "family": "martin-000-18",
+    "model": "000-18",
+    "years": "1939",
+    "configuration": "Late 1939, 1 11/16-inch nut",
+    "low": 14600,
+    "high": 19350
+  },
+  {
+    "family": "martin-000-18",
+    "model": "000-18",
+    "years": "1940 to 1941",
+    "configuration": "Standard",
+    "low": 14100,
+    "high": 19350
+  },
+  {
+    "family": "martin-000-18",
+    "model": "000-18",
+    "years": "1942 to 1943",
+    "configuration": "Scalloped braces",
+    "low": 14100,
+    "high": 19350
+  },
+  {
+    "family": "martin-000-18",
+    "model": "000-18",
+    "years": "1944",
+    "configuration": "Scalloped braces",
+    "low": 11900,
+    "high": 15850
+  },
+  {
+    "family": "martin-000-18",
+    "model": "000-18",
+    "years": "1944 to 1947",
+    "configuration": "Non-scalloped",
+    "low": 8800,
+    "high": 12300
+  },
+  {
+    "family": "martin-000-18",
+    "model": "000-18",
+    "years": "1948 to 1949",
+    "configuration": "Standard",
+    "low": 7500,
+    "high": 9700
+  },
+  {
+    "family": "martin-000-18",
+    "model": "000-18",
+    "years": "1950 to 1953",
+    "configuration": "Standard",
+    "low": 6900,
+    "high": 9050
+  },
+  {
+    "family": "martin-000-18",
+    "model": "000-18",
+    "years": "1954 to 1959",
+    "configuration": "Standard",
+    "low": 5800,
+    "high": 7550
+  },
+  {
+    "family": "martin-000-18",
+    "model": "000-18",
+    "years": "1960 to 1964",
+    "configuration": "Standard",
+    "low": 4800,
+    "high": 6100
+  },
+  {
+    "family": "martin-000-18",
+    "model": "000-18",
+    "years": "1965",
+    "configuration": "Standard",
+    "low": 4250,
+    "high": 5550
+  },
+  {
+    "family": "martin-000-18",
+    "model": "000-18",
+    "years": "1966 to 1969",
+    "configuration": "Standard",
+    "low": 3400,
+    "high": 4700
+  },
+  {
+    "family": "martin-000-18",
+    "model": "000-18",
+    "years": "1970 to 1979",
+    "configuration": "Standard",
+    "low": 2850,
+    "high": 4000
+  }
+]

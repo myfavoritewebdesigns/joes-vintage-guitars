@@ -1,6 +1,6 @@
 import type { ImageMetadata } from 'astro';
 
-export type GuideBrand = 'Fender' | 'Gibson' | 'Gretsch' | 'Guild' | 'National' | 'Epiphone' | 'Rickenbacker';
+export type GuideBrand = 'Fender' | 'Gibson' | 'Gretsch' | 'Guild' | 'National' | 'Epiphone' | 'Rickenbacker' | 'Martin';
 export interface GuidePhoto {
   src: ImageMetadata;
   alt: string;

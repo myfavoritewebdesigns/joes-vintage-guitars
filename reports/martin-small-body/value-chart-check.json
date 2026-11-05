@@ -1,0 +1,1414 @@
+{
+  "source": "2026 Official Vintage Guitar Price Guide",
+  "access": "Authorized reader, visually verified pages 276, 278, 279 and 282",
+  "rows": [
+    {
+      "id": "m18-01",
+      "sourceEdition": 2026,
+      "sourcePage": 276,
+      "model": "0-18",
+      "sourceYears": "1918 to 1922",
+      "publishedYears": "1920 to 1922",
+      "configuration": "Mahogany, gut",
+      "baseline": [
+        4000,
+        5000
+      ],
+      "reductionPercent": 13,
+      "unrounded": [
+        3480.0,
+        4350.0
+      ],
+      "published": [
+        3500,
+        4350
+      ],
+      "rounding": "Nearest $50, half upward",
+      "verified": true
+    },
+    {
+      "id": "m18-02",
+      "sourceEdition": 2026,
+      "sourcePage": 276,
+      "model": "0-18",
+      "sourceYears": "1923 to 1934",
+      "publishedYears": "1923 to 1934",
+      "configuration": "12-fret, steel",
+      "baseline": [
+        7000,
+        9000
+      ],
+      "reductionPercent": 11,
+      "unrounded": [
+        6230.0,
+        8010.0
+      ],
+      "published": [
+        6250,
+        8000
+      ],
+      "rounding": "Nearest $50, half upward",
+      "verified": true
+    },
+    {
+      "id": "m18-04",
+      "sourceEdition": 2026,
+      "sourcePage": 276,
+      "model": "0-18",
+      "sourceYears": "1939",
+      "publishedYears": "1939",
+      "configuration": "Early 1939, 1 3/4-inch nut",
+      "baseline": [
+        8000,
+        10000
+      ],
+      "reductionPercent": 15,
+      "unrounded": [
+        6800.0,
+        8500.0
+      ],
+      "published": [
+        6800,
+        8500
+      ],
+      "rounding": "Nearest $50, half upward",
+      "verified": true
+    },
+    {
+      "id": "m18-05",
+      "sourceEdition": 2026,
+      "sourcePage": 276,
+      "model": "0-18",
+      "sourceYears": "1939",
+      "publishedYears": "1939",
+      "configuration": "Late 1939, 1 11/16-inch nut",
+      "baseline": [
+        7000,
+        9000
+      ],
+      "reductionPercent": 14,
+      "unrounded": [
+        6020.0,
+        7740.0
+      ],
+      "published": [
+        6000,
+        7750
+      ],
+      "rounding": "Nearest $50, half upward",
+      "verified": true
+    },
+    {
+      "id": "m18-06",
+      "sourceEdition": 2026,
+      "sourcePage": 276,
+      "model": "0-18",
+      "sourceYears": "1940 to 1944",
+      "publishedYears": "1940 to 1944",
+      "configuration": "Standard",
+      "baseline": [
+        6500,
+        8500
+      ],
+      "reductionPercent": 11,
+      "unrounded": [
+        5785.0,
+        7565.0
+      ],
+      "published": [
+        5800,
+        7550
+      ],
+      "rounding": "Nearest $50, half upward",
+      "verified": true
+    },
+    {
+      "id": "m18-07",
+      "sourceEdition": 2026,
+      "sourcePage": 276,
+      "model": "0-18",
+      "sourceYears": "1945 to 1946",
+      "publishedYears": "1945 to 1946",
+      "configuration": "Standard",
+      "baseline": [
+        5500,
+        7000
+      ],
+      "reductionPercent": 13,
+      "unrounded": [
+        4785.0,
+        6090.0
+      ],
+      "published": [
+        4800,
+        6100
+      ],
+      "rounding": "Nearest $50, half upward",
+      "verified": true
+    },
+    {
+      "id": "m18-08",
+      "sourceEdition": 2026,
+      "sourcePage": 276,
+      "model": "0-18",
+      "sourceYears": "1947 to 1949",
+      "publishedYears": "1947 to 1949",
+      "configuration": "Standard",
+      "baseline": [
+        5000,
+        6500
+      ],
+      "reductionPercent": 13,
+      "unrounded": [
+        4350.0,
+        5655.0
+      ],
+      "published": [
+        4350,
+        5650
+      ],
+      "rounding": "Nearest $50, half upward",
+      "verified": true
+    },
+    {
+      "id": "m18-09",
+      "sourceEdition": 2026,
+      "sourcePage": 276,
+      "model": "0-18",
+      "sourceYears": "1950 to 1959",
+      "publishedYears": "1950 to 1959",
+      "configuration": "Standard",
+      "baseline": [
+        4500,
+        6000
+      ],
+      "reductionPercent": 13,
+      "unrounded": [
+        3915.0,
+        5220.0
+      ],
+      "published": [
+        3900,
+        5200
+      ],
+      "rounding": "Nearest $50, half upward",
+      "verified": true
+    },
+    {
+      "id": "m18-10",
+      "sourceEdition": 2026,
+      "sourcePage": 276,
+      "model": "0-18",
+      "sourceYears": "1960 to 1964",
+      "publishedYears": "1960 to 1964",
+      "configuration": "Standard",
+      "baseline": [
+        4200,
+        5500
+      ],
+      "reductionPercent": 11,
+      "unrounded": [
+        3738.0,
+        4895.0
+      ],
+      "published": [
+        3750,
+        4900
+      ],
+      "rounding": "Nearest $50, half upward",
+      "verified": true
+    },
+    {
+      "id": "m18-11",
+      "sourceEdition": 2026,
+      "sourcePage": 276,
+      "model": "0-18",
+      "sourceYears": "1965",
+      "publishedYears": "1965",
+      "configuration": "Standard",
+      "baseline": [
+        4000,
+        6000
+      ],
+      "reductionPercent": 15,
+      "unrounded": [
+        3400.0,
+        5100.0
+      ],
+      "published": [
+        3400,
+        5100
+      ],
+      "rounding": "Nearest $50, half upward",
+      "verified": true
+    },
+    {
+      "id": "m18-12",
+      "sourceEdition": 2026,
+      "sourcePage": 276,
+      "model": "0-18",
+      "sourceYears": "1966 to 1969",
+      "publishedYears": "1966 to 1969",
+      "configuration": "Standard",
+      "baseline": [
+        3500,
+        4500
+      ],
+      "reductionPercent": 15,
+      "unrounded": [
+        2975.0,
+        3825.0
+      ],
+      "published": [
+        3000,
+        3850
+      ],
+      "rounding": "Nearest $50, half upward",
+      "verified": true
+    },
+    {
+      "id": "m18-13",
+      "sourceEdition": 2026,
+      "sourcePage": 276,
+      "model": "0-18",
+      "sourceYears": "1970 to 1979",
+      "publishedYears": "1970 to 1979",
+      "configuration": "Standard",
+      "baseline": [
+        3000,
+        4000
+      ],
+      "reductionPercent": 15,
+      "unrounded": [
+        2550.0,
+        3400.0
+      ],
+      "published": [
+        2550,
+        3400
+      ],
+      "rounding": "Nearest $50, half upward",
+      "verified": true
+    },
+    {
+      "id": "m18-14",
+      "sourceEdition": 2026,
+      "sourcePage": 276,
+      "model": "0-18",
+      "sourceYears": "1980 to 1989",
+      "publishedYears": "1980 to 1989",
+      "configuration": "Standard",
+      "baseline": [
+        2500,
+        3500
+      ],
+      "reductionPercent": 15,
+      "unrounded": [
+        2125.0,
+        2975.0
+      ],
+      "published": [
+        2150,
+        3000
+      ],
+      "rounding": "Nearest $50, half upward",
+      "verified": true
+    },
+    {
+      "id": "m18-15",
+      "sourceEdition": 2026,
+      "sourcePage": 276,
+      "model": "0-18K",
+      "sourceYears": "1918 to 1933",
+      "publishedYears": "1918 to 1933",
+      "configuration": "Hawaiian, all koa",
+      "baseline": [
+        6500,
+        8500
+      ],
+      "reductionPercent": 13,
+      "unrounded": [
+        5655.0,
+        7395.0
+      ],
+      "published": [
+        5650,
+        7400
+      ],
+      "rounding": "Nearest $50, half upward",
+      "verified": true
+    },
+    {
+      "id": "m18-16",
+      "sourceEdition": 2026,
+      "sourcePage": 276,
+      "model": "0-18K",
+      "sourceYears": "1934 to 1935",
+      "publishedYears": "1934 to 1935",
+      "configuration": "Hawaiian, all koa",
+      "baseline": [
+        7500,
+        9500
+      ],
+      "reductionPercent": 13,
+      "unrounded": [
+        6525.0,
+        8265.0
+      ],
+      "published": [
+        6550,
+        8250
+      ],
+      "rounding": "Nearest $50, half upward",
+      "verified": true
+    },
+    {
+      "id": "m18-17",
+      "sourceEdition": 2026,
+      "sourcePage": 276,
+      "model": "0-18KH",
+      "sourceYears": "1927 to 1928",
+      "publishedYears": "1927 to 1928",
+      "configuration": "Hawaiian, koa",
+      "baseline": [
+        7500,
+        9500
+      ],
+      "reductionPercent": 12,
+      "unrounded": [
+        6600.0,
+        8360.0
+      ],
+      "published": [
+        6600,
+        8350
+      ],
+      "rounding": "Nearest $50, half upward",
+      "verified": true
+    },
+    {
+      "id": "m18-18",
+      "sourceEdition": 2026,
+      "sourcePage": 278,
+      "model": "00-18",
+      "sourceYears": "1918 to 1922",
+      "publishedYears": "1920 to 1922",
+      "configuration": "Mahogany",
+      "baseline": [
+        6800,
+        9000
+      ],
+      "reductionPercent": 12,
+      "unrounded": [
+        5984.0,
+        7920.0
+      ],
+      "published": [
+        6000,
+        7900
+      ],
+      "rounding": "Nearest $50, half upward",
+      "verified": true
+    },
+    {
+      "id": "m18-19",
+      "sourceEdition": 2026,
+      "sourcePage": 278,
+      "model": "00-18",
+      "sourceYears": "1923 to 1929",
+      "publishedYears": "1923 to 1929",
+      "configuration": "Standard",
+      "baseline": [
+        9800,
+        12000
+      ],
+      "reductionPercent": 11,
+      "unrounded": [
+        8722.0,
+        10680.0
+      ],
+      "published": [
+        8700,
+        10700
+      ],
+      "rounding": "Nearest $50, half upward",
+      "verified": true
+    },
+    {
+      "id": "m18-20",
+      "sourceEdition": 2026,
+      "sourcePage": 278,
+      "model": "00-18",
+      "sourceYears": "1930 to 1932",
+      "publishedYears": "1930 to 1932",
+      "configuration": "12-fret",
+      "baseline": [
+        13500,
+        18000
+      ],
+      "reductionPercent": 11,
+      "unrounded": [
+        12015.0,
+        16020.0
+      ],
+      "published": [
+        12000,
+        16000
+      ],
+      "rounding": "Nearest $50, half upward",
+      "verified": true
+    },
+    {
+      "id": "m18-21",
+      "sourceEdition": 2026,
+      "sourcePage": 278,
+      "model": "00-18",
+      "sourceYears": "1933",
+      "publishedYears": "1933",
+      "configuration": "14-fret, bar fret",
+      "baseline": [
+        18000,
+        24000
+      ],
+      "reductionPercent": 15,
+      "unrounded": [
+        15300.0,
+        20400.0
+      ],
+      "published": [
+        15300,
+        20400
+      ],
+      "rounding": "Nearest $50, half upward",
+      "verified": true
+    },
+    {
+      "id": "m18-22",
+      "sourceEdition": 2026,
+      "sourcePage": 278,
+      "model": "00-18",
+      "sourceYears": "1934 to 1937",
+      "publishedYears": "1934 to 1937",
+      "configuration": "14-fret",
+      "baseline": [
+        18000,
+        24000
+      ],
+      "reductionPercent": 13,
+      "unrounded": [
+        15660.0,
+        20880.0
+      ],
+      "published": [
+        15650,
+        20900
+      ],
+      "rounding": "Nearest $50, half upward",
+      "verified": true
+    },
+    {
+      "id": "m18-23",
+      "sourceEdition": 2026,
+      "sourcePage": 278,
+      "model": "00-18",
+      "sourceYears": "1938",
+      "publishedYears": "1938",
+      "configuration": "1 3/4-inch nut",
+      "baseline": [
+        18000,
+        24000
+      ],
+      "reductionPercent": 11,
+      "unrounded": [
+        16020.0,
+        21360.0
+      ],
+      "published": [
+        16000,
+        21350
+      ],
+      "rounding": "Nearest $50, half upward",
+      "verified": true
+    },
+    {
+      "id": "m18-24",
+      "sourceEdition": 2026,
+      "sourcePage": 278,
+      "model": "00-18",
+      "sourceYears": "1939",
+      "publishedYears": "1939",
+      "configuration": "Early 1939, 1 3/4-inch nut",
+      "baseline": [
+        18000,
+        24000
+      ],
+      "reductionPercent": 12,
+      "unrounded": [
+        15840.0,
+        21120.0
+      ],
+      "published": [
+        15850,
+        21100
+      ],
+      "rounding": "Nearest $50, half upward",
+      "verified": true
+    },
+    {
+      "id": "m18-25",
+      "sourceEdition": 2026,
+      "sourcePage": 278,
+      "model": "00-18",
+      "sourceYears": "1939",
+      "publishedYears": "1939",
+      "configuration": "Late 1939, 1 11/16-inch nut",
+      "baseline": [
+        16500,
+        22000
+      ],
+      "reductionPercent": 11,
+      "unrounded": [
+        14685.0,
+        19580.0
+      ],
+      "published": [
+        14700,
+        19600
+      ],
+      "rounding": "Nearest $50, half upward",
+      "verified": true
+    },
+    {
+      "id": "m18-26",
+      "sourceEdition": 2026,
+      "sourcePage": 278,
+      "model": "00-18",
+      "sourceYears": "1940 to 1941",
+      "publishedYears": "1940 to 1941",
+      "configuration": "Standard",
+      "baseline": [
+        16500,
+        22000
+      ],
+      "reductionPercent": 15,
+      "unrounded": [
+        14025.0,
+        18700.0
+      ],
+      "published": [
+        14050,
+        18700
+      ],
+      "rounding": "Nearest $50, half upward",
+      "verified": true
+    },
+    {
+      "id": "m18-27",
+      "sourceEdition": 2026,
+      "sourcePage": 278,
+      "model": "00-18",
+      "sourceYears": "1942 to 1944",
+      "publishedYears": "1942 to 1944",
+      "configuration": "Scalloped",
+      "baseline": [
+        16500,
+        22000
+      ],
+      "reductionPercent": 12,
+      "unrounded": [
+        14520.0,
+        19360.0
+      ],
+      "published": [
+        14500,
+        19350
+      ],
+      "rounding": "Nearest $50, half upward",
+      "verified": true
+    },
+    {
+      "id": "m18-28",
+      "sourceEdition": 2026,
+      "sourcePage": 278,
+      "model": "00-18",
+      "sourceYears": "1944 to 1946",
+      "publishedYears": "1944 to 1946",
+      "configuration": "Non-scalloped",
+      "baseline": [
+        11500,
+        15000
+      ],
+      "reductionPercent": 15,
+      "unrounded": [
+        9775.0,
+        12750.0
+      ],
+      "published": [
+        9800,
+        12750
+      ],
+      "rounding": "Nearest $50, half upward",
+      "verified": true
+    },
+    {
+      "id": "m18-29",
+      "sourceEdition": 2026,
+      "sourcePage": 278,
+      "model": "00-18",
+      "sourceYears": "1947 to 1949",
+      "publishedYears": "1947 to 1949",
+      "configuration": "Standard",
+      "baseline": [
+        9000,
+        12000
+      ],
+      "reductionPercent": 11,
+      "unrounded": [
+        8010.0,
+        10680.0
+      ],
+      "published": [
+        8000,
+        10700
+      ],
+      "rounding": "Nearest $50, half upward",
+      "verified": true
+    },
+    {
+      "id": "m18-30",
+      "sourceEdition": 2026,
+      "sourcePage": 278,
+      "model": "00-18",
+      "sourceYears": "1950 to 1953",
+      "publishedYears": "1950 to 1953",
+      "configuration": "Standard",
+      "baseline": [
+        5000,
+        6500
+      ],
+      "reductionPercent": 12,
+      "unrounded": [
+        4400.0,
+        5720.0
+      ],
+      "published": [
+        4400,
+        5700
+      ],
+      "rounding": "Nearest $50, half upward",
+      "verified": true
+    },
+    {
+      "id": "m18-31",
+      "sourceEdition": 2026,
+      "sourcePage": 278,
+      "model": "00-18",
+      "sourceYears": "1954 to 1959",
+      "publishedYears": "1954 to 1959",
+      "configuration": "Standard",
+      "baseline": [
+        5000,
+        6500
+      ],
+      "reductionPercent": 11,
+      "unrounded": [
+        4450.0,
+        5785.0
+      ],
+      "published": [
+        4450,
+        5800
+      ],
+      "rounding": "Nearest $50, half upward",
+      "verified": true
+    },
+    {
+      "id": "m18-32",
+      "sourceEdition": 2026,
+      "sourcePage": 278,
+      "model": "00-18",
+      "sourceYears": "1960 to 1964",
+      "publishedYears": "1960 to 1964",
+      "configuration": "Standard",
+      "baseline": [
+        4200,
+        5500
+      ],
+      "reductionPercent": 13,
+      "unrounded": [
+        3654.0,
+        4785.0
+      ],
+      "published": [
+        3650,
+        4800
+      ],
+      "rounding": "Nearest $50, half upward",
+      "verified": true
+    },
+    {
+      "id": "m18-33",
+      "sourceEdition": 2026,
+      "sourcePage": 278,
+      "model": "00-18",
+      "sourceYears": "1965",
+      "publishedYears": "1965",
+      "configuration": "Standard",
+      "baseline": [
+        4000,
+        5500
+      ],
+      "reductionPercent": 13,
+      "unrounded": [
+        3480.0,
+        4785.0
+      ],
+      "published": [
+        3500,
+        4800
+      ],
+      "rounding": "Nearest $50, half upward",
+      "verified": true
+    },
+    {
+      "id": "m18-34",
+      "sourceEdition": 2026,
+      "sourcePage": 278,
+      "model": "00-18",
+      "sourceYears": "1966 to 1969",
+      "publishedYears": "1966 to 1969",
+      "configuration": "Standard",
+      "baseline": [
+        3600,
+        5000
+      ],
+      "reductionPercent": 13,
+      "unrounded": [
+        3132.0,
+        4350.0
+      ],
+      "published": [
+        3150,
+        4350
+      ],
+      "rounding": "Nearest $50, half upward",
+      "verified": true
+    },
+    {
+      "id": "m18-35",
+      "sourceEdition": 2026,
+      "sourcePage": 278,
+      "model": "00-18",
+      "sourceYears": "1970 to 1979",
+      "publishedYears": "1970 to 1979",
+      "configuration": "Standard",
+      "baseline": [
+        3200,
+        4500
+      ],
+      "reductionPercent": 11,
+      "unrounded": [
+        2848.0,
+        4005.0
+      ],
+      "published": [
+        2850,
+        4000
+      ],
+      "rounding": "Nearest $50, half upward",
+      "verified": true
+    },
+    {
+      "id": "m18-36",
+      "sourceEdition": 2026,
+      "sourcePage": 278,
+      "model": "00-18",
+      "sourceYears": "1980 to 1989",
+      "publishedYears": "1980 to 1989",
+      "configuration": "Standard",
+      "baseline": [
+        2700,
+        3500
+      ],
+      "reductionPercent": 13,
+      "unrounded": [
+        2349.0,
+        3045.0
+      ],
+      "published": [
+        2350,
+        3050
+      ],
+      "rounding": "Nearest $50, half upward",
+      "verified": true
+    },
+    {
+      "id": "m18-37",
+      "sourceEdition": 2026,
+      "sourcePage": 279,
+      "model": "00-18H",
+      "sourceYears": "1935 to 1941",
+      "publishedYears": "1935 to 1941",
+      "configuration": "Converted From Hawaiian To Spanish Playing",
+      "baseline": [
+        11000,
+        14500
+      ],
+      "reductionPercent": 13,
+      "unrounded": [
+        9570.0,
+        12615.0
+      ],
+      "published": [
+        9550,
+        12600
+      ],
+      "rounding": "Nearest $50, half upward",
+      "verified": true
+    },
+    {
+      "id": "m18-38",
+      "sourceEdition": 2026,
+      "sourcePage": 279,
+      "model": "00-18K",
+      "sourceYears": "1918 to 1921",
+      "publishedYears": "1918 to 1921",
+      "configuration": "All koa",
+      "baseline": [
+        5000,
+        6500
+      ],
+      "reductionPercent": 12,
+      "unrounded": [
+        4400.0,
+        5720.0
+      ],
+      "published": [
+        4400,
+        5700
+      ],
+      "rounding": "Nearest $50, half upward",
+      "verified": true
+    },
+    {
+      "id": "m18-39",
+      "sourceEdition": 2026,
+      "sourcePage": 279,
+      "model": "00-18K",
+      "sourceYears": "1922 to 1925",
+      "publishedYears": "1922 to 1925",
+      "configuration": "All koa",
+      "baseline": [
+        7500,
+        9500
+      ],
+      "reductionPercent": 13,
+      "unrounded": [
+        6525.0,
+        8265.0
+      ],
+      "published": [
+        6550,
+        8250
+      ],
+      "rounding": "Nearest $50, half upward",
+      "verified": true
+    },
+    {
+      "id": "m18-40",
+      "sourceEdition": 2026,
+      "sourcePage": 279,
+      "model": "00-18K",
+      "sourceYears": "1934",
+      "publishedYears": "1934",
+      "configuration": "All koa",
+      "baseline": [
+        8000,
+        10000
+      ],
+      "reductionPercent": 11,
+      "unrounded": [
+        7120.0,
+        8900.0
+      ],
+      "published": [
+        7100,
+        8900
+      ],
+      "rounding": "Nearest $50, half upward",
+      "verified": true
+    },
+    {
+      "id": "m18-41",
+      "sourceEdition": 2026,
+      "sourcePage": 282,
+      "model": "000-18",
+      "sourceYears": "1906",
+      "publishedYears": "1906",
+      "configuration": "Maple",
+      "baseline": [
+        13500,
+        18000
+      ],
+      "reductionPercent": 15,
+      "unrounded": [
+        11475.0,
+        15300.0
+      ],
+      "published": [
+        11500,
+        15300
+      ],
+      "rounding": "Nearest $50, half upward",
+      "verified": true
+    },
+    {
+      "id": "m18-42",
+      "sourceEdition": 2026,
+      "sourcePage": 282,
+      "model": "000-18",
+      "sourceYears": "1911 to 1917",
+      "publishedYears": "1911 to 1917",
+      "configuration": "Rosewood",
+      "baseline": [
+        13500,
+        18000
+      ],
+      "reductionPercent": 11,
+      "unrounded": [
+        12015.0,
+        16020.0
+      ],
+      "published": [
+        12000,
+        16000
+      ],
+      "rounding": "Nearest $50, half upward",
+      "verified": true
+    },
+    {
+      "id": "m18-43",
+      "sourceEdition": 2026,
+      "sourcePage": 282,
+      "model": "000-18",
+      "sourceYears": "1920 to 1922",
+      "publishedYears": "1920 to 1922",
+      "configuration": "Gut, mahogany",
+      "baseline": [
+        12000,
+        16000
+      ],
+      "reductionPercent": 12,
+      "unrounded": [
+        10560.0,
+        14080.0
+      ],
+      "published": [
+        10550,
+        14100
+      ],
+      "rounding": "Nearest $50, half upward",
+      "verified": true
+    },
+    {
+      "id": "m18-44",
+      "sourceEdition": 2026,
+      "sourcePage": 282,
+      "model": "000-18",
+      "sourceYears": "1923 to 1931",
+      "publishedYears": "1923 to 1931",
+      "configuration": "Steel",
+      "baseline": [
+        20000,
+        28000
+      ],
+      "reductionPercent": 12,
+      "unrounded": [
+        17600.0,
+        24640.0
+      ],
+      "published": [
+        17600,
+        24650
+      ],
+      "rounding": "Nearest $50, half upward",
+      "verified": true
+    },
+    {
+      "id": "m18-45",
+      "sourceEdition": 2026,
+      "sourcePage": 282,
+      "model": "000-18",
+      "sourceYears": "1934",
+      "publishedYears": "1934",
+      "configuration": "Early 1934, long scale",
+      "baseline": [
+        31500,
+        40000
+      ],
+      "reductionPercent": 11,
+      "unrounded": [
+        28035.0,
+        35600.0
+      ],
+      "published": [
+        28050,
+        35600
+      ],
+      "rounding": "Nearest $50, half upward",
+      "verified": true
+    },
+    {
+      "id": "m18-46",
+      "sourceEdition": 2026,
+      "sourcePage": 282,
+      "model": "000-18",
+      "sourceYears": "1934 to 1938",
+      "publishedYears": "1934 to 1938",
+      "configuration": "14-fret",
+      "baseline": [
+        31500,
+        40000
+      ],
+      "reductionPercent": 12,
+      "unrounded": [
+        27720.0,
+        35200.0
+      ],
+      "published": [
+        27700,
+        35200
+      ],
+      "rounding": "Nearest $50, half upward",
+      "verified": true
+    },
+    {
+      "id": "m18-47",
+      "sourceEdition": 2026,
+      "sourcePage": 282,
+      "model": "000-18",
+      "sourceYears": "1939",
+      "publishedYears": "1939",
+      "configuration": "Early 1939, 1 3/4-inch nut",
+      "baseline": [
+        21000,
+        28000
+      ],
+      "reductionPercent": 12,
+      "unrounded": [
+        18480.0,
+        24640.0
+      ],
+      "published": [
+        18500,
+        24650
+      ],
+      "rounding": "Nearest $50, half upward",
+      "verified": true
+    },
+    {
+      "id": "m18-48",
+      "sourceEdition": 2026,
+      "sourcePage": 282,
+      "model": "000-18",
+      "sourceYears": "1939",
+      "publishedYears": "1939",
+      "configuration": "Late 1939, 1 11/16-inch nut",
+      "baseline": [
+        17000,
+        22500
+      ],
+      "reductionPercent": 14,
+      "unrounded": [
+        14620.0,
+        19350.0
+      ],
+      "published": [
+        14600,
+        19350
+      ],
+      "rounding": "Nearest $50, half upward",
+      "verified": true
+    },
+    {
+      "id": "m18-49",
+      "sourceEdition": 2026,
+      "sourcePage": 282,
+      "model": "000-18",
+      "sourceYears": "1940 to 1941",
+      "publishedYears": "1940 to 1941",
+      "configuration": "Standard",
+      "baseline": [
+        16000,
+        22000
+      ],
+      "reductionPercent": 12,
+      "unrounded": [
+        14080.0,
+        19360.0
+      ],
+      "published": [
+        14100,
+        19350
+      ],
+      "rounding": "Nearest $50, half upward",
+      "verified": true
+    },
+    {
+      "id": "m18-50",
+      "sourceEdition": 2026,
+      "sourcePage": 282,
+      "model": "000-18",
+      "sourceYears": "1942 to 1943",
+      "publishedYears": "1942 to 1943",
+      "configuration": "Scalloped braces",
+      "baseline": [
+        16000,
+        22000
+      ],
+      "reductionPercent": 12,
+      "unrounded": [
+        14080.0,
+        19360.0
+      ],
+      "published": [
+        14100,
+        19350
+      ],
+      "rounding": "Nearest $50, half upward",
+      "verified": true
+    },
+    {
+      "id": "m18-51",
+      "sourceEdition": 2026,
+      "sourcePage": 282,
+      "model": "000-18",
+      "sourceYears": "1944",
+      "publishedYears": "1944",
+      "configuration": "Scalloped braces",
+      "baseline": [
+        13500,
+        18000
+      ],
+      "reductionPercent": 12,
+      "unrounded": [
+        11880.0,
+        15840.0
+      ],
+      "published": [
+        11900,
+        15850
+      ],
+      "rounding": "Nearest $50, half upward",
+      "verified": true
+    },
+    {
+      "id": "m18-52",
+      "sourceEdition": 2026,
+      "sourcePage": 282,
+      "model": "000-18",
+      "sourceYears": "1944 to 1947",
+      "publishedYears": "1944 to 1947",
+      "configuration": "Non-scalloped",
+      "baseline": [
+        10000,
+        14000
+      ],
+      "reductionPercent": 12,
+      "unrounded": [
+        8800.0,
+        12320.0
+      ],
+      "published": [
+        8800,
+        12300
+      ],
+      "rounding": "Nearest $50, half upward",
+      "verified": true
+    },
+    {
+      "id": "m18-53",
+      "sourceEdition": 2026,
+      "sourcePage": 282,
+      "model": "000-18",
+      "sourceYears": "1948 to 1949",
+      "publishedYears": "1948 to 1949",
+      "configuration": "Standard",
+      "baseline": [
+        8500,
+        11000
+      ],
+      "reductionPercent": 12,
+      "unrounded": [
+        7480.0,
+        9680.0
+      ],
+      "published": [
+        7500,
+        9700
+      ],
+      "rounding": "Nearest $50, half upward",
+      "verified": true
+    },
+    {
+      "id": "m18-54",
+      "sourceEdition": 2026,
+      "sourcePage": 282,
+      "model": "000-18",
+      "sourceYears": "1950 to 1953",
+      "publishedYears": "1950 to 1953",
+      "configuration": "Standard",
+      "baseline": [
+        8000,
+        10500
+      ],
+      "reductionPercent": 14,
+      "unrounded": [
+        6880.0,
+        9030.0
+      ],
+      "published": [
+        6900,
+        9050
+      ],
+      "rounding": "Nearest $50, half upward",
+      "verified": true
+    },
+    {
+      "id": "m18-55",
+      "sourceEdition": 2026,
+      "sourcePage": 282,
+      "model": "000-18",
+      "sourceYears": "1954 to 1959",
+      "publishedYears": "1954 to 1959",
+      "configuration": "Standard",
+      "baseline": [
+        6500,
+        8500
+      ],
+      "reductionPercent": 11,
+      "unrounded": [
+        5785.0,
+        7565.0
+      ],
+      "published": [
+        5800,
+        7550
+      ],
+      "rounding": "Nearest $50, half upward",
+      "verified": true
+    },
+    {
+      "id": "m18-56",
+      "sourceEdition": 2026,
+      "sourcePage": 282,
+      "model": "000-18",
+      "sourceYears": "1960 to 1964",
+      "publishedYears": "1960 to 1964",
+      "configuration": "Standard",
+      "baseline": [
+        5500,
+        7000
+      ],
+      "reductionPercent": 13,
+      "unrounded": [
+        4785.0,
+        6090.0
+      ],
+      "published": [
+        4800,
+        6100
+      ],
+      "rounding": "Nearest $50, half upward",
+      "verified": true
+    },
+    {
+      "id": "m18-57",
+      "sourceEdition": 2026,
+      "sourcePage": 282,
+      "model": "000-18",
+      "sourceYears": "1965",
+      "publishedYears": "1965",
+      "configuration": "Standard",
+      "baseline": [
+        5000,
+        6500
+      ],
+      "reductionPercent": 15,
+      "unrounded": [
+        4250.0,
+        5525.0
+      ],
+      "published": [
+        4250,
+        5550
+      ],
+      "rounding": "Nearest $50, half upward",
+      "verified": true
+    },
+    {
+      "id": "m18-58",
+      "sourceEdition": 2026,
+      "sourcePage": 282,
+      "model": "000-18",
+      "sourceYears": "1966 to 1969",
+      "publishedYears": "1966 to 1969",
+      "configuration": "Standard",
+      "baseline": [
+        4000,
+        5500
+      ],
+      "reductionPercent": 15,
+      "unrounded": [
+        3400.0,
+        4675.0
+      ],
+      "published": [
+        3400,
+        4700
+      ],
+      "rounding": "Nearest $50, half upward",
+      "verified": true
+    },
+    {
+      "id": "m18-59",
+      "sourceEdition": 2026,
+      "sourcePage": 282,
+      "model": "000-18",
+      "sourceYears": "1970 to 1979",
+      "publishedYears": "1970 to 1979",
+      "configuration": "Standard",
+      "baseline": [
+        3200,
+        4500
+      ],
+      "reductionPercent": 11,
+      "unrounded": [
+        2848.0,
+        4005.0
+      ],
+      "published": [
+        2850,
+        4000
+      ],
+      "rounding": "Nearest $50, half upward",
+      "verified": true
+    }
+  ],
+  "omitted": [
+    {
+      "model": "0-18",
+      "years": "1932 to 1938",
+      "reason": "Source 14-fret row starts in 1932 but source description and house chronology place the regular change in 1934. No price published for this disputed band."
+    }
+  ],
+  "ownership": [
+    "0-18 and 00-18 source 1918 to 1922 bands restricted to 1920 to 1922; no duplicated pre-1920 rows.",
+    "Early guide has no 000-18, 0-18K or 00-18K specific price row; supplied pre-1920 source rows included as the brief permits.",
+    "00-18G/C and 00-18E, tenors, plectrums and OMs remain exclusively on existing guides.",
+    "Latest listed original-production bands retained through 1989 for 0/00 and 1979 for 000. Later original-production rows and modern reissues are outside this preview chart.",
+    "000-18: no source figures for 1907 to 1910, 1918 to 1919 or 1932 to 1933. No interpolation.",
+    "00-18K: no source figures for 1926 to 1933.",
+    "No independent Wurlitzer premium or unconverted 00-18H estimate supplied."
+  ]
+}

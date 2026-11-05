@@ -1,0 +1,1035 @@
+{
+  "generatedAt": "2026-11-05T18:37:51.119Z",
+  "priceRowsIndependentlyVerified": 58,
+  "priceMath": [
+    {
+      "id": "m18-01",
+      "independentlyRecomputed": [
+        3500,
+        4350
+      ],
+      "pass": true
+    },
+    {
+      "id": "m18-02",
+      "independentlyRecomputed": [
+        6250,
+        8000
+      ],
+      "pass": true
+    },
+    {
+      "id": "m18-04",
+      "independentlyRecomputed": [
+        6800,
+        8500
+      ],
+      "pass": true
+    },
+    {
+      "id": "m18-05",
+      "independentlyRecomputed": [
+        6000,
+        7750
+      ],
+      "pass": true
+    },
+    {
+      "id": "m18-06",
+      "independentlyRecomputed": [
+        5800,
+        7550
+      ],
+      "pass": true
+    },
+    {
+      "id": "m18-07",
+      "independentlyRecomputed": [
+        4800,
+        6100
+      ],
+      "pass": true
+    },
+    {
+      "id": "m18-08",
+      "independentlyRecomputed": [
+        4350,
+        5650
+      ],
+      "pass": true
+    },
+    {
+      "id": "m18-09",
+      "independentlyRecomputed": [
+        3900,
+        5200
+      ],
+      "pass": true
+    },
+    {
+      "id": "m18-10",
+      "independentlyRecomputed": [
+        3750,
+        4900
+      ],
+      "pass": true
+    },
+    {
+      "id": "m18-11",
+      "independentlyRecomputed": [
+        3400,
+        5100
+      ],
+      "pass": true
+    },
+    {
+      "id": "m18-12",
+      "independentlyRecomputed": [
+        3000,
+        3850
+      ],
+      "pass": true
+    },
+    {
+      "id": "m18-13",
+      "independentlyRecomputed": [
+        2550,
+        3400
+      ],
+      "pass": true
+    },
+    {
+      "id": "m18-14",
+      "independentlyRecomputed": [
+        2150,
+        3000
+      ],
+      "pass": true
+    },
+    {
+      "id": "m18-15",
+      "independentlyRecomputed": [
+        5650,
+        7400
+      ],
+      "pass": true
+    },
+    {
+      "id": "m18-16",
+      "independentlyRecomputed": [
+        6550,
+        8250
+      ],
+      "pass": true
+    },
+    {
+      "id": "m18-17",
+      "independentlyRecomputed": [
+        6600,
+        8350
+      ],
+      "pass": true
+    },
+    {
+      "id": "m18-18",
+      "independentlyRecomputed": [
+        6000,
+        7900
+      ],
+      "pass": true
+    },
+    {
+      "id": "m18-19",
+      "independentlyRecomputed": [
+        8700,
+        10700
+      ],
+      "pass": true
+    },
+    {
+      "id": "m18-20",
+      "independentlyRecomputed": [
+        12000,
+        16000
+      ],
+      "pass": true
+    },
+    {
+      "id": "m18-21",
+      "independentlyRecomputed": [
+        15300,
+        20400
+      ],
+      "pass": true
+    },
+    {
+      "id": "m18-22",
+      "independentlyRecomputed": [
+        15650,
+        20900
+      ],
+      "pass": true
+    },
+    {
+      "id": "m18-23",
+      "independentlyRecomputed": [
+        16000,
+        21350
+      ],
+      "pass": true
+    },
+    {
+      "id": "m18-24",
+      "independentlyRecomputed": [
+        15850,
+        21100
+      ],
+      "pass": true
+    },
+    {
+      "id": "m18-25",
+      "independentlyRecomputed": [
+        14700,
+        19600
+      ],
+      "pass": true
+    },
+    {
+      "id": "m18-26",
+      "independentlyRecomputed": [
+        14050,
+        18700
+      ],
+      "pass": true
+    },
+    {
+      "id": "m18-27",
+      "independentlyRecomputed": [
+        14500,
+        19350
+      ],
+      "pass": true
+    },
+    {
+      "id": "m18-28",
+      "independentlyRecomputed": [
+        9800,
+        12750
+      ],
+      "pass": true
+    },
+    {
+      "id": "m18-29",
+      "independentlyRecomputed": [
+        8000,
+        10700
+      ],
+      "pass": true
+    },
+    {
+      "id": "m18-30",
+      "independentlyRecomputed": [
+        4400,
+        5700
+      ],
+      "pass": true
+    },
+    {
+      "id": "m18-31",
+      "independentlyRecomputed": [
+        4450,
+        5800
+      ],
+      "pass": true
+    },
+    {
+      "id": "m18-32",
+      "independentlyRecomputed": [
+        3650,
+        4800
+      ],
+      "pass": true
+    },
+    {
+      "id": "m18-33",
+      "independentlyRecomputed": [
+        3500,
+        4800
+      ],
+      "pass": true
+    },
+    {
+      "id": "m18-34",
+      "independentlyRecomputed": [
+        3150,
+        4350
+      ],
+      "pass": true
+    },
+    {
+      "id": "m18-35",
+      "independentlyRecomputed": [
+        2850,
+        4000
+      ],
+      "pass": true
+    },
+    {
+      "id": "m18-36",
+      "independentlyRecomputed": [
+        2350,
+        3050
+      ],
+      "pass": true
+    },
+    {
+      "id": "m18-37",
+      "independentlyRecomputed": [
+        9550,
+        12600
+      ],
+      "pass": true
+    },
+    {
+      "id": "m18-38",
+      "independentlyRecomputed": [
+        4400,
+        5700
+      ],
+      "pass": true
+    },
+    {
+      "id": "m18-39",
+      "independentlyRecomputed": [
+        6550,
+        8250
+      ],
+      "pass": true
+    },
+    {
+      "id": "m18-40",
+      "independentlyRecomputed": [
+        7100,
+        8900
+      ],
+      "pass": true
+    },
+    {
+      "id": "m18-41",
+      "independentlyRecomputed": [
+        11500,
+        15300
+      ],
+      "pass": true
+    },
+    {
+      "id": "m18-42",
+      "independentlyRecomputed": [
+        12000,
+        16000
+      ],
+      "pass": true
+    },
+    {
+      "id": "m18-43",
+      "independentlyRecomputed": [
+        10550,
+        14100
+      ],
+      "pass": true
+    },
+    {
+      "id": "m18-44",
+      "independentlyRecomputed": [
+        17600,
+        24650
+      ],
+      "pass": true
+    },
+    {
+      "id": "m18-45",
+      "independentlyRecomputed": [
+        28050,
+        35600
+      ],
+      "pass": true
+    },
+    {
+      "id": "m18-46",
+      "independentlyRecomputed": [
+        27700,
+        35200
+      ],
+      "pass": true
+    },
+    {
+      "id": "m18-47",
+      "independentlyRecomputed": [
+        18500,
+        24650
+      ],
+      "pass": true
+    },
+    {
+      "id": "m18-48",
+      "independentlyRecomputed": [
+        14600,
+        19350
+      ],
+      "pass": true
+    },
+    {
+      "id": "m18-49",
+      "independentlyRecomputed": [
+        14100,
+        19350
+      ],
+      "pass": true
+    },
+    {
+      "id": "m18-50",
+      "independentlyRecomputed": [
+        14100,
+        19350
+      ],
+      "pass": true
+    },
+    {
+      "id": "m18-51",
+      "independentlyRecomputed": [
+        11900,
+        15850
+      ],
+      "pass": true
+    },
+    {
+      "id": "m18-52",
+      "independentlyRecomputed": [
+        8800,
+        12300
+      ],
+      "pass": true
+    },
+    {
+      "id": "m18-53",
+      "independentlyRecomputed": [
+        7500,
+        9700
+      ],
+      "pass": true
+    },
+    {
+      "id": "m18-54",
+      "independentlyRecomputed": [
+        6900,
+        9050
+      ],
+      "pass": true
+    },
+    {
+      "id": "m18-55",
+      "independentlyRecomputed": [
+        5800,
+        7550
+      ],
+      "pass": true
+    },
+    {
+      "id": "m18-56",
+      "independentlyRecomputed": [
+        4800,
+        6100
+      ],
+      "pass": true
+    },
+    {
+      "id": "m18-57",
+      "independentlyRecomputed": [
+        4250,
+        5550
+      ],
+      "pass": true
+    },
+    {
+      "id": "m18-58",
+      "independentlyRecomputed": [
+        3400,
+        4700
+      ],
+      "pass": true
+    },
+    {
+      "id": "m18-59",
+      "independentlyRecomputed": [
+        2850,
+        4000
+      ],
+      "pass": true
+    }
+  ],
+  "hubRowsExactlyMatch": true,
+  "protectedGroups": {
+    "j200": {
+      "count": 1,
+      "allByteIdentical": true,
+      "files": [
+        "post/gibson-j200-model-history-authentication-guide/index.html"
+      ]
+    },
+    "rickenbacker": {
+      "count": 30,
+      "allByteIdentical": true,
+      "files": [
+        "post/rickenbacker-12-string-authentication-guide/index.html",
+        "post/rickenbacker-12-string-value-guide/index.html",
+        "post/rickenbacker-3000-3001-authentication-guide/index.html",
+        "post/rickenbacker-3000-3001-value-guide/index.html",
+        "post/rickenbacker-325-authentication-guide/index.html",
+        "post/rickenbacker-325-value-guide/index.html",
+        "post/rickenbacker-330-340-authentication-guide/index.html",
+        "post/rickenbacker-330-340-value-guide/index.html",
+        "post/rickenbacker-360-370-authentication-guide/index.html",
+        "post/rickenbacker-360-370-value-guide/index.html",
+        "post/rickenbacker-381-authentication-guide/index.html",
+        "post/rickenbacker-381-value-guide/index.html",
+        "post/rickenbacker-4000-4001-authentication-guide/index.html",
+        "post/rickenbacker-4000-4001-value-guide/index.html",
+        "post/rickenbacker-4002-authentication-guide/index.html",
+        "post/rickenbacker-4002-value-guide/index.html",
+        "post/rickenbacker-4003-authentication-guide/index.html",
+        "post/rickenbacker-4003-value-guide/index.html",
+        "post/rickenbacker-4005-authentication-guide/index.html",
+        "post/rickenbacker-4005-value-guide/index.html",
+        "post/rickenbacker-425-450-460-authentication-guide/index.html",
+        "post/rickenbacker-425-450-460-value-guide/index.html",
+        "post/rickenbacker-480-481-authentication-guide/index.html",
+        "post/rickenbacker-480-481-value-guide/index.html",
+        "post/rickenbacker-600-series-authentication-guide/index.html",
+        "post/rickenbacker-600-series-value-guide/index.html",
+        "post/rickenbacker-bakelite-lap-steel-authentication-guide/index.html",
+        "post/rickenbacker-bakelite-lap-steel-value-guide/index.html",
+        "post/rickenbacker-frying-pan-authentication-guide/index.html",
+        "post/rickenbacker-frying-pan-value-guide/index.html"
+      ]
+    },
+    "existingModelGuidePages": {
+      "count": 61,
+      "allByteIdentical": true,
+      "files": [
+        "post/epiphone-broadway-authentication-guide/index.html",
+        "post/epiphone-broadway-value-guide/index.html",
+        "post/epiphone-casino-authentication-guide/index.html",
+        "post/epiphone-casino-value-guide/index.html",
+        "post/epiphone-deluxe-authentication-guide/index.html",
+        "post/epiphone-deluxe-value-guide/index.html",
+        "post/epiphone-emperor-authentication-guide/index.html",
+        "post/epiphone-emperor-value-guide/index.html",
+        "post/epiphone-olympic-authentication-guide/index.html",
+        "post/epiphone-olympic-value-guide/index.html",
+        "post/epiphone-sorrento-authentication-guide/index.html",
+        "post/epiphone-sorrento-value-guide/index.html",
+        "post/epiphone-triumph-authentication-guide/index.html",
+        "post/epiphone-triumph-value-guide/index.html",
+        "post/epiphone-windsor-authentication-guide/index.html",
+        "post/epiphone-windsor-value-guide/index.html",
+        "post/epiphone-zephyr-authentication-guide/index.html",
+        "post/epiphone-zephyr-value-guide/index.html",
+        "post/fender-amp-eras-tweed-brownface-blackface-silverface/index.html",
+        "post/fender-bassman-authentication-guide/index.html",
+        "post/fender-bassman-value-guide/index.html",
+        "post/fender-champ-authentication-guide/index.html",
+        "post/fender-champ-value-guide/index.html",
+        "post/fender-deluxe-reverb-authentication-guide/index.html",
+        "post/fender-deluxe-reverb-value-guide/index.html",
+        "post/fender-princeton-reverb-authentication-guide/index.html",
+        "post/fender-princeton-reverb-value-guide/index.html",
+        "post/fender-super-reverb-authentication-guide/index.html",
+        "post/fender-super-reverb-value-guide/index.html",
+        "post/fender-twin-reverb-authentication-guide/index.html",
+        "post/fender-twin-reverb-value-guide/index.html",
+        "post/fender-vibrolux-authentication-guide/index.html",
+        "post/fender-vibrolux-value-guide/index.html",
+        "post/gibson-byrdland-value-guide/index.html",
+        "post/gibson-es-175-authentication-guide/index.html",
+        "post/gibson-es-175-value-guide/index.html",
+        "post/gibson-es-225-value-guide/index.html",
+        "post/gibson-l-4-authentication-guide/index.html",
+        "post/gibson-l-4-value-guide/index.html",
+        "post/gibson-l-48-authentication-guide/index.html",
+        "post/gibson-l-48-value-guide/index.html",
+        "post/gibson-l-50-authentication-guide/index.html",
+        "post/gibson-l-50-value-guide/index.html",
+        "post/gibson-l-7-authentication-guide/index.html",
+        "post/gibson-l-7-value-guide/index.html",
+        "post/gibson-les-paul-deluxe-authentication-guide/index.html",
+        "post/gibson-les-paul-deluxe-value-guide/index.html",
+        "post/gibson-thunderbird-eb-bass-authentication-guide/index.html",
+        "post/gibson-thunderbird-eb-bass-value-guide/index.html",
+        "post/gretsch-anniversary-authentication-guide/index.html",
+        "post/gretsch-anniversary-value-guide/index.html",
+        "post/gretsch-country-gentleman-authentication-guide/index.html",
+        "post/gretsch-country-gentleman-value-guide/index.html",
+        "post/gretsch-white-falcon-authentication-guide/index.html",
+        "post/gretsch-white-falcon-value-guide/index.html",
+        "post/guild-starfire-authentication-guide/index.html",
+        "post/guild-starfire-value-guide/index.html",
+        "post/most-expensive-guitars-ever-sold/index.html",
+        "post/national-resonator-guitar-authentication-guide/index.html",
+        "post/national-resonator-guitar-value-guide/index.html",
+        "post/princeton-reverb-vs-deluxe-reverb-vs-twin-reverb/index.html"
+      ]
+    },
+    "existingMartinPairs": {
+      "count": 28,
+      "allByteIdentical": true,
+      "files": [
+        "post/martin-d-21-value-guide/index.html",
+        "post/martin-d-21-authentication-guide/index.html",
+        "post/martin-d-35-value-guide/index.html",
+        "post/martin-d-35-authentication-guide/index.html",
+        "post/martin-d-28-value-guide/index.html",
+        "post/martin-d-28-authentication-guide/index.html",
+        "post/martin-d-45-value-guide/index.html",
+        "post/martin-d-45-authentication-guide/index.html",
+        "post/martin-om-18-value-guide/index.html",
+        "post/martin-om-18-authentication-guide/index.html",
+        "post/martin-om-28-value-guide/index.html",
+        "post/martin-om-28-authentication-guide/index.html",
+        "post/martin-om-45-value-guide/index.html",
+        "post/martin-om-45-authentication-guide/index.html",
+        "post/martin-small-early-value-guide/index.html",
+        "post/martin-small-early-authentication-guide/index.html",
+        "post/martin-classical-value-guide/index.html",
+        "post/martin-classical-authentication-guide/index.html",
+        "post/martin-12-string-value-guide/index.html",
+        "post/martin-12-string-authentication-guide/index.html",
+        "post/martin-tenor-value-guide/index.html",
+        "post/martin-tenor-authentication-guide/index.html",
+        "post/martin-plectrum-value-guide/index.html",
+        "post/martin-plectrum-authentication-guide/index.html",
+        "post/martin-archtop-value-guide/index.html",
+        "post/martin-archtop-authentication-guide/index.html",
+        "post/martin-electric-value-guide/index.html",
+        "post/martin-electric-authentication-guide/index.html"
+      ]
+    },
+    "specialMartinPosts": {
+      "count": 2,
+      "allByteIdentical": true,
+      "files": [
+        "post/1976-martin-000-45-specs-history-value-guide/index.html",
+        "post/martin-d18-history-specs-authentication-value-guide/index.html"
+      ]
+    },
+    "martinOwnerStories": {
+      "count": 3,
+      "allByteIdentical": true,
+      "files": [
+        "post/one-owner-1949-martin-0-18/index.html",
+        "post/one-owner-1955-martin-d28/index.html",
+        "post/one-owner-1956-martin-000-21/index.html"
+      ]
+    },
+    "existingGuideActionsCallers": {
+      "count": 143,
+      "allByteIdentical": true,
+      "files": [
+        "fender-jazzmaster-dating-guide/index.html",
+        "fender-mustang-dating-guide/index.html",
+        "gibson-country-western-authentication-guide/index.html",
+        "gibson-dove-authentication-guide/index.html",
+        "gibson-es-330-dating-guide/index.html",
+        "gibson-sg-dating-guide/index.html",
+        "gibson-southern-jumbo-authentication-guide/index.html",
+        "gretsch-body-binding-and-inlays/index.html",
+        "gretsch-bridges-and-tailpieces/index.html",
+        "gretsch-finish-colors/index.html",
+        "gretsch-headstock-and-tuner-dating-guide/index.html",
+        "gretsch-knobs-and-controls/index.html",
+        "gretsch-labels-and-serial-number-locations/index.html",
+        "gretsch-pickup-dating-guide/index.html",
+        "gretsch-vintage-vs-reissue/index.html",
+        "guild-acoustic-guitar-identification/index.html",
+        "guild-electric-guitar-identification/index.html",
+        "guild-factory-eras/index.html",
+        "guild-labels-and-serial-number-locations/index.html",
+        "guild-model-prefix-serial-number-charts/index.html",
+        "guild-pickup-and-hardware-dating-guide/index.html",
+        "guild-vintage-vs-reissue/index.html",
+        "rickenbacker-body-binding-and-inlays/index.html",
+        "rickenbacker-finish-colors/index.html",
+        "rickenbacker-knobs-and-controls/index.html",
+        "rickenbacker-pickup-dating-guide/index.html",
+        "rickenbacker-tailpiece-dating-guide/index.html",
+        "rickenbacker-tuner-dating-guide/index.html",
+        "vintage-fender-jaguar-value-guide/index.html",
+        "vintage-fender-jazz-bass-value-guide/index.html",
+        "vintage-fender-jazzmaster-value-guide/index.html",
+        "vintage-fender-precision-bass-value-guide/index.html",
+        "vintage-fender-stratocaster-value-guide/index.html",
+        "vintage-fender-telecaster-value-guide/index.html",
+        "vintage-fender-value-guide/index.html",
+        "vintage-gibson-acoustic-value-guide/index.html",
+        "vintage-gibson-country-western-value-guide/index.html",
+        "vintage-gibson-dove-value-guide/index.html",
+        "vintage-gibson-es-125-value-guide/index.html",
+        "vintage-gibson-es-330-value-guide/index.html",
+        "vintage-gibson-es-335-value-guide/index.html",
+        "vintage-gibson-es-355-value-guide/index.html",
+        "vintage-gibson-j-200-value-guide/index.html",
+        "vintage-gibson-j-45-value-guide/index.html",
+        "vintage-gibson-l-0-l-00-value-guide/index.html",
+        "vintage-gibson-les-paul-custom-value-guide/index.html",
+        "vintage-gibson-les-paul-junior-value-guide/index.html",
+        "vintage-gibson-les-paul-special-value-guide/index.html",
+        "vintage-gibson-lg-series-value-guide/index.html",
+        "vintage-gibson-sg-custom-value-guide/index.html",
+        "vintage-gibson-sg-junior-value-guide/index.html",
+        "vintage-gibson-sg-special-value-guide/index.html",
+        "vintage-gibson-sg-standard-value-guide/index.html",
+        "vintage-gibson-sg-value-guide/index.html",
+        "vintage-gibson-southern-jumbo-value-guide/index.html",
+        "vintage-gibson-value-guide/index.html",
+        "post/1952-fender-precision-bass-guide/index.html",
+        "post/1955-1958-tv-yellow-les-paul-special-guide/index.html",
+        "post/1959-gibson-es-335-authentication-guide/index.html",
+        "post/1959-gibson-es-355-history-value/index.html",
+        "post/1962-gibson-es-335-guide/index.html",
+        "post/1965-gibson-es-335-short-maestro-vibrola/index.html",
+        "post/1966-gibson-es-335-authentication-guide/index.html",
+        "post/1968-gibson-es-335-guide/index.html",
+        "post/epiphone-broadway-authentication-guide/index.html",
+        "post/epiphone-broadway-value-guide/index.html",
+        "post/epiphone-casino-authentication-guide/index.html",
+        "post/epiphone-casino-value-guide/index.html",
+        "post/epiphone-deluxe-authentication-guide/index.html",
+        "post/epiphone-deluxe-value-guide/index.html",
+        "post/epiphone-emperor-authentication-guide/index.html",
+        "post/epiphone-emperor-value-guide/index.html",
+        "post/epiphone-olympic-authentication-guide/index.html",
+        "post/epiphone-olympic-value-guide/index.html",
+        "post/epiphone-sorrento-authentication-guide/index.html",
+        "post/epiphone-sorrento-value-guide/index.html",
+        "post/epiphone-triumph-authentication-guide/index.html",
+        "post/epiphone-triumph-value-guide/index.html",
+        "post/epiphone-windsor-authentication-guide/index.html",
+        "post/epiphone-windsor-value-guide/index.html",
+        "post/epiphone-zephyr-authentication-guide/index.html",
+        "post/epiphone-zephyr-value-guide/index.html",
+        "post/fender-amp-eras-tweed-brownface-blackface-silverface/index.html",
+        "post/fender-bassman-authentication-guide/index.html",
+        "post/fender-bassman-value-guide/index.html",
+        "post/fender-champ-authentication-guide/index.html",
+        "post/fender-champ-value-guide/index.html",
+        "post/fender-deluxe-reverb-authentication-guide/index.html",
+        "post/fender-deluxe-reverb-value-guide/index.html",
+        "post/fender-jazzmaster-evolution-guide-1958-1971/index.html",
+        "post/fender-mustang-history-value/index.html",
+        "post/fender-princeton-reverb-authentication-guide/index.html",
+        "post/fender-princeton-reverb-value-guide/index.html",
+        "post/fender-super-reverb-authentication-guide/index.html",
+        "post/fender-super-reverb-value-guide/index.html",
+        "post/fender-twin-reverb-authentication-guide/index.html",
+        "post/fender-twin-reverb-value-guide/index.html",
+        "post/fender-vibrolux-authentication-guide/index.html",
+        "post/fender-vibrolux-value-guide/index.html",
+        "post/gibson-byrdland-authentication-guide/index.html",
+        "post/gibson-byrdland-value-guide/index.html",
+        "post/gibson-es-125-guide/index.html",
+        "post/gibson-es-175-authentication-guide/index.html",
+        "post/gibson-es-175-value-guide/index.html",
+        "post/gibson-es-225-value-guide/index.html",
+        "post/gibson-es-335-345-355-guide/index.html",
+        "post/gibson-es-345-history-value/index.html",
+        "post/gibson-es-5-switchmaster-history-value/index.html",
+        "post/gibson-firebird-history-authentication-value/index.html",
+        "post/gibson-j200-model-history-authentication-guide/index.html",
+        "post/gibson-l-4-authentication-guide/index.html",
+        "post/gibson-l-4-value-guide/index.html",
+        "post/gibson-l-48-authentication-guide/index.html",
+        "post/gibson-l-48-value-guide/index.html",
+        "post/gibson-l-50-authentication-guide/index.html",
+        "post/gibson-l-50-value-guide/index.html",
+        "post/gibson-l-7-authentication-guide/index.html",
+        "post/gibson-l-7-value-guide/index.html",
+        "post/gibson-l5-ces-value-guide/index.html",
+        "post/gibson-les-paul-deluxe-authentication-guide/index.html",
+        "post/gibson-les-paul-deluxe-value-guide/index.html",
+        "post/gibson-les-paul-junior-guide/index.html",
+        "post/gibson-thunderbird-eb-bass-authentication-guide/index.html",
+        "post/gibson-thunderbird-eb-bass-value-guide/index.html",
+        "post/gretsch-anniversary-authentication-guide/index.html",
+        "post/gretsch-anniversary-value-guide/index.html",
+        "post/gretsch-country-gentleman-authentication-guide/index.html",
+        "post/gretsch-country-gentleman-value-guide/index.html",
+        "post/gretsch-white-falcon-authentication-guide/index.html",
+        "post/gretsch-white-falcon-value-guide/index.html",
+        "post/guild-starfire-authentication-guide/index.html",
+        "post/guild-starfire-value-guide/index.html",
+        "post/identify-vintage-gibson-j45-j50-sj/index.html",
+        "post/joesvintageguitarsaz-com-identify-gibson-lg-series/index.html",
+        "post/most-expensive-guitars-ever-sold/index.html",
+        "post/national-resonator-guitar-authentication-guide/index.html",
+        "post/national-resonator-guitar-value-guide/index.html",
+        "post/norlin-les-paul-custom-year-guide/index.html",
+        "post/princeton-reverb-vs-deluxe-reverb-vs-twin-reverb/index.html",
+        "post/vintage-fender-jaguar-guide/index.html",
+        "post/vintage-fender-jazz-bass-guide/index.html",
+        "post/vintage-gibson-hummingbird-history-value-guide/index.html",
+        "post/vintage-gibson-sg-family-guide/index.html"
+      ]
+    }
+  },
+  "sourcePreservation": [
+    {
+      "file": "src/components/MartinValueGuide.astro",
+      "gitBlobUnchanged": true,
+      "before": "bd5ded7a2396cfe0a380ea44eb96959739188b84",
+      "after": "bd5ded7a2396cfe0a380ea44eb96959739188b84"
+    },
+    {
+      "file": "src/components/MartinModelHistory.astro",
+      "gitBlobUnchanged": true,
+      "before": "4d52594588640def54c1022a2bcc0991596ad3a7",
+      "after": "4d52594588640def54c1022a2bcc0991596ad3a7"
+    },
+    {
+      "file": "src/components/MartinD18Guide.astro",
+      "gitBlobUnchanged": true,
+      "before": "2ef307e7e59b14d31fc6d066eceb07660515cbb4",
+      "after": "2ef307e7e59b14d31fc6d066eceb07660515cbb4"
+    },
+    {
+      "file": "src/data/martin-value-guides.json",
+      "gitBlobUnchanged": true,
+      "before": "a302bf50461201592f74f314ce87a5f55a8bf3bd",
+      "after": "a302bf50461201592f74f314ce87a5f55a8bf3bd"
+    },
+    {
+      "file": "src/data/martin-model-history.json",
+      "gitBlobUnchanged": true,
+      "before": "1bc2c97ac3dd6af9e161cbc18fa12ed34f60b0eb",
+      "after": "1bc2c97ac3dd6af9e161cbc18fa12ed34f60b0eb"
+    },
+    {
+      "file": "src/components/model-guide/ModelGuide.astro",
+      "gitBlobUnchanged": true,
+      "before": "2d122c195d29a03f93f3ccdd8137643fdc705bfb",
+      "after": "2d122c195d29a03f93f3ccdd8137643fdc705bfb"
+    },
+    {
+      "file": "src/components/model-guide/GuideBlock.astro",
+      "gitBlobUnchanged": true,
+      "before": "0489a8bfd434680a1da847482d89793c72bfbe38",
+      "after": "0489a8bfd434680a1da847482d89793c72bfbe38"
+    },
+    {
+      "file": "src/components/model-guide/model-guide.css",
+      "gitBlobUnchanged": true,
+      "before": "ed1c083be7403c79c688cbfbfe05e2ff8f68f5e3",
+      "after": "ed1c083be7403c79c688cbfbfe05e2ff8f68f5e3"
+    }
+  ],
+  "photos": [
+    {
+      "asset": "src/assets/images/martin-small-body/1944-martin-000-18-2.jpg",
+      "sha256": "43bf02f67df48101f4ce252af2b9ed1ea0988c9464302f4953f3196cfc67057a",
+      "originalBytesPreserved": true
+    },
+    {
+      "asset": "src/assets/martin-dating/1944-martin-000-18-3.jpg",
+      "sha256": "4b0b816361b2a08154e6daad2dd0de063d2000a9bcd7513ca52d12a65e229e40",
+      "originalBytesPreserved": true
+    },
+    {
+      "asset": "src/assets/martin-dating/1944-martin-000-18-4.jpg",
+      "sha256": "280c6fb307daaaadd710a3c8497a75e942f7dc151a0251d2e4224892bd68fc93",
+      "originalBytesPreserved": true
+    },
+    {
+      "asset": "src/assets/images/martin-small-body/1944-martin-000-18-7.jpg",
+      "sha256": "c486a60ad1c4d792e1ddd5cc4109443fb7f3577e2f995e13f69f88213b4a9520",
+      "originalBytesPreserved": true
+    },
+    {
+      "asset": "src/assets/images/martin-small-body/1944-martin-000-18-8.jpg",
+      "sha256": "4cdc5306494f642b3d7a7283f518c55394cbade3407889070f800a79a03b4eaf",
+      "originalBytesPreserved": true
+    },
+    {
+      "asset": "src/assets/martin-dating/1944-martin-000-18-10.jpg",
+      "sha256": "61177ea2b28c8b84b48aaf32f667af13356e1a291b4e803722734a5ba9a3841e",
+      "originalBytesPreserved": true
+    },
+    {
+      "asset": "src/assets/images/martin-small-body/1944-martin-000-18-13.jpg",
+      "sha256": "a465a535aa90280bdde68915ea1a91eb26b5ab62f31fc1ad6faec2f2f782443f",
+      "originalBytesPreserved": true
+    },
+    {
+      "asset": "src/assets/images/martin-small-body/1952-martin-00-18-2.jpg",
+      "sha256": "c1909346d06548897c12d1c9ab39b6af69733a9222c1fef107a9579370526427",
+      "originalBytesPreserved": true
+    },
+    {
+      "asset": "src/assets/images/martin-small-body/1952-martin-00-18-3.jpg",
+      "sha256": "a13076d3da6d2a9194a0999e20bd61ec2a8dd3bfb7ff4a38421d01c79236c461",
+      "originalBytesPreserved": true
+    },
+    {
+      "asset": "src/assets/images/martin-small-body/1952-martin-00-18-5.jpg",
+      "sha256": "655645331ca9ca801c3715ad056c351e01e51af38ff63a43b00001c732bf750a",
+      "originalBytesPreserved": true
+    },
+    {
+      "asset": "src/assets/images/martin-small-body/1952-martin-00-18-9.jpg",
+      "sha256": "aad10cad77b722ef9a21e9130425fea6c4704e69342cdbb42b9d78fd3b5472f8",
+      "originalBytesPreserved": true
+    },
+    {
+      "asset": "src/assets/images/martin-small-body/1952-martin-00-18-10.jpg",
+      "sha256": "a65eec3b5b1c8ffae0e4ef0f4a78690c4d6c2e6539661005f7c391d5fc204ba4",
+      "originalBytesPreserved": true
+    },
+    {
+      "asset": "src/assets/images/martin-small-body/1952-martin-00-18-12.jpg",
+      "sha256": "ac8f14ff04ff0cdc055c67cf9d96ceec927294ebad508fe460ca038ea8c80dd7",
+      "originalBytesPreserved": true
+    },
+    {
+      "asset": "src/assets/images/martin-small-body/1952-martin-00-18-14.jpg",
+      "sha256": "3f283a0efbf70703e775bb12e62b53b5d5cbaa0519fb9fbe2e557e83251ce976",
+      "originalBytesPreserved": true
+    },
+    {
+      "asset": "src/assets/images/martin-small-body/1-of-15-martin-00-18-wurlitzer-2086-1924-natural-full-front-view.jpg",
+      "sha256": "55f18ed35dd533fc78dbce8f5707d12aa10c3e1741c050da762c70065a2d43cb",
+      "originalBytesPreserved": true
+    },
+    {
+      "asset": "src/assets/images/martin-small-body/1-of-15-martin-00-18-wurlitzer-2086-1924-natural-back-of-headstock-tuners-02.jpg",
+      "sha256": "b0e4aa3e869e26e18a3e2889c3d9a90a1ad50a864f0bd2ca0848dcf1e83bdb8f",
+      "originalBytesPreserved": true
+    },
+    {
+      "asset": "src/assets/images/martin-small-body/1-of-15-martin-00-18-wurlitzer-2086-1924-natural-inside-body-bracing-pins.jpg",
+      "sha256": "2111bb8cc078c195915c0fb21087dc7d83cf2c6ffca0c64c2d55fafa145946e9",
+      "originalBytesPreserved": true
+    },
+    {
+      "asset": "src/assets/blog/one-owner-1949-martin-0-18/1949-martin-0-18-front.jpg",
+      "sha256": "33d0a89f8e68b1d59946f5f1d2ba5a542c66588138ac33c6e5370fb89ad0276c",
+      "originalBytesPreserved": true
+    },
+    {
+      "asset": "src/assets/blog/one-owner-1949-martin-0-18/1949-martin-0-18-back.jpg",
+      "sha256": "9c2cd56a29cbf5335ea9066cd43129c08066f125708fde22183521c45786c121",
+      "originalBytesPreserved": true
+    },
+    {
+      "asset": "src/assets/blog/one-owner-1949-martin-0-18/1949-martin-0-18-neck-block-stamp.jpg",
+      "sha256": "19f17964f1970acebe488dfcd5b7bbfe999222e023fe30b359b550fa6297b0de",
+      "originalBytesPreserved": true
+    },
+    {
+      "asset": "src/assets/blog/one-owner-1949-martin-0-18/linda-gayle-country-western-publicity-photo.jpg",
+      "sha256": "6ff7ea4620698c35b00fd1bf55f5cdc35338248fa53f6038ae2cb56fd2cb6b63",
+      "originalBytesPreserved": true
+    },
+    {
+      "asset": "src/assets/blog/martin-0-00-000-history-authentication-value-guide/martin-000-18-1960.jpg",
+      "sha256": "db8dcc6b7ededa7da9c7a063181bcc810efa7fb1ac9e0ef9fa701451b0fc0c38",
+      "originalBytesPreserved": true
+    },
+    {
+      "asset": "src/assets/blog/martin-0-00-000-history-authentication-value-guide/martin-00-18-1920s.jpg",
+      "sha256": "09b7d188697283b95582ef9108b872c6629c95d4cb02771287a5f176fef9727f",
+      "originalBytesPreserved": true
+    },
+    {
+      "asset": "src/assets/martin-tuners/1966-martin-0-18-grover-sta-tite.jpg",
+      "sha256": "7bb70a14e6e07d2051aad9f99a34a54a41e34988626ebca252930dc8ed76cde9",
+      "originalBytesPreserved": true
+    },
+    {
+      "asset": "src/assets/images/sell-martin/1931-martin-0-18k-purchase-800x1200.jpg",
+      "sha256": "3ed6c62570a7accb3bec97f0c6c1ed99ce6fcefd4c6c8cda059ff9a69b174d3d",
+      "originalBytesPreserved": true
+    }
+  ],
+  "pageChecks": [
+    {
+      "route": "/post/martin-000-18-authentication-guide/",
+      "twinLinks": 4,
+      "topActions": [
+        "/free-appraisal/",
+        "/sell-my-martin-guitar/"
+      ],
+      "externalLinks": [
+        "https://www.martinguitar.com/blog-categories/from-the-factory/blog-061026-the-1933-martin-OM-45-that-went-to-war.html",
+        "https://www.martinguitar.com/support-serial-number-lookup.html",
+        "https://www.martinguitar.com/support-serial-number-lookup.html",
+        "https://www.martinguitar.com/blog-categories/from-the-factory/blog-061026-the-1933-martin-OM-45-that-went-to-war.html"
+      ],
+      "metadataWordInboundSchemaChecks": true
+    },
+    {
+      "route": "/post/martin-000-18-value-guide/",
+      "twinLinks": 4,
+      "topActions": [
+        "/free-appraisal/",
+        "/sell-my-martin-guitar/"
+      ],
+      "externalLinks": [],
+      "metadataWordInboundSchemaChecks": true
+    },
+    {
+      "route": "/post/martin-00-18-authentication-guide/",
+      "twinLinks": 4,
+      "topActions": [
+        "/free-appraisal/",
+        "/sell-my-martin-guitar/"
+      ],
+      "externalLinks": [
+        "https://vintagemartin.com/MartinWurlitzer.html",
+        "https://www.martinguitar.com/support-serial-number-lookup.html",
+        "https://www.martinguitar.com/support-serial-number-lookup.html",
+        "https://vintagemartin.com/MartinWurlitzer.html"
+      ],
+      "metadataWordInboundSchemaChecks": true
+    },
+    {
+      "route": "/post/martin-00-18-value-guide/",
+      "twinLinks": 4,
+      "topActions": [
+        "/free-appraisal/",
+        "/sell-my-martin-guitar/"
+      ],
+      "externalLinks": [],
+      "metadataWordInboundSchemaChecks": true
+    },
+    {
+      "route": "/post/martin-0-18-authentication-guide/",
+      "twinLinks": 4,
+      "topActions": [
+        "/free-appraisal/",
+        "/sell-my-martin-guitar/"
+      ],
+      "externalLinks": [
+        "https://www.martinguitar.com/support-serial-number-lookup.html",
+        "https://www.martinguitar.com/support-serial-number-lookup.html"
+      ],
+      "metadataWordInboundSchemaChecks": true
+    },
+    {
+      "route": "/post/martin-0-18-value-guide/",
+      "twinLinks": 4,
+      "topActions": [
+        "/free-appraisal/",
+        "/sell-my-martin-guitar/"
+      ],
+      "externalLinks": [],
+      "metadataWordInboundSchemaChecks": true
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+diff --git a/src/components/MartinFeatureGuide.astro b/src/components/MartinFeatureGuide.astro
+index 2fc5df3..94c3d5f 100644
+--- a/src/components/MartinFeatureGuide.astro
++++ b/src/components/MartinFeatureGuide.astro
+@@ -1,4 +1,5 @@
+ ---
++const smallBodyTargets: Record<string,string> = {'1938 000-18':'/post/martin-000-18-authentication-guide/','1966 0-18':'/post/martin-0-18-authentication-guide/','1952 00-18':'/post/martin-00-18-authentication-guide/','In 000-18':'/post/martin-000-18-authentication-guide/'};
+ import MartinGuideLayout from '../layouts/MartinGuideLayout.astro';
+ import MartinModelDirectory from './MartinModelDirectory.astro';
+ import MartinModelLinks from './MartinModelLinks.astro';
+@@ -33,7 +34,7 @@ const schema = [
+   {guide.sections.map((section,index)=><section class:list={['mtn-section',{'mtn-section--tint':index%2===1}]} id={section.id}>{section.anchorIds?.map(id=><span id={id} aria-hidden="true"></span>)}<div class:list={['mtn-wrap', {'mtn-section-beside':section.photoLayout === 'beside'}]}>
+     <div class="mtn-section-copy">
+     <div class="mtn-section-head">{section.period && <p class="mtn-kicker">{section.period}</p>}<h2>{section.title}</h2></div>
+-    {section.paragraphs.map(text=><p>{text}</p>)}
++    {section.paragraphs.map(text=><p>{text.split(/(1938 000-18|1966 0-18|1952 00-18|In 000-18)/g).map(part => smallBodyTargets[part] && ['martin-tuner-dating-guide','martin-neck-block-stamps'].includes(guide.slug) ? <a href={smallBodyTargets[part]}>{part}</a> : part)}</p>)}
+     {modelLinksBySection[section.id] && <MartinModelLinks keys={modelLinksBySection[section.id]} />}
+     {section.points && <ul>{section.points.map(text=><li>{text}</li>)}</ul>}
+     {section.inspection && <aside class="mtn-inspection" aria-labelledby={`${section.id}-inspection`}><h3 id={`${section.id}-inspection`}>{section.inspection.title}</h3><ol>{section.inspection.steps.map(text=><li>{text}</li>)}</ol><p>{section.inspection.note}</p></aside>}
+diff --git a/src/components/MartinSmallBodyGuide.astro b/src/components/MartinSmallBodyGuide.astro
+index bfa4e2f..d13d60b 100644
+--- a/src/components/MartinSmallBodyGuide.astro
++++ b/src/components/MartinSmallBodyGuide.astro
+@@ -1,5 +1,6 @@
+ ---
+ import FAQ from "./FAQ.astro";
++import smallBodyValues from "../data/model-guides/martin-values.json";
+ import LicensedImage from "./primitives/LicensedImage.astro";
+ import hero from "../assets/blog/martin-0-00-000-history-authentication-value-guide/martin-00-18-1920s.jpg";
+ import martin18 from "../assets/blog/martin-0-00-000-history-authentication-value-guide/martin-000-18-1960.jpg";
+@@ -82,6 +83,7 @@ const checks = [
+     <header class="mg-section-head"><span>01</span><div><p>Decode the Stamp</p><h2>The Martin Model Families</h2></div></header>
+     <p class="mg-lead">The number before the hyphen identifies body size. The number after it identifies style, traditionally controlling woods and ornament. The style number began as a price, but became Martin's durable specification language. Not every size and style was offered every year.</p>
+     <div class="mg-models">{models.map(([style, names, detail]) => <div class="mg-model"><h3>{style}</h3><code>{names}</code><p>{detail}</p></div>)}</div>
++    <p>For the Style 18 family, compare the <a href="/post/martin-0-18-authentication-guide/">0-18 and koa variants</a>, <a href="/post/martin-00-18-authentication-guide/">00-18 and Hawaiian or dealer-branded examples</a>, and <a href="/post/martin-000-18-authentication-guide/">000-18 body and scale transitions</a>.</p>
+     <aside class="mg-note"><h3>Suffixes Change the Story</h3><p><b>K</b> koa · <b>H</b> Hawaiian · <b>G</b> gut-string · <b>C</b> classical · <b>NY</b> New Yorker · <b>S</b> special or custom, and sometimes later 12-fret usage · <b>E</b> factory electronics. Treat the complete stamp as the model.</p></aside>
+   </section>
+ 
+@@ -137,6 +139,15 @@ const checks = [
+ 
+   <section class="mg-section mg-wrap" id="value">
+     <header class="mg-section-head"><span>08</span><div><p>Market Logic, Not Wishful Pricing</p><h2>Vintage Martin 0, 00 &amp; 000 Values</h2></div></header>
++    <p>Compare the complete era and configuration notes in the <a href="/post/martin-0-18-value-guide/">Martin 0-18 value guide</a>, <a href="/post/martin-00-18-value-guide/">Martin 00-18 price guide</a>, and <a href="/post/martin-000-18-value-guide/">Martin 000-18 value guide</a>. The figures below repeat those charts exactly.</p>
++    <div class="mg-table-wrap" tabindex="0" role="region" aria-label="Style 18 Small-Body Martin Values">
++      <table class="mg-dimensions" data-small-body-value-chart>
++        <caption>Joe’s Estimated Market Values: Excellent, Original Instruments With The Original Case</caption>
++        <thead><tr><th scope="col">Model</th><th scope="col">Years</th><th scope="col">Configuration</th><th scope="col">Estimated Retail Value</th></tr></thead>
++        <tbody>{smallBodyValues.map(row => <tr><th scope="row"><a style="color:#fff" href={`/post/${row.family}-value-guide/`}>{row.model}</a></th><td>{row.years}</td><td>{row.configuration}</td><td>${row.low.toLocaleString('en-US')} to ${row.high.toLocaleString('en-US')}</td></tr>)}</tbody>
++      </table>
++    </div>
++    <p>November 2026 estimates in U.S. dollars, not purchase offers. These ranges assume excellent, original condition and the original case. The 00-18H row describes a converted Hawaiian guitar. Other repairs, changed parts and uncertain configurations need individual appraisal.</p>
+     <p class="mg-lead">Collector demand generally centers on original prewar steel-string examples. The late 1920s through 1938 combine light construction, red spruce, hide glue, scalloped bracing, and modern geometry. The years 1939 through 1944 remain exceptionally desirable. Late 1944 through 1946 is a feature-sensitive transition.</p>
+     <div class="mg-values"><div><h3>Era Premium</h3><p>Prewar pearl Styles 42 and 45 lead, followed by prewar herringbone Style 28. Wartime examples and pre-1969 Brazilian rosewood remain strong. Clean postwar mahogany guitars can be more accessible.</p></div><div><h3>Originality</h3><p>Original finish, bridge, bridge plate, tuners, pickguard, and unaltered wood are decisive. A professional neck reset or refret can preserve value; a refinish, retop, shaved bridge, or oversized plate usually cannot.</p></div><div><h3>Condition and Sound</h3><p>Cracks, distortion, neck angle, brace work, repair quality, setup, and musical response all matter. A clean year does not outrank an earlier guitar with honest professional maintenance by default.</p></div><div><h3>Responsible Pricing</h3><p>Start with recent sold examples of the same size, style, year band, and condition. Asking prices show expectations, not market value. Adjust for rarity, originality, structure, sound, provenance, and timing.</p></div></div>
+     <div class="mg-formula"><span>Comparable Sales</span><b>×</b><span>Era and Rarity</span><b>×</b><span>Originality</span><b>×</b><span>Condition and Sound</span><b>=</b><strong>Defensible Range</strong></div>
+diff --git a/src/components/SellMyMartinFinal.astro b/src/components/SellMyMartinFinal.astro
+index 16c2dd5..25882a5 100644
+--- a/src/components/SellMyMartinFinal.astro
++++ b/src/components/SellMyMartinFinal.astro
+@@ -1,4 +1,5 @@
+ ---
++const smallBodyTargets: Record<string,string> = {'000-18':'/post/martin-000-18-value-guide/','00-18':'/post/martin-00-18-value-guide/','0-18':'/post/martin-0-18-value-guide/','early 12-fret examples':'/post/martin-0-18-authentication-guide/','12-fret and 14-fret configurations':'/post/martin-00-18-authentication-guide/'};
+ import LicensedImage from "./primitives/LicensedImage.astro";
+ import MartinModelLinks from "./MartinModelLinks.astro";
+ import { martinSellingModels } from "../data/martin-model-links";
+@@ -383,7 +384,7 @@ const sellerPhoto = resolveImage("images/sell-martin/Copy-of-IMG_1620-600x800.jp
+           <div class="smm-guide-card__copy">
+             <span>{guide.era}</span>
+             <h3><a href={guide.url}>{guide.title}</a></h3>
+-            <p>{guide.buying}</p>
++            <p>{guide.buying.split(/(000-18|00-18|0-18|early 12-fret examples|12-fret and 14-fret configurations)/g).map(part => smallBodyTargets[part] ? <a href={smallBodyTargets[part]}>{part}</a> : part)}</p>
+             {martinSellingModels[guide.title] && <MartinModelLinks keys={martinSellingModels[guide.title]} label="Model histories:" />}
+             <a class="smm-guide-card__primary" href={guide.url}>{guide.action}</a>
+           </div>
+diff --git a/src/content/blog/how-to-determine-the-value-of-your-old-martin-acoustic-guitar.md b/src/content/blog/how-to-determine-the-value-of-your-old-martin-acoustic-guitar.md
+index 494c943..3ebaf49 100644
+--- a/src/content/blog/how-to-determine-the-value-of-your-old-martin-acoustic-guitar.md
++++ b/src/content/blog/how-to-determine-the-value-of-your-old-martin-acoustic-guitar.md
+@@ -69,6 +69,8 @@ A useful price comparison starts with the same kind of Martin. A 1930s D-18, a 1
+ | A guitar believed to be prewar | Serial date, model and original construction features | [Prewar Martin guide](/prewar-martin-guitar-guide/) |
+ | A later standard model, reissue or custom guitar | Complete model name, production year and any special specifications | Recent sales of that exact version |
+ 
++For spruce-and-mahogany small bodies, compare the [0-18 value ranges](/post/martin-0-18-value-guide/), [00-18 prices by version](/post/martin-00-18-value-guide/) and [000-18 values by production group](/post/martin-000-18-value-guide/).
++
+ ### Woods And Construction Can Change The Comparison
+ 
+ Traditional vintage D-18s have mahogany backs and sides; vintage D-28s and D-45s use rosewood. The difference between those styles goes beyond decoration. Martin’s [model-name explanation](https://www.martinguitar.com/blog-categories/tips-tutorials/blog-062321-What-Does-D-28-Really-Mean.html) is a useful starting point for understanding those designations.
