@@ -74,9 +74,9 @@ The finish medium was **nitrocellulose lacquer** throughout the pre-CBS era. CBS
 
 The Jazzmaster's electronics are its most complex feature, and the one most likely to be misunderstood or partially non-functional on older examples. The guitar has two entirely separate circuits operated by a single slide switch on the upper horn.
 
--   Rhythm circuitActivated by pushing the upper-horn slide switch toward the neck. Engages **only the neck pickup** and bypasses all lower-bout controls entirely. The rhythm circuit has its own volume and tone roller wheels on the upper bout, preset to a warm, dark "jazz" tone. Designed to allow a guitarist to set a rhythm tone independently and flip back to it instantly.
--   Lead circuitThe standard playing position with the slide switch pushed away from the neck. Uses the **lower bout controls**, master volume and tone knobs, and a **3-way toggle** selecting bridge pickup, both pickups, or neck pickup.
--   Output jackAn angled jack on the lower bout with a distinctive **oval chrome jack plate**, unique to the Jazzmaster and Jaguar. The angled position makes cable routing more natural when playing seated.
+-   **Rhythm circuit:** Activated by pushing the upper-horn slide switch toward the neck. Engages **only the neck pickup** and bypasses all lower-bout controls entirely. The rhythm circuit has its own volume and tone roller wheels on the upper bout, preset to a warm, dark "jazz" tone. Designed to allow a guitarist to set a rhythm tone independently and flip back to it instantly.
+-   **Lead circuit:** The standard playing position with the slide switch pushed away from the neck. Uses the **lower bout controls**, master volume and tone knobs, and a **3-way toggle** selecting bridge pickup, both pickups, or neck pickup.
+-   **Output jack:** An angled jack on the lower bout with a distinctive **oval chrome jack plate**, unique to the Jazzmaster and Jaguar. The angled position makes cable routing more natural when playing seated.
 
 <figure>
 
@@ -86,14 +86,14 @@ The Jazzmaster's electronics are its most complex feature, and the one most like
 
 </figure>
 
--   PotsLead circuit uses **1MΩ potentiometers**, unusually high value, contributing to the Jazzmaster's bright, open tonal character in lead mode. Rhythm circuit uses 50kΩ or 1MΩ pots depending on year.
--   Shielding The pickup and electronics cavities are lined with **aluminum shielding**, an extension of the gold anodized pickguard's original shielding function. This shielding remained after the pickguard material changed. It is part of the hum-reduction system along with the reverse-wound/reverse-polarity pickup configuration.
+-   **Pots:** Lead circuit uses **1MΩ potentiometers**, unusually high value, contributing to the Jazzmaster's bright, open tonal character in lead mode. Rhythm circuit uses 50kΩ or 1MΩ pots depending on year.
+-   **Shielding:** The pickup and electronics cavities are lined with **aluminum shielding**, an extension of the gold anodized pickguard's original shielding function. This shielding remained after the pickguard material changed. It is part of the hum-reduction system along with the reverse-wound/reverse-polarity pickup configuration.
 
 ### Knob Evolution
 
--   1958 to mid 1965**Stratocaster-style knobs**, the same white skirted plastic knobs a Stratocaster of the era wore, numbered 1 to 10 around the skirt. Used on the lead circuit volume and tone controls. Fender's own term "dome knob" belongs to the knurled metal knobs on Telecasters, Esquires and Precision Basses, not to anything a Jazzmaster ever wore.
--   Mid 1965 onward**"Witch hat" knobs**, a distinctive Jazzmaster-specific knob style: white plastic with a chrome domed top, taller and thinner than the skirted Strat-style knob. Introduced mid-1965 and immediately identifiable as a CBS-era indicator. The name comes from their silhouette resemblance to a witch's hat.
--   Rhythm rollersThe tone and volume roller wheels on the upper bout remained **consistent throughout production**, a chrome-edged roller design unchanged from 1958 to 1971.
+-   **1958 to mid 1965:** **Stratocaster-style knobs**, the same white skirted plastic knobs a Stratocaster of the era wore, numbered 1 to 10 around the skirt. Used on the lead circuit volume and tone controls. Fender's own term "dome knob" belongs to the knurled metal knobs on Telecasters, Esquires and Precision Basses, not to anything a Jazzmaster ever wore.
+-   **Mid 1965 onward:** **"Witch hat" knobs**, a distinctive Jazzmaster-specific knob style: white plastic with a chrome domed top, taller and thinner than the skirted Strat-style knob. Introduced mid-1965 and immediately identifiable as a CBS-era indicator. The name comes from their silhouette resemblance to a witch's hat.
+-   **Rhythm rollers:** The tone and volume roller wheels on the upper bout remained **consistent throughout production**, a chrome-edged roller design unchanged from 1958 to 1971.
 
 <figure>
 
@@ -121,10 +121,10 @@ The Jazzmaster holds a significant place in Fender history: it was the **first F
 
 The single most significant neck specification change in the Jazzmaster's history is the transition from slab to veneer rosewood fingerboard. This is the first thing any knowledgeable buyer checks, and it divides the pre-CBS era into two clearly defined periods.
 
--   Slab board  
-    1958 to early 1962A **thick, flat-bottomed rosewood slab** approximately 4.8mm deep, glued onto a flat-milled maple neck. The flat bottom is the defining characteristic, visible at the headstock end where the rosewood meets the nut. Brazilian rosewood typically used. Commands a significant premium over veneer examples. The Jazzmaster was the *first* Fender to get the slab board and, notably, also the *first to transition away from it*.
--   Veneer board  
-    Spring 1962 onwardA **thin curved veneer (~2mm)** whose underside follows the radius of the neck, requiring a curved top on the neck blank. The Jazzmaster was the first Fender model to make this switch, beginning in approximately spring 1962, ahead of the Stratocaster and Telecaster transitions. Veneer boards continued through end of production.
+-   **Slab board**  
+    **1958 to early 1962:** A **thick, flat-bottomed rosewood slab** approximately 4.8mm deep, glued onto a flat-milled maple neck. The flat bottom is the defining characteristic, visible at the headstock end where the rosewood meets the nut. Brazilian rosewood typically used. Commands a significant premium over veneer examples. The Jazzmaster was the *first* Fender to get the slab board and, notably, also the *first to transition away from it*.
+-   **Veneer board**  
+    **Spring 1962 onward:** A **thin curved veneer (~2mm)** whose underside follows the radius of the neck, requiring a curved top on the neck blank. The Jazzmaster was the first Fender model to make this switch, beginning in approximately spring 1962, ahead of the Stratocaster and Telecaster transitions. Veneer boards continued through end of production.
 
 The Jazzmaster switched to veneer rosewood in spring 1962, several months before the Stratocaster (mid-1962) and the Telecaster (1959 had already moved to slab; veneer came later). This makes the Jazzmaster's fingerboard transition an important reference point for understanding the overall Fender production timeline.
 
@@ -132,12 +132,12 @@ The Jazzmaster switched to veneer rosewood in spring 1962, several months before
 
 The Jazzmaster went through three distinct inlay periods between 1958 and 1971, each with a specific character that serves as an immediate dating indicator:
 
--   Clay dots  
-    1958 to late 1964A light brown, chalky dot with a dull, non-reflective matte surface. "Clay" is collector terminology. The material is actually a composite, not actual clay, but the warm brown color and complete absence of shine is distinctive and unmistakable. Clay dots are **the defining feature of the most collectible pre-CBS Jazzmasters**.
--   Pearl dots  
-    Late 1964 to mid 1966Faux pearloid plastic dots, brighter, whiter, and reflective compared to clay. The transition happened late 1964, making this a "transition era" specification. These appeared alongside the transition logo and are associated with the late pre-CBS period.
--   Block inlays  
-    Mid 1966 onwardLarge rectangular pearloid block inlays replaced the dots in approximately mid-1966, alongside the introduction of neck binding. Block inlays continued through the end of the 1971 production run. This is the **standard CBS-era Jazzmaster neck appearance**.
+-   **Clay dots**  
+    **1958 to late 1964:** A light brown, chalky dot with a dull, non-reflective matte surface. "Clay" is collector terminology. The material is actually a composite, not actual clay, but the warm brown color and complete absence of shine is distinctive and unmistakable. Clay dots are **the defining feature of the most collectible pre-CBS Jazzmasters**.
+-   **Pearl dots**  
+    **Late 1964 to mid 1966:** Faux pearloid plastic dots, brighter, whiter, and reflective compared to clay. The transition happened late 1964, making this a "transition era" specification. These appeared alongside the transition logo and are associated with the late pre-CBS period.
+-   **Block inlays**  
+    **Mid 1966 onward:** Large rectangular pearloid block inlays replaced the dots in approximately mid-1966, alongside the introduction of neck binding. Block inlays continued through the end of the 1971 production run. This is the **standard CBS-era Jazzmaster neck appearance**.
 
 <figure>
 
@@ -175,8 +175,8 @@ Throughout the entire 1958 to 1971 production run, the Jazzmaster truss rod adju
 
 Necks are dated directly on the wood at the heel. The method changed over the production run:
 
--   1958 to 1962**Pencil-written** month and year at the heel butt, handwritten by the neck builder. Format: "2-59" for February 1959. Note: many mid-1959 to 1960 necks have no date at all.
--   Mid 1962 onward**Rubber-stamped code** with more information. Format: "4JAN63B" where 4 = Jazzmaster model number, JAN = January, 63 = 1963, B = standard nut width (1-5/8").
+-   **1958 to 1962:** **Pencil-written** month and year at the heel butt, handwritten by the neck builder. Format: "2-59" for February 1959. Note: many mid-1959 to 1960 necks have no date at all.
+-   **Mid 1962 onward:** **Rubber-stamped code** with more information. Format: "4JAN63B" where 4 = Jazzmaster model number, JAN = January, 63 = 1963, B = standard nut width (1-5/8").
 
 <h2 id="pickguard">Pickguards: The Full Story</h2>
 
@@ -261,10 +261,10 @@ Custom colors were available on the Jazzmaster from its introduction, at a 5% pr
 
 The key rule: **sunburst Jazzmasters always received the tortoiseshell (or gold aluminum) guard; custom color Jazzmasters generally received a white guard**, but this has nuance by era.
 
--   1958 to mid 1959All Jazzmasters (sunburst and custom color) shipped with **gold anodized aluminum** pickguards. This is the one era where custom colors also had gold guards.
--   Mid 1959 to late 1961Sunburst received **tortoiseshell celluloid**. Custom colors received **white celluloid**. Note: non-matching headstocks on custom colors were standard until approximately spring 1962.
--   Spring 1962 onwardSame as above, sunburst with tortoiseshell, custom colors with white, but custom colors now had **matching painted headstocks** as standard. White guards on custom colors will show the characteristic mint-green aging of celluloid over time.
--   Late 1964 to 1971Sunburst with plastic tortoiseshell. Custom colors with **white plastic** guard (does not age to mint green the way celluloid does).
+-   **1958 to mid 1959:** All Jazzmasters (sunburst and custom color) shipped with **gold anodized aluminum** pickguards. This is the one era where custom colors also had gold guards.
+-   **Mid 1959 to late 1961:** Sunburst received **tortoiseshell celluloid**. Custom colors received **white celluloid**. Note: non-matching headstocks on custom colors were standard until approximately spring 1962.
+-   **Spring 1962 onward:** Same as above, sunburst with tortoiseshell, custom colors with white, but custom colors now had **matching painted headstocks** as standard. White guards on custom colors will show the characteristic mint-green aging of celluloid over time.
+-   **Late 1964 to 1971:** Sunburst with plastic tortoiseshell. Custom colors with **white plastic** guard (does not age to mint green the way celluloid does).
 
 ### Matching Headstocks
 
@@ -324,8 +324,8 @@ The pickup covers are **plastic** (not chrome) and mount directly to the body, n
 
 The color of the pickup base (bobbin bottom) changed during production and is a useful dating reference:
 
--   1958 to ~1964**Black fiber flatwork** on the bobbin bottom. Consistent with pre-CBS and early transition production. Visible when the pickup is removed from the pickguard route.
--   ~1964 onwardFender began switching to gray bobbin bottoms starting around 1964, though the transition was gradual and both black and gray bottoms can appear on instruments from this period.
+-   **1958 to ~1964:** **Black fiber flatwork** on the bobbin bottom. Consistent with pre-CBS and early transition production. Visible when the pickup is removed from the pickguard route.
+-   **~1964 onward:** Fender began switching to gray bobbin bottoms starting around 1964, though the transition was gradual and both black and gray bottoms can appear on instruments from this period.
 
 <figure>
 
@@ -375,9 +375,9 @@ The barrel saddles are individually adjustable for intonation and are threaded c
 
 The tremolo is a separate unit from the bridge, a vibrato tailpiece that anchors and actuates the strings while the bridge floats. The tremolo features:
 
--   Trem-lock buttonA thumb-operated button on the tremolo body that mechanically locks the tremolo in position, allowing the player to continue playing in tune even if a string breaks. A unique engineering solution that remained constant throughout the production run.
--   Tremolo armA chrome rod that **pushes into** the tremolo body. It is a press-fit, not threaded. The arm has a distinctive gentle bend and is lighter and more responsive than a Stratocaster tremolo arm. Vintage arms are commonly missing. Replacements are widely available.
--   "Pat. Pend." vs "Patent" markingEarly tremolo units (1958 to approximately 1961) are marked **"Pat. Pend."** (patent pending). Later units have the full **patent number** stamped on them. The Pat. Pend. trem is a pre-CBS era dating indicator.
+-   **Trem-lock button:** A thumb-operated button on the tremolo body that mechanically locks the tremolo in position, allowing the player to continue playing in tune even if a string breaks. A unique engineering solution that remained constant throughout the production run.
+-   **Tremolo arm:** A chrome rod that **pushes into** the tremolo body. It is a press-fit, not threaded. The arm has a distinctive gentle bend and is lighter and more responsive than a Stratocaster tremolo arm. Vintage arms are commonly missing. Replacements are widely available.
+-   **"Pat. Pend." vs "Patent" marking:** Early tremolo units (1958 to approximately 1961) are marked **"Pat. Pend."** (patent pending). Later units have the full **patent number** stamped on them. The Pat. Pend. trem is a pre-CBS era dating indicator.
 
 <figure>
 
@@ -393,19 +393,19 @@ The logo, tuners, and knobs each changed on their own schedule, so read together
 
 ### Headstock Logo Evolution
 
--   1958 to mid 1964  
-    "Spaghetti" logoThe classic thin, flowing cursive "Fender" script in gold with a fine dark outline. Named for its resemblance to wet spaghetti noodles. The transition logo that follows it is the same gold drawn much heavier, so the two are told apart by the weight of the script rather than by color. Applied as a water-slide decal on top of the finish, protected by a clear topcoat. The most collectible logo era. Early 1958 examples have no patent numbers on the decal; patent numbers were added gradually through 1959 to 1960.
--   Mid 1964 to 1967  
-    "Transition" logoA heavier, thicker gold Fender logo, wider letterforms than the spaghetti logo, with a slightly different feel. Applied in gold with black outline. Named for its association with the CBS transition period. Applied to guitars from approximately mid-1964 through 1967.
--   Late 1967 to 1971  
-    "CBS" black logoThe fully CBS-era logo, black printing, different letterforms. Applied from approximately late 1967 onward. The "Jazzmaster" model name also changed to a bolder block-letter style around this time.
+-   **1958 to mid 1964**  
+    **"Spaghetti" logo:** The classic thin, flowing cursive "Fender" script in gold with a fine dark outline. Named for its resemblance to wet spaghetti noodles. The transition logo that follows it is the same gold drawn much heavier, so the two are told apart by the weight of the script rather than by color. Applied as a water-slide decal on top of the finish, protected by a clear topcoat. The most collectible logo era. Early 1958 examples have no patent numbers on the decal; patent numbers were added gradually through 1959 to 1960.
+-   **Mid 1964 to 1967**  
+    **"Transition" logo:** A heavier, thicker gold Fender logo, wider letterforms than the spaghetti logo, with a slightly different feel. Applied in gold with black outline. Named for its association with the CBS transition period. Applied to guitars from approximately mid-1964 through 1967.
+-   **Late 1967 to 1971**  
+    **"CBS" black logo:** The fully CBS-era logo, black printing, different letterforms. Applied from approximately late 1967 onward. The "Jazzmaster" model name also changed to a bolder block-letter style around this time.
 
 ### Tuner Evolution
 
--   1958 to ~1959  
-    No-line KlusonsKluson Deluxe tuners with **no text** on the gear housing back, blank. The earliest Jazzmaster tuner specification.
--   ~1960 to ~1964  
-    Single-line KlusonsKluson Deluxe with **"KLUSON DELUXE"** on a single line on the gear housing back. All-metal housings and buttons.
+-   **1958 to ~1959**  
+    **No-line Klusons:** Kluson Deluxe tuners with **no text** on the gear housing back, blank. The earliest Jazzmaster tuner specification.
+-   **~1960 to ~1964**  
+    **Single-line Klusons:** Kluson Deluxe with **"KLUSON DELUXE"** on a single line on the gear housing back. All-metal housings and buttons.
 
 <figure>
 
@@ -423,10 +423,10 @@ The logo, tuners, and knobs each changed on their own schedule, so read together
 
 </figure>
 
--   ~1964 to late 1965  
-    Double-line KlusonsKluson Deluxe with **"KLUSON" on first line, "DELUXE" on second line**. Brief transitional specification.
--   Late 1965 to 1971  
-    Fender "F" tunersFender-branded (Schaller-made) tuners with a stylized "F" on the buttons. A completely different look from the open-back Kluson. A clear CBS-era indicator. Kluson to F-tuner is one of the most visible single changes on the guitar.
+-   **~1964 to late 1965**  
+    **Double-line Klusons:** Kluson Deluxe with **"KLUSON" on first line, "DELUXE" on second line**. Brief transitional specification.
+-   **Late 1965 to 1971**  
+    **Fender "F" tuners:** Fender-branded (Schaller-made) tuners with a stylized "F" on the buttons. A completely different look from the open-back Kluson. A clear CBS-era indicator. Kluson to F-tuner is one of the most visible single changes on the guitar.
 
 <figure>
 
@@ -440,10 +440,10 @@ The logo, tuners, and knobs each changed on their own schedule, so read together
 
 The toggle switch tip on the Jazzmaster's lead circuit selector changed in appearance during production and is a useful period indicator:
 
--   1958 to ~1960  
-    Amber tipThe earliest Jazzmasters (approximately 1958 to 1960) have a distinctive **amber/yellowish-brown switch tip**, a warm, translucent color unique to the first few years of production. This amber tip is uncommon and highly specific to the gold guard and early tort guard era. An intact original amber switch tip is a strong indicator of a genuinely early example.
--   ~1961 onward  
-    White/cream tipBy approximately 1961 the switch tip had transitioned to a **whiter plastic**, lighter and less amber than the earliest examples. This whiter tip was used for the remainder of the production run through 1971. The degree of whiteness can vary with age and UV exposure.
+-   **1958 to ~1960**  
+    **Amber tip:** The earliest Jazzmasters (approximately 1958 to 1960) have a distinctive **amber/yellowish-brown switch tip**, a warm, translucent color unique to the first few years of production. This amber tip is uncommon and highly specific to the gold guard and early tort guard era. An intact original amber switch tip is a strong indicator of a genuinely early example.
+-   **~1961 onward**  
+    **White/cream tip:** By approximately 1961 the switch tip had transitioned to a **whiter plastic**, lighter and less amber than the earliest examples. This whiter tip was used for the remainder of the production run through 1971. The degree of whiteness can vary with age and UV exposure.
 
 <figure>
 

@@ -154,11 +154,11 @@ The new configuration first used on the Jazzmaster in 1958 and introduced to the
 
 The slab rosewood board (1959 to mid-1962) and the veneer rosewood board (mid-1962 to mid-1960s) can look nearly identical from the playing surface. The key is to look at the **headstock end of the neck**, where the rosewood meets the maple at the nut area:
 
--   Slab board thicknessApproximately **4.8mm thick**, visibly substantial. When you look at the headstock end from the front, the rosewood occupies a significant portion of the neck depth. The glue line between the rosewood and maple sits well below the fretboard surface.
--   Slab board undersideThe underside of a slab board is **completely flat**. It was milled flat to glue directly onto the flat top of the neck blank. On veneer boards the underside follows the curve of the neck radius.
--   Veneer board thicknessMuch thinner, approximately 2 to 2.5mm. The rosewood contributes less visual depth at the headstock end, and the neck wood is visible much higher relative to the fretboard surface.
--   Truss rod accessBoth slab and veneer boards adjust at the **neck heel** (not the headstock). The truss rod slot opening on a slab board's headstock end shows the rosewood slightly intruding into the slot opening. This was noted as a period-correct detail.
--   Skunk stripeThis one splits by board type. A **one-piece maple neck** has a **walnut skunk stripe** on the back, the truss rod channel routed from behind and filled with a contrasting strip, plus a walnut plug behind the nut. A **slab rosewood neck does not**: the truss rod went in from the front of the blank and the rosewood was glued over it, leaving a clean, unbroken maple back. A skunk stripe on a rosewood-board 1959 means the neck is not original, and a maple 1959 without one means the same.
+-   **Slab board thickness:** Approximately **4.8mm thick**, visibly substantial. When you look at the headstock end from the front, the rosewood occupies a significant portion of the neck depth. The glue line between the rosewood and maple sits well below the fretboard surface.
+-   **Slab board underside:** The underside of a slab board is **completely flat**. It was milled flat to glue directly onto the flat top of the neck blank. On veneer boards the underside follows the curve of the neck radius.
+-   **Veneer board thickness:** Much thinner, approximately 2 to 2.5mm. The rosewood contributes less visual depth at the headstock end, and the neck wood is visible much higher relative to the fretboard surface.
+-   **Truss rod access:** Both slab and veneer boards adjust at the **neck heel** (not the headstock). The truss rod slot opening on a slab board's headstock end shows the rosewood slightly intruding into the slot opening. This was noted as a period-correct detail.
+-   **Skunk stripe:** This one splits by board type. A **one-piece maple neck** has a **walnut skunk stripe** on the back, the truss rod channel routed from behind and filled with a contrasting strip, plus a walnut plug behind the nut. A **slab rosewood neck does not**: the truss rod went in from the front of the blank and the rosewood was glued over it, leaving a clean, unbroken maple back. A skunk stripe on a rosewood-board 1959 means the neck is not original, and a maple 1959 without one means the same.
 
 All 1959 rosewood-board Telecasters use **clay dot inlays**, a dull, slightly chalky material that ages to an off-white or yellowish tone with a matte finish. They are never shiny or pearlescent. Pearloid (plastic) dots replaced clay in early 1965, so bright, shiny dots on a claimed pre-1965 Fender are an immediate mismatch. The 12th fret clay dots on 1959 instruments are also positioned slightly *closer to the edge* of the neck than on later examples, a small but documented detail specific to this era.
 
@@ -174,9 +174,9 @@ The nut width is the standard Fender specification of **1 5/8"**, not widened to
 
 This is one of the most misunderstood aspects of late-1950s Telecaster authentication. The answer depends on the finish:
 
--   Blonde finish**Ash body.** Standard blond Telecasters used swamp ash throughout the 1950s. Ash is semi-transparent under a blond finish, the wood grain shows through as a warm, visible pattern. Ash is also noticeably heavier than alder, typically putting a blond 1959 Tele in the 7 to 8+ lb range.
--   Custom colors / sunburst**Alder body.** When Fender produced Telecasters in opaque or semi-opaque finishes (custom colors, the Telecaster Custom's sunburst), they used alder, a lighter, less visually dramatic wood that was easier to finish with solid colors. An alder-bodied blond Telecaster from this era is unusual and merits investigation.
--   Visual testUnder a blond finish, ash shows characteristic long, open grain lines and a slightly golden color. Alder grain is finer and less visually distinct. If the finish is blond but the grain is very tight and uniform, look more carefully at what's underneath.
+-   **Blonde finish:** **Ash body.** Standard blond Telecasters used swamp ash throughout the 1950s. Ash is semi-transparent under a blond finish, the wood grain shows through as a warm, visible pattern. Ash is also noticeably heavier than alder, typically putting a blond 1959 Tele in the 7 to 8+ lb range.
+-   **Custom colors / sunburst:** **Alder body.** When Fender produced Telecasters in opaque or semi-opaque finishes (custom colors, the Telecaster Custom's sunburst), they used alder, a lighter, less visually dramatic wood that was easier to finish with solid colors. An alder-bodied blond Telecaster from this era is unusual and merits investigation.
+-   **Visual test:** Under a blond finish, ash shows characteristic long, open grain lines and a slightly golden color. Alder grain is finer and less visually distinct. If the finish is blond but the grain is very tight and uniform, look more carefully at what's underneath.
 
 ### The White Blond Finish
 
@@ -288,9 +288,9 @@ Original 1959 neck pickups use the same formvar wire. The pickup leads run under
 
 The 1959 Telecaster uses the **original Fender Telecaster wiring**, which is notably different from what most players expect and from "modern" Tele wiring. The three switch positions in the original scheme are:
 
--   Position 1 (toward neck)**Neck pickup only, with a bass-heavy capacitor-rolled tone**, a dark, almost cello-like jazz tone designed to simulate an acoustic bass response. Many players found this position useless for typical playing and rewired the guitar immediately.
--   Position 2 (middle)**Neck pickup, straight to volume**, the neck pickup with a normal tone control, producing the warm, jazzy neck pickup sound most associated with the position today.
--   Position 3 (toward bridge)**Bridge pickup with tone control**, the classic bright Tele twang with full tone control access.
+-   **Position 1 (toward neck):** **Neck pickup only, with a bass-heavy capacitor-rolled tone**, a dark, almost cello-like jazz tone designed to simulate an acoustic bass response. Many players found this position useless for typical playing and rewired the guitar immediately.
+-   **Position 2 (middle):** **Neck pickup, straight to volume**, the neck pickup with a normal tone control, producing the warm, jazzy neck pickup sound most associated with the position today.
+-   **Position 3 (toward bridge):** **Bridge pickup with tone control**, the classic bright Tele twang with full tone control access.
 
 This original wiring is not the same as the "modern" Telecaster wiring (which has bridge in position 1, both pickups in position 2, and neck in position 3 with a standard tone). A guitar still wired in the original vintage configuration is an indication of an unmolested instrument. Most vintage Telecasters have been rewired to the "modern" scheme at some point. This affects playability but does not significantly affect value if done with period-correct components.
 
@@ -348,10 +348,10 @@ The 1959 Telecaster headstock carries the classic **"spaghetti" Fender logo**, a
 
 The spaghetti logo was used through approximately 1964 to 1965, when it was replaced by the thicker "transition" logo and then the bold CBS-era logo. Key authenticity points:
 
--   MaterialWater-slide decal applied **on top of the finish**, not a silkscreen, with no clear coat sprayed over it. On an original 1959 the decal sits on the lacquer surface and you can catch its edge with a fingernail at a low angle. A logo buried under a layer of clear lacquer means the headstock has been resprayed and re-decaled.
--   Patent numbersThe 1959 Telecaster headstock decal includes **two patent numbers** below the model name: "2,573,254" and "2,784,631." The presence of both patent numbers is correct for 1959. Note that the second patent number was added in 1959, earlier examples have only one. A claimed 1959 with only one patent number may be from early 1959 or earlier.
--   Logo positionThe spaghetti logo sits relatively high on the headstock face, close to the nut. The exact vertical position varied slightly from example to example.
--   ColorSilver/chrome, sometimes with slight yellowing or patina after decades under lacquer. A bright, fresh-looking logo on a claimed 1959 may indicate headstock refinish or decal replacement.
+-   **Material:** Water-slide decal applied **on top of the finish**, not a silkscreen, with no clear coat sprayed over it. On an original 1959 the decal sits on the lacquer surface and you can catch its edge with a fingernail at a low angle. A logo buried under a layer of clear lacquer means the headstock has been resprayed and re-decaled.
+-   **Patent numbers:** The 1959 Telecaster headstock decal includes **two patent numbers** below the model name: "2,573,254" and "2,784,631." The presence of both patent numbers is correct for 1959. Note that the second patent number was added in 1959, earlier examples have only one. A claimed 1959 with only one patent number may be from early 1959 or earlier.
+-   **Logo position:** The spaghetti logo sits relatively high on the headstock face, close to the nut. The exact vertical position varied slightly from example to example.
+-   **Color:** Silver/chrome, sometimes with slight yellowing or patina after decades under lacquer. A bright, fresh-looking logo on a claimed 1959 may indicate headstock refinish or decal replacement.
 
 <figure>
 
@@ -400,13 +400,13 @@ Early 1959: maple neck + likely top-loader bridge + serial ~30000 to 33000. Mid-
 
 ### How the Custom Differs from a Standard 1959
 
--   Body bindingThe Custom has **white plastic binding** around both the top and back of the body, the first bound Telecaster. The binding is a distinctive visual identifier; standard 1959 Telecasters are unbound.
--   Body wood**Alder** body, not ash, because the Custom came in sunburst, which requires the more even-grained alder for a clean finish.
--   Finish3-color sunburst, a yellow-to-orange-to-dark-brown gradient. This was the *first* time Fender offered a standard Telecaster in sunburst. The sunburst is nitrocellulose, applied in layers.
--   Pickguard**3-ply mint green celluloid** pickguard, not the single-ply white of the standard model. This is a key visual differentiator.
--   Headstock logoA **gold spaghetti logo** reading "Custom Telecaster", not the silver logo of the standard model. The earliest Customs (from approximately April 1959) briefly carried a standard silver "Telecaster" decal before the gold "Custom Telecaster" decal was produced; these transitional examples are the rarest Customs.
--   NeckSame slab rosewood board as the late-1959 standard model. Clay dots, slim D profile.
--   Hardware/electronicsOtherwise identical to the standard 1959 Telecaster, same pickups, same bridge options (top loader or transitional depending on date), same controls.
+-   **Body binding:** The Custom has **white plastic binding** around both the top and back of the body, the first bound Telecaster. The binding is a distinctive visual identifier; standard 1959 Telecasters are unbound.
+-   **Body wood:** **Alder** body, not ash, because the Custom came in sunburst, which requires the more even-grained alder for a clean finish.
+-   **Finish:** 3-color sunburst, a yellow-to-orange-to-dark-brown gradient. This was the *first* time Fender offered a standard Telecaster in sunburst. The sunburst is nitrocellulose, applied in layers.
+-   **Pickguard:** **3-ply mint green celluloid** pickguard, not the single-ply white of the standard model. This is a key visual differentiator.
+-   **Headstock logo:** A **gold spaghetti logo** reading "Custom Telecaster", not the silver logo of the standard model. The earliest Customs (from approximately April 1959) briefly carried a standard silver "Telecaster" decal before the gold "Custom Telecaster" decal was produced; these transitional examples are the rarest Customs.
+-   **Neck:** Same slab rosewood board as the late-1959 standard model. Clay dots, slim D profile.
+-   **Hardware/electronics:** Otherwise identical to the standard 1959 Telecaster, same pickups, same bridge options (top loader or transitional depending on date), same controls.
 
 Because the Telecaster Custom is relatively more valuable than the standard model (rarity + bound body + sunburst + gold logo), there is an incentive to present a stripped and refinished standard as a Custom, or to add binding and a gold decal to an otherwise standard guitar. Check that: the binding is original (no paint bleed under the binding; correct binding profile throughout); the alder body is consistent with the sunburst finish; the gold decal shows authentic aging and sits on top of the finish rather than under a coat of clear; and the pickguard is original 3-ply mint green with correct screw-hole count and positions.
 
