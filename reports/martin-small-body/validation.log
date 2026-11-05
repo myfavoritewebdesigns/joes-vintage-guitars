@@ -1,18 +1,18 @@
 === build ===
-11:37:03 [build] ✓ Completed in 28.33s.
-11:37:03 [@astrojs/sitemap] `sitemap-index.xml` created at `dist`
-11:37:03 [build] 459 page(s) built in 31.38s
-11:37:03 [build] Complete!
+12:14:01 [@astrojs/sitemap] `sitemap-index.xml` created at `dist`
+12:14:01 [build] 459 page(s) built in 38.17s
+12:14:01 [build] Complete!
 [stable-share-images] 289 pages now share a permanent /og/ image
-[image-sitemap] 443 pages, 4322 image entries -> dist/image-sitemap.xml
-[indexnow] 443 production URLs in manifest (79091bf)
+[image-sitemap] 443 pages, 4318 image entries -> dist/image-sitemap.xml
+[indexnow] 443 production URLs in manifest (0ae469f)
+[martin-assets] Removed 13 unreferenced output copies; all source originals retained.
 
 
 === astro-check ===
-Result (426 files):
+Result (432 files):
 - 0 errors
 - 0 warnings
-- 110 hints
+- 111 hints
 
 
 
@@ -164,3 +164,14 @@ martin-00-18-value-guide 375 runs 255 computed failures 0 axe 0 overflow 0
 martin-0-18-authentication-guide 375 runs 239 computed failures 0 axe 0 overflow 0
 martin-0-18-value-guide 375 runs 232 computed failures 0 axe 0 overflow 0
 VISUAL AUDIT COMPLETE
+
+=== Asset pruning test ===
+✔ removes only unreferenced copies of the new source originals (20.4883ms)
+ℹ tests 1
+ℹ suites 0
+ℹ pass 1
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 78.1877

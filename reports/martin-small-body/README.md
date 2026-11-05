@@ -1,12 +1,12 @@
 ## Martin Style 18 Guides, PR 1
 
-Adds six 000-18, 00-18 and 0-18 identification/value posts and a 58-row price table to the existing small-body hub. The pages use the existing model-guide kit, plain numbering, light tables, Joe’s exact-model archive photos and top/lower appraisal and Sell My Martin actions. Martin is added to type unions only.
+Adds six 000-18, 00-18 and 0-18 identification/value posts and a 58-row price table to the existing small-body hub. The pages use the existing model-guide kit, plain numbering, light tables, Joe’s exact-model archive photos and top/lower appraisal and Sell My Martin actions. Martin is added to the brand type unions. The new photos also opt into bounded image variants; existing image callers retain identical output.
 
 **Preview only. Do not merge or start PR 2 until Joe approves this specific preview.**
 
 ## Validation
 
-- Build: 459 pages; Astro check: 0 errors, 0 warnings (110 informational hints).
+- Build: 459 pages; Astro check: 0 errors, 0 warnings (informational hints retained in the log).
 - Copy gate: 0 hard fails (795 pre-existing/sitewide warnings). AI-tell scan: 0 Tier 1 hits; 6 reviewed warnings concern the required authentication terminology and photo-caption fragments. Decorative section counters are excluded from prose scanning.
 - Image licensing: 43 content nodes, 0 mismatches. All 25 selected originals pass SHA-256 checks; 14 new full-byte assets, with existing originals reused.
 - Internal links: 0 broken routes/anchors on all six new and five touched pages. Each new guide has 3 contextual prose inbounds from existing pages, and 4 FAQs with FAQPage JSON-LD. No prohibited schemas or external value-page citations.
@@ -75,4 +75,6 @@ Reports are in [reports/martin-small-body](.). Source ledger: sources.json. Pric
 
 The initial independent visual review discloses unavailable named cross-model tools. Equivalent local Playwright and human image review are complete; this is not claimed as a separate unavailable vision-model pass. External plagiarism-tool review remains agency-side. Final anchor and deployment results will be added below before delivery.
 
-Final follow-up: all 71 fresh, settled anchor navigations passed. All 12 required viewport captures were regenerated after the last copy correction. See qa-gate.md for writing-gate flags and expert-review.md for optional SME prompts. Cloudflare deployment is checked after push.
+## Deployment Follow-Up
+
+The initial Cloudflare build failed. Local output exceeded the documented 20,000-file Free-plan limit. New-guide-only image widths and removal of thirteen unreferenced copies of newly imported originals reduce output to 19,990 files. All source originals, referenced images and protected HTML are preserved. The focused pruning test passes; Astro reports 0 errors and 0 warnings; image licensing still reports 43 nodes and 0 mismatches; the full visual check was rerun successfully. See deployment-fix.md for scope and remaining capacity. All 71 settled anchors passed before this image-only change. The new Cloudflare attempt is pending.

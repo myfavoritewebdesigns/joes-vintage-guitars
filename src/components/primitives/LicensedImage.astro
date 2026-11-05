@@ -42,6 +42,8 @@ interface Props {
   caption?: string;
   /** Render/intrinsic width; also pins the getImage transform. */
   width?: number;
+  /** Optional explicit variants for callers with a bounded image budget. */
+  widths?: number[];
   height?: number;
   loading?: "eager" | "lazy";
   decoding?: "async" | "sync" | "auto";
@@ -54,7 +56,7 @@ interface Props {
   style?: string;
 }
 
-const { schemaOnly = false, emitSchema = true, src, alt, caption, width, height, loading, decoding, fetchpriority, sizes, class: className, style } = Astro.props;
+const { schemaOnly = false, emitSchema = true, src, alt, caption, width, widths, height, loading, decoding, fetchpriority, sizes, class: className, style } = Astro.props;
 
 // One getImage() call drives BOTH the <img> below and the contentUrl. They share
 // `built.src`, so they cannot diverge.
@@ -66,6 +68,7 @@ const built = await getImage({
   src,
   layout: "constrained",
   ...(cappedWidth ? { width: cappedWidth } : {}),
+  ...(widths?.length ? { widths: [...new Set(widths.map(value => Math.min(value, src.width)))] } : {}),
 });
 
 const contentUrl = `${SITE_URL}${built.src.startsWith("/") ? "" : "/"}${built.src}`;

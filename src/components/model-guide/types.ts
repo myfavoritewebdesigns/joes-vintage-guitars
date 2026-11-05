@@ -8,6 +8,8 @@ export interface GuidePhoto {
   captionBelow?: boolean;
   position?: string;
   fit?: 'cover' | 'contain';
+  renderWidth?: number;
+  responsiveWidths?: number[];
 }
 export interface GuideCard { label?: string; title: string; html: string }
 export type GuideBlock =
