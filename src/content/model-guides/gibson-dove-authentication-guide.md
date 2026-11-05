@@ -2,7 +2,7 @@ A vintage Gibson Dove is identified by a combination of body construction, scale
 
 ## Dove Identification Checklist
 
-The original Dove arrived in 1962 with a square-shoulder body, spruce top, maple back and sides, and a 25½-inch scale. Its split parallelogram fingerboard markers, headstock crown and decorated bridge/guard distinguish the familiar design. These are vintage-model characteristics; later special editions can use other woods. Gibson’s [anniversary model history](https://www.gibson.com/it-eu/blogs/gibson-gazette/gibson-announces-acoustic-anniversary-limited-edition-models) documents the introduction and long-scale maple configuration.
+The original Dove arrived in 1962 with a square-shoulder body, spruce top, maple back and sides, and a 25½-inch scale. Its split parallelogram fingerboard markers, headstock crown and decorated bridge/guard distinguish the familiar design. These are vintage-model characteristics; later special editions can use other woods. Gibson’s [anniversary model history](https://www.gibson.com/blogs/gibson-gazette/gibson-announces-acoustic-anniversary-limited-edition-models) documents the introduction and long-scale maple configuration.
 
 Compare a suspected Hummingbird carefully: both can have square shoulders, split inlays and a bird-themed guard. The standard vintage Hummingbird’s mahogany body and shorter scale make the wood and measurements more useful than a quick glance at the decoration. Measure scale from the nut to the 12th fret and double it; the saddle includes compensation.
 

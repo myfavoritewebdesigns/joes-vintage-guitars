@@ -80,7 +80,7 @@ Inspect the guard outline, thickness and fit against the rosette, then look for 
 <figcaption>The script logo and SJ markers remain useful identification clues on the refinished guitar. Its present natural color does not turn it into a factory Country Western.</figcaption>
 </figure>
 
-Inspect the heel, binding, soundhole edge and bridge area for sanding, finish buildup and changes in color. A stripped sunburst can lose its most obvious visual feature while retaining its original model identity. Conversely, a natural top can be factory correct on the appropriate later SJ/SJN. [Folkway's examined 1954 SJ Natural](https://folkwaymusic.com/museum/gibson-guitars/1954-gibson-sj-nat-0119) illustrates that later factory option.
+Inspect the heel, binding, soundhole edge and bridge area for sanding, finish buildup and changes in color. A stripped sunburst can lose its most obvious visual feature while retaining its original model identity. Conversely, a natural top can be factory correct on the appropriate later SJ/SJN. [Folkway's examined 1954 SJ Natural](https://web.archive.org/web/20230308134622/https://www.folkwaymusic.com/museum/gibson-guitars/1954-gibson-sj-nat-0119) illustrates that later factory option.
 
 ## Factory Order Numbers And Interior Evidence
 

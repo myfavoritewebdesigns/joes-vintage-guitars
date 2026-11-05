@@ -204,7 +204,7 @@ The tuners are gold Grovers, enclosed, stamped GROVER on the housings. Original 
 
 Martin stamps the serial number on the neck block, inside the body, readable through the soundhole with a mirror and a light. The model number is stamped there too. Both should be crisp and both should agree with each other.
 
-For 1976, the serial range runs **371,829 to 388,800**. A small block of numbers from 259,996 to 260,020 was also used that year, which is the sort of thing that trips people up if they are working from a partial chart. You can check any Martin serial against the full year-by-year table on our [Martin serial number lookup](/martin-serial-and-model-numbers/), or against [Martin's own serial number lookup tool](https://www.martinguitar.com/customer-service-2/support-serial-number-lookup.html).
+For 1976, the serial range runs **371,829 to 388,800**. A small block of numbers from 259,996 to 260,020 was also used that year, which is the sort of thing that trips people up if they are working from a partial chart. You can check any Martin serial against the full year-by-year table on our [Martin serial number lookup](/martin-serial-and-model-numbers/), or against [Martin's own serial number lookup tool](https://www.martinguitar.com/support-serial-number-lookup.html).
 
 Two things to watch for at the neck block:
 
