@@ -5,7 +5,9 @@ import path from 'node:path';
 import { pathToFileURL } from 'node:url';
 
 const TEXT_FILE = /\.(?:html|css|js|mjs|json|xml|txt|svg|map)$/i;
-const GENERATED_VARIANT = /^[A-Za-z0-9_-]+\.[A-Za-z0-9_-]+_[A-Za-z0-9_-]+\.webp$/;
+// Vite's original asset hash is eight characters. The underscore must come
+// AFTER that hash, so an original WebP whose hash contains '_' is retained.
+const GENERATED_VARIANT = /^[A-Za-z0-9_-]+\.[A-Za-z0-9_-]{8}_[A-Za-z0-9_-]+\.webp$/;
 
 function walk(dir) {
   return fs.readdirSync(dir, { withFileTypes: true }).flatMap(entry => {
