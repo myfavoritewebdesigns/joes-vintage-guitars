@@ -1,18 +1,19 @@
 ## Martin Style 18 Guides, PR 1
 
-Adds six 000-18, 00-18 and 0-18 identification/value posts and a 58-row price table to the existing small-body hub. The pages use the existing model-guide kit, plain numbering, light tables, Joe’s exact-model archive photos and top/lower appraisal and Sell My Martin actions. Martin is added to the brand type unions. The new photos also opt into bounded image variants; existing image callers retain identical output.
+Adds six 000-18, 00-18 and 0-18 identification/value posts and a 58-row price table to the existing small-body hub. The pages use the existing model-guide kit, plain numbering, light tables, Joe’s exact-model archive photos and top/lower appraisal and Sell My Martin actions. Martin is added to the brand type unions. The branch includes published main bafcee5 and uses its unchanged image cleanup step. Shared Photo and LicensedImage components are identical to main, with full responsive image behavior preserved. The temporary Martin-only deployment workaround has been removed.
 
 **Preview only. Do not merge or start PR 2 until Joe approves this specific preview.**
 
 ## Validation
 
-- Build: 459 pages; Astro check: 0 errors, 0 warnings (informational hints retained in the log).
-- Copy gate: 0 hard fails (795 pre-existing/sitewide warnings). AI-tell scan: 0 Tier 1 hits; 6 reviewed warnings concern the required authentication terminology and photo-caption fragments. Decorative section counters are excluded from prose scanning.
-- Image licensing: 43 content nodes, 0 mismatches. All 25 selected originals pass SHA-256 checks; 14 new full-byte assets, with existing originals reused.
+- Build: 466 pages; Astro check: 0 errors, 0 warnings (informational hints retained in the log).
+- Copy gate: 0 hard fails (803 sitewide warnings). AI-tell scan: 0 Tier 1 hits; 6 reviewed warnings concern the required authentication terminology and photo-caption fragments. Decorative section counters are excluded from prose scanning.
+- Image licensing: 43 content nodes, 0 mismatches. All 25 selected originals pass SHA-256 checks; 13 new full-byte assets, with existing originals reused.
 - Internal links: 0 broken routes/anchors on all six new and five touched pages. Each new guide has 3 contextual prose inbounds from existing pages, and 4 FAQs with FAQPage JSON-LD. No prohibited schemas or external value-page citations.
 - Prices: all 58 frozen reductions independently recalculated; every hub figure exactly matches its value page. Trace: value-chart-check.json and deep-verification.json.
 - Visual: all 12 required page/viewport cases have visible top buttons, 0 document overflow, 0 broken images, 0 computed contrast failures and 0 axe violations. Full visible text-run checks include open FAQ answers. Axe incomplete/pseudo-background cases are retained and visually reviewed, not counted as automated passes.
-- Existing protected HTML: 1 j200; 30 rickenbacker; 61 existingModelGuidePages; 28 existingMartinPairs; 2 specialMartinPosts; 3 martinOwnerStories; 143 existingGuideActionsCallers; all byte-identical. Groups overlap. Shared renderer/CSS and protected Martin data match baseline Git blobs.
+- Current production baseline: bafcee588b52cc7e88e036ad5a91ce53bd20c856; 457 HTML files captured. All 17,296 existing image assets remain byte-identical. Final output: 18014 files.
+- Existing protected HTML: 1 j200; 30 rickenbacker; 66 existingModelGuidePages; 28 existingMartinPairs; 2 specialMartinPosts; 3 martinOwnerStories; 148 existingGuideActionsCallers; all byte-identical. Groups overlap. Shared renderer/CSS and protected Martin data match baseline Git blobs.
 - Independent final read: identification pages SHIP; revised value pages SHIP. Initial concerns and corrections are retained in both reader reports.
 - Overlap: normalized 8-grams use rendered article text, preserving block/inline boundaries, excluding scripts, styles, nav, author boilerplate and decorative counters; denominator is the smaller unique 8-gram set. Maximum among any new pair: 4.68%. Authentication trio: 000-18 vs 00-18: 0.42%; 000-18 vs 0-18: 0.42%; 00-18 vs 0-18: 0.63%.
 
@@ -73,8 +74,4 @@ The fresh final reader also located firsthand documentation of 1932 14-fret 0-18
 
 Reports are in [reports/martin-small-body](.). Source ledger: sources.json. Price trace: value-chart-check.json. Photo IDs, dimensions and hashes: photo-sources.json. Per-page metadata, headings, links and overlap: verification.json. Full before/after HTML hashes: preservation.json.
 
-The initial independent visual review discloses unavailable named cross-model tools. Equivalent local Playwright and human image review are complete; this is not claimed as a separate unavailable vision-model pass. External plagiarism-tool review remains agency-side. Final anchor and deployment results will be added below before delivery.
-
-## Deployment Follow-Up
-
-The initial Cloudflare build failed. Local output exceeded the documented 20,000-file Free-plan limit. New-guide-only image widths and removal of thirteen unreferenced copies of newly imported originals reduce output to 19,990 files. All source originals, referenced images and protected HTML are preserved. The focused pruning test passes; Astro reports 0 errors and 0 warnings; image licensing still reports 43 nodes and 0 mismatches; the full visual check was rerun successfully. See deployment-fix.md for scope and remaining capacity. All 71 settled anchors passed before this image-only change. The new Cloudflare attempt is pending.
+The initial independent visual review discloses unavailable named cross-model tools. Equivalent local Playwright and human image review are complete; this is not claimed as a separate unavailable vision-model pass. External plagiarism-tool review remains agency-side. The fresh anchor audit checked 71 settled navigations with zero misses. Final Cloudflare status and immutable preview links are recorded in the PR body after the final commit deploys.

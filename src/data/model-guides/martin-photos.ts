@@ -19,7 +19,7 @@ import image16 from '../../assets/images/martin-small-body/1952-martin-00-18-3.j
 import image17 from '../../assets/images/martin-small-body/1952-martin-00-18-5.jpg';
 import image18 from '../../assets/images/martin-small-body/1952-martin-00-18-9.jpg';
 import image19 from '../../assets/images/martin-small-body/1952-martin-00-18-10.jpg';
-import image20 from '../../assets/images/martin-small-body/1952-martin-00-18-12.jpg';
+import image20 from '../../assets/martin-tuners/1952-martin-00-18-octagonal-tuners.jpg';
 import image21 from '../../assets/images/martin-small-body/1952-martin-00-18-14.jpg';
 import image22 from '../../assets/images/martin-small-body/1-of-15-martin-00-18-wurlitzer-2086-1924-natural-full-front-view.jpg';
 import image23 from '../../assets/images/martin-small-body/1-of-15-martin-00-18-wurlitzer-2086-1924-natural-back-of-headstock-tuners-02.jpg';

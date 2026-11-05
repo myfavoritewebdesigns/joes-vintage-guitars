@@ -1,15 +1,15 @@
 === build ===
-12:14:01 [@astrojs/sitemap] `sitemap-index.xml` created at `dist`
-12:14:01 [build] 459 page(s) built in 38.17s
-12:14:01 [build] Complete!
-[stable-share-images] 289 pages now share a permanent /og/ image
-[image-sitemap] 443 pages, 4318 image entries -> dist/image-sitemap.xml
-[indexnow] 443 production URLs in manifest (0ae469f)
-[martin-assets] Removed 13 unreferenced output copies; all source originals retained.
+16:12:29 [@astrojs/sitemap] `sitemap-index.xml` created at `dist`
+16:12:29 [build] 466 page(s) built in 36.16s
+16:12:29 [build] Complete!
+[stable-share-images] 294 pages now share a permanent /og/ image
+[image-sitemap] 450 pages, 4390 image entries -> dist/image-sitemap.xml
+[indexnow] 450 production URLs in manifest (7f5d236)
+[image-variants] Removed 2413 unused generated variants; 18014 files remain
 
 
 === astro-check ===
-Result (432 files):
+Result (438 files):
 - 0 errors
 - 0 warnings
 - 111 hints
@@ -18,11 +18,11 @@ Result (432 files):
 
 === copy ===
 
-Scanned 459 pages.
-Report: reports\seo-v2\check-copy-2026-11-05T18-38-59-322Z.md
+Scanned 466 pages.
+Report: reports\seo-v2\check-copy-2026-11-05T23-09-45-386Z.md
 
 ✓ 0 hard-fails. Copy gate is clean.
-🟡 795 warn(s) (report only, never gates).
+🟡 803 warn(s) (report only, never gates).
 
 
 === image-license ===
@@ -164,14 +164,3 @@ martin-00-18-value-guide 375 runs 255 computed failures 0 axe 0 overflow 0
 martin-0-18-authentication-guide 375 runs 239 computed failures 0 axe 0 overflow 0
 martin-0-18-value-guide 375 runs 232 computed failures 0 axe 0 overflow 0
 VISUAL AUDIT COMPLETE
-
-=== Asset pruning test ===
-✔ removes only unreferenced copies of the new source originals (20.4883ms)
-ℹ tests 1
-ℹ suites 0
-ℹ pass 1
-ℹ fail 0
-ℹ cancelled 0
-ℹ skipped 0
-ℹ todo 0
-ℹ duration_ms 78.1877

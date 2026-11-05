@@ -170,17 +170,18 @@
     },
     {
       "key": "a52_12",
-      "asset": "src/assets/images/martin-small-body/1952-martin-00-18-12.jpg",
+      "asset": "src/assets/martin-tuners/1952-martin-00-18-octagonal-tuners.jpg",
       "driveId": "1-Am7ItSyQjzbNKx5h27Uy9ED0MSb0U5l",
       "sourceUrl": "https://drive.google.com/file/d/1-Am7ItSyQjzbNKx5h27Uy9ED0MSb0U5l/view?usp=drivesdk",
       "sourceFilename": "1952-martin-00-18-12.jpg",
-      "origin": "Joe Drive original, unchanged bytes",
+      "origin": "Existing repo original; byte-identical to the recorded Drive file",
       "sourceSha256": "ac8f14ff04ff0cdc055c67cf9d96ceec927294ebad508fe460ca038ea8c80dd7",
       "width": 5472,
       "height": 3648,
       "sha256": "ac8f14ff04ff0cdc055c67cf9d96ceec927294ebad508fe460ca038ea8c80dd7",
       "caption": "1952 Martin 00-18: rear headstock and octagonal tuner plates.",
-      "exactModel": true
+      "exactModel": true,
+      "reuseNote": "The downloaded Drive file is byte-identical to this existing repository original. Reuse the original path to preserve published image URLs."
     },
     {
       "key": "a52_14",
