@@ -1,0 +1,722 @@
+[
+  {
+    "id": "fender4-1",
+    "family": "bass-vi",
+    "model": "Fender Bass VI",
+    "years": "1961 to 1962",
+    "configuration": "Common colors",
+    "low": 13800,
+    "high": 22250
+  },
+  {
+    "id": "fender4-2",
+    "family": "bass-vi",
+    "model": "Fender Bass VI",
+    "years": "1961 to 1962",
+    "configuration": "Rare colors",
+    "low": 17800,
+    "high": 26700
+  },
+  {
+    "id": "fender4-3",
+    "family": "bass-vi",
+    "model": "Fender Bass VI",
+    "years": "1961 to 1962",
+    "configuration": "Sunburst",
+    "low": 7300,
+    "high": 10750
+  },
+  {
+    "id": "fender4-4",
+    "family": "bass-vi",
+    "model": "Fender Bass VI",
+    "years": "1963 to 1964",
+    "configuration": "Common colors",
+    "low": 12350,
+    "high": 21250
+  },
+  {
+    "id": "fender4-5",
+    "family": "bass-vi",
+    "model": "Fender Bass VI",
+    "years": "1963 to 1964",
+    "configuration": "Rare colors",
+    "low": 17000,
+    "high": 25500
+  },
+  {
+    "id": "fender4-6",
+    "family": "bass-vi",
+    "model": "Fender Bass VI",
+    "years": "1963 to 1964",
+    "configuration": "Sunburst",
+    "low": 6950,
+    "high": 10000
+  },
+  {
+    "id": "fender4-7",
+    "family": "bass-vi",
+    "model": "Fender Bass VI",
+    "years": "1965",
+    "configuration": "Common colors",
+    "low": 11200,
+    "high": 17200
+  },
+  {
+    "id": "fender4-8",
+    "family": "bass-vi",
+    "model": "Fender Bass VI",
+    "years": "1965",
+    "configuration": "Rare colors",
+    "low": 15750,
+    "high": 21250
+  },
+  {
+    "id": "fender4-9",
+    "family": "bass-vi",
+    "model": "Fender Bass VI",
+    "years": "1965",
+    "configuration": "Sunburst",
+    "low": 6250,
+    "high": 8450
+  },
+  {
+    "id": "fender4-10",
+    "family": "bass-vi",
+    "model": "Fender Bass VI",
+    "years": "1966 to 1969",
+    "configuration": "Common colors",
+    "low": 8600,
+    "high": 12900
+  },
+  {
+    "id": "fender4-11",
+    "family": "bass-vi",
+    "model": "Fender Bass VI",
+    "years": "1966 to 1969",
+    "configuration": "Rare colors",
+    "low": 11000,
+    "high": 17600
+  },
+  {
+    "id": "fender4-12",
+    "family": "bass-vi",
+    "model": "Fender Bass VI",
+    "years": "1966 to 1969",
+    "configuration": "Sunburst",
+    "low": 5800,
+    "high": 7550
+  },
+  {
+    "id": "fender4-13",
+    "family": "bass-vi",
+    "model": "Fender Bass VI",
+    "years": "1970 to 1971",
+    "configuration": "Custom colors",
+    "low": 7850,
+    "high": 10450
+  },
+  {
+    "id": "fender4-14",
+    "family": "bass-vi",
+    "model": "Fender Bass VI",
+    "years": "1970 to 1971",
+    "configuration": "Sunburst",
+    "low": 4750,
+    "high": 6450
+  },
+  {
+    "id": "fender4-15",
+    "family": "bass-vi",
+    "model": "Fender Bass VI",
+    "years": "1972 to 1974",
+    "configuration": "Custom colors",
+    "low": 7300,
+    "high": 9900
+  },
+  {
+    "id": "fender4-16",
+    "family": "bass-vi",
+    "model": "Fender Bass VI",
+    "years": "1972 to 1974",
+    "configuration": "Natural",
+    "low": 4650,
+    "high": 6250
+  },
+  {
+    "id": "fender4-17",
+    "family": "bass-vi",
+    "model": "Fender Bass VI",
+    "years": "1972 to 1974",
+    "configuration": "Sunburst",
+    "low": 4650,
+    "high": 6250
+  },
+  {
+    "id": "fender4-18",
+    "family": "bass-vi",
+    "model": "Fender Bass VI",
+    "years": "1972 to 1974",
+    "configuration": "Walnut",
+    "low": 4450,
+    "high": 5950
+  },
+  {
+    "id": "fender4-19",
+    "family": "bass-vi",
+    "model": "Fender Bass VI",
+    "years": "1975",
+    "configuration": "Black, blond or white",
+    "low": 4500,
+    "high": 6000
+  },
+  {
+    "id": "fender4-20",
+    "family": "bass-vi",
+    "model": "Fender Bass VI",
+    "years": "1975",
+    "configuration": "Natural",
+    "low": 4150,
+    "high": 5650
+  },
+  {
+    "id": "fender4-21",
+    "family": "bass-vi",
+    "model": "Fender Bass VI",
+    "years": "1975",
+    "configuration": "Sunburst",
+    "low": 4200,
+    "high": 5700
+  },
+  {
+    "id": "fender4-22",
+    "family": "bass-vi",
+    "model": "Fender Bass VI",
+    "years": "1975",
+    "configuration": "Walnut",
+    "low": 4050,
+    "high": 5550
+  },
+  {
+    "id": "fender4-23",
+    "family": "custom",
+    "model": "Telecaster Custom",
+    "years": "1972",
+    "configuration": "Wide Range neck pickup and single-coil bridge pickup",
+    "low": 3150,
+    "high": 4800
+  },
+  {
+    "id": "fender4-24",
+    "family": "custom",
+    "model": "Telecaster Custom",
+    "years": "1973 to 1974",
+    "configuration": "Wide Range neck pickup and single-coil bridge pickup",
+    "low": 2800,
+    "high": 3700
+  },
+  {
+    "id": "fender4-25",
+    "family": "custom",
+    "model": "Telecaster Custom",
+    "years": "1975 to 1977",
+    "configuration": "Wide Range neck pickup and single-coil bridge pickup",
+    "low": 2700,
+    "high": 3550
+  },
+  {
+    "id": "fender4-26",
+    "family": "custom",
+    "model": "Telecaster Custom",
+    "years": "1978 to 1979",
+    "configuration": "Wide Range neck pickup and single-coil bridge pickup",
+    "low": 2300,
+    "high": 3000
+  },
+  {
+    "id": "fender4-27",
+    "family": "custom",
+    "model": "Telecaster Custom",
+    "years": "1980 to 1981",
+    "configuration": "Wide Range neck pickup and single-coil bridge pickup",
+    "low": 2300,
+    "high": 3000
+  },
+  {
+    "id": "fender4-28",
+    "family": "deluxe",
+    "model": "Telecaster Deluxe",
+    "years": "1973 to 1974",
+    "configuration": "Common color",
+    "low": 2950,
+    "high": 3900
+  },
+  {
+    "id": "fender4-29",
+    "family": "deluxe",
+    "model": "Telecaster Deluxe",
+    "years": "1973 to 1974",
+    "configuration": "Less common color",
+    "low": 3750,
+    "high": 4900
+  },
+  {
+    "id": "fender4-30",
+    "family": "deluxe",
+    "model": "Telecaster Deluxe",
+    "years": "1975",
+    "configuration": "Common color",
+    "low": 2400,
+    "high": 3400
+  },
+  {
+    "id": "fender4-31",
+    "family": "deluxe",
+    "model": "Telecaster Deluxe",
+    "years": "1975",
+    "configuration": "Less common color",
+    "low": 3400,
+    "high": 4450
+  },
+  {
+    "id": "fender4-32",
+    "family": "deluxe",
+    "model": "Telecaster Deluxe",
+    "years": "1976 to 1977",
+    "configuration": "Common color",
+    "low": 2450,
+    "high": 3500
+  },
+  {
+    "id": "fender4-33",
+    "family": "deluxe",
+    "model": "Telecaster Deluxe",
+    "years": "1978 to 1979",
+    "configuration": "Common color",
+    "low": 2200,
+    "high": 3050
+  },
+  {
+    "id": "fender4-34",
+    "family": "deluxe",
+    "model": "Telecaster Deluxe",
+    "years": "1980 to 1981",
+    "configuration": "Common color",
+    "low": 1950,
+    "high": 2650
+  },
+  {
+    "id": "fender4-35",
+    "family": "thinline",
+    "model": "Telecaster Thinline",
+    "years": "1968",
+    "configuration": "Common color",
+    "low": 13600,
+    "high": 17000
+  },
+  {
+    "id": "fender4-36",
+    "family": "thinline",
+    "model": "Telecaster Thinline",
+    "years": "1968",
+    "configuration": "Natural ash",
+    "low": 9450,
+    "high": 12900
+  },
+  {
+    "id": "fender4-37",
+    "family": "thinline",
+    "model": "Telecaster Thinline",
+    "years": "1968",
+    "configuration": "Natural mahogany",
+    "low": 9700,
+    "high": 13200
+  },
+  {
+    "id": "fender4-38",
+    "family": "thinline",
+    "model": "Telecaster Thinline",
+    "years": "1968",
+    "configuration": "Rare color",
+    "low": 17000,
+    "high": 25500
+  },
+  {
+    "id": "fender4-39",
+    "family": "thinline",
+    "model": "Telecaster Thinline",
+    "years": "1969",
+    "configuration": "Common color",
+    "low": 12900,
+    "high": 17200
+  },
+  {
+    "id": "fender4-40",
+    "family": "thinline",
+    "model": "Telecaster Thinline",
+    "years": "1969",
+    "configuration": "Natural ash",
+    "low": 9700,
+    "high": 13200
+  },
+  {
+    "id": "fender4-41",
+    "family": "thinline",
+    "model": "Telecaster Thinline",
+    "years": "1969",
+    "configuration": "Natural mahogany",
+    "low": 9350,
+    "high": 12750
+  },
+  {
+    "id": "fender4-42",
+    "family": "thinline",
+    "model": "Telecaster Thinline",
+    "years": "1969",
+    "configuration": "Rare color",
+    "low": 17600,
+    "high": 22000
+  },
+  {
+    "id": "fender4-43",
+    "family": "thinline",
+    "model": "Telecaster Thinline",
+    "years": "1969",
+    "configuration": "Sunburst",
+    "low": 10300,
+    "high": 13750
+  },
+  {
+    "id": "fender4-44",
+    "family": "thinline",
+    "model": "Telecaster Thinline",
+    "years": "1970",
+    "configuration": "Common color",
+    "low": 13200,
+    "high": 17600
+  },
+  {
+    "id": "fender4-45",
+    "family": "thinline",
+    "model": "Telecaster Thinline",
+    "years": "1970",
+    "configuration": "Natural ash",
+    "low": 9350,
+    "high": 12750
+  },
+  {
+    "id": "fender4-46",
+    "family": "thinline",
+    "model": "Telecaster Thinline",
+    "years": "1970",
+    "configuration": "Natural mahogany",
+    "low": 9350,
+    "high": 12750
+  },
+  {
+    "id": "fender4-47",
+    "family": "thinline",
+    "model": "Telecaster Thinline",
+    "years": "1970",
+    "configuration": "Rare color",
+    "low": 17400,
+    "high": 21750
+  },
+  {
+    "id": "fender4-48",
+    "family": "thinline",
+    "model": "Telecaster Thinline",
+    "years": "1970",
+    "configuration": "Sunburst",
+    "low": 10700,
+    "high": 14250
+  },
+  {
+    "id": "fender4-49",
+    "family": "thinline",
+    "model": "Telecaster Thinline",
+    "years": "1971",
+    "configuration": "Color option; three-bolt neck, humbuckers",
+    "low": 7900,
+    "high": 10550
+  },
+  {
+    "id": "fender4-50",
+    "family": "thinline",
+    "model": "Telecaster Thinline",
+    "years": "1971",
+    "configuration": "Color option; four-bolt neck, single-coils",
+    "low": 12300,
+    "high": 15850
+  },
+  {
+    "id": "fender4-51",
+    "family": "thinline",
+    "model": "Telecaster Thinline",
+    "years": "1971",
+    "configuration": "Natural ash; three-bolt neck, humbuckers",
+    "low": 4350,
+    "high": 6100
+  },
+  {
+    "id": "fender4-52",
+    "family": "thinline",
+    "model": "Telecaster Thinline",
+    "years": "1971",
+    "configuration": "Natural ash; four-bolt neck, single-coils",
+    "low": 9550,
+    "high": 13050
+  },
+  {
+    "id": "fender4-53",
+    "family": "thinline",
+    "model": "Telecaster Thinline",
+    "years": "1971",
+    "configuration": "Natural mahogany; three-bolt neck, humbuckers",
+    "low": 4250,
+    "high": 5950
+  },
+  {
+    "id": "fender4-54",
+    "family": "thinline",
+    "model": "Telecaster Thinline",
+    "years": "1971",
+    "configuration": "Natural mahogany; four-bolt neck, single-coils",
+    "low": 9450,
+    "high": 12900
+  },
+  {
+    "id": "fender4-55",
+    "family": "thinline",
+    "model": "Telecaster Thinline",
+    "years": "1971",
+    "configuration": "Sunburst; three-bolt neck, humbuckers",
+    "low": 4350,
+    "high": 6100
+  },
+  {
+    "id": "fender4-56",
+    "family": "thinline",
+    "model": "Telecaster Thinline",
+    "years": "1971",
+    "configuration": "Sunburst; four-bolt neck, single-coils",
+    "low": 5550,
+    "high": 7650
+  },
+  {
+    "id": "fender4-57",
+    "family": "thinline",
+    "model": "Telecaster Thinline",
+    "years": "1972",
+    "configuration": "Color option",
+    "low": 7100,
+    "high": 9800
+  },
+  {
+    "id": "fender4-58",
+    "family": "thinline",
+    "model": "Telecaster Thinline",
+    "years": "1972",
+    "configuration": "Mahogany",
+    "low": 3900,
+    "high": 5200
+  },
+  {
+    "id": "fender4-59",
+    "family": "thinline",
+    "model": "Telecaster Thinline",
+    "years": "1972",
+    "configuration": "Natural ash",
+    "low": 3850,
+    "high": 5100
+  },
+  {
+    "id": "fender4-60",
+    "family": "thinline",
+    "model": "Telecaster Thinline",
+    "years": "1972",
+    "configuration": "Sunburst",
+    "low": 4300,
+    "high": 5600
+  },
+  {
+    "id": "fender4-61",
+    "family": "thinline",
+    "model": "Telecaster Thinline",
+    "years": "1973",
+    "configuration": "Color option",
+    "low": 5200,
+    "high": 7400
+  },
+  {
+    "id": "fender4-62",
+    "family": "thinline",
+    "model": "Telecaster Thinline",
+    "years": "1973",
+    "configuration": "Mahogany",
+    "low": 4000,
+    "high": 5350
+  },
+  {
+    "id": "fender4-63",
+    "family": "thinline",
+    "model": "Telecaster Thinline",
+    "years": "1973",
+    "configuration": "Natural ash",
+    "low": 3900,
+    "high": 5200
+  },
+  {
+    "id": "fender4-64",
+    "family": "thinline",
+    "model": "Telecaster Thinline",
+    "years": "1973",
+    "configuration": "Sunburst",
+    "low": 4300,
+    "high": 5600
+  },
+  {
+    "id": "fender4-65",
+    "family": "thinline",
+    "model": "Telecaster Thinline",
+    "years": "1974",
+    "configuration": "Color option",
+    "low": 4000,
+    "high": 5350
+  },
+  {
+    "id": "fender4-66",
+    "family": "thinline",
+    "model": "Telecaster Thinline",
+    "years": "1974",
+    "configuration": "Mahogany",
+    "low": 3050,
+    "high": 4350
+  },
+  {
+    "id": "fender4-67",
+    "family": "thinline",
+    "model": "Telecaster Thinline",
+    "years": "1974",
+    "configuration": "Natural ash",
+    "low": 3050,
+    "high": 4350
+  },
+  {
+    "id": "fender4-68",
+    "family": "thinline",
+    "model": "Telecaster Thinline",
+    "years": "1974",
+    "configuration": "Sunburst",
+    "low": 3500,
+    "high": 4800
+  },
+  {
+    "id": "fender4-69",
+    "family": "thinline",
+    "model": "Telecaster Thinline",
+    "years": "1975",
+    "configuration": "Color option",
+    "low": 3850,
+    "high": 5100
+  },
+  {
+    "id": "fender4-70",
+    "family": "thinline",
+    "model": "Telecaster Thinline",
+    "years": "1975",
+    "configuration": "Natural ash",
+    "low": 3000,
+    "high": 4300
+  },
+  {
+    "id": "fender4-71",
+    "family": "thinline",
+    "model": "Telecaster Thinline",
+    "years": "1975",
+    "configuration": "Sunburst",
+    "low": 3500,
+    "high": 4800
+  },
+  {
+    "id": "fender4-72",
+    "family": "thinline",
+    "model": "Telecaster Thinline",
+    "years": "1976",
+    "configuration": "Color option",
+    "low": 2800,
+    "high": 3700
+  },
+  {
+    "id": "fender4-73",
+    "family": "thinline",
+    "model": "Telecaster Thinline",
+    "years": "1976",
+    "configuration": "Natural ash",
+    "low": 2750,
+    "high": 3600
+  },
+  {
+    "id": "fender4-74",
+    "family": "thinline",
+    "model": "Telecaster Thinline",
+    "years": "1976",
+    "configuration": "Sunburst",
+    "low": 2800,
+    "high": 3700
+  },
+  {
+    "id": "fender4-75",
+    "family": "thinline",
+    "model": "Telecaster Thinline",
+    "years": "1977",
+    "configuration": "Color option",
+    "low": 2850,
+    "high": 3750
+  },
+  {
+    "id": "fender4-76",
+    "family": "thinline",
+    "model": "Telecaster Thinline",
+    "years": "1977",
+    "configuration": "Natural ash",
+    "low": 2800,
+    "high": 3650
+  },
+  {
+    "id": "fender4-77",
+    "family": "thinline",
+    "model": "Telecaster Thinline",
+    "years": "1977",
+    "configuration": "Sunburst",
+    "low": 2800,
+    "high": 3700
+  },
+  {
+    "id": "fender4-78",
+    "family": "thinline",
+    "model": "Telecaster Thinline",
+    "years": "1978",
+    "configuration": "Color option",
+    "low": 2600,
+    "high": 3500
+  },
+  {
+    "id": "fender4-79",
+    "family": "thinline",
+    "model": "Telecaster Thinline",
+    "years": "1978",
+    "configuration": "Natural ash",
+    "low": 2600,
+    "high": 3500
+  },
+  {
+    "id": "fender4-80",
+    "family": "thinline",
+    "model": "Telecaster Thinline",
+    "years": "1978",
+    "configuration": "Sunburst",
+    "low": 2600,
+    "high": 3450
+  }
+]
