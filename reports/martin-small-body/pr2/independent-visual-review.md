@@ -25,7 +25,7 @@ All authentication/value pairs for `martin-000-28`, `martin-15-17-series`, and `
 | Tables | All six tables fit their desktop containers; all six mobile containers scroll the full 425px needed to expose their rightmost columns. |
 | FAQs | The first FAQ was opened interactively on every page/width; expanded FAQ screenshots were independently inspected on all 12 views. |
 | Anchor navigation | All 120 fresh hash navigations passed after a 2.2-second smooth-scroll settling interval, with no broken images visible at the target. |
-| Contrast | The parent's final complete text-run audit contains 3,282 runs, zero computed failures and zero axe contrast violations; I separately inspected heroes, tables, archive text and expanded FAQs. |
+| Contrast | The parent's final complete text-run audit contains 3,268 runs, zero computed failures and zero axe contrast violations; I separately inspected heroes, tables, archive text and expanded FAQs. |
 
 Deep ancestor and `::before`/`::after` walks for every article H1/H2 are recorded in `independent/rendered.json`, including the J-200 reference. The cream body, dark hero/timeline treatment, numbered section hierarchy, light striped tables and rust actions follow that reference through the existing model-guide kit. The PR 2 section inventories and model-specific photos are intentional content differences.
 
