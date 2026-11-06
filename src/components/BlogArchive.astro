@@ -87,7 +87,7 @@ const { heading, intro, posts, current, total, basePath, categories, activeCateg
             lazy image is still fetched during initial layout, so this costs
             desktop nothing. Measured live 2026-07-26. */}
         {posts.map((post, i) => (
-          <PostCard post={post} eager={current === 1 && i < 1} />
+          <PostCard post={post} eager={current === 1 && i < 1} imageSizes="(max-width: 560px) calc(100vw - 50px), (max-width: 900px) calc((100vw - 80px) / 2), (max-width: 1140px) calc((100vw - 110px) / 3), 343.3px" />
         ))}
       </div>
     ) : (

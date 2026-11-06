@@ -1,4 +1,6 @@
 ---
+import { Image, getImage } from "astro:assets";
+import { resolveImage } from "../../lib/images";
 import GuideActions from "../../components/GuideActions.astro";
 import Layout from "../../layouts/Layout.astro";
 import BrandDatingGuides from "../../components/BrandDatingGuides.astro";
@@ -85,9 +87,26 @@ const faqs = [
   { q: "Can An ES-345 Or ES-355 Be Converted From Stereo To Mono?", a: "Yes. Many stereo ES-345s and ES-355s were converted to mono so they’d be easier to use with a standard amplifier. A conversion can affect originality and collector value, so keep the original harness and every removed part with the guitar." },
 ];
 
+
+// 1180px shell, 18px gaps and 1px card borders; hero stays three-up on mobile.
+const heroSizes = '(max-width: 620px) calc((100vw - 50px) / 3), (max-width: 1220px) calc((100vw - 82px) / 3), 379.3px';
+const cardSizes = '(max-width: 620px) calc(100vw - 30px), (max-width: 860px) calc((100vw - 62px) / 2), (max-width: 1220px) calc((100vw - 82px) / 3), 379.3px';
+const photoSource = (path: string) => {
+  const src = resolveImage(path);
+  if (!src) throw new Error('Missing ES comparison pipeline image: ' + path);
+  return src;
+};
+const photoWidths = (path: string) => {
+  const { width } = photoSource(path);
+  return [...new Set([240, 320, 400, 480, 640, 750, 960, 1200, width].filter(w => w <= width))].sort((a, b) => a - b);
+};
+// The article's existing single licensed node describes this rendered hero.
+const licensedHero = await getImage({ src: photoSource('/images/es-comparison/1959-es-355-full.webp'), layout: 'none', widths: photoWidths('/images/es-comparison/1959-es-355-full.webp'), format: 'webp' });
+
 const imageSchema = {
   "@type": "ImageObject",
-  url: heroImage,
+  url: `${SITE_URL}${licensedHero.src}`,
+  contentUrl: `${SITE_URL}${licensedHero.src}`,
   width: 1200,
   height: 1800,
   caption: "Cherry 1959 Gibson ES-355 with gold hardware and Bigsby vibrato",
@@ -168,7 +187,7 @@ const faqSchema = {
       <div class="esf-shell esf-hero__photos" aria-label="Full-body examples of the three Gibson ES models">
         {heroPhotos.map((photo) => (
           <figure>
-            <img src={photo.src} alt={photo.alt} width={photo.width} height={photo.height} decoding="async" />
+            <Image src={photoSource(photo.src)} alt={photo.alt} width={photo.width} height={photo.height} layout="none" widths={photoWidths(photo.src)} format="webp" sizes={heroSizes} loading="eager" decoding="async" />
             <figcaption>{photo.label}</figcaption>
           </figure>
         ))}
@@ -208,7 +227,7 @@ const faqSchema = {
               {group.photos.map((photo) => (
                 <figure class="esf-photo-card">
                   <div class="esf-photo-card__image">
-                    <img src={photo.src} alt={photo.alt} width={photo.width} height={photo.height} loading="lazy" decoding="async" />
+                    <Image src={photoSource(photo.src)} alt={photo.alt} width={photo.width} height={photo.height} layout="none" widths={photoWidths(photo.src)} format="webp" sizes={cardSizes} loading="lazy" decoding="async" />
                     <span>{photo.label}</span>
                   </div>
                   <figcaption>{photo.caption}</figcaption>
@@ -251,7 +270,7 @@ const faqSchema = {
         <div class="esf-example-grid">
           {realExamples.map((photo) => (
             <a class="esf-example-card" href={photo.href}>
-              <img src={photo.src} alt={photo.alt} width={photo.width} height={photo.height} loading="lazy" decoding="async" />
+              <Image src={photoSource(photo.src)} alt={photo.alt} width={photo.width} height={photo.height} layout="none" widths={photoWidths(photo.src)} format="webp" sizes={cardSizes} loading="lazy" decoding="async" />
               <span class="esf-example-card__body"><strong>{photo.label}</strong><span>{photo.caption}</span><small>Read The Related Article →</small></span>
             </a>
           ))}
