@@ -1,0 +1,32 @@
+[
+  {
+    "slug": "martin-000-18-authentication-guide",
+    "code": 1,
+    "output": "[audit] Live:  https://0c9dcb45.joes-vintage-guitars.pages.dev/post/martin-000-18-authentication-guide/\n[audit] Local: http://127.0.0.1:4328/post/martin-000-18-authentication-guide/\n[audit] Slug:  photo-refresh-martin-000-18-authentication-guide\n\n[audit] Liveness-checking 13 asset URL(s) on local (img/picture/poster/iframe)...\n\n[audit] Report: C:\\Users\\joeda\\Documents\\Codex\\2026-11-03\\https-mail-google-com-mail-u\\work\\martin-small-body-1\\reports\\photo-refresh-martin-000-18-authentication-guide-audit-2026-11-06T18-18-56-967Z.md\n[audit] ðŸ”´ must-fix: 1  ðŸŸ¡ should-fix: 4  ðŸŸ¢ acceptable: 0\n"
+  },
+  {
+    "slug": "martin-000-18-value-guide",
+    "code": 1,
+    "output": "[audit] Live:  https://0c9dcb45.joes-vintage-guitars.pages.dev/post/martin-000-18-value-guide/\n[audit] Local: http://127.0.0.1:4328/post/martin-000-18-value-guide/\n[audit] Slug:  photo-refresh-martin-000-18-value-guide\n\n[audit] Liveness-checking 9 asset URL(s) on local (img/picture/poster/iframe)...\n\n[audit] Report: C:\\Users\\joeda\\Documents\\Codex\\2026-11-03\\https-mail-google-com-mail-u\\work\\martin-small-body-1\\reports\\photo-refresh-martin-000-18-value-guide-audit-2026-11-06T18-18-56-949Z.md\n[audit] ðŸ”´ must-fix: 1  ðŸŸ¡ should-fix: 2  ðŸŸ¢ acceptable: 1\n"
+  },
+  {
+    "slug": "martin-00-18-authentication-guide",
+    "code": 1,
+    "output": "[audit] Live:  https://0c9dcb45.joes-vintage-guitars.pages.dev/post/martin-00-18-authentication-guide/\n[audit] Local: http://127.0.0.1:4328/post/martin-00-18-authentication-guide/\n[audit] Slug:  photo-refresh-martin-00-18-authentication-guide\n\n[audit] Liveness-checking 16 asset URL(s) on local (img/picture/poster/iframe)...\n\n[audit] Report: C:\\Users\\joeda\\Documents\\Codex\\2026-11-03\\https-mail-google-com-mail-u\\work\\martin-small-body-1\\reports\\photo-refresh-martin-00-18-authentication-guide-audit-2026-11-06T18-18-56-979Z.md\n[audit] ðŸ”´ must-fix: 1  ðŸŸ¡ should-fix: 5  ðŸŸ¢ acceptable: 1\n"
+  },
+  {
+    "slug": "martin-00-18-value-guide",
+    "code": 1,
+    "output": "[audit] Live:  https://0c9dcb45.joes-vintage-guitars.pages.dev/post/martin-00-18-value-guide/\n[audit] Local: http://127.0.0.1:4328/post/martin-00-18-value-guide/\n[audit] Slug:  photo-refresh-martin-00-18-value-guide\n\n[audit] Liveness-checking 9 asset URL(s) on local (img/picture/poster/iframe)...\n\n[audit] Report: C:\\Users\\joeda\\Documents\\Codex\\2026-11-03\\https-mail-google-com-mail-u\\work\\martin-small-body-1\\reports\\photo-refresh-martin-00-18-value-guide-audit-2026-11-06T18-18-56-973Z.md\n[audit] ðŸ”´ must-fix: 1  ðŸŸ¡ should-fix: 2  ðŸŸ¢ acceptable: 1\n"
+  },
+  {
+    "slug": "martin-0-18-authentication-guide",
+    "code": 1,
+    "output": "[audit] Live:  https://0c9dcb45.joes-vintage-guitars.pages.dev/post/martin-0-18-authentication-guide/\n[audit] Local: http://127.0.0.1:4328/post/martin-0-18-authentication-guide/\n[audit] Slug:  photo-refresh-martin-0-18-authentication-guide\n\n[audit] Liveness-checking 18 asset URL(s) on local (img/picture/poster/iframe)...\n\n[audit] Report: C:\\Users\\joeda\\Documents\\Codex\\2026-11-03\\https-mail-google-com-mail-u\\work\\martin-small-body-1\\reports\\photo-refresh-martin-0-18-authentication-guide-audit-2026-11-06T18-18-56-975Z.md\n[audit] ðŸ”´ must-fix: 1  ðŸŸ¡ should-fix: 5  ðŸŸ¢ acceptable: 1\n"
+  },
+  {
+    "slug": "martin-0-18-value-guide",
+    "code": 1,
+    "output": "[audit] Live:  https://0c9dcb45.joes-vintage-guitars.pages.dev/post/martin-0-18-value-guide/\n[audit] Local: http://127.0.0.1:4328/post/martin-0-18-value-guide/\n[audit] Slug:  photo-refresh-martin-0-18-value-guide\n\n[audit] Liveness-checking 9 asset URL(s) on local (img/picture/poster/iframe)...\n\n[audit] Report: C:\\Users\\joeda\\Documents\\Codex\\2026-11-03\\https-mail-google-com-mail-u\\work\\martin-small-body-1\\reports\\photo-refresh-martin-0-18-value-guide-audit-2026-11-06T18-18-56-974Z.md\n[audit] ðŸ”´ must-fix: 1  ðŸŸ¡ should-fix: 2  ðŸŸ¢ acceptable: 1\n"
+  }
+]

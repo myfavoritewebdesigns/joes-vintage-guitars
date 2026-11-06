@@ -1,11 +1,11 @@
 === build ===
-16:12:29 [@astrojs/sitemap] `sitemap-index.xml` created at `dist`
-16:12:29 [build] 466 page(s) built in 36.16s
-16:12:29 [build] Complete!
-[stable-share-images] 294 pages now share a permanent /og/ image
-[image-sitemap] 450 pages, 4390 image entries -> dist/image-sitemap.xml
-[indexnow] 450 production URLs in manifest (7f5d236)
-[image-variants] Removed 2413 unused generated variants; 18014 files remain
+11:21:09 [@astrojs/sitemap] `sitemap-index.xml` created at `dist`
+11:21:09 [build] 466 page(s) built in 28.60s
+11:21:09 [build] Complete!
+[stable-share-images] 297 pages now share a permanent /og/ image
+[image-sitemap] 450 pages, 4408 image entries -> dist/image-sitemap.xml
+[indexnow] 450 production URLs in manifest (9d44c38)
+[image-variants] Removed 2425 unused generated variants; 18193 files remain
 
 
 === astro-check ===
@@ -19,7 +19,7 @@ Result (438 files):
 === copy ===
 
 Scanned 466 pages.
-Report: reports\seo-v2\check-copy-2026-11-05T23-09-45-386Z.md
+Report: reports\seo-v2\check-copy-2026-11-06T18-22-04-990Z.md
 
 ✓ 0 hard-fails. Copy gate is clean.
 🟡 803 warn(s) (report only, never gates).
@@ -29,34 +29,34 @@ Report: reports\seo-v2\check-copy-2026-11-05T23-09-45-386Z.md
 
 === Licensed ImageObject contentUrl == rendered <img src> ===
   post/martin-000-18-authentication-guide                      nodes= 10  OK
-  post/martin-000-18-value-guide                               nodes=  4  OK
-  post/martin-00-18-authentication-guide                       nodes= 13  OK
-  post/martin-00-18-value-guide                                nodes=  4  OK
-  post/martin-0-18-authentication-guide                        nodes=  8  OK
-  post/martin-0-18-value-guide                                 nodes=  4  OK
+  post/martin-000-18-value-guide                               nodes=  6  OK
+  post/martin-00-18-authentication-guide                       nodes= 14  OK
+  post/martin-00-18-value-guide                                nodes=  6  OK
+  post/martin-0-18-authentication-guide                        nodes= 15  OK
+  post/martin-0-18-value-guide                                 nodes=  6  OK
 
-TOTAL licensed-content nodes: 43, mismatches: 0
+TOTAL licensed-content nodes: 57, mismatches: 0
 
 
 === ai-scan ===
 === /work/martin-000-18-authentication-guide.txt  [policy: longform] ===
   TIER 2 - WARN (use sparingly):
-    L1     crutch                                         'Authentic'          ...that the whole guitar is original. Authenticity And Originality Are Assessed Fr...
-    L1     crutch                                         'Authentic'          ...that the whole guitar is original. Authenticity And Originality Are Assessed Fr...
+    L1     crutch                                         'Authentic'          ...f the top’s underside out of view. Authenticity And Originality Are Assessed Fr...
+    L1     crutch                                         'Authentic'          ...f the top’s underside out of view. Authenticity And Originality Are Assessed Fr...
   DOCUMENT-LEVEL CHECKS (whole-draft, no line number):
-    [ok  ] contrast-pivot density     contrast density ok 0.17/200w
-    [ok  ] sentence-length variation  sentence variance ok SD 9.5
+    [ok  ] contrast-pivot density     contrast density ok 0.16/200w
+    [ok  ] sentence-length variation  sentence variance ok SD 9.4
     [off ] specificity floor          not run under policy 'longform'
     [ok  ] section-template rhythm    heading template ok
     [ok  ] data tables                data tables ok (none)
-    [WARN] staccato beats             STACCATO BEAT x1: consecutive fragments used as a punch, write the sentence - L1: 1944 Martin 000-18: mahogany back. 1944 Martin 000-18: headstock face.
-    [ok  ] contractions               contractions ok 8.56/1000 words
+    [WARN] staccato beats             STACCATO BEAT x1: consecutive fragments used as a punch, write the sentence - L1: 1960 Martin 000-18: headstock face. 1960 Martin 000-18: mahogany back.
+    [ok  ] contractions               contractions ok 6.94/1000 words
     [ok  ] bold-label case            bold labels ok (none)
     [ok  ] reaction emoji             reaction emoji ok (none)
     [ok  ] praise stacking            praise stacking ok
     [off ] social channel checks      not run under policy 'longform'
     [n/a ] cross-draft similarity     not run; pass --batch to compare these 6 inputs as a set
-  metrics: words=2296 contrast=0.17/200w (2 hits) sentence_sd=9.45 exempted=0
+  metrics: words=2412 contrast=0.16/200w (2 hits) sentence_sd=9.38 exempted=0
   (of the totals below, document-level: BAN 0, WARN 1)
 SUMMARY /work/martin-000-18-authentication-guide.txt: PASS - BAN 0, WARN 3
 === /work/martin-000-18-value-guide.txt  [policy: longform] ===
@@ -64,103 +64,103 @@ SUMMARY /work/martin-000-18-authentication-guide.txt: PASS - BAN 0, WARN 3
     L1     crutch                                         'Authentic'          ...ing And Condition Resources 000-18 Authentication Settle the body, scale and co...
   DOCUMENT-LEVEL CHECKS (whole-draft, no line number):
     [ok  ] contrast-pivot density     contrast density ok 0.10/200w
-    [ok  ] sentence-length variation  sentence variance ok SD 20.8
+    [ok  ] sentence-length variation  sentence variance ok SD 20.5
     [off ] specificity floor          not run under policy 'longform'
     [ok  ] section-template rhythm    heading template ok
     [ok  ] data tables                data tables ok (none)
     [ok  ] staccato beats             staccato beat ok (none)
-    [ok  ] contractions               contractions ok 9.08/1000 words
+    [ok  ] contractions               contractions ok 8.41/1000 words
     [ok  ] bold-label case            bold labels ok (none)
     [ok  ] reaction emoji             reaction emoji ok (none)
     [ok  ] praise stacking            praise stacking ok
     [off ] social channel checks      not run under policy 'longform'
     [n/a ] cross-draft similarity     not run; pass --batch to compare these 6 inputs as a set
-  metrics: words=1950 contrast=0.1/200w (1 hits) sentence_sd=20.76 exempted=0
+  metrics: words=1993 contrast=0.1/200w (1 hits) sentence_sd=20.5 exempted=0
 SUMMARY /work/martin-000-18-value-guide.txt: PASS - BAN 0, WARN 1
 === /work/martin-00-18-authentication-guide.txt  [policy: longform] ===
   TIER 2 - WARN (use sparingly):
     L1     crutch                                         'Authentic'          ...uick acceptance or rejection test. Authenticity And Originality Are Assessed Fr...
   DOCUMENT-LEVEL CHECKS (whole-draft, no line number):
-    [ok  ] contrast-pivot density     contrast density ok 0.43/200w
-    [ok  ] sentence-length variation  sentence variance ok SD 8.9
+    [ok  ] contrast-pivot density     contrast density ok 0.33/200w
+    [ok  ] sentence-length variation  sentence variance ok SD 8.8
     [off ] specificity floor          not run under policy 'longform'
     [ok  ] section-template rhythm    heading template ok
     [ok  ] data tables                data tables ok (none)
     [WARN] staccato beats             STACCATO BEAT x1: consecutive fragments used as a punch, write the sentence - L1: 1952 Martin 00-18: mahogany back. 1952 Martin 00-18: body side.
-    [ok  ] contractions               contractions ok 6.5/1000 words
+    [ok  ] contractions               contractions ok 4.92/1000 words
     [ok  ] bold-label case            bold labels ok (none)
     [ok  ] reaction emoji             reaction emoji ok (none)
     [ok  ] praise stacking            praise stacking ok
     [off ] social channel checks      not run under policy 'longform'
     [n/a ] cross-draft similarity     not run; pass --batch to compare these 6 inputs as a set
-  metrics: words=2271 contrast=0.43/200w (5 hits) sentence_sd=8.89 exempted=0
+  metrics: words=2405 contrast=0.33/200w (4 hits) sentence_sd=8.82 exempted=0
   (of the totals below, document-level: BAN 0, WARN 1)
 SUMMARY /work/martin-00-18-authentication-guide.txt: PASS - BAN 0, WARN 2
 === /work/martin-00-18-value-guide.txt  [policy: longform] ===
   DOCUMENT-LEVEL CHECKS (whole-draft, no line number):
     [ok  ] contrast-pivot density     contrast density ok 0.19/200w
-    [ok  ] sentence-length variation  sentence variance ok SD 24.4
+    [ok  ] sentence-length variation  sentence variance ok SD 24.0
     [off ] specificity floor          not run under policy 'longform'
     [ok  ] section-template rhythm    heading template ok
     [ok  ] data tables                data tables ok (none)
     [ok  ] staccato beats             staccato beat ok (none)
-    [ok  ] contractions               contractions ok 7.71/1000 words
+    [ok  ] contractions               contractions ok 7.17/1000 words
     [ok  ] bold-label case            bold labels ok (none)
     [ok  ] reaction emoji             reaction emoji ok (none)
     [ok  ] praise stacking            praise stacking ok
     [off ] social channel checks      not run under policy 'longform'
     [n/a ] cross-draft similarity     not run; pass --batch to compare these 6 inputs as a set
   clean - no tier-1 or tier-2 hits
-  metrics: words=2050 contrast=0.19/200w (2 hits) sentence_sd=24.37 exempted=0
+  metrics: words=2068 contrast=0.19/200w (2 hits) sentence_sd=24.04 exempted=0
 SUMMARY /work/martin-00-18-value-guide.txt: PASS - BAN 0, WARN 0
 === /work/martin-0-18-authentication-guide.txt  [policy: longform] ===
   DOCUMENT-LEVEL CHECKS (whole-draft, no line number):
-    [ok  ] contrast-pivot density     contrast density ok 0.32/200w
-    [ok  ] sentence-length variation  sentence variance ok SD 10.0
+    [ok  ] contrast-pivot density     contrast density ok 0.29/200w
+    [ok  ] sentence-length variation  sentence variance ok SD 9.7
     [off ] specificity floor          not run under policy 'longform'
     [ok  ] section-template rhythm    heading template ok
     [ok  ] data tables                data tables ok (none)
     [ok  ] staccato beats             staccato beat ok (none)
-    [ok  ] contractions               contractions ok 6.4/1000 words
+    [ok  ] contractions               contractions ok 5.47/1000 words
     [ok  ] bold-label case            bold labels ok (none)
     [ok  ] reaction emoji             reaction emoji ok (none)
     [ok  ] praise stacking            praise stacking ok
     [off ] social channel checks      not run under policy 'longform'
     [n/a ] cross-draft similarity     not run; pass --batch to compare these 6 inputs as a set
   clean - no tier-1 or tier-2 hits
-  metrics: words=2458 contrast=0.32/200w (4 hits) sentence_sd=9.98 exempted=0
+  metrics: words=2702 contrast=0.29/200w (4 hits) sentence_sd=9.74 exempted=0
 SUMMARY /work/martin-0-18-authentication-guide.txt: PASS - BAN 0, WARN 0
 === /work/martin-0-18-value-guide.txt  [policy: longform] ===
   DOCUMENT-LEVEL CHECKS (whole-draft, no line number):
     [ok  ] contrast-pivot density     contrast density ok 0.19/200w
-    [ok  ] sentence-length variation  sentence variance ok SD 19.0
+    [ok  ] sentence-length variation  sentence variance ok SD 18.5
     [off ] specificity floor          not run under policy 'longform'
     [ok  ] section-template rhythm    heading template ok
     [ok  ] data tables                data tables ok (none)
     [ok  ] staccato beats             staccato beat ok (none)
-    [ok  ] contractions               contractions ok 8.7/1000 words
+    [ok  ] contractions               contractions ok 7.47/1000 words
     [ok  ] bold-label case            bold labels ok (none)
     [ok  ] reaction emoji             reaction emoji ok (none)
     [ok  ] praise stacking            praise stacking ok
     [off ] social channel checks      not run under policy 'longform'
     [n/a ] cross-draft similarity     not run; pass --batch to compare these 6 inputs as a set
   clean - no tier-1 or tier-2 hits
-  metrics: words=2034 contrast=0.19/200w (2 hits) sentence_sd=18.99 exempted=0
+  metrics: words=2113 contrast=0.19/200w (2 hits) sentence_sd=18.5 exempted=0
 SUMMARY /work/martin-0-18-value-guide.txt: PASS - BAN 0, WARN 0
 TOTAL: BAN 0, WARN 6
 
 
 === visual ===
-martin-000-18-authentication-guide 1280 runs 229 computed failures 0 axe 0 overflow 0
-martin-000-18-value-guide 1280 runs 236 computed failures 0 axe 0 overflow 0
-martin-00-18-authentication-guide 1280 runs 243 computed failures 0 axe 0 overflow 0
-martin-00-18-value-guide 1280 runs 255 computed failures 0 axe 0 overflow 0
-martin-0-18-authentication-guide 1280 runs 239 computed failures 0 axe 0 overflow 0
-martin-0-18-value-guide 1280 runs 232 computed failures 0 axe 0 overflow 0
-martin-000-18-authentication-guide 375 runs 229 computed failures 0 axe 0 overflow 0
-martin-000-18-value-guide 375 runs 236 computed failures 0 axe 0 overflow 0
-martin-00-18-authentication-guide 375 runs 243 computed failures 0 axe 0 overflow 0
-martin-00-18-value-guide 375 runs 255 computed failures 0 axe 0 overflow 0
-martin-0-18-authentication-guide 375 runs 239 computed failures 0 axe 0 overflow 0
-martin-0-18-value-guide 375 runs 232 computed failures 0 axe 0 overflow 0
+martin-000-18-authentication-guide 1280 runs 242 computed failures 0 axe 0 overflow 0
+martin-000-18-value-guide 1280 runs 238 computed failures 0 axe 0 overflow 0
+martin-00-18-authentication-guide 1280 runs 257 computed failures 0 axe 0 overflow 0
+martin-00-18-value-guide 1280 runs 257 computed failures 0 axe 0 overflow 0
+martin-0-18-authentication-guide 1280 runs 258 computed failures 0 axe 0 overflow 0
+martin-0-18-value-guide 1280 runs 235 computed failures 0 axe 0 overflow 0
+martin-000-18-authentication-guide 375 runs 242 computed failures 0 axe 0 overflow 0
+martin-000-18-value-guide 375 runs 238 computed failures 0 axe 0 overflow 0
+martin-00-18-authentication-guide 375 runs 257 computed failures 0 axe 0 overflow 0
+martin-00-18-value-guide 375 runs 257 computed failures 0 axe 0 overflow 0
+martin-0-18-authentication-guide 375 runs 258 computed failures 0 axe 0 overflow 0
+martin-0-18-value-guide 375 runs 235 computed failures 0 axe 0 overflow 0
 VISUAL AUDIT COMPLETE

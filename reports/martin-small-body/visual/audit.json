@@ -22,7 +22,7 @@
     ],
     "brokenImages": [],
     "anchorFailures": [],
-    "textRuns": 229,
+    "textRuns": 242,
     "computedFailures": [],
     "layerUncertainties": 10,
     "axeViolations": [],
@@ -701,7 +701,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "1944 Martin 000-18: full front.",
+        "text": "1960 Martin 000-18: full front from Joe’s clean original-family example.",
         "tag": "FIGCAPTION",
         "class": "",
         "foreground": "rgb(255, 255, 255)",
@@ -845,7 +845,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "1944 And 1960",
+        "text": "1938, 1951 And 1960",
         "tag": "P",
         "class": "",
         "foreground": "rgb(255, 255, 255)",
@@ -909,7 +909,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "I use the photographed 1944 and 1960 guitars here to keep the comparison tied to actual instruments. The 1944 close-ups show the s",
+        "text": "The photographs follow three 000-18s from 1938, 1951 and 1960. The prewar guitar supplies a dated headstock and stamp comparison; ",
         "tag": "P",
         "class": "",
         "foreground": "rgb(27, 25, 22)",
@@ -1053,7 +1053,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "Inspect Joe’s Wartime 000-18 Photographs",
+        "text": "Compare Joe’s 1938, 1951 And 1960 000-18s",
         "tag": "A",
         "class": "",
         "foreground": "rgb(157, 53, 27)",
@@ -1069,7 +1069,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "Read The Model And Date Without Filling In Digits",
+        "text": "Read The Model And Serial On Two Dated Guitars",
         "tag": "A",
         "class": "",
         "foreground": "rgb(157, 53, 27)",
@@ -1821,7 +1821,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "1944 Martin 000-18: full front.",
+        "text": "1938 Martin 000-18: full front of the prewar 14-fret guitar.",
         "tag": "FIGCAPTION",
         "class": "",
         "foreground": "rgb(255, 255, 255)",
@@ -1837,7 +1837,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "Joe’s 1944 and 1960 000-18s show the same model across wartime and postwar production.",
+        "text": "A 1938 prewar 000-18 and a 1951 one-owner example show the model across two production periods.",
         "tag": "BLOCKQUOTE",
         "class": "",
         "foreground": "rgb(255, 255, 255)",
@@ -1853,7 +1853,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "1960 Martin 000-18 from Joe’s archive.",
+        "text": "1951 Martin 000-18: one-owner example with a documented neck reset.",
         "tag": "FIGCAPTION",
         "class": "",
         "foreground": "rgb(255, 255, 255)",
@@ -2365,7 +2365,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "A Consistent Set Of Exterior Views",
+        "text": "Prewar Details And Preserved Postwar Examples",
         "tag": "P",
         "class": "",
         "foreground": "rgb(157, 53, 27)",
@@ -2381,7 +2381,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "Inspect Joe’s Wartime 000-18 Photographs",
+        "text": "Compare Joe’s 1938, 1951 And 1960 000-18s",
         "tag": "H2",
         "class": "",
         "foreground": "rgb(27, 25, 22)",
@@ -2397,7 +2397,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "1944 Archive Guitar",
+        "text": "1938 Prewar Guitar",
         "tag": "P",
         "class": "mg-eyebrow",
         "foreground": "rgb(157, 53, 27)",
@@ -2413,7 +2413,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "Top, Back And Headstock",
+        "text": "Headstock And Open-Gear Tuners",
         "tag": "H3",
         "class": "",
         "foreground": "rgb(27, 25, 22)",
@@ -2429,7 +2429,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "The same 1944 000-18 appears in all these views. You can compare its pickguard outline, belly bridge, headstock logo, installed tu",
+        "text": "The 1938 full-front photograph above shows the 14-fret body, belly bridge and tortoise-pattern guard. These close-ups add the head",
         "tag": "P",
         "class": "",
         "foreground": "rgb(27, 25, 22)",
@@ -2445,7 +2445,23 @@
         "unresolvedLayers": []
       },
       {
-        "text": "The full front also puts the close-ups in context. Save that overall view when collecting photographs from an owner. A set of tigh",
+        "text": "Martin tuner guide",
+        "tag": "A",
+        "class": "",
+        "foreground": "rgb(157, 53, 27)",
+        "background": [
+          225,
+          209,
+          180,
+          1
+        ],
+        "ratio": 4.725,
+        "required": 4.5,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": ". A matching appearance needs the surrounding wood and repair history checked before the hardware is called original.",
         "tag": "P",
         "class": "",
         "foreground": "rgb(27, 25, 22)",
@@ -2461,7 +2477,23 @@
         "unresolvedLayers": []
       },
       {
-        "text": "1944 Martin 000-18: top and pickguard.",
+        "text": "The readable block below dates this instrument independently of the archive filename. Its exterior views do not establish the X-br",
+        "tag": "P",
+        "class": "",
+        "foreground": "rgb(27, 25, 22)",
+        "background": [
+          225,
+          209,
+          180,
+          1
+        ],
+        "ratio": 11.677,
+        "required": 4.5,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "1938 Martin 000-18: headstock face and gold-script logo.",
         "tag": "FIGCAPTION",
         "class": "",
         "foreground": "rgb(255, 255, 255)",
@@ -2477,7 +2509,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "1944 Martin 000-18: mahogany back.",
+        "text": "1938 Martin 000-18: rear headstock and installed open-gear tuners.",
         "tag": "FIGCAPTION",
         "class": "",
         "foreground": "rgb(255, 255, 255)",
@@ -2493,7 +2525,103 @@
         "unresolvedLayers": []
       },
       {
-        "text": "1944 Martin 000-18: headstock face.",
+        "text": "1960 Original-Family Guitar",
+        "tag": "P",
+        "class": "mg-eyebrow",
+        "foreground": "rgb(157, 53, 27)",
+        "background": [
+          225,
+          209,
+          180,
+          1
+        ],
+        "ratio": 4.725,
+        "required": 4.5,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "A Clean Top Still Needs A Neck-Angle Check",
+        "tag": "H3",
+        "class": "",
+        "foreground": "rgb(27, 25, 22)",
+        "background": [
+          225,
+          209,
+          180,
+          1
+        ],
+        "ratio": 11.677,
+        "required": 3,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "Joe’s",
+        "tag": "P",
+        "class": "",
+        "foreground": "rgb(27, 25, 22)",
+        "background": [
+          225,
+          209,
+          180,
+          1
+        ],
+        "ratio": 11.677,
+        "required": 4.5,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "1960 listing",
+        "tag": "A",
+        "class": "",
+        "foreground": "rgb(157, 53, 27)",
+        "background": [
+          225,
+          209,
+          180,
+          1
+        ],
+        "ratio": 4.725,
+        "required": 4.5,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "describes original finish and parts, no cracks, and ownership within the original family. The headstock and back views belong to t",
+        "tag": "P",
+        "class": "",
+        "foreground": "rgb(27, 25, 22)",
+        "background": [
+          225,
+          209,
+          180,
+          1
+        ],
+        "ratio": 11.677,
+        "required": 4.5,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "The listing also identifies a neck reset as necessary to achieve low action. That repair need matters even on a guitar with unusua",
+        "tag": "P",
+        "class": "",
+        "foreground": "rgb(27, 25, 22)",
+        "background": [
+          225,
+          209,
+          180,
+          1
+        ],
+        "ratio": 11.677,
+        "required": 4.5,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "1960 Martin 000-18: headstock face.",
         "tag": "FIGCAPTION",
         "class": "",
         "foreground": "rgb(255, 255, 255)",
@@ -2509,23 +2637,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "1944 Martin 000-18: rear headstock and installed tuners.",
-        "tag": "FIGCAPTION",
-        "class": "",
-        "foreground": "rgb(255, 255, 255)",
-        "background": [
-          17,
-          17,
-          17,
-          1
-        ],
-        "ratio": 18.883,
-        "required": 4.5,
-        "pass": true,
-        "unresolvedLayers": []
-      },
-      {
-        "text": "1944 Martin 000-18: body side and heel.",
+        "text": "1960 Martin 000-18: mahogany back.",
         "tag": "FIGCAPTION",
         "class": "",
         "foreground": "rgb(255, 255, 255)",
@@ -2557,7 +2669,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "Neck-Block Evidence",
+        "text": "1938 And 1960 Neck-Block Evidence",
         "tag": "P",
         "class": "",
         "foreground": "rgb(157, 53, 27)",
@@ -2573,7 +2685,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "Read The Model And Date Without Filling In Digits",
+        "text": "Read The Model And Serial On Two Dated Guitars",
         "tag": "H2",
         "class": "",
         "foreground": "rgb(27, 25, 22)",
@@ -2589,7 +2701,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "8864? · Last Digit Obscured",
+        "text": "71570",
         "tag": "B",
         "class": "",
         "foreground": "rgb(200, 158, 87)",
@@ -2605,7 +2717,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "The Stamp In Joe’s 1944 000-18",
+        "text": "The 1938 Martin 000-18",
         "tag": "H3",
         "class": "",
         "foreground": "rgb(244, 239, 227)",
@@ -2621,7 +2733,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "The visible serial begins 8864, with its final digit partly hidden by a string. I haven’t filled in that digit. That visible five-",
+        "text": "The block reads 000-18 above 71570. Martin’s table ends 1937 at 68865 and 1938 at 71866, placing this guitar in 1938. All five dig",
         "tag": "P",
         "class": "",
         "foreground": "rgb(206, 199, 186)",
@@ -2637,7 +2749,71 @@
         "unresolvedLayers": []
       },
       {
-        "text": "1944 Martin 000-18: neck-block stamp with partly obscured final serial digit.",
+        "text": "1938 Martin 000-18: model stamp and serial 71570.",
+        "tag": "FIGCAPTION",
+        "class": "",
+        "foreground": "rgb(255, 255, 255)",
+        "background": [
+          17,
+          17,
+          17,
+          1
+        ],
+        "ratio": 18.883,
+        "required": 4.5,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "174299",
+        "tag": "B",
+        "class": "",
+        "foreground": "rgb(200, 158, 87)",
+        "background": [
+          36,
+          35,
+          33,
+          1
+        ],
+        "ratio": 6.344,
+        "required": 3,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "The 1960 Martin 000-18",
+        "tag": "H3",
+        "class": "",
+        "foreground": "rgb(244, 239, 227)",
+        "background": [
+          36,
+          35,
+          33,
+          1
+        ],
+        "ratio": 13.685,
+        "required": 3,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "This later block reads 000-18 and 174299. The factory year-end totals are 171047 for 1959 and 175689 for 1960, so the serial dates",
+        "tag": "P",
+        "class": "",
+        "foreground": "rgb(206, 199, 186)",
+        "background": [
+          36,
+          35,
+          33,
+          1
+        ],
+        "ratio": 9.349,
+        "required": 4.5,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "1960 Martin 000-18: model stamp and serial 174299.",
         "tag": "FIGCAPTION",
         "class": "",
         "foreground": "rgb(255, 255, 255)",
@@ -2669,7 +2845,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "lists the last number in each year. It doesn’t encode the model or certify originality. The separate model line identifies the 000",
+        "text": "lists the last number in each year. It doesn’t certify originality. The dated wood, construction and parts then need to agree with",
         "tag": "P",
         "class": "",
         "foreground": "rgb(27, 25, 22)",
@@ -3693,6 +3869,38 @@
         "unresolvedLayers": []
       },
       {
+        "text": "Joe’s 1951 One-Owner 000-18",
+        "tag": "A",
+        "class": "",
+        "foreground": "rgb(157, 53, 27)",
+        "background": [
+          243,
+          234,
+          216,
+          1
+        ],
+        "ratio": 5.939,
+        "required": 4.5,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "Photographs and the documented reset, bridge reglue, nut and saddle replacements.",
+        "tag": "P",
+        "class": "",
+        "foreground": "rgb(27, 25, 22)",
+        "background": [
+          243,
+          234,
+          216,
+          1
+        ],
+        "ratio": 14.677,
+        "required": 4.5,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
         "text": "Prewar Martin Construction",
         "tag": "A",
         "class": "",
@@ -4189,7 +4397,7 @@
     ],
     "brokenImages": [],
     "anchorFailures": [],
-    "textRuns": 236,
+    "textRuns": 238,
     "computedFailures": [],
     "layerUncertainties": 10,
     "axeViolations": [],
@@ -4868,7 +5076,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "1960 Martin 000-18 from Joe’s archive.",
+        "text": "1960 Martin 000-18: full front from Joe’s clean original-family example.",
         "tag": "FIGCAPTION",
         "class": "",
         "foreground": "rgb(255, 255, 255)",
@@ -7300,7 +7508,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "1944 Martin 000-18: mahogany back.",
+        "text": "1960 Martin 000-18: spruce top, tortoise-pattern guard and belly bridge.",
         "tag": "FIGCAPTION",
         "class": "",
         "foreground": "rgb(255, 255, 255)",
@@ -7316,7 +7524,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "A worn back and a clean front answer different condition questions. Photograph both before asking for a value.",
+        "text": "The 1960 and 1951 examples combine clean presentation with different maintenance histories. Include those records with the photogr",
         "tag": "BLOCKQUOTE",
         "class": "",
         "foreground": "rgb(255, 255, 255)",
@@ -7332,7 +7540,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "1960 Martin 000-18 from Joe’s archive.",
+        "text": "1951 Martin 000-18 in its original case; the listing documents replacement nut and saddle.",
         "tag": "FIGCAPTION",
         "class": "",
         "foreground": "rgb(255, 255, 255)",
@@ -7396,7 +7604,39 @@
         "unresolvedLayers": []
       },
       {
-        "text": "The 1944 guitar shown here has its own visible wear, installed hardware and partly obscured serial photograph. It illustrates the ",
+        "text": "1951 Martin 000-18: reglued original bridge and the visible footprint shadow.",
+        "tag": "FIGCAPTION",
+        "class": "",
+        "foreground": "rgb(255, 255, 255)",
+        "background": [
+          17,
+          17,
+          17,
+          1
+        ],
+        "ratio": 18.883,
+        "required": 4.5,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "1960 Martin 000-18 in its vintage chipboard case.",
+        "tag": "FIGCAPTION",
+        "class": "",
+        "foreground": "rgb(255, 255, 255)",
+        "background": [
+          17,
+          17,
+          17,
+          1
+        ],
+        "ratio": 18.883,
+        "required": 4.5,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "The 1951 one-owner example has a documented neck reset, a reglued original bridge and replacement bone nut and saddle. Its bridge ",
         "tag": "P",
         "class": "",
         "foreground": "rgb(27, 25, 22)",
@@ -8468,7 +8708,7 @@
     ],
     "brokenImages": [],
     "anchorFailures": [],
-    "textRuns": 243,
+    "textRuns": 257,
     "computedFailures": [],
     "layerUncertainties": 10,
     "axeViolations": [],
@@ -9483,6 +9723,22 @@
         "unresolvedLayers": []
       },
       {
+        "text": "Compare Clean 1951 And 1962 00-18 Examples",
+        "tag": "A",
+        "class": "",
+        "foreground": "rgb(157, 53, 27)",
+        "background": [
+          226,
+          212,
+          186,
+          1
+        ],
+        "ratio": 4.854,
+        "required": 4.5,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
         "text": "Identify Hawaiian And Koa Versions Before A Conversion Verdict",
         "tag": "A",
         "class": "",
@@ -10400,6 +10656,118 @@
         "class": "",
         "foreground": "rgb(27, 25, 22)",
         "background": [
+          243,
+          234,
+          216,
+          1
+        ],
+        "ratio": 14.677,
+        "required": 4.5,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "Dealer Branding Needs Its Own Research",
+        "tag": "P",
+        "class": "",
+        "foreground": "rgb(157, 53, 27)",
+        "background": [
+          243,
+          234,
+          216,
+          1
+        ],
+        "ratio": 5.939,
+        "required": 4.5,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "Read A Wurlitzer Name Without Assuming A Fake",
+        "tag": "H2",
+        "class": "",
+        "foreground": "rgb(27, 25, 22)",
+        "background": [
+          243,
+          234,
+          216,
+          1
+        ],
+        "ratio": 14.677,
+        "required": 3,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "Robert Corwin’s",
+        "tag": "P",
+        "class": "",
+        "foreground": "rgb(27, 25, 22)",
+        "background": [
+          243,
+          234,
+          216,
+          1
+        ],
+        "ratio": 14.677,
+        "required": 4.5,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "photographed Wurlitzer research",
+        "tag": "A",
+        "class": "",
+        "foreground": "rgb(157, 53, 27)",
+        "background": [
+          243,
+          234,
+          216,
+          1
+        ],
+        "ratio": 5.939,
+        "required": 4.5,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "identifies the 2086 with the Martin 00-18 family and dates the specially designated Company Line to 1922. A dealer’s name can ther",
+        "tag": "P",
+        "class": "",
+        "foreground": "rgb(27, 25, 22)",
+        "background": [
+          243,
+          234,
+          216,
+          1
+        ],
+        "ratio": 14.677,
+        "required": 4.5,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "A Wurlitzer name alone cannot settle who built a guitar or when it was made. Keep a seller’s attribution separate from the evidenc",
+        "tag": "P",
+        "class": "",
+        "foreground": "rgb(27, 25, 22)",
+        "background": [
+          243,
+          234,
+          216,
+          1
+        ],
+        "ratio": 14.677,
+        "required": 4.5,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "4",
+        "tag": "SPAN",
+        "class": "",
+        "foreground": "rgb(27, 25, 22)",
+        "background": [
           225,
           209,
           180,
@@ -10411,7 +10779,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "Dealer Branding And Archive Limits",
+        "text": "Different Years, Different Repair Records",
         "tag": "P",
         "class": "",
         "foreground": "rgb(157, 53, 27)",
@@ -10427,7 +10795,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "Read A Wurlitzer Name Without Assuming A Fake",
+        "text": "Compare Clean 1951 And 1962 00-18 Examples",
         "tag": "H2",
         "class": "",
         "foreground": "rgb(27, 25, 22)",
@@ -10443,7 +10811,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "Joe’s Wurlitzer Archive Example",
+        "text": "1951 One-Owner Guitar",
         "tag": "P",
         "class": "mg-eyebrow",
         "foreground": "rgb(157, 53, 27)",
@@ -10459,7 +10827,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "A 00-18 Cataloged As A 1924 Wurlitzer 2086",
+        "text": "Preserved Finish With A Documented Neck Reset",
         "tag": "H3",
         "class": "",
         "foreground": "rgb(27, 25, 22)",
@@ -10475,7 +10843,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "This guitar is cataloged in Joe’s archive as a 1924 Wurlitzer-branded 00-18, model 2086. The photograph shows Wurlitzer lettering ",
+        "text": "Joe’s",
         "tag": "P",
         "class": "",
         "foreground": "rgb(27, 25, 22)",
@@ -10491,39 +10859,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "Robert Corwin’s photographed research identifies Wurlitzer 2086 with the Martin 00-18 family, but dates the specially designated C",
-        "tag": "P",
-        "class": "",
-        "foreground": "rgb(27, 25, 22)",
-        "background": [
-          225,
-          209,
-          180,
-          1
-        ],
-        "ratio": 11.677,
-        "required": 4.5,
-        "pass": true,
-        "unresolvedLayers": []
-      },
-      {
-        "text": "The broader lesson is useful when an unfamiliar dealer name appears on an old Martin-style instrument. Record the name, any intern",
-        "tag": "P",
-        "class": "",
-        "foreground": "rgb(27, 25, 22)",
-        "background": [
-          225,
-          209,
-          180,
-          1
-        ],
-        "ratio": 11.677,
-        "required": 4.5,
-        "pass": true,
-        "unresolvedLayers": []
-      },
-      {
-        "text": "Wurlitzer instrument research",
+        "text": "1951 one-owner listing",
         "tag": "A",
         "class": "",
         "foreground": "rgb(157, 53, 27)",
@@ -10539,7 +10875,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "supplies a documented comparison; it doesn’t establish that every Wurlitzer guitar was made by Martin.",
+        "text": "records excellent original condition and a professional neck reset. It also discloses a shim beneath the fingerboard extension. Th",
         "tag": "P",
         "class": "",
         "foreground": "rgb(27, 25, 22)",
@@ -10555,7 +10891,23 @@
         "unresolvedLayers": []
       },
       {
-        "text": "Wurlitzer-branded 00-18 from Joe’s archive, cataloged as a 1924 model 2086: full front.",
+        "text": "Keep the reset and shim in the instrument’s written history. A clean finish and original ownership are useful facts, while the rep",
+        "tag": "P",
+        "class": "",
+        "foreground": "rgb(27, 25, 22)",
+        "background": [
+          225,
+          209,
+          180,
+          1
+        ],
+        "ratio": 11.677,
+        "required": 4.5,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "1951 Martin 00-18: full front of Joe’s clean one-owner example.",
         "tag": "FIGCAPTION",
         "class": "",
         "foreground": "rgb(255, 255, 255)",
@@ -10571,7 +10923,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "Wurlitzer-branded 00-18 from Joe’s archive, cataloged as a 1924 model 2086: Wurlitzer name on the headstock face.",
+        "text": "1951 Martin 00-18: side view of the bridge and saddle after its documented neck reset.",
         "tag": "FIGCAPTION",
         "class": "",
         "foreground": "rgb(255, 255, 255)",
@@ -10587,7 +10939,103 @@
         "unresolvedLayers": []
       },
       {
-        "text": "Wurlitzer-branded 00-18 from Joe’s archive, cataloged as a 1924 model 2086: X-bracing and bridge-pin area.",
+        "text": "1962 Guitar",
+        "tag": "P",
+        "class": "mg-eyebrow",
+        "foreground": "rgb(157, 53, 27)",
+        "background": [
+          225,
+          209,
+          180,
+          1
+        ],
+        "ratio": 4.725,
+        "required": 4.5,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "A Later Top And Tuner Comparison",
+        "tag": "H3",
+        "class": "",
+        "foreground": "rgb(27, 25, 22)",
+        "background": [
+          225,
+          209,
+          180,
+          1
+        ],
+        "ratio": 11.677,
+        "required": 3,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "The",
+        "tag": "P",
+        "class": "",
+        "foreground": "rgb(27, 25, 22)",
+        "background": [
+          225,
+          209,
+          180,
+          1
+        ],
+        "ratio": 11.677,
+        "required": 4.5,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "1962 listing",
+        "tag": "A",
+        "class": "",
+        "foreground": "rgb(157, 53, 27)",
+        "background": [
+          225,
+          209,
+          180,
+          1
+        ],
+        "ratio": 4.725,
+        "required": 4.5,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "describes excellent neck angle and low action, with a small professionally repaired hairline crack. Its front and rear-headstock p",
+        "tag": "P",
+        "class": "",
+        "foreground": "rgb(27, 25, 22)",
+        "background": [
+          225,
+          209,
+          180,
+          1
+        ],
+        "ratio": 11.677,
+        "required": 4.5,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "Read the condition note with the photo set. A subtle repaired crack may be difficult to see at normal page size. Good photographs ",
+        "tag": "P",
+        "class": "",
+        "foreground": "rgb(27, 25, 22)",
+        "background": [
+          225,
+          209,
+          180,
+          1
+        ],
+        "ratio": 11.677,
+        "required": 4.5,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "1962 Martin 00-18: spruce top and tortoise-pattern guard; the listing discloses a small repaired hairline crack.",
         "tag": "FIGCAPTION",
         "class": "",
         "foreground": "rgb(255, 255, 255)",
@@ -10603,7 +11051,23 @@
         "unresolvedLayers": []
       },
       {
-        "text": "4",
+        "text": "1962 Martin 00-18: rear headstock and open-gear tuners.",
+        "tag": "FIGCAPTION",
+        "class": "",
+        "foreground": "rgb(255, 255, 255)",
+        "background": [
+          17,
+          17,
+          17,
+          1
+        ],
+        "ratio": 18.883,
+        "required": 4.5,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "5",
         "tag": "SPAN",
         "class": "",
         "foreground": "rgb(27, 25, 22)",
@@ -10747,7 +11211,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "5",
+        "text": "6",
         "tag": "SPAN",
         "class": "",
         "foreground": "rgb(200, 158, 87)",
@@ -11083,7 +11547,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "6",
+        "text": "7",
         "tag": "SPAN",
         "class": "",
         "foreground": "rgb(27, 25, 22)",
@@ -11323,7 +11787,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "7",
+        "text": "8",
         "tag": "SPAN",
         "class": "",
         "foreground": "rgb(27, 25, 22)",
@@ -11563,7 +12027,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "8",
+        "text": "9",
         "tag": "SPAN",
         "class": "",
         "foreground": "rgb(27, 25, 22)",
@@ -11803,7 +12267,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "9",
+        "text": "10",
         "tag": "SPAN",
         "class": "",
         "foreground": "rgb(27, 25, 22)",
@@ -12251,7 +12715,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "10",
+        "text": "11",
         "tag": "SPAN",
         "class": "",
         "foreground": "rgb(27, 25, 22)",
@@ -12347,7 +12811,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "Photographed dealer models and the 2086 designation; note the archive dating conflict above.",
+        "text": "Photographed dealer models and the historical 2086 designation.",
         "tag": "P",
         "class": "",
         "foreground": "rgb(27, 25, 22)",
@@ -12859,7 +13323,7 @@
     ],
     "brokenImages": [],
     "anchorFailures": [],
-    "textRuns": 255,
+    "textRuns": 257,
     "computedFailures": [],
     "layerUncertainties": 10,
     "axeViolations": [],
@@ -15986,7 +16450,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "1952 Martin 00-18: bridge and saddle.",
+        "text": "1951 Martin 00-18 in its original hard case.",
         "tag": "FIGCAPTION",
         "class": "",
         "foreground": "rgb(255, 255, 255)",
@@ -16002,7 +16466,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "The 1952 00-18’s bridge view and back view document different parts of its condition.",
+        "text": "A 1951 one-owner 00-18 in its original case and the mahogany back of a 1962 example.",
         "tag": "BLOCKQUOTE",
         "class": "",
         "foreground": "rgb(255, 255, 255)",
@@ -16018,7 +16482,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "1952 Martin 00-18: mahogany back.",
+        "text": "1962 Martin 00-18: mahogany back.",
         "tag": "FIGCAPTION",
         "class": "",
         "foreground": "rgb(255, 255, 255)",
@@ -16370,6 +16834,38 @@
         "unresolvedLayers": []
       },
       {
+        "text": "1952 Martin 00-18: bridge and saddle.",
+        "tag": "FIGCAPTION",
+        "class": "",
+        "foreground": "rgb(255, 255, 255)",
+        "background": [
+          17,
+          17,
+          17,
+          1
+        ],
+        "ratio": 18.883,
+        "required": 4.5,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "1962 Martin 00-18: spruce top and tortoise-pattern guard; the listing discloses a small repaired hairline crack.",
+        "tag": "FIGCAPTION",
+        "class": "",
+        "foreground": "rgb(255, 255, 255)",
+        "background": [
+          17,
+          17,
+          17,
+          1
+        ],
+        "ratio": 18.883,
+        "required": 4.5,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
         "text": "Joe’s 1952 00-18 supplies a readable model and serial photograph together with the bridge, headstock, tuners, back and sides. That",
         "tag": "P",
         "class": "",
@@ -16386,7 +16882,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "The Wurlitzer-branded guitar in the authentication page is another kind of example: its dealer name needs historical investigation",
+        "text": "The 1951 guitar has a professional neck reset and a documented fingerboard-extension shim. The 1962 example has a small profession",
         "tag": "P",
         "class": "",
         "foreground": "rgb(27, 25, 22)",
@@ -17442,7 +17938,7 @@
     ],
     "brokenImages": [],
     "anchorFailures": [],
-    "textRuns": 239,
+    "textRuns": 258,
     "computedFailures": [],
     "layerUncertainties": 10,
     "axeViolations": [],
@@ -18121,7 +18617,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "Linda Gayle’s 1949 Martin 0-18: spruce top and dark pickguard.",
+        "text": "1966 Martin 0-18: full front of Joe’s lightly worn example.",
         "tag": "FIGCAPTION",
         "class": "",
         "foreground": "rgb(255, 255, 255)",
@@ -18217,7 +18713,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "Archive Serial",
+        "text": "Archive Years",
         "tag": "STRONG",
         "class": "",
         "foreground": "rgb(255, 255, 255)",
@@ -18233,7 +18729,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "112697 · 1949",
+        "text": "1925, 1951 And 1966",
         "tag": "P",
         "class": "",
         "foreground": "rgb(255, 255, 255)",
@@ -18329,7 +18825,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "The 1949 example belonged to Iowa country-western musician Linda Gayle. I bought it from her niece, who preserved the family photo",
+        "text": "The lead photograph shows a lightly worn 1966 guitar. Earlier views include a 1925 12-fret instrument and a 1951 example, with ser",
         "tag": "P",
         "class": "",
         "foreground": "rgb(27, 25, 22)",
@@ -18489,7 +18985,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "Read Serial 112697 On The Actual Neck Block",
+        "text": "Read The Neck Blocks Across Three Eras",
         "tag": "A",
         "class": "",
         "foreground": "rgb(157, 53, 27)",
@@ -19385,6 +19881,54 @@
         "unresolvedLayers": []
       },
       {
+        "text": "1925 Martin 0-18: 12-fret body and slotted headstock.",
+        "tag": "FIGCAPTION",
+        "class": "",
+        "foreground": "rgb(255, 255, 255)",
+        "background": [
+          17,
+          17,
+          17,
+          1
+        ],
+        "ratio": 18.883,
+        "required": 4.5,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "The 1925 12-fret 0-18 and 1951 14-fret example show the change in body outline and neck access.",
+        "tag": "BLOCKQUOTE",
+        "class": "",
+        "foreground": "rgb(255, 255, 255)",
+        "background": [
+          23,
+          22,
+          20,
+          1
+        ],
+        "ratio": 18.083,
+        "required": 3,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "1951 Martin 0-18: spruce top; the listing records a small repaired top crack.",
+        "tag": "FIGCAPTION",
+        "class": "",
+        "foreground": "rgb(255, 255, 255)",
+        "background": [
+          17,
+          17,
+          17,
+          1
+        ],
+        "ratio": 18.883,
+        "required": 4.5,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
         "text": "4",
         "tag": "SPAN",
         "class": "",
@@ -19849,7 +20393,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "The front shows the spruce grain, tortoise-pattern guard and plain Style 18 appointments. The back carries broad wear from use. Th",
+        "text": "I bought Linda’s guitar from her niece, with the family photographs and ownership account preserved. Its full condition photograph",
         "tag": "P",
         "class": "",
         "foreground": "rgb(27, 25, 22)",
@@ -19876,38 +20420,6 @@
           1
         ],
         "ratio": 11.677,
-        "required": 4.5,
-        "pass": true,
-        "unresolvedLayers": []
-      },
-      {
-        "text": "Linda Gayle’s 1949 Martin 0-18: spruce top and dark pickguard.",
-        "tag": "FIGCAPTION",
-        "class": "",
-        "foreground": "rgb(255, 255, 255)",
-        "background": [
-          17,
-          17,
-          17,
-          1
-        ],
-        "ratio": 18.883,
-        "required": 4.5,
-        "pass": true,
-        "unresolvedLayers": []
-      },
-      {
-        "text": "Linda Gayle’s 1949 Martin 0-18: mahogany back with visible playing wear.",
-        "tag": "FIGCAPTION",
-        "class": "",
-        "foreground": "rgb(255, 255, 255)",
-        "background": [
-          17,
-          17,
-          17,
-          1
-        ],
-        "ratio": 18.883,
         "required": 4.5,
         "pass": true,
         "unresolvedLayers": []
@@ -19945,7 +20457,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "A 1949 Date With A Separate Model Line",
+        "text": "1925, 1949 And 1966 Examples",
         "tag": "P",
         "class": "",
         "foreground": "rgb(157, 53, 27)",
@@ -19961,7 +20473,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "Read Serial 112697 On The Actual Neck Block",
+        "text": "Read The Neck Blocks Across Three Eras",
         "tag": "H2",
         "class": "",
         "foreground": "rgb(27, 25, 22)",
@@ -19973,6 +20485,70 @@
         ],
         "ratio": 14.677,
         "required": 3,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "23781",
+        "tag": "B",
+        "class": "",
+        "foreground": "rgb(200, 158, 87)",
+        "background": [
+          36,
+          35,
+          33,
+          1
+        ],
+        "ratio": 6.344,
+        "required": 3,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "The 1925 12-Fret 0-18",
+        "tag": "H3",
+        "class": "",
+        "foreground": "rgb(244, 239, 227)",
+        "background": [
+          36,
+          35,
+          33,
+          1
+        ],
+        "ratio": 13.685,
+        "required": 3,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "The earlier block carries serial 23781 without a model line. Martin’s totals end 1924 at 22008 and 1925 at 24116, placing the numb",
+        "tag": "P",
+        "class": "",
+        "foreground": "rgb(206, 199, 186)",
+        "background": [
+          36,
+          35,
+          33,
+          1
+        ],
+        "ratio": 9.349,
+        "required": 4.5,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "1925 Martin 0-18: serial 23781 on an earlier block without a model line.",
+        "tag": "FIGCAPTION",
+        "class": "",
+        "foreground": "rgb(255, 255, 255)",
+        "background": [
+          17,
+          17,
+          17,
+          1
+        ],
+        "ratio": 18.883,
+        "required": 4.5,
         "pass": true,
         "unresolvedLayers": []
       },
@@ -20041,6 +20617,70 @@
         "unresolvedLayers": []
       },
       {
+        "text": "216180",
+        "tag": "B",
+        "class": "",
+        "foreground": "rgb(200, 158, 87)",
+        "background": [
+          36,
+          35,
+          33,
+          1
+        ],
+        "ratio": 6.344,
+        "required": 3,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "The 1966 Martin 0-18",
+        "tag": "H3",
+        "class": "",
+        "foreground": "rgb(244, 239, 227)",
+        "background": [
+          36,
+          35,
+          33,
+          1
+        ],
+        "ratio": 13.685,
+        "required": 3,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "The later guitar is stamped 0-18 and 216180. That number falls after the 1965 year-end total of 207030 and within the 1966 total o",
+        "tag": "P",
+        "class": "",
+        "foreground": "rgb(206, 199, 186)",
+        "background": [
+          36,
+          35,
+          33,
+          1
+        ],
+        "ratio": 9.349,
+        "required": 4.5,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "1966 Martin 0-18: model stamp and serial 216180.",
+        "tag": "FIGCAPTION",
+        "class": "",
+        "foreground": "rgb(255, 255, 255)",
+        "background": [
+          17,
+          17,
+          17,
+          1
+        ],
+        "ratio": 18.883,
+        "required": 4.5,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
         "text": "Use",
         "tag": "P",
         "class": "",
@@ -20073,7 +20713,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "for the year and the model line for the instrument’s designation. A serial doesn’t encode “0-18,” and it doesn’t show whether a br",
+        "text": "for the year and the model line, when present, for the instrument’s designation. A serial doesn’t encode “0-18,” and it doesn’t sh",
         "tag": "P",
         "class": "",
         "foreground": "rgb(27, 25, 22)",
@@ -20089,7 +20729,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "For an earlier guitar, the absence of a model line can be expected. Routine model stamps began around October 1930 according to th",
+        "text": "Routine model stamps began around October 1930 according to the",
         "tag": "P",
         "class": "",
         "foreground": "rgb(27, 25, 22)",
@@ -20185,7 +20825,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "1966 Martin 0-18: Grover Sta-Tite tuners, shown as a later 0-18 comparison.",
+        "text": "1925 Martin 0-18: slotted headstock face without a later gold-script decal.",
         "tag": "FIGCAPTION",
         "class": "",
         "foreground": "rgb(255, 255, 255)",
@@ -20201,7 +20841,87 @@
         "unresolvedLayers": []
       },
       {
-        "text": "The tuner photograph shows a 1966 0-18 with Grover Sta-Tite hardware. It is a later comparison, not a picture of Linda’s 1949 head",
+        "text": "1925 Martin 0-18: pyramid bridge and saddle in profile.",
+        "tag": "FIGCAPTION",
+        "class": "",
+        "foreground": "rgb(255, 255, 255)",
+        "background": [
+          17,
+          17,
+          17,
+          1
+        ],
+        "ratio": 18.883,
+        "required": 4.5,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "1966 Martin 0-18: headstock face and gold-script logo.",
+        "tag": "FIGCAPTION",
+        "class": "",
+        "foreground": "rgb(255, 255, 255)",
+        "background": [
+          17,
+          17,
+          17,
+          1
+        ],
+        "ratio": 18.883,
+        "required": 4.5,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "1966 Martin 0-18: Grover Sta-Tite tuners on the guitar shown in the full-body views.",
+        "tag": "FIGCAPTION",
+        "class": "",
+        "foreground": "rgb(255, 255, 255)",
+        "background": [
+          17,
+          17,
+          17,
+          1
+        ],
+        "ratio": 18.883,
+        "required": 4.5,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "1966 Martin 0-18: short saddle and pickguard area; a small pickguard crack was professionally repaired.",
+        "tag": "FIGCAPTION",
+        "class": "",
+        "foreground": "rgb(255, 255, 255)",
+        "background": [
+          17,
+          17,
+          17,
+          1
+        ],
+        "ratio": 18.883,
+        "required": 4.5,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "1951 Martin 0-18: bridge and low saddle, with a future neck reset noted in the listing.",
+        "tag": "FIGCAPTION",
+        "class": "",
+        "foreground": "rgb(255, 255, 255)",
+        "background": [
+          17,
+          17,
+          17,
+          1
+        ],
+        "ratio": 18.883,
+        "required": 4.5,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "The photographs compare the 1925 slotted headstock and pyramid bridge with the 1966 gold-script face, Grover Sta-Tite tuners and s",
         "tag": "P",
         "class": "",
         "foreground": "rgb(27, 25, 22)",
@@ -20405,6 +21125,86 @@
         ],
         "ratio": 14.677,
         "required": 3,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "Joe’s",
+        "tag": "P",
+        "class": "",
+        "foreground": "rgb(27, 25, 22)",
+        "background": [
+          243,
+          234,
+          216,
+          1
+        ],
+        "ratio": 14.677,
+        "required": 4.5,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "1966 listing",
+        "tag": "A",
+        "class": "",
+        "foreground": "rgb(157, 53, 27)",
+        "background": [
+          243,
+          234,
+          216,
+          1
+        ],
+        "ratio": 5.939,
+        "required": 4.5,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "records light wear, original finish and parts, and a small professionally repaired pickguard crack. The",
+        "tag": "P",
+        "class": "",
+        "foreground": "rgb(27, 25, 22)",
+        "background": [
+          243,
+          234,
+          216,
+          1
+        ],
+        "ratio": 14.677,
+        "required": 4.5,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "1951 listing",
+        "tag": "A",
+        "class": "",
+        "foreground": "rgb(157, 53, 27)",
+        "background": [
+          243,
+          234,
+          216,
+          1
+        ],
+        "ratio": 5.939,
+        "required": 4.5,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "records a small repaired top crack, medium action and a low saddle, with a future neck reset expected. These details explain why a",
+        "tag": "P",
+        "class": "",
+        "foreground": "rgb(27, 25, 22)",
+        "background": [
+          243,
+          234,
+          216,
+          1
+        ],
+        "ratio": 14.677,
+        "required": 4.5,
         "pass": true,
         "unresolvedLayers": []
       },
@@ -21225,7 +22025,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "Annual totals used to date the photographed 112697 stamp.",
+        "text": "Annual totals used for the photographed 1925, 1949 and 1966 stamps.",
         "tag": "P",
         "class": "",
         "foreground": "rgb(27, 25, 22)",
@@ -21769,7 +22569,7 @@
     ],
     "brokenImages": [],
     "anchorFailures": [],
-    "textRuns": 232,
+    "textRuns": 235,
     "computedFailures": [],
     "layerUncertainties": 10,
     "axeViolations": [],
@@ -22448,7 +23248,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "Linda Gayle’s 1949 Martin 0-18: spruce top and dark pickguard.",
+        "text": "1966 Martin 0-18: full front of Joe’s lightly worn example.",
         "tag": "FIGCAPTION",
         "class": "",
         "foreground": "rgb(255, 255, 255)",
@@ -22688,7 +23488,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "The Archive Guitar Isn’t The Chart’s Condition Standard",
+        "text": "Include The Repairs Behind A Clean Appearance",
         "tag": "B",
         "class": "",
         "foreground": "rgb(27, 25, 22)",
@@ -22704,7 +23504,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "Linda Gayle’s 1949 0-18 illustrates a documented ownership history and visible playing wear. Its photographs don’t claim that the ",
+        "text": "The 1966 example has a small repaired pickguard crack. The 1951 guitar has a repaired top crack and a future reset noted in its re",
         "tag": "P",
         "class": "",
         "foreground": "rgb(27, 25, 22)",
@@ -24576,7 +25376,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "Linda Gayle’s 1949 Martin 0-18: mahogany back with visible playing wear.",
+        "text": "1966 Martin 0-18: spruce top and dark tortoise-pattern guard.",
         "tag": "FIGCAPTION",
         "class": "",
         "foreground": "rgb(255, 255, 255)",
@@ -24592,7 +25392,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "The back documents wear. The neck block identifies the 1949 instrument. Both belong in an appraisal record.",
+        "text": "Front and back of the lightly worn 1966 0-18. Its documented pickguard-crack repair remains part of the condition record.",
         "tag": "BLOCKQUOTE",
         "class": "",
         "foreground": "rgb(255, 255, 255)",
@@ -24608,7 +25408,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "1949 Martin 0-18: model stamp and serial 112697.",
+        "text": "1966 Martin 0-18: mahogany back with light surface wear.",
         "tag": "FIGCAPTION",
         "class": "",
         "foreground": "rgb(255, 255, 255)",
@@ -24668,6 +25468,54 @@
         ],
         "ratio": 14.677,
         "required": 3,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "1925 Martin 0-18: 12-fret body and slotted headstock.",
+        "tag": "FIGCAPTION",
+        "class": "",
+        "foreground": "rgb(255, 255, 255)",
+        "background": [
+          17,
+          17,
+          17,
+          1
+        ],
+        "ratio": 18.883,
+        "required": 4.5,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "1951 Martin 0-18: bridge and low saddle, with a future neck reset noted in the listing.",
+        "tag": "FIGCAPTION",
+        "class": "",
+        "foreground": "rgb(255, 255, 255)",
+        "background": [
+          17,
+          17,
+          17,
+          1
+        ],
+        "ratio": 18.883,
+        "required": 4.5,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "The 1925 12-fret example illustrates an earlier body and bridge configuration. The 1951 bridge profile illustrates a different app",
+        "tag": "P",
+        "class": "",
+        "foreground": "rgb(27, 25, 22)",
+        "background": [
+          243,
+          234,
+          216,
+          1
+        ],
+        "ratio": 14.677,
+        "required": 4.5,
         "pass": true,
         "unresolvedLayers": []
       },
@@ -25984,7 +26832,7 @@
     ],
     "brokenImages": [],
     "anchorFailures": [],
-    "textRuns": 229,
+    "textRuns": 242,
     "computedFailures": [],
     "layerUncertainties": 10,
     "axeViolations": [],
@@ -26563,7 +27411,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "1944 Martin 000-18: full front.",
+        "text": "1960 Martin 000-18: full front from Joe’s clean original-family example.",
         "tag": "FIGCAPTION",
         "class": "",
         "foreground": "rgb(255, 255, 255)",
@@ -26707,7 +27555,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "1944 And 1960",
+        "text": "1938, 1951 And 1960",
         "tag": "P",
         "class": "",
         "foreground": "rgb(255, 255, 255)",
@@ -26771,7 +27619,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "I use the photographed 1944 and 1960 guitars here to keep the comparison tied to actual instruments. The 1944 close-ups show the s",
+        "text": "The photographs follow three 000-18s from 1938, 1951 and 1960. The prewar guitar supplies a dated headstock and stamp comparison; ",
         "tag": "P",
         "class": "",
         "foreground": "rgb(27, 25, 22)",
@@ -26915,7 +27763,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "Inspect Joe’s Wartime 000-18 Photographs",
+        "text": "Compare Joe’s 1938, 1951 And 1960 000-18s",
         "tag": "A",
         "class": "",
         "foreground": "rgb(157, 53, 27)",
@@ -26931,7 +27779,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "Read The Model And Date Without Filling In Digits",
+        "text": "Read The Model And Serial On Two Dated Guitars",
         "tag": "A",
         "class": "",
         "foreground": "rgb(157, 53, 27)",
@@ -27683,7 +28531,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "1944 Martin 000-18: full front.",
+        "text": "1938 Martin 000-18: full front of the prewar 14-fret guitar.",
         "tag": "FIGCAPTION",
         "class": "",
         "foreground": "rgb(255, 255, 255)",
@@ -27699,7 +28547,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "Joe’s 1944 and 1960 000-18s show the same model across wartime and postwar production.",
+        "text": "A 1938 prewar 000-18 and a 1951 one-owner example show the model across two production periods.",
         "tag": "BLOCKQUOTE",
         "class": "",
         "foreground": "rgb(255, 255, 255)",
@@ -27715,7 +28563,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "1960 Martin 000-18 from Joe’s archive.",
+        "text": "1951 Martin 000-18: one-owner example with a documented neck reset.",
         "tag": "FIGCAPTION",
         "class": "",
         "foreground": "rgb(255, 255, 255)",
@@ -28227,7 +29075,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "A Consistent Set Of Exterior Views",
+        "text": "Prewar Details And Preserved Postwar Examples",
         "tag": "P",
         "class": "",
         "foreground": "rgb(157, 53, 27)",
@@ -28243,7 +29091,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "Inspect Joe’s Wartime 000-18 Photographs",
+        "text": "Compare Joe’s 1938, 1951 And 1960 000-18s",
         "tag": "H2",
         "class": "",
         "foreground": "rgb(27, 25, 22)",
@@ -28259,7 +29107,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "1944 Archive Guitar",
+        "text": "1938 Prewar Guitar",
         "tag": "P",
         "class": "mg-eyebrow",
         "foreground": "rgb(157, 53, 27)",
@@ -28275,7 +29123,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "Top, Back And Headstock",
+        "text": "Headstock And Open-Gear Tuners",
         "tag": "H3",
         "class": "",
         "foreground": "rgb(27, 25, 22)",
@@ -28291,7 +29139,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "The same 1944 000-18 appears in all these views. You can compare its pickguard outline, belly bridge, headstock logo, installed tu",
+        "text": "The 1938 full-front photograph above shows the 14-fret body, belly bridge and tortoise-pattern guard. These close-ups add the head",
         "tag": "P",
         "class": "",
         "foreground": "rgb(27, 25, 22)",
@@ -28307,7 +29155,23 @@
         "unresolvedLayers": []
       },
       {
-        "text": "The full front also puts the close-ups in context. Save that overall view when collecting photographs from an owner. A set of tigh",
+        "text": "Martin tuner guide",
+        "tag": "A",
+        "class": "",
+        "foreground": "rgb(157, 53, 27)",
+        "background": [
+          225,
+          209,
+          180,
+          1
+        ],
+        "ratio": 4.725,
+        "required": 4.5,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": ". A matching appearance needs the surrounding wood and repair history checked before the hardware is called original.",
         "tag": "P",
         "class": "",
         "foreground": "rgb(27, 25, 22)",
@@ -28323,7 +29187,23 @@
         "unresolvedLayers": []
       },
       {
-        "text": "1944 Martin 000-18: top and pickguard.",
+        "text": "The readable block below dates this instrument independently of the archive filename. Its exterior views do not establish the X-br",
+        "tag": "P",
+        "class": "",
+        "foreground": "rgb(27, 25, 22)",
+        "background": [
+          225,
+          209,
+          180,
+          1
+        ],
+        "ratio": 11.677,
+        "required": 4.5,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "1938 Martin 000-18: headstock face and gold-script logo.",
         "tag": "FIGCAPTION",
         "class": "",
         "foreground": "rgb(255, 255, 255)",
@@ -28339,7 +29219,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "1944 Martin 000-18: mahogany back.",
+        "text": "1938 Martin 000-18: rear headstock and installed open-gear tuners.",
         "tag": "FIGCAPTION",
         "class": "",
         "foreground": "rgb(255, 255, 255)",
@@ -28355,7 +29235,103 @@
         "unresolvedLayers": []
       },
       {
-        "text": "1944 Martin 000-18: headstock face.",
+        "text": "1960 Original-Family Guitar",
+        "tag": "P",
+        "class": "mg-eyebrow",
+        "foreground": "rgb(157, 53, 27)",
+        "background": [
+          225,
+          209,
+          180,
+          1
+        ],
+        "ratio": 4.725,
+        "required": 4.5,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "A Clean Top Still Needs A Neck-Angle Check",
+        "tag": "H3",
+        "class": "",
+        "foreground": "rgb(27, 25, 22)",
+        "background": [
+          225,
+          209,
+          180,
+          1
+        ],
+        "ratio": 11.677,
+        "required": 3,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "Joe’s",
+        "tag": "P",
+        "class": "",
+        "foreground": "rgb(27, 25, 22)",
+        "background": [
+          225,
+          209,
+          180,
+          1
+        ],
+        "ratio": 11.677,
+        "required": 4.5,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "1960 listing",
+        "tag": "A",
+        "class": "",
+        "foreground": "rgb(157, 53, 27)",
+        "background": [
+          225,
+          209,
+          180,
+          1
+        ],
+        "ratio": 4.725,
+        "required": 4.5,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "describes original finish and parts, no cracks, and ownership within the original family. The headstock and back views belong to t",
+        "tag": "P",
+        "class": "",
+        "foreground": "rgb(27, 25, 22)",
+        "background": [
+          225,
+          209,
+          180,
+          1
+        ],
+        "ratio": 11.677,
+        "required": 4.5,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "The listing also identifies a neck reset as necessary to achieve low action. That repair need matters even on a guitar with unusua",
+        "tag": "P",
+        "class": "",
+        "foreground": "rgb(27, 25, 22)",
+        "background": [
+          225,
+          209,
+          180,
+          1
+        ],
+        "ratio": 11.677,
+        "required": 4.5,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "1960 Martin 000-18: headstock face.",
         "tag": "FIGCAPTION",
         "class": "",
         "foreground": "rgb(255, 255, 255)",
@@ -28371,23 +29347,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "1944 Martin 000-18: rear headstock and installed tuners.",
-        "tag": "FIGCAPTION",
-        "class": "",
-        "foreground": "rgb(255, 255, 255)",
-        "background": [
-          17,
-          17,
-          17,
-          1
-        ],
-        "ratio": 18.883,
-        "required": 4.5,
-        "pass": true,
-        "unresolvedLayers": []
-      },
-      {
-        "text": "1944 Martin 000-18: body side and heel.",
+        "text": "1960 Martin 000-18: mahogany back.",
         "tag": "FIGCAPTION",
         "class": "",
         "foreground": "rgb(255, 255, 255)",
@@ -28419,7 +29379,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "Neck-Block Evidence",
+        "text": "1938 And 1960 Neck-Block Evidence",
         "tag": "P",
         "class": "",
         "foreground": "rgb(157, 53, 27)",
@@ -28435,7 +29395,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "Read The Model And Date Without Filling In Digits",
+        "text": "Read The Model And Serial On Two Dated Guitars",
         "tag": "H2",
         "class": "",
         "foreground": "rgb(27, 25, 22)",
@@ -28451,7 +29411,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "8864? · Last Digit Obscured",
+        "text": "71570",
         "tag": "B",
         "class": "",
         "foreground": "rgb(200, 158, 87)",
@@ -28467,7 +29427,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "The Stamp In Joe’s 1944 000-18",
+        "text": "The 1938 Martin 000-18",
         "tag": "H3",
         "class": "",
         "foreground": "rgb(244, 239, 227)",
@@ -28483,7 +29443,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "The visible serial begins 8864, with its final digit partly hidden by a string. I haven’t filled in that digit. That visible five-",
+        "text": "The block reads 000-18 above 71570. Martin’s table ends 1937 at 68865 and 1938 at 71866, placing this guitar in 1938. All five dig",
         "tag": "P",
         "class": "",
         "foreground": "rgb(206, 199, 186)",
@@ -28499,7 +29459,71 @@
         "unresolvedLayers": []
       },
       {
-        "text": "1944 Martin 000-18: neck-block stamp with partly obscured final serial digit.",
+        "text": "1938 Martin 000-18: model stamp and serial 71570.",
+        "tag": "FIGCAPTION",
+        "class": "",
+        "foreground": "rgb(255, 255, 255)",
+        "background": [
+          17,
+          17,
+          17,
+          1
+        ],
+        "ratio": 18.883,
+        "required": 4.5,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "174299",
+        "tag": "B",
+        "class": "",
+        "foreground": "rgb(200, 158, 87)",
+        "background": [
+          36,
+          35,
+          33,
+          1
+        ],
+        "ratio": 6.344,
+        "required": 3,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "The 1960 Martin 000-18",
+        "tag": "H3",
+        "class": "",
+        "foreground": "rgb(244, 239, 227)",
+        "background": [
+          36,
+          35,
+          33,
+          1
+        ],
+        "ratio": 13.685,
+        "required": 3,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "This later block reads 000-18 and 174299. The factory year-end totals are 171047 for 1959 and 175689 for 1960, so the serial dates",
+        "tag": "P",
+        "class": "",
+        "foreground": "rgb(206, 199, 186)",
+        "background": [
+          36,
+          35,
+          33,
+          1
+        ],
+        "ratio": 9.349,
+        "required": 4.5,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "1960 Martin 000-18: model stamp and serial 174299.",
         "tag": "FIGCAPTION",
         "class": "",
         "foreground": "rgb(255, 255, 255)",
@@ -28531,7 +29555,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "lists the last number in each year. It doesn’t encode the model or certify originality. The separate model line identifies the 000",
+        "text": "lists the last number in each year. It doesn’t certify originality. The dated wood, construction and parts then need to agree with",
         "tag": "P",
         "class": "",
         "foreground": "rgb(27, 25, 22)",
@@ -29555,6 +30579,38 @@
         "unresolvedLayers": []
       },
       {
+        "text": "Joe’s 1951 One-Owner 000-18",
+        "tag": "A",
+        "class": "",
+        "foreground": "rgb(157, 53, 27)",
+        "background": [
+          243,
+          234,
+          216,
+          1
+        ],
+        "ratio": 5.939,
+        "required": 4.5,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "Photographs and the documented reset, bridge reglue, nut and saddle replacements.",
+        "tag": "P",
+        "class": "",
+        "foreground": "rgb(27, 25, 22)",
+        "background": [
+          243,
+          234,
+          216,
+          1
+        ],
+        "ratio": 14.677,
+        "required": 4.5,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
         "text": "Prewar Martin Construction",
         "tag": "A",
         "class": "",
@@ -30051,7 +31107,7 @@
     ],
     "brokenImages": [],
     "anchorFailures": [],
-    "textRuns": 236,
+    "textRuns": 238,
     "computedFailures": [],
     "layerUncertainties": 10,
     "axeViolations": [],
@@ -30630,7 +31686,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "1960 Martin 000-18 from Joe’s archive.",
+        "text": "1960 Martin 000-18: full front from Joe’s clean original-family example.",
         "tag": "FIGCAPTION",
         "class": "",
         "foreground": "rgb(255, 255, 255)",
@@ -33062,7 +34118,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "1944 Martin 000-18: mahogany back.",
+        "text": "1960 Martin 000-18: spruce top, tortoise-pattern guard and belly bridge.",
         "tag": "FIGCAPTION",
         "class": "",
         "foreground": "rgb(255, 255, 255)",
@@ -33078,7 +34134,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "A worn back and a clean front answer different condition questions. Photograph both before asking for a value.",
+        "text": "The 1960 and 1951 examples combine clean presentation with different maintenance histories. Include those records with the photogr",
         "tag": "BLOCKQUOTE",
         "class": "",
         "foreground": "rgb(255, 255, 255)",
@@ -33094,7 +34150,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "1960 Martin 000-18 from Joe’s archive.",
+        "text": "1951 Martin 000-18 in its original case; the listing documents replacement nut and saddle.",
         "tag": "FIGCAPTION",
         "class": "",
         "foreground": "rgb(255, 255, 255)",
@@ -33158,7 +34214,39 @@
         "unresolvedLayers": []
       },
       {
-        "text": "The 1944 guitar shown here has its own visible wear, installed hardware and partly obscured serial photograph. It illustrates the ",
+        "text": "1951 Martin 000-18: reglued original bridge and the visible footprint shadow.",
+        "tag": "FIGCAPTION",
+        "class": "",
+        "foreground": "rgb(255, 255, 255)",
+        "background": [
+          17,
+          17,
+          17,
+          1
+        ],
+        "ratio": 18.883,
+        "required": 4.5,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "1960 Martin 000-18 in its vintage chipboard case.",
+        "tag": "FIGCAPTION",
+        "class": "",
+        "foreground": "rgb(255, 255, 255)",
+        "background": [
+          17,
+          17,
+          17,
+          1
+        ],
+        "ratio": 18.883,
+        "required": 4.5,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "The 1951 one-owner example has a documented neck reset, a reglued original bridge and replacement bone nut and saddle. Its bridge ",
         "tag": "P",
         "class": "",
         "foreground": "rgb(27, 25, 22)",
@@ -34230,7 +35318,7 @@
     ],
     "brokenImages": [],
     "anchorFailures": [],
-    "textRuns": 243,
+    "textRuns": 257,
     "computedFailures": [],
     "layerUncertainties": 10,
     "axeViolations": [],
@@ -35130,6 +36218,22 @@
       },
       {
         "text": "Read A Wurlitzer Name Without Assuming A Fake",
+        "tag": "A",
+        "class": "",
+        "foreground": "rgb(157, 53, 27)",
+        "background": [
+          226,
+          212,
+          186,
+          1
+        ],
+        "ratio": 4.854,
+        "required": 4.5,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "Compare Clean 1951 And 1962 00-18 Examples",
         "tag": "A",
         "class": "",
         "foreground": "rgb(157, 53, 27)",
@@ -36062,6 +37166,118 @@
         "class": "",
         "foreground": "rgb(27, 25, 22)",
         "background": [
+          243,
+          234,
+          216,
+          1
+        ],
+        "ratio": 14.677,
+        "required": 4.5,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "Dealer Branding Needs Its Own Research",
+        "tag": "P",
+        "class": "",
+        "foreground": "rgb(157, 53, 27)",
+        "background": [
+          243,
+          234,
+          216,
+          1
+        ],
+        "ratio": 5.939,
+        "required": 4.5,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "Read A Wurlitzer Name Without Assuming A Fake",
+        "tag": "H2",
+        "class": "",
+        "foreground": "rgb(27, 25, 22)",
+        "background": [
+          243,
+          234,
+          216,
+          1
+        ],
+        "ratio": 14.677,
+        "required": 3,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "Robert Corwin’s",
+        "tag": "P",
+        "class": "",
+        "foreground": "rgb(27, 25, 22)",
+        "background": [
+          243,
+          234,
+          216,
+          1
+        ],
+        "ratio": 14.677,
+        "required": 4.5,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "photographed Wurlitzer research",
+        "tag": "A",
+        "class": "",
+        "foreground": "rgb(157, 53, 27)",
+        "background": [
+          243,
+          234,
+          216,
+          1
+        ],
+        "ratio": 5.939,
+        "required": 4.5,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "identifies the 2086 with the Martin 00-18 family and dates the specially designated Company Line to 1922. A dealer’s name can ther",
+        "tag": "P",
+        "class": "",
+        "foreground": "rgb(27, 25, 22)",
+        "background": [
+          243,
+          234,
+          216,
+          1
+        ],
+        "ratio": 14.677,
+        "required": 4.5,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "A Wurlitzer name alone cannot settle who built a guitar or when it was made. Keep a seller’s attribution separate from the evidenc",
+        "tag": "P",
+        "class": "",
+        "foreground": "rgb(27, 25, 22)",
+        "background": [
+          243,
+          234,
+          216,
+          1
+        ],
+        "ratio": 14.677,
+        "required": 4.5,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "4",
+        "tag": "SPAN",
+        "class": "",
+        "foreground": "rgb(27, 25, 22)",
+        "background": [
           225,
           209,
           180,
@@ -36073,7 +37289,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "Dealer Branding And Archive Limits",
+        "text": "Different Years, Different Repair Records",
         "tag": "P",
         "class": "",
         "foreground": "rgb(157, 53, 27)",
@@ -36089,7 +37305,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "Read A Wurlitzer Name Without Assuming A Fake",
+        "text": "Compare Clean 1951 And 1962 00-18 Examples",
         "tag": "H2",
         "class": "",
         "foreground": "rgb(27, 25, 22)",
@@ -36105,7 +37321,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "Joe’s Wurlitzer Archive Example",
+        "text": "1951 One-Owner Guitar",
         "tag": "P",
         "class": "mg-eyebrow",
         "foreground": "rgb(157, 53, 27)",
@@ -36121,7 +37337,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "A 00-18 Cataloged As A 1924 Wurlitzer 2086",
+        "text": "Preserved Finish With A Documented Neck Reset",
         "tag": "H3",
         "class": "",
         "foreground": "rgb(27, 25, 22)",
@@ -36137,7 +37353,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "This guitar is cataloged in Joe’s archive as a 1924 Wurlitzer-branded 00-18, model 2086. The photograph shows Wurlitzer lettering ",
+        "text": "Joe’s",
         "tag": "P",
         "class": "",
         "foreground": "rgb(27, 25, 22)",
@@ -36153,39 +37369,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "Robert Corwin’s photographed research identifies Wurlitzer 2086 with the Martin 00-18 family, but dates the specially designated C",
-        "tag": "P",
-        "class": "",
-        "foreground": "rgb(27, 25, 22)",
-        "background": [
-          225,
-          209,
-          180,
-          1
-        ],
-        "ratio": 11.677,
-        "required": 4.5,
-        "pass": true,
-        "unresolvedLayers": []
-      },
-      {
-        "text": "The broader lesson is useful when an unfamiliar dealer name appears on an old Martin-style instrument. Record the name, any intern",
-        "tag": "P",
-        "class": "",
-        "foreground": "rgb(27, 25, 22)",
-        "background": [
-          225,
-          209,
-          180,
-          1
-        ],
-        "ratio": 11.677,
-        "required": 4.5,
-        "pass": true,
-        "unresolvedLayers": []
-      },
-      {
-        "text": "Wurlitzer instrument research",
+        "text": "1951 one-owner listing",
         "tag": "A",
         "class": "",
         "foreground": "rgb(157, 53, 27)",
@@ -36201,7 +37385,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "supplies a documented comparison; it doesn’t establish that every Wurlitzer guitar was made by Martin.",
+        "text": "records excellent original condition and a professional neck reset. It also discloses a shim beneath the fingerboard extension. Th",
         "tag": "P",
         "class": "",
         "foreground": "rgb(27, 25, 22)",
@@ -36217,7 +37401,23 @@
         "unresolvedLayers": []
       },
       {
-        "text": "Wurlitzer-branded 00-18 from Joe’s archive, cataloged as a 1924 model 2086: full front.",
+        "text": "Keep the reset and shim in the instrument’s written history. A clean finish and original ownership are useful facts, while the rep",
+        "tag": "P",
+        "class": "",
+        "foreground": "rgb(27, 25, 22)",
+        "background": [
+          225,
+          209,
+          180,
+          1
+        ],
+        "ratio": 11.677,
+        "required": 4.5,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "1951 Martin 00-18: full front of Joe’s clean one-owner example.",
         "tag": "FIGCAPTION",
         "class": "",
         "foreground": "rgb(255, 255, 255)",
@@ -36233,7 +37433,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "Wurlitzer-branded 00-18 from Joe’s archive, cataloged as a 1924 model 2086: Wurlitzer name on the headstock face.",
+        "text": "1951 Martin 00-18: side view of the bridge and saddle after its documented neck reset.",
         "tag": "FIGCAPTION",
         "class": "",
         "foreground": "rgb(255, 255, 255)",
@@ -36249,7 +37449,103 @@
         "unresolvedLayers": []
       },
       {
-        "text": "Wurlitzer-branded 00-18 from Joe’s archive, cataloged as a 1924 model 2086: X-bracing and bridge-pin area.",
+        "text": "1962 Guitar",
+        "tag": "P",
+        "class": "mg-eyebrow",
+        "foreground": "rgb(157, 53, 27)",
+        "background": [
+          225,
+          209,
+          180,
+          1
+        ],
+        "ratio": 4.725,
+        "required": 4.5,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "A Later Top And Tuner Comparison",
+        "tag": "H3",
+        "class": "",
+        "foreground": "rgb(27, 25, 22)",
+        "background": [
+          225,
+          209,
+          180,
+          1
+        ],
+        "ratio": 11.677,
+        "required": 3,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "The",
+        "tag": "P",
+        "class": "",
+        "foreground": "rgb(27, 25, 22)",
+        "background": [
+          225,
+          209,
+          180,
+          1
+        ],
+        "ratio": 11.677,
+        "required": 4.5,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "1962 listing",
+        "tag": "A",
+        "class": "",
+        "foreground": "rgb(157, 53, 27)",
+        "background": [
+          225,
+          209,
+          180,
+          1
+        ],
+        "ratio": 4.725,
+        "required": 4.5,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "describes excellent neck angle and low action, with a small professionally repaired hairline crack. Its front and rear-headstock p",
+        "tag": "P",
+        "class": "",
+        "foreground": "rgb(27, 25, 22)",
+        "background": [
+          225,
+          209,
+          180,
+          1
+        ],
+        "ratio": 11.677,
+        "required": 4.5,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "Read the condition note with the photo set. A subtle repaired crack may be difficult to see at normal page size. Good photographs ",
+        "tag": "P",
+        "class": "",
+        "foreground": "rgb(27, 25, 22)",
+        "background": [
+          225,
+          209,
+          180,
+          1
+        ],
+        "ratio": 11.677,
+        "required": 4.5,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "1962 Martin 00-18: spruce top and tortoise-pattern guard; the listing discloses a small repaired hairline crack.",
         "tag": "FIGCAPTION",
         "class": "",
         "foreground": "rgb(255, 255, 255)",
@@ -36265,7 +37561,23 @@
         "unresolvedLayers": []
       },
       {
-        "text": "4",
+        "text": "1962 Martin 00-18: rear headstock and open-gear tuners.",
+        "tag": "FIGCAPTION",
+        "class": "",
+        "foreground": "rgb(255, 255, 255)",
+        "background": [
+          17,
+          17,
+          17,
+          1
+        ],
+        "ratio": 18.883,
+        "required": 4.5,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "5",
         "tag": "SPAN",
         "class": "",
         "foreground": "rgb(27, 25, 22)",
@@ -36409,7 +37721,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "5",
+        "text": "6",
         "tag": "SPAN",
         "class": "",
         "foreground": "rgb(200, 158, 87)",
@@ -36745,7 +38057,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "6",
+        "text": "7",
         "tag": "SPAN",
         "class": "",
         "foreground": "rgb(27, 25, 22)",
@@ -36985,7 +38297,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "7",
+        "text": "8",
         "tag": "SPAN",
         "class": "",
         "foreground": "rgb(27, 25, 22)",
@@ -37225,7 +38537,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "8",
+        "text": "9",
         "tag": "SPAN",
         "class": "",
         "foreground": "rgb(27, 25, 22)",
@@ -37465,7 +38777,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "9",
+        "text": "10",
         "tag": "SPAN",
         "class": "",
         "foreground": "rgb(27, 25, 22)",
@@ -37913,7 +39225,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "10",
+        "text": "11",
         "tag": "SPAN",
         "class": "",
         "foreground": "rgb(27, 25, 22)",
@@ -38009,7 +39321,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "Photographed dealer models and the 2086 designation; note the archive dating conflict above.",
+        "text": "Photographed dealer models and the historical 2086 designation.",
         "tag": "P",
         "class": "",
         "foreground": "rgb(27, 25, 22)",
@@ -38521,7 +39833,7 @@
     ],
     "brokenImages": [],
     "anchorFailures": [],
-    "textRuns": 255,
+    "textRuns": 257,
     "computedFailures": [],
     "layerUncertainties": 10,
     "axeViolations": [],
@@ -41548,7 +42860,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "1952 Martin 00-18: bridge and saddle.",
+        "text": "1951 Martin 00-18 in its original hard case.",
         "tag": "FIGCAPTION",
         "class": "",
         "foreground": "rgb(255, 255, 255)",
@@ -41564,7 +42876,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "The 1952 00-18’s bridge view and back view document different parts of its condition.",
+        "text": "A 1951 one-owner 00-18 in its original case and the mahogany back of a 1962 example.",
         "tag": "BLOCKQUOTE",
         "class": "",
         "foreground": "rgb(255, 255, 255)",
@@ -41580,7 +42892,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "1952 Martin 00-18: mahogany back.",
+        "text": "1962 Martin 00-18: mahogany back.",
         "tag": "FIGCAPTION",
         "class": "",
         "foreground": "rgb(255, 255, 255)",
@@ -41932,6 +43244,38 @@
         "unresolvedLayers": []
       },
       {
+        "text": "1952 Martin 00-18: bridge and saddle.",
+        "tag": "FIGCAPTION",
+        "class": "",
+        "foreground": "rgb(255, 255, 255)",
+        "background": [
+          17,
+          17,
+          17,
+          1
+        ],
+        "ratio": 18.883,
+        "required": 4.5,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "1962 Martin 00-18: spruce top and tortoise-pattern guard; the listing discloses a small repaired hairline crack.",
+        "tag": "FIGCAPTION",
+        "class": "",
+        "foreground": "rgb(255, 255, 255)",
+        "background": [
+          17,
+          17,
+          17,
+          1
+        ],
+        "ratio": 18.883,
+        "required": 4.5,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
         "text": "Joe’s 1952 00-18 supplies a readable model and serial photograph together with the bridge, headstock, tuners, back and sides. That",
         "tag": "P",
         "class": "",
@@ -41948,7 +43292,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "The Wurlitzer-branded guitar in the authentication page is another kind of example: its dealer name needs historical investigation",
+        "text": "The 1951 guitar has a professional neck reset and a documented fingerboard-extension shim. The 1962 example has a small profession",
         "tag": "P",
         "class": "",
         "foreground": "rgb(27, 25, 22)",
@@ -43004,7 +44348,7 @@
     ],
     "brokenImages": [],
     "anchorFailures": [],
-    "textRuns": 239,
+    "textRuns": 258,
     "computedFailures": [],
     "layerUncertainties": 10,
     "axeViolations": [],
@@ -43583,7 +44927,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "Linda Gayle’s 1949 Martin 0-18: spruce top and dark pickguard.",
+        "text": "1966 Martin 0-18: full front of Joe’s lightly worn example.",
         "tag": "FIGCAPTION",
         "class": "",
         "foreground": "rgb(255, 255, 255)",
@@ -43679,7 +45023,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "Archive Serial",
+        "text": "Archive Years",
         "tag": "STRONG",
         "class": "",
         "foreground": "rgb(255, 255, 255)",
@@ -43695,7 +45039,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "112697 · 1949",
+        "text": "1925, 1951 And 1966",
         "tag": "P",
         "class": "",
         "foreground": "rgb(255, 255, 255)",
@@ -43791,7 +45135,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "The 1949 example belonged to Iowa country-western musician Linda Gayle. I bought it from her niece, who preserved the family photo",
+        "text": "The lead photograph shows a lightly worn 1966 guitar. Earlier views include a 1925 12-fret instrument and a 1951 example, with ser",
         "tag": "P",
         "class": "",
         "foreground": "rgb(27, 25, 22)",
@@ -43951,7 +45295,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "Read Serial 112697 On The Actual Neck Block",
+        "text": "Read The Neck Blocks Across Three Eras",
         "tag": "A",
         "class": "",
         "foreground": "rgb(157, 53, 27)",
@@ -44847,6 +46191,54 @@
         "unresolvedLayers": []
       },
       {
+        "text": "1925 Martin 0-18: 12-fret body and slotted headstock.",
+        "tag": "FIGCAPTION",
+        "class": "",
+        "foreground": "rgb(255, 255, 255)",
+        "background": [
+          17,
+          17,
+          17,
+          1
+        ],
+        "ratio": 18.883,
+        "required": 4.5,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "The 1925 12-fret 0-18 and 1951 14-fret example show the change in body outline and neck access.",
+        "tag": "BLOCKQUOTE",
+        "class": "",
+        "foreground": "rgb(255, 255, 255)",
+        "background": [
+          23,
+          22,
+          20,
+          1
+        ],
+        "ratio": 18.083,
+        "required": 3,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "1951 Martin 0-18: spruce top; the listing records a small repaired top crack.",
+        "tag": "FIGCAPTION",
+        "class": "",
+        "foreground": "rgb(255, 255, 255)",
+        "background": [
+          17,
+          17,
+          17,
+          1
+        ],
+        "ratio": 18.883,
+        "required": 4.5,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
         "text": "4",
         "tag": "SPAN",
         "class": "",
@@ -45311,7 +46703,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "The front shows the spruce grain, tortoise-pattern guard and plain Style 18 appointments. The back carries broad wear from use. Th",
+        "text": "I bought Linda’s guitar from her niece, with the family photographs and ownership account preserved. Its full condition photograph",
         "tag": "P",
         "class": "",
         "foreground": "rgb(27, 25, 22)",
@@ -45338,38 +46730,6 @@
           1
         ],
         "ratio": 11.677,
-        "required": 4.5,
-        "pass": true,
-        "unresolvedLayers": []
-      },
-      {
-        "text": "Linda Gayle’s 1949 Martin 0-18: spruce top and dark pickguard.",
-        "tag": "FIGCAPTION",
-        "class": "",
-        "foreground": "rgb(255, 255, 255)",
-        "background": [
-          17,
-          17,
-          17,
-          1
-        ],
-        "ratio": 18.883,
-        "required": 4.5,
-        "pass": true,
-        "unresolvedLayers": []
-      },
-      {
-        "text": "Linda Gayle’s 1949 Martin 0-18: mahogany back with visible playing wear.",
-        "tag": "FIGCAPTION",
-        "class": "",
-        "foreground": "rgb(255, 255, 255)",
-        "background": [
-          17,
-          17,
-          17,
-          1
-        ],
-        "ratio": 18.883,
         "required": 4.5,
         "pass": true,
         "unresolvedLayers": []
@@ -45407,7 +46767,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "A 1949 Date With A Separate Model Line",
+        "text": "1925, 1949 And 1966 Examples",
         "tag": "P",
         "class": "",
         "foreground": "rgb(157, 53, 27)",
@@ -45423,7 +46783,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "Read Serial 112697 On The Actual Neck Block",
+        "text": "Read The Neck Blocks Across Three Eras",
         "tag": "H2",
         "class": "",
         "foreground": "rgb(27, 25, 22)",
@@ -45435,6 +46795,70 @@
         ],
         "ratio": 14.677,
         "required": 3,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "23781",
+        "tag": "B",
+        "class": "",
+        "foreground": "rgb(200, 158, 87)",
+        "background": [
+          36,
+          35,
+          33,
+          1
+        ],
+        "ratio": 6.344,
+        "required": 3,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "The 1925 12-Fret 0-18",
+        "tag": "H3",
+        "class": "",
+        "foreground": "rgb(244, 239, 227)",
+        "background": [
+          36,
+          35,
+          33,
+          1
+        ],
+        "ratio": 13.685,
+        "required": 3,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "The earlier block carries serial 23781 without a model line. Martin’s totals end 1924 at 22008 and 1925 at 24116, placing the numb",
+        "tag": "P",
+        "class": "",
+        "foreground": "rgb(206, 199, 186)",
+        "background": [
+          36,
+          35,
+          33,
+          1
+        ],
+        "ratio": 9.349,
+        "required": 4.5,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "1925 Martin 0-18: serial 23781 on an earlier block without a model line.",
+        "tag": "FIGCAPTION",
+        "class": "",
+        "foreground": "rgb(255, 255, 255)",
+        "background": [
+          17,
+          17,
+          17,
+          1
+        ],
+        "ratio": 18.883,
+        "required": 4.5,
         "pass": true,
         "unresolvedLayers": []
       },
@@ -45503,6 +46927,70 @@
         "unresolvedLayers": []
       },
       {
+        "text": "216180",
+        "tag": "B",
+        "class": "",
+        "foreground": "rgb(200, 158, 87)",
+        "background": [
+          36,
+          35,
+          33,
+          1
+        ],
+        "ratio": 6.344,
+        "required": 3,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "The 1966 Martin 0-18",
+        "tag": "H3",
+        "class": "",
+        "foreground": "rgb(244, 239, 227)",
+        "background": [
+          36,
+          35,
+          33,
+          1
+        ],
+        "ratio": 13.685,
+        "required": 3,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "The later guitar is stamped 0-18 and 216180. That number falls after the 1965 year-end total of 207030 and within the 1966 total o",
+        "tag": "P",
+        "class": "",
+        "foreground": "rgb(206, 199, 186)",
+        "background": [
+          36,
+          35,
+          33,
+          1
+        ],
+        "ratio": 9.349,
+        "required": 4.5,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "1966 Martin 0-18: model stamp and serial 216180.",
+        "tag": "FIGCAPTION",
+        "class": "",
+        "foreground": "rgb(255, 255, 255)",
+        "background": [
+          17,
+          17,
+          17,
+          1
+        ],
+        "ratio": 18.883,
+        "required": 4.5,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
         "text": "Use",
         "tag": "P",
         "class": "",
@@ -45535,7 +47023,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "for the year and the model line for the instrument’s designation. A serial doesn’t encode “0-18,” and it doesn’t show whether a br",
+        "text": "for the year and the model line, when present, for the instrument’s designation. A serial doesn’t encode “0-18,” and it doesn’t sh",
         "tag": "P",
         "class": "",
         "foreground": "rgb(27, 25, 22)",
@@ -45551,7 +47039,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "For an earlier guitar, the absence of a model line can be expected. Routine model stamps began around October 1930 according to th",
+        "text": "Routine model stamps began around October 1930 according to the",
         "tag": "P",
         "class": "",
         "foreground": "rgb(27, 25, 22)",
@@ -45647,7 +47135,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "1966 Martin 0-18: Grover Sta-Tite tuners, shown as a later 0-18 comparison.",
+        "text": "1925 Martin 0-18: slotted headstock face without a later gold-script decal.",
         "tag": "FIGCAPTION",
         "class": "",
         "foreground": "rgb(255, 255, 255)",
@@ -45663,7 +47151,87 @@
         "unresolvedLayers": []
       },
       {
-        "text": "The tuner photograph shows a 1966 0-18 with Grover Sta-Tite hardware. It is a later comparison, not a picture of Linda’s 1949 head",
+        "text": "1925 Martin 0-18: pyramid bridge and saddle in profile.",
+        "tag": "FIGCAPTION",
+        "class": "",
+        "foreground": "rgb(255, 255, 255)",
+        "background": [
+          17,
+          17,
+          17,
+          1
+        ],
+        "ratio": 18.883,
+        "required": 4.5,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "1966 Martin 0-18: headstock face and gold-script logo.",
+        "tag": "FIGCAPTION",
+        "class": "",
+        "foreground": "rgb(255, 255, 255)",
+        "background": [
+          17,
+          17,
+          17,
+          1
+        ],
+        "ratio": 18.883,
+        "required": 4.5,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "1966 Martin 0-18: Grover Sta-Tite tuners on the guitar shown in the full-body views.",
+        "tag": "FIGCAPTION",
+        "class": "",
+        "foreground": "rgb(255, 255, 255)",
+        "background": [
+          17,
+          17,
+          17,
+          1
+        ],
+        "ratio": 18.883,
+        "required": 4.5,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "1966 Martin 0-18: short saddle and pickguard area; a small pickguard crack was professionally repaired.",
+        "tag": "FIGCAPTION",
+        "class": "",
+        "foreground": "rgb(255, 255, 255)",
+        "background": [
+          17,
+          17,
+          17,
+          1
+        ],
+        "ratio": 18.883,
+        "required": 4.5,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "1951 Martin 0-18: bridge and low saddle, with a future neck reset noted in the listing.",
+        "tag": "FIGCAPTION",
+        "class": "",
+        "foreground": "rgb(255, 255, 255)",
+        "background": [
+          17,
+          17,
+          17,
+          1
+        ],
+        "ratio": 18.883,
+        "required": 4.5,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "The photographs compare the 1925 slotted headstock and pyramid bridge with the 1966 gold-script face, Grover Sta-Tite tuners and s",
         "tag": "P",
         "class": "",
         "foreground": "rgb(27, 25, 22)",
@@ -45867,6 +47435,86 @@
         ],
         "ratio": 14.677,
         "required": 3,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "Joe’s",
+        "tag": "P",
+        "class": "",
+        "foreground": "rgb(27, 25, 22)",
+        "background": [
+          243,
+          234,
+          216,
+          1
+        ],
+        "ratio": 14.677,
+        "required": 4.5,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "1966 listing",
+        "tag": "A",
+        "class": "",
+        "foreground": "rgb(157, 53, 27)",
+        "background": [
+          243,
+          234,
+          216,
+          1
+        ],
+        "ratio": 5.939,
+        "required": 4.5,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "records light wear, original finish and parts, and a small professionally repaired pickguard crack. The",
+        "tag": "P",
+        "class": "",
+        "foreground": "rgb(27, 25, 22)",
+        "background": [
+          243,
+          234,
+          216,
+          1
+        ],
+        "ratio": 14.677,
+        "required": 4.5,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "1951 listing",
+        "tag": "A",
+        "class": "",
+        "foreground": "rgb(157, 53, 27)",
+        "background": [
+          243,
+          234,
+          216,
+          1
+        ],
+        "ratio": 5.939,
+        "required": 4.5,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "records a small repaired top crack, medium action and a low saddle, with a future neck reset expected. These details explain why a",
+        "tag": "P",
+        "class": "",
+        "foreground": "rgb(27, 25, 22)",
+        "background": [
+          243,
+          234,
+          216,
+          1
+        ],
+        "ratio": 14.677,
+        "required": 4.5,
         "pass": true,
         "unresolvedLayers": []
       },
@@ -46687,7 +48335,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "Annual totals used to date the photographed 112697 stamp.",
+        "text": "Annual totals used for the photographed 1925, 1949 and 1966 stamps.",
         "tag": "P",
         "class": "",
         "foreground": "rgb(27, 25, 22)",
@@ -47231,7 +48879,7 @@
     ],
     "brokenImages": [],
     "anchorFailures": [],
-    "textRuns": 232,
+    "textRuns": 235,
     "computedFailures": [],
     "layerUncertainties": 10,
     "axeViolations": [],
@@ -47810,7 +49458,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "Linda Gayle’s 1949 Martin 0-18: spruce top and dark pickguard.",
+        "text": "1966 Martin 0-18: full front of Joe’s lightly worn example.",
         "tag": "FIGCAPTION",
         "class": "",
         "foreground": "rgb(255, 255, 255)",
@@ -48050,7 +49698,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "The Archive Guitar Isn’t The Chart’s Condition Standard",
+        "text": "Include The Repairs Behind A Clean Appearance",
         "tag": "B",
         "class": "",
         "foreground": "rgb(27, 25, 22)",
@@ -48066,7 +49714,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "Linda Gayle’s 1949 0-18 illustrates a documented ownership history and visible playing wear. Its photographs don’t claim that the ",
+        "text": "The 1966 example has a small repaired pickguard crack. The 1951 guitar has a repaired top crack and a future reset noted in its re",
         "tag": "P",
         "class": "",
         "foreground": "rgb(27, 25, 22)",
@@ -49938,7 +51586,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "Linda Gayle’s 1949 Martin 0-18: mahogany back with visible playing wear.",
+        "text": "1966 Martin 0-18: spruce top and dark tortoise-pattern guard.",
         "tag": "FIGCAPTION",
         "class": "",
         "foreground": "rgb(255, 255, 255)",
@@ -49954,7 +51602,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "The back documents wear. The neck block identifies the 1949 instrument. Both belong in an appraisal record.",
+        "text": "Front and back of the lightly worn 1966 0-18. Its documented pickguard-crack repair remains part of the condition record.",
         "tag": "BLOCKQUOTE",
         "class": "",
         "foreground": "rgb(255, 255, 255)",
@@ -49970,7 +51618,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "1949 Martin 0-18: model stamp and serial 112697.",
+        "text": "1966 Martin 0-18: mahogany back with light surface wear.",
         "tag": "FIGCAPTION",
         "class": "",
         "foreground": "rgb(255, 255, 255)",
@@ -50030,6 +51678,54 @@
         ],
         "ratio": 14.677,
         "required": 3,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "1925 Martin 0-18: 12-fret body and slotted headstock.",
+        "tag": "FIGCAPTION",
+        "class": "",
+        "foreground": "rgb(255, 255, 255)",
+        "background": [
+          17,
+          17,
+          17,
+          1
+        ],
+        "ratio": 18.883,
+        "required": 4.5,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "1951 Martin 0-18: bridge and low saddle, with a future neck reset noted in the listing.",
+        "tag": "FIGCAPTION",
+        "class": "",
+        "foreground": "rgb(255, 255, 255)",
+        "background": [
+          17,
+          17,
+          17,
+          1
+        ],
+        "ratio": 18.883,
+        "required": 4.5,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "The 1925 12-fret example illustrates an earlier body and bridge configuration. The 1951 bridge profile illustrates a different app",
+        "tag": "P",
+        "class": "",
+        "foreground": "rgb(27, 25, 22)",
+        "background": [
+          243,
+          234,
+          216,
+          1
+        ],
+        "ratio": 14.677,
+        "required": 4.5,
         "pass": true,
         "unresolvedLayers": []
       },

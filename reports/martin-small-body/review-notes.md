@@ -6,9 +6,9 @@ Scope: six Style 18 posts and the existing small-body hub. No PR 2 implementatio
 
 - The existing small-body hub says maple replaced rosewood bridge plates in 1968. Existing D-21 history and primary construction research describe the reverse. Neither existing page is changed; the new guides discuss the plate's material, dimensions and repairs without selecting a disputed transition date.
 - The price guide's 0-18 14-fret row starts in 1932, while its descriptive entry and the house chronology place the normal transition in 1934. That entire disputed price band is withheld. No adjusted substitute date or estimate is invented.
-- The Wurlitzer archive describes a 1924 00-18 / model 2086. Robert Corwin's research identifies 2086 with the 00-18 but dates the Company Line to 1922. Public text attributes the archive description and states that the photographs do not settle the individual date.
+- The Wurlitzer archive describes a 1924 00-18 / model 2086. Robert Corwin's research identifies 2086 with the 00-18 but dates the Company Line to 1922. The November 6 revision removes this fair-condition archive example and its disputed date from the public guide; general dealer-brand research remains.
 - The hub's Linda photo filename/caption refers to the 1950s while the owner-story post identifies the instrument as 1949. The new pages use the owner story and the visible serial 112697; the existing hub photo and copy are preserved.
-- The final digit of the pictured 1944 000-18 serial is obscured by a string. The serial card reads `8864?` and explains the limitation. The 1952 00-18 reads `124189`; the 1949 0-18 reads `112697`.
+- The rejected 1944 000-18 photos are removed from the six new guides. Replacement serial photos read 71570 (1938 000-18), 174299 (1960 000-18), 23781 (1925 0-18) and 216180 (1966 0-18). Existing 124189 (1952 00-18) and 112697 (1949 0-18) comparisons remain.
 
 ## Price Ownership And Omissions
 
@@ -22,9 +22,9 @@ Scope: six Style 18 posts and the existing small-body hub. No PR 2 implementatio
 
 ## Photos
 
-All three pairs have exact-model photographs. No pair relies exclusively on another model. The 0-18 authentication page labels its 1931 0-18K and 1966 tuner views as variant/period comparisons. The 00-18 page distinguishes its 1920s and 1952 examples and explicitly qualifies the Wurlitzer attribution. No modern recreation is pictured as an original.
+All three pairs have exact-model photographs. The November 6 selection uses 43 photos: 000-18 examples from 1938, 1951 and 1960; 00-18 examples from the 1920s, 1951, 1952 and 1962; 0-18 examples from 1925, 1951 and 1966, plus Linda Gayle’s 1949 serial/ownership evidence and the labeled 1931 0-18K comparison. The worn 1949 front/back and fair-condition Wurlitzer photos are no longer used in the new guides.
 
-The second located 1952 Drive folder contains matching filenames and byte sizes; no larger duplicate was available there. Existing repo originals take priority and retain their paths. The selected Drive files are unscaled originals; dimensions, source IDs and SHA-256 hashes are in `photo-sources.json`.
+The photo refresh adds 31 selections, including two exact-hash matches reused at their stable existing source paths. The other 29 files preserve downloaded bytes. Drive provides full originals; Reverb-only selections preserve its served 1600px gallery rendition. Existing 1952 originals remain. Dimensions, source IDs, listings and SHA-256 hashes are in `photo-sources.json`. Selection decisions and condition disclosures are in `photo-refresh-review.md`.
 
 ## Expert Review
 

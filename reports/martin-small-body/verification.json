@@ -1,22 +1,22 @@
 {
-  "generatedAt": "2026-11-05T23:13:19.718Z",
+  "generatedAt": "2026-11-06T18:22:49.736Z",
   "pages": [
     {
       "route": "/post/martin-000-18-authentication-guide/",
       "seoTitle": "Martin 000-18 Guide: Dating, Specs And Authentication",
       "titleLength": 53,
-      "description": "Identify a vintage Martin 000-18 using its neck stamp, scale, bracing and repairs. Compare Joe’s 1944 and 1960 guitars with later reissues and OMs.",
-      "descriptionLength": 147,
-      "wordCountExcludingChartFaqNavigationCaptionsAndAuthor": 2013,
-      "fullArticleWordCount": 2402,
+      "description": "Identify a vintage Martin 000-18 using its neck stamp, scale, bracing and repairs. Compare Joe’s 1938, 1951 and 1960 guitars with later recreations.",
+      "descriptionLength": 148,
+      "wordCountExcludingChartFaqNavigationCaptionsAndAuthor": 2107,
+      "fullArticleWordCount": 2533,
       "h1": "Martin 000-18 Guide",
       "h2": [
         "What Identifies A Vintage 000-18?",
         "Why A 1934 000 Needs A Scale Measurement",
         "000-18 Features To Check Across The Decades",
         "Read The Bracing And Bridge Plate Separately",
-        "Inspect Joe’s Wartime 000-18 Photographs",
-        "Read The Model And Date Without Filling In Digits",
+        "Compare Joe’s 1938, 1951 And 1960 000-18s",
+        "Read The Model And Serial On Two Dated Guitars",
         "Compare Bridges, Guards, Tuners And Finish",
         "Distinguish An Original From A Later 000-18",
         "Document A 000-18 Before Buying Or Selling",
@@ -27,15 +27,15 @@
       ],
       "contentPhotoCount": 9,
       "photoCaptions": [
-        "1944 Martin 000-18: full front.",
-        "1944 Martin 000-18: full front.",
-        "1960 Martin 000-18 from Joe’s archive.",
-        "1944 Martin 000-18: top and pickguard.",
-        "1944 Martin 000-18: mahogany back.",
-        "1944 Martin 000-18: headstock face.",
-        "1944 Martin 000-18: rear headstock and installed tuners.",
-        "1944 Martin 000-18: body side and heel.",
-        "1944 Martin 000-18: neck-block stamp with partly obscured final serial digit."
+        "1960 Martin 000-18: full front from Joe’s clean original-family example.",
+        "1938 Martin 000-18: full front of the prewar 14-fret guitar.",
+        "1951 Martin 000-18: one-owner example with a documented neck reset.",
+        "1938 Martin 000-18: headstock face and gold-script logo.",
+        "1938 Martin 000-18: rear headstock and installed open-gear tuners.",
+        "1960 Martin 000-18: headstock face.",
+        "1960 Martin 000-18: mahogany back.",
+        "1938 Martin 000-18: model stamp and serial 71570.",
+        "1960 Martin 000-18: model stamp and serial 174299."
       ],
       "inbound": [
         {
@@ -68,8 +68,8 @@
       "titleLength": 54,
       "description": "Compare vintage Martin 000-18 prices by era, scale and bracing. See how original finish, bridge work, neck resets and case condition affect worth.",
       "descriptionLength": 146,
-      "wordCountExcludingChartFaqNavigationCaptionsAndAuthor": 1506,
-      "fullArticleWordCount": 2034,
+      "wordCountExcludingChartFaqNavigationCaptionsAndAuthor": 1514,
+      "fullArticleWordCount": 2082,
       "h1": "Martin 000-18 Value Guide",
       "h2": [
         "Vintage Martin 000-18 Price Ranges",
@@ -83,11 +83,13 @@
         "Put The 000-18’s Condition Beside The Price",
         "Joe Dampt"
       ],
-      "contentPhotoCount": 3,
+      "contentPhotoCount": 5,
       "photoCaptions": [
-        "1960 Martin 000-18 from Joe’s archive.",
-        "1944 Martin 000-18: mahogany back.",
-        "1960 Martin 000-18 from Joe’s archive."
+        "1960 Martin 000-18: full front from Joe’s clean original-family example.",
+        "1960 Martin 000-18: spruce top, tortoise-pattern guard and belly bridge.",
+        "1951 Martin 000-18 in its original case; the listing documents replacement nut and saddle.",
+        "1951 Martin 000-18: reglued original bridge and the visible footprint shadow.",
+        "1960 Martin 000-18 in its vintage chipboard case."
       ],
       "inbound": [
         {
@@ -120,13 +122,14 @@
       "titleLength": 54,
       "description": "Check a Martin 00-18’s date, body joint, wood and repairs with Joe’s archive photos. Separate Wurlitzer, Hawaiian, classical and modern instruments.",
       "descriptionLength": 148,
-      "wordCountExcludingChartFaqNavigationCaptionsAndAuthor": 1958,
-      "fullArticleWordCount": 2404,
+      "wordCountExcludingChartFaqNavigationCaptionsAndAuthor": 2095,
+      "fullArticleWordCount": 2538,
       "h1": "Martin 00-18 Guide",
       "h2": [
         "Which 00-18 Family Is In Front Of You?",
         "Follow The Change From 12 To 14 Frets",
         "Read A Wurlitzer Name Without Assuming A Fake",
+        "Compare Clean 1951 And 1962 00-18 Examples",
         "Identify Hawaiian And Koa Versions Before A Conversion Verdict",
         "Check The 00-18’s Wartime And Postwar Construction",
         "Use The Readable 1952 Neck Block As A Comparison",
@@ -138,14 +141,15 @@
         "Keep The Full 00-18 Identity In The Description",
         "Joe Dampt"
       ],
-      "contentPhotoCount": 12,
+      "contentPhotoCount": 13,
       "photoCaptions": [
         "1952 Martin 00-18: full front.",
         "1920s Martin 00-18 from Joe’s archive: a 12-fret comparison with the later 1952 guitar.",
         "1952 Martin 00-18: full front.",
-        "Wurlitzer-branded 00-18 from Joe’s archive, cataloged as a 1924 model 2086: full front.",
-        "Wurlitzer-branded 00-18 from Joe’s archive, cataloged as a 1924 model 2086: Wurlitzer name on the headstock face.",
-        "Wurlitzer-branded 00-18 from Joe’s archive, cataloged as a 1924 model 2086: X-bracing and bridge-pin area.",
+        "1951 Martin 00-18: full front of Joe’s clean one-owner example.",
+        "1951 Martin 00-18: side view of the bridge and saddle after its documented neck reset.",
+        "1962 Martin 00-18: spruce top and tortoise-pattern guard; the listing discloses a small repaired hairline crack.",
+        "1962 Martin 00-18: rear headstock and open-gear tuners.",
         "1952 Martin 00-18: 00-18 and 124189 neck-block stamps.",
         "1952 Martin 00-18: headstock face.",
         "1952 Martin 00-18: rear headstock and octagonal tuner plates.",
@@ -184,8 +188,8 @@
       "titleLength": 54,
       "description": "Find vintage Martin 00-18 value ranges, including koa and converted Hawaiian models. Compare repairs, originality and case history before selling.",
       "descriptionLength": 146,
-      "wordCountExcludingChartFaqNavigationCaptionsAndAuthor": 1546,
-      "fullArticleWordCount": 2141,
+      "wordCountExcludingChartFaqNavigationCaptionsAndAuthor": 1541,
+      "fullArticleWordCount": 2163,
       "h1": "Martin 00-18 Value Guide",
       "h2": [
         "Martin 00-18 Values By Year And Configuration",
@@ -200,11 +204,13 @@
         "Choose A 00-18 Comparison With The Same Configuration",
         "Joe Dampt"
       ],
-      "contentPhotoCount": 3,
+      "contentPhotoCount": 5,
       "photoCaptions": [
         "1952 Martin 00-18: full front.",
+        "1951 Martin 00-18 in its original hard case.",
+        "1962 Martin 00-18: mahogany back.",
         "1952 Martin 00-18: bridge and saddle.",
-        "1952 Martin 00-18: mahogany back."
+        "1962 Martin 00-18: spruce top and tortoise-pattern guard; the listing discloses a small repaired hairline crack."
       ],
       "inbound": [
         {
@@ -235,10 +241,10 @@
       "route": "/post/martin-0-18-authentication-guide/",
       "seoTitle": "Martin 0-18 Explained: Vintage Dating And Model Checks",
       "titleLength": 54,
-      "description": "Identify a vintage Martin 0-18 with serial photos, body measurements and repair checks. Compare the 0-18K and Linda Gayle’s one-owner 1949 guitar.",
-      "descriptionLength": 146,
-      "wordCountExcludingChartFaqNavigationCaptionsAndAuthor": 2154,
-      "fullArticleWordCount": 2579,
+      "description": "Identify a vintage Martin 0-18 with serial photos, body measurements and repair checks. Compare 1925, 1951 and 1966 examples plus the koa 0-18K.",
+      "descriptionLength": 144,
+      "wordCountExcludingChartFaqNavigationCaptionsAndAuthor": 2319,
+      "fullArticleWordCount": 2840,
       "h1": "Martin 0-18 Guide",
       "h2": [
         "Confirm The Concert-Size Body And Style 18 Woods",
@@ -246,7 +252,7 @@
         "Compare The Two Body Joints And Their Construction",
         "Trace The 0-18 Through Wartime And Postwar Changes",
         "Linda Gayle’s 1949 0-18 As A Documented Example",
-        "Read Serial 112697 On The Actual Neck Block",
+        "Read The Neck Blocks Across Three Eras",
         "Check Small-Body Hardware Without Borrowing Dreadnought Rules",
         "Inspect The Plate, Finish And Neck Repairs",
         "Recognize Tenors And Later 0-18 Recreations",
@@ -256,15 +262,22 @@
         "Preserve The 0-18’s Identity And Its Evidence",
         "Joe Dampt"
       ],
-      "contentPhotoCount": 7,
+      "contentPhotoCount": 14,
       "photoCaptions": [
-        "Linda Gayle’s 1949 Martin 0-18: spruce top and dark pickguard.",
+        "1966 Martin 0-18: full front of Joe’s lightly worn example.",
         "1931 Martin 0-18K from Joe’s archive: a koa-model comparison with the spruce-top 0-18.",
-        "Linda Gayle’s 1949 Martin 0-18: spruce top and dark pickguard.",
-        "Linda Gayle’s 1949 Martin 0-18: mahogany back with visible playing wear.",
+        "1925 Martin 0-18: 12-fret body and slotted headstock.",
+        "1951 Martin 0-18: spruce top; the listing records a small repaired top crack.",
         "Linda Gayle’s country-western publicity photograph, preserved with her 1949 Martin 0-18 story.",
+        "1925 Martin 0-18: serial 23781 on an earlier block without a model line.",
         "1949 Martin 0-18: model stamp and serial 112697.",
-        "1966 Martin 0-18: Grover Sta-Tite tuners, shown as a later 0-18 comparison."
+        "1966 Martin 0-18: model stamp and serial 216180.",
+        "1925 Martin 0-18: slotted headstock face without a later gold-script decal.",
+        "1925 Martin 0-18: pyramid bridge and saddle in profile.",
+        "1966 Martin 0-18: headstock face and gold-script logo.",
+        "1966 Martin 0-18: Grover Sta-Tite tuners on the guitar shown in the full-body views.",
+        "1966 Martin 0-18: short saddle and pickguard area; a small pickguard crack was professionally repaired.",
+        "1951 Martin 0-18: bridge and low saddle, with a future neck reset noted in the listing."
       ],
       "inbound": [
         {
@@ -297,8 +310,8 @@
       "titleLength": 55,
       "description": "See vintage Martin 0-18 prices for standard and koa models. Learn how wear, repairs, neck angle and family records affect an appraisal of your guitar.",
       "descriptionLength": 150,
-      "wordCountExcludingChartFaqNavigationCaptionsAndAuthor": 1586,
-      "fullArticleWordCount": 2112,
+      "wordCountExcludingChartFaqNavigationCaptionsAndAuthor": 1644,
+      "fullArticleWordCount": 2197,
       "h1": "Martin 0-18 Value Guide",
       "h2": [
         "Vintage Martin 0-18 Values And Koa Variants",
@@ -313,11 +326,13 @@
         "Value The 0-18 You Have Documented",
         "Joe Dampt"
       ],
-      "contentPhotoCount": 3,
+      "contentPhotoCount": 5,
       "photoCaptions": [
-        "Linda Gayle’s 1949 Martin 0-18: spruce top and dark pickguard.",
-        "Linda Gayle’s 1949 Martin 0-18: mahogany back with visible playing wear.",
-        "1949 Martin 0-18: model stamp and serial 112697."
+        "1966 Martin 0-18: full front of Joe’s lightly worn example.",
+        "1966 Martin 0-18: spruce top and dark tortoise-pattern guard.",
+        "1966 Martin 0-18: mahogany back with light surface wear.",
+        "1925 Martin 0-18: 12-fret body and slotted headstock.",
+        "1951 Martin 0-18: bridge and low saddle, with a future neck reset noted in the listing."
       ],
       "inbound": [
         {
@@ -349,15 +364,15 @@
     {
       "a": "/post/martin-000-18-authentication-guide/",
       "b": "/post/martin-000-18-value-guide/",
-      "shared8grams": 0,
-      "percentOfShorter": 0,
+      "shared8grams": 5,
+      "percentOfShorter": 0.24,
       "twin": true
     },
     {
       "a": "/post/martin-000-18-authentication-guide/",
       "b": "/post/martin-00-18-authentication-guide/",
       "shared8grams": 10,
-      "percentOfShorter": 0.42,
+      "percentOfShorter": 0.4,
       "twin": false
     },
     {
@@ -371,7 +386,7 @@
       "a": "/post/martin-000-18-authentication-guide/",
       "b": "/post/martin-0-18-authentication-guide/",
       "shared8grams": 10,
-      "percentOfShorter": 0.42,
+      "percentOfShorter": 0.4,
       "twin": false
     },
     {
@@ -392,7 +407,7 @@
       "a": "/post/martin-000-18-value-guide/",
       "b": "/post/martin-00-18-value-guide/",
       "shared8grams": 94,
-      "percentOfShorter": 4.68,
+      "percentOfShorter": 4.57,
       "twin": false
     },
     {
@@ -406,21 +421,21 @@
       "a": "/post/martin-000-18-value-guide/",
       "b": "/post/martin-0-18-value-guide/",
       "shared8grams": 86,
-      "percentOfShorter": 4.28,
+      "percentOfShorter": 4.18,
       "twin": false
     },
     {
       "a": "/post/martin-00-18-authentication-guide/",
       "b": "/post/martin-00-18-value-guide/",
-      "shared8grams": 0,
-      "percentOfShorter": 0,
+      "shared8grams": 11,
+      "percentOfShorter": 0.51,
       "twin": true
     },
     {
       "a": "/post/martin-00-18-authentication-guide/",
       "b": "/post/martin-0-18-authentication-guide/",
       "shared8grams": 15,
-      "percentOfShorter": 0.63,
+      "percentOfShorter": 0.6,
       "twin": false
     },
     {
@@ -441,14 +456,14 @@
       "a": "/post/martin-00-18-value-guide/",
       "b": "/post/martin-0-18-value-guide/",
       "shared8grams": 84,
-      "percentOfShorter": 4.03,
+      "percentOfShorter": 3.93,
       "twin": false
     },
     {
       "a": "/post/martin-0-18-authentication-guide/",
       "b": "/post/martin-0-18-value-guide/",
-      "shared8grams": 11,
-      "percentOfShorter": 0.53,
+      "shared8grams": 18,
+      "percentOfShorter": 0.83,
       "twin": true
     }
   ],
@@ -457,21 +472,21 @@
       "a": "/post/martin-000-18-authentication-guide/",
       "b": "/post/martin-00-18-authentication-guide/",
       "shared8grams": 10,
-      "percentOfShorter": 0.42,
+      "percentOfShorter": 0.4,
       "twin": false
     },
     {
       "a": "/post/martin-000-18-authentication-guide/",
       "b": "/post/martin-0-18-authentication-guide/",
       "shared8grams": 10,
-      "percentOfShorter": 0.42,
+      "percentOfShorter": 0.4,
       "twin": false
     },
     {
       "a": "/post/martin-00-18-authentication-guide/",
       "b": "/post/martin-0-18-authentication-guide/",
       "shared8grams": 15,
-      "percentOfShorter": 0.63,
+      "percentOfShorter": 0.6,
       "twin": false
     }
   ],
@@ -481,7 +496,7 @@
       "file": "blog/index.html",
       "unchanged": false,
       "before": "9e3928136390f84e3cd6b0e0c9f6fa135297edfb262a45b5afab0de2bbf555dc",
-      "after": "f9b1f223468c8a1d61d2bf389da6d469546a0e59ebfaa235b9db0e590e9c6314"
+      "after": "21d38237e6279724724303565bf32836224feb5de007c28cfae9bbb7972d8351"
     },
     {
       "file": "blog/page/10/index.html",
@@ -691,7 +706,7 @@
       "file": "category/specific-model-highlights/index.html",
       "unchanged": false,
       "before": "7bdbda62b681180ebac90e2384b49dbd6409849d1980b8c09ee21e0985ec48fe",
-      "after": "fc3fba80edd4c22029731713def9f9088f12368ef9101ffc98a461c34d7f3934"
+      "after": "31a318d33bcfde02f7e185083a210865b9187ab61b739ddf2366061d1d95236e"
     },
     {
       "file": "category/specific-model-highlights/page/10/index.html",
@@ -775,7 +790,7 @@
       "file": "category/value-evaluation/index.html",
       "unchanged": false,
       "before": "d70d968585c9fd0236d2f08c27b77609684d2c0e53025ca99b6777cacbdbdbd8",
-      "after": "4f80dd10504c709a63daf38a4b1a76b1a0e43f0eb62f9a438b042774e186a4b6"
+      "after": "0ee8457c576c52373333303f0a3686917921386c5dbb343d578ff29a98fda6c0"
     },
     {
       "file": "category/value-evaluation/page/2/index.html",

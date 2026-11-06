@@ -1,5 +1,5 @@
 {
-  "reviewedAt": "2026-11-05",
+  "reviewedAt": "2026-11-06",
   "method": "Task-local claim ledger. MSB identifiers are not claimed as canonical VG FactIDs. House pages were read from fresh origin/main and preserved; primary factory and photographic research was consulted for chronology and unresolved conflicts. On-page links and references support authentication prose. Photo observations trace to photo-sources.json. Numeric price derivations are separate in value-chart-check.json; the user prohibits external citations on value pages.",
   "sourceRegister": {
     "model": "https://www.joesvintageguitarsaz.com/martin-guitar-model-numbers/",
@@ -213,15 +213,14 @@
     },
     {
       "id": "MSB-014",
-      "claim": "Visible 8864? falls in the 1944 interval 86725–90149; the final digit remains hidden.",
+      "claim": "Photographed 71570 falls in the 1938 interval 68866–71866; photographed 174299 falls in the 1960 interval 171048–175689.",
       "pages": [
         "/post/martin-000-18-authentication-guide/"
       ],
       "sources": [
-        "https://www.martinguitar.com/support-serial-number-lookup.html",
-        "https://drive.google.com/file/d/16XyNDpeG_0L6wJ-EoiFkzYBTaLPXpWaH/view"
+        "https://www.martinguitar.com/support-serial-number-lookup.html"
       ],
-      "qualification": "Verified visually; no missing digit supplied."
+      "qualification": "Both complete serials read from full-size Drive originals, p38stamp and p60stamp."
     },
     {
       "id": "MSB-015",
@@ -249,7 +248,7 @@
     },
     {
       "id": "MSB-017",
-      "claim": "The 1944 archive views show installed bridge/guard/logo/tuners, mahogany back and wear, without certifying that every part is original.",
+      "claim": "The 1938, 1951 and 1960 archive views show three separate 000-18s; exterior views are not a certificate of untouched interior construction.",
       "pages": [
         "/post/martin-000-18-authentication-guide/"
       ],
@@ -258,7 +257,7 @@
         "https://www.joesvintageguitarsaz.com/martin-tuner-dating-guide/",
         "https://www.joesvintageguitarsaz.com/martin-headstock-logo-dating-guide/"
       ],
-      "qualification": "Exact image sources and original-byte hashes are in photo-sources.json, keys a44_2 through a44_13."
+      "qualification": "Exact image sources and original-byte hashes are in photo-sources.json; all rejected 1944 photos have been removed from the new guides."
     },
     {
       "id": "MSB-018",
@@ -308,15 +307,14 @@
     },
     {
       "id": "MSB-022",
-      "claim": "Wurlitzer 2086 is associated with 00-18 in photographed research, which dates the Company Line to 1922; Joe’s archive labels this example 1924/2086.",
+      "claim": "Wurlitzer 2086 is associated with 00-18 in photographed research, which dates the Company Line to 1922.",
       "pages": [
         "/post/martin-00-18-authentication-guide/"
       ],
       "sources": [
-        "https://vintagemartin.com/MartinWurlitzer.html",
-        "https://drive.google.com/drive/folders/1x_rVVtXi1t7AYzUOsktY7im0iUgcxUTu"
+        "https://vintagemartin.com/MartinWurlitzer.html"
       ],
-      "qualification": "Unresolved attribution is stated on the page. No readable serial is claimed, and no production-count claim is made."
+      "qualification": "November 6 refresh removes the fair-condition archive photos and their disputed individual attribution. General dealer-brand identification remains."
     },
     {
       "id": "MSB-023",
@@ -434,6 +432,83 @@
         "https://www.joesvintageguitarsaz.com/martin-guitar-model-numbers/"
       ],
       "qualification": ""
+    },
+    {
+      "id": "MSB-031",
+      "claim": "The 1925 0-18 block reads 23781, within 22009–24116; the 1966 block reads 216180, within 207031–217215.",
+      "pages": [
+        "/post/martin-0-18-authentication-guide/"
+      ],
+      "sources": [
+        "https://www.martinguitar.com/support-serial-number-lookup.html"
+      ],
+      "qualification": "All digits inspected directly in p25stamp and p66stamp. Earlier model identification also uses archive/body/style evidence."
+    },
+    {
+      "id": "MSB-032",
+      "claim": "The 1951 000-18 listing documents a neck reset, reglued original bridge with a footprint shadow, replacement bone nut and saddle, and original case.",
+      "pages": [
+        "/post/martin-000-18-authentication-guide/"
+      ],
+      "sources": [
+        "https://reverb.com/item/97542295-martin-000-18-1951-one-owner"
+      ],
+      "qualification": "Listing description read in Joe’s connected Reverb session; no sale/asking price is used."
+    },
+    {
+      "id": "MSB-033",
+      "claim": "The 1960 000-18 listing describes original-family ownership, original finish and parts, no cracks, and a reset needed for low action.",
+      "pages": [
+        "/post/martin-000-18-authentication-guide/"
+      ],
+      "sources": [
+        "https://reverb.com/item/97542729-clean-martin-000-18-1960"
+      ],
+      "qualification": "The specific reset requirement takes precedence over the listing’s contradictory general needs-nothing phrase."
+    },
+    {
+      "id": "MSB-034",
+      "claim": "The 1951 00-18 listing describes excellent original one-owner condition, a professional neck reset, fingerboard-extension shim and original hard case.",
+      "pages": [
+        "/post/martin-00-18-authentication-guide/"
+      ],
+      "sources": [
+        "https://reverb.com/item/81589278-martin-00-18-1951-clean-one-owner"
+      ],
+      "qualification": "No sale price used; photographs preserve the Reverb 1600px rendition."
+    },
+    {
+      "id": "MSB-035",
+      "claim": "The 1962 00-18 listing describes excellent neck angle/low action and a small professionally repaired hairline crack.",
+      "pages": [
+        "/post/martin-00-18-authentication-guide/"
+      ],
+      "sources": [
+        "https://reverb.com/item/66853543-martin-00-18-1962"
+      ],
+      "qualification": "The repaired crack remains disclosed with the cleaner example."
+    },
+    {
+      "id": "MSB-036",
+      "claim": "The 1966 0-18 listing describes light wear, original finish/parts and a small professionally repaired pickguard crack.",
+      "pages": [
+        "/post/martin-0-18-authentication-guide/"
+      ],
+      "sources": [
+        "https://reverb.com/item/93771171-martin-0-18-1966-clean"
+      ],
+      "qualification": "Its nonoriginal case is not presented as the original-case price baseline."
+    },
+    {
+      "id": "MSB-037",
+      "claim": "The 1951 0-18 listing describes a small repaired top crack, medium action, low saddle and a future neck reset.",
+      "pages": [
+        "/post/martin-0-18-authentication-guide/"
+      ],
+      "sources": [
+        "https://reverb.com/item/79507438-martin-0-18-1951"
+      ],
+      "qualification": "Preserved appearance is not used to imply repair-free condition."
     }
   ],
   "renderedSectionLinks": [
@@ -476,13 +551,16 @@
     {
       "page": "/post/martin-000-18-authentication-guide/",
       "section": "archive",
-      "heading": "Inspect Joe’s Wartime 000-18 Photographs",
-      "visibleSourceLinks": []
+      "heading": "Compare Joe’s 1938, 1951 And 1960 000-18s",
+      "visibleSourceLinks": [
+        "/martin-tuner-dating-guide/",
+        "https://reverb.com/item/97542729-clean-martin-000-18-1960"
+      ]
     },
     {
       "page": "/post/martin-000-18-authentication-guide/",
       "section": "stamp",
-      "heading": "Read The Model And Date Without Filling In Digits",
+      "heading": "Read The Model And Serial On Two Dated Guitars",
       "visibleSourceLinks": [
         "https://www.martinguitar.com/support-serial-number-lookup.html",
         "/martin-neck-block-stamps/"
@@ -527,6 +605,7 @@
       "visibleSourceLinks": [
         "https://www.martinguitar.com/support-serial-number-lookup.html",
         "https://www.martinguitar.com/blog-categories/from-the-factory/blog-061026-the-1933-martin-OM-45-that-went-to-war.html",
+        "https://reverb.com/item/97542295-martin-000-18-1951-one-owner",
         "/prewar-martin-guitar-guide/",
         "/martin-guitar-dating-guide/",
         "/post/martin-0-00-000-history-authentication-value-guide/"
@@ -563,6 +642,15 @@
       "heading": "Read A Wurlitzer Name Without Assuming A Fake",
       "visibleSourceLinks": [
         "https://vintagemartin.com/MartinWurlitzer.html"
+      ]
+    },
+    {
+      "page": "/post/martin-00-18-authentication-guide/",
+      "section": "postwar-photos",
+      "heading": "Compare Clean 1951 And 1962 00-18 Examples",
+      "visibleSourceLinks": [
+        "https://reverb.com/item/81589278-martin-00-18-1951-clean-one-owner",
+        "https://reverb.com/item/66853543-martin-00-18-1962"
       ]
     },
     {
@@ -688,7 +776,7 @@
     {
       "page": "/post/martin-0-18-authentication-guide/",
       "section": "serial",
-      "heading": "Read Serial 112697 On The Actual Neck Block",
+      "heading": "Read The Neck Blocks Across Three Eras",
       "visibleSourceLinks": [
         "https://www.martinguitar.com/support-serial-number-lookup.html",
         "/martin-neck-block-stamps/"
@@ -709,6 +797,8 @@
       "section": "inside-finish",
       "heading": "Inspect The Plate, Finish And Neck Repairs",
       "visibleSourceLinks": [
+        "https://reverb.com/item/93771171-martin-0-18-1966-clean",
+        "https://reverb.com/item/79507438-martin-0-18-1951",
         "/prewar-martin-guitar-guide/",
         "/how-to-tell-if-a-guitar-has-been-refinished/",
         "/post/how-to-tell-if-your-acoustic-guitar-needs-a-neck-reset/"
@@ -755,5 +845,5 @@
       "visibleSourceLinks": []
     }
   ],
-  "unresolvedConflicts": "See review-notes.md: bridge-plate direction, withheld 0-18 date band, Wurlitzer attribution and old hub photo caption."
+  "unresolvedConflicts": "See review-notes.md: bridge-plate direction, withheld 0-18 date band and old hub photo caption. The removed Wurlitzer archive attribution remains recorded historically."
 }

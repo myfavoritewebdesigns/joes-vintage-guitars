@@ -1,0 +1,2630 @@
+{
+  "results": [
+    {
+      "slug": "martin-000-18-authentication-guide",
+      "width": 1280,
+      "captions": [
+        "1960 Martin 000-18: full front from Joe’s clean original-family example.",
+        "1938 Martin 000-18: full front of the prewar 14-fret guitar.",
+        "1951 Martin 000-18: one-owner example with a documented neck reset.",
+        "1938 Martin 000-18: headstock face and gold-script logo.",
+        "1938 Martin 000-18: rear headstock and installed open-gear tuners.",
+        "1960 Martin 000-18: headstock face.",
+        "1960 Martin 000-18: mahogany back.",
+        "1938 Martin 000-18: model stamp and serial 71570.",
+        "1960 Martin 000-18: model stamp and serial 174299."
+      ],
+      "walks": [
+        [
+          {
+            "tag": "DIV",
+            "class": "mg-gallery mg-gallery-2",
+            "display": "grid",
+            "grid": "410px 410px",
+            "width": 832,
+            "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+            "before": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            },
+            "after": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            }
+          },
+          {
+            "tag": "DIV",
+            "class": "mg-era",
+            "display": "grid",
+            "grid": "280px 832px",
+            "width": 1152,
+            "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+            "before": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            },
+            "after": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            }
+          },
+          {
+            "tag": "DIV",
+            "class": "mg-archive-items",
+            "display": "block",
+            "grid": "none",
+            "width": 1152,
+            "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+            "before": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            },
+            "after": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            }
+          },
+          {
+            "tag": "DIV",
+            "class": "mg-section mg-wrap",
+            "display": "block",
+            "grid": "none",
+            "width": 1152,
+            "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+            "before": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            },
+            "after": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            }
+          },
+          {
+            "tag": "SECTION",
+            "class": "mg-band mg-archive",
+            "display": "block",
+            "grid": "none",
+            "width": 1280,
+            "bg": "rgb(225, 209, 180) none repeat scroll 0% 0% / auto padding-box border-box",
+            "before": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            },
+            "after": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            }
+          },
+          {
+            "tag": "ARTICLE",
+            "class": "mg-guide",
+            "display": "block",
+            "grid": "none",
+            "width": 1280,
+            "bg": "rgb(243, 234, 216) none repeat scroll 0% 0% / auto padding-box border-box",
+            "before": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            },
+            "after": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            }
+          },
+          {
+            "tag": "MAIN",
+            "class": "",
+            "display": "block",
+            "grid": "none",
+            "width": 1280,
+            "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+            "before": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(42, 45, 51)",
+              "inset": "auto",
+              "transform": "none"
+            },
+            "after": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(42, 45, 51)",
+              "inset": "auto",
+              "transform": "none"
+            }
+          }
+        ],
+        [
+          {
+            "tag": "DIV",
+            "class": "mg-gallery mg-gallery-2",
+            "display": "grid",
+            "grid": "410px 410px",
+            "width": 832,
+            "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+            "before": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            },
+            "after": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            }
+          },
+          {
+            "tag": "DIV",
+            "class": "mg-era",
+            "display": "grid",
+            "grid": "280px 832px",
+            "width": 1152,
+            "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+            "before": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            },
+            "after": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            }
+          },
+          {
+            "tag": "DIV",
+            "class": "mg-archive-items",
+            "display": "block",
+            "grid": "none",
+            "width": 1152,
+            "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+            "before": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            },
+            "after": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            }
+          },
+          {
+            "tag": "DIV",
+            "class": "mg-section mg-wrap",
+            "display": "block",
+            "grid": "none",
+            "width": 1152,
+            "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+            "before": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            },
+            "after": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            }
+          },
+          {
+            "tag": "SECTION",
+            "class": "mg-band mg-archive",
+            "display": "block",
+            "grid": "none",
+            "width": 1280,
+            "bg": "rgb(225, 209, 180) none repeat scroll 0% 0% / auto padding-box border-box",
+            "before": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            },
+            "after": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            }
+          },
+          {
+            "tag": "ARTICLE",
+            "class": "mg-guide",
+            "display": "block",
+            "grid": "none",
+            "width": 1280,
+            "bg": "rgb(243, 234, 216) none repeat scroll 0% 0% / auto padding-box border-box",
+            "before": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            },
+            "after": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            }
+          },
+          {
+            "tag": "MAIN",
+            "class": "",
+            "display": "block",
+            "grid": "none",
+            "width": 1280,
+            "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+            "before": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(42, 45, 51)",
+              "inset": "auto",
+              "transform": "none"
+            },
+            "after": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(42, 45, 51)",
+              "inset": "auto",
+              "transform": "none"
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "slug": "martin-00-18-authentication-guide",
+      "width": 1280,
+      "captions": [
+        "1952 Martin 00-18: full front.",
+        "1920s Martin 00-18 from Joe’s archive: a 12-fret comparison with the later 1952 guitar.",
+        "1952 Martin 00-18: full front.",
+        "1951 Martin 00-18: full front of Joe’s clean one-owner example.",
+        "1951 Martin 00-18: side view of the bridge and saddle after its documented neck reset.",
+        "1962 Martin 00-18: spruce top and tortoise-pattern guard; the listing discloses a small repaired hairline crack.",
+        "1962 Martin 00-18: rear headstock and open-gear tuners.",
+        "1952 Martin 00-18: 00-18 and 124189 neck-block stamps.",
+        "1952 Martin 00-18: headstock face.",
+        "1952 Martin 00-18: rear headstock and octagonal tuner plates.",
+        "1952 Martin 00-18: bridge and saddle.",
+        "1952 Martin 00-18: mahogany back.",
+        "1952 Martin 00-18: body side."
+      ],
+      "walks": [
+        [
+          {
+            "tag": "DIV",
+            "class": "mg-gallery mg-gallery-2",
+            "display": "grid",
+            "grid": "410px 410px",
+            "width": 832,
+            "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+            "before": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            },
+            "after": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            }
+          },
+          {
+            "tag": "DIV",
+            "class": "mg-era",
+            "display": "grid",
+            "grid": "280px 832px",
+            "width": 1152,
+            "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+            "before": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            },
+            "after": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            }
+          },
+          {
+            "tag": "DIV",
+            "class": "mg-archive-items",
+            "display": "block",
+            "grid": "none",
+            "width": 1152,
+            "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+            "before": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            },
+            "after": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            }
+          },
+          {
+            "tag": "DIV",
+            "class": "mg-section mg-wrap",
+            "display": "block",
+            "grid": "none",
+            "width": 1152,
+            "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+            "before": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            },
+            "after": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            }
+          },
+          {
+            "tag": "SECTION",
+            "class": "mg-band mg-archive",
+            "display": "block",
+            "grid": "none",
+            "width": 1280,
+            "bg": "rgb(225, 209, 180) none repeat scroll 0% 0% / auto padding-box border-box",
+            "before": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            },
+            "after": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            }
+          },
+          {
+            "tag": "ARTICLE",
+            "class": "mg-guide",
+            "display": "block",
+            "grid": "none",
+            "width": 1280,
+            "bg": "rgb(243, 234, 216) none repeat scroll 0% 0% / auto padding-box border-box",
+            "before": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            },
+            "after": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            }
+          },
+          {
+            "tag": "MAIN",
+            "class": "",
+            "display": "block",
+            "grid": "none",
+            "width": 1280,
+            "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+            "before": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(42, 45, 51)",
+              "inset": "auto",
+              "transform": "none"
+            },
+            "after": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(42, 45, 51)",
+              "inset": "auto",
+              "transform": "none"
+            }
+          }
+        ],
+        [
+          {
+            "tag": "DIV",
+            "class": "mg-gallery mg-gallery-2",
+            "display": "grid",
+            "grid": "410px 410px",
+            "width": 832,
+            "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+            "before": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            },
+            "after": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            }
+          },
+          {
+            "tag": "DIV",
+            "class": "mg-era",
+            "display": "grid",
+            "grid": "280px 832px",
+            "width": 1152,
+            "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+            "before": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            },
+            "after": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            }
+          },
+          {
+            "tag": "DIV",
+            "class": "mg-archive-items",
+            "display": "block",
+            "grid": "none",
+            "width": 1152,
+            "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+            "before": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            },
+            "after": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            }
+          },
+          {
+            "tag": "DIV",
+            "class": "mg-section mg-wrap",
+            "display": "block",
+            "grid": "none",
+            "width": 1152,
+            "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+            "before": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            },
+            "after": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            }
+          },
+          {
+            "tag": "SECTION",
+            "class": "mg-band mg-archive",
+            "display": "block",
+            "grid": "none",
+            "width": 1280,
+            "bg": "rgb(225, 209, 180) none repeat scroll 0% 0% / auto padding-box border-box",
+            "before": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            },
+            "after": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            }
+          },
+          {
+            "tag": "ARTICLE",
+            "class": "mg-guide",
+            "display": "block",
+            "grid": "none",
+            "width": 1280,
+            "bg": "rgb(243, 234, 216) none repeat scroll 0% 0% / auto padding-box border-box",
+            "before": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            },
+            "after": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            }
+          },
+          {
+            "tag": "MAIN",
+            "class": "",
+            "display": "block",
+            "grid": "none",
+            "width": 1280,
+            "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+            "before": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(42, 45, 51)",
+              "inset": "auto",
+              "transform": "none"
+            },
+            "after": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(42, 45, 51)",
+              "inset": "auto",
+              "transform": "none"
+            }
+          }
+        ],
+        [
+          {
+            "tag": "DIV",
+            "class": "mg-photo-grid",
+            "display": "grid",
+            "grid": "563.5px 563.5px",
+            "width": 1152,
+            "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+            "before": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            },
+            "after": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            }
+          },
+          {
+            "tag": "DIV",
+            "class": "mg-section mg-wrap",
+            "display": "block",
+            "grid": "none",
+            "width": 1152,
+            "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+            "before": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            },
+            "after": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            }
+          },
+          {
+            "tag": "SECTION",
+            "class": "mg-band",
+            "display": "block",
+            "grid": "none",
+            "width": 1280,
+            "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+            "before": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            },
+            "after": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            }
+          },
+          {
+            "tag": "ARTICLE",
+            "class": "mg-guide",
+            "display": "block",
+            "grid": "none",
+            "width": 1280,
+            "bg": "rgb(243, 234, 216) none repeat scroll 0% 0% / auto padding-box border-box",
+            "before": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            },
+            "after": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            }
+          },
+          {
+            "tag": "MAIN",
+            "class": "",
+            "display": "block",
+            "grid": "none",
+            "width": 1280,
+            "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+            "before": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(42, 45, 51)",
+              "inset": "auto",
+              "transform": "none"
+            },
+            "after": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(42, 45, 51)",
+              "inset": "auto",
+              "transform": "none"
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "slug": "martin-0-18-authentication-guide",
+      "width": 1280,
+      "captions": [
+        "1966 Martin 0-18: full front of Joe’s lightly worn example.",
+        "1931 Martin 0-18K from Joe’s archive: a koa-model comparison with the spruce-top 0-18.",
+        "1925 Martin 0-18: 12-fret body and slotted headstock.",
+        "1951 Martin 0-18: spruce top; the listing records a small repaired top crack.",
+        "Linda Gayle’s country-western publicity photograph, preserved with her 1949 Martin 0-18 story.",
+        "1925 Martin 0-18: serial 23781 on an earlier block without a model line.",
+        "1949 Martin 0-18: model stamp and serial 112697.",
+        "1966 Martin 0-18: model stamp and serial 216180.",
+        "1925 Martin 0-18: slotted headstock face without a later gold-script decal.",
+        "1925 Martin 0-18: pyramid bridge and saddle in profile.",
+        "1966 Martin 0-18: headstock face and gold-script logo.",
+        "1966 Martin 0-18: Grover Sta-Tite tuners on the guitar shown in the full-body views.",
+        "1966 Martin 0-18: short saddle and pickguard area; a small pickguard crack was professionally repaired.",
+        "1951 Martin 0-18: bridge and low saddle, with a future neck reset noted in the listing."
+      ],
+      "walks": [
+        [
+          {
+            "tag": "DIV",
+            "class": "mg-photo-grid",
+            "display": "grid",
+            "grid": "563.5px 563.5px",
+            "width": 1152,
+            "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+            "before": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            },
+            "after": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            }
+          },
+          {
+            "tag": "DIV",
+            "class": "mg-section mg-wrap",
+            "display": "block",
+            "grid": "none",
+            "width": 1152,
+            "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+            "before": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            },
+            "after": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            }
+          },
+          {
+            "tag": "SECTION",
+            "class": "mg-band",
+            "display": "block",
+            "grid": "none",
+            "width": 1280,
+            "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+            "before": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            },
+            "after": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            }
+          },
+          {
+            "tag": "ARTICLE",
+            "class": "mg-guide",
+            "display": "block",
+            "grid": "none",
+            "width": 1280,
+            "bg": "rgb(243, 234, 216) none repeat scroll 0% 0% / auto padding-box border-box",
+            "before": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            },
+            "after": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            }
+          },
+          {
+            "tag": "MAIN",
+            "class": "",
+            "display": "block",
+            "grid": "none",
+            "width": 1280,
+            "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+            "before": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(42, 45, 51)",
+              "inset": "auto",
+              "transform": "none"
+            },
+            "after": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(42, 45, 51)",
+              "inset": "auto",
+              "transform": "none"
+            }
+          }
+        ],
+        [
+          {
+            "tag": "DIV",
+            "class": "mg-gallery mg-gallery-1",
+            "display": "grid",
+            "grid": "410px 410px",
+            "width": 832,
+            "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+            "before": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            },
+            "after": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            }
+          },
+          {
+            "tag": "DIV",
+            "class": "mg-era",
+            "display": "grid",
+            "grid": "280px 832px",
+            "width": 1152,
+            "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+            "before": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            },
+            "after": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            }
+          },
+          {
+            "tag": "DIV",
+            "class": "mg-archive-items",
+            "display": "block",
+            "grid": "none",
+            "width": 1152,
+            "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+            "before": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            },
+            "after": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            }
+          },
+          {
+            "tag": "DIV",
+            "class": "mg-section mg-wrap",
+            "display": "block",
+            "grid": "none",
+            "width": 1152,
+            "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+            "before": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            },
+            "after": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            }
+          },
+          {
+            "tag": "SECTION",
+            "class": "mg-band mg-archive",
+            "display": "block",
+            "grid": "none",
+            "width": 1280,
+            "bg": "rgb(225, 209, 180) none repeat scroll 0% 0% / auto padding-box border-box",
+            "before": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            },
+            "after": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            }
+          },
+          {
+            "tag": "ARTICLE",
+            "class": "mg-guide",
+            "display": "block",
+            "grid": "none",
+            "width": 1280,
+            "bg": "rgb(243, 234, 216) none repeat scroll 0% 0% / auto padding-box border-box",
+            "before": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            },
+            "after": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            }
+          },
+          {
+            "tag": "MAIN",
+            "class": "",
+            "display": "block",
+            "grid": "none",
+            "width": 1280,
+            "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+            "before": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(42, 45, 51)",
+              "inset": "auto",
+              "transform": "none"
+            },
+            "after": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(42, 45, 51)",
+              "inset": "auto",
+              "transform": "none"
+            }
+          }
+        ],
+        [
+          {
+            "tag": "DIV",
+            "class": "mg-photo-grid",
+            "display": "grid",
+            "grid": "563.5px 563.5px",
+            "width": 1152,
+            "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+            "before": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            },
+            "after": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            }
+          },
+          {
+            "tag": "DIV",
+            "class": "mg-section mg-wrap",
+            "display": "block",
+            "grid": "none",
+            "width": 1152,
+            "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+            "before": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            },
+            "after": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            }
+          },
+          {
+            "tag": "SECTION",
+            "class": "mg-band",
+            "display": "block",
+            "grid": "none",
+            "width": 1280,
+            "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+            "before": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            },
+            "after": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            }
+          },
+          {
+            "tag": "ARTICLE",
+            "class": "mg-guide",
+            "display": "block",
+            "grid": "none",
+            "width": 1280,
+            "bg": "rgb(243, 234, 216) none repeat scroll 0% 0% / auto padding-box border-box",
+            "before": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            },
+            "after": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            }
+          },
+          {
+            "tag": "MAIN",
+            "class": "",
+            "display": "block",
+            "grid": "none",
+            "width": 1280,
+            "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+            "before": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(42, 45, 51)",
+              "inset": "auto",
+              "transform": "none"
+            },
+            "after": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(42, 45, 51)",
+              "inset": "auto",
+              "transform": "none"
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "slug": "martin-000-18-authentication-guide",
+      "width": 375,
+      "captions": [
+        "1960 Martin 000-18: full front from Joe’s clean original-family example.",
+        "1938 Martin 000-18: full front of the prewar 14-fret guitar.",
+        "1951 Martin 000-18: one-owner example with a documented neck reset.",
+        "1938 Martin 000-18: headstock face and gold-script logo.",
+        "1938 Martin 000-18: rear headstock and installed open-gear tuners.",
+        "1960 Martin 000-18: headstock face.",
+        "1960 Martin 000-18: mahogany back.",
+        "1938 Martin 000-18: model stamp and serial 71570.",
+        "1960 Martin 000-18: model stamp and serial 174299."
+      ],
+      "walks": [
+        [
+          {
+            "tag": "DIV",
+            "class": "mg-gallery mg-gallery-2",
+            "display": "grid",
+            "grid": "335px",
+            "width": 335,
+            "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+            "before": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            },
+            "after": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            }
+          },
+          {
+            "tag": "DIV",
+            "class": "mg-era",
+            "display": "grid",
+            "grid": "335px",
+            "width": 335,
+            "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+            "before": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            },
+            "after": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            }
+          },
+          {
+            "tag": "DIV",
+            "class": "mg-archive-items",
+            "display": "block",
+            "grid": "none",
+            "width": 335,
+            "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+            "before": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            },
+            "after": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            }
+          },
+          {
+            "tag": "DIV",
+            "class": "mg-section mg-wrap",
+            "display": "block",
+            "grid": "none",
+            "width": 335,
+            "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+            "before": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            },
+            "after": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            }
+          },
+          {
+            "tag": "SECTION",
+            "class": "mg-band mg-archive",
+            "display": "block",
+            "grid": "none",
+            "width": 375,
+            "bg": "rgb(225, 209, 180) none repeat scroll 0% 0% / auto padding-box border-box",
+            "before": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            },
+            "after": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            }
+          },
+          {
+            "tag": "ARTICLE",
+            "class": "mg-guide",
+            "display": "block",
+            "grid": "none",
+            "width": 375,
+            "bg": "rgb(243, 234, 216) none repeat scroll 0% 0% / auto padding-box border-box",
+            "before": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            },
+            "after": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            }
+          },
+          {
+            "tag": "MAIN",
+            "class": "",
+            "display": "block",
+            "grid": "none",
+            "width": 375,
+            "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+            "before": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(42, 45, 51)",
+              "inset": "auto",
+              "transform": "none"
+            },
+            "after": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(42, 45, 51)",
+              "inset": "auto",
+              "transform": "none"
+            }
+          }
+        ],
+        [
+          {
+            "tag": "DIV",
+            "class": "mg-gallery mg-gallery-2",
+            "display": "grid",
+            "grid": "335px",
+            "width": 335,
+            "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+            "before": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            },
+            "after": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            }
+          },
+          {
+            "tag": "DIV",
+            "class": "mg-era",
+            "display": "grid",
+            "grid": "335px",
+            "width": 335,
+            "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+            "before": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            },
+            "after": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            }
+          },
+          {
+            "tag": "DIV",
+            "class": "mg-archive-items",
+            "display": "block",
+            "grid": "none",
+            "width": 335,
+            "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+            "before": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            },
+            "after": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            }
+          },
+          {
+            "tag": "DIV",
+            "class": "mg-section mg-wrap",
+            "display": "block",
+            "grid": "none",
+            "width": 335,
+            "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+            "before": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            },
+            "after": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            }
+          },
+          {
+            "tag": "SECTION",
+            "class": "mg-band mg-archive",
+            "display": "block",
+            "grid": "none",
+            "width": 375,
+            "bg": "rgb(225, 209, 180) none repeat scroll 0% 0% / auto padding-box border-box",
+            "before": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            },
+            "after": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            }
+          },
+          {
+            "tag": "ARTICLE",
+            "class": "mg-guide",
+            "display": "block",
+            "grid": "none",
+            "width": 375,
+            "bg": "rgb(243, 234, 216) none repeat scroll 0% 0% / auto padding-box border-box",
+            "before": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            },
+            "after": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            }
+          },
+          {
+            "tag": "MAIN",
+            "class": "",
+            "display": "block",
+            "grid": "none",
+            "width": 375,
+            "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+            "before": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(42, 45, 51)",
+              "inset": "auto",
+              "transform": "none"
+            },
+            "after": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(42, 45, 51)",
+              "inset": "auto",
+              "transform": "none"
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "slug": "martin-00-18-authentication-guide",
+      "width": 375,
+      "captions": [
+        "1952 Martin 00-18: full front.",
+        "1920s Martin 00-18 from Joe’s archive: a 12-fret comparison with the later 1952 guitar.",
+        "1952 Martin 00-18: full front.",
+        "1951 Martin 00-18: full front of Joe’s clean one-owner example.",
+        "1951 Martin 00-18: side view of the bridge and saddle after its documented neck reset.",
+        "1962 Martin 00-18: spruce top and tortoise-pattern guard; the listing discloses a small repaired hairline crack.",
+        "1962 Martin 00-18: rear headstock and open-gear tuners.",
+        "1952 Martin 00-18: 00-18 and 124189 neck-block stamps.",
+        "1952 Martin 00-18: headstock face.",
+        "1952 Martin 00-18: rear headstock and octagonal tuner plates.",
+        "1952 Martin 00-18: bridge and saddle.",
+        "1952 Martin 00-18: mahogany back.",
+        "1952 Martin 00-18: body side."
+      ],
+      "walks": [
+        [
+          {
+            "tag": "DIV",
+            "class": "mg-gallery mg-gallery-2",
+            "display": "grid",
+            "grid": "335px",
+            "width": 335,
+            "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+            "before": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            },
+            "after": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            }
+          },
+          {
+            "tag": "DIV",
+            "class": "mg-era",
+            "display": "grid",
+            "grid": "335px",
+            "width": 335,
+            "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+            "before": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            },
+            "after": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            }
+          },
+          {
+            "tag": "DIV",
+            "class": "mg-archive-items",
+            "display": "block",
+            "grid": "none",
+            "width": 335,
+            "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+            "before": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            },
+            "after": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            }
+          },
+          {
+            "tag": "DIV",
+            "class": "mg-section mg-wrap",
+            "display": "block",
+            "grid": "none",
+            "width": 335,
+            "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+            "before": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            },
+            "after": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            }
+          },
+          {
+            "tag": "SECTION",
+            "class": "mg-band mg-archive",
+            "display": "block",
+            "grid": "none",
+            "width": 375,
+            "bg": "rgb(225, 209, 180) none repeat scroll 0% 0% / auto padding-box border-box",
+            "before": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            },
+            "after": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            }
+          },
+          {
+            "tag": "ARTICLE",
+            "class": "mg-guide",
+            "display": "block",
+            "grid": "none",
+            "width": 375,
+            "bg": "rgb(243, 234, 216) none repeat scroll 0% 0% / auto padding-box border-box",
+            "before": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            },
+            "after": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            }
+          },
+          {
+            "tag": "MAIN",
+            "class": "",
+            "display": "block",
+            "grid": "none",
+            "width": 375,
+            "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+            "before": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(42, 45, 51)",
+              "inset": "auto",
+              "transform": "none"
+            },
+            "after": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(42, 45, 51)",
+              "inset": "auto",
+              "transform": "none"
+            }
+          }
+        ],
+        [
+          {
+            "tag": "DIV",
+            "class": "mg-gallery mg-gallery-2",
+            "display": "grid",
+            "grid": "335px",
+            "width": 335,
+            "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+            "before": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            },
+            "after": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            }
+          },
+          {
+            "tag": "DIV",
+            "class": "mg-era",
+            "display": "grid",
+            "grid": "335px",
+            "width": 335,
+            "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+            "before": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            },
+            "after": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            }
+          },
+          {
+            "tag": "DIV",
+            "class": "mg-archive-items",
+            "display": "block",
+            "grid": "none",
+            "width": 335,
+            "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+            "before": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            },
+            "after": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            }
+          },
+          {
+            "tag": "DIV",
+            "class": "mg-section mg-wrap",
+            "display": "block",
+            "grid": "none",
+            "width": 335,
+            "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+            "before": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            },
+            "after": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            }
+          },
+          {
+            "tag": "SECTION",
+            "class": "mg-band mg-archive",
+            "display": "block",
+            "grid": "none",
+            "width": 375,
+            "bg": "rgb(225, 209, 180) none repeat scroll 0% 0% / auto padding-box border-box",
+            "before": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            },
+            "after": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            }
+          },
+          {
+            "tag": "ARTICLE",
+            "class": "mg-guide",
+            "display": "block",
+            "grid": "none",
+            "width": 375,
+            "bg": "rgb(243, 234, 216) none repeat scroll 0% 0% / auto padding-box border-box",
+            "before": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            },
+            "after": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            }
+          },
+          {
+            "tag": "MAIN",
+            "class": "",
+            "display": "block",
+            "grid": "none",
+            "width": 375,
+            "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+            "before": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(42, 45, 51)",
+              "inset": "auto",
+              "transform": "none"
+            },
+            "after": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(42, 45, 51)",
+              "inset": "auto",
+              "transform": "none"
+            }
+          }
+        ],
+        [
+          {
+            "tag": "DIV",
+            "class": "mg-photo-grid",
+            "display": "grid",
+            "grid": "335px",
+            "width": 335,
+            "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+            "before": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            },
+            "after": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            }
+          },
+          {
+            "tag": "DIV",
+            "class": "mg-section mg-wrap",
+            "display": "block",
+            "grid": "none",
+            "width": 335,
+            "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+            "before": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            },
+            "after": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            }
+          },
+          {
+            "tag": "SECTION",
+            "class": "mg-band",
+            "display": "block",
+            "grid": "none",
+            "width": 375,
+            "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+            "before": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            },
+            "after": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            }
+          },
+          {
+            "tag": "ARTICLE",
+            "class": "mg-guide",
+            "display": "block",
+            "grid": "none",
+            "width": 375,
+            "bg": "rgb(243, 234, 216) none repeat scroll 0% 0% / auto padding-box border-box",
+            "before": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            },
+            "after": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            }
+          },
+          {
+            "tag": "MAIN",
+            "class": "",
+            "display": "block",
+            "grid": "none",
+            "width": 375,
+            "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+            "before": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(42, 45, 51)",
+              "inset": "auto",
+              "transform": "none"
+            },
+            "after": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(42, 45, 51)",
+              "inset": "auto",
+              "transform": "none"
+            }
+          }
+        ]
+      ]
+    },
+    {
+      "slug": "martin-0-18-authentication-guide",
+      "width": 375,
+      "captions": [
+        "1966 Martin 0-18: full front of Joe’s lightly worn example.",
+        "1931 Martin 0-18K from Joe’s archive: a koa-model comparison with the spruce-top 0-18.",
+        "1925 Martin 0-18: 12-fret body and slotted headstock.",
+        "1951 Martin 0-18: spruce top; the listing records a small repaired top crack.",
+        "Linda Gayle’s country-western publicity photograph, preserved with her 1949 Martin 0-18 story.",
+        "1925 Martin 0-18: serial 23781 on an earlier block without a model line.",
+        "1949 Martin 0-18: model stamp and serial 112697.",
+        "1966 Martin 0-18: model stamp and serial 216180.",
+        "1925 Martin 0-18: slotted headstock face without a later gold-script decal.",
+        "1925 Martin 0-18: pyramid bridge and saddle in profile.",
+        "1966 Martin 0-18: headstock face and gold-script logo.",
+        "1966 Martin 0-18: Grover Sta-Tite tuners on the guitar shown in the full-body views.",
+        "1966 Martin 0-18: short saddle and pickguard area; a small pickguard crack was professionally repaired.",
+        "1951 Martin 0-18: bridge and low saddle, with a future neck reset noted in the listing."
+      ],
+      "walks": [
+        [
+          {
+            "tag": "DIV",
+            "class": "mg-photo-grid",
+            "display": "grid",
+            "grid": "335px",
+            "width": 335,
+            "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+            "before": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            },
+            "after": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            }
+          },
+          {
+            "tag": "DIV",
+            "class": "mg-section mg-wrap",
+            "display": "block",
+            "grid": "none",
+            "width": 335,
+            "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+            "before": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            },
+            "after": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            }
+          },
+          {
+            "tag": "SECTION",
+            "class": "mg-band",
+            "display": "block",
+            "grid": "none",
+            "width": 375,
+            "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+            "before": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            },
+            "after": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            }
+          },
+          {
+            "tag": "ARTICLE",
+            "class": "mg-guide",
+            "display": "block",
+            "grid": "none",
+            "width": 375,
+            "bg": "rgb(243, 234, 216) none repeat scroll 0% 0% / auto padding-box border-box",
+            "before": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            },
+            "after": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            }
+          },
+          {
+            "tag": "MAIN",
+            "class": "",
+            "display": "block",
+            "grid": "none",
+            "width": 375,
+            "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+            "before": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(42, 45, 51)",
+              "inset": "auto",
+              "transform": "none"
+            },
+            "after": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(42, 45, 51)",
+              "inset": "auto",
+              "transform": "none"
+            }
+          }
+        ],
+        [
+          {
+            "tag": "DIV",
+            "class": "mg-gallery mg-gallery-1",
+            "display": "grid",
+            "grid": "335px",
+            "width": 335,
+            "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+            "before": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            },
+            "after": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            }
+          },
+          {
+            "tag": "DIV",
+            "class": "mg-era",
+            "display": "grid",
+            "grid": "335px",
+            "width": 335,
+            "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+            "before": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            },
+            "after": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            }
+          },
+          {
+            "tag": "DIV",
+            "class": "mg-archive-items",
+            "display": "block",
+            "grid": "none",
+            "width": 335,
+            "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+            "before": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            },
+            "after": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            }
+          },
+          {
+            "tag": "DIV",
+            "class": "mg-section mg-wrap",
+            "display": "block",
+            "grid": "none",
+            "width": 335,
+            "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+            "before": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            },
+            "after": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            }
+          },
+          {
+            "tag": "SECTION",
+            "class": "mg-band mg-archive",
+            "display": "block",
+            "grid": "none",
+            "width": 375,
+            "bg": "rgb(225, 209, 180) none repeat scroll 0% 0% / auto padding-box border-box",
+            "before": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            },
+            "after": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            }
+          },
+          {
+            "tag": "ARTICLE",
+            "class": "mg-guide",
+            "display": "block",
+            "grid": "none",
+            "width": 375,
+            "bg": "rgb(243, 234, 216) none repeat scroll 0% 0% / auto padding-box border-box",
+            "before": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            },
+            "after": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            }
+          },
+          {
+            "tag": "MAIN",
+            "class": "",
+            "display": "block",
+            "grid": "none",
+            "width": 375,
+            "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+            "before": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(42, 45, 51)",
+              "inset": "auto",
+              "transform": "none"
+            },
+            "after": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(42, 45, 51)",
+              "inset": "auto",
+              "transform": "none"
+            }
+          }
+        ],
+        [
+          {
+            "tag": "DIV",
+            "class": "mg-photo-grid",
+            "display": "grid",
+            "grid": "335px",
+            "width": 335,
+            "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+            "before": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            },
+            "after": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            }
+          },
+          {
+            "tag": "DIV",
+            "class": "mg-section mg-wrap",
+            "display": "block",
+            "grid": "none",
+            "width": 335,
+            "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+            "before": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            },
+            "after": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            }
+          },
+          {
+            "tag": "SECTION",
+            "class": "mg-band",
+            "display": "block",
+            "grid": "none",
+            "width": 375,
+            "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+            "before": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            },
+            "after": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            }
+          },
+          {
+            "tag": "ARTICLE",
+            "class": "mg-guide",
+            "display": "block",
+            "grid": "none",
+            "width": 375,
+            "bg": "rgb(243, 234, 216) none repeat scroll 0% 0% / auto padding-box border-box",
+            "before": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            },
+            "after": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(27, 25, 22)",
+              "inset": "auto",
+              "transform": "none"
+            }
+          },
+          {
+            "tag": "MAIN",
+            "class": "",
+            "display": "block",
+            "grid": "none",
+            "width": 375,
+            "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+            "before": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(42, 45, 51)",
+              "inset": "auto",
+              "transform": "none"
+            },
+            "after": {
+              "content": "none",
+              "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+              "clip": "none",
+              "border": "0px solid rgb(42, 45, 51)",
+              "inset": "auto",
+              "transform": "none"
+            }
+          }
+        ]
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "slug": "martin-000-18-authentication-guide",
+      "asset": "images/martin-small-body/1960-martin-000-18-2.jpg",
+      "og": "images/martin-small-body/1960-martin-000-18-2.jpg",
+      "socialMatchesOriginal": true,
+      "cards": [
+        {
+          "file": "dist/blog/index.html",
+          "src": "/_astro/1960-martin-000-18-2.JpWoQK0R_Z22muRs.webp"
+        }
+      ]
+    },
+    {
+      "slug": "martin-000-18-value-guide",
+      "asset": "images/martin-small-body/1960-martin-000-18-2.jpg",
+      "og": "images/martin-small-body/1960-martin-000-18-2.jpg",
+      "socialMatchesOriginal": true,
+      "cards": [
+        {
+          "file": "dist/blog/index.html",
+          "src": "/_astro/1960-martin-000-18-2.JpWoQK0R_Z22muRs.webp"
+        }
+      ]
+    },
+    {
+      "slug": "martin-00-18-authentication-guide",
+      "asset": "images/martin-small-body/1952-martin-00-18-2.jpg",
+      "og": "images/martin-small-body/1952-martin-00-18-2.jpg",
+      "socialMatchesOriginal": true,
+      "cards": [
+        {
+          "file": "dist/blog/index.html",
+          "src": "/_astro/1952-martin-00-18-2.BIRovbLH_16ajOo.webp"
+        }
+      ]
+    },
+    {
+      "slug": "martin-00-18-value-guide",
+      "asset": "images/martin-small-body/1952-martin-00-18-2.jpg",
+      "og": "images/martin-small-body/1952-martin-00-18-2.jpg",
+      "socialMatchesOriginal": true,
+      "cards": [
+        {
+          "file": "dist/blog/index.html",
+          "src": "/_astro/1952-martin-00-18-2.BIRovbLH_16ajOo.webp"
+        }
+      ]
+    },
+    {
+      "slug": "martin-0-18-authentication-guide",
+      "asset": "images/martin-small-body/1966-martin-0-18-2.jpg",
+      "og": "images/martin-small-body/1966-martin-0-18-2.jpg",
+      "socialMatchesOriginal": true,
+      "cards": [
+        {
+          "file": "dist/blog/index.html",
+          "src": "/_astro/1966-martin-0-18-2.BLg-bm6z_109wXx.webp"
+        }
+      ]
+    },
+    {
+      "slug": "martin-0-18-value-guide",
+      "asset": "images/martin-small-body/1966-martin-0-18-2.jpg",
+      "og": "images/martin-small-body/1966-martin-0-18-2.jpg",
+      "socialMatchesOriginal": true,
+      "cards": [
+        {
+          "file": "dist/blog/index.html",
+          "src": "/_astro/1966-martin-0-18-2.BLg-bm6z_109wXx.webp"
+        }
+      ]
+    }
+  ]
+}

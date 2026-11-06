@@ -1,0 +1,728 @@
+[
+  {
+    "model": "000-18",
+    "width": 1280,
+    "walk": [
+      {
+        "tag": "DIV",
+        "class": "mg-photo-grid",
+        "display": "grid",
+        "grid": "563.5px 563.5px",
+        "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "clip": "none",
+          "inset": "auto",
+          "border": "0px solid rgb(27, 25, 22)",
+          "transform": "none"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "clip": "none",
+          "inset": "auto",
+          "border": "0px solid rgb(27, 25, 22)",
+          "transform": "none"
+        }
+      },
+      {
+        "tag": "DIV",
+        "class": "mg-section mg-wrap",
+        "display": "block",
+        "grid": "none",
+        "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "clip": "none",
+          "inset": "auto",
+          "border": "0px solid rgb(27, 25, 22)",
+          "transform": "none"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "clip": "none",
+          "inset": "auto",
+          "border": "0px solid rgb(27, 25, 22)",
+          "transform": "none"
+        }
+      },
+      {
+        "tag": "SECTION",
+        "class": "mg-band",
+        "display": "block",
+        "grid": "none",
+        "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "clip": "none",
+          "inset": "auto",
+          "border": "0px solid rgb(27, 25, 22)",
+          "transform": "none"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "clip": "none",
+          "inset": "auto",
+          "border": "0px solid rgb(27, 25, 22)",
+          "transform": "none"
+        }
+      },
+      {
+        "tag": "ARTICLE",
+        "class": "mg-guide",
+        "display": "block",
+        "grid": "none",
+        "bg": "rgb(243, 234, 216) none repeat scroll 0% 0% / auto padding-box border-box",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "clip": "none",
+          "inset": "auto",
+          "border": "0px solid rgb(27, 25, 22)",
+          "transform": "none"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "clip": "none",
+          "inset": "auto",
+          "border": "0px solid rgb(27, 25, 22)",
+          "transform": "none"
+        }
+      },
+      {
+        "tag": "MAIN",
+        "class": "",
+        "display": "block",
+        "grid": "none",
+        "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "clip": "none",
+          "inset": "auto",
+          "border": "0px solid rgb(42, 45, 51)",
+          "transform": "none"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "clip": "none",
+          "inset": "auto",
+          "border": "0px solid rgb(42, 45, 51)",
+          "transform": "none"
+        }
+      }
+    ]
+  },
+  {
+    "model": "00-18",
+    "width": 1280,
+    "walk": [
+      {
+        "tag": "DIV",
+        "class": "mg-photo-grid",
+        "display": "grid",
+        "grid": "563.5px 563.5px",
+        "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "clip": "none",
+          "inset": "auto",
+          "border": "0px solid rgb(27, 25, 22)",
+          "transform": "none"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "clip": "none",
+          "inset": "auto",
+          "border": "0px solid rgb(27, 25, 22)",
+          "transform": "none"
+        }
+      },
+      {
+        "tag": "DIV",
+        "class": "mg-section mg-wrap",
+        "display": "block",
+        "grid": "none",
+        "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "clip": "none",
+          "inset": "auto",
+          "border": "0px solid rgb(27, 25, 22)",
+          "transform": "none"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "clip": "none",
+          "inset": "auto",
+          "border": "0px solid rgb(27, 25, 22)",
+          "transform": "none"
+        }
+      },
+      {
+        "tag": "SECTION",
+        "class": "mg-band",
+        "display": "block",
+        "grid": "none",
+        "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "clip": "none",
+          "inset": "auto",
+          "border": "0px solid rgb(27, 25, 22)",
+          "transform": "none"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "clip": "none",
+          "inset": "auto",
+          "border": "0px solid rgb(27, 25, 22)",
+          "transform": "none"
+        }
+      },
+      {
+        "tag": "ARTICLE",
+        "class": "mg-guide",
+        "display": "block",
+        "grid": "none",
+        "bg": "rgb(243, 234, 216) none repeat scroll 0% 0% / auto padding-box border-box",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "clip": "none",
+          "inset": "auto",
+          "border": "0px solid rgb(27, 25, 22)",
+          "transform": "none"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "clip": "none",
+          "inset": "auto",
+          "border": "0px solid rgb(27, 25, 22)",
+          "transform": "none"
+        }
+      },
+      {
+        "tag": "MAIN",
+        "class": "",
+        "display": "block",
+        "grid": "none",
+        "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "clip": "none",
+          "inset": "auto",
+          "border": "0px solid rgb(42, 45, 51)",
+          "transform": "none"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "clip": "none",
+          "inset": "auto",
+          "border": "0px solid rgb(42, 45, 51)",
+          "transform": "none"
+        }
+      }
+    ]
+  },
+  {
+    "model": "0-18",
+    "width": 1280,
+    "walk": [
+      {
+        "tag": "DIV",
+        "class": "mg-photo-grid",
+        "display": "grid",
+        "grid": "563.5px 563.5px",
+        "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "clip": "none",
+          "inset": "auto",
+          "border": "0px solid rgb(27, 25, 22)",
+          "transform": "none"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "clip": "none",
+          "inset": "auto",
+          "border": "0px solid rgb(27, 25, 22)",
+          "transform": "none"
+        }
+      },
+      {
+        "tag": "DIV",
+        "class": "mg-section mg-wrap",
+        "display": "block",
+        "grid": "none",
+        "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "clip": "none",
+          "inset": "auto",
+          "border": "0px solid rgb(27, 25, 22)",
+          "transform": "none"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "clip": "none",
+          "inset": "auto",
+          "border": "0px solid rgb(27, 25, 22)",
+          "transform": "none"
+        }
+      },
+      {
+        "tag": "SECTION",
+        "class": "mg-band",
+        "display": "block",
+        "grid": "none",
+        "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "clip": "none",
+          "inset": "auto",
+          "border": "0px solid rgb(27, 25, 22)",
+          "transform": "none"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "clip": "none",
+          "inset": "auto",
+          "border": "0px solid rgb(27, 25, 22)",
+          "transform": "none"
+        }
+      },
+      {
+        "tag": "ARTICLE",
+        "class": "mg-guide",
+        "display": "block",
+        "grid": "none",
+        "bg": "rgb(243, 234, 216) none repeat scroll 0% 0% / auto padding-box border-box",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "clip": "none",
+          "inset": "auto",
+          "border": "0px solid rgb(27, 25, 22)",
+          "transform": "none"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "clip": "none",
+          "inset": "auto",
+          "border": "0px solid rgb(27, 25, 22)",
+          "transform": "none"
+        }
+      },
+      {
+        "tag": "MAIN",
+        "class": "",
+        "display": "block",
+        "grid": "none",
+        "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "clip": "none",
+          "inset": "auto",
+          "border": "0px solid rgb(42, 45, 51)",
+          "transform": "none"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "clip": "none",
+          "inset": "auto",
+          "border": "0px solid rgb(42, 45, 51)",
+          "transform": "none"
+        }
+      }
+    ]
+  },
+  {
+    "model": "000-18",
+    "width": 375,
+    "walk": [
+      {
+        "tag": "DIV",
+        "class": "mg-photo-grid",
+        "display": "grid",
+        "grid": "335px",
+        "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "clip": "none",
+          "inset": "auto",
+          "border": "0px solid rgb(27, 25, 22)",
+          "transform": "none"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "clip": "none",
+          "inset": "auto",
+          "border": "0px solid rgb(27, 25, 22)",
+          "transform": "none"
+        }
+      },
+      {
+        "tag": "DIV",
+        "class": "mg-section mg-wrap",
+        "display": "block",
+        "grid": "none",
+        "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "clip": "none",
+          "inset": "auto",
+          "border": "0px solid rgb(27, 25, 22)",
+          "transform": "none"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "clip": "none",
+          "inset": "auto",
+          "border": "0px solid rgb(27, 25, 22)",
+          "transform": "none"
+        }
+      },
+      {
+        "tag": "SECTION",
+        "class": "mg-band",
+        "display": "block",
+        "grid": "none",
+        "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "clip": "none",
+          "inset": "auto",
+          "border": "0px solid rgb(27, 25, 22)",
+          "transform": "none"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "clip": "none",
+          "inset": "auto",
+          "border": "0px solid rgb(27, 25, 22)",
+          "transform": "none"
+        }
+      },
+      {
+        "tag": "ARTICLE",
+        "class": "mg-guide",
+        "display": "block",
+        "grid": "none",
+        "bg": "rgb(243, 234, 216) none repeat scroll 0% 0% / auto padding-box border-box",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "clip": "none",
+          "inset": "auto",
+          "border": "0px solid rgb(27, 25, 22)",
+          "transform": "none"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "clip": "none",
+          "inset": "auto",
+          "border": "0px solid rgb(27, 25, 22)",
+          "transform": "none"
+        }
+      },
+      {
+        "tag": "MAIN",
+        "class": "",
+        "display": "block",
+        "grid": "none",
+        "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "clip": "none",
+          "inset": "auto",
+          "border": "0px solid rgb(42, 45, 51)",
+          "transform": "none"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "clip": "none",
+          "inset": "auto",
+          "border": "0px solid rgb(42, 45, 51)",
+          "transform": "none"
+        }
+      }
+    ]
+  },
+  {
+    "model": "00-18",
+    "width": 375,
+    "walk": [
+      {
+        "tag": "DIV",
+        "class": "mg-photo-grid",
+        "display": "grid",
+        "grid": "335px",
+        "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "clip": "none",
+          "inset": "auto",
+          "border": "0px solid rgb(27, 25, 22)",
+          "transform": "none"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "clip": "none",
+          "inset": "auto",
+          "border": "0px solid rgb(27, 25, 22)",
+          "transform": "none"
+        }
+      },
+      {
+        "tag": "DIV",
+        "class": "mg-section mg-wrap",
+        "display": "block",
+        "grid": "none",
+        "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "clip": "none",
+          "inset": "auto",
+          "border": "0px solid rgb(27, 25, 22)",
+          "transform": "none"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "clip": "none",
+          "inset": "auto",
+          "border": "0px solid rgb(27, 25, 22)",
+          "transform": "none"
+        }
+      },
+      {
+        "tag": "SECTION",
+        "class": "mg-band",
+        "display": "block",
+        "grid": "none",
+        "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "clip": "none",
+          "inset": "auto",
+          "border": "0px solid rgb(27, 25, 22)",
+          "transform": "none"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "clip": "none",
+          "inset": "auto",
+          "border": "0px solid rgb(27, 25, 22)",
+          "transform": "none"
+        }
+      },
+      {
+        "tag": "ARTICLE",
+        "class": "mg-guide",
+        "display": "block",
+        "grid": "none",
+        "bg": "rgb(243, 234, 216) none repeat scroll 0% 0% / auto padding-box border-box",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "clip": "none",
+          "inset": "auto",
+          "border": "0px solid rgb(27, 25, 22)",
+          "transform": "none"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "clip": "none",
+          "inset": "auto",
+          "border": "0px solid rgb(27, 25, 22)",
+          "transform": "none"
+        }
+      },
+      {
+        "tag": "MAIN",
+        "class": "",
+        "display": "block",
+        "grid": "none",
+        "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "clip": "none",
+          "inset": "auto",
+          "border": "0px solid rgb(42, 45, 51)",
+          "transform": "none"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "clip": "none",
+          "inset": "auto",
+          "border": "0px solid rgb(42, 45, 51)",
+          "transform": "none"
+        }
+      }
+    ]
+  },
+  {
+    "model": "0-18",
+    "width": 375,
+    "walk": [
+      {
+        "tag": "DIV",
+        "class": "mg-photo-grid",
+        "display": "grid",
+        "grid": "335px",
+        "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "clip": "none",
+          "inset": "auto",
+          "border": "0px solid rgb(27, 25, 22)",
+          "transform": "none"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "clip": "none",
+          "inset": "auto",
+          "border": "0px solid rgb(27, 25, 22)",
+          "transform": "none"
+        }
+      },
+      {
+        "tag": "DIV",
+        "class": "mg-section mg-wrap",
+        "display": "block",
+        "grid": "none",
+        "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "clip": "none",
+          "inset": "auto",
+          "border": "0px solid rgb(27, 25, 22)",
+          "transform": "none"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "clip": "none",
+          "inset": "auto",
+          "border": "0px solid rgb(27, 25, 22)",
+          "transform": "none"
+        }
+      },
+      {
+        "tag": "SECTION",
+        "class": "mg-band",
+        "display": "block",
+        "grid": "none",
+        "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "clip": "none",
+          "inset": "auto",
+          "border": "0px solid rgb(27, 25, 22)",
+          "transform": "none"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "clip": "none",
+          "inset": "auto",
+          "border": "0px solid rgb(27, 25, 22)",
+          "transform": "none"
+        }
+      },
+      {
+        "tag": "ARTICLE",
+        "class": "mg-guide",
+        "display": "block",
+        "grid": "none",
+        "bg": "rgb(243, 234, 216) none repeat scroll 0% 0% / auto padding-box border-box",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "clip": "none",
+          "inset": "auto",
+          "border": "0px solid rgb(27, 25, 22)",
+          "transform": "none"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "clip": "none",
+          "inset": "auto",
+          "border": "0px solid rgb(27, 25, 22)",
+          "transform": "none"
+        }
+      },
+      {
+        "tag": "MAIN",
+        "class": "",
+        "display": "block",
+        "grid": "none",
+        "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "clip": "none",
+          "inset": "auto",
+          "border": "0px solid rgb(42, 45, 51)",
+          "transform": "none"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "clip": "none",
+          "inset": "auto",
+          "border": "0px solid rgb(42, 45, 51)",
+          "transform": "none"
+        }
+      }
+    ]
+  }
+]

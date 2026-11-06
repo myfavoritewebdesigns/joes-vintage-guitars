@@ -2,7 +2,7 @@
 title: "Martin 00-18 Value Guide"
 seoTitle: "Martin 00-18 Prices: Vintage Values By Era And Version"
 pubDate: "2026-11-05"
-modified: "2026-11-05"
+modified: "2026-11-06"
 excerpt: "Find vintage Martin 00-18 value ranges, including koa and converted Hawaiian models. Compare repairs, originality and case history before selling."
 category: "value-evaluation"
 categoryName: "Value & Evaluation"

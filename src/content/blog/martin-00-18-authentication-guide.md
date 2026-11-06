@@ -2,7 +2,7 @@
 title: "Martin 00-18 Guide"
 seoTitle: "Martin 00-18 Identification: Stamps, Specs And History"
 pubDate: "2026-11-05"
-modified: "2026-11-05"
+modified: "2026-11-06"
 excerpt: "Check a Martin 00-18’s date, body joint, wood and repairs with Joe’s archive photos. Separate Wurlitzer, Hawaiian, classical and modern instruments."
 category: "specific-model-highlights"
 categoryName: "Specific Model Highlights"

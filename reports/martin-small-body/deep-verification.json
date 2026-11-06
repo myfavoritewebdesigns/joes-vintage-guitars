@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-05T23:13:36.330Z",
+  "generatedAt": "2026-11-06T18:23:13.230Z",
   "baseline": {
     "commit": "bafcee588b52cc7e88e036ad5a91ce53bd20c856",
     "htmlCount": 457,
@@ -852,41 +852,6 @@
   ],
   "photos": [
     {
-      "asset": "src/assets/images/martin-small-body/1944-martin-000-18-2.jpg",
-      "sha256": "43bf02f67df48101f4ce252af2b9ed1ea0988c9464302f4953f3196cfc67057a",
-      "originalBytesPreserved": true
-    },
-    {
-      "asset": "src/assets/martin-dating/1944-martin-000-18-3.jpg",
-      "sha256": "4b0b816361b2a08154e6daad2dd0de063d2000a9bcd7513ca52d12a65e229e40",
-      "originalBytesPreserved": true
-    },
-    {
-      "asset": "src/assets/martin-dating/1944-martin-000-18-4.jpg",
-      "sha256": "280c6fb307daaaadd710a3c8497a75e942f7dc151a0251d2e4224892bd68fc93",
-      "originalBytesPreserved": true
-    },
-    {
-      "asset": "src/assets/images/martin-small-body/1944-martin-000-18-7.jpg",
-      "sha256": "c486a60ad1c4d792e1ddd5cc4109443fb7f3577e2f995e13f69f88213b4a9520",
-      "originalBytesPreserved": true
-    },
-    {
-      "asset": "src/assets/images/martin-small-body/1944-martin-000-18-8.jpg",
-      "sha256": "4cdc5306494f642b3d7a7283f518c55394cbade3407889070f800a79a03b4eaf",
-      "originalBytesPreserved": true
-    },
-    {
-      "asset": "src/assets/martin-dating/1944-martin-000-18-10.jpg",
-      "sha256": "61177ea2b28c8b84b48aaf32f667af13356e1a291b4e803722734a5ba9a3841e",
-      "originalBytesPreserved": true
-    },
-    {
-      "asset": "src/assets/images/martin-small-body/1944-martin-000-18-13.jpg",
-      "sha256": "a465a535aa90280bdde68915ea1a91eb26b5ab62f31fc1ad6faec2f2f782443f",
-      "originalBytesPreserved": true
-    },
-    {
       "asset": "src/assets/images/martin-small-body/1952-martin-00-18-2.jpg",
       "sha256": "c1909346d06548897c12d1c9ab39b6af69733a9222c1fef107a9579370526427",
       "originalBytesPreserved": true
@@ -922,31 +887,6 @@
       "originalBytesPreserved": true
     },
     {
-      "asset": "src/assets/images/martin-small-body/1-of-15-martin-00-18-wurlitzer-2086-1924-natural-full-front-view.jpg",
-      "sha256": "55f18ed35dd533fc78dbce8f5707d12aa10c3e1741c050da762c70065a2d43cb",
-      "originalBytesPreserved": true
-    },
-    {
-      "asset": "src/assets/images/martin-small-body/1-of-15-martin-00-18-wurlitzer-2086-1924-natural-back-of-headstock-tuners-02.jpg",
-      "sha256": "b0e4aa3e869e26e18a3e2889c3d9a90a1ad50a864f0bd2ca0848dcf1e83bdb8f",
-      "originalBytesPreserved": true
-    },
-    {
-      "asset": "src/assets/images/martin-small-body/1-of-15-martin-00-18-wurlitzer-2086-1924-natural-inside-body-bracing-pins.jpg",
-      "sha256": "2111bb8cc078c195915c0fb21087dc7d83cf2c6ffca0c64c2d55fafa145946e9",
-      "originalBytesPreserved": true
-    },
-    {
-      "asset": "src/assets/blog/one-owner-1949-martin-0-18/1949-martin-0-18-front.jpg",
-      "sha256": "33d0a89f8e68b1d59946f5f1d2ba5a542c66588138ac33c6e5370fb89ad0276c",
-      "originalBytesPreserved": true
-    },
-    {
-      "asset": "src/assets/blog/one-owner-1949-martin-0-18/1949-martin-0-18-back.jpg",
-      "sha256": "9c2cd56a29cbf5335ea9066cd43129c08066f125708fde22183521c45786c121",
-      "originalBytesPreserved": true
-    },
-    {
       "asset": "src/assets/blog/one-owner-1949-martin-0-18/1949-martin-0-18-neck-block-stamp.jpg",
       "sha256": "19f17964f1970acebe488dfcd5b7bbfe999222e023fe30b359b550fa6297b0de",
       "originalBytesPreserved": true
@@ -954,11 +894,6 @@
     {
       "asset": "src/assets/blog/one-owner-1949-martin-0-18/linda-gayle-country-western-publicity-photo.jpg",
       "sha256": "6ff7ea4620698c35b00fd1bf55f5cdc35338248fa53f6038ae2cb56fd2cb6b63",
-      "originalBytesPreserved": true
-    },
-    {
-      "asset": "src/assets/blog/martin-0-00-000-history-authentication-value-guide/martin-000-18-1960.jpg",
-      "sha256": "db8dcc6b7ededa7da9c7a063181bcc810efa7fb1ac9e0ef9fa701451b0fc0c38",
       "originalBytesPreserved": true
     },
     {
@@ -975,6 +910,161 @@
       "asset": "src/assets/images/sell-martin/1931-martin-0-18k-purchase-800x1200.jpg",
       "sha256": "3ed6c62570a7accb3bec97f0c6c1ed99ce6fcefd4c6c8cda059ff9a69b174d3d",
       "originalBytesPreserved": true
+    },
+    {
+      "asset": "src/assets/images/martin-small-body/1938-martin-000-18-2.jpg",
+      "sha256": "1779a827e33368997df3886a3ed981fbb1c76a3da96efe1d4ccbdbf1ab50b3af",
+      "originalBytesPreserved": true
+    },
+    {
+      "asset": "src/assets/images/martin-small-body/1938-martin-000-18-3.jpg",
+      "sha256": "bed050c874c5217248d330ca0d97242f953c7b4c38b462eac994447cd7ca3f28",
+      "originalBytesPreserved": true
+    },
+    {
+      "asset": "src/assets/images/martin-small-body/1938-martin-000-18-5.jpg",
+      "sha256": "22153e8aa8762e8d649fd4f6b8f81c372a3c98d6cd66cb8645ecdb65d97bcd61",
+      "originalBytesPreserved": true
+    },
+    {
+      "asset": "src/assets/martin-tuners/1938-martin-000-18-tuners.jpg",
+      "sha256": "573b4d5650fe560655ea74834452dc4533095a8aef8211549baae3a2837ca68f",
+      "originalBytesPreserved": true
+    },
+    {
+      "asset": "src/assets/images/martin-small-body/1960-martin-000-18-2.jpg",
+      "sha256": "cbd045a4f3f6d6585161a845e2fc4ddc02688b486440c6fe45f331b576cfc5a3",
+      "originalBytesPreserved": true
+    },
+    {
+      "asset": "src/assets/images/martin-small-body/1960-martin-000-18-1.jpg",
+      "sha256": "c925f97661cb4bdd30eb28c9166494780af6c2045cd83be54138c71604e0a203",
+      "originalBytesPreserved": true
+    },
+    {
+      "asset": "src/assets/images/martin-small-body/1960-martin-000-18-5.jpg",
+      "sha256": "bc22f702b7fdffa8602bab0f8073d48bdf04643d90fb75c5551a11ff295ece34",
+      "originalBytesPreserved": true
+    },
+    {
+      "asset": "src/assets/images/martin-small-body/1960-martin-000-18-3.jpg",
+      "sha256": "6478cd407d0de1072ba83fd359bc7b15063b4bb688c2cb5f49386835f9379c4e",
+      "originalBytesPreserved": true
+    },
+    {
+      "asset": "src/assets/images/martin-small-body/1960-martin-000-18-11.jpg",
+      "sha256": "c553f8692ac6d9de358ad596c3a446bd354603b7d72bf4dd06c539295f97d5fe",
+      "originalBytesPreserved": true
+    },
+    {
+      "asset": "src/assets/blog/martin-0-00-000-history-authentication-value-guide/martin-000-18-1960.jpg",
+      "sha256": "db8dcc6b7ededa7da9c7a063181bcc810efa7fb1ac9e0ef9fa701451b0fc0c38",
+      "originalBytesPreserved": true
+    },
+    {
+      "asset": "src/assets/images/martin-small-body/1951-000-reverb-01.jpg",
+      "sha256": "97756be6a751d50951b501568b9cdbf13dffab6ecf4c94cbd28d300c1fe683fb",
+      "originalBytesPreserved": true
+    },
+    {
+      "asset": "src/assets/images/martin-small-body/1951-000-reverb-17.jpg",
+      "sha256": "d29cd3fbeb272610eba2c6b934bc099e5064f03e59d47549b938d7730ae61c55",
+      "originalBytesPreserved": true
+    },
+    {
+      "asset": "src/assets/images/martin-small-body/1951-000-reverb-06.jpg",
+      "sha256": "18eddeeae97a1c7815fb767047c8ea38e4691b6945fb7b8d8d750435985b5561",
+      "originalBytesPreserved": true
+    },
+    {
+      "asset": "src/assets/images/martin-small-body/1951-00-reverb-02.jpg",
+      "sha256": "2a5a8710a9b8c71be3c6162e4343b1b7d2e1046a1e74e709f82d526f5fa50c6b",
+      "originalBytesPreserved": true
+    },
+    {
+      "asset": "src/assets/images/martin-small-body/1951-00-reverb-11.jpg",
+      "sha256": "8ecdc7862f75bc256fbd49f9f1bc26ef619a41bbf02af9c5472cbb5dbfc873d5",
+      "originalBytesPreserved": true
+    },
+    {
+      "asset": "src/assets/images/martin-small-body/1951-00-reverb-15.jpg",
+      "sha256": "4eb1ad629606268da4453a1ab23235dac2b5c227296eb4f72421e43d7d01a757",
+      "originalBytesPreserved": true
+    },
+    {
+      "asset": "src/assets/images/martin-small-body/1962-00-reverb-01.jpg",
+      "sha256": "52dde23bc47e4502a91c97c903bf5410530d90d5691a973844d08f3e8360d8ce",
+      "originalBytesPreserved": true
+    },
+    {
+      "asset": "src/assets/images/martin-small-body/1962-00-reverb-07.jpg",
+      "sha256": "d7753d73ed5f0824f019a757457a6b6fbfe0a341026d6fcbcbdc9bb564369ee9",
+      "originalBytesPreserved": true
+    },
+    {
+      "asset": "src/assets/images/martin-small-body/1962-00-reverb-04.jpg",
+      "sha256": "ee2f914285b8a1cea9e4f83db60c40a1b657c715c525d6c879d5de09a23f7304",
+      "originalBytesPreserved": true
+    },
+    {
+      "asset": "src/assets/images/martin-small-body/1925-martin-0-18-2.jpg",
+      "sha256": "d8bc09ec970b9062ab56fe16cf45ff80b536d90a3fba2d5fe524577d25324078",
+      "originalBytesPreserved": true
+    },
+    {
+      "asset": "src/assets/images/martin-small-body/1925-martin-0-18-3.jpg",
+      "sha256": "eabb04d6efc0b8a0e2968a1053c5b6c07bdce3a19599d30811e0bc3f3f1250a9",
+      "originalBytesPreserved": true
+    },
+    {
+      "asset": "src/assets/images/martin-small-body/1925-martin-0-18-5.jpg",
+      "sha256": "8b5c1a376d2e1509c09fd33d62ed42baff7c3beb6e7e4aec70d668e57eb90144",
+      "originalBytesPreserved": true
+    },
+    {
+      "asset": "src/assets/images/martin-small-body/1925-martin-0-18-6.jpg",
+      "sha256": "4c4e2f6a2b44a5d6bc7e147bbb4741632c4dc8f284d940aecc93413f0536e741",
+      "originalBytesPreserved": true
+    },
+    {
+      "asset": "src/assets/images/martin-small-body/1966-martin-0-18-2.jpg",
+      "sha256": "ceb47a6d7ecc9d8c2cc186862848690f2dd4d106802d25a7c1c2a0b11d27358c",
+      "originalBytesPreserved": true
+    },
+    {
+      "asset": "src/assets/images/martin-small-body/1966-martin-0-18.jpg",
+      "sha256": "3226af6a93a46f078aa3ce43c640af97fd5c391ec97b1862443e2ce00b3deca9",
+      "originalBytesPreserved": true
+    },
+    {
+      "asset": "src/assets/images/martin-small-body/1966-martin-0-18-3.jpg",
+      "sha256": "7e36ac3878ef237912defbe3bbc085cb2eb4793173879cf4c9576248aeda46d9",
+      "originalBytesPreserved": true
+    },
+    {
+      "asset": "src/assets/images/martin-small-body/1966-martin-0-18-5.jpg",
+      "sha256": "1114da2f8ec4089f16550c76be659a33fe1cd6abc1290528e97a9be45163a9d6",
+      "originalBytesPreserved": true
+    },
+    {
+      "asset": "src/assets/images/martin-small-body/1966-martin-0-18-6.jpg",
+      "sha256": "7086b977f6e90bd85f4224f64a8bc52945f7cd9cbfaf0d94b0f31c412dc7fbe8",
+      "originalBytesPreserved": true
+    },
+    {
+      "asset": "src/assets/images/martin-small-body/1966-martin-0-18-7.jpg",
+      "sha256": "e4d4d8b25cd7a24ec0f975d5c129b88002c02561c2bcb697b9a58f2f048bdb1a",
+      "originalBytesPreserved": true
+    },
+    {
+      "asset": "src/assets/images/martin-small-body/1951-0-reverb-02.jpg",
+      "sha256": "253e020e98dbb521a53cde01ef7a728bd9c992293a71ed712b24de0f2d069678",
+      "originalBytesPreserved": true
+    },
+    {
+      "asset": "src/assets/images/martin-small-body/1951-0-reverb-08.jpg",
+      "sha256": "349e491da25a41602087365d5c838c21b2c80c98ac88db3a2e1e8af8f476665a",
+      "originalBytesPreserved": true
     }
   ],
   "pageChecks": [
@@ -987,9 +1077,11 @@
       ],
       "externalLinks": [
         "https://www.martinguitar.com/blog-categories/from-the-factory/blog-061026-the-1933-martin-OM-45-that-went-to-war.html",
+        "https://reverb.com/item/97542729-clean-martin-000-18-1960",
         "https://www.martinguitar.com/support-serial-number-lookup.html",
         "https://www.martinguitar.com/support-serial-number-lookup.html",
-        "https://www.martinguitar.com/blog-categories/from-the-factory/blog-061026-the-1933-martin-OM-45-that-went-to-war.html"
+        "https://www.martinguitar.com/blog-categories/from-the-factory/blog-061026-the-1933-martin-OM-45-that-went-to-war.html",
+        "https://reverb.com/item/97542295-martin-000-18-1951-one-owner"
       ],
       "metadataWordInboundSchemaChecks": true
     },
@@ -1012,6 +1104,8 @@
       ],
       "externalLinks": [
         "https://vintagemartin.com/MartinWurlitzer.html",
+        "https://reverb.com/item/81589278-martin-00-18-1951-clean-one-owner",
+        "https://reverb.com/item/66853543-martin-00-18-1962",
         "https://www.martinguitar.com/support-serial-number-lookup.html",
         "https://www.martinguitar.com/support-serial-number-lookup.html",
         "https://vintagemartin.com/MartinWurlitzer.html"
@@ -1037,6 +1131,8 @@
       ],
       "externalLinks": [
         "https://www.martinguitar.com/support-serial-number-lookup.html",
+        "https://reverb.com/item/93771171-martin-0-18-1966-clean",
+        "https://reverb.com/item/79507438-martin-0-18-1951",
         "https://www.martinguitar.com/support-serial-number-lookup.html"
       ],
       "metadataWordInboundSchemaChecks": true
