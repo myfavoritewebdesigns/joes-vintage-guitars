@@ -69,6 +69,8 @@ A useful price comparison starts with the same kind of Martin. A 1930s D-18, a 1
 | A guitar believed to be prewar | Serial date, model and original construction features | [Prewar Martin guide](/prewar-martin-guitar-guide/) |
 | A later standard model, reissue or custom guitar | Complete model name, production year and any special specifications | Recent sales of that exact version |
 
+For spruce-and-mahogany small bodies, compare the [0-18 value ranges](/post/martin-0-18-value-guide/), [00-18 prices by version](/post/martin-00-18-value-guide/) and [000-18 values by production group](/post/martin-000-18-value-guide/).
+
 ### Woods And Construction Can Change The Comparison
 
 Traditional vintage D-18s have mahogany backs and sides; vintage D-28s and D-45s use rosewood. The difference between those styles goes beyond decoration. Martin’s [model-name explanation](https://www.martinguitar.com/blog-categories/tips-tutorials/blog-062321-What-Does-D-28-Really-Mean.html) is a useful starting point for understanding those designations.

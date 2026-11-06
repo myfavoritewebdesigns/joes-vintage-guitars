@@ -1,0 +1,10 @@
+import type {GuideBlock,ModelGuideData} from '../../components/model-guide/types';
+import values from './martin-values.json';
+import {authorBio} from './helpers';
+export {p,section,source} from './helpers';
+export const mBase=(model:string,kind:ModelGuideData['kind'])=>({slug:`martin-${model}-${kind}-guide`,brand:'Martin' as const,kind,plainNumbers:true,date:'November 5, 2026',authorBio,sellLabel:'Sell My Martin',sellHref:'/sell-my-martin-guitar/'});
+export const mRows=(model:string)=>values.filter(r=>r.family===`martin-${model}`);
+export const money=(n:number)=>'$'+n.toLocaleString('en-US');
+export const mRange=(model:string,years:string,configuration?:string)=>{const r=mRows(model).find(r=>r.model===model&&r.years===years&&(!configuration||r.configuration===configuration));if(!r)throw Error(`Missing Martin range: ${model} ${years}`);return `${money(r.low)} to ${money(r.high)}`;};
+export const mChart=(model:string):GuideBlock=>({type:'table',valueChart:true,caption:'Joe’s Estimated Market Values: Excellent, Original Instruments With The Original Case',columns:['Model','Years','Configuration','Estimated Retail Value'],rows:mRows(model).map(r=>[r.model,r.years,r.configuration,`${money(r.low)} to ${money(r.high)}`]),note:'U.S. dollars. Prepared in November 2026 from 2026 annual price-guide ranges, adjusted downward and rounded to the nearest $50. November dates this calculation; these are retail estimates rather than a record of completed November sales. They assume excellent, original condition and the original case and aren’t purchase offers. Repairs, changed parts and market conditions require individual appraisal.'+(model==='00-18'?' The 00-18H row specifically describes a converted guitar; the quality and extent of that conversion require individual assessment.':'')});
+export const mCTA=(title:string,html:string):GuideBlock=>({type:'cta',title,html,appraisalLabel:'Free Appraisal',sellLabel:'Sell My Martin',sellHref:'/sell-my-martin-guitar/'});

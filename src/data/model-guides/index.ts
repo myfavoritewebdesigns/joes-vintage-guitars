@@ -25,4 +25,7 @@ import { es225ValueGuides } from './gibson-es-225';
 import {bassVIGuides} from './fender-bass-vi';
 import {telecasterVariantGuides} from './fender-telecaster-variants';
 import {esquireAuthenticationGuides} from './fender-esquire';
-export const modelGuides = [...whiteFalconGuides, ...countryGentlemanGuides, ...anniversaryGuides, ...starfireGuides, ...nationalGuides, ...casinoGuides, ...emperorGuides, ...triumphGuides, ...olympicGuides, ...deluxeGuides, ...broadwayGuides, ...zephyrGuides, ...sorrentoGuides, ...windsorGuides, ...fenderAmpGuides, ...l50Guides, ...l48Guides, ...lesPaulDeluxeGuides, ...l4Guides, ...l7Guides, ...gibsonBassGuides, ...es175Guides, ...byrdlandValueGuides, ...es225ValueGuides, ...bassVIGuides, ...telecasterVariantGuides, ...esquireAuthenticationGuides];
+import {martin00018Guides} from './martin-000-18';
+import {martin0018Guides} from './martin-00-18';
+import {martin018Guides} from './martin-0-18';
+export const modelGuides = [...whiteFalconGuides, ...countryGentlemanGuides, ...anniversaryGuides, ...starfireGuides, ...nationalGuides, ...casinoGuides, ...emperorGuides, ...triumphGuides, ...olympicGuides, ...deluxeGuides, ...broadwayGuides, ...zephyrGuides, ...sorrentoGuides, ...windsorGuides, ...fenderAmpGuides, ...l50Guides, ...l48Guides, ...lesPaulDeluxeGuides, ...l4Guides, ...l7Guides, ...gibsonBassGuides, ...es175Guides, ...byrdlandValueGuides, ...es225ValueGuides, ...bassVIGuides, ...telecasterVariantGuides, ...esquireAuthenticationGuides, ...martin00018Guides, ...martin0018Guides, ...martin018Guides];

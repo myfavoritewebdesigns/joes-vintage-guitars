@@ -1,0 +1,816 @@
+[
+  {
+    "slug": "martin-000-18-authentication-guide",
+    "kind": "anchor",
+    "id": "identity",
+    "found": true,
+    "top": 115.546875,
+    "headingTop": 191.234375,
+    "scrollY": 3389,
+    "visibleImages": []
+  },
+  {
+    "slug": "martin-000-18-authentication-guide",
+    "kind": "anchor",
+    "id": "om-transition",
+    "found": true,
+    "top": 1242.796875,
+    "headingTop": 1318.484375,
+    "scrollY": 3405,
+    "visibleImages": []
+  },
+  {
+    "slug": "martin-000-18-authentication-guide",
+    "kind": "anchor",
+    "id": "periods",
+    "found": true,
+    "top": 114,
+    "headingTop": 208.375,
+    "scrollY": 6778,
+    "visibleImages": []
+  },
+  {
+    "slug": "martin-000-18-authentication-guide",
+    "kind": "anchor",
+    "id": "inside",
+    "found": true,
+    "top": 111.375,
+    "headingTop": 187.0625,
+    "scrollY": 8248,
+    "visibleImages": []
+  },
+  {
+    "slug": "martin-000-18-authentication-guide",
+    "kind": "anchor",
+    "id": "archive",
+    "found": true,
+    "top": 1381.5625,
+    "headingTop": 1457.25,
+    "scrollY": 8259,
+    "visibleImages": []
+  },
+  {
+    "slug": "martin-000-18-authentication-guide",
+    "kind": "anchor",
+    "id": "stamp",
+    "found": true,
+    "top": 114.359375,
+    "headingTop": 190.046875,
+    "scrollY": 12243,
+    "visibleImages": [
+      {
+        "src": "/_astro/1944-martin-000-18-7.eAfewROO_ZWuIaD.webp",
+        "naturalWidth": 390,
+        "width": 306,
+        "height": 250
+      }
+    ]
+  },
+  {
+    "slug": "martin-000-18-authentication-guide",
+    "kind": "anchor",
+    "id": "fittings",
+    "found": true,
+    "top": 1478.484375,
+    "headingTop": 1572.859375,
+    "scrollY": 12257,
+    "visibleImages": []
+  },
+  {
+    "slug": "martin-000-18-authentication-guide",
+    "kind": "anchor",
+    "id": "modern",
+    "found": true,
+    "top": 111.421875,
+    "headingTop": 187.109375,
+    "scrollY": 14863,
+    "visibleImages": []
+  },
+  {
+    "slug": "martin-000-18-authentication-guide",
+    "kind": "anchor",
+    "id": "inspection",
+    "found": true,
+    "top": 106.546875,
+    "headingTop": 182.234375,
+    "scrollY": 15850,
+    "visibleImages": []
+  },
+  {
+    "slug": "martin-000-18-authentication-guide",
+    "kind": "anchor",
+    "id": "references",
+    "found": true,
+    "top": 113.765625,
+    "headingTop": 189.453125,
+    "scrollY": 17603,
+    "visibleImages": []
+  },
+  {
+    "slug": "martin-000-18-authentication-guide",
+    "kind": "anchor",
+    "id": "faq",
+    "found": true,
+    "top": 23.953125,
+    "headingTop": 113.90625,
+    "scrollY": 18534,
+    "visibleImages": []
+  },
+  {
+    "slug": "martin-000-18-authentication-guide",
+    "kind": "table-scroll",
+    "clientWidth": 350,
+    "scrollWidth": 760,
+    "scrollLeft": 410,
+    "tabIndex": 0
+  },
+  {
+    "slug": "martin-000-18-value-guide",
+    "kind": "anchor",
+    "id": "prices",
+    "found": true,
+    "top": 110.546875,
+    "headingTop": 186.234375,
+    "scrollY": 3114,
+    "visibleImages": []
+  },
+  {
+    "slug": "martin-000-18-value-guide",
+    "kind": "anchor",
+    "id": "eras",
+    "found": true,
+    "top": 112.046875,
+    "headingTop": 206.421875,
+    "scrollY": 4852,
+    "visibleImages": []
+  },
+  {
+    "slug": "martin-000-18-value-guide",
+    "kind": "anchor",
+    "id": "condition",
+    "found": true,
+    "top": 110.484375,
+    "headingTop": 204.859375,
+    "scrollY": 6620,
+    "visibleImages": []
+  },
+  {
+    "slug": "martin-000-18-value-guide",
+    "kind": "anchor",
+    "id": "comparison",
+    "found": true,
+    "top": 113.796875,
+    "headingTop": 208.171875,
+    "scrollY": 9282,
+    "visibleImages": []
+  },
+  {
+    "slug": "martin-000-18-value-guide",
+    "kind": "anchor",
+    "id": "before-selling",
+    "found": true,
+    "top": 106.046875,
+    "headingTop": 200.421875,
+    "scrollY": 10209,
+    "visibleImages": []
+  },
+  {
+    "slug": "martin-000-18-value-guide",
+    "kind": "anchor",
+    "id": "appraisal",
+    "found": true,
+    "top": 107.109375,
+    "headingTop": 182.796875,
+    "scrollY": 11100,
+    "visibleImages": []
+  },
+  {
+    "slug": "martin-000-18-value-guide",
+    "kind": "anchor",
+    "id": "resources",
+    "found": true,
+    "top": 108.453125,
+    "headingTop": 202.828125,
+    "scrollY": 12693,
+    "visibleImages": []
+  },
+  {
+    "slug": "martin-000-18-value-guide",
+    "kind": "anchor",
+    "id": "faq",
+    "found": true,
+    "top": 20.953125,
+    "headingTop": 110.90625,
+    "scrollY": 13414,
+    "visibleImages": []
+  },
+  {
+    "slug": "martin-000-18-value-guide",
+    "kind": "table-scroll",
+    "clientWidth": 350,
+    "scrollWidth": 760,
+    "scrollLeft": 410,
+    "tabIndex": 0
+  },
+  {
+    "slug": "martin-00-18-authentication-guide",
+    "kind": "anchor",
+    "id": "versions",
+    "found": true,
+    "top": 112.84375,
+    "headingTop": 188.53125,
+    "scrollY": 3434,
+    "visibleImages": []
+  },
+  {
+    "slug": "martin-00-18-authentication-guide",
+    "kind": "anchor",
+    "id": "body-joint",
+    "found": true,
+    "top": 1148.53125,
+    "headingTop": 1242.90625,
+    "scrollY": 3447,
+    "visibleImages": []
+  },
+  {
+    "slug": "martin-00-18-authentication-guide",
+    "kind": "anchor",
+    "id": "wurlitzer",
+    "found": true,
+    "top": 112,
+    "headingTop": 206.375,
+    "scrollY": 6677,
+    "visibleImages": []
+  },
+  {
+    "slug": "martin-00-18-authentication-guide",
+    "kind": "anchor",
+    "id": "hawaiian",
+    "found": true,
+    "top": 2386.40625,
+    "headingTop": 2462.09375,
+    "scrollY": 6689,
+    "visibleImages": []
+  },
+  {
+    "slug": "martin-00-18-authentication-guide",
+    "kind": "anchor",
+    "id": "war-postwar",
+    "found": true,
+    "top": 114.28125,
+    "headingTop": 189.96875,
+    "scrollY": 10064,
+    "visibleImages": []
+  },
+  {
+    "slug": "martin-00-18-authentication-guide",
+    "kind": "anchor",
+    "id": "serial",
+    "found": true,
+    "top": 1612.46875,
+    "headingTop": 1688.15625,
+    "scrollY": 10078,
+    "visibleImages": []
+  },
+  {
+    "slug": "martin-00-18-authentication-guide",
+    "kind": "anchor",
+    "id": "hardware",
+    "found": true,
+    "top": 112.21875,
+    "headingTop": 187.90625,
+    "scrollY": 12868,
+    "visibleImages": [
+      {
+        "src": "/_astro/1952-martin-00-18-3.PlTkDWY4_zFdnX.webp",
+        "naturalWidth": 390,
+        "width": 350,
+        "height": 360
+      },
+      {
+        "src": "/_astro/1952-martin-00-18-12.BP_6cWIt_19L0HE.webp",
+        "naturalWidth": 390,
+        "width": 350,
+        "height": 360
+      }
+    ]
+  },
+  {
+    "slug": "martin-00-18-authentication-guide",
+    "kind": "anchor",
+    "id": "classical-modern",
+    "found": true,
+    "top": 3173.96875,
+    "headingTop": 3268.34375,
+    "scrollY": 12880,
+    "visibleImages": []
+  },
+  {
+    "slug": "martin-00-18-authentication-guide",
+    "kind": "anchor",
+    "id": "repairs",
+    "found": true,
+    "top": 110.90625,
+    "headingTop": 186.59375,
+    "scrollY": 17159,
+    "visibleImages": []
+  },
+  {
+    "slug": "martin-00-18-authentication-guide",
+    "kind": "anchor",
+    "id": "sources",
+    "found": true,
+    "top": 1754.265625,
+    "headingTop": 1829.953125,
+    "scrollY": 17170,
+    "visibleImages": []
+  },
+  {
+    "slug": "martin-00-18-authentication-guide",
+    "kind": "anchor",
+    "id": "faq",
+    "found": true,
+    "top": 47.265625,
+    "headingTop": 137.21875,
+    "scrollY": 19628,
+    "visibleImages": []
+  },
+  {
+    "slug": "martin-00-18-authentication-guide",
+    "kind": "table-scroll",
+    "clientWidth": 350,
+    "scrollWidth": 760,
+    "scrollLeft": 410,
+    "tabIndex": 0
+  },
+  {
+    "slug": "martin-00-18-value-guide",
+    "kind": "anchor",
+    "id": "prices",
+    "found": true,
+    "top": 110.734375,
+    "headingTop": 205.109375,
+    "scrollY": 3199,
+    "visibleImages": []
+  },
+  {
+    "slug": "martin-00-18-value-guide",
+    "kind": "anchor",
+    "id": "selection",
+    "found": true,
+    "top": 108.5,
+    "headingTop": 202.875,
+    "scrollY": 5270,
+    "visibleImages": []
+  },
+  {
+    "slug": "martin-00-18-value-guide",
+    "kind": "anchor",
+    "id": "hawaiian-value",
+    "found": true,
+    "top": 1478.5625,
+    "headingTop": 1572.9375,
+    "scrollY": 5279,
+    "visibleImages": []
+  },
+  {
+    "slug": "martin-00-18-value-guide",
+    "kind": "anchor",
+    "id": "repairs",
+    "found": true,
+    "top": 111.125,
+    "headingTop": 205.5,
+    "scrollY": 8776,
+    "visibleImages": []
+  },
+  {
+    "slug": "martin-00-18-value-guide",
+    "kind": "anchor",
+    "id": "archive-value",
+    "found": true,
+    "top": 108.4375,
+    "headingTop": 202.8125,
+    "scrollY": 10305,
+    "visibleImages": []
+  },
+  {
+    "slug": "martin-00-18-value-guide",
+    "kind": "anchor",
+    "id": "preparation",
+    "found": true,
+    "top": 104.875,
+    "headingTop": 199.25,
+    "scrollY": 11255,
+    "visibleImages": []
+  },
+  {
+    "slug": "martin-00-18-value-guide",
+    "kind": "anchor",
+    "id": "send",
+    "found": true,
+    "top": 104.375,
+    "headingTop": 198.75,
+    "scrollY": 12054,
+    "visibleImages": []
+  },
+  {
+    "slug": "martin-00-18-value-guide",
+    "kind": "anchor",
+    "id": "resources",
+    "found": true,
+    "top": 106.03125,
+    "headingTop": 200.40625,
+    "scrollY": 13538,
+    "visibleImages": []
+  },
+  {
+    "slug": "martin-00-18-value-guide",
+    "kind": "anchor",
+    "id": "faq",
+    "found": true,
+    "top": 668.84375,
+    "headingTop": 758.796875,
+    "scrollY": 13544,
+    "visibleImages": []
+  },
+  {
+    "slug": "martin-00-18-value-guide",
+    "kind": "table-scroll",
+    "clientWidth": 350,
+    "scrollWidth": 760,
+    "scrollLeft": 410,
+    "tabIndex": 0
+  },
+  {
+    "slug": "martin-0-18-authentication-guide",
+    "kind": "anchor",
+    "id": "size",
+    "found": true,
+    "top": 99.546875,
+    "headingTop": 175.234375,
+    "scrollY": 3565,
+    "visibleImages": []
+  },
+  {
+    "slug": "martin-0-18-authentication-guide",
+    "kind": "anchor",
+    "id": "koa",
+    "found": true,
+    "top": 109.796875,
+    "headingTop": 185.484375,
+    "scrollY": 4710,
+    "visibleImages": [
+      {
+        "src": "/_astro/1931-martin-0-18k-purchase-800x1200.CAtV0SQb_2iTYl9.webp",
+        "naturalWidth": 390,
+        "width": 350,
+        "height": 360
+      }
+    ]
+  },
+  {
+    "slug": "martin-0-18-authentication-guide",
+    "kind": "anchor",
+    "id": "body-era",
+    "found": true,
+    "top": 111.671875,
+    "headingTop": 206.046875,
+    "scrollY": 6249,
+    "visibleImages": []
+  },
+  {
+    "slug": "martin-0-18-authentication-guide",
+    "kind": "anchor",
+    "id": "timeline",
+    "found": true,
+    "top": 108.515625,
+    "headingTop": 184.203125,
+    "scrollY": 7492,
+    "visibleImages": []
+  },
+  {
+    "slug": "martin-0-18-authentication-guide",
+    "kind": "anchor",
+    "id": "linda",
+    "found": true,
+    "top": 106.453125,
+    "headingTop": 200.828125,
+    "scrollY": 8929,
+    "visibleImages": []
+  },
+  {
+    "slug": "martin-0-18-authentication-guide",
+    "kind": "anchor",
+    "id": "serial",
+    "found": true,
+    "top": 2453.234375,
+    "headingTop": 2547.609375,
+    "scrollY": 8935,
+    "visibleImages": []
+  },
+  {
+    "slug": "martin-0-18-authentication-guide",
+    "kind": "anchor",
+    "id": "parts",
+    "found": true,
+    "top": 115.296875,
+    "headingTop": 190.984375,
+    "scrollY": 12527,
+    "visibleImages": [
+      {
+        "src": "/_astro/1966-martin-0-18-grover-sta-tite.CdW8yHjc_MzxMX.webp",
+        "naturalWidth": 390,
+        "width": 350,
+        "height": 360
+      }
+    ]
+  },
+  {
+    "slug": "martin-0-18-authentication-guide",
+    "kind": "anchor",
+    "id": "inside-finish",
+    "found": true,
+    "top": 111.359375,
+    "headingTop": 205.734375,
+    "scrollY": 14111,
+    "visibleImages": []
+  },
+  {
+    "slug": "martin-0-18-authentication-guide",
+    "kind": "anchor",
+    "id": "exclusions",
+    "found": true,
+    "top": 107.796875,
+    "headingTop": 202.171875,
+    "scrollY": 15061,
+    "visibleImages": []
+  },
+  {
+    "slug": "martin-0-18-authentication-guide",
+    "kind": "anchor",
+    "id": "checklist",
+    "found": true,
+    "top": 937.484375,
+    "headingTop": 1013.171875,
+    "scrollY": 15069,
+    "visibleImages": []
+  },
+  {
+    "slug": "martin-0-18-authentication-guide",
+    "kind": "anchor",
+    "id": "sources",
+    "found": true,
+    "top": 114.078125,
+    "headingTop": 189.765625,
+    "scrollY": 17424,
+    "visibleImages": []
+  },
+  {
+    "slug": "martin-0-18-authentication-guide",
+    "kind": "anchor",
+    "id": "faq",
+    "found": true,
+    "top": 27.578125,
+    "headingTop": 117.53125,
+    "scrollY": 18287,
+    "visibleImages": []
+  },
+  {
+    "slug": "martin-0-18-authentication-guide",
+    "kind": "table-scroll",
+    "clientWidth": 350,
+    "scrollWidth": 760,
+    "scrollLeft": 410,
+    "tabIndex": 0
+  },
+  {
+    "slug": "martin-0-18-value-guide",
+    "kind": "anchor",
+    "id": "prices",
+    "found": true,
+    "top": 114.546875,
+    "headingTop": 208.921875,
+    "scrollY": 3303,
+    "visibleImages": []
+  },
+  {
+    "slug": "martin-0-18-value-guide",
+    "kind": "anchor",
+    "id": "periods",
+    "found": true,
+    "top": 109.109375,
+    "headingTop": 184.796875,
+    "scrollY": 4983,
+    "visibleImages": []
+  },
+  {
+    "slug": "martin-0-18-value-guide",
+    "kind": "anchor",
+    "id": "wear",
+    "found": true,
+    "top": 1618.359375,
+    "headingTop": 1712.734375,
+    "scrollY": 4992,
+    "visibleImages": []
+  },
+  {
+    "slug": "martin-0-18-value-guide",
+    "kind": "anchor",
+    "id": "structure",
+    "found": true,
+    "top": 109.359375,
+    "headingTop": 185.046875,
+    "scrollY": 8442,
+    "visibleImages": []
+  },
+  {
+    "slug": "martin-0-18-value-guide",
+    "kind": "anchor",
+    "id": "family-records",
+    "found": true,
+    "top": 106.609375,
+    "headingTop": 200.984375,
+    "scrollY": 9870,
+    "visibleImages": []
+  },
+  {
+    "slug": "martin-0-18-value-guide",
+    "kind": "anchor",
+    "id": "repair-decision",
+    "found": true,
+    "top": 1221.171875,
+    "headingTop": 1315.546875,
+    "scrollY": 9877,
+    "visibleImages": []
+  },
+  {
+    "slug": "martin-0-18-value-guide",
+    "kind": "anchor",
+    "id": "photos",
+    "found": true,
+    "top": 107.046875,
+    "headingTop": 182.734375,
+    "scrollY": 11856,
+    "visibleImages": []
+  },
+  {
+    "slug": "martin-0-18-value-guide",
+    "kind": "anchor",
+    "id": "resources",
+    "found": true,
+    "top": 1566.140625,
+    "headingTop": 1641.828125,
+    "scrollY": 11863,
+    "visibleImages": []
+  },
+  {
+    "slug": "martin-0-18-value-guide",
+    "kind": "anchor",
+    "id": "faq",
+    "found": true,
+    "top": 49.765625,
+    "headingTop": 139.71875,
+    "scrollY": 13955,
+    "visibleImages": []
+  },
+  {
+    "slug": "martin-0-18-value-guide",
+    "kind": "table-scroll",
+    "clientWidth": 350,
+    "scrollWidth": 760,
+    "scrollLeft": 410,
+    "tabIndex": 0
+  },
+  {
+    "slug": "martin-0-00-000-history-authentication-value-guide",
+    "kind": "anchor",
+    "id": "top",
+    "found": true,
+    "top": 0,
+    "scrollY": 0,
+    "visibleImages": []
+  },
+  {
+    "slug": "martin-0-00-000-history-authentication-value-guide",
+    "kind": "anchor",
+    "id": "models",
+    "found": true,
+    "top": 42.5,
+    "headingTop": 112,
+    "scrollY": 2834,
+    "visibleImages": []
+  },
+  {
+    "slug": "martin-0-00-000-history-authentication-value-guide",
+    "kind": "anchor",
+    "id": "geometry",
+    "found": true,
+    "top": 3492.515625,
+    "headingTop": 3562.015625,
+    "scrollY": 2877,
+    "visibleImages": []
+  },
+  {
+    "slug": "martin-0-00-000-history-authentication-value-guide",
+    "kind": "anchor",
+    "id": "timeline",
+    "found": true,
+    "top": 50.9375,
+    "headingTop": 122.078125,
+    "scrollY": 8075,
+    "visibleImages": []
+  },
+  {
+    "slug": "martin-0-00-000-history-authentication-value-guide",
+    "kind": "anchor",
+    "id": "woods",
+    "found": true,
+    "top": 2602.484375,
+    "headingTop": 2671.984375,
+    "scrollY": 8126,
+    "visibleImages": []
+  },
+  {
+    "slug": "martin-0-00-000-history-authentication-value-guide",
+    "kind": "anchor",
+    "id": "archive-examples",
+    "found": true,
+    "top": 53.859375,
+    "headingTop": 53.859375,
+    "scrollY": 12047,
+    "visibleImages": []
+  },
+  {
+    "slug": "martin-0-00-000-history-authentication-value-guide",
+    "kind": "anchor",
+    "id": "authenticate",
+    "found": true,
+    "top": 3029.203125,
+    "headingTop": 3098.703125,
+    "scrollY": 12101,
+    "visibleImages": []
+  },
+  {
+    "slug": "martin-0-00-000-history-authentication-value-guide",
+    "kind": "anchor",
+    "id": "tuners",
+    "found": true,
+    "top": 62.484375,
+    "headingTop": 133.625,
+    "scrollY": 17333,
+    "visibleImages": []
+  },
+  {
+    "slug": "martin-0-00-000-history-authentication-value-guide",
+    "kind": "anchor",
+    "id": "value",
+    "found": true,
+    "top": 753,
+    "headingTop": 822.5,
+    "scrollY": 17396,
+    "visibleImages": []
+  },
+  {
+    "slug": "martin-0-00-000-history-authentication-value-guide",
+    "kind": "anchor",
+    "id": "faq",
+    "found": true,
+    "top": 49.28125,
+    "headingTop": 139.234375,
+    "scrollY": 23172,
+    "visibleImages": []
+  },
+  {
+    "slug": "martin-0-00-000-history-authentication-value-guide",
+    "kind": "anchor",
+    "id": "contact",
+    "found": true,
+    "top": 39.140625,
+    "headingTop": 299.140625,
+    "scrollY": 25646,
+    "visibleImages": [
+      {
+        "src": "/_astro/logo-joe-2.lTrGXLF-_Z2hhb6J.webp",
+        "naturalWidth": 120,
+        "width": 140,
+        "height": 168
+      }
+    ]
+  },
+  {
+    "slug": "martin-0-00-000-history-authentication-value-guide",
+    "kind": "table-scroll",
+    "clientWidth": 350,
+    "scrollWidth": 720,
+    "scrollLeft": 370,
+    "tabIndex": -1
+  },
+  {
+    "slug": "martin-0-00-000-history-authentication-value-guide",
+    "kind": "table-scroll",
+    "clientWidth": 350,
+    "scrollWidth": 720,
+    "scrollLeft": 370,
+    "tabIndex": 0
+  }
+]
