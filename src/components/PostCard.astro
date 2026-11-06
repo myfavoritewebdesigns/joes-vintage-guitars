@@ -9,8 +9,9 @@ import { SERIAL_DATING_CATEGORY } from "../data/serial-dating-guides";
 interface Props {
   post: ArchiveEntry;
   eager?: boolean;
+  imageSizes?: string;
 }
-const { post, eager = false } = Astro.props;
+const { post, eager = false, imageSizes = '(max-width: 560px) calc(100vw - 50px), (max-width: 900px) calc((100vw - 78px) / 2), (max-width: 1140px) calc((100vw - 106px) / 3), 344.7px' } = Astro.props;
 const guide = "href" in post ? post : null;
 const data = "data" in post ? post.data : {
   title: post.title,
@@ -24,6 +25,10 @@ const data = "data" in post ? post.data : {
 const href = "href" in post ? post.href : `/post/${post.id}/`;
 const catHref = `/category/${data.category}/`;
 const heroMeta = data.heroImage ? resolveImage(data.heroImage) : null;
+// The ES comparison entry also supplies related and archive cards.
+const comparisonImageProps = data.heroImage?.startsWith('/images/es-comparison/')
+  ? { layout: 'none' as const, widths: [240, 320, 400, 480, 640, 700], sizes: imageSizes }
+  : {};
 ---
 
 <article class="bpc">
@@ -36,6 +41,7 @@ const heroMeta = data.heroImage ? resolveImage(data.heroImage) : null;
           src={heroMeta}
           alt={data.heroImageAlt || data.title}
           width={700}
+          {...comparisonImageProps}
           loading={eager ? "eager" : "lazy"}
         />
       ) : (

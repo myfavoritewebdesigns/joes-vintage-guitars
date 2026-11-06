@@ -1,9 +1,37 @@
 ---
+import { getImage } from "astro:assets";
+import { resolveImage } from "../lib/images";
 import Layout from "../layouts/Layout.astro";
 import { SITE_URL } from "../config/site";
 import { buildImageGraph } from "../lib/imageLicense";
 import rawPageMarkup from "../page-data/sell-fender-redesign.html?raw";
 import rawPageCss from "../styles/pages/sell-fender-redesign.css?raw";
+
+// Slot widths follow sell-fender-redesign.css: 1120px shell, 700/960px breaks.
+const storySizes = '(max-width: 700px) calc(100vw - 30px), (max-width: 960px) calc((100vw - 42px) * .46), (max-width: 1160px) calc((100vw - 70px) * .23), 250.7px';
+const modelSizes = '(max-width: 700px) calc(100vw - 30px), (max-width: 960px) calc((100vw - 66px) / 2), (max-width: 1160px) calc((100vw - 90px) / 3), 356.7px';
+const photoSlots: Record<string, string> = Object.fromEntries([
+  ...Object.keys(import.meta.glob('../assets/images/sell-fender-redesign/*')).map(path => {
+    const name = path.split('/').pop()!;
+    const sizes = name === 'fender-hero.webp' ? '(max-width: 700px) 100vw, (max-width: 960px) 45vw, 50vw'
+      : name.includes('fedex-counter') ? '(max-width: 458px) calc(100vw - 28px), (max-width: 700px) 430px, 380px'
+      : name === 'meet-joe-youtube.webp' ? '(max-width: 700px) calc(100vw - 28px), (max-width: 960px) calc((100vw - 82px) / 2), (max-width: 1160px) calc((100vw - 110px) / 2), 525px'
+      : name.includes('dakota-red') ? '(max-width: 700px) calc(100vw - 28px), (max-width: 960px) calc((100vw - 82px) * .36), (max-width: 1160px) calc((100vw - 115px) * .36), 376.2px'
+      : /owner|joshua|jim-with/.test(name) ? storySizes : modelSizes;
+    return ['/images/sell-fender-redesign/' + name, sizes];
+  }),
+  ['/images/faq-bg.webp', '100vw'],
+  ['/images/Logo-Footer-1-1-300x300.png', '120px'],
+  ['/images/logo-joe-2.png', '(max-width: 700px) 112px, (max-width: 960px) 165px, 210px'],
+]);
+const pipelineImages = new Map(await Promise.all(Object.entries(photoSlots).map(async ([path, sizes]) => {
+  const src = resolveImage(path);
+  if (!src) throw new Error('Missing Fender pipeline image: ' + path);
+  const widths = [...new Set([240, 320, 400, 480, 640, 750, 960, 1200, 1440, 1920, src.width].filter(w => w <= src.width))].sort((a, b) => a - b);
+  const built = await getImage({ src, layout: 'none', width: Math.min(1200, src.width), widths, format: 'webp' });
+  return [path, { ...built, sizes }] as const;
+})));
+const hero = pipelineImages.get('/images/sell-fender-redesign/fender-hero.webp')!;
 
 const pageTitle = "Sell My Fender Guitar | Joe's Vintage Guitars";
 const pageDescription =
@@ -105,7 +133,7 @@ const licensedImages = await buildImageGraph([
     renderedSrc: "/images/sell-fender-redesign/1972-fender-jazz-bass-sunburst-800x533.jpg",
     alt: "1972 sunburst Fender Jazz Bass",
   },
-]);
+].map(photo => ({ ...photo, renderedSrc: pipelineImages.get(photo.renderedSrc)!.src })));
 
 const structuredData = [
   {
@@ -242,30 +270,17 @@ pageMarkup = pageMarkup.replace(
   '<div class="model-links"><a class="arrow-link" href="/vintage-fender-telecaster-value-guide/">Telecaster values by year <span aria-hidden="true">→</span></a><a class="arrow-link" href="/vintage-fender-esquire-value-guide/">Esquire value guide <span aria-hidden="true">→</span></a><a class="arrow-link" href="https://www.joesvintageguitarsaz.com/fender-telecaster-dating-guide/">Date a Fender Telecaster ',
 );
 
-pageMarkup = pageMarkup.replace(
-  '<img src="/images/logo-joe-2.png"',
-  '<img src="/images/logo-joe-2.png" width="296" height="355"',
-);
-
-const intrinsicImageDimensions: Record<string, [number, number]> = {
-  "/images/sell-fender-redesign/joshua-with-1952-fender-telecaster.jpeg": [1440, 1920],
-  "/images/sell-fender-redesign/one-owner-1965-stratocaster.webp": [1400, 1050],
-  "/images/sell-fender-redesign/one-owner-1960-telecaster.webp": [1050, 1400],
-  "/images/sell-fender-redesign/bill-one-owner-1966-jaguar.webp": [1050, 1400],
-  "/images/sell-fender-redesign/jim-with-1972-fender-jazz-bass-scaled.jpeg": [1920, 2560],
-};
-
-for (const [src, [width, height]] of Object.entries(intrinsicImageDimensions)) {
-  pageMarkup = pageMarkup.replace(
-    `<img src="${src}"`,
-    `<img src="${src}" width="${width}" height="${height}"`,
-  );
-}
-
-pageMarkup = pageMarkup.replace(
-  '<img class="faq-background" src="/images/faq-bg.webp"',
-  '<img class="faq-background" src="/images/faq-bg.webp" width="1920" height="765"',
-);
+// Preserve the raw export's alt, crop classes and loading/priority choices.
+const escapeAttribute = (value: unknown) => String(value).replaceAll('&', '&amp;').replaceAll('"', '&quot;');
+pageMarkup = pageMarkup.replace(/<img\b[^>]*>/g, tag => {
+  const path = tag.match(/\bsrc="([^"]+)"/)?.[1];
+  const built = path && pipelineImages.get(path);
+  if (!built) throw new Error('Unmapped Fender image: ' + path);
+  const preservedAttributes = Object.fromEntries(Object.entries(built.attributes).filter(([key, value]) => value != null && !['loading', 'decoding', 'fetchpriority'].includes(key)));
+  const attrs = { ...preservedAttributes, src: built.src, srcset: built.srcSet.attribute, sizes: built.sizes };
+  const preserved = tag.replace(/\s(?:src|srcset|sizes|width|height)="[^"]*"/g, '').replace(/\/?>(?=$)/, '');
+  return preserved + ' ' + Object.entries(attrs).map(([key, value]) => key + '="' + escapeAttribute(value) + '"').join(' ') + ' />';
+});
 
 const fenderOptionsEnd = '</div></div></div></section><section class="models section-pad" id="models">';
 if (!pageMarkup.includes(fenderOptionsEnd)) {
@@ -360,7 +375,9 @@ const pageCss = rawPageCss.replace(/^@import 'tailwindcss';\s*/, "") + `
     slot="head"
     rel="preload"
     as="image"
-    href="/images/sell-fender-redesign/fender-hero.webp"
+    href={hero.src}
+    imagesrcset={hero.srcSet.attribute}
+    imagesizes={hero.sizes}
     type="image/webp"
     fetchpriority="high"
   />

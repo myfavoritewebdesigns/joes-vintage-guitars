@@ -1,0 +1,1315 @@
+{
+  "date": "2026-11-06",
+  "branch": "mfwd/pipeline-photos",
+  "baseline": "17debeb",
+  "imageByteMethod": {
+    "viewport": 1440,
+    "devicePixelRatio": 1,
+    "scope": "All visible img elements after a full-page visit, including shared chrome and SVG images; CSS backgrounds and hidden images excluded; deduplicated by selected URL.",
+    "candidate": "Smallest srcset width at least as wide as the CSS sizes slot, or largest available candidate.",
+    "baselineCapture": "HTML captured from the baseline build; hashed share tags normalized with the unchanged stable-share-images.mjs mapping for comparison."
+  },
+  "before": {
+    "htmlPages": 462,
+    "nonPipelineRasterInstances": 62,
+    "distinctNonPipelineRasterFiles": 47,
+    "pagesWithNonPipelineRaster": 17,
+    "licensedImageObjects": 3312,
+    "licensedPhotoObjects": 2849,
+    "nonPipelineRasterImages": [
+      {
+        "route": "/about-me/",
+        "src": "/images/about-me-joe-1.jpg",
+        "srcset": null
+      },
+      {
+        "route": "/blog/page/18/",
+        "src": "/images/es-comparison/1959-es-355-full.webp",
+        "srcset": null
+      },
+      {
+        "route": "/blog/page/18/",
+        "src": "/images/blog/martin-d18-history-specs-authentication-value-guide/martin-d18-social.jpg",
+        "srcset": null
+      },
+      {
+        "route": "/category/specific-model-highlights/page/9/",
+        "src": "/images/es-comparison/1959-es-355-full.webp",
+        "srcset": null
+      },
+      {
+        "route": "/category/specific-model-highlights/page/9/",
+        "src": "/images/blog/martin-d18-history-specs-authentication-value-guide/martin-d18-social.jpg",
+        "srcset": null
+      },
+      {
+        "route": "/consignment/",
+        "src": "/images/sell-fender-redesign/fender-hero.webp",
+        "srcset": null
+      },
+      {
+        "route": "/how-to-read-gibson-serial-numbers/",
+        "src": "/images/about-me-joe-1.jpg",
+        "srcset": null
+      },
+      {
+        "route": "/post/1959-gibson-es-335-authentication-guide/",
+        "src": "/images/es-comparison/1959-es-355-full.webp",
+        "srcset": null
+      },
+      {
+        "route": "/post/1959-gibson-es-355-history-value/",
+        "src": "/images/es-comparison/1959-es-355-full.webp",
+        "srcset": null
+      },
+      {
+        "route": "/post/1965-gibson-es-335-short-maestro-vibrola/",
+        "src": "/images/es-comparison/1959-es-355-full.webp",
+        "srcset": null
+      },
+      {
+        "route": "/post/1968-gibson-es-335-guide/",
+        "src": "/images/es-comparison/1959-es-355-full.webp",
+        "srcset": null
+      },
+      {
+        "route": "/post/gibson-es-175-evolution-and-specifications/",
+        "src": "/images/es-comparison/1959-es-355-full.webp",
+        "srcset": null
+      },
+      {
+        "route": "/post/gibson-es-335-345-355-guide/",
+        "src": "/images/es-comparison/1965-es-335-full.webp",
+        "srcset": null
+      },
+      {
+        "route": "/post/gibson-es-335-345-355-guide/",
+        "src": "/images/es-comparison/1963-es-345-full.webp",
+        "srcset": null
+      },
+      {
+        "route": "/post/gibson-es-335-345-355-guide/",
+        "src": "/images/es-comparison/1959-es-355-full.webp",
+        "srcset": null
+      },
+      {
+        "route": "/post/gibson-es-335-345-355-guide/",
+        "src": "/images/es-comparison/1959-es-335-dot-inlays.webp",
+        "srcset": null
+      },
+      {
+        "route": "/post/gibson-es-335-345-355-guide/",
+        "src": "/images/es-comparison/1963-es-345-split-parallelogram-inlays.webp",
+        "srcset": null
+      },
+      {
+        "route": "/post/gibson-es-335-345-355-guide/",
+        "src": "/images/es-comparison/1959-es-355-block-inlays.webp",
+        "srcset": null
+      },
+      {
+        "route": "/post/gibson-es-335-345-355-guide/",
+        "src": "/images/es-comparison/1962-es-335-bridge-tailpiece.webp",
+        "srcset": null
+      },
+      {
+        "route": "/post/gibson-es-335-345-355-guide/",
+        "src": "/images/es-comparison/1963-es-345-varitone-controls.webp",
+        "srcset": null
+      },
+      {
+        "route": "/post/gibson-es-335-345-355-guide/",
+        "src": "/images/es-comparison/1959-es-355-bigsby-controls.webp",
+        "srcset": null
+      },
+      {
+        "route": "/post/gibson-es-335-345-355-guide/",
+        "src": "/images/es-comparison/1966-es-335-horn.webp",
+        "srcset": null
+      },
+      {
+        "route": "/post/gibson-es-335-345-355-guide/",
+        "src": "/images/es-comparison/1966-es-345-headstock.webp",
+        "srcset": null
+      },
+      {
+        "route": "/post/gibson-es-335-345-355-guide/",
+        "src": "/images/es-comparison/1959-es-355-headstock.webp",
+        "srcset": null
+      },
+      {
+        "route": "/post/gibson-es-335-345-355-guide/",
+        "src": "/images/es-comparison/1959-es-335-finish.webp",
+        "srcset": null
+      },
+      {
+        "route": "/post/gibson-es-335-345-355-guide/",
+        "src": "/images/es-comparison/1962-es-335-full.webp",
+        "srcset": null
+      },
+      {
+        "route": "/post/gibson-es-335-345-355-guide/",
+        "src": "/images/es-comparison/1965-es-335-full.webp",
+        "srcset": null
+      },
+      {
+        "route": "/post/gibson-es-335-345-355-guide/",
+        "src": "/images/es-comparison/1968-es-335-full.webp",
+        "srcset": null
+      },
+      {
+        "route": "/post/gibson-es-335-345-355-guide/",
+        "src": "/images/es-comparison/1966-es-345-full.webp",
+        "srcset": null
+      },
+      {
+        "route": "/post/gibson-es-335-345-355-guide/",
+        "src": "/images/es-comparison/1966-es-345-bigsby-varitone.webp",
+        "srcset": null
+      },
+      {
+        "route": "/post/gibson-es-335-345-355-guide/",
+        "src": "/images/es-comparison/1959-es-355-binding.webp",
+        "srcset": null
+      },
+      {
+        "route": "/post/gibson-es-335-345-355-guide/",
+        "src": "/images/es-comparison/1959-es-355-paf-pickups.webp",
+        "srcset": null
+      },
+      {
+        "route": "/post/gibson-es-335-345-355-guide/",
+        "src": "/images/es-comparison/1959-es-355-back.webp",
+        "srcset": null
+      },
+      {
+        "route": "/post/gibson-es-345-history-value/",
+        "src": "/images/es-comparison/1959-es-355-full.webp",
+        "srcset": null
+      },
+      {
+        "route": "/post/gibson-es-5-switchmaster-history-value/",
+        "src": "/images/es-comparison/1959-es-355-full.webp",
+        "srcset": null
+      },
+      {
+        "route": "/post/what-guitar-did-johnny-marr-play/",
+        "src": "/images/es-comparison/1959-es-355-full.webp",
+        "srcset": null
+      },
+      {
+        "route": "/sell-my-fender-guitar/",
+        "src": "/images/sell-fender-redesign/fender-hero.webp",
+        "srcset": null
+      },
+      {
+        "route": "/sell-my-fender-guitar/",
+        "src": "/images/sell-fender-redesign/1962-fender-jazzmaster-fedex-counter.webp",
+        "srcset": null
+      },
+      {
+        "route": "/sell-my-fender-guitar/",
+        "src": "/images/sell-fender-redesign/joshua-with-1952-fender-telecaster.jpeg",
+        "srcset": null
+      },
+      {
+        "route": "/sell-my-fender-guitar/",
+        "src": "/images/sell-fender-redesign/one-owner-1965-stratocaster.webp",
+        "srcset": null
+      },
+      {
+        "route": "/sell-my-fender-guitar/",
+        "src": "/images/sell-fender-redesign/one-owner-1960-telecaster.webp",
+        "srcset": null
+      },
+      {
+        "route": "/sell-my-fender-guitar/",
+        "src": "/images/sell-fender-redesign/bill-one-owner-1966-jaguar.webp",
+        "srcset": null
+      },
+      {
+        "route": "/sell-my-fender-guitar/",
+        "src": "/images/sell-fender-redesign/jim-with-1972-fender-jazz-bass-scaled.jpeg",
+        "srcset": null
+      },
+      {
+        "route": "/sell-my-fender-guitar/",
+        "src": "/images/sell-fender-redesign/meet-joe-youtube.webp",
+        "srcset": null
+      },
+      {
+        "route": "/sell-my-fender-guitar/",
+        "src": "/images/sell-fender-redesign/fender-stratocaster-dakota-red-768x1024.jpg",
+        "srcset": null
+      },
+      {
+        "route": "/sell-my-fender-guitar/",
+        "src": "/images/sell-fender-redesign/1956-fender-stratocaster-sunburst-800x533.jpg",
+        "srcset": null
+      },
+      {
+        "route": "/sell-my-fender-guitar/",
+        "src": "/images/sell-fender-redesign/1960-fender-telecaster-blonde-800x533.jpg",
+        "srcset": null
+      },
+      {
+        "route": "/sell-my-fender-guitar/",
+        "src": "/images/sell-fender-redesign/1965-fender-jazzmaster-charcoal-frost-800x533.jpg",
+        "srcset": null
+      },
+      {
+        "route": "/sell-my-fender-guitar/",
+        "src": "/images/sell-fender-redesign/1952-fender-precision-bass-800x533.jpg",
+        "srcset": null
+      },
+      {
+        "route": "/sell-my-fender-guitar/",
+        "src": "/images/sell-fender-redesign/1964-fender-jaguar-sunburst-800x533.jpg",
+        "srcset": null
+      },
+      {
+        "route": "/sell-my-fender-guitar/",
+        "src": "/images/sell-fender-redesign/1972-fender-mustang-competition-blue-800x533.jpg",
+        "srcset": null
+      },
+      {
+        "route": "/sell-my-fender-guitar/",
+        "src": "/images/sell-fender-redesign/1972-fender-jazz-bass-sunburst-800x533.jpg",
+        "srcset": null
+      },
+      {
+        "route": "/sell-my-fender-guitar/",
+        "src": "/images/faq-bg.webp",
+        "srcset": null
+      },
+      {
+        "route": "/sell-my-fender-guitar/",
+        "src": "/images/Logo-Footer-1-1-300x300.png",
+        "srcset": null
+      },
+      {
+        "route": "/sell-my-rickenbacker-guitar/",
+        "src": "/images/rickenbacker-selling/360-front-1200.webp",
+        "srcset": "/images/rickenbacker-selling/360-front-640.webp 640w, /images/rickenbacker-selling/360-front-1200.webp 1200w, /images/rickenbacker-selling/360-front-1800.webp 1800w"
+      },
+      {
+        "route": "/sell-my-rickenbacker-guitar/",
+        "src": "/images/rickenbacker-selling/360-12-front-1200.webp",
+        "srcset": "/images/rickenbacker-selling/360-12-front-640.webp 640w, /images/rickenbacker-selling/360-12-front-1200.webp 1200w, /images/rickenbacker-selling/360-12-front-1800.webp 1800w"
+      },
+      {
+        "route": "/sell-my-rickenbacker-guitar/",
+        "src": "/images/rickenbacker-selling/325-front-1200.webp",
+        "srcset": "/images/rickenbacker-selling/325-front-640.webp 640w, /images/rickenbacker-selling/325-front-1200.webp 1200w, /images/rickenbacker-selling/325-front-1800.webp 1800w"
+      },
+      {
+        "route": "/sell-my-rickenbacker-guitar/",
+        "src": "/images/rickenbacker-selling/4003-front-1200.webp",
+        "srcset": "/images/rickenbacker-selling/4003-front-640.webp 640w, /images/rickenbacker-selling/4003-front-1200.webp 1200w, /images/rickenbacker-selling/4003-front-1800.webp 1800w"
+      },
+      {
+        "route": "/sell-my-rickenbacker-guitar/",
+        "src": "/images/rickenbacker-selling/4005-front-1200.webp",
+        "srcset": "/images/rickenbacker-selling/4005-front-640.webp 640w, /images/rickenbacker-selling/4005-front-1200.webp 1200w, /images/rickenbacker-selling/4005-front-1800.webp 1800w"
+      },
+      {
+        "route": "/sell-my-rickenbacker-guitar/",
+        "src": "/images/rickenbacker-selling/360-detail-1200.webp",
+        "srcset": "/images/rickenbacker-selling/360-detail-640.webp 640w, /images/rickenbacker-selling/360-detail-1200.webp 1200w, /images/rickenbacker-selling/360-detail-1800.webp 1800w"
+      },
+      {
+        "route": "/sell-my-rickenbacker-guitar/",
+        "src": "/images/rickenbacker-selling/rickenbacker-bass-fedex-counter-1200.webp",
+        "srcset": "/images/rickenbacker-selling/rickenbacker-bass-fedex-counter-640.webp 640w, /images/rickenbacker-selling/rickenbacker-bass-fedex-counter-1200.webp 1200w, /images/rickenbacker-selling/rickenbacker-bass-fedex-counter-1800.webp 1800w"
+      },
+      {
+        "route": "/vintage-gibson-les-paul-market-value-guide/",
+        "src": "/images/about-me-joe-1.jpg",
+        "srcset": null
+      }
+    ]
+  },
+  "after": {
+    "htmlPages": 462,
+    "nonPipelineRasterInstances": 12,
+    "distinctNonPipelineRasterFiles": 9,
+    "pagesWithNonPipelineRaster": 6,
+    "licensedImageObjects": 3312,
+    "licensedPhotoObjects": 2849,
+    "nonPipelineRasterImages": [
+      {
+        "route": "/about-me/",
+        "src": "/images/about-me-joe-1.jpg",
+        "srcset": null
+      },
+      {
+        "route": "/blog/page/18/",
+        "src": "/images/blog/martin-d18-history-specs-authentication-value-guide/martin-d18-social.jpg",
+        "srcset": null
+      },
+      {
+        "route": "/category/specific-model-highlights/page/9/",
+        "src": "/images/blog/martin-d18-history-specs-authentication-value-guide/martin-d18-social.jpg",
+        "srcset": null
+      },
+      {
+        "route": "/how-to-read-gibson-serial-numbers/",
+        "src": "/images/about-me-joe-1.jpg",
+        "srcset": null
+      },
+      {
+        "route": "/sell-my-rickenbacker-guitar/",
+        "src": "/images/rickenbacker-selling/360-front-1200.webp",
+        "srcset": "/images/rickenbacker-selling/360-front-640.webp 640w, /images/rickenbacker-selling/360-front-1200.webp 1200w, /images/rickenbacker-selling/360-front-1800.webp 1800w"
+      },
+      {
+        "route": "/sell-my-rickenbacker-guitar/",
+        "src": "/images/rickenbacker-selling/360-12-front-1200.webp",
+        "srcset": "/images/rickenbacker-selling/360-12-front-640.webp 640w, /images/rickenbacker-selling/360-12-front-1200.webp 1200w, /images/rickenbacker-selling/360-12-front-1800.webp 1800w"
+      },
+      {
+        "route": "/sell-my-rickenbacker-guitar/",
+        "src": "/images/rickenbacker-selling/325-front-1200.webp",
+        "srcset": "/images/rickenbacker-selling/325-front-640.webp 640w, /images/rickenbacker-selling/325-front-1200.webp 1200w, /images/rickenbacker-selling/325-front-1800.webp 1800w"
+      },
+      {
+        "route": "/sell-my-rickenbacker-guitar/",
+        "src": "/images/rickenbacker-selling/4003-front-1200.webp",
+        "srcset": "/images/rickenbacker-selling/4003-front-640.webp 640w, /images/rickenbacker-selling/4003-front-1200.webp 1200w, /images/rickenbacker-selling/4003-front-1800.webp 1800w"
+      },
+      {
+        "route": "/sell-my-rickenbacker-guitar/",
+        "src": "/images/rickenbacker-selling/4005-front-1200.webp",
+        "srcset": "/images/rickenbacker-selling/4005-front-640.webp 640w, /images/rickenbacker-selling/4005-front-1200.webp 1200w, /images/rickenbacker-selling/4005-front-1800.webp 1800w"
+      },
+      {
+        "route": "/sell-my-rickenbacker-guitar/",
+        "src": "/images/rickenbacker-selling/360-detail-1200.webp",
+        "srcset": "/images/rickenbacker-selling/360-detail-640.webp 640w, /images/rickenbacker-selling/360-detail-1200.webp 1200w, /images/rickenbacker-selling/360-detail-1800.webp 1800w"
+      },
+      {
+        "route": "/sell-my-rickenbacker-guitar/",
+        "src": "/images/rickenbacker-selling/rickenbacker-bass-fedex-counter-1200.webp",
+        "srcset": "/images/rickenbacker-selling/rickenbacker-bass-fedex-counter-640.webp 640w, /images/rickenbacker-selling/rickenbacker-bass-fedex-counter-1200.webp 1200w, /images/rickenbacker-selling/rickenbacker-bass-fedex-counter-1800.webp 1800w"
+      },
+      {
+        "route": "/vintage-gibson-les-paul-market-value-guide/",
+        "src": "/images/about-me-joe-1.jpg",
+        "srcset": null
+      }
+    ]
+  },
+  "pageBytes": {
+    "/sell-my-fender-guitar/": {
+      "before": {
+        "bytes": 3833264,
+        "images": [
+          {
+            "src": "/_astro/logo-joe-2.lTrGXLF-_Z2hhb6J.webp",
+            "chosen": "/_astro/logo-joe-2.lTrGXLF-_28Y3Wl.webp",
+            "slot": 220,
+            "bytes": 8130,
+            "width": 220,
+            "height": 264,
+            "sizes": "(max-width: 768px) 110px, (max-width: 1100px) 160px, 220px"
+          },
+          {
+            "src": "/images/reverb-icon.svg",
+            "chosen": "/images/reverb-icon.svg",
+            "slot": 14,
+            "bytes": 3328,
+            "width": 14,
+            "height": 14,
+            "sizes": ""
+          },
+          {
+            "src": "/images/sell-fender-redesign/fender-hero.webp",
+            "chosen": "/images/sell-fender-redesign/fender-hero.webp",
+            "slot": 720,
+            "bytes": 317342,
+            "width": 720,
+            "height": 1105.3125,
+            "sizes": ""
+          },
+          {
+            "src": "/images/sell-fender-redesign/1962-fender-jazzmaster-fedex-counter.webp",
+            "chosen": "/images/sell-fender-redesign/1962-fender-jazzmaster-fedex-counter.webp",
+            "slot": 378,
+            "bytes": 208208,
+            "width": 378,
+            "height": 472.5,
+            "sizes": ""
+          },
+          {
+            "src": "/images/sell-fender-redesign/joshua-with-1952-fender-telecaster.jpeg",
+            "chosen": "/images/sell-fender-redesign/joshua-with-1952-fender-telecaster.jpeg",
+            "slot": 250.6875,
+            "bytes": 356508,
+            "width": 250.6875,
+            "height": 388,
+            "sizes": ""
+          },
+          {
+            "src": "/images/sell-fender-redesign/one-owner-1965-stratocaster.webp",
+            "chosen": "/images/sell-fender-redesign/one-owner-1965-stratocaster.webp",
+            "slot": 250.6875,
+            "bytes": 214594,
+            "width": 250.6875,
+            "height": 388,
+            "sizes": ""
+          },
+          {
+            "src": "/images/sell-fender-redesign/one-owner-1960-telecaster.webp",
+            "chosen": "/images/sell-fender-redesign/one-owner-1960-telecaster.webp",
+            "slot": 250.6875,
+            "bytes": 247302,
+            "width": 250.6875,
+            "height": 388,
+            "sizes": ""
+          },
+          {
+            "src": "/images/sell-fender-redesign/bill-one-owner-1966-jaguar.webp",
+            "chosen": "/images/sell-fender-redesign/bill-one-owner-1966-jaguar.webp",
+            "slot": 250.6875,
+            "bytes": 301850,
+            "width": 250.6875,
+            "height": 388,
+            "sizes": ""
+          },
+          {
+            "src": "/images/sell-fender-redesign/jim-with-1972-fender-jazz-bass-scaled.jpeg",
+            "chosen": "/images/sell-fender-redesign/jim-with-1972-fender-jazz-bass-scaled.jpeg",
+            "slot": 250.6875,
+            "bytes": 912784,
+            "width": 250.6875,
+            "height": 388,
+            "sizes": ""
+          },
+          {
+            "src": "/images/sell-fender-redesign/meet-joe-youtube.webp",
+            "chosen": "/images/sell-fender-redesign/meet-joe-youtube.webp",
+            "slot": 525,
+            "bytes": 28312,
+            "width": 525,
+            "height": 520,
+            "sizes": ""
+          },
+          {
+            "src": "/images/sell-fender-redesign/fender-stratocaster-dakota-red-768x1024.jpg",
+            "chosen": "/images/sell-fender-redesign/fender-stratocaster-dakota-red-768x1024.jpg",
+            "slot": 376.1875,
+            "bytes": 286201,
+            "width": 376.1875,
+            "height": 501.578125,
+            "sizes": ""
+          },
+          {
+            "src": "/images/sell-fender-redesign/1956-fender-stratocaster-sunburst-800x533.jpg",
+            "chosen": "/images/sell-fender-redesign/1956-fender-stratocaster-sunburst-800x533.jpg",
+            "slot": 356.65625,
+            "bytes": 125479,
+            "width": 356.65625,
+            "height": 267.484375,
+            "sizes": ""
+          },
+          {
+            "src": "/images/sell-fender-redesign/1960-fender-telecaster-blonde-800x533.jpg",
+            "chosen": "/images/sell-fender-redesign/1960-fender-telecaster-blonde-800x533.jpg",
+            "slot": 356.671875,
+            "bytes": 110073,
+            "width": 356.671875,
+            "height": 267.5,
+            "sizes": ""
+          },
+          {
+            "src": "/images/sell-fender-redesign/1965-fender-jazzmaster-charcoal-frost-800x533.jpg",
+            "chosen": "/images/sell-fender-redesign/1965-fender-jazzmaster-charcoal-frost-800x533.jpg",
+            "slot": 356.65625,
+            "bytes": 122972,
+            "width": 356.65625,
+            "height": 267.484375,
+            "sizes": ""
+          },
+          {
+            "src": "/images/sell-fender-redesign/1952-fender-precision-bass-800x533.jpg",
+            "chosen": "/images/sell-fender-redesign/1952-fender-precision-bass-800x533.jpg",
+            "slot": 356.65625,
+            "bytes": 86165,
+            "width": 356.65625,
+            "height": 267.484375,
+            "sizes": ""
+          },
+          {
+            "src": "/images/sell-fender-redesign/1964-fender-jaguar-sunburst-800x533.jpg",
+            "chosen": "/images/sell-fender-redesign/1964-fender-jaguar-sunburst-800x533.jpg",
+            "slot": 356.671875,
+            "bytes": 118453,
+            "width": 356.671875,
+            "height": 267.5,
+            "sizes": ""
+          },
+          {
+            "src": "/images/sell-fender-redesign/1972-fender-mustang-competition-blue-800x533.jpg",
+            "chosen": "/images/sell-fender-redesign/1972-fender-mustang-competition-blue-800x533.jpg",
+            "slot": 356.65625,
+            "bytes": 130951,
+            "width": 356.65625,
+            "height": 267.484375,
+            "sizes": ""
+          },
+          {
+            "src": "/images/sell-fender-redesign/1972-fender-jazz-bass-sunburst-800x533.jpg",
+            "chosen": "/images/sell-fender-redesign/1972-fender-jazz-bass-sunburst-800x533.jpg",
+            "slot": 356.65625,
+            "bytes": 129495,
+            "width": 356.65625,
+            "height": 267.484375,
+            "sizes": ""
+          },
+          {
+            "src": "/images/faq-bg.webp",
+            "chosen": "/images/faq-bg.webp",
+            "slot": 1440,
+            "bytes": 115088,
+            "width": 1440,
+            "height": 856.8125,
+            "sizes": ""
+          },
+          {
+            "src": "/images/Logo-Footer-1-1-300x300.png",
+            "chosen": "/images/Logo-Footer-1-1-300x300.png",
+            "slot": 120,
+            "bytes": 10029,
+            "width": 120,
+            "height": 120,
+            "sizes": ""
+          }
+        ]
+      },
+      "after": {
+        "bytes": 517414,
+        "images": [
+          {
+            "src": "/_astro/logo-joe-2.lTrGXLF-_Z2hhb6J.webp",
+            "chosen": "/_astro/logo-joe-2.lTrGXLF-_28Y3Wl.webp",
+            "slot": 220,
+            "bytes": 8130,
+            "width": 220,
+            "height": 264,
+            "sizes": "(max-width: 768px) 110px, (max-width: 1100px) 160px, 220px"
+          },
+          {
+            "src": "/images/reverb-icon.svg",
+            "chosen": "/images/reverb-icon.svg",
+            "slot": 14,
+            "bytes": 3328,
+            "width": 14,
+            "height": 14,
+            "sizes": ""
+          },
+          {
+            "src": "/_astro/fender-hero.Bgh7Eb8Q_Z18CCR9.webp",
+            "chosen": "/_astro/fender-hero.Bgh7Eb8Q_Z8bI60.webp",
+            "slot": 720,
+            "bytes": 56300,
+            "width": 720,
+            "height": 1105.3125,
+            "sizes": "(max-width: 700px) 100vw, (max-width: 960px) 45vw, 50vw"
+          },
+          {
+            "src": "/_astro/1962-fender-jazzmaster-fedex-counter.BZbrvyhR_ZQLJgl.webp",
+            "chosen": "/_astro/1962-fender-jazzmaster-fedex-counter.BZbrvyhR_Z4nfB5.webp",
+            "slot": 380,
+            "bytes": 32754,
+            "width": 378,
+            "height": 472.5,
+            "sizes": "(max-width: 458px) calc(100vw - 28px), (max-width: 700px) 430px, 380px"
+          },
+          {
+            "src": "/_astro/joshua-with-1952-fender-telecaster.uki_tDfX_Z5SvMY.webp",
+            "chosen": "/_astro/joshua-with-1952-fender-telecaster.uki_tDfX_1HVUuL.webp",
+            "slot": 250.6875,
+            "bytes": 20940,
+            "width": 250.6875,
+            "height": 388,
+            "sizes": "(max-width: 700px) calc(100vw - 30px), (max-width: 960px) calc((100vw - 42px) * .46), (max-width: 1160px) calc((100vw - 70px) * .23), 250.7px"
+          },
+          {
+            "src": "/_astro/one-owner-1965-stratocaster.rTTfNWi7_qmXtD.webp",
+            "chosen": "/_astro/one-owner-1965-stratocaster.rTTfNWi7_Z2dafBf.webp",
+            "slot": 250.6875,
+            "bytes": 17558,
+            "width": 250.6875,
+            "height": 388,
+            "sizes": "(max-width: 700px) calc(100vw - 30px), (max-width: 960px) calc((100vw - 42px) * .46), (max-width: 1160px) calc((100vw - 70px) * .23), 250.7px"
+          },
+          {
+            "src": "/_astro/one-owner-1960-telecaster.UhinKaW3_Z1ICWlP.webp",
+            "chosen": "/_astro/one-owner-1960-telecaster.UhinKaW3_Z1CyGAt.webp",
+            "slot": 250.6875,
+            "bytes": 26592,
+            "width": 250.6875,
+            "height": 388,
+            "sizes": "(max-width: 700px) calc(100vw - 30px), (max-width: 960px) calc((100vw - 42px) * .46), (max-width: 1160px) calc((100vw - 70px) * .23), 250.7px"
+          },
+          {
+            "src": "/_astro/bill-one-owner-1966-jaguar.B0E_FIlS_ZN3V19.webp",
+            "chosen": "/_astro/bill-one-owner-1966-jaguar.B0E_FIlS_ZLGVa6.webp",
+            "slot": 250.6875,
+            "bytes": 30876,
+            "width": 250.6875,
+            "height": 388,
+            "sizes": "(max-width: 700px) calc(100vw - 30px), (max-width: 960px) calc((100vw - 42px) * .46), (max-width: 1160px) calc((100vw - 70px) * .23), 250.7px"
+          },
+          {
+            "src": "/_astro/jim-with-1972-fender-jazz-bass-scaled.9_8aNxlN_2r3TqK.webp",
+            "chosen": "/_astro/jim-with-1972-fender-jazz-bass-scaled.9_8aNxlN_ZmbrDA.webp",
+            "slot": 250.6875,
+            "bytes": 21696,
+            "width": 250.6875,
+            "height": 388,
+            "sizes": "(max-width: 700px) calc(100vw - 30px), (max-width: 960px) calc((100vw - 42px) * .46), (max-width: 1160px) calc((100vw - 70px) * .23), 250.7px"
+          },
+          {
+            "src": "/_astro/meet-joe-youtube.SKd36wkX_1FlvDV.webp",
+            "chosen": "/_astro/meet-joe-youtube.SKd36wkX_1FlvDV.webp",
+            "slot": 525,
+            "bytes": 24536,
+            "width": 525,
+            "height": 520,
+            "sizes": "(max-width: 700px) calc(100vw - 28px), (max-width: 960px) calc((100vw - 82px) / 2), (max-width: 1160px) calc((100vw - 110px) / 2), 525px"
+          },
+          {
+            "src": "/_astro/fender-stratocaster-dakota-red-768x1024.C2ld4GN-_ZTD4XP.webp",
+            "chosen": "/_astro/fender-stratocaster-dakota-red-768x1024.C2ld4GN-_1TT5FS.webp",
+            "slot": 376.1875,
+            "bytes": 74122,
+            "width": 376.1875,
+            "height": 501.578125,
+            "sizes": "(max-width: 700px) calc(100vw - 28px), (max-width: 960px) calc((100vw - 82px) * .36), (max-width: 1160px) calc((100vw - 115px) * .36), 376.2px"
+          },
+          {
+            "src": "/_astro/1956-fender-stratocaster-sunburst-800x533.mVj3ZAQt_ZfBWag.webp",
+            "chosen": "/_astro/1956-fender-stratocaster-sunburst-800x533.mVj3ZAQt_Z1Ddkbu.webp",
+            "slot": 356.6875,
+            "bytes": 20674,
+            "width": 356.65625,
+            "height": 267.484375,
+            "sizes": "(max-width: 700px) calc(100vw - 30px), (max-width: 960px) calc((100vw - 66px) / 2), (max-width: 1160px) calc((100vw - 90px) / 3), 356.7px"
+          },
+          {
+            "src": "/_astro/1960-fender-telecaster-blonde-800x533.CBMJ0I_L_Ur7Mm.webp",
+            "chosen": "/_astro/1960-fender-telecaster-blonde-800x533.CBMJ0I_L_1d6UfL.webp",
+            "slot": 356.6875,
+            "bytes": 16248,
+            "width": 356.671875,
+            "height": 267.5,
+            "sizes": "(max-width: 700px) calc(100vw - 30px), (max-width: 960px) calc((100vw - 66px) / 2), (max-width: 1160px) calc((100vw - 90px) / 3), 356.7px"
+          },
+          {
+            "src": "/_astro/1965-fender-jazzmaster-charcoal-frost-800x533.Dw85I3aH_Z1CDRqA.webp",
+            "chosen": "/_astro/1965-fender-jazzmaster-charcoal-frost-800x533.Dw85I3aH_ZhQ1ls.webp",
+            "slot": 356.6875,
+            "bytes": 19834,
+            "width": 356.65625,
+            "height": 267.484375,
+            "sizes": "(max-width: 700px) calc(100vw - 30px), (max-width: 960px) calc((100vw - 66px) / 2), (max-width: 1160px) calc((100vw - 90px) / 3), 356.7px"
+          },
+          {
+            "src": "/_astro/1952-fender-precision-bass-800x533.B9ys3MSL_Z1xuED7.webp",
+            "chosen": "/_astro/1952-fender-precision-bass-800x533.B9ys3MSL_Z1FyeDX.webp",
+            "slot": 356.6875,
+            "bytes": 13208,
+            "width": 356.65625,
+            "height": 267.484375,
+            "sizes": "(max-width: 700px) calc(100vw - 30px), (max-width: 960px) calc((100vw - 66px) / 2), (max-width: 1160px) calc((100vw - 90px) / 3), 356.7px"
+          },
+          {
+            "src": "/_astro/1964-fender-jaguar-sunburst-800x533.0GsYHbQ0_106Xp3.webp",
+            "chosen": "/_astro/1964-fender-jaguar-sunburst-800x533.0GsYHbQ0_WnUnQ.webp",
+            "slot": 356.6875,
+            "bytes": 18360,
+            "width": 356.671875,
+            "height": 267.5,
+            "sizes": "(max-width: 700px) calc(100vw - 30px), (max-width: 960px) calc((100vw - 66px) / 2), (max-width: 1160px) calc((100vw - 90px) / 3), 356.7px"
+          },
+          {
+            "src": "/_astro/1972-fender-mustang-competition-blue-800x533.DeXStnA-_Z2fNGpX.webp",
+            "chosen": "/_astro/1972-fender-mustang-competition-blue-800x533.DeXStnA-_gWjoJ.webp",
+            "slot": 356.6875,
+            "bytes": 21554,
+            "width": 356.65625,
+            "height": 267.484375,
+            "sizes": "(max-width: 700px) calc(100vw - 30px), (max-width: 960px) calc((100vw - 66px) / 2), (max-width: 1160px) calc((100vw - 90px) / 3), 356.7px"
+          },
+          {
+            "src": "/_astro/1972-fender-jazz-bass-sunburst-800x533.DlX_IW15_ZArD7q.webp",
+            "chosen": "/_astro/1972-fender-jazz-bass-sunburst-800x533.DlX_IW15_2fXr5D.webp",
+            "slot": 356.6875,
+            "bytes": 21242,
+            "width": 356.65625,
+            "height": 267.484375,
+            "sizes": "(max-width: 700px) calc(100vw - 30px), (max-width: 960px) calc((100vw - 66px) / 2), (max-width: 1160px) calc((100vw - 90px) / 3), 356.7px"
+          },
+          {
+            "src": "/_astro/faq-bg.DMSSsPid_Wsl7S.webp",
+            "chosen": "/_astro/faq-bg.DMSSsPid_q6EQr.webp",
+            "slot": 1440,
+            "bytes": 62928,
+            "width": 1440,
+            "height": 856.8125,
+            "sizes": "100vw"
+          },
+          {
+            "src": "/_astro/Logo-Footer-1-1-300x300.BujTPpJc_Z1Sc90V.webp",
+            "chosen": "/_astro/Logo-Footer-1-1-300x300.BujTPpJc_1WjGrE.webp",
+            "slot": 120,
+            "bytes": 6534,
+            "width": 120,
+            "height": 120,
+            "sizes": "120px"
+          }
+        ]
+      }
+    },
+    "/post/gibson-es-335-345-355-guide/": {
+      "before": {
+        "bytes": 3159536,
+        "images": [
+          {
+            "src": "/_astro/logo-joe-2.lTrGXLF-_Z2hhb6J.webp",
+            "chosen": "/_astro/logo-joe-2.lTrGXLF-_28Y3Wl.webp",
+            "slot": 220,
+            "bytes": 8130,
+            "width": 220,
+            "height": 264,
+            "sizes": "(max-width: 768px) 110px, (max-width: 1100px) 160px, 220px"
+          },
+          {
+            "src": "/images/reverb-icon.svg",
+            "chosen": "/images/reverb-icon.svg",
+            "slot": 14,
+            "bytes": 3328,
+            "width": 14,
+            "height": 14,
+            "sizes": ""
+          },
+          {
+            "src": "/images/es-comparison/1965-es-335-full.webp",
+            "chosen": "/images/es-comparison/1965-es-335-full.webp",
+            "slot": 379.328125,
+            "bytes": 131952,
+            "width": 379.328125,
+            "height": 568.984375,
+            "sizes": ""
+          },
+          {
+            "src": "/images/es-comparison/1963-es-345-full.webp",
+            "chosen": "/images/es-comparison/1963-es-345-full.webp",
+            "slot": 379.328125,
+            "bytes": 216762,
+            "width": 379.328125,
+            "height": 568.984375,
+            "sizes": ""
+          },
+          {
+            "src": "/images/es-comparison/1959-es-355-full.webp",
+            "chosen": "/images/es-comparison/1959-es-355-full.webp",
+            "slot": 379.34375,
+            "bytes": 219338,
+            "width": 379.34375,
+            "height": 569.015625,
+            "sizes": ""
+          },
+          {
+            "src": "/images/es-comparison/1959-es-335-dot-inlays.webp",
+            "chosen": "/images/es-comparison/1959-es-335-dot-inlays.webp",
+            "slot": 379.328125,
+            "bytes": 57268,
+            "width": 379.328125,
+            "height": 284.484375,
+            "sizes": ""
+          },
+          {
+            "src": "/images/es-comparison/1963-es-345-split-parallelogram-inlays.webp",
+            "chosen": "/images/es-comparison/1963-es-345-split-parallelogram-inlays.webp",
+            "slot": 379.328125,
+            "bytes": 111738,
+            "width": 379.328125,
+            "height": 284.484375,
+            "sizes": ""
+          },
+          {
+            "src": "/images/es-comparison/1959-es-355-block-inlays.webp",
+            "chosen": "/images/es-comparison/1959-es-355-block-inlays.webp",
+            "slot": 379.34375,
+            "bytes": 205398,
+            "width": 379.34375,
+            "height": 284.5,
+            "sizes": ""
+          },
+          {
+            "src": "/images/es-comparison/1962-es-335-bridge-tailpiece.webp",
+            "chosen": "/images/es-comparison/1962-es-335-bridge-tailpiece.webp",
+            "slot": 379.328125,
+            "bytes": 39546,
+            "width": 379.328125,
+            "height": 284.484375,
+            "sizes": ""
+          },
+          {
+            "src": "/images/es-comparison/1963-es-345-varitone-controls.webp",
+            "chosen": "/images/es-comparison/1963-es-345-varitone-controls.webp",
+            "slot": 379.328125,
+            "bytes": 264024,
+            "width": 379.328125,
+            "height": 284.484375,
+            "sizes": ""
+          },
+          {
+            "src": "/images/es-comparison/1959-es-355-bigsby-controls.webp",
+            "chosen": "/images/es-comparison/1959-es-355-bigsby-controls.webp",
+            "slot": 379.34375,
+            "bytes": 203720,
+            "width": 379.34375,
+            "height": 284.5,
+            "sizes": ""
+          },
+          {
+            "src": "/images/es-comparison/1966-es-335-horn.webp",
+            "chosen": "/images/es-comparison/1966-es-335-horn.webp",
+            "slot": 379.328125,
+            "bytes": 198922,
+            "width": 379.328125,
+            "height": 284.484375,
+            "sizes": ""
+          },
+          {
+            "src": "/images/es-comparison/1966-es-345-headstock.webp",
+            "chosen": "/images/es-comparison/1966-es-345-headstock.webp",
+            "slot": 379.328125,
+            "bytes": 102242,
+            "width": 379.328125,
+            "height": 284.484375,
+            "sizes": ""
+          },
+          {
+            "src": "/images/es-comparison/1959-es-355-headstock.webp",
+            "chosen": "/images/es-comparison/1959-es-355-headstock.webp",
+            "slot": 379.34375,
+            "bytes": 169716,
+            "width": 379.34375,
+            "height": 284.5,
+            "sizes": ""
+          },
+          {
+            "src": "/images/es-comparison/1959-es-335-finish.webp",
+            "chosen": "/images/es-comparison/1959-es-335-finish.webp",
+            "slot": 379.328125,
+            "bytes": 74632,
+            "width": 379.328125,
+            "height": 284.484375,
+            "sizes": ""
+          },
+          {
+            "src": "/images/es-comparison/1962-es-335-full.webp",
+            "chosen": "/images/es-comparison/1962-es-335-full.webp",
+            "slot": 379.328125,
+            "bytes": 122564,
+            "width": 379.328125,
+            "height": 284.484375,
+            "sizes": ""
+          },
+          {
+            "src": "/images/es-comparison/1965-es-335-full.webp",
+            "chosen": "/images/es-comparison/1965-es-335-full.webp",
+            "slot": 379.34375,
+            "bytes": 131952,
+            "width": 379.34375,
+            "height": 284.5,
+            "sizes": ""
+          },
+          {
+            "src": "/images/es-comparison/1968-es-335-full.webp",
+            "chosen": "/images/es-comparison/1968-es-335-full.webp",
+            "slot": 379.328125,
+            "bytes": 51554,
+            "width": 379.328125,
+            "height": 284.484375,
+            "sizes": ""
+          },
+          {
+            "src": "/images/es-comparison/1966-es-345-full.webp",
+            "chosen": "/images/es-comparison/1966-es-345-full.webp",
+            "slot": 379.328125,
+            "bytes": 290396,
+            "width": 379.328125,
+            "height": 284.484375,
+            "sizes": ""
+          },
+          {
+            "src": "/images/es-comparison/1966-es-345-bigsby-varitone.webp",
+            "chosen": "/images/es-comparison/1966-es-345-bigsby-varitone.webp",
+            "slot": 379.34375,
+            "bytes": 162316,
+            "width": 379.34375,
+            "height": 284.5,
+            "sizes": ""
+          },
+          {
+            "src": "/images/es-comparison/1959-es-355-binding.webp",
+            "chosen": "/images/es-comparison/1959-es-355-binding.webp",
+            "slot": 379.328125,
+            "bytes": 72986,
+            "width": 379.328125,
+            "height": 284.484375,
+            "sizes": ""
+          },
+          {
+            "src": "/images/es-comparison/1959-es-355-paf-pickups.webp",
+            "chosen": "/images/es-comparison/1959-es-355-paf-pickups.webp",
+            "slot": 379.328125,
+            "bytes": 195718,
+            "width": 379.328125,
+            "height": 284.484375,
+            "sizes": ""
+          },
+          {
+            "src": "/images/es-comparison/1959-es-355-back.webp",
+            "chosen": "/images/es-comparison/1959-es-355-back.webp",
+            "slot": 379.34375,
+            "bytes": 251944,
+            "width": 379.34375,
+            "height": 284.5,
+            "sizes": ""
+          },
+          {
+            "src": "/_astro/Logo-Footer-1-1-300x300.BujTPpJc_Z1Sc90V.webp",
+            "chosen": "/_astro/Logo-Footer-1-1-300x300.BujTPpJc_119vDG.webp",
+            "slot": 200,
+            "bytes": 5342,
+            "width": 235,
+            "height": 235,
+            "sizes": "200px"
+          }
+        ]
+      },
+      "after": {
+        "bytes": 427088,
+        "images": [
+          {
+            "src": "/_astro/logo-joe-2.lTrGXLF-_Z2hhb6J.webp",
+            "chosen": "/_astro/logo-joe-2.lTrGXLF-_28Y3Wl.webp",
+            "slot": 220,
+            "bytes": 8130,
+            "width": 220,
+            "height": 264,
+            "sizes": "(max-width: 768px) 110px, (max-width: 1100px) 160px, 220px"
+          },
+          {
+            "src": "/images/reverb-icon.svg",
+            "chosen": "/images/reverb-icon.svg",
+            "slot": 14,
+            "bytes": 3328,
+            "width": 14,
+            "height": 14,
+            "sizes": ""
+          },
+          {
+            "src": "/_astro/1965-es-335-full.B8gp-3F__Z1rQvgU.webp",
+            "chosen": "/_astro/1965-es-335-full.B8gp-3F__2w3dmO.webp",
+            "slot": 379.296875,
+            "bytes": 30704,
+            "width": 379.328125,
+            "height": 568.984375,
+            "sizes": "(max-width: 620px) calc((100vw - 50px) / 3), (max-width: 1220px) calc((100vw - 82px) / 3), 379.3px"
+          },
+          {
+            "src": "/_astro/1963-es-345-full.BxqeHTiN_Z1NHRtS.webp",
+            "chosen": "/_astro/1963-es-345-full.BxqeHTiN_1qixgp.webp",
+            "slot": 379.296875,
+            "bytes": 39134,
+            "width": 379.328125,
+            "height": 568.984375,
+            "sizes": "(max-width: 620px) calc((100vw - 50px) / 3), (max-width: 1220px) calc((100vw - 82px) / 3), 379.3px"
+          },
+          {
+            "src": "/_astro/1959-es-355-full.BX-P1xxt_ZL8mEP.webp",
+            "chosen": "/_astro/1959-es-355-full.BX-P1xxt_2hnBDQ.webp",
+            "slot": 379.296875,
+            "bytes": 38850,
+            "width": 379.34375,
+            "height": 569.015625,
+            "sizes": "(max-width: 620px) calc((100vw - 50px) / 3), (max-width: 1220px) calc((100vw - 82px) / 3), 379.3px"
+          },
+          {
+            "src": "/_astro/1959-es-335-dot-inlays.CVnEJtj9_2ldVtg.webp",
+            "chosen": "/_astro/1959-es-335-dot-inlays.CVnEJtj9_Z2c8pp5.webp",
+            "slot": 379.296875,
+            "bytes": 14936,
+            "width": 379.328125,
+            "height": 284.484375,
+            "sizes": "(max-width: 620px) calc(100vw - 30px), (max-width: 860px) calc((100vw - 62px) / 2), (max-width: 1220px) calc((100vw - 82px) / 3), 379.3px"
+          },
+          {
+            "src": "/_astro/1963-es-345-split-parallelogram-inlays.DypXIBVw_adwdX.webp",
+            "chosen": "/_astro/1963-es-345-split-parallelogram-inlays.DypXIBVw_cLA30.webp",
+            "slot": 379.296875,
+            "bytes": 11294,
+            "width": 379.328125,
+            "height": 284.484375,
+            "sizes": "(max-width: 620px) calc(100vw - 30px), (max-width: 860px) calc((100vw - 62px) / 2), (max-width: 1220px) calc((100vw - 82px) / 3), 379.3px"
+          },
+          {
+            "src": "/_astro/1959-es-355-block-inlays.OSqZVWUi_1XteNL.webp",
+            "chosen": "/_astro/1959-es-355-block-inlays.OSqZVWUi_1TdnoO.webp",
+            "slot": 379.296875,
+            "bytes": 13270,
+            "width": 379.34375,
+            "height": 284.5,
+            "sizes": "(max-width: 620px) calc(100vw - 30px), (max-width: 860px) calc((100vw - 62px) / 2), (max-width: 1220px) calc((100vw - 82px) / 3), 379.3px"
+          },
+          {
+            "src": "/_astro/1962-es-335-bridge-tailpiece.GyvoPXQM_Z1XtY1O.webp",
+            "chosen": "/_astro/1962-es-335-bridge-tailpiece.GyvoPXQM_Z1g94Kn.webp",
+            "slot": 379.296875,
+            "bytes": 8834,
+            "width": 379.328125,
+            "height": 284.484375,
+            "sizes": "(max-width: 620px) calc(100vw - 30px), (max-width: 860px) calc((100vw - 62px) / 2), (max-width: 1220px) calc((100vw - 82px) / 3), 379.3px"
+          },
+          {
+            "src": "/_astro/1963-es-345-varitone-controls.DtIYs86C_Z1iWTPT.webp",
+            "chosen": "/_astro/1963-es-345-varitone-controls.DtIYs86C_1pXOXL.webp",
+            "slot": 379.296875,
+            "bytes": 20942,
+            "width": 379.328125,
+            "height": 284.484375,
+            "sizes": "(max-width: 620px) calc(100vw - 30px), (max-width: 860px) calc((100vw - 62px) / 2), (max-width: 1220px) calc((100vw - 82px) / 3), 379.3px"
+          },
+          {
+            "src": "/_astro/1959-es-355-bigsby-controls.BXRixkOf_ZrWPyV.webp",
+            "chosen": "/_astro/1959-es-355-bigsby-controls.BXRixkOf_ZFDDSJ.webp",
+            "slot": 379.296875,
+            "bytes": 16680,
+            "width": 379.34375,
+            "height": 284.5,
+            "sizes": "(max-width: 620px) calc(100vw - 30px), (max-width: 860px) calc((100vw - 62px) / 2), (max-width: 1220px) calc((100vw - 82px) / 3), 379.3px"
+          },
+          {
+            "src": "/_astro/1966-es-335-horn.B5XGrgiR_2blmge.webp",
+            "chosen": "/_astro/1966-es-335-horn.B5XGrgiR_1JjHOJ.webp",
+            "slot": 379.296875,
+            "bytes": 8484,
+            "width": 379.328125,
+            "height": 284.484375,
+            "sizes": "(max-width: 620px) calc(100vw - 30px), (max-width: 860px) calc((100vw - 62px) / 2), (max-width: 1220px) calc((100vw - 82px) / 3), 379.3px"
+          },
+          {
+            "src": "/_astro/1966-es-345-headstock.Umu-Kzmc_dU0fF.webp",
+            "chosen": "/_astro/1966-es-345-headstock.Umu-Kzmc_107KwM.webp",
+            "slot": 379.296875,
+            "bytes": 12004,
+            "width": 379.328125,
+            "height": 284.484375,
+            "sizes": "(max-width: 620px) calc(100vw - 30px), (max-width: 860px) calc((100vw - 62px) / 2), (max-width: 1220px) calc((100vw - 82px) / 3), 379.3px"
+          },
+          {
+            "src": "/_astro/1959-es-355-headstock.CNezmhoc_Z14pTJk.webp",
+            "chosen": "/_astro/1959-es-355-headstock.CNezmhoc_ZOgVSy.webp",
+            "slot": 379.296875,
+            "bytes": 30514,
+            "width": 379.34375,
+            "height": 284.5,
+            "sizes": "(max-width: 620px) calc(100vw - 30px), (max-width: 860px) calc((100vw - 62px) / 2), (max-width: 1220px) calc((100vw - 82px) / 3), 379.3px"
+          },
+          {
+            "src": "/_astro/1959-es-335-finish.D44LQZ1c_Z2slU0G.webp",
+            "chosen": "/_astro/1959-es-335-finish.D44LQZ1c_HtzIL.webp",
+            "slot": 379.296875,
+            "bytes": 17654,
+            "width": 379.328125,
+            "height": 284.484375,
+            "sizes": "(max-width: 620px) calc(100vw - 30px), (max-width: 860px) calc((100vw - 62px) / 2), (max-width: 1220px) calc((100vw - 82px) / 3), 379.3px"
+          },
+          {
+            "src": "/_astro/1962-es-335-full.BS23TIuJ_NnzHm.webp",
+            "chosen": "/_astro/1962-es-335-full.BS23TIuJ_Z20LFgC.webp",
+            "slot": 379.296875,
+            "bytes": 19884,
+            "width": 379.328125,
+            "height": 284.484375,
+            "sizes": "(max-width: 620px) calc(100vw - 30px), (max-width: 860px) calc((100vw - 62px) / 2), (max-width: 1220px) calc((100vw - 82px) / 3), 379.3px"
+          },
+          {
+            "src": "/_astro/1965-es-335-full.B8gp-3F__Z1rQvgU.webp",
+            "chosen": "/_astro/1965-es-335-full.B8gp-3F__2w3dmO.webp",
+            "slot": 379.296875,
+            "bytes": 30704,
+            "width": 379.34375,
+            "height": 284.5,
+            "sizes": "(max-width: 620px) calc(100vw - 30px), (max-width: 860px) calc((100vw - 62px) / 2), (max-width: 1220px) calc((100vw - 82px) / 3), 379.3px"
+          },
+          {
+            "src": "/_astro/1968-es-335-full.SY-UPbai_1vwDJS.webp",
+            "chosen": "/_astro/1968-es-335-full.SY-UPbai_iGHvA.webp",
+            "slot": 379.296875,
+            "bytes": 10912,
+            "width": 379.328125,
+            "height": 284.484375,
+            "sizes": "(max-width: 620px) calc(100vw - 30px), (max-width: 860px) calc((100vw - 62px) / 2), (max-width: 1220px) calc((100vw - 82px) / 3), 379.3px"
+          },
+          {
+            "src": "/_astro/1966-es-345-full.aFJ999DD_Z1885wL.webp",
+            "chosen": "/_astro/1966-es-345-full.aFJ999DD_T5xRH.webp",
+            "slot": 379.296875,
+            "bytes": 38468,
+            "width": 379.328125,
+            "height": 284.484375,
+            "sizes": "(max-width: 620px) calc(100vw - 30px), (max-width: 860px) calc((100vw - 62px) / 2), (max-width: 1220px) calc((100vw - 82px) / 3), 379.3px"
+          },
+          {
+            "src": "/_astro/1966-es-345-bigsby-varitone.Ciw1AqYZ_d4xcS.webp",
+            "chosen": "/_astro/1966-es-345-bigsby-varitone.Ciw1AqYZ_tHPoY.webp",
+            "slot": 379.296875,
+            "bytes": 19992,
+            "width": 379.34375,
+            "height": 284.5,
+            "sizes": "(max-width: 620px) calc(100vw - 30px), (max-width: 860px) calc((100vw - 62px) / 2), (max-width: 1220px) calc((100vw - 82px) / 3), 379.3px"
+          },
+          {
+            "src": "/_astro/1959-es-355-binding.JpXGLnqK_1namYb.webp",
+            "chosen": "/_astro/1959-es-355-binding.JpXGLnqK_ZnLnQL.webp",
+            "slot": 379.296875,
+            "bytes": 8890,
+            "width": 379.328125,
+            "height": 284.484375,
+            "sizes": "(max-width: 620px) calc(100vw - 30px), (max-width: 860px) calc((100vw - 62px) / 2), (max-width: 1220px) calc((100vw - 82px) / 3), 379.3px"
+          },
+          {
+            "src": "/_astro/1959-es-355-paf-pickups.DTpE8u5X_ZMSrdp.webp",
+            "chosen": "/_astro/1959-es-355-paf-pickups.DTpE8u5X_1T5nic.webp",
+            "slot": 379.296875,
+            "bytes": 12484,
+            "width": 379.328125,
+            "height": 284.484375,
+            "sizes": "(max-width: 620px) calc(100vw - 30px), (max-width: 860px) calc((100vw - 62px) / 2), (max-width: 1220px) calc((100vw - 82px) / 3), 379.3px"
+          },
+          {
+            "src": "/_astro/1959-es-355-back.R6tETcPL_Z2dCjuA.webp",
+            "chosen": "/_astro/1959-es-355-back.R6tETcPL_Z1g8noe.webp",
+            "slot": 379.296875,
+            "bytes": 36358,
+            "width": 379.34375,
+            "height": 284.5,
+            "sizes": "(max-width: 620px) calc(100vw - 30px), (max-width: 860px) calc((100vw - 62px) / 2), (max-width: 1220px) calc((100vw - 82px) / 3), 379.3px"
+          },
+          {
+            "src": "/_astro/Logo-Footer-1-1-300x300.BujTPpJc_Z1Sc90V.webp",
+            "chosen": "/_astro/Logo-Footer-1-1-300x300.BujTPpJc_119vDG.webp",
+            "slot": 200,
+            "bytes": 5342,
+            "width": 235,
+            "height": 235,
+            "sizes": "200px"
+          }
+        ]
+      }
+    }
+  },
+  "licensing": {
+    "affectedContentPhotoNodesBefore": 19,
+    "affectedContentPhotoNodesAfter": 19,
+    "affectedMismatchesAfter": 0,
+    "byPage": {
+      "/sell-my-fender-guitar/": 15,
+      "/post/gibson-es-335-345-355-guide/": 1,
+      "/consignment/": 3
+    },
+    "note": "Counts include the ES article ImageObject that previously used url without contentUrl. Global brand ImageObjects are included only in licensedImageObjects."
+  },
+  "checks": {
+    "build": {
+      "command": "npm.cmd run build",
+      "exit": 0,
+      "requestedNpxCommand": "Blocked: registry.npmjs.org access returns EACCES; installed toolchain runs the same package build script."
+    },
+    "copy": {
+      "command": "npm.cmd run audit:copy",
+      "exit": 0,
+      "hardFails": 0,
+      "reportOnlyWarnings": 803
+    },
+    "localImageReferences": {
+      "checked": 15880,
+      "broken": 0
+    },
+    "imageGeometry": {
+      "viewports": [
+        1440,
+        768,
+        390
+      ],
+      "differences": 0,
+      "properties": [
+        "width",
+        "height",
+        "x",
+        "y",
+        "object-fit",
+        "object-position",
+        "alt",
+        "loading",
+        "fetchpriority"
+      ],
+      "note": "Absent loading and explicit eager treated equivalently."
+    },
+    "bodyTextChanges": 0,
+    "shareTagChangesAfterStableShareNormalization": 0,
+    "perPageLicenseCountChanges": 0,
+    "byteIdenticalPipelineSourcesVerified": 38,
+    "publicChanges": 0,
+    "astroCheck": {
+      "errors": 0,
+      "warnings": 0,
+      "hints": 93
+    },
+    "sharedCardSlots": {
+      "checks": 30,
+      "viewports": [
+        1440,
+        768,
+        390
+      ],
+      "maximumDifferencePixels": 1
+    }
+  },
+  "remainingOutsideRequestedScope": {
+    "portrait": {
+      "src": "/images/about-me-joe-1.jpg",
+      "renderedUses": 3
+    },
+    "rickenbacker": {
+      "directory": "/images/rickenbacker-selling/",
+      "renderedUses": 7,
+      "hasSrcset": true
+    },
+    "additionalPreexistingSocialImageCards": {
+      "src": "/images/blog/martin-d18-history-specs-authentication-value-guide/martin-d18-social.jpg",
+      "routes": [
+        "/blog/page/18/",
+        "/category/specific-model-highlights/page/9/"
+      ],
+      "note": "Not named in the requested migration; retained with the out-of-scope social image."
+    }
+  },
+  "commits": {
+    "created": 0,
+    "requested": 2,
+    "blockedBy": "Linked worktree Git index is outside the writable workspace: C:/Users/joshj/projects/joes-vintage-guitars/.git/worktrees/jvg-wt-og/index.lock. git add returns Permission denied.",
+    "messages": [
+      "Route Fender and ES comparison photos through Astro\n\nCo-Authored-By: Codex <noreply@openai.com>",
+      "Require Astro image processing across the site\n\nCo-Authored-By: Codex <noreply@openai.com>"
+    ]
+  }
+}

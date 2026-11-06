@@ -3,7 +3,7 @@ import Layout from "../layouts/Layout.astro";
 import ContactSection from "../components/ContactSection.astro";
 import LicensedImage from "../components/primitives/LicensedImage.astro";
 import { contact, hrefs, SITE_URL } from "../config/site";
-import { buildImageGraph } from "../lib/imageLicense";
+import heroPhoto from "../assets/images/sell-fender-redesign/fender-hero.webp";
 import { consignmentTiers } from "../data/consignment";
 import shippingPhoto from "../assets/images/sell-martin/martin-guitars-at-fedex.webp";
 import joePhoto from "../assets/images/guild-sn/joe-dampt.jpg";
@@ -27,7 +27,6 @@ const steps = [
   { n: "03", title: "Ship With Zero Risk", copy: "Use Joe’s Zero Risk Shipping Process for fully insured delivery from anywhere in the US, or arrange a visit in Mesa." },
   { n: "04", title: "I Sell It. You Get Paid.", copy: "I handle the photos, listing, buyer questions and sale. When your guitar sells, you’re paid according to our agreed terms." },
 ];
-const imageNodes = await buildImageGraph([{ renderedSrc: heroImage, alt: heroAlt }]);
 const structuredData = [
   { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [
     { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL + "/" },
@@ -36,7 +35,6 @@ const structuredData = [
   { "@context": "https://schema.org", "@type": "Service", "@id": SITE_URL + "/consignment/#service", name: "Nationwide Vintage Guitar Consignment", serviceType: "Vintage guitar consignment", provider: { "@id": SITE_URL + "/" }, areaServed: { "@type": "Country", name: "United States" }, description: "Nationwide vintage guitar consignment with fees from 10% to 18.5% and fully insured shipping through Joe’s Zero Risk Shipping Process." },
   { "@context": "https://schema.org", "@type": "FAQPage", mainEntity: faqs.map(({q,a}) => ({ "@type": "Question", name: q, acceptedAnswer: { "@type": "Answer", text: a } })) },
   { "@context": "https://schema.org", "@type": "WebApplication", name: "Guitar Consignment Commission Calculator", url: SITE_URL + "/consignment/#calculator", applicationCategory: "FinanceApplication", operatingSystem: "Any", browserRequirements: "Requires JavaScript", description: "Estimate commission and proceeds for a proposed guitar sale price using Joe’s consignment fee tiers." },
-  ...imageNodes,
 ];
 ---
 
@@ -58,7 +56,7 @@ const structuredData = [
           <div class="con-actions"><a class="con-btn con-btn--cream" href="#contact">Get My Free Consignment Quote <span aria-hidden="true">→</span></a><a class="con-text-link" href="#rates">See the Fees</a></div>
         </div>
         <figure class="con-hero-photo">
-          <img src={heroImage} alt={heroAlt} width="2000" height="1333" fetchpriority="high" loading="eager" />
+          <LicensedImage src={heroPhoto} alt={heroAlt} width={1200} sizes="(max-width: 440px) calc(100vw - 40px), (max-width: 760px) calc(100vw - 48px), (max-width: 1100px) calc((100vw - 78px) / 2.06), (max-width: 1264px) calc((100vw - 116px) / 2.06), 557.3px" fetchpriority="high" loading="eager" />
           <figcaption>From My Archive <span>1956 Fender Stratocaster</span></figcaption>
         </figure>
       </div>
@@ -180,7 +178,7 @@ const structuredData = [
   .con-btn:hover { filter:brightness(.94); }
   .con-text-link { color:#eedfc0; font-size:14px; text-decoration:underline; text-underline-offset:5px; padding-block:12px; }
   .con-hero-photo { align-self:stretch; min-width:0; display:flex; flex-direction:column; padding-top:10px; }
-  .con-hero-photo img { width:100%; height:100%; max-height:520px; min-height:400px; object-fit:cover; object-position:57% center; }
+  .con-hero-photo :global(img) { width:100%; height:100%; max-height:520px; min-height:400px; object-fit:cover; object-position:57% center; }
   .con-hero-photo figcaption { display:flex; justify-content:space-between; gap:12px; padding-top:15px; font-size:11px; color:#d2b48c; letter-spacing:.06em; text-transform:uppercase; }
   .con-hero-photo figcaption span { text-transform:none; letter-spacing:0; font-size:13px; color:#eedfc0; }
   .con-jump { background:#eedfc0; border-bottom:1px solid #d9cbb2; }
@@ -268,7 +266,7 @@ const structuredData = [
   @media (max-width:1100px) {
     .con-wrap { width:calc(100% - 48px); }
     .con-hero-grid { gap:30px; }
-    .con-hero-photo img { min-height:450px; }
+    .con-hero-photo :global(img) { min-height:450px; }
     .con-rate { padding:26px 18px; }
     .con-rate-range { font-size:12px; }
     .con-calculator { grid-template-columns:1fr 1fr; }
@@ -283,7 +281,7 @@ const structuredData = [
     .con-hero-grid { grid-template-columns:1fr; gap:34px; }
     .con-hero h1 { max-width:600px; font-size:clamp(42px,7.5vw,58px); }
     .con-hero-photo { padding:0; }
-    .con-hero-photo img { min-height:0; max-height:none; height:auto; aspect-ratio:3/2; object-fit:contain; }
+    .con-hero-photo :global(img) { min-height:0; max-height:none; height:auto; aspect-ratio:3/2; object-fit:contain; }
     .con-hero-photo figcaption { font-size:10px; }
     .con-jump .con-wrap { display:grid; grid-template-columns:1fr 1fr; gap:0 18px; }
     .con-jump a { padding:14px 0; border-bottom:1px solid #d9cbb2; font-size:12px; }
