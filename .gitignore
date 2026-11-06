@@ -79,3 +79,13 @@ Thumbs.db
 
 # LibreOffice lock files
 .~lock.*#
+
+# QA screenshots from page audits stay on the machine that took them, never
+# in the repo (745 of them, 242 MB, were removed on 2026-11-06). The .md and
+# .json records in reports/ stay tracked.
+reports/**/*.png
+reports/**/*.jpg
+reports/**/*.jpeg
+reports/**/*.webp
+reports/**/*.gif
+reports/**/*.log
