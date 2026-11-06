@@ -67,7 +67,7 @@ The chart uses approximate thickness groups. Brands define “thin,” “medium
 
 </div>
 
-D’Addario’s [pick selection guide](https://www.daddario.com/en-gb/blogs/guitar/how-to-choose-a-guitar-pick) explains how thickness works alongside material and shape. Keep those other features similar for your first comparison.
+D’Addario’s [pick selection guide](https://www.daddario.com/blogs/guitar/how-to-choose-a-guitar-pick) explains how thickness works alongside material and shape. Keep those other features similar for your first comparison.
 
 A flexible pick bends as it crosses the strings. With a rigid one, your hand has more control over how much resistance the string meets. Play both a loose chord pattern and a slow melody; the pick that makes strumming easy may feel awkward on the melody.
 
@@ -101,7 +101,7 @@ Acrylic is worth a try if you like a substantial pick between your fingers. [Gra
 
 ### Casein
 
-Check the bevel and storage instructions before buying casein. D’Addario’s [Casein 351](https://www.daddario.com/en-gb/collections/guitar-picks/products/casein-351-standard-pick) is 2.0 mm thick with a right-handed bevel, and the company describes it as an alternative to the feel of historical tortoiseshell picks. D’Addario also gives care instructions because casein is sensitive to environmental conditions. For a left-handed player, the bevel orientation needs as much attention as the material.
+Check the bevel and storage instructions before buying casein. D’Addario’s [Casein 351](https://www.daddario.com/collections/guitar-picks/products/casein-351-standard-pick) is 2.0 mm thick with a right-handed bevel, and the company describes it as an alternative to the feel of historical tortoiseshell picks. D’Addario also gives care instructions because casein is sensitive to environmental conditions. For a left-handed player, the bevel orientation needs as much attention as the material.
 
 ### Rombo Materials
 

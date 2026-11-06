@@ -13,7 +13,7 @@ metaDescription: "Identify a vintage Gibson ES-125 by its construction, original
 ogImage: "/images/blog/gibson-es-125-guide/1954-gibson-es-125-sunburst-scaled.jpg"
 wpId: 20765
 ---
-The **Gibson ES-125** was on the bandstand for almost thirty years, and for most of that time nobody was looking at it. The flashier names in the Gibson catalog were the ES-175, the [ES-335](/post/complete-dot-neck-es-330-guide-1959-1962/), and the L-5. The ES-125 just kept showing up: jazz combos, Chicago blues clubs, country sidemen, rockabilly players who needed something that could survive a tour. It cost less than its stablemates, it carried the same P-90 pickups that made the rest of Gibson's 50s lineup what it was, and right now it's one of the harder vintage hollows to find at a fair price.
+The **Gibson ES-125** was on the bandstand for almost thirty years, and for most of that time nobody was looking at it. The flashier names in the Gibson catalog were the ES-175, the [ES-335](/post/gibson-es-335-345-355-guide/), and the L-5. The ES-125 just kept showing up: jazz combos, Chicago blues clubs, country sidemen, rockabilly players who needed something that could survive a tour. It cost less than its stablemates, it carried the same P-90 pickups that made the rest of Gibson's 50s lineup what it was, and right now it's one of the harder vintage hollows to find at a fair price.
 
 For annual market ranges and condition assumptions, use my [vintage Gibson ES-125 value guide](/vintage-gibson-es-125-value-guide/). This page keeps the model identification and originality details together.
 

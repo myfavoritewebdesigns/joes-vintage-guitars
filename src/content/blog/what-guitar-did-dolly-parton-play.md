@@ -50,7 +50,7 @@ This 5-18 is the guitar in the photos: Size 5 terz, Style 18 spruce and mahogany
 
 Uncle Lewis gave Dolly Parton a small Martin when he saw she was serious. "It was my treasure," she told Reverb in 2017. That interview never names a catalog number.
 
-[Guitar World](https://www.guitarworld.com/lessons/dolly-parton-guitar-style) and [Guitar Player](https://www.guitarplayer.com/guitarists/dolly-parton-on-the-little-martin-that-launched-her-music-career-and-the-country-star-behind-her-big-break) both say she performed with a Martin 5-18 Terz. In July 2026, [Martin listed Dolly Parton](https://www.martinguitar.com/blog-categories/from-the-factory/blog-071626-four-new-martin-guitars-arrive-5-28-terz-OM-35-Inception-custom-shop-0-18-0-28.html) among the players who have used Size 5 Martins, the same family as this 5-18.
+[Guitar World](https://www.guitarworld.com/lessons/dolly-parton-thumb-and-flick-playing-style) and [Guitar Player](https://www.guitarplayer.com/guitarists/dolly-parton-remembered-the-little-guitar-that-started-her-career-it-was-my-treasure) both say she performed with a Martin 5-18 Terz. In July 2026, [Martin listed Dolly Parton](https://www.martinguitar.com/blog-categories/from-the-factory/blog-071626-four-new-martin-guitars-arrive-5-28-terz-OM-35-Inception-custom-shop-0-18-0-28.html) among the players who have used Size 5 Martins, the same family as this 5-18.
 
 On later stages she often used a small, heavily decorated [Taylor GS Mini](https://www.taylorguitars.com/guitars/acoustic/gs-mini).
 

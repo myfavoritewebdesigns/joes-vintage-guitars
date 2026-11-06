@@ -8,7 +8,7 @@ A sunburst SJ refinished natural can resemble the right family without being a f
 
 ## The Natural SJ, Country Western And Deluxe Eras
 
-Natural-finish Southern Jumbos were offered before the Country Western name. [Folkway’s examination of a 1954 SJ Natural](https://folkwaymusic.com/museum/gibson-guitars/1954-gibson-sj-nat-0119) documents the early version and the subsequent Country Western naming. The 2026 price guide starts its named Country Western category in 1956.
+Natural-finish Southern Jumbos were offered before the Country Western name. [Folkway’s examination of a 1954 SJ Natural](https://web.archive.org/web/20230308134622/https://www.folkwaymusic.com/museum/gibson-guitars/1954-gibson-sj-nat-0119) documents the early version and the subsequent Country Western naming. The 2026 price guide starts its named Country Western category in 1956.
 
 The [1960 Gibson catalog](https://acousticmusic.org/wp-content/uploads/2016/02/Gibson-1960-Catalog.pdf) uses “SJN Country Western” and shows its relationship to the sunburst SJ. By the mid-1960s, the [Gibson catalog’s SJ/SJN comparison](https://www.vintageguitarandbass.com/gibson/catalogues/1966_29.php) shows the later square-shoulder family.
 
