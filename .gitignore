@@ -88,3 +88,4 @@ reports/**/*.jpg
 reports/**/*.jpeg
 reports/**/*.webp
 reports/**/*.gif
+reports/**/*.log
