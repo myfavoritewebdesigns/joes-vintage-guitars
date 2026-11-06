@@ -1,10 +1,12 @@
 {
-  "generatedAt": "2026-11-06T18:23:13.230Z",
+  "generatedAt": "2026-11-06T18:36:30.400Z",
   "baseline": {
-    "commit": "bafcee588b52cc7e88e036ad5a91ce53bd20c856",
-    "htmlCount": 457,
+    "commit": "3e2a8cc24e273de9bfe72b2a9da7b7fa776247db",
+    "htmlCount": 453,
     "imageCount": 17296,
-    "capturedAt": "2026-11-05T19:35:36.150Z"
+    "capturedAt": "2026-11-06T18:35:14.222Z",
+    "imageBaselineNote": "All production asset paths and hashes checked against the separate current-main build. Excludes 35 unreferenced PR-only originals present through the read-only asset junction.",
+    "sourceContext": "Current-main source, root documentation and gitignore included so Tailwind scans the same production context."
   },
   "legacyImageAssets": {
     "checked": 17296,

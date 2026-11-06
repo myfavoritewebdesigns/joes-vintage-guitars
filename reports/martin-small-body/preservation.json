@@ -506,14 +506,14 @@
   {
     "file": "gibson-country-western-authentication-guide/index.html",
     "unchanged": true,
-    "before": "a24531bb1825b5e584aa0197699306796742e552495f89419f251b354720ab50",
-    "after": "a24531bb1825b5e584aa0197699306796742e552495f89419f251b354720ab50"
+    "before": "e336324ef98253fa402f1708dac769c7efe7f42889bec0428871afd508f20ac5",
+    "after": "e336324ef98253fa402f1708dac769c7efe7f42889bec0428871afd508f20ac5"
   },
   {
     "file": "gibson-dove-authentication-guide/index.html",
     "unchanged": true,
-    "before": "c6e37dd251c7b9842b300b4f86d8d7d060b7540d7e946ea85127071efd0b9fef",
-    "after": "c6e37dd251c7b9842b300b4f86d8d7d060b7540d7e946ea85127071efd0b9fef"
+    "before": "e0b9f3188fa115a6022ba6149d4226d6dc39fa0b4daf877f48efb107efc94032",
+    "after": "e0b9f3188fa115a6022ba6149d4226d6dc39fa0b4daf877f48efb107efc94032"
   },
   {
     "file": "gibson-es-330-dating-guide/index.html",
@@ -538,18 +538,6 @@
     "unchanged": true,
     "before": "e64ac0af5d0dfe64eef27571659e142ad2f61aa4cccae6d86b8065298a5334e3",
     "after": "e64ac0af5d0dfe64eef27571659e142ad2f61aa4cccae6d86b8065298a5334e3"
-  },
-  {
-    "file": "gibson-l-0-authentication-guide/index.html",
-    "unchanged": true,
-    "before": "2fb37eea2553503f744b5a437c89a97d5b5baa9467c03db48be88ecd934e9a6e",
-    "after": "2fb37eea2553503f744b5a437c89a97d5b5baa9467c03db48be88ecd934e9a6e"
-  },
-  {
-    "file": "gibson-l-00-authentication-guide/index.html",
-    "unchanged": true,
-    "before": "b573f5a3ad13f4c797377c46c0becc83eeb3159c46bb633e80b185992581b875",
-    "after": "b573f5a3ad13f4c797377c46c0becc83eeb3159c46bb633e80b185992581b875"
   },
   {
     "file": "gibson-les-paul-dating-guide/index.html",
@@ -578,8 +566,8 @@
   {
     "file": "gibson-southern-jumbo-authentication-guide/index.html",
     "unchanged": true,
-    "before": "9fb430c6be3953b48b50f257a3d9b8b950600c0b05f3c1fabaf66b84d929c948",
-    "after": "9fb430c6be3953b48b50f257a3d9b8b950600c0b05f3c1fabaf66b84d929c948"
+    "before": "031c19477f6b5a87959a5eb8c9058dea4d92d88968609994f80953877351b741",
+    "after": "031c19477f6b5a87959a5eb8c9058dea4d92d88968609994f80953877351b741"
   },
   {
     "file": "gibson-tuner-dating-guide/index.html",
@@ -602,8 +590,8 @@
   {
     "file": "gretsch-finish-colors/index.html",
     "unchanged": true,
-    "before": "69e76c9c2ec24d1ce48635530c9f07958da594d1cb89348d1c864b9ffcbafb8e",
-    "after": "69e76c9c2ec24d1ce48635530c9f07958da594d1cb89348d1c864b9ffcbafb8e"
+    "before": "c783634a037fcdc884794be275813d52367e3a32b5ddac1dbf35ecbab2f36fdf",
+    "after": "c783634a037fcdc884794be275813d52367e3a32b5ddac1dbf35ecbab2f36fdf"
   },
   {
     "file": "gretsch-headstock-and-tuner-dating-guide/index.html",
@@ -656,20 +644,20 @@
   {
     "file": "guild-factory-eras/index.html",
     "unchanged": true,
-    "before": "7258cc49105d5ffab6bda377378f14d33416f40411091646e1fd0e216ec03866",
-    "after": "7258cc49105d5ffab6bda377378f14d33416f40411091646e1fd0e216ec03866"
+    "before": "11e3916d0720a282bc53f1de63bc11892c1fb27ba99e45d8a9f5ae36b28702c4",
+    "after": "11e3916d0720a282bc53f1de63bc11892c1fb27ba99e45d8a9f5ae36b28702c4"
   },
   {
     "file": "guild-labels-and-serial-number-locations/index.html",
     "unchanged": true,
-    "before": "57f8046ce1d4d07fd35aa02728a8542ee3424b03612a34926f29165b722a467a",
-    "after": "57f8046ce1d4d07fd35aa02728a8542ee3424b03612a34926f29165b722a467a"
+    "before": "fd1c046102bcd3fb1c108f3eecf065b0bf434f383a6ed0a4650e8b8104d77502",
+    "after": "fd1c046102bcd3fb1c108f3eecf065b0bf434f383a6ed0a4650e8b8104d77502"
   },
   {
     "file": "guild-model-prefix-serial-number-charts/index.html",
     "unchanged": true,
-    "before": "64804a67fe2fad2affc13a8001b4b4d55ac35ef090fee03a17b53bf856581492",
-    "after": "64804a67fe2fad2affc13a8001b4b4d55ac35ef090fee03a17b53bf856581492"
+    "before": "d8849a84e5e707bb866130600ddd4d0bb4b9fdd273a29c1fecac69250d0e3a90",
+    "after": "d8849a84e5e707bb866130600ddd4d0bb4b9fdd273a29c1fecac69250d0e3a90"
   },
   {
     "file": "guild-pickup-and-hardware-dating-guide/index.html",
@@ -680,14 +668,14 @@
   {
     "file": "guild-serial-number-lookup/index.html",
     "unchanged": true,
-    "before": "f8f37266373b14783e0a14ebcd8012e4814c684442968aaf4b510a2e7c720087",
-    "after": "f8f37266373b14783e0a14ebcd8012e4814c684442968aaf4b510a2e7c720087"
+    "before": "f023dc1f98f522167232c35cdc694b88c70d0b0a03885c2081994ba71bdf0ec8",
+    "after": "f023dc1f98f522167232c35cdc694b88c70d0b0a03885c2081994ba71bdf0ec8"
   },
   {
     "file": "guild-vintage-vs-reissue/index.html",
     "unchanged": true,
-    "before": "0252b015d5f7b43bc1e354eabc562e404c5d23fa9a85ee018109282615fb3d90",
-    "after": "0252b015d5f7b43bc1e354eabc562e404c5d23fa9a85ee018109282615fb3d90"
+    "before": "d40be1a2ba8b023285309ce67f0a54a25c4cb46583e7449cea5615ff2b0b4414",
+    "after": "d40be1a2ba8b023285309ce67f0a54a25c4cb46583e7449cea5615ff2b0b4414"
   },
   {
     "file": "how-much-does-a-refinish-hurt-guitar-value/index.html",
@@ -734,8 +722,8 @@
   {
     "file": "index.html",
     "unchanged": true,
-    "before": "067fc1856d8c2dfb618e99439ab214c037ec66466c0286b3c743bc48c91e4fdd",
-    "after": "067fc1856d8c2dfb618e99439ab214c037ec66466c0286b3c743bc48c91e4fdd"
+    "before": "4b92b98196a42161cdca8a220955e5d007d23ab9e49a85d173530b6077b44c76",
+    "after": "4b92b98196a42161cdca8a220955e5d007d23ab9e49a85d173530b6077b44c76"
   },
   {
     "file": "inherited-a-guitar/index.html",
@@ -962,8 +950,8 @@
   {
     "file": "post/1976-martin-000-45-specs-history-value-guide/index.html",
     "unchanged": true,
-    "before": "fd7efe0042f534f81b4f372e48a476c70b2a4b1583ed03e1da377310be1429e2",
-    "after": "fd7efe0042f534f81b4f372e48a476c70b2a4b1583ed03e1da377310be1429e2"
+    "before": "812d85ef36ceb6ef81aeb90c57741b5cc537b058567cd81340841a0343f0cac8",
+    "after": "812d85ef36ceb6ef81aeb90c57741b5cc537b058567cd81340841a0343f0cac8"
   },
   {
     "file": "post/are-left-handed-vintage-guitars-worth-less/index.html",
@@ -1286,8 +1274,8 @@
   {
     "file": "post/gibson-es-125-guide/index.html",
     "unchanged": true,
-    "before": "4684d86978a91cd6623aee53be0c73a8f075aa7188e805097fa6bc0af04591e4",
-    "after": "4684d86978a91cd6623aee53be0c73a8f075aa7188e805097fa6bc0af04591e4"
+    "before": "077ee1d60105f26845b08febce6a74029be99fd5f666d8ae19e8734f8cb30f31",
+    "after": "077ee1d60105f26845b08febce6a74029be99fd5f666d8ae19e8734f8cb30f31"
   },
   {
     "file": "post/gibson-es-175-authentication-guide/index.html",
@@ -2066,8 +2054,8 @@
   {
     "file": "post/types-of-guitar-picks/index.html",
     "unchanged": true,
-    "before": "e52596a2b4471b028c69dc89ca0bc30c57403e1078f631965114897bc5f36728",
-    "after": "e52596a2b4471b028c69dc89ca0bc30c57403e1078f631965114897bc5f36728"
+    "before": "b3583dd9f6d2868b401362e90de58f41c268ea43f696aef49b1b64d2711c754e",
+    "after": "b3583dd9f6d2868b401362e90de58f41c268ea43f696aef49b1b64d2711c754e"
   },
   {
     "file": "post/vintage-epiphone-crestwood-value-history-guide/index.html",
@@ -2096,8 +2084,8 @@
   {
     "file": "post/vintage-gibson-les-paul-family-guide/index.html",
     "unchanged": true,
-    "before": "cfa8e56d60a23985b835c7f3a0772027d733a0da0b48dff373e5bc08d6d58328",
-    "after": "cfa8e56d60a23985b835c7f3a0772027d733a0da0b48dff373e5bc08d6d58328"
+    "before": "530948ee0c4413dad8dc37746952c1b1528d97845481e689453be4783db2e7d6",
+    "after": "530948ee0c4413dad8dc37746952c1b1528d97845481e689453be4783db2e7d6"
   },
   {
     "file": "post/vintage-gibson-sg-family-guide/index.html",
@@ -2114,8 +2102,8 @@
   {
     "file": "post/what-guitar-did-dolly-parton-play/index.html",
     "unchanged": true,
-    "before": "2eacca7754bcdd79d129510c8ed6244a568fab5911641c5972ef14c868884c17",
-    "after": "2eacca7754bcdd79d129510c8ed6244a568fab5911641c5972ef14c868884c17"
+    "before": "118433e4fb027b1fee9eec5713965f6d18afee00c947de369b876ebde048a03c",
+    "after": "118433e4fb027b1fee9eec5713965f6d18afee00c947de369b876ebde048a03c"
   },
   {
     "file": "post/what-guitar-did-johnny-marr-play/index.html",
@@ -2138,8 +2126,8 @@
   {
     "file": "privacy-policy/index.html",
     "unchanged": true,
-    "before": "c329cc18c6b98993e0d32c9e0fc9781a1632fca1e78f34d9215e40e75b4c9896",
-    "after": "c329cc18c6b98993e0d32c9e0fc9781a1632fca1e78f34d9215e40e75b4c9896"
+    "before": "1bd010bdcb30e91b677a99bfaa613af3bb96441c0d796e2de45e3bdede5a4af9",
+    "after": "1bd010bdcb30e91b677a99bfaa613af3bb96441c0d796e2de45e3bdede5a4af9"
   },
   {
     "file": "refund_returns/index.html",
@@ -2204,8 +2192,8 @@
   {
     "file": "sell-a-guitar-collection/index.html",
     "unchanged": true,
-    "before": "ddeb289e0ab8a8f745ed221a3543e799d6ff71d6313880c3e86fa10fa3af4c27",
-    "after": "ddeb289e0ab8a8f745ed221a3543e799d6ff71d6313880c3e86fa10fa3af4c27"
+    "before": "82d65fe282f17b65f3d5b720b94d1a742b142e43b035a458b1cff1232d0b3a94",
+    "after": "82d65fe282f17b65f3d5b720b94d1a742b142e43b035a458b1cff1232d0b3a94"
   },
   {
     "file": "sell-an-amplifier-or-effect/index.html",
@@ -2234,14 +2222,14 @@
   {
     "file": "sell-my-gretsch-guitar/index.html",
     "unchanged": true,
-    "before": "1bb4b24bf3b42fd7ae6fb25870344a9e10093b630fc788586c44a7ade2339d56",
-    "after": "1bb4b24bf3b42fd7ae6fb25870344a9e10093b630fc788586c44a7ade2339d56"
+    "before": "e8cb89a1a3bbb79386a1aacd11544180ff6dbd007d074f895476cc952431f6f6",
+    "after": "e8cb89a1a3bbb79386a1aacd11544180ff6dbd007d074f895476cc952431f6f6"
   },
   {
     "file": "sell-my-guild-guitar/index.html",
     "unchanged": true,
-    "before": "7c929d47f35e1d885e43b25ba3da49f5702ffb1580a4f7483d0955f42db7730a",
-    "after": "7c929d47f35e1d885e43b25ba3da49f5702ffb1580a4f7483d0955f42db7730a"
+    "before": "2f450cd1e43c1dc706f935e8ab322079c3b5fecb0d8589d2191e789d2dec49f5",
+    "after": "2f450cd1e43c1dc706f935e8ab322079c3b5fecb0d8589d2191e789d2dec49f5"
   },
   {
     "file": "sell-my-martin-guitar/index.html",
@@ -2252,8 +2240,8 @@
   {
     "file": "sell-my-national-guitar/index.html",
     "unchanged": true,
-    "before": "116c2ace680e4f7cbe59a2084817e3efae5f7e6b6a7e1c741e611bd049de669d",
-    "after": "116c2ace680e4f7cbe59a2084817e3efae5f7e6b6a7e1c741e611bd049de669d"
+    "before": "ae4589bfc0c55da48f3c3e6c553bfb9440c2bea5ce602bd8c663282484471ef5",
+    "after": "ae4589bfc0c55da48f3c3e6c553bfb9440c2bea5ce602bd8c663282484471ef5"
   },
   {
     "file": "sell-my-rickenbacker-guitar/index.html",
@@ -2306,8 +2294,8 @@
   {
     "file": "sell-your-vintage-dangelico-guitar-in-the-us/index.html",
     "unchanged": true,
-    "before": "ab8c44da74cc1eb6a326a7dd48d64c837b2a6435fd1f2a3dfbffdf5d07375348",
-    "after": "ab8c44da74cc1eb6a326a7dd48d64c837b2a6435fd1f2a3dfbffdf5d07375348"
+    "before": "09e02bf69ed95a1c792337b8410a1960097906d92e5d33739ee493065326a0bc",
+    "after": "09e02bf69ed95a1c792337b8410a1960097906d92e5d33739ee493065326a0bc"
   },
   {
     "file": "selling-a-loved-ones-guitar/index.html",
@@ -2330,8 +2318,8 @@
   {
     "file": "terms/index.html",
     "unchanged": true,
-    "before": "06c7a45b1542590757fd2b272e8d0f3349ce28c3a1bcc45deffbc7dd3ae731fe",
-    "after": "06c7a45b1542590757fd2b272e8d0f3349ce28c3a1bcc45deffbc7dd3ae731fe"
+    "before": "92b4f285d3b914d0ebf7ec144eaf4737f672b1603dd98612fada1f02f49879a9",
+    "after": "92b4f285d3b914d0ebf7ec144eaf4737f672b1603dd98612fada1f02f49879a9"
   },
   {
     "file": "thank-you/index.html",
@@ -2632,18 +2620,6 @@
     "unchanged": true,
     "before": "55b06d3e307cd6c3efbea3d9e9e92c5e96e7aa0080e8e2eb21f7169de8aa600f",
     "after": "55b06d3e307cd6c3efbea3d9e9e92c5e96e7aa0080e8e2eb21f7169de8aa600f"
-  },
-  {
-    "file": "vintage-gibson-l-0-value-guide/index.html",
-    "unchanged": true,
-    "before": "165cceedfbb483a40c11ea0fad82b6da09f631ac12c84f0589ca2cd75bf0320f",
-    "after": "165cceedfbb483a40c11ea0fad82b6da09f631ac12c84f0589ca2cd75bf0320f"
-  },
-  {
-    "file": "vintage-gibson-l-00-value-guide/index.html",
-    "unchanged": true,
-    "before": "fed65aa0743ea29c576ce31787fa7f2a0dc55af27b261e74e352849056f26ae4",
-    "after": "fed65aa0743ea29c576ce31787fa7f2a0dc55af27b261e74e352849056f26ae4"
   },
   {
     "file": "vintage-gibson-les-paul-custom-value-guide/index.html",

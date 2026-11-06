@@ -1,0 +1,37 @@
+{
+  "main": "3e2a8cc24e273de9bfe72b2a9da7b7fa776247db",
+  "checkedAt": "2026-11-06T18:31:12.640Z",
+  "guideSourcesUnchanged": true,
+  "pages": [
+    {
+      "route": "post/martin-000-18-authentication-guide/index.html",
+      "reviewedArticleUnchanged": true,
+      "sha256": "34a5eab9f84f1ec105e1043aa6557f3a31f5f4717f042e704483b6ef2cbced29"
+    },
+    {
+      "route": "post/martin-000-18-value-guide/index.html",
+      "reviewedArticleUnchanged": true,
+      "sha256": "308926b6cfb4bc463b5f97ca9361d4b63ccaa70290ecd2ff1ca84fee74330b7b"
+    },
+    {
+      "route": "post/martin-00-18-authentication-guide/index.html",
+      "reviewedArticleUnchanged": true,
+      "sha256": "2601aa26a9f82eccf61b987d3f24986c8d2eaaa4b7ceba329db1953626852eaa"
+    },
+    {
+      "route": "post/martin-00-18-value-guide/index.html",
+      "reviewedArticleUnchanged": true,
+      "sha256": "6116db3dcd78ece578947f48b92aed9addd1dae4ee6bc257cac029a8709312eb"
+    },
+    {
+      "route": "post/martin-0-18-authentication-guide/index.html",
+      "reviewedArticleUnchanged": true,
+      "sha256": "594186fc1cf71f9cb3300f0d6a3534d0afef864fb5022b201225293b757a9e45"
+    },
+    {
+      "route": "post/martin-0-18-value-guide/index.html",
+      "reviewedArticleUnchanged": true,
+      "sha256": "ed5ef54e3523464eebf8024e37d91ed3d6f94e614c5cf2c39ff0a3f02be7977f"
+    }
+  ]
+}

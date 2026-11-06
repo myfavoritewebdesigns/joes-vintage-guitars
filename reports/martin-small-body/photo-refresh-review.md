@@ -43,3 +43,5 @@ The 1938 000-18 and 1925 0-18 dates were confirmed from readable serial photos, 
 Read all digits directly in the full-size photographs, then checked [Martin’s factory year-end table](https://www.martinguitar.com/support-serial-number-lookup.html): 71570 is 1938, 174299 is 1960, 23781 is 1925, and 216180 is 1966. The previously verified 124189 (1952) and 112697 (1949) remain. No obscured digits are reconstructed.
 
 Price rows, shared styling, published reference photos and existing protected page content remain unchanged. Revised build, source, image-license, preservation and visual results accompany this report.
+
+The final preview incorporates published main `3e2a8cc`, including unrelated link fixes and texting-number copy. A separate build of that exact commit supplies the preservation baseline. The six guide definitions and shared guide renderer are unchanged across the merge; the completed photo review remains applicable.

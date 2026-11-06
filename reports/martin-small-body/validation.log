@@ -1,15 +1,15 @@
 === build ===
-11:21:09 [@astrojs/sitemap] `sitemap-index.xml` created at `dist`
-11:21:09 [build] 466 page(s) built in 28.60s
-11:21:09 [build] Complete!
+11:28:49 [@astrojs/sitemap] `sitemap-index.xml` created at `dist`
+11:28:49 [build] 462 page(s) built in 47.11s
+11:28:49 [build] Complete!
 [stable-share-images] 297 pages now share a permanent /og/ image
 [image-sitemap] 450 pages, 4408 image entries -> dist/image-sitemap.xml
-[indexnow] 450 production URLs in manifest (9d44c38)
-[image-variants] Removed 2425 unused generated variants; 18193 files remain
+[indexnow] 450 production URLs in manifest (5e70139)
+[image-variants] Removed 2425 unused generated variants; 18189 files remain
 
 
 === astro-check ===
-Result (438 files):
+Result (440 files):
 - 0 errors
 - 0 warnings
 - 111 hints
@@ -18,8 +18,8 @@ Result (438 files):
 
 === copy ===
 
-Scanned 466 pages.
-Report: reports\seo-v2\check-copy-2026-11-06T18-22-04-990Z.md
+Scanned 462 pages.
+Report: reports\seo-v2\check-copy-2026-11-06T18-29-51-291Z.md
 
 ✓ 0 hard-fails. Copy gate is clean.
 🟡 803 warn(s) (report only, never gates).

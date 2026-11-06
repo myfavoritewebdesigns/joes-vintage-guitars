@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-06T18:22:49.736Z",
+  "generatedAt": "2026-11-06T18:35:57.086Z",
   "pages": [
     {
       "route": "/post/martin-000-18-authentication-guide/",
@@ -871,8 +871,8 @@
       "after": "26062109dd420f81bf53a0a83e521febf9276af631bf4b5dc7763f79a0505dfd"
     }
   ],
-  "baselineCount": 457,
-  "unchangedCount": 394,
+  "baselineCount": 453,
+  "unchangedCount": 390,
   "hubPriceRows": 58,
   "publicPriceRows": 58
 }
