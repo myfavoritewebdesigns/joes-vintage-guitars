@@ -1,0 +1,20 @@
+---
+// Add the brief's contextual referrals without editing the protected legacy renderers.
+interface Props { slug: string }
+const { slug } = Astro.props;
+const additions: Record<string, [string, string][]> = {
+  'martin-om-28-value-guide': [
+    ['Later 000-28s', '<a href="/post/martin-000-28-value-guide/">Later 000-28s</a>'],
+  ],
+  'one-owner-1956-martin-000-21': [
+    ['This is a classic Style 21 Martin:', 'This is a classic <a href="/post/martin-style-21-small-body-authentication-guide/">Style 21 Martin</a>:'],
+    ['give you a straightforward assessment.', 'give you a <a href="/post/martin-style-21-small-body-value-guide/">straightforward assessment</a>.'],
+  ],
+};
+let html = await Astro.slots.render('default');
+for (const [text, linked] of additions[slug] || []) {
+  if (!html.includes(text)) throw new Error(`Missing Martin referral text on ${slug}: ${text}`);
+  html = html.replace(text, linked);
+}
+---
+<Fragment set:html={html} />

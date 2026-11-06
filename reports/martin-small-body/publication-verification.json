@@ -1,0 +1,189 @@
+{
+  "checkedAt": "2026-11-06T19:15:23.424Z",
+  "mergeCommit": "f758a6cd655e7a42c8e17a63b1b2f3ae4258b6f3",
+  "approvedHead": "167f219faa693407323822e967d77cfff53cf37a",
+  "pages": [
+    {
+      "url": "https://www.joesvintageguitarsaz.com/post/martin-000-18-authentication-guide/",
+      "round": 1,
+      "status": 200,
+      "photoCount": 10,
+      "approvedTextMatches": true,
+      "canonicalCorrect": true
+    },
+    {
+      "url": "https://www.joesvintageguitarsaz.com/post/martin-000-18-value-guide/",
+      "round": 1,
+      "status": 200,
+      "photoCount": 6,
+      "tableRows": 19,
+      "approvedTextMatches": true,
+      "canonicalCorrect": true
+    },
+    {
+      "url": "https://www.joesvintageguitarsaz.com/post/martin-00-18-authentication-guide/",
+      "round": 1,
+      "status": 200,
+      "photoCount": 14,
+      "approvedTextMatches": true,
+      "canonicalCorrect": true
+    },
+    {
+      "url": "https://www.joesvintageguitarsaz.com/post/martin-00-18-value-guide/",
+      "round": 1,
+      "status": 200,
+      "photoCount": 6,
+      "tableRows": 23,
+      "approvedTextMatches": true,
+      "canonicalCorrect": true
+    },
+    {
+      "url": "https://www.joesvintageguitarsaz.com/post/martin-0-18-authentication-guide/",
+      "round": 1,
+      "status": 200,
+      "photoCount": 15,
+      "approvedTextMatches": true,
+      "canonicalCorrect": true
+    },
+    {
+      "url": "https://www.joesvintageguitarsaz.com/post/martin-0-18-value-guide/",
+      "round": 1,
+      "status": 200,
+      "photoCount": 6,
+      "tableRows": 16,
+      "approvedTextMatches": true,
+      "canonicalCorrect": true
+    },
+    {
+      "url": "https://www.joesvintageguitarsaz.com/post/martin-0-00-000-history-authentication-value-guide/",
+      "round": 1,
+      "status": 200,
+      "photoCount": 10,
+      "tableRows": 58,
+      "approvedTextMatches": true,
+      "canonicalCorrect": true
+    },
+    {
+      "url": "https://www.joesvintageguitarsaz.com/post/martin-000-18-authentication-guide/",
+      "round": 2,
+      "status": 200,
+      "photoCount": 10,
+      "approvedTextMatches": true,
+      "canonicalCorrect": true
+    },
+    {
+      "url": "https://www.joesvintageguitarsaz.com/post/martin-000-18-value-guide/",
+      "round": 2,
+      "status": 200,
+      "photoCount": 6,
+      "tableRows": 19,
+      "approvedTextMatches": true,
+      "canonicalCorrect": true
+    },
+    {
+      "url": "https://www.joesvintageguitarsaz.com/post/martin-00-18-authentication-guide/",
+      "round": 2,
+      "status": 200,
+      "photoCount": 14,
+      "approvedTextMatches": true,
+      "canonicalCorrect": true
+    },
+    {
+      "url": "https://www.joesvintageguitarsaz.com/post/martin-00-18-value-guide/",
+      "round": 2,
+      "status": 200,
+      "photoCount": 6,
+      "tableRows": 23,
+      "approvedTextMatches": true,
+      "canonicalCorrect": true
+    },
+    {
+      "url": "https://www.joesvintageguitarsaz.com/post/martin-0-18-authentication-guide/",
+      "round": 2,
+      "status": 200,
+      "photoCount": 15,
+      "approvedTextMatches": true,
+      "canonicalCorrect": true
+    },
+    {
+      "url": "https://www.joesvintageguitarsaz.com/post/martin-0-18-value-guide/",
+      "round": 2,
+      "status": 200,
+      "photoCount": 6,
+      "tableRows": 16,
+      "approvedTextMatches": true,
+      "canonicalCorrect": true
+    },
+    {
+      "url": "https://www.joesvintageguitarsaz.com/post/martin-0-00-000-history-authentication-value-guide/",
+      "round": 2,
+      "status": 200,
+      "photoCount": 10,
+      "tableRows": 58,
+      "approvedTextMatches": true,
+      "canonicalCorrect": true
+    },
+    {
+      "url": "https://www.joesvintageguitarsaz.com/post/martin-000-18-authentication-guide/",
+      "round": 3,
+      "status": 200,
+      "photoCount": 10,
+      "approvedTextMatches": true,
+      "canonicalCorrect": true
+    },
+    {
+      "url": "https://www.joesvintageguitarsaz.com/post/martin-000-18-value-guide/",
+      "round": 3,
+      "status": 200,
+      "photoCount": 6,
+      "tableRows": 19,
+      "approvedTextMatches": true,
+      "canonicalCorrect": true
+    },
+    {
+      "url": "https://www.joesvintageguitarsaz.com/post/martin-00-18-authentication-guide/",
+      "round": 3,
+      "status": 200,
+      "photoCount": 14,
+      "approvedTextMatches": true,
+      "canonicalCorrect": true
+    },
+    {
+      "url": "https://www.joesvintageguitarsaz.com/post/martin-00-18-value-guide/",
+      "round": 3,
+      "status": 200,
+      "photoCount": 6,
+      "tableRows": 23,
+      "approvedTextMatches": true,
+      "canonicalCorrect": true
+    },
+    {
+      "url": "https://www.joesvintageguitarsaz.com/post/martin-0-18-authentication-guide/",
+      "round": 3,
+      "status": 200,
+      "photoCount": 15,
+      "approvedTextMatches": true,
+      "canonicalCorrect": true
+    },
+    {
+      "url": "https://www.joesvintageguitarsaz.com/post/martin-0-18-value-guide/",
+      "round": 3,
+      "status": 200,
+      "photoCount": 6,
+      "tableRows": 16,
+      "approvedTextMatches": true,
+      "canonicalCorrect": true
+    },
+    {
+      "url": "https://www.joesvintageguitarsaz.com/post/martin-0-00-000-history-authentication-value-guide/",
+      "round": 3,
+      "status": 200,
+      "photoCount": 10,
+      "tableRows": 58,
+      "approvedTextMatches": true,
+      "canonicalCorrect": true
+    }
+  ],
+  "uniquePhotosChecked": 61,
+  "sitemapAllPresent": true
+}

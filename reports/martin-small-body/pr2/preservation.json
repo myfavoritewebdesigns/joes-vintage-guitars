@@ -1,0 +1,2768 @@
+[
+  {
+    "file": "index.html",
+    "unchanged": true,
+    "before": "4b92b98196a42161cdca8a220955e5d007d23ab9e49a85d173530b6077b44c76",
+    "after": "4b92b98196a42161cdca8a220955e5d007d23ab9e49a85d173530b6077b44c76"
+  },
+  {
+    "file": "about-me/index.html",
+    "unchanged": true,
+    "before": "a628fd7470f965b3e5ec689899a91f535ef19d225d9c86e335824b4ce905d1d3",
+    "after": "a628fd7470f965b3e5ec689899a91f535ef19d225d9c86e335824b4ce905d1d3"
+  },
+  {
+    "file": "blog/index.html",
+    "unchanged": false,
+    "before": "21d38237e6279724724303565bf32836224feb5de007c28cfae9bbb7972d8351",
+    "after": "512f2860322533b7d75a8eb55ca97e185bf2b219910e9a8d1a690fb2dce9a04c"
+  },
+  {
+    "file": "consignment/index.html",
+    "unchanged": true,
+    "before": "f61046061cedddc44d55cc5d00b235a5d0c099b3c92d4d8444c0bc5c11270e18",
+    "after": "f61046061cedddc44d55cc5d00b235a5d0c099b3c92d4d8444c0bc5c11270e18"
+  },
+  {
+    "file": "contact-me/index.html",
+    "unchanged": true,
+    "before": "8c838f5cb1f7059b55e602056d4f3e33a5994f22d0aabfd3bcde7688510e8a19",
+    "after": "8c838f5cb1f7059b55e602056d4f3e33a5994f22d0aabfd3bcde7688510e8a19"
+  },
+  {
+    "file": "do-replaced-pickups-hurt-guitar-value/index.html",
+    "unchanged": true,
+    "before": "5ba9adf1f4d7111f9c7eddd59a8545acb2c950a9a928e6e81e68127c23a9d767",
+    "after": "5ba9adf1f4d7111f9c7eddd59a8545acb2c950a9a928e6e81e68127c23a9d767"
+  },
+  {
+    "file": "fender-body-dates/index.html",
+    "unchanged": true,
+    "before": "476a02c50741dec5927e6ef0e1e0d08f60b6328f562a26212d0e96f8b59e8cd9",
+    "after": "476a02c50741dec5927e6ef0e1e0d08f60b6328f562a26212d0e96f8b59e8cd9"
+  },
+  {
+    "file": "fender-guitars-serial-number-guide/index.html",
+    "unchanged": true,
+    "before": "18f777e6cfc0b8cf10c64b3d27da204406313a60c75616af249eaddbca1ce617",
+    "after": "18f777e6cfc0b8cf10c64b3d27da204406313a60c75616af249eaddbca1ce617"
+  },
+  {
+    "file": "fender-jaguar-dating-guide/index.html",
+    "unchanged": true,
+    "before": "5e16ad5d249744239ac5157f3a39a95f3b65d2f822d644db5de69ca7e38ffa5d",
+    "after": "5e16ad5d249744239ac5157f3a39a95f3b65d2f822d644db5de69ca7e38ffa5d"
+  },
+  {
+    "file": "fender-jazz-bass-dating-guide/index.html",
+    "unchanged": true,
+    "before": "5ed7e6ab7a03c900bc07f439c731352278d62cdabcbf7782d35848d74c0ce4b7",
+    "after": "5ed7e6ab7a03c900bc07f439c731352278d62cdabcbf7782d35848d74c0ce4b7"
+  },
+  {
+    "file": "fender-jazzmaster-dating-guide/index.html",
+    "unchanged": true,
+    "before": "d5c4a4bf18f62fad37357cc31c24d35cc43b4e981d06a781d8908ee3f46beedb",
+    "after": "d5c4a4bf18f62fad37357cc31c24d35cc43b4e981d06a781d8908ee3f46beedb"
+  },
+  {
+    "file": "fender-mustang-dating-guide/index.html",
+    "unchanged": true,
+    "before": "81ebd5ea97a1f84ff2643830638c9840d5ce87fce40057c0ab699ab8cdb957e2",
+    "after": "81ebd5ea97a1f84ff2643830638c9840d5ce87fce40057c0ab699ab8cdb957e2"
+  },
+  {
+    "file": "fender-neck-dates/index.html",
+    "unchanged": true,
+    "before": "b3b22baa8044b41cfb01306d2d51e5b056d87a1f0d2c29d6808bac8339420337",
+    "after": "b3b22baa8044b41cfb01306d2d51e5b056d87a1f0d2c29d6808bac8339420337"
+  },
+  {
+    "file": "fender-physical-features/index.html",
+    "unchanged": true,
+    "before": "fc00c448b8a8ad3027f36a7103ee7b1011dddd147be82d8e712842ff0d93f305",
+    "after": "fc00c448b8a8ad3027f36a7103ee7b1011dddd147be82d8e712842ff0d93f305"
+  },
+  {
+    "file": "fender-pickup-dates/index.html",
+    "unchanged": true,
+    "before": "bb80d61a00bf80e840fc6cd2932c92b911e27cc7059e9d622f84460e69559ca8",
+    "after": "bb80d61a00bf80e840fc6cd2932c92b911e27cc7059e9d622f84460e69559ca8"
+  },
+  {
+    "file": "fender-pot-codes/index.html",
+    "unchanged": true,
+    "before": "dbee25655785e5b23636cc5367eb0131355155f789beed48c4238cf0bd2e6c4c",
+    "after": "dbee25655785e5b23636cc5367eb0131355155f789beed48c4238cf0bd2e6c4c"
+  },
+  {
+    "file": "fender-precision-bass-dating-guide/index.html",
+    "unchanged": true,
+    "before": "20b9b6b35ebae0725883dc4d7a15860f51cc3d2b03fdda69e2d9e880dff25fa8",
+    "after": "20b9b6b35ebae0725883dc4d7a15860f51cc3d2b03fdda69e2d9e880dff25fa8"
+  },
+  {
+    "file": "fender-serial-tool-v2/index.html",
+    "unchanged": true,
+    "before": "2288313f44c96fbe2f81cbba222a4b068c33e324f943fc9db19da799da935143",
+    "after": "2288313f44c96fbe2f81cbba222a4b068c33e324f943fc9db19da799da935143"
+  },
+  {
+    "file": "fender-stratocaster-dating-guide/index.html",
+    "unchanged": true,
+    "before": "cca77e90c95124cc11678ee8dfa39a83277159003d770de5568c77bb99043c8f",
+    "after": "cca77e90c95124cc11678ee8dfa39a83277159003d770de5568c77bb99043c8f"
+  },
+  {
+    "file": "fender-telecaster-dating-guide/index.html",
+    "unchanged": true,
+    "before": "652fecabdd4bae014b9bcfde8cd0ea50fe0efeab58563f22145b8f4a46d3ea5a",
+    "after": "652fecabdd4bae014b9bcfde8cd0ea50fe0efeab58563f22145b8f4a46d3ea5a"
+  },
+  {
+    "file": "found-an-old-guitar/index.html",
+    "unchanged": true,
+    "before": "0daa2786d593b66c885eb93196df3abf58e10062d3be2e63e5a0eb7fda880734",
+    "after": "0daa2786d593b66c885eb93196df3abf58e10062d3be2e63e5a0eb7fda880734"
+  },
+  {
+    "file": "free-appraisal/index.html",
+    "unchanged": true,
+    "before": "bc5fa549040137ea87ccff9e74d78cc8fef4e720e0d15c2f397aa8a213f4544f",
+    "after": "bc5fa549040137ea87ccff9e74d78cc8fef4e720e0d15c2f397aa8a213f4544f"
+  },
+  {
+    "file": "gibson-country-western-authentication-guide/index.html",
+    "unchanged": true,
+    "before": "e336324ef98253fa402f1708dac769c7efe7f42889bec0428871afd508f20ac5",
+    "after": "e336324ef98253fa402f1708dac769c7efe7f42889bec0428871afd508f20ac5"
+  },
+  {
+    "file": "gibson-dove-authentication-guide/index.html",
+    "unchanged": true,
+    "before": "e0b9f3188fa115a6022ba6149d4226d6dc39fa0b4daf877f48efb107efc94032",
+    "after": "e0b9f3188fa115a6022ba6149d4226d6dc39fa0b4daf877f48efb107efc94032"
+  },
+  {
+    "file": "gibson-es-330-dating-guide/index.html",
+    "unchanged": true,
+    "before": "c3a15dac8f84d4ff761539500d8057f1d379e02eabd0a3649525ccaffa1f7ea4",
+    "after": "c3a15dac8f84d4ff761539500d8057f1d379e02eabd0a3649525ccaffa1f7ea4"
+  },
+  {
+    "file": "gibson-es-335-345-355-dating-guide/index.html",
+    "unchanged": true,
+    "before": "96696af3e46489a72413752996f0a6cfb5ed2632d33297a3d45f2f0437ee0ef2",
+    "after": "96696af3e46489a72413752996f0a6cfb5ed2632d33297a3d45f2f0437ee0ef2"
+  },
+  {
+    "file": "gibson-headstock-logo-chronology/index.html",
+    "unchanged": true,
+    "before": "0276ed08a091a37ecbe97dff3a83e36eecd8d651d20fe7311674117711e4c3ba",
+    "after": "0276ed08a091a37ecbe97dff3a83e36eecd8d651d20fe7311674117711e4c3ba"
+  },
+  {
+    "file": "gibson-knob-dating-guide/index.html",
+    "unchanged": true,
+    "before": "e64ac0af5d0dfe64eef27571659e142ad2f61aa4cccae6d86b8065298a5334e3",
+    "after": "e64ac0af5d0dfe64eef27571659e142ad2f61aa4cccae6d86b8065298a5334e3"
+  },
+  {
+    "file": "gibson-les-paul-dating-guide/index.html",
+    "unchanged": true,
+    "before": "b8fc7f47f0194a8f27458116cb9039c2a188baf6950ba627192b32eb8197d8b8",
+    "after": "b8fc7f47f0194a8f27458116cb9039c2a188baf6950ba627192b32eb8197d8b8"
+  },
+  {
+    "file": "gibson-physical-features-hardware-guide/index.html",
+    "unchanged": true,
+    "before": "d344091dc07952650bc04a1eb49749c251e0d95ee3d46d185d82e5f8fef98501",
+    "after": "d344091dc07952650bc04a1eb49749c251e0d95ee3d46d185d82e5f8fef98501"
+  },
+  {
+    "file": "gibson-pot-codes/index.html",
+    "unchanged": true,
+    "before": "6f038fccabb0381755dad0a5e7f049dc485352e6c303fde8f55cc56f1614fa2f",
+    "after": "6f038fccabb0381755dad0a5e7f049dc485352e6c303fde8f55cc56f1614fa2f"
+  },
+  {
+    "file": "gibson-sg-dating-guide/index.html",
+    "unchanged": true,
+    "before": "3134a62371ce80311e0ca6ade257ca081e3fc517541cbad952afbdd4c18a8230",
+    "after": "3134a62371ce80311e0ca6ade257ca081e3fc517541cbad952afbdd4c18a8230"
+  },
+  {
+    "file": "gibson-southern-jumbo-authentication-guide/index.html",
+    "unchanged": true,
+    "before": "031c19477f6b5a87959a5eb8c9058dea4d92d88968609994f80953877351b741",
+    "after": "031c19477f6b5a87959a5eb8c9058dea4d92d88968609994f80953877351b741"
+  },
+  {
+    "file": "gibson-tuner-dating-guide/index.html",
+    "unchanged": true,
+    "before": "46dd5f1b064dd22d65d202b7c12cb11622d53d8d32f14e438ce474d09791f8bf",
+    "after": "46dd5f1b064dd22d65d202b7c12cb11622d53d8d32f14e438ce474d09791f8bf"
+  },
+  {
+    "file": "gretsch-body-binding-and-inlays/index.html",
+    "unchanged": true,
+    "before": "77654c6acf6935ed91fdc2eb9b8ede47b4dab8ba1377f883014ad6e35dcb85bd",
+    "after": "77654c6acf6935ed91fdc2eb9b8ede47b4dab8ba1377f883014ad6e35dcb85bd"
+  },
+  {
+    "file": "gretsch-bridges-and-tailpieces/index.html",
+    "unchanged": true,
+    "before": "68a65e4e34c85ec61505c6718f9dc46efbb668ace476d4ae2289446600436df2",
+    "after": "68a65e4e34c85ec61505c6718f9dc46efbb668ace476d4ae2289446600436df2"
+  },
+  {
+    "file": "gretsch-finish-colors/index.html",
+    "unchanged": true,
+    "before": "c783634a037fcdc884794be275813d52367e3a32b5ddac1dbf35ecbab2f36fdf",
+    "after": "c783634a037fcdc884794be275813d52367e3a32b5ddac1dbf35ecbab2f36fdf"
+  },
+  {
+    "file": "gretsch-headstock-and-tuner-dating-guide/index.html",
+    "unchanged": true,
+    "before": "7c04218d7381df541bd060a748987fc1dbee8a0c95f32a3f442dd7a9331168c5",
+    "after": "7c04218d7381df541bd060a748987fc1dbee8a0c95f32a3f442dd7a9331168c5"
+  },
+  {
+    "file": "gretsch-knobs-and-controls/index.html",
+    "unchanged": true,
+    "before": "c087e4ea41eb905ea7d70f15ee5d7ee2ce9afda968d48064e21f52ecc325436d",
+    "after": "c087e4ea41eb905ea7d70f15ee5d7ee2ce9afda968d48064e21f52ecc325436d"
+  },
+  {
+    "file": "gretsch-labels-and-serial-number-locations/index.html",
+    "unchanged": true,
+    "before": "ecc362bd73c51a05acd45a844d8339de0a3c87bb06e62e91175a01e73b4c6f1f",
+    "after": "ecc362bd73c51a05acd45a844d8339de0a3c87bb06e62e91175a01e73b4c6f1f"
+  },
+  {
+    "file": "gretsch-pickup-dating-guide/index.html",
+    "unchanged": true,
+    "before": "0585815c6253b981c937a04e0db6a33b6ad954145397245932117d82ff111824",
+    "after": "0585815c6253b981c937a04e0db6a33b6ad954145397245932117d82ff111824"
+  },
+  {
+    "file": "gretsch-serial-number-lookup/index.html",
+    "unchanged": true,
+    "before": "44c407ac3b17340511e95027fe71b3470a5c47b80aef0f0165fa18bc8131093b",
+    "after": "44c407ac3b17340511e95027fe71b3470a5c47b80aef0f0165fa18bc8131093b"
+  },
+  {
+    "file": "gretsch-vintage-vs-reissue/index.html",
+    "unchanged": true,
+    "before": "05dca6b7ac883b091e6ccc4e5974748de77250e489fad554e762340fdb5b977c",
+    "after": "05dca6b7ac883b091e6ccc4e5974748de77250e489fad554e762340fdb5b977c"
+  },
+  {
+    "file": "guild-acoustic-guitar-identification/index.html",
+    "unchanged": true,
+    "before": "ce5eeb070bb450dce27f1f5309e34122292825c7791226f7b2a525150abaf343",
+    "after": "ce5eeb070bb450dce27f1f5309e34122292825c7791226f7b2a525150abaf343"
+  },
+  {
+    "file": "guild-electric-guitar-identification/index.html",
+    "unchanged": true,
+    "before": "8d671344dd6c4b8f8a9d311283795e5b799475b589af6036d8e4b9dd34b5f878",
+    "after": "8d671344dd6c4b8f8a9d311283795e5b799475b589af6036d8e4b9dd34b5f878"
+  },
+  {
+    "file": "guild-factory-eras/index.html",
+    "unchanged": true,
+    "before": "11e3916d0720a282bc53f1de63bc11892c1fb27ba99e45d8a9f5ae36b28702c4",
+    "after": "11e3916d0720a282bc53f1de63bc11892c1fb27ba99e45d8a9f5ae36b28702c4"
+  },
+  {
+    "file": "guild-labels-and-serial-number-locations/index.html",
+    "unchanged": true,
+    "before": "fd1c046102bcd3fb1c108f3eecf065b0bf434f383a6ed0a4650e8b8104d77502",
+    "after": "fd1c046102bcd3fb1c108f3eecf065b0bf434f383a6ed0a4650e8b8104d77502"
+  },
+  {
+    "file": "guild-model-prefix-serial-number-charts/index.html",
+    "unchanged": true,
+    "before": "d8849a84e5e707bb866130600ddd4d0bb4b9fdd273a29c1fecac69250d0e3a90",
+    "after": "d8849a84e5e707bb866130600ddd4d0bb4b9fdd273a29c1fecac69250d0e3a90"
+  },
+  {
+    "file": "guild-pickup-and-hardware-dating-guide/index.html",
+    "unchanged": true,
+    "before": "56122eb52febe0046d718f0cf72449aef36b9b1e8dbb751476fca61f495c5ccf",
+    "after": "56122eb52febe0046d718f0cf72449aef36b9b1e8dbb751476fca61f495c5ccf"
+  },
+  {
+    "file": "guild-serial-number-lookup/index.html",
+    "unchanged": true,
+    "before": "f023dc1f98f522167232c35cdc694b88c70d0b0a03885c2081994ba71bdf0ec8",
+    "after": "f023dc1f98f522167232c35cdc694b88c70d0b0a03885c2081994ba71bdf0ec8"
+  },
+  {
+    "file": "guild-vintage-vs-reissue/index.html",
+    "unchanged": true,
+    "before": "d40be1a2ba8b023285309ce67f0a54a25c4cb46583e7449cea5615ff2b0b4414",
+    "after": "d40be1a2ba8b023285309ce67f0a54a25c4cb46583e7449cea5615ff2b0b4414"
+  },
+  {
+    "file": "how-much-does-a-refinish-hurt-guitar-value/index.html",
+    "unchanged": true,
+    "before": "f98eef0f7e386603126a7fa2ac53279ef0182cd8dc1ff808ce89454c58a0fbd6",
+    "after": "f98eef0f7e386603126a7fa2ac53279ef0182cd8dc1ff808ce89454c58a0fbd6"
+  },
+  {
+    "file": "how-old-is-my-guitar/index.html",
+    "unchanged": true,
+    "before": "6f2fff2cc42ee1b00a25c55801cb40cd0ee8b4c0d1ae8a3f362fd728a95e53fe",
+    "after": "6f2fff2cc42ee1b00a25c55801cb40cd0ee8b4c0d1ae8a3f362fd728a95e53fe"
+  },
+  {
+    "file": "how-to-read-gibson-serial-numbers/index.html",
+    "unchanged": true,
+    "before": "bdd0745020e4bb1ed88f8cd03dd1a6be8657a691fd726022c1f306557cf6fd92",
+    "after": "bdd0745020e4bb1ed88f8cd03dd1a6be8657a691fd726022c1f306557cf6fd92"
+  },
+  {
+    "file": "how-to-spot-a-fake-fender/index.html",
+    "unchanged": true,
+    "before": "1fa5ed084b5c18925be9a1f7d8be14e47e5a41105c9d19b5d6dd5f2304ed2cc0",
+    "after": "1fa5ed084b5c18925be9a1f7d8be14e47e5a41105c9d19b5d6dd5f2304ed2cc0"
+  },
+  {
+    "file": "how-to-spot-a-fake-gibson/index.html",
+    "unchanged": true,
+    "before": "7e5eafed0816c59206d202b8030bf4589e1b9b86c201ce83b67b3135f7389d3f",
+    "after": "7e5eafed0816c59206d202b8030bf4589e1b9b86c201ce83b67b3135f7389d3f"
+  },
+  {
+    "file": "how-to-spot-a-fake-martin/index.html",
+    "unchanged": true,
+    "before": "fb936d80ada880eedeef7126b460cca32987a8bfdd2972c7c32dd14066fb145d",
+    "after": "fb936d80ada880eedeef7126b460cca32987a8bfdd2972c7c32dd14066fb145d"
+  },
+  {
+    "file": "how-to-tell-if-a-guitar-has-been-refinished/index.html",
+    "unchanged": true,
+    "before": "70a6571cff5159962f47676654d1e2c448c90495e2c13f1170e4b4024585bb37",
+    "after": "70a6571cff5159962f47676654d1e2c448c90495e2c13f1170e4b4024585bb37"
+  },
+  {
+    "file": "inherited-a-guitar/index.html",
+    "unchanged": true,
+    "before": "24a485c310de73a39fd655cfe62107ecad7ee8866eb9deb6626c68783f363e67",
+    "after": "24a485c310de73a39fd655cfe62107ecad7ee8866eb9deb6626c68783f363e67"
+  },
+  {
+    "file": "jvg-shipping-process/index.html",
+    "unchanged": true,
+    "before": "4729fe48b8669370ed6a6d1b3ab8e3e34878a8df6c9b308ee63ab75387be8291",
+    "after": "4729fe48b8669370ed6a6d1b3ab8e3e34878a8df6c9b308ee63ab75387be8291"
+  },
+  {
+    "file": "jvg-shipping-process-2/index.html",
+    "unchanged": true,
+    "before": "75178f9ccc026eaa0fa2e84ebac9d8391d7389a875cdf2f92540c7e9dc22c949",
+    "after": "75178f9ccc026eaa0fa2e84ebac9d8391d7389a875cdf2f92540c7e9dc22c949"
+  },
+  {
+    "file": "martin-d-28-d-18-d-45-dreadnought-value-guide/index.html",
+    "unchanged": true,
+    "before": "94fba36d52055e0856194b0941822b4acd251bacb4bac75cbb8188fae56d77d1",
+    "after": "94fba36d52055e0856194b0941822b4acd251bacb4bac75cbb8188fae56d77d1"
+  },
+  {
+    "file": "martin-guitar-dating-guide/index.html",
+    "unchanged": false,
+    "before": "7efddaf3dd697b3f7a51a53655ef33f814f493a54582d7307d3342bba19a64b9",
+    "after": "949c453ad6d5aca259b1c33dbf0e4bd37d5c90c3b57f0f658cf7d99a79e70dc9"
+  },
+  {
+    "file": "martin-guitar-model-numbers/index.html",
+    "unchanged": false,
+    "before": "a419e1da5ecf318b1335c51fb13d219d71bccac1495b5d860b458d83654545fb",
+    "after": "a325a743d27418970cbe1a616ff62ef5ec69ad3e92973b1b1ef27cd530d63124"
+  },
+  {
+    "file": "martin-headstock-logo-dating-guide/index.html",
+    "unchanged": true,
+    "before": "86e91dbc802e9092a4a0a8cd42c9f3d5bdff5959d98176a7cd6c981761ebc623",
+    "after": "86e91dbc802e9092a4a0a8cd42c9f3d5bdff5959d98176a7cd6c981761ebc623"
+  },
+  {
+    "file": "martin-neck-block-stamps/index.html",
+    "unchanged": false,
+    "before": "1f0036c14e035d70e53a013250554220de1fa2504832f418b032f3d99ce550c1",
+    "after": "d6032afd929d5c66ae46eae974cbacef80e9a517cf353b1d51671e13c0fd3c71"
+  },
+  {
+    "file": "martin-serial-and-model-numbers/index.html",
+    "unchanged": false,
+    "before": "770d43f82b3b7c43f4f746e21bc2b68c5f36590aef6c7c53de5943f4f149dfdf",
+    "after": "addd2f0aa77ec1b72203cdb919e0633fdcbbb553f83cd5213175f64481f8b661"
+  },
+  {
+    "file": "martin-tuner-dating-guide/index.html",
+    "unchanged": false,
+    "before": "dd7d4f4135af92dd5f4cdcbed8a01d19b9141d7a6144203aa846f5a15ce47606",
+    "after": "35338a78b782b96dd181199b2bf8f8b1f26febc193f5566e0bd84f8b198e528b"
+  },
+  {
+    "file": "photo-license/index.html",
+    "unchanged": true,
+    "before": "4ab4d49a97bc5645b3593b942de08a35235e0ac89e63cd42112d2b16f8f8a130",
+    "after": "4ab4d49a97bc5645b3593b942de08a35235e0ac89e63cd42112d2b16f8f8a130"
+  },
+  {
+    "file": "prewar-martin-guitar-guide/index.html",
+    "unchanged": true,
+    "before": "ba4a8556e1b907bbb7c6b21f707a5a28f440f8aad8af875105d1b79f1aad0848",
+    "after": "ba4a8556e1b907bbb7c6b21f707a5a28f440f8aad8af875105d1b79f1aad0848"
+  },
+  {
+    "file": "privacy-policy/index.html",
+    "unchanged": true,
+    "before": "1bd010bdcb30e91b677a99bfaa613af3bb96441c0d796e2de45e3bdede5a4af9",
+    "after": "1bd010bdcb30e91b677a99bfaa613af3bb96441c0d796e2de45e3bdede5a4af9"
+  },
+  {
+    "file": "refund_returns/index.html",
+    "unchanged": true,
+    "before": "5c47d127adaa9207957201033519ddd7cae6f0e6f073c83dead6332e944fa738",
+    "after": "5c47d127adaa9207957201033519ddd7cae6f0e6f073c83dead6332e944fa738"
+  },
+  {
+    "file": "repair/index.html",
+    "unchanged": true,
+    "before": "741acffb8dabd44291af15bceb066ed63f17f971c167f3e4c82151679b8d8a18",
+    "after": "741acffb8dabd44291af15bceb066ed63f17f971c167f3e4c82151679b8d8a18"
+  },
+  {
+    "file": "reverb-reviews/index.html",
+    "unchanged": true,
+    "before": "5a756143c9301f668dbe895b76dea502280a34421a13d1f8ad2bb6f59074ab79",
+    "after": "5a756143c9301f668dbe895b76dea502280a34421a13d1f8ad2bb6f59074ab79"
+  },
+  {
+    "file": "rickenbacker-body-binding-and-inlays/index.html",
+    "unchanged": true,
+    "before": "cc65f4f8bcb5e16c8ae05fad753aaa4ec68dec27d703b70fe3aeba24b1cb5a31",
+    "after": "cc65f4f8bcb5e16c8ae05fad753aaa4ec68dec27d703b70fe3aeba24b1cb5a31"
+  },
+  {
+    "file": "rickenbacker-finish-colors/index.html",
+    "unchanged": true,
+    "before": "1551e71d5819cd0870376d4fef18a848aecd1c4762c2db0670206b333947bf77",
+    "after": "1551e71d5819cd0870376d4fef18a848aecd1c4762c2db0670206b333947bf77"
+  },
+  {
+    "file": "rickenbacker-knobs-and-controls/index.html",
+    "unchanged": true,
+    "before": "eaca0a9a833291f6a97b105cad33ab08d003072f2613fd53a1387201ea478023",
+    "after": "eaca0a9a833291f6a97b105cad33ab08d003072f2613fd53a1387201ea478023"
+  },
+  {
+    "file": "rickenbacker-pickup-dating-guide/index.html",
+    "unchanged": true,
+    "before": "5e41ce5027091e732f6db4a6cf4562eabe8ba2f076b0316534cf5213e73aed2d",
+    "after": "5e41ce5027091e732f6db4a6cf4562eabe8ba2f076b0316534cf5213e73aed2d"
+  },
+  {
+    "file": "rickenbacker-serial-numbers/index.html",
+    "unchanged": true,
+    "before": "78272c68a7fe26a4e5e3e9d458af3b45c4597033b75e6f2948b401c55c950160",
+    "after": "78272c68a7fe26a4e5e3e9d458af3b45c4597033b75e6f2948b401c55c950160"
+  },
+  {
+    "file": "rickenbacker-tailpiece-dating-guide/index.html",
+    "unchanged": true,
+    "before": "06491e0cb7cc2d2b4416ad13c88477e43f1039b83b17401a3c8bf90e9e1169aa",
+    "after": "06491e0cb7cc2d2b4416ad13c88477e43f1039b83b17401a3c8bf90e9e1169aa"
+  },
+  {
+    "file": "rickenbacker-tuner-dating-guide/index.html",
+    "unchanged": true,
+    "before": "c951df58ac159679f90a4ea7687d732a61f5706c20b80059a6cc029bea564953",
+    "after": "c951df58ac159679f90a4ea7687d732a61f5706c20b80059a6cc029bea564953"
+  },
+  {
+    "file": "sell-a-guitar-collection/index.html",
+    "unchanged": true,
+    "before": "82d65fe282f17b65f3d5b720b94d1a742b142e43b035a458b1cff1232d0b3a94",
+    "after": "82d65fe282f17b65f3d5b720b94d1a742b142e43b035a458b1cff1232d0b3a94"
+  },
+  {
+    "file": "sell-an-amplifier-or-effect/index.html",
+    "unchanged": true,
+    "before": "3df5346cac78727b2ac421e9e18d0b60971ebe9d1fe524cd74d225ec2cd4d554",
+    "after": "3df5346cac78727b2ac421e9e18d0b60971ebe9d1fe524cd74d225ec2cd4d554"
+  },
+  {
+    "file": "sell-my-epiphone-guitar/index.html",
+    "unchanged": true,
+    "before": "70c42623f11bfa945dfc56beb0d7b2b24bae0d80b956f8a0796cb270bb769e18",
+    "after": "70c42623f11bfa945dfc56beb0d7b2b24bae0d80b956f8a0796cb270bb769e18"
+  },
+  {
+    "file": "sell-my-fender-guitar/index.html",
+    "unchanged": true,
+    "before": "60efa1cd438ba190355c5742b5f71b64fd70c1cb67166984ab8238662f5fed3d",
+    "after": "60efa1cd438ba190355c5742b5f71b64fd70c1cb67166984ab8238662f5fed3d"
+  },
+  {
+    "file": "sell-my-gibson-guitar/index.html",
+    "unchanged": true,
+    "before": "6bc1e93d08ddecac72f1f1a6523110c4a76a63887a5367862a69f49d026d2c8e",
+    "after": "6bc1e93d08ddecac72f1f1a6523110c4a76a63887a5367862a69f49d026d2c8e"
+  },
+  {
+    "file": "sell-my-gretsch-guitar/index.html",
+    "unchanged": true,
+    "before": "e8cb89a1a3bbb79386a1aacd11544180ff6dbd007d074f895476cc952431f6f6",
+    "after": "e8cb89a1a3bbb79386a1aacd11544180ff6dbd007d074f895476cc952431f6f6"
+  },
+  {
+    "file": "sell-my-guild-guitar/index.html",
+    "unchanged": true,
+    "before": "2f450cd1e43c1dc706f935e8ab322079c3b5fecb0d8589d2191e789d2dec49f5",
+    "after": "2f450cd1e43c1dc706f935e8ab322079c3b5fecb0d8589d2191e789d2dec49f5"
+  },
+  {
+    "file": "sell-my-martin-guitar/index.html",
+    "unchanged": false,
+    "before": "26062109dd420f81bf53a0a83e521febf9276af631bf4b5dc7763f79a0505dfd",
+    "after": "b5bd62d1fadbbbb90cc3805662e9db507d25950d82d215b519ae2c64c521e0b0"
+  },
+  {
+    "file": "sell-my-national-guitar/index.html",
+    "unchanged": true,
+    "before": "ae4589bfc0c55da48f3c3e6c553bfb9440c2bea5ce602bd8c663282484471ef5",
+    "after": "ae4589bfc0c55da48f3c3e6c553bfb9440c2bea5ce602bd8c663282484471ef5"
+  },
+  {
+    "file": "sell-my-rickenbacker-guitar/index.html",
+    "unchanged": true,
+    "before": "13084f175213e952d0a7c73fd19a2f265134410c79221daddd05451e1a5d41d5",
+    "after": "13084f175213e952d0a7c73fd19a2f265134410c79221daddd05451e1a5d41d5"
+  },
+  {
+    "file": "sell-vintage-guitar-chandler-az/index.html",
+    "unchanged": true,
+    "before": "17d04db7023dd54b220bb96182c5726c58cb1ef130ba4ae6f2df3ce3321954aa",
+    "after": "17d04db7023dd54b220bb96182c5726c58cb1ef130ba4ae6f2df3ce3321954aa"
+  },
+  {
+    "file": "sell-vintage-guitar-gilbert-az/index.html",
+    "unchanged": true,
+    "before": "67c9f4c8c978858a18c5ad2b331d0b7878e47bbe7fa7d9d13f69f3a6282aa5ac",
+    "after": "67c9f4c8c978858a18c5ad2b331d0b7878e47bbe7fa7d9d13f69f3a6282aa5ac"
+  },
+  {
+    "file": "sell-vintage-guitar-mesa-az/index.html",
+    "unchanged": true,
+    "before": "3f2ae92cc74c4bc41823c85f0dd4c3588ff60a6160f64cc9d448692637e1a028",
+    "after": "3f2ae92cc74c4bc41823c85f0dd4c3588ff60a6160f64cc9d448692637e1a028"
+  },
+  {
+    "file": "sell-vintage-guitar-phoenix-az/index.html",
+    "unchanged": true,
+    "before": "ffdbf3bf09c8a2c0eb0febf39081e8cf9d0987964ca988fbe56affbc4320eef0",
+    "after": "ffdbf3bf09c8a2c0eb0febf39081e8cf9d0987964ca988fbe56affbc4320eef0"
+  },
+  {
+    "file": "sell-vintage-guitar-scottsdale-az/index.html",
+    "unchanged": true,
+    "before": "51a7df41dfb951d64c4a8bd31357b6588f917fa7aff760b25cd6f9bb99cfbcba",
+    "after": "51a7df41dfb951d64c4a8bd31357b6588f917fa7aff760b25cd6f9bb99cfbcba"
+  },
+  {
+    "file": "sell-vintage-guitar-tempe-az/index.html",
+    "unchanged": true,
+    "before": "e8615662f9054a8a875a0b9eb8c16501bec9b614863bb2487df8264e1c37e326",
+    "after": "e8615662f9054a8a875a0b9eb8c16501bec9b614863bb2487df8264e1c37e326"
+  },
+  {
+    "file": "sell-your-levin-or-goya-guitar/index.html",
+    "unchanged": true,
+    "before": "2bf0fcf39ce99bb6e8b14195d24dfae563577fc65d5c62603f872227d2dc4598",
+    "after": "2bf0fcf39ce99bb6e8b14195d24dfae563577fc65d5c62603f872227d2dc4598"
+  },
+  {
+    "file": "sell-your-vintage-dangelico-guitar-in-the-us/index.html",
+    "unchanged": true,
+    "before": "09e02bf69ed95a1c792337b8410a1960097906d92e5d33739ee493065326a0bc",
+    "after": "09e02bf69ed95a1c792337b8410a1960097906d92e5d33739ee493065326a0bc"
+  },
+  {
+    "file": "selling-a-loved-ones-guitar/index.html",
+    "unchanged": true,
+    "before": "1d343a6fb6fc9744150a8317fa95e4edfe3bd90840d10d1fdc8e0783e3bc2f22",
+    "after": "1d343a6fb6fc9744150a8317fa95e4edfe3bd90840d10d1fdc8e0783e3bc2f22"
+  },
+  {
+    "file": "should-i-restore-my-guitar-before-selling/index.html",
+    "unchanged": true,
+    "before": "3de636298b3ca18a1487c74a80f91dd08d5515e1468ee2f9da4b78c009fa71fd",
+    "after": "3de636298b3ca18a1487c74a80f91dd08d5515e1468ee2f9da4b78c009fa71fd"
+  },
+  {
+    "file": "sitemap/index.html",
+    "unchanged": true,
+    "before": "556ed979156b59999ef8117f66ea83a83b6ea31b973e1f789bb6fdfae04e5b9a",
+    "after": "556ed979156b59999ef8117f66ea83a83b6ea31b973e1f789bb6fdfae04e5b9a"
+  },
+  {
+    "file": "terms/index.html",
+    "unchanged": true,
+    "before": "92b4f285d3b914d0ebf7ec144eaf4737f672b1603dd98612fada1f02f49879a9",
+    "after": "92b4f285d3b914d0ebf7ec144eaf4737f672b1603dd98612fada1f02f49879a9"
+  },
+  {
+    "file": "thank-you/index.html",
+    "unchanged": true,
+    "before": "6136f001bc684ab60d895e3b108dbe6350ba78e58cb89f0346953c49b5fc1600",
+    "after": "6136f001bc684ab60d895e3b108dbe6350ba78e58cb89f0346953c49b5fc1600"
+  },
+  {
+    "file": "vintage-fender-amplifier-serial-numbers-how-to-find-the-year/index.html",
+    "unchanged": true,
+    "before": "eb672ba6a15081c80c395003576780260334863ecab49740ddb9d5882a97d64d",
+    "after": "eb672ba6a15081c80c395003576780260334863ecab49740ddb9d5882a97d64d"
+  },
+  {
+    "file": "vintage-fender-esquire-value-guide/index.html",
+    "unchanged": true,
+    "before": "af0a3ff80bdbd111a714d93317a00e6dc790efd2792dfad4028360aedd991cc5",
+    "after": "af0a3ff80bdbd111a714d93317a00e6dc790efd2792dfad4028360aedd991cc5"
+  },
+  {
+    "file": "vintage-fender-jaguar-value-guide/index.html",
+    "unchanged": true,
+    "before": "6dcad192c6341a1ccf4fb0feb2c9d274ba6fa93af22e6c136f0a1bcaea2b5aa0",
+    "after": "6dcad192c6341a1ccf4fb0feb2c9d274ba6fa93af22e6c136f0a1bcaea2b5aa0"
+  },
+  {
+    "file": "vintage-fender-jazz-bass-value-guide/index.html",
+    "unchanged": true,
+    "before": "97e1ca8a65f12a090923b63a8fee145a4a35646a818dc3682c5d5540f04087d6",
+    "after": "97e1ca8a65f12a090923b63a8fee145a4a35646a818dc3682c5d5540f04087d6"
+  },
+  {
+    "file": "vintage-fender-jazzmaster-value-guide/index.html",
+    "unchanged": true,
+    "before": "0635f0be10ed22bbf1c0eb4d41676d95ae4b917e9e9cabff127ed53f0f771edc",
+    "after": "0635f0be10ed22bbf1c0eb4d41676d95ae4b917e9e9cabff127ed53f0f771edc"
+  },
+  {
+    "file": "vintage-fender-precision-bass-value-guide/index.html",
+    "unchanged": true,
+    "before": "f0cfc67307bb972acfaa37b9b87522e11c17c2bc2e96688b26221a95e585466c",
+    "after": "f0cfc67307bb972acfaa37b9b87522e11c17c2bc2e96688b26221a95e585466c"
+  },
+  {
+    "file": "vintage-fender-stratocaster-value-guide/index.html",
+    "unchanged": true,
+    "before": "c179c67de4ebfaa1e8308b7fd0a5d2f169ca08c4cadf597c0c5887f8d5b66746",
+    "after": "c179c67de4ebfaa1e8308b7fd0a5d2f169ca08c4cadf597c0c5887f8d5b66746"
+  },
+  {
+    "file": "vintage-fender-telecaster-value-guide/index.html",
+    "unchanged": true,
+    "before": "c52a37462ae6efbf396ec91a0c92d18124e8b5cb8db1af519f6a7eac7a7058b3",
+    "after": "c52a37462ae6efbf396ec91a0c92d18124e8b5cb8db1af519f6a7eac7a7058b3"
+  },
+  {
+    "file": "vintage-fender-value-guide/index.html",
+    "unchanged": true,
+    "before": "35c338f1b83fc0f5037adf5638e8d6ef88f7fa5478247e79ae12a42721bd028d",
+    "after": "35c338f1b83fc0f5037adf5638e8d6ef88f7fa5478247e79ae12a42721bd028d"
+  },
+  {
+    "file": "vintage-gibson-acoustic-value-guide/index.html",
+    "unchanged": true,
+    "before": "d6d7f953c4a0e8b7355a532c141c72ce5015e909af6db2481521f047dd274c68",
+    "after": "d6d7f953c4a0e8b7355a532c141c72ce5015e909af6db2481521f047dd274c68"
+  },
+  {
+    "file": "vintage-gibson-country-western-value-guide/index.html",
+    "unchanged": true,
+    "before": "e4048b96d202860b266776f1fe0f65ccd9df7869a7e1460188ca1e6533553eb9",
+    "after": "e4048b96d202860b266776f1fe0f65ccd9df7869a7e1460188ca1e6533553eb9"
+  },
+  {
+    "file": "vintage-gibson-dove-value-guide/index.html",
+    "unchanged": true,
+    "before": "9074d723c849b288bae9deb3555f1fb2849a36c10d9ce2bec1c38798d2298644",
+    "after": "9074d723c849b288bae9deb3555f1fb2849a36c10d9ce2bec1c38798d2298644"
+  },
+  {
+    "file": "vintage-gibson-es-125-value-guide/index.html",
+    "unchanged": true,
+    "before": "a6ead82f0e1b3c451f8f3b416a332c86c60f699bdbc5bda1e2144d9dae507d30",
+    "after": "a6ead82f0e1b3c451f8f3b416a332c86c60f699bdbc5bda1e2144d9dae507d30"
+  },
+  {
+    "file": "vintage-gibson-es-330-value-guide/index.html",
+    "unchanged": true,
+    "before": "c6c2be355bec04cc68079b2757a039f6d511baee4b8c005124d30d38120dc7c9",
+    "after": "c6c2be355bec04cc68079b2757a039f6d511baee4b8c005124d30d38120dc7c9"
+  },
+  {
+    "file": "vintage-gibson-es-335-value-guide/index.html",
+    "unchanged": true,
+    "before": "dc76bdd0cf2530c93463ca0b03a344861c9d9b1c8478ce610c69e55e9686ce90",
+    "after": "dc76bdd0cf2530c93463ca0b03a344861c9d9b1c8478ce610c69e55e9686ce90"
+  },
+  {
+    "file": "vintage-gibson-es-355-value-guide/index.html",
+    "unchanged": true,
+    "before": "6db9bf5c0d38ee922551f9f0a44df9c419183ccfcb181f44fc06bbd14ac7c692",
+    "after": "6db9bf5c0d38ee922551f9f0a44df9c419183ccfcb181f44fc06bbd14ac7c692"
+  },
+  {
+    "file": "vintage-gibson-j-200-value-guide/index.html",
+    "unchanged": true,
+    "before": "bb742aefbb5908fadb5dbf31e42526dc7a37fe0773b7c4d56c0085aecd01ca09",
+    "after": "bb742aefbb5908fadb5dbf31e42526dc7a37fe0773b7c4d56c0085aecd01ca09"
+  },
+  {
+    "file": "vintage-gibson-j-45-value-guide/index.html",
+    "unchanged": true,
+    "before": "37f51bf53b66696f7f3f3cbfd933d36ab3d8dc15e48078bc28e265db4131b057",
+    "after": "37f51bf53b66696f7f3f3cbfd933d36ab3d8dc15e48078bc28e265db4131b057"
+  },
+  {
+    "file": "vintage-gibson-l-0-l-00-value-guide/index.html",
+    "unchanged": true,
+    "before": "55b06d3e307cd6c3efbea3d9e9e92c5e96e7aa0080e8e2eb21f7169de8aa600f",
+    "after": "55b06d3e307cd6c3efbea3d9e9e92c5e96e7aa0080e8e2eb21f7169de8aa600f"
+  },
+  {
+    "file": "vintage-gibson-les-paul-custom-value-guide/index.html",
+    "unchanged": true,
+    "before": "febe79d6d70ca25d65c186ef3ce4cd0a7f7958f05f2b7d79d85a0f6ff9f15652",
+    "after": "febe79d6d70ca25d65c186ef3ce4cd0a7f7958f05f2b7d79d85a0f6ff9f15652"
+  },
+  {
+    "file": "vintage-gibson-les-paul-junior-value-guide/index.html",
+    "unchanged": true,
+    "before": "b760361cb6eab9d0b0deaca278f0e73ea4bf0e4d23dc130f777e1f2f842b1907",
+    "after": "b760361cb6eab9d0b0deaca278f0e73ea4bf0e4d23dc130f777e1f2f842b1907"
+  },
+  {
+    "file": "vintage-gibson-les-paul-market-value-guide/index.html",
+    "unchanged": true,
+    "before": "44faa7f2966d49732fc46ac4367cc13ec9db5dcda6413a9ff5e81d4c7b78fb88",
+    "after": "44faa7f2966d49732fc46ac4367cc13ec9db5dcda6413a9ff5e81d4c7b78fb88"
+  },
+  {
+    "file": "vintage-gibson-les-paul-special-value-guide/index.html",
+    "unchanged": true,
+    "before": "c4e45ffd1278a06cc622cff9dcc2c81ca3329b4961def07cc42349dbe2cd8839",
+    "after": "c4e45ffd1278a06cc622cff9dcc2c81ca3329b4961def07cc42349dbe2cd8839"
+  },
+  {
+    "file": "vintage-gibson-lg-series-value-guide/index.html",
+    "unchanged": true,
+    "before": "c8f546aebe56ec04b021fad4d842f7ac684c2c28a75e51894003c1fd15331f73",
+    "after": "c8f546aebe56ec04b021fad4d842f7ac684c2c28a75e51894003c1fd15331f73"
+  },
+  {
+    "file": "vintage-gibson-sg-custom-value-guide/index.html",
+    "unchanged": true,
+    "before": "f958de49178c80b504fde9798ec2035fa1c164e1b36d7435dd78247089b1035f",
+    "after": "f958de49178c80b504fde9798ec2035fa1c164e1b36d7435dd78247089b1035f"
+  },
+  {
+    "file": "vintage-gibson-sg-junior-value-guide/index.html",
+    "unchanged": true,
+    "before": "2ddb2949851614d1705211cf01902ec649d65a533322c5706f1c80bbd41f3f9d",
+    "after": "2ddb2949851614d1705211cf01902ec649d65a533322c5706f1c80bbd41f3f9d"
+  },
+  {
+    "file": "vintage-gibson-sg-special-value-guide/index.html",
+    "unchanged": true,
+    "before": "c3c9038f90c848ee63f019e572007e8ae1c02a1932b5b5b5f6cc2995f732942e",
+    "after": "c3c9038f90c848ee63f019e572007e8ae1c02a1932b5b5b5f6cc2995f732942e"
+  },
+  {
+    "file": "vintage-gibson-sg-standard-value-guide/index.html",
+    "unchanged": true,
+    "before": "123cdebcfc5e0fe1ed6d3182a2fcb5b422c4f031e868ae8f44512772e28434b7",
+    "after": "123cdebcfc5e0fe1ed6d3182a2fcb5b422c4f031e868ae8f44512772e28434b7"
+  },
+  {
+    "file": "vintage-gibson-sg-value-guide/index.html",
+    "unchanged": true,
+    "before": "33cb0daaa762f28e033a57c10ed580e730979d49abd86e40ac612b271661bef9",
+    "after": "33cb0daaa762f28e033a57c10ed580e730979d49abd86e40ac612b271661bef9"
+  },
+  {
+    "file": "vintage-gibson-southern-jumbo-value-guide/index.html",
+    "unchanged": true,
+    "before": "5f82c919f5ab48198c4cecfb35900c4a06a2b341d9c50af0691799e27aded9e0",
+    "after": "5f82c919f5ab48198c4cecfb35900c4a06a2b341d9c50af0691799e27aded9e0"
+  },
+  {
+    "file": "vintage-gibson-value-guide/index.html",
+    "unchanged": true,
+    "before": "c2d0c6815145af7cb8fccae72766fe92823c08f380652a85f59679fb63238580",
+    "after": "c2d0c6815145af7cb8fccae72766fe92823c08f380652a85f59679fb63238580"
+  },
+  {
+    "file": "what-brand-is-my-guitar/index.html",
+    "unchanged": true,
+    "before": "826cb8802d04bc6cc8d73d739fb8114237cfe5c8b9cbdc329560aeb50e810c96",
+    "after": "826cb8802d04bc6cc8d73d739fb8114237cfe5c8b9cbdc329560aeb50e810c96"
+  },
+  {
+    "file": "what-guitar-do-i-have/index.html",
+    "unchanged": true,
+    "before": "cc093227b598e2531f03b02aae5cfddc99dcebbc174c4db27bbf263344e6217a",
+    "after": "cc093227b598e2531f03b02aae5cfddc99dcebbc174c4db27bbf263344e6217a"
+  },
+  {
+    "file": "what-lowers-vintage-guitar-value/index.html",
+    "unchanged": true,
+    "before": "1160a76afa6f8d991356f618d40ecdf6bf56a773867c8738ffd2db9bc87b03fb",
+    "after": "1160a76afa6f8d991356f618d40ecdf6bf56a773867c8738ffd2db9bc87b03fb"
+  },
+  {
+    "file": "where-to-sell-vintage-guitar-phoenix/index.html",
+    "unchanged": true,
+    "before": "8ac430c21c9d4191dd9759e59b92c8682a5a441cc7c317a39adcaa2b5ec4afef",
+    "after": "8ac430c21c9d4191dd9759e59b92c8682a5a441cc7c317a39adcaa2b5ec4afef"
+  },
+  {
+    "file": "blog/page/10/index.html",
+    "unchanged": false,
+    "before": "d4b31b7f80da398646fde8ec91d7ee197be5f06d530a3802d4f5c2a29f7566ba",
+    "after": "61d716744b3d00376e6d4695c9212a2907c66f6b1315805d18498832eceff3fd"
+  },
+  {
+    "file": "blog/page/11/index.html",
+    "unchanged": false,
+    "before": "9386151705daa35272974ad76a637c1aa4ac5e3c5e041a98a2b24089f439502c",
+    "after": "4cc203df51b0bd34ca91055f0a1594f9de0953c80f99957569350b8e19066682"
+  },
+  {
+    "file": "blog/page/12/index.html",
+    "unchanged": false,
+    "before": "e0585b49e61a99cc207bfd7ae7deb2cc558955dcaa45aa1ec631e46b0e8caf4d",
+    "after": "127dda650fe60215732a3f6c20c44b824106166ceeca7784a80babc47f23c1df"
+  },
+  {
+    "file": "blog/page/13/index.html",
+    "unchanged": false,
+    "before": "e44b43f41f815e909605c2c3227e803146a7ccae1c52fa75667f2e7a6cb984bb",
+    "after": "2efa0e5ff842be865b32e861fe257a34f1cce60467e6287c9c1af713d87f6335"
+  },
+  {
+    "file": "blog/page/14/index.html",
+    "unchanged": false,
+    "before": "955455f70fbe6c82882fee0deca020aee74a8a7dac18b6e35a8efdd83ce5338c",
+    "after": "78da5d027921836e3f54f1fd2a90e103704caaf108fc63898025c172da1bcbb8"
+  },
+  {
+    "file": "blog/page/15/index.html",
+    "unchanged": false,
+    "before": "a463d215766e68e4f1b5d77513b7999e451eb8246640315cbc404afd9a7b709e",
+    "after": "e02681113623ecbb284c62f60ad643bbd770169129dd411bb363f7b6e4df2db5"
+  },
+  {
+    "file": "blog/page/16/index.html",
+    "unchanged": false,
+    "before": "c44cf3ab70da695b9d6c12b632288be195976cf2e0eae79b33e1d28791a72f4f",
+    "after": "8d766cd9ec5accce3303337971cde6a13f2825c6dc80b8c1c0e849d4e96c685a"
+  },
+  {
+    "file": "blog/page/17/index.html",
+    "unchanged": false,
+    "before": "c2c39863d31eba34d967cef52109aeda1d8afed6e716ad90a1838ea93cfb150d",
+    "after": "bdb92881159b6c38f775b724d550b93cdd4acf964df14c16f36b0fc7d27b6e40"
+  },
+  {
+    "file": "blog/page/18/index.html",
+    "unchanged": false,
+    "before": "4d0c0710177e38ad2981523f9936b031e98cc96563873f9ad3ef5a7a16770780",
+    "after": "1d3ec06c021954fef6edbb580847ad49002053176742f5f86361dc1e15182280"
+  },
+  {
+    "file": "blog/page/19/index.html",
+    "unchanged": false,
+    "before": "234fd2f839aefa3199f7859cc2bb02fd9248dfbeb19942a5552650f640df2cfd",
+    "after": "55164d6c4f265af8a9cec45e2deefda5e6f22397c64aebfd7436772f9732aa3f"
+  },
+  {
+    "file": "blog/page/2/index.html",
+    "unchanged": false,
+    "before": "15e0aa122f08ecf032384e7e501b41092caebfe879bf0b36ac21d5132bfa95ed",
+    "after": "af623c302fef092372e8f8b4f5c6a903a1b6fd5f2ddc1be9c70a5da37597541e"
+  },
+  {
+    "file": "blog/page/20/index.html",
+    "unchanged": false,
+    "before": "579393e38be51ec8513ab8fdcb70b3defeb6649adabf0da23451479bdf577fb1",
+    "after": "6b34fb16f1d05693db79000a6305a554a8fb081b5986a1e0d64adf54a202bbeb"
+  },
+  {
+    "file": "blog/page/21/index.html",
+    "unchanged": false,
+    "before": "76eb2a885694a826713e58498d5e724471ac5eb84ef7e9e80a1c0fd943340d74",
+    "after": "974eb11671d198109eb3e5038732c3c33b9c1691380371842be63ac8fc5d0ff8"
+  },
+  {
+    "file": "blog/page/22/index.html",
+    "unchanged": false,
+    "before": "c679fb98d8c954facb157d9ba7ba7e1df55f9f86f2f4327ea6789df8fb4bef4b",
+    "after": "1a085143b09ad6f0a3052a4ebe61c25c9338cc9f9b3ad84705625fa28bb864b9"
+  },
+  {
+    "file": "blog/page/23/index.html",
+    "unchanged": false,
+    "before": "4480bbfa4548192092638e5534944f264096d5f4cde69219a53bf99756b7f12d",
+    "after": "b1e1f7496997417fea7a3a478659c49056eacd15067af05586e4b0afc2028a2c"
+  },
+  {
+    "file": "blog/page/24/index.html",
+    "unchanged": false,
+    "before": "03535a2c97e3ef6737dd8e0e6a69cd228a99a7dbd5c4e61287d360802d8fd18a",
+    "after": "fc5a16b9db4bc10d9aa2efad4ed6347ed68efc793062274433b8e9b493c98636"
+  },
+  {
+    "file": "blog/page/25/index.html",
+    "unchanged": false,
+    "before": "d3221d8dd61e14ccf3d23c2d2ff43699906e663baa48239f13e5106d6c85645e",
+    "after": "daedd473f99306421cb4f41b18029afd609cc887b98bb494b9f4227a3a3f727f"
+  },
+  {
+    "file": "blog/page/26/index.html",
+    "unchanged": false,
+    "before": "158c4f0ff319da350e595c835929db425495d789744413585a50c58e912a4d84",
+    "after": "a32d1f5fd6adc1fa512e4cde59eb58422bbc821f4ca0a3b77e11457918652e15"
+  },
+  {
+    "file": "blog/page/3/index.html",
+    "unchanged": false,
+    "before": "7d5e77e60a241e94183bfc1ba0f09b1203e6ca745af7b8ea2bd58f79c2d24c30",
+    "after": "cc4c544f09d9cf264e1420832bd9b3736ecf1b22bbc684a4f75a69a2662e566f"
+  },
+  {
+    "file": "blog/page/4/index.html",
+    "unchanged": false,
+    "before": "a3a5cccd38c581453b6ffc84c81d8740bb0d5456eccd980be94c508acd9ee5a3",
+    "after": "9a9e2730c18c4bd9a9a80d44ea7463a7faff23f2c951a6778d204039b0544be8"
+  },
+  {
+    "file": "blog/page/5/index.html",
+    "unchanged": false,
+    "before": "9c612cef7c6e176333dc67eff1a00de20460e82c714d446c80dae4dc18c4c58e",
+    "after": "aa1b0b97b8242141a437eec85cdbb9c7cb3971a6d89ca7121c5c35302bbf1ab8"
+  },
+  {
+    "file": "blog/page/6/index.html",
+    "unchanged": false,
+    "before": "1bd40732a9b7af685c2e7a866d86daa7038c3c36fd0965ea3fe2ab77961094e8",
+    "after": "e16bee7309c6e0784a9302ec421366419fe02a4ce017ba223839d3669e83f9d8"
+  },
+  {
+    "file": "blog/page/7/index.html",
+    "unchanged": false,
+    "before": "cab79302d2e28051918cdb2b6a9f6166e59b1239700494b5c44978162c1b24a0",
+    "after": "19375b4dc342a684036853898a603ca9527de20464eb0f7e9727ec1da3de4e7c"
+  },
+  {
+    "file": "blog/page/8/index.html",
+    "unchanged": false,
+    "before": "c67c0ade538ed9907ce1c2d1adca603995f8a87708ae1b1edcdce433f5e1063c",
+    "after": "1ec8a5b59f3aacafecc14299da53c1ad4c2d1df9643c0351a1dcead76279c375"
+  },
+  {
+    "file": "blog/page/9/index.html",
+    "unchanged": false,
+    "before": "38c15f024cf7605195f6e745fa8e584b1150735713f60dac7fa0e35521fd1d4c",
+    "after": "48f3d977a7b5c82f4236a9d26dc06d5ade06c6f5f7ee6a367be7b63bc1a132d0"
+  },
+  {
+    "file": "category/guitar-gear-and-tone/index.html",
+    "unchanged": false,
+    "before": "fbf16a6fae56f2244821400506bb7012483b7dc33d03371c4db9c4706647484b",
+    "after": "237aa757bde248f542e57b661e27520b2b17a63ff8253e596bfb6bbb400cbcff"
+  },
+  {
+    "file": "category/museum-original-owners/index.html",
+    "unchanged": false,
+    "before": "98fb367c1ccb94bf517be6436aa07a0a9e92d140e3ee8e5bab72d1c61e0bfd74",
+    "after": "ee8ff7fad2c90a9b04c39ee4d9e88a1a9ccf55978624b9828bb75037ddb99e57"
+  },
+  {
+    "file": "category/serial-number-dating-guides/index.html",
+    "unchanged": false,
+    "before": "332e3b164da7a32ca8b5bb8d417ec989459dda7f7fb955872295ed25bf69a20a",
+    "after": "3ff754069d560fc5e83ca497af897600d2e4ad6f72a0a308bfd4d329ff2b88ed"
+  },
+  {
+    "file": "category/specific-model-highlights/index.html",
+    "unchanged": false,
+    "before": "31a318d33bcfde02f7e185083a210865b9187ab61b739ddf2366061d1d95236e",
+    "after": "a5ce3589288074e30578596899963b76196f84e16482c2d41409b4ac2f5c9ef8"
+  },
+  {
+    "file": "category/value-evaluation/index.html",
+    "unchanged": false,
+    "before": "0ee8457c576c52373333303f0a3686917921386c5dbb343d578ff29a98fda6c0",
+    "after": "7785411a62ebe9a5272a2467fb6b3229594f928b9ad6873eb1d0caf762de7a75"
+  },
+  {
+    "file": "category/museum-original-owners/page/2/index.html",
+    "unchanged": false,
+    "before": "c0c7471088f157494c0727631a4804e8dc0362a44f501ec59effc52e5041c27c",
+    "after": "30cec4c73860cf1c479b1d9c627769afd4e59819c1a105d00f512fddf6ace0d1"
+  },
+  {
+    "file": "category/serial-number-dating-guides/page/2/index.html",
+    "unchanged": false,
+    "before": "1fd00c9ba9fa79fb137f9eea51b5bbd7e946026a54238937e1ac9ee48ae62b02",
+    "after": "2c963938c62c63287bf4f4efbcfd2391ebd27286ca28c9ca8894da0af006759f"
+  },
+  {
+    "file": "category/serial-number-dating-guides/page/3/index.html",
+    "unchanged": false,
+    "before": "9c6eb92cdf3fba5a364ae6bd239907973f072d7b4d92e6da4838f9276c38b487",
+    "after": "23c7dc81323e095556ff7274a1444c167a3ecd5540bed87be019db78b88aae9b"
+  },
+  {
+    "file": "category/serial-number-dating-guides/page/4/index.html",
+    "unchanged": false,
+    "before": "ff57a4b80364dce93e59a3286d0a43e8802de75d2efcc73286bb06a5f511e694",
+    "after": "57d3a23b105f2a781742170f29a79d4a63aafcd36487231a984ce44c2a35a874"
+  },
+  {
+    "file": "category/serial-number-dating-guides/page/5/index.html",
+    "unchanged": false,
+    "before": "12fbbf1bc4a0fe94a0d16960d212ab9e902cd0e15c7a97a08297ddeee0046220",
+    "after": "da45695b5b3051eafb4488c9e3672839386537892827cb2658254d639d61b211"
+  },
+  {
+    "file": "category/serial-number-dating-guides/page/6/index.html",
+    "unchanged": false,
+    "before": "d73fc15217c84dfd75b3e89c51af3c3e1a189d67b9077633e74744044534ad6a",
+    "after": "8d6e5c4df7901094000938f275b22550d19ea2b7bd616f7905517f5da8d47b5e"
+  },
+  {
+    "file": "category/serial-number-dating-guides/page/7/index.html",
+    "unchanged": false,
+    "before": "a52837d3001709db155fd6e9ef04e228c456a862b3d1471b771808c5dad54e67",
+    "after": "eff12dd9f667c048d66a23f582e512d395b63d7227c490ef3eac709b54890ceb"
+  },
+  {
+    "file": "category/specific-model-highlights/page/10/index.html",
+    "unchanged": false,
+    "before": "873eabd76d19a5d96f0213ea6b69b023d19f2d26300a4934caed87c96d296a2d",
+    "after": "1e66f2c93d66c680d8cff86083c0d0e9847d97ddedb8101b38ec2727ca02a811"
+  },
+  {
+    "file": "category/specific-model-highlights/page/11/index.html",
+    "unchanged": false,
+    "before": "fb22b97ab8f481f047319541fa33957b1c3306052d93e63210b96c76c63fb241",
+    "after": "4bece6ee32772ea8eb754a46f39a95155476ba3544481891dabcb38e366b7f56"
+  },
+  {
+    "file": "category/specific-model-highlights/page/12/index.html",
+    "unchanged": false,
+    "before": "19fc75d236f0c5be6287d94c15d939271d9313fa23a70a8231a63dacb115772e",
+    "after": "b1a5716e934d4009b05cafc6c52feaa0ec3b9224462cbb4a398225168ffd7210"
+  },
+  {
+    "file": "category/specific-model-highlights/page/13/index.html",
+    "unchanged": false,
+    "before": "17c5e74fbc700151e2ceb053ab3163b517de7e14b813db0a53d91c9f90c86bde",
+    "after": "8b6568108213a11341acb9e9c7b42793e1196c40f68031d6a6ac6bbd19c780a3"
+  },
+  {
+    "file": "category/specific-model-highlights/page/14/index.html",
+    "unchanged": false,
+    "before": "03916a7222bdaf101ccd73fa1eb1ffb123e93e4a4954f53d49998450894f3df3",
+    "after": "7f9793722ca48187d9832e5cce37f8b4cbb424d6cc16e72f7ebe2d36dbcd15bb"
+  },
+  {
+    "file": "category/specific-model-highlights/page/2/index.html",
+    "unchanged": false,
+    "before": "2dd74b233390a721672a20cdcad3de28efa79e6eedeedab17b543f2ae2f7d7a4",
+    "after": "927fe4c1a2e3f5f4f72e742d249f4b9aca8f1e52e1576aa45f1f0f50934d157f"
+  },
+  {
+    "file": "category/specific-model-highlights/page/3/index.html",
+    "unchanged": false,
+    "before": "23980627296607e56a68ee34e56481d5d7c435c7348610e6aaa5cb5a7ff5ade2",
+    "after": "7e7295ffd74a99e3645411856aed1e56c6f787f6d4d9b740e7d1d0419ae2efde"
+  },
+  {
+    "file": "category/specific-model-highlights/page/4/index.html",
+    "unchanged": false,
+    "before": "02fff6d4b43a97e4b14a6761db8de9f00ac4ebe4fc075877f1fe31582e22d716",
+    "after": "625d572ff7305497fb68c8dd6e029620e5b7f3749f1b582367b8a636e9a159d9"
+  },
+  {
+    "file": "category/specific-model-highlights/page/5/index.html",
+    "unchanged": false,
+    "before": "6af8a5df4b8af9a81b81c200441fd0e67d69c65bff69179d9ae3db499b5c7850",
+    "after": "938546d79c2e78c636120e96cf7f81bbdbb352314d167b79fcd0a72a181941d5"
+  },
+  {
+    "file": "category/specific-model-highlights/page/6/index.html",
+    "unchanged": false,
+    "before": "71573cd381b2bc331b5295e142c39b97522e787d1438afae75b3970bcb432f1c",
+    "after": "1a0169be4798682ac1a4dcfbfdb0e8da4aaf1b5d473a987bd7e225130928dc8c"
+  },
+  {
+    "file": "category/specific-model-highlights/page/7/index.html",
+    "unchanged": false,
+    "before": "fabbbb5da4ef9e89581a8924e2179e5500f487d0d98566a50b8e047825fcf9e6",
+    "after": "69caa100a485959aea18b7a8e2f9b9c0c1b6ba51aa81b2b6c00c3c7f4da9dd42"
+  },
+  {
+    "file": "category/specific-model-highlights/page/8/index.html",
+    "unchanged": false,
+    "before": "7e3597ae09a595af6b76b7c88ca108da4658e474b925bf099c076056df63fc78",
+    "after": "978c8c1cfbc11c3f131bc053984afdff2a3e83d73064140767b64e6e3ca8c889"
+  },
+  {
+    "file": "category/specific-model-highlights/page/9/index.html",
+    "unchanged": false,
+    "before": "c6d4f3d71bf83a4f8a76033ec94f8ab4b1a513980032ebf2f0f5eca978dca9bf",
+    "after": "142cc2c0c477705dcd87d4465e524967f8ecd70e5ac0ddf95758abd5a7904434"
+  },
+  {
+    "file": "category/value-evaluation/page/10/index.html",
+    "unchanged": false,
+    "before": "235f23bd20322408eab626ae0e19720611a1c6c0cd6c0027891d9e09c1f730b8",
+    "after": "b684de81c040ea4e92945f5651c7737845e0d2f2f77a0e89b2d2e27dbc803403"
+  },
+  {
+    "file": "category/value-evaluation/page/2/index.html",
+    "unchanged": false,
+    "before": "e59014b5504f53fb25e2099733f021e6048cab163316b086db24940b7d04cd05",
+    "after": "88f6de2e19c94715af6ff7d86af38cfb2ade8be853db042906c0f5fc12012b29"
+  },
+  {
+    "file": "category/value-evaluation/page/3/index.html",
+    "unchanged": false,
+    "before": "cdb86790f2981b5a56af8771ffef5f2c58b9af199f1ef2ab7e93ee7140baa4bf",
+    "after": "ac97ce7c4649a3d56d6ca0522075b51ffcc9998cd55fef1cf0a17ee52d0ac281"
+  },
+  {
+    "file": "category/value-evaluation/page/4/index.html",
+    "unchanged": false,
+    "before": "aee562edf5a1c293419cbf9bfc6424214cce797661b3a4ba9ada90b89aa38868",
+    "after": "a59775988413722974aa108a7141932a4b05885a7b9cb66f6c187a53496eac2e"
+  },
+  {
+    "file": "category/value-evaluation/page/5/index.html",
+    "unchanged": false,
+    "before": "eb033561dd529b86e908733287c7982ba02e96ddee6cd4d4f1a641d7d894b7b3",
+    "after": "26f3e9a54f362e16b20e7b87a2f2e062161652b31f711050934e4cc5135f5eda"
+  },
+  {
+    "file": "category/value-evaluation/page/6/index.html",
+    "unchanged": false,
+    "before": "3a1c77d47d2ee27a6e9c196e6c0e5d792f6f533baef667a4abdbc8c62127b7c2",
+    "after": "ca4b68c34bd03135e2b3542dd755efe824d4df025c9e2bd085193aaba1569230"
+  },
+  {
+    "file": "category/value-evaluation/page/7/index.html",
+    "unchanged": false,
+    "before": "570e07d61546dbd0c4a75afed9b46fc48b941064ec7b176e812bccd9cb259d3e",
+    "after": "243d5742d9dcec1efd7d1b250e5942a4dd9ec46acf3c067af49910fd1d2085f2"
+  },
+  {
+    "file": "category/value-evaluation/page/8/index.html",
+    "unchanged": false,
+    "before": "327beac34cc06cb42154a2e0bb91ce0de1607a5d0566b4e9bd568a632ab67a17",
+    "after": "e11264f3cd2f90dea430c9692b4e2235f53c622439939a8be8d75549d7e79a0d"
+  },
+  {
+    "file": "category/value-evaluation/page/9/index.html",
+    "unchanged": false,
+    "before": "39616026263f26d0e739d3812c06dc5723c423aa36af7272f1b40c11c152a99f",
+    "after": "2bbd1215aef01a2bd826145fdf4c0ea9a2a9d1501efb59484d9ccc51b965f6a6"
+  },
+  {
+    "file": "free-appraisal/fender/index.html",
+    "unchanged": true,
+    "before": "91460d70fe2c9e9cc3c5a97e3820107e0e240c187fd0ae42c08f5d3e4de13851",
+    "after": "91460d70fe2c9e9cc3c5a97e3820107e0e240c187fd0ae42c08f5d3e4de13851"
+  },
+  {
+    "file": "free-appraisal/gibson/index.html",
+    "unchanged": true,
+    "before": "f801390225922cd39018b9f4fc9ef5ec827edc3f5ea1fa03234dccc26789586c",
+    "after": "f801390225922cd39018b9f4fc9ef5ec827edc3f5ea1fa03234dccc26789586c"
+  },
+  {
+    "file": "free-appraisal/gretsch/index.html",
+    "unchanged": true,
+    "before": "0fe1e759a2fa65eca27a717e05b24ad3e86f9ed2ff86ce243b46d276604bebd6",
+    "after": "0fe1e759a2fa65eca27a717e05b24ad3e86f9ed2ff86ce243b46d276604bebd6"
+  },
+  {
+    "file": "free-appraisal/guild/index.html",
+    "unchanged": true,
+    "before": "d0e8db9de6a30f61cf2785217245fbe8cc00f9a1ab279be3911b488dfaa638bb",
+    "after": "d0e8db9de6a30f61cf2785217245fbe8cc00f9a1ab279be3911b488dfaa638bb"
+  },
+  {
+    "file": "free-appraisal/martin/index.html",
+    "unchanged": true,
+    "before": "cc0e1b2bcdf786463b46bd3a5a481a1fd894289fbe44a1d86116669eb6a87c55",
+    "after": "cc0e1b2bcdf786463b46bd3a5a481a1fd894289fbe44a1d86116669eb6a87c55"
+  },
+  {
+    "file": "free-appraisal/rickenbacker/index.html",
+    "unchanged": true,
+    "before": "4e4a42a07d8b35f14b7b470602f76f2e2e205b400b9f46b7cb2eb2588ad03bcc",
+    "after": "4e4a42a07d8b35f14b7b470602f76f2e2e205b400b9f46b7cb2eb2588ad03bcc"
+  },
+  {
+    "file": "post/1952-fender-precision-bass-guide/index.html",
+    "unchanged": true,
+    "before": "c23f48477be046949aed02adf704928147a0179910be1e0f27e2918ae915dc24",
+    "after": "c23f48477be046949aed02adf704928147a0179910be1e0f27e2918ae915dc24"
+  },
+  {
+    "file": "post/1952-fender-telecaster-authentication-guide/index.html",
+    "unchanged": true,
+    "before": "bc00d81aa02b46dea69a6f44f1eab5a743aa965cab3ba55c1fbfd3144748e09c",
+    "after": "bc00d81aa02b46dea69a6f44f1eab5a743aa965cab3ba55c1fbfd3144748e09c"
+  },
+  {
+    "file": "post/1954-gibson-l5c-california-session-musician/index.html",
+    "unchanged": true,
+    "before": "038b9a87006532229656b624dcc205e9f5ce617a1bbeeacda7089184cb9cc831",
+    "after": "038b9a87006532229656b624dcc205e9f5ce617a1bbeeacda7089184cb9cc831"
+  },
+  {
+    "file": "post/1954-gibson-les-paul-goldtop-authentication-guide/index.html",
+    "unchanged": true,
+    "before": "9e84a70381a32e440a26c3e2a337b7487ed226dc54f068467426db1afdd098fe",
+    "after": "9e84a70381a32e440a26c3e2a337b7487ed226dc54f068467426db1afdd098fe"
+  },
+  {
+    "file": "post/1955-1958-tv-yellow-les-paul-special-guide/index.html",
+    "unchanged": true,
+    "before": "b77c79af9c7e449dc2fd808a3e0b6818fce91745e810a58499407d3a682f39de",
+    "after": "b77c79af9c7e449dc2fd808a3e0b6818fce91745e810a58499407d3a682f39de"
+  },
+  {
+    "file": "post/1956-les-paul-goldtop-authentication-guide/index.html",
+    "unchanged": true,
+    "before": "42c4d07ce01aae1c233af685ce3a7f2fe4b42a4a87256352626df5e1e2f509f3",
+    "after": "42c4d07ce01aae1c233af685ce3a7f2fe4b42a4a87256352626df5e1e2f509f3"
+  },
+  {
+    "file": "post/1957-les-paul-goldtop-guide/index.html",
+    "unchanged": true,
+    "before": "f4d31cdd45d3da6979dfd3c09f1cc4c380c3d0e0d829864f3cf25f213c0061d1",
+    "after": "f4d31cdd45d3da6979dfd3c09f1cc4c380c3d0e0d829864f3cf25f213c0061d1"
+  },
+  {
+    "file": "post/1958-gibson-les-paul-standard-guide/index.html",
+    "unchanged": true,
+    "before": "e5e62d45360de24a2dc1082abe118efb9bbe46a953158e2e76db02274d98a9fa",
+    "after": "e5e62d45360de24a2dc1082abe118efb9bbe46a953158e2e76db02274d98a9fa"
+  },
+  {
+    "file": "post/1959-fender-telecaster-authentication-guide/index.html",
+    "unchanged": true,
+    "before": "cfbaa6e9799329f95fa5a74d07d8e936c0a15855943c6b89342477241d7af011",
+    "after": "cfbaa6e9799329f95fa5a74d07d8e936c0a15855943c6b89342477241d7af011"
+  },
+  {
+    "file": "post/1959-gibson-es-335-authentication-guide/index.html",
+    "unchanged": true,
+    "before": "1062532dc452bab74c456c6d3e72151370277e62b7686ff3d74de9b131267377",
+    "after": "1062532dc452bab74c456c6d3e72151370277e62b7686ff3d74de9b131267377"
+  },
+  {
+    "file": "post/1959-gibson-es-355-history-value/index.html",
+    "unchanged": true,
+    "before": "419d2674a88b54f0cf02bcc94a67164a0fd4c212bdd04cefb0df1270e266a770",
+    "after": "419d2674a88b54f0cf02bcc94a67164a0fd4c212bdd04cefb0df1270e266a770"
+  },
+  {
+    "file": "post/1959-gibson-les-paul-standard-guide/index.html",
+    "unchanged": true,
+    "before": "b4bb118133b1187a3512747db8ebc6387d7b919377801cd97dbfdfc72036d2f9",
+    "after": "b4bb118133b1187a3512747db8ebc6387d7b919377801cd97dbfdfc72036d2f9"
+  },
+  {
+    "file": "post/1960-gibson-les-paul-standard-guide/index.html",
+    "unchanged": true,
+    "before": "935462371cae580d66e490c3fd76e6dd3ad56d48741b277b83710332aa61ce72",
+    "after": "935462371cae580d66e490c3fd76e6dd3ad56d48741b277b83710332aa61ce72"
+  },
+  {
+    "file": "post/1962-fender-stratocaster-authentication-guide/index.html",
+    "unchanged": true,
+    "before": "f52e6b59fcf529a7bbd28691d9d3540f05523ccd25b3984b6c18a22e94e01cfd",
+    "after": "f52e6b59fcf529a7bbd28691d9d3540f05523ccd25b3984b6c18a22e94e01cfd"
+  },
+  {
+    "file": "post/1962-gibson-es-335-guide/index.html",
+    "unchanged": true,
+    "before": "b92828a153ebb91fe6f694ca61cb1d300d50539915765807f91d37e2ec2700e5",
+    "after": "b92828a153ebb91fe6f694ca61cb1d300d50539915765807f91d37e2ec2700e5"
+  },
+  {
+    "file": "post/1963-fender-stratocaster-authentication-guide/index.html",
+    "unchanged": true,
+    "before": "882511727c6c568d4874df63caf8e7282fa73b06d28f51706bab7917a1b1e61c",
+    "after": "882511727c6c568d4874df63caf8e7282fa73b06d28f51706bab7917a1b1e61c"
+  },
+  {
+    "file": "post/1965-gibson-es-335-short-maestro-vibrola/index.html",
+    "unchanged": true,
+    "before": "43b3063696034951d778c608fd96e20e5bf20fb31eaeefb83d6a3fcfa3e1f524",
+    "after": "43b3063696034951d778c608fd96e20e5bf20fb31eaeefb83d6a3fcfa3e1f524"
+  },
+  {
+    "file": "post/1966-fender-stratocaster-authentication-guide/index.html",
+    "unchanged": true,
+    "before": "83281309f796de22f3b6c74d8c379517644297b50db0efcc012a8a1679082f00",
+    "after": "83281309f796de22f3b6c74d8c379517644297b50db0efcc012a8a1679082f00"
+  },
+  {
+    "file": "post/1966-gibson-es-335-authentication-guide/index.html",
+    "unchanged": true,
+    "before": "051b6f8cd29e573eb53a16b9e16e449435ec8a80c6f25d65543d4190f12ac800",
+    "after": "051b6f8cd29e573eb53a16b9e16e449435ec8a80c6f25d65543d4190f12ac800"
+  },
+  {
+    "file": "post/1967-fender-stratocaster-authentication-guide/index.html",
+    "unchanged": true,
+    "before": "7fef69fb07e043ce494147243dd18e9f2b3480dc77c03844cb5b14ad3884edf6",
+    "after": "7fef69fb07e043ce494147243dd18e9f2b3480dc77c03844cb5b14ad3884edf6"
+  },
+  {
+    "file": "post/1968-1969-1970-les-paul-custom-dating-guide/index.html",
+    "unchanged": true,
+    "before": "618472005f4f42a3a0a9482e8839e87c8391e00dfa98939fd7355e74afb4c665",
+    "after": "618472005f4f42a3a0a9482e8839e87c8391e00dfa98939fd7355e74afb4c665"
+  },
+  {
+    "file": "post/1968-gibson-es-335-guide/index.html",
+    "unchanged": true,
+    "before": "97427f4d688b0d447bb60b5d3dd1cc91535fdb582b058196d8c3d625460bcb67",
+    "after": "97427f4d688b0d447bb60b5d3dd1cc91535fdb582b058196d8c3d625460bcb67"
+  },
+  {
+    "file": "post/1968-gibson-les-paul-custom-guide/index.html",
+    "unchanged": true,
+    "before": "168c6fc78608212260b5f4c4b8a49d4f9ca328f9b6c95e5b65b57d182d2b4467",
+    "after": "168c6fc78608212260b5f4c4b8a49d4f9ca328f9b6c95e5b65b57d182d2b4467"
+  },
+  {
+    "file": "post/1969-gibson-les-paul-custom-guide/index.html",
+    "unchanged": true,
+    "before": "ef6e3a5072583531ce55f7c71d3f1d797d45ae3659131ba2211e3c0310a0a79c",
+    "after": "ef6e3a5072583531ce55f7c71d3f1d797d45ae3659131ba2211e3c0310a0a79c"
+  },
+  {
+    "file": "post/1970-gibson-les-paul-custom-guide/index.html",
+    "unchanged": true,
+    "before": "a21b6ccd6cd1e564c581c35e9034f45c26ef71136fffee49fe66e219d1d19582",
+    "after": "a21b6ccd6cd1e564c581c35e9034f45c26ef71136fffee49fe66e219d1d19582"
+  },
+  {
+    "file": "post/1973-fender-jazz-bass-vintera-iii/index.html",
+    "unchanged": true,
+    "before": "bb6d82e3289ad26e794caa3547abe27bce8ca80c480fa5ed44abc5f8c42566ed",
+    "after": "bb6d82e3289ad26e794caa3547abe27bce8ca80c480fa5ed44abc5f8c42566ed"
+  },
+  {
+    "file": "post/1976-martin-000-45-specs-history-value-guide/index.html",
+    "unchanged": true,
+    "before": "812d85ef36ceb6ef81aeb90c57741b5cc537b058567cd81340841a0343f0cac8",
+    "after": "812d85ef36ceb6ef81aeb90c57741b5cc537b058567cd81340841a0343f0cac8"
+  },
+  {
+    "file": "post/are-left-handed-vintage-guitars-worth-less/index.html",
+    "unchanged": true,
+    "before": "ea17e0cafd425d939aa8d4c98e4c6afdca6b5870c1cdc7fb0db4ac0e0885e393",
+    "after": "ea17e0cafd425d939aa8d4c98e4c6afdca6b5870c1cdc7fb0db4ac0e0885e393"
+  },
+  {
+    "file": "post/best-online-platforms-sell-vintage-guitars/index.html",
+    "unchanged": true,
+    "before": "b761e7375d392bf07fc6ffae9492481c8880826479746eab1b6e75ce74aa97c2",
+    "after": "b761e7375d392bf07fc6ffae9492481c8880826479746eab1b6e75ce74aa97c2"
+  },
+  {
+    "file": "post/bill-one-owner-1966-fender-jaguar/index.html",
+    "unchanged": true,
+    "before": "c72ef5ddbeae5da2d6ddb6fa87641399e9608906dbc2c637c3291f54b883745c",
+    "after": "c72ef5ddbeae5da2d6ddb6fa87641399e9608906dbc2c637c3291f54b883745c"
+  },
+  {
+    "file": "post/blue-book-of-guitar-values-and-vintage-guitar-price-guide/index.html",
+    "unchanged": true,
+    "before": "e3ffcf74930f47a73acade332c806ea1e8f7d485c202b6415055714311ede134",
+    "after": "e3ffcf74930f47a73acade332c806ea1e8f7d485c202b6415055714311ede134"
+  },
+  {
+    "file": "post/bob-denton-1955-gibson-j200/index.html",
+    "unchanged": true,
+    "before": "d1ddbd0fe27fce4ac71a1362fa04992797c1bf0a5fd4efe2e5b4f392193aa3aa",
+    "after": "d1ddbd0fe27fce4ac71a1362fa04992797c1bf0a5fd4efe2e5b4f392193aa3aa"
+  },
+  {
+    "file": "post/brass-nut-vintage-guitar-tone/index.html",
+    "unchanged": true,
+    "before": "8dbf84a6a917f9c7a5614382edbc0e27e128cd96037016f666995cf926b564a2",
+    "after": "8dbf84a6a917f9c7a5614382edbc0e27e128cd96037016f666995cf926b564a2"
+  },
+  {
+    "file": "post/complete-dot-neck-es-330-guide-1959-1962/index.html",
+    "unchanged": true,
+    "before": "fb62c0b69de89c1a3b0708f99f4071e89761df45ddaabd56b4d8f941f512907d",
+    "after": "fb62c0b69de89c1a3b0708f99f4071e89761df45ddaabd56b4d8f941f512907d"
+  },
+  {
+    "file": "post/epiphone-broadway-authentication-guide/index.html",
+    "unchanged": true,
+    "before": "1455f64b64da2fb2414bcc3a6529ff68a7fd7807e0d47ff13cf191640a1b047a",
+    "after": "1455f64b64da2fb2414bcc3a6529ff68a7fd7807e0d47ff13cf191640a1b047a"
+  },
+  {
+    "file": "post/epiphone-broadway-value-guide/index.html",
+    "unchanged": true,
+    "before": "012d8507d239573fb83da6b0fe1e2570e8a6c40a5710a26ca56526ab4d5c6de5",
+    "after": "012d8507d239573fb83da6b0fe1e2570e8a6c40a5710a26ca56526ab4d5c6de5"
+  },
+  {
+    "file": "post/epiphone-casino-authentication-guide/index.html",
+    "unchanged": true,
+    "before": "e48c64ccbd3cb0481aa4865943b9dde3c1d077aec08f546321cf79543ffb5d6e",
+    "after": "e48c64ccbd3cb0481aa4865943b9dde3c1d077aec08f546321cf79543ffb5d6e"
+  },
+  {
+    "file": "post/epiphone-casino-value-guide/index.html",
+    "unchanged": true,
+    "before": "f486d8b40efe43238f2efaf10f5bb6e66516673bc50286831b7e714e93714e13",
+    "after": "f486d8b40efe43238f2efaf10f5bb6e66516673bc50286831b7e714e93714e13"
+  },
+  {
+    "file": "post/epiphone-deluxe-authentication-guide/index.html",
+    "unchanged": true,
+    "before": "a516dbe064792794e7b170881d44fa9625a39a60d1d35cc4523be92dab577170",
+    "after": "a516dbe064792794e7b170881d44fa9625a39a60d1d35cc4523be92dab577170"
+  },
+  {
+    "file": "post/epiphone-deluxe-value-guide/index.html",
+    "unchanged": true,
+    "before": "b1595782fdd9b0b0328656130c63a071eb43b627307fd6471ce4d853031f8e2e",
+    "after": "b1595782fdd9b0b0328656130c63a071eb43b627307fd6471ce4d853031f8e2e"
+  },
+  {
+    "file": "post/epiphone-emperor-authentication-guide/index.html",
+    "unchanged": true,
+    "before": "c9be94ee839c7039edeae914944a32e7d4b9f16414abe92728d13f7e0ad07adb",
+    "after": "c9be94ee839c7039edeae914944a32e7d4b9f16414abe92728d13f7e0ad07adb"
+  },
+  {
+    "file": "post/epiphone-emperor-value-guide/index.html",
+    "unchanged": true,
+    "before": "4a7a0115a2d92934a7cd195e6c80fd3dda328d20361ee0247ce50febcecaebcb",
+    "after": "4a7a0115a2d92934a7cd195e6c80fd3dda328d20361ee0247ce50febcecaebcb"
+  },
+  {
+    "file": "post/epiphone-olympic-authentication-guide/index.html",
+    "unchanged": true,
+    "before": "23eac14cca50ca2167bffc06954c8c0099a1ce1cbdda7c0e5e01dd796b9c8407",
+    "after": "23eac14cca50ca2167bffc06954c8c0099a1ce1cbdda7c0e5e01dd796b9c8407"
+  },
+  {
+    "file": "post/epiphone-olympic-value-guide/index.html",
+    "unchanged": true,
+    "before": "e650142e38ef4838a51a5c8060501118ee7c9183ec24757ef385791f7839a0fd",
+    "after": "e650142e38ef4838a51a5c8060501118ee7c9183ec24757ef385791f7839a0fd"
+  },
+  {
+    "file": "post/epiphone-sheraton-history-value/index.html",
+    "unchanged": true,
+    "before": "6aa7bdfc5cf3a147fb56270b5ffa0a672af797fbc4b20377e3144ebec7d6704b",
+    "after": "6aa7bdfc5cf3a147fb56270b5ffa0a672af797fbc4b20377e3144ebec7d6704b"
+  },
+  {
+    "file": "post/epiphone-sorrento-authentication-guide/index.html",
+    "unchanged": true,
+    "before": "2ff070267b518a4324e3e9967d04345b0c513e986275364d7227af16e442dcd2",
+    "after": "2ff070267b518a4324e3e9967d04345b0c513e986275364d7227af16e442dcd2"
+  },
+  {
+    "file": "post/epiphone-sorrento-value-guide/index.html",
+    "unchanged": true,
+    "before": "34a9944cd1d31b0be641611d58562a92a35d1e1018a75501df56c04c7506daa5",
+    "after": "34a9944cd1d31b0be641611d58562a92a35d1e1018a75501df56c04c7506daa5"
+  },
+  {
+    "file": "post/epiphone-triumph-authentication-guide/index.html",
+    "unchanged": true,
+    "before": "8fb2f70afc419e35b5fdcc138c2176a18b3e22a761f5d9a899d980a28d5bb98b",
+    "after": "8fb2f70afc419e35b5fdcc138c2176a18b3e22a761f5d9a899d980a28d5bb98b"
+  },
+  {
+    "file": "post/epiphone-triumph-value-guide/index.html",
+    "unchanged": true,
+    "before": "2d8483f175b982bd968c99ba198713d374bd47a9f3740984c4518be4e57f09e7",
+    "after": "2d8483f175b982bd968c99ba198713d374bd47a9f3740984c4518be4e57f09e7"
+  },
+  {
+    "file": "post/epiphone-windsor-authentication-guide/index.html",
+    "unchanged": true,
+    "before": "84f3840a6b1cf6dc50ae8615437b031191cb8600150040932fbff3dbc9c6af2d",
+    "after": "84f3840a6b1cf6dc50ae8615437b031191cb8600150040932fbff3dbc9c6af2d"
+  },
+  {
+    "file": "post/epiphone-windsor-value-guide/index.html",
+    "unchanged": true,
+    "before": "56be2cf6b7d56891280610ea975eda4534ad7f7cc644b41e893816e23ca711c3",
+    "after": "56be2cf6b7d56891280610ea975eda4534ad7f7cc644b41e893816e23ca711c3"
+  },
+  {
+    "file": "post/epiphone-zephyr-authentication-guide/index.html",
+    "unchanged": true,
+    "before": "79b200a2659f31fa02448d67eb395098da72a8a1f5feb598f28dbcf31fce3faf",
+    "after": "79b200a2659f31fa02448d67eb395098da72a8a1f5feb598f28dbcf31fce3faf"
+  },
+  {
+    "file": "post/epiphone-zephyr-value-guide/index.html",
+    "unchanged": true,
+    "before": "00813e4899a3859fa074d23330d8eff54b8dd88cfda73b7f34fce2a9c51dffe9",
+    "after": "00813e4899a3859fa074d23330d8eff54b8dd88cfda73b7f34fce2a9c51dffe9"
+  },
+  {
+    "file": "post/fender-amp-eras-tweed-brownface-blackface-silverface/index.html",
+    "unchanged": true,
+    "before": "4d991e0880e802df4a3abd6302bb9c50189c24e69be9280fc7aa11b64ad6fa75",
+    "after": "4d991e0880e802df4a3abd6302bb9c50189c24e69be9280fc7aa11b64ad6fa75"
+  },
+  {
+    "file": "post/fender-bass-vi-authentication-guide/index.html",
+    "unchanged": true,
+    "before": "1028193168d892825c3570eb6baf3f0aa0b3d6e4099223ac5ffb44711f569e01",
+    "after": "1028193168d892825c3570eb6baf3f0aa0b3d6e4099223ac5ffb44711f569e01"
+  },
+  {
+    "file": "post/fender-bass-vi-value-guide/index.html",
+    "unchanged": true,
+    "before": "5668e2b1683c949daa185d16727c5302de700ad9fb5018282335bad87f82d70e",
+    "after": "5668e2b1683c949daa185d16727c5302de700ad9fb5018282335bad87f82d70e"
+  },
+  {
+    "file": "post/fender-bassman-authentication-guide/index.html",
+    "unchanged": true,
+    "before": "4ed30d17068d135fa1a2bdcf4a5d9d08ba075621d68b8a786babe16c279b8b2b",
+    "after": "4ed30d17068d135fa1a2bdcf4a5d9d08ba075621d68b8a786babe16c279b8b2b"
+  },
+  {
+    "file": "post/fender-bassman-value-guide/index.html",
+    "unchanged": true,
+    "before": "b47317e2875940478c692ba931735d8a7af14a81a61183c9df84a8d37493d892",
+    "after": "b47317e2875940478c692ba931735d8a7af14a81a61183c9df84a8d37493d892"
+  },
+  {
+    "file": "post/fender-champ-authentication-guide/index.html",
+    "unchanged": true,
+    "before": "c64a24e112d36a6a58271b0004167d87013c7b42e3d61f2238a5ae2c60d54d3e",
+    "after": "c64a24e112d36a6a58271b0004167d87013c7b42e3d61f2238a5ae2c60d54d3e"
+  },
+  {
+    "file": "post/fender-champ-value-guide/index.html",
+    "unchanged": true,
+    "before": "7bd36eaede3fba105b9d5ffa724de21f2b23cbae09109c801c36d5a03c461eb2",
+    "after": "7bd36eaede3fba105b9d5ffa724de21f2b23cbae09109c801c36d5a03c461eb2"
+  },
+  {
+    "file": "post/fender-custom-color-authentication-guide/index.html",
+    "unchanged": true,
+    "before": "6458192dd19039f8ca3b9ae84236a851606988b2e5a4cbf629ef0d31e6daff8d",
+    "after": "6458192dd19039f8ca3b9ae84236a851606988b2e5a4cbf629ef0d31e6daff8d"
+  },
+  {
+    "file": "post/fender-deluxe-reverb-authentication-guide/index.html",
+    "unchanged": true,
+    "before": "6d5ee6c1a804ade3ba2293192c59508c14c2deb5b98dae9d39eae5ada5555537",
+    "after": "6d5ee6c1a804ade3ba2293192c59508c14c2deb5b98dae9d39eae5ada5555537"
+  },
+  {
+    "file": "post/fender-deluxe-reverb-value-guide/index.html",
+    "unchanged": true,
+    "before": "ae91bd150c49cf41b44b9d193e96da243504cc33f697f1cb54a8bb1ba19c89ac",
+    "after": "ae91bd150c49cf41b44b9d193e96da243504cc33f697f1cb54a8bb1ba19c89ac"
+  },
+  {
+    "file": "post/fender-esquire-authentication-guide/index.html",
+    "unchanged": true,
+    "before": "aa53e894e7660667282641244c626d3ab885e10e8af63c352521a7f8c081e65b",
+    "after": "aa53e894e7660667282641244c626d3ab885e10e8af63c352521a7f8c081e65b"
+  },
+  {
+    "file": "post/fender-jazzmaster-evolution-guide-1958-1971/index.html",
+    "unchanged": true,
+    "before": "5bbc8ddfab64258c414a2c8df111930c204c1f879742e60592ccd3a499e0d98b",
+    "after": "5bbc8ddfab64258c414a2c8df111930c204c1f879742e60592ccd3a499e0d98b"
+  },
+  {
+    "file": "post/fender-mustang-history-value/index.html",
+    "unchanged": true,
+    "before": "a70c49b6f414d72eac01c4d2d8dcbe60189ed208941a41f8fc5917ea1086794f",
+    "after": "a70c49b6f414d72eac01c4d2d8dcbe60189ed208941a41f8fc5917ea1086794f"
+  },
+  {
+    "file": "post/fender-pink-paisley-telecaster-guide/index.html",
+    "unchanged": true,
+    "before": "f76726c5ba219a477575b51362b4d516898f585d817eceed525caf4b62c08bb7",
+    "after": "f76726c5ba219a477575b51362b4d516898f585d817eceed525caf4b62c08bb7"
+  },
+  {
+    "file": "post/fender-princeton-reverb-authentication-guide/index.html",
+    "unchanged": true,
+    "before": "ac452c89c10ff5354291cea1070f976f4eb22fca014e612307e5716a356e17d6",
+    "after": "ac452c89c10ff5354291cea1070f976f4eb22fca014e612307e5716a356e17d6"
+  },
+  {
+    "file": "post/fender-princeton-reverb-value-guide/index.html",
+    "unchanged": true,
+    "before": "e9681590ccc95b02378118012e16359620792f78fa9e99a5f7270abe3716ca31",
+    "after": "e9681590ccc95b02378118012e16359620792f78fa9e99a5f7270abe3716ca31"
+  },
+  {
+    "file": "post/fender-super-reverb-authentication-guide/index.html",
+    "unchanged": true,
+    "before": "4a639e2c8497a925841b94e86a33f11924b496e71d3092c951e0bc4ad8e08550",
+    "after": "4a639e2c8497a925841b94e86a33f11924b496e71d3092c951e0bc4ad8e08550"
+  },
+  {
+    "file": "post/fender-super-reverb-value-guide/index.html",
+    "unchanged": true,
+    "before": "c830c50191fdbadd6e8d6f9f415b171338025799d8b6a28506e5cd446024ef25",
+    "after": "c830c50191fdbadd6e8d6f9f415b171338025799d8b6a28506e5cd446024ef25"
+  },
+  {
+    "file": "post/fender-telecaster-thinline-custom-deluxe-authentication-guide/index.html",
+    "unchanged": true,
+    "before": "401f5424ef305bacfb867f94ab17996a8bdfa679a07c9b9b18fdd19f5cedd61e",
+    "after": "401f5424ef305bacfb867f94ab17996a8bdfa679a07c9b9b18fdd19f5cedd61e"
+  },
+  {
+    "file": "post/fender-telecaster-thinline-custom-deluxe-value-guide/index.html",
+    "unchanged": true,
+    "before": "169b9a3802170782759045e5710282cc017773276cb1b8134c1148892318051d",
+    "after": "169b9a3802170782759045e5710282cc017773276cb1b8134c1148892318051d"
+  },
+  {
+    "file": "post/fender-twin-reverb-authentication-guide/index.html",
+    "unchanged": true,
+    "before": "1e89d2dc6276ff0048c36ede8e3ef40b7f415d462472c2b503f3708d7984e2ea",
+    "after": "1e89d2dc6276ff0048c36ede8e3ef40b7f415d462472c2b503f3708d7984e2ea"
+  },
+  {
+    "file": "post/fender-twin-reverb-value-guide/index.html",
+    "unchanged": true,
+    "before": "30a88cf0a8e44e2f31f02ad1dd3427ae802464e36830670f71e8a3824000bd46",
+    "after": "30a88cf0a8e44e2f31f02ad1dd3427ae802464e36830670f71e8a3824000bd46"
+  },
+  {
+    "file": "post/fender-vibrolux-authentication-guide/index.html",
+    "unchanged": true,
+    "before": "593952f807aa907fd12ec33944c027468e5169d1d392442b23de2b7bb27ee82f",
+    "after": "593952f807aa907fd12ec33944c027468e5169d1d392442b23de2b7bb27ee82f"
+  },
+  {
+    "file": "post/fender-vibrolux-value-guide/index.html",
+    "unchanged": true,
+    "before": "68dca34584d5ba5de555e1b6282226252546d659c5fd016bb2aa96a2de69288f",
+    "after": "68dca34584d5ba5de555e1b6282226252546d659c5fd016bb2aa96a2de69288f"
+  },
+  {
+    "file": "post/gibson-aldo-nova-les-paul-xpl-guide/index.html",
+    "unchanged": true,
+    "before": "4cf257f81f46145cf31816cb3232810920f166068e4fd669219d4b26c38ec89a",
+    "after": "4cf257f81f46145cf31816cb3232810920f166068e4fd669219d4b26c38ec89a"
+  },
+  {
+    "file": "post/gibson-byrdland-authentication-guide/index.html",
+    "unchanged": true,
+    "before": "af6406200196ce60e53e3ef5275bc782270555bbe28bec8ecdda66c9cbcd5e63",
+    "after": "af6406200196ce60e53e3ef5275bc782270555bbe28bec8ecdda66c9cbcd5e63"
+  },
+  {
+    "file": "post/gibson-byrdland-value-guide/index.html",
+    "unchanged": true,
+    "before": "1538c1ca5a20adef0ad752f4fc098681fe45315aa66ee4139ace5271a8028c03",
+    "after": "1538c1ca5a20adef0ad752f4fc098681fe45315aa66ee4139ace5271a8028c03"
+  },
+  {
+    "file": "post/gibson-es-125-guide/index.html",
+    "unchanged": true,
+    "before": "077ee1d60105f26845b08febce6a74029be99fd5f666d8ae19e8734f8cb30f31",
+    "after": "077ee1d60105f26845b08febce6a74029be99fd5f666d8ae19e8734f8cb30f31"
+  },
+  {
+    "file": "post/gibson-es-175-authentication-guide/index.html",
+    "unchanged": true,
+    "before": "a4c5049a8589cf1ba8d6c237df98ab53987e4256eae6c6412dbfdbef0ee8c0a5",
+    "after": "a4c5049a8589cf1ba8d6c237df98ab53987e4256eae6c6412dbfdbef0ee8c0a5"
+  },
+  {
+    "file": "post/gibson-es-175-evolution-and-specifications/index.html",
+    "unchanged": true,
+    "before": "caf68921e279dcd6b209abc99c7aad317a88030283acee1470b33b2f27544fe1",
+    "after": "caf68921e279dcd6b209abc99c7aad317a88030283acee1470b33b2f27544fe1"
+  },
+  {
+    "file": "post/gibson-es-175-value-guide/index.html",
+    "unchanged": true,
+    "before": "f5fe56a62f5e7dc267a88262f68eab78519f4207a9322445ff395742fcfd9f04",
+    "after": "f5fe56a62f5e7dc267a88262f68eab78519f4207a9322445ff395742fcfd9f04"
+  },
+  {
+    "file": "post/gibson-es-225-guide/index.html",
+    "unchanged": true,
+    "before": "d4627ca4894cb7b1f1ea7700077f2acd041752d5e7427698bc91c4da0a2c71bb",
+    "after": "d4627ca4894cb7b1f1ea7700077f2acd041752d5e7427698bc91c4da0a2c71bb"
+  },
+  {
+    "file": "post/gibson-es-225-value-guide/index.html",
+    "unchanged": true,
+    "before": "fc00c881389fa42f0e03806b3d5ad3aa1a3d26ecaa33d446917bd9717275414c",
+    "after": "fc00c881389fa42f0e03806b3d5ad3aa1a3d26ecaa33d446917bd9717275414c"
+  },
+  {
+    "file": "post/gibson-es-335-345-355-guide/index.html",
+    "unchanged": true,
+    "before": "e0b7e33c51f7a0307dfcc8870be62c1ac6d2e17e042d017cda7e92b07e536df5",
+    "after": "e0b7e33c51f7a0307dfcc8870be62c1ac6d2e17e042d017cda7e92b07e536df5"
+  },
+  {
+    "file": "post/gibson-es-345-history-value/index.html",
+    "unchanged": true,
+    "before": "f701b93a1c8b47fecdfe9dddc51280e3559207e193ae779a094f3bcea062962f",
+    "after": "f701b93a1c8b47fecdfe9dddc51280e3559207e193ae779a094f3bcea062962f"
+  },
+  {
+    "file": "post/gibson-es-5-switchmaster-history-value/index.html",
+    "unchanged": true,
+    "before": "b72325f5ee5a7f48fb8ed005ca9b60abee5a62aba017d59cfab4c6afd0f08294",
+    "after": "b72325f5ee5a7f48fb8ed005ca9b60abee5a62aba017d59cfab4c6afd0f08294"
+  },
+  {
+    "file": "post/gibson-firebird-history-authentication-value/index.html",
+    "unchanged": true,
+    "before": "4a6c0a41bd1807727a2f46121fcf6c9c13540afdd8fe922dbd81f57456dad1eb",
+    "after": "4a6c0a41bd1807727a2f46121fcf6c9c13540afdd8fe922dbd81f57456dad1eb"
+  },
+  {
+    "file": "post/gibson-flying-v-medallion-guide/index.html",
+    "unchanged": true,
+    "before": "ed1a4eb690b3d5d9ab6c8f0781abeeefc21d1daf2ae9ce9f8a20eaeca07974fc",
+    "after": "ed1a4eb690b3d5d9ab6c8f0781abeeefc21d1daf2ae9ce9f8a20eaeca07974fc"
+  },
+  {
+    "file": "post/gibson-j200-model-history-authentication-guide/index.html",
+    "unchanged": true,
+    "before": "c0f71d293ce00a1add98374dfbad71767a60d4926691e8ced31e6a4a2d2cfdad",
+    "after": "c0f71d293ce00a1add98374dfbad71767a60d4926691e8ced31e6a4a2d2cfdad"
+  },
+  {
+    "file": "post/gibson-l-4-authentication-guide/index.html",
+    "unchanged": true,
+    "before": "bb58500712f0351d462b78e0c7bc81f5960e4d66582b5db09ca7e1f8a4033262",
+    "after": "bb58500712f0351d462b78e0c7bc81f5960e4d66582b5db09ca7e1f8a4033262"
+  },
+  {
+    "file": "post/gibson-l-4-value-guide/index.html",
+    "unchanged": true,
+    "before": "90413e0f8ecdfdce2f9f542462fefa03a6eb35b6e92b9532ff24933af1a6ba69",
+    "after": "90413e0f8ecdfdce2f9f542462fefa03a6eb35b6e92b9532ff24933af1a6ba69"
+  },
+  {
+    "file": "post/gibson-l-48-authentication-guide/index.html",
+    "unchanged": true,
+    "before": "bb10d328dc547180086d1d2e7857142c0150348fc39ad851210ae91d445ef988",
+    "after": "bb10d328dc547180086d1d2e7857142c0150348fc39ad851210ae91d445ef988"
+  },
+  {
+    "file": "post/gibson-l-48-value-guide/index.html",
+    "unchanged": true,
+    "before": "41607e7e33a6f563d2f02729041d842d6ec20ff2e1ce936dde5d9da4ab54a721",
+    "after": "41607e7e33a6f563d2f02729041d842d6ec20ff2e1ce936dde5d9da4ab54a721"
+  },
+  {
+    "file": "post/gibson-l-50-authentication-guide/index.html",
+    "unchanged": true,
+    "before": "778b3e114a166d80983d815c0e5405f7fb6e3511b30632c56b7a111d5ca799e0",
+    "after": "778b3e114a166d80983d815c0e5405f7fb6e3511b30632c56b7a111d5ca799e0"
+  },
+  {
+    "file": "post/gibson-l-50-value-guide/index.html",
+    "unchanged": true,
+    "before": "c44c1d3101b0730507687027351030334b64b8fe029e96a3b1e95227a5ed4a56",
+    "after": "c44c1d3101b0730507687027351030334b64b8fe029e96a3b1e95227a5ed4a56"
+  },
+  {
+    "file": "post/gibson-l-7-authentication-guide/index.html",
+    "unchanged": true,
+    "before": "46ffcd7d255570a7d115e278b1b5c441f4d25749f7c96db34e606a60317aa88e",
+    "after": "46ffcd7d255570a7d115e278b1b5c441f4d25749f7c96db34e606a60317aa88e"
+  },
+  {
+    "file": "post/gibson-l-7-value-guide/index.html",
+    "unchanged": true,
+    "before": "94303fd23c51a17edba35484c80ba59a60d6680f4727e7699e4640dbee09b1d9",
+    "after": "94303fd23c51a17edba35484c80ba59a60d6680f4727e7699e4640dbee09b1d9"
+  },
+  {
+    "file": "post/gibson-l5-ces-value-guide/index.html",
+    "unchanged": true,
+    "before": "dc4057bd26d6535110ae96b61e3930e5eaeb38c5168854ead716f03792a210be",
+    "after": "dc4057bd26d6535110ae96b61e3930e5eaeb38c5168854ead716f03792a210be"
+  },
+  {
+    "file": "post/gibson-les-paul-deluxe-authentication-guide/index.html",
+    "unchanged": true,
+    "before": "b03f0d593bb2de23b8b0c84eb94d9bb9e51cad9e3fead675990123db5d39d9ff",
+    "after": "b03f0d593bb2de23b8b0c84eb94d9bb9e51cad9e3fead675990123db5d39d9ff"
+  },
+  {
+    "file": "post/gibson-les-paul-deluxe-value-guide/index.html",
+    "unchanged": true,
+    "before": "4b10315823121f16fbcb2124a7746c7e2dacbb9eac902117938a83b1ac2ea304",
+    "after": "4b10315823121f16fbcb2124a7746c7e2dacbb9eac902117938a83b1ac2ea304"
+  },
+  {
+    "file": "post/gibson-les-paul-junior-guide/index.html",
+    "unchanged": true,
+    "before": "0b925deca8c673c3b2cd3bbff4e1763a1e66b2f832403b3ad1d3f1f19097f561",
+    "after": "0b925deca8c673c3b2cd3bbff4e1763a1e66b2f832403b3ad1d3f1f19097f561"
+  },
+  {
+    "file": "post/gibson-les-paul-tv-model-guide/index.html",
+    "unchanged": true,
+    "before": "710cae881cf0b79e7aeca969557e75cb9ebd5898c5c5aa317381946c9c3b93ef",
+    "after": "710cae881cf0b79e7aeca969557e75cb9ebd5898c5c5aa317381946c9c3b93ef"
+  },
+  {
+    "file": "post/gibson-paf-patent-number-pickup-guide/index.html",
+    "unchanged": true,
+    "before": "aae032b90e23dd211a95e2162a0f6a13c4c6f54fabbd40f9595c255982013f31",
+    "after": "aae032b90e23dd211a95e2162a0f6a13c4c6f54fabbd40f9595c255982013f31"
+  },
+  {
+    "file": "post/gibson-shipping-totals-1948-1979/index.html",
+    "unchanged": true,
+    "before": "b34562c33959a4ffb659bd9a2d7d68db9d3739b1ac7276f4c1f28b0344ed7c9f",
+    "after": "b34562c33959a4ffb659bd9a2d7d68db9d3739b1ac7276f4c1f28b0344ed7c9f"
+  },
+  {
+    "file": "post/gibson-super-400-ces-history-authentication-value/index.html",
+    "unchanged": true,
+    "before": "0ed15b166313fe76793c8847707e08a7be5f006a2b296b63606c4daabd9a199d",
+    "after": "0ed15b166313fe76793c8847707e08a7be5f006a2b296b63606c4daabd9a199d"
+  },
+  {
+    "file": "post/gibson-thunderbird-eb-bass-authentication-guide/index.html",
+    "unchanged": true,
+    "before": "7a5441cf1addb03af595b6785f5fe01187837188120cfa9bdf66a2c58afc2bb6",
+    "after": "7a5441cf1addb03af595b6785f5fe01187837188120cfa9bdf66a2c58afc2bb6"
+  },
+  {
+    "file": "post/gibson-thunderbird-eb-bass-value-guide/index.html",
+    "unchanged": true,
+    "before": "584597e3c1976edd1fcff0fb2ace5c145dfa5e46d3e6220bdb5f5dd926cbe24d",
+    "after": "584597e3c1976edd1fcff0fb2ace5c145dfa5e46d3e6220bdb5f5dd926cbe24d"
+  },
+  {
+    "file": "post/gold-guard-fender-precision-bass/index.html",
+    "unchanged": true,
+    "before": "32f310bf260a8f418d535af992d8811e64b5aea3dc8ffa839dcc20c3c99d62d5",
+    "after": "32f310bf260a8f418d535af992d8811e64b5aea3dc8ffa839dcc20c3c99d62d5"
+  },
+  {
+    "file": "post/gretsch-6120-history-value/index.html",
+    "unchanged": true,
+    "before": "89ef5dea9573aac8be5d86e0eef5d7ecbd98a87f47503448eb68040e3c18a20e",
+    "after": "89ef5dea9573aac8be5d86e0eef5d7ecbd98a87f47503448eb68040e3c18a20e"
+  },
+  {
+    "file": "post/gretsch-anniversary-authentication-guide/index.html",
+    "unchanged": true,
+    "before": "9db727ce0acc098b28ce3eda7ae97b823aa9e0f1f6d662270efdf1968ec26824",
+    "after": "9db727ce0acc098b28ce3eda7ae97b823aa9e0f1f6d662270efdf1968ec26824"
+  },
+  {
+    "file": "post/gretsch-anniversary-value-guide/index.html",
+    "unchanged": true,
+    "before": "facafc8e8aea2c978959f2f113e661d31b7a3a80adeb533068ce581a5d4c1813",
+    "after": "facafc8e8aea2c978959f2f113e661d31b7a3a80adeb533068ce581a5d4c1813"
+  },
+  {
+    "file": "post/gretsch-country-gentleman-authentication-guide/index.html",
+    "unchanged": true,
+    "before": "2c5c25af9fd07756b5d4e827a0b89615e55997deb687b2b6a5f018cd2335b005",
+    "after": "2c5c25af9fd07756b5d4e827a0b89615e55997deb687b2b6a5f018cd2335b005"
+  },
+  {
+    "file": "post/gretsch-country-gentleman-value-guide/index.html",
+    "unchanged": true,
+    "before": "60f7c4034adb8ea847e0cb074a5449c080019d3d676274ab035f10b5183a2ad4",
+    "after": "60f7c4034adb8ea847e0cb074a5449c080019d3d676274ab035f10b5183a2ad4"
+  },
+  {
+    "file": "post/gretsch-duo-jet-history-value/index.html",
+    "unchanged": true,
+    "before": "4161d302dc69454e1713d9c5f41b7c6d3ff8d68d859110df83b65b94e8978784",
+    "after": "4161d302dc69454e1713d9c5f41b7c6d3ff8d68d859110df83b65b94e8978784"
+  },
+  {
+    "file": "post/gretsch-white-falcon-authentication-guide/index.html",
+    "unchanged": true,
+    "before": "623126df1a56687b91fd49aaa4ca762c556787cde60532c521998b7837648538",
+    "after": "623126df1a56687b91fd49aaa4ca762c556787cde60532c521998b7837648538"
+  },
+  {
+    "file": "post/gretsch-white-falcon-value-guide/index.html",
+    "unchanged": true,
+    "before": "9726771746ff04644a2e6af895fdaae55f6b897565165afe2ca8a92b04d7c368",
+    "after": "9726771746ff04644a2e6af895fdaae55f6b897565165afe2ca8a92b04d7c368"
+  },
+  {
+    "file": "post/guild-starfire-authentication-guide/index.html",
+    "unchanged": true,
+    "before": "72b515046090ecbecda394091dd326d48034a406c25ecd9d4539c766151ff730",
+    "after": "72b515046090ecbecda394091dd326d48034a406c25ecd9d4539c766151ff730"
+  },
+  {
+    "file": "post/guild-starfire-value-guide/index.html",
+    "unchanged": true,
+    "before": "380b9772fedb2ce1ae5ef9e99796687b69ec9860ecd811b2e25419baa7febdf1",
+    "after": "380b9772fedb2ce1ae5ef9e99796687b69ec9860ecd811b2e25419baa7febdf1"
+  },
+  {
+    "file": "post/hardtail-stratocaster-vintage-guide/index.html",
+    "unchanged": true,
+    "before": "a60452415f2e5a1e44787384444c0c91b481e8baa11270b3e512df47ecd5a9d7",
+    "after": "a60452415f2e5a1e44787384444c0c91b481e8baa11270b3e512df47ecd5a9d7"
+  },
+  {
+    "file": "post/how-the-year-of-manufacture-of-your-vintage-gibson-guitar-affects-its-price/index.html",
+    "unchanged": true,
+    "before": "813a1c3619960178f66b6697d391af0eaf635a201fd3dd08832af4e943abe4a6",
+    "after": "813a1c3619960178f66b6697d391af0eaf635a201fd3dd08832af4e943abe4a6"
+  },
+  {
+    "file": "post/how-to-determine-the-value-of-your-old-martin-acoustic-guitar/index.html",
+    "unchanged": true,
+    "before": "8fcd8ed4340917b03df2f885a89636fda67639da9f84dbadf7e4e4b961a47474",
+    "after": "8fcd8ed4340917b03df2f885a89636fda67639da9f84dbadf7e4e4b961a47474"
+  },
+  {
+    "file": "post/how-to-sell-a-large-guitar-collection-every-option-honestly-explained/index.html",
+    "unchanged": true,
+    "before": "03a653741fca1c560fc398feb8554358a2f2dbab6763e76ab558a8d2527608a3",
+    "after": "03a653741fca1c560fc398feb8554358a2f2dbab6763e76ab558a8d2527608a3"
+  },
+  {
+    "file": "post/how-to-tell-if-your-acoustic-guitar-needs-a-neck-reset/index.html",
+    "unchanged": true,
+    "before": "e3b6103e852d9285907d2d72dd75d59bab3000572b733963c772a844abce784c",
+    "after": "e3b6103e852d9285907d2d72dd75d59bab3000572b733963c772a844abce784c"
+  },
+  {
+    "file": "post/identify-vintage-gibson-j45-j50-sj/index.html",
+    "unchanged": true,
+    "before": "2e5ea464a48e8bd9b7478f016a117933e0f903774b96c06cebcd8eaac44de50c",
+    "after": "2e5ea464a48e8bd9b7478f016a117933e0f903774b96c06cebcd8eaac44de50c"
+  },
+  {
+    "file": "post/is-your-vintage-guitar-valuable-7-factors-that-determine-its-value/index.html",
+    "unchanged": true,
+    "before": "932ff04d4ca07f5c0e0bbc0aabcaf475ccc8b98bf5ee09c4e9c76ce8e72b613d",
+    "after": "932ff04d4ca07f5c0e0bbc0aabcaf475ccc8b98bf5ee09c4e9c76ce8e72b613d"
+  },
+  {
+    "file": "post/joesvintageguitarsaz-com-identify-gibson-lg-series/index.html",
+    "unchanged": true,
+    "before": "a0d0f6b234b39fe208e40e352ebd17e6e1a5f6ce5e1c3f28f03b80503d147a8d",
+    "after": "a0d0f6b234b39fe208e40e352ebd17e6e1a5f6ce5e1c3f28f03b80503d147a8d"
+  },
+  {
+    "file": "post/joshuas-1952-fender-telecaster/index.html",
+    "unchanged": true,
+    "before": "015d85c3b5c0d80bd8ba3d42515be607b7b40916f73a4b74e68f1f4874460008",
+    "after": "015d85c3b5c0d80bd8ba3d42515be607b7b40916f73a4b74e68f1f4874460008"
+  },
+  {
+    "file": "post/klon-centaur-authentication-value-guide/index.html",
+    "unchanged": true,
+    "before": "62cda4211946c7644dfebdcc1f1145b3264a86a30cc67866d8c9984ae016a523",
+    "after": "62cda4211946c7644dfebdcc1f1145b3264a86a30cc67866d8c9984ae016a523"
+  },
+  {
+    "file": "post/martin-0-00-000-history-authentication-value-guide/index.html",
+    "unchanged": false,
+    "before": "23809f47ef04a3e98a966b3df193bb35f439e3830c76fa213da89581f1c08983",
+    "after": "1312d0c10c210893c0d68f34d3a3d17e11196683ec63666a7a29921a759708e9"
+  },
+  {
+    "file": "post/martin-0-18-authentication-guide/index.html",
+    "unchanged": true,
+    "before": "2dadfe17adc6d76c606108398e68ca837d438fe1598c9aa115a62d0a78dbedf1",
+    "after": "2dadfe17adc6d76c606108398e68ca837d438fe1598c9aa115a62d0a78dbedf1"
+  },
+  {
+    "file": "post/martin-0-18-value-guide/index.html",
+    "unchanged": true,
+    "before": "4090498c501e6f650a199634020f37fcd3cb777390504df77801c7dd88a17577",
+    "after": "4090498c501e6f650a199634020f37fcd3cb777390504df77801c7dd88a17577"
+  },
+  {
+    "file": "post/martin-00-18-authentication-guide/index.html",
+    "unchanged": true,
+    "before": "4df032fe0fe5ecca3947b90d79ce02a4b67f22bda7d20aa9f27299cd57665e43",
+    "after": "4df032fe0fe5ecca3947b90d79ce02a4b67f22bda7d20aa9f27299cd57665e43"
+  },
+  {
+    "file": "post/martin-00-18-value-guide/index.html",
+    "unchanged": true,
+    "before": "8fba452603a722c15e2bac1100e69d9e30b3b40420cc809b02afdcf1df84534e",
+    "after": "8fba452603a722c15e2bac1100e69d9e30b3b40420cc809b02afdcf1df84534e"
+  },
+  {
+    "file": "post/martin-000-18-authentication-guide/index.html",
+    "unchanged": true,
+    "before": "126baf4a0b1879a1bd6d5ccd86cc2d4046419f9bdc75f547c662ae4d81c1d793",
+    "after": "126baf4a0b1879a1bd6d5ccd86cc2d4046419f9bdc75f547c662ae4d81c1d793"
+  },
+  {
+    "file": "post/martin-000-18-value-guide/index.html",
+    "unchanged": true,
+    "before": "55fcf8496bc82ef31259e552d9165a8e337f3abed0884c43b18bb52d8d8a8cc6",
+    "after": "55fcf8496bc82ef31259e552d9165a8e337f3abed0884c43b18bb52d8d8a8cc6"
+  },
+  {
+    "file": "post/martin-12-string-authentication-guide/index.html",
+    "unchanged": true,
+    "before": "6ba9445bc0f2d4128e0586bd0feaeb796e305f528a687d42157d4cd585c24888",
+    "after": "6ba9445bc0f2d4128e0586bd0feaeb796e305f528a687d42157d4cd585c24888"
+  },
+  {
+    "file": "post/martin-12-string-value-guide/index.html",
+    "unchanged": true,
+    "before": "d75e16a9df935e69470680ab00c43f61901974876e8869cf93a147bd2fea0906",
+    "after": "d75e16a9df935e69470680ab00c43f61901974876e8869cf93a147bd2fea0906"
+  },
+  {
+    "file": "post/martin-archtop-authentication-guide/index.html",
+    "unchanged": true,
+    "before": "c2e332d136238fd3c28176b13babbc23c5feb61b0a88623060b59d5aee27fd28",
+    "after": "c2e332d136238fd3c28176b13babbc23c5feb61b0a88623060b59d5aee27fd28"
+  },
+  {
+    "file": "post/martin-archtop-value-guide/index.html",
+    "unchanged": true,
+    "before": "f7e0563cbbf387d767c4a73f4e4b200fe296222c892d6e5edfac06b193fd4a03",
+    "after": "f7e0563cbbf387d767c4a73f4e4b200fe296222c892d6e5edfac06b193fd4a03"
+  },
+  {
+    "file": "post/martin-classical-authentication-guide/index.html",
+    "unchanged": true,
+    "before": "1d29835ae4f570fa982e62b185eb70ea6576f208a2535d45b6f0841640d44326",
+    "after": "1d29835ae4f570fa982e62b185eb70ea6576f208a2535d45b6f0841640d44326"
+  },
+  {
+    "file": "post/martin-classical-value-guide/index.html",
+    "unchanged": true,
+    "before": "b0934d4c38d0408be36e78be4de1417c059eb8cc71984292ad8b3f3057a88e00",
+    "after": "b0934d4c38d0408be36e78be4de1417c059eb8cc71984292ad8b3f3057a88e00"
+  },
+  {
+    "file": "post/martin-d-21-authentication-guide/index.html",
+    "unchanged": true,
+    "before": "72e6326c5005ac67d73487de76916ca2e72116d94d864a308ecb8161453f6b36",
+    "after": "72e6326c5005ac67d73487de76916ca2e72116d94d864a308ecb8161453f6b36"
+  },
+  {
+    "file": "post/martin-d-21-value-guide/index.html",
+    "unchanged": true,
+    "before": "d1051af07c862306fefc7d8381482651f20f93910c41ca0f90440504070fc1ae",
+    "after": "d1051af07c862306fefc7d8381482651f20f93910c41ca0f90440504070fc1ae"
+  },
+  {
+    "file": "post/martin-d-28-authentication-guide/index.html",
+    "unchanged": true,
+    "before": "b0c65a7f3cb4457bc1c8b3d29a1ad77782e8224701537ff8bc8af5d6e8e7f586",
+    "after": "b0c65a7f3cb4457bc1c8b3d29a1ad77782e8224701537ff8bc8af5d6e8e7f586"
+  },
+  {
+    "file": "post/martin-d-28-value-guide/index.html",
+    "unchanged": true,
+    "before": "f18eec8c63c818a71e9f01b05f3fb6bf9188429ee508cf9fd873772d9ba56da0",
+    "after": "f18eec8c63c818a71e9f01b05f3fb6bf9188429ee508cf9fd873772d9ba56da0"
+  },
+  {
+    "file": "post/martin-d-35-authentication-guide/index.html",
+    "unchanged": true,
+    "before": "c06810049b419a675d29a90b47df2ff60c774c0a5b89992154b5eead41086fdc",
+    "after": "c06810049b419a675d29a90b47df2ff60c774c0a5b89992154b5eead41086fdc"
+  },
+  {
+    "file": "post/martin-d-35-value-guide/index.html",
+    "unchanged": true,
+    "before": "55a54937a250dda6a29e1f305d03688aa2974ff44528ce1988e3a216e25df026",
+    "after": "55a54937a250dda6a29e1f305d03688aa2974ff44528ce1988e3a216e25df026"
+  },
+  {
+    "file": "post/martin-d-45-authentication-guide/index.html",
+    "unchanged": true,
+    "before": "973db5967397da2fc4f30127ea3ddfa54e744c9b07004982ec15cd3c9317d69e",
+    "after": "973db5967397da2fc4f30127ea3ddfa54e744c9b07004982ec15cd3c9317d69e"
+  },
+  {
+    "file": "post/martin-d-45-value-guide/index.html",
+    "unchanged": true,
+    "before": "cbee6b2acdd9ed5fa7802020f04f49f404b5e82e0a70ab7a5c20cac2a4c7eaba",
+    "after": "cbee6b2acdd9ed5fa7802020f04f49f404b5e82e0a70ab7a5c20cac2a4c7eaba"
+  },
+  {
+    "file": "post/martin-d18-history-specs-authentication-value-guide/index.html",
+    "unchanged": true,
+    "before": "baba9b732009a7582ab25d56a5a44f9c1f801b6f8ba0909bbe5985182a85f87c",
+    "after": "baba9b732009a7582ab25d56a5a44f9c1f801b6f8ba0909bbe5985182a85f87c"
+  },
+  {
+    "file": "post/martin-d18e-vs-d28e-authentication-guide/index.html",
+    "unchanged": true,
+    "before": "88d965eafd26eb23427396b009f85945c4bfaeec7a009ed097c02b1bd6345f15",
+    "after": "88d965eafd26eb23427396b009f85945c4bfaeec7a009ed097c02b1bd6345f15"
+  },
+  {
+    "file": "post/martin-electric-authentication-guide/index.html",
+    "unchanged": true,
+    "before": "8ca7f19b70838080487a0bf2b6e5318b4d5964a7e26b889743047899a85c0778",
+    "after": "8ca7f19b70838080487a0bf2b6e5318b4d5964a7e26b889743047899a85c0778"
+  },
+  {
+    "file": "post/martin-electric-value-guide/index.html",
+    "unchanged": true,
+    "before": "26ba05ed11e9f523c82b37b2db51bf9b5399c3aa88c5f5653f7b5a2240821f06",
+    "after": "26ba05ed11e9f523c82b37b2db51bf9b5399c3aa88c5f5653f7b5a2240821f06"
+  },
+  {
+    "file": "post/martin-om-18-authentication-guide/index.html",
+    "unchanged": true,
+    "before": "de81228edd4aad4cae7f2a31be1a418fbeff03c8d15fc1ec7efc395ad49876bf",
+    "after": "de81228edd4aad4cae7f2a31be1a418fbeff03c8d15fc1ec7efc395ad49876bf"
+  },
+  {
+    "file": "post/martin-om-18-value-guide/index.html",
+    "unchanged": true,
+    "before": "b77453ad8a04e5842fa4f233d187eb68195dfd7fe5248c4724c3bdff47fbfa86",
+    "after": "b77453ad8a04e5842fa4f233d187eb68195dfd7fe5248c4724c3bdff47fbfa86"
+  },
+  {
+    "file": "post/martin-om-28-authentication-guide/index.html",
+    "unchanged": true,
+    "before": "dd3f774319d9a3bd90f2e6b31d9db1cb6cdb5b1e551527eccdfcd5dfcaf9b20e",
+    "after": "dd3f774319d9a3bd90f2e6b31d9db1cb6cdb5b1e551527eccdfcd5dfcaf9b20e"
+  },
+  {
+    "file": "post/martin-om-28-value-guide/index.html",
+    "unchanged": false,
+    "before": "003c6b5ec6648f9dd54578ff7d61381964f4e80b3ecf18f0070b2386a969f70b",
+    "after": "687bf66f34aea84a85a4b3539bf936f6b05a11fa10e53658f80110fc7e68f30a"
+  },
+  {
+    "file": "post/martin-om-45-authentication-guide/index.html",
+    "unchanged": true,
+    "before": "cd5db151f3e9a71b2945626dca8dcba91a7595417f12e8847f3f52c5904cae29",
+    "after": "cd5db151f3e9a71b2945626dca8dcba91a7595417f12e8847f3f52c5904cae29"
+  },
+  {
+    "file": "post/martin-om-45-value-guide/index.html",
+    "unchanged": true,
+    "before": "4c21a3d2ac0ecb6ae3027b01a300b193499b5bc84df59cc87215c462128c8329",
+    "after": "4c21a3d2ac0ecb6ae3027b01a300b193499b5bc84df59cc87215c462128c8329"
+  },
+  {
+    "file": "post/martin-plectrum-authentication-guide/index.html",
+    "unchanged": true,
+    "before": "dcc21d94b76f2e454c3e86258c846862eb2c2f274ef513279b492055fbbb26f0",
+    "after": "dcc21d94b76f2e454c3e86258c846862eb2c2f274ef513279b492055fbbb26f0"
+  },
+  {
+    "file": "post/martin-plectrum-value-guide/index.html",
+    "unchanged": true,
+    "before": "8590869f9a0fdab1cad12eff7ef716e701af0db30dde8b7e3a9da14724741407",
+    "after": "8590869f9a0fdab1cad12eff7ef716e701af0db30dde8b7e3a9da14724741407"
+  },
+  {
+    "file": "post/martin-small-early-authentication-guide/index.html",
+    "unchanged": true,
+    "before": "c27cb04a88d49b9621ccbf1b0dddc1e57fec1a9fe3c2940c8c428e84c2b3a415",
+    "after": "c27cb04a88d49b9621ccbf1b0dddc1e57fec1a9fe3c2940c8c428e84c2b3a415"
+  },
+  {
+    "file": "post/martin-small-early-value-guide/index.html",
+    "unchanged": true,
+    "before": "ccce7b37fc539292eaa21ac399a929dd158c7f2a8b5ffe30721b435a40b0e207",
+    "after": "ccce7b37fc539292eaa21ac399a929dd158c7f2a8b5ffe30721b435a40b0e207"
+  },
+  {
+    "file": "post/martin-tenor-authentication-guide/index.html",
+    "unchanged": true,
+    "before": "4aca46b569f966e46fecac637951c59273751e12e8bd49148ecb5053106df96e",
+    "after": "4aca46b569f966e46fecac637951c59273751e12e8bd49148ecb5053106df96e"
+  },
+  {
+    "file": "post/martin-tenor-value-guide/index.html",
+    "unchanged": true,
+    "before": "7844fc8b01e75bbda67d2a420049194805697260d780c92ebd1204a6dfa6f025",
+    "after": "7844fc8b01e75bbda67d2a420049194805697260d780c92ebd1204a6dfa6f025"
+  },
+  {
+    "file": "post/mistakes-to-avoid-when-selling-a-vintage-guitar/index.html",
+    "unchanged": true,
+    "before": "53af9c3f56adc9f7c336f91ef88e261e95cd4782a53b81a54ed2885f97f1e78a",
+    "after": "53af9c3f56adc9f7c336f91ef88e261e95cd4782a53b81a54ed2885f97f1e78a"
+  },
+  {
+    "file": "post/most-expensive-guitars-ever-sold/index.html",
+    "unchanged": true,
+    "before": "351fb95d7c24ca0b3aefb4fa58b70f28a0a6bbf744a14a60e8a3659f720c2ef9",
+    "after": "351fb95d7c24ca0b3aefb4fa58b70f28a0a6bbf744a14a60e8a3659f720c2ef9"
+  },
+  {
+    "file": "post/national-resonator-guitar-authentication-guide/index.html",
+    "unchanged": true,
+    "before": "c188fe25a077de1b3448dfe546be8aaa835a27edb2a6ca2db5f83439b6470a3e",
+    "after": "c188fe25a077de1b3448dfe546be8aaa835a27edb2a6ca2db5f83439b6470a3e"
+  },
+  {
+    "file": "post/national-resonator-guitar-value-guide/index.html",
+    "unchanged": true,
+    "before": "b36d6e65f0289d49aa00f7943f77354c1ac4b883499c497ebe0fe5a60e58f2de",
+    "after": "b36d6e65f0289d49aa00f7943f77354c1ac4b883499c497ebe0fe5a60e58f2de"
+  },
+  {
+    "file": "post/norlin-les-paul-custom-year-guide/index.html",
+    "unchanged": true,
+    "before": "0c66363ee01e50ea2fc02fbf9f12a9c60ad49c9ae6858e8a6c47ec43767fde97",
+    "after": "0c66363ee01e50ea2fc02fbf9f12a9c60ad49c9ae6858e8a6c47ec43767fde97"
+  },
+  {
+    "file": "post/one-family-1946-martin-d-28/index.html",
+    "unchanged": true,
+    "before": "73ad700663e51106b9c2590d0379a96af2ab5f0e7b4314bb39a7b0ae52f8a4cc",
+    "after": "73ad700663e51106b9c2590d0379a96af2ab5f0e7b4314bb39a7b0ae52f8a4cc"
+  },
+  {
+    "file": "post/one-family-1959-gibson-es-355/index.html",
+    "unchanged": true,
+    "before": "fcb7a4b1a0a2576f6e2ec93a0995de08f6dcc321e7e398e3c8b7a95d34dbf59f",
+    "after": "fcb7a4b1a0a2576f6e2ec93a0995de08f6dcc321e7e398e3c8b7a95d34dbf59f"
+  },
+  {
+    "file": "post/one-owner-1949-martin-0-18/index.html",
+    "unchanged": true,
+    "before": "cea5cecf329f8261a60018fcf26963f8421bd140f6e29ac316876b1049c240ce",
+    "after": "cea5cecf329f8261a60018fcf26963f8421bd140f6e29ac316876b1049c240ce"
+  },
+  {
+    "file": "post/one-owner-1955-martin-d28/index.html",
+    "unchanged": true,
+    "before": "705f0a7a71d2137b001309d1c7bc41fc7f95d3b6af280c926f7fb42f21b10e38",
+    "after": "705f0a7a71d2137b001309d1c7bc41fc7f95d3b6af280c926f7fb42f21b10e38"
+  },
+  {
+    "file": "post/one-owner-1956-martin-000-21/index.html",
+    "unchanged": false,
+    "before": "33eefdccdb8798c9a47d66d9cc4e2736e1ad83326df0e2a220e5496d0601b116",
+    "after": "62767e64476d3e3a3bd936d6e7eef9954c37a2a22de09c25c1d7cbb4acd76768"
+  },
+  {
+    "file": "post/one-owner-1957-gibson-byrdland/index.html",
+    "unchanged": true,
+    "before": "8a436cfc1e7f56f406e559740e2542cd92babb62a1fe9dfd336e55a0500b973f",
+    "after": "8a436cfc1e7f56f406e559740e2542cd92babb62a1fe9dfd336e55a0500b973f"
+  },
+  {
+    "file": "post/one-owner-1960-fender-telecaster/index.html",
+    "unchanged": true,
+    "before": "e05b05bfad4bbd569006417b87d46e52cf7e04828fcc4e8366a0caa38e26fb00",
+    "after": "e05b05bfad4bbd569006417b87d46e52cf7e04828fcc4e8366a0caa38e26fb00"
+  },
+  {
+    "file": "post/one-owner-1965-fender-stratocaster/index.html",
+    "unchanged": true,
+    "before": "9b835761f0a20c8ef8386d8fe9468dd5fdcfe31d334e1ffc9efa01bdf34df8aa",
+    "after": "9b835761f0a20c8ef8386d8fe9468dd5fdcfe31d334e1ffc9efa01bdf34df8aa"
+  },
+  {
+    "file": "post/one-owner-1966-gibson-es-345/index.html",
+    "unchanged": true,
+    "before": "f72c52feffaa120313fcbaf4fec7d46d789c25de9c873fa62c78946a4b36f10c",
+    "after": "f72c52feffaa120313fcbaf4fec7d46d789c25de9c873fa62c78946a4b36f10c"
+  },
+  {
+    "file": "post/one-owner-1983-gibson-les-paul-custom/index.html",
+    "unchanged": true,
+    "before": "f8659fdf26a4a2aef9bfe76807fa9cc0bb60cf5fddf4d561c7eb9ef5e1c18129",
+    "after": "f8659fdf26a4a2aef9bfe76807fa9cc0bb60cf5fddf4d561c7eb9ef5e1c18129"
+  },
+  {
+    "file": "post/princeton-reverb-vs-deluxe-reverb-vs-twin-reverb/index.html",
+    "unchanged": true,
+    "before": "347b99f4d2ec8d2a8402ababe25fa5dcafa2cabf26e010b9de349a30d6182329",
+    "after": "347b99f4d2ec8d2a8402ababe25fa5dcafa2cabf26e010b9de349a30d6182329"
+  },
+  {
+    "file": "post/rickenbacker-12-string-authentication-guide/index.html",
+    "unchanged": true,
+    "before": "405985612b5ed949019cd3f0a0cb9ef269dcae4bf4ab0c7d370fcb61b5b11190",
+    "after": "405985612b5ed949019cd3f0a0cb9ef269dcae4bf4ab0c7d370fcb61b5b11190"
+  },
+  {
+    "file": "post/rickenbacker-12-string-value-guide/index.html",
+    "unchanged": true,
+    "before": "cbf0c5b809840e1f3193a07f42b061e4e0d8cf7b093edabdaa6f4bf046cc401f",
+    "after": "cbf0c5b809840e1f3193a07f42b061e4e0d8cf7b093edabdaa6f4bf046cc401f"
+  },
+  {
+    "file": "post/rickenbacker-3000-3001-authentication-guide/index.html",
+    "unchanged": true,
+    "before": "f3a40b7a80b371499a9a254bf719ead91e672b6e179d7a8ef3d986baf78b35e0",
+    "after": "f3a40b7a80b371499a9a254bf719ead91e672b6e179d7a8ef3d986baf78b35e0"
+  },
+  {
+    "file": "post/rickenbacker-3000-3001-value-guide/index.html",
+    "unchanged": true,
+    "before": "efa9313ea581aaef174814d44a0d192627a6d210ce8eb7ed448eef05b4ef8d4e",
+    "after": "efa9313ea581aaef174814d44a0d192627a6d210ce8eb7ed448eef05b4ef8d4e"
+  },
+  {
+    "file": "post/rickenbacker-325-authentication-guide/index.html",
+    "unchanged": true,
+    "before": "507d50408b504fc4d535f85db395c7974915d3418a5e8358c67936ee59f95f59",
+    "after": "507d50408b504fc4d535f85db395c7974915d3418a5e8358c67936ee59f95f59"
+  },
+  {
+    "file": "post/rickenbacker-325-value-guide/index.html",
+    "unchanged": true,
+    "before": "e25c77f5c8596d951e96a2479170173ce0934610d39100bb0d15c8f149172e57",
+    "after": "e25c77f5c8596d951e96a2479170173ce0934610d39100bb0d15c8f149172e57"
+  },
+  {
+    "file": "post/rickenbacker-330-340-authentication-guide/index.html",
+    "unchanged": true,
+    "before": "e5697f045bd4131fd2207e59a95d975da2b449609df0c89c2bc710734833d7c4",
+    "after": "e5697f045bd4131fd2207e59a95d975da2b449609df0c89c2bc710734833d7c4"
+  },
+  {
+    "file": "post/rickenbacker-330-340-value-guide/index.html",
+    "unchanged": true,
+    "before": "6ff8c48b091382d54e0eeae147ed4bf521ec0f84c43e7243728ab2680ab80334",
+    "after": "6ff8c48b091382d54e0eeae147ed4bf521ec0f84c43e7243728ab2680ab80334"
+  },
+  {
+    "file": "post/rickenbacker-360-370-authentication-guide/index.html",
+    "unchanged": true,
+    "before": "618b61d9f1c2bef2efc52f4e3a4164de2da25dc36a8b968ca43bb8acd44d3c6d",
+    "after": "618b61d9f1c2bef2efc52f4e3a4164de2da25dc36a8b968ca43bb8acd44d3c6d"
+  },
+  {
+    "file": "post/rickenbacker-360-370-value-guide/index.html",
+    "unchanged": true,
+    "before": "916612bcb21740d76da64fb2a431d02a1f30355882b8757ea50a75dd6bf28ea2",
+    "after": "916612bcb21740d76da64fb2a431d02a1f30355882b8757ea50a75dd6bf28ea2"
+  },
+  {
+    "file": "post/rickenbacker-381-authentication-guide/index.html",
+    "unchanged": true,
+    "before": "615ed68d8f4c6430b1350e0dd73fc3363d6f3641bafeb74a80961ab4cd7088b5",
+    "after": "615ed68d8f4c6430b1350e0dd73fc3363d6f3641bafeb74a80961ab4cd7088b5"
+  },
+  {
+    "file": "post/rickenbacker-381-value-guide/index.html",
+    "unchanged": true,
+    "before": "6154d4bbe5f49d3a430ca3891aa89ebde3349c60d0f9ee49a72259ddeb2ef06b",
+    "after": "6154d4bbe5f49d3a430ca3891aa89ebde3349c60d0f9ee49a72259ddeb2ef06b"
+  },
+  {
+    "file": "post/rickenbacker-4000-4001-authentication-guide/index.html",
+    "unchanged": true,
+    "before": "ecbe7c820cb053198127e30dfd6418ea37d70506fe3817b7b7c679dbf5a26b67",
+    "after": "ecbe7c820cb053198127e30dfd6418ea37d70506fe3817b7b7c679dbf5a26b67"
+  },
+  {
+    "file": "post/rickenbacker-4000-4001-value-guide/index.html",
+    "unchanged": true,
+    "before": "34ac25022e126ef1b89ead315b659a724ed92cd473f017686d62be6ab092bc7f",
+    "after": "34ac25022e126ef1b89ead315b659a724ed92cd473f017686d62be6ab092bc7f"
+  },
+  {
+    "file": "post/rickenbacker-4002-authentication-guide/index.html",
+    "unchanged": true,
+    "before": "3aa54758f6fd963e6a2cd906d29d2be16b1f7afa1ee4620bf9d3aaf2eaae09e8",
+    "after": "3aa54758f6fd963e6a2cd906d29d2be16b1f7afa1ee4620bf9d3aaf2eaae09e8"
+  },
+  {
+    "file": "post/rickenbacker-4002-value-guide/index.html",
+    "unchanged": true,
+    "before": "d46656666e6aabb19dce8e2f1cb50ba727a5fd0ff45cc86c29db32f130f102a7",
+    "after": "d46656666e6aabb19dce8e2f1cb50ba727a5fd0ff45cc86c29db32f130f102a7"
+  },
+  {
+    "file": "post/rickenbacker-4003-authentication-guide/index.html",
+    "unchanged": true,
+    "before": "4c3e07b48bd3c24e6061aec5c3eef83bcc22f3569262aee5290598679660bbe4",
+    "after": "4c3e07b48bd3c24e6061aec5c3eef83bcc22f3569262aee5290598679660bbe4"
+  },
+  {
+    "file": "post/rickenbacker-4003-value-guide/index.html",
+    "unchanged": true,
+    "before": "86b8a2fc1fe60196e42b0b9eee97b2da25088a2378947ad07d580348edfded55",
+    "after": "86b8a2fc1fe60196e42b0b9eee97b2da25088a2378947ad07d580348edfded55"
+  },
+  {
+    "file": "post/rickenbacker-4005-authentication-guide/index.html",
+    "unchanged": true,
+    "before": "e55a66539bea07e3f16fff6df8e6883e2c9b0feba1f56f607244e1cad0a335b8",
+    "after": "e55a66539bea07e3f16fff6df8e6883e2c9b0feba1f56f607244e1cad0a335b8"
+  },
+  {
+    "file": "post/rickenbacker-4005-value-guide/index.html",
+    "unchanged": true,
+    "before": "fb3600969811ee6517826e3b0330b2e95b843dd87cffd22c968f681c3d516a0b",
+    "after": "fb3600969811ee6517826e3b0330b2e95b843dd87cffd22c968f681c3d516a0b"
+  },
+  {
+    "file": "post/rickenbacker-425-450-460-authentication-guide/index.html",
+    "unchanged": true,
+    "before": "bf434bdeb1193d3a044a5547f98f9ead845f1f7e8662559b5540a958754e304e",
+    "after": "bf434bdeb1193d3a044a5547f98f9ead845f1f7e8662559b5540a958754e304e"
+  },
+  {
+    "file": "post/rickenbacker-425-450-460-value-guide/index.html",
+    "unchanged": true,
+    "before": "c5dff2085f73f9065b851ab75ab816e89bfe5eadf9016132871cec1efb18037c",
+    "after": "c5dff2085f73f9065b851ab75ab816e89bfe5eadf9016132871cec1efb18037c"
+  },
+  {
+    "file": "post/rickenbacker-480-481-authentication-guide/index.html",
+    "unchanged": true,
+    "before": "aa493f574c25a263f5f429111161c116941be2ea6801d3acdc40a0542973e31b",
+    "after": "aa493f574c25a263f5f429111161c116941be2ea6801d3acdc40a0542973e31b"
+  },
+  {
+    "file": "post/rickenbacker-480-481-value-guide/index.html",
+    "unchanged": true,
+    "before": "d5ff33a38d23b6ba88034bb2ef36d99d3c9e3b248e75ee4dceaf33663dfa57d9",
+    "after": "d5ff33a38d23b6ba88034bb2ef36d99d3c9e3b248e75ee4dceaf33663dfa57d9"
+  },
+  {
+    "file": "post/rickenbacker-600-series-authentication-guide/index.html",
+    "unchanged": true,
+    "before": "8785e8c129f037c1b2911cff120de99db15ef4660c469bda0f05af6069747c20",
+    "after": "8785e8c129f037c1b2911cff120de99db15ef4660c469bda0f05af6069747c20"
+  },
+  {
+    "file": "post/rickenbacker-600-series-value-guide/index.html",
+    "unchanged": true,
+    "before": "762780f0847c09ceb262689810f10e803f5739e522008bd78d55efbc4f40b243",
+    "after": "762780f0847c09ceb262689810f10e803f5739e522008bd78d55efbc4f40b243"
+  },
+  {
+    "file": "post/rickenbacker-bakelite-lap-steel-authentication-guide/index.html",
+    "unchanged": true,
+    "before": "f2d65899da1e804941c8331f406485726370ba4e96be10876e7fadd09726ac56",
+    "after": "f2d65899da1e804941c8331f406485726370ba4e96be10876e7fadd09726ac56"
+  },
+  {
+    "file": "post/rickenbacker-bakelite-lap-steel-value-guide/index.html",
+    "unchanged": true,
+    "before": "8ef36da2cb1da2eb297e63a6896130014d1b2a5fe99ac817cf900345a148a7a5",
+    "after": "8ef36da2cb1da2eb297e63a6896130014d1b2a5fe99ac817cf900345a148a7a5"
+  },
+  {
+    "file": "post/rickenbacker-frying-pan-authentication-guide/index.html",
+    "unchanged": true,
+    "before": "704b49c807c43931c1076e3691a500a3b35a0e4705ef1d06bd3fe4a69fac6884",
+    "after": "704b49c807c43931c1076e3691a500a3b35a0e4705ef1d06bd3fe4a69fac6884"
+  },
+  {
+    "file": "post/rickenbacker-frying-pan-value-guide/index.html",
+    "unchanged": true,
+    "before": "1fa3d1822e527934d2e57d4554526f36a8e3c9d798111bf27ab9703fb6196541",
+    "after": "1fa3d1822e527934d2e57d4554526f36a8e3c9d798111bf27ab9703fb6196541"
+  },
+  {
+    "file": "post/selling-a-vintage-guitar-in-ohio-and-the-midwest/index.html",
+    "unchanged": true,
+    "before": "6152e049a30866eeded25a78fa754bd7e5adc90a4a1b1789ca856c28a9c71842",
+    "after": "6152e049a30866eeded25a78fa754bd7e5adc90a4a1b1789ca856c28a9c71842"
+  },
+  {
+    "file": "post/sylvias-1959-gibson-es-335/index.html",
+    "unchanged": true,
+    "before": "154cc58e1314d30a0b526c13cf872e75f5bb6473de4706b8e520794b0dabfd26",
+    "after": "154cc58e1314d30a0b526c13cf872e75f5bb6473de4706b8e520794b0dabfd26"
+  },
+  {
+    "file": "post/types-of-guitar-picks/index.html",
+    "unchanged": true,
+    "before": "b3583dd9f6d2868b401362e90de58f41c268ea43f696aef49b1b64d2711c754e",
+    "after": "b3583dd9f6d2868b401362e90de58f41c268ea43f696aef49b1b64d2711c754e"
+  },
+  {
+    "file": "post/vintage-epiphone-crestwood-value-history-guide/index.html",
+    "unchanged": true,
+    "before": "f5cc90895e746f7e4bf1a4e9865e2634669194d28c67ce4860aa3ec954bca35a",
+    "after": "f5cc90895e746f7e4bf1a4e9865e2634669194d28c67ce4860aa3ec954bca35a"
+  },
+  {
+    "file": "post/vintage-fender-jaguar-guide/index.html",
+    "unchanged": true,
+    "before": "d5a76cc6919e54222df4dc0894deb918bc8abe97ae52e720ef16243277929c74",
+    "after": "d5a76cc6919e54222df4dc0894deb918bc8abe97ae52e720ef16243277929c74"
+  },
+  {
+    "file": "post/vintage-fender-jazz-bass-guide/index.html",
+    "unchanged": true,
+    "before": "eb86c986a30e421778e35784bb97633b2b299ee421f14c22ac4c178dbd63f23e",
+    "after": "eb86c986a30e421778e35784bb97633b2b299ee421f14c22ac4c178dbd63f23e"
+  },
+  {
+    "file": "post/vintage-gibson-hummingbird-history-value-guide/index.html",
+    "unchanged": true,
+    "before": "13fc46938b416a5553f5dc4bd969a3a3134992033b098cf25a477733d1b4331b",
+    "after": "13fc46938b416a5553f5dc4bd969a3a3134992033b098cf25a477733d1b4331b"
+  },
+  {
+    "file": "post/vintage-gibson-les-paul-family-guide/index.html",
+    "unchanged": true,
+    "before": "530948ee0c4413dad8dc37746952c1b1528d97845481e689453be4783db2e7d6",
+    "after": "530948ee0c4413dad8dc37746952c1b1528d97845481e689453be4783db2e7d6"
+  },
+  {
+    "file": "post/vintage-gibson-sg-family-guide/index.html",
+    "unchanged": true,
+    "before": "e800b10113df80d7970c481709d6f39d72d8964005e017b1049759293ee1bb2d",
+    "after": "e800b10113df80d7970c481709d6f39d72d8964005e017b1049759293ee1bb2d"
+  },
+  {
+    "file": "post/what-a-serial-number-cant-tell-you/index.html",
+    "unchanged": true,
+    "before": "834ba48d59787286ba89097ba01f013e083b65b2098ad36d04e3912ecc4fdf22",
+    "after": "834ba48d59787286ba89097ba01f013e083b65b2098ad36d04e3912ecc4fdf22"
+  },
+  {
+    "file": "post/what-guitar-did-dolly-parton-play/index.html",
+    "unchanged": true,
+    "before": "118433e4fb027b1fee9eec5713965f6d18afee00c947de369b876ebde048a03c",
+    "after": "118433e4fb027b1fee9eec5713965f6d18afee00c947de369b876ebde048a03c"
+  },
+  {
+    "file": "post/what-guitar-did-johnny-marr-play/index.html",
+    "unchanged": true,
+    "before": "8ce3e3d9db7bcfb805da40c2154b73532b4b0beb4d92200c6196b6d674967c53",
+    "after": "8ce3e3d9db7bcfb805da40c2154b73532b4b0beb4d92200c6196b6d674967c53"
+  },
+  {
+    "file": "post/what-to-consider-when-selling-a-vintage-guitar/index.html",
+    "unchanged": true,
+    "before": "473457833d717604a2f78613e41a3ad4d184a933ecde8874d4511835d58bca2a",
+    "after": "473457833d717604a2f78613e41a3ad4d184a933ecde8874d4511835d58bca2a"
+  },
+  {
+    "file": "vintage-fender-stratocaster-value-guide/1954/index.html",
+    "unchanged": true,
+    "before": "5daf076b8463c454e1290ade9285fbbb74f091f65b58fbb46b38dfa12cf5e68e",
+    "after": "5daf076b8463c454e1290ade9285fbbb74f091f65b58fbb46b38dfa12cf5e68e"
+  },
+  {
+    "file": "vintage-fender-stratocaster-value-guide/1955/index.html",
+    "unchanged": true,
+    "before": "d8e4b4f87baee5ce831d78107c529a279bd441e2b89781c2a4b9b7c0959c45be",
+    "after": "d8e4b4f87baee5ce831d78107c529a279bd441e2b89781c2a4b9b7c0959c45be"
+  },
+  {
+    "file": "vintage-fender-stratocaster-value-guide/1956/index.html",
+    "unchanged": true,
+    "before": "79b1270d89bbb1c9b66723d6ac3128ea6ccbf5a0b42bde20de1b561117399aab",
+    "after": "79b1270d89bbb1c9b66723d6ac3128ea6ccbf5a0b42bde20de1b561117399aab"
+  },
+  {
+    "file": "vintage-fender-stratocaster-value-guide/1957/index.html",
+    "unchanged": true,
+    "before": "fc3ac333b9829f72e6d16d678ec01939527bd84458901359943e6f2d9d9995e0",
+    "after": "fc3ac333b9829f72e6d16d678ec01939527bd84458901359943e6f2d9d9995e0"
+  },
+  {
+    "file": "vintage-fender-stratocaster-value-guide/1958/index.html",
+    "unchanged": true,
+    "before": "db1035239f1c6ce386506b9baf489de81331a01278b6f0a16f159120514edcec",
+    "after": "db1035239f1c6ce386506b9baf489de81331a01278b6f0a16f159120514edcec"
+  },
+  {
+    "file": "vintage-fender-stratocaster-value-guide/1959/index.html",
+    "unchanged": true,
+    "before": "385c6d042c5475752c34b1b7c41068c46f38c079f0dea37c178a0ef52d619670",
+    "after": "385c6d042c5475752c34b1b7c41068c46f38c079f0dea37c178a0ef52d619670"
+  },
+  {
+    "file": "vintage-fender-stratocaster-value-guide/1960/index.html",
+    "unchanged": true,
+    "before": "1c3f886a2c1620e3329ef42b18be4fd177aba09af2808f40b2416da4c5cca334",
+    "after": "1c3f886a2c1620e3329ef42b18be4fd177aba09af2808f40b2416da4c5cca334"
+  },
+  {
+    "file": "vintage-fender-stratocaster-value-guide/1961/index.html",
+    "unchanged": true,
+    "before": "2c34c6b33e63a5aa9f509d09df4b36c7bf04e9479a6127bed0bec6ee7934b5a1",
+    "after": "2c34c6b33e63a5aa9f509d09df4b36c7bf04e9479a6127bed0bec6ee7934b5a1"
+  },
+  {
+    "file": "vintage-fender-stratocaster-value-guide/1962/index.html",
+    "unchanged": true,
+    "before": "d92688b177e8646e7c2a922a74ad1cdd79c9fdfeb12c67327cdf00ee23d08d62",
+    "after": "d92688b177e8646e7c2a922a74ad1cdd79c9fdfeb12c67327cdf00ee23d08d62"
+  },
+  {
+    "file": "vintage-fender-stratocaster-value-guide/1963/index.html",
+    "unchanged": true,
+    "before": "13f0c11ec1436d08c07266537767ee1b1f783032df1faf32f09be1c7ff74c2eb",
+    "after": "13f0c11ec1436d08c07266537767ee1b1f783032df1faf32f09be1c7ff74c2eb"
+  },
+  {
+    "file": "vintage-fender-stratocaster-value-guide/1964/index.html",
+    "unchanged": true,
+    "before": "9042d2ac7a999ba7ca6b86e688b4d1b2329ff8a074617ad894a963156f93fcc9",
+    "after": "9042d2ac7a999ba7ca6b86e688b4d1b2329ff8a074617ad894a963156f93fcc9"
+  },
+  {
+    "file": "vintage-fender-stratocaster-value-guide/1965/index.html",
+    "unchanged": true,
+    "before": "0c29367a97068fece8865baaaf92c980b5fdff4fe2ef66b6156d92b6527877bf",
+    "after": "0c29367a97068fece8865baaaf92c980b5fdff4fe2ef66b6156d92b6527877bf"
+  },
+  {
+    "file": "vintage-fender-telecaster-value-guide/1950-broadcaster/index.html",
+    "unchanged": true,
+    "before": "c91d2ffcf9726378042ffe4c61cb8ca04b89379c3cae1e2c0593d4d9f0b5a20a",
+    "after": "c91d2ffcf9726378042ffe4c61cb8ca04b89379c3cae1e2c0593d4d9f0b5a20a"
+  },
+  {
+    "file": "vintage-fender-telecaster-value-guide/1951-nocaster/index.html",
+    "unchanged": true,
+    "before": "2c3ee5f1872f6d90adf872ada2316b614210773fb145eeec370f14c201edf65c",
+    "after": "2c3ee5f1872f6d90adf872ada2316b614210773fb145eeec370f14c201edf65c"
+  },
+  {
+    "file": "vintage-fender-telecaster-value-guide/1951-telecaster/index.html",
+    "unchanged": true,
+    "before": "e5be694429934866a2552522cc8de2e8ec4fefc1a543901225ca5972daa3c3c4",
+    "after": "e5be694429934866a2552522cc8de2e8ec4fefc1a543901225ca5972daa3c3c4"
+  },
+  {
+    "file": "vintage-fender-telecaster-value-guide/1952/index.html",
+    "unchanged": true,
+    "before": "667ec08720f41ea6521f0c177cc9d7e0e309dd0c855452270c2021448181736b",
+    "after": "667ec08720f41ea6521f0c177cc9d7e0e309dd0c855452270c2021448181736b"
+  },
+  {
+    "file": "vintage-fender-telecaster-value-guide/1953/index.html",
+    "unchanged": true,
+    "before": "a97a5a17be61f40b59a0723e66a0c7479f4e174aaf3714e47739cbecb008a8df",
+    "after": "a97a5a17be61f40b59a0723e66a0c7479f4e174aaf3714e47739cbecb008a8df"
+  },
+  {
+    "file": "vintage-fender-telecaster-value-guide/1954/index.html",
+    "unchanged": true,
+    "before": "80b8a14d42943b492da2e2c05017a678c71dbf37421d8f001fc7103ec9fc19a4",
+    "after": "80b8a14d42943b492da2e2c05017a678c71dbf37421d8f001fc7103ec9fc19a4"
+  },
+  {
+    "file": "vintage-fender-telecaster-value-guide/1955/index.html",
+    "unchanged": true,
+    "before": "b43bc61a9c03994c9ce7d13f0922dcca586501d3928bf508b8549e12aa57aea7",
+    "after": "b43bc61a9c03994c9ce7d13f0922dcca586501d3928bf508b8549e12aa57aea7"
+  },
+  {
+    "file": "vintage-fender-telecaster-value-guide/1956/index.html",
+    "unchanged": true,
+    "before": "91c732ef4e723b590ec3deabccedf27205bf084996fc1acb6bdd54e2f82055f2",
+    "after": "91c732ef4e723b590ec3deabccedf27205bf084996fc1acb6bdd54e2f82055f2"
+  },
+  {
+    "file": "vintage-fender-telecaster-value-guide/1957/index.html",
+    "unchanged": true,
+    "before": "bcbdcaa939fed250f53a9c02d1b2e343afc3cfa77c0a31c3b6b7944415ed6a9e",
+    "after": "bcbdcaa939fed250f53a9c02d1b2e343afc3cfa77c0a31c3b6b7944415ed6a9e"
+  },
+  {
+    "file": "vintage-fender-telecaster-value-guide/1958/index.html",
+    "unchanged": true,
+    "before": "4f4f58f7181c437355ea2e45e015cae17187f89a765a3c18a7dde1a19af87387",
+    "after": "4f4f58f7181c437355ea2e45e015cae17187f89a765a3c18a7dde1a19af87387"
+  },
+  {
+    "file": "vintage-fender-telecaster-value-guide/1959/index.html",
+    "unchanged": true,
+    "before": "a22066d020c4e9a49754afb914def1c964a168b355746d1dfcbc56a228515c40",
+    "after": "a22066d020c4e9a49754afb914def1c964a168b355746d1dfcbc56a228515c40"
+  },
+  {
+    "file": "vintage-fender-telecaster-value-guide/1960/index.html",
+    "unchanged": true,
+    "before": "56f2d077b153f4329903ed59defb4bd3126bc17c481bb10abb93f1ac15526e4d",
+    "after": "56f2d077b153f4329903ed59defb4bd3126bc17c481bb10abb93f1ac15526e4d"
+  },
+  {
+    "file": "vintage-fender-telecaster-value-guide/1961/index.html",
+    "unchanged": true,
+    "before": "e3ba15333b3ac711f403797fea6c99eba65f40dd7422df0cac82909c0cfca441",
+    "after": "e3ba15333b3ac711f403797fea6c99eba65f40dd7422df0cac82909c0cfca441"
+  },
+  {
+    "file": "vintage-fender-telecaster-value-guide/1962/index.html",
+    "unchanged": true,
+    "before": "3c129cd37ffd8399368dcb160f56760fca9e11941bd195d3d4b9c2cc5b74a9eb",
+    "after": "3c129cd37ffd8399368dcb160f56760fca9e11941bd195d3d4b9c2cc5b74a9eb"
+  },
+  {
+    "file": "vintage-fender-telecaster-value-guide/1963/index.html",
+    "unchanged": true,
+    "before": "eeeb44b90a2e214b0733b7380229e72bffcf70f0635f77160c85174c7544b721",
+    "after": "eeeb44b90a2e214b0733b7380229e72bffcf70f0635f77160c85174c7544b721"
+  },
+  {
+    "file": "vintage-fender-telecaster-value-guide/1964/index.html",
+    "unchanged": true,
+    "before": "602ba5ca45c9375c3c7442d3188527a6f0bc0277c65120925689bc2f532dd016",
+    "after": "602ba5ca45c9375c3c7442d3188527a6f0bc0277c65120925689bc2f532dd016"
+  },
+  {
+    "file": "vintage-fender-telecaster-value-guide/1965/index.html",
+    "unchanged": true,
+    "before": "97ca8af590eb4274a167f555aa015061b3634912fd604430023539b12da9e4df",
+    "after": "97ca8af590eb4274a167f555aa015061b3634912fd604430023539b12da9e4df"
+  },
+  {
+    "file": "vintage-fender-telecaster-value-guide/1966-1968/index.html",
+    "unchanged": true,
+    "before": "4e431e803f0980a92b819c18e7f58595679ddfb87fa9555c9b7389d8d89fb676",
+    "after": "4e431e803f0980a92b819c18e7f58595679ddfb87fa9555c9b7389d8d89fb676"
+  }
+]

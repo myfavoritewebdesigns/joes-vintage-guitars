@@ -1,0 +1,46 @@
+[
+  {
+    "slug": "martin-15-17-series-authentication-guide",
+    "width": 1280,
+    "overflow": 0,
+    "broken": 0,
+    "articleTextSha256": "758e4ccce865f2d7e4adfe0588cb83abef3f28f0c25954f8c98af3369d1d258f",
+    "two15Rows": [],
+    "rowCount": 8
+  },
+  {
+    "slug": "martin-15-17-series-value-guide",
+    "width": 1280,
+    "overflow": 0,
+    "broken": 0,
+    "articleTextSha256": "98517e775efabf2c9bb4a49a080e51e36918a9b568cd803f8d1e5acbdc0da47a",
+    "two15Rows": [],
+    "rowCount": 33
+  },
+  {
+    "slug": "martin-15-17-series-authentication-guide",
+    "width": 375,
+    "overflow": 0,
+    "broken": 0,
+    "articleTextSha256": "39e1cd601c2d5600b50bd342f11a19085d04b5aadfb5e69f5fb79c1616d2abca",
+    "two15Rows": [],
+    "rowCount": 8,
+    "pan": {
+      "left": 425,
+      "max": 425
+    }
+  },
+  {
+    "slug": "martin-15-17-series-value-guide",
+    "width": 375,
+    "overflow": 0,
+    "broken": 0,
+    "articleTextSha256": "4679a53ce4ef293f98c3da2f91b0fa3172228dc89ba2bcd2b8abb1ba376b8ac5",
+    "two15Rows": [],
+    "rowCount": 33,
+    "pan": {
+      "left": 425,
+      "max": 425
+    }
+  }
+]

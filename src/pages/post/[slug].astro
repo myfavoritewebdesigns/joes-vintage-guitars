@@ -13,6 +13,7 @@ import Layout from "../../layouts/Layout.astro";
 import PostCard from "../../components/PostCard.astro";
 import ContactSection from "../../components/ContactSection.astro";
 import MartinSmallBodyGuide from "../../components/MartinSmallBodyGuide.astro";
+import MartinSmallBodyReferrals from "../../components/MartinSmallBodyReferrals.astro";
 import MartinValueGuide from "../../components/MartinValueGuide.astro";
 import martinValueGuides from "../../data/martin-value-guides.json";
 import MartinModelHistory from "../../components/MartinModelHistory.astro";
@@ -609,6 +610,8 @@ const articleSchema = {
     <ModelGuide guide={modelGuide} />
   ) : isVintageSellingGuide ? (
     <VintageSellingGuide />
+  ) : martinValueGuide?.slug === "martin-om-28-value-guide" ? (
+    <MartinSmallBodyReferrals slug={entry.id}><MartinValueGuide guide={martinValueGuide} /></MartinSmallBodyReferrals>
   ) : martinValueGuide ? (
     <MartinValueGuide guide={martinValueGuide} />
   ) : rickenbackerModel ? (
@@ -616,7 +619,7 @@ const articleSchema = {
   ) : martinModelHistory ? (
     <MartinModelHistory guide={martinModelHistory} />
   ) : isOneOwner1956Martin00021Story ? (
-    <OneOwner1956Martin00021Story />
+    <MartinSmallBodyReferrals slug={entry.id}><OneOwner1956Martin00021Story /></MartinSmallBodyReferrals>
   ) : isMartinD28OwnerStory ? (
     <MartinD28OwnerStory />
   ) : isOneOwner1955MartinD28Story ? (

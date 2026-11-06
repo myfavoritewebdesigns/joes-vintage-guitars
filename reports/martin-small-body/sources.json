@@ -845,5 +845,540 @@
       "visibleSourceLinks": []
     }
   ],
-  "unresolvedConflicts": "See review-notes.md: bridge-plate direction, withheld 0-18 date band and old hub photo caption. The removed Wurlitzer archive attribution remains recorded historically."
+  "unresolvedConflicts": "See review-notes.md: bridge-plate direction, withheld 0-18 date band and old hub photo caption. The removed Wurlitzer archive attribution remains recorded historically.",
+  "pr2": {
+    "reviewedAt": "2026-11-06",
+    "method": "PR2 task-local evidence ledger; IDs are not canonical VG FactIDs. User-authorized research supplements the supplied registry. All house pages and the 2026 price-book pages were inspected. Each authentication section carries relevant visible source links; source-linked photo observations retain the exact asset hashes in photo-sources.json. Value pages intentionally carry no external sources under Joe’s brief.",
+    "facts": [
+      {
+        "id": "MSB2-1",
+        "claim": "Body size, style, fret/body joint and scale are distinct observations. Measure the individual guitar; later replicas and replaced parts can reproduce earlier appointments.",
+        "sources": [
+          "https://www.joesvintageguitarsaz.com/martin-guitar-model-numbers/",
+          "https://www.joesvintageguitarsaz.com/martin-guitar-dating-guide/"
+        ]
+      },
+      {
+        "id": "MSB2-2",
+        "claim": "Routine model stamping from around October 1930; earlier serial-only blocks; annual serial entries are year-end totals and do not certify originality.",
+        "sources": [
+          "https://www.joesvintageguitarsaz.com/martin-neck-block-stamps/",
+          "https://www.joesvintageguitarsaz.com/martin-serial-and-model-numbers/",
+          "https://www.martinguitar.com/support-serial-number-lookup.html"
+        ]
+      },
+      {
+        "id": "MSB2-3",
+        "claim": "The 1934 OM/000 transition includes long-to-short scale, with nominal reference lengths around 25.4 and 24.9 inches. Documented 000-28 57851 supports the existence of a short-scale T-fret/T-bar group in 1934.",
+        "sources": [
+          "https://www.joesvintageguitarsaz.com/post/martin-om-28-authentication-guide/",
+          "https://www.martinguitar.com/blog-categories/from-the-factory/blog-061026-the-1933-martin-OM-45-that-went-to-war.html",
+          "https://theguitarphile.com/1934-martin-000-28-guitar-serial-number-57851/"
+        ]
+      },
+      {
+        "id": "MSB2-4",
+        "claim": "Herringbone survived the late-1944 end of scalloping. X position and brace profile differ; 0/00 and 000 schedules must not be conflated with one another or with all twelve-fret layouts.",
+        "sources": [
+          "https://www.joesvintageguitarsaz.com/prewar-martin-guitar-guide/",
+          "https://www.joesvintageguitarsaz.com/post/martin-0-00-000-history-authentication-value-guide/",
+          "https://www.joesvintageguitarsaz.com/martin-guitar-dating-guide/"
+        ]
+      },
+      {
+        "id": "MSB2-5",
+        "claim": "Late-1934 steel T-bars, wartime ebony substitutions, the 1967 square-tube change and later adjustable systems require individual examination. Hidden cross-sections cannot be established from an exterior photo.",
+        "sources": [
+          "https://www.joesvintageguitarsaz.com/martin-guitar-dating-guide/",
+          "https://www.joesvintageguitarsaz.com/prewar-martin-guitar-guide/"
+        ]
+      },
+      {
+        "id": "MSB2-6",
+        "claim": "Style 28 uses spruce and rosewood with period-specific trim. Standard Brazilian-to-Indian rosewood transition around 1969/1970; grain color alone cannot establish species or original wood.",
+        "sources": [
+          "https://www.joesvintageguitarsaz.com/martin-guitar-dating-guide/",
+          "https://www.joesvintageguitarsaz.com/post/martin-0-00-000-history-authentication-value-guide/"
+        ]
+      },
+      {
+        "id": "MSB2-7",
+        "claim": "Early Style 17 can use spruce and rosewood; the all-mahogany 2-17 appears from 1922. Some wartime 0-15 headstock facings use tortoise-pattern Fiberloid.",
+        "sources": [
+          "https://www.vintagemartin.com/styles15_17_18.html",
+          "https://www.joesvintageguitarsaz.com/martin-guitar-dating-guide/"
+        ]
+      },
+      {
+        "id": "MSB2-8",
+        "claim": "Original all-mahogany model matrix, isolated configurations, 1-17 identification without a dollar row, modern revivals and early wood exceptions.",
+        "sources": [
+          "https://online.fliphtml5.com/pyepf/xldo/",
+          "https://www.vintagemartin.com/styles15_17_18.html"
+        ]
+      },
+      {
+        "id": "MSB2-9",
+        "claim": "0-16NY introduced 1961; spruce top, mahogany back/sides, twelve-fret joint, slot head, plain board, rectangular bridge and guardless familiar configuration. Historical string descriptions are not a blanket modern setup recommendation.",
+        "sources": [
+          "https://vintagemartin.com/NY.html",
+          "https://reverb.com/item/84726407-martin-0-16ny-1962-crack-free"
+        ]
+      },
+      {
+        "id": "MSB2-10",
+        "claim": "Style 21 spruce/rosewood and restrained ornament; earlier herringbone around soundhole/back strip distinguished from Style 28 top border.",
+        "sources": [
+          "https://www.vintagemartin.com/styles20_21_22.html",
+          "https://www.joesvintageguitarsaz.com/post/martin-0-00-000-history-authentication-value-guide/",
+          "https://www.joesvintageguitarsaz.com/post/one-owner-1956-martin-000-21/"
+        ]
+      },
+      {
+        "id": "MSB2-11",
+        "claim": "00-21NY introduced 1961 and ended 1965; rosewood New Yorker differs from standard 00-21 and mahogany-bodied 0-16NY.",
+        "sources": [
+          "https://vintagemartin.com/NY.html",
+          "https://online.fliphtml5.com/pyepf/xldo/"
+        ]
+      },
+      {
+        "id": "MSB2-12",
+        "claim": "1950 000-28 serial 113035 corrects 1949 filenames. Oversized replacement bridge, stable edge hairlines and reset-related action discussion are documented.",
+        "sources": [
+          "https://www.martinguitar.com/support-serial-number-lookup.html",
+          "https://reverb.com/item/97541125-martin-000-28-1950-amazing-sound"
+        ]
+      },
+      {
+        "id": "MSB2-13",
+        "claim": "1965 000-28 serial 204220; Brazilian back, documented reset/new saddle and no cracks reported.",
+        "sources": [
+          "https://www.martinguitar.com/support-serial-number-lookup.html",
+          "https://reverb.com/item/91349179-martin-000-28-1965-brazilian-rosewood-tortoise-guard"
+        ]
+      },
+      {
+        "id": "MSB2-14",
+        "claim": "1955 0-15 serial 143500 and 1962 0-16NY serial 184931 were read directly from original photographs.",
+        "sources": [
+          "https://www.martinguitar.com/support-serial-number-lookup.html"
+        ]
+      },
+      {
+        "id": "MSB2-15",
+        "claim": "1951 00-17 owner reported earlier factory refinish/reset/crack repairs; later center-seam repair documented. Factory attribution is explicitly owner-reported.",
+        "sources": [
+          "https://reverb.com/item/91974102-martin-00-17-1951-beautiful-sound-one-owner"
+        ]
+      },
+      {
+        "id": "MSB2-16",
+        "claim": "1965 00-21NY serial 202105, replaced tuners, small back crack, low saddle/reset need. Guard origin remains unconfirmed; factory possibility in listing is not elevated to fact.",
+        "sources": [
+          "https://reverb.com/item/93953895-martin-00-21ny-1965",
+          "https://www.martinguitar.com/support-serial-number-lookup.html"
+        ]
+      },
+      {
+        "id": "MSB2-17",
+        "claim": "1970 00-21 serial 266849, original-family history and slight back-binding separation documented; year endpoints 256003 and 271633.",
+        "sources": [
+          "https://reverb.com/item/86974433-clean-martin-00-21-1970",
+          "https://www.martinguitar.com/support-serial-number-lookup.html"
+        ]
+      },
+      {
+        "id": "MSB2-18",
+        "claim": "1937 0-17 tuner baseplates/gears original with replacement buttons; dated bridge, bracing and plate photos support specific visible comparisons only.",
+        "sources": [
+          "https://www.joesvintageguitarsaz.com/martin-tuner-dating-guide/",
+          "https://www.joesvintageguitarsaz.com/martin-guitar-dating-guide/",
+          "https://www.joesvintageguitarsaz.com/prewar-martin-guitar-guide/"
+        ]
+      },
+      {
+        "id": "MSB2-19",
+        "claim": "Finish categories, bridge and plate distinctions, crack location/stability, neck-reset assessment, repair evidence and preservation before selling.",
+        "sources": [
+          "https://www.joesvintageguitarsaz.com/what-lowers-vintage-guitar-value/",
+          "https://www.joesvintageguitarsaz.com/how-much-does-a-refinish-hurt-guitar-value/",
+          "https://www.joesvintageguitarsaz.com/how-to-tell-if-a-guitar-has-been-refinished/",
+          "https://www.joesvintageguitarsaz.com/post/how-to-tell-if-your-acoustic-guitar-needs-a-neck-reset/",
+          "https://www.joesvintageguitarsaz.com/should-i-restore-my-guitar-before-selling/"
+        ]
+      },
+      {
+        "id": "MSB2-20",
+        "claim": "Modern recreations require production year and complete designation. Counterfeit comparison is explicitly a D-45 from the house fake-Martin article; no small-body identity is implied.",
+        "sources": [
+          "https://www.joesvintageguitarsaz.com/how-to-spot-a-fake-martin/",
+          "https://www.joesvintageguitarsaz.com/martin-guitar-model-numbers/"
+        ]
+      },
+      {
+        "id": "MSB2-21",
+        "claim": "Hawaiian conversions and classical, tenor, plectrum and OM handoffs retain separate model ownership.",
+        "sources": [
+          "https://www.joesvintageguitarsaz.com/post/martin-tenor-authentication-guide/",
+          "https://www.joesvintageguitarsaz.com/post/martin-plectrum-authentication-guide/",
+          "https://www.joesvintageguitarsaz.com/post/martin-classical-authentication-guide/",
+          "https://www.joesvintageguitarsaz.com/post/martin-om-28-authentication-guide/",
+          "https://online.fliphtml5.com/pyepf/xldo/"
+        ]
+      }
+    ],
+    "renderedSectionLinks": [
+      {
+        "page": "/post/martin-000-28-authentication-guide/",
+        "section": "body",
+        "heading": "Separate The 000 Body From Its Style 28 Trim",
+        "visibleSourceLinks": [
+          "/martin-guitar-model-numbers/",
+          "/post/martin-0-00-000-history-authentication-value-guide/"
+        ]
+      },
+      {
+        "page": "/post/martin-000-28-authentication-guide/",
+        "section": "scale",
+        "heading": "Measure A 1934 000-28 Before Calling It Short Scale",
+        "visibleSourceLinks": [
+          "/post/martin-om-28-authentication-guide/",
+          "https://theguitarphile.com/1934-martin-000-28-guitar-serial-number-57851/"
+        ]
+      },
+      {
+        "page": "/post/martin-000-28-authentication-guide/",
+        "section": "changes",
+        "heading": "Follow The Major 000-28 Construction Changes",
+        "visibleSourceLinks": [
+          "/post/martin-small-early-authentication-guide/",
+          "/post/martin-0-00-000-history-authentication-value-guide/",
+          "/prewar-martin-guitar-guide/",
+          "/martin-guitar-dating-guide/"
+        ]
+      },
+      {
+        "page": "/post/martin-000-28-authentication-guide/",
+        "section": "trim",
+        "heading": "Read Herringbone, Fingerboard Inlays And Rosewood Together",
+        "visibleSourceLinks": [
+          "/post/martin-0-00-000-history-authentication-value-guide/",
+          "/post/martin-style-21-small-body-authentication-guide/"
+        ]
+      },
+      {
+        "page": "/post/martin-000-28-authentication-guide/",
+        "section": "inside",
+        "heading": "Inspect Brace Shape, X Position And The Bridge Plate",
+        "visibleSourceLinks": [
+          "/prewar-martin-guitar-guide/",
+          "/martin-guitar-dating-guide/"
+        ]
+      },
+      {
+        "page": "/post/martin-000-28-authentication-guide/",
+        "section": "stamps",
+        "heading": "Use The Actual Stamp To Check An Archive Date",
+        "visibleSourceLinks": [
+          "https://www.martinguitar.com/support-serial-number-lookup.html",
+          "/martin-neck-block-stamps/"
+        ]
+      },
+      {
+        "page": "/post/martin-000-28-authentication-guide/",
+        "section": "repairs",
+        "heading": "Recognize Repairs Without Losing The Guitar’s Identity",
+        "visibleSourceLinks": [
+          "https://reverb.com/item/97541125-martin-000-28-1950-amazing-sound",
+          "https://reverb.com/item/91349179-martin-000-28-1965-brazilian-rosewood-tortoise-guard"
+        ]
+      },
+      {
+        "page": "/post/martin-000-28-authentication-guide/",
+        "section": "smaller",
+        "heading": "Identify A Vintage 0-28 Or 00-28 Separately",
+        "visibleSourceLinks": [
+          "/martin-guitar-model-numbers/",
+          "/post/martin-classical-authentication-guide/"
+        ]
+      },
+      {
+        "page": "/post/martin-000-28-authentication-guide/",
+        "section": "false-identification",
+        "heading": "Check Reissues, Counterfeits And Replaced Parts",
+        "visibleSourceLinks": [
+          "/martin-guitar-model-numbers/",
+          "/how-to-spot-a-fake-martin/",
+          "/martin-tuner-dating-guide/",
+          "/martin-headstock-logo-dating-guide/",
+          "/how-to-tell-if-a-guitar-has-been-refinished/",
+          "/free-appraisal/",
+          "/sell-my-martin-guitar/"
+        ]
+      },
+      {
+        "page": "/post/martin-000-28-authentication-guide/",
+        "section": "references",
+        "heading": "Style 28 Identification References",
+        "visibleSourceLinks": [
+          "https://www.martinguitar.com/support-serial-number-lookup.html",
+          "https://www.martinguitar.com/blog-categories/from-the-factory/blog-061026-the-1933-martin-OM-45-that-went-to-war.html",
+          "https://theguitarphile.com/1934-martin-000-28-guitar-serial-number-57851/",
+          "/martin-guitar-dating-guide/",
+          "/post/martin-0-00-000-history-authentication-value-guide/"
+        ]
+      },
+      {
+        "page": "/post/martin-000-28-authentication-guide/",
+        "section": "faq",
+        "heading": "Questions AboutMartin Identification",
+        "visibleSourceLinks": []
+      },
+      {
+        "page": "/post/martin-15-17-series-authentication-guide/",
+        "section": "family",
+        "heading": "Identify The Size And The Version Of Style 17",
+        "visibleSourceLinks": [
+          "/martin-guitar-model-numbers/",
+          "https://www.vintagemartin.com/styles15_17_18.html"
+        ]
+      },
+      {
+        "page": "/post/martin-15-17-series-authentication-guide/",
+        "section": "early",
+        "heading": "Keep Early Spruce-Top Style 17 Guitars Separate",
+        "visibleSourceLinks": [
+          "/post/martin-small-early-authentication-guide/",
+          "/post/martin-small-early-value-guide/"
+        ]
+      },
+      {
+        "page": "/post/martin-15-17-series-authentication-guide/",
+        "section": "appointments",
+        "heading": "Compare The Plain Appointments Carefully",
+        "visibleSourceLinks": [
+          "https://www.vintagemartin.com/styles15_17_18.html",
+          "/martin-guitar-dating-guide/",
+          "/martin-guitar-dating-guide/#trim-and-inlays"
+        ]
+      },
+      {
+        "page": "/post/martin-15-17-series-authentication-guide/",
+        "section": "ny",
+        "heading": "Recognize The 0-16NY’s Folk-Era Construction",
+        "visibleSourceLinks": [
+          "https://vintagemartin.com/NY.html",
+          "/post/martin-style-21-small-body-authentication-guide/",
+          "/post/martin-classical-authentication-guide/",
+          "https://reverb.com/item/84726407-martin-0-16ny-1962-crack-free"
+        ]
+      },
+      {
+        "page": "/post/martin-15-17-series-authentication-guide/",
+        "section": "stamps",
+        "heading": "Read The Model And Serial Independently",
+        "visibleSourceLinks": [
+          "https://www.martinguitar.com/support-serial-number-lookup.html",
+          "/martin-neck-block-stamps/"
+        ]
+      },
+      {
+        "page": "/post/martin-15-17-series-authentication-guide/",
+        "section": "internal-construction",
+        "heading": "Inspect Braces And Reinforcement By Period",
+        "visibleSourceLinks": [
+          "/prewar-martin-guitar-guide/",
+          "/post/martin-0-00-000-history-authentication-value-guide/",
+          "/martin-guitar-dating-guide/"
+        ]
+      },
+      {
+        "page": "/post/martin-15-17-series-authentication-guide/",
+        "section": "bracing",
+        "heading": "Photograph The Top’s Underside Before Naming Its Bracing",
+        "visibleSourceLinks": [
+          "/prewar-martin-guitar-guide/"
+        ]
+      },
+      {
+        "page": "/post/martin-15-17-series-authentication-guide/",
+        "section": "hardware",
+        "heading": "Check Bridges, Tuners, Logos And Body Edges",
+        "visibleSourceLinks": [
+          "/martin-tuner-dating-guide/",
+          "/martin-headstock-logo-dating-guide/"
+        ]
+      },
+      {
+        "page": "/post/martin-15-17-series-authentication-guide/",
+        "section": "condition",
+        "heading": "Recognize Finish Work And Structural Repairs",
+        "visibleSourceLinks": [
+          "https://reverb.com/item/91974102-martin-00-17-1951-beautiful-sound-one-owner",
+          "/post/how-to-tell-if-your-acoustic-guitar-needs-a-neck-reset/",
+          "/how-to-tell-if-a-guitar-has-been-refinished/",
+          "/should-i-restore-my-guitar-before-selling/"
+        ]
+      },
+      {
+        "page": "/post/martin-15-17-series-authentication-guide/",
+        "section": "variants",
+        "heading": "Separate Hawaiian Guitars, Tenors And Modern Revivals",
+        "visibleSourceLinks": [
+          "/post/martin-tenor-authentication-guide/",
+          "/post/martin-plectrum-authentication-guide/",
+          "/martin-guitar-model-numbers/",
+          "/how-to-spot-a-fake-martin/",
+          "/free-appraisal/",
+          "/sell-my-martin-guitar/"
+        ]
+      },
+      {
+        "page": "/post/martin-15-17-series-authentication-guide/",
+        "section": "references",
+        "heading": "Research For The 15, 16NY And 17 Family",
+        "visibleSourceLinks": [
+          "https://www.martinguitar.com/support-serial-number-lookup.html",
+          "https://www.vintagemartin.com/styles15_17_18.html",
+          "https://vintagemartin.com/NY.html",
+          "https://online.fliphtml5.com/pyepf/xldo/",
+          "/martin-tuner-dating-guide/"
+        ]
+      },
+      {
+        "page": "/post/martin-15-17-series-authentication-guide/",
+        "section": "faq",
+        "heading": "Questions AboutMartin Identification",
+        "visibleSourceLinks": []
+      },
+      {
+        "page": "/post/martin-style-21-small-body-authentication-guide/",
+        "section": "models",
+        "heading": "Distinguish The Four Small-Body Style 21 Models",
+        "visibleSourceLinks": [
+          "/martin-guitar-model-numbers/"
+        ]
+      },
+      {
+        "page": "/post/martin-style-21-small-body-authentication-guide/",
+        "section": "trim",
+        "heading": "Read Style 21’s Rosewood And Ornament",
+        "visibleSourceLinks": [
+          "/post/martin-0-00-000-history-authentication-value-guide/",
+          "https://www.vintagemartin.com/styles20_21_22.html"
+        ]
+      },
+      {
+        "page": "/post/martin-style-21-small-body-authentication-guide/",
+        "section": "zero",
+        "heading": "Inspect A 0-21 As A Concert-Size Instrument",
+        "visibleSourceLinks": [
+          "/post/martin-small-early-authentication-guide/",
+          "/martin-guitar-dating-guide/"
+        ]
+      },
+      {
+        "page": "/post/martin-style-21-small-body-authentication-guide/",
+        "section": "double",
+        "heading": "Trace The Standard 00-21 Across Its Production Periods",
+        "visibleSourceLinks": [
+          "/post/martin-0-00-000-history-authentication-value-guide/",
+          "https://reverb.com/item/86974433-clean-martin-00-21-1970"
+        ]
+      },
+      {
+        "page": "/post/martin-style-21-small-body-authentication-guide/",
+        "section": "triple",
+        "heading": "Keep The 000-21’s Auditorium History Separate",
+        "visibleSourceLinks": [
+          "/post/one-owner-1956-martin-000-21/",
+          "/post/martin-om-28-authentication-guide/"
+        ]
+      },
+      {
+        "page": "/post/martin-style-21-small-body-authentication-guide/",
+        "section": "new-yorker",
+        "heading": "Identify The 00-21NY Without Assuming Every Part Is Original",
+        "visibleSourceLinks": [
+          "https://vintagemartin.com/NY.html",
+          "/post/martin-15-17-series-authentication-guide/",
+          "https://reverb.com/item/93953895-martin-00-21ny-1965"
+        ]
+      },
+      {
+        "page": "/post/martin-style-21-small-body-authentication-guide/",
+        "section": "serials",
+        "heading": "Date The Photographed 00-21 And 00-21NY",
+        "visibleSourceLinks": [
+          "https://www.martinguitar.com/support-serial-number-lookup.html",
+          "/martin-neck-block-stamps/"
+        ]
+      },
+      {
+        "page": "/post/martin-style-21-small-body-authentication-guide/",
+        "section": "structure",
+        "heading": "Separate Brace Profile From X Position And Neck Reinforcement",
+        "visibleSourceLinks": [
+          "/prewar-martin-guitar-guide/",
+          "/martin-guitar-dating-guide/"
+        ]
+      },
+      {
+        "page": "/post/martin-style-21-small-body-authentication-guide/",
+        "section": "inside",
+        "heading": "Document The Plate, Braces And Repair Joints",
+        "visibleSourceLinks": [
+          "/prewar-martin-guitar-guide/"
+        ]
+      },
+      {
+        "page": "/post/martin-style-21-small-body-authentication-guide/",
+        "section": "surviving-parts",
+        "heading": "Inspect Finish, Tuners, Guards And Binding",
+        "visibleSourceLinks": [
+          "/martin-headstock-logo-dating-guide/",
+          "/martin-tuner-dating-guide/",
+          "/how-to-tell-if-a-guitar-has-been-refinished/",
+          "/post/how-to-tell-if-your-acoustic-guitar-needs-a-neck-reset/"
+        ]
+      },
+      {
+        "page": "/post/martin-style-21-small-body-authentication-guide/",
+        "section": "later-models",
+        "heading": "Distinguish Modern Interpretations And False Attributions",
+        "visibleSourceLinks": [
+          "/martin-guitar-model-numbers/",
+          "/how-to-spot-a-fake-martin/",
+          "/post/martin-classical-authentication-guide/",
+          "/post/martin-tenor-authentication-guide/",
+          "/post/martin-plectrum-authentication-guide/",
+          "/free-appraisal/",
+          "/sell-my-martin-guitar/"
+        ]
+      },
+      {
+        "page": "/post/martin-style-21-small-body-authentication-guide/",
+        "section": "references",
+        "heading": "Style 21 Research And Archive Sources",
+        "visibleSourceLinks": [
+          "https://www.martinguitar.com/support-serial-number-lookup.html",
+          "https://www.vintagemartin.com/styles20_21_22.html",
+          "https://vintagemartin.com/NY.html",
+          "/post/one-owner-1956-martin-000-21/",
+          "https://online.fliphtml5.com/pyepf/xldo/",
+          "/post/martin-0-00-000-history-authentication-value-guide/"
+        ]
+      },
+      {
+        "page": "/post/martin-style-21-small-body-authentication-guide/",
+        "section": "faq",
+        "heading": "Questions AboutMartin Identification",
+        "visibleSourceLinks": []
+      }
+    ],
+    "priceEvidence": "../value-chart-check.json",
+    "photoEvidence": "../photo-sources.json",
+    "conflicts": "review-notes.md"
+  }
 }

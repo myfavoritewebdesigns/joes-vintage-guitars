@@ -1,0 +1,13 @@
+diff --git a/src/components/MartinSmallBodyGuide.astro b/src/components/MartinSmallBodyGuide.astro
+index d13d60b..700453b 100644
+--- a/src/components/MartinSmallBodyGuide.astro
++++ b/src/components/MartinSmallBodyGuide.astro
+@@ -75 +75 @@ const checks = [
+-    <p class="mg-drop">Every guitar has a story, but the model stamp only tells you the first sentence. A 1929 12-fret 000-28, a 1935 14-fret 000-28, and a 1965 000-28 share a basic name, but not their architecture, materials, response, or market. I start with the stamp and serial number, verify the year with my <a href="/martin-serial-and-model-numbers/">Martin serial number and model guide</a>, then read the guitar itself.</p>
++    <p class="mg-drop">Every guitar has a story, but the model stamp only tells you the first sentence. A <a href="/post/martin-000-28-authentication-guide/">1929 12-fret 000-28</a>, a 1935 14-fret 000-28, and a 1965 000-28 share a basic name, but not their architecture, materials, response, or market. I start with the stamp and serial number, verify the year with my <a href="/martin-serial-and-model-numbers/">Martin serial number and model guide</a>, then read the guitar itself.</p>
+@@ -125,0 +126 @@ const checks = [
++    <p>Compare the <a href="/post/martin-style-21-small-body-authentication-guide/">0-21, 00-21, 000-21 and 00-21NY</a> by body and construction. The <a href="/post/martin-15-17-series-authentication-guide/">Style 15, Style 17 and 0-16NY guide</a> separates all-mahogany models from the spruce-top New Yorker.</p>
+@@ -143 +144,2 @@ const checks = [
+-    <div class="mg-table-wrap" tabindex="0" role="region" aria-label="Style 18 Small-Body Martin Values">
++    <p>Additional rows come from the <a href="/post/martin-000-28-value-guide/">000-28, 0-28 and 00-28 value guide</a>, <a href="/post/martin-15-17-series-value-guide/">Style 15, 16NY and 17 price guide</a>, and <a href="/post/martin-style-21-small-body-value-guide/">small-body Style 21 value guide</a>.</p>
++    <div class="mg-table-wrap" tabindex="0" role="region" aria-label="Vintage Small-Body Martin Values">

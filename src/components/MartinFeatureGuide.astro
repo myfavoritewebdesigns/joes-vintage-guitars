@@ -11,6 +11,16 @@ import { martinGuides, martinImage, martinFeatureTimeline, martinTunerTimeline, 
 import { SITE_URL } from '../config/site';
 interface Props { guide: MartinGuide; }
 const { guide } = Astro.props;
+
+const pr2BodyTargets: Record<string,Record<string,string>> = {
+ 'martin-guitar-dating-guide': {'Style 28':'martin-000-28-authentication','1937 0-17':'martin-15-17-series-value','1930 0-21':'martin-style-21-small-body-authentication'},
+ 'martin-tuner-dating-guide': {'1955 0-15':'martin-15-17-series-value','1937 0-17':'martin-15-17-series-authentication'},
+ 'martin-guitar-model-numbers': {'0-17':'martin-15-17-series-authentication'},
+ 'martin-neck-block-stamps': {'1930 0-21':'martin-style-21-small-body-authentication'},
+};
+const pr2Targets=pr2BodyTargets[guide.slug] || {};
+const pr2Parts=(text:string)=>text.split(/(Style 28|1955 0-15|1937 0-17|1930 0-21|0-17)/g);
+
 const canonical = `/${guide.slug}/`;
 const modelLinksBySection = martinSectionModels[guide.slug] || {};
 const socialImage = martinImage(guide.cardImage);
@@ -34,7 +44,7 @@ const schema = [
   {guide.sections.map((section,index)=><section class:list={['mtn-section',{'mtn-section--tint':index%2===1}]} id={section.id}>{section.anchorIds?.map(id=><span id={id} aria-hidden="true"></span>)}<div class:list={['mtn-wrap', {'mtn-section-beside':section.photoLayout === 'beside'}]}>
     <div class="mtn-section-copy">
     <div class="mtn-section-head">{section.period && <p class="mtn-kicker">{section.period}</p>}<h2>{section.title}</h2></div>
-    {section.paragraphs.map(text=><p>{text.split(/(1938 000-18|1966 0-18|1952 00-18|In 000-18)/g).map(part => smallBodyTargets[part] && ['martin-tuner-dating-guide','martin-neck-block-stamps'].includes(guide.slug) ? <a href={smallBodyTargets[part]}>{part}</a> : part)}</p>)}
+    {section.paragraphs.map(text=><p>{text.split(/(1938 000-18|1966 0-18|1952 00-18|In 000-18)/g).map(part => smallBodyTargets[part] && ['martin-tuner-dating-guide','martin-neck-block-stamps'].includes(guide.slug) ? <a href={smallBodyTargets[part]}>{part}</a> : pr2Parts(part).map(piece=>pr2Targets[piece] ? <a href={`/post/${pr2Targets[piece]}-guide/`}>{piece}</a> : piece))}</p>)}
     {modelLinksBySection[section.id] && <MartinModelLinks keys={modelLinksBySection[section.id]} />}
     {section.points && <ul>{section.points.map(text=><li>{text}</li>)}</ul>}
     {section.inspection && <aside class="mtn-inspection" aria-labelledby={`${section.id}-inspection`}><h3 id={`${section.id}-inspection`}>{section.inspection.title}</h3><ol>{section.inspection.steps.map(text=><li>{text}</li>)}</ol><p>{section.inspection.note}</p></aside>}
