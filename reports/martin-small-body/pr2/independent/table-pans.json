@@ -1,0 +1,50 @@
+[
+  {
+    "slug": "martin-000-28-authentication-guide",
+    "width": 375,
+    "pan": {
+      "left": 425,
+      "maximum": 425
+    }
+  },
+  {
+    "slug": "martin-000-28-value-guide",
+    "width": 375,
+    "pan": {
+      "left": 425,
+      "maximum": 425
+    }
+  },
+  {
+    "slug": "martin-15-17-series-authentication-guide",
+    "width": 375,
+    "pan": {
+      "left": 425,
+      "maximum": 425
+    }
+  },
+  {
+    "slug": "martin-15-17-series-value-guide",
+    "width": 375,
+    "pan": {
+      "left": 425,
+      "maximum": 425
+    }
+  },
+  {
+    "slug": "martin-style-21-small-body-authentication-guide",
+    "width": 375,
+    "pan": {
+      "left": 425,
+      "maximum": 425
+    }
+  },
+  {
+    "slug": "martin-style-21-small-body-value-guide",
+    "width": 375,
+    "pan": {
+      "left": 425,
+      "maximum": 425
+    }
+  }
+]

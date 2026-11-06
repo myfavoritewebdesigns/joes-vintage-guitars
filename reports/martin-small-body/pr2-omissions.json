@@ -1,0 +1,129 @@
+{
+  "sourceRowsOmitted": [
+    {
+      "model": "0-15",
+      "years": "1935",
+      "reason": "1935 maple/birch instrument is outside the all-mahogany scope."
+    },
+    {
+      "model": "0-16NY",
+      "years": "1990 to 1994",
+      "reason": "1990s fall beyond this vintage chart’s 1989 coverage cutoff; this is not a production-end claim."
+    },
+    {
+      "model": "0-17",
+      "years": "1906 to 1917",
+      "reason": "Early spruce-top Style 17 is outside the all-mahogany price family."
+    },
+    {
+      "model": "0-17S",
+      "years": "1931",
+      "reason": "Spruce-top 0-17S is outside the all-mahogany price family."
+    },
+    {
+      "model": "00-17",
+      "years": "1908 to 1917",
+      "reason": "1908 to 1917 00-17 belongs to the existing early-Martin guide."
+    },
+    {
+      "model": "00-17",
+      "years": "1982 to 1988",
+      "reason": "1982 to 1988 00-17 is a later reintroduction, excluded from original-production comparisons."
+    },
+    {
+      "model": "00-21",
+      "years": "1990 to 1996",
+      "reason": "1990s beyond the stated 1989 chart cutoff."
+    },
+    {
+      "model": "000-17",
+      "years": "1911",
+      "reason": "1911 000-17 is an early spruce-top instrument."
+    },
+    {
+      "model": "000-28",
+      "years": "1990 to 1999",
+      "reason": "1990s beyond the stated 1989 chart cutoff."
+    },
+    {
+      "model": "2-17",
+      "years": "1867",
+      "reason": "Early Style 17 precedes the all-mahogany family."
+    },
+    {
+      "model": "2-17",
+      "years": "1910",
+      "reason": "1910 2-17 has a spruce top."
+    },
+    {
+      "model": "2 1/2-17",
+      "years": "1856 to 1904",
+      "reason": "Early 2 1/2-17 is outside all-mahogany scope."
+    },
+    {
+      "model": "3-17",
+      "years": "1856 to 1870",
+      "reason": "Early 3-17 is outside all-mahogany scope."
+    },
+    {
+      "model": "3-17",
+      "years": "1880 to 1908",
+      "reason": "Mahogany back and sides with a spruce top; outside all-mahogany scope."
+    },
+    {
+      "model": "5-17",
+      "years": "1912 to 1916",
+      "reason": "1912 to 1916 5-17 precedes the all-mahogany version."
+    },
+    {
+      "model": "0-28",
+      "years": "1874 to 1895",
+      "reason": "Pre-1920 model ownership remains with the existing early-Martin guide."
+    },
+    {
+      "model": "0-28",
+      "years": "1896 to 1897",
+      "reason": "Pre-1920 model ownership remains with the existing early-Martin guide."
+    },
+    {
+      "model": "2-15",
+      "years": "1939 to 1964",
+      "reason": "Unresolved model classification: the 2026 book page287 places this as an all-mahogany guitar, but documented 2-15 examples are spruce/maple carved-top mandolins. No distinct guitar version independently established; omitted rather than supplying an uncertain guitar identification or value."
+    }
+  ],
+  "unpriced": [
+    "1-17 all-mahogany 1931 to 1934: description but no dollar row in the source.",
+    "000-28 1963: no separate source row; no interpolation.",
+    "Years between isolated 0-28, 00-28, 0-21 and 000-21 entries: no annual prices inferred.",
+    "Modern 00-15, 000-15, 5-15 and modern Style 17 revivals: authentication exclusions only.",
+    "Classical G/C, tenor T, plectrum, electric E and OM instruments: existing specialist guides retain ownership."
+  ],
+  "coverage": "Through 1989 where source rows exist; this is a coverage cutoff, not a production-end claim. Pre-1920 0-21, 00-21, 0-28 and 00-28 remain with the existing early guide. Earlier 000-21 and 000-28 rows are included because that guide has no model-specific rows. Early spruce-top Style17 versions are outside the all-mahogany family. Hawaiian configurations require individual conversion assessment.",
+  "earlyGuideCorrection": "Live early-guide inspection confirms 0-21, 00-21, 0-28 and 00-28 pre-1920 rows in addition to the brief’s examples. New rows for those models start in 1920. Pre-1920 000-21 and 000-28 remain included because no model-specific row exists there. The 1874 to 1895 and 1896 to 1897 0-28 rows are omitted as part of the pre-1920 handoff.",
+  "narrowedCoverage": [
+    {
+      "model": "0-21",
+      "sourceYears": "1898 to 1926",
+      "publishedYears": "1920 to 1926",
+      "reason": "Earlier interval belongs to existing early guide; source price endpoints and frozen reduction preserved."
+    },
+    {
+      "model": "00-21",
+      "sourceYears": "1898 to 1926",
+      "publishedYears": "1920 to 1926",
+      "reason": "Earlier interval belongs to existing early guide; source price endpoints and frozen reduction preserved."
+    },
+    {
+      "model": "0-28",
+      "sourceYears": "1898 to 1923",
+      "publishedYears": "1920 to 1923",
+      "reason": "Earlier interval belongs to existing early guide; source price endpoints and frozen reduction preserved."
+    },
+    {
+      "model": "00-28",
+      "sourceYears": "1880s to 1924",
+      "publishedYears": "1920 to 1924",
+      "reason": "Earlier interval belongs to existing early guide; source price endpoints and frozen reduction preserved."
+    }
+  ]
+}

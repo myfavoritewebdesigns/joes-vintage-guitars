@@ -1,0 +1,1874 @@
+{
+  "generatedAt": "2026-11-06T20:32:49.651Z",
+  "prices": [
+    {
+      "id": "m18-01",
+      "pass": true,
+      "values": [
+        3500,
+        4350
+      ]
+    },
+    {
+      "id": "m18-02",
+      "pass": true,
+      "values": [
+        6250,
+        8000
+      ]
+    },
+    {
+      "id": "m18-04",
+      "pass": true,
+      "values": [
+        6800,
+        8500
+      ]
+    },
+    {
+      "id": "m18-05",
+      "pass": true,
+      "values": [
+        6000,
+        7750
+      ]
+    },
+    {
+      "id": "m18-06",
+      "pass": true,
+      "values": [
+        5800,
+        7550
+      ]
+    },
+    {
+      "id": "m18-07",
+      "pass": true,
+      "values": [
+        4800,
+        6100
+      ]
+    },
+    {
+      "id": "m18-08",
+      "pass": true,
+      "values": [
+        4350,
+        5650
+      ]
+    },
+    {
+      "id": "m18-09",
+      "pass": true,
+      "values": [
+        3900,
+        5200
+      ]
+    },
+    {
+      "id": "m18-10",
+      "pass": true,
+      "values": [
+        3750,
+        4900
+      ]
+    },
+    {
+      "id": "m18-11",
+      "pass": true,
+      "values": [
+        3400,
+        5100
+      ]
+    },
+    {
+      "id": "m18-12",
+      "pass": true,
+      "values": [
+        3000,
+        3850
+      ]
+    },
+    {
+      "id": "m18-13",
+      "pass": true,
+      "values": [
+        2550,
+        3400
+      ]
+    },
+    {
+      "id": "m18-14",
+      "pass": true,
+      "values": [
+        2150,
+        3000
+      ]
+    },
+    {
+      "id": "m18-15",
+      "pass": true,
+      "values": [
+        5650,
+        7400
+      ]
+    },
+    {
+      "id": "m18-16",
+      "pass": true,
+      "values": [
+        6550,
+        8250
+      ]
+    },
+    {
+      "id": "m18-17",
+      "pass": true,
+      "values": [
+        6600,
+        8350
+      ]
+    },
+    {
+      "id": "m18-18",
+      "pass": true,
+      "values": [
+        6000,
+        7900
+      ]
+    },
+    {
+      "id": "m18-19",
+      "pass": true,
+      "values": [
+        8700,
+        10700
+      ]
+    },
+    {
+      "id": "m18-20",
+      "pass": true,
+      "values": [
+        12000,
+        16000
+      ]
+    },
+    {
+      "id": "m18-21",
+      "pass": true,
+      "values": [
+        15300,
+        20400
+      ]
+    },
+    {
+      "id": "m18-22",
+      "pass": true,
+      "values": [
+        15650,
+        20900
+      ]
+    },
+    {
+      "id": "m18-23",
+      "pass": true,
+      "values": [
+        16000,
+        21350
+      ]
+    },
+    {
+      "id": "m18-24",
+      "pass": true,
+      "values": [
+        15850,
+        21100
+      ]
+    },
+    {
+      "id": "m18-25",
+      "pass": true,
+      "values": [
+        14700,
+        19600
+      ]
+    },
+    {
+      "id": "m18-26",
+      "pass": true,
+      "values": [
+        14050,
+        18700
+      ]
+    },
+    {
+      "id": "m18-27",
+      "pass": true,
+      "values": [
+        14500,
+        19350
+      ]
+    },
+    {
+      "id": "m18-28",
+      "pass": true,
+      "values": [
+        9800,
+        12750
+      ]
+    },
+    {
+      "id": "m18-29",
+      "pass": true,
+      "values": [
+        8000,
+        10700
+      ]
+    },
+    {
+      "id": "m18-30",
+      "pass": true,
+      "values": [
+        4400,
+        5700
+      ]
+    },
+    {
+      "id": "m18-31",
+      "pass": true,
+      "values": [
+        4450,
+        5800
+      ]
+    },
+    {
+      "id": "m18-32",
+      "pass": true,
+      "values": [
+        3650,
+        4800
+      ]
+    },
+    {
+      "id": "m18-33",
+      "pass": true,
+      "values": [
+        3500,
+        4800
+      ]
+    },
+    {
+      "id": "m18-34",
+      "pass": true,
+      "values": [
+        3150,
+        4350
+      ]
+    },
+    {
+      "id": "m18-35",
+      "pass": true,
+      "values": [
+        2850,
+        4000
+      ]
+    },
+    {
+      "id": "m18-36",
+      "pass": true,
+      "values": [
+        2350,
+        3050
+      ]
+    },
+    {
+      "id": "m18-37",
+      "pass": true,
+      "values": [
+        9550,
+        12600
+      ]
+    },
+    {
+      "id": "m18-38",
+      "pass": true,
+      "values": [
+        4400,
+        5700
+      ]
+    },
+    {
+      "id": "m18-39",
+      "pass": true,
+      "values": [
+        6550,
+        8250
+      ]
+    },
+    {
+      "id": "m18-40",
+      "pass": true,
+      "values": [
+        7100,
+        8900
+      ]
+    },
+    {
+      "id": "m18-41",
+      "pass": true,
+      "values": [
+        11500,
+        15300
+      ]
+    },
+    {
+      "id": "m18-42",
+      "pass": true,
+      "values": [
+        12000,
+        16000
+      ]
+    },
+    {
+      "id": "m18-43",
+      "pass": true,
+      "values": [
+        10550,
+        14100
+      ]
+    },
+    {
+      "id": "m18-44",
+      "pass": true,
+      "values": [
+        17600,
+        24650
+      ]
+    },
+    {
+      "id": "m18-45",
+      "pass": true,
+      "values": [
+        28050,
+        35600
+      ]
+    },
+    {
+      "id": "m18-46",
+      "pass": true,
+      "values": [
+        27700,
+        35200
+      ]
+    },
+    {
+      "id": "m18-47",
+      "pass": true,
+      "values": [
+        18500,
+        24650
+      ]
+    },
+    {
+      "id": "m18-48",
+      "pass": true,
+      "values": [
+        14600,
+        19350
+      ]
+    },
+    {
+      "id": "m18-49",
+      "pass": true,
+      "values": [
+        14100,
+        19350
+      ]
+    },
+    {
+      "id": "m18-50",
+      "pass": true,
+      "values": [
+        14100,
+        19350
+      ]
+    },
+    {
+      "id": "m18-51",
+      "pass": true,
+      "values": [
+        11900,
+        15850
+      ]
+    },
+    {
+      "id": "m18-52",
+      "pass": true,
+      "values": [
+        8800,
+        12300
+      ]
+    },
+    {
+      "id": "m18-53",
+      "pass": true,
+      "values": [
+        7500,
+        9700
+      ]
+    },
+    {
+      "id": "m18-54",
+      "pass": true,
+      "values": [
+        6900,
+        9050
+      ]
+    },
+    {
+      "id": "m18-55",
+      "pass": true,
+      "values": [
+        5800,
+        7550
+      ]
+    },
+    {
+      "id": "m18-56",
+      "pass": true,
+      "values": [
+        4800,
+        6100
+      ]
+    },
+    {
+      "id": "m18-57",
+      "pass": true,
+      "values": [
+        4250,
+        5550
+      ]
+    },
+    {
+      "id": "m18-58",
+      "pass": true,
+      "values": [
+        3400,
+        4700
+      ]
+    },
+    {
+      "id": "m18-59",
+      "pass": true,
+      "values": [
+        2850,
+        4000
+      ]
+    },
+    {
+      "id": "m2-001",
+      "pass": true,
+      "values": [
+        3000,
+        3850
+      ]
+    },
+    {
+      "id": "m2-002",
+      "pass": true,
+      "values": [
+        2850,
+        3500
+      ]
+    },
+    {
+      "id": "m2-003",
+      "pass": true,
+      "values": [
+        2400,
+        3000
+      ]
+    },
+    {
+      "id": "m2-004",
+      "pass": true,
+      "values": [
+        3000,
+        4750
+      ]
+    },
+    {
+      "id": "m2-005",
+      "pass": true,
+      "values": [
+        2800,
+        4200
+      ]
+    },
+    {
+      "id": "m2-006",
+      "pass": true,
+      "values": [
+        2450,
+        3500
+      ]
+    },
+    {
+      "id": "m2-007",
+      "pass": true,
+      "values": [
+        1950,
+        3100
+      ]
+    },
+    {
+      "id": "m2-010",
+      "pass": true,
+      "values": [
+        3500,
+        5300
+      ]
+    },
+    {
+      "id": "m2-011",
+      "pass": true,
+      "values": [
+        4300,
+        6450
+      ]
+    },
+    {
+      "id": "m2-012",
+      "pass": true,
+      "values": [
+        4350,
+        6550
+      ]
+    },
+    {
+      "id": "m2-013",
+      "pass": true,
+      "values": [
+        4300,
+        6450
+      ]
+    },
+    {
+      "id": "m2-014",
+      "pass": true,
+      "values": [
+        4350,
+        6550
+      ]
+    },
+    {
+      "id": "m2-015",
+      "pass": true,
+      "values": [
+        4200,
+        6100
+      ]
+    },
+    {
+      "id": "m2-016",
+      "pass": true,
+      "values": [
+        3550,
+        4900
+      ]
+    },
+    {
+      "id": "m2-017",
+      "pass": true,
+      "values": [
+        3250,
+        4250
+      ]
+    },
+    {
+      "id": "m2-018",
+      "pass": true,
+      "values": [
+        3850,
+        5550
+      ]
+    },
+    {
+      "id": "m2-019",
+      "pass": true,
+      "values": [
+        4300,
+        6450
+      ]
+    },
+    {
+      "id": "m2-021",
+      "pass": true,
+      "values": [
+        7250,
+        9350
+      ]
+    },
+    {
+      "id": "m2-022",
+      "pass": true,
+      "values": [
+        9250,
+        12750
+      ]
+    },
+    {
+      "id": "m2-023",
+      "pass": true,
+      "values": [
+        9050,
+        12450
+      ]
+    },
+    {
+      "id": "m2-024",
+      "pass": true,
+      "values": [
+        9250,
+        12750
+      ]
+    },
+    {
+      "id": "m2-025",
+      "pass": true,
+      "values": [
+        9350,
+        12900
+      ]
+    },
+    {
+      "id": "m2-026",
+      "pass": true,
+      "values": [
+        8800,
+        11450
+      ]
+    },
+    {
+      "id": "m2-027",
+      "pass": true,
+      "values": [
+        8150,
+        10300
+      ]
+    },
+    {
+      "id": "m2-028",
+      "pass": true,
+      "values": [
+        6400,
+        8100
+      ]
+    },
+    {
+      "id": "m2-029",
+      "pass": true,
+      "values": [
+        6250,
+        7850
+      ]
+    },
+    {
+      "id": "m2-032",
+      "pass": true,
+      "values": [
+        8900,
+        13350
+      ]
+    },
+    {
+      "id": "m2-033",
+      "pass": true,
+      "values": [
+        8900,
+        13350
+      ]
+    },
+    {
+      "id": "m2-034",
+      "pass": true,
+      "values": [
+        12350,
+        17000
+      ]
+    },
+    {
+      "id": "m2-035",
+      "pass": true,
+      "values": [
+        12600,
+        17400
+      ]
+    },
+    {
+      "id": "m2-036",
+      "pass": true,
+      "values": [
+        15600,
+        20050
+      ]
+    },
+    {
+      "id": "m2-037",
+      "pass": true,
+      "values": [
+        17400,
+        22600
+      ]
+    },
+    {
+      "id": "m2-038",
+      "pass": true,
+      "values": [
+        7850,
+        10450
+      ]
+    },
+    {
+      "id": "m2-040",
+      "pass": true,
+      "values": [
+        5450,
+        7050
+      ]
+    },
+    {
+      "id": "m2-041",
+      "pass": true,
+      "values": [
+        5800,
+        7550
+      ]
+    },
+    {
+      "id": "m2-042",
+      "pass": true,
+      "values": [
+        5700,
+        7500
+      ]
+    },
+    {
+      "id": "m2-043",
+      "pass": true,
+      "values": [
+        5550,
+        7250
+      ]
+    },
+    {
+      "id": "m2-044",
+      "pass": true,
+      "values": [
+        5150,
+        6900
+      ]
+    },
+    {
+      "id": "m2-045",
+      "pass": true,
+      "values": [
+        5200,
+        6950
+      ]
+    },
+    {
+      "id": "m2-046",
+      "pass": true,
+      "values": [
+        4700,
+        5950
+      ]
+    },
+    {
+      "id": "m2-047",
+      "pass": true,
+      "values": [
+        4400,
+        5700
+      ]
+    },
+    {
+      "id": "m2-048",
+      "pass": true,
+      "values": [
+        4000,
+        5350
+      ]
+    },
+    {
+      "id": "m2-050",
+      "pass": true,
+      "values": [
+        5650,
+        6950
+      ]
+    },
+    {
+      "id": "m2-051",
+      "pass": true,
+      "values": [
+        7550,
+        10700
+      ]
+    },
+    {
+      "id": "m2-052",
+      "pass": true,
+      "values": [
+        13350,
+        17200
+      ]
+    },
+    {
+      "id": "m2-053",
+      "pass": true,
+      "values": [
+        13200,
+        17000
+      ]
+    },
+    {
+      "id": "m2-054",
+      "pass": true,
+      "values": [
+        10450,
+        13900
+      ]
+    },
+    {
+      "id": "m2-055",
+      "pass": true,
+      "values": [
+        9900,
+        12900
+      ]
+    },
+    {
+      "id": "m2-056",
+      "pass": true,
+      "values": [
+        9250,
+        12300
+      ]
+    },
+    {
+      "id": "m2-057",
+      "pass": true,
+      "values": [
+        7400,
+        9550
+      ]
+    },
+    {
+      "id": "m2-058",
+      "pass": true,
+      "values": [
+        5600,
+        7300
+      ]
+    },
+    {
+      "id": "m2-059",
+      "pass": true,
+      "values": [
+        5200,
+        6950
+      ]
+    },
+    {
+      "id": "m2-060",
+      "pass": true,
+      "values": [
+        3100,
+        4000
+      ]
+    },
+    {
+      "id": "m2-061",
+      "pass": true,
+      "values": [
+        3050,
+        3900
+      ]
+    },
+    {
+      "id": "m2-063",
+      "pass": true,
+      "values": [
+        5950,
+        8100
+      ]
+    },
+    {
+      "id": "m2-064",
+      "pass": true,
+      "values": [
+        5550,
+        7250
+      ]
+    },
+    {
+      "id": "m2-065",
+      "pass": true,
+      "values": [
+        12300,
+        15850
+      ]
+    },
+    {
+      "id": "m2-066",
+      "pass": true,
+      "values": [
+        24100,
+        32700
+      ]
+    },
+    {
+      "id": "m2-067",
+      "pass": true,
+      "values": [
+        32250,
+        43000
+      ]
+    },
+    {
+      "id": "m2-068",
+      "pass": true,
+      "values": [
+        32250,
+        43000
+      ]
+    },
+    {
+      "id": "m2-069",
+      "pass": true,
+      "values": [
+        13650,
+        17600
+      ]
+    },
+    {
+      "id": "m2-070",
+      "pass": true,
+      "values": [
+        3250,
+        4250
+      ]
+    },
+    {
+      "id": "m2-071",
+      "pass": true,
+      "values": [
+        2750,
+        3850
+      ]
+    },
+    {
+      "id": "m2-073",
+      "pass": true,
+      "values": [
+        3500,
+        4850
+      ]
+    },
+    {
+      "id": "m2-074",
+      "pass": true,
+      "values": [
+        16000,
+        21350
+      ]
+    },
+    {
+      "id": "m2-075",
+      "pass": true,
+      "values": [
+        18900,
+        24650
+      ]
+    },
+    {
+      "id": "m2-076",
+      "pass": true,
+      "values": [
+        27950,
+        37000
+      ]
+    },
+    {
+      "id": "m2-077",
+      "pass": true,
+      "values": [
+        24050,
+        31150
+      ]
+    },
+    {
+      "id": "m2-078",
+      "pass": true,
+      "values": [
+        18500,
+        25800
+      ]
+    },
+    {
+      "id": "m2-079",
+      "pass": true,
+      "values": [
+        17400,
+        22600
+      ]
+    },
+    {
+      "id": "m2-080",
+      "pass": true,
+      "values": [
+        15850,
+        20700
+      ]
+    },
+    {
+      "id": "m2-081",
+      "pass": true,
+      "values": [
+        10750,
+        14200
+      ]
+    },
+    {
+      "id": "m2-082",
+      "pass": true,
+      "values": [
+        9050,
+        12050
+      ]
+    },
+    {
+      "id": "m2-083",
+      "pass": true,
+      "values": [
+        9150,
+        12200
+      ]
+    },
+    {
+      "id": "m2-084",
+      "pass": true,
+      "values": [
+        8700,
+        11300
+      ]
+    },
+    {
+      "id": "m2-085",
+      "pass": true,
+      "values": [
+        7650,
+        10200
+      ]
+    },
+    {
+      "id": "m2-086",
+      "pass": true,
+      "values": [
+        3100,
+        4000
+      ]
+    },
+    {
+      "id": "m2-087",
+      "pass": true,
+      "values": [
+        20200,
+        25800
+      ]
+    },
+    {
+      "id": "m2-088",
+      "pass": true,
+      "values": [
+        37400,
+        48950
+      ]
+    },
+    {
+      "id": "m2-089",
+      "pass": true,
+      "values": [
+        36550,
+        47850
+      ]
+    },
+    {
+      "id": "m2-090",
+      "pass": true,
+      "values": [
+        36950,
+        48400
+      ]
+    },
+    {
+      "id": "m2-091",
+      "pass": true,
+      "values": [
+        35700,
+        46750
+      ]
+    },
+    {
+      "id": "m2-092",
+      "pass": true,
+      "values": [
+        37400,
+        48950
+      ]
+    },
+    {
+      "id": "m2-093",
+      "pass": true,
+      "values": [
+        61600,
+        83600
+      ]
+    },
+    {
+      "id": "m2-094",
+      "pass": true,
+      "values": [
+        57850,
+        75650
+      ]
+    },
+    {
+      "id": "m2-095",
+      "pass": true,
+      "values": [
+        52200,
+        69600
+      ]
+    },
+    {
+      "id": "m2-096",
+      "pass": true,
+      "values": [
+        47200,
+        63750
+      ]
+    },
+    {
+      "id": "m2-097",
+      "pass": true,
+      "values": [
+        39950,
+        51000
+      ]
+    },
+    {
+      "id": "m2-098",
+      "pass": true,
+      "values": [
+        41850,
+        53400
+      ]
+    },
+    {
+      "id": "m2-099",
+      "pass": true,
+      "values": [
+        28300,
+        37000
+      ]
+    },
+    {
+      "id": "m2-100",
+      "pass": true,
+      "values": [
+        16100,
+        20900
+      ]
+    },
+    {
+      "id": "m2-101",
+      "pass": true,
+      "values": [
+        13350,
+        17200
+      ]
+    },
+    {
+      "id": "m2-102",
+      "pass": true,
+      "values": [
+        13350,
+        17200
+      ]
+    },
+    {
+      "id": "m2-103",
+      "pass": true,
+      "values": [
+        12300,
+        15850
+      ]
+    },
+    {
+      "id": "m2-104",
+      "pass": true,
+      "values": [
+        12200,
+        15650
+      ]
+    },
+    {
+      "id": "m2-105",
+      "pass": true,
+      "values": [
+        9350,
+        12350
+      ]
+    },
+    {
+      "id": "m2-106",
+      "pass": true,
+      "values": [
+        9150,
+        12200
+      ]
+    },
+    {
+      "id": "m2-107",
+      "pass": true,
+      "values": [
+        6950,
+        9350
+      ]
+    },
+    {
+      "id": "m2-108",
+      "pass": true,
+      "values": [
+        7150,
+        9550
+      ]
+    },
+    {
+      "id": "m2-109",
+      "pass": true,
+      "values": [
+        3500,
+        4850
+      ]
+    },
+    {
+      "id": "m2-110",
+      "pass": true,
+      "values": [
+        2850,
+        4000
+      ]
+    },
+    {
+      "id": "m2-115",
+      "pass": true,
+      "values": [
+        2450,
+        3700
+      ]
+    },
+    {
+      "id": "m2-116",
+      "pass": true,
+      "values": [
+        2400,
+        3600
+      ]
+    },
+    {
+      "id": "m2-121",
+      "pass": true,
+      "values": [
+        3500,
+        5300
+      ]
+    },
+    {
+      "id": "m2-122",
+      "pass": true,
+      "values": [
+        2800,
+        4200
+      ]
+    },
+    {
+      "id": "m2-123",
+      "pass": true,
+      "values": [
+        2450,
+        3700
+      ]
+    }
+  ],
+  "old58RowsUnchanged": true,
+  "hubRows": 164,
+  "protectedGroups": [
+    {
+      "name": "J-200",
+      "total": 1,
+      "byteIdentical": 1,
+      "linkOnlyExceptions": []
+    },
+    {
+      "name": "30 Rickenbacker Guides",
+      "total": 30,
+      "byteIdentical": 30,
+      "linkOnlyExceptions": []
+    },
+    {
+      "name": "28 Existing Martin Guides",
+      "total": 28,
+      "byteIdentical": 27,
+      "linkOnlyExceptions": [
+        "post/martin-om-28-value-guide/index.html"
+      ]
+    },
+    {
+      "name": "Existing Shared Model Guides",
+      "total": 72,
+      "byteIdentical": 72,
+      "linkOnlyExceptions": []
+    },
+    {
+      "name": "Existing GuideActions Callers",
+      "total": 154,
+      "byteIdentical": 154,
+      "linkOnlyExceptions": []
+    },
+    {
+      "name": "Protected Martin Posts",
+      "total": 2,
+      "byteIdentical": 2,
+      "linkOnlyExceptions": []
+    }
+  ],
+  "protectedSources": [
+    {
+      "file": "src/components/OneOwner1956Martin00021Story.astro",
+      "unchanged": true
+    },
+    {
+      "file": "src/components/MartinValueGuide.astro",
+      "unchanged": true
+    },
+    {
+      "file": "src/components/MartinModelHistory.astro",
+      "unchanged": true
+    },
+    {
+      "file": "src/components/MartinD18Guide.astro",
+      "unchanged": true
+    },
+    {
+      "file": "src/data/martin-value-guides.json",
+      "unchanged": true
+    },
+    {
+      "file": "src/data/martin-model-history.json",
+      "unchanged": true
+    },
+    {
+      "file": "src/components/model-guide/ModelGuide.astro",
+      "unchanged": true
+    },
+    {
+      "file": "src/components/model-guide/GuideBlock.astro",
+      "unchanged": true
+    },
+    {
+      "file": "src/components/model-guide/model-guide.css",
+      "unchanged": true
+    },
+    {
+      "file": "src/data/model-guides/martin-000-18.ts",
+      "unchanged": true
+    },
+    {
+      "file": "src/data/model-guides/martin-00-18.ts",
+      "unchanged": true
+    },
+    {
+      "file": "src/data/model-guides/martin-0-18.ts",
+      "unchanged": true
+    }
+  ],
+  "linkOnly": [
+    {
+      "file": "martin-guitar-dating-guide/index.html",
+      "onlyAddedAnchorWrappers": true
+    },
+    {
+      "file": "martin-guitar-model-numbers/index.html",
+      "onlyAddedAnchorWrappers": true
+    },
+    {
+      "file": "martin-neck-block-stamps/index.html",
+      "onlyAddedAnchorWrappers": true
+    },
+    {
+      "file": "martin-serial-and-model-numbers/index.html",
+      "onlyAddedAnchorWrappers": true
+    },
+    {
+      "file": "martin-tuner-dating-guide/index.html",
+      "onlyAddedAnchorWrappers": true
+    },
+    {
+      "file": "sell-my-martin-guitar/index.html",
+      "onlyAddedAnchorWrappers": true
+    },
+    {
+      "file": "post/martin-om-28-value-guide/index.html",
+      "onlyAddedAnchorWrappers": true
+    },
+    {
+      "file": "post/one-owner-1956-martin-000-21/index.html",
+      "onlyAddedAnchorWrappers": true
+    }
+  ],
+  "photos": [
+    {
+      "key": "a52_2",
+      "batch": "PR1",
+      "unchanged": true
+    },
+    {
+      "key": "a52_3",
+      "batch": "PR1",
+      "unchanged": true
+    },
+    {
+      "key": "a52_5",
+      "batch": "PR1",
+      "unchanged": true
+    },
+    {
+      "key": "a52_9",
+      "batch": "PR1",
+      "unchanged": true
+    },
+    {
+      "key": "a52_10",
+      "batch": "PR1",
+      "unchanged": true
+    },
+    {
+      "key": "a52_12",
+      "batch": "PR1",
+      "unchanged": true
+    },
+    {
+      "key": "a52_14",
+      "batch": "PR1",
+      "unchanged": true
+    },
+    {
+      "key": "a49stamp",
+      "batch": "PR1",
+      "unchanged": true
+    },
+    {
+      "key": "a49owner",
+      "batch": "PR1",
+      "unchanged": true
+    },
+    {
+      "key": "a20",
+      "batch": "PR1",
+      "unchanged": true
+    },
+    {
+      "key": "a66tuners",
+      "batch": "PR1",
+      "unchanged": true
+    },
+    {
+      "key": "a31koa",
+      "batch": "PR1",
+      "unchanged": true
+    },
+    {
+      "key": "p38front",
+      "batch": "PR1",
+      "unchanged": true
+    },
+    {
+      "key": "p38head",
+      "batch": "PR1",
+      "unchanged": true
+    },
+    {
+      "key": "p38stamp",
+      "batch": "PR1",
+      "unchanged": true
+    },
+    {
+      "key": "p38tuners",
+      "batch": "PR1",
+      "unchanged": true
+    },
+    {
+      "key": "p60front",
+      "batch": "PR1",
+      "unchanged": true
+    },
+    {
+      "key": "p60top",
+      "batch": "PR1",
+      "unchanged": true
+    },
+    {
+      "key": "p60back",
+      "batch": "PR1",
+      "unchanged": true
+    },
+    {
+      "key": "p60head",
+      "batch": "PR1",
+      "unchanged": true
+    },
+    {
+      "key": "p60stamp",
+      "batch": "PR1",
+      "unchanged": true
+    },
+    {
+      "key": "p60case",
+      "batch": "PR1",
+      "unchanged": true
+    },
+    {
+      "key": "p51tripletop",
+      "batch": "PR1",
+      "unchanged": true
+    },
+    {
+      "key": "p51triplebridge",
+      "batch": "PR1",
+      "unchanged": true
+    },
+    {
+      "key": "p51triplecase",
+      "batch": "PR1",
+      "unchanged": true
+    },
+    {
+      "key": "p51doublefront",
+      "batch": "PR1",
+      "unchanged": true
+    },
+    {
+      "key": "p51doublebridge",
+      "batch": "PR1",
+      "unchanged": true
+    },
+    {
+      "key": "p51doublecase",
+      "batch": "PR1",
+      "unchanged": true
+    },
+    {
+      "key": "p62doubletop",
+      "batch": "PR1",
+      "unchanged": true
+    },
+    {
+      "key": "p62doubleback",
+      "batch": "PR1",
+      "unchanged": true
+    },
+    {
+      "key": "p62doubletuners",
+      "batch": "PR1",
+      "unchanged": true
+    },
+    {
+      "key": "p25front",
+      "batch": "PR1",
+      "unchanged": true
+    },
+    {
+      "key": "p25head",
+      "batch": "PR1",
+      "unchanged": true
+    },
+    {
+      "key": "p25bridge",
+      "batch": "PR1",
+      "unchanged": true
+    },
+    {
+      "key": "p25stamp",
+      "batch": "PR1",
+      "unchanged": true
+    },
+    {
+      "key": "p66front",
+      "batch": "PR1",
+      "unchanged": true
+    },
+    {
+      "key": "p66top",
+      "batch": "PR1",
+      "unchanged": true
+    },
+    {
+      "key": "p66head",
+      "batch": "PR1",
+      "unchanged": true
+    },
+    {
+      "key": "p66bridge",
+      "batch": "PR1",
+      "unchanged": true
+    },
+    {
+      "key": "p66stamp",
+      "batch": "PR1",
+      "unchanged": true
+    },
+    {
+      "key": "p66back",
+      "batch": "PR1",
+      "unchanged": true
+    },
+    {
+      "key": "p51singletop",
+      "batch": "PR1",
+      "unchanged": true
+    },
+    {
+      "key": "p51singlebridge",
+      "batch": "PR1",
+      "unchanged": true
+    },
+    {
+      "key": "g65front",
+      "batch": "PR2",
+      "unchanged": true
+    },
+    {
+      "key": "g65head",
+      "batch": "PR2",
+      "unchanged": true
+    },
+    {
+      "key": "g65bridge",
+      "batch": "PR2",
+      "unchanged": true
+    },
+    {
+      "key": "g65stamp",
+      "batch": "PR2",
+      "unchanged": true
+    },
+    {
+      "key": "g65back",
+      "batch": "PR2",
+      "unchanged": true
+    },
+    {
+      "key": "g65tuners",
+      "batch": "PR2",
+      "unchanged": true
+    },
+    {
+      "key": "g50front",
+      "batch": "PR2",
+      "unchanged": true
+    },
+    {
+      "key": "g50bridge",
+      "batch": "PR2",
+      "unchanged": true
+    },
+    {
+      "key": "g50stamp",
+      "batch": "PR2",
+      "unchanged": true
+    },
+    {
+      "key": "m55front",
+      "batch": "PR2",
+      "unchanged": true
+    },
+    {
+      "key": "m55stamp",
+      "batch": "PR2",
+      "unchanged": true
+    },
+    {
+      "key": "m55head",
+      "batch": "PR2",
+      "unchanged": true
+    },
+    {
+      "key": "m55back",
+      "batch": "PR2",
+      "unchanged": true
+    },
+    {
+      "key": "m55tuners",
+      "batch": "PR2",
+      "unchanged": true
+    },
+    {
+      "key": "ny62front",
+      "batch": "PR2",
+      "unchanged": true
+    },
+    {
+      "key": "ny62head",
+      "batch": "PR2",
+      "unchanged": true
+    },
+    {
+      "key": "ny62bridge",
+      "batch": "PR2",
+      "unchanged": true
+    },
+    {
+      "key": "ny62stamp",
+      "batch": "PR2",
+      "unchanged": true
+    },
+    {
+      "key": "m51front",
+      "batch": "PR2",
+      "unchanged": true
+    },
+    {
+      "key": "m51bridge",
+      "batch": "PR2",
+      "unchanged": true
+    },
+    {
+      "key": "s65front",
+      "batch": "PR2",
+      "unchanged": true
+    },
+    {
+      "key": "s65stamp",
+      "batch": "PR2",
+      "unchanged": true
+    },
+    {
+      "key": "s70front",
+      "batch": "PR2",
+      "unchanged": true
+    },
+    {
+      "key": "s70back",
+      "batch": "PR2",
+      "unchanged": true
+    },
+    {
+      "key": "s70stamp",
+      "batch": "PR2",
+      "unchanged": true
+    },
+    {
+      "key": "s70binding",
+      "batch": "PR2",
+      "unchanged": true
+    },
+    {
+      "key": "m37front",
+      "batch": "PR2",
+      "unchanged": true
+    },
+    {
+      "key": "m37bridge",
+      "batch": "PR2",
+      "unchanged": true
+    },
+    {
+      "key": "m54braces",
+      "batch": "PR2",
+      "unchanged": true
+    },
+    {
+      "key": "s30front",
+      "batch": "PR2",
+      "unchanged": true
+    },
+    {
+      "key": "s36plate",
+      "batch": "PR2",
+      "unchanged": true
+    },
+    {
+      "key": "s56front",
+      "batch": "PR2",
+      "unchanged": true
+    },
+    {
+      "key": "s56top",
+      "batch": "PR2",
+      "unchanged": true
+    },
+    {
+      "key": "s56back",
+      "batch": "PR2",
+      "unchanged": true
+    },
+    {
+      "key": "fake",
+      "batch": "PR2",
+      "unchanged": true
+    }
+  ],
+  "pageChecks": [
+    {
+      "route": "/post/martin-000-28-authentication-guide/",
+      "pass": true,
+      "minWords": 1800
+    },
+    {
+      "route": "/post/martin-000-28-value-guide/",
+      "pass": true,
+      "minWords": 1200
+    },
+    {
+      "route": "/post/martin-15-17-series-authentication-guide/",
+      "pass": true,
+      "minWords": 2200
+    },
+    {
+      "route": "/post/martin-15-17-series-value-guide/",
+      "pass": true,
+      "minWords": 1200
+    },
+    {
+      "route": "/post/martin-style-21-small-body-authentication-guide/",
+      "pass": true,
+      "minWords": 2200
+    },
+    {
+      "route": "/post/martin-style-21-small-body-value-guide/",
+      "pass": true,
+      "minWords": 1200
+    }
+  ],
+  "allTwelvePageOverlapPass": true,
+  "legacyReferencedImages": {
+    "checked": 15282,
+    "failures": []
+  },
+  "hubMetadataHeadingsIdsPhotosPreserved": true,
+  "exceptionsExplained": "review-notes.md"
+}
