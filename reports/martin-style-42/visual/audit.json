@@ -4031,21 +4031,21 @@
       {
         "text": "Free Appraisal",
         "href": "/free-appraisal/",
-        "top": 358.90625,
-        "bottom": 409.296875,
+        "top": 459.125,
+        "bottom": 509.515625,
         "visible": true
       },
       {
         "text": "Sell My Martin",
         "href": "/sell-my-martin-guitar/",
-        "top": 358.90625,
-        "bottom": 409.296875,
+        "top": 459.125,
+        "bottom": 509.515625,
         "visible": true
       }
     ],
     "brokenImages": [],
     "anchorFailures": [],
-    "textRuns": 214,
+    "textRuns": 216,
     "computedFailures": [],
     "layerUncertainties": 10,
     "axeViolations": [],
@@ -4163,7 +4163,7 @@
             "all": [],
             "none": [],
             "impact": "serious",
-            "html": "<p class=\"mg-eyebrow\">Style 42 Small Bodies · Estimated Retail Values</p>",
+            "html": "<p class=\"mg-eyebrow\">Style 42 Small Bodies · Adjusted Guide Benchmarks</p>",
             "target": [
               ".mg-hero-copy > .mg-eyebrow"
             ],
@@ -4564,7 +4564,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "Style 42 Small Bodies · Estimated Retail Values",
+        "text": "Style 42 Small Bodies · Adjusted Guide Benchmarks",
         "tag": "P",
         "class": "mg-eyebrow",
         "foreground": "rgb(200, 158, 87)",
@@ -4580,7 +4580,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "Martin 000-42 Values",
+        "text": "Vintage Martin 000-42 Values",
         "tag": "H1",
         "class": "",
         "foreground": "rgb(255, 255, 255)",
@@ -4628,7 +4628,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "Choose the correct vintage production group, then account for original material, structural condition and documented repairs.",
+        "text": "Use the calculated guide ranges as starting references, then assess the guitar’s original material, structural condition and docum",
         "tag": "P",
         "class": "mg-dek",
         "foreground": "rgb(233, 224, 210)",
@@ -4884,7 +4884,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "An excellent, original late-1939 Martin 000-42 with its original case is estimated here at $80,750 to $102,000. Early 0-42s, 00-42",
+        "text": "The adjusted annual-guide benchmark for an excellent, original late-1939 Martin 000-42 with its original case is $80,750 to $102,0",
         "tag": "P",
         "class": "",
         "foreground": "rgb(27, 25, 22)",
@@ -4932,7 +4932,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "These are estimated retail ranges for excellent, original guitars with their original cases. They’re starting comparisons for an a",
+        "text": "These guide-derived estimates assume excellent, original guitars with their original cases. They’re starting comparisons for an ap",
         "tag": "P",
         "class": "",
         "foreground": "rgb(27, 25, 22)",
@@ -5220,7 +5220,23 @@
         "unresolvedLayers": []
       },
       {
-        "text": "Joe’s Estimated Market Values: Excellent, Original Instruments With The Original Case",
+        "text": "Joe’s estimated market values below are adjusted annual-guide benchmarks. Each source range receives a fixed editorial reduction o",
+        "tag": "P",
+        "class": "",
+        "foreground": "rgb(27, 25, 22)",
+        "background": [
+          243,
+          234,
+          216,
+          1
+        ],
+        "ratio": 14.677,
+        "required": 4.5,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "Joe’s Estimated Market Values: Adjusted Annual-Guide Benchmarks",
         "tag": "CAPTION",
         "class": "",
         "foreground": "rgb(157, 53, 27)",
@@ -5284,7 +5300,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "Estimated Retail Value",
+        "text": "Adjusted Guide Range",
         "tag": "TH",
         "class": "",
         "foreground": "rgb(255, 255, 255)",
@@ -7317,6 +7333,22 @@
       },
       {
         "text": "The chart assumes the original case. Describe a replacement case, altered lining or missing hardware accurately. The case can help",
+        "tag": "P",
+        "class": "",
+        "foreground": "rgb(27, 25, 22)",
+        "background": [
+          243,
+          234,
+          216,
+          1
+        ],
+        "ratio": 14.677,
+        "required": 4.5,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "An asking price is what a seller requests; an appraisal is an opinion for a stated purpose and date; a completed sale records a tr",
         "tag": "P",
         "class": "",
         "foreground": "rgb(27, 25, 22)",
@@ -11895,7 +11927,7 @@
     ],
     "brokenImages": [],
     "anchorFailures": [],
-    "textRuns": 214,
+    "textRuns": 216,
     "computedFailures": [],
     "layerUncertainties": 10,
     "axeViolations": [],
@@ -12314,7 +12346,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "Style 42 Small Bodies · Estimated Retail Values",
+        "text": "Style 42 Small Bodies · Adjusted Guide Benchmarks",
         "tag": "P",
         "class": "mg-eyebrow",
         "foreground": "rgb(200, 158, 87)",
@@ -12330,7 +12362,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "Martin 000-42 Values",
+        "text": "Vintage Martin 000-42 Values",
         "tag": "H1",
         "class": "",
         "foreground": "rgb(255, 255, 255)",
@@ -12378,7 +12410,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "Choose the correct vintage production group, then account for original material, structural condition and documented repairs.",
+        "text": "Use the calculated guide ranges as starting references, then assess the guitar’s original material, structural condition and docum",
         "tag": "P",
         "class": "mg-dek",
         "foreground": "rgb(233, 224, 210)",
@@ -12634,7 +12666,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "An excellent, original late-1939 Martin 000-42 with its original case is estimated here at $80,750 to $102,000. Early 0-42s, 00-42",
+        "text": "The adjusted annual-guide benchmark for an excellent, original late-1939 Martin 000-42 with its original case is $80,750 to $102,0",
         "tag": "P",
         "class": "",
         "foreground": "rgb(27, 25, 22)",
@@ -12682,7 +12714,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "These are estimated retail ranges for excellent, original guitars with their original cases. They’re starting comparisons for an a",
+        "text": "These guide-derived estimates assume excellent, original guitars with their original cases. They’re starting comparisons for an ap",
         "tag": "P",
         "class": "",
         "foreground": "rgb(27, 25, 22)",
@@ -12970,7 +13002,23 @@
         "unresolvedLayers": []
       },
       {
-        "text": "Joe’s Estimated Market Values: Excellent, Original Instruments With The Original Case",
+        "text": "Joe’s estimated market values below are adjusted annual-guide benchmarks. Each source range receives a fixed editorial reduction o",
+        "tag": "P",
+        "class": "",
+        "foreground": "rgb(27, 25, 22)",
+        "background": [
+          243,
+          234,
+          216,
+          1
+        ],
+        "ratio": 14.677,
+        "required": 4.5,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "Joe’s Estimated Market Values: Adjusted Annual-Guide Benchmarks",
         "tag": "CAPTION",
         "class": "",
         "foreground": "rgb(157, 53, 27)",
@@ -13034,7 +13082,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "Estimated Retail Value",
+        "text": "Adjusted Guide Range",
         "tag": "TH",
         "class": "",
         "foreground": "rgb(255, 255, 255)",
@@ -15067,6 +15115,22 @@
       },
       {
         "text": "The chart assumes the original case. Describe a replacement case, altered lining or missing hardware accurately. The case can help",
+        "tag": "P",
+        "class": "",
+        "foreground": "rgb(27, 25, 22)",
+        "background": [
+          243,
+          234,
+          216,
+          1
+        ],
+        "ratio": 14.677,
+        "required": 4.5,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "An asking price is what a seller requests; an appraisal is an opinion for a stated purpose and date; a completed sale records a tr",
         "tag": "P",
         "class": "",
         "foreground": "rgb(27, 25, 22)",

@@ -1,6 +1,6 @@
 # check-copy report
 
-Generated: 2026-11-09T16:25:46.887Z
+Generated: 2026-11-09T16:33:17.383Z
 Scanned: 472 HTML pages in dist
 Allowlist: 61 entries
 

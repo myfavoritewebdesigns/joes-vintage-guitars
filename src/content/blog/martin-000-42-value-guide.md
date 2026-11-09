@@ -1,5 +1,5 @@
 ---
-title: "Martin 000-42 Values"
+title: "Vintage Martin 000-42 Values"
 seoTitle: "Martin 000-42 Values: Vintage 00-42 And 0-42 Price Guide"
 pubDate: "2026-11-09"
 modified: "2026-11-09"

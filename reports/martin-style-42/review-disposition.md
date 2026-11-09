@@ -40,3 +40,9 @@ Both initial cold readers returned FIX FIRST; their original reports are saved v
 The value reader's rare-year concern triggered a fresh book inspection. The guide's actual 14-fret grouping is confirmed, but its conflict with the earlier production discussion is now explicit and the row is conditional on individual-order verification. No range was changed. The reader's source-transparency concern is addressed through an internal link to the authentication page's named book edition/pages and calculation limits. The request to add an external vintage appraisal/sale comparison is declined because the user's brief expressly excludes external citations, dealer names, auction results and listing examples from value pages. No alternate source replaces the mandated book ranges.
 
 Fresh final readers will review the revised pages without seeing these notes or prior verdicts.
+
+## Fresh Final-Reader Findings
+
+The authentication reader returned SHIP with no required fixes. The second value reader requested clearer labeling of calculated benchmarks. The value title now explicitly says Vintage, the chart caption retains the user's requested “Joe’s Estimated Market Values” label while appending “Adjusted Annual-Guide Benchmarks,” and its amount column says “Adjusted Guide Range.” The opening and adjacent paragraph explain the 11 to 15 percent editorial reduction and distinguish the ranges from observed transaction boundaries. No value changed.
+
+The request to print a dealer asking price and an outside appraisal remains declined under the user's no-external-examples requirement. The page instead explains the difference between asking prices, appraisals and completed sales, and why an exceptional original and a repaired guitar can fall outside a guide band. A fresh reader will evaluate this final value wording independently.
