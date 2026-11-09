@@ -39,10 +39,22 @@ Both initial cold readers returned FIX FIRST; their original reports are saved v
 
 The value reader's rare-year concern triggered a fresh book inspection. The guide's actual 14-fret grouping is confirmed, but its conflict with the earlier production discussion is now explicit and the row is conditional on individual-order verification. No range was changed. The reader's source-transparency concern is addressed through an internal link to the authentication page's named book edition/pages and calculation limits. The request to add an external vintage appraisal/sale comparison is declined because the user's brief expressly excludes external citations, dealer names, auction results and listing examples from value pages. No alternate source replaces the mandated book ranges.
 
-Fresh final readers will review the revised pages without seeing these notes or prior verdicts.
+Fresh final readers reviewed the revised pages without seeing these notes or prior verdicts.
 
 ## Fresh Final-Reader Findings
 
 The authentication reader returned SHIP with no required fixes. The second value reader requested clearer labeling of calculated benchmarks. The value title now explicitly says Vintage, the chart caption retains the user's requested “Joe’s Estimated Market Values” label while appending “Adjusted Annual-Guide Benchmarks,” and its amount column says “Adjusted Guide Range.” The opening and adjacent paragraph explain the 11 to 15 percent editorial reduction and distinguish the ranges from observed transaction boundaries. No value changed.
 
-The request to print a dealer asking price and an outside appraisal remains declined under the user's no-external-examples requirement. The page instead explains the difference between asking prices, appraisals and completed sales, and why an exceptional original and a repaired guitar can fall outside a guide band. A fresh reader will evaluate this final value wording independently.
+The request to print a dealer asking price and an outside appraisal remains declined under the user's no-external-examples requirement. The page instead explains the difference between asking prices, appraisals and completed sales, and why an exceptional original and a repaired guitar can fall outside a guide band. A fresh reader evaluated this final value wording independently; its verdict follows.
+
+## Final Value Verdict And Explicit Disagreement
+
+The final value reader still returns FIX FIRST. No separate factual error was established. Its remaining requests are to replace or validate the editorial reductions using market evidence and to print outside instrument-price comparisons. Those requests conflict directly with the user's prescribed pricing method:
+
+> Reduction: pick one random reduction per row from 11, 12, 13, 14 or 15 percent.
+
+> Never re-randomize.
+
+> Value pages carry no external citations, dealer names, auction results or listing examples.
+
+The operator retains the user's method and frozen amounts. No empirical justification is invented for the reductions. Their editorial basis is explicitly stated beside the chart, and the column/caption identify adjusted annual-guide benchmarks. This is a recorded disagreement with the final reader, not a claimed SHIP verdict. The final handoff must distinguish passing technical checks from this remaining editorial recommendation. Joe's approval of the exact preview is still required before publication.
