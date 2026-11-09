@@ -1,3 +1,4 @@
+import {martin00042Guides} from './martin-000-42';
 import {martinStyle21Guides} from './martin-style-21-small-body';
 import {martin1517Guides} from './martin-15-17-series';
 import {martin00028Guides} from './martin-000-28';
@@ -31,4 +32,4 @@ import {esquireAuthenticationGuides} from './fender-esquire';
 import {martin00018Guides} from './martin-000-18';
 import {martin0018Guides} from './martin-00-18';
 import {martin018Guides} from './martin-0-18';
-export const modelGuides = [...martinStyle21Guides, ...martin1517Guides, ...martin00028Guides, ...whiteFalconGuides, ...countryGentlemanGuides, ...anniversaryGuides, ...starfireGuides, ...nationalGuides, ...casinoGuides, ...emperorGuides, ...triumphGuides, ...olympicGuides, ...deluxeGuides, ...broadwayGuides, ...zephyrGuides, ...sorrentoGuides, ...windsorGuides, ...fenderAmpGuides, ...l50Guides, ...l48Guides, ...lesPaulDeluxeGuides, ...l4Guides, ...l7Guides, ...gibsonBassGuides, ...es175Guides, ...byrdlandValueGuides, ...es225ValueGuides, ...bassVIGuides, ...telecasterVariantGuides, ...esquireAuthenticationGuides, ...martin00018Guides, ...martin0018Guides, ...martin018Guides];
+export const modelGuides = [...martin00042Guides, ...martinStyle21Guides, ...martin1517Guides, ...martin00028Guides, ...whiteFalconGuides, ...countryGentlemanGuides, ...anniversaryGuides, ...starfireGuides, ...nationalGuides, ...casinoGuides, ...emperorGuides, ...triumphGuides, ...olympicGuides, ...deluxeGuides, ...broadwayGuides, ...zephyrGuides, ...sorrentoGuides, ...windsorGuides, ...fenderAmpGuides, ...l50Guides, ...l48Guides, ...lesPaulDeluxeGuides, ...l4Guides, ...l7Guides, ...gibsonBassGuides, ...es175Guides, ...byrdlandValueGuides, ...es225ValueGuides, ...bassVIGuides, ...telecasterVariantGuides, ...esquireAuthenticationGuides, ...martin00018Guides, ...martin0018Guides, ...martin018Guides];

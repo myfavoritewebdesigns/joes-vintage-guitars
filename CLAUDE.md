@@ -1144,3 +1144,13 @@ Reports under reports/martin-small-body/pr2 contain source and photo ledgers, pr
 The branch incorporates origin/main 17debeb's repository cleanup. Its screenshot/log ignore policy is preserved; screenshots stay local and Markdown/JSON evidence stays tracked. This preview is not approved for publication. After Joe approves the specific hosted preview, squash-merge, confirm production deployment and load all six pages plus the hub three times.
 
 PR2 final source correction: the 2026 book’s page 287 calls 2-15 an all-mahogany guitar, while a firsthand 1949 2-15 listing documents a spruce/maple carved-top mandolin. Without independent support for a distinct guitar version, omit the optional 2-15 identification and price row. Preserve the frozen assignment privately; final chart totals 106 new + 58 unchanged = 164. See reports/martin-small-body/pr2/review-notes.md.
+
+### November 9, 2026: Martin Style 42 Preview
+
+Joe approved preparing the next pair after the original twelve small-body guides were published. Add 000-42 authentication/value pages with separate 0-42 and 00-42 sections and thirteen frozen book-derived ranges. The 164 existing small-body rows remain unchanged; the hub reads all 177 from the same data. Early Style 42 rows do not duplicate the early guide, which has only an individual-appraisal referral for these models.
+
+Joe explicitly approved labeled comparisons after Drive and his active, ended and ordered Reverb listings yielded no prewar small-body Style 42 photo set. Use his 2012 000-42 with visible modern labels, alongside identified 1930 0-21, 1936 00-21, 1950 000-28 and fake D-45 comparisons. Preserve full served image bytes and dimensions; no larger 2012 originals were found in Drive. The worn 1944 000-18 remains excluded.
+
+The hub, prewar reference and auction article supply contextual referrals. Correct the auction article's now-outdated claim that no ordinary 000-42 range exists, while keeping every auction value and comparison calculation unchanged. The existing output wrapper adds the prewar referral without editing legacy data or shared renderer behavior. Keep all other model-guide source, styles and price rows unchanged.
+
+See reports/martin-style-42 for scope, sources, photo provenance, pricing and verification. This batch requires Joe's approval of the exact hosted preview before publication.
