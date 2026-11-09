@@ -3,7 +3,7 @@ title: "Martin 000-42 Values"
 seoTitle: "Martin 000-42 Values: Vintage 00-42 And 0-42 Price Guide"
 pubDate: "2026-11-09"
 modified: "2026-11-09"
-excerpt: "Compare Martin 000-42, 00-42 and 0-42 values by period and configuration. Review refinishing, replaced tops, bridge work and condition before selling."
+excerpt: "Compare vintage Martin 000-42, 00-42 and 0-42 prices by period and condition. Review major repairs, then ask Joe for a free instrument appraisal."
 category: "value-evaluation"
 categoryName: "Value & Evaluation"
 tags: ["Martin", "Style 42", "Guitars"]
@@ -12,7 +12,7 @@ heroImageAlt: "2012 Martin 000-42 from Joe’s archive. Modern comparison; the v
 heroImageCaption: "2012 Martin 000-42 from Joe’s archive. Modern comparison; the vintage price chart does not apply to this guitar."
 heroImageLicensed: true
 ogImage: "images/martin-style-42/2012-martin-000-42-01.jpg"
-metaDescription: "Compare Martin 000-42, 00-42 and 0-42 values by period and configuration. Review refinishing, replaced tops, bridge work and condition before selling."
+metaDescription: "Compare vintage Martin 000-42, 00-42 and 0-42 prices by period and condition. Review major repairs, then ask Joe for a free instrument appraisal."
 author: "Joe Dampt"
 draft: false
 ---

@@ -12,4 +12,3 @@ Answer only the prompts where you have something useful to add.
 The optional answers above can improve the preview. They are not part of the published pages and are not a condition for reviewing the current documented draft.
 
 Two new guides and a hub update are prepared from the sources described in sources-and-scope.md. Modern comparisons remain explicitly labeled. Publication awaits Joe's approval of the exact hosted preview.
-

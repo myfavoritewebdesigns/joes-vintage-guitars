@@ -14,7 +14,7 @@ export const style42Photos={
  full:photo(full,'2012 Martin 000-42: complete modern 14-fret instrument, shown to distinguish recent production from vintage originals.'),
  head:photo(head,'2012 Martin 000-42: pearl headstock lettering and modern hardware. Match these details to the actual production year.'),
  trim:photo(trim,'2012 Martin 000-42: abalone top border and rosette. The photograph illustrates trim placement on a modern example.'),
- stamp:photo(stamp,'2012 Martin 000-42: neck-block photograph with part of the model area obscured.'),
+ stamp:photo(stamp,'2012 Martin 000-42: visible model and serial, with part of the maker’s stamp covered.'),
  back:photo(back,'2012 Martin 000-42: rosewood back with a decorative center strip and plain perimeter binding.'),
  binding:photo(binding,'2012 Martin 000-42: close view of documented binding separation at the waist.'),
  side:photo(side,'2012 Martin 000-42: side and binding inspection view. This guitar has two documented areas of minor binding separation.'),

@@ -6,7 +6,7 @@ The new pair leads with 000-42 and gives 0-42/00-42 their own identification sec
 
 Photographs show Joe's 2012 000-42 and labeled archive comparisons. No prewar Style 42 photo set was found in the connected Drive or active/ended/ordered Reverb inventory search. The nine newly selected files retain the complete Reverb-served image bytes and dimensions. Their original camera files were not found in Drive. Modern status appears in the lead caption, At A Glance and introduction.
 
-The source-specific qualifications are deliberate: a 1927 00-42 needs configuration inspection; the 0-42 steel band has intermittent production; early 000-42 orders have varied specifications; a recreated historical year is not the build year. The modern neck-block photograph is partly obscured, so no serial number is invented.
+The source-specific qualifications are deliberate: a 1927 00-42 needs configuration inspection; the 0-42 steel band has intermittent production; early 000-42 orders have varied specifications; a recreated historical year is not the build year. The modern neck-block photograph shows the model and serial, while an attached pad covers part of the maker’s stamp. No serial number is invented.
 
 The hub gains two contextual paragraphs and the shared price rows. The prewar reference gains one contextual referral through the existing output wrapper; its underlying guide data and shared renderer are unchanged. The auction article's outdated no-000-42-price claim is corrected and linked to the new guides, without changing any auction result, ratio or price comparison card.
 
