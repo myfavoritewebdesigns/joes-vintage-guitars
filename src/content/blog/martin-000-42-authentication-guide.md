@@ -1,6 +1,6 @@
 ---
-title: "Martin 000-42 Guide"
-seoTitle: "Martin 000-42, 00-42 And 0-42: Vintage Identity Guide"
+title: "Martin Style 42 Authentication Guide"
+seoTitle: "Martin Style 42 Authentication: 0-42, 00-42 And 000-42"
 pubDate: "2026-11-09"
 modified: "2026-11-09"
 excerpt: "Identify vintage Martin 000-42, 00-42 and 0-42 guitars by trim, stamps and construction. Compare modern examples and ask Joe for a free appraisal."

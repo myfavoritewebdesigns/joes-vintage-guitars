@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-11-09T16:33:18.655Z",
+  "checkedAt": "2026-11-09T20:14:43.599Z",
   "checks": [
     {
       "route": "/post/martin-000-42-authentication-guide/",
-      "titleLength": 53,
+      "titleLength": 54,
       "descriptionLength": 146,
       "wordCount": 2866,
       "inbound": [
@@ -17,7 +17,7 @@
     },
     {
       "route": "/post/martin-000-42-value-guide/",
-      "titleLength": 56,
+      "titleLength": 53,
       "descriptionLength": 145,
       "wordCount": 2187,
       "inbound": [

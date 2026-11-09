@@ -1154,3 +1154,5 @@ Joe explicitly approved labeled comparisons after Drive and his active, ended an
 The hub, prewar reference and auction article supply contextual referrals. Correct the auction article's now-outdated claim that no ordinary 000-42 range exists, while keeping every auction value and comparison calculation unchanged. The existing output wrapper adds the prewar referral without editing legacy data or shared renderer behavior. Keep all other model-guide source, styles and price rows unchanged.
 
 See reports/martin-style-42 for scope, sources, photo provenance, pricing and verification. This batch requires Joe's approval of the exact hosted preview before publication.
+
+Joe's preview correction on November 9: the article titles must describe the full Style 42 family covered in the body. Use “Martin Style 42 Authentication Guide” and “Vintage Martin Style 42 Values” for the visible titles and archive entries, with matching Style 42 search titles that name 0-42, 00-42 and 000-42. Existing preview URLs, research, photographs and frozen prices remain unchanged.

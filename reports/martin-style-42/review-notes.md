@@ -17,3 +17,9 @@ Desktop/mobile and hosted verification are recorded in qa-gate.md, visual-review
 Authentication's final reader returned SHIP. Value's final reader returned FIX FIRST because it recommends empirical support for the editorial reductions and outside market comparisons. Those requests conflict with the user's prescribed fixed book reductions and ban on outside value examples. The chart transparently labels adjusted annual-guide benchmarks; the original review and the exact disagreement are preserved in value-final-read.md and review-disposition.md. This preview does not claim unanimous editorial approval.
 
 The GitHub copy workflow was still running when these reports were finalized; current automation status is visible on PR 324. Publication requires Joe's approval of the exact hosted preview and passing required merge checks. Subsequent report-only commits do not alter the tested product.
+
+## Title Scope Correction
+
+Joe noted that the bodies cover the Style 42 family while the titles named only 000-42. The visible article and archive titles now read “Martin Style 42 Authentication Guide” and “Vintage Martin Style 42 Values.” Search titles also lead with Style 42 and explicitly name 0-42, 00-42 and 000-42. Article URLs, descriptions, research, photographs and prices are unchanged. The original independent editorial reports above apply to the unchanged body copy.
+
+The corrected build passes the rendered copy gate across 472 pages with zero hard failures and the existing 808 advisory warnings. The existing verification passes all metadata, link, schema, pricing, image-hash and preservation checks. Search title lengths are now 54 and 53 characters. The prior preview's GitHub copy check and Cloudflare deployment both completed successfully; this correction will receive its own preview deployment.

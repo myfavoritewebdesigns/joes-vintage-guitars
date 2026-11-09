@@ -1,6 +1,6 @@
 ---
-title: "Vintage Martin 000-42 Values"
-seoTitle: "Martin 000-42 Values: Vintage 00-42 And 0-42 Price Guide"
+title: "Vintage Martin Style 42 Values"
+seoTitle: "Martin Style 42 Values: 0-42, 00-42 And 000-42 Prices"
 pubDate: "2026-11-09"
 modified: "2026-11-09"
 excerpt: "Compare vintage Martin 000-42, 00-42 and 0-42 prices by period and condition. Review major repairs, then ask Joe for a free instrument appraisal."

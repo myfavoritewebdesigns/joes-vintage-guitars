@@ -8,7 +8,7 @@ if(baseValueChart.type!=='table')throw new Error('Style 42 values require a tabl
 const style42ValueChart={...baseValueChart,caption:'Joe’s Estimated Market Values: Adjusted Annual-Guide Benchmarks',columns:['Model','Years','Configuration','Adjusted Guide Range']};
 
 export const martin00042Guides:ModelGuideData[]=[{
- ...mBase('000-42','authentication'),date:'November 9, 2026',title:'Martin 000-42 Guide',seoTitle:'Martin 000-42, 00-42 And 0-42: Vintage Identity Guide',
+ ...mBase('000-42','authentication'),date:'November 9, 2026',title:'Martin Style 42 Authentication Guide',seoTitle:'Martin Style 42 Authentication: 0-42, 00-42 And 000-42',
  description:'Identify vintage Martin 000-42, 00-42 and 0-42 guitars by trim, stamps and construction. Compare modern examples and ask Joe for a free appraisal.',
  eyebrow:'Style 42 Small Bodies · Identity And Originality',dek:'Establish the body, production period and surviving original construction before assigning a vintage Style 42 identity.',hero:ph.front,
  glanceTitle:'Style 42 Identification',glance:[['Sizes Covered','0, 00 And 000'],['Key Trim','Pearl Around The Extension'],['First Check','Actual Production Year'],['Lead Photo','2012 Modern Comparison']],
@@ -60,7 +60,7 @@ export const martin00042Guides:ModelGuideData[]=[{
  faqs:[{q:'Does Pearl Trim Prove A Guitar Is A 000-42?',a:'No. The body size, date, construction and complete trim pattern must agree. Pearl can be added to another guitar, and modern instruments use related decoration.'},{q:'Is A 000-42 Authentic 1939 An Original 1939 Guitar?',a:'The Authentic designation identifies a modern historical recreation. Check the serial year and complete model specifications separately.'},{q:'Should Every Early 0-42 Have Snowflake Inlays?',a:'No. Early examples can have plain fingerboards. Compare the claimed period with documented instruments before treating a missing inlay as evidence of alteration.'},{q:'Can A Serial Lookup Authenticate A Style 42?',a:'A lookup can help date a number. It can’t establish whether the number belongs to the guitar, whether the model is correctly described or how much construction remains original.'}],
  closingTitle:'Identify The Configuration Before Choosing A Value',closing:'<p>Once the model, period and repairs are documented, use the <a href="/post/martin-000-42-value-guide/">Style 42 value guide</a> to choose a supported comparison. For an unusual early order or uncertain alteration, <a href="/free-appraisal/">send Joe photographs for a free appraisal</a>. You can also find <a href="https://g.page/joesvintageguitars?share">Joe’s Vintage Guitars in Mesa</a>.</p>'
 },{
- ...mBase('000-42','value'),date:'November 9, 2026',title:'Vintage Martin 000-42 Values',seoTitle:'Martin 000-42 Values: Vintage 00-42 And 0-42 Price Guide',
+ ...mBase('000-42','value'),date:'November 9, 2026',title:'Vintage Martin Style 42 Values',seoTitle:'Martin Style 42 Values: 0-42, 00-42 And 000-42 Prices',
  description:'Compare vintage Martin 000-42, 00-42 and 0-42 prices by period and condition. Review major repairs, then ask Joe for a free instrument appraisal.',
  eyebrow:'Style 42 Small Bodies · Adjusted Guide Benchmarks',dek:'Use the calculated guide ranges as starting references, then assess the guitar’s original material, structural condition and documented repairs.',hero:ph.front,
  glanceTitle:'Before Using The Chart',glance:[['Basis','Excellent And Original'],['Case','Original Case Assumed'],['Scope','Vintage Groups Listed'],['Modern 2012 Photo','Comparison Only']],
