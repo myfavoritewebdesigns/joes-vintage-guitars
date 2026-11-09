@@ -1,8 +1,8 @@
 # Live-diff audit â€” martin-style42-0
 
-- Live:  https://903fc241.joes-vintage-guitars.pages.dev/post/martin-000-42-authentication-guide/
+- Live:  https://d58004b2.joes-vintage-guitars.pages.dev/post/martin-000-42-authentication-guide/
 - Local: http://127.0.0.1:4330/post/martin-000-42-authentication-guide/
-- When:  2026-11-09T16:43:57.385Z
+- When:  2026-11-09T20:23:33.490Z
 
 ## ðŸ”´ Must fix
 

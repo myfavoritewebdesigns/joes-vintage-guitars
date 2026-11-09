@@ -13,7 +13,7 @@ November 9, 2026. Two new blog guides; Mesa business with nationwide subject mat
 | 6b. External sources | Authentication has eight primary research sources plus three explained resource entries. Value has none, as the user required. |
 | 7. Local entity | National model-guide topic, not a local landing page. Existing business address/Maps information is preserved. |
 | 8. Prose dashes | Zero forbidden dashes in the new rendered copy. |
-| 9. Headings/metadata | Title Case; one H1; no skipped heading levels; titles 53/56, descriptions 146/145 characters; unique in build. |
+| 9. Headings/metadata | Title Case; one H1; no skipped heading levels; titles 54/53 after Joe's scope correction, descriptions 146/145 characters; unique in build. |
 | 10. Uniqueness | Body prose 2,866/2,187 words; eight-word overlap within the brief's limits against every shared model guide. |
 | 11. Plagiarism | Primary-source paraphrase checked, limited derivation per source; external agency scan unavailable and not claimed. |
 | 12. Frontmatter | Required metadata, dates, author, category, hero/OG and image license fields present. |
@@ -33,3 +33,9 @@ Hosted verification: the immutable Cloudflare preview at https://903fc241.joes-v
 Cloudflare deployment succeeded. The local build, typecheck and copy gate passed. The GitHub copy workflow is tracked separately at https://github.com/myfavoritewebdesigns/joes-vintage-guitars/actions/runs/42656340580; it was still building when these reports were finalized. Report-only commits after 6cc01e5 do not change the previewed product. Current automation status is visible on PR 324.
 
 Overall: local and hosted preview verification complete; final-reader disagreement disclosed. Publication awaits Joe's approval of this exact hosted preview and the required merge checks.
+
+## Title Correction Preview
+
+Joe's requested Style 42 titles are deployed at https://d58004b2.joes-vintage-guitars.pages.dev, product commit ef620c2. This supersedes the earlier preview above for review. The new build and rendered copy gate pass; existing verification reports no failures. H1, search, Open Graph and Twitter titles all identify Style 42; the search/social titles also name 0-42, 00-42 and 000-42. Independent desktop/phone review reports no heading clipping, overlap, page overflow or hidden conversion buttons. See title-visual-review.md.
+
+Hosted verification again confirms all five affected pages match local text/headings, all 40 image URLs respond successfully, and the hub retains 177 rows. The static audit rerun has zero must-fix items on each guide and the hub, retaining only the existing shared-icon advisory. See title-hosted-verification.json and static-checks.json. Body copy, photo files, prices and the recorded editorial disagreement are unchanged. GitHub CI status remains visible on PR 324; this correction does not authorize publication.

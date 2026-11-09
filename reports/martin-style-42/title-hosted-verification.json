@@ -1,0 +1,300 @@
+{
+  "checkedAt": "2026-11-09T20:23:33.594Z",
+  "host": "https://d58004b2.joes-vintage-guitars.pages.dev",
+  "productCommit": "ef620c2",
+  "pages": [
+    {
+      "route": "/post/martin-000-42-authentication-guide/",
+      "status": 200,
+      "headings": 22,
+      "mainTextMatches": true,
+      "images": 10,
+      "twinLinks": [
+        {
+          "target": "/post/martin-000-42-authentication-guide/",
+          "links": 0
+        },
+        {
+          "target": "/post/martin-000-42-value-guide/",
+          "links": 3
+        }
+      ],
+      "hubRows": 0
+    },
+    {
+      "route": "/post/martin-000-42-value-guide/",
+      "status": 200,
+      "headings": 16,
+      "mainTextMatches": true,
+      "images": 8,
+      "twinLinks": [
+        {
+          "target": "/post/martin-000-42-authentication-guide/",
+          "links": 3
+        },
+        {
+          "target": "/post/martin-000-42-value-guide/",
+          "links": 0
+        }
+      ],
+      "hubRows": 0
+    },
+    {
+      "route": "/post/martin-0-00-000-history-authentication-value-guide/",
+      "status": 200,
+      "headings": 57,
+      "mainTextMatches": true,
+      "images": 10,
+      "twinLinks": [
+        {
+          "target": "/post/martin-000-42-authentication-guide/",
+          "links": 1
+        },
+        {
+          "target": "/post/martin-000-42-value-guide/",
+          "links": 14
+        }
+      ],
+      "hubRows": 177
+    },
+    {
+      "route": "/prewar-martin-guitar-guide/",
+      "status": 200,
+      "headings": 17,
+      "mainTextMatches": true,
+      "images": 13,
+      "twinLinks": [
+        {
+          "target": "/post/martin-000-42-authentication-guide/",
+          "links": 1
+        },
+        {
+          "target": "/post/martin-000-42-value-guide/",
+          "links": 1
+        }
+      ],
+      "hubRows": 0
+    },
+    {
+      "route": "/post/most-expensive-guitars-ever-sold/",
+      "status": 200,
+      "headings": 25,
+      "mainTextMatches": true,
+      "images": 9,
+      "twinLinks": [
+        {
+          "target": "/post/martin-000-42-authentication-guide/",
+          "links": 1
+        },
+        {
+          "target": "/post/martin-000-42-value-guide/",
+          "links": 1
+        }
+      ],
+      "hubRows": 0
+    }
+  ],
+  "images": [
+    {
+      "url": "https://d58004b2.joes-vintage-guitars.pages.dev/_astro/2012-martin-000-42-01.DD9HWtyN_Z14ksqu.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "url": "https://d58004b2.joes-vintage-guitars.pages.dev/_astro/2012-martin-000-42-04.000hpFmK_1Qz9Wc.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "url": "https://d58004b2.joes-vintage-guitars.pages.dev/_astro/2012-martin-000-42-06.gPp0Gmap_Z12qWkO.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "url": "https://d58004b2.joes-vintage-guitars.pages.dev/_astro/1930-martin-0-21-2.Dk8ipAV-_Z1pXXIP.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "url": "https://d58004b2.joes-vintage-guitars.pages.dev/_astro/2012-martin-000-42-02.BltNQRR6_Z2oqI93.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "url": "https://d58004b2.joes-vintage-guitars.pages.dev/_astro/2012-martin-000-42-03.DvGfkFT5_Z2nezSz.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "url": "https://d58004b2.joes-vintage-guitars.pages.dev/_astro/2012-martin-000-42-05.C2RmKKeQ_1lrjxl.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "url": "https://d58004b2.joes-vintage-guitars.pages.dev/_astro/fake-martin-serial-number-identification.C6J39PN8_1FD3dG.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "url": "https://d58004b2.joes-vintage-guitars.pages.dev/_astro/1950-martin-000-28-6.Re6H_VXu_21pVCs.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "url": "https://d58004b2.joes-vintage-guitars.pages.dev/_astro/about-me-joe-1.C--UV5nX_Ypsuu.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "url": "https://d58004b2.joes-vintage-guitars.pages.dev/_astro/early-60s-gibson-sg-standard-comparison.ug492AkP_Z1bYFj9.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "url": "https://d58004b2.joes-vintage-guitars.pages.dev/_astro/1971-fender-mustang-competition-blue-front.DOIva0Df_1Koqxw.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "url": "https://d58004b2.joes-vintage-guitars.pages.dev/_astro/early-60s-gibson-sg-standard-comparison.ug492AkP_Z23A0mP.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "url": "https://d58004b2.joes-vintage-guitars.pages.dev/_astro/d-35-hero.C-HH5MDz_1isG5j.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "url": "https://d58004b2.joes-vintage-guitars.pages.dev/_astro/1956-fender-stratocaster-sunburst-800x533.mVj3ZAQt_ZfBWag.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "url": "https://d58004b2.joes-vintage-guitars.pages.dev/_astro/1997-rickenbacker-325-2.D9Uz_2PK_Z1jyoYr.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "url": "https://d58004b2.joes-vintage-guitars.pages.dev/_astro/1962-fender-stratocaster-sunburst-8-scaled.CELYKZ6E_1s4rv2.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "url": "https://d58004b2.joes-vintage-guitars.pages.dev/_astro/1937-martin-0-17-2.DVeaOHhO_1jLlDl.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "url": "https://d58004b2.joes-vintage-guitars.pages.dev/_astro/1914-martin-0-18-bracing.DI4yh7uT_Z2uVG3i.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "url": "https://d58004b2.joes-vintage-guitars.pages.dev/_astro/1914-martin-0-18-neck-block.DWGSRKJM_1qVW6a.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "url": "https://d58004b2.joes-vintage-guitars.pages.dev/_astro/1936-martin-00-21-bridge-plate-and-bracing.B_hNDrD__1w3AF8.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "url": "https://d58004b2.joes-vintage-guitars.pages.dev/_astro/1955-martin-d-18-bracing.D3ks1bqe_Z25KT74.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "url": "https://d58004b2.joes-vintage-guitars.pages.dev/_astro/1954-martin-00-17-bracing.xqENRPUg_1Shi5S.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "url": "https://d58004b2.joes-vintage-guitars.pages.dev/_astro/1936-martin-00-21-bridge-plate.BA-9DAAt_Z2wHij5.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "url": "https://d58004b2.joes-vintage-guitars.pages.dev/_astro/1937-martin-0-17-6.CKPELbYd_Z1RMQeJ.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "url": "https://d58004b2.joes-vintage-guitars.pages.dev/_astro/1930-martin-0-21-8.9mOXw02z_14J5cw.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "url": "https://d58004b2.joes-vintage-guitars.pages.dev/_astro/1937-martin-0-17-4.D2D13wee_2h8KhS.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "url": "https://d58004b2.joes-vintage-guitars.pages.dev/_astro/logo-joe-2.lTrGXLF-_Z2hhb6J.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "url": "https://d58004b2.joes-vintage-guitars.pages.dev/_astro/martin-00-18-1920s.i7l788bH_9c4dp.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "url": "https://d58004b2.joes-vintage-guitars.pages.dev/_astro/martin-000-21-1956.C9QYvms9_ZSQaKd.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "url": "https://d58004b2.joes-vintage-guitars.pages.dev/_astro/martin-000-18-1960.C56cJsU7_102CFY.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "url": "https://d58004b2.joes-vintage-guitars.pages.dev/_astro/1931-martin-0-18k-purchase-800x1200.CAtV0SQb_t5G1w.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "url": "https://d58004b2.joes-vintage-guitars.pages.dev/_astro/1929-martin-00-21-1-1024x683.CHgxc6Kd_Z2kFyDz.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "url": "https://d58004b2.joes-vintage-guitars.pages.dev/_astro/1947-martin-00-21-purchase-800x1200.C9y3TERr_1X33SM.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "url": "https://d58004b2.joes-vintage-guitars.pages.dev/_astro/om-45-hero.B-oegqq-_waASl.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "url": "https://d58004b2.joes-vintage-guitars.pages.dev/_astro/linda-1950s-with-martin-0-18-768x1024.DpWCMfRh_1gdH7K.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "url": "https://d58004b2.joes-vintage-guitars.pages.dev/_astro/1936-martin-00-21-bridge-plate-and-bracing.B_hNDrD__NSD3C.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "url": "https://d58004b2.joes-vintage-guitars.pages.dev/_astro/2012-martin-000-42-08.BzjDJ2rC_ZgqYTj.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "url": "https://d58004b2.joes-vintage-guitars.pages.dev/_astro/2012-martin-000-42-09.zy-ZsQNJ_1lkDNE.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "url": "https://d58004b2.joes-vintage-guitars.pages.dev/_astro/2012-martin-000-42-11.oF9QGFib_1oJtSn.webp",
+      "status": 200,
+      "type": "image/webp"
+    }
+  ],
+  "failures": []
+}
