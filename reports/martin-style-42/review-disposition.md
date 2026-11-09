@@ -32,3 +32,11 @@ The user's supplied Martin brief requires the shared model-guide kit's existing 
 | Completeness resource/author failures | Reviewer-confirmed false positives: three explained authentication resources exist; BlogPosting author resolves to the global Person with URL and sameAs. |
 
 External plagiarism scanning and full canonical database expansion remain agency work, as in the preceding approved batches. The current deliverable is a reviewable preview for Joe; this file does not claim a blanket agency-policy pass or authorize publication.
+
+## Initial Final-Reader Findings
+
+Both initial cold readers returned FIX FIRST; their original reports are saved verbatim. The authentication page now explains the 1898 serial boundary, late-1930 model-stamp boundary and documented 25.4-inch early 12-fret 000-42. Its own 2012 photograph becomes a worked dating example using the visible serial and official endpoints, and the counterfeit image now has its visible typography/logo concerns explained directly.
+
+The value reader's rare-year concern triggered a fresh book inspection. The guide's actual 14-fret grouping is confirmed, but its conflict with the earlier production discussion is now explicit and the row is conditional on individual-order verification. No range was changed. The reader's source-transparency concern is addressed through an internal link to the authentication page's named book edition/pages and calculation limits. The request to add an external vintage appraisal/sale comparison is declined because the user's brief expressly excludes external citations, dealer names, auction results and listing examples from value pages. No alternate source replaces the mandated book ranges.
+
+Fresh final readers will review the revised pages without seeing these notes or prior verdicts.

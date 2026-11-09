@@ -22,7 +22,7 @@
     ],
     "brokenImages": [],
     "anchorFailures": [],
-    "textRuns": 201,
+    "textRuns": 220,
     "computedFailures": [],
     "layerUncertainties": 10,
     "axeViolations": [],
@@ -1117,6 +1117,22 @@
         "unresolvedLayers": []
       },
       {
+        "text": "Understand The Source And Limits Of The Price Groups",
+        "tag": "A",
+        "class": "",
+        "foreground": "rgb(157, 53, 27)",
+        "background": [
+          226,
+          212,
+          186,
+          1
+        ],
+        "ratio": 4.854,
+        "required": 4.5,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
         "text": "Document The Guitar Before Repair Or Purchase",
         "tag": "A",
         "class": "",
@@ -1293,7 +1309,39 @@
         "unresolvedLayers": []
       },
       {
-        "text": "explains the familiar 24.9-inch 000 and 25.4-inch OM references. Rare early configurations and recent special editions need their ",
+        "text": "explains the familiar 24.9-inch 000 and 25.4-inch OM references. George Gruhn’s examination of a",
+        "tag": "P",
+        "class": "",
+        "foreground": "rgb(27, 25, 22)",
+        "background": [
+          243,
+          234,
+          216,
+          1
+        ],
+        "ratio": 14.677,
+        "required": 4.5,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "1921 12-fret 000-42",
+        "tag": "A",
+        "class": "",
+        "foreground": "rgb(157, 53, 27)",
+        "background": [
+          243,
+          234,
+          216,
+          1
+        ],
+        "ratio": 5.939,
+        "required": 4.5,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "records a 25.4-inch scale. That is a documented early 000 configuration. A long scale on such a guitar does not turn it into an OM",
         "tag": "P",
         "class": "",
         "foreground": "rgb(27, 25, 22)",
@@ -1965,7 +2013,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "Original 14-Fret 000-42 Groups",
+        "text": "Early Orders And Later 14-Fret Production",
         "tag": "H3",
         "class": "",
         "foreground": "rgb(244, 239, 227)",
@@ -2349,7 +2397,39 @@
         "unresolvedLayers": []
       },
       {
-        "text": "The chart also identifies a solitary 1973 entry. It is a separate later example, not a continuous postwar production band. Recent ",
+        "text": "The",
+        "tag": "P",
+        "class": "",
+        "foreground": "rgb(27, 25, 22)",
+        "background": [
+          243,
+          234,
+          216,
+          1
+        ],
+        "ratio": 14.677,
+        "required": 4.5,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "Style 42 price chart",
+        "tag": "A",
+        "class": "",
+        "foreground": "rgb(157, 53, 27)",
+        "background": [
+          243,
+          234,
+          216,
+          1
+        ],
+        "ratio": 5.939,
+        "required": 4.5,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "also identifies a solitary 1973 00-42 entry. It is a separate later example, not a continuous postwar production band. Recent 00-4",
         "tag": "P",
         "class": "",
         "foreground": "rgb(27, 25, 22)",
@@ -2445,7 +2525,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "An early 0-42 may predate Martin’s serial-number system. Corwin documents an 1894 example with period address stamps, a plain fing",
+        "text": "Martin’s serial-number sequence began in 1898. An earlier 0-42 can therefore lack a serial number. Corwin documents an 1894 exampl",
         "tag": "P",
         "class": "",
         "foreground": "rgb(27, 25, 22)",
@@ -2510,6 +2590,38 @@
       },
       {
         "text": "helps interpret dated stamps. Photograph the neck block, center strip, rear headstock and any penciled date without sanding or cle",
+        "tag": "P",
+        "class": "",
+        "foreground": "rgb(27, 25, 22)",
+        "background": [
+          243,
+          234,
+          216,
+          1
+        ],
+        "ratio": 14.677,
+        "required": 4.5,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "1921 000-42 examination",
+        "tag": "A",
+        "class": "",
+        "foreground": "rgb(157, 53, 27)",
+        "background": [
+          243,
+          234,
+          216,
+          1
+        ],
+        "ratio": 5.939,
+        "required": 4.5,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "describes the serial-only neck-block marking typical from 1898 through late 1930. A guitar from that period can have a serial but ",
         "tag": "P",
         "class": "",
         "foreground": "rgb(27, 25, 22)",
@@ -2685,7 +2797,55 @@
         "unresolvedLayers": []
       },
       {
-        "text": "The 2012 neck-block photograph shows a readable 000-42 designation and serial, with part of the maker’s stamp covered by an attach",
+        "text": "Read Joe’s pictured block in stages. The model line says 000-42, and the serial below reads 1615472. Martin’s",
+        "tag": "P",
+        "class": "",
+        "foreground": "rgb(27, 25, 22)",
+        "background": [
+          243,
+          234,
+          216,
+          1
+        ],
+        "ratio": 14.677,
+        "required": 4.5,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "official serial table",
+        "tag": "A",
+        "class": "",
+        "foreground": "rgb(157, 53, 27)",
+        "background": [
+          243,
+          234,
+          216,
+          1
+        ],
+        "ratio": 5.939,
+        "required": 4.5,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "ends 2011 at 1555767 and 2012 at 1656742. The photographed number falls in 2012, agreeing with this guitar’s archive record.",
+        "tag": "P",
+        "class": "",
+        "foreground": "rgb(27, 25, 22)",
+        "background": [
+          243,
+          234,
+          216,
+          1
+        ],
+        "ratio": 14.677,
+        "required": 4.5,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "The dark pad covers part of the maker’s stamp above those readable lines. That is a separate observation from the date calculation",
         "tag": "P",
         "class": "",
         "foreground": "rgb(27, 25, 22)",
@@ -2781,7 +2941,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "The counterfeit stamp photograph is from Joe’s fake D-45 example, a different body and style. It demonstrates why a stamped model ",
+        "text": "The counterfeit stamp photograph is from Joe’s fake D-45 example, a different body and style. Look at the thin, serif-style letter",
         "tag": "P",
         "class": "",
         "foreground": "rgb(27, 25, 22)",
@@ -2797,7 +2957,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "fake Martin guide",
+        "text": "fake Martin examination",
         "tag": "A",
         "class": "",
         "foreground": "rgb(157, 53, 27)",
@@ -2813,7 +2973,23 @@
         "unresolvedLayers": []
       },
       {
-        "text": "for the complete example and the specific inconsistencies documented there.",
+        "text": ". Compare how those markings were formed with the machine-stamped characters in the pictured 2012 block. The guitars are from diff",
+        "tag": "P",
+        "class": "",
+        "foreground": "rgb(27, 25, 22)",
+        "background": [
+          243,
+          234,
+          216,
+          1
+        ],
+        "ratio": 14.677,
+        "required": 4.5,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "A faint impression, one uneven letter or an obstructed logo would not establish a counterfeit. On the suspect example, the typogra",
         "tag": "P",
         "class": "",
         "foreground": "rgb(27, 25, 22)",
@@ -2910,6 +3086,134 @@
       },
       {
         "text": "9",
+        "tag": "SPAN",
+        "class": "",
+        "foreground": "rgb(27, 25, 22)",
+        "background": [
+          243,
+          234,
+          216,
+          1
+        ],
+        "ratio": 14.677,
+        "required": 4.5,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "Reference Notes",
+        "tag": "P",
+        "class": "",
+        "foreground": "rgb(157, 53, 27)",
+        "background": [
+          243,
+          234,
+          216,
+          1
+        ],
+        "ratio": 5.939,
+        "required": 4.5,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "Understand The Source And Limits Of The Price Groups",
+        "tag": "H2",
+        "class": "",
+        "foreground": "rgb(27, 25, 22)",
+        "background": [
+          243,
+          234,
+          216,
+          1
+        ],
+        "ratio": 14.677,
+        "required": 3,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "The companion chart starts with",
+        "tag": "P",
+        "class": "",
+        "foreground": "rgb(27, 25, 22)",
+        "background": [
+          243,
+          234,
+          216,
+          1
+        ],
+        "ratio": 14.677,
+        "required": 4.5,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "The Official Vintage Guitar Price Guide, 2026 edition",
+        "tag": "A",
+        "class": "",
+        "foreground": "rgb(157, 53, 27)",
+        "background": [
+          243,
+          234,
+          216,
+          1
+        ],
+        "ratio": 5.939,
+        "required": 4.5,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": ": page 277 for 0-42, page 280 for 00-42 and page 284 for 000-42. Each row receives one fixed editorial reduction of 11 to 15 perce",
+        "tag": "P",
+        "class": "",
+        "foreground": "rgb(27, 25, 22)",
+        "background": [
+          243,
+          234,
+          216,
+          1
+        ],
+        "ratio": 14.677,
+        "required": 4.5,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "The 1930/1932 entry needs particular care. Page 284 groups those years under a 14-fret description, while Gruhn’s early-production",
+        "tag": "P",
+        "class": "",
+        "foreground": "rgb(27, 25, 22)",
+        "background": [
+          243,
+          234,
+          216,
+          1
+        ],
+        "ratio": 14.677,
+        "required": 4.5,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "An annual range cannot capture every exceptional example or later change in demand. The original case, finish, wood, structural re",
+        "tag": "P",
+        "class": "",
+        "foreground": "rgb(27, 25, 22)",
+        "background": [
+          243,
+          234,
+          216,
+          1
+        ],
+        "ratio": 14.677,
+        "required": 4.5,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "10",
         "tag": "SPAN",
         "class": "",
         "foreground": "rgb(27, 25, 22)",
@@ -3741,7 +4045,7 @@
     ],
     "brokenImages": [],
     "anchorFailures": [],
-    "textRuns": 211,
+    "textRuns": 214,
     "computedFailures": [],
     "layerUncertainties": 10,
     "axeViolations": [],
@@ -5092,7 +5396,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "Rare 14-fret examples; individual specifications vary",
+        "text": "Price-guide 14-fret grouping; verify the individual order",
         "tag": "TD",
         "class": "",
         "foreground": "rgb(27, 25, 22)",
@@ -5844,7 +6148,23 @@
         "unresolvedLayers": []
       },
       {
-        "text": "The early Martin guide has no model-specific price rows for these three Style 42 sizes, so their supported early entries are inclu",
+        "text": "The 1930/1932 line is the price guide’s 14-fret grouping. Early records disagree about the 1930 order, so that row requires factor",
+        "tag": "P",
+        "class": "",
+        "foreground": "rgb(27, 25, 22)",
+        "background": [
+          243,
+          234,
+          216,
+          1
+        ],
+        "ratio": 14.677,
+        "required": 4.5,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "The",
         "tag": "P",
         "class": "",
         "foreground": "rgb(27, 25, 22)",
@@ -5876,7 +6196,39 @@
         "unresolvedLayers": []
       },
       {
-        "text": "remains useful for other early models and the condition questions these instruments share.",
+        "text": "covers the condition questions these early guitars share. For the source edition, calculation and rare-order limitation behind thi",
+        "tag": "P",
+        "class": "",
+        "foreground": "rgb(27, 25, 22)",
+        "background": [
+          243,
+          234,
+          216,
+          1
+        ],
+        "ratio": 14.677,
+        "required": 4.5,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "Style 42 reference notes",
+        "tag": "A",
+        "class": "",
+        "foreground": "rgb(157, 53, 27)",
+        "background": [
+          243,
+          234,
+          216,
+          1
+        ],
+        "ratio": 5.939,
+        "required": 4.5,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": ".",
         "tag": "P",
         "class": "",
         "foreground": "rgb(27, 25, 22)",
@@ -7620,7 +7972,7 @@
     ],
     "brokenImages": [],
     "anchorFailures": [],
-    "textRuns": 201,
+    "textRuns": 220,
     "computedFailures": [],
     "layerUncertainties": 10,
     "axeViolations": [],
@@ -8615,6 +8967,22 @@
         "unresolvedLayers": []
       },
       {
+        "text": "Understand The Source And Limits Of The Price Groups",
+        "tag": "A",
+        "class": "",
+        "foreground": "rgb(157, 53, 27)",
+        "background": [
+          226,
+          212,
+          186,
+          1
+        ],
+        "ratio": 4.854,
+        "required": 4.5,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
         "text": "Document The Guitar Before Repair Or Purchase",
         "tag": "A",
         "class": "",
@@ -8791,7 +9159,39 @@
         "unresolvedLayers": []
       },
       {
-        "text": "explains the familiar 24.9-inch 000 and 25.4-inch OM references. Rare early configurations and recent special editions need their ",
+        "text": "explains the familiar 24.9-inch 000 and 25.4-inch OM references. George Gruhn’s examination of a",
+        "tag": "P",
+        "class": "",
+        "foreground": "rgb(27, 25, 22)",
+        "background": [
+          243,
+          234,
+          216,
+          1
+        ],
+        "ratio": 14.677,
+        "required": 4.5,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "1921 12-fret 000-42",
+        "tag": "A",
+        "class": "",
+        "foreground": "rgb(157, 53, 27)",
+        "background": [
+          243,
+          234,
+          216,
+          1
+        ],
+        "ratio": 5.939,
+        "required": 4.5,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "records a 25.4-inch scale. That is a documented early 000 configuration. A long scale on such a guitar does not turn it into an OM",
         "tag": "P",
         "class": "",
         "foreground": "rgb(27, 25, 22)",
@@ -9463,7 +9863,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "Original 14-Fret 000-42 Groups",
+        "text": "Early Orders And Later 14-Fret Production",
         "tag": "H3",
         "class": "",
         "foreground": "rgb(244, 239, 227)",
@@ -9847,7 +10247,39 @@
         "unresolvedLayers": []
       },
       {
-        "text": "The chart also identifies a solitary 1973 entry. It is a separate later example, not a continuous postwar production band. Recent ",
+        "text": "The",
+        "tag": "P",
+        "class": "",
+        "foreground": "rgb(27, 25, 22)",
+        "background": [
+          243,
+          234,
+          216,
+          1
+        ],
+        "ratio": 14.677,
+        "required": 4.5,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "Style 42 price chart",
+        "tag": "A",
+        "class": "",
+        "foreground": "rgb(157, 53, 27)",
+        "background": [
+          243,
+          234,
+          216,
+          1
+        ],
+        "ratio": 5.939,
+        "required": 4.5,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "also identifies a solitary 1973 00-42 entry. It is a separate later example, not a continuous postwar production band. Recent 00-4",
         "tag": "P",
         "class": "",
         "foreground": "rgb(27, 25, 22)",
@@ -9943,7 +10375,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "An early 0-42 may predate Martin’s serial-number system. Corwin documents an 1894 example with period address stamps, a plain fing",
+        "text": "Martin’s serial-number sequence began in 1898. An earlier 0-42 can therefore lack a serial number. Corwin documents an 1894 exampl",
         "tag": "P",
         "class": "",
         "foreground": "rgb(27, 25, 22)",
@@ -10008,6 +10440,38 @@
       },
       {
         "text": "helps interpret dated stamps. Photograph the neck block, center strip, rear headstock and any penciled date without sanding or cle",
+        "tag": "P",
+        "class": "",
+        "foreground": "rgb(27, 25, 22)",
+        "background": [
+          243,
+          234,
+          216,
+          1
+        ],
+        "ratio": 14.677,
+        "required": 4.5,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "1921 000-42 examination",
+        "tag": "A",
+        "class": "",
+        "foreground": "rgb(157, 53, 27)",
+        "background": [
+          243,
+          234,
+          216,
+          1
+        ],
+        "ratio": 5.939,
+        "required": 4.5,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "describes the serial-only neck-block marking typical from 1898 through late 1930. A guitar from that period can have a serial but ",
         "tag": "P",
         "class": "",
         "foreground": "rgb(27, 25, 22)",
@@ -10183,7 +10647,55 @@
         "unresolvedLayers": []
       },
       {
-        "text": "The 2012 neck-block photograph shows a readable 000-42 designation and serial, with part of the maker’s stamp covered by an attach",
+        "text": "Read Joe’s pictured block in stages. The model line says 000-42, and the serial below reads 1615472. Martin’s",
+        "tag": "P",
+        "class": "",
+        "foreground": "rgb(27, 25, 22)",
+        "background": [
+          243,
+          234,
+          216,
+          1
+        ],
+        "ratio": 14.677,
+        "required": 4.5,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "official serial table",
+        "tag": "A",
+        "class": "",
+        "foreground": "rgb(157, 53, 27)",
+        "background": [
+          243,
+          234,
+          216,
+          1
+        ],
+        "ratio": 5.939,
+        "required": 4.5,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "ends 2011 at 1555767 and 2012 at 1656742. The photographed number falls in 2012, agreeing with this guitar’s archive record.",
+        "tag": "P",
+        "class": "",
+        "foreground": "rgb(27, 25, 22)",
+        "background": [
+          243,
+          234,
+          216,
+          1
+        ],
+        "ratio": 14.677,
+        "required": 4.5,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "The dark pad covers part of the maker’s stamp above those readable lines. That is a separate observation from the date calculation",
         "tag": "P",
         "class": "",
         "foreground": "rgb(27, 25, 22)",
@@ -10279,7 +10791,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "The counterfeit stamp photograph is from Joe’s fake D-45 example, a different body and style. It demonstrates why a stamped model ",
+        "text": "The counterfeit stamp photograph is from Joe’s fake D-45 example, a different body and style. Look at the thin, serif-style letter",
         "tag": "P",
         "class": "",
         "foreground": "rgb(27, 25, 22)",
@@ -10295,7 +10807,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "fake Martin guide",
+        "text": "fake Martin examination",
         "tag": "A",
         "class": "",
         "foreground": "rgb(157, 53, 27)",
@@ -10311,7 +10823,23 @@
         "unresolvedLayers": []
       },
       {
-        "text": "for the complete example and the specific inconsistencies documented there.",
+        "text": ". Compare how those markings were formed with the machine-stamped characters in the pictured 2012 block. The guitars are from diff",
+        "tag": "P",
+        "class": "",
+        "foreground": "rgb(27, 25, 22)",
+        "background": [
+          243,
+          234,
+          216,
+          1
+        ],
+        "ratio": 14.677,
+        "required": 4.5,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "A faint impression, one uneven letter or an obstructed logo would not establish a counterfeit. On the suspect example, the typogra",
         "tag": "P",
         "class": "",
         "foreground": "rgb(27, 25, 22)",
@@ -10408,6 +10936,134 @@
       },
       {
         "text": "9",
+        "tag": "SPAN",
+        "class": "",
+        "foreground": "rgb(27, 25, 22)",
+        "background": [
+          243,
+          234,
+          216,
+          1
+        ],
+        "ratio": 14.677,
+        "required": 4.5,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "Reference Notes",
+        "tag": "P",
+        "class": "",
+        "foreground": "rgb(157, 53, 27)",
+        "background": [
+          243,
+          234,
+          216,
+          1
+        ],
+        "ratio": 5.939,
+        "required": 4.5,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "Understand The Source And Limits Of The Price Groups",
+        "tag": "H2",
+        "class": "",
+        "foreground": "rgb(27, 25, 22)",
+        "background": [
+          243,
+          234,
+          216,
+          1
+        ],
+        "ratio": 14.677,
+        "required": 3,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "The companion chart starts with",
+        "tag": "P",
+        "class": "",
+        "foreground": "rgb(27, 25, 22)",
+        "background": [
+          243,
+          234,
+          216,
+          1
+        ],
+        "ratio": 14.677,
+        "required": 4.5,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "The Official Vintage Guitar Price Guide, 2026 edition",
+        "tag": "A",
+        "class": "",
+        "foreground": "rgb(157, 53, 27)",
+        "background": [
+          243,
+          234,
+          216,
+          1
+        ],
+        "ratio": 5.939,
+        "required": 4.5,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": ": page 277 for 0-42, page 280 for 00-42 and page 284 for 000-42. Each row receives one fixed editorial reduction of 11 to 15 perce",
+        "tag": "P",
+        "class": "",
+        "foreground": "rgb(27, 25, 22)",
+        "background": [
+          243,
+          234,
+          216,
+          1
+        ],
+        "ratio": 14.677,
+        "required": 4.5,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "The 1930/1932 entry needs particular care. Page 284 groups those years under a 14-fret description, while Gruhn’s early-production",
+        "tag": "P",
+        "class": "",
+        "foreground": "rgb(27, 25, 22)",
+        "background": [
+          243,
+          234,
+          216,
+          1
+        ],
+        "ratio": 14.677,
+        "required": 4.5,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "An annual range cannot capture every exceptional example or later change in demand. The original case, finish, wood, structural re",
+        "tag": "P",
+        "class": "",
+        "foreground": "rgb(27, 25, 22)",
+        "background": [
+          243,
+          234,
+          216,
+          1
+        ],
+        "ratio": 14.677,
+        "required": 4.5,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "10",
         "tag": "SPAN",
         "class": "",
         "foreground": "rgb(27, 25, 22)",
@@ -11239,7 +11895,7 @@
     ],
     "brokenImages": [],
     "anchorFailures": [],
-    "textRuns": 211,
+    "textRuns": 214,
     "computedFailures": [],
     "layerUncertainties": 10,
     "axeViolations": [],
@@ -12490,7 +13146,7 @@
         "unresolvedLayers": []
       },
       {
-        "text": "Rare 14-fret examples; individual specifications vary",
+        "text": "Price-guide 14-fret grouping; verify the individual order",
         "tag": "TD",
         "class": "",
         "foreground": "rgb(27, 25, 22)",
@@ -13242,7 +13898,23 @@
         "unresolvedLayers": []
       },
       {
-        "text": "The early Martin guide has no model-specific price rows for these three Style 42 sizes, so their supported early entries are inclu",
+        "text": "The 1930/1932 line is the price guide’s 14-fret grouping. Early records disagree about the 1930 order, so that row requires factor",
+        "tag": "P",
+        "class": "",
+        "foreground": "rgb(27, 25, 22)",
+        "background": [
+          243,
+          234,
+          216,
+          1
+        ],
+        "ratio": 14.677,
+        "required": 4.5,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "The",
         "tag": "P",
         "class": "",
         "foreground": "rgb(27, 25, 22)",
@@ -13274,7 +13946,39 @@
         "unresolvedLayers": []
       },
       {
-        "text": "remains useful for other early models and the condition questions these instruments share.",
+        "text": "covers the condition questions these early guitars share. For the source edition, calculation and rare-order limitation behind thi",
+        "tag": "P",
+        "class": "",
+        "foreground": "rgb(27, 25, 22)",
+        "background": [
+          243,
+          234,
+          216,
+          1
+        ],
+        "ratio": 14.677,
+        "required": 4.5,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": "Style 42 reference notes",
+        "tag": "A",
+        "class": "",
+        "foreground": "rgb(157, 53, 27)",
+        "background": [
+          243,
+          234,
+          216,
+          1
+        ],
+        "ratio": 5.939,
+        "required": 4.5,
+        "pass": true,
+        "unresolvedLayers": []
+      },
+      {
+        "text": ".",
         "tag": "P",
         "class": "",
         "foreground": "rgb(27, 25, 22)",
