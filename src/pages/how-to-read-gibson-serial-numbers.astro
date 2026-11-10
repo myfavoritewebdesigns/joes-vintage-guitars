@@ -4,10 +4,7 @@ import '../styles/serial-hero.css';
 import SerialPhotos from '../components/SerialPhotos.astro';
 import SerialGuideLinks from '../components/SerialGuideLinks.astro';
 import SerialCrossCheckHub from '../components/SerialCrossCheckHub.astro';
-import LicensedImage from '../components/LicensedImage.astro';
-import locationLabel from '../assets/serial-locations/interior-label.jpg';
-import locationInk from '../assets/serial-locations/ink-stamp.jpg';
-import locationWood from '../assets/serial-locations/wood-stamp.jpg';
+import { imageLicense } from '../config/site';
 import PhotoViewer from '../components/PhotoViewer.astro';
 import SpecialFormatGuides from '../components/SpecialFormatGuides.astro';
 import {
@@ -22,6 +19,28 @@ const pageDescription = 'Free Gibson serial number lookup. Decode serials and FO
 const ogImage = `${siteUrl}/images/og/1955-gibson-les-paul-custom-ink-stamp-serial-number-scaled.jpg`;
 const personId = `${siteUrl}/about-me/#person`;
 const organizationId = `${siteUrl}/#organization`;
+// "Where to find the serial" cards. These three 360x240 thumbnails are served
+// from their original public addresses on purpose: they still get Google Images
+// visits, so the page must keep using these exact URLs (CLAUDE.md image-pipeline
+// exceptions). Do not swap them for the renamed src/assets/serial-locations/ copies.
+const locationPhotos = [
+  { file: 'gibson-montana-gold-sj-200-9.jpg', alt: 'Gibson serial number on an interior paper label', title: 'Interior Label', copy: 'Look through the soundhole or f-hole. Note the label color and whether the number begins with a letter.' },
+  { file: '1954-gibson-les-paul-goldtop.jpg', alt: 'Ink-stamped Gibson serial number on a headstock', title: 'Ink Stamp', copy: 'Common on 1950s solidbodies. The digits sit on top of the finish rather than being pressed into the wood.' },
+  { file: '1983-gibson-es-335-gold-hardware.jpg', alt: 'Gibson serial number pressed into the headstock wood', title: 'Pressed Into Wood', copy: 'Check whether “Made in USA” appears below it. That detail separates many 1960s and 1970s sequences.' },
+].map((photo) => {
+  const src = `/images/gibson-serial/${photo.file}`;
+  const contentUrl = `${siteUrl}${src}`;
+  return {
+    ...photo, src,
+    schema: {
+      '@context': 'https://schema.org', '@type': 'ImageObject', '@id': `${contentUrl}#image`,
+      contentUrl, width: 360, height: 240, caption: photo.alt,
+      license: imageLicense.photoLicenseUrl, acquireLicensePage: imageLicense.photoLicenseUrl,
+      creditText: imageLicense.creditText, copyrightNotice: imageLicense.copyrightNotice,
+      creator: { '@type': 'Person', name: imageLicense.creatorName },
+    },
+  };
+});
 const whiteLabelSplit = Math.ceil(whiteLabelRows.length / 2);
 const whiteLabelPairs = Array.from({ length: whiteLabelSplit }, (_, index) => ({
   left: whiteLabelRows[index],
@@ -283,9 +302,9 @@ const schema = {
           </div>
 
           <div class="mt-10 grid gap-5 md:grid-cols-3">
-            <article class="location-card"><LicensedImage src={locationLabel} widths={[180, 360]} sizes="(max-width: 767px) min(360px, calc(100vw - 40px)), 360px" alt="Gibson serial number on an interior paper label" /><div><h3>Interior Label</h3><p>Look through the soundhole or f-hole. Note the label color and whether the number begins with a letter.</p></div></article>
-            <article class="location-card"><LicensedImage src={locationInk} widths={[180, 360]} sizes="(max-width: 767px) min(360px, calc(100vw - 40px)), 360px" alt="Ink-stamped Gibson serial number on a headstock" /><div><h3>Ink Stamp</h3><p>Common on 1950s solidbodies. The digits sit on top of the finish rather than being pressed into the wood.</p></div></article>
-            <article class="location-card"><LicensedImage src={locationWood} widths={[180, 360]} sizes="(max-width: 767px) min(360px, calc(100vw - 40px)), 360px" alt="Gibson serial number pressed into the headstock wood" /><div><h3>Pressed Into Wood</h3><p>Check whether “Made in USA” appears below it. That detail separates many 1960s and 1970s sequences.</p></div></article>
+            {locationPhotos.map((photo) => (
+              <article class="location-card"><img src={photo.src} width="360" height="240" alt={photo.alt} loading="lazy" decoding="async" /><script is:inline type="application/ld+json" set:html={JSON.stringify(photo.schema)} /><div><h3>{photo.title}</h3><p>{photo.copy}</p></div></article>
+            ))}
           </div>
 
           <div class="mt-8 grid gap-6 lg:grid-cols-2 lg:items-stretch">

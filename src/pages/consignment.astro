@@ -8,7 +8,10 @@ import { consignmentTiers } from "../data/consignment";
 import shippingPhoto from "../assets/images/sell-martin/martin-guitars-at-fedex.webp";
 import joePhoto from "../assets/images/guild-sn/joe-dampt.jpg";
 
-const heroImage = "/images/sell-fender-redesign/fender-hero.webp";
+// Share picture: the original indexed card at its stable public address (it
+// still gets Google Images visits). Keep this URL; do not swap in the hero photo.
+const shareImage = "/images/og/consignment.jpg";
+const shareAlt = "Vintage guitar consignment at Joe's Vintage Guitars";
 const heroAlt = "1956 Fender Stratocaster resting in its red-lined case, from Joe’s guitar archive";
 const faqs = [
   { q: "Can I Consign a Guitar From Anywhere in the United States?", a: "Yes. I accept consignments from all 50 states. Joe’s Zero Risk Shipping Process lets you send your guitar to me fully insured, with no shipping risk to you. Contact me first so we can agree on the consignment and arrange your shipment." },
@@ -40,8 +43,8 @@ const structuredData = [
 
 <Layout title="Vintage Guitar Consignment | Joe’s Vintage Guitars"
   description="Consign your vintage guitar from anywhere in the US. Fees from 10% to 18.5%. Fully insured shipping with Joe’s Zero Risk Shipping Process. Get a free quote."
-  canonical="/consignment/" ogImage={SITE_URL + heroImage} ogImageAlt={heroAlt}
-  ogImageWidth={2000} ogImageHeight={1333} bodyClass="consignment-page" structuredData={structuredData}>
+  canonical="/consignment/" ogImage={SITE_URL + shareImage} ogImageAlt={shareAlt}
+  ogImageWidth={1200} ogImageHeight={1200} bodyClass="consignment-page" structuredData={structuredData}>
   <div class="con-page">
     <section class="con-hero" aria-labelledby="consignment-title">
       <div class="con-wrap con-hero-grid">
