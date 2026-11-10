@@ -1,0 +1,12 @@
+/* Follow-up questions inside the Gretsch and Guild serial lookup results.
+   The selectors carry enough weight to override .gr-tool button / .gu-tool button. */
+.sq-panel{display:grid;gap:18px;margin:16px 0 14px}
+.sq-prompt{font-family:var(--font-display);font-size:1.2rem;line-height:1.3;margin:0 0 4px;color:var(--color-brand-brown)}
+.sq-help{font-size:.9rem;line-height:1.5;margin:0 0 10px}
+.sq-choices{display:grid;gap:8px}
+.sq-panel button.sq-choice{display:block;width:100%;margin:0;padding:11px 14px;text-align:left;line-height:1.35;font:inherit;background:#fff;color:var(--color-brand-brown);border:1px solid var(--color-brand-brown-tan);border-radius:3px;cursor:pointer}
+.sq-panel button.sq-choice:hover{border-color:var(--color-brand-rust)}
+.sq-panel button.sq-choice:focus-visible{outline:3px solid var(--color-brand-rust);outline-offset:2px}
+.sq-panel button.sq-choice[aria-pressed="true"]{background:var(--color-brand-rust-dark);border-color:var(--color-brand-rust-dark);color:#fff}
+.sq-choice-label{display:block;font-weight:700}
+.sq-choice-hint{display:block;margin-top:2px;font-size:.86rem;opacity:.85}
