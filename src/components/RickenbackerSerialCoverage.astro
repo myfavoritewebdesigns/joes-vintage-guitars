@@ -1,0 +1,66 @@
+---
+import RickenbackerPhoto from './RickenbackerPhoto.astro';
+const families=[
+ ['310 / 315 / 320 / 325','Short-scale Capri numbers before 1961; regular date codes afterward.','An early V-prefix needs the model. On a 325V59, 325V63 or 325C64, the suffix describes a vintage-style version.'],
+ ['330 / 335 / 340 / 345; 360 / 365 / 370 / 375 / 380 / 381; F-series','Early pickup/tailpiece codes, then regular date codes.','Read both portions of the jackplate. A 330 headstock sticker or a 2L-prefix F-series number needs the exception notes.'],
+ ['360/12, 370/12, 366 and 370/12 signature models','Use the serial system of the actual build period.','The /12 suffix means twelve strings. A convertible comb, signature or limited-edition number does not replace the serial.'],
+ ['Combo 400 / 450; 420 / 425 / 450 / 460','Early 4C family, then regular date codes on applicable plates.','Check the saxophone-strap ring, bridge plate or 425 vibrato unit. A missing jackplate stamp may be normal for the model.'],
+ ['Combo 600 / 800 / 650 / 850','Early 6C, 8C, 65C, 85C and occasional C sequences.','Distinguish these early Combos from later 600-series designs with reused model numbers.'],
+ ['Later 610 / 620 / 625 / 650 / 660; 480 / 481 / 483','Ordinary date codes for the production period.','Find the entire stamp and establish the exact model separately. A model number does not supply a production year.'],
+ ['4000 / 4001 / 4002 / 4003 / 4004 / 4005; eight-string basses; 4080 doublenecks','Early 4000 B-prefix numbers or the regular date systems.','A later 4001V63 or C64 uses its actual production-era serial. Check the number of strings, neck construction and pickups independently.'],
+ ['3000 / 3001 basses; 200-series guitars and 2000-series basses','Regular date codes, with model-dependent stamp locations.','The 3000 uses a neck plate; the 3001 uses a jackplate. Both generations of 200-series instruments retain neck-plate serials, even when a side jackplate is present.'],
+ ['900 / 950 / 1000 and related Electro / Ryder student guitars','Early V family, then ordinary date codes where present.','Check the rear body end on the earliest student instruments and the bridge plate on later ones.'],
+ ['700-series acoustics: Comstock, Shasta and variants','Build-period serials on a soundhole label or early neck-heel stamp.','The acoustic location differs from the familiar electric-guitar jackplate. Preserve every leading zero.'],
+ ['Mandolins 5000 / 5001 / 5002 / 5002V58, Bantar and other uncommon instruments','Identify the instrument before applying a guitar chart.','An early M-prefix mandolin has no universal year/month formula. Unfamiliar numbers require photographs and model evidence.'],
+];
+---
+<section class="rk-section rk-section--tint" id="model-specific-serials"><div class="rk-wrap rk-article">
+ <h2>Model-Specific Serial Numbers And Locations</h2>
+ <p>The main date systems span many models. The exceptions concern the instrument family, the period and where the number was stamped. Use this table to choose the right part of the guide.</p>
+ <div class="rk-table-scroll" role="region" aria-label="Rickenbacker model families and serial locations" tabindex="0"><table><thead><tr><th scope="col">Model Family</th><th scope="col">Serial System</th><th scope="col">Model Check</th></tr></thead><tbody>{families.map(row=><tr><th scope="row">{row[0]}</th><td>{row[1]}</td><td>{row[2]}</td></tr>)}</tbody></table></div>
+ <p>For the less familiar stamp locations, see Andy White’s photographed <a href="https://www.rickenbacker101.com/p/overview-serial-number-locator-guide">serial-location survey</a>. His <a href="https://www.rickenbacker101.com/p/shorties-for-students">900, 950 and 1000 history</a> also documents the Electro and Ryder ES-16 connection. Private-label instruments need their construction checked: Rickenbacker’s <a href="https://www.rickenbacker.com/faq/">FAQ</a> notes that some private-label names were supplied by more than one maker.</p>
+
+ <h3 id="short-scale-numbers">Short-Scale V Numbers: Student Guitars And Capris</h3>
+ <p>V has more than one meaning. On early 900, 950 and 1000 student instruments, a year digit can follow V: Rickbeat records V7379 as a 1957 Model 1000. The early Capri group also used V numbers, including 1958 instruments whose digits must be read as individual records. A bare V prefix cannot choose between those systems.</p>
+ <p>Rickbeat also lists V0139 and V014 on 1960 student guitars. Treat these as documented examples, with the model and physical instrument supplying context. The tool offers a possible year for a date-bearing student pattern and identifies an undated or exceptional sequence when that formula does not apply. See <a href="https://www.rickbeat.com/serial.htm">Rickbeat’s early examples</a>.</p>
+
+ <h3 id="early-basses">Early 4000 Bass B Numbers</h3>
+ <p>A B prefix on an early 4000 bass can precede a year digit and a production number. B7100 is recognized as a 1957 bass by the manufacturer’s decoder; B7105 is another published 1957 example. Later sequences lost the embedded year. The tool asks whether the instrument is a bass before suggesting this reading because B also occurs on older steels.</p>
+
+ <h3 id="capri-specials">Individual Capri And F-Series Exceptions</h3>
+ <div class="rk-table-scroll" role="region" aria-label="Documented early Rickenbacker exceptions" tabindex="0"><table><thead><tr><th scope="col">Exact Number</th><th scope="col">Manufacturer’s Identification</th><th scope="col">Limit</th></tr></thead><tbody>
+ <tr><td>V81</td><td>1958 Capri 325</td><td>Individual early short-scale example.</td></tr>
+ <tr><td>V111</td><td>1958 Capri 310</td><td>A separate non-vibrato exception.</td></tr>
+ <tr><td>2LT125</td><td>1958 330F</td><td>The extra L must be retained.</td></tr>
+ <tr><td>2LV126</td><td>1958 365F</td><td>A neighboring number is not automatically another dated example.</td></tr>
+ </tbody></table></div>
+ <p>These exact-number results were checked in the <a href="https://www.rickenbacker.com/serial-number-decoder/">manufacturer’s decoder</a>. They do not authenticate a guitar or establish ownership of a famous instrument. The general 2T, 2V, 3T and 3V formats provide configuration clues and an approximate era.</p>
+
+ <h3 id="early-steels">Frying Pans, Bakelite Steels And Pre-1954 Instruments</h3>
+ <RickenbackerPhoto file="images/rickenbacker-serial/rickenbacker-fry-pan-serial-number.jpg" alt="Serial number stamped on the headstock of a Rickenbacker Frying Pan lap steel" caption="Read an early steel stamp with the instrument’s model and construction. The later guitar date charts do not apply automatically." />
+ <p>Early instruments may say Rickenbacher or Electro. Collector Richard Schatz’s <a href="https://www.rickresource.com/forum/viewtopic.php?t=163128">survey of prewar steel numbers</a> records numeric and A/B-prefixed Frying Pan numbers, C-prefixed Bakelite Model B numbers, D on Silver Hawaiian instruments and E on Model 59 examples. These prefixes help sort families; they do not supply a dependable year.</p>
+ <p>Some postwar steels have no useful serial. The manufacturer also treats its 1954 to 1960 steel sequences as undated, with possible overlap with amplifier numbers. Compare body material, scale length, pickup, controls, logo and original component dates. A replacement pot dates that part. Missing or unreadable numbers can leave only a period estimate.</p>
+
+ <h3 id="early-spanish">Prewar Fretted Spanish Guitars</h3>
+ <p>Early Rickenbacher fretted guitars need their own identification. The manufacturer’s <a href="https://www.rickenbacker.com/legacy/">historical account</a> includes the Ken Roberts, Bakelite Spanish, SP and S-59 families. They do not inherit the later Combo or 4000 bass date formulas. A collector’s photographed <a href="https://vintagemartin.com/earlyelectric.html">early electric collection</a> includes Spanish Model B number B36 and Vibrola Spanish C2733. A B or C prefix therefore needs the whole instrument, not just a letter match.</p>
+ <h3 id="early-mandolins">Mandolins And Other Uncommon Models</h3>
+ <p>Rickbeat photographs <a href="https://www.rickbeat.com/modelslibrary/5002/5002.htm">M101 on a 1958 Model 5002 electric mandolin</a>. That example does not establish a formula in which every digit following M becomes a year. Photograph the entire instrument, serial and pickup assembly. For a Bantar, double-neck, custom instrument or unusual private-label model, confirm the model first and use a regular date code only when the complete stamp fits it.</p>
+
+ <h2 id="reissue-and-export-numbers">Reissues, Export Models And Edition Numbers</h2>
+ <p>A model name can contain a historical year. A 325V59, 360/12V64 or 4001C64 should be dated from its own serial and paperwork. The B, V and C reissue families use the numbering appropriate to their actual manufacture. The <a href="https://www.rickresource.com/rrp/vintage.html">contemporary reissue registry</a> pairs model suffixes with later serials, including Q1 8376 on a 1998 360/12V64.</p>
+ <p>Rose Morris numbers such as 1993, 1995, 1996, 1997, 1998 and 1999 are model designations. They do not establish a build year. Export 1999 basses and later instruments bearing vintage-inspired names still need the complete serial. See the <a href="https://www.rickenbacker101.com/p/glossary-of-terms">Rose Morris model glossary</a>.</p>
+ <p>On signature and limited runs, record the instrument serial and the edition or certificate number separately. A 4001CS, 370/12RM, 660/12TP, 1998PT or John Lennon signature model can have both. The <a href="https://www.rickresource.com/rrp/chrissquire.html">Chris Squire registry</a> shows separate serial and certificate columns. A serial lookup cannot recover an edition number, original finish or full factory specification.</p>
+
+ <h2 id="source-conflicts">Why Rickenbacker Date Charts Disagree</h2>
+ <p>I checked the manufacturer’s public decoder against older specialist charts and contemporaneous instrument registrations. Three conflicts affect ordinary dating results:</p>
+ <ul>
+ <li><strong>Q in 1997 and 1998:</strong> Rickbeat includes Q for April. The March 2000 <a href="https://www.rickresource.com/rrp/1990serial.html">registry snapshot</a> lists numerous Q0 and Q1 instruments, including Q1 8063. The maker’s current decoder rejects Q and shifts R through Y one month earlier. This guide follows the contemporary Q-inclusive chart.</li>
+ <li><strong>Seven digits in late 1998:</strong> the same registry records 9846042, 9847052 and 9848010. Rickbeat gives 9846122 as week 46 of 1998. Our lookup recognizes that late-1998 overlap; earlier 98-prefix weeks require confirmation.</li>
+ <li><strong>Z in 1986:</strong> ZA to ZL fits the established year/month chart. A blanket Z replacement-plate rule would discard that entire year. A Z followed only by digits receives a separate replacement-plate result.</li>
+ </ul>
+ <p>Registry entries are owner-submitted and can contain transcription errors. Multiple examples and independent charts provide stronger support than one entry. Where the evidence remains incomplete, the tool gives a possible reading, an era or a request for specific photographs.</p>
+ <h3 id="amplifier-numbers">Amplifier Numbers Need Their Own Rules</h3>
+ <p>The manufacturer’s updated decoder covers amplifier sequences from 1969 to 1990. For example, XX1234 produces an amplifier date there, while specialists also report XX replacement guitar plates. Identify the object before interpreting its stamp. This guitar guide directs amplifier questions to the <a href="https://www.rickenbacker.com/serial-number-decoder/">factory decoder</a> and component evidence.</p>
+ <h3 id="rickenbacker-tool-coverage">What This Lookup Covers</h3>
+ <p>The tool reads regular year/month and year/week codes, preserves the JK/JL decade ambiguity, recognizes early Combo, Capri, bass, student and mandolin families, and asks about short numeric stamps and shared prefixes. It supplies no invented exact dates for early steels, 1965 headstock labels, 425 vibrato numbers or replacement plates. Week 53 and unverified transition formats require individual confirmation.</p>
+</div></section>
