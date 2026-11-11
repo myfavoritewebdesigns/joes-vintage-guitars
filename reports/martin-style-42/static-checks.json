@@ -1,0 +1,24 @@
+{
+  "host": "https://d58004b2.joes-vintage-guitars.pages.dev",
+  "checkedAt": "2026-11-09T20:23:34.407Z",
+  "results": [
+    {
+      "slug": "martin-000-42-authentication-guide",
+      "pass": true,
+      "report": "reports/martin-style-42/static-martin-000-42-authentication-guide.md",
+      "output": "[audit] Live:  https://d58004b2.joes-vintage-guitars.pages.dev/post/martin-000-42-authentication-guide/\n[audit] Local: http://127.0.0.1:4330/post/martin-000-42-authentication-guide/\n[audit] Slug:  martin-style42-0\n\n[audit] Liveness-checking 13 asset URL(s) on local (img/picture/poster/iframe)...\n\n[audit] Report: C:\\Users\\joeda\\Documents\\Codex\\2026-11-03\\https-mail-google-com-mail-u\\work\\martin-style-42\\reports\\martin-style42-0-audit-2026-11-09T20-23-33-489Z.md\n[audit] ðŸ”´ must-fix: 0  ðŸŸ¡ should-fix: 1  ðŸŸ¢ acceptable: 0"
+    },
+    {
+      "slug": "martin-000-42-value-guide",
+      "pass": true,
+      "report": "reports/martin-style-42/static-martin-000-42-value-guide.md",
+      "output": "[audit] Live:  https://d58004b2.joes-vintage-guitars.pages.dev/post/martin-000-42-value-guide/\n[audit] Local: http://127.0.0.1:4330/post/martin-000-42-value-guide/\n[audit] Slug:  martin-style42-1\n\n[audit] Liveness-checking 11 asset URL(s) on local (img/picture/poster/iframe)...\n\n[audit] Report: C:\\Users\\joeda\\Documents\\Codex\\2026-11-03\\https-mail-google-com-mail-u\\work\\martin-style-42\\reports\\martin-style42-1-audit-2026-11-09T20-23-33-514Z.md\n[audit] ðŸ”´ must-fix: 0  ðŸŸ¡ should-fix: 1  ðŸŸ¢ acceptable: 0"
+    },
+    {
+      "slug": "martin-0-00-000-history-authentication-value-guide",
+      "pass": true,
+      "report": "reports/martin-style-42/static-martin-0-00-000-history-authentication-value-guide.md",
+      "output": "[audit] Live:  https://d58004b2.joes-vintage-guitars.pages.dev/post/martin-0-00-000-history-authentication-value-guide/\n[audit] Local: http://127.0.0.1:4330/post/martin-0-00-000-history-authentication-value-guide/\n[audit] Slug:  martin-style42-2\n\n[audit] Liveness-checking 13 asset URL(s) on local (img/picture/poster/iframe)...\n\n[audit] Report: C:\\Users\\joeda\\Documents\\Codex\\2026-11-03\\https-mail-google-com-mail-u\\work\\martin-style-42\\reports\\martin-style42-2-audit-2026-11-09T20-23-34-394Z.md\n[audit] ðŸ”´ must-fix: 0  ðŸŸ¡ should-fix: 1  ðŸŸ¢ acceptable: 0"
+    }
+  ]
+}

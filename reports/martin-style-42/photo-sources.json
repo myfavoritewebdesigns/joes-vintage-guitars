@@ -1,0 +1,156 @@
+{
+  "newPhotos": [
+    {
+      "file": "src/assets/images/martin-style-42/2012-martin-000-42-01.jpg",
+      "dimensions": [
+        1600,
+        1066
+      ],
+      "sha256": "62efa6b0adff316116ac703f542da0a4fe15e6a3c46d49ecdfca2517121f64bf",
+      "owner": "Joe’s Vintage Guitars",
+      "model": "2012 Martin 000-42",
+      "source": "https://reverb.com/item/103089162-martin-000-42-2012-clean",
+      "role": "Clearly labeled modern comparison",
+      "processing": "Original browser-served bytes retained; existing responsive build derivatives",
+      "largerDriveOriginalFound": false
+    },
+    {
+      "file": "src/assets/images/martin-style-42/2012-martin-000-42-02.jpg",
+      "dimensions": [
+        1066,
+        1600
+      ],
+      "sha256": "af1b600597a424770413c660274e5e0d897da146366338905ff5329ef125c582",
+      "owner": "Joe’s Vintage Guitars",
+      "model": "2012 Martin 000-42",
+      "source": "https://reverb.com/item/103089162-martin-000-42-2012-clean",
+      "role": "Clearly labeled modern comparison",
+      "processing": "Original browser-served bytes retained; existing responsive build derivatives",
+      "largerDriveOriginalFound": false
+    },
+    {
+      "file": "src/assets/images/martin-style-42/2012-martin-000-42-03.jpg",
+      "dimensions": [
+        1600,
+        1066
+      ],
+      "sha256": "cd56970db5cd3e4521717ccd0b90636e9c56c09faa890d021d6365abb786b256",
+      "owner": "Joe’s Vintage Guitars",
+      "model": "2012 Martin 000-42",
+      "source": "https://reverb.com/item/103089162-martin-000-42-2012-clean",
+      "role": "Clearly labeled modern comparison",
+      "processing": "Original browser-served bytes retained; existing responsive build derivatives",
+      "largerDriveOriginalFound": false
+    },
+    {
+      "file": "src/assets/images/martin-style-42/2012-martin-000-42-04.jpg",
+      "dimensions": [
+        1600,
+        1066
+      ],
+      "sha256": "aec2370a962904a470483ab773c278fe679e30fe584911e45e52db85e0655be3",
+      "owner": "Joe’s Vintage Guitars",
+      "model": "2012 Martin 000-42",
+      "source": "https://reverb.com/item/103089162-martin-000-42-2012-clean",
+      "role": "Clearly labeled modern comparison",
+      "processing": "Original browser-served bytes retained; existing responsive build derivatives",
+      "largerDriveOriginalFound": false
+    },
+    {
+      "file": "src/assets/images/martin-style-42/2012-martin-000-42-05.jpg",
+      "dimensions": [
+        1600,
+        1066
+      ],
+      "sha256": "4d7bd4cb86f4c7ec1005aa6f2d8d6daa33fd9ed84229db52aabbf9029b51f12a",
+      "owner": "Joe’s Vintage Guitars",
+      "model": "2012 Martin 000-42",
+      "source": "https://reverb.com/item/103089162-martin-000-42-2012-clean",
+      "role": "Clearly labeled modern comparison",
+      "processing": "Original browser-served bytes retained; existing responsive build derivatives",
+      "largerDriveOriginalFound": false
+    },
+    {
+      "file": "src/assets/images/martin-style-42/2012-martin-000-42-06.jpg",
+      "dimensions": [
+        1600,
+        1066
+      ],
+      "sha256": "ddaf053088426ca5bbdf280701441737f49bcec58e6a8148b92067b1c240a331",
+      "owner": "Joe’s Vintage Guitars",
+      "model": "2012 Martin 000-42",
+      "source": "https://reverb.com/item/103089162-martin-000-42-2012-clean",
+      "role": "Clearly labeled modern comparison",
+      "processing": "Original browser-served bytes retained; existing responsive build derivatives",
+      "largerDriveOriginalFound": false
+    },
+    {
+      "file": "src/assets/images/martin-style-42/2012-martin-000-42-08.jpg",
+      "dimensions": [
+        1600,
+        1066
+      ],
+      "sha256": "33356c46921984e8dcd65771ed276c150b40a4bd5f438e307ce248612a4a4a0e",
+      "owner": "Joe’s Vintage Guitars",
+      "model": "2012 Martin 000-42",
+      "source": "https://reverb.com/item/103089162-martin-000-42-2012-clean",
+      "role": "Clearly labeled modern comparison",
+      "processing": "Original browser-served bytes retained; existing responsive build derivatives",
+      "largerDriveOriginalFound": false
+    },
+    {
+      "file": "src/assets/images/martin-style-42/2012-martin-000-42-09.jpg",
+      "dimensions": [
+        1600,
+        1066
+      ],
+      "sha256": "8763c9bbcc2a0b6b4a309f895930cf325daaf9dfe9074fe439a9cba2d8cb6eab",
+      "owner": "Joe’s Vintage Guitars",
+      "model": "2012 Martin 000-42",
+      "source": "https://reverb.com/item/103089162-martin-000-42-2012-clean",
+      "role": "Clearly labeled modern comparison",
+      "processing": "Original browser-served bytes retained; existing responsive build derivatives",
+      "largerDriveOriginalFound": false
+    },
+    {
+      "file": "src/assets/images/martin-style-42/2012-martin-000-42-11.jpg",
+      "dimensions": [
+        1600,
+        1066
+      ],
+      "sha256": "3a8f07d4f8fde9890eaa30b4e8a119258bcdd1f604549d4006eff3b834a658fa",
+      "owner": "Joe’s Vintage Guitars",
+      "model": "2012 Martin 000-42",
+      "source": "https://reverb.com/item/103089162-martin-000-42-2012-clean",
+      "role": "Clearly labeled modern comparison",
+      "processing": "Original browser-served bytes retained; existing responsive build derivatives",
+      "largerDriveOriginalFound": false
+    }
+  ],
+  "reusedPhotos": [
+    {
+      "model": "1930 Martin 0-21",
+      "file": "src/assets/martin-dating/1930-martin-0-21-2.jpg",
+      "ledger": "reports/martin-dating-photo-sources.json",
+      "role": "Different-model Concert-body comparison"
+    },
+    {
+      "model": "1936 Martin 00-21",
+      "file": "src/assets/martin-dating/1936-martin-00-21-bridge-plate-and-bracing.jpg",
+      "ledger": "reports/martin-dating-photo-sources.json",
+      "role": "Different-model interior inspection comparison"
+    },
+    {
+      "model": "1950 Martin 000-28",
+      "file": "src/assets/images/martin-small-body/1950-martin-000-28-6.jpg",
+      "ledger": "reports/martin-small-body/photo-sources.json",
+      "role": "Oversized replacement-bridge comparison"
+    },
+    {
+      "model": "Counterfeit D-45",
+      "definition": "src/data/model-guides/martin-pr2-photos.ts: fake",
+      "source": "https://www.joesvintageguitarsaz.com/how-to-spot-a-fake-martin/",
+      "role": "Explicitly labeled counterfeit comparison"
+    }
+  ]
+}
