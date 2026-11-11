@@ -1,0 +1,1700 @@
+{
+ "source": "2026 Vintage Guitar Price Guide, Stratocaster p.109 and Telecaster p.126, transcribed 2026-10-27",
+ "rule": "Guide excellent-condition range minus one random 11, 12, 13, 14 or 15 percent cut per row (same cut on low and high), rounded to the nearest $50. Very good = 75% of the low to 90% of the high. Refinish = 45% of the low to 60% of the high. Both nearest $50, from the headline row.",
+ "drawnOn": "2026-11-11",
+ "rows": [
+  {
+   "id": "S66-sb-dot",
+   "model": "Strat",
+   "pgPage": 109,
+   "pgYears": "1966",
+   "pgLabel": "Sunburst, dot markers",
+   "pgLow": 17000,
+   "pgHigh": 22500,
+   "cutPercent": 15,
+   "low": 14450,
+   "high": 19150,
+   "range": "$14,450 to $19,150",
+   "pages": [
+    "1966"
+   ],
+   "role": "head",
+   "label": "Sunburst, dot markers",
+   "veryGood": "$10,850 to $17,250",
+   "refinish": "$6,500 to $11,500"
+  },
+  {
+   "id": "S66-cc",
+   "model": "Strat",
+   "pgPage": 109,
+   "pgYears": "1966",
+   "pgLabel": "Common color",
+   "pgLow": 30000,
+   "pgHigh": 40000,
+   "cutPercent": 12,
+   "low": 26400,
+   "high": 35200,
+   "range": "$26,400 to $35,200",
+   "pages": [
+    "1966"
+   ],
+   "role": "cust",
+   "label": "Common custom color"
+  },
+  {
+   "id": "S66-sb-block",
+   "model": "Strat",
+   "pgPage": 109,
+   "pgYears": "1966",
+   "pgLabel": "Sunburst, block markers",
+   "pgLow": 21500,
+   "pgHigh": 30000,
+   "cutPercent": 15,
+   "low": 18300,
+   "high": 25500,
+   "range": "$18,300 to $25,500",
+   "pages": [
+    "1966"
+   ],
+   "role": "sub",
+   "label": "Sunburst, block markers"
+  },
+  {
+   "id": "S66-cc-bound",
+   "model": "Strat",
+   "pgPage": 109,
+   "pgYears": "1966",
+   "pgLabel": "Common color, bound board (rare)",
+   "pgLow": 35000,
+   "pgHigh": 45000,
+   "cutPercent": 11,
+   "low": 31150,
+   "high": 40050,
+   "range": "$31,150 to $40,050",
+   "pages": [
+    "1966"
+   ],
+   "role": "sub",
+   "label": "Common custom color, bound fingerboard (rare)"
+  },
+  {
+   "id": "S66-rc",
+   "model": "Strat",
+   "pgPage": 109,
+   "pgYears": "1966",
+   "pgLabel": "Rare color",
+   "pgLow": 45000,
+   "pgHigh": 75000,
+   "cutPercent": 14,
+   "low": 38700,
+   "high": 64500,
+   "range": "$38,700 to $64,500",
+   "pages": [
+    "1966"
+   ],
+   "role": "sub",
+   "label": "Rare custom color"
+  },
+  {
+   "id": "S67-sb",
+   "model": "Strat",
+   "pgPage": 109,
+   "pgYears": "1967",
+   "pgLabel": "Sunburst",
+   "pgLow": 17000,
+   "pgHigh": 22500,
+   "cutPercent": 11,
+   "low": 15150,
+   "high": 20050,
+   "range": "$15,150 to $20,050",
+   "pages": [
+    "1967"
+   ],
+   "role": "head",
+   "label": "Sunburst",
+   "veryGood": "$11,350 to $18,050",
+   "refinish": "$6,800 to $12,050"
+  },
+  {
+   "id": "S67-cc",
+   "model": "Strat",
+   "pgPage": 109,
+   "pgYears": "1967",
+   "pgLabel": "Common color",
+   "pgLow": 30000,
+   "pgHigh": 40000,
+   "cutPercent": 11,
+   "low": 26700,
+   "high": 35600,
+   "range": "$26,700 to $35,600",
+   "pages": [
+    "1967"
+   ],
+   "role": "cust",
+   "label": "Common custom color"
+  },
+  {
+   "id": "S67-rc",
+   "model": "Strat",
+   "pgPage": 109,
+   "pgYears": "1967",
+   "pgLabel": "Rare color",
+   "pgLow": 45000,
+   "pgHigh": 75000,
+   "cutPercent": 13,
+   "low": 39150,
+   "high": 65250,
+   "range": "$39,150 to $65,250",
+   "pages": [
+    "1967"
+   ],
+   "role": "sub",
+   "label": "Rare custom color"
+  },
+  {
+   "id": "S68-sb-nitro",
+   "model": "Strat",
+   "pgPage": 109,
+   "pgYears": "1968",
+   "pgLabel": "Sunburst, nitro",
+   "pgLow": 17000,
+   "pgHigh": 22500,
+   "cutPercent": 11,
+   "low": 15150,
+   "high": 20050,
+   "range": "$15,150 to $20,050",
+   "pages": [
+    "1968"
+   ],
+   "role": "head",
+   "label": "Sunburst, nitro finish",
+   "veryGood": "$11,350 to $18,050",
+   "refinish": "$6,800 to $12,050"
+  },
+  {
+   "id": "S68-sb-poly",
+   "model": "Strat",
+   "pgPage": 109,
+   "pgYears": "1968",
+   "pgLabel": "Sunburst, poly",
+   "pgLow": 12500,
+   "pgHigh": 16500,
+   "cutPercent": 12,
+   "low": 11000,
+   "high": 14500,
+   "range": "$11,000 to $14,500",
+   "pages": [
+    "1968"
+   ],
+   "role": "head",
+   "label": "Sunburst, poly finish",
+   "veryGood": "$8,250 to $13,050",
+   "refinish": "$4,950 to $8,700"
+  },
+  {
+   "id": "S68-sb-mix",
+   "model": "Strat",
+   "pgPage": 109,
+   "pgYears": "1968",
+   "pgLabel": "Sunburst, poly body, nitro neck",
+   "pgLow": 13500,
+   "pgHigh": 18000,
+   "cutPercent": 13,
+   "low": 11750,
+   "high": 15650,
+   "range": "$11,750 to $15,650",
+   "pages": [
+    "1968"
+   ],
+   "role": "sub",
+   "label": "Sunburst, poly body with nitro neck"
+  },
+  {
+   "id": "S68-cc-nitro",
+   "model": "Strat",
+   "pgPage": 109,
+   "pgYears": "1968",
+   "pgLabel": "Common color, nitro",
+   "pgLow": 30000,
+   "pgHigh": 40000,
+   "cutPercent": 12,
+   "low": 26400,
+   "high": 35200,
+   "range": "$26,400 to $35,200",
+   "pages": [
+    "1968"
+   ],
+   "role": "cust",
+   "label": "Common custom color, nitro finish"
+  },
+  {
+   "id": "S68-cc-poly",
+   "model": "Strat",
+   "pgPage": 109,
+   "pgYears": "1968",
+   "pgLabel": "Common color, poly",
+   "pgLow": 25000,
+   "pgHigh": 35000,
+   "cutPercent": 13,
+   "low": 21750,
+   "high": 30450,
+   "range": "$21,750 to $30,450",
+   "pages": [
+    "1968"
+   ],
+   "role": "cust",
+   "label": "Common custom color, poly finish"
+  },
+  {
+   "id": "S68-cc-mix",
+   "model": "Strat",
+   "pgPage": 109,
+   "pgYears": "1968",
+   "pgLabel": "Common color, poly body, nitro neck",
+   "pgLow": 24000,
+   "pgHigh": 32000,
+   "cutPercent": 12,
+   "low": 21100,
+   "high": 28150,
+   "range": "$21,100 to $28,150",
+   "pages": [
+    "1968"
+   ],
+   "role": "sub",
+   "label": "Common custom color, poly body with nitro neck"
+  },
+  {
+   "id": "S68-rc-nitro",
+   "model": "Strat",
+   "pgPage": 109,
+   "pgYears": "1968",
+   "pgLabel": "Rare color, nitro",
+   "pgLow": 40000,
+   "pgHigh": 75000,
+   "cutPercent": 12,
+   "low": 35200,
+   "high": 66000,
+   "range": "$35,200 to $66,000",
+   "pages": [
+    "1968"
+   ],
+   "role": "sub",
+   "label": "Rare custom color, nitro finish"
+  },
+  {
+   "id": "S68-rc-poly",
+   "model": "Strat",
+   "pgPage": 109,
+   "pgYears": "1968",
+   "pgLabel": "Rare color, poly",
+   "pgLow": 35000,
+   "pgHigh": 50000,
+   "cutPercent": 15,
+   "low": 29750,
+   "high": 42500,
+   "range": "$29,750 to $42,500",
+   "pages": [
+    "1968"
+   ],
+   "role": "sub",
+   "label": "Rare custom color, poly finish"
+  },
+  {
+   "id": "S68-rc-mix",
+   "model": "Strat",
+   "pgPage": 109,
+   "pgYears": "1968",
+   "pgLabel": "Rare color, poly body, nitro neck",
+   "pgLow": 35000,
+   "pgHigh": 50000,
+   "cutPercent": 12,
+   "low": 30800,
+   "high": 44000,
+   "range": "$30,800 to $44,000",
+   "pages": [
+    "1968"
+   ],
+   "role": "sub",
+   "label": "Rare custom color, poly body with nitro neck"
+  },
+  {
+   "id": "S69-sb",
+   "model": "Strat",
+   "pgPage": 109,
+   "pgYears": "1969",
+   "pgLabel": "Sunburst",
+   "pgLow": 12500,
+   "pgHigh": 16500,
+   "cutPercent": 14,
+   "low": 10750,
+   "high": 14200,
+   "range": "$10,750 to $14,200",
+   "pages": [
+    "1969"
+   ],
+   "role": "head",
+   "label": "Sunburst",
+   "veryGood": "$8,050 to $12,800",
+   "refinish": "$4,850 to $8,500"
+  },
+  {
+   "id": "S69-cc",
+   "model": "Strat",
+   "pgPage": 109,
+   "pgYears": "1969",
+   "pgLabel": "Common color",
+   "pgLow": 25000,
+   "pgHigh": 30000,
+   "cutPercent": 12,
+   "low": 22000,
+   "high": 26400,
+   "range": "$22,000 to $26,400",
+   "pages": [
+    "1969"
+   ],
+   "role": "cust",
+   "label": "Common custom color"
+  },
+  {
+   "id": "S69-rc",
+   "model": "Strat",
+   "pgPage": 109,
+   "pgYears": "1969",
+   "pgLabel": "Rare color",
+   "pgLow": 30000,
+   "pgHigh": 50000,
+   "cutPercent": 14,
+   "low": 25800,
+   "high": 43000,
+   "range": "$25,800 to $43,000",
+   "pages": [
+    "1969"
+   ],
+   "role": "sub",
+   "label": "Rare custom color"
+  },
+  {
+   "id": "S70-sb",
+   "model": "Strat",
+   "pgPage": 109,
+   "pgYears": "1970",
+   "pgLabel": "Sunburst, 4-bolt",
+   "pgLow": 11000,
+   "pgHigh": 14500,
+   "cutPercent": 11,
+   "low": 9800,
+   "high": 12900,
+   "range": "$9,800 to $12,900",
+   "pages": [
+    "1970"
+   ],
+   "role": "head",
+   "label": "Sunburst, four-bolt neck",
+   "veryGood": "$7,350 to $11,600",
+   "refinish": "$4,400 to $7,750"
+  },
+  {
+   "id": "S70-cc",
+   "model": "Strat",
+   "pgPage": 109,
+   "pgYears": "1970",
+   "pgLabel": "Common color, 4-bolt",
+   "pgLow": 15500,
+   "pgHigh": 20000,
+   "cutPercent": 11,
+   "low": 13800,
+   "high": 17800,
+   "range": "$13,800 to $17,800",
+   "pages": [
+    "1970"
+   ],
+   "role": "cust",
+   "label": "Common custom color, four-bolt neck"
+  },
+  {
+   "id": "S70-rc",
+   "model": "Strat",
+   "pgPage": 109,
+   "pgYears": "1970",
+   "pgLabel": "Rare color, 4-bolt",
+   "pgLow": 21500,
+   "pgHigh": 30000,
+   "cutPercent": 12,
+   "low": 18900,
+   "high": 26400,
+   "range": "$18,900 to $26,400",
+   "pages": [
+    "1970"
+   ],
+   "role": "sub",
+   "label": "Rare custom color, four-bolt neck"
+  },
+  {
+   "id": "S71-sb-4",
+   "model": "Strat",
+   "pgPage": 109,
+   "pgYears": "1971",
+   "pgLabel": "Early-mid '71, sunburst, 4-bolt",
+   "pgLow": 10500,
+   "pgHigh": 14500,
+   "cutPercent": 11,
+   "low": 9350,
+   "high": 12900,
+   "range": "$9,350 to $12,900",
+   "pages": [
+    "1971"
+   ],
+   "role": "head",
+   "label": "Early to mid-1971 sunburst, four-bolt neck",
+   "veryGood": "$7,000 to $11,600",
+   "refinish": "$4,200 to $7,750"
+  },
+  {
+   "id": "S71-sb-3",
+   "model": "Strat",
+   "pgPage": 109,
+   "pgYears": "1971",
+   "pgLabel": "Late '71, sunburst, 3-bolt",
+   "pgLow": 5000,
+   "pgHigh": 6500,
+   "cutPercent": 12,
+   "low": 4400,
+   "high": 5700,
+   "range": "$4,400 to $5,700",
+   "pages": [
+    "1971"
+   ],
+   "role": "head",
+   "label": "Late 1971 sunburst, three-bolt neck",
+   "veryGood": "$3,300 to $5,150",
+   "refinish": "$2,000 to $3,400"
+  },
+  {
+   "id": "S71-cc",
+   "model": "Strat",
+   "pgPage": 109,
+   "pgYears": "1971",
+   "pgLabel": "Common color, 4-bolt",
+   "pgLow": 15000,
+   "pgHigh": 20000,
+   "cutPercent": 14,
+   "low": 12900,
+   "high": 17200,
+   "range": "$12,900 to $17,200",
+   "pages": [
+    "1971"
+   ],
+   "role": "cust",
+   "label": "Common custom color, four-bolt neck"
+  },
+  {
+   "id": "S71-rc",
+   "model": "Strat",
+   "pgPage": 109,
+   "pgYears": "1971",
+   "pgLabel": "Rare color, 4-bolt",
+   "pgLow": 18000,
+   "pgHigh": 25000,
+   "cutPercent": 15,
+   "low": 15300,
+   "high": 21250,
+   "range": "$15,300 to $21,250",
+   "pages": [
+    "1971"
+   ],
+   "role": "sub",
+   "label": "Rare custom color, four-bolt neck"
+  },
+  {
+   "id": "S72-sb",
+   "model": "Strat",
+   "pgPage": 109,
+   "pgYears": "1972",
+   "pgLabel": "Sunburst, 3-bolt",
+   "pgLow": 4500,
+   "pgHigh": 6500,
+   "cutPercent": 11,
+   "low": 4000,
+   "high": 5800,
+   "range": "$4,000 to $5,800",
+   "pages": [
+    "1972"
+   ],
+   "role": "head",
+   "label": "Sunburst, three-bolt neck",
+   "veryGood": "$3,000 to $5,200",
+   "refinish": "$1,800 to $3,500"
+  },
+  {
+   "id": "S72-cc",
+   "model": "Strat",
+   "pgPage": 109,
+   "pgYears": "1972",
+   "pgLabel": "Common color, 3-bolt",
+   "pgLow": 5500,
+   "pgHigh": 8500,
+   "cutPercent": 12,
+   "low": 4850,
+   "high": 7500,
+   "range": "$4,850 to $7,500",
+   "pages": [
+    "1972"
+   ],
+   "role": "cust",
+   "label": "Common custom color, three-bolt neck"
+  },
+  {
+   "id": "S72-rc",
+   "model": "Strat",
+   "pgPage": 109,
+   "pgYears": "1972",
+   "pgLabel": "Rare color, 3-bolt",
+   "pgLow": 9500,
+   "pgHigh": 12000,
+   "cutPercent": 12,
+   "low": 8350,
+   "high": 10550,
+   "range": "$8,350 to $10,550",
+   "pages": [
+    "1972"
+   ],
+   "role": "sub",
+   "label": "Rare custom color, three-bolt neck"
+  },
+  {
+   "id": "S73-sb",
+   "model": "Strat",
+   "pgPage": 109,
+   "pgYears": "1973",
+   "pgLabel": "Sunburst",
+   "pgLow": 4500,
+   "pgHigh": 6000,
+   "cutPercent": 12,
+   "low": 3950,
+   "high": 5300,
+   "range": "$3,950 to $5,300",
+   "pages": [
+    "1973"
+   ],
+   "role": "head",
+   "label": "Sunburst",
+   "veryGood": "$2,950 to $4,750",
+   "refinish": "$1,800 to $3,200"
+  },
+  {
+   "id": "S73-cc",
+   "model": "Strat",
+   "pgPage": 109,
+   "pgYears": "1973",
+   "pgLabel": "Common color",
+   "pgLow": 5500,
+   "pgHigh": 7500,
+   "cutPercent": 15,
+   "low": 4700,
+   "high": 6400,
+   "range": "$4,700 to $6,400",
+   "pages": [
+    "1973"
+   ],
+   "role": "cust",
+   "label": "Common custom color"
+  },
+  {
+   "id": "S73-nat",
+   "model": "Strat",
+   "pgPage": 109,
+   "pgYears": "1973",
+   "pgLabel": "Natural",
+   "pgLow": 4000,
+   "pgHigh": 5500,
+   "cutPercent": 14,
+   "low": 3450,
+   "high": 4750,
+   "range": "$3,450 to $4,750",
+   "pages": [
+    "1973"
+   ],
+   "role": "sub",
+   "label": "Natural"
+  },
+  {
+   "id": "S73-wal",
+   "model": "Strat",
+   "pgPage": 109,
+   "pgYears": "1973",
+   "pgLabel": "Walnut",
+   "pgLow": 4250,
+   "pgHigh": 5500,
+   "cutPercent": 13,
+   "low": 3700,
+   "high": 4800,
+   "range": "$3,700 to $4,800",
+   "pages": [
+    "1973"
+   ],
+   "role": "sub",
+   "label": "Walnut"
+  },
+  {
+   "id": "S73-rc",
+   "model": "Strat",
+   "pgPage": 109,
+   "pgYears": "1973",
+   "pgLabel": "Rare color",
+   "pgLow": 8000,
+   "pgHigh": 10000,
+   "cutPercent": 11,
+   "low": 7100,
+   "high": 8900,
+   "range": "$7,100 to $8,900",
+   "pages": [
+    "1973"
+   ],
+   "role": "sub",
+   "label": "Rare custom color"
+  },
+  {
+   "id": "S74-sb",
+   "model": "Strat",
+   "pgPage": 109,
+   "pgYears": "1974",
+   "pgLabel": "Sunburst (white parts)",
+   "pgLow": 4000,
+   "pgHigh": 5500,
+   "cutPercent": 13,
+   "low": 3500,
+   "high": 4800,
+   "range": "$3,500 to $4,800",
+   "pages": [
+    "1974"
+   ],
+   "role": "head",
+   "label": "Sunburst, white plastic parts",
+   "veryGood": "$2,650 to $4,300",
+   "refinish": "$1,600 to $2,900"
+  },
+  {
+   "id": "S74-bbw",
+   "model": "Strat",
+   "pgPage": 109,
+   "pgYears": "1974",
+   "pgLabel": "Black, blond, white (white parts)",
+   "pgLow": 4500,
+   "pgHigh": 6000,
+   "cutPercent": 13,
+   "low": 3900,
+   "high": 5200,
+   "range": "$3,900 to $5,200",
+   "pages": [
+    "1974"
+   ],
+   "role": "sub",
+   "label": "Black, blond or white, white plastic parts"
+  },
+  {
+   "id": "S74-nat",
+   "model": "Strat",
+   "pgPage": 109,
+   "pgYears": "1974",
+   "pgLabel": "Natural (white parts)",
+   "pgLow": 3500,
+   "pgHigh": 5000,
+   "cutPercent": 12,
+   "low": 3100,
+   "high": 4400,
+   "range": "$3,100 to $4,400",
+   "pages": [
+    "1974"
+   ],
+   "role": "sub",
+   "label": "Natural, white plastic parts"
+  },
+  {
+   "id": "S74-wal",
+   "model": "Strat",
+   "pgPage": 109,
+   "pgYears": "1974",
+   "pgLabel": "Walnut (white parts)",
+   "pgLow": 4000,
+   "pgHigh": 5500,
+   "cutPercent": 11,
+   "low": 3550,
+   "high": 4900,
+   "range": "$3,550 to $4,900",
+   "pages": [
+    "1974"
+   ],
+   "role": "sub",
+   "label": "Walnut, white plastic parts"
+  },
+  {
+   "id": "S75-sb-w",
+   "model": "Strat",
+   "pgPage": 109,
+   "pgYears": "1975",
+   "pgLabel": "Early-'75, sunburst (white parts)",
+   "pgLow": 4000,
+   "pgHigh": 5500,
+   "cutPercent": 12,
+   "low": 3500,
+   "high": 4850,
+   "range": "$3,500 to $4,850",
+   "pages": [
+    "1975"
+   ],
+   "role": "head",
+   "label": "Early 1975 sunburst, white plastic parts",
+   "veryGood": "$2,650 to $4,350",
+   "refinish": "$1,600 to $2,900"
+  },
+  {
+   "id": "S75-sb-b",
+   "model": "Strat",
+   "pgPage": 109,
+   "pgYears": "1975",
+   "pgLabel": "Late-'75, sunburst (black parts)",
+   "pgLow": 3500,
+   "pgHigh": 4500,
+   "cutPercent": 12,
+   "low": 3100,
+   "high": 3950,
+   "range": "$3,100 to $3,950",
+   "pages": [
+    "1975"
+   ],
+   "role": "head",
+   "label": "Late 1975 sunburst, black plastic parts",
+   "veryGood": "$2,350 to $3,550",
+   "refinish": "$1,400 to $2,350"
+  },
+  {
+   "id": "S75-bbw-w",
+   "model": "Strat",
+   "pgPage": 109,
+   "pgYears": "1975",
+   "pgLabel": "Black, blond, white (white parts)",
+   "pgLow": 4500,
+   "pgHigh": 6000,
+   "cutPercent": 14,
+   "low": 3850,
+   "high": 5150,
+   "range": "$3,850 to $5,150",
+   "pages": [
+    "1975"
+   ],
+   "role": "sub",
+   "label": "Black, blond or white, white plastic parts"
+  },
+  {
+   "id": "S75-bbw-b",
+   "model": "Strat",
+   "pgPage": 109,
+   "pgYears": "1975",
+   "pgLabel": "Black, blond, white (black parts)",
+   "pgLow": 4000,
+   "pgHigh": 5500,
+   "cutPercent": 14,
+   "low": 3450,
+   "high": 4750,
+   "range": "$3,450 to $4,750",
+   "pages": [
+    "1975"
+   ],
+   "role": "sub",
+   "label": "Black, blond or white, black plastic parts"
+  },
+  {
+   "id": "S75-nat",
+   "model": "Strat",
+   "pgPage": 109,
+   "pgYears": "1975",
+   "pgLabel": "Natural (black parts)",
+   "pgLow": 3000,
+   "pgHigh": 4000,
+   "cutPercent": 13,
+   "low": 2600,
+   "high": 3500,
+   "range": "$2,600 to $3,500",
+   "pages": [
+    "1975"
+   ],
+   "role": "sub",
+   "label": "Natural, black plastic parts"
+  },
+  {
+   "id": "S75-wal",
+   "model": "Strat",
+   "pgPage": 109,
+   "pgYears": "1975",
+   "pgLabel": "Walnut (black parts)",
+   "pgLow": 2800,
+   "pgHigh": 3600,
+   "cutPercent": 13,
+   "low": 2450,
+   "high": 3150,
+   "range": "$2,450 to $3,150",
+   "pages": [
+    "1975"
+   ],
+   "role": "sub",
+   "label": "Walnut, black plastic parts"
+  },
+  {
+   "id": "S7677",
+   "model": "Strat",
+   "pgPage": 109,
+   "pgYears": "1976-1977",
+   "pgLabel": "Various colors",
+   "pgLow": 3000,
+   "pgHigh": 4000,
+   "cutPercent": 13,
+   "low": 2600,
+   "high": 3500,
+   "range": "$2,600 to $3,500",
+   "pages": [
+    "1976",
+    "1977"
+   ],
+   "role": "head",
+   "label": "All finishes",
+   "veryGood": "$1,950 to $3,150",
+   "refinish": "$1,150 to $2,100"
+  },
+  {
+   "id": "S78",
+   "model": "Strat",
+   "pgPage": 109,
+   "pgYears": "1978",
+   "pgLabel": "Various colors",
+   "pgLow": 2500,
+   "pgHigh": 3500,
+   "cutPercent": 15,
+   "low": 2150,
+   "high": 3000,
+   "range": "$2,150 to $3,000",
+   "pages": [
+    "1978"
+   ],
+   "role": "head",
+   "label": "All finishes",
+   "veryGood": "$1,600 to $2,700",
+   "refinish": "$950 to $1,800"
+  },
+  {
+   "id": "S79",
+   "model": "Strat",
+   "pgPage": 109,
+   "pgYears": "1979",
+   "pgLabel": "Various colors",
+   "pgLow": 2500,
+   "pgHigh": 3500,
+   "cutPercent": 13,
+   "low": 2200,
+   "high": 3050,
+   "range": "$2,200 to $3,050",
+   "pages": [
+    "1979"
+   ],
+   "role": "head",
+   "label": "All finishes",
+   "veryGood": "$1,650 to $2,750",
+   "refinish": "$1,000 to $1,850"
+  },
+  {
+   "id": "S79-ant",
+   "model": "Strat",
+   "pgPage": 109,
+   "pgYears": "1979",
+   "pgLabel": "Antigua",
+   "pgLow": 3000,
+   "pgHigh": 4000,
+   "cutPercent": 15,
+   "low": 2550,
+   "high": 3400,
+   "range": "$2,550 to $3,400",
+   "pages": [
+    "1979"
+   ],
+   "role": "sub",
+   "label": "Antigua finish"
+  },
+  {
+   "id": "S8081",
+   "model": "Strat",
+   "pgPage": 109,
+   "pgYears": "1980 and 1981 (two identical rows)",
+   "pgLabel": "Various colors",
+   "pgLow": 2500,
+   "pgHigh": 3500,
+   "cutPercent": 13,
+   "low": 2200,
+   "high": 3050,
+   "range": "$2,200 to $3,050",
+   "pages": [
+    "1980-1981"
+   ],
+   "role": "head",
+   "label": "All finishes",
+   "veryGood": "$1,650 to $2,750",
+   "refinish": "$1,000 to $1,850"
+  },
+  {
+   "id": "S8081-intl",
+   "model": "Strat",
+   "pgPage": 109,
+   "pgYears": "1980-1981",
+   "pgLabel": "International colors",
+   "pgLow": 2800,
+   "pgHigh": 3800,
+   "cutPercent": 11,
+   "low": 2500,
+   "high": 3400,
+   "range": "$2,500 to $3,400",
+   "pages": [
+    "1980-1981"
+   ],
+   "role": "sub",
+   "label": "International Colors"
+  },
+  {
+   "id": "T69-bl",
+   "model": "Tele",
+   "pgPage": 126,
+   "pgYears": "1969",
+   "pgLabel": "Blond, poly",
+   "pgLow": 8000,
+   "pgHigh": 12000,
+   "cutPercent": 13,
+   "low": 6950,
+   "high": 10450,
+   "range": "$6,950 to $10,450",
+   "pages": [
+    "1969"
+   ],
+   "role": "head",
+   "label": "Blonde, poly finish",
+   "veryGood": "$5,200 to $9,400",
+   "refinish": "$3,150 to $6,250"
+  },
+  {
+   "id": "T69-cc",
+   "model": "Tele",
+   "pgPage": 126,
+   "pgYears": "1969",
+   "pgLabel": "Common color, poly",
+   "pgLow": 12000,
+   "pgHigh": 18000,
+   "cutPercent": 11,
+   "low": 10700,
+   "high": 16000,
+   "range": "$10,700 to $16,000",
+   "pages": [
+    "1969"
+   ],
+   "role": "cust",
+   "label": "Common custom color, poly finish"
+  },
+  {
+   "id": "T69-sb",
+   "model": "Tele",
+   "pgPage": 126,
+   "pgYears": "1969",
+   "pgLabel": "Sunburst, poly",
+   "pgLow": 9000,
+   "pgHigh": 15000,
+   "cutPercent": 12,
+   "low": 7900,
+   "high": 13200,
+   "range": "$7,900 to $13,200",
+   "pages": [
+    "1969"
+   ],
+   "role": "sub",
+   "label": "Sunburst, poly finish"
+  },
+  {
+   "id": "T69-rc",
+   "model": "Tele",
+   "pgPage": 126,
+   "pgYears": "1969",
+   "pgLabel": "Rare color, poly",
+   "pgLow": 18000,
+   "pgHigh": 25000,
+   "cutPercent": 12,
+   "low": 15850,
+   "high": 22000,
+   "range": "$15,850 to $22,000",
+   "pages": [
+    "1969"
+   ],
+   "role": "sub",
+   "label": "Rare custom color, poly finish"
+  },
+  {
+   "id": "T69-pp",
+   "model": "Tele",
+   "pgPage": 126,
+   "pgYears": "1969",
+   "pgLabel": "Pink Paisley",
+   "pgLow": 20000,
+   "pgHigh": 25000,
+   "cutPercent": 14,
+   "low": 17200,
+   "high": 21500,
+   "range": "$17,200 to $21,500",
+   "pages": [
+    "1969"
+   ],
+   "role": "sub",
+   "label": "Pink Paisley (use the site's existing name for this finish)"
+  },
+  {
+   "id": "T69-bf",
+   "model": "Tele",
+   "pgPage": 126,
+   "pgYears": "1969",
+   "pgLabel": "Blue Flora",
+   "pgLow": 20000,
+   "pgHigh": 25000,
+   "cutPercent": 13,
+   "low": 17400,
+   "high": 21750,
+   "range": "$17,400 to $21,750",
+   "pages": [
+    "1969"
+   ],
+   "role": "sub",
+   "label": "Blue Flower (the guide prints \"Blue Flora\")"
+  },
+  {
+   "id": "T70-bl",
+   "model": "Tele",
+   "pgPage": 126,
+   "pgYears": "1970",
+   "pgLabel": "Blond, poly",
+   "pgLow": 7500,
+   "pgHigh": 10000,
+   "cutPercent": 11,
+   "low": 6700,
+   "high": 8900,
+   "range": "$6,700 to $8,900",
+   "pages": [
+    "1970"
+   ],
+   "role": "head",
+   "label": "Blonde, poly finish",
+   "veryGood": "$5,050 to $8,000",
+   "refinish": "$3,000 to $5,350"
+  },
+  {
+   "id": "T70-cc",
+   "model": "Tele",
+   "pgPage": 126,
+   "pgYears": "1970",
+   "pgLabel": "Common color, poly",
+   "pgLow": 10000,
+   "pgHigh": 15000,
+   "cutPercent": 14,
+   "low": 8600,
+   "high": 12900,
+   "range": "$8,600 to $12,900",
+   "pages": [
+    "1970"
+   ],
+   "role": "cust",
+   "label": "Common custom color, poly finish"
+  },
+  {
+   "id": "T70-sb",
+   "model": "Tele",
+   "pgPage": 126,
+   "pgYears": "1970",
+   "pgLabel": "Sunburst, poly",
+   "pgLow": 7500,
+   "pgHigh": 11000,
+   "cutPercent": 13,
+   "low": 6550,
+   "high": 9550,
+   "range": "$6,550 to $9,550",
+   "pages": [
+    "1970"
+   ],
+   "role": "sub",
+   "label": "Sunburst, poly finish"
+  },
+  {
+   "id": "T70-rc",
+   "model": "Tele",
+   "pgPage": 126,
+   "pgYears": "1970",
+   "pgLabel": "Rare color, poly",
+   "pgLow": 15000,
+   "pgHigh": 20000,
+   "cutPercent": 12,
+   "low": 13200,
+   "high": 17600,
+   "range": "$13,200 to $17,600",
+   "pages": [
+    "1970"
+   ],
+   "role": "sub",
+   "label": "Rare custom color, poly finish"
+  },
+  {
+   "id": "T71-bl",
+   "model": "Tele",
+   "pgPage": 126,
+   "pgYears": "1971",
+   "pgLabel": "Blond",
+   "pgLow": 6500,
+   "pgHigh": 8500,
+   "cutPercent": 11,
+   "low": 5800,
+   "high": 7550,
+   "range": "$5,800 to $7,550",
+   "pages": [
+    "1971"
+   ],
+   "role": "head",
+   "label": "Blonde",
+   "veryGood": "$4,350 to $6,800",
+   "refinish": "$2,600 to $4,550"
+  },
+  {
+   "id": "T71-cc",
+   "model": "Tele",
+   "pgPage": 126,
+   "pgYears": "1971",
+   "pgLabel": "Common color",
+   "pgLow": 8000,
+   "pgHigh": 12000,
+   "cutPercent": 12,
+   "low": 7050,
+   "high": 10550,
+   "range": "$7,050 to $10,550",
+   "pages": [
+    "1971"
+   ],
+   "role": "cust",
+   "label": "Common custom color"
+  },
+  {
+   "id": "T71-sb",
+   "model": "Tele",
+   "pgPage": 126,
+   "pgYears": "1971",
+   "pgLabel": "Sunburst",
+   "pgLow": 6500,
+   "pgHigh": 8500,
+   "cutPercent": 12,
+   "low": 5700,
+   "high": 7500,
+   "range": "$5,700 to $7,500",
+   "pages": [
+    "1971"
+   ],
+   "role": "sub",
+   "label": "Sunburst"
+  },
+  {
+   "id": "T71-rc",
+   "model": "Tele",
+   "pgPage": 126,
+   "pgYears": "1971",
+   "pgLabel": "Rare color",
+   "pgLow": 10000,
+   "pgHigh": 15000,
+   "cutPercent": 11,
+   "low": 8900,
+   "high": 13350,
+   "range": "$8,900 to $13,350",
+   "pages": [
+    "1971"
+   ],
+   "role": "sub",
+   "label": "Rare custom color"
+  },
+  {
+   "id": "T72-bl",
+   "model": "Tele",
+   "pgPage": 126,
+   "pgYears": "1972",
+   "pgLabel": "Blond",
+   "pgLow": 5500,
+   "pgHigh": 7500,
+   "cutPercent": 12,
+   "low": 4850,
+   "high": 6600,
+   "range": "$4,850 to $6,600",
+   "pages": [
+    "1972"
+   ],
+   "role": "head",
+   "label": "Blonde",
+   "veryGood": "$3,650 to $5,950",
+   "refinish": "$2,200 to $3,950"
+  },
+  {
+   "id": "T72-cc",
+   "model": "Tele",
+   "pgPage": 126,
+   "pgYears": "1972",
+   "pgLabel": "Common color",
+   "pgLow": 8000,
+   "pgHigh": 10000,
+   "cutPercent": 13,
+   "low": 6950,
+   "high": 8700,
+   "range": "$6,950 to $8,700",
+   "pages": [
+    "1972"
+   ],
+   "role": "cust",
+   "label": "Common custom color"
+  },
+  {
+   "id": "T72-nat",
+   "model": "Tele",
+   "pgPage": 126,
+   "pgYears": "1972",
+   "pgLabel": "Natural",
+   "pgLow": 4800,
+   "pgHigh": 6000,
+   "cutPercent": 15,
+   "low": 4100,
+   "high": 5100,
+   "range": "$4,100 to $5,100",
+   "pages": [
+    "1972"
+   ],
+   "role": "sub",
+   "label": "Natural"
+  },
+  {
+   "id": "T72-sb",
+   "model": "Tele",
+   "pgPage": 126,
+   "pgYears": "1972",
+   "pgLabel": "Sunburst",
+   "pgLow": 5800,
+   "pgHigh": 7500,
+   "cutPercent": 15,
+   "low": 4950,
+   "high": 6400,
+   "range": "$4,950 to $6,400",
+   "pages": [
+    "1972"
+   ],
+   "role": "sub",
+   "label": "Sunburst"
+  },
+  {
+   "id": "T72-rc",
+   "model": "Tele",
+   "pgPage": 126,
+   "pgYears": "1972",
+   "pgLabel": "Rare color",
+   "pgLow": 12000,
+   "pgHigh": 15000,
+   "cutPercent": 14,
+   "low": 10300,
+   "high": 12900,
+   "range": "$10,300 to $12,900",
+   "pages": [
+    "1972"
+   ],
+   "role": "sub",
+   "label": "Rare custom color"
+  },
+  {
+   "id": "T73-bl",
+   "model": "Tele",
+   "pgPage": 126,
+   "pgYears": "1973",
+   "pgLabel": "Blond",
+   "pgLow": 4200,
+   "pgHigh": 5500,
+   "cutPercent": 12,
+   "low": 3700,
+   "high": 4850,
+   "range": "$3,700 to $4,850",
+   "pages": [
+    "1973"
+   ],
+   "role": "head",
+   "label": "Blonde",
+   "veryGood": "$2,800 to $4,350",
+   "refinish": "$1,650 to $2,900"
+  },
+  {
+   "id": "T73-rc",
+   "model": "Tele",
+   "pgPage": 126,
+   "pgYears": "1973",
+   "pgLabel": "Rare color",
+   "pgLow": 8000,
+   "pgHigh": 11000,
+   "cutPercent": 11,
+   "low": 7100,
+   "high": 9800,
+   "range": "$7,100 to $9,800",
+   "pages": [
+    "1973"
+   ],
+   "role": "cust",
+   "label": "Rare custom color"
+  },
+  {
+   "id": "T73-bw",
+   "model": "Tele",
+   "pgPage": 126,
+   "pgYears": "1973",
+   "pgLabel": "Black, white",
+   "pgLow": 4200,
+   "pgHigh": 5500,
+   "cutPercent": 11,
+   "low": 3750,
+   "high": 4900,
+   "range": "$3,750 to $4,900",
+   "pages": [
+    "1973"
+   ],
+   "role": "sub",
+   "label": "Black or white"
+  },
+  {
+   "id": "T73-nat",
+   "model": "Tele",
+   "pgPage": 126,
+   "pgYears": "1973",
+   "pgLabel": "Natural",
+   "pgLow": 3800,
+   "pgHigh": 5000,
+   "cutPercent": 11,
+   "low": 3400,
+   "high": 4450,
+   "range": "$3,400 to $4,450",
+   "pages": [
+    "1973"
+   ],
+   "role": "sub",
+   "label": "Natural"
+  },
+  {
+   "id": "T73-sb",
+   "model": "Tele",
+   "pgPage": 126,
+   "pgYears": "1973",
+   "pgLabel": "Sunburst",
+   "pgLow": 4200,
+   "pgHigh": 5500,
+   "cutPercent": 14,
+   "low": 3600,
+   "high": 4750,
+   "range": "$3,600 to $4,750",
+   "pages": [
+    "1973"
+   ],
+   "role": "sub",
+   "label": "Sunburst"
+  },
+  {
+   "id": "T73-wal",
+   "model": "Tele",
+   "pgPage": 126,
+   "pgYears": "1973",
+   "pgLabel": "Walnut",
+   "pgLow": 3800,
+   "pgHigh": 5000,
+   "cutPercent": 15,
+   "low": 3250,
+   "high": 4250,
+   "range": "$3,250 to $4,250",
+   "pages": [
+    "1973"
+   ],
+   "role": "sub",
+   "label": "Walnut"
+  },
+  {
+   "id": "T74-bbw",
+   "model": "Tele",
+   "pgPage": 126,
+   "pgYears": "1974",
+   "pgLabel": "Blond, black, white",
+   "pgLow": 4000,
+   "pgHigh": 5500,
+   "cutPercent": 14,
+   "low": 3450,
+   "high": 4750,
+   "range": "$3,450 to $4,750",
+   "pages": [
+    "1974-1975"
+   ],
+   "role": "head",
+   "label": "1974 blonde, black or white",
+   "veryGood": "$2,600 to $4,300",
+   "refinish": "$1,550 to $2,850"
+  },
+  {
+   "id": "T75-bbw",
+   "model": "Tele",
+   "pgPage": 126,
+   "pgYears": "1975",
+   "pgLabel": "Blond, black, white",
+   "pgLow": 3800,
+   "pgHigh": 5000,
+   "cutPercent": 15,
+   "low": 3250,
+   "high": 4250,
+   "range": "$3,250 to $4,250",
+   "pages": [
+    "1974-1975"
+   ],
+   "role": "head",
+   "label": "1975 blonde, black or white",
+   "veryGood": "$2,450 to $3,850",
+   "refinish": "$1,450 to $2,550"
+  },
+  {
+   "id": "T74-nat",
+   "model": "Tele",
+   "pgPage": 126,
+   "pgYears": "1974",
+   "pgLabel": "Natural",
+   "pgLow": 3300,
+   "pgHigh": 4500,
+   "cutPercent": 13,
+   "low": 2850,
+   "high": 3900,
+   "range": "$2,850 to $3,900",
+   "pages": [
+    "1974-1975"
+   ],
+   "role": "sub",
+   "label": "1974 natural"
+  },
+  {
+   "id": "T74-sb",
+   "model": "Tele",
+   "pgPage": 126,
+   "pgYears": "1974",
+   "pgLabel": "Sunburst",
+   "pgLow": 4000,
+   "pgHigh": 5500,
+   "cutPercent": 11,
+   "low": 3550,
+   "high": 4900,
+   "range": "$3,550 to $4,900",
+   "pages": [
+    "1974-1975"
+   ],
+   "role": "sub",
+   "label": "1974 sunburst"
+  },
+  {
+   "id": "T74-wal",
+   "model": "Tele",
+   "pgPage": 126,
+   "pgYears": "1974",
+   "pgLabel": "Walnut",
+   "pgLow": 3300,
+   "pgHigh": 4500,
+   "cutPercent": 13,
+   "low": 2850,
+   "high": 3900,
+   "range": "$2,850 to $3,900",
+   "pages": [
+    "1974-1975"
+   ],
+   "role": "sub",
+   "label": "1974 walnut"
+  },
+  {
+   "id": "T75-nat",
+   "model": "Tele",
+   "pgPage": 126,
+   "pgYears": "1975",
+   "pgLabel": "Natural",
+   "pgLow": 3300,
+   "pgHigh": 4500,
+   "cutPercent": 15,
+   "low": 2800,
+   "high": 3850,
+   "range": "$2,800 to $3,850",
+   "pages": [
+    "1974-1975"
+   ],
+   "role": "sub",
+   "label": "1975 natural"
+  },
+  {
+   "id": "T75-sb",
+   "model": "Tele",
+   "pgPage": 126,
+   "pgYears": "1975",
+   "pgLabel": "Sunburst",
+   "pgLow": 3300,
+   "pgHigh": 4500,
+   "cutPercent": 13,
+   "low": 2850,
+   "high": 3900,
+   "range": "$2,850 to $3,900",
+   "pages": [
+    "1974-1975"
+   ],
+   "role": "sub",
+   "label": "1975 sunburst"
+  },
+  {
+   "id": "T75-wal",
+   "model": "Tele",
+   "pgPage": 126,
+   "pgYears": "1975",
+   "pgLabel": "Walnut",
+   "pgLow": 3300,
+   "pgHigh": 4500,
+   "cutPercent": 11,
+   "low": 2950,
+   "high": 4000,
+   "range": "$2,950 to $4,000",
+   "pages": [
+    "1974-1975"
+   ],
+   "role": "sub",
+   "label": "1975 walnut"
+  },
+  {
+   "id": "T7677-bbw",
+   "model": "Tele",
+   "pgPage": 126,
+   "pgYears": "1976 and 1977 (identical rows)",
+   "pgLabel": "Blond, black, white",
+   "pgLow": 3300,
+   "pgHigh": 4500,
+   "cutPercent": 13,
+   "low": 2850,
+   "high": 3900,
+   "range": "$2,850 to $3,900",
+   "pages": [
+    "1976-1977"
+   ],
+   "role": "head",
+   "label": "Blonde, black or white",
+   "veryGood": "$2,150 to $3,500",
+   "refinish": "$1,300 to $2,350"
+  },
+  {
+   "id": "T7677-nat",
+   "model": "Tele",
+   "pgPage": 126,
+   "pgYears": "1976 and 1977 (identical rows)",
+   "pgLabel": "Natural",
+   "pgLow": 3000,
+   "pgHigh": 4000,
+   "cutPercent": 14,
+   "low": 2600,
+   "high": 3450,
+   "range": "$2,600 to $3,450",
+   "pages": [
+    "1976-1977"
+   ],
+   "role": "sub",
+   "label": "Natural"
+  },
+  {
+   "id": "T7677-sb",
+   "model": "Tele",
+   "pgPage": 126,
+   "pgYears": "1976 and 1977 (identical rows)",
+   "pgLabel": "Sunburst",
+   "pgLow": 3300,
+   "pgHigh": 4500,
+   "cutPercent": 11,
+   "low": 2950,
+   "high": 4000,
+   "range": "$2,950 to $4,000",
+   "pages": [
+    "1976-1977"
+   ],
+   "role": "sub",
+   "label": "Sunburst"
+  },
+  {
+   "id": "T7677-wal",
+   "model": "Tele",
+   "pgPage": 126,
+   "pgYears": "1976 and 1977 (identical rows)",
+   "pgLabel": "Walnut",
+   "pgLow": 3000,
+   "pgHigh": 4000,
+   "cutPercent": 11,
+   "low": 2650,
+   "high": 3550,
+   "range": "$2,650 to $3,550",
+   "pages": [
+    "1976-1977"
+   ],
+   "role": "sub",
+   "label": "Walnut"
+  },
+  {
+   "id": "T7879",
+   "model": "Tele",
+   "pgPage": 126,
+   "pgYears": "1978-1979",
+   "pgLabel": "All colors",
+   "pgLow": 3300,
+   "pgHigh": 4500,
+   "cutPercent": 13,
+   "low": 2850,
+   "high": 3900,
+   "range": "$2,850 to $3,900",
+   "pages": [
+    "1978-1979"
+   ],
+   "role": "head",
+   "label": "All finishes",
+   "veryGood": "$2,150 to $3,500",
+   "refinish": "$1,300 to $2,350"
+  },
+  {
+   "id": "T8081",
+   "model": "Tele",
+   "pgPage": 126,
+   "pgYears": "1980-1981",
+   "pgLabel": "All colors",
+   "pgLow": 2300,
+   "pgHigh": 3000,
+   "cutPercent": 14,
+   "low": 2000,
+   "high": 2600,
+   "range": "$2,000 to $2,600",
+   "pages": [
+    "1980-1981"
+   ],
+   "role": "head",
+   "label": "All finishes",
+   "veryGood": "$1,500 to $2,350",
+   "refinish": "$900 to $1,550"
+  },
+  {
+   "id": "T8081-intl",
+   "model": "Tele",
+   "pgPage": 126,
+   "pgYears": "1980-1981",
+   "pgLabel": "International colors",
+   "pgLow": 3000,
+   "pgHigh": 3800,
+   "cutPercent": 11,
+   "low": 2650,
+   "high": 3400,
+   "range": "$2,650 to $3,400",
+   "pages": [
+    "1980-1981"
+   ],
+   "role": "sub",
+   "label": "International Colors"
+  }
+ ]
+}

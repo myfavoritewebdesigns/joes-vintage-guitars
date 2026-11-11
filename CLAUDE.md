@@ -1147,3 +1147,16 @@ Reports under reports/martin-small-body/pr2 contain source and photo ledgers, pr
 The branch incorporates origin/main 17debeb's repository cleanup. Its screenshot/log ignore policy is preserved; screenshots stay local and Markdown/JSON evidence stays tracked. This preview is not approved for publication. After Joe approves the specific hosted preview, squash-merge, confirm production deployment and load all six pages plus the hub three times.
 
 PR2 final source correction: the 2026 book’s page 287 calls 2-15 an all-mahogany guitar, while a firsthand 1949 2-15 listing documents a spruce/maple carved-top mandolin. Without independent support for a distinct guitar version, omit the optional 2-15 identification and price row. Preserve the frozen assignment privately; final chart totals 106 new + 58 unchanged = 164. See reports/martin-small-body/pr2/review-notes.md.
+
+
+### 2026-11-11: CBS Stratocaster Year Values, PR 1 Preview
+
+Added 15 Strat pages on joe/strat-cbs-year-pages: 1966 through 1979 plus 1980 and 1981 together. Every figure comes from Joe's fixed value-adjustments.json (copied byte for byte), including the split 1968 finishes, 1971 joints and 1975 plastics. New optional slug/label, headlineFinish, customRange and publishedDate fields preserve old defaults. Grouped lookup accepts 1980, 1981 and 1980-1981. New pages name the price-guide edition and use page-specific copy, original Drive photos or true-year comparison captions, and licensed Astro images.
+
+Existing Strat year HTML is byte-identical except the authorized 1965 next-year link; all Tele year HTML and the Tele hub are byte-identical. The Strat hub keeps its old pre-CBS rows, metadata, H1, FAQs, CBS heading/intro/cards and all unrelated sections. Only the new CBS table (including source footer and its own 28px top gap), closing paragraph and update byline change. Existing non-hub pages gain contextual links; the sitemap uses grouped slug/label.
+
+The specified year template overrides generic writing-system section/FAQ/resource/testimonial additions. Exact source subrange labels retain the casing Joe requested. New-page-only text avoids a Tier 1 scanner flag in the inherited numbered inspection heading and fixes grouped grammar; old output is unchanged. Findings and their resolution, source tensions, price traces, metadata, live-sitemap links, 8-gram overlap, preservation hashes and mobile/desktop evidence live in reports/cbs-year-pages.
+
+1966 block-marker/bound-board labels and 1979 Antigua need Joe's printed-guide spot-check. The house/Fender rosewood-stripe conflict is avoided by narrowing the new 1969 claim to one-piece maple. The existing pickup overlap, serial-location boundary and Tele FAQ/table inconsistency are documented rather than silently rewritten. No new figures, comparison sales or undocumented production totals were added.
+
+This is preview-only work. Joe must explicitly approve the specific Cloudflare preview before squash merge, production verification or PR 2. Telecaster page work has not started.

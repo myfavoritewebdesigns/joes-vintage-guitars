@@ -82,7 +82,8 @@ const drivers = [
   },
 ];
 
-const prices = stratocasterYearGuides.flatMap((guide) => guide.year === "1965"
+const cbsGuides = stratocasterYearGuides.filter((guide) => Number(guide.year) >= 1966);
+const prices = stratocasterYearGuides.filter((guide) => Number(guide.year) >= 1954 && Number(guide.year) <= 1965).flatMap((guide) => guide.year === "1965"
   ? [
       { era: "1965, early small headstock", year: guide.year, sunburst: "$18,500 to $25,800", custom: "$31,500 to $40,500" },
       { era: "1965, late large headstock", year: guide.year, sunburst: "$14,600 to $19,350", custom: "$30,100 to $38,700" },
@@ -193,7 +194,7 @@ structuredData.push(faqSchema);
         <div class="vg-byline">
           <strong>Written and reviewed by <a href="/about-me/">Joe Dampt</a></strong>
           <span>Vintage guitar appraiser and buyer · 10,000+ instruments personally appraised</span>
-          <span>Originally published June 9, 2026 · Updated September 18, 2026</span>
+          <span>Originally published June 9, 2026 · Updated November 11, 2026</span>
         </div>
         <nav class="vg-toc" aria-label="On this page">
           <strong>On this page</strong>
@@ -482,10 +483,26 @@ structuredData.push(faqSchema);
         <article><h3>1972 to 1976</h3><p>Three-bolt necks, bullet truss rods, die-cast bridges, and changing finishes define this period. A 1976 Stratocaster must be compared with guitars of the same specification rather than with a pre-CBS example.</p></article>
         <article><h3>1977 to 1981</h3><p>The serial moves to the headstock, but overlapping prefixes still require component dates and physical features. Weight, routing, finish, pickups, and originality create a wide spread.</p></article>
       </div>
+      <div class="vg-table-wrap" style="margin-top: 28px" tabindex="0" aria-label="CBS Stratocaster Values By Year">
+        <table class="vg-table">
+          <caption>1966 To 1981 Stratocaster Retail-Value Estimates</caption>
+          <thead><tr><th>Year</th><th>Headline Range</th><th>What It Covers</th><th>Custom Color</th></tr></thead>
+          <tbody>{cbsGuides.map((guide) => (
+            <tr>
+              <th scope="row"><a href={"/vintage-fender-stratocaster-value-guide/" + (guide.slug ?? guide.year) + "/"}>{guide.label ?? guide.year}</a></th>
+              <td>{guide.standardRange}</td>
+              <td>{guide.headlineFinish ?? "sunburst"}</td>
+              <td>{guide.customRange ?? "No separate custom-color row"}</td>
+            </tr>
+          ))}</tbody>
+          <tfoot><tr><td colspan="4">Joe's adjusted estimates from the <cite>2026 Vintage Guitar Price Guide</cite>, Stratocaster section, page 109.</td></tr></tfoot>
+        </table>
+      </div>
       <p class="vg-note vg-note--years">
-        Start with the <a href="/fender-stratocaster-dating-guide/">year-by-year Stratocaster dating guide</a> and
-        <a href="/fender-guitars-serial-number-guide/">Fender serial number guide</a>. For a current figure on a specific CBS-era guitar,
-        <a href="/free-appraisal/fender/">request a free Fender appraisal</a> rather than borrowing a pre-CBS range.
+        Open the linked year page for its finish groups, condition ranges and identification checks, then{" "}
+        <a href="/free-appraisal/fender/">request a free Fender appraisal</a> for your guitar.
+        Confirm the date with the <a href="/fender-stratocaster-dating-guide/">year-by-year Stratocaster dating guide</a> and{" "}
+        <a href="/fender-guitars-serial-number-guide/">Fender serial number guide</a>.
       </p>
     </div>
   </section>

@@ -15,10 +15,31 @@ import strat1964 from "../assets/blog/fender-custom-color-authentication-guide/1
 import strat1965 from "../assets/blog/what-a-serial-number-cant-tell-you/1965-fender-stratocaster-candy-apple-red-front.jpg";
 import undercoat1965 from "../assets/blog/what-a-serial-number-cant-tell-you/1965-fender-stratocaster-candy-apple-red-chip-silver-undercoat.jpg";
 
+
+import cbs66front from "../assets/blog/1966-fender-stratocaster-authentication-guide/1966-fender-stratocaster-scaled.jpg";
+import cbs66head from "../assets/blog/1966-fender-stratocaster-authentication-guide/1966-fender-stratocaster-headstock-scaled.jpg";
+import cbs67front from "../assets/blog/1967-fender-stratocaster-authentication-guide/1967-fender-stratocaster-sunburst-front.jpg";
+import cbs67tuners from "../assets/blog/1967-fender-stratocaster-authentication-guide/1967-fender-stratocaster-f-tuners.jpg";
+import cbs68front from "../assets/images/cbs-year-pages/1968-stratocaster-candy-apple-red-body.jpg";
+import cbs71front from "../assets/images/cbs-year-pages/1971-stratocaster-hardtail-body.jpg";
+import cbs71back from "../assets/images/cbs-year-pages/1971-stratocaster-hardtail-back.jpg";
+import cbs71plate from "../assets/images/cbs-year-pages/1971-stratocaster-hardtail-four-bolt-plate.jpg";
+import cbs75front from "../assets/images/cbs-year-pages/1975-stratocaster-sunburst-in-case.jpg";
+import cbs75body from "../assets/images/cbs-year-pages/1975-stratocaster-sunburst-controls.jpg";
+import cbs79front from "../assets/images/cbs-year-pages/1979-stratocaster-antigua-body.jpg";
+import cbs79full from "../assets/images/cbs-year-pages/1979-stratocaster-antigua-full-front.jpg";
+import cbs79head from "../assets/images/cbs-year-pages/1979-stratocaster-antigua-headstock.jpg";
+
+import cbs68head from "../assets/images/cbs-year-pages/1968-stratocaster-candy-apple-red-headstock.jpg";
+
 export interface StratocasterYearGuide {
   year: string;
+  slug?: string;
+  label?: string;
+  headlineFinish?: string;
+  publishedDate?: string;
   standardRange: string;
-  customRange: string;
+  customRange?: string;
   metaValueRange: string;
   metaDescription: string;
   veryGoodRange: string;
@@ -396,8 +417,983 @@ export const stratocasterYearGuides: StratocasterYearGuide[] = [
       { label: "One-owner 1965 Stratocaster story", href: "/post/one-owner-1965-fender-stratocaster/", description: "See an original-owner guitar and the provenance that helps establish a credible market history." },
     ],
   },
+  // CBS year additions: source rows and verification live in reports/cbs-year-pages.
+{
+  "year": "1966",
+  "publishedDate": "2026-11-11",
+  "headlineFinish": "sunburst with dot markers",
+  "standardRange": "$14,450 to $19,150",
+  "customRange": "$26,400 to $35,200",
+  "metaValueRange": "$14,450 to $19,150",
+  "metaDescription": "1966 Fender Stratocaster value guide: $14,450 to $19,150. Check the large headstock, white guard, neck dates and original finish before pricing.",
+  "veryGoodRange": "$10,850 to $17,250",
+  "refinishRange": "$6,500 to $11,500",
+  "answer": "An excellent, original 1966 Fender Stratocaster with its original case is estimated at $14,450 to $19,150 in sunburst with dot markers. Common factory custom colors run $26,400 to $35,200, with the finish and the guitar's remaining parts verified together.",
+  "intro": "The large headstock is the usual 1966 outline, but the neck still adjusts at the heel and attaches with four bolts. Gold transition lettering, a white vinyl guard and staggered pickups place it before the black-logo, polyester-finish guitars that follow. Don't carry the early small-headstock 1965 price onto it simply because both instruments share older construction details.",
+  "marketContext": "Start with the dot-marker sunburst comparison, then establish whether the paint, pickups and neck belong to this guitar. A 1966 pot code needs particular care: Fender kept using that year's CTS stock into later instruments. It can support a 1966 build when the other dates agree, but it can't turn a later Strat into a 1966. The separate block-marker and bound-board entries below retain the listed reference labels; an unusual neck needs individual identification before either range is used.",
+  "marker": "large headstock, gold transition lettering and a four-bolt F plate",
+  "features": [
+    {
+      "title": "The 1966 Headstock",
+      "body": "The broader CBS shape carries the gold transition logo. A small-headstock example requires examination as a possible leftover neck; its outline alone doesn't establish an earlier production date."
+    },
+    {
+      "title": "Rosewood And Pearloid Dots",
+      "body": "A curved rosewood veneer and pearloid face and side dots are the ordinary specification. Compare the actual board with the dot-marker headline row before considering a differently labeled neck configuration."
+    },
+    {
+      "title": "White Guard And Grey Pickups",
+      "body": "The guard is three-ply non-nitrate white vinyl, following the mid-1965 material change. Grey fibre pickup bottoms and staggered poles belong in the inspection alongside the wiring and solder."
+    },
+    {
+      "title": "CTS Stock And Neck Dates",
+      "body": "The neck-stamp model code is 13 in this period. Read the month and year as well as the model number, and compare them with the pots rather than treating every 137 66XX harness as a complete build date."
+    }
+  ],
+  "checks": [
+    "Photograph the headstock outline, gold lettering and four-bolt plate before choosing the 1966 comparison.",
+    "Have the heel stamp and pickup bases documented without disturbing brittle wiring or paint around the neck pocket.",
+    "For a custom finish, compare protected paint with the color chart and establish whether any factory repair or later repaint is documented."
+  ],
+  "appraisalExample": "Consider a sunburst with a 1966 neck stamp, pearloid dots and a consistent grey-bottom pickup set. If its pots also read 1966, that agreement supports the date; the same pots in a later neck-and-body assembly would support a different appraisal. A replacement guard should be recorded separately from a change to the body finish.",
+  "photoAlt": "Sunburst 1966 Fender Stratocaster with a white pickguard and rosewood fingerboard",
+  "photoCaption": "The 1966 Stratocaster from Joe's authentication guide, shown in sunburst with a white guard.",
+  "detailAlt": "Large headstock and gold transition logo on a 1966 Fender Stratocaster",
+  "detailCaption": "The 1966 headstock illustrates the broad outline and gold transition lettering used to place this guitar within the CBS period.",
+  "subRanges": [
+    {
+      "label": "Sunburst, block markers",
+      "range": "$18,300 to $25,500",
+      "note": "This is a separate price-guide category. Have a block-marker instrument identified in full before applying it to an otherwise standard dot-marker Strat."
+    },
+    {
+      "label": "Common custom color, bound fingerboard (rare)",
+      "range": "$31,150 to $40,050",
+      "note": "The listed bound-fingerboard category is separate from the common-color estimate. Confirm the model, neck construction and finish history together."
+    },
+    {
+      "label": "Rare custom color",
+      "range": "$38,700 to $64,500",
+      "note": "Use the rare-color comparison only after establishing which factory finish survives; a later color change needs its own condition assessment."
+    }
+  ],
+  "relatedGuides": [
+    {
+      "label": "1966 Stratocaster Authentication",
+      "href": "/post/1966-fender-stratocaster-authentication-guide/",
+      "description": "Inspect the photographed 1966 neck, electronics and hardware beside the value categories."
+    }
+  ],
+  photo: cbs66front,
+  detailPhoto: cbs66head
+},
+{
+  "year": "1967",
+  "publishedDate": "2026-11-11",
+  "headlineFinish": "sunburst",
+  "standardRange": "$15,150 to $20,050",
+  "customRange": "$26,700 to $35,600",
+  "metaValueRange": "$15,150 to $20,050",
+  "metaDescription": "1967 Fender Stratocaster value guide: $15,150 to $20,050. Compare F tuners, maple caps, transition logos and factory colors before setting a price.",
+  "veryGoodRange": "$11,350 to $18,050",
+  "refinishRange": "$6,800 to $12,050",
+  "answer": "A 1967 Fender Stratocaster in excellent, original sunburst condition with its original case is estimated at $15,150 to $20,050. The common custom-color range is $26,700 to $35,600, with a separate comparison for rare finishes.",
+  "intro": "Fender changed the tuners and offered a maple cap during 1967 while keeping the four-bolt neck and heel-adjusted truss rod. Earlier double-line Klusons and later F-stamped keys can both fit the year. The gold transition logo remains familiar, with black CBS lettering beginning to appear toward the end of the period.",
+  "marketContext": "A convincing 1967 is a month-specific combination of parts. You can't reject one solely because another 1967 has different tuners, nor can you accept any replacement set because it has an F stamp. Mounting holes, finish impressions and the neck date help explain whether the fitted hardware belongs. The price comparison assumes the neck and body haven't been assembled from separate guitars.",
+  "marker": "four-bolt construction with changing tuners and an optional maple cap",
+  "features": [
+    {
+      "title": "Kluson And F Tuners",
+      "body": "Fender's F-stamped tuners phase in during the year. Check the backs of the headstock and the screw pattern for alterations when a guitar is presented as an untouched late-1967 example."
+    },
+    {
+      "title": "The Maple Cap Option",
+      "body": "A glued-on maple fingerboard returns around mid-year. Its clean neck back distinguishes that construction from the earlier one-piece maple neck and its walnut skunk stripe; rosewood veneer boards continue too."
+    },
+    {
+      "title": "Lettering Through The Year",
+      "body": "The large headstock can retain the gold transition script, while black CBS lettering starts appearing late. Read the logo and patent block with the heel stamp instead of setting a date from script color alone."
+    },
+    {
+      "title": "Lacquer And White Vinyl",
+      "body": "Nitrocellulose finish and the non-nitrate white guard precede the next year's polyester transition. Grey-bottom single coils, cloth wiring and the original three-way switch give the electronics inspection a period-specific starting point."
+    }
+  ],
+  "checks": [
+    "Compare the tuner footprint with the keys fitted now, including any filled or extra mounting holes.",
+    "Establish whether the fingerboard is rosewood veneer or a maple cap and read the neck date in that context.",
+    "Inspect the finish beneath removable hardware and compare pickup construction with the harness before applying a custom-color estimate."
+  ],
+  "appraisalExample": "A rosewood-board 1967 with F tuners can fit the later specification without being a different model. Its value still depends on the finish and electronics. A maple-board guitar with unexplained neck-back construction or altered tuner holes needs those questions answered before it is compared with a complete original example.",
+  "photoAlt": "1967 Fender Stratocaster in sunburst with a white guard and rosewood board",
+  "photoCaption": "Joe's photographed 1967 sunburst provides a rosewood-board example of the year, alongside the maple cap option discussed here.",
+  "detailAlt": "F-stamped tuning keys on the back of a 1967 Stratocaster headstock",
+  "detailCaption": "F-stamped tuners on the documented 1967 Stratocaster. The mountings belong in the inspection as well as the lettering on the housings.",
+  "subRanges": [
+    {
+      "label": "Rare custom color",
+      "range": "$39,150 to $65,250",
+      "note": "This rare-color band applies to a documented factory finish on a 1967 guitar, with condition and completeness assessed alongside the paint."
+    }
+  ],
+  "relatedGuides": [
+    {
+      "label": "1967 Stratocaster Authentication",
+      "href": "/post/1967-fender-stratocaster-authentication-guide/",
+      "description": "Follow the F tuners, heel stamp and finish evidence on Joe's documented 1967 guitar."
+    }
+  ],
+  photo: cbs67front,
+  detailPhoto: cbs67tuners
+},
+{
+  "year": "1968",
+  "publishedDate": "2026-11-11",
+  "headlineFinish": "sunburst in the listed nitro and poly groups",
+  "standardRange": "$15,150 to $20,050 nitro; $11,000 to $14,500 poly",
+  "customRange": "$26,400 to $35,200 nitro; $21,750 to $30,450 poly",
+  "metaValueRange": "$11,000 to $20,050",
+  "metaDescription": "1968 Fender Stratocaster value guide: $11,000 to $20,050. Compare nitro, poly and mixed finishes, black logos and maple-cap necks before pricing.",
+  "veryGoodRange": "$11,350 to $18,050 nitro; $8,250 to $13,050 poly",
+  "refinishRange": "$6,800 to $12,050 nitro; $4,950 to $8,700 poly",
+  "answer": "An excellent, original 1968 Fender Stratocaster with its case is estimated at $15,150 to $20,050 in sunburst with a nitro finish, or $11,000 to $14,500 with poly. A poly body with a nitro neck has its own $11,750 to $15,650 comparison.",
+  "intro": "1968 needs a finish description as well as a year. The listed values separate nitro, poly, and a poly body paired with a nitro neck. Those categories also carry separate custom-color ranges. A heavy black headstock logo places the guitar in the right visual period, but it won't tell you which finish category to use.",
+  "marketContext": "Record the body and neck finish independently before selecting a range. A glossy surface or a patch of checking doesn't, by itself, identify all the layers. Repairs and overspray can complicate a guitar that began with a mixed factory finish. The tables keep those combinations separate so a sunburst poly guitar isn't priced from the nitro row merely because its neck retains lacquer.",
+  "marker": "black CBS logo and separately identified body and neck finishes",
+  "features": [
+    {
+      "title": "Nitro, Poly And Mixed Finishes",
+      "body": "Polyester arrives during 1968, alongside the earlier finish system. The values distinguish the body-and-neck combinations explicitly; establish the surviving finishes before adding any color premium."
+    },
+    {
+      "title": "CBS Lettering And F Keys",
+      "body": "Heavy black CBS script and F-stamped tuners are standard reference points by this year. The neck still uses four bolts and a heel truss-rod adjustment, before the later Micro-Tilt and bullet changes."
+    },
+    {
+      "title": "Maple Cap Construction",
+      "body": "A 1968 maple cap has a glued-on fingerboard and no skunk stripe. The neck back helps distinguish it from the rear-routed construction that returns in 1969, even when the front views look similar."
+    },
+    {
+      "title": "Wiring And Capacitor Overlap",
+      "body": "Cloth and plastic-insulated wire can overlap as stock is used. Joe's dating guide also records the green Nissei capacitor alongside the ceramic disc in 1968, so a harness needs more than one component checked."
+    }
+  ],
+  "checks": [
+    "Describe the body finish and neck finish separately in the appraisal photographs and repair history.",
+    "Check whether a maple fingerboard is a cap, including a clear photograph of the neck back.",
+    "Compare the capacitor, wire insulation, pickup dates and solder as an assembly before labeling a mixed harness a repair."
+  ],
+  "appraisalExample": "Two sunburst guitars dated 1968 can belong in different rows even with matching headstock outlines. One may retain nitro on body and neck while the other has a poly body and nitro neck. Once that distinction is documented, wear and changed parts can be assessed within the correct comparison.",
+  "photoAlt": "Candy Apple Red 1968 Stratocaster body with a white guard and tremolo bridge",
+  "photoCaption": "Joe's 1968 Candy Apple Red Stratocaster. This front view shows the color and hardware; it doesn't establish the finish chemistry.",
+  "detailAlt": "Large headstock and heavy black CBS lettering on the documented 1968 Candy Apple Red Stratocaster",
+  "detailCaption": "The large outline and black CBS lettering are visible on Joe's documented 1968 guitar. This headstock view doesn't identify the body and neck finish layers.",
+  "subRanges": [
+    {
+      "label": "Sunburst, nitro finish",
+      "range": "$15,150 to $20,050",
+      "note": "The nitro sunburst category requires the earlier finish specification, with any overspray or later paintwork identified."
+    },
+    {
+      "label": "Sunburst, poly finish",
+      "range": "$11,000 to $14,500",
+      "note": "Use this comparison for the poly-finished sunburst category, keeping a mixed body-and-neck finish in its own row."
+    },
+    {
+      "label": "Common custom color, nitro finish",
+      "range": "$26,400 to $35,200",
+      "note": "Common custom colors with the nitro specification use this band after the original color and paint layers are established."
+    },
+    {
+      "label": "Common custom color, poly finish",
+      "range": "$21,750 to $30,450",
+      "note": "The poly common-color comparison is distinct from both nitro and the mixed-finish category."
+    },
+    {
+      "label": "Sunburst, poly body with nitro neck",
+      "range": "$11,750 to $15,650",
+      "note": "This row covers the specified poly body and nitro neck combination; lacquer on the neck alone doesn't place the guitar in the full-nitro band."
+    },
+    {
+      "label": "Common custom color, poly body with nitro neck",
+      "range": "$21,100 to $28,150",
+      "note": "Confirm the common factory color and the different body and neck finishes before choosing this mixed-finish range."
+    },
+    {
+      "label": "Rare custom color, nitro finish",
+      "range": "$35,200 to $66,000",
+      "note": "Rare-color nitro examples need documented paint evidence as well as the appropriate 1968 construction."
+    },
+    {
+      "label": "Rare custom color, poly finish",
+      "range": "$29,750 to $42,500",
+      "note": "A rare color on a poly-finished guitar has its own comparison rather than inheriting the nitro estimate."
+    },
+    {
+      "label": "Rare custom color, poly body with nitro neck",
+      "range": "$30,800 to $44,000",
+      "note": "The rare-color mixed-finish row keeps a poly body with a nitro neck separate from the other two finish groups."
+    }
+  ],
+  "relatedGuides": [
+    {
+      "label": "Factory Finish Authentication",
+      "href": "/post/fender-custom-color-authentication-guide/",
+      "description": "Compare protected paint and period color coverage before selecting a 1968 finish group."
+    }
+  ],
+  photo: cbs68front,
+  detailPhoto: cbs68head
+},
+{
+  "year": "1969",
+  "publishedDate": "2026-11-11",
+  "headlineFinish": "sunburst",
+  "standardRange": "$10,750 to $14,200",
+  "customRange": "$22,000 to $26,400",
+  "metaValueRange": "$10,750 to $14,200",
+  "metaDescription": "1969 Fender Stratocaster value guide: $10,750 to $14,200. Check the returning skunk stripe, finish evidence and dates on a four-bolt CBS guitar.",
+  "veryGoodRange": "$8,050 to $12,800",
+  "refinishRange": "$4,850 to $8,500",
+  "answer": "A sunburst 1969 Fender Stratocaster in excellent, original condition with its original case is estimated at $10,750 to $14,200. Common factory custom colors are listed at $22,000 to $26,400, subject to verification of the surviving paint and parts.",
+  "intro": "The walnut skunk stripe returns on one-piece maple necks in 1969 as Fender resumes routing their truss-rod channel from the rear. That change predates the bullet truss rod: a 1969 still has a heel adjustment and four-bolt neck attachment. Reading those features together keeps a later neck from being accepted simply because it has a stripe.",
+  "marketContext": "The custom-color chart is shrinking by this point. Joe's chart places Blue Ice, Charcoal Frost and Teal Green at the end of their listed run in 1969, while other colors continue. A finish name should be checked against those dates and the guitar's protected paint. An unusual color can require more evidence than the ordinary sunburst comparison, even when the serial falls in a plausible period.",
+  "marker": "the returning stripe on one-piece maple necks, with four bolts and heel adjustment",
+  "features": [
+    {
+      "title": "Rear-Routed Neck Construction",
+      "body": "A one-piece maple neck can carry the returning stripe in 1969. It records how the truss rod was installed and doesn't imply that the headstock should already carry a bullet adjuster."
+    },
+    {
+      "title": "Four Bolts Behind The Neck",
+      "body": "The large F plate remains a four-bolt fitting. Inspect the body and heel for altered holes when a claimed 1969 has been converted or fitted with a later neck."
+    },
+    {
+      "title": "Ceramic Tone Capacitor",
+      "body": "The 0.05 ceramic disc becomes the sole factory tone-capacitor type after the 1968 overlap. A replacement capacitor is a specific repair to document, not a reason to assign a different year to the entire instrument."
+    },
+    {
+      "title": "The Reduced Color Chart",
+      "body": "Blue Ice, Charcoal Frost and Teal Green reach their listed endpoint in 1969. Lake Placid Blue and Candy Apple Red continue on the factory color chart, so all metallic finishes shouldn't be treated as one discontinued group."
+    }
+  ],
+  "checks": [
+    "On a one-piece maple neck, compare the stripe, heel adjuster and four-bolt pattern as one construction package.",
+    "Read the pickup stamps and pots with the neck evidence; older CTS inventory can survive in this period.",
+    "Match any claimed rare color to the factory color chart and photographs of paint protected from light and handling."
+  ],
+  "appraisalExample": "A 1969 sunburst with rear-routed neck construction and a heel adjuster fits a different comparison from a later bullet-neck guitar wearing an older plate. If a claimed Teal Green finish also survives, its factory origin needs to be established before the rare-color row can be considered.",
+  "photoAlt": "1971 sunburst Stratocaster hardtail used as a nearby four-bolt-era comparison",
+  "photoCaption": "A 1971 hardtail shown as a nearby-period comparison for the large-headstock Stratocaster. Its fixed bridge is identified separately from the guitars being priced.",
+  "detailAlt": "Back of a 1971 Stratocaster hardtail illustrating nearby-period neck construction",
+  "detailCaption": "The documented 1971 hardtail is a comparison photograph, not a 1969 guitar. Use the actual instrument's neck and component dates to settle the year.",
+  "subRanges": [
+    {
+      "label": "Rare custom color",
+      "range": "$25,800 to $43,000",
+      "note": "A rare 1969 finish needs identification against the period chart and protected paint, with any overspray distinguished from the original layers."
+    }
+  ],
+  "relatedGuides": [
+    {
+      "label": "Stratocaster Construction Timeline",
+      "href": "/fender-stratocaster-dating-guide/",
+      "description": "Read the maple-neck and skunk-stripe chronology behind the 1969 identification checks."
+    }
+  ],
+  photo: cbs71front,
+  detailPhoto: cbs71back
+},
+{
+  "year": "1970",
+  "publishedDate": "2026-11-11",
+  "headlineFinish": "four-bolt sunburst",
+  "standardRange": "$9,800 to $12,900",
+  "customRange": "$13,800 to $17,800",
+  "metaValueRange": "$9,800 to $12,900",
+  "metaDescription": "1970 Fender Stratocaster value guide: $9,800 to $12,900. Assess four-bolt necks, older pot codes, original paint and the component date evidence.",
+  "veryGoodRange": "$7,350 to $11,600",
+  "refinishRange": "$4,400 to $7,750",
+  "answer": "An excellent, original 1970 Fender Stratocaster with a four-bolt neck, sunburst finish and original case is estimated at $9,800 to $12,900. The common custom-color band is $13,800 to $17,800 for the same four-bolt specification.",
+  "intro": "1970 retains the four-bolt, heel-adjusted neck before the change during 1971. The large headstock and black CBS lettering can make it look similar to a later Strat from the front, so turn it over and check the joint. A year in a listing title is less useful than photographs that show how the neck and body actually fit together.",
+  "marketContext": "There isn't a universal exterior feature separating 1970 from every 1969 example. The neck stamp, pickup marks and complete harness provide the closer dating evidence. In particular, a 1966 CTS pot can still fit this assembly period because Fender used stored components. Don't treat the oldest visible code as a shortcut to an earlier, more expensive guitar.",
+  "marker": "four-bolt neck, heel adjuster and black CBS headstock lettering",
+  "features": [
+    {
+      "title": "The Pre-Micro-Tilt Joint",
+      "body": "The 1970 value rows specify four-bolt construction. Three-bolt mounting and a bullet adjuster belong to the following transition, so modifications at the joint must be explained before this range is used."
+    },
+    {
+      "title": "Neck Model Code 22",
+      "body": "Joe's neck-date reference places code 22 on Stratocasters from 1968 to about 1973. The number identifies the model within that stamp system; the remaining date information is needed to support 1970."
+    },
+    {
+      "title": "Pickup Date Cross-Checks",
+      "body": "Black pickup stamps can end in a single year digit during this era. A trailing zero needs the surrounding construction to establish the decade, and the pickup date still describes a component."
+    },
+    {
+      "title": "Continuing Factory Colors",
+      "body": "The factory color chart carries Firemist Gold, Firemist Silver and Ocean Turquoise through about 1971. They remain within the period to investigate for a 1970, with original paint evidence required for any premium."
+    }
+  ],
+  "checks": [
+    "Confirm four original neck-mounting positions and a heel-adjusted truss rod before using the headline price.",
+    "Read the complete heel marking instead of calling the model number 22 a date.",
+    "Document the pickup stamps and the harness together so an older pot or ambiguous final digit doesn't dictate the build year."
+  ],
+  "appraisalExample": "A four-bolt sunburst with a plausible 1970 neck date and older CTS pots can be a consistent assembly. Replacing that neck with a three-bolt-era unit and adapting the mounting changes the comparison, even if the visible headstock still resembles a 1970. The appraisal should describe that work directly.",
+  "photoAlt": "Sunburst 1971 Fender hardtail Stratocaster shown for comparison with 1970 construction",
+  "photoCaption": "This 1971 hardtail is a nearby-year comparison for the large-headstock body style. It isn't presented as a photographed 1970 or a separate hardtail price row.",
+  "detailAlt": "Rear view of the documented 1971 hardtail Stratocaster used as a period comparison",
+  "detailCaption": "A rear view of Joe's 1971 hardtail. A 1970 appraisal needs equivalent photographs of its own neck joint and date evidence.",
+  "subRanges": [
+    {
+      "label": "Rare custom color, four-bolt neck",
+      "range": "$18,900 to $26,400",
+      "note": "This rare-color figure retains the four-bolt qualification in the source row; verify the finish without transferring it to a later neck-joint specification."
+    }
+  ],
+  "relatedGuides": [
+    {
+      "label": "Reading Fender Neck Dates",
+      "href": "/fender-neck-dates/",
+      "description": "Place a Stratocaster model code and heel stamp in context before relying on a 1970 claim."
+    }
+  ],
+  photo: cbs71front,
+  detailPhoto: cbs71back
+},
+{
+  "year": "1971",
+  "publishedDate": "2026-11-11",
+  "headlineFinish": "four-bolt and three-bolt sunburst",
+  "standardRange": "$9,350 to $12,900 four-bolt; $4,400 to $5,700 three-bolt",
+  "customRange": "$12,900 to $17,200 four-bolt",
+  "metaValueRange": "$4,400 to $12,900",
+  "metaDescription": "1971 Fender Stratocaster value guide: $4,400 to $12,900. Compare four-bolt and three-bolt necks, bullet adjusters and early custom-color values.",
+  "veryGoodRange": "$7,000 to $11,600 four-bolt; $3,300 to $5,150 three-bolt",
+  "refinishRange": "$4,200 to $7,750 four-bolt; $2,000 to $3,400 three-bolt",
+  "answer": "A 1971 Fender Stratocaster in excellent, original sunburst condition with its case is estimated at $9,350 to $12,900 with the early four-bolt neck, or $4,400 to $5,700 with the later three-bolt neck. Identify the joint before using either range.",
+  "intro": "1971 contains two separately priced neck specifications. Earlier guitars continue the four-bolt plate and heel adjustment; later production brings the three-bolt Micro-Tilt joint and headstock bullet adjuster. A date alone doesn't decide which row applies. The bolt pattern and the original construction of the neck and body have to support the same configuration.",
+  "marketContext": "The four-bolt custom-color estimate is $12,900 to $17,200. That qualification stays attached to the figure: there isn't a separate late-1971 three-bolt custom-color row in the price guide. A four-bolt conversion of a later body also needs its own assessment. Changing the plate can't make an altered joint equivalent to the earlier factory construction.",
+  "marker": "four-bolt to three-bolt neck attachment and the arrival of the bullet adjuster",
+  "features": [
+    {
+      "title": "Early To Mid-1971",
+      "body": "The earlier sunburst comparison covers four-bolt construction. Photograph all four mounting positions and the heel adjustment, then check the neck date against the body and electronics."
+    },
+    {
+      "title": "Late-1971 Micro-Tilt",
+      "body": "The later specification uses three mounting bolts and Micro-Tilt. Its headstock bullet adjuster is a separate visible clue; the walnut neck stripe had already returned in 1969."
+    },
+    {
+      "title": "The Bridge Transition",
+      "body": "Joe's dating guide places the move from stamped steel saddles to die-cast zinc late in 1971. Inspect the complete bridge and its mounting rather than judging the guitar from one replaceable saddle."
+    },
+    {
+      "title": "Older CTS Pots Still Appear",
+      "body": "Fender drew on its large 1966 CTS purchase through 1971. An earlier pot date can therefore agree with a later neck when the harness and solder are consistent with the rest of the assembly."
+    }
+  ],
+  "checks": [
+    "Select the four-bolt or three-bolt value group from the original joint, not from the date on a swapped plate.",
+    "Check that the truss-rod adjustment and bridge specification fit the neck-and-body evidence.",
+    "Keep a custom-color appraisal tied to the four-bolt row unless separate evidence supports a different configuration."
+  ],
+  "appraisalExample": "A four-bolt sunburst with a heel-adjusted neck and older CTS pots can fit the earlier 1971 group. A later guitar with three bolts and a bullet adjuster starts from the other range. A plate replacement or converted screw pattern has to be disclosed before either guitar is described as original.",
+  "photoAlt": "Sunburst 1971 Fender Stratocaster hardtail with a white pickguard",
+  "photoCaption": "Joe's 1971 hardtail shows the sunburst body and white guard. Its fixed bridge is a documented variation, not an added price category in this chart.",
+  "detailAlt": "Four-bolt F neck plate on Joe's 1971 Stratocaster hardtail",
+  "detailCaption": "Four bolts are visible on this 1971 hardtail's F plate. The photograph illustrates the earlier joint covered separately from the late three-bolt range.",
+  "subRanges": [
+    {
+      "label": "Early to mid-1971 sunburst, four-bolt neck",
+      "range": "$9,350 to $12,900",
+      "note": "Apply the earlier range to a factory four-bolt sunburst with its construction and date evidence verified."
+    },
+    {
+      "label": "Late 1971 sunburst, three-bolt neck",
+      "range": "$4,400 to $5,700",
+      "note": "The later sunburst row follows the three-bolt neck specification introduced during the year."
+    },
+    {
+      "label": "Rare custom color, four-bolt neck",
+      "range": "$15,300 to $21,250",
+      "note": "The rare-color source is explicitly four-bolt; it doesn't establish a price for a three-bolt custom-color guitar."
+    }
+  ],
+  "relatedGuides": [
+    {
+      "label": "The Hardtail Stratocaster",
+      "href": "/post/hardtail-stratocaster-vintage-guide/",
+      "description": "Examine the fixed-bridge variation pictured here without assuming a separate value premium."
+    }
+  ],
+  "customColorSummary": "The 1971 common custom-color estimate of $12,900 to $17,200 applies to four-bolt guitars. The price guide gives no separate common-color range for the late three-bolt configuration; verify the neck joint and factory paint before choosing a comparison.",
+  photo: cbs71front,
+  detailPhoto: cbs71plate
+},
+{
+  "year": "1972",
+  "publishedDate": "2026-11-11",
+  "headlineFinish": "three-bolt sunburst",
+  "standardRange": "$4,000 to $5,800",
+  "customRange": "$4,850 to $7,500",
+  "metaValueRange": "$4,000 to $5,800",
+  "metaDescription": "1972 Fender Stratocaster value guide: $4,000 to $5,800. Check three-bolt necks, bullet adjusters, pickup details and the remaining factory colors.",
+  "veryGoodRange": "$3,000 to $5,200",
+  "refinishRange": "$1,800 to $3,500",
+  "answer": "An excellent, original 1972 Fender Stratocaster in sunburst with its original case is estimated at $4,000 to $5,800. The common custom-color range is $4,850 to $7,500, and both comparisons use the three-bolt neck specification.",
+  "intro": "For 1972, the three-bolt joint and bullet truss-rod adjuster provide the expected starting point. The price chart no longer has the early four-bolt split found in 1971. A guitar claimed as a 1972 with a different joint needs its neck, body and repair history checked before this year's ordinary range is applied.",
+  "marketContext": "The surviving color chart is narrower than the mid-1960s menu. Sonic Blue reaches its listed endpoint in 1972 on Joe's DuPont table; Lake Placid Blue and Candy Apple Red continue through the following year. Those dates help frame a finish inspection, but a color name or faded photograph can't establish that the existing paint came from Fender.",
+  "marker": "three-bolt Micro-Tilt joint, bullet adjustment and the remaining early-1970s colors",
+  "features": [
+    {
+      "title": "Three-Bolt Construction",
+      "body": "The listed sunburst and common-color rows both specify three bolts. Check the heel and body for a consistent factory joint, especially if a replacement plate or extra screw holes are present."
+    },
+    {
+      "title": "Headstock Adjustment",
+      "body": "The bullet adjuster belongs at the headstock in this specification. A rear walnut stripe is already established by 1972 and doesn't narrow the guitar to the first year of the three-bolt system."
+    },
+    {
+      "title": "Pickup Pole Overlap",
+      "body": "Joe's pickup reference describes mixed staggered and flat pole heights across 1972 to 1974. Read the bobbins, stamps and wiring together before declaring a set wrong solely from its pole profile."
+    },
+    {
+      "title": "Color Chart Endpoints",
+      "body": "The factory color chart lists Sonic Blue through 1972 and Lake Placid Blue and Candy Apple Red through 1973. A later repaint in any of these colors requires a different condition comparison from surviving factory paint."
+    }
+  ],
+  "checks": [
+    "Inspect the three-bolt mounting and bullet adjuster together, including evidence of a converted neck joint.",
+    "Record pickup pole heights as a set and photograph the bases if they can be accessed safely.",
+    "Compare a claimed Sonic Blue finish with protected areas and the documented color timeline before using a custom-color row."
+  ],
+  "appraisalExample": "A sunburst with its three-bolt neck, matching period pickups and intact finish starts from the 1972 sunburst band. If the guitar now wears Sonic Blue, establish when that paint was applied. A period color painted much later doesn't become an original custom-color example because the shade existed in 1972.",
+  "photoAlt": "1979 Antigua Stratocaster used to illustrate the later large-headstock specification",
+  "photoCaption": "A 1979 Antigua Stratocaster, shown for its large headstock and later CBS construction. Antigua is not offered as a priced 1972 finish here.",
+  "detailAlt": "Bullet truss-rod adjuster on the headstock of a 1979 Stratocaster",
+  "detailCaption": "The bullet adjuster on this 1979 headstock illustrates the adjustment position already used in 1972; its decal details belong to the later guitar.",
+  "subRanges": [
+    {
+      "label": "Rare custom color, three-bolt neck",
+      "range": "$8,350 to $10,550",
+      "note": "This rare-color comparison retains the three-bolt qualification and requires the finish to be original to the instrument."
+    }
+  ],
+  "relatedGuides": [
+    {
+      "label": "The Fender Color Chart",
+      "href": "/post/fender-custom-color-authentication-guide/",
+      "description": "Check the chart endpoints for Sonic Blue and the finishes that remained available after 1972."
+    }
+  ],
+  photo: cbs79full,
+  detailPhoto: cbs79head
+},
+{
+  "year": "1973",
+  "publishedDate": "2026-11-11",
+  "headlineFinish": "sunburst",
+  "standardRange": "$3,950 to $5,300",
+  "customRange": "$4,700 to $6,400",
+  "metaValueRange": "$3,950 to $5,300",
+  "metaDescription": "1973 Fender Stratocaster value guide: $3,950 to $5,300. Compare natural, walnut and custom colors with neck markings, pickups and original parts.",
+  "veryGoodRange": "$2,950 to $4,750",
+  "refinishRange": "$1,800 to $3,200",
+  "answer": "A 1973 Fender Stratocaster in excellent, original sunburst condition with its original case is estimated at $3,950 to $5,300. Common custom colors run $4,700 to $6,400; natural, walnut and rare colors have their own rows below.",
+  "intro": "The 1973 chart separates natural and walnut from sunburst instead of treating every non-sunburst guitar as a custom-color premium. Its neck specification remains the familiar three-bolt joint and bullet adjustment. Choosing a finish row accurately can therefore change the comparison even when two guitars have the same basic hardware.",
+  "marketContext": "Lake Placid Blue and Candy Apple Red reach the end of their listed chart years in 1973. That doesn't prove a surviving finish from a front photograph, and it doesn't make a later refinished example equivalent to an original. For a natural guitar, document the clear finish and any evidence of stripping; visible wood alone can't establish that it left the factory that way.",
+  "marker": "three-bolt construction, the remaining chart colors and changing heel markings",
+  "features": [
+    {
+      "title": "Natural And Walnut Categories",
+      "body": "The price guide names these finishes individually in 1973. Select the actual surviving factory finish before comparing condition, rather than assigning a blanket premium to a guitar without sunburst paint."
+    },
+    {
+      "title": "Late Chart Colors",
+      "body": "The site's finish table carries Lake Placid Blue and Candy Apple Red through 1973. Use its chronology alongside paint layers and protected areas when assessing either color on this year's instrument."
+    },
+    {
+      "title": "Changing Heel Markings",
+      "body": "The neck-date guide places the Stratocaster's code 22 through about 1973 and describes declining consistency afterward. Preserve a photograph of the whole marking so a partial stamp isn't interpreted in the wrong system."
+    },
+    {
+      "title": "Pickup Construction In Transition",
+      "body": "The Fender pickup guide places black bobbins alongside the later grey period through 1973 and 1974, with pole-height overlap too. Bottom color alone won't identify a pickup as early or original."
+    }
+  ],
+  "checks": [
+    "Identify whether a natural-looking body retains its factory finish or was stripped after sale.",
+    "Photograph the full heel code, including weak digits and any other marks rather than transcribing only the clearest number.",
+    "Compare all pickup bases, pole heights and solder joints before assigning the set to a single production year."
+  ],
+  "appraisalExample": "A natural 1973 with surviving factory clear finish belongs in the natural row. A sunburst stripped to bare wood needs the refinished-condition comparison instead, even though both guitars now show grain. The same inspection should establish whether the pickups and three-bolt neck remain with their original body.",
+  "photoAlt": "1979 Antigua Fender Stratocaster shown as a later CBS-era comparison",
+  "photoCaption": "The illustrated guitar is a 1979 Antigua. It shares the large-headstock and bullet-adjusted construction discussed for 1973, but its finish has a separate later-year price.",
+  "detailAlt": "Large CBS headstock on a documented 1979 Antigua Stratocaster",
+  "detailCaption": "This 1979 headstock is a construction comparison for the bullet-adjusted neck. A 1973 must be dated from its own plate and component markings.",
+  "subRanges": [
+    {
+      "label": "Natural",
+      "range": "$3,450 to $4,750",
+      "note": "This category assumes surviving factory natural finish, rather than a body stripped from another color."
+    },
+    {
+      "label": "Walnut",
+      "range": "$3,700 to $4,800",
+      "note": "Use the walnut row for that identified original finish; visual darkness alone doesn't establish the finish history."
+    },
+    {
+      "label": "Rare custom color",
+      "range": "$7,100 to $8,900",
+      "note": "Rare colors are separately priced for 1973, with the period color chart and paint evidence checked before selecting this band."
+    }
+  ],
+  "relatedGuides": [
+    {
+      "label": "Fender Pickup Dates",
+      "href": "/fender-pickup-dates/",
+      "description": "Use pickup construction and stamps to investigate the overlapping early-1970s specifications."
+    }
+  ],
+  photo: cbs79full,
+  detailPhoto: cbs79head
+},
+{
+  "year": "1974",
+  "publishedDate": "2026-11-11",
+  "headlineFinish": "sunburst with white plastic parts",
+  "standardRange": "$3,500 to $4,800",
+  "metaValueRange": "$3,500 to $4,800",
+  "metaDescription": "1974 Fender Stratocaster value guide: $3,500 to $4,800. Compare white plastic parts, flat pickup poles, named finish rows and neck-date evidence.",
+  "veryGoodRange": "$2,650 to $4,300",
+  "refinishRange": "$1,600 to $2,900",
+  "answer": "An excellent, original 1974 Fender Stratocaster in sunburst with white plastic parts and its original case is estimated at $3,500 to $4,800. The chart separately prices black, blond or white, natural, and walnut examples with white parts.",
+  "intro": "White plastic parts are part of the 1974 price description, not a cosmetic detail to leave out of an appraisal. The listed rows distinguish finishes within that specification. There isn't a generic custom-color band for this year, so the named finish rows below carry the comparison rather than a borrowed late-1960s premium.",
+  "marketContext": "A 1974 can resemble an early-1975 Strat closely. The neck markings, plate and component dates help separate the two, while the original plastics and finish determine which row is appropriate. Keep removed parts with the guitar: a black replacement guard and knobs can change its appearance without changing when the body and neck were made.",
+  "marker": "white plastic parts, three neck bolts and the mid-1970s pickup transition",
+  "features": [
+    {
+      "title": "White Parts In Every Row",
+      "body": "The listed 1974 finish groups all specify white parts. Inspect the guard, knobs and pickup covers individually because a later cosmetic change can leave a mixture of original and replacement pieces."
+    },
+    {
+      "title": "Flat And Staggered Poles",
+      "body": "The pickup guide places flat poles from about 1974, with overlap across 1972 to 1974. A transition set needs its stamps, construction and solder examined rather than a verdict from pole height alone."
+    },
+    {
+      "title": "Less Consistent Neck Codes",
+      "body": "After 1973, heel markings become less consistent in the house chronology. A faint code or alternate marking needs to be read with the pots and plate instead of forced into the earlier month-and-year stamp format."
+    },
+    {
+      "title": "The Existing Three-Bolt Design",
+      "body": "The three-bolt neck and headstock bullet continue the early-1970s system. They place a 1974 within a wider specification period; neither provides the exact year on its own."
+    }
+  ],
+  "checks": [
+    "Inventory the white guard, covers and knobs, noting mixed colors and any original pieces kept in the case.",
+    "Compare the actual finish with the named 1974 rows before making a condition adjustment.",
+    "Use the plate, pots and remaining heel marks together when a neck code is incomplete or difficult to read."
+  ],
+  "appraisalExample": "An original natural 1974 with white parts starts in the natural band. If it has acquired a black guard and changed controls, record those replacements without relabeling it a late-1975 guitar. Evidence for the build year and evidence for the current condition answer separate appraisal questions.",
+  "customColorSummary": "The listed 1974 values have no separate custom-color row. They price sunburst, black/blond/white, natural and walnut with white plastic parts; use the matching finish group and have unlisted configurations appraised individually.",
+  "photoAlt": "1975 sunburst Stratocaster with a black guard, black knobs and light pickup covers",
+  "photoCaption": "A documented 1975 Stratocaster with mixed-color fittings visible. This nearby-year comparison is not an example of the complete white-parts specification priced for 1974.",
+  "detailAlt": "Headstock bullet adjuster on a 1979 Stratocaster used as a construction comparison",
+  "detailCaption": "A 1979 bullet-adjusted neck illustrates the adjustment position shared with 1974. The later headstock serial belongs to the photographed guitar.",
+  "subRanges": [
+    {
+      "label": "Black, blond or white, white plastic parts",
+      "range": "$3,900 to $5,200",
+      "note": "Black, blond and white share this source row, which specifies white plastic parts on the guitar."
+    },
+    {
+      "label": "Natural, white plastic parts",
+      "range": "$3,100 to $4,400",
+      "note": "The natural 1974 comparison pairs the original clear finish with the white-parts specification."
+    },
+    {
+      "label": "Walnut, white plastic parts",
+      "range": "$3,550 to $4,900",
+      "note": "Walnut receives its own 1974 band, again with white parts rather than the later black-parts grouping."
+    }
+  ],
+  "relatedGuides": [
+    {
+      "label": "Fender Physical Features",
+      "href": "/fender-physical-features/",
+      "description": "Compare visible hardware and plastics with component evidence when evaluating a 1974 guitar."
+    }
+  ],
+  photo: cbs75front,
+  detailPhoto: cbs79head
+},
+{
+  "year": "1975",
+  "publishedDate": "2026-11-11",
+  "headlineFinish": "sunburst with early white or late black plastic parts",
+  "standardRange": "$3,500 to $4,850 early, white parts; $3,100 to $3,950 late, black parts",
+  "metaValueRange": "$3,100 to $4,850",
+  "metaDescription": "1975 Fender Stratocaster value guide: $3,100 to $4,850. Compare early white and late black plastic parts, finish groups and originality evidence.",
+  "veryGoodRange": "$2,650 to $4,350 early, white parts; $2,350 to $3,550 late, black parts",
+  "refinishRange": "$1,600 to $2,900 early, white parts; $1,400 to $2,350 late, black parts",
+  "answer": "An excellent, original 1975 Fender Stratocaster in sunburst with its case is estimated at $3,500 to $4,850 for the early white-parts group and $3,100 to $3,950 for the late black-parts group. Original plastics and component dates decide which comparison fits.",
+  "intro": "1975 is divided inside the value chart. The early and late sunburst rows differ by white or black plastic parts, and black, blond or white finishes also have separate rows for those fittings. A changed guard is easy to see, but the covers and knobs need checking too before an instrument is assigned to either factory group.",
+  "marketContext": "The source prices natural and walnut here only with black parts. It provides no generic custom-color estimate and no separate early white-parts natural or walnut figure. Don't fill those gaps from another finish or year. For a guitar with mixed fittings, establish what survives and what was replaced before deciding how the listed comparisons apply.",
+  "marker": "early white-parts and late black-parts groups within the same model year",
+  "features": [
+    {
+      "title": "Early White Plastic Parts",
+      "body": "The early sunburst range follows the white-parts specification. Original covers, knobs and guard should be evaluated together; one surviving white component doesn't establish a complete early configuration."
+    },
+    {
+      "title": "Late Black Plastic Parts",
+      "body": "The later sunburst group is priced separately with black parts. Check the date evidence and the history of any cosmetic replacements so a later-installed set doesn't decide the production period."
+    },
+    {
+      "title": "Natural And Walnut Coverage",
+      "body": "The listed natural and walnut rows explicitly use black parts. They don't establish values for every possible combination of these finishes and earlier white fittings."
+    },
+    {
+      "title": "Plate And Component Evidence",
+      "body": "The mid-1970s three-bolt system continues, with the serial plate and component codes supporting the year. Heel markings are less consistent than the familiar 1960s stamps, so photograph rather than guess at an incomplete code."
+    }
+  ],
+  "checks": [
+    "Record the guard, each pickup cover and every knob before calling the guitar a white-parts or black-parts example.",
+    "Check the finish against the configuration actually named in the 1975 row, especially for natural and walnut.",
+    "Ask for retained original plastics and repair records when the fitted pieces form a mixed-color set."
+  ],
+  "appraisalExample": "The pictured 1975 has a black guard and knobs with light pickup covers. That photograph records the present fittings; it doesn't prove a complete factory black-parts configuration. An appraisal needs the date evidence and parts history before the early or late sunburst comparison is selected.",
+  "customColorSummary": "The 1975 chart separates named finishes and white or black plastic parts instead of supplying one custom-color estimate. Match both descriptions, and request an individual appraisal for a combination absent from these rows.",
+  "photoAlt": "1975 Fender Stratocaster in sunburst lying in a red-lined case",
+  "photoCaption": "Joe's 1975 sunburst is shown with its current fittings. Its black guard and knobs and light pickup covers are visible, without assuming they all left the factory together.",
+  "detailAlt": "Mixed black and white fittings on the body of the documented 1975 Stratocaster",
+  "detailCaption": "A closer body view of the same 1975. Checking each plastic part avoids selecting a price category from the pickguard alone.",
+  "subRanges": [
+    {
+      "label": "Early 1975 sunburst, white plastic parts",
+      "range": "$3,500 to $4,850",
+      "note": "The early sunburst row assumes the white-parts configuration with the date and originality evidence consistent."
+    },
+    {
+      "label": "Late 1975 sunburst, black plastic parts",
+      "range": "$3,100 to $3,950",
+      "note": "Use the late sunburst comparison for the identified black-parts group, with replacements accounted for separately."
+    },
+    {
+      "label": "Black, blond or white, white plastic parts",
+      "range": "$3,850 to $5,150",
+      "note": "These three body finishes share the white-parts row; the paint name alone doesn't select the correct 1975 figure."
+    },
+    {
+      "label": "Black, blond or white, black plastic parts",
+      "range": "$3,450 to $4,750",
+      "note": "The black-parts grouping has a separate value for black, blond or white bodies."
+    },
+    {
+      "label": "Natural, black plastic parts",
+      "range": "$2,600 to $3,500",
+      "note": "The listed natural price is limited to black-parts examples; there is no parallel early white-parts figure here."
+    },
+    {
+      "label": "Walnut, black plastic parts",
+      "range": "$2,450 to $3,150",
+      "note": "This walnut comparison carries the black-parts condition stated in the source and should be applied with that qualification."
+    }
+  ],
+  "relatedGuides": [
+    {
+      "label": "Spotting Changed Fender Parts",
+      "href": "/how-to-spot-a-fake-fender/",
+      "description": "Review the evidence for mixed components before calling a black-parts 1975 completely original."
+    }
+  ],
+  photo: cbs75front,
+  detailPhoto: cbs75body
+},
+{
+  "year": "1976",
+  "publishedDate": "2026-11-11",
+  "headlineFinish": "all finishes",
+  "standardRange": "$2,600 to $3,500",
+  "metaValueRange": "$2,600 to $3,500",
+  "metaDescription": "1976 Fender Stratocaster value guide: $2,600 to $3,500. Check the serial-location transition, neck evidence and condition for this CBS-era guitar.",
+  "veryGoodRange": "$1,950 to $3,150",
+  "refinishRange": "$1,150 to $2,100",
+  "answer": "A 1976 Fender Stratocaster in excellent, original condition with its original case is estimated at $2,600 to $3,500 across the listed factory finishes. The price guide groups 1976 and 1977 in one row, so both year pages use the same range.",
+  "intro": "The serial-number location is a useful question on a 1976 Strat. Fender was moving from numbered neck plates to headstock decals during this period, and the date boundaries overlap. Photograph both locations, the three-bolt joint and the neck markings before assigning a year from a serial alone.",
+  "marketContext": "This year's broad finish coverage changes how the table should be used. There is no separate common custom-color figure to add to the headline estimate. An original black, natural or sunburst guitar still needs its own condition assessment, but a finish name by itself doesn't establish a premium outside the listed range.",
+  "marker": "the plate-to-headstock serial transition on an established three-bolt, bullet-adjusted neck",
+  "features": [
+    {
+      "title": "Serial Location In Transition",
+      "body": "The serial guide accepts 76-prefix headstock numbers during the transition around 1976. Overlapping plate and decal evidence means that location should be considered alongside component dates, rather than treated as a precise production cutoff."
+    },
+    {
+      "title": "A Continuing Neck Design",
+      "body": "Three mounting bolts, Micro-Tilt and the bullet adjuster were already established before 1976. These details support the period, while heel markings and electronics help distinguish this year from its neighbors."
+    },
+    {
+      "title": "The Large CBS Decal",
+      "body": "The heavy black Stratocaster logo belongs to this era. Joe's physical-features guide tracks the earlier patent-number text disappearing by the headstock-serial period, so record the complete decal rather than cropping to the number."
+    },
+    {
+      "title": "Check The Complete Harness",
+      "body": "A pot manufacturer's code identifies when that component was made. A later replacement can date a repair; an older part can predate assembly. Inspect solder and the other components before using either to settle a 1976 claim."
+    }
+  ],
+  "checks": [
+    "Photograph the headstock front and neck plate together so the serial location and any replacement hardware can be assessed.",
+    "Compare the dated parts with the neck evidence before choosing 1976 over an adjacent year.",
+    "Apply the all-finish estimate with the guitar's actual repairs and missing original pieces accounted for."
+  ],
+  "appraisalExample": "For a guitar described as 1976, I would start by documenting both possible serial locations. A replaced plate doesn't erase a readable headstock number, but it does need to be recorded. If the neck and harness support the date, condition and originality determine where the guitar sits within the shared 1976 and 1977 band.",
+  "customColorSummary": "The 1976 estimate covers the guide's various-color grouping. It supplies no separate common-color row or automatic color multiplier; unusual paint and undocumented finish work call for a closer examination of the individual guitar.",
+  "photoAlt": "Full front of a 1979 Antigua Stratocaster used as a later CBS comparison",
+  "photoCaption": "This is Joe's 1979 Antigua Stratocaster, shown as a later CBS comparison. Its distinctive finish has a separate 1979 row and should not be used to assign a 1976 price.",
+  "detailAlt": "Headstock of the 1979 comparison Stratocaster showing the bullet adjuster and front decal",
+  "detailCaption": "The 1979 comparison headstock places the bullet adjuster and decal in view. It illustrates the later arrangement without documenting the exact serial transition on a 1976 guitar.",
+  "relatedGuides": [
+    {
+      "label": "Fender Serial Number Guide",
+      "href": "/fender-guitars-serial-number-guide/",
+      "description": "See how plate numbers and headstock prefixes overlap around the 1976 transition."
+    }
+  ],
+  photo: cbs79full,
+  detailPhoto: cbs79head
+},
+{
+  "year": "1977",
+  "publishedDate": "2026-11-11",
+  "headlineFinish": "all finishes",
+  "standardRange": "$2,600 to $3,500",
+  "metaValueRange": "$2,600 to $3,500",
+  "metaDescription": "1977 Fender Stratocaster value guide: $2,600 to $3,500. Review the five-way switch change, pickup stamps and headstock numbers before pricing.",
+  "veryGoodRange": "$1,950 to $3,150",
+  "refinishRange": "$1,150 to $2,100",
+  "answer": "An excellent, all-original 1977 Fender Stratocaster with its case carries an estimated range of $2,600 to $3,500 for the guide's various finishes. Its value row is shared with 1976; the identical figures reflect that grouping rather than a separate annual price change.",
+  "intro": "The five-position selector is the useful 1977 milestone. Fender's account dates its introduction to this year, after players had long balanced the older three-position switch between settings. Check the switch and solder together: a working five-way selector alone can't tell you whether it was installed at the factory or during a later service.",
+  "marketContext": "The price guide makes no separate allowance for the selector change. Retained original parts and a documented repair history help explain an individual instrument's condition, while the shared 1976 and 1977 row provides the broad comparison. A replacement switch deserves a clear description without turning it into an invented finish or model category.",
+  "marker": "the five-position selector's introduction, supported by serial and component evidence",
+  "features": [
+    {
+      "title": "Five Positions Become Standard",
+      "body": "Fender places the five-way switch's introduction in 1977. The two intermediate combinations are a functional change, but the selector can be replaced without changing the guitar's construction."
+    },
+    {
+      "title": "Headstock Numbers Need Context",
+      "body": "S-prefix numbers belong to the late-1970s headstock system, with overlap between nominal years. Read the complete prefix and digits, then compare the heel and electronics instead of assigning an exact year from the first numeral."
+    },
+    {
+      "title": "Stamped Pickup Evidence",
+      "body": "Joe's pickup-date guide decodes 161377 as a 1977 example, using the final two digits. A readable stamp can support the year only when the pickup and its connections agree with the rest of the instrument."
+    },
+    {
+      "title": "Established CBS Hardware",
+      "body": "The large headstock, bullet adjuster and three-bolt neck attachment continue into 1977. Their presence identifies a broader production period; none establishes that the switch or pickups are original."
+    }
+  ],
+  "checks": [
+    "Count the switch positions, then have its mounting and solder examined if originality affects the sale.",
+    "Record all readable pickup stamps without turning a faint or incomplete number into a definite year.",
+    "Use the shared 1976 and 1977 range only after the headstock number and remaining date evidence have been reconciled."
+  ],
+  "appraisalExample": "A five-way switch with newer solder is a repair clue on a claimed 1977, even though that selector type belongs to the year. I would separate that repair from the evidence for the neck, body and pickups. The price assessment then reflects the complete guitar and any retained original parts.",
+  "customColorSummary": "For 1977, the price guide combines factory colors within the headline row shared with 1976. There isn't a common custom-color band on this page; paint originality and condition still need to be evaluated within the whole instrument.",
+  "photoAlt": "Body of Joe's 1975 sunburst Stratocaster as a nearby-year controls comparison",
+  "photoCaption": "A 1975 sunburst supplies this nearby-year view of the control layout. A still photograph of the selector can't establish how many switch positions it has.",
+  "detailAlt": "Large headstock and bullet adjuster on the documented 1979 Antigua Stratocaster",
+  "detailCaption": "This headstock belongs to a 1979 guitar. The visible CBS features help explain the surrounding era, while a 1977 appraisal still needs that instrument's own number and component evidence.",
+  "relatedGuides": [
+    {
+      "label": "Pickup Codes And Construction",
+      "href": "/fender-pickup-dates/",
+      "description": "Check the documented 1977 stamp example alongside the switch and harness inspection."
+    }
+  ],
+  photo: cbs75body,
+  detailPhoto: cbs79head
+},
+{
+  "year": "1978",
+  "publishedDate": "2026-11-11",
+  "headlineFinish": "all finishes",
+  "standardRange": "$2,150 to $3,000",
+  "metaValueRange": "$2,150 to $3,000",
+  "metaDescription": "1978 Fender Stratocaster value guide: $2,150 to $3,000. Use pickup dates and serial overlap to assess original parts, repairs and the correct year.",
+  "veryGoodRange": "$1,600 to $2,700",
+  "refinishRange": "$950 to $1,800",
+  "answer": "A 1978 Fender Stratocaster is estimated at $2,150 to $3,000 in excellent, original condition with the original case. This headline row covers various factory finishes, with no separate common custom-color estimate for the year.",
+  "intro": "A 1978 Strat retains the established late-CBS construction. The large headstock, three-bolt neck and bullet adjuster span neighboring years, so they can't isolate 1978. A credible year assignment depends on the headstock number agreeing with the available neck and electronics evidence.",
+  "marketContext": "A late-1970s serial prefix can cover more than one assembly year. That overlap matters when a seller chooses between annual price tables, particularly if a neck or loaded guard has been replaced. Price the documented combination of parts and finish, and keep uncertainty about assembly separate from ordinary play wear.",
+  "marker": "late-1970s serial overlap checked against readable pickup and neck markings",
+  "features": [
+    {
+      "title": "Pickup Stamps Can Help",
+      "body": "The pickup-date guide decodes 171578 and 202378 as 1978 examples. Photograph the whole underside and lead connections so a date stamp can be assessed with the pickup's construction and installation."
+    },
+    {
+      "title": "A Broad Serial Window",
+      "body": "Fender's late-1970s headstock prefixes overlap in use. A serial consistent with this period is a starting point for dating, while a single prefix can't establish that every part was assembled during 1978."
+    },
+    {
+      "title": "No New Neck Split",
+      "body": "The familiar three-bolt joint remains the relevant construction here. This year's value chart has no four-bolt versus three-bolt division like the earlier 1971 page."
+    },
+    {
+      "title": "Condition Beyond The Finish",
+      "body": "Inspect fret wear, altered pickup routes and changed electronics as well as paint. A clean outer surface can accompany substantial modifications beneath the guard, which should be disclosed before a retail-value comparison is made."
+    }
+  ],
+  "checks": [
+    "Keep photographs of the complete serial and every legible internal date with the appraisal record.",
+    "Check beneath the guard for changed routes or wiring when a qualified person can open the guitar safely.",
+    "Resolve whether a neck or pickup assembly was replaced before treating the guitar as an original 1978 example."
+  ],
+  "appraisalExample": "Suppose a late-1970s headstock serial accompanies readable 1978 pickup stamps. Those clues support further investigation, but they don't establish an untouched assembly on their own. I would examine the neck evidence, wiring and routes before placing the guitar within the 1978 estimate.",
+  "customColorSummary": "The 1978 various-color row is the finish coverage available for this page. A claimed rare color needs its own evidence, since the chart doesn't supply a second range that can be applied simply from the seller's color description.",
+  "photoAlt": "1979 Stratocaster headstock shown as a late-1970s construction comparison",
+  "photoCaption": "The pictured headstock is from Joe's 1979 Antigua guitar. It shows the large-headstock form used across this period and can't establish a 1978 build date.",
+  "detailAlt": "Controls and pickup covers on a 1975 sunburst Stratocaster body",
+  "detailCaption": "This earlier 1975 body view shows accessible controls and covers. Pickup dates and wiring would require separate inspection beneath the guard; they are not visible here.",
+  "relatedGuides": [
+    {
+      "label": "Dating The Electronics",
+      "href": "/fender-pot-codes/",
+      "description": "Understand what a component manufacturing date contributes to a claimed 1978 assembly."
+    }
+  ],
+  photo: cbs79head,
+  detailPhoto: cbs75body
+},
+{
+  "year": "1979",
+  "publishedDate": "2026-11-11",
+  "headlineFinish": "all finishes",
+  "standardRange": "$2,200 to $3,050",
+  "metaValueRange": "$2,200 to $3,050",
+  "metaDescription": "1979 Fender Stratocaster value guide: $2,200 to $3,050. Compare the separate Antigua finish range, headstock evidence and original components.",
+  "veryGoodRange": "$1,650 to $2,750",
+  "refinishRange": "$1,000 to $1,850",
+  "answer": "An original 1979 Fender Stratocaster in excellent condition with its case is estimated at $2,200 to $3,050 across the general finish group. The guide also gives Antigua its own range of $2,550 to $3,400.",
+  "intro": "Antigua is the named finish distinction in the 1979 chart. Joe's example provides a close view of the shaded body and matching guard treatment, but appearance alone doesn't establish untouched paint. The body, guard, protected surfaces and parts history need to support the same finish identification.",
+  "marketContext": "Keep the general row and Antigua row separate when comparing a specific guitar. The named finish does not excuse changed pickups, an altered body or a replacement neck. These ranges cover ordinary production; a 25th Anniversary Stratocaster needs separate model identification and an individual appraisal.",
+  "marker": "the separately priced Antigua finish and late-1970s headstock and component evidence",
+  "features": [
+    {
+      "title": "Antigua Has Its Own Row",
+      "body": "The price guide identifies Antigua separately for 1979. Compare the body and guard finish together, then inspect protected areas and repair history before describing the paint as original."
+    },
+    {
+      "title": "Headstock And Neck Evidence",
+      "body": "The large black CBS logo and bullet adjustment remain useful period clues. The headstock serial must be read with the neck and component dates because late-1970s prefixes do not create exact annual boundaries."
+    },
+    {
+      "title": "The End Of A Pickup-Code Period",
+      "body": "Joe's pickup guide places the black-ink six-digit stamping pattern broadly from 1969 through 1979. The following period introduces a different construction and numbering context, so record the pickup itself along with any digits."
+    },
+    {
+      "title": "The Guard Deserves Inspection",
+      "body": "An Antigua finish assessment includes the guard as well as the body. Photograph wear, screw holes and any retained replacement pieces, especially when the two surfaces differ markedly in appearance."
+    }
+  ],
+  "checks": [
+    "Identify whether the guitar belongs in the general finish group or the named Antigua row before comparing prices.",
+    "Inspect the relationship between body paint and guard finish without assuming that a visual match proves factory originality.",
+    "Document pickup construction and readable stamps alongside the headstock serial when confirming the 1979 claim."
+  ],
+  "appraisalExample": "On the pictured Antigua Strat, I would document the body shading and guard first, then examine protected finish areas and the electronics. If the paint and parts prove consistent with the claimed year, the Antigua row is the relevant comparison. Any refinish or major replacement changes that assessment.",
+  "customColorSummary": "The 1979 chart provides a broad finish estimate plus one specifically named Antigua band. It does not supply a general custom-color premium for other finishes; those guitars start with the broader row and their own originality evidence.",
+  "photoAlt": "Body of Joe's 1979 Fender Stratocaster in Antigua with a matching shaded pickguard",
+  "photoCaption": "Joe's 1979 Antigua Stratocaster shows the light center, darker perimeter and matching guard treatment. These visible details illustrate the finish named in the separate price row.",
+  "detailAlt": "Front headstock of the 1979 Antigua Stratocaster with black logo and bullet adjuster",
+  "detailCaption": "A closer view of the same 1979 guitar's headstock. The decal and bullet are visible, while a complete appraisal also needs neck and electronics evidence beyond this photograph.",
+  "subRanges": [
+    {
+      "label": "Antigua finish",
+      "range": "$2,550 to $3,400",
+      "note": "Use this named-finish estimate after Antigua and paint originality have been confirmed; the row doesn't establish that the neck and electronics are original."
+    }
+  ],
+  "relatedGuides": [
+    {
+      "label": "Authenticating Fender Paint",
+      "href": "/post/fender-custom-color-authentication-guide/",
+      "description": "Apply the finish inspection process to the body and guard of an Antigua example."
+    }
+  ],
+  photo: cbs79front,
+  detailPhoto: cbs79head
+},
+{
+  "year": "1980",
+  "slug": "1980-1981",
+  "label": "1980 and 1981",
+  "publishedDate": "2026-11-11",
+  "headlineFinish": "all finishes",
+  "standardRange": "$2,200 to $3,050",
+  "metaValueRange": "$2,200 to $3,050",
+  "metaDescription": "1980 and 1981 Fender Stratocaster value guide: $2,200 to $3,050. Check International Colors, pickup construction and overlapping serial prefixes.",
+  "veryGoodRange": "$1,650 to $2,750",
+  "refinishRange": "$1,000 to $1,850",
+  "answer": "A 1980 or 1981 Fender Stratocaster in excellent, original condition with its original case is estimated at $2,200 to $3,050. International Colors have a separate $2,500 to $3,400 range, and the two years share this page because their general price-guide figures are identical.",
+  "intro": "These final two years of the comparison need more than a familiar CBS outline. The pickup guide identifies a construction change around 1980, while the serial guide includes both late S-prefix and early E-prefix usage with overlap. A single outside feature can't choose between 1980 and 1981 or confirm an original assembly.",
+  "marketContext": "This combined page covers standard Stratocasters and keeps the general and International Colors rows distinct without inventing an annual price difference. A named limited model needs its own identification before valuation. For example, the serial decoder treats the Gold Strat's CA prefix separately, so its date alone cannot place it in the standard range.",
+  "marker": "the pickup-construction change around 1980, overlapping serial prefixes and the International Colors row",
+  "features": [
+    {
+      "title": "A Different Pickup Bobbin",
+      "body": "Joe's pickup guide records a move around 1980 to a one-piece black plastic bobbin with the part number 016730. That molded number is a part identifier rather than a readable manufacturing date."
+    },
+    {
+      "title": "Serial Prefixes Cross Years",
+      "body": "Early E-prefix numbers and remaining S-prefix usage need to be interpreted with the guitar's other evidence. Neither the initial letter nor one following digit establishes an exact assembly date by itself."
+    },
+    {
+      "title": "International Colors Coverage",
+      "body": "Maui Blue and Sahara Taupe are examples of International Colors. Confirm the finish name from protected paint and the guitar's documentation before selecting this row. Fading or a later repaint can obscure the original color."
+    },
+    {
+      "title": "Identify Special Models First",
+      "body": "The Fender decoder distinguishes the CA-prefix Gold Strat from ordinary serial sequences. A named edition or different model specification needs its own identification, even when the seller gives a 1980 or 1981 date."
+    }
+  ],
+  "checks": [
+    "Distinguish a molded pickup part number from a date code when reviewing photographs of the electronics.",
+    "Establish whether the instrument is a standard Stratocaster or a separately identified model before applying this combined chart.",
+    "Verify the International Colors description and paint history before using its range instead of the general finish row."
+  ],
+  "appraisalExample": "A guitar with an early E-prefix number and plastic-bobbin pickups can fit this period, but the molded part number can't settle its year. I would compare the neck markings, finish and remaining components, then decide whether the general or International Colors group fits the documented instrument.",
+  "customColorSummary": "For 1980 and 1981, the available finish distinction is the named International Colors row alongside the general range. There is no additional common custom-color figure or automatic multiplier, and a separately identified limited model requires its own appraisal.",
+  "photoAlt": "1979 Antigua Stratocaster shown as a comparison for the preceding CBS period",
+  "photoCaption": "This full-guitar photograph documents Joe's 1979 Antigua Strat, immediately before the combined period. It doesn't illustrate an International Colors guitar or establish specifications for either 1980 or 1981.",
+  "detailAlt": "Shaded body and pickguard of the 1979 Antigua comparison guitar",
+  "detailCaption": "The comparison body is Antigua from 1979. Its appearance keeps that named finish distinct from the International Colors grouping priced on this page.",
+  "subRanges": [
+    {
+      "label": "International Colors",
+      "range": "$2,500 to $3,400",
+      "note": "This range is reserved for the price guide's International Colors grouping after the finish and original condition have been verified."
+    }
+  ],
+  "relatedGuides": [
+    {
+      "label": "Fender Serial Prefix Decoder",
+      "href": "/fender-guitars-serial-number-guide/",
+      "description": "Distinguish ordinary serial overlap from the separately identified Gold Strat sequence."
+    }
+  ],
+  photo: cbs79full,
+  detailPhoto: cbs79front
+},
 ];
 
 export const stratocasterYearGuideByYear = new Map(
-  stratocasterYearGuides.map((guide) => [guide.year, guide]),
+  stratocasterYearGuides.flatMap((guide): [string, StratocasterYearGuide][] => guide.slug === "1980-1981"
+    ? [["1980", guide], ["1981", guide], [guide.slug, guide]]
+    : [[guide.year, guide]]),
 );

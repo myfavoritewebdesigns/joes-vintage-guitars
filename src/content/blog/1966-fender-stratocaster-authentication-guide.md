@@ -387,3 +387,5 @@ Joe's Vintage Guitars buys 1966 Stratocasters in every condition, every color, a
 
 [**Request a free appraisal →**](/free-appraisal/)  
 Want to know what the buying process looks like before you reach out? Visit our [sell my Fender guitar](/sell-my-fender-guitar/) page. For dating help, our [Fender serial number guide](/fender-guitars-serial-number-guide/) and our [vintage Fender Stratocaster value guide](/vintage-fender-stratocaster-value-guide/) cover every year of Strat production. For pre-CBS authentication walkthroughs that complement this one, the [1963 Stratocaster guide](/post/1963-fender-stratocaster-authentication-guide/) and the [1962 Stratocaster guide](/post/1962-fender-stratocaster-authentication-guide/) are both worth a read.
+
+For this guitar's year and finish groups, see the [1966 Fender Stratocaster value guide](/vintage-fender-stratocaster-value-guide/1966/).

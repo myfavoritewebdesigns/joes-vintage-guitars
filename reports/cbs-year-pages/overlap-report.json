@@ -1,0 +1,849 @@
+{
+  "method": "Rendered main text; scripts, styles and HTML comments removed; lowercase Unicode word tokens; unique contiguous 8-word sets. Jaccard=intersection/union. Also report intersection/smaller set. Both measures must be at most the smaller of the live cluster all-pair and adjacent-pair means. Shared template, byline, FAQs and any content inside main are retained.",
+  "threshold": {
+    "allPairsJaccard": 0.28732207136849064,
+    "adjacentJaccard": 0.2961477273697009,
+    "allPairsOverlapCoefficient": 0.4540461826894501,
+    "adjacentOverlapCoefficient": 0.4639444132989075
+  },
+  "baselinePairs": [
+    {
+      "left": 1113,
+      "right": 1041,
+      "adjacent": true,
+      "shared": 422,
+      "jaccard": 0.24364896073903003,
+      "overlapCoefficient": 0.4053794428434198
+    },
+    {
+      "left": 1113,
+      "right": 1050,
+      "adjacent": false,
+      "shared": 424,
+      "jaccard": 0.24381828637147787,
+      "overlapCoefficient": 0.4038095238095238
+    },
+    {
+      "left": 1113,
+      "right": 1035,
+      "adjacent": false,
+      "shared": 434,
+      "jaccard": 0.2532088681446908,
+      "overlapCoefficient": 0.41932367149758454
+    },
+    {
+      "left": 1113,
+      "right": 1053,
+      "adjacent": false,
+      "shared": 425,
+      "jaccard": 0.24411257897759908,
+      "overlapCoefficient": 0.4036087369420703
+    },
+    {
+      "left": 1113,
+      "right": 1089,
+      "adjacent": false,
+      "shared": 423,
+      "jaccard": 0.23777403035413153,
+      "overlapCoefficient": 0.3884297520661157
+    },
+    {
+      "left": 1113,
+      "right": 1048,
+      "adjacent": false,
+      "shared": 422,
+      "jaccard": 0.24266820011500861,
+      "overlapCoefficient": 0.4026717557251908
+    },
+    {
+      "left": 1113,
+      "right": 1033,
+      "adjacent": false,
+      "shared": 444,
+      "jaccard": 0.2608695652173913,
+      "overlapCoefficient": 0.4298160696999032
+    },
+    {
+      "left": 1113,
+      "right": 1094,
+      "adjacent": false,
+      "shared": 423,
+      "jaccard": 0.23710762331838564,
+      "overlapCoefficient": 0.386654478976234
+    },
+    {
+      "left": 1113,
+      "right": 1075,
+      "adjacent": false,
+      "shared": 424,
+      "jaccard": 0.24036281179138322,
+      "overlapCoefficient": 0.3944186046511628
+    },
+    {
+      "left": 1113,
+      "right": 1062,
+      "adjacent": false,
+      "shared": 446,
+      "jaccard": 0.25795257374204744,
+      "overlapCoefficient": 0.4199623352165725
+    },
+    {
+      "left": 1113,
+      "right": 1143,
+      "adjacent": false,
+      "shared": 424,
+      "jaccard": 0.2314410480349345,
+      "overlapCoefficient": 0.38095238095238093
+    },
+    {
+      "left": 1041,
+      "right": 1050,
+      "adjacent": true,
+      "shared": 493,
+      "jaccard": 0.30851063829787234,
+      "overlapCoefficient": 0.473583093179635
+    },
+    {
+      "left": 1041,
+      "right": 1035,
+      "adjacent": false,
+      "shared": 498,
+      "jaccard": 0.3155893536121673,
+      "overlapCoefficient": 0.4811594202898551
+    },
+    {
+      "left": 1041,
+      "right": 1053,
+      "adjacent": false,
+      "shared": 496,
+      "jaccard": 0.31038798498122655,
+      "overlapCoefficient": 0.47646493756003844
+    },
+    {
+      "left": 1041,
+      "right": 1089,
+      "adjacent": false,
+      "shared": 481,
+      "jaccard": 0.2916919345057611,
+      "overlapCoefficient": 0.4620557156580211
+    },
+    {
+      "left": 1041,
+      "right": 1048,
+      "adjacent": false,
+      "shared": 488,
+      "jaccard": 0.3048094940662086,
+      "overlapCoefficient": 0.4687800192122959
+    },
+    {
+      "left": 1041,
+      "right": 1033,
+      "adjacent": false,
+      "shared": 486,
+      "jaccard": 0.3060453400503778,
+      "overlapCoefficient": 0.47047434656340753
+    },
+    {
+      "left": 1041,
+      "right": 1094,
+      "adjacent": false,
+      "shared": 482,
+      "jaccard": 0.29159104658197216,
+      "overlapCoefficient": 0.46301633045148893
+    },
+    {
+      "left": 1041,
+      "right": 1075,
+      "adjacent": false,
+      "shared": 486,
+      "jaccard": 0.298159509202454,
+      "overlapCoefficient": 0.4668587896253602
+    },
+    {
+      "left": 1041,
+      "right": 1062,
+      "adjacent": false,
+      "shared": 488,
+      "jaccard": 0.3021671826625387,
+      "overlapCoefficient": 0.4687800192122959
+    },
+    {
+      "left": 1041,
+      "right": 1143,
+      "adjacent": false,
+      "shared": 478,
+      "jaccard": 0.2801875732708089,
+      "overlapCoefficient": 0.45917387127761766
+    },
+    {
+      "left": 1050,
+      "right": 1035,
+      "adjacent": true,
+      "shared": 494,
+      "jaccard": 0.3104965430546826,
+      "overlapCoefficient": 0.47729468599033814
+    },
+    {
+      "left": 1050,
+      "right": 1053,
+      "adjacent": false,
+      "shared": 490,
+      "jaccard": 0.30378177309361437,
+      "overlapCoefficient": 0.4666666666666667
+    },
+    {
+      "left": 1050,
+      "right": 1089,
+      "adjacent": false,
+      "shared": 479,
+      "jaccard": 0.2885542168674699,
+      "overlapCoefficient": 0.4561904761904762
+    },
+    {
+      "left": 1050,
+      "right": 1048,
+      "adjacent": false,
+      "shared": 487,
+      "jaccard": 0.3022967101179392,
+      "overlapCoefficient": 0.46469465648854963
+    },
+    {
+      "left": 1050,
+      "right": 1033,
+      "adjacent": false,
+      "shared": 488,
+      "jaccard": 0.30595611285266455,
+      "overlapCoefficient": 0.4724104549854792
+    },
+    {
+      "left": 1050,
+      "right": 1094,
+      "adjacent": false,
+      "shared": 480,
+      "jaccard": 0.28846153846153844,
+      "overlapCoefficient": 0.45714285714285713
+    },
+    {
+      "left": 1050,
+      "right": 1075,
+      "adjacent": false,
+      "shared": 487,
+      "jaccard": 0.2973137973137973,
+      "overlapCoefficient": 0.4638095238095238
+    },
+    {
+      "left": 1050,
+      "right": 1062,
+      "adjacent": false,
+      "shared": 487,
+      "jaccard": 0.2996923076923077,
+      "overlapCoefficient": 0.4638095238095238
+    },
+    {
+      "left": 1050,
+      "right": 1143,
+      "adjacent": false,
+      "shared": 476,
+      "jaccard": 0.27722772277227725,
+      "overlapCoefficient": 0.4533333333333333
+    },
+    {
+      "left": 1035,
+      "right": 1053,
+      "adjacent": true,
+      "shared": 506,
+      "jaccard": 0.3198482932996207,
+      "overlapCoefficient": 0.4888888888888889
+    },
+    {
+      "left": 1035,
+      "right": 1089,
+      "adjacent": false,
+      "shared": 479,
+      "jaccard": 0.29118541033434653,
+      "overlapCoefficient": 0.4628019323671498
+    },
+    {
+      "left": 1035,
+      "right": 1048,
+      "adjacent": false,
+      "shared": 487,
+      "jaccard": 0.3051378446115288,
+      "overlapCoefficient": 0.47053140096618357
+    },
+    {
+      "left": 1035,
+      "right": 1033,
+      "adjacent": false,
+      "shared": 487,
+      "jaccard": 0.3080328905755851,
+      "overlapCoefficient": 0.4714424007744434
+    },
+    {
+      "left": 1035,
+      "right": 1094,
+      "adjacent": false,
+      "shared": 478,
+      "jaccard": 0.28952150211992733,
+      "overlapCoefficient": 0.4618357487922705
+    },
+    {
+      "left": 1035,
+      "right": 1075,
+      "adjacent": false,
+      "shared": 485,
+      "jaccard": 0.29846153846153844,
+      "overlapCoefficient": 0.46859903381642515
+    },
+    {
+      "left": 1035,
+      "right": 1062,
+      "adjacent": false,
+      "shared": 488,
+      "jaccard": 0.30329397141081416,
+      "overlapCoefficient": 0.4714975845410628
+    },
+    {
+      "left": 1035,
+      "right": 1143,
+      "adjacent": false,
+      "shared": 476,
+      "jaccard": 0.2796709753231492,
+      "overlapCoefficient": 0.4599033816425121
+    },
+    {
+      "left": 1053,
+      "right": 1089,
+      "adjacent": true,
+      "shared": 480,
+      "jaccard": 0.2888086642599278,
+      "overlapCoefficient": 0.45584045584045585
+    },
+    {
+      "left": 1053,
+      "right": 1048,
+      "adjacent": false,
+      "shared": 488,
+      "jaccard": 0.30254184748915064,
+      "overlapCoefficient": 0.46564885496183206
+    },
+    {
+      "left": 1053,
+      "right": 1033,
+      "adjacent": false,
+      "shared": 488,
+      "jaccard": 0.3053817271589487,
+      "overlapCoefficient": 0.4724104549854792
+    },
+    {
+      "left": 1053,
+      "right": 1094,
+      "adjacent": false,
+      "shared": 478,
+      "jaccard": 0.286399041342121,
+      "overlapCoefficient": 0.4539411206077873
+    },
+    {
+      "left": 1053,
+      "right": 1075,
+      "adjacent": false,
+      "shared": 485,
+      "jaccard": 0.2951917224589166,
+      "overlapCoefficient": 0.46058879392212726
+    },
+    {
+      "left": 1053,
+      "right": 1062,
+      "adjacent": false,
+      "shared": 488,
+      "jaccard": 0.2999385371850031,
+      "overlapCoefficient": 0.4634377967711301
+    },
+    {
+      "left": 1053,
+      "right": 1143,
+      "adjacent": false,
+      "shared": 476,
+      "jaccard": 0.27674418604651163,
+      "overlapCoefficient": 0.4520417853751187
+    },
+    {
+      "left": 1089,
+      "right": 1048,
+      "adjacent": true,
+      "shared": 504,
+      "jaccard": 0.3086344151867728,
+      "overlapCoefficient": 0.48091603053435117
+    },
+    {
+      "left": 1089,
+      "right": 1033,
+      "adjacent": false,
+      "shared": 483,
+      "jaccard": 0.2946918852959121,
+      "overlapCoefficient": 0.4675701839303001
+    },
+    {
+      "left": 1089,
+      "right": 1094,
+      "adjacent": false,
+      "shared": 482,
+      "jaccard": 0.28336272780717225,
+      "overlapCoefficient": 0.4426078971533517
+    },
+    {
+      "left": 1089,
+      "right": 1075,
+      "adjacent": false,
+      "shared": 480,
+      "jaccard": 0.2850356294536817,
+      "overlapCoefficient": 0.44651162790697674
+    },
+    {
+      "left": 1089,
+      "right": 1062,
+      "adjacent": false,
+      "shared": 483,
+      "jaccard": 0.289568345323741,
+      "overlapCoefficient": 0.4548022598870056
+    },
+    {
+      "left": 1089,
+      "right": 1143,
+      "adjacent": false,
+      "shared": 477,
+      "jaccard": 0.2717948717948718,
+      "overlapCoefficient": 0.4380165289256198
+    },
+    {
+      "left": 1048,
+      "right": 1033,
+      "adjacent": true,
+      "shared": 489,
+      "jaccard": 0.3071608040201005,
+      "overlapCoefficient": 0.47337850919651503
+    },
+    {
+      "left": 1048,
+      "right": 1094,
+      "adjacent": false,
+      "shared": 484,
+      "jaccard": 0.29191797346200243,
+      "overlapCoefficient": 0.4618320610687023
+    },
+    {
+      "left": 1048,
+      "right": 1075,
+      "adjacent": false,
+      "shared": 493,
+      "jaccard": 0.3024539877300613,
+      "overlapCoefficient": 0.47041984732824427
+    },
+    {
+      "left": 1048,
+      "right": 1062,
+      "adjacent": false,
+      "shared": 487,
+      "jaccard": 0.30006161429451633,
+      "overlapCoefficient": 0.46469465648854963
+    },
+    {
+      "left": 1048,
+      "right": 1143,
+      "adjacent": false,
+      "shared": 482,
+      "jaccard": 0.2820362785254535,
+      "overlapCoefficient": 0.4599236641221374
+    },
+    {
+      "left": 1033,
+      "right": 1094,
+      "adjacent": true,
+      "shared": 485,
+      "jaccard": 0.2953714981729598,
+      "overlapCoefficient": 0.46950629235237173
+    },
+    {
+      "left": 1033,
+      "right": 1075,
+      "adjacent": false,
+      "shared": 488,
+      "jaccard": 0.3012345679012346,
+      "overlapCoefficient": 0.4724104549854792
+    },
+    {
+      "left": 1033,
+      "right": 1062,
+      "adjacent": false,
+      "shared": 509,
+      "jaccard": 0.3209331651954603,
+      "overlapCoefficient": 0.4927395934172314
+    },
+    {
+      "left": 1033,
+      "right": 1143,
+      "adjacent": false,
+      "shared": 476,
+      "jaccard": 0.28,
+      "overlapCoefficient": 0.46079380445304935
+    },
+    {
+      "left": 1094,
+      "right": 1075,
+      "adjacent": true,
+      "shared": 490,
+      "jaccard": 0.29184038117927336,
+      "overlapCoefficient": 0.4558139534883721
+    },
+    {
+      "left": 1094,
+      "right": 1062,
+      "adjacent": false,
+      "shared": 488,
+      "jaccard": 0.29256594724220625,
+      "overlapCoefficient": 0.4595103578154426
+    },
+    {
+      "left": 1094,
+      "right": 1143,
+      "adjacent": false,
+      "shared": 482,
+      "jaccard": 0.27464387464387463,
+      "overlapCoefficient": 0.4405850091407678
+    },
+    {
+      "left": 1075,
+      "right": 1062,
+      "adjacent": true,
+      "shared": 492,
+      "jaccard": 0.29908814589665655,
+      "overlapCoefficient": 0.4632768361581921
+    },
+    {
+      "left": 1075,
+      "right": 1143,
+      "adjacent": false,
+      "shared": 486,
+      "jaccard": 0.2806004618937644,
+      "overlapCoefficient": 0.45209302325581396
+    },
+    {
+      "left": 1062,
+      "right": 1143,
+      "adjacent": true,
+      "shared": 488,
+      "jaccard": 0.28421665695981363,
+      "overlapCoefficient": 0.4595103578154426
+    }
+  ],
+  "comparisons": [
+    {
+      "left": 1330,
+      "right": 1143,
+      "shared": 397,
+      "jaccard": 0.19123314065510597,
+      "overlapCoefficient": 0.347331583552056
+    },
+    {
+      "left": 1330,
+      "right": 1159,
+      "shared": 207,
+      "jaccard": 0.09070990359333918,
+      "overlapCoefficient": 0.17860224331320104
+    },
+    {
+      "left": 1330,
+      "right": 1241,
+      "shared": 494,
+      "jaccard": 0.2378430428502648,
+      "overlapCoefficient": 0.3980660757453666
+    },
+    {
+      "left": 1241,
+      "right": 1143,
+      "shared": 396,
+      "jaccard": 0.19919517102615694,
+      "overlapCoefficient": 0.3464566929133858
+    },
+    {
+      "left": 1241,
+      "right": 1159,
+      "shared": 199,
+      "jaccard": 0.09041344843253067,
+      "overlapCoefficient": 0.17169974115616912
+    },
+    {
+      "left": 1241,
+      "right": 1505,
+      "shared": 508,
+      "jaccard": 0.22698838248436104,
+      "overlapCoefficient": 0.40934730056406127
+    },
+    {
+      "left": 1505,
+      "right": 1143,
+      "shared": 396,
+      "jaccard": 0.17584369449378331,
+      "overlapCoefficient": 0.3464566929133858
+    },
+    {
+      "left": 1505,
+      "right": 1159,
+      "shared": 199,
+      "jaccard": 0.08073022312373225,
+      "overlapCoefficient": 0.17169974115616912
+    },
+    {
+      "left": 1505,
+      "right": 1261,
+      "shared": 494,
+      "jaccard": 0.21742957746478872,
+      "overlapCoefficient": 0.3917525773195876
+    },
+    {
+      "left": 1261,
+      "right": 1143,
+      "shared": 396,
+      "jaccard": 0.19721115537848605,
+      "overlapCoefficient": 0.3464566929133858
+    },
+    {
+      "left": 1261,
+      "right": 1159,
+      "shared": 199,
+      "jaccard": 0.08959927960378208,
+      "overlapCoefficient": 0.17169974115616912
+    },
+    {
+      "left": 1261,
+      "right": 1254,
+      "shared": 498,
+      "jaccard": 0.24690133862171543,
+      "overlapCoefficient": 0.39712918660287083
+    },
+    {
+      "left": 1254,
+      "right": 1143,
+      "shared": 397,
+      "jaccard": 0.1985,
+      "overlapCoefficient": 0.347331583552056
+    },
+    {
+      "left": 1254,
+      "right": 1159,
+      "shared": 200,
+      "jaccard": 0.0903750564844103,
+      "overlapCoefficient": 0.1725625539257981
+    },
+    {
+      "left": 1254,
+      "right": 1305,
+      "shared": 450,
+      "jaccard": 0.21337126600284495,
+      "overlapCoefficient": 0.3588516746411483
+    },
+    {
+      "left": 1305,
+      "right": 1143,
+      "shared": 345,
+      "jaccard": 0.16405135520684735,
+      "overlapCoefficient": 0.30183727034120733
+    },
+    {
+      "left": 1305,
+      "right": 1159,
+      "shared": 187,
+      "jaccard": 0.0821256038647343,
+      "overlapCoefficient": 0.16134598792062121
+    },
+    {
+      "left": 1305,
+      "right": 1240,
+      "shared": 445,
+      "jaccard": 0.2119047619047619,
+      "overlapCoefficient": 0.3588709677419355
+    },
+    {
+      "left": 1240,
+      "right": 1143,
+      "shared": 396,
+      "jaccard": 0.1992954202315048,
+      "overlapCoefficient": 0.3464566929133858
+    },
+    {
+      "left": 1240,
+      "right": 1159,
+      "shared": 199,
+      "jaccard": 0.09045454545454545,
+      "overlapCoefficient": 0.17169974115616912
+    },
+    {
+      "left": 1240,
+      "right": 1274,
+      "shared": 502,
+      "jaccard": 0.24950298210735586,
+      "overlapCoefficient": 0.40483870967741936
+    },
+    {
+      "left": 1274,
+      "right": 1143,
+      "shared": 396,
+      "jaccard": 0.19594260267194458,
+      "overlapCoefficient": 0.3464566929133858
+    },
+    {
+      "left": 1274,
+      "right": 1159,
+      "shared": 199,
+      "jaccard": 0.08907788719785138,
+      "overlapCoefficient": 0.17169974115616912
+    },
+    {
+      "left": 1274,
+      "right": 1245,
+      "shared": 438,
+      "jaccard": 0.21047573282075924,
+      "overlapCoefficient": 0.35180722891566263
+    },
+    {
+      "left": 1245,
+      "right": 1143,
+      "shared": 342,
+      "jaccard": 0.16715542521994134,
+      "overlapCoefficient": 0.2992125984251969
+    },
+    {
+      "left": 1245,
+      "right": 1159,
+      "shared": 186,
+      "jaccard": 0.08385933273219116,
+      "overlapCoefficient": 0.16048317515099222
+    },
+    {
+      "left": 1245,
+      "right": 1375,
+      "shared": 462,
+      "jaccard": 0.21408711770157554,
+      "overlapCoefficient": 0.3710843373493976
+    },
+    {
+      "left": 1375,
+      "right": 1143,
+      "shared": 343,
+      "jaccard": 0.15770114942528735,
+      "overlapCoefficient": 0.300087489063867
+    },
+    {
+      "left": 1375,
+      "right": 1159,
+      "shared": 186,
+      "jaccard": 0.07921635434412266,
+      "overlapCoefficient": 0.16048317515099222
+    },
+    {
+      "left": 1375,
+      "right": 1191,
+      "shared": 435,
+      "jaccard": 0.2041295166588456,
+      "overlapCoefficient": 0.36523929471032746
+    },
+    {
+      "left": 1191,
+      "right": 1143,
+      "shared": 341,
+      "jaccard": 0.17109884596086303,
+      "overlapCoefficient": 0.2983377077865267
+    },
+    {
+      "left": 1191,
+      "right": 1159,
+      "shared": 186,
+      "jaccard": 0.08595194085027727,
+      "overlapCoefficient": 0.16048317515099222
+    },
+    {
+      "left": 1191,
+      "right": 1185,
+      "shared": 501,
+      "jaccard": 0.2672,
+      "overlapCoefficient": 0.42278481012658226
+    },
+    {
+      "left": 1185,
+      "right": 1143,
+      "shared": 341,
+      "jaccard": 0.1716155007549069,
+      "overlapCoefficient": 0.2983377077865267
+    },
+    {
+      "left": 1185,
+      "right": 1159,
+      "shared": 186,
+      "jaccard": 0.08619091751621873,
+      "overlapCoefficient": 0.16048317515099222
+    },
+    {
+      "left": 1185,
+      "right": 1148,
+      "shared": 467,
+      "jaccard": 0.2502679528403001,
+      "overlapCoefficient": 0.406794425087108
+    },
+    {
+      "left": 1148,
+      "right": 1143,
+      "shared": 341,
+      "jaccard": 0.17487179487179488,
+      "overlapCoefficient": 0.2983377077865267
+    },
+    {
+      "left": 1148,
+      "right": 1159,
+      "shared": 186,
+      "jaccard": 0.0876944837340877,
+      "overlapCoefficient": 0.16202090592334495
+    },
+    {
+      "left": 1148,
+      "right": 1190,
+      "shared": 443,
+      "jaccard": 0.23377308707124012,
+      "overlapCoefficient": 0.3858885017421603
+    },
+    {
+      "left": 1190,
+      "right": 1143,
+      "shared": 342,
+      "jaccard": 0.17177297840281266,
+      "overlapCoefficient": 0.2992125984251969
+    },
+    {
+      "left": 1190,
+      "right": 1159,
+      "shared": 186,
+      "jaccard": 0.08599167822468794,
+      "overlapCoefficient": 0.16048317515099222
+    },
+    {
+      "left": 1190,
+      "right": 1230,
+      "shared": 468,
+      "jaccard": 0.23975409836065573,
+      "overlapCoefficient": 0.39327731092436974
+    },
+    {
+      "left": 1230,
+      "right": 1143,
+      "shared": 317,
+      "jaccard": 0.15418287937743191,
+      "overlapCoefficient": 0.2773403324584427
+    },
+    {
+      "left": 1230,
+      "right": 1159,
+      "shared": 172,
+      "jaccard": 0.07758231844835363,
+      "overlapCoefficient": 0.14840379637618636
+    }
+  ]
+}

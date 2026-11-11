@@ -1,0 +1,2149 @@
+[
+  {
+    "name": "local-hub",
+    "url": "http://127.0.0.1:4322/vintage-fender-stratocaster-value-guide/",
+    "width": 375,
+    "documentWidth": 375,
+    "forms": 1,
+    "details": 13,
+    "inputs": 9,
+    "roleButtons": 0,
+    "iframes": 0,
+    "buttons": [
+      {
+        "text": "Submit",
+        "label": null,
+        "expanded": null
+      }
+    ],
+    "tables": [
+      {
+        "width": 339,
+        "scrollWidth": 460,
+        "overflowX": "auto",
+        "tabindex": "0",
+        "role": null,
+        "label": "Scrollable table of vintage Stratocaster values by year"
+      },
+      {
+        "width": 339,
+        "scrollWidth": 760,
+        "overflowX": "auto",
+        "tabindex": "0",
+        "role": null,
+        "label": "Scrollable table of vintage Stratocaster condition adjustments"
+      },
+      {
+        "width": 339,
+        "scrollWidth": 460,
+        "overflowX": "auto",
+        "tabindex": "0",
+        "role": null,
+        "label": "Scrollable table of Fender custom-color scarcity tiers"
+      },
+      {
+        "width": 339,
+        "scrollWidth": 460,
+        "overflowX": "auto",
+        "tabindex": "0",
+        "role": null,
+        "label": "CBS Stratocaster Values By Year"
+      },
+      {
+        "width": 339,
+        "scrollWidth": 680,
+        "overflowX": "auto",
+        "tabindex": "0",
+        "role": null,
+        "label": "Scrollable table of issues that lower vintage Stratocaster value"
+      }
+    ],
+    "cbsGap": 0,
+    "brokenLocalAnchors": [],
+    "walk": [
+      {
+        "tag": "H2",
+        "classes": "vg-head",
+        "rect": {
+          "w": 339,
+          "h": 62.375
+        },
+        "position": "static",
+        "zIndex": "auto",
+        "bg": "rgba(0, 0, 0, 0)",
+        "bgImage": "none",
+        "boxShadow": "none",
+        "transform": "none",
+        "border": "0px rgb(104, 36, 18) solid",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)",
+          "bgImage": "none",
+          "inset": "auto",
+          "clipPath": "none",
+          "border": "0px rgb(104, 36, 18) solid",
+          "transform": "none"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)",
+          "bgImage": "none",
+          "inset": "auto",
+          "clipPath": "none",
+          "border": "0px rgb(104, 36, 18) solid",
+          "transform": "none"
+        }
+      },
+      {
+        "tag": "DIV",
+        "classes": "vg-inner",
+        "rect": {
+          "w": 375,
+          "h": 2647.390625
+        },
+        "position": "static",
+        "zIndex": "auto",
+        "bg": "rgba(0, 0, 0, 0)",
+        "bgImage": "none",
+        "boxShadow": "none",
+        "transform": "none",
+        "border": "0px rgb(42, 45, 51) solid",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)",
+          "bgImage": "none",
+          "inset": "auto",
+          "clipPath": "none",
+          "border": "0px rgb(42, 45, 51) solid",
+          "transform": "none"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)",
+          "bgImage": "none",
+          "inset": "auto",
+          "clipPath": "none",
+          "border": "0px rgb(42, 45, 51) solid",
+          "transform": "none"
+        }
+      },
+      {
+        "tag": "SECTION",
+        "classes": "vg-section",
+        "rect": {
+          "w": 375,
+          "h": 2759.390625
+        },
+        "position": "static",
+        "zIndex": "auto",
+        "bg": "rgb(255, 255, 255)",
+        "bgImage": "none",
+        "boxShadow": "none",
+        "transform": "none",
+        "border": "0px rgb(42, 45, 51) solid",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)",
+          "bgImage": "none",
+          "inset": "auto",
+          "clipPath": "none",
+          "border": "0px rgb(42, 45, 51) solid",
+          "transform": "none"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)",
+          "bgImage": "none",
+          "inset": "auto",
+          "clipPath": "none",
+          "border": "0px rgb(42, 45, 51) solid",
+          "transform": "none"
+        }
+      },
+      {
+        "tag": "MAIN",
+        "classes": "",
+        "rect": {
+          "w": 375,
+          "h": 25776.6875
+        },
+        "position": "static",
+        "zIndex": "auto",
+        "bg": "rgba(0, 0, 0, 0)",
+        "bgImage": "none",
+        "boxShadow": "none",
+        "transform": "none",
+        "border": "0px rgb(42, 45, 51) solid",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)",
+          "bgImage": "none",
+          "inset": "auto",
+          "clipPath": "none",
+          "border": "0px rgb(42, 45, 51) solid",
+          "transform": "none"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)",
+          "bgImage": "none",
+          "inset": "auto",
+          "clipPath": "none",
+          "border": "0px rgb(42, 45, 51) solid",
+          "transform": "none"
+        }
+      }
+    ],
+    "tableScroll": {
+      "before": 0,
+      "right": 121,
+      "max": 121,
+      "reachable": true
+    },
+    "detailToggle": {
+      "before": false,
+      "after": true,
+      "toggled": true
+    },
+    "faqToggle": null,
+    "anchor": {
+      "id": "cbs-values",
+      "top": 95.953125,
+      "scrollY": 14428,
+      "images": []
+    }
+  },
+  {
+    "name": "local-1965",
+    "url": "http://127.0.0.1:4322/vintage-fender-stratocaster-value-guide/1965/",
+    "width": 375,
+    "documentWidth": 375,
+    "forms": 1,
+    "details": 8,
+    "inputs": 9,
+    "roleButtons": 0,
+    "iframes": 0,
+    "buttons": [
+      {
+        "text": "Submit",
+        "label": null,
+        "expanded": null
+      }
+    ],
+    "tables": [
+      {
+        "width": 325,
+        "scrollWidth": 760,
+        "overflowX": "auto",
+        "tabindex": "0",
+        "role": null,
+        "label": "1965 Fender Stratocaster values by condition"
+      }
+    ],
+    "cbsGap": null,
+    "brokenLocalAnchors": [],
+    "walk": [
+      {
+        "tag": "H2",
+        "classes": "",
+        "rect": {
+          "w": 327,
+          "h": 60.46875
+        },
+        "position": "static",
+        "zIndex": "auto",
+        "bg": "rgba(0, 0, 0, 0)",
+        "bgImage": "none",
+        "boxShadow": "none",
+        "transform": "none",
+        "border": "0px rgb(104, 36, 18) solid",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)",
+          "bgImage": "none",
+          "inset": "auto",
+          "clipPath": "none",
+          "border": "0px rgb(104, 36, 18) solid",
+          "transform": "none"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)",
+          "bgImage": "none",
+          "inset": "auto",
+          "clipPath": "none",
+          "border": "0px rgb(104, 36, 18) solid",
+          "transform": "none"
+        }
+      },
+      {
+        "tag": "DIV",
+        "classes": "",
+        "rect": {
+          "w": 327,
+          "h": 876.703125
+        },
+        "position": "static",
+        "zIndex": "auto",
+        "bg": "rgba(0, 0, 0, 0)",
+        "bgImage": "none",
+        "boxShadow": "none",
+        "transform": "none",
+        "border": "0px rgb(42, 45, 51) solid",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)",
+          "bgImage": "none",
+          "inset": "auto",
+          "clipPath": "none",
+          "border": "0px rgb(42, 45, 51) solid",
+          "transform": "none"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)",
+          "bgImage": "none",
+          "inset": "auto",
+          "clipPath": "none",
+          "border": "0px rgb(42, 45, 51) solid",
+          "transform": "none"
+        }
+      },
+      {
+        "tag": "DIV",
+        "classes": "yv-inner yv-lead-grid",
+        "rect": {
+          "w": 375,
+          "h": 1189.140625
+        },
+        "position": "static",
+        "zIndex": "auto",
+        "bg": "rgba(0, 0, 0, 0)",
+        "bgImage": "none",
+        "boxShadow": "none",
+        "transform": "none",
+        "border": "0px rgb(42, 45, 51) solid",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)",
+          "bgImage": "none",
+          "inset": "auto",
+          "clipPath": "none",
+          "border": "0px rgb(42, 45, 51) solid",
+          "transform": "none"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)",
+          "bgImage": "none",
+          "inset": "auto",
+          "clipPath": "none",
+          "border": "0px rgb(42, 45, 51) solid",
+          "transform": "none"
+        }
+      },
+      {
+        "tag": "SECTION",
+        "classes": "yv-section",
+        "rect": {
+          "w": 375,
+          "h": 1285.140625
+        },
+        "position": "static",
+        "zIndex": "auto",
+        "bg": "rgb(255, 255, 255)",
+        "bgImage": "none",
+        "boxShadow": "none",
+        "transform": "none",
+        "border": "0px rgb(42, 45, 51) solid",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)",
+          "bgImage": "none",
+          "inset": "auto",
+          "clipPath": "none",
+          "border": "0px rgb(42, 45, 51) solid",
+          "transform": "none"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)",
+          "bgImage": "none",
+          "inset": "auto",
+          "clipPath": "none",
+          "border": "0px rgb(42, 45, 51) solid",
+          "transform": "none"
+        }
+      },
+      {
+        "tag": "DIV",
+        "classes": "yv-page",
+        "rect": {
+          "w": 375,
+          "h": 7823.578125
+        },
+        "position": "static",
+        "zIndex": "auto",
+        "bg": "rgba(0, 0, 0, 0)",
+        "bgImage": "none",
+        "boxShadow": "none",
+        "transform": "none",
+        "border": "0px rgb(42, 45, 51) solid",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)",
+          "bgImage": "none",
+          "inset": "auto",
+          "clipPath": "none",
+          "border": "0px rgb(42, 45, 51) solid",
+          "transform": "none"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)",
+          "bgImage": "none",
+          "inset": "auto",
+          "clipPath": "none",
+          "border": "0px rgb(42, 45, 51) solid",
+          "transform": "none"
+        }
+      },
+      {
+        "tag": "MAIN",
+        "classes": "",
+        "rect": {
+          "w": 375,
+          "h": 10357.6875
+        },
+        "position": "static",
+        "zIndex": "auto",
+        "bg": "rgba(0, 0, 0, 0)",
+        "bgImage": "none",
+        "boxShadow": "none",
+        "transform": "none",
+        "border": "0px rgb(42, 45, 51) solid",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)",
+          "bgImage": "none",
+          "inset": "auto",
+          "clipPath": "none",
+          "border": "0px rgb(42, 45, 51) solid",
+          "transform": "none"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)",
+          "bgImage": "none",
+          "inset": "auto",
+          "clipPath": "none",
+          "border": "0px rgb(42, 45, 51) solid",
+          "transform": "none"
+        }
+      }
+    ],
+    "tableScroll": {
+      "before": 0,
+      "right": 435,
+      "max": 435,
+      "reachable": true
+    },
+    "detailToggle": {
+      "before": false,
+      "after": true,
+      "toggled": true
+    },
+    "faqToggle": null,
+    "anchor": {
+      "id": "inspection",
+      "top": -0.265625,
+      "scrollY": 5053,
+      "images": [
+        {
+          "src": "/_astro/1965-fender-stratocaster-candy-apple-red-chip-silver-undercoat.4xeqBavy_Z2Tf58.webp",
+          "loaded": true
+        }
+      ]
+    }
+  },
+  {
+    "name": "local-1968",
+    "url": "http://127.0.0.1:4322/vintage-fender-stratocaster-value-guide/1968/",
+    "width": 375,
+    "documentWidth": 375,
+    "forms": 1,
+    "details": 8,
+    "inputs": 9,
+    "roleButtons": 0,
+    "iframes": 0,
+    "buttons": [
+      {
+        "text": "Submit",
+        "label": null,
+        "expanded": null
+      }
+    ],
+    "tables": [
+      {
+        "width": 325,
+        "scrollWidth": 760,
+        "overflowX": "auto",
+        "tabindex": "0",
+        "role": null,
+        "label": "1968 Fender Stratocaster values by condition"
+      }
+    ],
+    "cbsGap": null,
+    "brokenLocalAnchors": [],
+    "walk": [
+      {
+        "tag": "H2",
+        "classes": "",
+        "rect": {
+          "w": 327,
+          "h": 60.46875
+        },
+        "position": "static",
+        "zIndex": "auto",
+        "bg": "rgba(0, 0, 0, 0)",
+        "bgImage": "none",
+        "boxShadow": "none",
+        "transform": "none",
+        "border": "0px rgb(104, 36, 18) solid",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)",
+          "bgImage": "none",
+          "inset": "auto",
+          "clipPath": "none",
+          "border": "0px rgb(104, 36, 18) solid",
+          "transform": "none"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)",
+          "bgImage": "none",
+          "inset": "auto",
+          "clipPath": "none",
+          "border": "0px rgb(104, 36, 18) solid",
+          "transform": "none"
+        }
+      },
+      {
+        "tag": "DIV",
+        "classes": "",
+        "rect": {
+          "w": 327,
+          "h": 928.578125
+        },
+        "position": "static",
+        "zIndex": "auto",
+        "bg": "rgba(0, 0, 0, 0)",
+        "bgImage": "none",
+        "boxShadow": "none",
+        "transform": "none",
+        "border": "0px rgb(42, 45, 51) solid",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)",
+          "bgImage": "none",
+          "inset": "auto",
+          "clipPath": "none",
+          "border": "0px rgb(42, 45, 51) solid",
+          "transform": "none"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)",
+          "bgImage": "none",
+          "inset": "auto",
+          "clipPath": "none",
+          "border": "0px rgb(42, 45, 51) solid",
+          "transform": "none"
+        }
+      },
+      {
+        "tag": "DIV",
+        "classes": "yv-inner yv-lead-grid",
+        "rect": {
+          "w": 375,
+          "h": 1275.234375
+        },
+        "position": "static",
+        "zIndex": "auto",
+        "bg": "rgba(0, 0, 0, 0)",
+        "bgImage": "none",
+        "boxShadow": "none",
+        "transform": "none",
+        "border": "0px rgb(42, 45, 51) solid",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)",
+          "bgImage": "none",
+          "inset": "auto",
+          "clipPath": "none",
+          "border": "0px rgb(42, 45, 51) solid",
+          "transform": "none"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)",
+          "bgImage": "none",
+          "inset": "auto",
+          "clipPath": "none",
+          "border": "0px rgb(42, 45, 51) solid",
+          "transform": "none"
+        }
+      },
+      {
+        "tag": "SECTION",
+        "classes": "yv-section",
+        "rect": {
+          "w": 375,
+          "h": 1371.234375
+        },
+        "position": "static",
+        "zIndex": "auto",
+        "bg": "rgb(255, 255, 255)",
+        "bgImage": "none",
+        "boxShadow": "none",
+        "transform": "none",
+        "border": "0px rgb(42, 45, 51) solid",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)",
+          "bgImage": "none",
+          "inset": "auto",
+          "clipPath": "none",
+          "border": "0px rgb(42, 45, 51) solid",
+          "transform": "none"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)",
+          "bgImage": "none",
+          "inset": "auto",
+          "clipPath": "none",
+          "border": "0px rgb(42, 45, 51) solid",
+          "transform": "none"
+        }
+      },
+      {
+        "tag": "DIV",
+        "classes": "yv-page",
+        "rect": {
+          "w": 375,
+          "h": 9743.15625
+        },
+        "position": "static",
+        "zIndex": "auto",
+        "bg": "rgba(0, 0, 0, 0)",
+        "bgImage": "none",
+        "boxShadow": "none",
+        "transform": "none",
+        "border": "0px rgb(42, 45, 51) solid",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)",
+          "bgImage": "none",
+          "inset": "auto",
+          "clipPath": "none",
+          "border": "0px rgb(42, 45, 51) solid",
+          "transform": "none"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)",
+          "bgImage": "none",
+          "inset": "auto",
+          "clipPath": "none",
+          "border": "0px rgb(42, 45, 51) solid",
+          "transform": "none"
+        }
+      },
+      {
+        "tag": "MAIN",
+        "classes": "",
+        "rect": {
+          "w": 375,
+          "h": 12277.265625
+        },
+        "position": "static",
+        "zIndex": "auto",
+        "bg": "rgba(0, 0, 0, 0)",
+        "bgImage": "none",
+        "boxShadow": "none",
+        "transform": "none",
+        "border": "0px rgb(42, 45, 51) solid",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)",
+          "bgImage": "none",
+          "inset": "auto",
+          "clipPath": "none",
+          "border": "0px rgb(42, 45, 51) solid",
+          "transform": "none"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)",
+          "bgImage": "none",
+          "inset": "auto",
+          "clipPath": "none",
+          "border": "0px rgb(42, 45, 51) solid",
+          "transform": "none"
+        }
+      }
+    ],
+    "tableScroll": {
+      "before": 0,
+      "right": 435,
+      "max": 435,
+      "reachable": true
+    },
+    "detailToggle": {
+      "before": false,
+      "after": true,
+      "toggled": true
+    },
+    "faqToggle": null,
+    "anchor": {
+      "id": "inspection",
+      "top": -0.015625,
+      "scrollY": 6777,
+      "images": [
+        {
+          "src": "/_astro/1968-stratocaster-candy-apple-red-headstock.CsM_tDRc_M3VVa.webp",
+          "loaded": true
+        }
+      ]
+    }
+  },
+  {
+    "name": "local-1975",
+    "url": "http://127.0.0.1:4322/vintage-fender-stratocaster-value-guide/1975/",
+    "width": 375,
+    "documentWidth": 375,
+    "forms": 1,
+    "details": 8,
+    "inputs": 9,
+    "roleButtons": 0,
+    "iframes": 0,
+    "buttons": [
+      {
+        "text": "Submit",
+        "label": null,
+        "expanded": null
+      }
+    ],
+    "tables": [
+      {
+        "width": 325,
+        "scrollWidth": 760,
+        "overflowX": "auto",
+        "tabindex": "0",
+        "role": null,
+        "label": "1975 Fender Stratocaster values by condition"
+      }
+    ],
+    "cbsGap": null,
+    "brokenLocalAnchors": [],
+    "walk": [
+      {
+        "tag": "H2",
+        "classes": "",
+        "rect": {
+          "w": 327,
+          "h": 60.46875
+        },
+        "position": "static",
+        "zIndex": "auto",
+        "bg": "rgba(0, 0, 0, 0)",
+        "bgImage": "none",
+        "boxShadow": "none",
+        "transform": "none",
+        "border": "0px rgb(104, 36, 18) solid",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)",
+          "bgImage": "none",
+          "inset": "auto",
+          "clipPath": "none",
+          "border": "0px rgb(104, 36, 18) solid",
+          "transform": "none"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)",
+          "bgImage": "none",
+          "inset": "auto",
+          "clipPath": "none",
+          "border": "0px rgb(104, 36, 18) solid",
+          "transform": "none"
+        }
+      },
+      {
+        "tag": "DIV",
+        "classes": "",
+        "rect": {
+          "w": 327,
+          "h": 958.265625
+        },
+        "position": "static",
+        "zIndex": "auto",
+        "bg": "rgba(0, 0, 0, 0)",
+        "bgImage": "none",
+        "boxShadow": "none",
+        "transform": "none",
+        "border": "0px rgb(42, 45, 51) solid",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)",
+          "bgImage": "none",
+          "inset": "auto",
+          "clipPath": "none",
+          "border": "0px rgb(42, 45, 51) solid",
+          "transform": "none"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)",
+          "bgImage": "none",
+          "inset": "auto",
+          "clipPath": "none",
+          "border": "0px rgb(42, 45, 51) solid",
+          "transform": "none"
+        }
+      },
+      {
+        "tag": "DIV",
+        "classes": "yv-inner yv-lead-grid",
+        "rect": {
+          "w": 375,
+          "h": 1542.09375
+        },
+        "position": "static",
+        "zIndex": "auto",
+        "bg": "rgba(0, 0, 0, 0)",
+        "bgImage": "none",
+        "boxShadow": "none",
+        "transform": "none",
+        "border": "0px rgb(42, 45, 51) solid",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)",
+          "bgImage": "none",
+          "inset": "auto",
+          "clipPath": "none",
+          "border": "0px rgb(42, 45, 51) solid",
+          "transform": "none"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)",
+          "bgImage": "none",
+          "inset": "auto",
+          "clipPath": "none",
+          "border": "0px rgb(42, 45, 51) solid",
+          "transform": "none"
+        }
+      },
+      {
+        "tag": "SECTION",
+        "classes": "yv-section",
+        "rect": {
+          "w": 375,
+          "h": 1638.09375
+        },
+        "position": "static",
+        "zIndex": "auto",
+        "bg": "rgb(255, 255, 255)",
+        "bgImage": "none",
+        "boxShadow": "none",
+        "transform": "none",
+        "border": "0px rgb(42, 45, 51) solid",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)",
+          "bgImage": "none",
+          "inset": "auto",
+          "clipPath": "none",
+          "border": "0px rgb(42, 45, 51) solid",
+          "transform": "none"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)",
+          "bgImage": "none",
+          "inset": "auto",
+          "clipPath": "none",
+          "border": "0px rgb(42, 45, 51) solid",
+          "transform": "none"
+        }
+      },
+      {
+        "tag": "DIV",
+        "classes": "yv-page",
+        "rect": {
+          "w": 375,
+          "h": 9722.75
+        },
+        "position": "static",
+        "zIndex": "auto",
+        "bg": "rgba(0, 0, 0, 0)",
+        "bgImage": "none",
+        "boxShadow": "none",
+        "transform": "none",
+        "border": "0px rgb(42, 45, 51) solid",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)",
+          "bgImage": "none",
+          "inset": "auto",
+          "clipPath": "none",
+          "border": "0px rgb(42, 45, 51) solid",
+          "transform": "none"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)",
+          "bgImage": "none",
+          "inset": "auto",
+          "clipPath": "none",
+          "border": "0px rgb(42, 45, 51) solid",
+          "transform": "none"
+        }
+      },
+      {
+        "tag": "MAIN",
+        "classes": "",
+        "rect": {
+          "w": 375,
+          "h": 12256.859375
+        },
+        "position": "static",
+        "zIndex": "auto",
+        "bg": "rgba(0, 0, 0, 0)",
+        "bgImage": "none",
+        "boxShadow": "none",
+        "transform": "none",
+        "border": "0px rgb(42, 45, 51) solid",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)",
+          "bgImage": "none",
+          "inset": "auto",
+          "clipPath": "none",
+          "border": "0px rgb(42, 45, 51) solid",
+          "transform": "none"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)",
+          "bgImage": "none",
+          "inset": "auto",
+          "clipPath": "none",
+          "border": "0px rgb(42, 45, 51) solid",
+          "transform": "none"
+        }
+      }
+    ],
+    "tableScroll": {
+      "before": 0,
+      "right": 435,
+      "max": 435,
+      "reachable": true
+    },
+    "detailToggle": {
+      "before": false,
+      "after": true,
+      "toggled": true
+    },
+    "faqToggle": null,
+    "anchor": {
+      "id": "inspection",
+      "top": 0.09375,
+      "scrollY": 6531,
+      "images": [
+        {
+          "src": "/_astro/1975-stratocaster-sunburst-controls.Cder5VQX_El9XC.webp",
+          "loaded": true
+        }
+      ]
+    }
+  },
+  {
+    "name": "local-1980-1981",
+    "url": "http://127.0.0.1:4322/vintage-fender-stratocaster-value-guide/1980-1981/",
+    "width": 375,
+    "documentWidth": 375,
+    "forms": 1,
+    "details": 8,
+    "inputs": 9,
+    "roleButtons": 0,
+    "iframes": 0,
+    "buttons": [
+      {
+        "text": "Submit",
+        "label": null,
+        "expanded": null
+      }
+    ],
+    "tables": [
+      {
+        "width": 325,
+        "scrollWidth": 760,
+        "overflowX": "auto",
+        "tabindex": "0",
+        "role": null,
+        "label": "1980 and 1981 Fender Stratocaster values by condition"
+      }
+    ],
+    "cbsGap": null,
+    "brokenLocalAnchors": [],
+    "walk": [
+      {
+        "tag": "H2",
+        "classes": "",
+        "rect": {
+          "w": 327,
+          "h": 60.46875
+        },
+        "position": "static",
+        "zIndex": "auto",
+        "bg": "rgba(0, 0, 0, 0)",
+        "bgImage": "none",
+        "boxShadow": "none",
+        "transform": "none",
+        "border": "0px rgb(104, 36, 18) solid",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)",
+          "bgImage": "none",
+          "inset": "auto",
+          "clipPath": "none",
+          "border": "0px rgb(104, 36, 18) solid",
+          "transform": "none"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)",
+          "bgImage": "none",
+          "inset": "auto",
+          "clipPath": "none",
+          "border": "0px rgb(104, 36, 18) solid",
+          "transform": "none"
+        }
+      },
+      {
+        "tag": "DIV",
+        "classes": "",
+        "rect": {
+          "w": 327,
+          "h": 985.453125
+        },
+        "position": "static",
+        "zIndex": "auto",
+        "bg": "rgba(0, 0, 0, 0)",
+        "bgImage": "none",
+        "boxShadow": "none",
+        "transform": "none",
+        "border": "0px rgb(42, 45, 51) solid",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)",
+          "bgImage": "none",
+          "inset": "auto",
+          "clipPath": "none",
+          "border": "0px rgb(42, 45, 51) solid",
+          "transform": "none"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)",
+          "bgImage": "none",
+          "inset": "auto",
+          "clipPath": "none",
+          "border": "0px rgb(42, 45, 51) solid",
+          "transform": "none"
+        }
+      },
+      {
+        "tag": "DIV",
+        "classes": "yv-inner yv-lead-grid",
+        "rect": {
+          "w": 375,
+          "h": 1643.453125
+        },
+        "position": "static",
+        "zIndex": "auto",
+        "bg": "rgba(0, 0, 0, 0)",
+        "bgImage": "none",
+        "boxShadow": "none",
+        "transform": "none",
+        "border": "0px rgb(42, 45, 51) solid",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)",
+          "bgImage": "none",
+          "inset": "auto",
+          "clipPath": "none",
+          "border": "0px rgb(42, 45, 51) solid",
+          "transform": "none"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)",
+          "bgImage": "none",
+          "inset": "auto",
+          "clipPath": "none",
+          "border": "0px rgb(42, 45, 51) solid",
+          "transform": "none"
+        }
+      },
+      {
+        "tag": "SECTION",
+        "classes": "yv-section",
+        "rect": {
+          "w": 375,
+          "h": 1739.453125
+        },
+        "position": "static",
+        "zIndex": "auto",
+        "bg": "rgb(255, 255, 255)",
+        "bgImage": "none",
+        "boxShadow": "none",
+        "transform": "none",
+        "border": "0px rgb(42, 45, 51) solid",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)",
+          "bgImage": "none",
+          "inset": "auto",
+          "clipPath": "none",
+          "border": "0px rgb(42, 45, 51) solid",
+          "transform": "none"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)",
+          "bgImage": "none",
+          "inset": "auto",
+          "clipPath": "none",
+          "border": "0px rgb(42, 45, 51) solid",
+          "transform": "none"
+        }
+      },
+      {
+        "tag": "DIV",
+        "classes": "yv-page",
+        "rect": {
+          "w": 375,
+          "h": 8462.125
+        },
+        "position": "static",
+        "zIndex": "auto",
+        "bg": "rgba(0, 0, 0, 0)",
+        "bgImage": "none",
+        "boxShadow": "none",
+        "transform": "none",
+        "border": "0px rgb(42, 45, 51) solid",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)",
+          "bgImage": "none",
+          "inset": "auto",
+          "clipPath": "none",
+          "border": "0px rgb(42, 45, 51) solid",
+          "transform": "none"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)",
+          "bgImage": "none",
+          "inset": "auto",
+          "clipPath": "none",
+          "border": "0px rgb(42, 45, 51) solid",
+          "transform": "none"
+        }
+      },
+      {
+        "tag": "MAIN",
+        "classes": "",
+        "rect": {
+          "w": 375,
+          "h": 10996.234375
+        },
+        "position": "static",
+        "zIndex": "auto",
+        "bg": "rgba(0, 0, 0, 0)",
+        "bgImage": "none",
+        "boxShadow": "none",
+        "transform": "none",
+        "border": "0px rgb(42, 45, 51) solid",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)",
+          "bgImage": "none",
+          "inset": "auto",
+          "clipPath": "none",
+          "border": "0px rgb(42, 45, 51) solid",
+          "transform": "none"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)",
+          "bgImage": "none",
+          "inset": "auto",
+          "clipPath": "none",
+          "border": "0px rgb(42, 45, 51) solid",
+          "transform": "none"
+        }
+      }
+    ],
+    "tableScroll": {
+      "before": 0,
+      "right": 435,
+      "max": 435,
+      "reachable": true
+    },
+    "detailToggle": {
+      "before": false,
+      "after": true,
+      "toggled": true
+    },
+    "faqToggle": null,
+    "anchor": {
+      "id": "inspection",
+      "top": 0.03125,
+      "scrollY": 5541,
+      "images": [
+        {
+          "src": "/_astro/1979-stratocaster-antigua-body.C3PouFH9_1IH6DT.webp",
+          "loaded": true
+        }
+      ]
+    }
+  },
+  {
+    "name": "live-hub",
+    "url": "https://www.joesvintageguitarsaz.com/vintage-fender-stratocaster-value-guide/",
+    "width": 375,
+    "documentWidth": 375,
+    "forms": 1,
+    "details": 13,
+    "inputs": 9,
+    "roleButtons": 0,
+    "iframes": 0,
+    "buttons": [
+      {
+        "text": "Submit",
+        "label": null,
+        "expanded": null
+      }
+    ],
+    "tables": [
+      {
+        "width": 339,
+        "scrollWidth": 460,
+        "overflowX": "auto",
+        "tabindex": "0",
+        "role": null,
+        "label": "Scrollable table of vintage Stratocaster values by year"
+      },
+      {
+        "width": 339,
+        "scrollWidth": 760,
+        "overflowX": "auto",
+        "tabindex": "0",
+        "role": null,
+        "label": "Scrollable table of vintage Stratocaster condition adjustments"
+      },
+      {
+        "width": 339,
+        "scrollWidth": 460,
+        "overflowX": "auto",
+        "tabindex": "0",
+        "role": null,
+        "label": "Scrollable table of Fender custom-color scarcity tiers"
+      },
+      {
+        "width": 339,
+        "scrollWidth": 680,
+        "overflowX": "auto",
+        "tabindex": "0",
+        "role": null,
+        "label": "Scrollable table of issues that lower vintage Stratocaster value"
+      }
+    ],
+    "cbsGap": null,
+    "brokenLocalAnchors": [],
+    "walk": [
+      {
+        "tag": "H2",
+        "classes": "vg-head",
+        "rect": {
+          "w": 339,
+          "h": 62.375
+        },
+        "position": "static",
+        "zIndex": "auto",
+        "bg": "rgba(0, 0, 0, 0)",
+        "bgImage": "none",
+        "boxShadow": "none",
+        "transform": "none",
+        "border": "0px rgb(104, 36, 18) solid",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)",
+          "bgImage": "none",
+          "inset": "auto",
+          "clipPath": "none",
+          "border": "0px rgb(104, 36, 18) solid",
+          "transform": "none"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)",
+          "bgImage": "none",
+          "inset": "auto",
+          "clipPath": "none",
+          "border": "0px rgb(104, 36, 18) solid",
+          "transform": "none"
+        }
+      },
+      {
+        "tag": "DIV",
+        "classes": "vg-inner",
+        "rect": {
+          "w": 375,
+          "h": 1188.203125
+        },
+        "position": "static",
+        "zIndex": "auto",
+        "bg": "rgba(0, 0, 0, 0)",
+        "bgImage": "none",
+        "boxShadow": "none",
+        "transform": "none",
+        "border": "0px rgb(42, 45, 51) solid",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)",
+          "bgImage": "none",
+          "inset": "auto",
+          "clipPath": "none",
+          "border": "0px rgb(42, 45, 51) solid",
+          "transform": "none"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)",
+          "bgImage": "none",
+          "inset": "auto",
+          "clipPath": "none",
+          "border": "0px rgb(42, 45, 51) solid",
+          "transform": "none"
+        }
+      },
+      {
+        "tag": "SECTION",
+        "classes": "vg-section",
+        "rect": {
+          "w": 375,
+          "h": 1300.203125
+        },
+        "position": "static",
+        "zIndex": "auto",
+        "bg": "rgb(255, 255, 255)",
+        "bgImage": "none",
+        "boxShadow": "none",
+        "transform": "none",
+        "border": "0px rgb(42, 45, 51) solid",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)",
+          "bgImage": "none",
+          "inset": "auto",
+          "clipPath": "none",
+          "border": "0px rgb(42, 45, 51) solid",
+          "transform": "none"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)",
+          "bgImage": "none",
+          "inset": "auto",
+          "clipPath": "none",
+          "border": "0px rgb(42, 45, 51) solid",
+          "transform": "none"
+        }
+      },
+      {
+        "tag": "MAIN",
+        "classes": "",
+        "rect": {
+          "w": 375,
+          "h": 24317.5
+        },
+        "position": "static",
+        "zIndex": "auto",
+        "bg": "rgba(0, 0, 0, 0)",
+        "bgImage": "none",
+        "boxShadow": "none",
+        "transform": "none",
+        "border": "0px rgb(42, 45, 51) solid",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)",
+          "bgImage": "none",
+          "inset": "auto",
+          "clipPath": "none",
+          "border": "0px rgb(42, 45, 51) solid",
+          "transform": "none"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)",
+          "bgImage": "none",
+          "inset": "auto",
+          "clipPath": "none",
+          "border": "0px rgb(42, 45, 51) solid",
+          "transform": "none"
+        }
+      }
+    ],
+    "tableScroll": null,
+    "detailToggle": {
+      "before": false,
+      "after": true,
+      "toggled": true
+    },
+    "faqToggle": null,
+    "anchor": {
+      "id": "cbs-values",
+      "top": 95.953125,
+      "scrollY": 14428,
+      "images": []
+    }
+  },
+  {
+    "name": "live-1965",
+    "url": "https://www.joesvintageguitarsaz.com/vintage-fender-stratocaster-value-guide/1965/",
+    "width": 375,
+    "documentWidth": 375,
+    "forms": 1,
+    "details": 8,
+    "inputs": 9,
+    "roleButtons": 0,
+    "iframes": 0,
+    "buttons": [
+      {
+        "text": "Submit",
+        "label": null,
+        "expanded": null
+      }
+    ],
+    "tables": [
+      {
+        "width": 325,
+        "scrollWidth": 760,
+        "overflowX": "auto",
+        "tabindex": "0",
+        "role": null,
+        "label": "1965 Fender Stratocaster values by condition"
+      }
+    ],
+    "cbsGap": null,
+    "brokenLocalAnchors": [],
+    "walk": [
+      {
+        "tag": "H2",
+        "classes": "",
+        "rect": {
+          "w": 327,
+          "h": 60.46875
+        },
+        "position": "static",
+        "zIndex": "auto",
+        "bg": "rgba(0, 0, 0, 0)",
+        "bgImage": "none",
+        "boxShadow": "none",
+        "transform": "none",
+        "border": "0px rgb(104, 36, 18) solid",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)",
+          "bgImage": "none",
+          "inset": "auto",
+          "clipPath": "none",
+          "border": "0px rgb(104, 36, 18) solid",
+          "transform": "none"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)",
+          "bgImage": "none",
+          "inset": "auto",
+          "clipPath": "none",
+          "border": "0px rgb(104, 36, 18) solid",
+          "transform": "none"
+        }
+      },
+      {
+        "tag": "DIV",
+        "classes": "",
+        "rect": {
+          "w": 327,
+          "h": 876.703125
+        },
+        "position": "static",
+        "zIndex": "auto",
+        "bg": "rgba(0, 0, 0, 0)",
+        "bgImage": "none",
+        "boxShadow": "none",
+        "transform": "none",
+        "border": "0px rgb(42, 45, 51) solid",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)",
+          "bgImage": "none",
+          "inset": "auto",
+          "clipPath": "none",
+          "border": "0px rgb(42, 45, 51) solid",
+          "transform": "none"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)",
+          "bgImage": "none",
+          "inset": "auto",
+          "clipPath": "none",
+          "border": "0px rgb(42, 45, 51) solid",
+          "transform": "none"
+        }
+      },
+      {
+        "tag": "DIV",
+        "classes": "yv-inner yv-lead-grid",
+        "rect": {
+          "w": 375,
+          "h": 1189.140625
+        },
+        "position": "static",
+        "zIndex": "auto",
+        "bg": "rgba(0, 0, 0, 0)",
+        "bgImage": "none",
+        "boxShadow": "none",
+        "transform": "none",
+        "border": "0px rgb(42, 45, 51) solid",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)",
+          "bgImage": "none",
+          "inset": "auto",
+          "clipPath": "none",
+          "border": "0px rgb(42, 45, 51) solid",
+          "transform": "none"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)",
+          "bgImage": "none",
+          "inset": "auto",
+          "clipPath": "none",
+          "border": "0px rgb(42, 45, 51) solid",
+          "transform": "none"
+        }
+      },
+      {
+        "tag": "SECTION",
+        "classes": "yv-section",
+        "rect": {
+          "w": 375,
+          "h": 1285.140625
+        },
+        "position": "static",
+        "zIndex": "auto",
+        "bg": "rgb(255, 255, 255)",
+        "bgImage": "none",
+        "boxShadow": "none",
+        "transform": "none",
+        "border": "0px rgb(42, 45, 51) solid",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)",
+          "bgImage": "none",
+          "inset": "auto",
+          "clipPath": "none",
+          "border": "0px rgb(42, 45, 51) solid",
+          "transform": "none"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)",
+          "bgImage": "none",
+          "inset": "auto",
+          "clipPath": "none",
+          "border": "0px rgb(42, 45, 51) solid",
+          "transform": "none"
+        }
+      },
+      {
+        "tag": "DIV",
+        "classes": "yv-page",
+        "rect": {
+          "w": 375,
+          "h": 7715.578125
+        },
+        "position": "static",
+        "zIndex": "auto",
+        "bg": "rgba(0, 0, 0, 0)",
+        "bgImage": "none",
+        "boxShadow": "none",
+        "transform": "none",
+        "border": "0px rgb(42, 45, 51) solid",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)",
+          "bgImage": "none",
+          "inset": "auto",
+          "clipPath": "none",
+          "border": "0px rgb(42, 45, 51) solid",
+          "transform": "none"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)",
+          "bgImage": "none",
+          "inset": "auto",
+          "clipPath": "none",
+          "border": "0px rgb(42, 45, 51) solid",
+          "transform": "none"
+        }
+      },
+      {
+        "tag": "MAIN",
+        "classes": "",
+        "rect": {
+          "w": 375,
+          "h": 10249.6875
+        },
+        "position": "static",
+        "zIndex": "auto",
+        "bg": "rgba(0, 0, 0, 0)",
+        "bgImage": "none",
+        "boxShadow": "none",
+        "transform": "none",
+        "border": "0px rgb(42, 45, 51) solid",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)",
+          "bgImage": "none",
+          "inset": "auto",
+          "clipPath": "none",
+          "border": "0px rgb(42, 45, 51) solid",
+          "transform": "none"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)",
+          "bgImage": "none",
+          "inset": "auto",
+          "clipPath": "none",
+          "border": "0px rgb(42, 45, 51) solid",
+          "transform": "none"
+        }
+      }
+    ],
+    "tableScroll": {
+      "before": 0,
+      "right": 435,
+      "max": 435,
+      "reachable": true
+    },
+    "detailToggle": {
+      "before": false,
+      "after": true,
+      "toggled": true
+    },
+    "faqToggle": null,
+    "anchor": {
+      "id": "inspection",
+      "top": -0.265625,
+      "scrollY": 5053,
+      "images": [
+        {
+          "src": "/_astro/1965-fender-stratocaster-candy-apple-red-chip-silver-undercoat.4xeqBavy_Z2Tf58.webp",
+          "loaded": true
+        }
+      ]
+    }
+  },
+  {
+    "name": "local-hub-desktop",
+    "url": "http://127.0.0.1:4322/vintage-fender-stratocaster-value-guide/",
+    "width": 1920,
+    "documentWidth": 1920,
+    "forms": 1,
+    "details": 13,
+    "inputs": 9,
+    "roleButtons": 0,
+    "iframes": 0,
+    "buttons": [
+      {
+        "text": "Submit",
+        "label": null,
+        "expanded": null
+      }
+    ],
+    "tables": [
+      {
+        "width": 1052,
+        "scrollWidth": 1052,
+        "overflowX": "auto",
+        "tabindex": "0",
+        "role": null,
+        "label": "Scrollable table of vintage Stratocaster values by year"
+      },
+      {
+        "width": 1052,
+        "scrollWidth": 1052,
+        "overflowX": "auto",
+        "tabindex": "0",
+        "role": null,
+        "label": "Scrollable table of vintage Stratocaster condition adjustments"
+      },
+      {
+        "width": 1052,
+        "scrollWidth": 1052,
+        "overflowX": "auto",
+        "tabindex": "0",
+        "role": null,
+        "label": "Scrollable table of Fender custom-color scarcity tiers"
+      },
+      {
+        "width": 1052,
+        "scrollWidth": 1052,
+        "overflowX": "auto",
+        "tabindex": "0",
+        "role": null,
+        "label": "CBS Stratocaster Values By Year"
+      },
+      {
+        "width": 1052,
+        "scrollWidth": 1052,
+        "overflowX": "auto",
+        "tabindex": "0",
+        "role": null,
+        "label": "Scrollable table of issues that lower vintage Stratocaster value"
+      }
+    ],
+    "cbsGap": 0,
+    "brokenLocalAnchors": [],
+    "walk": [
+      {
+        "tag": "H2",
+        "classes": "vg-head",
+        "rect": {
+          "w": 1052,
+          "h": 45.59375
+        },
+        "position": "static",
+        "zIndex": "auto",
+        "bg": "rgba(0, 0, 0, 0)",
+        "bgImage": "none",
+        "boxShadow": "none",
+        "transform": "none",
+        "border": "0px rgb(104, 36, 18) solid",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)",
+          "bgImage": "none",
+          "inset": "auto",
+          "clipPath": "none",
+          "border": "0px rgb(104, 36, 18) solid",
+          "transform": "none"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)",
+          "bgImage": "none",
+          "inset": "auto",
+          "clipPath": "none",
+          "border": "0px rgb(104, 36, 18) solid",
+          "transform": "none"
+        }
+      },
+      {
+        "tag": "DIV",
+        "classes": "vg-inner",
+        "rect": {
+          "w": 1100,
+          "h": 1399.421875
+        },
+        "position": "static",
+        "zIndex": "auto",
+        "bg": "rgba(0, 0, 0, 0)",
+        "bgImage": "none",
+        "boxShadow": "none",
+        "transform": "none",
+        "border": "0px rgb(42, 45, 51) solid",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)",
+          "bgImage": "none",
+          "inset": "auto",
+          "clipPath": "none",
+          "border": "0px rgb(42, 45, 51) solid",
+          "transform": "none"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)",
+          "bgImage": "none",
+          "inset": "auto",
+          "clipPath": "none",
+          "border": "0px rgb(42, 45, 51) solid",
+          "transform": "none"
+        }
+      },
+      {
+        "tag": "SECTION",
+        "classes": "vg-section",
+        "rect": {
+          "w": 1920,
+          "h": 1543.421875
+        },
+        "position": "static",
+        "zIndex": "auto",
+        "bg": "rgb(255, 255, 255)",
+        "bgImage": "none",
+        "boxShadow": "none",
+        "transform": "none",
+        "border": "0px rgb(42, 45, 51) solid",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)",
+          "bgImage": "none",
+          "inset": "auto",
+          "clipPath": "none",
+          "border": "0px rgb(42, 45, 51) solid",
+          "transform": "none"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)",
+          "bgImage": "none",
+          "inset": "auto",
+          "clipPath": "none",
+          "border": "0px rgb(42, 45, 51) solid",
+          "transform": "none"
+        }
+      },
+      {
+        "tag": "MAIN",
+        "classes": "",
+        "rect": {
+          "w": 1920,
+          "h": 14886.203125
+        },
+        "position": "static",
+        "zIndex": "auto",
+        "bg": "rgba(0, 0, 0, 0)",
+        "bgImage": "none",
+        "boxShadow": "none",
+        "transform": "none",
+        "border": "0px rgb(42, 45, 51) solid",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)",
+          "bgImage": "none",
+          "inset": "auto",
+          "clipPath": "none",
+          "border": "0px rgb(42, 45, 51) solid",
+          "transform": "none"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)",
+          "bgImage": "none",
+          "inset": "auto",
+          "clipPath": "none",
+          "border": "0px rgb(42, 45, 51) solid",
+          "transform": "none"
+        }
+      }
+    ],
+    "tableScroll": {
+      "before": 0,
+      "right": 0,
+      "max": 0,
+      "reachable": true
+    },
+    "detailToggle": {
+      "before": false,
+      "after": true,
+      "toggled": true
+    },
+    "faqToggle": null,
+    "anchor": {
+      "id": "cbs-values",
+      "top": 95.5,
+      "scrollY": 8061,
+      "images": []
+    }
+  },
+  {
+    "name": "local-1968-desktop",
+    "url": "http://127.0.0.1:4322/vintage-fender-stratocaster-value-guide/1968/",
+    "width": 1920,
+    "documentWidth": 1920,
+    "forms": 1,
+    "details": 8,
+    "inputs": 9,
+    "roleButtons": 0,
+    "iframes": 0,
+    "buttons": [
+      {
+        "text": "Submit",
+        "label": null,
+        "expanded": null
+      }
+    ],
+    "tables": [
+      {
+        "width": 1050,
+        "scrollWidth": 1050,
+        "overflowX": "auto",
+        "tabindex": "0",
+        "role": null,
+        "label": "1968 Fender Stratocaster values by condition"
+      }
+    ],
+    "cbsGap": null,
+    "brokenLocalAnchors": [],
+    "walk": [
+      {
+        "tag": "H2",
+        "classes": "",
+        "rect": {
+          "w": 527.09375,
+          "h": 94.0625
+        },
+        "position": "static",
+        "zIndex": "auto",
+        "bg": "rgba(0, 0, 0, 0)",
+        "bgImage": "none",
+        "boxShadow": "none",
+        "transform": "none",
+        "border": "0px rgb(104, 36, 18) solid",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)",
+          "bgImage": "none",
+          "inset": "auto",
+          "clipPath": "none",
+          "border": "0px rgb(104, 36, 18) solid",
+          "transform": "none"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)",
+          "bgImage": "none",
+          "inset": "auto",
+          "clipPath": "none",
+          "border": "0px rgb(104, 36, 18) solid",
+          "transform": "none"
+        }
+      },
+      {
+        "tag": "DIV",
+        "classes": "",
+        "rect": {
+          "w": 527.09375,
+          "h": 766.859375
+        },
+        "position": "static",
+        "zIndex": "auto",
+        "bg": "rgba(0, 0, 0, 0)",
+        "bgImage": "none",
+        "boxShadow": "none",
+        "transform": "none",
+        "border": "0px rgb(42, 45, 51) solid",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)",
+          "bgImage": "none",
+          "inset": "auto",
+          "clipPath": "none",
+          "border": "0px rgb(42, 45, 51) solid",
+          "transform": "none"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)",
+          "bgImage": "none",
+          "inset": "auto",
+          "clipPath": "none",
+          "border": "0px rgb(42, 45, 51) solid",
+          "transform": "none"
+        }
+      },
+      {
+        "tag": "DIV",
+        "classes": "yv-inner yv-lead-grid",
+        "rect": {
+          "w": 1100,
+          "h": 766.859375
+        },
+        "position": "static",
+        "zIndex": "auto",
+        "bg": "rgba(0, 0, 0, 0)",
+        "bgImage": "none",
+        "boxShadow": "none",
+        "transform": "none",
+        "border": "0px rgb(42, 45, 51) solid",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)",
+          "bgImage": "none",
+          "inset": "auto",
+          "clipPath": "none",
+          "border": "0px rgb(42, 45, 51) solid",
+          "transform": "none"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)",
+          "bgImage": "none",
+          "inset": "auto",
+          "clipPath": "none",
+          "border": "0px rgb(42, 45, 51) solid",
+          "transform": "none"
+        }
+      },
+      {
+        "tag": "SECTION",
+        "classes": "yv-section",
+        "rect": {
+          "w": 1920,
+          "h": 894.859375
+        },
+        "position": "static",
+        "zIndex": "auto",
+        "bg": "rgb(255, 255, 255)",
+        "bgImage": "none",
+        "boxShadow": "none",
+        "transform": "none",
+        "border": "0px rgb(42, 45, 51) solid",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)",
+          "bgImage": "none",
+          "inset": "auto",
+          "clipPath": "none",
+          "border": "0px rgb(42, 45, 51) solid",
+          "transform": "none"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)",
+          "bgImage": "none",
+          "inset": "auto",
+          "clipPath": "none",
+          "border": "0px rgb(42, 45, 51) solid",
+          "transform": "none"
+        }
+      },
+      {
+        "tag": "DIV",
+        "classes": "yv-page",
+        "rect": {
+          "w": 1920,
+          "h": 6051.46875
+        },
+        "position": "static",
+        "zIndex": "auto",
+        "bg": "rgba(0, 0, 0, 0)",
+        "bgImage": "none",
+        "boxShadow": "none",
+        "transform": "none",
+        "border": "0px rgb(42, 45, 51) solid",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)",
+          "bgImage": "none",
+          "inset": "auto",
+          "clipPath": "none",
+          "border": "0px rgb(42, 45, 51) solid",
+          "transform": "none"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)",
+          "bgImage": "none",
+          "inset": "auto",
+          "clipPath": "none",
+          "border": "0px rgb(42, 45, 51) solid",
+          "transform": "none"
+        }
+      },
+      {
+        "tag": "MAIN",
+        "classes": "",
+        "rect": {
+          "w": 1920,
+          "h": 7537.140625
+        },
+        "position": "static",
+        "zIndex": "auto",
+        "bg": "rgba(0, 0, 0, 0)",
+        "bgImage": "none",
+        "boxShadow": "none",
+        "transform": "none",
+        "border": "0px rgb(42, 45, 51) solid",
+        "before": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)",
+          "bgImage": "none",
+          "inset": "auto",
+          "clipPath": "none",
+          "border": "0px rgb(42, 45, 51) solid",
+          "transform": "none"
+        },
+        "after": {
+          "content": "none",
+          "bg": "rgba(0, 0, 0, 0)",
+          "bgImage": "none",
+          "inset": "auto",
+          "clipPath": "none",
+          "border": "0px rgb(42, 45, 51) solid",
+          "transform": "none"
+        }
+      }
+    ],
+    "tableScroll": {
+      "before": 0,
+      "right": 0,
+      "max": 0,
+      "reachable": true
+    },
+    "detailToggle": {
+      "before": false,
+      "after": true,
+      "toggled": true
+    },
+    "faqToggle": null,
+    "anchor": {
+      "id": "inspection",
+      "top": 0.109375,
+      "scrollY": 4120,
+      "images": [
+        {
+          "src": "/_astro/1968-stratocaster-candy-apple-red-headstock.CsM_tDRc_M3VVa.webp",
+          "loaded": true
+        }
+      ]
+    }
+  }
+]
