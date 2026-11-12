@@ -1,0 +1,15 @@
+diff --git a/work/html-diff/1965-navigation-before.html b/work/html-diff/1965-navigation-after.html
+index c5519ee..a3b6b5b 100644
+--- a/work/html-diff/1965-navigation-before.html
++++ b/work/html-diff/1965-navigation-after.html
+@@ -711,6 +711,10 @@
+ <span data-astro-cid-rxo3p4pe>All years</span>
+ <strong data-astro-cid-rxo3p4pe>1954 to 1965 value guide</strong>
+ </a>
++<a href="/vintage-fender-stratocaster-value-guide/1966/" data-astro-cid-rxo3p4pe>
++<span data-astro-cid-rxo3p4pe>Next year</span>
++<strong data-astro-cid-rxo3p4pe>1966 Stratocaster guide</strong>
++</a>
+ </div>
+ </div>
+ </section>

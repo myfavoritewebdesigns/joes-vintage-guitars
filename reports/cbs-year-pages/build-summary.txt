@@ -1,0 +1,8 @@
+16:47:54 [build] ✓ Completed in 608ms.
+16:48:22 [build] ✓ Completed in 24.37s.
+16:48:22 [build] 484 page(s) built in 28.53s
+16:48:22 [build] Complete!
+[stable-share-images] 303 pages now share a permanent /og/ image
+[image-sitemap] 472 pages, 4516 image entries -> dist/image-sitemap.xml
+[indexnow] 472 production URLs in manifest (77d5557)
+[image-variants] Removed 2426 unused generated variants; 18885 files remain

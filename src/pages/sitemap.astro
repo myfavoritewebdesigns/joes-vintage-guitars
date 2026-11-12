@@ -122,8 +122,8 @@ const groups = [
       { label: "Vintage Gibson Les Paul Family Guide", href: "/post/vintage-gibson-les-paul-family-guide/" },
       { label: "Vintage Fender Stratocaster Value Guide", href: "/vintage-fender-stratocaster-value-guide/" },
       ...stratocasterYearGuides.map((guide) => ({
-        label: `${guide.year} Fender Stratocaster Value Guide`,
-        href: `/vintage-fender-stratocaster-value-guide/${guide.year}/`,
+        label: `${guide.label ?? guide.year} Fender Stratocaster Value Guide`,
+        href: `/vintage-fender-stratocaster-value-guide/${guide.slug ?? guide.year}/`,
       })),
       { label: "Vintage Fender Telecaster Value Guide", href: "/vintage-fender-telecaster-value-guide/" },
       { label: "Vintage Fender Esquire Value Guide", href: "/vintage-fender-esquire-value-guide/" },

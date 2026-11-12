@@ -1,0 +1,270 @@
+{
+  "photos": [
+    {
+      "key": "66front",
+      "path": "src/assets/blog/1966-fender-stratocaster-authentication-guide/1966-fender-stratocaster-scaled.jpg",
+      "driveId": null,
+      "driveUrl": null,
+      "year": 1966,
+      "width": 2560,
+      "height": 1707,
+      "orientation": 1,
+      "bytes": 586713,
+      "sha256": "937eb6cd7a0484bade065eb95c2714502ee6d5bb8364cac4a2d7a52643103222",
+      "sourceSha256": null,
+      "processing": "Existing Joe photograph reused unchanged, as requested.",
+      "usedOn": [
+        "1966"
+      ]
+    },
+    {
+      "key": "66head",
+      "path": "src/assets/blog/1966-fender-stratocaster-authentication-guide/1966-fender-stratocaster-headstock-scaled.jpg",
+      "driveId": null,
+      "driveUrl": null,
+      "year": 1966,
+      "width": 1707,
+      "height": 2560,
+      "orientation": 1,
+      "bytes": 624765,
+      "sha256": "3e91177e9af31f41234de1fc40d967f97c8d1b84d3f2b62bfd2231063c7dfb3d",
+      "sourceSha256": null,
+      "processing": "Existing Joe photograph reused unchanged, as requested.",
+      "usedOn": [
+        "1966"
+      ]
+    },
+    {
+      "key": "67front",
+      "path": "src/assets/blog/1967-fender-stratocaster-authentication-guide/1967-fender-stratocaster-sunburst-front.jpg",
+      "driveId": null,
+      "driveUrl": null,
+      "year": 1967,
+      "width": 1333,
+      "height": 2000,
+      "orientation": 1,
+      "bytes": 173281,
+      "sha256": "3de72c3cced9e1861483d19bfa687230dde2a1330e48f8aa05d107f303d0c708",
+      "sourceSha256": null,
+      "processing": "Existing Joe photograph reused unchanged, as requested.",
+      "usedOn": [
+        "1967"
+      ]
+    },
+    {
+      "key": "67tuners",
+      "path": "src/assets/blog/1967-fender-stratocaster-authentication-guide/1967-fender-stratocaster-f-tuners.jpg",
+      "driveId": null,
+      "driveUrl": null,
+      "year": 1967,
+      "width": 1333,
+      "height": 2000,
+      "orientation": 1,
+      "bytes": 215034,
+      "sha256": "9fc8c0391f11d1febf0af0e305c0aee8148d92a5f115fdd7f9bc70d9ba010c6a",
+      "sourceSha256": null,
+      "processing": "Existing Joe photograph reused unchanged, as requested.",
+      "usedOn": [
+        "1967"
+      ]
+    },
+    {
+      "key": "68front",
+      "path": "src/assets/images/cbs-year-pages/1968-stratocaster-candy-apple-red-body.jpg",
+      "driveId": "1yloyr9d3KSQ4mBqKcbWEcKqI8akXH0jB",
+      "driveUrl": "https://drive.google.com/file/d/1yloyr9d3KSQ4mBqKcbWEcKqI8akXH0jB/view",
+      "year": 1968,
+      "width": 5472,
+      "height": 3648,
+      "orientation": 1,
+      "bytes": 1120406,
+      "sha256": "01c9aca2c5d67f55165b9af74e520d343a8c3239682ad6f3a48ff7047bafa80c",
+      "sourceSha256": "01c9aca2c5d67f55165b9af74e520d343a8c3239682ad6f3a48ff7047bafa80c",
+      "processing": "Original bytes retained; no resize or recompression. Astro handles display transforms.",
+      "usedOn": [
+        "1968"
+      ]
+    },
+    {
+      "key": "71front",
+      "path": "src/assets/images/cbs-year-pages/1971-stratocaster-hardtail-body.jpg",
+      "driveId": "1IO-8hLhtP1EzyBs3fOHm9r9Gm_dZMOp5",
+      "driveUrl": "https://drive.google.com/file/d/1IO-8hLhtP1EzyBs3fOHm9r9Gm_dZMOp5/view",
+      "year": 1971,
+      "width": 5472,
+      "height": 3648,
+      "orientation": 1,
+      "bytes": 960808,
+      "sha256": "efa639e97aa85b2f6567dad58f71b63f0f420a46db0a96b1a44976eb0ca6629f",
+      "sourceSha256": "efa639e97aa85b2f6567dad58f71b63f0f420a46db0a96b1a44976eb0ca6629f",
+      "processing": "Original bytes retained; no resize or recompression. Astro handles display transforms.",
+      "usedOn": [
+        "1969",
+        "1970",
+        "1971"
+      ]
+    },
+    {
+      "key": "71back",
+      "path": "src/assets/images/cbs-year-pages/1971-stratocaster-hardtail-back.jpg",
+      "driveId": "1wGcoIKZRYTVR2-UlA2iZtG8WX4PUiF6M",
+      "driveUrl": "https://drive.google.com/file/d/1wGcoIKZRYTVR2-UlA2iZtG8WX4PUiF6M/view",
+      "year": 1971,
+      "width": 3648,
+      "height": 5472,
+      "orientation": 1,
+      "bytes": 905349,
+      "sha256": "b2178b162d56573b85958df3aa92d5b2f82140a67392bc634f7ff2db796724b2",
+      "sourceSha256": "b2178b162d56573b85958df3aa92d5b2f82140a67392bc634f7ff2db796724b2",
+      "processing": "Original bytes retained; no resize or recompression. Astro handles display transforms.",
+      "usedOn": [
+        "1969",
+        "1970"
+      ]
+    },
+    {
+      "key": "71plate",
+      "path": "src/assets/images/cbs-year-pages/1971-stratocaster-hardtail-four-bolt-plate.jpg",
+      "driveId": "1QdbrIN-IfqboVY8IHu7YU00-ew4ygWhw",
+      "driveUrl": "https://drive.google.com/file/d/1QdbrIN-IfqboVY8IHu7YU00-ew4ygWhw/view",
+      "year": 1971,
+      "width": 5472,
+      "height": 3648,
+      "orientation": 1,
+      "bytes": 984759,
+      "sha256": "afff6e894becc21c31f0921e10ba432626850873b058e502aa332057f7e373af",
+      "sourceSha256": "afff6e894becc21c31f0921e10ba432626850873b058e502aa332057f7e373af",
+      "processing": "Original bytes retained; no resize or recompression. Astro handles display transforms.",
+      "usedOn": [
+        "1971"
+      ]
+    },
+    {
+      "key": "75front",
+      "path": "src/assets/images/cbs-year-pages/1975-stratocaster-sunburst-in-case.jpg",
+      "driveId": "1i3g0a3xKc3F8-1TqdwNdkp4SNkeuJW9T",
+      "driveUrl": "https://drive.google.com/file/d/1i3g0a3xKc3F8-1TqdwNdkp4SNkeuJW9T/view",
+      "year": 1975,
+      "width": 5712,
+      "height": 4284,
+      "orientation": 6,
+      "bytes": 6760591,
+      "sha256": "b21c2d977d2b86e59cbddc3d2ea3c0131ccc20bcb78b4a3421fa37c33237a123",
+      "sourceSha256": "b21c2d977d2b86e59cbddc3d2ea3c0131ccc20bcb78b4a3421fa37c33237a123",
+      "processing": "Original bytes retained; no resize or recompression. Astro handles display transforms.",
+      "usedOn": [
+        "1974",
+        "1975"
+      ]
+    },
+    {
+      "key": "75body",
+      "path": "src/assets/images/cbs-year-pages/1975-stratocaster-sunburst-controls.jpg",
+      "driveId": "1SKYoXSC9wT3MHFp-vdtN-mOJsYJxcrit",
+      "driveUrl": "https://drive.google.com/file/d/1SKYoXSC9wT3MHFp-vdtN-mOJsYJxcrit/view",
+      "year": 1975,
+      "width": 4032,
+      "height": 3024,
+      "orientation": 6,
+      "bytes": 3536595,
+      "sha256": "ee6424940301a8e30216ea31808e887ce8743b1f472943d01a44970225b63ac1",
+      "sourceSha256": "ee6424940301a8e30216ea31808e887ce8743b1f472943d01a44970225b63ac1",
+      "processing": "Original bytes retained; no resize or recompression. Astro handles display transforms.",
+      "usedOn": [
+        "1975",
+        "1977",
+        "1978"
+      ]
+    },
+    {
+      "key": "79front",
+      "path": "src/assets/images/cbs-year-pages/1979-stratocaster-antigua-body.jpg",
+      "driveId": "1T1VXAKds31KyAOT8ynr0rStg2PnYKEYK",
+      "driveUrl": "https://drive.google.com/file/d/1T1VXAKds31KyAOT8ynr0rStg2PnYKEYK/view",
+      "year": 1979,
+      "width": 6240,
+      "height": 4160,
+      "orientation": 1,
+      "bytes": 1879476,
+      "sha256": "6accd5490292e98084c2ec139a7ae7dd6d30356146d52c6863ae4c724ab91b9d",
+      "sourceSha256": "6accd5490292e98084c2ec139a7ae7dd6d30356146d52c6863ae4c724ab91b9d",
+      "processing": "Original bytes retained; no resize or recompression. Astro handles display transforms.",
+      "usedOn": [
+        "1979",
+        "1980-1981"
+      ]
+    },
+    {
+      "key": "79full",
+      "path": "src/assets/images/cbs-year-pages/1979-stratocaster-antigua-full-front.jpg",
+      "driveId": "1UZcxrEhx0q6tEA9BO-lqjFLvU8PiDgKW",
+      "driveUrl": "https://drive.google.com/file/d/1UZcxrEhx0q6tEA9BO-lqjFLvU8PiDgKW/view",
+      "year": 1979,
+      "width": 4160,
+      "height": 6240,
+      "orientation": 1,
+      "bytes": 1670698,
+      "sha256": "94fa72ea6a125dcfac4be8b9901d4d1ef44a974dbbf8cd9eac465041612aa3c5",
+      "sourceSha256": "94fa72ea6a125dcfac4be8b9901d4d1ef44a974dbbf8cd9eac465041612aa3c5",
+      "processing": "Original bytes retained; no resize or recompression. Astro handles display transforms.",
+      "usedOn": [
+        "1972",
+        "1973",
+        "1976",
+        "1980-1981"
+      ]
+    },
+    {
+      "key": "79head",
+      "path": "src/assets/images/cbs-year-pages/1979-stratocaster-antigua-headstock.jpg",
+      "driveId": "1pwGAAQuR4wxpbkBfclMEWSpBBVuxKpRN",
+      "driveUrl": "https://drive.google.com/file/d/1pwGAAQuR4wxpbkBfclMEWSpBBVuxKpRN/view",
+      "year": 1979,
+      "width": 6240,
+      "height": 4160,
+      "orientation": 1,
+      "bytes": 1223129,
+      "sha256": "60f654e06e76b852003619576be8d53cc8e041e0535c16f04d8db1ee06dfa726",
+      "sourceSha256": "60f654e06e76b852003619576be8d53cc8e041e0535c16f04d8db1ee06dfa726",
+      "processing": "Original bytes retained; no resize or recompression. Astro handles display transforms.",
+      "usedOn": [
+        "1972",
+        "1973",
+        "1974",
+        "1976",
+        "1977",
+        "1978",
+        "1979"
+      ]
+    },
+    {
+      "key": "68head",
+      "path": "src/assets/images/cbs-year-pages/1968-stratocaster-candy-apple-red-headstock.jpg",
+      "driveId": "1uhy-9FQ0-QITGDLYzy5Z1i4x7SgYBqQv",
+      "driveUrl": "https://drive.google.com/file/d/1uhy-9FQ0-QITGDLYzy5Z1i4x7SgYBqQv/view",
+      "year": 1968,
+      "width": 5472,
+      "height": 3648,
+      "orientation": 1,
+      "bytes": 977210,
+      "sha256": "1d0328681bd0391b267a5f051acb86a6ec7834068d8969a3e9f7b5601993a85e",
+      "sourceSha256": "1d0328681bd0391b267a5f051acb86a6ec7834068d8969a3e9f7b5601993a85e",
+      "processing": "Largest Drive original retained byte for byte; no resize or recompression.",
+      "usedOn": [
+        "1968"
+      ]
+    }
+  ],
+  "pagesWithoutOwnYear": [
+    "1969",
+    "1970",
+    "1972",
+    "1973",
+    "1974",
+    "1976",
+    "1977",
+    "1978",
+    "1980-1981"
+  ],
+  "searchNotes": "Drive folder and image searches for Stratocaster/strat and years 1968 through 1981. Exact-year folders found for 1968, 1971, 1975, 1979 and 1981 Gold Strat. Gold Strat is a separate model, so it was not used to illustrate the standard 1980 and 1981 value group. Existing 1966 and 1967 photographs reused before adding originals."
+}

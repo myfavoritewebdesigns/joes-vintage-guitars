@@ -1,0 +1,44 @@
+$ node --test scripts/indexnow.test.mjs
+✔ chrome, stylesheet, scope and class changes do not resubmit content (7.3342ms)
+✔ body, image, title, canonical, robots and structured-data edits change the hash (7.2024ms)
+✔ existing nested main markup hashes the full Layout slot once (1.7733ms)
+[indexnow] 2 new/changed, 0 removed/noindex, 0 deferred
+[indexnow] HTTP 200
+[indexnow] 0 new/changed, 0 removed/noindex, 0 deferred
+[indexnow] 2 new/changed, 0 removed/noindex, 0 deferred
+[indexnow] HTTP 200
+[indexnow] 0 new/changed, 5 removed/noindex, 3 deferred
+[indexnow] HTTP 200
+[indexnow] 0 new/changed, 3 removed/noindex, 0 deferred
+[indexnow] HTTP 200
+[indexnow] 1 new/changed, 0 removed/noindex, 0 deferred
+[indexnow] 1 new/changed, 0 removed/noindex, 0 deferred
+[indexnow] 1 new/changed, 0 removed/noindex, 0 deferred
+[indexnow] 1 new/changed, 0 removed/noindex, 0 deferred
+[indexnow] 1 new/changed, 0 removed/noindex, 0 deferred
+[indexnow] 1 new/changed, 0 removed/noindex, 0 deferred
+[indexnow] HTTP 202 (key validation pending)
+[indexnow] Deployment check is not the currently live revision; scheduled run will reconcile.
+[indexnow] 1 new/changed, 0 removed/noindex, 0 deferred
+[indexnow] Dry run: no notifications or state writes.
+[indexnow] 10001 new/changed, 0 removed/noindex, 0 deferred
+[indexnow] HTTP 200
+[indexnow] HTTP 200
+[indexnow] 10001 new/changed, 0 removed/noindex, 0 deferred
+[indexnow] HTTP 200
+✔ manifest follows nested sitemaps, excludes noindex and rejects missing HTML (25.6413ms)
+✔ first run submits live URLs once and unchanged runs make no POST (3.5876ms)
+✔ only new or changed pages are submitted (0.5637ms)
+✔ removals are confirmed; temporary errors and still-indexable pages remain pending (2.1681ms)
+✔ failed key validation or rejected submissions never produce replacement state (1.1732ms)
+✔ missing/invalid/empty production data and corrupt saved state fail closed (0.5342ms)
+✔ preview/stale deployment check and manual dry run make no submissions (0.3401ms)
+✔ 10,000-URL batching and failure of a later batch do not advance state (58.4509ms)
+ℹ tests 11
+ℹ suites 0
+ℹ pass 11
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 497.1171

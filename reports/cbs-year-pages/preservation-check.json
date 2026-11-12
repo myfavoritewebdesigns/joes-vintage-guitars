@@ -1,0 +1,194 @@
+[
+  {
+    "path": "/vintage-fender-stratocaster-value-guide/1954/",
+    "beforeSha256": "5daf076b8463c454e1290ade9285fbbb74f091f65b58fbb46b38dfa12cf5e68e",
+    "afterSha256": "5daf076b8463c454e1290ade9285fbbb74f091f65b58fbb46b38dfa12cf5e68e",
+    "verdict": "byte-identical"
+  },
+  {
+    "path": "/vintage-fender-stratocaster-value-guide/1955/",
+    "beforeSha256": "d8e4b4f87baee5ce831d78107c529a279bd441e2b89781c2a4b9b7c0959c45be",
+    "afterSha256": "d8e4b4f87baee5ce831d78107c529a279bd441e2b89781c2a4b9b7c0959c45be",
+    "verdict": "byte-identical"
+  },
+  {
+    "path": "/vintage-fender-stratocaster-value-guide/1956/",
+    "beforeSha256": "79b1270d89bbb1c9b66723d6ac3128ea6ccbf5a0b42bde20de1b561117399aab",
+    "afterSha256": "79b1270d89bbb1c9b66723d6ac3128ea6ccbf5a0b42bde20de1b561117399aab",
+    "verdict": "byte-identical"
+  },
+  {
+    "path": "/vintage-fender-stratocaster-value-guide/1957/",
+    "beforeSha256": "fc3ac333b9829f72e6d16d678ec01939527bd84458901359943e6f2d9d9995e0",
+    "afterSha256": "fc3ac333b9829f72e6d16d678ec01939527bd84458901359943e6f2d9d9995e0",
+    "verdict": "byte-identical"
+  },
+  {
+    "path": "/vintage-fender-stratocaster-value-guide/1958/",
+    "beforeSha256": "db1035239f1c6ce386506b9baf489de81331a01278b6f0a16f159120514edcec",
+    "afterSha256": "db1035239f1c6ce386506b9baf489de81331a01278b6f0a16f159120514edcec",
+    "verdict": "byte-identical"
+  },
+  {
+    "path": "/vintage-fender-stratocaster-value-guide/1959/",
+    "beforeSha256": "385c6d042c5475752c34b1b7c41068c46f38c079f0dea37c178a0ef52d619670",
+    "afterSha256": "385c6d042c5475752c34b1b7c41068c46f38c079f0dea37c178a0ef52d619670",
+    "verdict": "byte-identical"
+  },
+  {
+    "path": "/vintage-fender-stratocaster-value-guide/1960/",
+    "beforeSha256": "1c3f886a2c1620e3329ef42b18be4fd177aba09af2808f40b2416da4c5cca334",
+    "afterSha256": "1c3f886a2c1620e3329ef42b18be4fd177aba09af2808f40b2416da4c5cca334",
+    "verdict": "byte-identical"
+  },
+  {
+    "path": "/vintage-fender-stratocaster-value-guide/1961/",
+    "beforeSha256": "2c34c6b33e63a5aa9f509d09df4b36c7bf04e9479a6127bed0bec6ee7934b5a1",
+    "afterSha256": "2c34c6b33e63a5aa9f509d09df4b36c7bf04e9479a6127bed0bec6ee7934b5a1",
+    "verdict": "byte-identical"
+  },
+  {
+    "path": "/vintage-fender-stratocaster-value-guide/1962/",
+    "beforeSha256": "d92688b177e8646e7c2a922a74ad1cdd79c9fdfeb12c67327cdf00ee23d08d62",
+    "afterSha256": "d92688b177e8646e7c2a922a74ad1cdd79c9fdfeb12c67327cdf00ee23d08d62",
+    "verdict": "byte-identical"
+  },
+  {
+    "path": "/vintage-fender-stratocaster-value-guide/1963/",
+    "beforeSha256": "13f0c11ec1436d08c07266537767ee1b1f783032df1faf32f09be1c7ff74c2eb",
+    "afterSha256": "13f0c11ec1436d08c07266537767ee1b1f783032df1faf32f09be1c7ff74c2eb",
+    "verdict": "byte-identical"
+  },
+  {
+    "path": "/vintage-fender-stratocaster-value-guide/1964/",
+    "beforeSha256": "9042d2ac7a999ba7ca6b86e688b4d1b2329ff8a074617ad894a963156f93fcc9",
+    "afterSha256": "9042d2ac7a999ba7ca6b86e688b4d1b2329ff8a074617ad894a963156f93fcc9",
+    "verdict": "byte-identical"
+  },
+  {
+    "path": "/vintage-fender-stratocaster-value-guide/1965/",
+    "beforeSha256": "0c29367a97068fece8865baaaf92c980b5fdff4fe2ef66b6156d92b6527877bf",
+    "afterSha256": "6eb84103b7aa9195ef6b9e7c184d284f07fb926fee356bdd0e8e10793ff233e0",
+    "verdict": "Only authorized next-year navigation anchor"
+  },
+  {
+    "path": "/vintage-fender-stratocaster-value-guide/",
+    "beforeSha256": "c179c67de4ebfaa1e8308b7fd0a5d2f169ca08c4cadf597c0c5887f8d5b66746",
+    "afterSha256": "c479bf585d2fa28c37cd34bcfeeeb2b46216c4261913257b5f4f1ee2b8ba19ee",
+    "verdict": "Authorized hub table, closing paragraph and byline changes"
+  },
+  {
+    "path": "/vintage-fender-telecaster-value-guide/1950-broadcaster/",
+    "beforeSha256": "c91d2ffcf9726378042ffe4c61cb8ca04b89379c3cae1e2c0593d4d9f0b5a20a",
+    "afterSha256": "c91d2ffcf9726378042ffe4c61cb8ca04b89379c3cae1e2c0593d4d9f0b5a20a",
+    "verdict": "byte-identical"
+  },
+  {
+    "path": "/vintage-fender-telecaster-value-guide/1951-nocaster/",
+    "beforeSha256": "2c3ee5f1872f6d90adf872ada2316b614210773fb145eeec370f14c201edf65c",
+    "afterSha256": "2c3ee5f1872f6d90adf872ada2316b614210773fb145eeec370f14c201edf65c",
+    "verdict": "byte-identical"
+  },
+  {
+    "path": "/vintage-fender-telecaster-value-guide/1951-telecaster/",
+    "beforeSha256": "e5be694429934866a2552522cc8de2e8ec4fefc1a543901225ca5972daa3c3c4",
+    "afterSha256": "e5be694429934866a2552522cc8de2e8ec4fefc1a543901225ca5972daa3c3c4",
+    "verdict": "byte-identical"
+  },
+  {
+    "path": "/vintage-fender-telecaster-value-guide/1952/",
+    "beforeSha256": "667ec08720f41ea6521f0c177cc9d7e0e309dd0c855452270c2021448181736b",
+    "afterSha256": "667ec08720f41ea6521f0c177cc9d7e0e309dd0c855452270c2021448181736b",
+    "verdict": "byte-identical"
+  },
+  {
+    "path": "/vintage-fender-telecaster-value-guide/1953/",
+    "beforeSha256": "a97a5a17be61f40b59a0723e66a0c7479f4e174aaf3714e47739cbecb008a8df",
+    "afterSha256": "a97a5a17be61f40b59a0723e66a0c7479f4e174aaf3714e47739cbecb008a8df",
+    "verdict": "byte-identical"
+  },
+  {
+    "path": "/vintage-fender-telecaster-value-guide/1954/",
+    "beforeSha256": "80b8a14d42943b492da2e2c05017a678c71dbf37421d8f001fc7103ec9fc19a4",
+    "afterSha256": "80b8a14d42943b492da2e2c05017a678c71dbf37421d8f001fc7103ec9fc19a4",
+    "verdict": "byte-identical"
+  },
+  {
+    "path": "/vintage-fender-telecaster-value-guide/1955/",
+    "beforeSha256": "b43bc61a9c03994c9ce7d13f0922dcca586501d3928bf508b8549e12aa57aea7",
+    "afterSha256": "b43bc61a9c03994c9ce7d13f0922dcca586501d3928bf508b8549e12aa57aea7",
+    "verdict": "byte-identical"
+  },
+  {
+    "path": "/vintage-fender-telecaster-value-guide/1956/",
+    "beforeSha256": "91c732ef4e723b590ec3deabccedf27205bf084996fc1acb6bdd54e2f82055f2",
+    "afterSha256": "91c732ef4e723b590ec3deabccedf27205bf084996fc1acb6bdd54e2f82055f2",
+    "verdict": "byte-identical"
+  },
+  {
+    "path": "/vintage-fender-telecaster-value-guide/1957/",
+    "beforeSha256": "bcbdcaa939fed250f53a9c02d1b2e343afc3cfa77c0a31c3b6b7944415ed6a9e",
+    "afterSha256": "bcbdcaa939fed250f53a9c02d1b2e343afc3cfa77c0a31c3b6b7944415ed6a9e",
+    "verdict": "byte-identical"
+  },
+  {
+    "path": "/vintage-fender-telecaster-value-guide/1958/",
+    "beforeSha256": "4f4f58f7181c437355ea2e45e015cae17187f89a765a3c18a7dde1a19af87387",
+    "afterSha256": "4f4f58f7181c437355ea2e45e015cae17187f89a765a3c18a7dde1a19af87387",
+    "verdict": "byte-identical"
+  },
+  {
+    "path": "/vintage-fender-telecaster-value-guide/1959/",
+    "beforeSha256": "a22066d020c4e9a49754afb914def1c964a168b355746d1dfcbc56a228515c40",
+    "afterSha256": "a22066d020c4e9a49754afb914def1c964a168b355746d1dfcbc56a228515c40",
+    "verdict": "byte-identical"
+  },
+  {
+    "path": "/vintage-fender-telecaster-value-guide/1960/",
+    "beforeSha256": "56f2d077b153f4329903ed59defb4bd3126bc17c481bb10abb93f1ac15526e4d",
+    "afterSha256": "56f2d077b153f4329903ed59defb4bd3126bc17c481bb10abb93f1ac15526e4d",
+    "verdict": "byte-identical"
+  },
+  {
+    "path": "/vintage-fender-telecaster-value-guide/1961/",
+    "beforeSha256": "e3ba15333b3ac711f403797fea6c99eba65f40dd7422df0cac82909c0cfca441",
+    "afterSha256": "e3ba15333b3ac711f403797fea6c99eba65f40dd7422df0cac82909c0cfca441",
+    "verdict": "byte-identical"
+  },
+  {
+    "path": "/vintage-fender-telecaster-value-guide/1962/",
+    "beforeSha256": "3c129cd37ffd8399368dcb160f56760fca9e11941bd195d3d4b9c2cc5b74a9eb",
+    "afterSha256": "3c129cd37ffd8399368dcb160f56760fca9e11941bd195d3d4b9c2cc5b74a9eb",
+    "verdict": "byte-identical"
+  },
+  {
+    "path": "/vintage-fender-telecaster-value-guide/1963/",
+    "beforeSha256": "eeeb44b90a2e214b0733b7380229e72bffcf70f0635f77160c85174c7544b721",
+    "afterSha256": "eeeb44b90a2e214b0733b7380229e72bffcf70f0635f77160c85174c7544b721",
+    "verdict": "byte-identical"
+  },
+  {
+    "path": "/vintage-fender-telecaster-value-guide/1964/",
+    "beforeSha256": "602ba5ca45c9375c3c7442d3188527a6f0bc0277c65120925689bc2f532dd016",
+    "afterSha256": "602ba5ca45c9375c3c7442d3188527a6f0bc0277c65120925689bc2f532dd016",
+    "verdict": "byte-identical"
+  },
+  {
+    "path": "/vintage-fender-telecaster-value-guide/1965/",
+    "beforeSha256": "97ca8af590eb4274a167f555aa015061b3634912fd604430023539b12da9e4df",
+    "afterSha256": "97ca8af590eb4274a167f555aa015061b3634912fd604430023539b12da9e4df",
+    "verdict": "byte-identical"
+  },
+  {
+    "path": "/vintage-fender-telecaster-value-guide/1966-1968/",
+    "beforeSha256": "4e431e803f0980a92b819c18e7f58595679ddfb87fa9555c9b7389d8d89fb676",
+    "afterSha256": "4e431e803f0980a92b819c18e7f58595679ddfb87fa9555c9b7389d8d89fb676",
+    "verdict": "byte-identical"
+  },
+  {
+    "path": "/vintage-fender-telecaster-value-guide/",
+    "beforeSha256": "c52a37462ae6efbf396ec91a0c92d18124e8b5cb8db1af519f6a7eac7a7058b3",
+    "afterSha256": "c52a37462ae6efbf396ec91a0c92d18124e8b5cb8db1af519f6a7eac7a7058b3",
+    "verdict": "byte-identical"
+  }
+]
