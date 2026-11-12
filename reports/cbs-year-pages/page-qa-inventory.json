@@ -1,0 +1,2050 @@
+{
+  "base": "http://127.0.0.1:4322",
+  "createdAt": "2026-11-12T00:01:19.689Z",
+  "preservation": {
+    "byteIdentical": 162,
+    "bodyIdentical": 459,
+    "headOnly": [
+      "/contact-me/",
+      "/do-replaced-pickups-hurt-guitar-value/",
+      "/fender-body-dates/",
+      "/fender-jaguar-dating-guide/",
+      "/fender-jazz-bass-dating-guide/",
+      "/fender-jazzmaster-dating-guide/",
+      "/fender-mustang-dating-guide/",
+      "/fender-neck-dates/",
+      "/fender-physical-features/",
+      "/fender-pot-codes/",
+      "/fender-precision-bass-dating-guide/",
+      "/fender-telecaster-dating-guide/",
+      "/found-an-old-guitar/",
+      "/gibson-country-western-authentication-guide/",
+      "/gibson-dove-authentication-guide/",
+      "/gibson-es-330-dating-guide/",
+      "/gibson-es-335-345-355-dating-guide/",
+      "/gibson-headstock-logo-chronology/",
+      "/gibson-knob-dating-guide/",
+      "/gibson-les-paul-dating-guide/",
+      "/gibson-physical-features-hardware-guide/",
+      "/gibson-pot-codes/",
+      "/gibson-sg-dating-guide/",
+      "/gibson-southern-jumbo-authentication-guide/",
+      "/gibson-tuner-dating-guide/",
+      "/gretsch-body-binding-and-inlays/",
+      "/gretsch-bridges-and-tailpieces/",
+      "/gretsch-finish-colors/",
+      "/gretsch-headstock-and-tuner-dating-guide/",
+      "/gretsch-knobs-and-controls/",
+      "/gretsch-labels-and-serial-number-locations/",
+      "/gretsch-pickup-dating-guide/",
+      "/gretsch-serial-number-lookup/",
+      "/gretsch-vintage-vs-reissue/",
+      "/guild-acoustic-guitar-identification/",
+      "/guild-electric-guitar-identification/",
+      "/guild-factory-eras/",
+      "/guild-labels-and-serial-number-locations/",
+      "/guild-model-prefix-serial-number-charts/",
+      "/guild-pickup-and-hardware-dating-guide/",
+      "/guild-serial-number-lookup/",
+      "/guild-vintage-vs-reissue/",
+      "/how-much-does-a-refinish-hurt-guitar-value/",
+      "/how-old-is-my-guitar/",
+      "/how-to-tell-if-a-guitar-has-been-refinished/",
+      "/inherited-a-guitar/",
+      "/martin-guitar-dating-guide/",
+      "/martin-guitar-model-numbers/",
+      "/martin-headstock-logo-dating-guide/",
+      "/martin-neck-block-stamps/",
+      "/martin-serial-and-model-numbers/",
+      "/martin-tuner-dating-guide/",
+      "/post/1952-fender-precision-bass-guide/",
+      "/post/1952-fender-telecaster-authentication-guide/",
+      "/post/1954-gibson-l5c-california-session-musician/",
+      "/post/1954-gibson-les-paul-goldtop-authentication-guide/",
+      "/post/1955-1958-tv-yellow-les-paul-special-guide/",
+      "/post/1956-les-paul-goldtop-authentication-guide/",
+      "/post/1957-les-paul-goldtop-guide/",
+      "/post/1958-gibson-les-paul-standard-guide/",
+      "/post/1959-fender-telecaster-authentication-guide/",
+      "/post/1959-gibson-es-335-authentication-guide/",
+      "/post/1959-gibson-es-355-history-value/",
+      "/post/1959-gibson-les-paul-standard-guide/",
+      "/post/1960-gibson-les-paul-standard-guide/",
+      "/post/1962-fender-stratocaster-authentication-guide/",
+      "/post/1962-gibson-es-335-guide/",
+      "/post/1963-fender-stratocaster-authentication-guide/",
+      "/post/1965-gibson-es-335-short-maestro-vibrola/",
+      "/post/1966-gibson-es-335-authentication-guide/",
+      "/post/1968-1969-1970-les-paul-custom-dating-guide/",
+      "/post/1968-gibson-es-335-guide/",
+      "/post/1968-gibson-les-paul-custom-guide/",
+      "/post/1969-gibson-les-paul-custom-guide/",
+      "/post/1970-gibson-les-paul-custom-guide/",
+      "/post/1973-fender-jazz-bass-vintera-iii/",
+      "/post/1976-martin-000-45-specs-history-value-guide/",
+      "/post/are-left-handed-vintage-guitars-worth-less/",
+      "/post/best-online-platforms-sell-vintage-guitars/",
+      "/post/bill-one-owner-1966-fender-jaguar/",
+      "/post/blue-book-of-guitar-values-and-vintage-guitar-price-guide/",
+      "/post/bob-denton-1955-gibson-j200/",
+      "/post/brass-nut-vintage-guitar-tone/",
+      "/post/complete-dot-neck-es-330-guide-1959-1962/",
+      "/post/epiphone-broadway-authentication-guide/",
+      "/post/epiphone-broadway-value-guide/",
+      "/post/epiphone-casino-authentication-guide/",
+      "/post/epiphone-casino-value-guide/",
+      "/post/epiphone-deluxe-authentication-guide/",
+      "/post/epiphone-deluxe-value-guide/",
+      "/post/epiphone-emperor-authentication-guide/",
+      "/post/epiphone-emperor-value-guide/",
+      "/post/epiphone-olympic-authentication-guide/",
+      "/post/epiphone-olympic-value-guide/",
+      "/post/epiphone-sheraton-history-value/",
+      "/post/epiphone-sorrento-authentication-guide/",
+      "/post/epiphone-sorrento-value-guide/",
+      "/post/epiphone-triumph-authentication-guide/",
+      "/post/epiphone-triumph-value-guide/",
+      "/post/epiphone-windsor-authentication-guide/",
+      "/post/epiphone-windsor-value-guide/",
+      "/post/epiphone-zephyr-authentication-guide/",
+      "/post/epiphone-zephyr-value-guide/",
+      "/post/fender-amp-eras-tweed-brownface-blackface-silverface/",
+      "/post/fender-bass-vi-authentication-guide/",
+      "/post/fender-bass-vi-value-guide/",
+      "/post/fender-bassman-authentication-guide/",
+      "/post/fender-bassman-value-guide/",
+      "/post/fender-champ-authentication-guide/",
+      "/post/fender-champ-value-guide/",
+      "/post/fender-deluxe-reverb-authentication-guide/",
+      "/post/fender-deluxe-reverb-value-guide/",
+      "/post/fender-esquire-authentication-guide/",
+      "/post/fender-jazzmaster-evolution-guide-1958-1971/",
+      "/post/fender-mustang-history-value/",
+      "/post/fender-pink-paisley-telecaster-guide/",
+      "/post/fender-princeton-reverb-authentication-guide/",
+      "/post/fender-princeton-reverb-value-guide/",
+      "/post/fender-super-reverb-authentication-guide/",
+      "/post/fender-super-reverb-value-guide/",
+      "/post/fender-telecaster-thinline-custom-deluxe-authentication-guide/",
+      "/post/fender-telecaster-thinline-custom-deluxe-value-guide/",
+      "/post/fender-twin-reverb-authentication-guide/",
+      "/post/fender-twin-reverb-value-guide/",
+      "/post/fender-vibrolux-authentication-guide/",
+      "/post/fender-vibrolux-value-guide/",
+      "/post/gibson-aldo-nova-les-paul-xpl-guide/",
+      "/post/gibson-byrdland-authentication-guide/",
+      "/post/gibson-byrdland-value-guide/",
+      "/post/gibson-es-125-guide/",
+      "/post/gibson-es-175-authentication-guide/",
+      "/post/gibson-es-175-evolution-and-specifications/",
+      "/post/gibson-es-175-value-guide/",
+      "/post/gibson-es-225-guide/",
+      "/post/gibson-es-225-value-guide/",
+      "/post/gibson-es-345-history-value/",
+      "/post/gibson-es-5-switchmaster-history-value/",
+      "/post/gibson-firebird-history-authentication-value/",
+      "/post/gibson-flying-v-medallion-guide/",
+      "/post/gibson-j200-model-history-authentication-guide/",
+      "/post/gibson-l-4-authentication-guide/",
+      "/post/gibson-l-4-value-guide/",
+      "/post/gibson-l-48-authentication-guide/",
+      "/post/gibson-l-48-value-guide/",
+      "/post/gibson-l-50-authentication-guide/",
+      "/post/gibson-l-50-value-guide/",
+      "/post/gibson-l-7-authentication-guide/",
+      "/post/gibson-l-7-value-guide/",
+      "/post/gibson-l5-ces-value-guide/",
+      "/post/gibson-les-paul-deluxe-authentication-guide/",
+      "/post/gibson-les-paul-deluxe-value-guide/",
+      "/post/gibson-les-paul-junior-guide/",
+      "/post/gibson-les-paul-tv-model-guide/",
+      "/post/gibson-paf-patent-number-pickup-guide/",
+      "/post/gibson-shipping-totals-1948-1979/",
+      "/post/gibson-super-400-ces-history-authentication-value/",
+      "/post/gibson-thunderbird-eb-bass-authentication-guide/",
+      "/post/gibson-thunderbird-eb-bass-value-guide/",
+      "/post/gold-guard-fender-precision-bass/",
+      "/post/gretsch-6120-history-value/",
+      "/post/gretsch-anniversary-authentication-guide/",
+      "/post/gretsch-anniversary-value-guide/",
+      "/post/gretsch-country-gentleman-authentication-guide/",
+      "/post/gretsch-country-gentleman-value-guide/",
+      "/post/gretsch-duo-jet-history-value/",
+      "/post/gretsch-white-falcon-authentication-guide/",
+      "/post/gretsch-white-falcon-value-guide/",
+      "/post/guild-starfire-authentication-guide/",
+      "/post/guild-starfire-value-guide/",
+      "/post/hardtail-stratocaster-vintage-guide/",
+      "/post/how-the-year-of-manufacture-of-your-vintage-gibson-guitar-affects-its-price/",
+      "/post/how-to-determine-the-value-of-your-old-martin-acoustic-guitar/",
+      "/post/how-to-sell-a-large-guitar-collection-every-option-honestly-explained/",
+      "/post/how-to-tell-if-your-acoustic-guitar-needs-a-neck-reset/",
+      "/post/identify-vintage-gibson-j45-j50-sj/",
+      "/post/is-your-vintage-guitar-valuable-7-factors-that-determine-its-value/",
+      "/post/joesvintageguitarsaz-com-identify-gibson-lg-series/",
+      "/post/joshuas-1952-fender-telecaster/",
+      "/post/klon-centaur-authentication-value-guide/",
+      "/post/martin-0-18-authentication-guide/",
+      "/post/martin-0-18-value-guide/",
+      "/post/martin-00-18-authentication-guide/",
+      "/post/martin-00-18-value-guide/",
+      "/post/martin-000-18-authentication-guide/",
+      "/post/martin-000-18-value-guide/",
+      "/post/martin-000-28-authentication-guide/",
+      "/post/martin-000-28-value-guide/",
+      "/post/martin-12-string-authentication-guide/",
+      "/post/martin-12-string-value-guide/",
+      "/post/martin-15-17-series-authentication-guide/",
+      "/post/martin-15-17-series-value-guide/",
+      "/post/martin-archtop-authentication-guide/",
+      "/post/martin-archtop-value-guide/",
+      "/post/martin-classical-authentication-guide/",
+      "/post/martin-classical-value-guide/",
+      "/post/martin-d-21-authentication-guide/",
+      "/post/martin-d-21-value-guide/",
+      "/post/martin-d-28-authentication-guide/",
+      "/post/martin-d-28-value-guide/",
+      "/post/martin-d-35-authentication-guide/",
+      "/post/martin-d-35-value-guide/",
+      "/post/martin-d-45-authentication-guide/",
+      "/post/martin-d-45-value-guide/",
+      "/post/martin-d18e-vs-d28e-authentication-guide/",
+      "/post/martin-electric-authentication-guide/",
+      "/post/martin-electric-value-guide/",
+      "/post/martin-om-18-authentication-guide/",
+      "/post/martin-om-18-value-guide/",
+      "/post/martin-om-28-authentication-guide/",
+      "/post/martin-om-28-value-guide/",
+      "/post/martin-om-45-authentication-guide/",
+      "/post/martin-om-45-value-guide/",
+      "/post/martin-plectrum-authentication-guide/",
+      "/post/martin-plectrum-value-guide/",
+      "/post/martin-small-early-authentication-guide/",
+      "/post/martin-small-early-value-guide/",
+      "/post/martin-style-21-small-body-authentication-guide/",
+      "/post/martin-style-21-small-body-value-guide/",
+      "/post/martin-tenor-authentication-guide/",
+      "/post/martin-tenor-value-guide/",
+      "/post/mistakes-to-avoid-when-selling-a-vintage-guitar/",
+      "/post/most-expensive-guitars-ever-sold/",
+      "/post/national-resonator-guitar-authentication-guide/",
+      "/post/national-resonator-guitar-value-guide/",
+      "/post/norlin-les-paul-custom-year-guide/",
+      "/post/one-family-1946-martin-d-28/",
+      "/post/one-family-1959-gibson-es-355/",
+      "/post/one-owner-1949-martin-0-18/",
+      "/post/one-owner-1955-martin-d28/",
+      "/post/one-owner-1956-martin-000-21/",
+      "/post/one-owner-1957-gibson-byrdland/",
+      "/post/one-owner-1960-fender-telecaster/",
+      "/post/one-owner-1965-fender-stratocaster/",
+      "/post/one-owner-1966-gibson-es-345/",
+      "/post/one-owner-1983-gibson-les-paul-custom/",
+      "/post/princeton-reverb-vs-deluxe-reverb-vs-twin-reverb/",
+      "/post/selling-a-vintage-guitar-in-ohio-and-the-midwest/",
+      "/post/sylvias-1959-gibson-es-335/",
+      "/post/types-of-guitar-picks/",
+      "/post/vintage-epiphone-crestwood-value-history-guide/",
+      "/post/vintage-fender-jaguar-guide/",
+      "/post/vintage-fender-jazz-bass-guide/",
+      "/post/vintage-gibson-hummingbird-history-value-guide/",
+      "/post/vintage-gibson-les-paul-family-guide/",
+      "/post/vintage-gibson-sg-family-guide/",
+      "/post/what-a-serial-number-cant-tell-you/",
+      "/post/what-guitar-did-dolly-parton-play/",
+      "/post/what-guitar-did-johnny-marr-play/",
+      "/post/what-to-consider-when-selling-a-vintage-guitar/",
+      "/prewar-martin-guitar-guide/",
+      "/sell-a-guitar-collection/",
+      "/sell-my-epiphone-guitar/",
+      "/sell-my-gretsch-guitar/",
+      "/sell-my-guild-guitar/",
+      "/sell-my-martin-guitar/",
+      "/sell-my-national-guitar/",
+      "/sell-vintage-guitar-chandler-az/",
+      "/sell-vintage-guitar-gilbert-az/",
+      "/sell-vintage-guitar-mesa-az/",
+      "/sell-vintage-guitar-phoenix-az/",
+      "/sell-vintage-guitar-scottsdale-az/",
+      "/sell-vintage-guitar-tempe-az/",
+      "/sell-your-levin-or-goya-guitar/",
+      "/sell-your-vintage-dangelico-guitar-in-the-us/",
+      "/selling-a-loved-ones-guitar/",
+      "/should-i-restore-my-guitar-before-selling/",
+      "/vintage-fender-amplifier-serial-numbers-how-to-find-the-year/",
+      "/vintage-fender-jaguar-value-guide/",
+      "/vintage-fender-jazz-bass-value-guide/",
+      "/vintage-fender-jazzmaster-value-guide/",
+      "/vintage-fender-precision-bass-value-guide/",
+      "/vintage-fender-value-guide/",
+      "/vintage-gibson-acoustic-value-guide/",
+      "/vintage-gibson-country-western-value-guide/",
+      "/vintage-gibson-dove-value-guide/",
+      "/vintage-gibson-es-125-value-guide/",
+      "/vintage-gibson-es-330-value-guide/",
+      "/vintage-gibson-es-335-value-guide/",
+      "/vintage-gibson-es-355-value-guide/",
+      "/vintage-gibson-j-200-value-guide/",
+      "/vintage-gibson-j-45-value-guide/",
+      "/vintage-gibson-l-0-l-00-value-guide/",
+      "/vintage-gibson-les-paul-custom-value-guide/",
+      "/vintage-gibson-les-paul-junior-value-guide/",
+      "/vintage-gibson-les-paul-special-value-guide/",
+      "/vintage-gibson-lg-series-value-guide/",
+      "/vintage-gibson-sg-custom-value-guide/",
+      "/vintage-gibson-sg-junior-value-guide/",
+      "/vintage-gibson-sg-special-value-guide/",
+      "/vintage-gibson-sg-standard-value-guide/",
+      "/vintage-gibson-sg-value-guide/",
+      "/vintage-gibson-southern-jumbo-value-guide/",
+      "/vintage-gibson-value-guide/",
+      "/what-brand-is-my-guitar/",
+      "/what-guitar-do-i-have/",
+      "/what-lowers-vintage-guitar-value/",
+      "/where-to-sell-vintage-guitar-phoenix/"
+    ],
+    "changed": [
+      "/fender-guitars-serial-number-guide/",
+      "/fender-pickup-dates/",
+      "/fender-stratocaster-dating-guide/",
+      "/post/1966-fender-stratocaster-authentication-guide/",
+      "/post/1967-fender-stratocaster-authentication-guide/",
+      "/post/fender-custom-color-authentication-guide/",
+      "/sell-my-fender-guitar/",
+      "/sitemap/",
+      "/vintage-fender-stratocaster-value-guide/1965/",
+      "/vintage-fender-stratocaster-value-guide/"
+    ],
+    "explanation": "First build versus cached build uses generated /og/ metadata image paths on existing pages; the rendered body is unchanged except the listed authorized link, hub and sitemap changes.",
+    "unchangedGuideActions": "The 30 Rickenbacker pages, both J-200 pages and all untouched GuideActions consumers retain identical body markup. The 10 body changes are limited to the authorized links, Strat hub and sitemap."
+  },
+  "links": {
+    "pagesChecked": 25,
+    "errors": []
+  },
+  "inventory": [
+    {
+      "path": "/vintage-fender-stratocaster-value-guide/1966/",
+      "title": "1966 Fender Stratocaster Value Guide: Price & Specs",
+      "titleLength": 51,
+      "descriptionLength": 144,
+      "words": 1267,
+      "h2": [
+        "What Is A 1966 Fender Stratocaster Worth?",
+        "1966 Stratocaster Values By Condition",
+        "How To Identify A 1966 Stratocaster",
+        "Inspection Checks For 1966",
+        "How I Would Appraise A 1966 Stratocaster",
+        "Related 1966 Stratocaster Guides",
+        "Compare Nearby Stratocaster Years",
+        "FAQs:1966 Stratocaster Values",
+        "Talk With Joe Today"
+      ],
+      "photoCount": 3,
+      "photoYears": [
+        1966,
+        1966
+      ],
+      "inbound": [
+        "/fender-guitars-serial-number-guide/",
+        "/fender-stratocaster-dating-guide/",
+        "/post/1966-fender-stratocaster-authentication-guide/"
+      ],
+      "comparisons": [
+        {
+          "left": "1966",
+          "right": "live 1965 Strat",
+          "shared": 397,
+          "leftGramCount": 1330,
+          "rightGramCount": 1143,
+          "jaccard": 0.19123314065510597,
+          "overlapCoefficient": 0.347331583552056
+        },
+        {
+          "left": "1966",
+          "right": "live 1966-1968 Tele",
+          "shared": 207,
+          "leftGramCount": 1330,
+          "rightGramCount": 1159,
+          "jaccard": 0.09070990359333918,
+          "overlapCoefficient": 0.17860224331320104
+        },
+        {
+          "left": "1966",
+          "right": "1967",
+          "shared": 494,
+          "leftGramCount": 1330,
+          "rightGramCount": 1241,
+          "jaccard": 0.2378430428502648,
+          "overlapCoefficient": 0.3980660757453666
+        }
+      ],
+      "sellLinks": [
+        {
+          "label": "how to sell your Fender",
+          "href": "/sell-my-fender-guitar/"
+        }
+      ]
+    },
+    {
+      "path": "/vintage-fender-stratocaster-value-guide/1967/",
+      "title": "1967 Fender Stratocaster Value Guide: Price & Specs",
+      "titleLength": 51,
+      "descriptionLength": 147,
+      "words": 1181,
+      "h2": [
+        "What Is A 1967 Fender Stratocaster Worth?",
+        "1967 Stratocaster Values By Condition",
+        "How To Identify A 1967 Stratocaster",
+        "Inspection Checks For 1967",
+        "How I Would Appraise A 1967 Stratocaster",
+        "Related 1967 Stratocaster Guides",
+        "Compare Nearby Stratocaster Years",
+        "FAQs:1967 Stratocaster Values",
+        "Talk With Joe Today"
+      ],
+      "photoCount": 3,
+      "photoYears": [
+        1967,
+        1967
+      ],
+      "inbound": [
+        "/fender-guitars-serial-number-guide/",
+        "/fender-stratocaster-dating-guide/",
+        "/post/1967-fender-stratocaster-authentication-guide/"
+      ],
+      "comparisons": [
+        {
+          "left": "1966",
+          "right": "1967",
+          "shared": 494,
+          "leftGramCount": 1330,
+          "rightGramCount": 1241,
+          "jaccard": 0.2378430428502648,
+          "overlapCoefficient": 0.3980660757453666
+        },
+        {
+          "left": "1967",
+          "right": "live 1965 Strat",
+          "shared": 396,
+          "leftGramCount": 1241,
+          "rightGramCount": 1143,
+          "jaccard": 0.19919517102615694,
+          "overlapCoefficient": 0.3464566929133858
+        },
+        {
+          "left": "1967",
+          "right": "live 1966-1968 Tele",
+          "shared": 199,
+          "leftGramCount": 1241,
+          "rightGramCount": 1159,
+          "jaccard": 0.09041344843253067,
+          "overlapCoefficient": 0.17169974115616912
+        },
+        {
+          "left": "1967",
+          "right": "1968",
+          "shared": 508,
+          "leftGramCount": 1241,
+          "rightGramCount": 1505,
+          "jaccard": 0.22698838248436104,
+          "overlapCoefficient": 0.40934730056406127
+        }
+      ],
+      "sellLinks": [
+        {
+          "label": "how to sell your Fender",
+          "href": "/sell-my-fender-guitar/"
+        }
+      ]
+    },
+    {
+      "path": "/vintage-fender-stratocaster-value-guide/1968/",
+      "title": "1968 Fender Stratocaster Value Guide: Price & Specs",
+      "titleLength": 51,
+      "descriptionLength": 145,
+      "words": 1420,
+      "h2": [
+        "What Is A 1968 Fender Stratocaster Worth?",
+        "1968 Stratocaster Values By Condition",
+        "How To Identify A 1968 Stratocaster",
+        "Inspection Checks For 1968",
+        "How I Would Appraise A 1968 Stratocaster",
+        "Related 1968 Stratocaster Guides",
+        "Compare Nearby Stratocaster Years",
+        "FAQs:1968 Stratocaster Values",
+        "Talk With Joe Today"
+      ],
+      "photoCount": 3,
+      "photoYears": [
+        1968,
+        1968
+      ],
+      "inbound": [
+        "/fender-guitars-serial-number-guide/",
+        "/fender-stratocaster-dating-guide/",
+        "/post/fender-custom-color-authentication-guide/"
+      ],
+      "comparisons": [
+        {
+          "left": "1967",
+          "right": "1968",
+          "shared": 508,
+          "leftGramCount": 1241,
+          "rightGramCount": 1505,
+          "jaccard": 0.22698838248436104,
+          "overlapCoefficient": 0.40934730056406127
+        },
+        {
+          "left": "1968",
+          "right": "live 1965 Strat",
+          "shared": 396,
+          "leftGramCount": 1505,
+          "rightGramCount": 1143,
+          "jaccard": 0.17584369449378331,
+          "overlapCoefficient": 0.3464566929133858
+        },
+        {
+          "left": "1968",
+          "right": "live 1966-1968 Tele",
+          "shared": 199,
+          "leftGramCount": 1505,
+          "rightGramCount": 1159,
+          "jaccard": 0.08073022312373225,
+          "overlapCoefficient": 0.17169974115616912
+        },
+        {
+          "left": "1968",
+          "right": "1969",
+          "shared": 494,
+          "leftGramCount": 1505,
+          "rightGramCount": 1261,
+          "jaccard": 0.21742957746478872,
+          "overlapCoefficient": 0.3917525773195876
+        }
+      ],
+      "sellLinks": [
+        {
+          "label": "how to sell your Fender",
+          "href": "/sell-my-fender-guitar/"
+        }
+      ]
+    },
+    {
+      "path": "/vintage-fender-stratocaster-value-guide/1969/",
+      "title": "1969 Fender Stratocaster Value Guide: Price & Specs",
+      "titleLength": 51,
+      "descriptionLength": 144,
+      "words": 1212,
+      "h2": [
+        "What Is A 1969 Fender Stratocaster Worth?",
+        "1969 Stratocaster Values By Condition",
+        "How To Identify A 1969 Stratocaster",
+        "Inspection Checks For 1969",
+        "How I Would Appraise A 1969 Stratocaster",
+        "Related 1969 Stratocaster Guides",
+        "Compare Nearby Stratocaster Years",
+        "FAQs:1969 Stratocaster Values",
+        "Talk With Joe Today"
+      ],
+      "photoCount": 3,
+      "photoYears": [
+        1971,
+        1971
+      ],
+      "inbound": [
+        "/fender-guitars-serial-number-guide/",
+        "/fender-stratocaster-dating-guide/",
+        "/post/fender-custom-color-authentication-guide/"
+      ],
+      "comparisons": [
+        {
+          "left": "1968",
+          "right": "1969",
+          "shared": 494,
+          "leftGramCount": 1505,
+          "rightGramCount": 1261,
+          "jaccard": 0.21742957746478872,
+          "overlapCoefficient": 0.3917525773195876
+        },
+        {
+          "left": "1969",
+          "right": "live 1965 Strat",
+          "shared": 396,
+          "leftGramCount": 1261,
+          "rightGramCount": 1143,
+          "jaccard": 0.19721115537848605,
+          "overlapCoefficient": 0.3464566929133858
+        },
+        {
+          "left": "1969",
+          "right": "live 1966-1968 Tele",
+          "shared": 199,
+          "leftGramCount": 1261,
+          "rightGramCount": 1159,
+          "jaccard": 0.08959927960378208,
+          "overlapCoefficient": 0.17169974115616912
+        },
+        {
+          "left": "1969",
+          "right": "1970",
+          "shared": 498,
+          "leftGramCount": 1261,
+          "rightGramCount": 1254,
+          "jaccard": 0.24690133862171543,
+          "overlapCoefficient": 0.39712918660287083
+        }
+      ],
+      "sellLinks": [
+        {
+          "label": "how to sell your Fender",
+          "href": "/sell-my-fender-guitar/"
+        }
+      ]
+    },
+    {
+      "path": "/vintage-fender-stratocaster-value-guide/1970/",
+      "title": "1970 Fender Stratocaster Value Guide: Price & Specs",
+      "titleLength": 51,
+      "descriptionLength": 145,
+      "words": 1191,
+      "h2": [
+        "What Is A 1970 Fender Stratocaster Worth?",
+        "1970 Stratocaster Values By Condition",
+        "How To Identify A 1970 Stratocaster",
+        "Inspection Checks For 1970",
+        "How I Would Appraise A 1970 Stratocaster",
+        "Related 1970 Stratocaster Guides",
+        "Compare Nearby Stratocaster Years",
+        "FAQs:1970 Stratocaster Values",
+        "Talk With Joe Today"
+      ],
+      "photoCount": 3,
+      "photoYears": [
+        1971,
+        1971
+      ],
+      "inbound": [
+        "/fender-guitars-serial-number-guide/",
+        "/fender-stratocaster-dating-guide/"
+      ],
+      "comparisons": [
+        {
+          "left": "1969",
+          "right": "1970",
+          "shared": 498,
+          "leftGramCount": 1261,
+          "rightGramCount": 1254,
+          "jaccard": 0.24690133862171543,
+          "overlapCoefficient": 0.39712918660287083
+        },
+        {
+          "left": "1970",
+          "right": "live 1965 Strat",
+          "shared": 397,
+          "leftGramCount": 1254,
+          "rightGramCount": 1143,
+          "jaccard": 0.1985,
+          "overlapCoefficient": 0.347331583552056
+        },
+        {
+          "left": "1970",
+          "right": "live 1966-1968 Tele",
+          "shared": 200,
+          "leftGramCount": 1254,
+          "rightGramCount": 1159,
+          "jaccard": 0.0903750564844103,
+          "overlapCoefficient": 0.1725625539257981
+        },
+        {
+          "left": "1970",
+          "right": "1971",
+          "shared": 450,
+          "leftGramCount": 1254,
+          "rightGramCount": 1305,
+          "jaccard": 0.21337126600284495,
+          "overlapCoefficient": 0.3588516746411483
+        }
+      ],
+      "sellLinks": [
+        {
+          "label": "how to sell your Fender",
+          "href": "/sell-my-fender-guitar/"
+        }
+      ]
+    },
+    {
+      "path": "/vintage-fender-stratocaster-value-guide/1971/",
+      "title": "1971 Fender Stratocaster Value Guide: Price & Specs",
+      "titleLength": 51,
+      "descriptionLength": 144,
+      "words": 1241,
+      "h2": [
+        "What Is A 1971 Fender Stratocaster Worth?",
+        "1971 Stratocaster Values By Condition",
+        "How To Identify A 1971 Stratocaster",
+        "Inspection Checks For 1971",
+        "How I Would Appraise A 1971 Stratocaster",
+        "Related 1971 Stratocaster Guides",
+        "Compare Nearby Stratocaster Years",
+        "FAQs:1971 Stratocaster Values",
+        "Talk With Joe Today"
+      ],
+      "photoCount": 3,
+      "photoYears": [
+        1971,
+        1971
+      ],
+      "inbound": [
+        "/fender-guitars-serial-number-guide/",
+        "/fender-stratocaster-dating-guide/"
+      ],
+      "comparisons": [
+        {
+          "left": "1970",
+          "right": "1971",
+          "shared": 450,
+          "leftGramCount": 1254,
+          "rightGramCount": 1305,
+          "jaccard": 0.21337126600284495,
+          "overlapCoefficient": 0.3588516746411483
+        },
+        {
+          "left": "1971",
+          "right": "live 1965 Strat",
+          "shared": 345,
+          "leftGramCount": 1305,
+          "rightGramCount": 1143,
+          "jaccard": 0.16405135520684735,
+          "overlapCoefficient": 0.30183727034120733
+        },
+        {
+          "left": "1971",
+          "right": "live 1966-1968 Tele",
+          "shared": 187,
+          "leftGramCount": 1305,
+          "rightGramCount": 1159,
+          "jaccard": 0.0821256038647343,
+          "overlapCoefficient": 0.16134598792062121
+        },
+        {
+          "left": "1971",
+          "right": "1972",
+          "shared": 445,
+          "leftGramCount": 1305,
+          "rightGramCount": 1240,
+          "jaccard": 0.2119047619047619,
+          "overlapCoefficient": 0.3588709677419355
+        }
+      ],
+      "sellLinks": [
+        {
+          "label": "how to sell your Fender",
+          "href": "/sell-my-fender-guitar/"
+        }
+      ]
+    },
+    {
+      "path": "/vintage-fender-stratocaster-value-guide/1972/",
+      "title": "1972 Fender Stratocaster Value Guide: Price & Specs",
+      "titleLength": 51,
+      "descriptionLength": 146,
+      "words": 1182,
+      "h2": [
+        "What Is A 1972 Fender Stratocaster Worth?",
+        "1972 Stratocaster Values By Condition",
+        "How To Identify A 1972 Stratocaster",
+        "Inspection Checks For 1972",
+        "How I Would Appraise A 1972 Stratocaster",
+        "Related 1972 Stratocaster Guides",
+        "Compare Nearby Stratocaster Years",
+        "FAQs:1972 Stratocaster Values",
+        "Talk With Joe Today"
+      ],
+      "photoCount": 3,
+      "photoYears": [
+        1979,
+        1979
+      ],
+      "inbound": [
+        "/fender-guitars-serial-number-guide/",
+        "/post/fender-custom-color-authentication-guide/"
+      ],
+      "comparisons": [
+        {
+          "left": "1971",
+          "right": "1972",
+          "shared": 445,
+          "leftGramCount": 1305,
+          "rightGramCount": 1240,
+          "jaccard": 0.2119047619047619,
+          "overlapCoefficient": 0.3588709677419355
+        },
+        {
+          "left": "1972",
+          "right": "live 1965 Strat",
+          "shared": 396,
+          "leftGramCount": 1240,
+          "rightGramCount": 1143,
+          "jaccard": 0.1992954202315048,
+          "overlapCoefficient": 0.3464566929133858
+        },
+        {
+          "left": "1972",
+          "right": "live 1966-1968 Tele",
+          "shared": 199,
+          "leftGramCount": 1240,
+          "rightGramCount": 1159,
+          "jaccard": 0.09045454545454545,
+          "overlapCoefficient": 0.17169974115616912
+        },
+        {
+          "left": "1972",
+          "right": "1973",
+          "shared": 502,
+          "leftGramCount": 1240,
+          "rightGramCount": 1274,
+          "jaccard": 0.24950298210735586,
+          "overlapCoefficient": 0.40483870967741936
+        }
+      ],
+      "sellLinks": [
+        {
+          "label": "how to sell your Fender",
+          "href": "/sell-my-fender-guitar/"
+        }
+      ]
+    },
+    {
+      "path": "/vintage-fender-stratocaster-value-guide/1973/",
+      "title": "1973 Fender Stratocaster Value Guide: Price & Specs",
+      "titleLength": 51,
+      "descriptionLength": 145,
+      "words": 1217,
+      "h2": [
+        "What Is A 1973 Fender Stratocaster Worth?",
+        "1973 Stratocaster Values By Condition",
+        "How To Identify A 1973 Stratocaster",
+        "Inspection Checks For 1973",
+        "How I Would Appraise A 1973 Stratocaster",
+        "Related 1973 Stratocaster Guides",
+        "Compare Nearby Stratocaster Years",
+        "FAQs:1973 Stratocaster Values",
+        "Talk With Joe Today"
+      ],
+      "photoCount": 3,
+      "photoYears": [
+        1979,
+        1979
+      ],
+      "inbound": [
+        "/fender-guitars-serial-number-guide/",
+        "/post/fender-custom-color-authentication-guide/"
+      ],
+      "comparisons": [
+        {
+          "left": "1972",
+          "right": "1973",
+          "shared": 502,
+          "leftGramCount": 1240,
+          "rightGramCount": 1274,
+          "jaccard": 0.24950298210735586,
+          "overlapCoefficient": 0.40483870967741936
+        },
+        {
+          "left": "1973",
+          "right": "live 1965 Strat",
+          "shared": 396,
+          "leftGramCount": 1274,
+          "rightGramCount": 1143,
+          "jaccard": 0.19594260267194458,
+          "overlapCoefficient": 0.3464566929133858
+        },
+        {
+          "left": "1973",
+          "right": "live 1966-1968 Tele",
+          "shared": 199,
+          "leftGramCount": 1274,
+          "rightGramCount": 1159,
+          "jaccard": 0.08907788719785138,
+          "overlapCoefficient": 0.17169974115616912
+        },
+        {
+          "left": "1973",
+          "right": "1974",
+          "shared": 438,
+          "leftGramCount": 1274,
+          "rightGramCount": 1245,
+          "jaccard": 0.21047573282075924,
+          "overlapCoefficient": 0.35180722891566263
+        }
+      ],
+      "sellLinks": [
+        {
+          "label": "how to sell your Fender",
+          "href": "/sell-my-fender-guitar/"
+        }
+      ]
+    },
+    {
+      "path": "/vintage-fender-stratocaster-value-guide/1974/",
+      "title": "1974 Fender Stratocaster Value Guide: Price & Specs",
+      "titleLength": 51,
+      "descriptionLength": 145,
+      "words": 1218,
+      "h2": [
+        "What Is A 1974 Fender Stratocaster Worth?",
+        "1974 Stratocaster Values By Condition",
+        "How To Identify A 1974 Stratocaster",
+        "Inspection Checks For 1974",
+        "How I Would Appraise A 1974 Stratocaster",
+        "Related 1974 Stratocaster Guides",
+        "Compare Nearby Stratocaster Years",
+        "FAQs:1974 Stratocaster Values",
+        "Talk With Joe Today"
+      ],
+      "photoCount": 3,
+      "photoYears": [
+        1975,
+        1979
+      ],
+      "inbound": [
+        "/fender-guitars-serial-number-guide/",
+        "/post/fender-custom-color-authentication-guide/"
+      ],
+      "comparisons": [
+        {
+          "left": "1973",
+          "right": "1974",
+          "shared": 438,
+          "leftGramCount": 1274,
+          "rightGramCount": 1245,
+          "jaccard": 0.21047573282075924,
+          "overlapCoefficient": 0.35180722891566263
+        },
+        {
+          "left": "1974",
+          "right": "live 1965 Strat",
+          "shared": 342,
+          "leftGramCount": 1245,
+          "rightGramCount": 1143,
+          "jaccard": 0.16715542521994134,
+          "overlapCoefficient": 0.2992125984251969
+        },
+        {
+          "left": "1974",
+          "right": "live 1966-1968 Tele",
+          "shared": 186,
+          "leftGramCount": 1245,
+          "rightGramCount": 1159,
+          "jaccard": 0.08385933273219116,
+          "overlapCoefficient": 0.16048317515099222
+        },
+        {
+          "left": "1974",
+          "right": "1975",
+          "shared": 462,
+          "leftGramCount": 1245,
+          "rightGramCount": 1375,
+          "jaccard": 0.21408711770157554,
+          "overlapCoefficient": 0.3710843373493976
+        }
+      ],
+      "sellLinks": [
+        {
+          "label": "how to sell your Fender",
+          "href": "/sell-my-fender-guitar/"
+        }
+      ]
+    },
+    {
+      "path": "/vintage-fender-stratocaster-value-guide/1975/",
+      "title": "1975 Fender Stratocaster Value Guide: Price & Specs",
+      "titleLength": 51,
+      "descriptionLength": 145,
+      "words": 1333,
+      "h2": [
+        "What Is A 1975 Fender Stratocaster Worth?",
+        "1975 Stratocaster Values By Condition",
+        "How To Identify A 1975 Stratocaster",
+        "Inspection Checks For 1975",
+        "How I Would Appraise A 1975 Stratocaster",
+        "Related 1975 Stratocaster Guides",
+        "Compare Nearby Stratocaster Years",
+        "FAQs:1975 Stratocaster Values",
+        "Talk With Joe Today"
+      ],
+      "photoCount": 3,
+      "photoYears": [
+        1975,
+        1975
+      ],
+      "inbound": [
+        "/fender-guitars-serial-number-guide/",
+        "/post/fender-custom-color-authentication-guide/"
+      ],
+      "comparisons": [
+        {
+          "left": "1974",
+          "right": "1975",
+          "shared": 462,
+          "leftGramCount": 1245,
+          "rightGramCount": 1375,
+          "jaccard": 0.21408711770157554,
+          "overlapCoefficient": 0.3710843373493976
+        },
+        {
+          "left": "1975",
+          "right": "live 1965 Strat",
+          "shared": 343,
+          "leftGramCount": 1375,
+          "rightGramCount": 1143,
+          "jaccard": 0.15770114942528735,
+          "overlapCoefficient": 0.300087489063867
+        },
+        {
+          "left": "1975",
+          "right": "live 1966-1968 Tele",
+          "shared": 186,
+          "leftGramCount": 1375,
+          "rightGramCount": 1159,
+          "jaccard": 0.07921635434412266,
+          "overlapCoefficient": 0.16048317515099222
+        },
+        {
+          "left": "1975",
+          "right": "1976",
+          "shared": 435,
+          "leftGramCount": 1375,
+          "rightGramCount": 1191,
+          "jaccard": 0.2041295166588456,
+          "overlapCoefficient": 0.36523929471032746
+        }
+      ],
+      "sellLinks": [
+        {
+          "label": "how to sell your Fender",
+          "href": "/sell-my-fender-guitar/"
+        }
+      ]
+    },
+    {
+      "path": "/vintage-fender-stratocaster-value-guide/1976/",
+      "title": "1976 Fender Stratocaster Value Guide: Price & Specs",
+      "titleLength": 51,
+      "descriptionLength": 146,
+      "words": 1184,
+      "h2": [
+        "What Is A 1976 Fender Stratocaster Worth?",
+        "1976 Stratocaster Values By Condition",
+        "How To Identify A 1976 Stratocaster",
+        "Inspection Checks For 1976",
+        "How I Would Appraise A 1976 Stratocaster",
+        "Related 1976 Stratocaster Guides",
+        "Compare Nearby Stratocaster Years",
+        "FAQs:1976 Stratocaster Values",
+        "Talk With Joe Today"
+      ],
+      "photoCount": 3,
+      "photoYears": [
+        1979,
+        1979
+      ],
+      "inbound": [
+        "/fender-guitars-serial-number-guide/",
+        "/fender-pickup-dates/"
+      ],
+      "comparisons": [
+        {
+          "left": "1975",
+          "right": "1976",
+          "shared": 435,
+          "leftGramCount": 1375,
+          "rightGramCount": 1191,
+          "jaccard": 0.2041295166588456,
+          "overlapCoefficient": 0.36523929471032746
+        },
+        {
+          "left": "1976",
+          "right": "live 1965 Strat",
+          "shared": 341,
+          "leftGramCount": 1191,
+          "rightGramCount": 1143,
+          "jaccard": 0.17109884596086303,
+          "overlapCoefficient": 0.2983377077865267
+        },
+        {
+          "left": "1976",
+          "right": "live 1966-1968 Tele",
+          "shared": 186,
+          "leftGramCount": 1191,
+          "rightGramCount": 1159,
+          "jaccard": 0.08595194085027727,
+          "overlapCoefficient": 0.16048317515099222
+        },
+        {
+          "left": "1976",
+          "right": "1977",
+          "shared": 501,
+          "leftGramCount": 1191,
+          "rightGramCount": 1185,
+          "jaccard": 0.2672,
+          "overlapCoefficient": 0.42278481012658226
+        }
+      ],
+      "sellLinks": [
+        {
+          "label": "how to sell your Fender",
+          "href": "/sell-my-fender-guitar/"
+        }
+      ]
+    },
+    {
+      "path": "/vintage-fender-stratocaster-value-guide/1977/",
+      "title": "1977 Fender Stratocaster Value Guide: Price & Specs",
+      "titleLength": 51,
+      "descriptionLength": 142,
+      "words": 1185,
+      "h2": [
+        "What Is A 1977 Fender Stratocaster Worth?",
+        "1977 Stratocaster Values By Condition",
+        "How To Identify A 1977 Stratocaster",
+        "Inspection Checks For 1977",
+        "How I Would Appraise A 1977 Stratocaster",
+        "Related 1977 Stratocaster Guides",
+        "Compare Nearby Stratocaster Years",
+        "FAQs:1977 Stratocaster Values",
+        "Talk With Joe Today"
+      ],
+      "photoCount": 3,
+      "photoYears": [
+        1975,
+        1979
+      ],
+      "inbound": [
+        "/fender-guitars-serial-number-guide/",
+        "/fender-pickup-dates/"
+      ],
+      "comparisons": [
+        {
+          "left": "1976",
+          "right": "1977",
+          "shared": 501,
+          "leftGramCount": 1191,
+          "rightGramCount": 1185,
+          "jaccard": 0.2672,
+          "overlapCoefficient": 0.42278481012658226
+        },
+        {
+          "left": "1977",
+          "right": "live 1965 Strat",
+          "shared": 341,
+          "leftGramCount": 1185,
+          "rightGramCount": 1143,
+          "jaccard": 0.1716155007549069,
+          "overlapCoefficient": 0.2983377077865267
+        },
+        {
+          "left": "1977",
+          "right": "live 1966-1968 Tele",
+          "shared": 186,
+          "leftGramCount": 1185,
+          "rightGramCount": 1159,
+          "jaccard": 0.08619091751621873,
+          "overlapCoefficient": 0.16048317515099222
+        },
+        {
+          "left": "1977",
+          "right": "1978",
+          "shared": 467,
+          "leftGramCount": 1185,
+          "rightGramCount": 1148,
+          "jaccard": 0.2502679528403001,
+          "overlapCoefficient": 0.406794425087108
+        }
+      ],
+      "sellLinks": [
+        {
+          "label": "how to sell your Fender",
+          "href": "/sell-my-fender-guitar/"
+        }
+      ]
+    },
+    {
+      "path": "/vintage-fender-stratocaster-value-guide/1978/",
+      "title": "1978 Fender Stratocaster Value Guide: Price & Specs",
+      "titleLength": 51,
+      "descriptionLength": 147,
+      "words": 1141,
+      "h2": [
+        "What Is A 1978 Fender Stratocaster Worth?",
+        "1978 Stratocaster Values By Condition",
+        "How To Identify A 1978 Stratocaster",
+        "Inspection Checks For 1978",
+        "How I Would Appraise A 1978 Stratocaster",
+        "Related 1978 Stratocaster Guides",
+        "Compare Nearby Stratocaster Years",
+        "FAQs:1978 Stratocaster Values",
+        "Talk With Joe Today"
+      ],
+      "photoCount": 3,
+      "photoYears": [
+        1975,
+        1979
+      ],
+      "inbound": [
+        "/fender-guitars-serial-number-guide/",
+        "/fender-pickup-dates/"
+      ],
+      "comparisons": [
+        {
+          "left": "1977",
+          "right": "1978",
+          "shared": 467,
+          "leftGramCount": 1185,
+          "rightGramCount": 1148,
+          "jaccard": 0.2502679528403001,
+          "overlapCoefficient": 0.406794425087108
+        },
+        {
+          "left": "1978",
+          "right": "live 1965 Strat",
+          "shared": 341,
+          "leftGramCount": 1148,
+          "rightGramCount": 1143,
+          "jaccard": 0.17487179487179488,
+          "overlapCoefficient": 0.2983377077865267
+        },
+        {
+          "left": "1978",
+          "right": "live 1966-1968 Tele",
+          "shared": 186,
+          "leftGramCount": 1148,
+          "rightGramCount": 1159,
+          "jaccard": 0.0876944837340877,
+          "overlapCoefficient": 0.16202090592334495
+        },
+        {
+          "left": "1978",
+          "right": "1979",
+          "shared": 443,
+          "leftGramCount": 1148,
+          "rightGramCount": 1190,
+          "jaccard": 0.23377308707124012,
+          "overlapCoefficient": 0.3858885017421603
+        }
+      ],
+      "sellLinks": [
+        {
+          "label": "how to sell your Fender",
+          "href": "/sell-my-fender-guitar/"
+        }
+      ]
+    },
+    {
+      "path": "/vintage-fender-stratocaster-value-guide/1979/",
+      "title": "1979 Fender Stratocaster Value Guide: Price & Specs",
+      "titleLength": 51,
+      "descriptionLength": 142,
+      "words": 1183,
+      "h2": [
+        "What Is A 1979 Fender Stratocaster Worth?",
+        "1979 Stratocaster Values By Condition",
+        "How To Identify A 1979 Stratocaster",
+        "Inspection Checks For 1979",
+        "How I Would Appraise A 1979 Stratocaster",
+        "Related 1979 Stratocaster Guides",
+        "Compare Nearby Stratocaster Years",
+        "FAQs:1979 Stratocaster Values",
+        "Talk With Joe Today"
+      ],
+      "photoCount": 3,
+      "photoYears": [
+        1979,
+        1979
+      ],
+      "inbound": [
+        "/fender-guitars-serial-number-guide/",
+        "/fender-pickup-dates/"
+      ],
+      "comparisons": [
+        {
+          "left": "1978",
+          "right": "1979",
+          "shared": 443,
+          "leftGramCount": 1148,
+          "rightGramCount": 1190,
+          "jaccard": 0.23377308707124012,
+          "overlapCoefficient": 0.3858885017421603
+        },
+        {
+          "left": "1979",
+          "right": "live 1965 Strat",
+          "shared": 342,
+          "leftGramCount": 1190,
+          "rightGramCount": 1143,
+          "jaccard": 0.17177297840281266,
+          "overlapCoefficient": 0.2992125984251969
+        },
+        {
+          "left": "1979",
+          "right": "live 1966-1968 Tele",
+          "shared": 186,
+          "leftGramCount": 1190,
+          "rightGramCount": 1159,
+          "jaccard": 0.08599167822468794,
+          "overlapCoefficient": 0.16048317515099222
+        },
+        {
+          "left": "1979",
+          "right": "1980-1981",
+          "shared": 468,
+          "leftGramCount": 1190,
+          "rightGramCount": 1230,
+          "jaccard": 0.23975409836065573,
+          "overlapCoefficient": 0.39327731092436974
+        }
+      ],
+      "sellLinks": [
+        {
+          "label": "how to sell your Fender",
+          "href": "/sell-my-fender-guitar/"
+        }
+      ]
+    },
+    {
+      "path": "/vintage-fender-stratocaster-value-guide/1980-1981/",
+      "title": "1980 And 1981 Fender Stratocaster Values & Specs",
+      "titleLength": 48,
+      "descriptionLength": 145,
+      "words": 1231,
+      "h2": [
+        "What Are 1980 and 1981 Fender Stratocasters Worth?",
+        "1980 and 1981 Stratocaster Values By Condition",
+        "How To Identify 1980 and 1981 Stratocasters",
+        "Inspection Checks For 1980 and 1981",
+        "How I Would Appraise 1980 and 1981 Stratocasters",
+        "Related 1980 and 1981 Stratocaster Guides",
+        "Compare Nearby Stratocaster Years",
+        "FAQs:1980 and 1981 Stratocaster Values",
+        "Talk With Joe Today"
+      ],
+      "photoCount": 3,
+      "photoYears": [
+        1979,
+        1979
+      ],
+      "inbound": [
+        "/fender-guitars-serial-number-guide/",
+        "/fender-pickup-dates/"
+      ],
+      "comparisons": [
+        {
+          "left": "1979",
+          "right": "1980-1981",
+          "shared": 468,
+          "leftGramCount": 1190,
+          "rightGramCount": 1230,
+          "jaccard": 0.23975409836065573,
+          "overlapCoefficient": 0.39327731092436974
+        },
+        {
+          "left": "1980-1981",
+          "right": "live 1965 Strat",
+          "shared": 317,
+          "leftGramCount": 1230,
+          "rightGramCount": 1143,
+          "jaccard": 0.15418287937743191,
+          "overlapCoefficient": 0.2773403324584427
+        },
+        {
+          "left": "1980-1981",
+          "right": "live 1966-1968 Tele",
+          "shared": 172,
+          "leftGramCount": 1230,
+          "rightGramCount": 1159,
+          "jaccard": 0.07758231844835363,
+          "overlapCoefficient": 0.14840379637618636
+        }
+      ],
+      "sellLinks": [
+        {
+          "label": "how to sell your Fender",
+          "href": "/sell-my-fender-guitar/"
+        }
+      ]
+    }
+  ],
+  "layout": [
+    {
+      "path": "/vintage-fender-stratocaster-value-guide/1966/",
+      "width": 375,
+      "height": 812,
+      "documentWidth": 375,
+      "buttons": [
+        {
+          "label": "(602) 900-6635",
+          "href": "tel:+16029006635",
+          "top": 392.4375,
+          "bottom": 455.4375,
+          "fullyInViewport": true
+        },
+        {
+          "label": "Free Appraisal",
+          "href": "/free-appraisal/",
+          "top": 471.4375,
+          "bottom": 534.4375,
+          "fullyInViewport": true
+        }
+      ]
+    },
+    {
+      "path": "/vintage-fender-stratocaster-value-guide/1967/",
+      "width": 375,
+      "height": 812,
+      "documentWidth": 375,
+      "buttons": [
+        {
+          "label": "(602) 900-6635",
+          "href": "tel:+16029006635",
+          "top": 392.4375,
+          "bottom": 455.4375,
+          "fullyInViewport": true
+        },
+        {
+          "label": "Free Appraisal",
+          "href": "/free-appraisal/",
+          "top": 471.4375,
+          "bottom": 534.4375,
+          "fullyInViewport": true
+        }
+      ]
+    },
+    {
+      "path": "/vintage-fender-stratocaster-value-guide/1968/",
+      "width": 375,
+      "height": 812,
+      "documentWidth": 375,
+      "buttons": [
+        {
+          "label": "(602) 900-6635",
+          "href": "tel:+16029006635",
+          "top": 392.4375,
+          "bottom": 455.4375,
+          "fullyInViewport": true
+        },
+        {
+          "label": "Free Appraisal",
+          "href": "/free-appraisal/",
+          "top": 471.4375,
+          "bottom": 534.4375,
+          "fullyInViewport": true
+        }
+      ]
+    },
+    {
+      "path": "/vintage-fender-stratocaster-value-guide/1969/",
+      "width": 375,
+      "height": 812,
+      "documentWidth": 375,
+      "buttons": [
+        {
+          "label": "(602) 900-6635",
+          "href": "tel:+16029006635",
+          "top": 392.4375,
+          "bottom": 455.4375,
+          "fullyInViewport": true
+        },
+        {
+          "label": "Free Appraisal",
+          "href": "/free-appraisal/",
+          "top": 471.4375,
+          "bottom": 534.4375,
+          "fullyInViewport": true
+        }
+      ]
+    },
+    {
+      "path": "/vintage-fender-stratocaster-value-guide/1970/",
+      "width": 375,
+      "height": 812,
+      "documentWidth": 375,
+      "buttons": [
+        {
+          "label": "(602) 900-6635",
+          "href": "tel:+16029006635",
+          "top": 392.4375,
+          "bottom": 455.4375,
+          "fullyInViewport": true
+        },
+        {
+          "label": "Free Appraisal",
+          "href": "/free-appraisal/",
+          "top": 471.4375,
+          "bottom": 534.4375,
+          "fullyInViewport": true
+        }
+      ]
+    },
+    {
+      "path": "/vintage-fender-stratocaster-value-guide/1971/",
+      "width": 375,
+      "height": 812,
+      "documentWidth": 375,
+      "buttons": [
+        {
+          "label": "(602) 900-6635",
+          "href": "tel:+16029006635",
+          "top": 392.4375,
+          "bottom": 455.4375,
+          "fullyInViewport": true
+        },
+        {
+          "label": "Free Appraisal",
+          "href": "/free-appraisal/",
+          "top": 471.4375,
+          "bottom": 534.4375,
+          "fullyInViewport": true
+        }
+      ]
+    },
+    {
+      "path": "/vintage-fender-stratocaster-value-guide/1972/",
+      "width": 375,
+      "height": 812,
+      "documentWidth": 375,
+      "buttons": [
+        {
+          "label": "(602) 900-6635",
+          "href": "tel:+16029006635",
+          "top": 392.4375,
+          "bottom": 455.4375,
+          "fullyInViewport": true
+        },
+        {
+          "label": "Free Appraisal",
+          "href": "/free-appraisal/",
+          "top": 471.4375,
+          "bottom": 534.4375,
+          "fullyInViewport": true
+        }
+      ]
+    },
+    {
+      "path": "/vintage-fender-stratocaster-value-guide/1973/",
+      "width": 375,
+      "height": 812,
+      "documentWidth": 375,
+      "buttons": [
+        {
+          "label": "(602) 900-6635",
+          "href": "tel:+16029006635",
+          "top": 392.4375,
+          "bottom": 455.4375,
+          "fullyInViewport": true
+        },
+        {
+          "label": "Free Appraisal",
+          "href": "/free-appraisal/",
+          "top": 471.4375,
+          "bottom": 534.4375,
+          "fullyInViewport": true
+        }
+      ]
+    },
+    {
+      "path": "/vintage-fender-stratocaster-value-guide/1974/",
+      "width": 375,
+      "height": 812,
+      "documentWidth": 375,
+      "buttons": [
+        {
+          "label": "(602) 900-6635",
+          "href": "tel:+16029006635",
+          "top": 392.4375,
+          "bottom": 455.4375,
+          "fullyInViewport": true
+        },
+        {
+          "label": "Free Appraisal",
+          "href": "/free-appraisal/",
+          "top": 471.4375,
+          "bottom": 534.4375,
+          "fullyInViewport": true
+        }
+      ]
+    },
+    {
+      "path": "/vintage-fender-stratocaster-value-guide/1975/",
+      "width": 375,
+      "height": 812,
+      "documentWidth": 375,
+      "buttons": [
+        {
+          "label": "(602) 900-6635",
+          "href": "tel:+16029006635",
+          "top": 392.4375,
+          "bottom": 455.4375,
+          "fullyInViewport": true
+        },
+        {
+          "label": "Free Appraisal",
+          "href": "/free-appraisal/",
+          "top": 471.4375,
+          "bottom": 534.4375,
+          "fullyInViewport": true
+        }
+      ]
+    },
+    {
+      "path": "/vintage-fender-stratocaster-value-guide/1976/",
+      "width": 375,
+      "height": 812,
+      "documentWidth": 375,
+      "buttons": [
+        {
+          "label": "(602) 900-6635",
+          "href": "tel:+16029006635",
+          "top": 392.4375,
+          "bottom": 455.4375,
+          "fullyInViewport": true
+        },
+        {
+          "label": "Free Appraisal",
+          "href": "/free-appraisal/",
+          "top": 471.4375,
+          "bottom": 534.4375,
+          "fullyInViewport": true
+        }
+      ]
+    },
+    {
+      "path": "/vintage-fender-stratocaster-value-guide/1977/",
+      "width": 375,
+      "height": 812,
+      "documentWidth": 375,
+      "buttons": [
+        {
+          "label": "(602) 900-6635",
+          "href": "tel:+16029006635",
+          "top": 392.4375,
+          "bottom": 455.4375,
+          "fullyInViewport": true
+        },
+        {
+          "label": "Free Appraisal",
+          "href": "/free-appraisal/",
+          "top": 471.4375,
+          "bottom": 534.4375,
+          "fullyInViewport": true
+        }
+      ]
+    },
+    {
+      "path": "/vintage-fender-stratocaster-value-guide/1978/",
+      "width": 375,
+      "height": 812,
+      "documentWidth": 375,
+      "buttons": [
+        {
+          "label": "(602) 900-6635",
+          "href": "tel:+16029006635",
+          "top": 392.4375,
+          "bottom": 455.4375,
+          "fullyInViewport": true
+        },
+        {
+          "label": "Free Appraisal",
+          "href": "/free-appraisal/",
+          "top": 471.4375,
+          "bottom": 534.4375,
+          "fullyInViewport": true
+        }
+      ]
+    },
+    {
+      "path": "/vintage-fender-stratocaster-value-guide/1979/",
+      "width": 375,
+      "height": 812,
+      "documentWidth": 375,
+      "buttons": [
+        {
+          "label": "(602) 900-6635",
+          "href": "tel:+16029006635",
+          "top": 392.4375,
+          "bottom": 455.4375,
+          "fullyInViewport": true
+        },
+        {
+          "label": "Free Appraisal",
+          "href": "/free-appraisal/",
+          "top": 471.4375,
+          "bottom": 534.4375,
+          "fullyInViewport": true
+        }
+      ]
+    },
+    {
+      "path": "/vintage-fender-stratocaster-value-guide/1980-1981/",
+      "width": 375,
+      "height": 812,
+      "documentWidth": 375,
+      "buttons": [
+        {
+          "label": "(602) 900-6635",
+          "href": "tel:+16029006635",
+          "top": 392.4375,
+          "bottom": 455.4375,
+          "fullyInViewport": true
+        },
+        {
+          "label": "Free Appraisal",
+          "href": "/free-appraisal/",
+          "top": 471.4375,
+          "bottom": 534.4375,
+          "fullyInViewport": true
+        }
+      ]
+    },
+    {
+      "path": "/vintage-fender-stratocaster-value-guide/",
+      "width": 375,
+      "documentWidth": 375,
+      "clientWidth": 339,
+      "scrollWidth": 460,
+      "overflow": "auto"
+    },
+    {
+      "path": "/vintage-fender-stratocaster-value-guide/1966/",
+      "width": 1280,
+      "height": 800,
+      "documentWidth": 1280,
+      "buttons": [
+        {
+          "label": "(602) 900-6635",
+          "href": "tel:+16029006635",
+          "top": 504.71875,
+          "bottom": 573.71875,
+          "fullyInViewport": true
+        },
+        {
+          "label": "Free Appraisal",
+          "href": "/free-appraisal/",
+          "top": 504.71875,
+          "bottom": 573.71875,
+          "fullyInViewport": true
+        }
+      ]
+    },
+    {
+      "path": "/vintage-fender-stratocaster-value-guide/1967/",
+      "width": 1280,
+      "height": 800,
+      "documentWidth": 1280,
+      "buttons": [
+        {
+          "label": "(602) 900-6635",
+          "href": "tel:+16029006635",
+          "top": 504.71875,
+          "bottom": 573.71875,
+          "fullyInViewport": true
+        },
+        {
+          "label": "Free Appraisal",
+          "href": "/free-appraisal/",
+          "top": 504.71875,
+          "bottom": 573.71875,
+          "fullyInViewport": true
+        }
+      ]
+    },
+    {
+      "path": "/vintage-fender-stratocaster-value-guide/1968/",
+      "width": 1280,
+      "height": 800,
+      "documentWidth": 1280,
+      "buttons": [
+        {
+          "label": "(602) 900-6635",
+          "href": "tel:+16029006635",
+          "top": 504.71875,
+          "bottom": 573.71875,
+          "fullyInViewport": true
+        },
+        {
+          "label": "Free Appraisal",
+          "href": "/free-appraisal/",
+          "top": 504.71875,
+          "bottom": 573.71875,
+          "fullyInViewport": true
+        }
+      ]
+    },
+    {
+      "path": "/vintage-fender-stratocaster-value-guide/1969/",
+      "width": 1280,
+      "height": 800,
+      "documentWidth": 1280,
+      "buttons": [
+        {
+          "label": "(602) 900-6635",
+          "href": "tel:+16029006635",
+          "top": 504.71875,
+          "bottom": 573.71875,
+          "fullyInViewport": true
+        },
+        {
+          "label": "Free Appraisal",
+          "href": "/free-appraisal/",
+          "top": 504.71875,
+          "bottom": 573.71875,
+          "fullyInViewport": true
+        }
+      ]
+    },
+    {
+      "path": "/vintage-fender-stratocaster-value-guide/1970/",
+      "width": 1280,
+      "height": 800,
+      "documentWidth": 1280,
+      "buttons": [
+        {
+          "label": "(602) 900-6635",
+          "href": "tel:+16029006635",
+          "top": 504.71875,
+          "bottom": 573.71875,
+          "fullyInViewport": true
+        },
+        {
+          "label": "Free Appraisal",
+          "href": "/free-appraisal/",
+          "top": 504.71875,
+          "bottom": 573.71875,
+          "fullyInViewport": true
+        }
+      ]
+    },
+    {
+      "path": "/vintage-fender-stratocaster-value-guide/1971/",
+      "width": 1280,
+      "height": 800,
+      "documentWidth": 1280,
+      "buttons": [
+        {
+          "label": "(602) 900-6635",
+          "href": "tel:+16029006635",
+          "top": 504.71875,
+          "bottom": 573.71875,
+          "fullyInViewport": true
+        },
+        {
+          "label": "Free Appraisal",
+          "href": "/free-appraisal/",
+          "top": 504.71875,
+          "bottom": 573.71875,
+          "fullyInViewport": true
+        }
+      ]
+    },
+    {
+      "path": "/vintage-fender-stratocaster-value-guide/1972/",
+      "width": 1280,
+      "height": 800,
+      "documentWidth": 1280,
+      "buttons": [
+        {
+          "label": "(602) 900-6635",
+          "href": "tel:+16029006635",
+          "top": 504.71875,
+          "bottom": 573.71875,
+          "fullyInViewport": true
+        },
+        {
+          "label": "Free Appraisal",
+          "href": "/free-appraisal/",
+          "top": 504.71875,
+          "bottom": 573.71875,
+          "fullyInViewport": true
+        }
+      ]
+    },
+    {
+      "path": "/vintage-fender-stratocaster-value-guide/1973/",
+      "width": 1280,
+      "height": 800,
+      "documentWidth": 1280,
+      "buttons": [
+        {
+          "label": "(602) 900-6635",
+          "href": "tel:+16029006635",
+          "top": 504.71875,
+          "bottom": 573.71875,
+          "fullyInViewport": true
+        },
+        {
+          "label": "Free Appraisal",
+          "href": "/free-appraisal/",
+          "top": 504.71875,
+          "bottom": 573.71875,
+          "fullyInViewport": true
+        }
+      ]
+    },
+    {
+      "path": "/vintage-fender-stratocaster-value-guide/1974/",
+      "width": 1280,
+      "height": 800,
+      "documentWidth": 1280,
+      "buttons": [
+        {
+          "label": "(602) 900-6635",
+          "href": "tel:+16029006635",
+          "top": 504.71875,
+          "bottom": 573.71875,
+          "fullyInViewport": true
+        },
+        {
+          "label": "Free Appraisal",
+          "href": "/free-appraisal/",
+          "top": 504.71875,
+          "bottom": 573.71875,
+          "fullyInViewport": true
+        }
+      ]
+    },
+    {
+      "path": "/vintage-fender-stratocaster-value-guide/1975/",
+      "width": 1280,
+      "height": 800,
+      "documentWidth": 1280,
+      "buttons": [
+        {
+          "label": "(602) 900-6635",
+          "href": "tel:+16029006635",
+          "top": 504.71875,
+          "bottom": 573.71875,
+          "fullyInViewport": true
+        },
+        {
+          "label": "Free Appraisal",
+          "href": "/free-appraisal/",
+          "top": 504.71875,
+          "bottom": 573.71875,
+          "fullyInViewport": true
+        }
+      ]
+    },
+    {
+      "path": "/vintage-fender-stratocaster-value-guide/1976/",
+      "width": 1280,
+      "height": 800,
+      "documentWidth": 1280,
+      "buttons": [
+        {
+          "label": "(602) 900-6635",
+          "href": "tel:+16029006635",
+          "top": 504.71875,
+          "bottom": 573.71875,
+          "fullyInViewport": true
+        },
+        {
+          "label": "Free Appraisal",
+          "href": "/free-appraisal/",
+          "top": 504.71875,
+          "bottom": 573.71875,
+          "fullyInViewport": true
+        }
+      ]
+    },
+    {
+      "path": "/vintage-fender-stratocaster-value-guide/1977/",
+      "width": 1280,
+      "height": 800,
+      "documentWidth": 1280,
+      "buttons": [
+        {
+          "label": "(602) 900-6635",
+          "href": "tel:+16029006635",
+          "top": 504.71875,
+          "bottom": 573.71875,
+          "fullyInViewport": true
+        },
+        {
+          "label": "Free Appraisal",
+          "href": "/free-appraisal/",
+          "top": 504.71875,
+          "bottom": 573.71875,
+          "fullyInViewport": true
+        }
+      ]
+    },
+    {
+      "path": "/vintage-fender-stratocaster-value-guide/1978/",
+      "width": 1280,
+      "height": 800,
+      "documentWidth": 1280,
+      "buttons": [
+        {
+          "label": "(602) 900-6635",
+          "href": "tel:+16029006635",
+          "top": 504.71875,
+          "bottom": 573.71875,
+          "fullyInViewport": true
+        },
+        {
+          "label": "Free Appraisal",
+          "href": "/free-appraisal/",
+          "top": 504.71875,
+          "bottom": 573.71875,
+          "fullyInViewport": true
+        }
+      ]
+    },
+    {
+      "path": "/vintage-fender-stratocaster-value-guide/1979/",
+      "width": 1280,
+      "height": 800,
+      "documentWidth": 1280,
+      "buttons": [
+        {
+          "label": "(602) 900-6635",
+          "href": "tel:+16029006635",
+          "top": 504.71875,
+          "bottom": 573.71875,
+          "fullyInViewport": true
+        },
+        {
+          "label": "Free Appraisal",
+          "href": "/free-appraisal/",
+          "top": 504.71875,
+          "bottom": 573.71875,
+          "fullyInViewport": true
+        }
+      ]
+    },
+    {
+      "path": "/vintage-fender-stratocaster-value-guide/1980-1981/",
+      "width": 1280,
+      "height": 800,
+      "documentWidth": 1280,
+      "buttons": [
+        {
+          "label": "(602) 900-6635",
+          "href": "tel:+16029006635",
+          "top": 566.15625,
+          "bottom": 635.15625,
+          "fullyInViewport": true
+        },
+        {
+          "label": "Free Appraisal",
+          "href": "/free-appraisal/",
+          "top": 566.15625,
+          "bottom": 635.15625,
+          "fullyInViewport": true
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "scope": "All 15 new year pages plus the 10 existing pages whose body markup changes. All links on these pages, including shared navigation/footer, checked against the production sitemap and 15 new paths."
+}
