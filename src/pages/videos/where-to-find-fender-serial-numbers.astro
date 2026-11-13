@@ -392,6 +392,8 @@ const breadcrumbSchema = {
       if (!link) return;
       e.preventDefault();
       var s = parseInt(link.getAttribute("data-seek"), 10) || 0;
+      // Repeat the handshake in case the embed finished loading before this script ran.
+      send({ event: "listening", id: "fvw-player", channel: "widget" });
       send({ event: "command", func: "seekTo", args: [s, true] });
       send({ event: "command", func: "playVideo", args: [] });
       player.scrollIntoView({ behavior: "smooth", block: "center" });
