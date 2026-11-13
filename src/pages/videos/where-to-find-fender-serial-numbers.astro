@@ -1,0 +1,402 @@
+---
+/**
+ * Fender serial number VIDEO WATCH PAGE (first of the per-video pages).
+ *
+ * Why this page exists: Search Console listed 16 videos on the site and indexed
+ * none, all for "Video isn't on a watch page". Since December 2023 Google only
+ * shows a video result for a page whose main purpose is that one video, so a
+ * video on a guide or sell page counts as supporting content. This page is the
+ * watch page for PIRoB0KHEg0: the video first, then a short intro, clickable
+ * chapters, Joe's own transcript, and links back to the guides and the free
+ * appraisal. Josh (MFWD) asked for ONE page first, watched in Search Console for
+ * a few weeks, before building more (the left-handed conversion video is next).
+ *
+ * The player is a real YouTube <iframe> on purpose, unlike the lite-youtube
+ * facade used everywhere else. A facade only creates the iframe after a click,
+ * and this page's whole job is for Google to find the video on load, prominent
+ * and above the fold. See the decision log entry of 2026-11-13.
+ *
+ * The Fender serial hub (/fender-guitars-serial-number-guide/) is deliberately
+ * NOT edited: Joe froze the three serial hubs on 2026-11-10 until the next core
+ * update. The pot-codes and neck-dates spokes, which embed this same video, link
+ * here instead.
+ *
+ * Transcript: YouTube's caption track for the video, read in Joe's Chrome on
+ * 2026-11-13, lightly cleaned (filler words, stutters, and two caption typos
+ * removed; nothing added). Metadata (uploadDate, 345s length, chapter starts)
+ * from the watch page; chapter starts match the hub's YT_CHAPTERS.
+ */
+import Layout from "../../layouts/Layout.astro";
+import LicensedImage from "../../components/primitives/LicensedImage.astro";
+import { resolveImage, assetSrc, ogCardSize } from "../../lib/images";
+import { contact, hrefs, SITE_URL } from "../../config/site";
+
+const meta = (file: string) => resolveImage("images/fender-sn/" + file)!;
+const img = (file: string) => assetSrc("images/fender-sn/" + file);
+
+const PAGE_PATH = "/videos/where-to-find-fender-serial-numbers/";
+const HUB_PATH = "/fender-guitars-serial-number-guide/";
+const PAGE_URL = `${SITE_URL}${PAGE_PATH}`;
+
+const YT_ID = "PIRoB0KHEg0";
+const YT_TITLE = "Where to Find Fender Serial Numbers, Neck Heel Dates & Pot Codes (Identification Guide)";
+const YT_PARAMS = "rel=0&modestbranding=1&enablejsapi=1";
+const VIDEO_SECONDS = 345;
+const THUMB = "fender-serial-number-video-thumbnail.jpg";
+
+const fmt = (s: number) => `${Math.floor(s / 60)}:${String(s % 60).padStart(2, "0")}`;
+
+// [start seconds, chapter name, what it shows]
+const chapters: [number, string, string][] = [
+  [0, "Intro", "What the video covers: finding the serial number on a Fender, then dating the guitar beyond it."],
+  [9, "The Neck Plate", "On most vintage Fenders the serial number is stamped on the metal plate the neck screws pass through."],
+  [22, "The Bridge And The Headstock", "Vintage Telecasters and Precision Basses can carry it on the bridge. A serial on the front or back of the headstock points to a newer guitar."],
+  [45, "Why A Serial Number Can Mislead", "A neck plate comes off in seconds, so it can end up on another guitar. Parts guitars are common with Fender."],
+  [77, "Taking The Neck Off", "Joe slacks the strings and loosens each neck screw a little before backing any of them out, so the plate and neck never take lopsided pressure."],
+  [125, "Reading The Neck Heel Date", "This neck reads September 1967. The first two digits are a model code, then the month and year, and the last letter is the neck size."],
+  [184, "Finding The Pot Codes", "Wherever there is a knob, there is a pot under it with a date code on its back or side. This Jaguar's pot reads 304 6617, so 1966 pots."],
+  [295, "Putting It Together", "A 1967 neck with 1966 pots is a normal match. A neck plate from another era would mean the plate was replaced."],
+];
+
+// Joe's words, grouped by chapter. Lightly cleaned caption track (see header).
+const transcript: [number, string[]][] = [
+  [0, [
+    "Hey everybody, Joe here with Joe's Vintage Guitars. Today we're going to look at Fender serial numbers. The first thing we want to do is find the serial number.",
+  ]],
+  [9, [
+    "On most Fender guitars, especially on most vintage Fender guitars, it'll be right on this, which is called the neck plate. It'll have three or four screws holding a plate which holds the neck on, and the serial number will be stamped right on there.",
+  ]],
+  [22, [
+    "Another example of another location would be on the bridge, right here on the bridge. And this will only be on vintage Telecaster or Precision Bass guitars.",
+    "Also, you'll see them sometimes on the front or the back of the headstock. If you have that, it's a little bit newer guitar. We do have some charts to help you with that, though.",
+  ]],
+  [45, [
+    "One thing to keep in mind about Fender guitars is that this serial number is not the be all and end all. It won't necessarily tell you with 100% accuracy what year your guitar was made.",
+    "Why? Well, look at how modular this is. I could take this off and replace it with another one easily. It might get scratched. My belt buckle might mar it. It might be a parts guitar. Very common with Fender guitars. So, we do have to go into some advanced dating if we want to know exactly what year it is. Let's get into that. I'm going to take this guitar apart.",
+  ]],
+  [77, [
+    "All right. So, I've loosened the strings already. It's best to really just take them off, but I've done this a million times and I really don't want to take them all the way off.",
+    "And then we loosen up these neck bolts. I prefer to do the initial loosen on each one and then unscrew them so that we don't get any lopsided pressure on this plate or on the neck. And then we simply remove each screw. Let's take them out, actually.",
+    "All right. So, the screws are all removed. We'll take this plate off. And now we're going to look at the neck heel date.",
+  ]],
+  [125, [
+    "Okay. So, almost every single Fender guitar has a neck heel date, which is stamped right here, or written in pencil sometimes. So in this case, it's a September 67. These first two digits are just a model code. They won't help you at all with the date. So you're just looking at month, year, and then the last digit is the neck size. It's almost always B. Every once in a while it'll be an A, C, or D.",
+    "So that's our neck heel date. If it doesn't have one, it's possible that it may not have one, especially in 59 or 60, but almost always it'll have one.",
+    "So, we look at this serial number, which is a 67. We use it in conjunction with this, and we get a more accurate picture. These can even be a year off from the factory. You know, this could be a 66 neck plate and a 67, or this could be a 68 neck plate, for example. They would grab these out of a big bin and throw them on at the end. So, it wasn't always the most accurate.",
+  ]],
+  [184, [
+    "Let's look at pots now. Okay. So, we have our neck heel date. There's body dates, too. In this one, it'll be probably under the pickups or maybe in this cavity. I'm not going to take them off right now because it's a little bit of a pain, but you can look for a body date. Although, they don't always have them.",
+    "But one thing you can always look for is the pots, okay? Or the potentiometers. And that'll be wherever the knobs are. So, wherever there's knobs that you can turn, underneath that there's going to be some potentiometers with some date codes on them.",
+    "Okay. So, let's take this off. This is a good example guitar because you can just take this little metal plate off and see everything. On Stratocasters like this guitar, this one's not original, but you see how the knobs are mounted to the pickguard. It's a lot more annoying to do on that. So, that's why we're using a Jaguar today.",
+    "Okay. So, we've gained access to where the pots are located, which is under these knobs that you twist on any Fender guitar. And we're going to look at them now. We've got two pots here. This one and this one, which is covered by a capacitor, but they look like a little metal can, sort of. The codes that we're going to use in the dating are either going to be right on this back face of the pot or on the cylindrical side of the pot.",
+    "Using the advanced dating section below, you can find out how to decipher these codes. So, in this case, you won't be able to see this in the video, but it's 304 6617. So use the chart. 304 is our manufacturing code and the digits directly thereafter are going to tell us the year. So 66. 66 pots on this.",
+  ]],
+  [295, [
+    "Okay. So now we have the neck heel date. It's a 67. The pots are 66. I'm not worried about that. They can be apart by a year. This guitar was finished in 1967. It's got 66 pots. So we're pretty confident that everything's original so far.",
+    "And if this neck plate, let's say this neck plate was from like the 70s or a 63 neck plate or something, we could come to the conclusion, oh, my guitar wasn't a 63. It doesn't have the features of a 63. It doesn't have 63 pots or 62, 63, 64 pots, and the neck heel isn't that. So, this plate was replaced.",
+    "So, that's how we date our Fender. I hope that helps you go through the advanced dating section and not just rely on serial numbers. Again, if you need help dating something, give me a call and I'll help you out, too. Thanks.",
+  ]],
+];
+
+const nextSteps: [string, string, string][] = [
+  [HUB_PATH, "Fender Serial Number Guide", "The free serial lookup tool and the year by year serial charts."],
+  ["/fender-neck-dates/", "Fender Neck Dates", "How to read every style of neck heel date, from pencil dates to ink stamps."],
+  ["/fender-pot-codes/", "Fender Pot Codes", "Maker codes, date codes, and why CBS era pots often run older than the guitar."],
+  ["/fender-body-dates/", "Fender Body Dates", "How to read the date Fender put on its bodies."],
+  ["/free-appraisal/", "Free Appraisal", "Send three photos and I'll date and value the guitar for free."],
+];
+
+// ---- Schema ----
+const videoSchema = {
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "@id": `${PAGE_URL}#video`,
+  name: YT_TITLE,
+  description:
+    "Joe Dampt of Joe's Vintage Guitars takes a 1967 Fender Jaguar apart to show where to find the serial number, the neck heel date, and the potentiometer date codes, and how to use them together to date a vintage Fender.",
+  thumbnailUrl: [`https://i.ytimg.com/vi/${YT_ID}/maxresdefault.jpg`, `${SITE_URL}${img(THUMB)}`],
+  uploadDate: "2026-01-13T14:57:02-08:00",
+  duration: "PT5M45S",
+  embedUrl: `https://www.youtube.com/embed/${YT_ID}`,
+  contentUrl: `https://www.youtube.com/watch?v=${YT_ID}`,
+  inLanguage: "en-US",
+  author: { "@id": `${SITE_URL}/about-me/#person` },
+  publisher: { "@id": `${SITE_URL}/` },
+  transcript: transcript.map(([, paras]) => paras.join(" ")).join(" "),
+  hasPart: chapters.map(([start, name], i) => ({
+    "@type": "Clip",
+    name,
+    startOffset: start,
+    endOffset: i + 1 < chapters.length ? chapters[i + 1][0] : VIDEO_SECONDS,
+    url: `${PAGE_URL}?t=${start}`,
+  })),
+};
+const pageSchema = {
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "@id": PAGE_URL,
+  url: PAGE_URL,
+  name: "Where To Find Fender Serial Numbers, Neck Heel Dates And Pot Codes",
+  inLanguage: "en-US",
+  isPartOf: { "@id": `${SITE_URL}/` },
+  mainEntity: { "@id": `${PAGE_URL}#video` },
+  primaryImageOfPage: `${SITE_URL}${img(THUMB)}`,
+};
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL + "/" },
+    { "@type": "ListItem", position: 2, name: "Fender Serial Number Guide", item: `${SITE_URL}${HUB_PATH}` },
+    { "@type": "ListItem", position: 3, name: "Fender Serial Number Video", item: PAGE_URL },
+  ],
+};
+---
+
+<Layout
+  title="Where To Find Fender Serial Numbers, Neck Dates And Pot Codes (Video)"
+  description="Watch Joe Dampt find the serial number, neck heel date and pot codes on a 1967 Fender Jaguar. Chapters, a full transcript and a free serial lookup."
+  canonical={PAGE_PATH}
+  ogImage={`${SITE_URL}${img(THUMB)}`}
+  {...ogCardSize(`images/fender-sn/${THUMB}`)}
+  ogImageAlt="Joe Dampt holding a sunburst 1967 Fender Jaguar, the guitar he takes apart in the video"
+  ogType="website"
+  noIndex={false}
+  structuredData={[pageSchema, videoSchema, breadcrumbSchema]}
+>
+  <!-- Archetype B header backdrop: solid bands the absolute site Header sits on -->
+  <div class="fvw-header-backdrop" aria-hidden="true">
+    <div class="fvw-header-backdrop__dark"></div>
+    <div class="fvw-header-backdrop__cream"></div>
+  </div>
+
+  <div class="fvw">
+    <section class="hero" id="top">
+      <div class="measure stack">
+        <a class="back" href={HUB_PATH}>Back To The Fender Serial Number Guide</a>
+        <span class="eyebrow">Video Guide</span>
+        <h1>Where To Find Fender Serial Numbers, Neck Heel Dates And Pot Codes</h1>
+        <div class="player" id="video">
+          <iframe
+            id="fvw-player"
+            src={`https://www.youtube.com/embed/${YT_ID}?${YT_PARAMS}`}
+            title={YT_TITLE}
+            width="1280"
+            height="720"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <div class="trust">
+          <span>Joe Dampt</span><span>5 minutes 45 seconds</span><span>Filmed on a 1967 Fender Jaguar</span>
+        </div>
+        <p class="lead">In this video I take a 1967 Fender Jaguar apart and show you the three markings that date a vintage Fender: the serial number, the date on the neck heel, and the codes on the pots. Jump to any step with the chapters below, or read along with the full transcript. Once you've found your numbers, my <a class="spoke" href={HUB_PATH}>Fender serial number guide</a> has the free lookup tool and the year charts to decode them.</p>
+      </div>
+    </section>
+
+    <section id="chapters" class="pt0">
+      <div class="measure stack">
+        <h2>Chapters</h2>
+        <ol class="chapters">
+          {chapters.map(([start, name, what]) => (
+            <li>
+              <a class="seek" href={`?t=${start}`} data-seek={start}><span class="ts">{fmt(start)}</span><span class="nm">{name}</span></a>
+              <p>{what}</p>
+            </li>
+          ))}
+        </ol>
+      </div>
+    </section>
+
+    <section class="pt0" aria-label="Safety note">
+      <div class="measure">
+        <div class="warnbox" role="note">
+          <span class="warnbox__head">Read This First</span>
+          <p>Do not take a vintage instrument apart unless you have done it before. Vintage screws, plastics, and finishes strip and crack easily, and one slip can cost far more than the answer. If you have not done this before, contact me first and I'll help.</p>
+        </div>
+      </div>
+    </section>
+
+    <div class="rule"></div>
+
+    <section id="transcript">
+      <div class="measure stack">
+        <h2>Full Transcript</h2>
+        <p class="note-sm">Tap a time to jump the video to that moment.</p>
+        <div class="transcript">
+          {transcript.map(([start, paras]) => (
+            <div class="tblock">
+              <a class="seek tstamp" href={`?t=${start}`} data-seek={start}>{fmt(start)}</a>
+              <div class="tparas">{paras.map((p) => <p>{p}</p>)}</div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <div class="rule"></div>
+
+    <section id="next">
+      <div class="measure stack">
+        <h2>Decode What You Found</h2>
+        <ul class="cards">
+          {nextSteps.map(([href, name, what]) => (
+            <li><a href={href}><span class="cname">{name}</span><span class="cwhat">{what}</span></a></li>
+          ))}
+        </ul>
+      </div>
+    </section>
+
+    <section class="pt0">
+      <div class="measure">
+        <div class="appraise" id="appraisal">
+          <span class="eyebrow">Free Expert Appraisal</span>
+          <h2>Want A Second Set Of Eyes?</h2>
+          <p>Send Joe three clear photos, the front, the back, and the neck heel or the control cavity, for a free, expert appraisal within 24 hours.</p>
+          <div class="row">
+            <a class="call" href={hrefs.tel}>Call Or Text Joe: {contact.phone}</a>
+            <a class="send" href="/free-appraisal/">Or Send Photos Online</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="pt0">
+      <div class="measure"><div class="bio" id="about-joe">
+        <LicensedImage src={meta("about-me-joe-1.jpg")} alt="Joe Dampt, owner of Joe's Vintage Guitars, holding a vintage guitar" width={150} />
+        <div>
+          <div class="who"><a href="/about-me/">Joe Dampt</a></div>
+          <div class="cred">Owner, Joe's Vintage Guitars · Mesa, AZ · 12 years full-time · 10,000+ appraised · 2,100+ positive reviews</div>
+          <p class="biotext">Joe Dampt is the owner of Joe's Vintage Guitars in Mesa, Arizona, where he's spent more than twelve years buying, appraising, and authenticating vintage instruments full-time. He's personally valued over 10,000 guitars for sellers in all 50 states, and every step in this video comes from that bench work.</p>
+        </div>
+      </div></div>
+    </section>
+  </div>
+</Layout>
+
+<style>
+  .fvw-header-backdrop{position:relative;isolation:isolate;z-index:0;}
+  .fvw-header-backdrop__dark{background:var(--color-brand-brown,#3e2a14);height:54px;}
+  .fvw-header-backdrop__cream{background:var(--color-brand-brown,#3e2a14);height:56px;border-bottom:6px solid var(--color-brand-brown-tan,#d2b48c);}
+
+  .fvw{
+    --paper:#f5efe3; --panel:#ffffff; --panel-2:#f3ead6;
+    --ink:var(--color-brand-brown,#3e2a14); --ink-strong:var(--color-brand-brown,#3e2a14);
+    --muted:var(--color-brand-brown-muted,#7a6a54); --line:#ddd0b6;
+    --gold:var(--color-brand-gold,#c8983a); --gold-deep:#8c6a24;
+    --rust:var(--color-brand-rust,#a03a1e); --rust-bright:var(--color-brand-rust-bright,#be4b25);
+    --amber:#f3e3c2; --amber-line:#e3c88a;
+    --shadow:0 1px 2px rgba(58,40,23,.06), 0 10px 30px rgba(58,40,23,.08);
+    --fd:var(--font-display), "Oswald", system-ui, sans-serif;
+    --fm:ui-monospace,"SF Mono",Consolas,"Liberation Mono",monospace;
+    --measure:min(92vw,880px);
+    background:var(--paper); color:var(--ink); font-size:17px; line-height:1.6;
+    padding-bottom:1rem;
+  }
+  .fvw [id]{scroll-margin-top:90px;}
+  .fvw h1,.fvw h2{font-family:var(--fd);font-weight:600;line-height:1.12;margin:0;color:var(--ink-strong);text-wrap:balance;}
+  .fvw h1{font-size:clamp(1.7rem,3.8vw,2.5rem);letter-spacing:.005em;text-transform:uppercase;}
+  .fvw h2{font-size:clamp(1.45rem,3vw,1.9rem);letter-spacing:.01em;}
+  .fvw p{margin:0;}
+  .fvw a{color:var(--gold-deep);text-underline-offset:2px;}
+  .fvw a:hover{color:var(--rust);}
+  .fvw .measure{width:var(--measure);margin-inline:auto;}
+  .fvw section{padding-block:clamp(1.5rem,3.6vw,2.4rem);}
+  .fvw .pt0{padding-top:0;}
+  .fvw .rule{height:1px;background:var(--line);width:min(94vw,1080px);margin-inline:auto;}
+  .fvw .stack{display:flex;flex-direction:column;gap:1rem;}
+  .fvw .note-sm{font-size:.95rem;color:var(--muted);}
+  .fvw .eyebrow{font-family:var(--fd);font-weight:600;font-size:.8rem;letter-spacing:.18em;text-transform:uppercase;color:var(--rust);display:inline-flex;align-items:center;gap:.6em;}
+  .fvw .eyebrow::before{content:"";width:24px;height:3px;background:var(--gold);}
+  .fvw a.spoke{color:var(--gold-deep);text-decoration:none;border-bottom:1.5px dotted var(--gold);font-weight:600;}
+  .fvw a.spoke:hover{color:var(--rust);border-bottom-color:var(--rust);}
+  .fvw a.back{position:relative;z-index:31;font-family:var(--fd);font-weight:600;font-size:.78rem;letter-spacing:.04em;text-transform:uppercase;color:var(--rust);text-decoration:none;display:inline-flex;align-items:center;gap:.4rem;}
+  .fvw a.back::before{content:"\2190";font-size:1rem;}
+  .fvw a.back:hover{color:var(--rust-bright);}
+
+  .fvw .hero{padding-top:clamp(1.2rem,3vw,2rem);padding-bottom:1.4rem;}
+  .fvw .hero .stack{gap:.85rem;}
+  .fvw .player{position:relative;aspect-ratio:16/9;width:100%;background:#000;border:1px solid rgba(200,152,58,.35);border-radius:10px;overflow:hidden;box-shadow:var(--shadow);}
+  .fvw .player iframe{position:absolute;inset:0;width:100%;height:100%;border:0;display:block;}
+  .fvw .lead{font-size:1.1rem;color:var(--ink);}
+  .fvw .trust{display:flex;flex-wrap:wrap;gap:.4rem .9rem;font-family:var(--fm);font-size:.76rem;color:var(--muted);}
+  .fvw .trust span{display:inline-flex;align-items:center;gap:.45rem;}
+  .fvw .trust span::before{content:"";width:5px;height:5px;border-radius:50%;background:var(--rust);}
+
+  .fvw .chapters{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:.7rem;}
+  .fvw .chapters li{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:.75rem .9rem;box-shadow:var(--shadow);display:flex;flex-direction:column;gap:.3rem;}
+  .fvw .chapters a.seek{display:flex;align-items:baseline;gap:.6rem;text-decoration:none;color:var(--ink-strong);font-family:var(--fd);font-weight:600;font-size:1.02rem;}
+  .fvw .chapters a.seek:hover .nm{color:var(--rust);}
+  .fvw .chapters .ts{font-family:var(--fm);font-size:.8rem;font-weight:700;color:#fff;background:var(--rust);border-radius:5px;padding:.08rem .45rem;flex:0 0 auto;}
+  .fvw .chapters p{font-size:.92rem;color:var(--muted);line-height:1.5;}
+
+  .fvw .warnbox{background:#fbe9e6;border:1px solid #e4a99d;border-left:6px solid var(--rust);border-radius:10px;padding:.9rem 1.1rem;}
+  .fvw .warnbox__head{display:block;font-family:var(--fd);font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--rust);font-size:.85rem;margin-bottom:.3rem;}
+  .fvw .warnbox p{color:var(--ink);font-size:.95rem;}
+
+  .fvw .transcript{display:flex;flex-direction:column;gap:1.1rem;}
+  .fvw .tblock{display:grid;grid-template-columns:4.2rem 1fr;gap:.9rem;align-items:start;}
+  .fvw a.tstamp{font-family:var(--fm);font-size:.85rem;font-weight:700;color:var(--rust);text-decoration:none;border:1px solid var(--line);background:var(--panel);border-radius:6px;padding:.15rem .4rem;text-align:center;margin-top:.15rem;}
+  .fvw a.tstamp:hover{background:var(--rust);color:#fff;border-color:var(--rust);}
+  .fvw .tparas{display:flex;flex-direction:column;gap:.7rem;}
+  @media (max-width:560px){
+    .fvw .tblock{grid-template-columns:1fr;gap:.4rem;}
+    .fvw a.tstamp{justify-self:start;}
+  }
+
+  .fvw .cards{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:.7rem;}
+  .fvw .cards a{display:flex;flex-direction:column;gap:.25rem;height:100%;box-sizing:border-box;text-decoration:none;background:var(--panel);border:1px solid var(--line);border-left:4px solid var(--gold);border-radius:10px;padding:.8rem .95rem;box-shadow:var(--shadow);}
+  .fvw .cards a:hover{border-left-color:var(--rust);}
+  .fvw .cards .cname{font-family:var(--fd);font-weight:600;font-size:1.05rem;color:var(--ink-strong);}
+  .fvw .cards a:hover .cname{color:var(--rust);}
+  .fvw .cards .cwhat{font-size:.92rem;color:var(--muted);line-height:1.5;}
+
+  .fvw .appraise{background:var(--amber);border:1px solid var(--amber-line);border-left:5px solid var(--rust);border-radius:12px;padding:clamp(1.4rem,3.5vw,2rem);box-shadow:var(--shadow);}
+  .fvw .appraise h2{margin:.3rem 0 .5rem;}
+  .fvw .appraise p{color:var(--ink);font-size:1.02rem;}
+  .fvw .appraise .row{display:flex;flex-wrap:wrap;gap:.7rem;margin-top:1.1rem;align-items:center;}
+  .fvw .appraise .call{font-family:var(--fd);font-weight:700;font-size:1.15rem;letter-spacing:.02em;color:#fff;background:var(--rust);text-decoration:none;padding:.7rem 1.3rem;border-radius:8px;}
+  .fvw .appraise .call:hover{background:var(--rust-bright);color:#fff;}
+  .fvw .appraise .send{font-family:var(--fd);font-weight:600;text-transform:uppercase;font-size:.86rem;letter-spacing:.04em;color:var(--rust);text-decoration:none;border-bottom:2px solid var(--gold);}
+
+  .fvw .bio{display:flex;gap:1rem;align-items:center;border:1px solid var(--line);border-radius:12px;padding:1.1rem 1.3rem;background:var(--panel);}
+  .fvw .bio img{flex:0 0 auto;width:76px;height:76px;border-radius:50%;object-fit:cover;border:2px solid var(--gold);}
+  .fvw .bio .who{font-family:var(--fd);font-weight:600;font-size:1.2rem;text-transform:uppercase;letter-spacing:.02em;}
+  .fvw .bio .who a{color:var(--ink-strong);text-decoration:none;border-bottom:2px solid var(--gold);}
+  .fvw .bio .cred{font-family:var(--fm);font-size:.72rem;color:var(--muted);margin-top:.2rem;}
+  .fvw .bio .biotext{margin-top:.55rem;font-size:.95rem;color:var(--muted);}
+</style>
+
+<script is:inline define:vars={{ ytId: YT_ID, ytParams: YT_PARAMS }}>
+  (function () {
+    var player = document.getElementById("fvw-player");
+    if (!player) return;
+    var base = "https://www.youtube.com/embed/" + ytId + "?" + ytParams;
+
+    // Clip URLs in the schema are this page with ?t=NNN. Honor them by starting
+    // the player at that second.
+    var t = parseInt(new URLSearchParams(location.search).get("t") || "", 10);
+    if (t > 0) player.src = base + "&start=" + t;
+
+    function send(msg) {
+      if (player.contentWindow) player.contentWindow.postMessage(JSON.stringify(msg), "*");
+    }
+    // Tell the embed to accept postMessage commands (enablejsapi=1 is in the src).
+    player.addEventListener("load", function () {
+      send({ event: "listening", id: "fvw-player", channel: "widget" });
+    });
+
+    document.addEventListener("click", function (e) {
+      var link = e.target.closest && e.target.closest("a[data-seek]");
+      if (!link) return;
+      e.preventDefault();
+      var s = parseInt(link.getAttribute("data-seek"), 10) || 0;
+      // Repeat the handshake in case the embed finished loading before this script ran.
+      send({ event: "listening", id: "fvw-player", channel: "widget" });
+      send({ event: "command", func: "seekTo", args: [s, true] });
+      send({ event: "command", func: "playVideo", args: [] });
+      player.scrollIntoView({ behavior: "smooth", block: "center" });
+    });
+  })();
+</script>
