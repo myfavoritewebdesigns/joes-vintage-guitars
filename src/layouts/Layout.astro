@@ -6,6 +6,7 @@ import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
 import FloatingCTAs from "../components/FloatingCTAs.astro";
 import { SITE_URL, SITE_NAME, LEGAL_NAME, contact, socialSameAs, imageLicense } from "../config/site";
+import { pageDates } from "../data/page-dates";
 
 interface Props {
   /** Optional brand-specific buying link for a reference library's footer. */
@@ -230,9 +231,46 @@ const allSchemas: Record<string, unknown>[] = [
   personSchema,
   ...serviceSchemas,
 ];
+const globalSchemaCount = allSchemas.length;
 if (structuredData) {
   if (Array.isArray(structuredData)) allSchemas.push(...structuredData);
   else allSchemas.push(structuredData);
+}
+
+// Page dates and author (2026-11-16). Pages listed in src/data/page-dates.ts had no
+// datePublished, dateModified, page-level author or publisher. Fill ONLY what the page left out, on
+// its main node: an Article first, then a WebPage type (FAQPage last, since it is often a
+// side node), else a new WebPage. Pages not in the map are untouched.
+const pageDate = pageDates[Astro.url.pathname];
+if (pageDate) {
+  const ARTICLE = ["Article", "BlogPosting", "NewsArticle", "TechArticle"];
+  const WEB = ["WebPage", "AboutPage", "ProfilePage", "ContactPage", "CollectionPage", "ItemPage"];
+  const typesOf = (n: Record<string, unknown>) => ([] as unknown[]).concat(n["@type"] ?? []).map(String);
+  // Copy the page's own schema first, so a shared schema object is never changed in place.
+  allSchemas.splice(globalSchemaCount, Infinity, ...structuredClone(allSchemas.slice(globalSchemaCount)));
+  const nodes = allSchemas.slice(globalSchemaCount).flatMap((s) =>
+    Array.isArray(s["@graph"]) ? (s["@graph"] as Record<string, unknown>[]) : [s],
+  );
+  const find = (list: string[]) => nodes.find((n) => typesOf(n).some((t) => list.includes(t)));
+  let main = find(ARTICLE) ?? find(WEB) ?? find(["FAQPage"]);
+  if (!main) {
+    main = {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "@id": canonicalUrl,
+      url: canonicalUrl,
+      name: title,
+      inLanguage: "en-US",
+      isPartOf: { "@id": `${SITE_URL}/#website` },
+      publisher: { "@id": `${SITE_URL}/` },
+    };
+    allSchemas.push(main);
+  }
+  // A page's own publishedTime/modifiedTime props (its og tags, and any visible date) win over the map.
+  main.datePublished ??= publishedTime ?? pageDate.published;
+  main.dateModified ??= modifiedTime ?? pageDate.modified;
+  main.author ??= { "@id": `${SITE_URL}/about-me/#person` };
+  main.publisher ??= { "@id": `${SITE_URL}/` };
 }
 ---
 
