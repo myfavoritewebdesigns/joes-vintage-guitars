@@ -316,6 +316,12 @@ const breadcrumbSchema = {
   .fvw a.back:hover{color:var(--rust-bright);}
 
   .fvw .hero{padding-top:clamp(1.2rem,3vw,2rem);padding-bottom:1.4rem;}
+  /* The hanging logo (220, 160 or 110px wide; 284, 212 or 156px tall with its
+     shadow) overlaps the centered column below 1440px. Clear its height minus
+     the 116px header backdrop, the same clearance guide-presentation.css uses. */
+  @media (max-width:1439px){.fvw .hero{padding-top:168px;}}
+  @media (max-width:1023px){.fvw .hero{padding-top:96px;}}
+  @media (max-width:639px){.fvw .hero{padding-top:40px;}}
   .fvw .hero .stack{gap:.85rem;}
   .fvw .player{position:relative;aspect-ratio:16/9;width:100%;background:#000;border:1px solid rgba(200,152,58,.35);border-radius:10px;overflow:hidden;box-shadow:var(--shadow);}
   .fvw .player iframe{position:absolute;inset:0;width:100%;height:100%;border:0;display:block;}
