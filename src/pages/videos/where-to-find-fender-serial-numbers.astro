@@ -28,6 +28,7 @@
  */
 import Layout from "../../layouts/Layout.astro";
 import LicensedImage from "../../components/primitives/LicensedImage.astro";
+import { getImage } from "astro:assets";
 import { resolveImage, assetSrc, ogCardSize } from "../../lib/images";
 import { contact, hrefs, SITE_URL } from "../../config/site";
 
@@ -57,6 +58,28 @@ const chapters: [number, string, string][] = [
   [184, "Finding The Pot Codes", "Wherever there is a knob, there is a pot under it with a date code on its back or side. This Jaguar's pot reads 304 6617, so 1966 pots."],
   [295, "Putting It Together", "A 1967 neck with 1966 pots is a normal match. A neck plate from another era would mean the plate was replaced."],
 ];
+
+// One still per chapter, cut from Joe's own video (1080p source, frame second in
+// the comment), resized to 960x540. Real frames, not generated. Same order as chapters.
+const chapterFrames: [string, string][] = [
+  ["intro", "Joe Dampt holding the sunburst 1967 Fender Jaguar at the start of the video"], // 0:01
+  ["neck-plate", "Close-up of the serial number stamped on the Jaguar's chrome neck plate"], // 0:17
+  ["bridge", "A Telecaster bridge plate, the other place a vintage Fender serial can be stamped"], // 0:31
+  ["mislead", "Joe pointing at the neck plate on the back of the Jaguar"], // 0:58
+  ["neck-off", "Joe backing out the neck screws on the Jaguar with a screwdriver"], // 1:29
+  ["neck-heel-date", "The Jaguar's neck heel, stamped with a September 1967 date"], // 2:13
+  ["pot-codes", "The Jaguar's control plate turned over to show the pots underneath"], // 4:21
+  ["putting-it-together", "Joe explaining how the neck date and pot dates fit together"], // 5:23
+];
+const CHAPTER_IMG_WIDTH = 480;
+const frameMeta = (slug: string) => meta(`fender-serial-video-chapter-${slug}.jpg`);
+// Same getImage() call LicensedImage makes, so these URLs equal the rendered src.
+const frameUrls = await Promise.all(
+  chapterFrames.map(async ([slug]) => {
+    const built = await getImage({ src: frameMeta(slug), layout: "constrained", width: CHAPTER_IMG_WIDTH });
+    return `${SITE_URL}${built.src.startsWith("/") ? "" : "/"}${built.src}`;
+  }),
+);
 
 // Joe's words, grouped by chapter. Lightly cleaned caption track (see header).
 const transcript: [number, string[]][] = [
@@ -107,6 +130,16 @@ const nextSteps: [string, string, string][] = [
 ];
 
 // ---- Schema ----
+// First built 2026-11-13. Update DATE_MODIFIED with any content change.
+const DATE_PUBLISHED = "2026-11-13";
+const DATE_MODIFIED = "2026-11-16";
+// What the video is about, tied to Wikipedia so the subjects are unambiguous.
+const ABOUT = [
+  { "@type": "Product", name: "Fender Jaguar", brand: { "@type": "Brand", name: "Fender" }, sameAs: "https://en.wikipedia.org/wiki/Fender_Jaguar" },
+  { "@type": "Organization", name: "Fender Musical Instruments Corporation", sameAs: "https://en.wikipedia.org/wiki/Fender_Musical_Instruments_Corporation" },
+  { "@type": "Thing", name: "Serial number", sameAs: "https://en.wikipedia.org/wiki/Serial_number" },
+  { "@type": "Thing", name: "Potentiometer", sameAs: "https://en.wikipedia.org/wiki/Potentiometer" },
+];
 const videoSchema = {
   "@context": "https://schema.org",
   "@type": "VideoObject",
@@ -123,12 +156,47 @@ const videoSchema = {
   author: { "@id": `${SITE_URL}/about-me/#person` },
   publisher: { "@id": `${SITE_URL}/` },
   transcript: transcript.map(([, paras]) => paras.join(" ")).join(" "),
+  isFamilyFriendly: true,
+  keywords: "Fender serial numbers, Fender neck date, Fender pot codes, vintage Fender dating, 1967 Fender Jaguar, neck heel date, potentiometer date code",
+  about: ABOUT,
   hasPart: chapters.map(([start, name], i) => ({
     "@type": "Clip",
     name,
     startOffset: start,
     endOffset: i + 1 < chapters.length ? chapters[i + 1][0] : VIDEO_SECONDS,
     url: `${PAGE_URL}?t=${start}`,
+    thumbnailUrl: frameUrls[i],
+  })),
+};
+// The video is a how-to. Google retired HowTo rich results in 2023, but the type
+// is still valid schema.org and answer engines read it. Each step points at its
+// chapter (?t= URL the page honors) and the frame shown on that chapter card.
+const howToSteps: [number, string, string][] = [
+  [1, "Find the serial number on the neck plate", "On most vintage Fenders the serial number is stamped on the metal plate the neck screws pass through."],
+  [2, "Check the bridge and the headstock", "Vintage Telecasters and Precision Basses can carry the serial on the bridge. A serial on the front or back of the headstock points to a newer guitar."],
+  [4, "Take the neck off", "Slack the strings, loosen each neck screw a little before backing any of them out, then lift off the neck plate and the neck."],
+  [5, "Read the neck heel date", "Ignore the first two digits, which are a model code. Read the month and year, and the last letter for the neck size."],
+  [6, "Find the pot codes", "Under every knob is a pot with a date code on its back or side. The last digits give the year and week the pot was made."],
+  [7, "Put the dates together", "A neck date and pot dates within about a year of each other are a normal match. A neck plate from another era means the plate was replaced."],
+];
+const howToSchema = {
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "@id": `${PAGE_URL}#howto`,
+  name: "How To Find And Read The Serial Number, Neck Date And Pot Codes On A Vintage Fender",
+  description: "Find the serial number on a vintage Fender, then take the neck off and check the neck heel date and pot codes to date the guitar accurately.",
+  tool: [
+    { "@type": "HowToTool", name: "Phillips screwdriver" },
+  ],
+  video: { "@id": `${PAGE_URL}#video` },
+  image: `${SITE_URL}${img(THUMB)}`,
+  step: howToSteps.map(([ci, name, text], n) => ({
+    "@type": "HowToStep",
+    position: n + 1,
+    name,
+    text,
+    url: `${PAGE_URL}?t=${chapters[ci][0]}`,
+    image: frameUrls[ci],
   })),
 };
 const pageSchema = {
@@ -138,13 +206,23 @@ const pageSchema = {
   url: PAGE_URL,
   name: "Where To Find Fender Serial Numbers, Neck Heel Dates And Pot Codes",
   inLanguage: "en-US",
-  isPartOf: { "@id": `${SITE_URL}/` },
+  description: "Joe Dampt's video showing where to find the serial number, neck heel date and pot codes on a 1967 Fender Jaguar, with chapters and a full transcript.",
+  isPartOf: { "@id": `${SITE_URL}/#website` },
+  datePublished: DATE_PUBLISHED,
+  dateModified: DATE_MODIFIED,
+  author: { "@id": `${SITE_URL}/about-me/#person` },
+  publisher: { "@id": `${SITE_URL}/` },
+  about: ABOUT,
   mainEntity: { "@id": `${PAGE_URL}#video` },
+  hasPart: { "@id": `${PAGE_URL}#howto` },
+  breadcrumb: { "@id": `${PAGE_URL}#breadcrumb` },
   primaryImageOfPage: `${SITE_URL}${img(THUMB)}`,
+  relatedLink: nextSteps.map(([href]) => `${SITE_URL}${href}`),
 };
 const breadcrumbSchema = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
+  "@id": `${PAGE_URL}#breadcrumb`,
   itemListElement: [
     { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL + "/" },
     { "@type": "ListItem", position: 2, name: "Fender Serial Number Guide", item: `${SITE_URL}${HUB_PATH}` },
@@ -162,7 +240,7 @@ const breadcrumbSchema = {
   ogImageAlt="Joe Dampt holding a sunburst 1967 Fender Jaguar, the guitar he takes apart in the video"
   ogType="website"
   noIndex={false}
-  structuredData={[pageSchema, videoSchema, breadcrumbSchema]}
+  structuredData={[pageSchema, videoSchema, howToSchema, breadcrumbSchema]}
 >
   <!-- Archetype B header backdrop: solid bands the absolute site Header sits on -->
   <div class="fvw-header-backdrop" aria-hidden="true">
@@ -199,8 +277,10 @@ const breadcrumbSchema = {
       <div class="measure stack">
         <h2>Chapters</h2>
         <ol class="chapters">
-          {chapters.map(([start, name, what]) => (
+          {chapters.map(([start, name, what], i) => (
             <li>
+              <a class="seek thumb" href={`?t=${start}`} data-seek={start} tabindex="-1" aria-hidden="true"><LicensedImage src={frameMeta(chapterFrames[i][0])} alt={chapterFrames[i][1]} width={CHAPTER_IMG_WIDTH} sizes="(max-width: 600px) 92vw, 430px" loading="lazy" decoding="async" emitSchema={false} /></a>
+              <LicensedImage schemaOnly src={frameMeta(chapterFrames[i][0])} alt={chapterFrames[i][1]} width={CHAPTER_IMG_WIDTH} />
               <a class="seek" href={`?t=${start}`} data-seek={start}><span class="ts">{fmt(start)}</span><span class="nm">{name}</span></a>
               <p>{what}</p>
             </li>
@@ -334,6 +414,9 @@ const breadcrumbSchema = {
   .fvw .chapters li{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:.75rem .9rem;box-shadow:var(--shadow);display:flex;flex-direction:column;gap:.3rem;}
   .fvw .chapters a.seek{display:flex;align-items:baseline;gap:.6rem;text-decoration:none;color:var(--ink-strong);font-family:var(--fd);font-weight:600;font-size:1.02rem;}
   .fvw .chapters a.seek:hover .nm{color:var(--rust);}
+  .fvw .chapters a.thumb{display:block;margin:-.75rem -.9rem .35rem;border-radius:10px 10px 0 0;overflow:hidden;aspect-ratio:16/9;background:#000;}
+  .fvw .chapters a.thumb img{display:block;width:100%;height:100%;object-fit:cover;transition:transform .2s ease;}
+  .fvw .chapters a.thumb:hover img{transform:scale(1.03);}
   .fvw .chapters .ts{font-family:var(--fm);font-size:.8rem;font-weight:700;color:#fff;background:var(--rust);border-radius:5px;padding:.08rem .45rem;flex:0 0 auto;}
   .fvw .chapters p{font-size:.92rem;color:var(--muted);line-height:1.5;}
 
