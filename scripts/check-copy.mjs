@@ -290,6 +290,10 @@ function checkPage(file) {
   if (SKIP_ROUTES.has(route)) return { route, hard: [], warn: [] };
   const html = readFileSync(file, "utf-8");
   const $ = cheerio.load(html);
+  // Review cards (article.rv) hold verbatim buyer reviews: the customers' own
+  // emoji, dashes and wording, which the copy policy keeps intact. Drop them
+  // so pages that mix our copy with review cards are checked on our copy only.
+  $("article.rv").remove();
   const units = extractUnits($);
   const headingCounts = new Map();
   const hard = [];
