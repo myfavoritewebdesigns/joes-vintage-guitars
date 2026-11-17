@@ -4,6 +4,7 @@ import sitemap from '@astrojs/sitemap';
 
 import tailwindcss from '@tailwindcss/vite';
 import { SITE_URL } from './src/config/site';
+import { hasPendingFenderClaims } from './src/data/expert-pages/fender-claims';
 
 // Routes that must stay out of the XML sitemap: noindex hand-out pages, the
 // form thank-you page, and the 404 route. Keep in sync with any future noindex page.
@@ -13,6 +14,7 @@ const SITEMAP_EXCLUDE = [
   '/jvg-shipping-process-2/',
   '/404/',
   '/fender-serial-tool-v2/', // internal test page for the v2 serial tool (noIndex)
+  ...(hasPendingFenderClaims ? ['/fender-vintage-guitar-expert/'] : []),
 ];
 
 // https://astro.build/config

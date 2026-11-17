@@ -1,0 +1,75 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import "../../styles/sn-page.css";
+import ContactSection from "../../components/ContactSection.astro";
+import ReviewCard from "../../components/reviews/ReviewCard.astro";
+import { SITE_URL } from "../../config/site";
+import { groups, type ReviewGroup } from "../../data/reviews/groups";
+import reviews from "../../data/reviews/reverb.json";
+import summary from "../../data/reviews/reverb-summary.json";
+import theme from "../../../reference/reverb-reviews-theme.css?raw";
+
+export function getStaticPaths() {
+  return groups
+    .filter((group) => group.expertPage === null)
+    .map((group) => ({ params: { brand: group.slug }, props: { group } }));
+}
+
+interface Props { group: ReviewGroup; }
+const { group } = Astro.props;
+const stats = summary.byBrand[group.slug];
+const brandReviews = reviews
+  // One-star and two-star reviews are not listed (Josh, 2026-11-16). They stay in the data and in the totals.
+  .filter((review) => review.brand === group.slug && review.body.trim() && review.stars > 2)
+  .sort((a, b) => b.date.localeCompare(a.date));
+const starsOnly = stats.total - stats.withText;
+const formatDate = (date: string) => new Date(`${date}T00:00:00Z`).toLocaleDateString("en-US", {
+  year: "numeric", month: "long", day: "numeric", timeZone: "UTC",
+});
+const firstDate = formatDate(stats.firstDate);
+const lastDate = formatDate(stats.lastDate);
+const title = `${group.label} Reverb Reviews | Joe's Vintage Guitars`;
+const description = `Read ${stats.withText.toLocaleString("en-US")} written Reverb reviews for ${group.label} purchases from Joe's Vintage Guitars, from ${firstDate} to ${lastDate}.`;
+const canonical = `/reverb-reviews/${group.slug}/`;
+const ogImage = `${SITE_URL}/images/og/reverb-reviews.jpg`;
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Home", item: `${SITE_URL}/` },
+    { "@type": "ListItem", position: 2, name: "Reverb Reviews", item: `${SITE_URL}/reverb-reviews/` },
+    { "@type": "ListItem", position: 3, name: `${group.label} Reverb Reviews`, item: `${SITE_URL}${canonical}` },
+  ],
+};
+---
+
+<Layout
+  title={title}
+  description={description}
+  canonical={canonical}
+  ogImage={ogImage}
+  ogImageAlt="Reverb reviews for Joe's Vintage Guitars"
+  ogImageWidth={868}
+  ogImageHeight={868}
+  structuredData={[breadcrumbSchema]}
+>
+  <div class="sn-header-backdrop" aria-hidden="true"></div>
+  <div class="reverb-reviews-page">
+    <header class="site-header">
+      <h1 class="header-title">{group.label} Reverb Reviews For Joe's Vintage Guitars</h1>
+    </header>
+    <div class="main-wrap">
+      <p>Buyers left {stats.total.toLocaleString("en-US")} Reverb reviews for {group.label} purchases from Joe's Vintage Guitars from {firstDate} to {lastDate}. Of these, {stats.fiveStar.toLocaleString("en-US")} were five-star reviews.</p>
+      {brandReviews.map((review) => <ReviewCard review={review} />)}
+      <p>{starsOnly.toLocaleString("en-US")} buyers left a star rating without a written review.</p>
+      <p><a href="/reverb-reviews/">Joe's Vintage Guitars Reverb Reviews</a></p>
+    </div>
+  </div>
+  <ContactSection />
+</Layout>
+
+<Fragment set:html={`<style>${theme}</style>`} />
+
+<style>
+  .reverb-reviews-page { max-width: 1180px; margin: 0 auto; padding: 12px 16px 0; }
+</style>

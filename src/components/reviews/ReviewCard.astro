@@ -1,0 +1,26 @@
+---
+interface Props {
+  review: {
+    stars: number;
+    title: string;
+    reviewer: string;
+    date: string;
+    dateLabel: string;
+    body: string;
+  };
+}
+
+const { review } = Astro.props;
+---
+
+<article class="rv">
+  <div class="rv-top">
+    <span class={`rv-stars s${review.stars}`} role="img" aria-label={`${review.stars} out of 5 stars`}>{"★".repeat(review.stars)}</span>
+    {review.title.trim() && <p class="rv-title">{review.title}</p>}
+  </div>
+  <p class="rv-meta">
+    <span>{review.reviewer}</span>
+    <time datetime={review.date}>{review.dateLabel}</time>
+  </p>
+  {review.body.trim() && <p class="rv-body">“{review.body}”</p>}
+</article>

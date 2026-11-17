@@ -1,18 +1,21 @@
 ---
-/* /reverb-reviews/ : all 2,191 verified Reverb buyer reviews rendered statically.
-   Reverb's review data is not crawlable, so static rendering is the only way search
-   engines and AI models ever index this social proof (GEO). Full set kept on purpose,
-   do NOT trim. Body is the live .post-content (stats header + 2,052 .rv review cards),
-   theme injected from the page's own CSS. The schema.org Review/Rating microdata was
-   STRIPPED on purpose, consistent with the PR #12 decision to publish no self-placed
-   ratings (Google penalizes self-asserted review markup). Reviews render as plain text,
-   which is all AI answer engines need; only the global + BreadcrumbList JSON-LD remain. */
+/* The Reverb hub features five-star written reviews of at least 25 words.
+   Brand links lead to full written-review archives or the brand's expert page.
+   Stars-only reviews contribute to brand counts without rendering cards.
+   Published headline figures stay fixed. Reviews use plain text without rating schema. */
 import Layout from "../layouts/Layout.astro";
 import "../styles/sn-page.css";
 import ContactSection from "../components/ContactSection.astro";
+import ReviewCard from "../components/reviews/ReviewCard.astro";
 import { SITE_URL } from "../config/site";
-import body from "../../reference/reverb-reviews-body.html?raw";
+import { groups, groupUrl } from "../data/reviews/groups";
+import reviews from "../data/reviews/reverb.json";
+import summary from "../data/reviews/reverb-summary.json";
 import theme from "../../reference/reverb-reviews-theme.css?raw";
+
+const featuredReviews = reviews
+  .filter((review) => review.stars === 5 && review.words >= 25 && review.body.trim())
+  .sort((a, b) => b.date.localeCompare(a.date));
 
 const title = "Reverb Reviews (2,191 Verified) | Joe's Vintage Guitars";
 const description =
@@ -41,7 +44,37 @@ const breadcrumbSchema = {
   structuredData={[breadcrumbSchema]}
 >
   <div class="sn-header-backdrop" aria-hidden="true"></div>
-  <div class="reverb-reviews-page" set:html={body} />
+  <div class="reverb-reviews-page">
+    <div class="topbannerbg fullwidth-box"><p>At Joe’s Vintage Guitars, our reputation is as timeless as the gear we curate. This page features our verified Reverb reviews, documenting our commitment to honest grading, expert packing, and world-class service. Whether you are a collector or a player, our 5-star history offers the confidence you need to find your next dream piece.</p></div>
+    <header class="site-header">
+      <h1 class="header-title">Joe's Vintage Guitars Reverb Reviews</h1>
+      <div class="header-stats">
+        <div class="stat"><span class="stat-number">4.9</span><span class="stat-label">Avg Rating / 5</span></div>
+        <div class="stat"><span class="stat-number">2,191</span><span class="stat-label">Total Reviews</span></div>
+        <div class="stat"><span class="stat-number">2,071</span><span class="stat-label">Five-Star Reviews</span></div>
+      </div>
+    </header>
+
+    <nav class="rv-brand-links rv-brand-links-list" aria-label="Sell A Vintage Guitar">
+      <a href="/sell-my-martin-guitar/">Sell a Vintage Martin</a>
+      <a href="/sell-my-fender-guitar/">Sell a Vintage Fender</a>
+      <a href="/sell-my-gibson-guitar/">Sell a Vintage Gibson</a>
+    </nav>
+
+    <section class="rv-brand-links" aria-labelledby="reviews-by-brand">
+      <h2 id="reviews-by-brand">Reviews By Brand</h2>
+      <ul class="rv-brand-links-list">
+        {groups.map((group) => (
+          <li><a href={groupUrl(group)}>{group.label} ({summary.byBrand[group.slug].total.toLocaleString("en-US")} Reviews)</a></li>
+        ))}
+      </ul>
+    </section>
+
+    <section class="main-wrap" aria-labelledby="featured-reviews">
+      <h2 id="featured-reviews">Featured Reverb Reviews</h2>
+      {featuredReviews.map((review) => <ReviewCard review={review} />)}
+    </section>
+  </div>
 
   <ContactSection />
 </Layout>
@@ -50,17 +83,7 @@ const breadcrumbSchema = {
 
 <style>
   .reverb-reviews-page { max-width: 1180px; margin: 0 auto; padding: 12px 16px 0; }
-  /* the page ships its own .site-header (dark band) + .rv card styling via the theme */
-  .reverb-reviews-page :global(.rv-cta) { text-align: center; margin: 2.5rem 0 1rem; }
-  .reverb-reviews-page :global(.rv-cta-btn) {
-    display: inline-block; background: var(--color-brand-rust, #a03a1e); color: #fff;
-    font-family: "Oswald", sans-serif; font-weight: 600; letter-spacing: 0.04em;
-    padding: 0.9rem 1.8rem; border-radius: 4px; text-decoration: none;
-    text-transform: uppercase; font-size: 0.95rem;
-  }
-  .reverb-reviews-page :global(.rv-cta-btn:hover) { background: var(--color-brand-rust-bright, #be4b25); }
-
-  .reverb-reviews-page :global(.rv-brand-links) {
+  .rv-brand-links {
     max-width: 900px;
     margin: 0 auto 2.5rem;
     padding: 1.5rem 1.25rem;
@@ -69,29 +92,15 @@ const breadcrumbSchema = {
     background: #fffaf3;
     text-align: center;
   }
-  .reverb-reviews-page :global(.rv-brand-links-eyebrow) {
-    margin: 0 0 0.35rem;
-    color: var(--color-brand-rust, #a03a1e);
-    font-family: "Oswald", sans-serif;
-    font-size: 0.78rem;
-    font-weight: 600;
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
-  }
-  .reverb-reviews-page :global(.rv-brand-links h2) {
-    margin: 0;
-    font-size: clamp(1.4rem, 3vw, 2rem);
-  }
-  .reverb-reviews-page :global(.rv-brand-links > p:not(.rv-brand-links-eyebrow)) {
-    margin: 0.6rem 0 1rem;
-  }
-  .reverb-reviews-page :global(.rv-brand-links-list) {
+  .rv-brand-links h2 { margin: 0; font-size: clamp(1.4rem, 3vw, 2rem); }
+  .rv-brand-links-list {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 0.65rem;
   }
-  .reverb-reviews-page :global(.rv-brand-links-list a) {
+  ul.rv-brand-links-list { margin: 1rem 0 0; padding: 0; list-style: none; }
+  .rv-brand-links-list a {
     display: inline-block;
     padding: 0.65rem 0.9rem;
     border: 1px solid var(--color-brand-rust, #a03a1e);
@@ -101,25 +110,5 @@ const breadcrumbSchema = {
     font-weight: 600;
     text-decoration: none;
   }
-  .reverb-reviews-page :global(.rv-brand-links-list a:hover) {
-    background: var(--color-brand-rust, #a03a1e);
-    color: #fff;
-  }
-
-  /* Skip layout + paint for the off-screen review cards.
-     This page deliberately renders all 2,191 Reverb reviews so search and AI
-     engines can read them (Reverb's own data is not crawlable), which means a
-     ~18,000-element DOM. `content-visibility: auto` keeps every card in the DOM
-     and in the accessibility tree, it only defers rendering work until a card
-     is near the viewport, so crawlability is unaffected.
-
-     `contain-intrinsic-size: auto <fallback>` is what stops this from causing
-     scroll jump: `auto` makes the browser remember each card's real rendered
-     height after it is first laid out, so the fallback only applies to the very
-     first paint. Fallback measured live on 2,052 cards: mean 146px at 390px
-     wide, 120px at 1920px, so 140px sits between the two. */
-  .reverb-reviews-page :global(article.rv) {
-    content-visibility: auto;
-    contain-intrinsic-size: auto 140px;
-  }
+  .rv-brand-links-list a:hover { background: var(--color-brand-rust, #a03a1e); color: #fff; }
 </style>
