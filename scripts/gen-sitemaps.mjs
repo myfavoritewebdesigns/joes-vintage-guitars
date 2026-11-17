@@ -135,9 +135,17 @@ function videoEntries(nodes) {
 
 // Git fallback: last commit touching the route file. Shallow clones would give every
 // file the same newest date, which is worse than no date, so skip git there.
+// Cloudflare Pages clones shallow, so first try to fetch the full commit history
+// without file contents (commits and trees only, a few MB, seconds).
+const isShallow = () => execFileSync("git", ["rev-parse", "--is-shallow-repository"], { encoding: "utf8" }).trim() === "true";
 let gitUsable = false;
 try {
-  gitUsable = execFileSync("git", ["rev-parse", "--is-shallow-repository"], { encoding: "utf8" }).trim() === "false";
+  if (isShallow()) {
+    try {
+      execFileSync("git", ["fetch", "--quiet", "--unshallow", "--filter=blob:none", "origin"], { stdio: "ignore", timeout: 120000 });
+    } catch { /* offline or refused: fallback stays off */ }
+  }
+  gitUsable = !isShallow();
 } catch { /* no git: fallback stays off */ }
 // Dynamic route files such as src/pages/free-appraisal/[brand].astro, as slug patterns.
 const routeFiles = (dir) => readdirSync(dir).flatMap((n) => {
