@@ -7,8 +7,8 @@ import { contact, hrefs } from "../config/site";
    noIndex: this is a hand-out link Joe texts/emails to sellers,
    not a page meant to be found in search (matches live's
    "noindex, follow"). Deliberately NOT listed on /sitemap/ and
-   not linked from nav. If @astrojs/sitemap is ever added,
-   exclude /jvg-shipping-process/ there too.
+   not linked from nav. Also listed in the EXCLUDE set in
+   scripts/gen-sitemaps.mjs, so it stays out of the XML sitemaps.
 
    The FedEx account number and the Fraser Drive shipping address
    are operational facts — keep them EXACTLY as on the live page.

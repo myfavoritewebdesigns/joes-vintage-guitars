@@ -73,6 +73,11 @@
 /category-sitemap.xml  /sitemap-index.xml   301
 /local-sitemap.xml     /sitemap-index.xml   301
 
+# 2026-11-17: the single sitemap-0.xml became pages, posts, archives and videos files.
+# Keep the old child address, and the common guess /sitemap.xml, pointing at the index.
+/sitemap-0.xml         /sitemap-index.xml   301
+/sitemap.xml           /sitemap-index.xml   301
+
 # Cutover: serial + value guides live at top level, not under /post/
 # Both slash shapes are listed for every rule: _redirects matches the request path
 # literally, so a slash-only rule leaves the no-slash URL to fall through to a 404
