@@ -7,11 +7,11 @@ excerpt: "Prices for Gibson Johnny Smith single-pickup and Double models, 1961 t
 category: "value-evaluation"
 categoryName: "Value & Evaluation"
 tags: ["Gibson","Value Guides","Guitars"]
-heroImage: "images/model-guides-jazz/1970-gibson-johnny-smith-front.jpg"
-heroImageAlt: "1970 Gibson Johnny Smith in sunburst, with a Lollar pickup, replacement guard and a fingers-style tailpiece."
-heroImageCaption: "1970 Gibson Johnny Smith in sunburst, with a Lollar pickup, replacement guard and a fingers-style tailpiece."
+heroImage: "images/model-guides-jazz/1962-gibson-johnny-smith-natural-front.jpg"
+heroImageAlt: "1962 Gibson Johnny Smith in natural finish, with one floating pickup and the Johnny Smith tailpiece."
+heroImageCaption: "1962 Gibson Johnny Smith in natural finish, with one floating pickup and the Johnny Smith tailpiece."
 heroImageLicensed: true
-ogImage: "images/model-guides-jazz/1970-gibson-johnny-smith-front.jpg"
+ogImage: "images/model-guides-jazz/1962-gibson-johnny-smith-natural-front.jpg"
 metaDescription: "Prices for Gibson Johnny Smith single-pickup and Double models, 1961 to 1989, accounting for floating pickup swaps, factory seconds, finish and replacement parts."
 author: "Joe Dampt"
 draft: false

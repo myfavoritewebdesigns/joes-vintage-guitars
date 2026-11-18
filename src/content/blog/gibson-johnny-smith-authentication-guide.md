@@ -7,11 +7,11 @@ excerpt: "Check a Johnny Smith or Double using scale length, floating pickups, l
 category: "specific-model-highlights"
 categoryName: "Specific Model Highlights"
 tags: ["Gibson","Authentication Guides","Guitars"]
-heroImage: "images/model-guides-jazz/1970-gibson-johnny-smith-front.jpg"
-heroImageAlt: "1970 Gibson Johnny Smith in sunburst, with a Lollar pickup, replacement guard and a fingers-style tailpiece."
-heroImageCaption: "1970 Gibson Johnny Smith in sunburst, with a Lollar pickup, replacement guard and a fingers-style tailpiece."
+heroImage: "images/model-guides-jazz/1962-gibson-johnny-smith-natural-front.jpg"
+heroImageAlt: "1962 Gibson Johnny Smith in natural finish, with one floating pickup and the Johnny Smith tailpiece."
+heroImageCaption: "1962 Gibson Johnny Smith in natural finish, with one floating pickup and the Johnny Smith tailpiece."
 heroImageLicensed: true
-ogImage: "images/model-guides-jazz/1970-gibson-johnny-smith-front.jpg"
+ogImage: "images/model-guides-jazz/1962-gibson-johnny-smith-natural-front.jpg"
 metaDescription: "Check a Johnny Smith or Double using scale length, floating pickups, label and serial, then identify replacement equipment and interpret factory-second stamps."
 author: "Joe Dampt"
 draft: false

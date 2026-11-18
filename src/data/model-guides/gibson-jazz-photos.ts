@@ -17,6 +17,8 @@ import hrBack from '../../assets/images/model-guides-jazz/1974-gibson-howard-rob
 import hrCase from '../../assets/images/model-guides-jazz/1974-gibson-howard-roberts-custom-in-case.jpg';
 import hr77Front from '../../assets/images/model-guides-jazz/1977-gibson-howard-roberts-front.jpg';
 import hr77Head from '../../assets/images/model-guides-jazz/1977-gibson-howard-roberts-headstock.jpg';
+import js62Front from '../../assets/images/model-guides-jazz/1962-gibson-johnny-smith-natural-front.jpg';
+import js62Back from '../../assets/images/model-guides-jazz/1962-gibson-johnny-smith-natural-back.jpg';
 import jsFront from '../../assets/images/model-guides-jazz/1970-gibson-johnny-smith-front.jpg';
 import jsFull from '../../assets/images/model-guides-jazz/1970-gibson-johnny-smith-full-front.jpg';
 import jsHead from '../../assets/images/model-guides-jazz/1970-gibson-johnny-smith-headstock.jpg';
@@ -56,6 +58,8 @@ export const jazzPhotos = {
   hrCase: ph(hrCase, '1974 Gibson Howard Roberts Custom in its original case.'),
   hr77Front: ph(hr77Front, '1977 Gibson Howard Roberts with gold hardware, a black pickguard and one neck humbucker.'),
   hr77Head: ph(hr77Head, '1977 Gibson Howard Roberts: headstock with a pearl Gibson logo and a floral vine inlay.'),
+  js62Front: { ...ph(js62Front, '1962 Gibson Johnny Smith in natural finish, with one floating pickup and the Johnny Smith tailpiece.'), captionBelow: true },
+  js62Back: { ...ph(js62Back, '1962 Gibson Johnny Smith: full rear view showing the figured back and neck, with gold tuners.'), captionBelow: true },
   jsFront: ph(jsFront, '1970 Gibson Johnny Smith in sunburst, with a Lollar pickup, replacement guard and a fingers-style tailpiece.'),
   jsFull: ph(jsFull, '1970 Gibson Johnny Smith: full front view with the headstock.'),
   jsHead: ph(jsHead, '1970 Gibson Johnny Smith: Gibson logo, split-diamond peghead inlay and the Johnny Smith truss rod cover.'),
