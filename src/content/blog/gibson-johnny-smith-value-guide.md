@@ -3,7 +3,7 @@ title: "Gibson Johnny Smith Value Guide"
 seoTitle: "Gibson Johnny Smith Value Guide: 1961 To 1989 Prices"
 pubDate: "2026-11-18"
 modified: "2026-11-18"
-excerpt: "Gibson Johnny Smith and Johnny Smith Double values from 1961 to 1989. See how floating pickups, factory seconds, finish and replaced parts affect price."
+excerpt: "Prices for Gibson Johnny Smith single-pickup and Double models, 1961 to 1989, accounting for floating pickup swaps, factory seconds, finish and replacement parts."
 category: "value-evaluation"
 categoryName: "Value & Evaluation"
 tags: ["Gibson","Value Guides","Guitars"]
@@ -12,7 +12,7 @@ heroImageAlt: "1970 Gibson Johnny Smith in sunburst, with a Lollar pickup, repla
 heroImageCaption: "1970 Gibson Johnny Smith in sunburst, with a Lollar pickup, replacement guard and a fingers-style tailpiece."
 heroImageLicensed: true
 ogImage: "images/model-guides-jazz/1970-gibson-johnny-smith-front.jpg"
-metaDescription: "Gibson Johnny Smith and Johnny Smith Double values from 1961 to 1989. See how floating pickups, factory seconds, finish and replaced parts affect price."
+metaDescription: "Prices for Gibson Johnny Smith single-pickup and Double models, 1961 to 1989, accounting for floating pickup swaps, factory seconds, finish and replacement parts."
 author: "Joe Dampt"
 draft: false
 ---
