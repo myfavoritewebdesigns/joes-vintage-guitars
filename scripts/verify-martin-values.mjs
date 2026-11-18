@@ -4,7 +4,7 @@ import {load} from 'cheerio';
 
 const guides=JSON.parse(fs.readFileSync('src/data/martin-value-guides.json','utf8'));
 const origin='https://www.joesvintageguitarsaz.com';
-const sitemap=fs.readFileSync('dist/sitemap-0.xml','utf8');
+const sitemap=fs.readFileSync('dist/sitemap-posts.xml','utf8');
 const errors=[];
 const check=(ok,msg)=>{if(!ok) errors.push(msg);};
 let images=0, priceRows=0;
