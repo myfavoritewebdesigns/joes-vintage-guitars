@@ -1,0 +1,71 @@
+{
+  "total": 2052,
+  "withText": 1380,
+  "byBrand": {
+    "fender": {
+      "total": 388,
+      "withText": 255,
+      "fiveStar": 364,
+      "firstDate": "2018-01-04",
+      "lastDate": "2026-03-16"
+    },
+    "gibson": {
+      "total": 359,
+      "withText": 247,
+      "fiveStar": 339,
+      "firstDate": "2017-12-29",
+      "lastDate": "2026-03-15"
+    },
+    "martin": {
+      "total": 80,
+      "withText": 59,
+      "fiveStar": 75,
+      "firstDate": "2018-04-24",
+      "lastDate": "2026-03-02"
+    },
+    "gretsch": {
+      "total": 37,
+      "withText": 29,
+      "fiveStar": 36,
+      "firstDate": "2018-01-13",
+      "lastDate": "2025-12-11"
+    },
+    "guild": {
+      "total": 36,
+      "withText": 22,
+      "fiveStar": 35,
+      "firstDate": "2018-04-08",
+      "lastDate": "2026-02-12"
+    },
+    "rickenbacker": {
+      "total": 22,
+      "withText": 18,
+      "fiveStar": 20,
+      "firstDate": "2019-09-09",
+      "lastDate": "2025-11-25"
+    },
+    "prs": {
+      "total": 30,
+      "withText": 20,
+      "fiveStar": 29,
+      "firstDate": "2022-09-07",
+      "lastDate": "2025-12-11"
+    },
+    "other": {
+      "total": 1100,
+      "withText": 730,
+      "fiveStar": 1045,
+      "firstDate": "2018-01-25",
+      "lastDate": "2026-03-14"
+    }
+  },
+  "byStars": {
+    "1": 30,
+    "2": 7,
+    "3": 17,
+    "4": 55,
+    "5": 1943
+  },
+  "firstDate": "2017-12-29",
+  "lastDate": "2026-03-16"
+}

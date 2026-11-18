@@ -1,0 +1,13 @@
+---
+import type { FenderClaim } from "../../data/expert-pages/fender-claims";
+
+interface Props {
+  claim: FenderClaim;
+  as?: "p" | "li" | "span";
+}
+const { claim, as: Tag = "p" } = Astro.props;
+---
+{claim.status !== "struck" && <Tag class="fex-claim" data-claim-id={claim.id}>
+  {claim.text}
+  {claim.status === "pending" && <span class="fex-pending" data-claim-id={claim.id}>Awaiting Joe's confirmation</span>}
+</Tag>}
