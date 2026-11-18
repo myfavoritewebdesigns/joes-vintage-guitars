@@ -32,6 +32,23 @@ const articleStart = pageBlock.search(/^### /m);
 if (articleStart === -1) throw new Error(`Missing article content for ${page.slug}`);
 const articleMarkdown = pageBlock.slice(articleStart).replace(/\n---\s*$/, "").trim();
 
+// Pull the page's FAQ straight out of the same markdown the body renders from, so the
+// structured data can never drift from the questions and answers on the page.
+const faqSection = articleMarkdown
+  .split(/^### /m)
+  .find((section) => /^[^\n]*Frequently Asked Questions/.test(section));
+const faqs = (faqSection ?? "")
+  .split(/^#### /m)
+  .slice(1)
+  .map((chunk) => {
+    const breakAt = chunk.indexOf("\n");
+    return {
+      q: chunk.slice(0, breakAt < 0 ? chunk.length : breakAt).trim(),
+      a: (breakAt < 0 ? "" : chunk.slice(breakAt + 1)).replace(/\s+/g, " ").trim(),
+    };
+  })
+  .filter((item) => item.q.endsWith("?") && item.a.length > 0);
+
 function slugifyHeading(value: string): string {
   return value
     .toLowerCase()
@@ -258,9 +275,22 @@ const serviceSchema = page.kind === "service"
     }
   : null;
 
+const faqSchema = faqs.length >= 2
+  ? {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      mainEntity: faqs.map((item) => ({
+        "@type": "Question",
+        name: item.q,
+        acceptedAnswer: { "@type": "Answer", text: item.a },
+      })),
+    }
+  : null;
+
 const structuredData: Record<string, unknown>[] = [breadcrumbSchema, webPageSchema];
 if (articleSchema) structuredData.push(articleSchema);
 if (serviceSchema) structuredData.push(serviceSchema);
+if (faqSchema) structuredData.push(faqSchema);
 ---
 
 <Layout
