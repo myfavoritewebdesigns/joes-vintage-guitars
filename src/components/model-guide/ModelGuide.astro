@@ -5,6 +5,7 @@ import LicensedImage from '../primitives/LicensedImage.astro';
 import joePortrait from '../../assets/images/fender-sn/about-me-joe-1.jpg';
 import GuideBlock from './GuideBlock.astro';
 import Photo from './Photo.astro';
+import { HERO, BAND } from './photo-sizes';
 import type { ModelGuideData } from './types';
 import stylesheet from './model-guide.css?url';
 interface Props { guide: ModelGuideData }
@@ -28,7 +29,7 @@ const assessmentNote = guide.assessmentNote ?? (guide.kind === 'value'
       <p class="mg-dek">{guide.dek}</p>
       <p class="mg-byline">By <a href="/about-me/">Joe Dampt</a> · {guide.date}</p>
       <div class="mg-actions">{guide.secondaryActions.map(action => <a href={action.href}>{action.label}</a>)}</div>
-      <div class="mg-hero-grid"><Photo photo={guide.hero} eager width={1800} /><aside><b>{guide.glanceTitle}</b>{guide.glance.map(([label, value]) => <p><strong>{label}</strong>{value}</p>)}</aside></div>
+      <div class="mg-hero-grid"><Photo photo={guide.hero} eager width={1800} sizes={HERO} /><aside><b>{guide.glanceTitle}</b>{guide.glance.map(([label, value]) => <p><strong>{label}</strong>{value}</p>)}</aside></div>
     </div>
   </header>
   <section class="mg-intro mg-wrap"><div class="mg-drop"><div set:html={guide.intro.html} /><p>{assessmentNote}</p></div><aside><b>{guide.intro.calloutTitle}</b><p>{guide.intro.callout}</p></aside></section>
@@ -38,7 +39,7 @@ const assessmentNote = guide.assessmentNote ?? (guide.kind === 'value'
       <div class="mg-section mg-wrap"><header class="mg-head"><span>{formatNumber(++sectionNumber)}</span><div><p>{section.eyebrow}</p><h2>{section.title}</h2></div></header>{section.blocks.map(block => <GuideBlock block={block} plainNumbers={plainNumbers} />)}</div>
     </section>
   ) : section.type === 'photo-band' ? (
-    <div class="mg-photo-band"><Photo photo={section.photos[0]} /><blockquote>{section.quote}{section.attribution && <cite>{section.attribution}</cite>}</blockquote><Photo photo={section.photos[1]} /></div>
+    <div class="mg-photo-band"><Photo photo={section.photos[0]} sizes={BAND} /><blockquote>{section.quote}{section.attribution && <cite>{section.attribution}</cite>}</blockquote><Photo photo={section.photos[1]} sizes={BAND} /></div>
   ) : (
     <section class="mg-stat"><div class="mg-wrap"><b>{section.figure}</b><h2>{section.title}</h2><div set:html={section.html} /><a href={section.source.href}>{section.source.label}</a></div></section>
   ))}
