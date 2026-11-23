@@ -1486,5 +1486,301 @@
     "configuration": "Reverse body; two pickups",
     "low": 3100,
     "high": 3750
+  },
+  {
+    "family": "gibson-barney-kessel",
+    "model": "Barney Kessel Custom",
+    "years": "1961",
+    "configuration": "PAF humbuckers; gold hardware",
+    "low": 8000,
+    "high": 10650
+  },
+  {
+    "family": "gibson-barney-kessel",
+    "model": "Barney Kessel Custom",
+    "years": "1962",
+    "configuration": "Patent Number humbuckers; gold hardware",
+    "low": 4400,
+    "high": 5700
+  },
+  {
+    "family": "gibson-barney-kessel",
+    "model": "Barney Kessel Custom",
+    "years": "1963 to 1964",
+    "configuration": "Gold hardware",
+    "low": 4400,
+    "high": 5700
+  },
+  {
+    "family": "gibson-barney-kessel",
+    "model": "Barney Kessel Custom",
+    "years": "1965",
+    "configuration": "Gold hardware",
+    "low": 4000,
+    "high": 5300
+  },
+  {
+    "family": "gibson-barney-kessel",
+    "model": "Barney Kessel Custom",
+    "years": "1966 to 1969",
+    "configuration": "Gold hardware",
+    "low": 3750,
+    "high": 4800
+  },
+  {
+    "family": "gibson-barney-kessel",
+    "model": "Barney Kessel Custom",
+    "years": "1970 to 1973",
+    "configuration": "Gold hardware",
+    "low": 2750,
+    "high": 3600
+  },
+  {
+    "family": "gibson-barney-kessel",
+    "model": "Barney Kessel Regular",
+    "years": "1961",
+    "configuration": "PAF humbuckers; nickel hardware",
+    "low": 7300,
+    "high": 9450
+  },
+  {
+    "family": "gibson-barney-kessel",
+    "model": "Barney Kessel Regular",
+    "years": "1962",
+    "configuration": "Patent Number humbuckers; nickel hardware",
+    "low": 4200,
+    "high": 5700
+  },
+  {
+    "family": "gibson-barney-kessel",
+    "model": "Barney Kessel Regular",
+    "years": "1963 to 1964",
+    "configuration": "Nickel hardware",
+    "low": 4200,
+    "high": 5700
+  },
+  {
+    "family": "gibson-barney-kessel",
+    "model": "Barney Kessel Regular",
+    "years": "1965",
+    "configuration": "Nickel or chrome hardware",
+    "low": 3750,
+    "high": 4800
+  },
+  {
+    "family": "gibson-barney-kessel",
+    "model": "Barney Kessel Regular",
+    "years": "1966 to 1969",
+    "configuration": "Nickel or chrome hardware",
+    "low": 3550,
+    "high": 4600
+  },
+  {
+    "family": "gibson-barney-kessel",
+    "model": "Barney Kessel Regular",
+    "years": "1970 to 1974",
+    "configuration": "Nickel or chrome hardware",
+    "low": 2800,
+    "high": 3700
+  },
+  {
+    "family": "gibson-howard-roberts",
+    "model": "Epiphone Howard Roberts Standard",
+    "years": "1964 to 1970",
+    "configuration": "Kalamazoo-built Epiphone; cherry or sunburst",
+    "low": 2200,
+    "high": 4400
+  },
+  {
+    "family": "gibson-howard-roberts",
+    "model": "Epiphone Howard Roberts Custom",
+    "years": "1965 to 1970",
+    "configuration": "Kalamazoo-built Epiphone; one pickup; walnut finish",
+    "low": 2600,
+    "high": 5150
+  },
+  {
+    "family": "gibson-howard-roberts",
+    "model": "Howard Roberts Custom",
+    "years": "1975 to 1981",
+    "configuration": "One humbucker; chrome hardware; rosewood board",
+    "low": 2600,
+    "high": 4350
+  },
+  {
+    "family": "gibson-howard-roberts",
+    "model": "Howard Roberts Artist",
+    "years": "1976 to 1980",
+    "configuration": "One humbucker; gold hardware; ebony board",
+    "low": 2200,
+    "high": 3500
+  },
+  {
+    "family": "gibson-howard-roberts",
+    "model": "Howard Roberts Artist Double Pickup",
+    "years": "1979 to 1980",
+    "configuration": "Two pickups; gold hardware",
+    "low": 2450,
+    "high": 3950
+  },
+  {
+    "family": "gibson-howard-roberts",
+    "model": "Howard Roberts Fusion, Fusion II And Fusion III",
+    "years": "1979 to 2009",
+    "configuration": "Semi-hollow; two humbuckers",
+    "low": 1750,
+    "high": 3100
+  },
+  {
+    "family": "gibson-johnny-smith",
+    "model": "Johnny Smith And Johnny Smith Double",
+    "years": "1961 to 1964",
+    "configuration": "One or two floating pickups; natural or sunburst",
+    "low": 11900,
+    "high": 14950
+  },
+  {
+    "family": "gibson-johnny-smith",
+    "model": "Johnny Smith And Johnny Smith Double",
+    "years": "1965",
+    "configuration": "One or two floating pickups; natural or sunburst",
+    "low": 7500,
+    "high": 9700
+  },
+  {
+    "family": "gibson-johnny-smith",
+    "model": "Johnny Smith And Johnny Smith Double",
+    "years": "1966 to 1969",
+    "configuration": "One or two floating pickups; natural or sunburst",
+    "low": 7100,
+    "high": 9300
+  },
+  {
+    "family": "gibson-johnny-smith",
+    "model": "Johnny Smith And Johnny Smith Double",
+    "years": "1970 to 1989",
+    "configuration": "One or two floating pickups; natural or sunburst",
+    "low": 6450,
+    "high": 8600
+  },
+  {
+    "family": "gibson-tal-farlow",
+    "model": "Tal Farlow",
+    "years": "1962 to 1964",
+    "configuration": "Viceroy Brown",
+    "low": 6950,
+    "high": 10450
+  },
+  {
+    "family": "gibson-tal-farlow",
+    "model": "Tal Farlow",
+    "years": "1965",
+    "configuration": "Viceroy Brown",
+    "low": 6700,
+    "high": 8600
+  },
+  {
+    "family": "gibson-tal-farlow",
+    "model": "Tal Farlow",
+    "years": "1966 to 1971",
+    "configuration": "Viceroy Brown",
+    "low": 6350,
+    "high": 8350
+  },
+  {
+    "family": "gibson-tal-farlow",
+    "model": "Tal Farlow",
+    "years": "1993 to 2018",
+    "configuration": "Various colors",
+    "low": 3700,
+    "high": 5700
+  },
+  {
+    "family": "gibson-trini-lopez",
+    "model": "Trini Lopez Standard",
+    "years": "1964",
+    "configuration": "Cherry",
+    "low": 8600,
+    "high": 11200
+  },
+  {
+    "family": "gibson-trini-lopez",
+    "model": "Trini Lopez Standard",
+    "years": "1965",
+    "configuration": "Cherry",
+    "low": 7850,
+    "high": 10450
+  },
+  {
+    "family": "gibson-trini-lopez",
+    "model": "Trini Lopez Standard",
+    "years": "1965",
+    "configuration": "Pelham Blue",
+    "low": 11600,
+    "high": 15500
+  },
+  {
+    "family": "gibson-trini-lopez",
+    "model": "Trini Lopez Standard",
+    "years": "1965",
+    "configuration": "Sparkling Burgundy",
+    "low": 8600,
+    "high": 11200
+  },
+  {
+    "family": "gibson-trini-lopez",
+    "model": "Trini Lopez Standard",
+    "years": "1966",
+    "configuration": "Pelham Blue",
+    "low": 9450,
+    "high": 12450
+  },
+  {
+    "family": "gibson-trini-lopez",
+    "model": "Trini Lopez Standard",
+    "years": "1966 to 1970",
+    "configuration": "Cherry",
+    "low": 6850,
+    "high": 8950
+  },
+  {
+    "family": "gibson-trini-lopez",
+    "model": "Trini Lopez Standard",
+    "years": "1966 to 1970",
+    "configuration": "Sparkling Burgundy",
+    "low": 7050,
+    "high": 9250
+  },
+  {
+    "family": "gibson-trini-lopez",
+    "model": "Trini Lopez Standard Custom Shop Reissue",
+    "years": "2010 to 2011",
+    "configuration": "Later Custom Shop reissue",
+    "low": 3900,
+    "high": 5200
+  },
+  {
+    "family": "gibson-trini-lopez",
+    "model": "Trini Lopez Deluxe",
+    "years": "1964",
+    "configuration": "Double pointed cutaways; triple-bound; sunburst",
+    "low": 6650,
+    "high": 8550
+  },
+  {
+    "family": "gibson-trini-lopez",
+    "model": "Trini Lopez Deluxe",
+    "years": "1965",
+    "configuration": "Double pointed cutaways; triple-bound; sunburst",
+    "low": 6250,
+    "high": 8250
+  },
+  {
+    "family": "gibson-trini-lopez",
+    "model": "Trini Lopez Deluxe",
+    "years": "1966 to 1970",
+    "configuration": "Double pointed cutaways; triple-bound; sunburst",
+    "low": 5800,
+    "high": 7700
   }
 ]

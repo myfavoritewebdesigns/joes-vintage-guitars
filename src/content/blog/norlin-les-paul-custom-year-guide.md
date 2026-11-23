@@ -2,7 +2,7 @@
 title: "Gibson Les Paul Custom 1968 To 1986: Specs And Dating"
 seoTitle: "Gibson Les Paul Custom 1968 To 1986: Specs And Dating"
 pubDate: "2026-10-19T16:27:37-07:00"
-modified: "2026-10-19T16:27:37-07:00"
+modified: "2026-11-23"
 excerpt: "Gibson Les Paul Customs changed considerably between 1968 and 1986. Body construction, neck woods, pickups and hardware can help you identify one, but the changes didn't all happen in the same year. To date one, match the serial number to the guitar's construction and original parts."
 category: "specific-model-highlights"
 categoryName: "Specific Model Highlights"
@@ -61,13 +61,25 @@ toc: [{"href":"#custom-features","label":"What Makes A Gibson Les Paul Custom Di
 <p>Some earlier 1969 bodies have a different arrangement: a thin maple layer directly under the carved top, with a full one-piece mahogany back beneath it. This is often called upper crossbanding. Its position separates it from a true pancake back, where the thin maple sheet divides the mahogany into upper and lower sections. The <a href="/post/1968-1969-1970-les-paul-custom-dating-guide/#body-and-neck-construction">1968 to 1970 body comparison</a> explains both forms.</p>
 <p>When pancake construction ended, Gibson could still join pieces of mahogany side by side to make a back. A seam running along the back and a layer running horizontally through the body describe different ways of assembling the wood. That's why a later non-pancake Custom isn't automatically a one-piece-body guitar.</p>
 
+<div class="jvg-img2">
+
+<figure class="norlin-photo burst-feature-photo">
+
+![Side of a 1970 Gibson Les Paul Deluxe showing the thin maple layer between two mahogany body sections](../../assets/images/guide-photo-additions/1970-gibson-les-paul-deluxe-pancake-body.jpg)
+
+<figcaption>Primary construction example: the transparent side finish on this 1970 Les Paul Deluxe makes the thin maple crossband between the mahogany layers easier to see. This Deluxe illustrates the construction also found on period Customs.</figcaption>
+
+</figure>
+
 <figure data-original-url="/images/norlin-originals/gibson-les-paul-pancake-body-finish-line.jpg" data-full-image="/images/blog/norlin-les-paul-custom-year-guide/gibson-les-paul-pancake-body-finish-line.jpg" class="norlin-photo burst-feature-photo">
 
 ![Black Les Paul body edge with a faint horizontal line through the side finish](<../../assets/blog/norlin-les-paul-custom-year-guide/gibson-les-paul-pancake-body-finish-line.jpg>)
 
-<figcaption>The faint line runs through the black side finish. An exposed crossband in a cavity would show the wood layers more clearly.</figcaption>
+<figcaption>Black-finish comparison: opaque paint on the side and back can hide the wood layers. On this low-impedance Les Paul, the pancake construction is visible only as a faint line through the finish.</figcaption>
 
 </figure>
+
+</div>
 
 <h2 id="necks-and-tenons">Les Paul Custom Neck Woods, Volutes And Tenons</h2>
 

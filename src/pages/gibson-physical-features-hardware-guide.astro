@@ -19,6 +19,7 @@ import wrapoverTailpiece from '../assets/features-hardware/gibson-wrap-over-tail
 import stopbarTailpiece from '../assets/features-hardware/gibson-es-335-tune-o-matic-and-stop-bar-tailpiece-scaled.jpg';
 import trapezeTailpiece from '../assets/features-hardware/gibson-es-335-trapeze-tailpiece-example.jpg';
 import wrapUnderTailpiece from '../assets/features-hardware/1952-gibson-les-paul-wrap-under-tailpiece.jpeg';
+import clearPancakeBody from '../assets/images/guide-photo-additions/1970-gibson-les-paul-deluxe-pancake-body.jpg';
 import pancakeBodyPhoto from '../assets/features-hardware/gibson-les-paul-pancake-body-finish-line.jpg';
 import harmonicaBridge from '../assets/sg-family/1975-gibson-sg-tobacco-burst.jpg';
 import nylonSaddles from '../assets/es-330/nylon-bridge-saddles.jpg';
@@ -139,7 +140,7 @@ const schema = {
       author: { '@type': 'Person', '@id': 'https://www.joesvintageguitarsaz.com/about-me/#person', name: 'Joe Dampt', url: 'https://www.joesvintageguitarsaz.com/about-me/' },
       publisher: { '@type': 'Organization', name: 'Joe’s Vintage Guitars', url: 'https://www.joesvintageguitarsaz.com/' },
       datePublished: '2026-09-09',
-      dateModified: '2026-09-16',
+      dateModified: '2026-11-23',
     },
     {
       '@type': 'BreadcrumbList', itemListElement: [
@@ -165,7 +166,7 @@ const schema = {
   ogImageWidth={articleImage.attributes.width}
   ogImageHeight={articleImage.attributes.height}
   publishedTime="2026-09-09"
-  modifiedTime="2026-09-16"
+  modifiedTime="2026-11-23"
   structuredData={schema}
 >
     <a href="#feature-hardware-guide" class="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-50 focus:bg-cream focus:px-4 focus:py-2">Skip to the Gibson physical features and hardware guide</a>
@@ -285,8 +286,8 @@ const schema = {
           <p class="fh-eyebrow">A Les Paul-Specific Clue</p>
           <h2>How to Identify a Gibson Pancake Body</h2>
           <p>A pancake body is not simply a body made from more than one piece of wood. From late 1969 through the 1977 phaseout, many Les Pauls used two thicker mahogany sections with a thin maple crossband between them. The narrow middle layer can appear as a light line around the body edge.</p>
-          <div class="fh-body-example">
-            <FeatureHardwarePhoto src={pancakeBodyPhoto} id="les-paul-pancake-body" title="Faint Pancake-Body Seam" alt="Black Gibson Les Paul-family body edge showing a faint horizontal line in the side finish" caption="Look closely at the body edge. The faint horizontal line is consistent with the thin crossband in a pancake body, though a cavity view gives stronger confirmation than finish evidence alone." />
+          <div class="fh-body-example" style="grid-template-columns:1fr">
+            <div class="jvg-img2"><FeatureHardwarePhoto src={clearPancakeBody} id="les-paul-pancake-body-clear" title="Visible Pancake Body Layers" alt="Side of a 1970 Gibson Les Paul Deluxe showing the thin maple layer between two mahogany body sections" caption="Primary construction example: the transparent side finish on this 1970 Les Paul Deluxe makes the thin maple crossband between the mahogany layers easier to see. This Deluxe illustrates the construction also found on period Customs." /><FeatureHardwarePhoto src={pancakeBodyPhoto} id="les-paul-pancake-body" title="Pancake Seam Under Black Finish" alt="Black Les Paul body edge with a faint horizontal seam" caption="Black-finish comparison: opaque paint on the side and back can hide the wood layers. On this low-impedance Les Paul, the pancake construction is visible only as a faint line through the finish." /></div>
             <div class="fh-layer-card" role="img" aria-label="Simplified cross-section of a Les Paul pancake body showing the maple top, upper mahogany section, thin maple crossband and lower mahogany section">
               <div class="fh-layer fh-layer--top"><span>Carved Maple Top</span></div>
               <div class="fh-layer fh-layer--mahogany"><span>Upper Mahogany Section</span></div>

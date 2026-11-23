@@ -2,7 +2,7 @@
 title: "Rickenbacker 360 And 370 Authentication Guide"
 seoTitle: "Rickenbacker 360 And 370 Authentication Guide"
 pubDate: "2026-10-27"
-modified: "2026-10-27"
+modified: "2026-11-23"
 excerpt: "Identify Rickenbacker 360 And 370 instruments with archive photos, model differences, serial checks, repair clues and reissue comparisons."
 category: "specific-model-highlights"
 categoryName: "Specific Model Highlights"

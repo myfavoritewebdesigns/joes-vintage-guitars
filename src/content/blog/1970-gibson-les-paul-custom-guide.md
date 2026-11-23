@@ -2,7 +2,7 @@
 title: "1970 Gibson Les Paul Custom: Specs And Dating Guide"
 seoTitle: "1970 Gibson Les Paul Custom: Specs And Dating Guide"
 pubDate: "2026-10-19T16:27:37-07:00"
-modified: "2026-10-19T16:27:37-07:00"
+modified: "2026-11-23"
 excerpt: "The regular 1970 Gibson Les Paul Custom has a layered pancake body, a three-piece mahogany neck and two humbuckers. It shares several features with late 1969, so its serial number, headstock markings and original component dates need to be read together."
 category: "specific-model-highlights"
 categoryName: "Specific Model Highlights"
@@ -31,11 +31,35 @@ toc: [{"href":"#1970-les-paul-custom-specifications","label":"1970 Gibson Les Pa
 
 
 
+
+
+
+
 <h2 id="1970-les-paul-custom-body-construction">1970 Les Paul Custom Pancake Body, Neck And Tenon</h2>
 
 <h3>What Is The Pancake Body?</h3>
 <p>The pancake name describes the layers in the back of the body. Two thick mahogany sections are separated by a thin maple sheet, and the carved maple top sits above them. Seen from the side, the middle maple layer forms the thin filling in that sandwich.</p>
 <p>This is the regular 1970 construction. Some earlier 1969 bodies have a thin layer immediately beneath the top while retaining a full one-piece mahogany back. The <a href="/gibson-physical-features-hardware-guide/#body-construction">body construction guide</a> shows how the position of the layer distinguishes those designs.</p>
+<div class="jvg-img2">
+
+<figure class="norlin-photo burst-feature-photo">
+
+![Side of a 1970 Gibson Les Paul Deluxe showing the thin maple layer between two mahogany body sections](../../assets/images/guide-photo-additions/1970-gibson-les-paul-deluxe-pancake-body.jpg)
+
+<figcaption>Primary construction example: the transparent side finish on this 1970 Les Paul Deluxe makes the thin maple crossband between the mahogany layers easier to see. This Deluxe illustrates the construction also found on period Customs.</figcaption>
+
+</figure>
+
+<figure class="norlin-photo burst-feature-photo">
+
+![Black Les Paul body edge with a faint pancake-body seam](../../assets/blog/norlin-les-paul-custom-year-guide/gibson-les-paul-pancake-body-finish-line.jpg)
+
+<figcaption>Black-finish comparison: opaque paint on the side and back can hide the wood layers. On this low-impedance Les Paul, the pancake construction is visible only as a faint line through the finish.</figcaption>
+
+</figure>
+
+</div>
+
 <h3>The Three-Piece Mahogany Neck</h3>
 <p>The neck is assembled from three long pieces of mahogany joined side by side. Those joins run along the neck, separately from the horizontal layers in the body. The fingerboard is another piece of wood attached to the front of the neck; on the regular 1970 Custom, it's ebony.</p>
 <p>Mahogany is the neck wood specified in Gibson's 1970 brochure. The three-piece maple neck found on later Customs belongs to the mid-1970s changes.</p>
