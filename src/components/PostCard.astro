@@ -34,13 +34,14 @@ const comparisonImageProps = data.heroImage?.startsWith('/images/es-comparison/'
 <article class="bpc">
   <a class="bpc__media" href={href} aria-label={data.title}>
     {guide ? (
-      <LicensedImage src={guide.image} alt={guide.imageAlt} width={700} loading={eager ? "eager" : "lazy"} emitSchema={false} />
+      <LicensedImage src={guide.image} alt={guide.imageAlt} width={700} sizes={imageSizes} loading={eager ? "eager" : "lazy"} emitSchema={false} />
     ) : data.heroImage ? (
       heroMeta ? (
         <Image
           src={heroMeta}
           alt={data.heroImageAlt || data.title}
           width={700}
+          sizes={imageSizes}
           {...comparisonImageProps}
           loading={eager ? "eager" : "lazy"}
         />

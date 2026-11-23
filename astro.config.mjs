@@ -1,9 +1,11 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
+import { satteri } from '@astrojs/markdown-satteri';
 import sitemap from '@astrojs/sitemap';
 
 import tailwindcss from '@tailwindcss/vite';
 import { SITE_URL } from './src/config/site';
+import { blogImageSizes } from './src/lib/markdown-image-sizes.mjs';
 
 // Routes that must stay out of the XML sitemap: noindex hand-out pages, the
 // form thank-you page, and the 404 route. Keep in sync with any future noindex page.
@@ -28,11 +30,12 @@ export default defineConfig({
   // Trade-off: per-page HTML grows by the page's CSS and cross-page CSS caching
   // goes away — the right trade for a mostly-single-page-visit lead-gen site.
   build: { inlineStylesheets: 'always' },
+  markdown: { processor: satteri({ hastPlugins: [blogImageSizes()] }) },
   // Responsive image pipeline (SEO v2 Prompt 5): every <Image> and markdown
   // image gets breakpoint srcsets, WebP, and intrinsic dimensions. Pre-existing
   // <Image> uses with hand-tuned widths/sizes are pinned with layout="none" so
-  // their rendered markup does not change. Verified against Astro 6.3.2: a
-  // global layout makes Astro IGNORE widths/densities/sizes props, and
+  // their rendered markup does not change. A global layout overrides
+  // widths/densities, but Astro 7 honours explicit sizes props, and
   // responsiveStyles defaults to false so it must be opted in.
   image: {
     layout: 'constrained',

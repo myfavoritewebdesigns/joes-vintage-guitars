@@ -1,6 +1,7 @@
 ---
 import type { GuideBlock } from './types';
 import Photo from './Photo.astro';
+import { GRID, GALLERY_LEAD, GALLERY, SERIAL } from './photo-sizes';
 interface Props { block: GuideBlock; plainNumbers?: boolean }
 const { block, plainNumbers = false } = Astro.props;
 ---
@@ -13,10 +14,10 @@ const { block, plainNumbers = false } = Astro.props;
 </>}
 {block.type === 'columns' && <div class="mg-columns">{block.items.map(item => <div><h3>{item.title}</h3><div set:html={item.html} /></div>)}</div>}
 {block.type === 'timeline' && <div class="mg-timeline">{block.items.map(item => <div><span class="mg-date">{item.date}</span><div><h3>{item.title}</h3><div set:html={item.html} /></div></div>)}</div>}
-{block.type === 'photos' && <div class="mg-photo-grid">{block.photos.map(photo => <Photo photo={photo} />)}</div>}
+{block.type === 'photos' && <div class="mg-photo-grid">{block.photos.map(photo => <Photo photo={photo} sizes={GRID} />)}</div>}
 {block.type === 'cards' && <div class={`mg-card-grid mg-${block.variant}`}>{block.items.map(item => <div class="mg-card">{item.label && <b>{item.label}</b>}<h3>{item.title}</h3><div set:html={item.html} /></div>)}</div>}
-{block.type === 'archive' && <div class="mg-archive-items">{block.items.map(item => <div class="mg-era"><div><p class="mg-eyebrow">{item.label}</p><h3>{item.title}</h3><div set:html={item.html} /></div><div class={`mg-gallery mg-gallery-${item.photos.length}`}>{item.photos.map(photo => <Photo photo={photo} />)}</div></div>)}</div>}
-{block.type === 'serials' && <div class="mg-serial-cards">{block.items.map(item => <div class="mg-serial-card"><b>{item.serial}</b><h3>{item.title}</h3><div set:html={item.html} />{item.photo && <Photo photo={item.photo} width={1000} />}</div>)}</div>}
+{block.type === 'archive' && <div class="mg-archive-items">{block.items.map(item => <div class="mg-era"><div><p class="mg-eyebrow">{item.label}</p><h3>{item.title}</h3><div set:html={item.html} /></div><div class={`mg-gallery mg-gallery-${item.photos.length}`}>{item.photos.map((photo, index) => <Photo photo={photo} sizes={index === 0 ? GALLERY_LEAD : GALLERY} />)}</div></div>)}</div>}
+{block.type === 'serials' && <div class="mg-serial-cards">{block.items.map(item => <div class="mg-serial-card"><b>{item.serial}</b><h3>{item.title}</h3><div set:html={item.html} />{item.photo && <Photo photo={item.photo} width={1000} sizes={SERIAL} />}</div>)}</div>}
 {block.type === 'checklist' && <ol class="mg-checks">{block.items.map((item, index) => <li><span aria-hidden="true">{plainNumbers ? String(index + 1) : String(index + 1).padStart(2, '0')}</span><div><h3>{item.title}</h3><div set:html={item.html} /></div></li>)}</ol>}
 {block.type === 'callout' && <aside class="mg-warning"><b>{block.title}</b><div set:html={block.html} /></aside>}
 {block.type === 'cta' && <div class="mg-cta"><div><p class="mg-eyebrow">Send The Evidence</p><h3>{block.title}</h3><div set:html={block.html} /></div><div><a href="/free-appraisal/">{block.appraisalLabel}</a><a href={block.sellHref}>{block.sellLabel}</a></div></div>}
