@@ -1,0 +1,372 @@
+---
+import Layout from "../layouts/Layout.astro";
+import ContactSection from "../components/ContactSection.astro";
+import LicensedImage from "../components/primitives/LicensedImage.astro";
+import FenderClaim from "../components/expert-pages/FenderClaim.astro";
+import { getImage } from "astro:assets";
+import { SITE_URL } from "../config/site";
+import { guideGroups, individualValueModels } from "../data/expert-pages/fender-guides";
+import { claimsFor, pendingFenderClaims } from "../data/expert-pages/fender-claims";
+import theme from "../../reference/reverb-reviews-theme.css?raw";
+import stratocaster from "../assets/blog/1962-fender-stratocaster-authentication-guide/1962-fender-stratocaster-sunburst-8-scaled.jpg";
+import telecaster from "../assets/images/joshua-with-1952-fender-telecaster.jpeg";
+import jaguar from "../assets/images/bill-with-1966-fender-jaguar-lake-placid-blue-scaled.jpeg";
+import jazzBass from "../assets/images/jim-with-1972-fender-jazz-bass-scaled.jpeg";
+
+const title = "Fender Vintage Guitar Expert | Joe's Vintage Guitars";
+const description = "Fender vintage guitar expert Joe Dampt appraises, authenticates and buys vintage Fenders. 12+ years of experience and 10,000+ instruments personally appraised.";
+const canonical = "/fender-vintage-guitar-expert/";
+const pageUrl = `${SITE_URL}${canonical}`;
+const personId = `${SITE_URL}/about-me/#person`;
+const share = await getImage({ src: stratocaster, width: 1200, height: 630, fit: "cover" });
+
+interface ReverbReview {
+  id: number | string;
+  stars: number;
+  title: string;
+  reviewer: string;
+  date: string;
+  dateLabel: string;
+  body: string;
+  words: number;
+  brand: string;
+}
+interface BrandSummary {
+  total: number;
+  withText: number;
+  fiveStar: number;
+  firstDate: string;
+  lastDate: string;
+}
+interface GoogleReview {
+  reviewer: string;
+  date: string;
+  stars: number;
+  body: string;
+  url?: string;
+  brands: string[];
+}
+
+// These files are supplied by another process. Missing files do not break the route.
+const reviewFiles = import.meta.glob<unknown>("../data/reviews/*.json", { eager: true, import: "default" });
+const reverb = (reviewFiles["../data/reviews/reverb.json"] ?? []) as ReverbReview[];
+const summary = reviewFiles["../data/reviews/reverb-summary.json"] as { byBrand?: { fender?: BrandSummary } } | undefined;
+const fenderReviews = reverb.filter(r => r.brand === "fender");
+// One-star and two-star reviews are not listed (Josh, 2026-11-16). They stay in the data and in the totals.
+const writtenReviews = fenderReviews.filter(r => r.body.trim() && r.stars > 2).sort((a, b) => b.date.localeCompare(a.date));
+const fenderSummary = summary?.byBrand?.fender ?? (fenderReviews.length ? {
+  total: fenderReviews.length,
+  withText: writtenReviews.length,
+  fiveStar: fenderReviews.filter(r => r.stars === 5).length,
+  firstDate: [...fenderReviews].sort((a, b) => a.date.localeCompare(b.date))[0].date,
+  lastDate: [...fenderReviews].sort((a, b) => b.date.localeCompare(a.date))[0].date,
+} : undefined);
+const starsOnly = fenderSummary ? fenderSummary.total - fenderSummary.withText : 0;
+const google = (reviewFiles["../data/reviews/google.json"] ?? []) as GoogleReview[];
+const sellerReviews = google.filter(r => r.brands?.some(brand => brand.toLowerCase() === "fender") && r.body.trim())
+  .sort((a, b) => b.date.localeCompare(a.date));
+const number = (n: number) => n.toLocaleString("en-US");
+const dateLabel = (date: string) => new Date(`${date.slice(0, 10)}T12:00:00Z`).toLocaleDateString("en-US", {
+  year: "numeric", month: "long", day: "numeric", timeZone: "UTC",
+});
+// Preserve review wording; normalize only the two dash glyphs prohibited by this brief.
+const reviewText = (text: string) => text.replace(/[\u2013\u2014]/g, "-");
+
+const purchases = [
+  {
+    title: "1952 Fender Telecaster",
+    photo: telecaster,
+    alt: "Joshua with his uncle's 1952 Fender Telecaster in Washington State",
+    caption: "Joshua's 1952 Fender Telecaster, Washington State.",
+    body: "This one was special enough that I flew to Washington to pick it up in person. The Telecaster belonged to Joshua's uncle, one of the earliest production Teles ever made, and it's in remarkable condition. It'll be played for decades to come.",
+  },
+  {
+    title: "1966 Fender Jaguar In Lake Placid Blue",
+    photo: jaguar,
+    alt: "Bill with his 1966 Fender Jaguar in Lake Placid Blue",
+    caption: "Bill's 1966 Fender Jaguar, Lake Placid Blue, original finish.",
+    body: "Bill's father bought him this 1966 Jaguar in the rare Lake Placid Blue finish when he was young. Decades later, it came to me in beautiful original condition. Custom color Fenders from this era are significantly rarer than their sunburst siblings, and that rarity translates directly to price.",
+  },
+  {
+    // Published card text governs the disputed year, rather than the image filename.
+    title: "1973 Fender Jazz Bass",
+    photo: jazzBass,
+    alt: "Jim with the Fender Jazz Bass he owned for 40 years before selling to Joe's Vintage Guitars",
+    caption: "Jim's Fender Jazz Bass, 40 years with one owner, near mint.",
+    body: "Jim owned this 1973 Jazz Bass for 40 years and kept it in near-mint condition. That's a true rarity for an instrument of that age. He also happens to have one of the finest moustaches of any seller I've ever worked with.",
+  },
+];
+
+const videos = [
+  {
+    id: "PIRoB0KHEg0", anchor: "fender-identification-video",
+    title: "Where To Find Fender Serial Numbers, Neck Heel Dates & Pot Codes (Identification Guide)",
+    description: "Joe Dampt of Joe's Vintage Guitars shows Fender serial number locations, neck heel dates and potentiometer codes.",
+    uploadDate: "2026-01-13",
+  },
+  {
+    id: "SX9tAh7dMO0", anchor: "fender-jaguar-video",
+    title: "1962 Fender Jaguar Tuck & Roll?!?",
+    description: "Joe Dampt of Joe's Vintage Guitars presents the 1962 Fender Tuck and Roll Jaguar.",
+    uploadDate: "2026-11-02",
+  },
+];
+const faqs = [
+  { q: "Who Can Authenticate A Vintage Fender?", a: "I'm Joe Dampt, owner of Joe's Vintage Guitars, where I appraise, authenticate and buy vintage Fenders. I have 12+ years of experience and have personally appraised 10,000+ vintage instruments. Vintage Fender Custom Color guitars are one of my specializations." },
+  { q: "Does Joe Appraise Fender Guitars For Free?", a: "Yes. At Joe's Vintage Guitars, I, Joe Dampt, don't charge for the first market valuation, and you don't have to sell. A signed report for insurance, an estate, a donation, or a legal matter is a separate paid service." },
+  { q: "Can I Get A Fender Appraisal From Another State?", a: "You can request an appraisal from Joe's Vintage Guitars from anywhere in the United States. I'm Joe Dampt, and I handle most appraisals remotely from clear photos, so you don't need to ship the guitar or bring it to Mesa just to learn what it's worth." },
+  { q: "Does Joe Buy Vintage Fender Guitars?", a: "Yes. I'm Joe Dampt, and I buy vintage Fender guitars through Joe's Vintage Guitars. I've purchased guitars from all 50 states and many foreign countries. My Fender purchases include Joshua's 1952 Telecaster and Bill's 1966 Jaguar in Lake Placid Blue." },
+  { q: "Does Joe Do The Repair Work Himself?", a: "I'm Joe Dampt, and I've repaired and restored 1,000+ instruments myself at Joe's Vintage Guitars. Every guitar that comes through my shop gets a proper evaluation and any needed repairs done in-house, by me. I'm currently not accepting new repair or restoration work, except in a few limited cases." },
+  { q: "Can Joe Appraise A Damaged Or Non-Working Fender?", a: "Yes. I'm Joe Dampt of Joe's Vintage Guitars, and I appraise damaged and non-working instruments all the time. My appraisal covers the instrument's value as-is and its value for parts. I also estimate the cost of a proper restoration." },
+];
+const sections = [
+  ["why-joe", "Why Fender Owners Choose Joe Dampt"],
+  ["repair-bench", "Joe Dampt's Repair Bench"],
+  ["fender-purchases", "Fender Guitars Joe Dampt Has Bought"],
+  ["published-guides", "Joe Dampt's Published Fender Reference Work"],
+  ["fender-videos", "Joe Dampt's Fender Videos"],
+  ["press", "Press And Other Recognition"],
+  ...(fenderSummary ? [["fender-buyers", "What Fender Buyers Say"]] : []),
+  ...(sellerReviews.length ? [["fender-sellers", "What Fender Owners Say On Google"]] : []),
+  ["fender-questions", "Questions About Joe Dampt's Fender Appraisals"],
+  ["contact-joe", "Ask Joe About Your Fender"],
+];
+const structuredData = [
+  { "@context": "https://schema.org", "@type": "WebPage", "@id": pageUrl, url: pageUrl, name: title,
+    description, about: { "@id": personId }, author: { "@id": personId }, publisher: { "@id": `${SITE_URL}/` } },
+  { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Home", item: `${SITE_URL}/` },
+    { "@type": "ListItem", position: 2, name: "Fender Vintage Guitar Expert", item: pageUrl },
+  ] },
+  { "@context": "https://schema.org", "@type": "FAQPage", mainEntity: faqs.map(f => ({
+    "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a },
+  })) },
+  ...videos.map(v => ({
+    "@context": "https://schema.org", "@type": "VideoObject", "@id": `${pageUrl}#${v.anchor}`,
+    name: v.title, description: v.description, thumbnailUrl: `https://img.youtube.com/vi/${v.id}/maxresdefault.jpg`,
+    uploadDate: v.uploadDate, embedUrl: `https://www.youtube.com/embed/${v.id}`,
+    contentUrl: `https://www.youtube.com/watch?v=${v.id}`, author: { "@id": personId },
+  })),
+];
+// Candidate copy is rendered only in the body. The existing schema uses on-file
+// metadata and FAQs; no candidate text is passed into any JSON-LD node.
+const claimLinks: Record<string, { href: string; label: string }> = {
+  "FC-08": { href: "https://www.vintageverified.com/joes-vintage", label: "Read My Vintage Verified Guest Essay" },
+  "FC-23": { href: "/about-me/", label: "My Treasure Seekers Roadshow Background" },
+  "FC-25": { href: "https://www.kjzz.org/the-show/see-inside-joes-vintage-guitars-in-mesa", label: "Read The KJZZ Photo Story" },
+};
+---
+
+<Layout title={title} description={description} canonical={canonical}
+  ogImage={`${SITE_URL}${share.src}`} ogImageAlt="Sunburst Fender Stratocaster in an orange-lined case"
+  ogImageWidth={1200} ogImageHeight={630} structuredData={structuredData} noIndex={pendingFenderClaims.length > 0} bodyClass="fender-expert-page">
+  <Fragment slot="head">
+    <link rel="stylesheet" href="/styles/lite-yt-embed.css" />
+    <script is:inline defer src="/scripts/lite-yt-embed.js"></script>
+  </Fragment>
+  {pendingFenderClaims.length > 0 && <aside class="fex-preview" aria-label="Preview Status">Preview: {pendingFenderClaims.length} claims on this page are awaiting Joe Dampt's review.</aside>}
+  <div class="fex-backdrop" aria-hidden="true"></div>
+  <article class="fex">
+    <header class="fex-intro">
+      <nav class="fex-breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span aria-hidden="true"> / </span><span>Fender Vintage Guitar Expert</span></nav>
+      <h1>Fender Vintage Guitar Expert</h1>
+      <p class="fex-answer">I'm <a href="/about-me/">Joe Dampt</a>, owner of Joe's Vintage Guitars in Mesa, Arizona. I appraise, authenticate and buy vintage Fender guitars, with Vintage Fender Custom Color guitars among my specializations.</p>
+      <div class="fex-intro-grid">
+        <div>
+          <ul class="fex-facts">
+            <li><strong>12+ Years Experience</strong> buying and appraising vintage instruments full-time.</li>
+            <li><strong>10,000+ Vintage Instruments Appraised Personally</strong>.</li>
+            <li><strong>$2,000,000+ Annual Volume</strong> in vintage gear bought and sold.</li>
+            <li><strong>All 50 States</strong> and many foreign countries: places I've purchased guitars from.</li>
+          </ul>
+          <p>I'm a Top-Rated Seller on Reverb with over 2,000 5-Star reviews.</p>
+          <div class="fex-actions"><a href="/free-appraisal/">Free Fender Appraisal</a><a href="/sell-my-fender-guitar/">Sell My Fender Guitar</a></div>
+        </div>
+        <figure>
+          <LicensedImage src={stratocaster} alt="Sunburst Fender Stratocaster with a white pickguard and vibrato arm in an orange-lined case"
+            width={720} loading="eager" fetchpriority="high" sizes="(min-width: 850px) 400px, calc(100vw - 40px)" />
+          <figcaption>A Fender Stratocaster from my photo archive.</figcaption>
+        </figure>
+      </div>
+    </header>
+
+    <section class="fex-section fex-why" aria-labelledby="why-joe">
+      <h2 id="why-joe">Why Fender Owners Choose Joe Dampt</h2>
+      <ul class="fex-claims">{claimsFor("why-joe").map(claim => <FenderClaim claim={claim} as="li" />)}</ul>
+    </section>
+
+    <nav class="fex-toc" aria-label="On This Page"><p class="fex-label">On This Page</p><ul>{sections.map(([id, label]) => <li><a href={`#${id}`}>{label}</a></li>)}</ul></nav>
+
+    <section class="fex-section" aria-labelledby="repair-bench">
+      <h2 id="repair-bench">Joe Dampt's Repair Bench</h2>
+      {claimsFor("bench").map(claim => <FenderClaim claim={claim} />)}
+      {claimsFor("bench-list").length > 0 && <ul class="fex-claims fex-bench-list">{claimsFor("bench-list").map(claim => <FenderClaim claim={claim} as="li" />)}</ul>}
+      <p>I've repaired and restored 1,000+ instruments myself at Joe's Vintage Guitars. Every guitar that comes through my shop gets a proper evaluation and any needed repairs done in-house, by me.</p>
+      <p>I spent years on the bench taking in instruments other shops had written off and getting them stage-ready again. I'm currently not accepting new repair or restoration work, except in a few limited cases.</p>
+      <p>My <a href="/repair/">repair background</a> and <a href="https://www.youtube.com/@joesvintageguitars/playlists">Guitar Repair And Setup How-Tos videos</a> cover the bench side of my work.</p>
+    </section>
+
+    <section class="fex-section" aria-labelledby="fender-purchases">
+      <h2 id="fender-purchases">Fender Guitars Joe Dampt Has Bought</h2>
+      <p>I've bought Joshua's 1952 Telecaster, Bill's 1966 Jaguar in Lake Placid Blue and Jim's Jazz Bass through Joe's Vintage Guitars.</p>
+      {claimsFor("purchases").map(claim => <FenderClaim claim={claim} />)}
+      <div class="fex-purchases">{purchases.map(p => <article class="fex-purchase">
+        <figure><LicensedImage src={p.photo} alt={p.alt} width={720} loading="lazy" sizes="(min-width: 850px) 310px, calc(100vw - 40px)" /><figcaption>{p.caption}</figcaption></figure>
+        <h3>{p.title}</h3><p>{p.body}</p>
+      </article>)}</div>
+    </section>
+
+    <section class="fex-section" aria-labelledby="published-guides">
+      <h2 id="published-guides">Joe Dampt's Published Fender Reference Work</h2>
+      <p>My published Fender reference work at Joe's Vintage Guitars covers serial numbers, component dates, model identification and values.</p>
+      {claimsFor("reference").map(claim => <FenderClaim claim={claim} />)}
+      <div class="fex-library">{guideGroups.map(group => <div class="fex-guide-group"><h3>{group.title}</h3>
+        {group.title === "Individual Year Value Guides" ? individualValueModels.map(model => <div class="fex-year-model">
+          <p>{model.description}</p>
+          <ul class="fex-year-links" aria-label={`${model.model} Year Value Guides`}>{model.guides.map(g => <li><a href={g.href}>{g.title}</a></li>)}</ul>
+        </div>) : <ul>{group.guides.map(g => <li><a href={g.href}>{g.title}</a><span>: {g.covers}</span></li>)}</ul>}
+      </div>)}</div>
+    </section>
+
+    <section class="fex-section" aria-labelledby="fender-videos">
+      <h2 id="fender-videos">Joe Dampt's Fender Videos</h2>
+      <p>My Fender videos for Joe's Vintage Guitars include a serial number, neck heel date and pot code identification guide, and a 1962 Fender Jaguar video.</p>
+      {claimsFor("videos").map(claim => <FenderClaim claim={claim} />)}
+      <div class="fex-videos">{videos.map(v => <div class="fex-video" id={v.anchor}>
+        <h3>{v.title}</h3>
+        <lite-youtube videoid={v.id} params="rel=0&modestbranding=1" title={v.title}><button class="lty-playbtn" type="button"><span class="lyt-visually-hidden">Play {v.title}</span></button></lite-youtube>
+        <p class="fex-watch"><a href={`https://www.youtube.com/watch?v=${v.id}`}>Watch {v.title} On YouTube</a></p>
+      </div>)}</div>
+      <p><a href="https://www.youtube.com/watch?v=SFjsaZsEHqI">Buying Over 100 Vintage Fender Amps &amp; Rare Guitars In The Middle Of Nowhere In Arizona!</a> documents another Fender buying trip.</p>
+    </section>
+
+    <section class="fex-section" aria-labelledby="press">
+      <h2 id="press">Press And Other Recognition</h2>
+      <p>I'm Joe Dampt of Joe's Vintage Guitars, and VoyagePhoenix interviewed me about preserving guitar history in the Southwest.</p>
+      <ul class="fex-press">
+        {claimsFor("press").map(claim => <li><FenderClaim claim={claim} as="span" />{claimLinks[claim.id] && <><br /><a href={claimLinks[claim.id].href}>{claimLinks[claim.id].label}</a></>}</li>)}
+        <li><a href="https://voyagephoenix.com/interview/exploring-life-business-with-joseph-dampt-of-joes-vintage-guitars-llc">VoyagePhoenix</a>: An interview about our mission to preserve guitar history in the Southwest.</li>
+      </ul>
+    </section>
+
+    {fenderSummary && <section class="fex-section fex-reviews" aria-labelledby="fender-buyers">
+      <h2 id="fender-buyers">What Fender Buyers Say</h2>
+      {claimsFor("reviews").map(claim => <FenderClaim claim={claim} />)}
+      <p>The Reverb review archive for Joe's Vintage Guitars records {number(fenderSummary.total)} reviews from Fender buyers, including {number(fenderSummary.withText)} written reviews and {number(fenderSummary.fiveStar)} five-star reviews, dated <time datetime={fenderSummary.firstDate}>{dateLabel(fenderSummary.firstDate)}</time> to <time datetime={fenderSummary.lastDate}>{dateLabel(fenderSummary.lastDate)}</time>.</p>
+      <p>These reviews are from people who <strong>bought Fender gear from me, Joe Dampt, on Reverb</strong>.</p>
+      <div class="fex-review-list">{writtenReviews.map(r => <article class="rv">
+        <div class="rv-top"><span class={`rv-stars s${r.stars}`} role="img" aria-label={`${r.stars} out of 5 stars`}>{"★".repeat(r.stars)}</span><p class="rv-title">{reviewText(r.title)}</p></div>
+        <p class="rv-meta"><span>{reviewText(r.reviewer)}</span><time datetime={r.date}>{reviewText(r.dateLabel)}</time></p>
+        <p class="rv-body">“{reviewText(r.body)}”</p>
+      </article>)}</div>
+      <p class="fex-stars-only">Another {number(starsOnly)} Fender buyers left stars without a written review.</p>
+    </section>}
+
+    {sellerReviews.length > 0 && <section class="fex-section fex-reviews" aria-labelledby="fender-sellers">
+      <h2 id="fender-sellers">What Fender Owners Say On Google</h2>
+      <p>These reviews were left on Google by people who bought a Fender from me, sold me one or brought one in for work. I am Joe Dampt of Joe's Vintage Guitars, and each review links to the original on Google.</p>
+      <div class="fex-review-list">{sellerReviews.map(r => <article class="rv">
+        <p class={`rv-stars s${r.stars}`} role="img" aria-label={`${r.stars} out of 5 stars`}>{"★".repeat(r.stars)}</p>
+        <p class="rv-meta">{r.url ? <a href={r.url}>{reviewText(r.reviewer)}</a> : <span>{reviewText(r.reviewer)}</span>}<time datetime={r.date}>{dateLabel(r.date)}</time></p>
+        <p class="rv-body">“{reviewText(r.body)}”</p>
+      </article>)}</div>
+    </section>}
+
+    <section class="fex-section" aria-labelledby="fender-questions">
+      <h2 id="fender-questions">Questions About Joe Dampt's Fender Appraisals</h2>
+      <p>I appraise, authenticate and buy vintage Fenders at Joe's Vintage Guitars, and the first market valuation is free.</p>
+      <div class="fex-faq">{faqs.map(f => <div><h3>{f.q}</h3><p>{f.a}</p></div>)}</div>
+    </section>
+
+    <section class="fex-section fex-closing" aria-labelledby="contact-joe">
+      <h2 id="contact-joe">Ask Joe About Your Fender</h2>
+      <p>I'm Joe Dampt, and I do every appraisal myself at Joe's Vintage Guitars. Send me clear photos of your Fender's complete front, complete back, headstock front, headstock back, serial number or label, and original case.</p>
+      <div class="fex-actions"><a href="/sell-my-fender-guitar/">Sell My Fender Guitar</a><a href="/free-appraisal/">Free Appraisal</a><a href="/reverb-reviews/">Reverb Reviews</a></div>
+    </section>
+  </article>
+  <ContactSection />
+</Layout>
+
+<Fragment set:html={`<style>${theme}</style>`} />
+
+<style>
+  :global(.fender-expert-page #main-content:has(.fex-preview)) { padding-top: 280px; background: linear-gradient(to bottom, var(--color-brand-rust-dark) 280px, white 280px); }
+  .fex-preview + .fex-backdrop { display: none; }
+  .fex-preview { position: relative; z-index: 1; padding: 18px 24px; border: 3px solid #8c5b00; background: #ffe7a0; color: #3e2a14; font: 700 16px/1.6 var(--font-sans); overflow-wrap: anywhere; }
+  .fex :global(.fex-pending) { display: inline-block; max-width: 100%; margin: 4px 0 4px 8px; padding: 2px 8px; border: 1px solid #8c5b00; border-radius: 3px; background: #ffe7a0; color: #513600; font: 700 12px/1.6 var(--font-sans); vertical-align: baseline; overflow-wrap: anywhere; }
+  .fex :global(.fex-claim) { font-size: 16px; line-height: 1.8; }
+  .fex :global(p.fex-claim) { margin: 0 0 18px; }
+  .fex-claims { padding-left: 22px; margin: 0 0 24px; }
+  .fex-claims :global(li) { margin-bottom: 14px; }
+  .fex-year-model { margin: 22px 0; }
+  .fex-year-links { display: flex; flex-wrap: wrap; gap: 8px 18px; list-style: none; padding: 0; }
+  .fex-guide-group .fex-year-links li { padding: 0; }
+  .fex-backdrop { height: 218px; background: var(--color-brand-rust-dark); }
+  .fex { max-width: 1140px; margin: auto; padding: 38px 24px 72px; color: var(--color-brand-brown); font-family: var(--font-sans); overflow-wrap: anywhere; }
+  .fex *, .fex *::before, .fex *::after { box-sizing: border-box; min-width: 0; }
+  .fex h1, .fex h2, .fex h3 { font-family: var(--font-display); font-weight: 600; line-height: 1.2; color: var(--color-brand-rust-dark); }
+  .fex h1 { font-size: clamp(34px, 5vw, 56px); margin: 20px 0; }
+  .fex h2 { font-size: clamp(27px, 3.5vw, 36px); margin: 0 0 24px; scroll-margin-top: 28px; }
+  .fex h2::after { content: ""; display: block; width: 90px; height: 3px; margin-top: 14px; background: var(--color-brand-rust); }
+  .fex h3 { font-size: 23px; margin: 0 0 14px; }
+  .fex p, .fex li { font-size: 16px; line-height: 1.8; }
+  .fex p { margin: 0 0 18px; }
+  .fex a { color: var(--color-brand-rust-dark); text-decoration: underline; text-underline-offset: 3px; }
+  .fex a:hover { color: var(--color-brand-rust); }
+  .fex a:focus-visible { outline: 3px solid var(--color-brand-rust); outline-offset: 4px; }
+  .fex-breadcrumb { font-size: 13px; line-height: 1.8; }
+  .fex .fex-answer { font-size: 20px; line-height: 1.65; max-width: 960px; }
+  .fex-intro-grid { display: grid; gap: 28px; align-items: center; margin-top: 28px; }
+  .fex-facts { margin: 0 0 24px; padding-left: 22px; }
+  .fex-facts li { margin-bottom: 12px; }
+  .fex-facts strong { font-weight: 700; }
+  .fex figure { margin: 0; }
+  .fex figure :global(img) { display: block; width: 100%; height: auto; border: 1px solid #d5c5ad; }
+  .fex figcaption { font-size: 13px; line-height: 1.6; padding: 12px 0; color: #584630; }
+  .fex-actions { display: flex; flex-wrap: wrap; gap: 12px; margin: 24px 0 0; }
+  .fex .fex-actions a { display: inline-flex; justify-content: center; align-items: center; padding: 13px 19px; background: var(--color-brand-rust); border: 1px solid var(--color-brand-rust); color: white; font-weight: 700; line-height: 1.5; text-decoration: none; }
+  .fex .fex-actions a:hover { background: var(--color-brand-rust-dark); }
+  .fex-toc { margin: 42px 0 0; padding: 24px; background: var(--color-brand-cream-light); border: 1px solid #d5c5ad; }
+  .fex .fex-label { font-family: var(--font-display); font-size: 21px; margin-bottom: 12px; }
+  .fex-toc ul { margin: 0; padding-left: 20px; }
+  .fex-toc li { padding: 4px 0; }
+  .fex-section { padding: 48px 0 0; margin-top: 48px; border-top: 1px solid #d5c5ad; }
+  .fex-purchases { display: grid; gap: 32px; margin-top: 28px; }
+  .fex-purchase h3 { margin-top: 12px; }
+  .fex-purchase figure :global(img) { aspect-ratio: 4 / 3; object-fit: cover; object-position: center 30%; }
+  .fex-purchase p { font-size: 15px; }
+  .fex-guide-group { margin-top: 32px; }
+  .fex-guide-group ul, .fex-press { margin: 0; padding-left: 22px; }
+  .fex-guide-group li, .fex-press li { padding-bottom: 13px; }
+  .fex-guide-group a { font-weight: 700; }
+  .fex-videos { display: grid; gap: 30px; margin: 28px 0; }
+  .fex-video lite-youtube { max-width: none; width: 100%; aspect-ratio: 16 / 9; }
+  .fex .fex-watch { font-size: 14px; margin-top: 12px; }
+  .fex-review-list { margin: 28px 0 24px; border-bottom: 1px solid #d0c8be; }
+  .fex .rv { content-visibility: auto; contain-intrinsic-size: auto 170px; }
+  .fex .rv-top { flex-wrap: wrap; }
+  .fex .rv-title { font-family: var(--font-sans); font-size: 15px; line-height: 1.5; margin: 0; }
+  .fex .rv-meta { font-size: 13px; line-height: 1.6; color: #665039; margin: 6px 0 10px; }
+  .fex .rv-body { font-size: 15px; line-height: 1.8; margin: 0; white-space: pre-line; }
+  .fex .rv-stars { font-size: 17px; line-height: 1.5; }
+  .fex .rv-stars.s5, .fex .rv-stars.s4, .fex .rv-stars.s3 { color: #876000; }
+  .fex .rv-stars.s1, .fex .rv-stars.s2 { color: #a02b22; }
+  .fex-faq { display: grid; gap: 28px; margin-top: 28px; }
+  .fex-faq > div { padding: 24px; background: var(--color-brand-cream-light); border-left: 3px solid var(--color-brand-rust); }
+  .fex-faq p:last-child { margin-bottom: 0; }
+  @media (min-width: 850px) {
+    .fex-intro-grid { grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr); gap: 44px; }
+    .fex-purchases { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 26px; }
+    .fex-toc ul { columns: 2; column-gap: 40px; }
+    .fex-toc li { break-inside: avoid; }
+  }
+  @media (max-width: 640px) {
+    :global(.fender-expert-page #main-content:has(.fex-preview)) { padding-top: 174px; background: linear-gradient(to bottom, var(--color-brand-rust-dark) 174px, white 174px); }
+    .fex-backdrop { height: 174px; }
+    .fex { padding: 30px 20px 48px; }
+    .fex-section { margin-top: 36px; padding-top: 36px; }
+    .fex-toc, .fex-faq > div { padding: 20px; }
+    .fex-actions { flex-direction: column; }
+    :global(.fender-expert-page aside[aria-label="Quick contact"]) { display: none; }
+  }
+</style>
