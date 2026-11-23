@@ -2,7 +2,7 @@
 title: "1968 Vs 1969 Vs 1970 Les Paul Custom: Dating Guide"
 seoTitle: "1968 Vs 1969 Vs 1970 Les Paul Custom: A Dating Guide"
 pubDate: "2026-10-19T16:27:37-07:00"
-modified: "2026-10-19T16:27:37-07:00"
+modified: "2026-11-23"
 excerpt: "Dating a 1968, 1969 or 1970 Les Paul Custom takes a combination of clues. Early 1969 guitars can resemble 1968, while late 1969 can overlap 1970. Body layers, neck joints, headstock details and original component dates help separate them when the serial number can't."
 category: "specific-model-highlights"
 categoryName: "Specific Model Highlights"
@@ -44,13 +44,25 @@ toc: [{"href":"#dating-method","label":"How To Date A 1968, 1969 Or 1970 Les Pau
 <p>The control cavity is the recess beneath the rear plastic cover, where the volume and tone controls sit. The early shape has relatively straight walls and a flat wooden floor. During early 1969, a shape with a small internal shelf or stepped ledge near the bottom appears.</p>
 <p>That difference concerns the wood cutout around the electronics. It can support the early construction sequence, but isn't an exact month code. It's useful when existing cavity photographs show the shape clearly enough to compare.</p>
 
+<div class="jvg-img2">
+
+<figure class="norlin-photo burst-feature-photo">
+
+![Side of a 1970 Gibson Les Paul Deluxe showing the thin maple layer between two mahogany body sections](../../assets/images/guide-photo-additions/1970-gibson-les-paul-deluxe-pancake-body.jpg)
+
+<figcaption>Primary construction example: the transparent side finish on this 1970 Les Paul Deluxe makes the thin maple crossband between the mahogany layers easier to see. This Deluxe illustrates the construction also found on period Customs.</figcaption>
+
+</figure>
+
 <figure data-original-url="/images/norlin-originals/gibson-les-paul-pancake-body-finish-line.jpg" data-full-image="/images/blog/1968-1969-1970-les-paul-custom-dating-guide/gibson-les-paul-pancake-body-finish-line.jpg" class="norlin-photo burst-feature-photo">
 
 ![Black Les Paul body edge with a faint horizontal line through the side finish](<../../assets/blog/1968-1969-1970-les-paul-custom-dating-guide/gibson-les-paul-pancake-body-finish-line.jpg>)
 
-<figcaption>The faint line runs through the black side finish. An exposed crossband in a cavity would show the wood layers more clearly.</figcaption>
+<figcaption>Black-finish comparison: opaque paint on the side and back can hide the wood layers. On this low-impedance Les Paul, the pancake construction is visible only as a faint line through the finish.</figcaption>
 
 </figure>
+
+</div>
 
 <h2 id="neck-tenons">1968 To 1970 Les Paul Custom Long And Transitional Tenons</h2>
 

@@ -2,7 +2,7 @@
 title: "Vintage Gibson Guitar Value by Year: Which Eras Are Worth the Most?"
 seoTitle: "Vintage Gibson Value By Year: Which Eras Are Worth The Most?"
 pubDate: "2023-03-20T00:42:55"
-modified: "2026-04-01T16:45:30"
+modified: "2026-11-23"
 excerpt: "Curious about your vintage Gibson guitar’s value? Learn how its year of manufacture impacts its price."
 category: "value-evaluation"
 categoryName: "Value & Evaluation"
@@ -144,6 +144,28 @@ Collectors and players who are skeptical of Norlin-era Gibsons typically point t
 -   **TP-6 tailpiece.** Replaced the traditional stop-bar tailpiece on many models.
 -   **Inconsistent weight and finish quality.** Some Norlin-era Les Pauls are extremely heavy due to denser wood selection, and finish application was less consistent than in earlier periods.
 -   **Pancake body construction.** In certain years, Gibson used a laminated "pancake" body design on Les Pauls that differs structurally from the solid mahogany construction of earlier models.
+
+<div class="jvg-img2">
+
+<figure class="norlin-photo burst-feature-photo">
+
+![Side of a 1970 Gibson Les Paul Deluxe showing the thin maple layer between two mahogany body sections](../../assets/images/guide-photo-additions/1970-gibson-les-paul-deluxe-pancake-body.jpg)
+
+<figcaption>Primary construction example: the transparent side finish on this 1970 Les Paul Deluxe makes the thin maple crossband between the mahogany layers easier to see. This Deluxe illustrates the construction also found on period Customs.</figcaption>
+
+</figure>
+
+<figure class="norlin-photo burst-feature-photo">
+
+![Black Les Paul body edge with a faint pancake-body seam](../../assets/blog/norlin-les-paul-custom-year-guide/gibson-les-paul-pancake-body-finish-line.jpg)
+
+<figcaption>Black-finish comparison: opaque paint on the side and back can hide the wood layers. On this low-impedance Les Paul, the pancake construction is visible only as a faint line through the finish.</figcaption>
+
+</figure>
+
+</div>
+
+
 
 ### How the Market Views Norlin Gibsons
 

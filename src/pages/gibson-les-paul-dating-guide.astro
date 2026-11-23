@@ -14,6 +14,7 @@ import specialDoubleCut from '../assets/les-paul-family/les-paul-special-double-
 import custom1972 from '../assets/les-paul-family/1972-les-paul-custom.jpg';
 import customStaple from '../assets/les-paul-family/les-paul-custom-staple-p90.jpg';
 import customThree from '../assets/les-paul-family/les-paul-custom-three-pickup.jpg';
+import clearPancakeBody from '../assets/images/guide-photo-additions/1970-gibson-les-paul-deluxe-pancake-body.jpg';
 import pancakeBody from '../assets/features-hardware/gibson-les-paul-pancake-body-finish-line.jpg';
 import madeInUsa from '../assets/features-hardware/gibson-made-in-usa-stamp-scaled.jpg';
 import mahoganyNeck from '../assets/features-hardware/gibson-3-piece-mahogany-neck.jpg';
@@ -174,7 +175,7 @@ const schema = {
       author: { '@type': 'Person', '@id': 'https://www.joesvintageguitarsaz.com/about-me/#person', name: 'Joe Dampt', url: 'https://www.joesvintageguitarsaz.com/about-me/' },
       publisher: { '@type': 'Organization', name: 'Joe’s Vintage Guitars', url: 'https://www.joesvintageguitarsaz.com/' },
       datePublished: '2026-09-10',
-      dateModified: '2026-09-15',
+      dateModified: '2026-11-23',
       image: new URL(hero.src, 'https://www.joesvintageguitarsaz.com').href,
     },
     {
@@ -207,7 +208,7 @@ const schema = {
   ogImageWidth={hero.attributes.width}
   ogImageHeight={hero.attributes.height}
   publishedTime="2026-09-09"
-  modifiedTime="2026-09-15"
+  modifiedTime="2026-11-23"
   structuredData={schema}
 >
     <a href="#les-paul-guide" class="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-50 focus:bg-cream focus:px-4 focus:py-2">Skip to the Gibson Les Paul dating guide</a>
@@ -399,9 +400,10 @@ const schema = {
 
           <article class="lp-change">
             <div class="lp-change__copy"><p class="lp-change__years">1968 Through The 1970s</p><h3>Single-Cut Return With A Maple Cap And Norlin-Era Changes</h3><p>The returning Custom uses a maple cap over mahogany instead of the 1950s all-mahogany body. Ebony is the return finish. Cherry Sunburst appears around mid-1971, Wine Red in 1974 and white in 1975. Three pickups appear by special order in the early 1970s and as a listed factory option in 1977. Nickel hardware and maple fingerboards also appear on late-1970s examples.</p><p class="lp-change__meaning"><strong>1970s Custom Evidence:</strong> Made in USA stamps, volutes, multi-piece necks, pancake bodies, later maple necks and Nashville bridges are normal on a 1970s Custom. Any one of those features rules out a 1950s date, but it doesn’t make the later guitar inauthentic.</p></div>
-            <div class="lp-photo-grid lp-photo-grid--three">
+            <div class="lp-photo-grid lp-photo-grid--two">
+
+              <LesPaulPhoto src={clearPancakeBody} id="custom-era-pancake-body-clear" title="Visible Pancake Body Layers" alt="Side of a 1970 Gibson Les Paul Deluxe showing the thin maple layer between two mahogany body sections" caption="Primary construction example: the transparent side finish on this 1970 Les Paul Deluxe makes the thin maple crossband between the mahogany layers easier to see. This Deluxe illustrates the construction also found on period Customs." /><LesPaulPhoto src={pancakeBody} id="custom-era-pancake-body" title="Pancake Seam Under Black Finish" alt="Black Les Paul body edge with a faint horizontal seam" caption="Black-finish comparison: opaque paint on the side and back can hide the wood layers. On this low-impedance Les Paul, the pancake construction is visible only as a faint line through the finish." />
               <LesPaulPhoto src={custom1972} id="custom-1972" title="1972 Les Paul Custom" alt="Black 1972 Gibson Les Paul Custom with the covers removed from two full-size humbuckers" caption="The pickup covers have been removed from this guitar. Date the Custom from its impressed serial, maple-cap body, neck construction, hardware and electronics rather than that modification." />
-              <LesPaulPhoto src={pancakeBody} id="custom-era-pancake-body" title="Pancake Body Seam" alt="Body edge of a vintage Gibson low-impedance Les Paul showing a faint pancake-body seam beneath the finish" caption="This is a model-independent construction example from a low-impedance Les Paul. The thin crossband can appear as only a faint line around the body edge." />
               <LesPaulPhoto src={goldDecal} id="custom-gold-serial-decal" title="1976 Gold Serial Decal" alt="Gold serial number decal beginning with 00 on the back of a 1976 Gibson Les Paul Custom headstock" caption="The 00 prefix dates this example to 1976. This narrow Norlin-era serial treatment is a decal, not a 1950s ink stamp." />
             </div>
           </article>
