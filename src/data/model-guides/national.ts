@@ -1,3 +1,4 @@
+import {pianoFinishSection} from './guide-photo-additions';
 import type { ModelGuideData } from '../../components/model-guide/types';
 import { photos as ph } from './photos';
 import { chart } from './helpers';
@@ -7,7 +8,7 @@ export const nationalGuides: ModelGuideData[] = [
     "slug": "national-resonator-guitar-value-guide",
     "brand": "National",
     "kind": "value",
-    "date": "October 29, 2026",
+    "date": "November 23, 2026",
     "authorBio": "Joe Dampt owns Joe’s Vintage Guitars in Mesa, Arizona. He buys and evaluates vintage guitars and uses instrument photographs, serial records and repair history when assessing a guitar.",
     "title": "National Resonator Guitar Value Guide",
     "seoTitle": "National Resonator Guitar Value Guide: Vintage Prices",
@@ -134,6 +135,7 @@ export const nationalGuides: ModelGuideData[] = [
         ],
         "tone": "light"
       },
+      pianoFinishSection,
       {
         "type": "section",
         "id": "archive",
@@ -274,7 +276,7 @@ export const nationalGuides: ModelGuideData[] = [
     "slug": "national-resonator-guitar-authentication-guide",
     "brand": "National",
     "kind": "authentication",
-    "date": "October 29, 2026",
+    "date": "November 23, 2026",
     "authorBio": "Joe Dampt owns Joe’s Vintage Guitars in Mesa, Arizona. He buys and evaluates vintage guitars and uses instrument photographs, serial records and repair history when assessing a guitar.",
     "title": "National Resonator Guitar Authentication Guide",
     "seoTitle": "National Resonator Authentication: Models And Dating",
@@ -466,6 +468,7 @@ export const nationalGuides: ModelGuideData[] = [
         ],
         "tone": "light"
       },
+      pianoFinishSection,
       {
         "type": "section",
         "id": "archive",

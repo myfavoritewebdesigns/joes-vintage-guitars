@@ -2,7 +2,7 @@
 title: "National Resonator Guitar Value Guide"
 seoTitle: "National Resonator Guitar Value Guide: Vintage Prices"
 pubDate: "2026-10-29"
-modified: "2026-10-29"
+modified: "2026-11-23"
 excerpt: "Compare vintage National Style O, Duolian, Triolian and tricone values by model, neck type and condition, with Joe’s original instrument archive photos."
 category: "value-evaluation"
 categoryName: "Value & Evaluation"

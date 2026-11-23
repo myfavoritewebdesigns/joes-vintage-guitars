@@ -35,6 +35,40 @@ Look at the top wood and rounded outline before relying on the name. Measure the
 
 My listing describes substantial repaired cracks, a refret and a replacement case. The guitar illustrates the early model, but its condition requires an individual appraisal. The listing's broad 1920s date is retained rather than replaced with an unsupported exact year.
 
+## A 13-Fret L-0 With A White Pickguard
+
+Some L-0s join the body at the 13th fret. This black example from my archive also has a white pickguard and an ebony fingerboard. Those features show why it helps to inspect the actual guitar instead of assuming every L-0 follows the same specification.
+
+<div class="jvg-img3">
+
+<figure>
+
+![Black Gibson L-0 with a white pickguard and a neck that meets the body at the 13th fret](../../assets/acoustic-models/1930s-gibson-l-0-2.jpg)
+
+<figcaption>Full view of the 13-fret L-0. Count from the nut to the body joint, keeping the frets over the top separate from those clear of the body.</figcaption>
+
+</figure>
+
+<figure>
+
+![Gibson L-0 showing its ebony fingerboard, neck-to-body joint and white pickguard](../../assets/acoustic-models/1930s-gibson-l-0-17.jpg)
+
+<figcaption>The ebony fingerboard and 13th-fret body joint on the same L-0. Ebony fingerboards occur on some examples; black body finish alone does not identify the fingerboard wood.</figcaption>
+
+</figure>
+
+<figure>
+
+![White pickguard and rectangular wooden bridge on the black Gibson L-0](../../assets/acoustic-models/1930s-gibson-l-0-4.jpg)
+
+<figcaption>The white pickguard offers another useful comparison with the firestripe guards shown elsewhere in this guide. Record its shape, attachment and condition together with the neck joint and fingerboard.</figcaption>
+
+</figure>
+
+</div>
+
+The archive identification for this guitar is L-0. The broad 1930s date is retained here; the unusual neck joint, guard and fingerboard should be documented together when comparing another example.
+
 ## The Revived Black L-0
 
 <figure>
@@ -82,7 +116,7 @@ My sunburst listing records original finish, bridge, tuners and guard, together 
 Start with these observations before selecting either price table:
 
 - **Body and top:** measure the lower bout, identify top wood and record the outline. Separate the early mahogany-top L-0 from the later spruce-top family.
-- **Neck joint:** count frets clear of the body and inspect the heel for reset work or alteration. Do not count all the frets on the board as the neck-joint measurement.
+- **Neck joint:** count frets clear of the body, including the 13-fret configuration shown above, and inspect the heel for reset work or alteration. Do not count all the frets on the board as the neck-joint measurement.
 - **Binding and finish:** photograph top and back edges. Look for sanding, overspray or a changed finish that could erase the original model clues.
 - **Guard, bridge and fingerboard:** compare the guard outline, rosette, dot markers, bridge footprint and saddle arrangement. Check removed parts and repair receipts where available.
 - **Neck profile and hardware:** record the neck shape, logo, tuner plates and extra mounting holes. A V-shaped neck or old-looking tuners support a comparison but do not establish an exact year.
