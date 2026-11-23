@@ -74,3 +74,18 @@ export const rickenbackerPhotoSets:Record<string,ArchivePhoto[]>={
  [7,'Rear neck casting. Look for cracks, welding or ground areas.'],
  [5,'Full rear view. The body and neck construction should be documented together.']])
 };
+
+const jetglo365:ArchivePhoto[]=[
+ {file:'images/guide-photo-additions/1967-rickenbacker-365-jetglo-1.jpg',alt:"1967 Rickenbacker 365 in Jetglo: Front body, two toaster pickups, white guards and Accent vibrato. This rare 1967 365 shows Jetglo on a deluxe six-string.",caption:"1967 Rickenbacker 365 in Jetglo. Front body, two toaster pickups, white guards and Accent vibrato. This rare 1967 365 shows Jetglo on a deluxe six-string."},
+ {file:'images/guide-photo-additions/1967-rickenbacker-365-jetglo-2.jpg',alt:"1967 Rickenbacker 365 in Jetglo: Full front view showing the body proportions, bound fingerboard and complete headstock.",caption:"1967 Rickenbacker 365 in Jetglo. Full front view showing the body proportions, bound fingerboard and complete headstock."},
+ {file:'images/guide-photo-additions/1967-rickenbacker-365-jetglo-3.jpg',alt:"1967 Rickenbacker 365 in Jetglo: Headstock face and white Rickenbacker nameplate.",caption:"1967 Rickenbacker 365 in Jetglo. Headstock face and white Rickenbacker nameplate."},
+ {file:'images/guide-photo-additions/1967-rickenbacker-365-jetglo-4.jpg',alt:"1967 Rickenbacker 365 in Jetglo: Full-width triangular inlays and fingerboard binding.",caption:"1967 Rickenbacker 365 in Jetglo. Full-width triangular inlays and fingerboard binding."},
+ {file:'images/guide-photo-additions/1967-rickenbacker-365-jetglo-6.jpg',alt:"1967 Rickenbacker 365 in Jetglo: Toaster bridge pickup and uncovered bridge saddles.",caption:"1967 Rickenbacker 365 in Jetglo. Toaster bridge pickup and uncovered bridge saddles."},
+ {file:'images/guide-photo-additions/1967-rickenbacker-365-jetglo-7.jpg',alt:"1967 Rickenbacker 365 in Jetglo: Silver-top knobs, selector switch and vibrato arm.",caption:"1967 Rickenbacker 365 in Jetglo. Silver-top knobs, selector switch and vibrato arm."},
+ {file:'images/guide-photo-additions/1967-rickenbacker-365-jetglo-8.jpg',alt:"1967 Rickenbacker 365 in Jetglo: Jetglo body back, rear edge binding and visible playing wear.",caption:"1967 Rickenbacker 365 in Jetglo. Jetglo body back, rear edge binding and visible playing wear."},
+ {file:'images/guide-photo-additions/1967-rickenbacker-365-jetglo-10.jpg',alt:"1967 Rickenbacker 365 in Jetglo: Rear headstock, enclosed tuners and mounting screws.",caption:"1967 Rickenbacker 365 in Jetglo. Rear headstock, enclosed tuners and mounting screws."},
+ {file:'images/guide-photo-additions/1967-rickenbacker-365-jetglo-12.jpg',alt:"1967 Rickenbacker 365 in Jetglo: Neck heel and finish continuity at the body joint.",caption:"1967 Rickenbacker 365 in Jetglo. Neck heel and finish continuity at the body joint."},
+ {file:'images/guide-photo-additions/1967-rickenbacker-365-jetglo-13.jpg',alt:"1967 Rickenbacker 365 in Jetglo: Body-edge profile and decorative rear binding.",caption:"1967 Rickenbacker 365 in Jetglo. Body-edge profile and decorative rear binding."},
+ {file:'images/guide-photo-additions/1967-rickenbacker-365-jetglo-14.jpg',alt:"1967 Rickenbacker 365 in Jetglo: The detached chrome bridge cover, photographed separately in the case.",caption:"1967 Rickenbacker 365 in Jetglo. The detached chrome bridge cover, photographed separately in the case."}
+];
+rickenbackerPhotoSets['360-365']=[...rickenbackerPhotoSets['360'],...jetglo365];

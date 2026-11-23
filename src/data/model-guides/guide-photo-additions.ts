@@ -1,0 +1,13 @@
+import type { GuideSection } from '../../components/model-guide/types';
+import clearPancake from '../../assets/images/guide-photo-additions/1970-gibson-les-paul-deluxe-pancake-body.jpg';
+import paintedPancake from '../../assets/features-hardware/gibson-les-paul-pancake-body-finish-line.jpg';
+import pianoFinish from '../../assets/images/guide-photo-additions/1930s-national-duolian-piano-finish.jpg';
+
+export const pancakeComparison:GuideSection={type:'section',id:'pancake-body-photos',title:'How To See A Pancake Body',eyebrow:'Transparent And Painted Sides',blocks:[
+ {type:'prose',html:'<p>The thin maple layer lies between two thicker mahogany sections in a pancake back. The carved maple top sits above that assembly. A transparent side finish can reveal the layers clearly; an opaque painted side or back can make them much harder to see.</p>'},
+ {type:'photos',photos:[{src:clearPancake,alt:"Side of a 1970 Gibson Les Paul Deluxe showing the thin maple layer between two mahogany body sections",caption:"Primary construction example: the transparent side finish on this 1970 Les Paul Deluxe makes the thin maple crossband between the mahogany layers easier to see. This Deluxe illustrates the construction also found on period Customs.",fit:'contain',captionBelow:true},{src:paintedPancake,alt:'Black Les Paul body edge with a faint pancake seam under the paint',caption:"Black-finish comparison: opaque paint on the side and back can hide the wood layers. On this low-impedance Les Paul, the pancake construction is visible only as a faint line through the finish.",fit:'contain',captionBelow:true}]}
+]};
+export const pianoFinishSection:GuideSection={type:'section',id:'piano-finish',title:'The Faux-Wood Piano Finish',eyebrow:'A Painted National Example',blocks:[
+ {type:'prose',html:'<p>This 1930s National Duolian from my archive shows the faux-wood treatment often called a piano finish. The brown grain pattern is part of the decorative finish on the metal body. Look at the grain effect across the body and coverplate, together with the worn areas that expose the surface beneath it.</p><p>Record the surviving finish before cleaning or restoration. Wear, touch-up and a complete repaint affect the condition assessment differently. The wood-grain appearance alone does not identify the body material or establish an exact year.</p>'},
+ {type:'photos',photos:[{src:pianoFinish,alt:'1930s National Duolian metal-body resonator with a worn brown faux-wood piano finish',caption:'The faux-wood piano finish on a 1930s National Duolian. The painted grain and surviving wear document this example as found.',fit:'contain',captionBelow:true}]}
+]};

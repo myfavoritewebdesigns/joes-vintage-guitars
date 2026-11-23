@@ -2,7 +2,7 @@
 title: "National Resonator Guitar Authentication Guide"
 seoTitle: "National Resonator Authentication: Models And Dating"
 pubDate: "2026-10-29"
-modified: "2026-10-29"
+modified: "2026-11-23"
 excerpt: "Identify original National Style O, Duolian, Triolian and tricone guitars using body, neck and serial evidence, with Joe’s photos and modern exclusions."
 category: "specific-model-highlights"
 categoryName: "Specific Model Highlights"

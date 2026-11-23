@@ -2,7 +2,7 @@
 title: "1969 Gibson Les Paul Custom: Early And Late Specs"
 seoTitle: "1969 Gibson Les Paul Custom: Early And Late Specs Guide"
 pubDate: "2026-10-19T16:27:37-07:00"
-modified: "2026-10-19T16:27:37-07:00"
+modified: "2026-11-23"
 excerpt: "A 1969 Gibson Les Paul Custom can have early one-piece construction or later features such as a layered pancake body and a small neck volute. Gibson introduced these changes at different times, so the body, neck, headstock and original parts need to be considered together."
 category: "specific-model-highlights"
 categoryName: "Specific Model Highlights"
@@ -43,13 +43,25 @@ toc: [{"href":"#1969-les-paul-custom-specifications","label":"1969 Gibson Les Pa
 <p>The control cavity is the recess beneath the plastic cover on the back of the guitar. It houses the volume and tone controls and their wiring. With that cover removed, the wood around the controls shows how the recess was cut.</p>
 <p>The earlier shape has relatively straight walls and a flat wooden floor. A later shape, appearing during early 1969, has a small shelf or stepped ledge near the bottom. These terms describe the inside of the wooden recess, not the electronics or the plastic cover. They add supporting evidence when a guitar fits the early transition, but don't establish an exact month.</p>
 
+<div class="jvg-img2">
+
+<figure class="norlin-photo burst-feature-photo">
+
+![Side of a 1970 Gibson Les Paul Deluxe showing the thin maple layer between two mahogany body sections](../../assets/images/guide-photo-additions/1970-gibson-les-paul-deluxe-pancake-body.jpg)
+
+<figcaption>Primary construction example: the transparent side finish on this 1970 Les Paul Deluxe makes the thin maple crossband between the mahogany layers easier to see. This Deluxe illustrates the construction also found on period Customs.</figcaption>
+
+</figure>
+
 <figure data-original-url="/images/norlin-originals/gibson-les-paul-pancake-body-finish-line.jpg" data-full-image="/images/blog/1969-gibson-les-paul-custom-guide/gibson-les-paul-pancake-body-finish-line.jpg" class="norlin-photo burst-feature-photo">
 
 ![Black Les Paul body edge with a faint horizontal line through the side finish](<../../assets/blog/1969-gibson-les-paul-custom-guide/gibson-les-paul-pancake-body-finish-line.jpg>)
 
-<figcaption>The faint line runs through the black side finish. An exposed crossband in a cavity would show the wood layers more clearly.</figcaption>
+<figcaption>Black-finish comparison: opaque paint on the side and back can hide the wood layers. On this low-impedance Les Paul, the pancake construction is visible only as a faint line through the finish.</figcaption>
 
 </figure>
+
+</div>
 
 <h2 id="1969-les-paul-custom-neck-construction">1969 Les Paul Custom One-Piece And Three-Piece Necks</h2>
 

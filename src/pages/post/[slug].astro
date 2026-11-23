@@ -755,7 +755,7 @@ const articleSchema = {
         <ul>{data.toc.map(t => <li><a href={t.href}>{t.label}</a></li>)}</ul>
       </nav>}
       <div class="blog-prose">
-        {entry.id === 'gibson-shipping-totals-1948-1979' ? <GibsonProductionGuide /> : isGap2ValueConversion || isMartinValueArticle ? <ValueGuidePhotos allImages><Content /></ValueGuidePhotos> : (isBurstYearGuide || isNorlinGuide) ? <LicensedMarkdownPhotos><Content /></LicensedMarkdownPhotos> : <Content />}
+        {entry.id === 'gibson-shipping-totals-1948-1979' ? <GibsonProductionGuide /> : isGap2ValueConversion || isMartinValueArticle ? <ValueGuidePhotos allImages><Content /></ValueGuidePhotos> : (isBurstYearGuide || isNorlinGuide || ["hardtail-stratocaster-vintage-guide", "how-the-year-of-manufacture-of-your-vintage-gibson-guitar-affects-its-price"].includes(entry.id)) ? <LicensedMarkdownPhotos><Content /></LicensedMarkdownPhotos> : <Content />}
         {data.faqs.length > 0 && !data.faqsInline && <section class="post-faq" aria-labelledby="faq">
           <h2 id="faq">Frequently Asked Questions</h2>
           {data.faqs.map(item => <div class="post-faq-answer">

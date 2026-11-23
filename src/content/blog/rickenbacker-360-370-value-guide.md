@@ -2,7 +2,7 @@
 title: "Rickenbacker 360 And 370 Value Guide"
 seoTitle: "Rickenbacker 360 And 370 Value Guide"
 pubDate: "2026-10-27"
-modified: "2026-10-29"
+modified: "2026-11-23"
 excerpt: "Rickenbacker 360 And 370 values in USD by model and year. See Joe’s estimates, condition factors and original instrument photos."
 category: "value-evaluation"
 categoryName: "Value & Evaluation"
