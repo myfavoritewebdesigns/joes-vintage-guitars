@@ -114,6 +114,10 @@
 .gsl .res__title { font-family: var(--display); font-weight: 600; color: #fff; font-size: clamp(2.3rem, 7vw, 3.8rem); line-height: 1; letter-spacing: -.01em; margin: .5rem 0 .8rem; outline: none; }
 .gsl .res__copy { color: rgba(245,240,232,.8); max-width: 46rem; }
 .gsl .res__copy strong { color: #fff; }
+.gsl .res__photo { margin: 1.1rem 0 0; max-width: 26rem; }
+.gsl .res__photo .eyebrow { display: block; margin-bottom: .45rem; }
+.gsl .res__photo img { display: block; width: 100%; aspect-ratio: 3 / 2; object-fit: cover; border-radius: .75rem; border: 1px solid rgba(245,240,232,.15); }
+.gsl .res__photo figcaption { margin-top: .5rem; font-size: .88rem; line-height: 1.45; color: rgba(245,240,232,.7); }
 .gsl .res__tip, .gsl .res__alt { font-size: .9rem; color: rgba(245,240,232,.7); margin: .9rem 0 0; }
 .gsl .res__tip b { color: var(--gold-light); }
 .gsl .res__actions { display: flex; flex-wrap: wrap; align-items: center; gap: .7rem 1.2rem; margin-top: 1.4rem; }

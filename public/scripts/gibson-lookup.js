@@ -409,6 +409,18 @@
     return '';
   };
 
+  // 1970s letter stamps: show Joe's photo of what the stamp should look like.
+  const resultPhoto = (d) => {
+    const m = d.href === '#letter-prefix' && /^(LE|[A-F])\d{6}$/.exec(state.raw);
+    if (!m) return '';
+    const key = m[1] === 'LE' ? 'lePrefix' : 'aPrefix';
+    if (!PH[key][0]) return '';
+    const cap = m[1] === 'LE' ? 'LE890141 on a Les Paul: the letters sit right in front of the digits, with “Made in U.S.A.” pressed in below.'
+      : m[1] === 'A' ? 'An impressed A-prefix stamp: the letter sits right in front of the digits, with “Made in U.S.A.” pressed in below.'
+        : `This stamp starts with an A. Yours should look the same, with a ${m[1]} in that spot.`;
+    return `<figure class="res__photo"><span class="eyebrow">What it should look like</span>${img(key)}<figcaption>${esc(cap)}</figcaption></figure>`;
+  };
+
   const XC = {
     pots: ['Pot Codes', '/gibson-pot-codes/', 'Date the original volume and tone pots.'],
     knobs: ['Knobs', '/gibson-knob-dating-guide/', 'Match the knob style to its era.'],
@@ -478,6 +490,7 @@
           <h2 class="res__title" tabindex="-1" data-focus>${esc(d.title)}</h2>
           ${bd ? `<div class="bd" aria-label="How the number reads">${bd}</div>` : ''}
           <div class="res__copy">${d.copy}</div>
+          ${resultPhoto(d)}
           ${hint ? `<p class="res__tip"><b>Format tip:</b> ${esc(hint)}</p>` : ''}
           ${followups(d)}
           ${canRefine ? `<details class="refine"${state.specialOpen ? ' open' : ''}><summary>Is it a reissue or special model? Pick it to use its own serial format</summary>${specialPicker(state.model)}</details>` : ''}

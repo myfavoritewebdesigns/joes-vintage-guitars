@@ -25,6 +25,8 @@ import csCloseUp from '../assets/serial-lookup/gibson-custom-shop-cs62763-serial
 import historicCloseUp from '../assets/serial-lookup/gibson-historic-reissue-serial-9-3681-close-up.jpg';
 import usaCloseUp from '../assets/serial-lookup/gibson-serial-745104-made-in-usa-close-up.jpg';
 import madeInUsaCloseUp from '../assets/serial-lookup/gibson-les-paul-custom-serial-80483613-made-in-usa.jpg';
+import leCloseUp from '../assets/serial-lookup/gibson-les-paul-le890141-serial-made-in-usa-close-up.jpg';
+import aPrefixCloseUp from '../assets/serial-lookup/gibson-impressed-a-prefix-serial-made-in-usa-close-up.jpg';
 import impressedPhoto from '../assets/serial-photos/1966-gibson-es-335-serial-number-close-up-scaled.jpg';
 import orangeLabelPhoto from '../assets/serial-photos/gibson-a-prefix-serial-number-orange-label-1-scaled.jpg';
 import whiteLabelPhoto from '../assets/serial-photos/gibson-white-label-serial-number-scaled.jpg';
@@ -100,6 +102,8 @@ const lookupPhotoSources: Record<string, [ImageMetadata, string]> = {
   classic: [classicCloseUp, 'Six-digit ink serial 060187 on a Les Paul Classic headstock'],
   cs: [csCloseUp, 'CS62763 serial on a Les Paul Custom headstock'],
   historic: [historicCloseUp, 'Historic Les Paul reissue ink serial 9 3681'],
+  lePrefix: [leCloseUp, 'Serial LE890141 with Made in U.S.A. pressed into a black Les Paul headstock'],
+  aPrefix: [aPrefixCloseUp, 'Impressed A-prefix serial with Made in U.S.A. pressed in below it'],
 };
 const crossCheckSources: Record<string, ImageMetadata> = {
   pots: potsPhoto, knobs: knobsPhoto, tuners: tunersPhoto, logo: logoPhoto, pickups: pickupsPhoto,
@@ -126,6 +130,7 @@ const formatExamples = [
   { n: 'A 34043', name: 'A-prefix on an interior label', era: '1947 to 1961', image: orangeLabelPhoto, alt: 'Orange label with serial A 34043', ownSchema: false, preset: { where: 'label', family: 'vintage' } },
   { n: 'Z 1603 6', name: 'Factory Order Number on bare wood', era: '1902 to 1961', image: fonPhoto, alt: 'FON Z 1603 6 stamped on bare wood', ownSchema: false, preset: {} },
   { n: '745104', name: 'Pressed in, with Made in USA', era: '1970 to 1977', image: usaCloseUp, alt: 'Serial 745104 with Made in USA pressed in below it', ownSchema: true, preset: { where: 'headstock', how: 'pressed', usa: 'yes', family: 'vintage' } },
+  { n: 'LE890141', name: 'LE prefix, with Made in USA', era: '1970 to 1975 reissues', image: leCloseUp, alt: 'Serial LE890141 with Made in U.S.A. on a Les Paul headstock', ownSchema: true, preset: {} },
   { n: '00115029', name: 'Gold decal serial', era: '1975 to 1977', image: decalCloseUp, alt: 'Gold decal serial 00115029 on a Les Paul Custom headstock', ownSchema: true, preset: { how: 'decal' } },
   { n: '81006505', name: 'Eight-digit date code', era: '1977 to today', image: modernCloseUp, alt: 'Eight-digit serial 81006505 on a J-200 headstock', ownSchema: true, preset: {} },
   { n: 'CS62763', name: 'Custom Shop CS prefix', era: 'Custom Shop', image: csCloseUp, alt: 'CS62763 Custom Shop serial on a Les Paul Custom headstock', ownSchema: true, preset: {} },
@@ -457,6 +462,7 @@ const schema = {
                 <div class="table-card"><h4>Eight-Digit Decal Prefixes</h4><table><thead><tr><th>Prefix</th><th>Year</th><th>Look for</th></tr></thead><tbody><tr><td data-label="Prefix">99</td><td data-label="Year">1975</td><td data-label="Look For">Decal</td></tr><tr><td data-label="Prefix">00</td><td data-label="Year">1976</td><td data-label="Look For">Decal</td></tr><tr><td data-label="Prefix">06</td><td data-label="Year">1977</td><td data-label="Look For">Decal</td></tr></tbody></table><p class="p-4 text-sm text-ink/60">A 99-prefix can resemble a 1990s modern number. The physical decal is the deciding clue.</p></div>
               </div>
               <div id="letter-prefix" class="table-card mt-5 scroll-mt-5"><h4>1970s Letter Prefixes</h4><table><thead><tr><th>Number starts with</th><th>Possible year(s)</th></tr></thead><tbody><tr><td data-label="Number Starts With">LE + six digits</td><td data-label="Possible Year(s)">1970 to 1975, on reissue models</td></tr><tr><td data-label="Number Starts With">A + six digits</td><td data-label="Possible Year(s)">1973 to 1975</td></tr><tr><td data-label="Number Starts With">B + six digits</td><td data-label="Possible Year(s)">1974 to 1975</td></tr><tr><td data-label="Number Starts With">C, D, E or F + six digits</td><td data-label="Possible Year(s)">1974 to 1975</td></tr><tr><td data-label="Number Starts With">Six digits + A at the end</td><td data-label="Possible Year(s)">Possibly 1970</td></tr></tbody></table><p class="p-4 text-sm text-ink/60">These letter stamps are pressed into the back of the headstock with “Made in USA” underneath, just like the plain six-digit numbers, and only a small share of guitars got one. Some charts list C through F as 1975 only. The trailing A is the least documented of these, so treat 1970 as a starting point and confirm it with the parts.</p></div>
+              <div class="mt-5"><SerialPhotos section="letter-prefix" /></div>
             <p class="chart-note">Check the <a href="/gibson-physical-features-hardware-guide/">physical features and hardware guide</a> alongside these ranges. A claimed 1971 limited edition needs the model checks in the <a href="https://www.joesvintageguitarsaz.com/post/gibson-flying-v-medallion-guide/">Flying V Medallion guide</a>; a serial range alone does not identify that edition.</p>
             </article>
 
