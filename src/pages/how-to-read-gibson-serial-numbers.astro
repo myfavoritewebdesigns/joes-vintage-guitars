@@ -1,6 +1,6 @@
 ---
 import GibsonGuideLayout from '../layouts/GibsonGuideLayout.astro';
-import '../styles/serial-hero.css';
+import '../styles/gibson-serial-lookup.css';
 import SerialPhotos from '../components/SerialPhotos.astro';
 import SerialGuideLinks from '../components/SerialGuideLinks.astro';
 import SerialCrossCheckHub from '../components/SerialCrossCheckHub.astro';
@@ -11,6 +11,37 @@ import {
   whiteLabelRows, aPrefixRows, reusedRows, reusedRangeData, earlyFonRows, suffixFonRows,
   wartimeFonRows, prefixFonRows, specialRows, faqs,
 } from '../data';
+import { getImage } from 'astro:assets';
+import type { ImageMetadata } from 'astro';
+import LicensedImage from '../components/LicensedImage.astro';
+// Type-first lookup photos. Close-ups in serial-lookup/ are cut from the serial-photos originals
+// (and one shop photo of a Les Paul Custom) at full resolution; the pipeline makes the web sizes.
+import byrdlandMap from '../assets/serial-lookup/gibson-byrdland-serial-location-map.png';
+import inkCloseUp from '../assets/serial-lookup/gibson-ink-stamp-serial-513053-close-up.jpg';
+import decalCloseUp from '../assets/serial-lookup/gibson-gold-decal-serial-00115029-close-up.jpg';
+import modernCloseUp from '../assets/serial-lookup/gibson-eight-digit-serial-81006505-close-up.jpg';
+import classicCloseUp from '../assets/serial-lookup/gibson-les-paul-classic-serial-060187-close-up.jpg';
+import csCloseUp from '../assets/serial-lookup/gibson-custom-shop-cs62763-serial-close-up.jpg';
+import historicCloseUp from '../assets/serial-lookup/gibson-historic-reissue-serial-9-3681-close-up.jpg';
+import usaCloseUp from '../assets/serial-lookup/gibson-serial-745104-made-in-usa-close-up.jpg';
+import madeInUsaCloseUp from '../assets/serial-lookup/gibson-les-paul-custom-serial-80483613-made-in-usa.jpg';
+import leCloseUp from '../assets/serial-lookup/gibson-les-paul-le890141-serial-made-in-usa-close-up.jpg';
+import aPrefixCloseUp from '../assets/serial-lookup/gibson-impressed-a-prefix-serial-a006875-made-in-usa-close-up.jpg';
+import impressedPhoto from '../assets/serial-photos/1966-gibson-es-335-serial-number-close-up-scaled.jpg';
+import orangeLabelPhoto from '../assets/serial-photos/gibson-a-prefix-serial-number-orange-label-1-scaled.jpg';
+import whiteLabelPhoto from '../assets/serial-photos/gibson-white-label-serial-number-scaled.jpg';
+import fonPhoto from '../assets/serial-photos/gibson-factory-order-number-ink-stamp-bare-wood.jpg';
+// Cross-check card thumbnails: each guide's own main photo.
+import potsPhoto from '../assets/pots/gibson-1969-cts-pot-code.jpg';
+import knobsPhoto from '../assets/knobs/1956-gibson-les-paul-bonnet-knob.jpg';
+import tunersPhoto from '../assets/tuners/1966-gibson-es-335-double-line-klusons.jpg';
+import logoPhoto from '../assets/logos/2000-gibson-logo-modern-logo.jpg';
+import pickupsPhoto from '../assets/blog/gibson-paf-patent-number-pickup-guide/gibson-paf-sticker-oxidized-solder-joints.jpg';
+import neckPhoto from '../assets/features-hardware/Gibson-one-piece-mahogany-neck.jpg';
+import volutePhoto from '../assets/features-hardware/gibson-sg-custom-volute-1972-scaled.jpg';
+import bridgePhoto from '../assets/features-hardware/gibson-es-335-tune-o-matic-and-stop-bar-tailpiece-scaled.jpg';
+import casesPhoto from '../assets/blog/1956-les-paul-goldtop-authentication-guide/1956-gibson-lifton-california-girl-case-1024x683.jpg';
+import physicalPhoto from '../assets/features-hardware/gibson-nickel-hardware-1962-gibson-sg-standard-scaled.jpg';
 
 const siteUrl = 'https://www.joesvintageguitarsaz.com';
 const canonicalUrl = `${siteUrl}/how-to-read-gibson-serial-numbers/`;
@@ -55,6 +86,57 @@ const reusedPairs = Array.from({ length: reusedSplit }, (_, index) => ({
   left: reusedRows[index],
   right: reusedRows[index + reusedSplit],
 }));
+
+// Photos the lookup script (public/scripts/gibson-lookup.js) shows in its questions, guitar-map
+// pop-ups and results. The script draws them only after a lookup starts, so they ship as plain
+// pipeline URLs in #gsl-photos and carry no ImageObject of their own.
+const lookupPhotoSources: Record<string, [ImageMetadata, string]> = {
+  impressed: [impressedPhoto, 'Serial 846395 pressed into the wood on the back of a Gibson ES-335 headstock'],
+  ink: [inkCloseUp, 'Yellow ink serial 513053 on the back of a 1955 Les Paul Custom headstock'],
+  decal: [decalCloseUp, 'Gold decal serial 00115029 on a red Les Paul Custom headstock'],
+  madeInUsa: [madeInUsaCloseUp, 'Serial 80483613 with Made in U.S.A. pressed into the back of a Gibson Les Paul Custom headstock'],
+  orange: [orangeLabelPhoto, 'Orange oval Gibson label with serial A 34043'],
+  white: [whiteLabelPhoto, 'White oval Gibson label seen through the soundhole'],
+  fon: [fonPhoto, 'Factory Order Number Z 1603 6 stamped on bare wood inside the body'],
+  modern: [modernCloseUp, 'Eight-digit serial 81006505 with Made in USA on a J-200 headstock'],
+  classic: [classicCloseUp, 'Six-digit ink serial 060187 on a Les Paul Classic headstock'],
+  cs: [csCloseUp, 'CS62763 serial on a Les Paul Custom headstock'],
+  historic: [historicCloseUp, 'Historic Les Paul reissue ink serial 9 3681'],
+  lePrefix: [leCloseUp, 'Serial LE890141 with Made in U.S.A. pressed into a black Les Paul headstock'],
+  aPrefix: [aPrefixCloseUp, 'Impressed serial A006875 with Made in U.S.A. pressed in below it'],
+};
+const crossCheckSources: Record<string, ImageMetadata> = {
+  pots: potsPhoto, knobs: knobsPhoto, tuners: tunersPhoto, logo: logoPhoto, pickups: pickupsPhoto,
+  neck: neckPhoto, volute: volutePhoto, bridge: bridgePhoto, cases: casesPhoto, physical: physicalPhoto,
+};
+const lookupPhotos = {
+  photos: Object.fromEntries(await Promise.all(Object.entries(lookupPhotoSources).map(async ([key, [image, alt]]) => {
+    const built = await getImage({ src: image, width: Math.min(720, image.width), format: 'webp', quality: 82 });
+    return [key, [built.src, alt]];
+  }))),
+  xc: Object.fromEntries(await Promise.all(Object.entries(crossCheckSources).map(async ([key, image]) => {
+    const built = await getImage({ src: image, width: 560, height: 373, fit: 'cover', format: 'webp', quality: 78 });
+    return [key, built.src];
+  }))),
+};
+// Cut-out Byrdland for the "where is the number" map. Hotspot positions in gibson-lookup.js are
+// percentages of this image.
+const guitarMap = await getImage({ src: byrdlandMap, width: 512, widths: [256, 384, 512, 768], format: 'webp', quality: 82 });
+// "Know your format" gallery. Tapping a card runs that number with these answers pre-filled.
+// The three serial-photos originals already carry their ImageObject in the chart sections below.
+const formatExamples = [
+  { n: '846395', name: 'Pressed into the wood', era: '1961 to 1970, reused ranges', image: impressedPhoto, alt: 'Serial 846395 pressed into a Gibson headstock', ownSchema: false, preset: { where: 'headstock', how: 'pressed', usa: 'no', family: 'vintage' } },
+  { n: '513053', name: 'Ink stamp on the headstock', era: '1953 to 1961', image: inkCloseUp, alt: 'Ink-stamped serial 513053 on a 1955 Les Paul Custom headstock', ownSchema: true, preset: { where: 'headstock', how: 'ink', family: 'vintage' } },
+  { n: 'A 34043', name: 'A-prefix on an interior label', era: '1947 to 1961', image: orangeLabelPhoto, alt: 'Orange label with serial A 34043', ownSchema: false, preset: { where: 'label', family: 'vintage' } },
+  { n: 'Z 1603 6', name: 'Factory Order Number on bare wood', era: '1902 to 1961', image: fonPhoto, alt: 'FON Z 1603 6 stamped on bare wood', ownSchema: false, preset: {} },
+  { n: '745104', name: 'Pressed in, with Made in USA', era: '1970 to 1977', image: usaCloseUp, alt: 'Serial 745104 with Made in USA pressed in below it', ownSchema: true, preset: { where: 'headstock', how: 'pressed', usa: 'yes', family: 'vintage' } },
+  { n: 'A 006875', name: 'Impressed with a letter prefix', era: '1970 to 1975', image: aPrefixCloseUp, alt: 'Impressed serial A006875 with Made in U.S.A. pressed in below it', ownSchema: true, preset: { where: 'headstock', how: 'pressed', usa: 'yes', family: 'vintage' } },
+  { n: '00115029', name: 'Gold decal serial', era: '1975 to 1977', image: decalCloseUp, alt: 'Gold decal serial 00115029 on a Les Paul Custom headstock', ownSchema: true, preset: { how: 'decal' } },
+  { n: '81006505', name: 'Eight-digit date code', era: '1977 to today', image: modernCloseUp, alt: 'Eight-digit serial 81006505 on a J-200 headstock', ownSchema: true, preset: {} },
+  { n: 'CS62763', name: 'Custom Shop CS prefix', era: 'Custom Shop', image: csCloseUp, alt: 'CS62763 Custom Shop serial on a Les Paul Custom headstock', ownSchema: true, preset: {} },
+  { n: '9 3681', name: 'Historic Les Paul reissue', era: 'Reissue', image: historicCloseUp, alt: 'Historic Les Paul reissue serial 9 3681', ownSchema: true, preset: { where: 'headstock', how: 'ink', family: 'lp-reissue' } },
+  { n: '060187', name: 'Les Paul Classic', era: '1989 to 2014', image: classicCloseUp, alt: 'Les Paul Classic serial 060187', ownSchema: true, preset: { where: 'headstock', how: 'ink', family: 'lp-classic' } },
+];
 
 const schema = {
   '@context': 'https://schema.org',
@@ -107,7 +189,7 @@ const schema = {
       author: { '@id': personId },
       publisher: { '@id': organizationId },
       datePublished: '2026-03-12T20:06:33+00:00',
-      dateModified: '2026-09-16T00:00:00-07:00',
+      dateModified: '2026-11-23T00:00:00-07:00',
     },
     {
       '@type': 'BreadcrumbList',
@@ -166,7 +248,7 @@ const schema = {
   ogImageWidth={2560}
   ogImageHeight={1707}
   publishedTime="2026-03-12T20:06:33+00:00"
-  modifiedTime="2026-09-16T00:00:00-07:00"
+  modifiedTime="2026-11-23T00:00:00-07:00"
   structuredData={schema}
   bodyClass="gibson-serial-page"
   youtubeLite
@@ -177,96 +259,53 @@ const schema = {
       <section class="relative overflow-hidden bg-ink text-paper" id="decoder">
         <div class="hero-glow" aria-hidden="true"></div>
         <div class="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-gold-light to-transparent"></div>
-        <div class="serial-hero-layout mx-auto grid max-w-[88rem] gap-12 px-5 pb-12 pt-40 lg:grid-cols-[0.8fr_1.2fr] lg:items-center lg:px-10 lg:pb-20 lg:pt-60">
-          <div class="serial-hero-heading relative max-w-2xl">
-            <p class="mb-5 flex items-center gap-3 text-xs font-extrabold uppercase tracking-[0.24em] text-gold-light"><span class="h-px w-10 bg-gold-light"></span>Free reference tool</p>
-            <h1 class="font-display text-[clamp(2.8rem,6vw,5.9rem)] leading-[0.91] tracking-[-0.045em] text-white">Gibson Serial <br /><em class="font-normal text-gold-light">Number Lookup</em></h1>
-          </div>
+        <div class="gsl relative mx-auto max-w-[66rem] px-5 pb-14 pt-40 lg:px-10 lg:pb-20 lg:pt-72">
+          <p class="mb-5 flex items-center gap-3 text-xs font-extrabold uppercase tracking-[0.24em] text-gold-light"><span class="h-px w-10 bg-gold-light"></span>Free reference tool</p>
+          <h1 class="font-display text-[clamp(2.6rem,6.5vw,5.4rem)] leading-[0.93] tracking-[-0.04em] text-white">Gibson Serial <em class="font-normal text-gold-light">Number Lookup</em></h1>
+          <p class="lede mt-5">Look up a Gibson serial number or Factory Order Number (FON) from 1902 to today. Most Gibsons built since 1977 use an eight- or nine-digit number, and its first and fifth digits give the year.</p>
+          <p class="byline">Written and reviewed by <a href="/about-me/">Joe Dampt</a>, Vintage Gibson Expert. Updated November 23, 2026.</p>
 
-          <div class="tool-card relative rounded-[1.75rem] border border-gold/45 bg-wine-dark p-3 sm:p-5">
-            <div class="rounded-[1.25rem] border border-white/10 bg-[#4a3828] p-5 sm:p-8">
-              <div class="mb-7 flex items-start justify-between gap-5">
-                <div><p class="text-xs font-extrabold uppercase tracking-[0.2em] text-gold-light">Start here</p><h2 class="mt-2 font-display text-3xl leading-tight text-white sm:text-4xl">What Number Do You Have?</h2></div>
-              </div>
-
-              <form id="lookup-form" novalidate>
-                <fieldset>
-                  <legend class="mb-3 text-sm font-bold text-paper/70">Choose a number type</legend>
-                  <div class="grid grid-cols-2 gap-2 rounded-2xl bg-black/20 p-1.5">
-                    <button type="button" class="mode-button rounded-xl border border-transparent px-3 py-3 text-sm font-extrabold text-paper/70 transition" data-mode="serial" role="radio" aria-checked="true">Serial number</button>
-                    <button type="button" class="mode-button rounded-xl border border-transparent px-3 py-3 text-sm font-extrabold text-paper/70 transition" data-mode="fon" role="radio" aria-checked="false">Factory Order No.</button>
-                  </div>
-                  <a href="#serial-vs-fon" class="mt-3 inline-block text-sm font-bold text-gold-light underline underline-offset-4">The Difference Between Serial Number and FON</a>
-                </fieldset>
-
-                <div id="location-wrap" class="mt-5">
-                  <label for="location-select" class="mb-2 block text-sm font-bold text-paper">Where is the number?</label>
-                  <select id="location-select" class="w-full rounded-xl border border-white/15 bg-[#3e2a14] px-4 py-3 text-paper">
-                    <option value="unknown">Not sure</option><option value="label">On an interior paper label</option><option value="ink">Ink-stamped on the headstock</option><option value="wood-no-usa">Pressed into wood, no “Made in USA”</option><option value="wood-usa">Pressed into wood, with “Made in USA”</option><option value="decal">On a rear-headstock decal</option>
-                  </select>
+          <div class="tool" id="gsl-tool">
+            <div class="tool__in">
+              <form class="entry" id="lookup-form" novalidate autocomplete="off">
+                <label for="serial-input">Type Your Serial Number or FON</label>
+                <div class="entry__row">
+                  <input id="serial-input" name="serial" placeholder="e.g. 70108276" autocomplete="off" autocapitalize="characters" spellcheck="false" inputmode="text" />
+                  <button class="go" type="submit">Look It Up <span aria-hidden="true">→</span></button>
                 </div>
-
-                <label id="number-label" for="serial-input" class="mt-5 block text-sm font-bold text-paper">Enter your serial number</label>
-                <a id="serial-location-link" href="#find-number" class="mt-2 inline-flex text-sm font-bold text-gold-light underline decoration-gold/50 underline-offset-4">Where Do I Find the Serial Number?</a>
-                <div class="mt-2 flex flex-col gap-3 sm:flex-row">
-                  <input id="serial-input" name="serial" class="serial-input min-h-14 min-w-0 flex-1 rounded-xl border border-white/15 bg-black/25 px-5 font-mono text-xl tracking-[0.12em] text-white uppercase focus:border-gold-light" placeholder="e.g. 70108276" autocomplete="off" inputmode="text" />
-                  <button type="submit" class="min-h-14 rounded-xl bg-gold-light px-6 font-extrabold text-wine-dark transition hover:bg-[#e0c38e]">Decode <span aria-hidden="true">→</span></button>
+                <p class="error" id="gsl-error" role="alert"></p>
+                <div class="entry__under">
+                  <span class="sniff" id="gsl-sniff" hidden aria-live="polite"></span>
+                  <div class="entry__links"><a href="#find-number" id="gsl-find-link">Where’s my number?</a></div>
                 </div>
-
-                <button type="button" id="special-toggle" class="mt-5 flex w-full items-center justify-between rounded-xl border border-white/12 px-4 py-3 text-left text-sm text-paper/68 transition hover:border-gold/50 hover:text-white" aria-expanded="false" aria-controls="special-panel">
-                  <span><strong class="block text-paper">Custom Shop, Reissue, or Limited Edition?</strong><span class="text-sm">Choose a model-specific format</span></span><span aria-hidden="true" class="text-gold-light">+</span>
-                </button>
-                <div id="special-panel" class="special-panel mt-3 rounded-xl border border-white/10 bg-black/15 p-3" hidden>
-                  <label for="model-select" class="mb-2 block text-xs font-bold uppercase tracking-[0.12em] text-paper/60">Special format</label>
-                  <select id="model-select" class="w-full rounded-xl border border-white/15 bg-[#3e2a14] px-4 py-3 text-paper">
-                    <option value="">Standard serial or help choosing a format</option>
-                    <option value="cs">CS-prefix Custom Shop</option>
-                    <option value="lp-reissue">Historic Les Paul Reissue, 1954 to 1960</option>
-                    <option value="korina-reissue">Historic 1958 Korina Flying V or Explorer</option>
-                    <option value="sg-reissue">Impressed SG, Firebird or Other Reissue</option>
-                    <option value="es-61-64">1961 or 1964 ES Reissue</option>
-                    <option value="es-63">1963 ES-335 Reissue</option>
-                    <option value="es-58">1958 ES-335 Reissue</option>
-                    <option value="es-59">1959 ES Reissue</option>
-                    <option value="carved-top">Carved-top Custom Shop</option>
-                    <option value="lp-classic">Les Paul Classic, 1989 to 2014</option>
-                    <option value="artist">Artist Signature Edition</option>
-                    <option value="collectors-choice">Collector’s Choice</option>
-                    <option value="centennial">1994 Centennial Collection Limited Edition</option>
-                    <option value="early-reissue">Guitar Trader or Other Early Les Paul Reissue</option>
-                    <option value="heritage-80">Heritage Standard 80 or 80 Elite</option>
-                    <option value="heritage-v">Early-1980s Heritage Korina Flying V</option>
-                    <option value="heritage-explorer">Early-1980s Heritage Korina Explorer</option>
-                    <option value="anniversary-25-50">Les Paul 25/50 Anniversary</option>
-                    <option value="unknown-special">My Model or Format Is Not Listed</option>
-                  </select>
-                  <p id="model-hint" class="mt-2 text-xs leading-relaxed text-paper/55"></p>
-                </div>
-
-              <div id="result-panel" class="result-panel mt-5 rounded-2xl border border-gold/35 bg-[#3e2a14] p-5" tabindex="-1" aria-live="polite" aria-atomic="true" hidden>
-                <div class="flex items-center justify-between gap-4"><p class="text-xs font-extrabold uppercase tracking-[0.18em] text-gold-light">Lookup result</p><span id="confidence-badge" class="rounded-full border border-white/15 px-2.5 py-1 text-[0.65rem] font-extrabold uppercase tracking-[0.12em] text-paper/65"></span></div>
-                <h3 id="result-title" class="mt-3 font-display text-3xl leading-tight text-white"></h3><div id="result-copy" class="mt-2 text-sm leading-relaxed text-paper/70"></div>
-                <a id="result-cross-check-link" href="#dating-hub" class="group mt-5 flex w-full items-center justify-between gap-4 rounded-xl border border-gold-light/70 bg-gold-light px-5 py-3.5 font-extrabold text-wine-dark no-underline transition hover:border-[#e0c38e] hover:bg-[#e0c38e] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold-light">
-                  <span>Cross-Check With Other Features</span><span class="text-xl leading-none transition-transform group-hover:translate-x-1" aria-hidden="true">→</span>
-                </a>
-                <a id="result-chart-link" href="#charts" class="mt-4 inline-flex text-sm font-bold text-gold-light underline decoration-gold/50 underline-offset-4">Check the matching chart ↓</a><button id="reset-button" type="button" class="ml-5 mt-4 text-sm font-bold text-paper/60 underline decoration-white/20 underline-offset-4">Start over</button>
-              </div>
-                <div id="followup-panel" class="lookup-followup" hidden>
-                  <h3>Check These Details</h3>
-                  <p>Answer what you can confirm. A preliminary vintage-chart result can change when you identify a reissue or another format.</p>
-                  <div id="followup-fields"></div>
-                  <button type="submit" class="mt-4 rounded-xl bg-gold-light px-5 py-3 font-bold text-wine-dark">Update Result</button>
-                </div>
-                <p id="form-error" class="mt-3 text-sm text-[#f2b8b5]" role="alert"></p>
               </form>
+              <div id="gsl-stage" class="gsl-stage" hidden aria-live="polite"></div>
             </div>
-            <p class="px-4 pb-1 pt-4 text-center text-xs leading-relaxed text-paper/52">Serial ranges are estimates. Cross-check valuable instruments before buying or selling.</p>
+            <p class="fine">Serial ranges are estimates. Cross-check valuable instruments before buying or selling.</p>
           </div>
-          <div class="serial-hero-intro relative max-w-2xl">
-            <p class="max-w-xl text-lg leading-relaxed text-paper/74 md:text-xl">Use our comprehensive tool to decode your Gibson serial number. Make sure to cross-reference features and parts using our <a class="font-bold text-gold-light underline decoration-gold/50 underline-offset-4" href="#dating-hub">advanced dating guides below</a>, since serial numbers are not always 100 percent accurate. As always, feel free to <a class="font-bold text-gold-light underline decoration-gold/50 underline-offset-4" href="https://www.joesvintageguitarsaz.com/contact-me/">reach out to us</a> if you need help dating a guitar.</p>
-            <a href="#charts" class="mt-4 inline-block font-bold text-gold-light underline decoration-gold/50 underline-offset-4">Jump straight to the charts</a>
-            <div class="mt-8 flex flex-wrap gap-x-7 gap-y-3 border-t border-white/12 pt-5 text-sm text-paper/62"><span><strong class="text-white">1902 to today</strong> systems</span><span><strong class="text-white">FON</strong> support</span><span><strong class="text-white">No signup</strong></span></div>
-            <p class="mt-6 text-sm text-paper/58">Written and reviewed by <a class="font-bold text-gold-light underline decoration-gold/50 underline-offset-4" href="https://www.joesvintageguitarsaz.com/about-me/">Joe Dampt</a><span class="mx-2 text-paper/30">•</span>Updated September 16, 2026</p>
+
+          <p class="after-tool">Many older Gibson numbers were reused, so the same digits can point to more than one year. That’s why the lookup asks where the number is and how it’s applied before it picks a chart. Serial numbers aren’t always 100 percent accurate, so check the guitar’s original parts against the result, or <a href="/free-appraisal/gibson/">send Joe photos</a> if you need help dating it.</p>
+          <a href="#charts" class="mt-4 inline-block font-bold text-gold-light underline decoration-gold/50 underline-offset-4">Jump straight to the charts</a>
+
+          <template id="gsl-guitar-template">
+            <img class="map__photo" src={guitarMap.src} srcset={guitarMap.srcSet.attribute} sizes="(max-width: 720px) 14rem, 16rem" width={guitarMap.attributes.width} height={guitarMap.attributes.height} alt="Sunburst Gibson Byrdland archtop from Joe’s shop" decoding="async" draggable="false" />
+          </template>
+          <script is:inline id="gsl-photos" type="application/json" set:html={JSON.stringify(lookupPhotos)} />
+        </div>
+      </section>
+
+      <section id="serial-formats" class="gsl border-b border-rule bg-cream py-14 lg:py-16" aria-labelledby="serial-formats-heading">
+        <div class="mx-auto max-w-[88rem] px-5 lg:px-10">
+          <p class="eyebrow">Know Your Format</p>
+          <h2 id="serial-formats-heading" class="section-title">Every Gibson Serial Format, With A Real Example</h2>
+          <p class="mt-4 max-w-3xl text-lg text-ink/70">Find the photo that looks like yours and tap it to run that example through the lookup.</p>
+          <div class="ex-grid mt-8">
+            {formatExamples.map((example) => (
+              <button type="button" class="ex" data-try={example.n} data-preset={JSON.stringify(example.preset)}>
+                <LicensedImage src={example.image} alt={example.alt} emitSchema={example.ownSchema} widths={[360, 720]} sizes="(max-width: 639px) calc(100vw - 40px), 320px" />
+                <span class="ex__body"><span class="ex__num">{example.n}</span><span class="ex__name">{example.name}</span><span class="ex__era">{example.era}</span><span class="ex__cta">Try this example →</span></span>
+              </button>
+            ))}
           </div>
         </div>
       </section>
@@ -284,7 +323,7 @@ const schema = {
                 <tr><td data-label="Number">3 to 6 digits</td><td data-label="Likely Systems">Vintage labels, FONs, ink stamps and reused ranges</td><td class="format-compare-actions" data-label="Compare"><a class="format-compare-link" href="#fon">Vintage Charts</a></td></tr>
                 <tr><td data-label="Number">8 digits</td><td data-label="Likely Systems">1970s decals or modern date codes</td><td class="format-compare-actions" data-label="Compare"><a class="format-compare-link" href="#norlin">Decals</a><a class="format-compare-link" href="#modern">Modern</a></td></tr>
                 <tr><td data-label="Number">9 digits</td><td data-label="Likely Systems">Modern batch or 2014 to mid-2019 model-year format</td><td class="format-compare-actions" data-label="Compare"><a class="format-compare-link" href="#modern">9-Digit Charts</a></td></tr>
-                <tr><td data-label="Number">Letter prefixes</td><td data-label="Likely Systems">A-prefix, FON, Custom Shop or special formats</td><td class="format-compare-actions" data-label="Compare"><a class="format-compare-link" href="#a-prefix">A-Prefix</a><a class="format-compare-link" href="#special">Special Formats</a></td></tr>
+                <tr><td data-label="Number">Letter prefixes</td><td data-label="Likely Systems">A-prefix, 1970s letter stamps, FON, Custom Shop or special formats</td><td class="format-compare-actions" data-label="Compare"><a class="format-compare-link" href="#a-prefix">A-Prefix</a><a class="format-compare-link" href="#letter-prefix">1970s Letters</a><a class="format-compare-link" href="#special">Special Formats</a></td></tr>
               </tbody>
             </table>
           </div>
@@ -343,7 +382,7 @@ const schema = {
           </dl>
           <div class="mt-7"><SerialPhotos section="number-types" /></div>
           <p class="mt-7 border-t border-rule pt-5 text-base leading-relaxed text-ink"><strong>Some older Gibsons have both numbers; others have only a FON.</strong> On older models carrying both, the FON was assigned at the start of production and the serial recorded later, before shipping. Check both against the guitar’s features rather than treating either as an exact completion date.</p>
-          <p class="mt-3 text-base leading-relaxed text-ink">In the <a href="#lookup-form" class="font-bold text-wine-dark underline underline-offset-4">lookup tool</a>, choose “Serial number” for the serial or “Factory Order No.” for the FON. If you have both, enter each separately.</p>
+          <p class="mt-3 text-base leading-relaxed text-ink">Type either number into the <a href="#lookup-form" class="font-bold text-wine-dark underline underline-offset-4">lookup tool</a>. If your guitar has both, look up each one separately.</p>
         </div>
       </section>
 
@@ -362,7 +401,7 @@ const schema = {
               <ol class="mt-4 space-y-1 text-sm font-bold text-ink/68">
                 <li><a href="#fon" class="toc-link">Factory Order Numbers</a></li><li><a href="#white-label" class="toc-link">White label, 1903 to 47</a></li><li><a href="#a-prefix" class="toc-link">A-prefix, 1947 to 61</a></li><li><a href="#ink-stamp" class="toc-link">Ink stamp, 1953 to 61</a></li><li><a href="#reused" class="toc-link">Reused, 1961 to 70</a></li><li><a href="#norlin" class="toc-link">Norlin, 1970 to 77</a></li><li><a href="#modern" class="toc-link">Modern, 1977 to today</a></li><li><a href="#special" class="toc-link">Special formats</a></li>
               </ol>
-              <div class="mt-6 border-t border-rule pt-5 text-sm leading-relaxed text-ink/60">Not sure which chart applies? Set the number location in the lookup tool. It is often the deciding clue.</div>
+              <div class="mt-6 border-t border-rule pt-5 text-sm leading-relaxed text-ink/60">Not sure which chart applies? The lookup tool asks where the number is, which is often the deciding clue.</div>
             </div>
           </aside>
 
@@ -390,7 +429,7 @@ const schema = {
             </article>
 
             <article id="a-prefix" class="chart-section scroll-mt-5">
-              <div class="chart-heading"><div><p class="eyebrow">1947 to 1961</p><h3>Gibson A-Prefix Serial Numbers, 1947 to 1961</h3></div><p>A-prefix serial numbers are found on white or orange interior labels. On rare occasions, I have seen factory Gibson acoustic guitars from the late 1960s and early 1970s with an impressed A-prefix serial number on the back of the headstock. These impressed A-prefix numbers have no known dating system. The chart below refers only to serial numbers on an interior label.</p></div>
+              <div class="chart-heading"><div><p class="eyebrow">1947 to 1961</p><h3>Gibson A-Prefix Serial Numbers, 1947 to 1961</h3></div><p>A-prefix serial numbers are found on white or orange interior labels. On rare occasions, I have seen factory Gibson acoustic guitars from the late 1960s and early 1970s with an impressed A-prefix serial number on the back of the headstock. These impressed A-prefix numbers have no known dating system. Published charts do date one version: an A followed by six digits with “Made in USA” stamped underneath, covered in the <a href="#letter-prefix">1970s letter prefixes</a>. The chart below refers only to serial numbers on an interior label.</p></div>
               <SerialPhotos section="a-prefix" />
               <div class="table-card"><table><thead><tr><th>Year</th><th>Serial range</th><th>Year</th><th>Serial range</th></tr></thead><tbody>{aPrefixPairs.map(({ left, right }) => <tr><td data-label="Year">{left?.[0]}</td><td data-label="Serial Range">{left?.[1]}</td><td data-label="Year">{right?.[0]}</td><td data-label="Serial Range">{right?.[1]}</td></tr>)}</tbody></table></div>
             <p class="chart-note">Match the serial to the right model: the <a href="https://www.joesvintageguitarsaz.com/post/gibson-byrdland-authentication-guide/">Byrdland</a>, <a href="https://www.joesvintageguitarsaz.com/post/gibson-es-225-guide/">ES-225</a> and <a href="https://www.joesvintageguitarsaz.com/post/1959-gibson-es-335-authentication-guide/">1959 ES-335</a> guides explain different construction and hardware clues within this period.</p>
@@ -416,12 +455,14 @@ const schema = {
             </article>
 
             <article id="norlin" class="chart-section scroll-mt-5">
-              <div class="chart-heading"><div><p class="eyebrow">1970 to 1977</p><h3>Gibson Serial Numbers, 1970 to 1977: USA Stamps and Decals</h3></div><p>Most 1970s examples have “Made in USA” below a six-digit impressed serial. Short-lived eight-digit decals followed before the modern format.</p></div>
+              <div class="chart-heading"><div><p class="eyebrow">1970 to 1977</p><h3>Gibson Serial Numbers, 1970 to 1977: USA Stamps and Decals</h3></div><p>Most 1970s examples have “Made in USA” below a six-digit impressed serial. A few also have a letter before the six digits. Short-lived eight-digit decals followed before the modern format.</p></div>
               <SerialPhotos section="norlin" />
               <div class="grid gap-5 xl:grid-cols-2">
                 <div class="table-card"><h4>Impressed Serials</h4><table><thead><tr><th>Serial block</th><th>Possible year(s)</th></tr></thead><tbody><tr><td data-label="Serial Block">000001 to 099999</td><td data-label="Possible Year(s)">1970 transition / 1973</td></tr><tr><td data-label="Serial Block">100000 to 199999</td><td data-label="Possible Year(s)">1970 to 1975</td></tr><tr><td data-label="Serial Block">200000 to 299999</td><td data-label="Possible Year(s)">1973 to 1975</td></tr><tr><td data-label="Serial Block">300000 to 599999</td><td data-label="Possible Year(s)">1974 to 1975</td></tr><tr><td data-label="Serial Block">600000 to 699999</td><td data-label="Possible Year(s)">1970 to 72 or 1974 to 75</td></tr><tr><td data-label="Serial Block">700000 to 799999</td><td data-label="Possible Year(s)">1970 to 1972</td></tr><tr><td data-label="Serial Block">800000 to 899999</td><td data-label="Possible Year(s)">1973 to 1975</td></tr><tr><td data-label="Serial Block">900000 to 999999</td><td data-label="Possible Year(s)">1970 to 1972</td></tr></tbody></table></div>
                 <div class="table-card"><h4>Eight-Digit Decal Prefixes</h4><table><thead><tr><th>Prefix</th><th>Year</th><th>Look for</th></tr></thead><tbody><tr><td data-label="Prefix">99</td><td data-label="Year">1975</td><td data-label="Look For">Decal</td></tr><tr><td data-label="Prefix">00</td><td data-label="Year">1976</td><td data-label="Look For">Decal</td></tr><tr><td data-label="Prefix">06</td><td data-label="Year">1977</td><td data-label="Look For">Decal</td></tr></tbody></table><p class="p-4 text-sm text-ink/60">A 99-prefix can resemble a 1990s modern number. The physical decal is the deciding clue.</p></div>
               </div>
+              <div id="letter-prefix" class="table-card mt-5 scroll-mt-5"><h4>1970s Letter Prefixes</h4><table><thead><tr><th>Number starts with</th><th>Possible year(s)</th></tr></thead><tbody><tr><td data-label="Number Starts With">LE + six digits</td><td data-label="Possible Year(s)">1970 to 1975, on reissue models</td></tr><tr><td data-label="Number Starts With">A + six digits</td><td data-label="Possible Year(s)">1973 to 1975</td></tr><tr><td data-label="Number Starts With">B + six digits</td><td data-label="Possible Year(s)">1974 to 1975</td></tr><tr><td data-label="Number Starts With">C, D, E or F + six digits</td><td data-label="Possible Year(s)">1974 to 1975</td></tr></tbody></table><p class="p-4 text-sm text-ink/60">These letter stamps are pressed into the back of the headstock with “Made in USA” underneath, just like the plain six-digit numbers, and only a small share of guitars got one. Some charts list C through F as 1975 only.</p></div>
+              <div class="mt-5"><SerialPhotos section="letter-prefix" /></div>
             <p class="chart-note">Check the <a href="/gibson-physical-features-hardware-guide/">physical features and hardware guide</a> alongside these ranges. A claimed 1971 limited edition needs the model checks in the <a href="https://www.joesvintageguitarsaz.com/post/gibson-flying-v-medallion-guide/">Flying V Medallion guide</a>; a serial range alone does not identify that edition.</p>
             </article>
 
@@ -456,7 +497,7 @@ const schema = {
                 <h4 id="model-year-heading" class="font-display text-2xl text-wine-dark">Gibson USA Model-Year Serials, 2014 to Mid-2019</h4>
                 <p class="mt-3 text-base text-ink/80">This nine-digit format is <strong>YYRRRRRRR</strong>: the first two digits give the model year and the remaining seven give the sequence. It does not encode a day of the year.</p>
                 <p class="mt-3 text-base text-ink/80">For example, <strong>150000123</strong> reads as <strong>2015 model year, sequence 0000123</strong>. This example applies <a href="https://www.gibson.com/pages/serial-number-search">Gibson’s published model-year rule</a>. A 2015-model instrument may have been built late in 2014, so the model year is not necessarily its calendar build year.</p>
-                <p class="mt-3 text-base text-ink/80">Choose the standard serial option in the decoder. Do not read digits 2 to 4 as a production day for this format. Custom Shop, Historic and Classic instruments need their own rules below.</p>
+                <p class="mt-3 text-base text-ink/80">The lookup tool reads this format from all nine digits. Do not read digits 2 to 4 as a production day for this format. Custom Shop, Historic and Classic instruments need their own rules below.</p>
               </section>
             </article>
 
@@ -512,7 +553,7 @@ const schema = {
                 <div><strong>12+</strong><span>Years of Experience</span></div>
                 <div><strong>2,000+</strong><span><a href="https://www.joesvintageguitarsaz.com/reverb-reviews/" class="underline underline-offset-4">Five-Star Reviews on Reverb</a></span></div>
               </div>
-              <p class="author-card__reviewed">This guide was last reviewed on September 16, 2026.</p>
+              <p class="author-card__reviewed">This guide was last reviewed on November 23, 2026.</p>
               <div class="author-card__links">
                 <a href="https://www.joesvintageguitarsaz.com/about-me/">Read Joe's Full Bio</a>
                 <a href="https://www.joesvintageguitarsaz.com/free-appraisal/gibson/">Get a Free Gibson Appraisal</a>
@@ -528,6 +569,7 @@ const schema = {
     <script src="/scripts/special-formats.js" defer></script>
     <script is:inline id="reused-range-data" type="application/json" set:html={JSON.stringify(reusedRangeData)} />
     <script src="/scripts/decoder.js" defer></script>
+    <script src="/scripts/gibson-lookup.js" defer></script>
   <section class="section"><div class="container"><p>For an acoustic archtop, compare the <a href="/post/gibson-l-4-authentication-guide/">L-4’s soundhole and cutaway generations</a>, the <a href="/post/gibson-l-7-authentication-guide/">L-7’s body size and bracing</a>, the <a href="/post/gibson-l-48-authentication-guide/">L-48’s construction</a> and the <a href="/post/gibson-l-50-authentication-guide/">L-50’s changing body and inlays</a> before choosing a price range.</p><p>For electric models, check the <a href="/post/gibson-les-paul-deluxe-authentication-guide/">Les Paul Deluxe’s pickup cavities and neck</a>, the <a href="/post/gibson-es-175-authentication-guide/">ES-175’s label and pickup installation</a> or the <a href="/post/gibson-thunderbird-eb-bass-authentication-guide/">Thunderbird and EB bass body generations</a> alongside the serial.</p><p>Signature archtops need their own checks too: the <a href="/post/gibson-johnny-smith-authentication-guide/">Johnny Smith’s labels and factory second stamps</a>, the <a href="/post/gibson-barney-kessel-authentication-guide/">Barney Kessel’s trim and pickups</a>, the <a href="/post/gibson-tal-farlow-authentication-guide/">Tal Farlow’s original and reissue serial formats</a>, the <a href="/post/gibson-trini-lopez-authentication-guide/">Trini Lopez nut, hardware and serial</a> and the <a href="/post/gibson-howard-roberts-authentication-guide/">Howard Roberts Epiphone and Gibson serials</a>.</p></div></section>
   <section class="section"><div class="container"><p>Once you know the model and year, my <a href="/vintage-gibson-value-guide/">vintage Gibson value guide</a> connects the matching condition and price comparisons.</p></div></section>
 </GibsonGuideLayout>

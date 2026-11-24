@@ -1,27 +1,9 @@
+// Gibson serial decoding engine (no DOM except the #reused-range-data chart block it reads).
+// The decode functions below are unchanged from the earlier decoder, except decodeLetterStamp
+// (1970s letter stamps, added 2026-11-24) and the one line in decodeStandard that routes to it.
+// The old form UI was replaced by public/scripts/gibson-lookup.js, which calls these through
+// globalThis.GibsonDecoder.
 (() => {
-  const form = document.querySelector('#lookup-form');
-  if (!form) return;
-
-  const input = document.querySelector('#serial-input');
-  const label = document.querySelector('#number-label');
-  const error = document.querySelector('#form-error');
-  const resultPanel = document.querySelector('#result-panel');
-  const resultTitle = document.querySelector('#result-title');
-  const resultCopy = document.querySelector('#result-copy');
-  const resultLink = document.querySelector('#result-chart-link');
-  const confidence = document.querySelector('#confidence-badge');
-  const modeButtons = [...document.querySelectorAll('.mode-button')];
-  const specialToggle = document.querySelector('#special-toggle');
-  const specialPanel = document.querySelector('#special-panel');
-  const modelSelect = document.querySelector('#model-select');
-  const modelHint = document.querySelector('#model-hint');
-  const locationSelect = document.querySelector('#location-select');
-  const locationWrap = document.querySelector('#location-wrap');
-  const followupPanel = document.querySelector('#followup-panel');
-  const followupFields = document.querySelector('#followup-fields');
-  let answers = {};
-  let mode = 'serial';
-
   const clean = (value) => value.replace(/[^a-zA-Z0-9]/g, '').toUpperCase();
   const makeResult = (title, copy, href, certainty = 'Estimated') => ({ title, copy, href, certainty });
   const ordinal = (number) => {
@@ -155,7 +137,25 @@
     return years.length ? makeResult(years.join('; or '), `Numeric FON <strong>${raw}</strong> occurs in these approximate chart periods. Gibson restarted and reused batch numbers. The model, logo and construction must narrow the date; wartime and immediate postwar ranges are particularly uncertain.`, '#fon', years.length > 1 ? 'Multiple periods' : 'Estimated') : makeResult('Compare the FON Charts', `Number-only FON <strong>${raw}</strong> cannot be dated uniquely without its model and construction details.`, '#fon', 'Needs context');
   };
 
+  // 1970s letter stamps, pressed into the back of the headstock with "Made in USA" under them:
+  // LE or A to F before six digits. An A with six digits and no "Made in USA" keeps the page's
+  // own A-prefix wording (no known dating system).
+  const decodeLetterStamp = (raw, location) => {
+    const [, letter, digits] = /^(LE|[A-F])(\d{6})$/.exec(raw);
+    const shown = `<strong>${letter} ${digits}</strong>`;
+    const confirm = 'The letter narrows the years but does not give an exact one, so date the original pots and parts to pin it down.';
+    if (letter === 'LE') return makeResult('1970 to 1975', `Serial ${shown} has the LE prefix. Gibson stamped it into the back of the headstock, with “Made in USA” underneath, on reissue models from 1970 to 1975. ${confirm}`, '#letter-prefix', 'Date range');
+    if (letter === 'A') {
+      const earlier = 'Joe has seen a few factory Gibson acoustics from the late 1960s and early 1970s with an impressed A-prefix number, and those have no known dating system.';
+      if (location === 'wood-no-usa') return makeResult('No Known Dating System', `Serial ${shown} is pressed into the headstock without “Made in USA” under it. ${earlier} Date this guitar by its original parts.`, '#a-prefix', 'Check details');
+      if (location === 'unknown') return makeResult('1973 to 1975 or Earlier', `With “Made in USA” under it, an A followed by six digits points to 1973 to 1975. Without it, the number has no known dating system. ${earlier} Look again for the stamp, then date the guitar by its original parts.`, '#letter-prefix', 'Made in USA needed');
+      return makeResult('1973 to 1975', `Serial ${shown} has a letter A in front of six digits, pressed into the back of the headstock with “Made in USA” under it. Gibson used this on some guitars from 1973 to 1975. Joe has also seen impressed A-prefix numbers on a few late-1960s and early-1970s acoustics, so an A stamp is not always 1973 or later. ${confirm}`, '#letter-prefix', 'Date range');
+    }
+    return makeResult('1974 to 1975', `Serial ${shown} has a letter ${letter} in front of six digits, pressed into the back of the headstock with “Made in USA” under it. Gibson used the letters B through F on some guitars in 1974 and 1975.${letter === 'B' ? '' : ` Some published charts list ${letter} as 1975 only.`} ${confirm}`, '#letter-prefix', 'Date range');
+  };
+
   const decodeStandard = (raw, location) => {
+    if (/^(LE|[B-F])\d{6}$/.test(raw) || (/^A\d{6}$/.test(raw) && ['wood-usa', 'wood-no-usa', 'unknown'].includes(location))) return decodeLetterStamp(raw, location);
     if (/^A\d+$/.test(raw)) return decodeA(raw);
     if (!/^\d+$/.test(raw)) return makeResult('Unrecognized standard format', 'Standard serials are numeric, except for the documented A-prefix series. Choose a special model format if applicable.', '#special', 'Check number');
     if (location === 'decal') {
@@ -207,139 +207,5 @@
     'unknown-special': 'Keep the complete number. A similar-looking pattern may belong to a different model.',
   };
 
-  const clearContext = () => {
-    answers = {};
-    followupPanel.hidden = true;
-    followupFields.replaceChildren();
-    resultPanel.hidden = true;
-    error.textContent = '';
-  };
-  const renderQuestions = (questions = []) => {
-    followupFields.replaceChildren();
-    followupPanel.hidden = !questions.length;
-    for (const item of questions) {
-      const wrapper = document.createElement('div');
-      const fieldLabel = document.createElement('label');
-      fieldLabel.htmlFor = `followup-${item.key}`;
-      fieldLabel.textContent = item.label;
-      const field = document.createElement(item.type === 'year' ? 'input' : 'select');
-      field.id = fieldLabel.htmlFor;
-      field.name = item.key;
-      field.dataset.answer = item.key;
-      if (item.type === 'year') {
-        field.type = 'text';
-        field.inputMode = 'numeric';
-        field.maxLength = 4;
-        field.placeholder = 'e.g. 2015';
-        field.autocomplete = 'off';
-      } else {
-        for (const [value, text] of item.options) {
-          const option = document.createElement('option');
-          option.value = value;
-          option.textContent = text;
-          field.append(option);
-        }
-      }
-      field.value = answers[item.key] || (item.type === 'year' ? '' : 'unknown');
-      wrapper.append(fieldLabel, field);
-      if (item.help) {
-        const help = document.createElement('p');
-        help.id = `${field.id}-help`;
-        help.textContent = item.help;
-        field.setAttribute('aria-describedby', help.id);
-        wrapper.append(help);
-      }
-      followupFields.append(wrapper);
-    }
-  };
-
-  const setMode = (nextMode) => {
-    clearContext();
-    mode = nextMode;
-    modeButtons.forEach((item) => item.setAttribute('aria-checked', String(item.dataset.mode === mode)));
-    label.textContent = mode === 'fon' ? 'Enter your Factory Order Number' : 'Enter your serial number';
-    input.placeholder = mode === 'fon' ? 'e.g. T1234' : 'e.g. 70108276';
-    specialToggle.hidden = mode === 'fon';
-    specialPanel.hidden = mode === 'fon' || specialToggle.getAttribute('aria-expanded') !== 'true';
-    locationWrap.hidden = mode === 'fon' || Boolean(modelSelect.value);
-    resultPanel.hidden = true;
-    error.textContent = '';
-  };
-
-  modeButtons.forEach((button) => button.addEventListener('click', () => setMode(button.dataset.mode)));
-  specialToggle.addEventListener('click', () => {
-    const expanded = specialToggle.getAttribute('aria-expanded') === 'true';
-    specialToggle.setAttribute('aria-expanded', String(!expanded));
-    specialToggle.querySelector('[aria-hidden="true"]').textContent = expanded ? '+' : '×';
-    specialPanel.hidden = expanded;
-  });
-  modelSelect.addEventListener('change', () => {
-    clearContext();
-    modelHint.textContent = hints[modelSelect.value] || '';
-    locationWrap.hidden = Boolean(modelSelect.value);
-    resultPanel.hidden = true;
-  });
-  input.addEventListener('input', clearContext);
-  locationSelect.addEventListener('change', clearContext);
-  const runLookup = (focusResult = true) => {
-    const raw = mode === 'fon' ? clean(input.value) : input.value.trim().replace(/[\s-]+/g, '').toUpperCase();
-    if (!raw) {
-      error.textContent = mode === 'fon' ? 'Enter the complete Factory Order Number.' : 'Enter the complete serial or edition number.';
-      resultPanel.hidden = true;
-      return;
-    }
-    if (mode === 'serial' && (!/^[A-Z0-9#]+$/.test(raw) || raw.length > 40)) {
-      error.textContent = 'Use the letters and numbers on the stamp. Spaces, hyphens and a # mark are accepted. For other markings, use the model-not-listed guidance.';
-      resultPanel.hidden = true;
-      return;
-    }
-    if (mode === 'serial' && !globalThis.GibsonSpecialFormats) {
-      error.textContent = 'The model-format guide could not load. Reload the page or use the charts below; no year has been assigned.';
-      resultPanel.hidden = true;
-      return;
-    }
-    const decoded = mode === 'fon' ? decodeFon(raw) : globalThis.GibsonSpecialFormats.resolve({ raw, model: modelSelect.value, location: locationSelect.value, answers, standard: decodeStandard, carved: decodeCarved });
-    error.textContent = '';
-    renderQuestions(decoded.questions);
-    resultTitle.textContent = decoded.title;
-    resultCopy.innerHTML = decoded.copy;
-    resultLink.href = decoded.href;
-    confidence.textContent = decoded.certainty;
-    resultPanel.hidden = false;
-    if (focusResult) {
-      const firstMissing = (decoded.questions || []).find(item => !answers[item.key] || answers[item.key] === 'unknown');
-      const target = !decoded.preliminary && firstMissing && followupFields.querySelector(`#followup-${firstMissing.key}`);
-      (target || resultPanel).focus();
-    }
-  };
-  form.addEventListener('submit', (event) => {
-    event.preventDefault();
-    // Read year fields on submit too, including keyboard submission before blur.
-    for (const field of followupFields.querySelectorAll('[data-answer]')) answers[field.dataset.answer] = field.value;
-    runLookup();
-  });
-  followupFields.addEventListener('change', (event) => {
-    const key = event.target.dataset.answer;
-    if (!key) return;
-    if (['family', 'artist', 'earlyModel', 'numberKind', 'heritageKind', 'artistStandard', 'slashRun', 'signedPage', 'impressedModel'].includes(key)) answers = key === 'family' ? {} : { family: answers.family, artist: answers.artist, earlyModel: answers.earlyModel };
-    if (key === 'evidence') {
-      delete answers.documentYear;
-      delete answers.documentDecade;
-    }
-    answers[key] = event.target.value;
-    runLookup(false);
-    followupFields.querySelector(`#followup-${key}`)?.focus();
-  });
-  document.querySelector('#reset-button').addEventListener('click', () => {
-    clearContext();
-    input.value = '';
-    modelSelect.value = '';
-    modelHint.textContent = '';
-    locationSelect.value = 'unknown';
-    specialToggle.setAttribute('aria-expanded', 'false');
-    specialToggle.querySelector('[aria-hidden="true"]').textContent = '+';
-    specialPanel.hidden = true;
-    locationWrap.hidden = mode === 'fon';
-    input.focus();
-  });
+  globalThis.GibsonDecoder = { clean, dateFromDay, ordinal, decodeA, decodeWhiteLabel, decodeReused, decodeNorlin, decodeModern, decodeCarved, decodeFon, decodeLetterStamp, decodeStandard, hints };
 })();

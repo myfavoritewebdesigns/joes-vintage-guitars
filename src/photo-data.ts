@@ -12,6 +12,8 @@ import classic from './assets/serial-photos/les-paul-classic-ink-serial-number.j
 import cs from './assets/serial-photos/les-paul-custom-cs-prefix-ink-stamp-serial.jpg';
 import historic from './assets/serial-photos/gibson-r-9-historic-ink-stamp-serial.jpg';
 import sg from './assets/serial-photos/gibson-sg-reissue-impressed-custom-shop-serial-number.jpg';
+import lePrefix from './assets/serial-photos/gibson-les-paul-le-prefix-serial-le890141.jpg';
+import aPrefixImpressed from './assets/serial-photos/gibson-impressed-a-prefix-serial-a006875-made-in-usa.jpg';
 
 export interface SerialPhoto {
   image: ImageMetadata;
@@ -76,6 +78,14 @@ export const chartPhotos: Record<string, SerialPhoto[]> = {
     { image: decal, title: 'Gold Decal or Silkscreen',
       alt: 'Gold Les Paul Custom marking and 00-prefix serial 00115029 on a red Gibson headstock',
       caption: '00115029 appears in gold with the model name. In this decal system, the 00 prefix points to 1976. Do not apply the later impressed-serial formula.' },
+  ],
+  'letter-prefix': [
+    { image: lePrefix, title: 'LE Prefix With USA Stamp',
+      alt: 'Gibson serial LE890141 with Made in U.S.A. pressed into the back of a black Les Paul headstock',
+      caption: 'LE890141 is pressed into the wood with “Made in U.S.A.” below it. Gibson used the LE prefix on its 1970 to 1975 reissue models.' },
+    { image: aPrefixImpressed, title: 'Impressed A Prefix With USA Stamp',
+      alt: 'Impressed Gibson serial A006875 with Made in U.S.A. pressed in below it on the back of a headstock',
+      caption: 'A006875 has the letter A right in front of six digits, with “Made in U.S.A.” pressed in underneath. Check for that stamp before using the chart.' },
   ],
   modern: [{ image: modern, title: 'Eight-Digit Date Code',
     alt: 'Gibson J-200 headstock with eight-digit serial 81006505 and Made in USA',
