@@ -411,7 +411,7 @@
     const key = m[1] === 'LE' ? 'lePrefix' : 'aPrefix';
     if (!PH[key][0]) return '';
     const cap = m[1] === 'LE' ? 'LE890141 on a Les Paul: the letters sit right in front of the digits, with “Made in U.S.A.” pressed in below.'
-      : m[1] === 'A' ? 'An impressed A-prefix stamp: the letter sits right in front of the digits, with “Made in U.S.A.” pressed in below.'
+      : m[1] === 'A' ? 'A006875: the letter sits right in front of the digits, with “Made in U.S.A.” pressed in below.'
         : `This stamp starts with an A. Yours should look the same, with a ${m[1]} in that spot.`;
     return `<figure class="res__photo"><span class="eyebrow">What it should look like</span>${img(key)}<figcaption>${esc(cap)}</figcaption></figure>`;
   };

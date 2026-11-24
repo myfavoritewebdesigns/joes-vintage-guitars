@@ -26,7 +26,7 @@ import historicCloseUp from '../assets/serial-lookup/gibson-historic-reissue-ser
 import usaCloseUp from '../assets/serial-lookup/gibson-serial-745104-made-in-usa-close-up.jpg';
 import madeInUsaCloseUp from '../assets/serial-lookup/gibson-les-paul-custom-serial-80483613-made-in-usa.jpg';
 import leCloseUp from '../assets/serial-lookup/gibson-les-paul-le890141-serial-made-in-usa-close-up.jpg';
-import aPrefixCloseUp from '../assets/serial-lookup/gibson-impressed-a-prefix-serial-made-in-usa-close-up.jpg';
+import aPrefixCloseUp from '../assets/serial-lookup/gibson-impressed-a-prefix-serial-a006875-made-in-usa-close-up.jpg';
 import impressedPhoto from '../assets/serial-photos/1966-gibson-es-335-serial-number-close-up-scaled.jpg';
 import orangeLabelPhoto from '../assets/serial-photos/gibson-a-prefix-serial-number-orange-label-1-scaled.jpg';
 import whiteLabelPhoto from '../assets/serial-photos/gibson-white-label-serial-number-scaled.jpg';
@@ -103,7 +103,7 @@ const lookupPhotoSources: Record<string, [ImageMetadata, string]> = {
   cs: [csCloseUp, 'CS62763 serial on a Les Paul Custom headstock'],
   historic: [historicCloseUp, 'Historic Les Paul reissue ink serial 9 3681'],
   lePrefix: [leCloseUp, 'Serial LE890141 with Made in U.S.A. pressed into a black Les Paul headstock'],
-  aPrefix: [aPrefixCloseUp, 'Impressed A-prefix serial with Made in U.S.A. pressed in below it'],
+  aPrefix: [aPrefixCloseUp, 'Impressed serial A006875 with Made in U.S.A. pressed in below it'],
 };
 const crossCheckSources: Record<string, ImageMetadata> = {
   pots: potsPhoto, knobs: knobsPhoto, tuners: tunersPhoto, logo: logoPhoto, pickups: pickupsPhoto,
@@ -130,9 +130,7 @@ const formatExamples = [
   { n: 'A 34043', name: 'A-prefix on an interior label', era: '1947 to 1961', image: orangeLabelPhoto, alt: 'Orange label with serial A 34043', ownSchema: false, preset: { where: 'label', family: 'vintage' } },
   { n: 'Z 1603 6', name: 'Factory Order Number on bare wood', era: '1902 to 1961', image: fonPhoto, alt: 'FON Z 1603 6 stamped on bare wood', ownSchema: false, preset: {} },
   { n: '745104', name: 'Pressed in, with Made in USA', era: '1970 to 1977', image: usaCloseUp, alt: 'Serial 745104 with Made in USA pressed in below it', ownSchema: true, preset: { where: 'headstock', how: 'pressed', usa: 'yes', family: 'vintage' } },
-  // Letter-prefix card: Joe's clearer A-prefix photo, whose full number is not readable, so it
-  // opens the letter chart (LE, A to F) instead of running one number.
-  { n: 'Letter + six digits', name: 'Impressed with a letter prefix', era: '1970 to 1975', image: aPrefixCloseUp, alt: 'Impressed A-prefix Gibson serial with Made in U.S.A. pressed in below it', ownSchema: true, preset: {}, href: '#letter-prefix', cta: 'See the letter chart' },
+  { n: 'A 006875', name: 'Impressed with a letter prefix', era: '1970 to 1975', image: aPrefixCloseUp, alt: 'Impressed serial A006875 with Made in U.S.A. pressed in below it', ownSchema: true, preset: { where: 'headstock', how: 'pressed', usa: 'yes', family: 'vintage' } },
   { n: '00115029', name: 'Gold decal serial', era: '1975 to 1977', image: decalCloseUp, alt: 'Gold decal serial 00115029 on a Les Paul Custom headstock', ownSchema: true, preset: { how: 'decal' } },
   { n: '81006505', name: 'Eight-digit date code', era: '1977 to today', image: modernCloseUp, alt: 'Eight-digit serial 81006505 on a J-200 headstock', ownSchema: true, preset: {} },
   { n: 'CS62763', name: 'Custom Shop CS prefix', era: 'Custom Shop', image: csCloseUp, alt: 'CS62763 Custom Shop serial on a Les Paul Custom headstock', ownSchema: true, preset: {} },
@@ -302,12 +300,7 @@ const schema = {
           <h2 id="serial-formats-heading" class="section-title">Every Gibson Serial Format, With A Real Example</h2>
           <p class="mt-4 max-w-3xl text-lg text-ink/70">Find the photo that looks like yours and tap it to run that example through the lookup.</p>
           <div class="ex-grid mt-8">
-            {formatExamples.map((example) => example.href ? (
-              <a class="ex" href={example.href}>
-                <LicensedImage src={example.image} alt={example.alt} emitSchema={example.ownSchema} widths={[360, 720]} sizes="(max-width: 639px) calc(100vw - 40px), 320px" />
-                <span class="ex__body"><span class="ex__num">{example.n}</span><span class="ex__name">{example.name}</span><span class="ex__era">{example.era}</span><span class="ex__cta">{example.cta} →</span></span>
-              </a>
-            ) : (
+            {formatExamples.map((example) => (
               <button type="button" class="ex" data-try={example.n} data-preset={JSON.stringify(example.preset)}>
                 <LicensedImage src={example.image} alt={example.alt} emitSchema={example.ownSchema} widths={[360, 720]} sizes="(max-width: 639px) calc(100vw - 40px), 320px" />
                 <span class="ex__body"><span class="ex__num">{example.n}</span><span class="ex__name">{example.name}</span><span class="ex__era">{example.era}</span><span class="ex__cta">Try this example →</span></span>

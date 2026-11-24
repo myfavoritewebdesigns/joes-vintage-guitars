@@ -181,7 +181,6 @@
 .gsl .xc__help { margin: .8rem 0 0; font-size: .92rem; color: #4a3828; }
 .gsl .ex-grid { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fill, minmax(14.5rem, 1fr)); }
 .gsl .ex { text-align: left; background: #fff; border: 1px solid var(--rule); border-radius: 1rem; overflow: hidden; padding: 0; display: flex; flex-direction: column; transition: transform .15s, box-shadow .15s; }
-.gsl a.ex { color: inherit; text-decoration: none; }
 .gsl .ex:hover, .gsl .ex:focus-visible { transform: translateY(-3px); box-shadow: 0 14px 28px rgba(62,42,20,.16); outline: none; }
 .gsl .ex img { width: 100%; aspect-ratio: 3 / 2; object-fit: cover; }
 .gsl .ex__body { padding: .8rem .95rem 1rem; display: grid; gap: .2rem; }
