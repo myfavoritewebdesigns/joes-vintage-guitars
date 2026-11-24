@@ -63,12 +63,9 @@
   let explore = false;
 
   const normSerial = (v) => v.trim().replace(/[\s-]+/g, '').toUpperCase();
-  // Six digits plus a trailing A is a possible 1970 headstock stamp, so it is asked about rather than
-  // auto-read as a 1935 FON; "Bare wood inside" still reads it as a FON.
-  const isSuffixA = (c) => /^\d{6}A$/.test(c);
-  const isFonShape = (c) => /^[Q-Z]\d+$/.test(c) || (/^\d+[A-H][A-Z]*\d{0,3}$/.test(c) && !isSuffixA(c));
+  const isFonShape = (c) => /^[Q-Z]\d+$/.test(c) || /^\d+[A-H][A-Z]*\d{0,3}$/.test(c);
   const isFon = () => (state.fonShape && !state.asSerial) || state.where === 'fon';
-  const needsWhere = (r) => /^\d{1,6}$/.test(r) || /^A\d+$/.test(r) || isSuffixA(r);
+  const needsWhere = (r) => /^\d{1,6}$/.test(r) || /^A\d+$/.test(r);
   const needsHow8 = (r) => /^(99|00|06)\d{6}$/.test(r);
   // Same condition special-formats.js uses before it asks its own family question.
   const needsFamily = (r) => /^#?\d{1,6}$/.test(r) || /^A\d+$/.test(r) || /^[B-K]\d{3}$/.test(r);
@@ -81,7 +78,7 @@
     if (needsWhere(r)) {
       steps.push('where');
       if (state.where === 'fon') return steps;
-      if (state.where === 'headstock' && !state.model && !isSuffixA(r)) { steps.push('how'); if (state.how === 'pressed') steps.push('usa'); }
+      if (state.where === 'headstock' && !state.model) { steps.push('how'); if (state.how === 'pressed') steps.push('usa'); }
     } else if (needsHow8(r)) steps.push('how');
     if (needsFamily(r)) {
       steps.push('family');
@@ -140,7 +137,6 @@
     if (/^LE\d{6}$/.test(raw)) return ['letter', 'LE and six digits: a 1970s reissue model stamp'];
     if (/^[B-F]\d{6}$/.test(raw)) return ['letter', 'Letter and six digits: a mid-1970s headstock stamp'];
     if (/^A\d{6}$/.test(raw)) return ['letter', 'A and six digits: a 1970s stamp or an ES reissue. We’ll ask where it is.'];
-    if (isSuffixA(raw)) return ['letter', 'Six digits and an A: possibly a 1970 stamp, or a FON. We’ll ask where it is.'];
     if (/^A\d+$/.test(raw)) return ['letter', 'A-prefix number. We’ll ask where it is.'];
     if (/^\d{9}$/.test(raw)) return ['modern', '9 digits: modern batch code or 2014 to mid-2019 model-year format'];
     if (/^\d{8}$/.test(raw)) return ['modern', '8 digits: 1970s decal or modern date code'];
@@ -402,7 +398,6 @@
     if (d.href === '#letter-prefix') {
       const lp = /^(LE|[A-F])(\d{6})$/.exec(r);
       if (lp && /^\d{4} to \d{4}$/.test(d.title)) return seg(lp[1], 'y', `Letter prefix<br><b>${d.title}</b>`) + seg(lp[2], 'r', 'Six-digit number');
-      if (isSuffixA(r)) return seg(r.slice(0, 6), 'r', 'Six-digit number') + seg('A', 'y', 'Letter after<br><b>Possibly 1970</b>');
     }
     const cs = /^CS(\d)(\d{3,5})$/.exec(r);
     if (cs && state.model !== 'carved-top') return seg('CS', 'b', 'Custom Shop') + seg(cs[1], 'y', 'Last digit of<br>the year') + seg(cs[2], 'r', 'Sequence');

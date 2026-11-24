@@ -138,11 +138,9 @@
   };
 
   // 1970s letter stamps, pressed into the back of the headstock with "Made in USA" under them:
-  // LE, A to F before six digits, and the rarer six digits followed by A. An A with six digits
-  // and no "Made in USA" keeps the page's own A-prefix wording (no known dating system).
+  // LE or A to F before six digits. An A with six digits and no "Made in USA" keeps the page's
+  // own A-prefix wording (no known dating system).
   const decodeLetterStamp = (raw, location) => {
-    const suffix = /^(\d{6})A$/.exec(raw);
-    if (suffix) return makeResult('Possibly 1970', `Serial <strong>${suffix[1]} A</strong> is six digits followed by a letter A. Some published charts list this as a 1970 format, but it is not as well documented as the letter prefixes. Check for “Made in USA” under the number, then confirm the year with the pot codes and original parts.`, '#letter-prefix', 'Low confidence');
     const [, letter, digits] = /^(LE|[A-F])(\d{6})$/.exec(raw);
     const shown = `<strong>${letter} ${digits}</strong>`;
     const confirm = 'The letter narrows the years but does not give an exact one, so date the original pots and parts to pin it down.';
@@ -157,7 +155,7 @@
   };
 
   const decodeStandard = (raw, location) => {
-    if (/^(LE|[B-F])\d{6}$/.test(raw) || /^\d{6}A$/.test(raw) || (/^A\d{6}$/.test(raw) && ['wood-usa', 'wood-no-usa', 'unknown'].includes(location))) return decodeLetterStamp(raw, location);
+    if (/^(LE|[B-F])\d{6}$/.test(raw) || (/^A\d{6}$/.test(raw) && ['wood-usa', 'wood-no-usa', 'unknown'].includes(location))) return decodeLetterStamp(raw, location);
     if (/^A\d+$/.test(raw)) return decodeA(raw);
     if (!/^\d+$/.test(raw)) return makeResult('Unrecognized standard format', 'Standard serials are numeric, except for the documented A-prefix series. Choose a special model format if applicable.', '#special', 'Check number');
     if (location === 'decal') {
