@@ -1,6 +1,8 @@
 // Gibson serial decoding engine (no DOM except the #reused-range-data chart block it reads).
-// The decode functions below are unchanged from the earlier decoder; the old form UI was
-// replaced by public/scripts/gibson-lookup.js, which calls these through globalThis.GibsonDecoder.
+// The decode functions below are unchanged from the earlier decoder, except decodeLetterStamp
+// (1970s letter stamps, added 2026-11-24) and the one line in decodeStandard that routes to it.
+// The old form UI was replaced by public/scripts/gibson-lookup.js, which calls these through
+// globalThis.GibsonDecoder.
 (() => {
   const clean = (value) => value.replace(/[^a-zA-Z0-9]/g, '').toUpperCase();
   const makeResult = (title, copy, href, certainty = 'Estimated') => ({ title, copy, href, certainty });
@@ -135,7 +137,27 @@
     return years.length ? makeResult(years.join('; or '), `Numeric FON <strong>${raw}</strong> occurs in these approximate chart periods. Gibson restarted and reused batch numbers. The model, logo and construction must narrow the date; wartime and immediate postwar ranges are particularly uncertain.`, '#fon', years.length > 1 ? 'Multiple periods' : 'Estimated') : makeResult('Compare the FON Charts', `Number-only FON <strong>${raw}</strong> cannot be dated uniquely without its model and construction details.`, '#fon', 'Needs context');
   };
 
+  // 1970s letter stamps, pressed into the back of the headstock with "Made in USA" under them:
+  // LE, A to F before six digits, and the rarer six digits followed by A. An A with six digits
+  // and no "Made in USA" keeps the page's own A-prefix wording (no known dating system).
+  const decodeLetterStamp = (raw, location) => {
+    const suffix = /^(\d{6})A$/.exec(raw);
+    if (suffix) return makeResult('Possibly 1970', `Serial <strong>${suffix[1]} A</strong> is six digits followed by a letter A. Some published charts list this as a 1970 format, but it is not as well documented as the letter prefixes. Check for “Made in USA” under the number, then confirm the year with the pot codes and original parts.`, '#letter-prefix', 'Low confidence');
+    const [, letter, digits] = /^(LE|[A-F])(\d{6})$/.exec(raw);
+    const shown = `<strong>${letter} ${digits}</strong>`;
+    const confirm = 'The letter narrows the years but does not give an exact one, so date the original pots and parts to pin it down.';
+    if (letter === 'LE') return makeResult('1970 to 1975', `Serial ${shown} has the LE prefix. Gibson stamped it into the back of the headstock, with “Made in USA” underneath, on reissue models from 1970 to 1975. ${confirm}`, '#letter-prefix', 'Date range');
+    if (letter === 'A') {
+      const earlier = 'Joe has seen a few factory Gibson acoustics from the late 1960s and early 1970s with an impressed A-prefix number, and those have no known dating system.';
+      if (location === 'wood-no-usa') return makeResult('No Known Dating System', `Serial ${shown} is pressed into the headstock without “Made in USA” under it. ${earlier} Date this guitar by its original parts.`, '#a-prefix', 'Check details');
+      if (location === 'unknown') return makeResult('1973 to 1975 or Earlier', `With “Made in USA” under it, an A followed by six digits points to 1973 to 1975. Without it, the number has no known dating system. ${earlier} Look again for the stamp, then date the guitar by its original parts.`, '#letter-prefix', 'Made in USA needed');
+      return makeResult('1973 to 1975', `Serial ${shown} has a letter A in front of six digits, pressed into the back of the headstock with “Made in USA” under it. Gibson used this on some guitars from 1973 to 1975. Joe has also seen impressed A-prefix numbers on a few late-1960s and early-1970s acoustics, so an A stamp is not always 1973 or later. ${confirm}`, '#letter-prefix', 'Date range');
+    }
+    return makeResult('1974 to 1975', `Serial ${shown} has a letter ${letter} in front of six digits, pressed into the back of the headstock with “Made in USA” under it. Gibson used the letters B through F on some guitars in 1974 and 1975.${letter === 'B' ? '' : ` Some published charts list ${letter} as 1975 only.`} ${confirm}`, '#letter-prefix', 'Date range');
+  };
+
   const decodeStandard = (raw, location) => {
+    if (/^(LE|[B-F])\d{6}$/.test(raw) || /^\d{6}A$/.test(raw) || (/^A\d{6}$/.test(raw) && ['wood-usa', 'wood-no-usa', 'unknown'].includes(location))) return decodeLetterStamp(raw, location);
     if (/^A\d+$/.test(raw)) return decodeA(raw);
     if (!/^\d+$/.test(raw)) return makeResult('Unrecognized standard format', 'Standard serials are numeric, except for the documented A-prefix series. Choose a special model format if applicable.', '#special', 'Check number');
     if (location === 'decal') {
@@ -187,5 +209,5 @@
     'unknown-special': 'Keep the complete number. A similar-looking pattern may belong to a different model.',
   };
 
-  globalThis.GibsonDecoder = { clean, dateFromDay, ordinal, decodeA, decodeWhiteLabel, decodeReused, decodeNorlin, decodeModern, decodeCarved, decodeFon, decodeStandard, hints };
+  globalThis.GibsonDecoder = { clean, dateFromDay, ordinal, decodeA, decodeWhiteLabel, decodeReused, decodeNorlin, decodeModern, decodeCarved, decodeFon, decodeLetterStamp, decodeStandard, hints };
 })();
