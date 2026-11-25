@@ -1,156 +1,95 @@
 ---
+import { getCollection } from "astro:content";
 import Layout from "../layouts/Layout.astro";
-import { guitarGuides } from "../config/site";
-import { appraisalPages } from "../data/appraisal-pages";
-import { phoenixMetroPages } from "../data/phoenix-metro-pages";
-import { stratocasterYearGuides } from "../data/stratocasterValueYears";
-import { telecasterValueGuides } from "../data/telecasterValueGuides";
+import { SITE_URL } from "../config/site";
+import { getCategories } from "../lib/blog";
+import {
+  siteMapPages, siteMapGroupTitles, dynamicSiteMapRoutes, excludedSiteMapRoutes,
+  fallbackSiteMapLabel, siteMapLabel, type SiteMapRoute,
+} from "../lib/site-map-pages";
 
-const groups = [
-  {
-    title: "Main Pages",
-    links: [
-      { label: "Home", href: "/" },
-      { label: "About Joe", href: "/about-me/" },
-      { label: "Free Vintage Guitar Appraisal", href: "/free-appraisal/" },
-      { label: "Contact", href: "/contact-me/" },
-      { label: "Blog", href: "/blog/" },
-      { label: "Reverb Reviews", href: "/reverb-reviews/" },
-    ],
-  },
-  {
-    title: "Guitar Identification And Value",
-    links: guitarGuides,
-  },
-  {
-    title: "Guitar Appraisal Guides",
-    links: appraisalPages.map((page) => ({
-      label: `${page.brand} Guitar Appraisal`,
-      href: `/free-appraisal/${page.slug}/`,
-    })),
-  },
-  {
-    title: "Sell Your Guitar",
-    links: [
-      { label: "Sell My Fender Guitar", href: "/sell-my-fender-guitar/" },
-      { label: "Sell My Gibson Guitar", href: "/sell-my-gibson-guitar/" },
-      { label: "Sell My Martin Guitar", href: "/sell-my-martin-guitar/" },
-      { label: "Sell My Gretsch Guitar", href: "/sell-my-gretsch-guitar/" },
-      { label: "Sell My Guild Guitar", href: "/sell-my-guild-guitar/" },
-      { label: "Sell Your Levin or Goya Guitar", href: "/sell-your-levin-or-goya-guitar/" },
-      { label: "Sell My Epiphone Guitar", href: "/sell-my-epiphone-guitar/" },
-      { label: "Sell My Rickenbacker Guitar", href: "/sell-my-rickenbacker-guitar/" },
-      { label: "Sell My National Guitar", href: "/sell-my-national-guitar/" },
-      { label: "Sell a Vintage D’Angelico Guitar", href: "/sell-your-vintage-dangelico-guitar-in-the-us/" },
-      { label: "Sell an Amplifier or Effect", href: "/sell-an-amplifier-or-effect/" },
-      { label: "Sell a Guitar Collection", href: "/sell-a-guitar-collection/" },
-    ],
-  },
-  {
-    title: "Phoenix Area Guitar Selling",
-    links: phoenixMetroPages.map((page) => ({
-      label: page.navLabel,
-      href: `/${page.slug}/`,
-    })),
-  },
-  {
-    title: "Serial Number Guides",
-    links: [
-      { label: "Fender Serial Number Guide", href: "/fender-guitars-serial-number-guide/" },
-      { label: "How to Read Gibson Serial Numbers", href: "/how-to-read-gibson-serial-numbers/" },
-      { label: "Martin Serial & Model Numbers", href: "/martin-serial-and-model-numbers/" },
-      { label: "Rickenbacker Serial Numbers", href: "/rickenbacker-serial-numbers/" },
-      { label: "Guild Serial Number Lookup", href: "/guild-serial-number-lookup/" },
-      { label: "Gretsch Serial Number Lookup", href: "/gretsch-serial-number-lookup/" },
-      { label: "Vintage Fender Amplifier Serial Numbers", href: "/vintage-fender-amplifier-serial-numbers-how-to-find-the-year/" },
-    ],
-  },
-  {
-    title: "Authentication Guides",
-    links: [
-      { label: "How to Spot a Fake Gibson", href: "/how-to-spot-a-fake-gibson/" },
-      { label: "How to Spot a Fake Martin", href: "/how-to-spot-a-fake-martin/" },
-      { label: "How to Spot a Fake Fender", href: "/how-to-spot-a-fake-fender/" },
-    ],
-  },
-  {
-    title: "Martin Dating Guides",
-    links: [
-      { label: "Martin Headstock Logo Dating Guide", href: "/martin-headstock-logo-dating-guide/" },
-      { label: "Martin Tuner Dating Guide", href: "/martin-tuner-dating-guide/" },
-      { label: "Martin Neck-Block Stamps", href: "/martin-neck-block-stamps/" },
-      { label: "Martin Guitar Construction Features", href: "/martin-guitar-dating-guide/" },
-      { label: "Prewar Martin Guitar Guide", href: "/prewar-martin-guitar-guide/" },
-      { label: "Martin Guitar Model Numbers", href: "/martin-guitar-model-numbers/" },
-    ],
-  },
-  {
-    title: "Fender Dating Guides",
-    links: [
-      { label: "Fender Pot Codes", href: "/fender-pot-codes/" },
-      { label: "Fender Neck Dates", href: "/fender-neck-dates/" },
-      { label: "Fender Body Dates", href: "/fender-body-dates/" },
-      { label: "Fender Pickup Dates", href: "/fender-pickup-dates/" },
-      { label: "Fender Physical Features", href: "/fender-physical-features/" },
-      { label: "How To Date A Fender Stratocaster", href: "/fender-stratocaster-dating-guide/" },
-      { label: "How To Date A Fender Telecaster", href: "/fender-telecaster-dating-guide/" },
-      { label: "How To Date A Fender Jazzmaster", href: "/fender-jazzmaster-dating-guide/" },
-      { label: "How To Date A Fender Jaguar", href: "/fender-jaguar-dating-guide/" },
-      { label: "How To Date A Fender Jazz Bass", href: "/fender-jazz-bass-dating-guide/" },
-      { label: "How To Date A Fender Precision Bass", href: "/fender-precision-bass-dating-guide/" },
-      { label: "How To Date A Fender Mustang", href: "/fender-mustang-dating-guide/" },
-    ],
-  },
-  {
-    title: "Gibson Dating Guides",
-    links: [
-      { label: "Gibson Pot Codes", href: "/gibson-pot-codes/" },
-      { label: "Gibson Logo History", href: "/gibson-headstock-logo-chronology/" },
-      { label: "Gibson Knob Dating Guide", href: "/gibson-knob-dating-guide/" },
-      { label: "Gibson Tuner Dating Guide", href: "/gibson-tuner-dating-guide/" },
-      { label: "Gibson Physical Features And Hardware", href: "/gibson-physical-features-hardware-guide/" },
-      { label: "Gibson Les Paul Dating Guide", href: "/gibson-les-paul-dating-guide/" },
-      { label: "Gibson SG Dating Guide", href: "/gibson-sg-dating-guide/" },
-      { label: "Gibson ES-335, ES-345 And ES-355 Dating Guide", href: "/gibson-es-335-345-355-dating-guide/" },
-      { label: "Gibson ES-330 Dating Guide", href: "/gibson-es-330-dating-guide/" },
-    ],
-  },
-  {
-    title: "Value Guides",
-    links: [
-      { label: "Gibson ES-335, ES-345 & ES-355 Comparison Guide", href: "/post/gibson-es-335-345-355-guide/" },
-      { label: "Vintage Gibson Les Paul Family Guide", href: "/post/vintage-gibson-les-paul-family-guide/" },
-      { label: "Vintage Fender Stratocaster Value Guide", href: "/vintage-fender-stratocaster-value-guide/" },
-      ...stratocasterYearGuides.map((guide) => ({
-        label: `${guide.year} Fender Stratocaster Value Guide`,
-        href: `/vintage-fender-stratocaster-value-guide/${guide.year}/`,
-      })),
-      { label: "Vintage Fender Telecaster Value Guide", href: "/vintage-fender-telecaster-value-guide/" },
-      { label: "Vintage Fender Esquire Value Guide", href: "/vintage-fender-esquire-value-guide/" },
-      ...telecasterValueGuides.map((guide) => ({
-        label: `${guide.navLabel} Value Guide`,
-        href: `/vintage-fender-telecaster-value-guide/${guide.slug}/`,
-      })),
-      { label: "Vintage Gibson Les Paul Market Value Guide", href: "/vintage-gibson-les-paul-market-value-guide/" },
-      { label: "Martin D-28, D-18 & D-45 Dreadnought Value Guide", href: "/martin-d-28-d-18-d-45-dreadnought-value-guide/" },
-    ],
-  },
-  {
-    title: "Services",
-    links: [
-      { label: "Instrument Repair", href: "/repair/" },
-      { label: "Vintage Guitar Consignment", href: "/consignment/" },
-    ],
-  },
-  {
-    title: "Policies",
-    links: [
-      { label: "Privacy Policy", href: "/privacy-policy/" },
-      { label: "Text Message Terms", href: "/terms/" },
-      { label: "Refund & Returns Policy", href: "/refund_returns/" },
-    ],
-  },
-];
+const pageModules = import.meta.glob('/src/pages/**/*.astro');
+const pageSources = import.meta.glob<string>('/src/pages/**/*.astro', {
+  query: '?raw', import: 'default', eager: true,
+});
+// This checkout predates the expert route. If it is added, use its actual flag.
+const claimModules = import.meta.glob<{ hasPendingFenderClaims: boolean }>(
+  '/src/data/expert-pages/fender-claims.{ts,js}', { eager: true },
+);
+const hasPendingFenderClaims = Object.values(claimModules).some((m) => m.hasPendingFenderClaims);
+const posts = (await getCollection('blog', ({ data }) => !data.draft))
+  .sort((a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime() || a.id.localeCompare(b.id));
+const postRoutes = new Set(posts.map((post) => `/post/${post.id}/`));
+const routes = new Set<string>();
+const branch = import.meta.env.CF_PAGES_BRANCH;
+const isPreview = branch ? branch !== 'main' : import.meta.env.DEV;
+
+function routeFromFile(file: string): string {
+  const route = file.replace('/src/pages', '').replace(/\.astro$/, '').replace(/\/index$/, '');
+  return route === '' ? '/' : `${route}/`;
+}
+function excluded(route: string): boolean {
+  return excludedSiteMapRoutes.has(route)
+    || /^\/(?:blog|category\/[^/]+)\/page\/\d+\/$/.test(route)
+    || (route === '/fender-vintage-guitar-expert/' && hasPendingFenderClaims);
+}
+function sourceAllowsIndexing(source: string, route: string): boolean {
+  const code = source.replace(/\/\*[\s\S]*?\*\//g, '').replace(/<!--[\s\S]*?-->/g, '');
+  if (/\bnoIndex(?:=\{true\}|(?=[\s/>])(?!=))/.test(code)) return false;
+  if (/<meta\b[^>]*name=["']robots["'][^>]*content=["'][^"']*noindex/i.test(code)) return false;
+  // Match the same environment gates used by these guide templates.
+  if (/AcousticModelGuide\.astro/.test(code) && branch !== 'main') return false;
+  if (/noIndex=\{isPreview\}/.test(code) && isPreview) return false;
+  if (/Gap3Article\.astro/.test(code) && branch && branch !== 'main') return false;
+  const canonical = code.match(/\bcanonical=["']([^"']+)["']/)?.[1]
+    ?? code.match(/const canonical\s*=\s*["']([^"']+)["']/)?.[1];
+  return !canonical || new URL(canonical, SITE_URL).href === new URL(route, SITE_URL).href;
+}
+
+for (const [file, load] of Object.entries(pageModules)) {
+  const pattern = routeFromFile(file);
+  const source = pageSources[file];
+  if (!sourceAllowsIndexing(source, pattern)) continue;
+  if (!pattern.includes('[')) {
+    if (!excluded(pattern)) routes.add(pattern);
+    continue;
+  }
+  // Blog/category paths come from the same collection/archive data below.
+  if (pattern.startsWith('/post/') || pattern.startsWith('/category/') || pattern.startsWith('/blog/page/')) continue;
+  const matcher = new RegExp('^' + pattern.split(/(\[[^\]]+\])/)
+    .map((part) => part.startsWith('[') ? '[^/]+' : part.replace(/[.*+?^$\{\}()|[\]\\]/g, '\\$&')).join('') + '$');
+  const known = dynamicSiteMapRoutes.filter((route) => matcher.test(route));
+  if (known.length) {
+    for (const route of known) if (!excluded(route)) routes.add(route);
+  } else {
+    // Expand future parameter routes, including brand-specific Reverb pages,
+    // through their own getStaticPaths instead of maintaining another list.
+    const module = await load() as { getStaticPaths: () => unknown };
+    const paths = await module.getStaticPaths() as { params: Record<string, string | number | undefined> }[];
+    for (const { params } of paths) {
+      const route = pattern.replace(/\[(?:\.\.\.)?([^\]]+)\]/g, (_, key: string) => String(params[key] ?? '')).replace(/\/{2,}/g, '/');
+      if (!excluded(route) && sourceAllowsIndexing(source, route)) routes.add(route);
+    }
+  }
+}
+
+const groups = siteMapGroupTitles.map((title) => ({
+  title,
+  links: [...routes].filter((route) => !postRoutes.has(route))
+    .filter((route) => (siteMapPages[route as SiteMapRoute]?.group ?? 'Other Pages') === title)
+    .map((href) => ({ href, label: siteMapLabel(siteMapPages[href as SiteMapRoute]?.label ?? fallbackSiteMapLabel(href)) })),
+})).filter((group) => group.links.length);
+
+const categories = getCategories(posts).map((category) => {
+  const categoryPosts = posts.filter((post) => post.data.category === category.slug);
+  return {
+    href: `/category/${category.slug}/`,
+    name: siteMapLabel(categoryPosts[0]?.data.categoryName ?? category.name),
+    posts: categoryPosts,
+  };
+});
+const pageCount = groups.reduce((sum, group) => sum + group.links.length, 0);
+console.log(`[html-sitemap] ${pageCount} pages, ${posts.length} posts, ${categories.length} category hubs, ${pageCount + posts.length + categories.length} links`);
 ---
 
 <Layout
@@ -165,15 +104,29 @@ const groups = [
   <section class="sm-body">
     <nav class="sm-inner sm-grid" aria-label="All site pages">
       {groups.map((g) => (
-        <div class="sm-group">
+        <div class:list={["sm-group", { "sm-group--long": g.links.length > 24 }]}>
           <h2 class="sm-group__title">{g.title}</h2>
           <ul class="sm-list">
             {g.links.map((l) => (
-              <li><a href={l.href} set:html={l.label}></a></li>
+              <li><a href={l.href}>{l.label}</a></li>
             ))}
           </ul>
         </div>
       ))}
+      <div class="sm-group sm-blog">
+        <h2 class="sm-group__title">Blog Posts</h2>
+        {categories.map((category) => (
+          <section class="sm-blog-category">
+            <h3 class="sm-category__title">{category.name}</h3>
+            <ul class="sm-list sm-post-list">
+              <li><a href={category.href}>All {category.name} Posts</a></li>
+              {category.posts.map((post) => (
+                <li><a href={`/post/${post.id}/`}>{siteMapLabel(post.data.title)}</a></li>
+              ))}
+            </ul>
+          </section>
+        ))}
+      </div>
     </nav>
   </section>
 </Layout>
@@ -209,6 +162,17 @@ const groups = [
     padding-bottom: 8px;
     border-bottom: 2px solid var(--color-brand-rust-bright);
   }
+  .sm-blog, .sm-group--long { grid-column: 1 / -1; }
+  .sm-blog-category { margin-top: 28px; }
+  .sm-category__title {
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 18px;
+    color: var(--color-brand-rust-dark);
+    margin: 0 0 12px;
+  }
+  .sm-post-list, .sm-group--long .sm-list { columns: 260px; column-gap: 40px; }
+  .sm-post-list li, .sm-group--long .sm-list li { break-inside: avoid; }
   .sm-list { list-style: none; margin: 0; padding: 0; }
   .sm-list li { margin-bottom: 9px; }
   .sm-list a {

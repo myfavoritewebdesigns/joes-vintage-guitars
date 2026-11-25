@@ -68,6 +68,7 @@
 
 # Cutover: old WordPress sitemap URLs -> new Astro sitemap (GSC + external refs)
 /sitemap_index.xml     /sitemap-index.xml   301
+/sitemap-0.xml         /sitemap-index.xml   301
 /post-sitemap.xml      /sitemap-index.xml   301
 /page-sitemap.xml      /sitemap-index.xml   301
 /category-sitemap.xml  /sitemap-index.xml   301
