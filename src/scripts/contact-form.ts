@@ -92,18 +92,14 @@ function setState(form: HTMLFormElement, state: FormState, message?: string) {
   const submit = form.querySelector<HTMLButtonElement>('button[type="submit"]');
   if (submit) submit.disabled = state === "submitting";
 
-  let banner = form.querySelector<HTMLDivElement>(".jvg-form-banner");
-  if (!banner && state !== "idle") {
-    banner = document.createElement("div");
-    banner.className = "jvg-form-banner";
-    banner.setAttribute("role", "status");
-    banner.setAttribute("aria-live", "polite");
-    form.prepend(banner);
-  }
+  const banner = form.querySelector<HTMLDivElement>(".jvg-form-banner");
   if (banner) {
     banner.textContent = message ?? "";
     banner.dataset.state = state;
-    if (state === "error") banner.scrollIntoView({ behavior: "smooth", block: "center" });
+    if (state === "error") {
+      const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+      banner.scrollIntoView({ behavior: reducedMotion ? "auto" : "smooth", block: "center" });
+    }
   }
 }
 
@@ -215,6 +211,11 @@ function init() {
   forms.forEach((form) => {
     if (form.dataset.bound === "1") return;
     form.dataset.bound = "1";
+    const banner = document.createElement("div");
+    banner.className = "jvg-form-banner";
+    banner.setAttribute("role", "status");
+    banner.setAttribute("aria-live", "polite");
+    form.prepend(banner);
     form.addEventListener("submit", handleSubmit);
     form.addEventListener("focusin", armHcaptcha, { once: true });
     form.addEventListener("pointerdown", armHcaptcha, { once: true });

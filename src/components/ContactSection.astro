@@ -294,6 +294,7 @@ const cityStateZip = `${contact.address.city}, ${contact.address.region} ${conta
   .jvgct__form .h-captcha-mount { min-width: 0; min-height: 78px; margin: 2px 0 16px; overflow: hidden; }
   .jvgct__form :global(.jvg-form-banner) { margin: 0 0 16px; padding: 12px 14px; border: 1px solid rgba(62,42,20,.28); background: #fffdf9; color: var(--color-brand-brown) !important; font-size: 14px; font-weight: 700; line-height: 1.45; }
   .jvgct__form :global(.jvg-form-banner[data-state="error"]) { border-color: #a43826; background: #fff2ed; color: #6f1f15 !important; }
+  .jvgct__form :global(.jvg-form-banner:empty), :global(.jvg-form-banner:empty) { padding: 0; border: 0; margin: 0; background: none; }
   :global(body:has(.jvgct__form:focus-within) aside[aria-label="Quick contact"]) { display: none; }
   .jvgct__row {
     display: grid;
