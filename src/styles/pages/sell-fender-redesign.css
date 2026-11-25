@@ -881,6 +881,26 @@ textarea:focus-visible {
   color: white;
   transform: translate(-50%, -50%);
 }
+/* Meet Joe video: click-to-play YouTube player that keeps the photo poster. */
+lite-youtube.video-poster {
+  display: block;
+  max-width: none;
+  width: 100%;
+}
+lite-youtube.video-poster::before {
+  content: none;
+}
+lite-youtube.video-poster::after {
+  padding: 0;
+}
+lite-youtube.video-poster > .lty-playbtn {
+  background-image: none;
+}
+lite-youtube.video-poster.lyt-activated > img,
+lite-youtube.video-poster.lyt-activated > span,
+lite-youtube.video-poster.lyt-activated::after {
+  display: none;
+}
 .meet-grid h2,
 .provenance h2 {
   font-size: clamp(3rem, 5vw, 5rem);

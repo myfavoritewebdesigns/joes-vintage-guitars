@@ -174,7 +174,7 @@ const structuredData = [
     description:
       "Joe Dampt introduces himself and explains how selling your vintage Fender guitar to Joe's Vintage Guitars works.",
     thumbnailUrl: `${SITE_URL}/images/sell-fender-redesign/meet-joe-youtube.webp`,
-    uploadDate: "2024-06-04T20:04:06-07:00",
+    uploadDate: "2026-07-28T17:14:20-07:00",
     duration: "PT1M29S",
     embedUrl: "https://www.youtube.com/embed/U3eJgXLs4w8",
     contentUrl: "https://www.youtube.com/watch?v=U3eJgXLs4w8",
@@ -381,6 +381,8 @@ const pageCss = rawPageCss.replace(/^@import 'tailwindcss';\s*/, "") + `
     type="image/webp"
     fetchpriority="high"
   />
+  <link slot="head" rel="stylesheet" href="/styles/lite-yt-embed.css" media="print" onload="this.media='all'" />
+  <script slot="head" is:inline src="/scripts/lite-yt-embed.js" defer></script>
   <style slot="head" is:inline set:html={pageCss}></style>
   <Fragment set:html={pageMarkup} />
 <section data-fender-batch4 style="max-width:860px;margin:24px auto;padding:24px"><p>For a six-string Fender bass, compare <a href="/post/fender-bass-vi-value-guide/">Bass VI values</a> and the <a href="/post/fender-bass-vi-authentication-guide/">Bass VI identification checks</a>. For the later Telecaster designs, use the <a href="/post/fender-telecaster-thinline-custom-deluxe-value-guide/">Thinline, Custom and Deluxe price charts</a> alongside the <a href="/post/fender-telecaster-thinline-custom-deluxe-authentication-guide/">model authentication guide</a>. The <a href="/post/fender-esquire-authentication-guide/">Esquire authentication guide</a> explains factory wiring and pickup conversions before an appraisal.</p></section>
