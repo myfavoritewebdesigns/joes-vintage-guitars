@@ -5,7 +5,7 @@
  * dist/**\/*.html for the CONTENT images each page actually shows and writes
  * dist/image-sitemap.xml in Google's image-sitemap format. This is a discovery
  * aid (helps Google find/index all of Joe's photos for Google Images); it does
- * NOT carry licensing — that lives in the on-page ImageObject JSON-LD.
+ * NOT carry licensing, which lives in the on-page ImageObject JSON-LD.
  *
  * Zero dependencies on purpose: it must not break the Cloudflare Pages build if
  * devDependencies (cheerio etc.) are skipped, so it uses node:fs + regex only.
@@ -14,58 +14,72 @@
  * Excludes external hosts (YouTube thumbs), data: URIs, SVGs, UI icons,
  * favicons, and noindex pages (e.g. /thank-you/).
  */
-import { readdirSync, statSync, readFileSync, writeFileSync } from "node:fs";
-import { join, relative, sep } from "node:path";
-
-const SITE = "https://www.joesvintageguitarsaz.com";
-const DIST = "dist";
+import { readFileSync, writeFileSync } from "node:fs";
+import { join } from "node:path";
+import {
+  SITE_URL, DIST, esc, attributes, htmlTags, isIndexable, pagePath, walkIndexHtml,
+} from "./sitemap-lib.mjs";
 
 const SVG_RE = /\.svg(\?|$)/i;
 // UI / brand / icon assets that aren't content photos
 const ICON_RE = /(reverb-icon|fair-cash|favicon|apple-touch|logo-footer|[-/]icon[-.])/i;
+// The shared contact form repeats the brand logo inside main, outside the header.
+const BRAND_RE = /(?:^|\/)logo-joe-2[.-]/i;
 
-const esc = (s) =>
-  s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;").replace(/'/g, "&apos;");
-
-function walk(dir) {
-  const out = [];
-  for (const name of readdirSync(dir)) {
-    const p = join(dir, name);
-    if (statSync(p).isDirectory()) out.push(...walk(p));
-    else if (name.endsWith(".html")) out.push(p);
-  }
-  return out;
-}
-
-function pageUrl(htmlPath) {
-  const rel = relative(DIST, htmlPath).split(sep).join("/");
-  if (rel === "index.html") return `${SITE}/`;
-  if (rel.endsWith("/index.html")) return `${SITE}/${rel.slice(0, -"index.html".length)}`; // keeps trailing slash
-  return `${SITE}/${rel}`;
-}
-
-function contentImages(html) {
+function contentImages(html, filterChrome = true) {
   const urls = new Set();
-  const imgRe = /<img\b[^>]*?\ssrc=["']([^"']+)["'][^>]*>/gi;
-  let m;
-  while ((m = imgRe.exec(html))) {
-    const u = m[1].trim();
+  const chrome = [];
+  for (const { tag, name, closing } of htmlTags(html)) {
+    if (["header", "footer", "nav"].includes(name)) {
+      if (!closing) chrome.push(name);
+      else {
+        const index = chrome.lastIndexOf(name);
+        if (index !== -1) chrome.splice(index);
+      }
+    }
+    if (closing || name !== "img") continue;
+    const attrs = attributes(tag);
+    if (filterChrome && (chrome.length || attrs["aria-hidden"]?.toLowerCase() === "true" ||
+        attrs.role?.toLowerCase() === "presentation")) continue;
+    // alt="" is not used as a filter: some of Joe's licensed photos render with an empty alt
+    // (a card thumbnail of the same photo), and dropping them breaks the sitemap-to-schema match.
+    const u = (attrs.src ?? "").trim();
     if (!u || u.startsWith("data:")) continue;
     if (!(u.startsWith("/_astro/") || u.startsWith("/images/"))) continue; // local content only
-    if (SVG_RE.test(u) || ICON_RE.test(u)) continue;
-    urls.add(SITE + u);
+    if (SVG_RE.test(u) || ICON_RE.test(u) || (filterChrome && BRAND_RE.test(u))) continue;
+    urls.add(SITE_URL + u);
+  }
+  // Every photo the page licenses in ImageObject schema is listed, whatever its markup.
+  if (filterChrome) {
+    for (const m of html.matchAll(/"contentUrl"\s*:\s*"([^"]+)"/g)) {
+      const u = m[1].startsWith(SITE_URL) ? m[1].slice(SITE_URL.length) : m[1];
+      if (!(u.startsWith("/_astro/") || u.startsWith("/images/"))) continue;
+      if (SVG_RE.test(u) || ICON_RE.test(u) || BRAND_RE.test(u)) continue;
+      urls.add(SITE_URL + u);
+    }
   }
   return [...urls];
 }
 
 const entries = [];
 let totalImgs = 0;
-for (const f of walk(DIST)) {
+let before = 0;
+let beforePages = 0;
+let eligibleBefore = 0;
+for (const f of walkIndexHtml()) {
   const html = readFileSync(f, "utf8");
-  if (/<meta[^>]+name=["']robots["'][^>]*content=["'][^"']*noindex/i.test(html)) continue;
+  // Preserve the old eligibility rule for the baseline count.
+  if (!/<meta[^>]+name=["']robots["'][^>]*content=["'][^"']*noindex/i.test(html)) {
+    const old = contentImages(html, false);
+    before += old.length;
+    if (old.length) beforePages++;
+  }
+  const path = pagePath(f);
+  if (!isIndexable(html, path)) continue;
+  eligibleBefore += contentImages(html, false).length;
   const imgs = contentImages(html);
   if (imgs.length === 0) continue;
-  entries.push({ url: pageUrl(f), imgs });
+  entries.push({ url: SITE_URL + path, imgs });
   totalImgs += imgs.length;
 }
 entries.sort((a, b) => a.url.localeCompare(b.url));
@@ -84,4 +98,4 @@ const xml =
   `\n</urlset>\n`;
 
 writeFileSync(join(DIST, "image-sitemap.xml"), xml, "utf8");
-console.log(`[image-sitemap] ${entries.length} pages, ${totalImgs} image entries -> dist/image-sitemap.xml`);
+console.log(`[image-sitemap] Before: ${beforePages} pages, ${before} images; eligible before chrome filtering: ${eligibleBefore}; after: ${entries.length} pages, ${totalImgs} image entries -> dist/image-sitemap.xml`);
