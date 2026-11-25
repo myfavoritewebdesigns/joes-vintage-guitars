@@ -1,4 +1,6 @@
 ---
+import { readdirSync, readFileSync } from "node:fs";
+import { join, resolve } from "node:path";
 import { getCollection } from "astro:content";
 import Layout from "../layouts/Layout.astro";
 import { SITE_URL } from "../config/site";
@@ -8,10 +10,22 @@ import {
   fallbackSiteMapLabel, siteMapLabel, type SiteMapRoute,
 } from "../lib/site-map-pages";
 
-const pageModules = import.meta.glob('/src/pages/**/*.astro');
-const pageSources = import.meta.glob<string>('/src/pages/**/*.astro', {
-  query: '?raw', import: 'default', eager: true,
-});
+// Read paths and source without making page modules (and their CSS) dependencies.
+const pagesDirectory = resolve(process.cwd(), 'src/pages');
+const pageFiles = discoverPageFiles(pagesDirectory);
+
+function discoverPageFiles(directory: string): string[] {
+  // Traverse sorted directory entries to retain the glob's nested-page order.
+  return readdirSync(directory, { withFileTypes: true, encoding: 'utf8' })
+    .filter((entry) => !entry.name.startsWith('.') && entry.name !== 'node_modules')
+    .sort((a, b) => a.name < b.name ? -1 : a.name > b.name ? 1 : 0)
+    .flatMap((entry) => {
+      if (entry.isDirectory()) {
+        return discoverPageFiles(join(directory, entry.name)).map((file) => `${entry.name}/${file}`);
+      }
+      return entry.isFile() && entry.name.endsWith('.astro') ? [entry.name] : [];
+    });
+}
 // This checkout predates the expert route. If it is added, use its actual flag.
 const claimModules = import.meta.glob<{ hasPendingFenderClaims: boolean }>(
   '/src/data/expert-pages/fender-claims.{ts,js}', { eager: true },
@@ -46,9 +60,9 @@ function sourceAllowsIndexing(source: string, route: string): boolean {
   return !canonical || new URL(canonical, SITE_URL).href === new URL(route, SITE_URL).href;
 }
 
-for (const [file, load] of Object.entries(pageModules)) {
-  const pattern = routeFromFile(file);
-  const source = pageSources[file];
+for (const file of pageFiles) {
+  const pattern = routeFromFile(`/src/pages/${file}`);
+  const source = readFileSync(join(pagesDirectory, file), 'utf8');
   if (!sourceAllowsIndexing(source, pattern)) continue;
   if (!pattern.includes('[')) {
     if (!excluded(pattern)) routes.add(pattern);
@@ -59,18 +73,11 @@ for (const [file, load] of Object.entries(pageModules)) {
   const matcher = new RegExp('^' + pattern.split(/(\[[^\]]+\])/)
     .map((part) => part.startsWith('[') ? '[^/]+' : part.replace(/[.*+?^$\{\}()|[\]\\]/g, '\\$&')).join('') + '$');
   const known = dynamicSiteMapRoutes.filter((route) => matcher.test(route));
-  if (known.length) {
-    for (const route of known) if (!excluded(route)) routes.add(route);
-  } else {
-    // Expand future parameter routes, including brand-specific Reverb pages,
-    // through their own getStaticPaths instead of maintaining another list.
-    const module = await load() as { getStaticPaths: () => unknown };
-    const paths = await module.getStaticPaths() as { params: Record<string, string | number | undefined> }[];
-    for (const { params } of paths) {
-      const route = pattern.replace(/\[(?:\.\.\.)?([^\]]+)\]/g, (_, key: string) => String(params[key] ?? '')).replace(/\/{2,}/g, '/');
-      if (!excluded(route) && sourceAllowsIndexing(source, route)) routes.add(route);
-    }
+  if (!known.length) {
+    // New parameter routes must expose their route data without importing pages.
+    throw new Error(`Add sitemap route data for ${file} to dynamicSiteMapRoutes.`);
   }
+  for (const route of known) if (!excluded(route)) routes.add(route);
 }
 
 const groups = siteMapGroupTitles.map((title) => ({
