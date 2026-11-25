@@ -1286,6 +1286,12 @@ footer {
 .quick-contact a:hover {
   background: var(--brown);
 }
+.appraisal-form .jvg-form-banner:empty {
+  padding: 0;
+  border: 0;
+  margin: 0;
+  background: none;
+}
 
 @media (max-width: 960px) {
   .section-pad {
@@ -1549,6 +1555,47 @@ footer {
   .quick-contact a:nth-child(n + 2) {
     display: none;
   }
+}
+
+@media (max-width: 600px) {
+  body:has(nav.quick-contact) {
+    padding-bottom: calc(48px + env(safe-area-inset-bottom, 0px));
+  }
+  html:has(nav.quick-contact) {
+    scroll-padding-bottom: calc(48px + env(safe-area-inset-bottom, 0px));
+  }
+  .quick-contact {
+    inset: auto 0 0;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 0;
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+    background: var(--color-brand-rust-dark, #682412);
+  }
+  .quick-contact a,
+  .quick-contact a:first-child,
+  .quick-contact a:nth-child(n + 2) {
+    display: flex;
+    width: 100%;
+    height: 48px;
+    min-height: 48px;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 0;
+    border: 0;
+    border-radius: 0;
+    background: transparent;
+    color: #fff;
+    box-shadow: none;
+    font: inherit;
+    letter-spacing: normal;
+    text-transform: none;
+  }
+  .quick-contact a + a { border-left: 1px solid #ffffff66; }
+  .quick-contact a:first-child span { display: none; }
+  .quick-contact a:nth-child(1)::after { content: "Text"; }
+  .quick-contact a:nth-child(2)::after { content: "Call"; }
+  .quick-contact a:nth-child(3)::after { content: "Email"; }
 }
 
 @media (prefers-reduced-motion: reduce) {

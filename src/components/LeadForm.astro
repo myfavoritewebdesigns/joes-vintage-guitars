@@ -272,6 +272,12 @@ const instrumentName = instrumentMode === "model-only" ? "model" : "instrument";
     border-color: var(--color-brand-brown-tan);
     background: var(--color-brand-cream-warm);
   }
+  :global(.jvg-form-banner:empty) {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    background: none;
+  }
 
   :global(body:has(.lead-form:focus-within) aside[aria-label="Quick contact"]) {
     display: none;

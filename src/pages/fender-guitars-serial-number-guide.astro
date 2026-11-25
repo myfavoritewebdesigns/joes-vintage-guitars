@@ -862,6 +862,9 @@ const breadcrumbSchema = {
   .fshub-toc-sheet__body{padding:8px 10px;}
   .fshub-toc-sheet__body .fshub-toc__list{font-size:14px;}
   .fshub-toc-sheet__body .fshub-toc__list a{padding:8px 6px;}
+  @media (max-width:600px){
+    .fshub-toc-fab{bottom:calc(48px + 12px + env(safe-area-inset-bottom,0px));}
+  }
 </style>
 
 <script is:inline>
